@@ -14,10 +14,40 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  #shopify-section-{{ section.id }} .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #shopify-section-{{ section.id }} .card {
+    margin-bottom: 0;
+  }
+
+  #shopify-section-{{ section.id }} .card__media {
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 990px) {
+    #shopify-section-{{ section.id }} .card .media.media--hover-effect > img:only-child,
+    #shopify-section-{{ section.id }} .card-wrapper .media.media--hover-effect > img:only-child {
+      transition: transform var(--duration-long) ease;
+    }
+
+    #shopify-section-{{ section.id }} .card:hover .media.media--hover-effect > img:first-child:only-child,
+    #shopify-section-{{ section.id }} .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
+      transform: translateY(-8px);
+    }
+
+    #shopify-section-{{ section.id }} .card-wrapper:hover .media.media--hover-effect > img + img {
+      transform: translateY(-8px);
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
-  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
+  assign columns_mobile_int = section.settings.carousel_items_mobile | plus: 0
+  assign columns_tablet_int = section.settings.carousel_items_tablet | plus: 0
   assign show_mobile_slider = false
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
@@ -50,20 +80,20 @@
 
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
-        class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+        class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.carousel_items_tablet }}-col-tablet-down grid--{{ section.settings.carousel_items_mobile }}-col-mobile{% if section.settings.swipe_on_mobile %} slider slider--tablet{% if columns_mobile_int > 1 or columns_tablet_int > 1 %} grid--peek{% endif %}{% endif %} collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
       >
         {%- liquid
-          assign columns = section.blocks.size
-          if columns > 3
-            assign columns = 3
+          assign columns = section.settings.columns_desktop
+          if columns > 8
+            assign columns = 8
           endif
         -%}
         {%- for block in section.blocks -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.custom_image == nil and block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -76,7 +106,8 @@
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
-              placeholder_image: placeholder_image
+              placeholder_image: placeholder_image,
+              custom_image: block.settings.custom_image
             %}
           </li>
         {%- endfor -%}
@@ -205,7 +236,7 @@
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 6,
+      "max": 8,
       "step": 1,
       "default": 3,
       "label": "t:sections.collection-list.settings.columns_desktop.label"
@@ -252,6 +283,68 @@
     },
     {
       "type": "header",
+      "content": "Carousel Settings"
+    },
+    {
+      "type": "select",
+      "id": "carousel_items_mobile",
+      "label": "Mobile carousel items",
+      "info": "Number of items to show in mobile carousel (shows peek of next item if > 1)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "carousel_items_tablet",
+      "label": "Tablet carousel items",
+      "info": "Number of items to show in tablet carousel (shows peek of next item if > 1)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
     {
@@ -284,6 +377,12 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Override collection image",
+          "info": "Upload a custom image to override the collection's featured image"
         }
       ]
     }

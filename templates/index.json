@@ -1,75 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "collection_list_czhxPK": {
+      "type": "collection-list",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "featured_collection_p43Wjg": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Deals.webp"
           }
         },
-        "button": {
-          "type": "buttons",
+        "featured_collection_dy7Bgj": {
+          "type": "featured_collection",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/New-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_YH6RBM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_XwNnHa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_YKQRc6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_WeyJnF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_PAMBpJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+          }
+        },
+        "featured_collection_bGBKqg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "featured_collection_p43Wjg",
+        "featured_collection_dy7Bgj",
+        "featured_collection_YH6RBM",
+        "featured_collection_XwNnHa",
+        "featured_collection_YKQRc6",
+        "featured_collection_WeyJnF",
+        "featured_collection_PAMBpJ",
+        "featured_collection_bGBKqg"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 8,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "carousel_items_mobile": "5",
+        "carousel_items_tablet": "4",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4dyWxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "5% korting",
+            "heading_size": "h1"
+          }
+        },
+        "text_WChmJz": {
+          "type": "text",
+          "settings": {
+            "text": "op je eerste bestelling met code <strong>BLASTER5</strong>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4dyWxi",
+        "text_WChmJz"
+      ],
+      "custom_css": [
+        ".rte {text-transform: uppercase; font-weight: bold; color: white;}",
+        ".rte strong {background-color: #29a4ef; padding: 1px 4px; border-radius: 3px;}",
+        "h2 {font-size: 4rem; color: #ff7272; background-color: #fff; padding: 0 10px; --e-transform-rotateZ: -2deg; line-height: 60px; transform: skewY(-3deg); margin-bottom: 15px; border-radius: 5px; text-transform: uppercase; font-family: \"Barlow\"; width: fit-content; margin: auto; margin-bottom: 15px;}"
       ],
       "settings": {
+        "image": "shopify://shop_images/Slide-Gel-Blaster-background.webp",
         "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_image_height": "283.8px",
+        "mobile_image_height": "283.8px",
         "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "rich_text_FRHhaJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kq6g8q": {
+          "type": "heading",
+          "settings": {
+            "heading": "#1 Gel Blaster winkel van Nederland",
+            "heading_size": "h1"
+          }
+        },
+        "text_gNbKWL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ontdek de grootste Gel Blaster winkel van Nederland. Kies het wapen dat bij jouw past en sluit je aan bij 50.000 tevreden klanten.</p>"
+          }
+        },
+        "button_JgpEgB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bekijk assortiment",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "caption_9jpebb": {
+          "type": "caption",
+          "settings": {
+            "caption": "#1 van Nederland | 50.000+ tevreden klanten",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kq6g8q",
+        "text_gNbKWL",
+        "button_JgpEgB",
+        "caption_9jpebb"
+      ],
+      "custom_css": [
+        "h2 {font-family: var(--font-body-family);}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_dQAm6m": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".isolate {background-color: #f6f7f9; box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.1);}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 6,
+        "title": "Uitgelichte collectie",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
+        "enable_desktop_slider": true,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "padding_top": 44,
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "collection_list_czhxPK",
     "image_banner",
-    "featured_collection"
+    "rich_text_FRHhaJ",
+    "featured_collection_dQAm6m"
   ]
 }

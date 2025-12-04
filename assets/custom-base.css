@@ -1,0 +1,27 @@
+.header__menu-item span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+.card__title{
+    font-size: 13px;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+    font-weight: bold;
+}
+.card__title-wrapper{
+    text-align: center;
+}
+.btn,
+.button{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.badge{
+    padding: 2px 5px;
+    font-family: Barlow;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}

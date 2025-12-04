@@ -124,6 +124,7 @@
               </a>
             </h3>
           </div>
+          
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
@@ -143,6 +144,7 @@
           </div>
         </div>
       </div>
+      {% render 'product-specs', product: card_product %}
       <div class="card__content">
         <div class="card__information">
           <h3
@@ -288,6 +290,7 @@
             {%- endif -%}
           </div>
         </div>
+        
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add no-js-hidden">
