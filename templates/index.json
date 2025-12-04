@@ -206,7 +206,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
@@ -223,12 +223,176 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "info_ctas_4i8DGz": {
+      "type": "info-ctas",
+      "blocks": {
+        "info_item_GNRwrf": {
+          "type": "info_item",
+          "settings": {
+            "icon": "shopify://shop_images/icon-shipping-truck.svg",
+            "header": "Snelle levering",
+            "description": "Voor 14:00 besteld, morgen in huis"
+          }
+        },
+        "info_item_QDEhnz": {
+          "type": "info_item",
+          "settings": {
+            "icon": "shopify://shop_images/icon-creditcard.svg",
+            "header": "Achteraf betalen",
+            "description": "Koop nu, betaal later met Klarna"
+          }
+        },
+        "info_item_3nbPXt": {
+          "type": "info_item",
+          "settings": {
+            "icon": "shopify://shop_images/icon-shipping-box.svg",
+            "header": "Gratis verzending",
+            "description": "Gratis verzending bij bestellingen vanaf 30 euro"
+          }
+        }
+      },
+      "block_order": [
+        "info_item_GNRwrf",
+        "info_item_QDEhnz",
+        "info_item_3nbPXt"
+      ],
+      "name": "Info CTAs",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_K677wF": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "title": "Uitgelichte collectie",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_HUFRW7": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 5,
+        "title": "Accessoires",
+        "heading_size": "h2",
+        "description": "<p>Optimaliseer je Gel Blaster met onze Accessoires, Scopes en Sights. Verbeter je precisie, snelheid en stijl voor elke battle. Alles wat je nodig hebt in één collectie.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_Pk8Xai": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tY8LJC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Inklapbare rij",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rWHKbT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Inklapbare rij",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_F9WYq8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Inklapbare rij",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_mWbaAq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Inklapbare rij",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tY8LJC",
+        "collapsible_row_rWHKbT",
+        "collapsible_row_F9WYq8",
+        "collapsible_row_mWbaAq"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Meer Informatie",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "collection_list_czhxPK",
     "image_banner",
     "rich_text_FRHhaJ",
-    "featured_collection_dQAm6m"
+    "featured_collection_dQAm6m",
+    "info_ctas_4i8DGz",
+    "featured_collection_K677wF",
+    "featured_collection_HUFRW7",
+    "collapsible_content_Pk8Xai"
   ]
 }
