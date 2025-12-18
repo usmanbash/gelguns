@@ -31,6 +31,7 @@
 }
 .price-item--sale.price-item {
     color: #29a4ef !important;
+    font-weight: bold;
 }
 .price--on-sale .price-item--regular {
     color: #888 !important;

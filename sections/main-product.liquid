@@ -41,6 +41,7 @@
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-description-toggle.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
     <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
@@ -193,8 +194,17 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                    {{ product.description }}
+                  <div class="product__description rte quick-add-hidden" data-description="" {{ block.shopify_attributes }}>
+                    <!-- Short text -->
+                    <div class="product-description__short">
+                      <div class="product-description__short-content"></div>
+                      <a href="#" class="product-description__toggle" data-more-text="Read more" data-less-text="Read less"></a>
+                    </div>
+                    <!-- Full text -->
+                    <div class="product-description__full" style="display: none;">
+                      {{ product.description }}
+                      <a href="#" class="product-description__toggle" data-more-text="Read more" data-less-text="Read less"></a>
+                    </div>
                   </div>
                 {%- endif -%}
               {%- when 'sku' -%}
@@ -224,6 +234,11 @@
                     <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       {{ block.settings.content }}
                       {{ block.settings.page.content }}
+                      {% if block.settings.liquid_content != blank %}
+                        <div class="product-description__liquid-content">
+                          {{ block.settings.liquid_content }}
+                        </div>
+                      {% endif %}
                     </div>
                   </details>
                 </div>
@@ -1161,6 +1176,11 @@
           "type": "page",
           "id": "page",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid_content",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.liquid_content.label"
         }
       ]
     },

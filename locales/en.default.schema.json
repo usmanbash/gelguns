@@ -2062,6 +2062,9 @@
             "page": {
               "label": "Row content from page"
             },
+            "liquid_content": {
+              "label": "Liquid content"
+            },
             "icon": {
               "label": "Icon",
               "options__1": {

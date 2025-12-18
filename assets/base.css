@@ -3659,3 +3659,7 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+.collection-hero__description .collection-hero__inner{
+  padding: 0;
+}
