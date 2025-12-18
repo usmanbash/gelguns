@@ -61,10 +61,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_aEknYd": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_zEEJeG": {
+          "type": "announcement",
+          "settings": {
+            "text": "Let op: houd rekening met langere levertijden omtrent feestdagen!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_zEEJeG"
+      ],
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-5",
+        "show_line_separator": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "announcement_bar_aEknYd"
   ]
 }

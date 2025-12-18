@@ -1,5 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "breadcrumbs_qAq8xz": {
+      "type": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -12,7 +29,8 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -21,16 +39,90 @@
         "show_rating": false,
         "quick_add": "none",
         "enable_filtering": true,
-        "filter_type": "horizontal",
+        "filter_type": "vertical",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "collection_list_7qw3GL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_6XafUf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_eHitHY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_nQ78LT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_YkXf6W": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_DjGN66": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+          }
+        },
+        "featured_collection_nGQ6w3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_6XafUf",
+        "featured_collection_eHitHY",
+        "featured_collection_nQ78LT",
+        "featured_collection_YkXf6W",
+        "featured_collection_DjGN66",
+        "featured_collection_nGQ6w3"
+      ],
+      "custom_css": [
+        ".collection-list-wrapper {border-top: solid 0.5px rgba(var(--color-foreground), .75); border-bottom: solid 0.5px rgba(var(--color-foreground), .75); margin-bottom: 60px;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "carousel_items_mobile": "5",
+        "carousel_items_tablet": "4",
+        "padding_top": 0,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
+    "breadcrumbs_qAq8xz",
     "banner",
-    "product-grid"
+    "product-grid",
+    "collection_list_7qw3GL"
   ]
 }

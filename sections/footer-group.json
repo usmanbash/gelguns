@@ -13,11 +13,46 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_bbcBBN": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "link_list_dG4DDK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menu",
+            "menu": "footer"
+          }
+        },
+        "link_list_9t6jLV": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Wapens",
+            "menu": "footer"
+          }
+        },
+        "link_list_CaznPN": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Informatie",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_bbcBBN",
+        "link_list_dG4DDK",
+        "link_list_9t6jLV",
+        "link_list_CaznPN"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,

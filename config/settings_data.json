@@ -106,8 +106,8 @@
     "badge_corner_radius": 4,
     "sale_badge_color_scheme": "scheme-2",
     "sold_out_badge_color_scheme": "scheme-2",
-    "brand_headline": "",
-    "brand_description": "<p></p>",
+    "brand_headline": "GelWapens.nl",
+    "brand_description": "<p><strong>KVK<br/></strong>87252546<br/><strong>BTW<br/></strong>NL004331054B37<br/><strong>IBAN<br/></strong>NL26 INGB 0398 3463 48</p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "insta.com",
@@ -189,13 +189,13 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#db3333",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#db3333",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#db3333"
         }
       }
     }
