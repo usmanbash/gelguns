@@ -11,6 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/GelWapens.nl-logo.svg",
     "logo_width": 200,
+    "favicon": "shopify://shop_images/GELGUNS_5.png",
     "type_header_font": "manrope_n8",
     "heading_scale": 100,
     "type_body_font": "barlow_n4",
@@ -189,13 +190,13 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#db3333",
+          "background": "#334fb4",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#db3333",
+          "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
-          "shadow": "#db3333"
+          "shadow": "#121212"
         }
       }
     }
