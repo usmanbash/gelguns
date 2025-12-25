@@ -3663,3 +3663,15 @@ details-disclosure > details {
 .collection-hero__description .collection-hero__inner{
   padding: 0;
 }
+
+.complementary-products__container .specs {
+  display: none;
+}
+.complementary-products__container .card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.complementary-products__container .quick-add__submit {
+  border: solid 1px;
+}

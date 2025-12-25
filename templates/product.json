@@ -51,6 +51,30 @@
             "liquid_content": "{{product.metafields.custom.specifications}}"
           }
         },
+        "collapsible_tab_3QkpRF": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Complete your order",
+            "icon": "ruler",
+            "content": "",
+            "page": "",
+            "liquid_content": "{{product.metafields.custom.complete_order}}"
+          }
+        },
+        "complementary_CLT7cK": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Complete your order",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -61,14 +85,20 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
-        "share": {
-          "type": "share",
+        "custom_liquid_fFwXtn": {
+          "type": "custom_liquid",
           "settings": {
-            "share_label": "Share"
+            "custom_liquid": "<div class=\"footer__payment\">\n            <span class=\"visually-hidden\">{{ 'sections.footer.payment' | t }}</span>\n            <ul class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                </li>\n              {%- endfor -%}\n            </ul>\n          </div>"
+          }
+        },
+        "custom_liquid_ynjrVE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"info-bar\">\n\t<div class=\"info-bar-container\">\n\t\t<div class=\"info-bar-item 1\">\n\t\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-shipping-truck.svg?v=93735793790764209911760716260\" width=\"35px\" alt=\"Shipping truck icon\">\n\t\t\t<div class=\"info-bar-text\">\n\t\t\t\t<span class=\"info-bar-header\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Fast delivery</font></font></span>\n\t\t\t\t<span class=\"info-bar-description\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Ordered before 2pm, delivered tomorrow</font></font></span>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"info-bar-item 2\">\n\t\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-creditcard.svg?v=56810672574134014091761933500\" width=\"35px\" alt=\"Credit card icon\">\n\t\t\t<div class=\"info-bar-text\">\n\t\t\t\t<span class=\"info-bar-header\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Pay afterwards</font></font></span>\n\t\t\t\t<span class=\"info-bar-description\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Buy now, pay later with Klarna</font></font></span>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"info-bar-item 3\">\n\t\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-shipping-box.svg?v=47164944346826258621761933580\" width=\"35px\" alt=\"Shipping box icon\">\n\t\t\t<div class=\"info-bar-text\">\n\t\t\t\t<span class=\"info-bar-header\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Free shipping</font></font></span>\n\t\t\t\t<span class=\"info-bar-description\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Free shipping on orders over 30 euros</font></font></span>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n<style>\n .info-bar-item {\n    border-style: dashed;\n    border-width: 0 0 1px;\n    border-color: #393939;\n}\n.info-bar-container {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  background-color: #0e0e0e;\n  color: #F3F3F3;\n  border-radius: 10px;\n  padding: 0 15px;\n}\n.info-bar-icon {\n  filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(240%) hue-rotate(241deg) brightness(114%) contrast(91%);\n}\n@media screen and (max-width: 840px) {\n  .info-bar-container {\n    display: flex;\nflex-direction: column;\n  }\n  .info-bar-item {\n    border-style: dashed;\n    border-width: 0 0 1px;\n    border-color: #393939;\n  }\n  .info-bar-item:last-child {\n    border-style: none;\n  }\n}\n.info-bar-item {\n  width: 100%;\n  padding: 15px 0;\n  display: flex;\n}\n.info-bar-text {\n  display: grid;\n  line-height: 1.3;\n  align-content: center;\n  margin-left: 15px;\n}\n.info-bar-header {\n  font-size: 14px;\n  font-weight: 600;\n  font-family: barlow;\n}\n.info-bar-description {\n  font-size: 13px;\n  letter-spacing: 0;\n}\n</style>"
           }
         }
       },
@@ -79,9 +109,12 @@
         "description",
         "collapsible_tab_QUjVa6",
         "collapsible_tab_49bkdj",
+        "collapsible_tab_3QkpRF",
+        "complementary_CLT7cK",
         "variant_picker",
         "buy_buttons",
-        "share"
+        "custom_liquid_fFwXtn",
+        "custom_liquid_ynjrVE"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -116,10 +149,84 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collection_list_gyMbd4": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_UbYgVt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_bPHUMQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_aRpJaf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_khjbxg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
+          }
+        },
+        "featured_collection_R3WqKg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+          }
+        },
+        "featured_collection_hd4fWX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_UbYgVt",
+        "featured_collection_bPHUMQ",
+        "featured_collection_aRpJaf",
+        "featured_collection_khjbxg",
+        "featured_collection_R3WqKg",
+        "featured_collection_hd4fWX"
+      ],
+      "custom_css": [
+        ".collection-list-wrapper {border-top: solid 0.5px rgba(var(--color-foreground), 0.75); border-bottom: solid 0.5px rgba(var(--color-foreground), 0.75); margin-bottom: 60px;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "carousel_items_mobile": "5",
+        "carousel_items_tablet": "4",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "collection_list_gyMbd4"
   ]
 }

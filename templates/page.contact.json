@@ -1,7 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "multicolumn_rwDbRE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4FUB7B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Component_1.svg",
+            "title": "Order Tracker",
+            "text": "<p>Follow your order using our live tracker</p>",
+            "link_label": "Track Order",
+            "link": "#"
+          }
+        },
+        "column_nnhVm3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Component_3.svg",
+            "title": "FAQs",
+            "text": "<p>Find the answer to your question in our list of frequently asked questions</p>",
+            "link_label": "View FAQs",
+            "link": "#"
+          }
+        },
+        "column_e89ahc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Component_2.svg",
+            "title": "Returns Policy",
+            "text": "<p>Returning a product? Check our returns procedure.</p>",
+            "link_label": "View Returns Policy",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_4FUB7B",
+        "column_nnhVm3",
+        "column_e89ahc"
+      ],
+      "custom_css": [
+        "h2.title {justify-content: center; margin: auto; letter-spacing: 0;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How can we help you?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_p9xdyt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MqWVxf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact",
+            "heading_size": "h1"
+          }
+        },
+        "text_77TRwT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Questions? You can reach us through the following channels:</p>"
+          }
+        },
+        "custom_liquid_ikPnWe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul class=\"custom-item\">\n<li>\n\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-mail.svg?v=27919459441137881871761580056\" width=\"21px\" alt=\"Mail icon\">\n\t\t<span><a href=\"mailto:someone@example.com\" alt=\"E-mail\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">contact@gelweapons.com</font></font></a></span>\n\t</li>\n\t<li>\n\t\t<img class=\"info-bar-icon-2\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-live-chat.svg?v=143353598810421092661761582112\" width=\"21px\" alt=\"Live Chat icon\">\n\t\t<span><a id=\"intercom-launcher\" href=\"#\" alt=\"Live Chat\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Live Chat (fastest response)</font></font></a></span>\n\t</li>\n</ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MqWVxf",
+        "text_77TRwT",
+        "custom_liquid_ikPnWe"
+      ],
+      "custom_css": [
+        "ul {padding: 0;}",
+        "li {margin-bottom: 10px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2b79a500-0884-4ff2-a471-19a3f2d74b07",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,6 +121,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -19,6 +132,8 @@
     }
   },
   "order": [
+    "multicolumn_rwDbRE",
+    "rich_text_p9xdyt",
     "main",
     "form"
   ]

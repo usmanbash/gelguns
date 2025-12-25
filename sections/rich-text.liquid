@@ -12,8 +12,22 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+.rich-text .custom-item .info-bar-icon-2 {
+  filter: invert(1);
+}
+.rich-text .custom-item a {
+  color: white;
+  text-decoration: none;
+}
+.rich-text .custom-item {
+  list-style: none;
+}
+.rich-text .custom-item li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 {%- endstyle -%}
-
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
@@ -86,6 +100,17 @@
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
+              </div>
+            {%- when 'custom_liquid' -%}
+              <div
+                class="rich-text__custom-liquid{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {{ block.settings.custom_liquid }}
               </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -331,6 +356,18 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "Custom liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom liquid",
+          "info": "Add custom Liquid code to be rendered in this section"
         }
       ]
     }
