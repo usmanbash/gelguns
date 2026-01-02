@@ -1451,5 +1451,46 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Cross-sell overlay",
+    "settings": [
+      {
+        "type": "text",
+        "id": "xsell_overlay_title",
+        "label": "Overlay title",
+        "default": "Complete your order"
+      },
+      {
+        "type": "textarea",
+        "id": "xsell_overlay_subtitle",
+        "label": "Overlay subtitle",
+        "default": "A Gel Blaster uses up to 10,000 pellets per hour. Additional pellets are recommended."
+      },
+      {
+        "type": "text",
+        "id": "xsell_go_to_cart_button",
+        "label": "Go to cart button text",
+        "default": "Ga naar winkelwagen"
+      },
+      {
+        "type": "text",
+        "id": "xsell_adding_text",
+        "label": "Adding to cart text",
+        "default": "Toevoegen..."
+      },
+      {
+        "type": "text",
+        "id": "xsell_added_text",
+        "label": "Added to cart text",
+        "default": "Toegevoegd"
+      },
+      {
+        "type": "text",
+        "id": "xsell_error_message",
+        "label": "Error message",
+        "default": "Er is een fout opgetreden. Probeer het opnieuw."
+      }
+    ]
   }
 ]

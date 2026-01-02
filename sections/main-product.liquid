@@ -3,6 +3,10 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
   data-product-id="{{ product.id }}"
+  data-product-handle="{{ product.handle }}"
+  {%- if product.metafields.custom.xsell_products.value.size > 0 -%}
+    data-xsell-products="{%- for product_ref in product.metafields.custom.xsell_products.value -%}{{ product_ref.handle }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}"
+  {%- endif -%}
   data-update-url="true"
   data-url="{{ product.url }}"
   {% if section.settings.image_zoom == 'hover' %}

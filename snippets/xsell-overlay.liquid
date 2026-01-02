@@ -1,0 +1,947 @@
+{% comment %}
+  Cross-sell overlay that intercepts add to cart
+  Uses product metafield: custom.xsell_products (list of product handles)
+  
+  Usage:
+  {% render 'xsell-overlay' %}
+{% endcomment %}
+
+<div 
+  id="xsell-overlay" 
+  class="xsell-overlay" 
+  role="dialog" 
+  aria-modal="true" 
+  aria-label="{{ settings.xsell_overlay_title | default: 'Complete your order' }}" 
+  tabindex="-1" 
+  hidden
+  data-xsell-texts='{
+    "adding": {{ settings.xsell_adding_text | default: "Toevoegen..." | json }},
+    "added": {{ settings.xsell_added_text | default: "Toegevoegd" | json }},
+    "error": {{ settings.xsell_error_message | default: "Er is een fout opgetreden. Probeer het opnieuw." | json }},
+    "goToCart": {{ settings.xsell_go_to_cart_button | default: "Ga naar winkelwagen" | json }}
+  }'
+>
+  <div class="xsell-overlay__backdrop"></div>
+  <div class="xsell-overlay__content">
+    <div class="xsell-overlay__header">
+      <h2 class="xsell-overlay__title">{{ settings.xsell_overlay_title | default: 'Complete your order' }}</h2>
+      {%- if settings.xsell_overlay_subtitle != blank -%}
+        <p class="xsell-overlay__subtitle">{{ settings.xsell_overlay_subtitle }}</p>
+      {%- endif -%}
+      <button type="button" class="xsell-overlay__close" aria-label="{{ 'accessibility.close' | t }}">
+        <span class="svg-wrapper">
+          {{- 'icon-close.svg' | inline_asset_content -}}
+        </span>
+      </button>
+    </div>
+    <div class="xsell-overlay__body">
+      <div class="xsell-overlay__products" id="xsell-products-container">
+        <!-- Products will be loaded here via JavaScript -->
+      </div>
+    </div>
+    <div class="xsell-overlay__footer">
+      <a href="{{ routes.cart_url }}" class="xsell-overlay__button xsell-overlay__button--primary" id="xsell-go-to-cart">
+        {{ settings.xsell_go_to_cart_button | default: 'Ga naar winkelwagen' }}
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .xsell-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .xsell-overlay[hidden] {
+    display: none;
+  }
+
+  .xsell-overlay__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  }
+
+  .xsell-overlay__content {
+    position: relative;
+    background: #ffffff;
+    border-radius: 0;
+    width: 100%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  }
+
+  .xsell-overlay__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #e5e5e5;
+    flex-direction: column;
+  }
+
+  .xsell-overlay__title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #000000;
+    font-family: barlow;
+    font-size: 24px;
+  }
+  .xsell-overlay__subtitle{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .xsell-overlay__close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    opacity: 0.7;
+  }
+
+  .xsell-overlay__close:hover {
+    opacity: 1;
+  }
+
+  .xsell-overlay__body {
+    padding: 2rem;
+  }
+
+  .xsell-overlay__products {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+
+  .xsell-product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background: #ffffff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .xsell-product:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .xsell-product__image-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    border-radius: 4px;
+    max-width: 100px;
+    height: 100px;
+    max-height: 100px;
+  }
+
+  .xsell-product__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    .xsell-wrapper-flex-col {
+        margin-left: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  .xsell-product__title {
+    font-size: 16px;
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.3;
+    min-height: 2.6em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: barlow;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  .xsell-product__price-wrapper {
+    text-align: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+
+  .xsell-product__price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .xsell-product__price--original {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #121212;
+    margin-right: 0.5rem;
+  }
+
+  .xsell-product__price--sale {
+    color: #29a4ef;
+  }
+
+  .xsell-product__button {
+    width: fit-content;
+    margin-left: auto;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background 0.2s;
+    border: solid 1px;
+  }
+
+  .xsell-product__button:hover {
+    background: #333333;
+  }
+
+  .xsell-product__button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .xsell-product__button-icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+
+  .xsell-overlay__footer {
+    padding: 1.5rem 2rem 2rem;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+  }
+
+  .xsell-overlay__button {
+    width: fit-content;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  .xsell-overlay__button--primary {
+    background: black;
+    color: #ffffff;
+  }
+
+  .xsell-overlay__button--primary:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+
+  .xsell-overlay__button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  .xsell-product__button.selected {
+    background: #4caf50;
+  }
+
+  .xsell-overlay__payment-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .xsell-overlay__payment-icons img {
+    height: 24px;
+    width: auto;
+    opacity: 0.7;
+  }
+
+</style>
+
+<script>
+  (function() {
+    if (customElements.get('xsell-overlay')) return;
+
+    customElements.define('xsell-overlay', class XsellOverlay extends HTMLElement {
+      constructor() {
+        super();
+        this.overlay = document.getElementById('xsell-overlay');
+        this.productsContainer = document.getElementById('xsell-products-container');
+        this.closeButton = this.overlay?.querySelector('.xsell-overlay__close');
+        this.goToCartButton = document.getElementById('xsell-go-to-cart');
+        this.pendingFormData = null;
+        this.pendingProductForm = null;
+        this.xsellHandles = [];
+        this.addedProducts = new Set();
+        
+        // Load text settings from data attribute
+        if (this.overlay) {
+          try {
+            const textsData = this.overlay.getAttribute('data-xsell-texts');
+            this.texts = textsData ? JSON.parse(textsData) : {
+              adding: 'Toevoegen...',
+              added: 'Toegevoegd',
+              error: 'Er is een fout opgetreden. Probeer het opnieuw.',
+              goToCart: 'Ga naar winkelwagen'
+            };
+          } catch (e) {
+            this.texts = {
+              adding: 'Toevoegen...',
+              added: 'Toegevoegd',
+              error: 'Er is een fout opgetreden. Probeer het opnieuw.',
+              goToCart: 'Ga naar winkelwagen'
+            };
+          }
+        }
+      }
+
+      connectedCallback() {
+        if (!this.overlay) {
+          console.error('Xsell: Overlay element not found');
+          return;
+        }
+
+        console.log('Xsell: Overlay connected');
+
+        // Intercept add to cart buttons
+        this.interceptAddToCart();
+
+        // Close button handlers
+        if (this.closeButton) {
+          this.closeButton.addEventListener('click', () => this.hide());
+        }
+
+        // Go to cart button - adds only original product
+        if (this.goToCartButton) {
+          this.goToCartButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.addOriginalProductOnly();
+          });
+        }
+
+        // Close on backdrop click
+        const backdrop = this.overlay?.querySelector('.xsell-overlay__backdrop');
+        if (backdrop) {
+          backdrop.addEventListener('click', () => this.hide());
+        }
+
+        // Close on ESC key
+        this.overlay?.addEventListener('keyup', (e) => {
+          if (e.key === 'Escape') this.hide();
+        });
+      }
+
+      interceptAddToCart() {
+        // Intercept only the main product form submission (not complementary products)
+        document.addEventListener('submit', (e) => {
+          const form = e.target.closest('form[action*="/cart/add"]');
+          if (!form) return;
+
+          const productForm = form.closest('product-form');
+          if (!productForm) return;
+
+          // Only intercept if the form is inside the main product-info element
+          // Exclude complementary-products, quick-add modals, etc.
+          const productInfo = document.querySelector('product-info');
+          if (!productInfo) return;
+
+          // Check if the form is inside product-info (main product) and not in complementary-products
+          const isMainProductForm = productInfo.contains(productForm);
+          const isComplementaryProduct = productForm.closest('.complementary-products') || 
+                                         productForm.closest('product-recommendations') ||
+                                         productForm.closest('quick-add-modal');
+          
+          if (!isMainProductForm || isComplementaryProduct) {
+            // Not the main product form, proceed normally
+            return;
+          }
+
+          // Get product handle
+          const productHandle = productInfo.dataset.productHandle;
+          const xsellProducts = productInfo.dataset.xsellProducts;
+
+          if (!productHandle || !xsellProducts || xsellProducts.trim() === '') {
+            // No xsell products, proceed normally
+            return;
+          }
+
+          // Prevent default submission
+          e.preventDefault();
+          e.stopPropagation();
+
+          // Store form data
+          this.pendingFormData = new FormData(form);
+          this.pendingProductForm = productForm;
+
+          // Get xsell handles
+          this.xsellHandles = xsellProducts.split(',').map(h => h.trim()).filter(Boolean);
+
+          if (this.xsellHandles.length === 0) {
+            // No products, proceed normally
+            this.proceedWithAddToCart();
+            return;
+          }
+
+          // Show overlay
+          this.loadXsellProducts(this.xsellHandles).then(() => {
+            this.show();
+          });
+        }, true); // Use capture phase
+      }
+
+      async loadXsellProducts(handles) {
+        if (!this.productsContainer) return;
+
+        this.productsContainer.innerHTML = '';
+        this.addedProducts.clear();
+
+        for (const handle of handles.slice(0, 4)) { // Limit to 4 products
+          try {
+            const response = await fetch(`/products/${handle}.js`);
+            if (!response.ok) continue;
+
+            const product = await response.json();
+            const variant = product.variants.find(v => v.available) || product.variants[0];
+            if (!variant) continue;
+
+            const productElement = this.createProductElement(product, variant);
+            this.productsContainer.appendChild(productElement);
+          } catch (error) {
+            console.error(`Xsell: Error loading product ${handle}:`, error);
+          }
+        }
+      }
+
+      createProductElement(product, variant) {
+        const div = document.createElement('div');
+        div.className = 'xsell-product';
+        div.dataset.variantId = variant.id;
+        div.dataset.productHandle = product.handle;
+        
+        const imageUrl = product.featured_image || product.images[0] || '';
+        const imageSrc = imageUrl ? `${imageUrl}?width=400` : '';
+        
+        const compareAtPrice = variant.compare_at_price;
+        const price = variant.price;
+        const isOnSale = compareAtPrice && compareAtPrice > price;
+
+        div.innerHTML = `
+          <div class="xsell-product__image-wrapper">
+            ${imageSrc ? `<img src="${imageSrc}" alt="${product.title}" class="xsell-product__image" loading="lazy">` : ''}
+          </div>
+          
+          <div class="xsell-wrapper-flex-col">
+          <div class="xsell-product__price-wrapper">
+            ${isOnSale ? `<span class="xsell-product__price xsell-product__price--original">${this.formatMoney(compareAtPrice)}</span>` : ''}
+            <span class="xsell-product__price ${isOnSale ? 'xsell-product__price--sale' : ''}">${this.formatMoney(price)}</span>
+          </div>
+          <h3 class="xsell-product__title">${product.title}</h3>
+          </div>
+          <button 
+            type="button" 
+            class="xsell-product__button" 
+            data-variant-id="${variant.id}"
+            data-product-handle="${product.handle}"
+          >
+            <svg class="xsell-product__button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+        `;
+
+        const button = div.querySelector('button');
+        button.addEventListener('click', () => this.addProductToCart(variant.id, button, product.handle));
+
+        return div;
+      }
+
+      async addProductToCart(variantId, button, productHandle) {
+        if (button.disabled || this.addedProducts.has(variantId)) return;
+
+        button.disabled = true;
+        const originalText = button.innerHTML;
+        button.innerHTML = `<span>${this.texts.adding}</span>`;
+
+        try {
+          const formData = new FormData();
+          formData.append('id', variantId);
+          formData.append('quantity', 1);
+
+          const cartDrawer = document.querySelector('cart-drawer');
+          const cartNotification = document.querySelector('cart-notification');
+          const cart = cartDrawer || cartNotification;
+          
+          if (cart) {
+            const sections = cart.getSectionsToRender ? cart.getSectionsToRender().map(s => s.section || s.id) : [];
+            if (sections.length > 0) {
+              formData.append('sections', sections.join(','));
+              formData.append('sections_url', window.location.pathname);
+            }
+            cart.setActiveElement(document.activeElement);
+          }
+
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            body: formData
+          });
+
+          if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.description || 'Failed to add to cart');
+          }
+
+          const addData = await response.json();
+
+          // Fetch cart with sections
+          const parsedState = {
+            id: addData.id,
+            items: addData.items,
+            item_count: addData.item_count,
+            total_price: addData.total_price,
+            sections: {}
+          };
+
+          if (cartDrawer) {
+            // Fetch cart drawer section
+            const cartResponse = await fetch(`${routes.cart_url}?section_id=cart-drawer`);
+            const cartHtml = await cartResponse.text();
+            const cartDoc = new DOMParser().parseFromString(cartHtml, 'text/html');
+            
+            const drawerSection = cartDoc.querySelector('#shopify-section-cart-drawer');
+            if (drawerSection) {
+              parsedState.sections['cart-drawer'] = drawerSection.outerHTML;
+            }
+
+            // Fetch cart icon bubble
+            const iconResponse = await fetch(`${routes.cart_url}?section_id=cart-icon-bubble`);
+            const iconHtml = await iconResponse.text();
+            const iconDoc = new DOMParser().parseFromString(iconHtml, 'text/html');
+            
+            const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+            if (iconSection) {
+              parsedState.sections['cart-icon-bubble'] = iconSection.outerHTML;
+            }
+          } else if (cartNotification) {
+            // Fetch cart notification section
+            const cartResponse = await fetch(`${routes.cart_url}?section_id=cart-notification`);
+            const cartHtml = await cartResponse.text();
+            const cartDoc = new DOMParser().parseFromString(cartHtml, 'text/html');
+            
+            const notificationSection = cartDoc.querySelector('#shopify-section-cart-notification');
+            if (notificationSection) {
+              parsedState.sections['cart-notification'] = notificationSection.outerHTML;
+            }
+
+            // Fetch cart icon bubble
+            const iconResponse = await fetch(`${routes.cart_url}?section_id=cart-icon-bubble`);
+            const iconHtml = await iconResponse.text();
+            const iconDoc = new DOMParser().parseFromString(iconHtml, 'text/html');
+            
+            const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+            if (iconSection) {
+              parsedState.sections['cart-icon-bubble'] = iconSection.outerHTML;
+            }
+          }
+
+          // Mark as added
+          this.addedProducts.add(variantId);
+          button.classList.add('selected');
+          button.innerHTML = `<span>${this.texts.added}</span>`;
+
+          // Trigger cart update and render
+          if (typeof PUB_SUB_EVENTS !== 'undefined') {
+            publish(PUB_SUB_EVENTS.cartUpdate, {
+              source: 'xsell-overlay',
+              productVariantId: variantId,
+              cartData: addData
+            });
+          }
+
+          // Render cart drawer/notification
+          if (cartDrawer) {
+            // Remove is-empty class first
+            cartDrawer.classList.remove('is-empty');
+            const drawerInner = cartDrawer.querySelector('.drawer__inner');
+            if (drawerInner) {
+              drawerInner.classList.remove('is-empty');
+            }
+            
+            // Remove/hide the empty state div
+            const emptyStateDiv = cartDrawer.querySelector('.drawer__inner-empty');
+            if (emptyStateDiv) {
+              emptyStateDiv.remove();
+            }
+            
+            // Update cart-drawer-items separately (like cart.js onCartUpdate does)
+            // This is critical for empty cart state
+            if (parsedState.sections['cart-drawer']) {
+              const cartDoc = new DOMParser().parseFromString(parsedState.sections['cart-drawer'], 'text/html');
+              const selectors = ['cart-drawer-items', '.cart-drawer__footer'];
+              
+              for (const selector of selectors) {
+                const targetElement = document.querySelector(selector);
+                const sourceElement = cartDoc.querySelector(selector);
+                if (targetElement && sourceElement) {
+                  targetElement.replaceWith(sourceElement);
+                }
+              }
+              
+              // Enable checkout button after replacing footer (since we just added items)
+              setTimeout(() => {
+                const checkoutButton = document.getElementById('CartDrawer-Checkout');
+                if (checkoutButton) {
+                  checkoutButton.removeAttribute('disabled');
+                }
+              }, 50);
+            }
+            
+            // Update cart icon bubble
+            if (parsedState.sections['cart-icon-bubble'] && cartDrawer.renderContents) {
+              // Only update the icon, not the whole drawer
+              const iconDoc = new DOMParser().parseFromString(parsedState.sections['cart-icon-bubble'], 'text/html');
+              const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+              if (iconSection) {
+                const targetIcon = document.querySelector('#cart-icon-bubble');
+                if (targetIcon) {
+                  const newIcon = iconSection.querySelector('#cart-icon-bubble') || iconSection.querySelector('.shopify-section');
+                  if (newIcon) {
+                    targetIcon.innerHTML = newIcon.innerHTML;
+                  }
+                }
+              }
+            }
+            
+            // Open the drawer
+            setTimeout(() => {
+              cartDrawer.open();
+            }, 100);
+          } else if (cartNotification && cartNotification.renderContents) {
+            cartNotification.renderContents(parsedState);
+          }
+        } catch (error) {
+          console.error('Xsell: Error adding product to cart:', error);
+          button.disabled = false;
+          button.innerHTML = originalText;
+          alert(this.texts.error);
+        }
+      }
+
+      async addOriginalProductOnly() {
+        if (!this.pendingFormData || !this.pendingProductForm) {
+          console.error('Xsell: No pending form data');
+          return;
+        }
+
+        const goToCartBtn = this.goToCartButton;
+        if (goToCartBtn) {
+          goToCartBtn.style.pointerEvents = 'none';
+          goToCartBtn.textContent = this.texts.adding;
+        }
+
+        try {
+          const formData = new FormData();
+          const originalVariantId = this.pendingFormData.get('id');
+          const originalQuantity = this.pendingFormData.get('quantity') || 1;
+          
+          formData.append('id', originalVariantId);
+          formData.append('quantity', originalQuantity);
+
+          const cartDrawer = document.querySelector('cart-drawer');
+          const cartNotification = document.querySelector('cart-notification');
+          const cart = cartDrawer || cartNotification;
+          
+          if (cart) {
+            const sections = cart.getSectionsToRender ? cart.getSectionsToRender().map(s => s.section || s.id) : [];
+            if (sections.length > 0) {
+              formData.append('sections', sections.join(','));
+              formData.append('sections_url', window.location.pathname);
+            }
+            cart.setActiveElement(document.activeElement);
+          }
+
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            body: formData
+          });
+
+          if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.description || 'Failed to add to cart');
+          }
+
+          const addData = await response.json();
+
+          // Fetch cart with sections
+          const parsedState = {
+            id: addData.id,
+            items: addData.items,
+            item_count: addData.item_count,
+            total_price: addData.total_price,
+            sections: {}
+          };
+
+          if (cartDrawer) {
+            // Fetch cart drawer section
+            const cartResponse = await fetch(`${routes.cart_url}?section_id=cart-drawer`);
+            const cartHtml = await cartResponse.text();
+            const cartDoc = new DOMParser().parseFromString(cartHtml, 'text/html');
+            
+            const drawerSection = cartDoc.querySelector('#shopify-section-cart-drawer');
+            if (drawerSection) {
+              parsedState.sections['cart-drawer'] = drawerSection.outerHTML;
+            }
+
+            // Fetch cart icon bubble
+            const iconResponse = await fetch(`${routes.cart_url}?section_id=cart-icon-bubble`);
+            const iconHtml = await iconResponse.text();
+            const iconDoc = new DOMParser().parseFromString(iconHtml, 'text/html');
+            
+            const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+            if (iconSection) {
+              parsedState.sections['cart-icon-bubble'] = iconSection.outerHTML;
+            }
+          } else if (cartNotification) {
+            // Fetch cart notification section
+            const cartResponse = await fetch(`${routes.cart_url}?section_id=cart-notification`);
+            const cartHtml = await cartResponse.text();
+            const cartDoc = new DOMParser().parseFromString(cartHtml, 'text/html');
+            
+            const notificationSection = cartDoc.querySelector('#shopify-section-cart-notification');
+            if (notificationSection) {
+              parsedState.sections['cart-notification'] = notificationSection.outerHTML;
+            }
+
+            // Fetch cart icon bubble
+            const iconResponse = await fetch(`${routes.cart_url}?section_id=cart-icon-bubble`);
+            const iconHtml = await iconResponse.text();
+            const iconDoc = new DOMParser().parseFromString(iconHtml, 'text/html');
+            
+            const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+            if (iconSection) {
+              parsedState.sections['cart-icon-bubble'] = iconSection.outerHTML;
+            }
+          }
+
+          // Trigger cart update
+          if (typeof PUB_SUB_EVENTS !== 'undefined') {
+            publish(PUB_SUB_EVENTS.cartUpdate, {
+              source: 'xsell-overlay',
+              productVariantId: originalVariantId,
+              cartData: addData
+            });
+          }
+
+          // Hide overlay first
+          this.hide();
+
+          // Render and open cart drawer/notification
+          if (cartDrawer) {
+            // Remove is-empty class first
+            cartDrawer.classList.remove('is-empty');
+            const drawerInner = cartDrawer.querySelector('.drawer__inner');
+            if (drawerInner) {
+              drawerInner.classList.remove('is-empty');
+            }
+            
+            // Remove/hide the empty state div
+            const emptyStateDiv = cartDrawer.querySelector('.drawer__inner-empty');
+            if (emptyStateDiv) {
+              emptyStateDiv.remove();
+            }
+            
+            // Update cart-drawer-items separately (like cart.js onCartUpdate does)
+            // This is critical for empty cart state
+            if (parsedState.sections['cart-drawer']) {
+              const cartDoc = new DOMParser().parseFromString(parsedState.sections['cart-drawer'], 'text/html');
+              const selectors = ['cart-drawer-items', '.cart-drawer__footer'];
+              
+              for (const selector of selectors) {
+                const targetElement = document.querySelector(selector);
+                const sourceElement = cartDoc.querySelector(selector);
+                if (targetElement && sourceElement) {
+                  targetElement.replaceWith(sourceElement);
+                }
+              }
+              
+              // Enable checkout button after replacing footer (since we just added items)
+              setTimeout(() => {
+                const checkoutButton = document.getElementById('CartDrawer-Checkout');
+                if (checkoutButton) {
+                  checkoutButton.removeAttribute('disabled');
+                }
+              }, 50);
+            }
+            
+            // Update cart icon bubble
+            if (parsedState.sections['cart-icon-bubble']) {
+              const iconDoc = new DOMParser().parseFromString(parsedState.sections['cart-icon-bubble'], 'text/html');
+              const iconSection = iconDoc.querySelector('#shopify-section-cart-icon-bubble');
+              if (iconSection) {
+                const targetIcon = document.querySelector('#cart-icon-bubble');
+                if (targetIcon) {
+                  const newIcon = iconSection.querySelector('#cart-icon-bubble') || iconSection.querySelector('.shopify-section');
+                  if (newIcon) {
+                    targetIcon.innerHTML = newIcon.innerHTML;
+                  }
+                }
+              }
+            }
+            
+            // Open the drawer
+            setTimeout(() => {
+              cartDrawer.open();
+            }, 100);
+          } else if (cartNotification && cartNotification.renderContents) {
+            cartNotification.renderContents(parsedState);
+          } else {
+            // Fallback: redirect to cart page
+            window.location.href = '/cart';
+          }
+        } catch (error) {
+          console.error('Xsell: Error adding original product:', error);
+          alert(this.texts.error);
+          if (goToCartBtn) {
+            goToCartBtn.style.pointerEvents = '';
+            goToCartBtn.textContent = this.texts.goToCart;
+          }
+        }
+      }
+
+      proceedWithAddToCart() {
+        if (!this.pendingProductForm || !this.pendingFormData) return;
+
+        // Create a synthetic submit event
+        const form = this.pendingProductForm.querySelector('form');
+        if (form) {
+          // Temporarily remove our listener and submit
+          const tempForm = form.cloneNode(true);
+          form.parentNode.replaceChild(tempForm, form);
+          
+          // Set form data
+          for (const [key, value] of this.pendingFormData.entries()) {
+            const input = tempForm.querySelector(`[name="${key}"]`);
+            if (input) {
+              input.value = value;
+            }
+          }
+
+          // Submit via product-form's handler
+          const newProductForm = tempForm.closest('product-form') || document.querySelector('product-form');
+          if (newProductForm && newProductForm.onSubmitHandler) {
+            const submitEvent = new Event('submit', { bubbles: true, cancelable: true });
+            tempForm.dispatchEvent(submitEvent);
+          } else {
+            tempForm.submit();
+          }
+        }
+
+        this.pendingFormData = null;
+        this.pendingProductForm = null;
+      }
+
+      formatMoney(cents) {
+        return new Intl.NumberFormat('nl-NL', {
+          style: 'currency',
+          currency: 'EUR'
+        }).format(cents / 100);
+      }
+
+      show() {
+        if (!this.overlay) return;
+        this.overlay.removeAttribute('hidden');
+        this.overlay.focus();
+        document.body.classList.add('overflow-hidden');
+        
+        // Trap focus
+        const focusableElements = this.overlay.querySelectorAll(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusableElements.length > 0) {
+          focusableElements[0].focus();
+        }
+      }
+
+      hide() {
+        if (!this.overlay) return;
+        this.overlay.setAttribute('hidden', '');
+        document.body.classList.remove('overflow-hidden');
+        
+        // Clear pending data
+        this.pendingFormData = null;
+        this.pendingProductForm = null;
+        this.addedProducts.clear();
+      }
+    });
+
+    // Initialize overlay element when DOM is ready
+    function initXsellOverlay() {
+      if (document.getElementById('xsell-overlay') && !document.querySelector('xsell-overlay')) {
+        const overlayElement = document.createElement('xsell-overlay');
+        document.body.appendChild(overlayElement);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initXsellOverlay);
+    } else {
+      initXsellOverlay();
+    }
+  })();
+</script>

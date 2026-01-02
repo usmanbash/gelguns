@@ -79,6 +79,9 @@
         "featured_collection_PAMBpJ",
         "featured_collection_bGBKqg"
       ],
+      "custom_css": [
+        ".slider-buttons {display: none;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
@@ -89,7 +92,7 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "carousel_items_mobile": "5",
+        "carousel_items_mobile": "4",
         "carousel_items_tablet": "4",
         "padding_top": 0,
         "padding_bottom": 16
@@ -180,7 +183,8 @@
         "caption_9jpebb"
       ],
       "custom_css": [
-        "h2 {font-family: var(--font-body-family);}"
+        "h2 {font-family: var(--font-body-family);}",
+        ".rich-text__wrapper {display: flex; justify-content: center; width: calc(100% - 0px / var(--font-body-scale));}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -202,8 +206,8 @@
         "collection": "frontpage",
         "products_to_show": 6,
         "title": "Uitgelichte collectie",
-        "heading_size": "h1",
-        "description": "",
+        "heading_size": "h2",
+        "description": "<p>Scoor exclusieve kortingen op topmodellen. Combineer prestaties en prijs met limited-time deals op onze populairste Gel Blasters.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 5,
