@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "breadcrumbs_fhf3FK": {
+      "type": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -26,6 +34,12 @@
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "custom_liquid_PnQXg3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- liquid\n  assign current_variant = product.selected_or_first_available_variant\n  assign is_out_of_stock = false\n  if current_variant.inventory_management == 'shopify' and current_variant.inventory_quantity <= 0 and current_variant.available == false\n    assign is_out_of_stock = true\n  elsif current_variant.available == false\n    assign is_out_of_stock = true\n  endif\n-%}\n\n{%- if is_out_of_stock == false -%}\n  <div class=\"product__inventory\" id=\"Inventory-OutOfStock-{{ section.id }}\" role=\"status\">\n    <span class=\"in-stock\">\n      {{ 'products.product.inventory_out_of_stock_message' | t }}\n    </span>\n    {{ 'products.product.inventory_order_before' | t }}\n    <strong>{{ 'products.product.inventory_order_time' | t }}</strong>\n    {{ 'products.product.inventory_delivered' | t }}\n    <strong>{{ 'products.product.inventory_delivery_time' | t }}</strong>\n  </div>\n{%- endif -%}\n\n<style>\n.product__inventory{\n    color: green;\n}\n.in-stock {\n    color: green;\n    font-weight: 700;\n    background-color: #00800017;\n    padding: 2px 6px;\n    border-radius: 5px;\n}\n</style>"
+          }
         },
         "description": {
           "type": "description",
@@ -106,6 +120,7 @@
         "vendor",
         "title",
         "price",
+        "custom_liquid_PnQXg3",
         "description",
         "collapsible_tab_QUjVa6",
         "collapsible_tab_49bkdj",
@@ -128,7 +143,7 @@
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 12
       }
     },
@@ -225,6 +240,7 @@
     }
   },
   "order": [
+    "breadcrumbs_fhf3FK",
     "main",
     "related-products",
     "collection_list_gyMbd4"

@@ -17,14 +17,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "<p>Voor <strong>14:00 </strong>besteld, <strong>morgen </strong>in huis</p>",
             "link": ""
           }
         },
         "announcement_ataVFF": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "<p>Welcome to our store</p>",
             "link": ""
           }
         }
@@ -32,6 +32,10 @@
       "block_order": [
         "announcement-bar-0",
         "announcement_ataVFF"
+      ],
+      "custom_css": [
+        ".announcement-bar__message.h5{font-weight: 300;}",
+        ".announcement-bar__message.h5 strong{font-weight: bold;}"
       ],
       "settings": {
         "auto_rotate": false,
@@ -68,7 +72,7 @@
         "announcement_zEEJeG": {
           "type": "announcement",
           "settings": {
-            "text": "Let op: houd rekening met langere levertijden omtrent feestdagen!",
+            "text": "<p>Let op: houd rekening met langere levertijden omtrent feestdagen!</p>",
             "link": ""
           }
         }

@@ -28,11 +28,17 @@
     </li>
     
     {%- if template.name == 'product' -%}
-      {%- if collection -%}
+      {%- liquid
+        assign product_collection = collection
+        if product_collection == blank
+          assign product_collection = product.collections.first
+        endif
+      -%}
+      {%- if product_collection -%}
         <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <span class="breadcrumbs__separator">/</span>
-          <a href="{{ collection.url }}" class="breadcrumbs__link" itemprop="item">
-            <span itemprop="name">{{ collection.title }}</span>
+          <a href="{{ product_collection.url }}" class="breadcrumbs__link" itemprop="item">
+            <span itemprop="name">{{ product_collection.title }}</span>
           </a>
           <meta itemprop="position" content="2" />
         </li>
@@ -123,5 +129,7 @@
   ]
 }
 {% endschema %}
+
+
 
 

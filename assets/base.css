@@ -3711,3 +3711,6 @@ details-disclosure > details {
 .complementary-products__container .quick-add__submit {
   border: solid 1px;
 }
+.product__tax{
+  display: none;
+}
