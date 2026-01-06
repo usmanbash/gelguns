@@ -80,6 +80,7 @@
       "block_order": [
         "announcement_zEEJeG"
       ],
+      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
