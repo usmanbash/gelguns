@@ -34,8 +34,8 @@
         "announcement_ataVFF"
       ],
       "custom_css": [
-        ".announcement-bar__message.h5{font-weight: 300;}",
-        ".announcement-bar__message.h5 strong{font-weight: bold;}"
+        ".announcement-bar__message.h5 {font-weight: 300;}",
+        ".announcement-bar__message.h5 strong {font-weight: bold;}"
       ],
       "settings": {
         "auto_rotate": false,
