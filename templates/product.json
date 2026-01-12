@@ -171,42 +171,42 @@
         "featured_collection_UbYgVt": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "assault",
             "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
           }
         },
         "featured_collection_bPHUMQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "smgs",
             "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
           }
         },
         "featured_collection_aRpJaf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "pistols",
             "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
           }
         },
         "featured_collection_khjbxg": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "rifles",
             "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
           }
         },
         "featured_collection_R3WqKg": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "accessoires",
             "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
           }
         },
         "featured_collection_hd4fWX": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "gel-ballen",
             "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
           }
         }
