@@ -274,9 +274,9 @@
       "settings": {
         "collection": "frontpage",
         "products_to_show": 4,
-        "title": "Uitgelichte collectie",
-        "heading_size": "h1",
-        "description": "",
+        "title": "Al onze Gel Blasters",
+        "heading_size": "h2",
+        "description": "<p>Van pistolen tot rifles: ontdek alle modellen in één collectie. Krachtige, betrouwbare blasters die elke speelstijl ondersteunen.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
