@@ -65,21 +65,10 @@
             "liquid_content": "{{product.metafields.custom.specifications}}"
           }
         },
-        "collapsible_tab_3QkpRF": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Complete your order",
-            "icon": "ruler",
-            "content": "",
-            "page": "",
-            "liquid_content": "{{product.metafields.custom.complete_order}}"
-          }
-        },
         "complementary_CLT7cK": {
           "type": "complementary",
           "settings": {
-            "block_heading": "hief",
+            "block_heading": "Maak je bestelling compleet",
             "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
@@ -124,7 +113,6 @@
         "description",
         "collapsible_tab_QUjVa6",
         "collapsible_tab_49bkdj",
-        "collapsible_tab_3QkpRF",
         "complementary_CLT7cK",
         "variant_picker",
         "buy_buttons",
