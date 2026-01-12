@@ -332,36 +332,45 @@
         "collapsible_row_tY8LJC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Inklapbare rij",
+            "heading": "Wat zijn Gel Blasters?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Een Gel Blaster is een speelgoedwapen dat kleine gelballetjes (ook wel<em>Orbeez</em>genoemd) afvuurt. Deze balletjes bestaan voor 95% uit water, waardoor ze bij impact uiteenspatten zonder schade of rommel achter te laten. Het resultaat: realistisch speelplezier zonder pijn of gevaar. Gel Blasters worden wereldwijd gebruikt voor teamspellen, tactische simulaties en outdoor fun.</p>",
             "page": ""
           }
         },
         "collapsible_row_rWHKbT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Inklapbare rij",
+            "heading": "Zijn Gel Blasters Veilig?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Veiligheid staat bij GelWapens.nl voorop.<br/><br/>Onze Gel Blasters gebruiken biologisch afbreekbare gelballetjes die niet giftig en milieuvriendelijk zijn. Wij adviseren altijd om:</p><ul><li>Een veiligheidsbril te dragen tijdens het spelen.<br/></li><li>Niet op dieren of mensen van dichtbij te schieten.<br/></li><li>Altijd buiten of op eigen terrein te spelen.<br/></li></ul><p>Zo blijven Gel Blasters leuk, veilig en een verantwoorde hobby.</p>",
             "page": ""
           }
         },
         "collapsible_row_F9WYq8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Inklapbare rij",
+            "heading": "Zijn Gel Blasters geschikt voor kinderen?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Ja, Gel Blasters zijn veilig voor kinderen vanaf ongeveer 12 jaar, mits onder toezicht gebruikt. Ze bieden een actief, buitenvriendelijk alternatief voor schermtijd. Kinderen leren samenwerken, mikken en bewegen, terwijl ze plezier hebben in een gecontroleerde, veilige omgeving.</p>",
             "page": ""
           }
         },
         "collapsible_row_mWbaAq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Inklapbare rij",
+            "heading": "Doen Gel Blasters pijn?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Een Gel Blaster schiet zachte watergelballetjes, die bij impact direct uit elkaar spatten. De kracht verschilt per model, maar over het algemeen geldt:<br/><br/>Nee, Gel Blasters doen geen pijn, hoogstens voel je een lichte tik vergelijkbaar met een rubberen elastiekje.<br/><br/>Voor jonge spelers raden we aan om een veiligheidsbril te dragen en te kiezen voor modellen met lagere FPS (schietkracht).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cEJbaC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zijn Gel Blasters legaal in Nederland?",
+            "icon": "none",
+            "row_content": "<p>Ja, Gel Blasters zijn volledig legaal binnen Europa, mits deze voldoen aan de Europese veiligheidsrichtlijnen en zijn voorzien van het CE-keurmerk. Dit betekent dat ze officieel als veilig speelgoed worden erkend. Je kunt ze dus met een gerust hart gebruiken binnen Nederland en de rest van Europa.</p>",
             "page": ""
           }
         }
@@ -370,7 +379,8 @@
         "collapsible_row_tY8LJC",
         "collapsible_row_rWHKbT",
         "collapsible_row_F9WYq8",
-        "collapsible_row_mWbaAq"
+        "collapsible_row_mWbaAq",
+        "collapsible_row_cEJbaC"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
