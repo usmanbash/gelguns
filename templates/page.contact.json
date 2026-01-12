@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/Component_1.svg",
             "title": "Order Tracker",
-            "text": "<p>Follow your order using our live tracker</p>",
+            "text": "<p>Volg je bestelling doormiddel van onze live tracker</p>",
             "link_label": "Track Order",
             "link": "#"
           }
@@ -27,8 +27,8 @@
           "settings": {
             "image": "shopify://shop_images/Component_3.svg",
             "title": "FAQs",
-            "text": "<p>Find the answer to your question in our list of frequently asked questions</p>",
-            "link_label": "View FAQs",
+            "text": "<p>Vind antwoord op je vraag in onze lijst met meestgestelde vragen</p>",
+            "link_label": "Bekijk FAQ's",
             "link": "#"
           }
         },
@@ -36,9 +36,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Component_2.svg",
-            "title": "Returns Policy",
-            "text": "<p>Returning a product? Check our returns procedure.</p>",
-            "link_label": "View Returns Policy",
+            "title": "Retourbeleid",
+            "text": "<p>Een product retourneren? Check onze retour procedure</p>",
+            "link_label": "Bekijk Retourbeleid",
             "link": "#"
           }
         }
