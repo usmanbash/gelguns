@@ -82,13 +82,13 @@
         "text_77TRwT": {
           "type": "text",
           "settings": {
-            "text": "<p>Questions? You can reach us through the following channels:</p>"
+            "text": "<p>Vragen? Wij zijn bereikbaar via de onderstaande kanalen:</p>"
           }
         },
         "custom_liquid_ikPnWe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<ul class=\"custom-item\">\n<li>\n\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-mail.svg?v=27919459441137881871761580056\" width=\"21px\" alt=\"Mail icon\">\n\t\t<span><a href=\"mailto:someone@example.com\" alt=\"E-mail\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">contact@gelweapons.com</font></font></a></span>\n\t</li>\n\t<li>\n\t\t<img class=\"info-bar-icon-2\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-live-chat.svg?v=143353598810421092661761582112\" width=\"21px\" alt=\"Live Chat icon\">\n\t\t<span><a id=\"intercom-launcher\" href=\"#\" alt=\"Live Chat\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Live Chat (fastest response)</font></font></a></span>\n\t</li>\n</ul>"
+            "custom_liquid": "<ul class=\"custom-item\">\n<li>\n\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-mail.svg?v=27919459441137881871761580056\" width=\"21px\" alt=\"Mail icon\">\n\t\t<span><a href=\"mailto:someone@example.com\" alt=\"E-mail\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">contact@gelweapons.com</font></font></a></span>\n\t</li>\n\t<li>\n\t\t<img class=\"info-bar-icon-2\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-live-chat.svg?v=143353598810421092661761582112\" width=\"21px\" alt=\"Live Chat icon\">\n\t\t<span><a id=\"intercom-launcher\" href=\"#\" alt=\"Live Chat\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Live Chat (snelste reactie)</font></font></a></span>\n\t</li>\n</ul>"
           }
         }
       },
