@@ -31,14 +31,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Wapens",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "link_list_CaznPN": {
           "type": "link_list",
           "settings": {
             "heading": "Informatie",
-            "menu": "footer"
+            "menu": "customer-account-main-menu"
           }
         }
       },
