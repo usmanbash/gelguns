@@ -3714,3 +3714,6 @@ details-disclosure > details {
 .product__tax{
   display: none;
 }
+.list-menu__item{
+  font-style: italic;
+}
