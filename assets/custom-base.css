@@ -44,3 +44,9 @@
   .announcement-bar__message.h5 strong{
     font-weight: bold;
   }
+.utility-bar {
+    height: 38px;
+  }
+.utility-bar__grid {
+    min-height: 38px;
+  }
