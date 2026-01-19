@@ -1,0 +1,36 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "belgie"
+  },
+  "sections": {
+    "rich_text_FRHhaJ": {
+      "blocks": {
+        "heading_kq6g8q": {
+          "settings": {
+            "heading": "#1 Gel Blaster winkel van België"
+          }
+        },
+        "text_gNbKWL": {
+          "settings": {
+            "text": "<p>Ontdek de grootste Gel Blaster winkel van België. Kies het wapen dat bij jouw past en sluit je aan bij 50.000 tevreden klanten.</p>"
+          }
+        },
+        "caption_9jpebb": {
+          "settings": {
+            "caption": "#1 van België | 50.000+ tevreden klanten"
+          }
+        }
+      }
+    }
+  }
+}

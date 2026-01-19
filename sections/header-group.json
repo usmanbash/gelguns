@@ -34,8 +34,8 @@
         "announcement_ataVFF"
       ],
       "custom_css": [
-        ".announcement-bar__message.h5{font-weight: 300;}",
-        ".announcement-bar__message.h5 strong{font-weight: bold;}"
+        ".announcement-bar__message.h5 {font-weight: 300;}",
+        ".announcement-bar__message.h5 strong {font-weight: bold;}"
       ],
       "settings": {
         "auto_rotate": false,
@@ -52,14 +52,14 @@
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
-        "menu": "main-menu",
+        "menu": "main",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "scheme-4",
         "menu_color_scheme": "scheme-4",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
         "padding_top": 20,
@@ -80,6 +80,7 @@
       "block_order": [
         "announcement_zEEJeG"
       ],
+      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,

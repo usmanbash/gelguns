@@ -31,14 +31,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Wapens",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "link_list_CaznPN": {
           "type": "link_list",
           "settings": {
             "heading": "Informatie",
-            "menu": "footer"
+            "menu": "customer-account-main-menu"
           }
         }
       },
@@ -51,7 +51,7 @@
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Abonner på vores nyhedsbrev",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
