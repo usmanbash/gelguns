@@ -106,7 +106,7 @@
     "badge_position": "top left",
     "badge_corner_radius": 4,
     "sale_badge_color_scheme": "scheme-2",
-    "sold_out_badge_color_scheme": "scheme-2",
+    "sold_out_badge_color_scheme": "scheme-d3e91fe1-5206-4d1b-b988-ed3a60248ad7",
     "brand_headline": "GelGuns.eu",
     "brand_description": "<p><strong>KVK<br/></strong>87252546<br/><strong>BTW<br/></strong>NL004331054B37<br/><strong>IBAN<br/></strong>NL26 INGB 0398 3463 48</p>",
     "brand_image_width": 100,
@@ -208,6 +208,17 @@
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#ffffff"
+        }
+      },
+      "scheme-d3e91fe1-5206-4d1b-b988-ed3a60248ad7": {
+        "settings": {
+          "background": "#ff0000",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#ff0000",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ff0000",
+          "shadow": "#ff0000"
         }
       }
     }
