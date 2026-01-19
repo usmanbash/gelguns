@@ -3714,6 +3714,8 @@ details-disclosure > details {
 .product__tax{
   display: none;
 }
+.menu-drawer summary.menu-drawer__menu-item,
 .list-menu__item{
   font-style: italic;
+  font-weight: bold;
 }
