@@ -25,6 +25,21 @@
     assign media_count = media_count | minus: variant_images.size | plus: 1
   endif
 
+  assign youtube_url = product.metafields.custom.youtube_video_url
+  assign has_youtube = false
+  if youtube_url != blank
+    assign has_youtube = true
+    assign media_count = media_count | plus: 1
+    
+    if youtube_url contains 'youtu.be/'
+      assign youtube_id = youtube_url | split: 'youtu.be/' | last | split: '?' | first
+    elsif youtube_url contains 'youtube.com/watch'
+      assign youtube_id = youtube_url | split: 'v=' | last | split: '&' | first
+    elsif youtube_url contains 'youtube.com/embed/'
+      assign youtube_id = youtube_url | split: 'embed/' | last | split: '?' | first
+    endif
+  endif
+
   if media_count == 1 or single_media_visible
     assign single_media_visible_mobile = true
   endif
@@ -124,6 +139,24 @@
           </li>
         {%- endunless -%}
       {%- endfor -%}
+      {%- if has_youtube and youtube_id != blank -%}
+        <li
+          id="Slide-{{ section.id }}-youtube"
+          class="product__media-item grid__item slider__slide product__media-item--full{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          data-media-id="{{ section.id }}-youtube"
+        >
+          <div class="product__media media media--transparent" style="padding-top: 56.25%;">
+            <iframe
+              src="https://www.youtube.com/embed/{{ youtube_id }}?enablejsapi=1"
+              class="js-youtube"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+            ></iframe>
+          </div>
+        </li>
+      {%- endif -%}
     </ul>
     <div class="slider-buttons quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
       <button
@@ -314,6 +347,35 @@
             </li>
           {%- endunless -%}
         {%- endfor -%}
+        {%- if has_youtube and youtube_id != blank -%}
+          <li
+            id="Slide-Thumbnails-{{ section.id }}-youtube"
+            class="thumbnail-list__item slider__slide"
+            data-target="{{ section.id }}-youtube"
+            data-media-position="{{ media_count }}"
+          >
+            <span class="thumbnail__badge" aria-hidden="true">
+              <span class="svg-wrapper">
+                {{- 'icon-play.svg' | inline_asset_content -}}
+              </span>
+            </span>
+            <button
+              class="thumbnail global-media-settings global-media-settings--no-shadow"
+              aria-label="{{ 'products.product.media.load_video' | t: index: media_count }}"
+              aria-controls="GalleryViewer-{{ section.id }}"
+              aria-describedby="Thumbnail-{{ section.id }}-youtube"
+            >
+              <img
+                id="Thumbnail-{{ section.id }}-youtube"
+                src="https://img.youtube.com/vi/{{ youtube_id }}/mqdefault.jpg"
+                alt="YouTube video"
+                loading="lazy"
+                width="320"
+                height="180"
+              >
+            </button>
+          </li>
+        {%- endif -%}
       </ul>
       <button
         type="button"
