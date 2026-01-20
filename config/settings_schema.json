@@ -1444,11 +1444,77 @@
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       },
-      {
+{
         "type": "color_scheme",
         "id": "cart_color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
+      },
+      {
+        "type": "header",
+        "content": "Free Shipping Bar"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_enable_free_shipping_bar",
+        "label": "Enable free shipping bar",
+        "default": true
+      },
+      {
+        "type": "number",
+        "id": "cart_free_shipping_threshold",
+        "label": "Free shipping threshold",
+        "default": 50,
+        "info": "Amount customers need to spend for free shipping (in your store's currency)"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_message",
+        "label": "Progress message prefix",
+        "default": "Add"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_message_suffix",
+        "label": "Progress message suffix",
+        "default": "more for FREE shipping"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_success_message",
+        "label": "Success message",
+        "default": "You've unlocked FREE shipping!"
+      },
+      {
+        "type": "header",
+        "content": "Cart Upsell"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_enable_upsell",
+        "label": "Enable upsell section",
+        "default": true
+      },
+      {
+        "type": "collection",
+        "id": "cart_upsell_collection",
+        "label": "Upsell collection",
+        "info": "Select a collection for upsell products. Products already in cart will be excluded."
+      },
+      {
+        "type": "text",
+        "id": "cart_upsell_title",
+        "label": "Upsell section title",
+        "default": "You may also like"
+      },
+      {
+        "type": "range",
+        "id": "cart_upsell_limit",
+        "min": 4,
+        "max": 20,
+        "step": 1,
+        "default": 10,
+        "label": "Maximum products to show"
       }
     ]
   },

@@ -128,6 +128,14 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "cart_enable_free_shipping_bar": true,
+    "cart_free_shipping_threshold": 50,
+    "cart_free_shipping_message": "Add",
+    "cart_free_shipping_message_suffix": "more for FREE shipping",
+    "cart_free_shipping_success_message": "You've unlocked FREE shipping!",
+    "cart_enable_upsell": true,
+    "cart_upsell_title": "You may also like",
+    "cart_upsell_limit": 10,
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
