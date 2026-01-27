@@ -24,14 +24,22 @@
         "announcement_ataVFF": {
           "type": "announcement",
           "settings": {
-            "text": "<p><strong>Gratis bezorging</strong> voor bestellingen vanaf <strong>€30</strong></p>",
+            "text": "<p>Achteraf betalen mogelijk met <strong>Klarna</strong></p>",
+            "link": ""
+          }
+        },
+        "announcement_TQAPme": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Gratis bezorging </strong>voor bestellingen vanaf <strong>€30,-</strong></p>",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_ataVFF"
+        "announcement_ataVFF",
+        "announcement_TQAPme"
       ],
       "custom_css": [
         ".announcement-bar__message.h5 {font-weight: 300;}",
