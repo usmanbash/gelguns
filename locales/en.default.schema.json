@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "global": {
@@ -2264,6 +2273,39 @@
             },
             "enable_quick_add": {
               "label": "Quick add"
+            }
+          }
+        },
+        "inventory_status": {
+          "name": "Inventory status with message",
+          "settings": {
+            "inventory_threshold": {
+              "label": "Low stock threshold",
+              "info": "Show low stock message when inventory is at or below this number"
+            },
+            "header_in_stock": {
+              "content": "In stock settings"
+            },
+            "in_stock_badge": {
+              "label": "Badge text"
+            },
+            "in_stock_message": {
+              "label": "Message"
+            },
+            "header_low_stock": {
+              "content": "Low stock settings"
+            },
+            "low_stock_badge": {
+              "label": "Badge text"
+            },
+            "low_stock_message": {
+              "label": "Message"
+            },
+            "header_out_of_stock": {
+              "content": "Out of stock settings"
+            },
+            "out_of_stock_badge": {
+              "label": "Badge text"
             }
           }
         },

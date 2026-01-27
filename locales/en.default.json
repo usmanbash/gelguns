@@ -120,6 +120,12 @@
       "inventory_order_time": "2pm,",
       "inventory_delivered": "delivered",
       "inventory_delivery_time": "tomorrow",
+      "inventory_status": {
+        "in_stock_badge": "In stock",
+        "low_stock_badge": "Low stock",
+        "out_of_stock_badge": "Out of stock",
+        "shipping_message": "Ordered before 2pm, shipped the same day"
+      },
       "add_to_cart": "Add to cart",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",

@@ -703,6 +703,91 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'inventory_status' -%}
+                {%- liquid
+                  assign current_variant = product.selected_or_first_available_variant
+                  assign inventory_status = 'in_stock'
+
+                  if current_variant.inventory_management == 'shopify'
+                    if current_variant.inventory_quantity <= 0 and current_variant.available == false
+                      assign inventory_status = 'out_of_stock'
+                    elsif current_variant.inventory_quantity > 0 and current_variant.inventory_quantity <= block.settings.inventory_threshold
+                      assign inventory_status = 'low_stock'
+                    endif
+                  elsif current_variant.available == false
+                    assign inventory_status = 'out_of_stock'
+                  endif
+                -%}
+
+                <div
+                  class="product__inventory-status inventory-status--{{ inventory_status }}"
+                  id="Inventory-Status-{{ section.id }}"
+                  role="status"
+                  {{ block.shopify_attributes }}
+                >
+                  {%- if inventory_status == 'in_stock' -%}
+                    <span class="inventory-status__badge inventory-status__badge--in-stock">
+                      {{- block.settings.in_stock_badge -}}
+                    </span>
+                    <span class="inventory-status__message">
+                      {{- block.settings.in_stock_message -}}
+                    </span>
+                  {%- elsif inventory_status == 'low_stock' -%}
+                    <span class="inventory-status__badge inventory-status__badge--low-stock">
+                      {{- block.settings.low_stock_badge -}}
+                    </span>
+                    <span class="inventory-status__message">
+                      {{- block.settings.low_stock_message -}}
+                    </span>
+                  {%- else -%}
+                    <span class="inventory-status__badge inventory-status__badge--out-of-stock">
+                      {{- block.settings.out_of_stock_badge -}}
+                    </span>
+                  {%- endif -%}
+                </div>
+
+                <style>
+                  .product__inventory-status {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 0.5rem;
+                    font-size: 15px;
+                    line-height: 1.5;
+                  }
+                  .inventory-status__badge {
+                    font-weight: 700;
+                    padding: 2px 6px;
+                    border-radius: 5px;
+                  }
+                  .inventory-status__badge--in-stock {
+                    color: #00b900;
+                    background-color: #00b9001a;
+                  }
+                  .inventory-status__badge--in-stock + .inventory-status__message{
+                    color: #00b900;
+                  }
+                  .inventory-status__badge--low-stock {
+                    color: #ee9441;
+                    background-color: #ee944117;
+                  }
+                  .inventory-status__badge--low-stock + .inventory-status__message{
+                    color: #ee9441;
+                  }
+                  .inventory-status__badge--out-of-stock {
+                    color: #db3333;
+                    background-color: #db333317;
+                  }
+                  .inventory-status__badge--out-of-stock + .inventory-status__message{
+                    color: #db3333;
+                  }
+                  .inventory-status--in-stock .inventory-status__message {
+                    color: #00b900;
+                  }
+                  .inventory-status--low-stock .inventory-status__message {
+                    color: #ee9441;
+                  }
+                </style>
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -1495,6 +1580,65 @@
           "id": "enable_quick_add",
           "label": "t:sections.main-product.blocks.complementary_products.settings.enable_quick_add.label",
           "default": false
+        }
+      ]
+    },
+    {
+      "type": "inventory_status",
+      "name": "t:sections.main-product.blocks.inventory_status.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "inventory_threshold",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.inventory_threshold.label",
+          "info": "t:sections.main-product.blocks.inventory_status.settings.inventory_threshold.info",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main-product.blocks.inventory_status.settings.header_in_stock.content"
+        },
+        {
+          "type": "text",
+          "id": "in_stock_badge",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.in_stock_badge.label",
+          "default": "In stock"
+        },
+        {
+          "type": "text",
+          "id": "in_stock_message",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.in_stock_message.label",
+          "default": "Ordered before 2pm, shipped the same day"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main-product.blocks.inventory_status.settings.header_low_stock.content"
+        },
+        {
+          "type": "text",
+          "id": "low_stock_badge",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.low_stock_badge.label",
+          "default": "Low stock"
+        },
+        {
+          "type": "text",
+          "id": "low_stock_message",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.low_stock_message.label",
+          "default": "Ordered before 2pm, shipped the same day"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main-product.blocks.inventory_status.settings.header_out_of_stock.content"
+        },
+        {
+          "type": "text",
+          "id": "out_of_stock_badge",
+          "label": "t:sections.main-product.blocks.inventory_status.settings.out_of_stock_badge.label",
+          "default": "Out of stock"
         }
       ]
     },
