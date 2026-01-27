@@ -24,7 +24,7 @@
         "announcement_ataVFF": {
           "type": "announcement",
           "settings": {
-            "text": "<p>Welcome to our store</p>",
+            "text": "<p><strong>Gratis bezorging</strong> voor bestellingen vanaf <strong>€30</strong></p>",
             "link": ""
           }
         }
