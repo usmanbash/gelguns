@@ -16,14 +16,14 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/BLASTER_3.png"
+            "custom_image": "shopify://shop_images/Gel-Blaster-Deals.webp"
           }
         },
         "featured_collection_dy7Bgj": {
           "type": "featured_collection",
           "settings": {
             "collection": "nieuw",
-            "custom_image": "shopify://shop_images/BLASTER_5.png"
+            "custom_image": "shopify://shop_images/New-Gel-Blasters.webp"
           }
         },
         "featured_collection_YH6RBM": {
