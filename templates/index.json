@@ -30,14 +30,14 @@
           "type": "featured_collection",
           "settings": {
             "collection": "assault",
-            "custom_image": "shopify://shop_images/Your_paragraph_text_8.png"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_14.png"
           }
         },
         "featured_collection_XwNnHa": {
           "type": "featured_collection",
           "settings": {
             "collection": "smgs",
-            "custom_image": "shopify://shop_images/Your_paragraph_text_10.png"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_13.png"
           }
         },
         "featured_collection_YKQRc6": {
@@ -51,21 +51,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "rifles",
-            "custom_image": "shopify://shop_images/Your_paragraph_text_9.png"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_12.png"
           }
         },
         "featured_collection_PAMBpJ": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessoires",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_16.png"
           }
         },
         "featured_collection_bGBKqg": {
           "type": "featured_collection",
           "settings": {
             "collection": "gel-ballen",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_18.png"
           }
         }
       },
