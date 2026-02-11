@@ -544,35 +544,64 @@
 
       {%- comment -%} FREE SHIPPING BAR {%- endcomment -%}
       {%- if settings.cart_enable_free_shipping_bar -%}
-        {%- assign free_shipping_threshold = settings.cart_free_shipping_threshold | times: 100 -%}
+        {%- assign free_shipping_threshold_base = settings.cart_free_shipping_threshold | times: 100 -%}
         {%- assign cart_total = cart.total_price -%}
-        {%- assign shipping_remaining = free_shipping_threshold | minus: cart_total -%}
-        {%- assign shipping_percentage = cart_total | times: 100 | divided_by: free_shipping_threshold -%}
-        {%- if shipping_percentage > 100 -%}
-          {%- assign shipping_percentage = 100 -%}
+        {%- assign cart_currency = cart.currency.iso_code -%}
+        {%- assign shop_currency = shop.currency -%}
+        {%- assign currencies_match = false -%}
+        {%- if cart_currency == shop_currency -%}
+          {%- assign currencies_match = true -%}
+        {%- endif -%}
+        
+        {%- comment -%} Only calculate server-side if currencies match, otherwise JS handles it {%- endcomment -%}
+        {%- if currencies_match -%}
+          {%- assign shipping_remaining = free_shipping_threshold_base | minus: cart_total -%}
+          {%- assign shipping_percentage = cart_total | times: 100 | divided_by: free_shipping_threshold_base -%}
+          {%- if shipping_percentage > 100 -%}
+            {%- assign shipping_percentage = 100 -%}
+          {%- endif -%}
+        {%- else -%}
+          {%- assign shipping_remaining = 0 -%}
+          {%- assign shipping_percentage = 0 -%}
         {%- endif -%}
 
-        <div class="cart-drawer__shipping-bar" data-threshold="{{ free_shipping_threshold }}">
+        <div 
+          class="cart-drawer__shipping-bar" 
+          data-threshold="{{ free_shipping_threshold_base }}"
+          data-cart-total="{{ cart_total }}"
+          data-cart-currency="{{ cart_currency }}"
+          data-shop-currency="{{ shop_currency }}"
+          data-currencies-match="{{ currencies_match }}"
+        >
           <div class="shipping-bar__content">
-            {%- if shipping_remaining <= 0 -%}
-              <p class="shipping-bar__text shipping-bar__text--success">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                {{ settings.cart_free_shipping_success_message | default: "You've unlocked FREE shipping!" }}
-              </p>
-            {%- else -%}
-              <p class="shipping-bar__text">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
-                </svg>
-                {{ settings.cart_free_shipping_message | default: "Add" }}
-                <span class="shipping-bar__amount">{{ shipping_remaining | money }}</span>
-                {{ settings.cart_free_shipping_message_suffix | default: "more for FREE shipping" }}
-              </p>
-            {%- endif -%}
+            <p class="shipping-bar__text shipping-bar__text--success" style="display: {%- if currencies_match and shipping_remaining <= 0 -%}block{%- else -%}none{%- endif -%};">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              {%- if settings.cart_free_shipping_success_message != blank -%}
+                {{ settings.cart_free_shipping_success_message }}
+              {%- else -%}
+                {{ 'sections.cart.free_shipping_success' | t }}
+              {%- endif -%}
+            </p>
+            <p class="shipping-bar__text" style="display: {%- if currencies_match and shipping_remaining <= 0 -%}none{%- else -%}block{%- endif -%};">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+              </svg>
+              {%- if settings.cart_free_shipping_message != blank -%}
+                {{ settings.cart_free_shipping_message }}
+              {%- else -%}
+                {{ 'sections.cart.free_shipping_message' | t }}
+              {%- endif -%}
+              <span class="shipping-bar__amount" data-remaining="{{ shipping_remaining }}">{%- if currencies_match -%}{{ shipping_remaining | money }}{%- else -%}...{%- endif -%}</span>
+              {%- if settings.cart_free_shipping_message_suffix != blank -%}
+                {{ settings.cart_free_shipping_message_suffix }}
+              {%- else -%}
+                {{ 'sections.cart.free_shipping_suffix' | t }}
+              {%- endif -%}
+            </p>
             <div class="shipping-bar__progress">
-              <div class="shipping-bar__progress-fill{% if shipping_remaining <= 0 %} shipping-bar__progress-fill--complete{% endif %}" style="width: {{ shipping_percentage }}%;"></div>
+              <div class="shipping-bar__progress-fill{% if currencies_match and shipping_remaining <= 0 %} shipping-bar__progress-fill--complete{% endif %}" style="width: {%- if currencies_match -%}{{ shipping_percentage }}{%- else -%}0{%- endif -%}%;" data-percentage="{%- if currencies_match -%}{{ shipping_percentage }}{%- else -%}0{%- endif -%}"></div>
             </div>
           </div>
         </div>
@@ -1308,6 +1337,127 @@
       subscribe(PUB_SUB_EVENTS.cartUpdate, () => {
         setTimeout(initUpsellSlider, 100);
       });
+    }
+  })();
+
+  // Free Shipping Bar - Multicurrency Support
+  (function() {
+    function updateShippingBar() {
+      const shippingBar = document.querySelector('.cart-drawer__shipping-bar');
+      if (!shippingBar) return;
+
+      const thresholdBase = parseInt(shippingBar.dataset.threshold) || 0;
+      const cartCurrency = shippingBar.dataset.cartCurrency;
+      const shopCurrency = shippingBar.dataset.shopCurrency;
+
+      // Fetch current cart to get accurate totals in current currency
+      fetch('{{ routes.cart_url }}.js')
+        .then(response => response.json())
+        .then(cart => {
+          const cartTotal = cart.total_price;
+          let threshold = thresholdBase;
+
+          // If currencies differ, try to convert threshold
+          if (cartCurrency !== shopCurrency && cart.currency) {
+            // Try Shopify's currency conversion rates
+            if (window.Shopify && window.Shopify.currency && window.Shopify.currency.rate) {
+              const rate = window.Shopify.currency.rate[cart.currency] || 1;
+              threshold = Math.round(thresholdBase * rate);
+            } else if (window.Shopify && window.Shopify.money_format) {
+              // Some multicurrency apps expose rates differently
+              // For now, if no conversion available, threshold should be set per currency
+              // We'll use the base threshold as fallback
+            }
+          }
+
+          updateShippingBarDisplay(shippingBar, threshold, cartTotal, cart.currency);
+        })
+        .catch(error => {
+          console.warn('Could not fetch cart for shipping bar update:', error);
+          // Fallback to server-side values
+          const cartTotal = parseInt(shippingBar.dataset.cartTotal) || 0;
+          updateShippingBarDisplay(shippingBar, thresholdBase, cartTotal, cartCurrency);
+        });
+    }
+
+    function updateShippingBarDisplay(shippingBar, threshold, cartTotal, currency) {
+      const remaining = Math.max(0, threshold - cartTotal);
+      const percentage = threshold > 0 ? Math.min(100, Math.round((cartTotal / threshold) * 100)) : 0;
+      
+      const amountEl = shippingBar.querySelector('.shipping-bar__amount');
+      const progressFill = shippingBar.querySelector('.shipping-bar__progress-fill');
+      const successMsg = shippingBar.querySelector('.shipping-bar__text--success');
+      const regularMsg = shippingBar.querySelector('.shipping-bar__text:not(.shipping-bar__text--success)');
+
+      // Update amount display
+      if (amountEl) {
+        amountEl.dataset.remaining = remaining;
+        if (remaining > 0 && currency) {
+          // Format money using Intl API
+          try {
+            const formattedAmount = new Intl.NumberFormat(document.documentElement.lang || 'en', {
+              style: 'currency',
+              currency: currency,
+              minimumFractionDigits: 0,
+              maximumFractionDigits: 0
+            }).format(remaining / 100);
+            amountEl.textContent = formattedAmount;
+          } catch (e) {
+            // Fallback formatting
+            amountEl.textContent = (remaining / 100).toFixed(2);
+          }
+        }
+      }
+
+      // Update progress bar
+      if (progressFill) {
+        progressFill.style.width = percentage + '%';
+        progressFill.dataset.percentage = percentage;
+        
+        if (remaining <= 0) {
+          progressFill.classList.add('shipping-bar__progress-fill--complete');
+        } else {
+          progressFill.classList.remove('shipping-bar__progress-fill--complete');
+        }
+      }
+
+      // Toggle between success and regular message
+      if (remaining <= 0) {
+        if (successMsg) successMsg.style.display = 'block';
+        if (regularMsg) regularMsg.style.display = 'none';
+      } else {
+        if (successMsg) successMsg.style.display = 'none';
+        if (regularMsg) regularMsg.style.display = 'block';
+      }
+    }
+
+    // Initialize on load
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateShippingBar);
+    } else {
+      updateShippingBar();
+    }
+
+    // Update on cart changes
+    if (typeof subscribe === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') {
+      subscribe(PUB_SUB_EVENTS.cartUpdate, () => {
+        setTimeout(updateShippingBar, 100);
+      });
+    }
+
+    // Also update when cart drawer is opened/refreshed
+    document.addEventListener('cart:refresh', updateShippingBar);
+    
+    // Watch for cart drawer updates
+    const observer = new MutationObserver(() => {
+      if (document.querySelector('.cart-drawer__shipping-bar')) {
+        updateShippingBar();
+      }
+    });
+    
+    const cartDrawer = document.querySelector('#CartDrawer');
+    if (cartDrawer) {
+      observer.observe(cartDrawer, { childList: true, subtree: true });
     }
   })();
 </script>

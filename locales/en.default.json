@@ -332,7 +332,10 @@
       "login": {
         "title": "Have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
-      }
+      },
+      "free_shipping_success": "You've unlocked FREE shipping!",
+      "free_shipping_message": "Add",
+      "free_shipping_suffix": "more for FREE shipping"
     },
     "footer": {
       "payment": "Payment methods"
