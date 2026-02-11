@@ -16,56 +16,56 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Deals.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_6.png"
           }
         },
         "featured_collection_dy7Bgj": {
           "type": "featured_collection",
           "settings": {
             "collection": "nieuw",
-            "custom_image": "shopify://shop_images/New-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_7.png"
           }
         },
         "featured_collection_YH6RBM": {
           "type": "featured_collection",
           "settings": {
             "collection": "assault",
-            "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_14.png"
           }
         },
         "featured_collection_XwNnHa": {
           "type": "featured_collection",
           "settings": {
             "collection": "smgs",
-            "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_13.png"
           }
         },
         "featured_collection_YKQRc6": {
           "type": "featured_collection",
           "settings": {
             "collection": "pistols",
-            "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_11.png"
           }
         },
         "featured_collection_WeyJnF": {
           "type": "featured_collection",
           "settings": {
             "collection": "rifles",
-            "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_12.png"
           }
         },
         "featured_collection_PAMBpJ": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessoires",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_16.png"
           }
         },
         "featured_collection_bGBKqg": {
           "type": "featured_collection",
           "settings": {
             "collection": "gel-ballen",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_18.png"
           }
         }
       },
@@ -104,14 +104,14 @@
         "heading_4dyWxi": {
           "type": "heading",
           "settings": {
-            "heading": "5% korting",
+            "heading": "10% korting",
             "heading_size": "h1"
           }
         },
         "text_WChmJz": {
           "type": "text",
           "settings": {
-            "text": "op je eerste bestelling met code <strong>BLASTER5</strong>",
+            "text": "op je eerste bestelling met code <strong>BLASTER10</strong>",
             "text_style": "body"
           }
         }
@@ -126,7 +126,7 @@
         "h2 {font-size: 4rem; color: #ff7272; background-color: #fff; padding: 0 10px; --e-transform-rotateZ: -2deg; line-height: 60px; transform: skewY(-3deg); margin-bottom: 15px; border-radius: 5px; text-transform: uppercase; font-family: \"Barlow\"; width: fit-content; margin: auto; margin-bottom: 15px;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Slide-Gel-Blaster-background.webp",
+        "image": "shopify://shop_images/Untitled_design_3.png",
         "image_overlay_opacity": 40,
         "desktop_image_height": "283.8px",
         "mobile_image_height": "283.8px",
@@ -153,7 +153,7 @@
         "text_gNbKWL": {
           "type": "text",
           "settings": {
-            "text": "<p>Ontdek de grootste Gel Blaster winkel van Nederland. Kies het wapen dat bij jouw past en sluit je aan bij 50.000 tevreden klanten.</p>"
+            "text": "<p>Ontdek de grootste Gel Blaster winkel van Nederland. Kies het wapen dat bij jouw past en sluit je aan bij 10.000 tevreden klanten.</p>"
           }
         },
         "button_JgpEgB": {
@@ -170,7 +170,7 @@
         "caption_9jpebb": {
           "type": "caption",
           "settings": {
-            "caption": "#1 van Nederland | 50.000+ tevreden klanten",
+            "caption": "#1 van Nederland | 10.000+ tevreden klanten",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }

@@ -11,7 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/GELGUNS_12.png",
     "logo_width": 210,
-    "favicon": "shopify://shop_images/g.png",
+    "favicon": "shopify://shop_images/Add_a_heading.png",
     "type_header_font": "manrope_n8",
     "heading_scale": 100,
     "type_body_font": "barlow_n4",
@@ -108,12 +108,12 @@
     "sale_badge_color_scheme": "scheme-2",
     "sold_out_badge_color_scheme": "scheme-d3e91fe1-5206-4d1b-b988-ed3a60248ad7",
     "brand_headline": "GelGuns.eu",
-    "brand_description": "<p><strong>KVK<br/></strong>87252546<br/><strong>BTW<br/></strong>NL004331054B37<br/><strong>IBAN<br/></strong>NL26 INGB 0398 3463 48</p>",
+    "brand_description": "<p><strong>KVK<br/></strong>92835929<br/><strong>BTW<br/></strong>NL004980085B98<br/><strong>IBAN<br/></strong>NL97 INGB 0104 9014 46</p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
-    "social_instagram_link": "insta.com",
-    "social_youtube_link": "yt.com",
-    "social_tiktok_link": "tt.com",
+    "social_instagram_link": "https://www.instagram.com/gelguns.eu?igsh=MWFlMDg0czRkMjhhcQ==",
+    "social_youtube_link": "https://youtube.com/@gelguns_eu?si=dkd6rrEssklOQYSR",
+    "social_tiktok_link": "https://www.tiktok.com/@gelguns.eu?_r=1&_t=ZG-93VtsAOSPxI",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -151,6 +151,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "169412249732273955": {
+        "type": "shopify://apps/intercom-ai-customer-service/blocks/widget/ef6552d6-43c7-4fc7-b903-fec510e74dee",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
