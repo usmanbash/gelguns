@@ -1463,9 +1463,17 @@
       {
         "type": "number",
         "id": "cart_free_shipping_threshold",
-        "label": "Free shipping threshold",
+        "label": "Free shipping threshold (default)",
         "default": 50,
-        "info": "Amount customers need to spend for free shipping (in your store's currency)"
+        "info": "Default threshold if no currency-specific threshold is set"
+      },
+      {
+        "type": "textarea",
+        "id": "cart_free_shipping_thresholds_by_currency",
+        "label": "Free shipping thresholds by currency",
+        "info": "Set thresholds for specific currencies. Format: CURRENCY_CODE:NUMBER (one per line). Only numbers allowed after the colon. Example:\nUSD:50\nEUR:45\nDKK:350\nGBP:40",
+        "default": "# Leave empty to use default threshold for all currencies",
+        "placeholder": "USD:50\nEUR:45\nDKK:350"
       },
       {
         "type": "text",
