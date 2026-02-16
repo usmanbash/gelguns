@@ -40,22 +40,13 @@
             "heading": "Informatie",
             "menu": "customer-account-main-menu"
           }
-        },
-        "link_list_QA3jfj": {
-          "type": "link_list",
-          "disabled": true,
-          "settings": {
-            "heading": "Snelle links",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "brand_information_bbcBBN",
         "link_list_dG4DDK",
         "link_list_9t6jLV",
-        "link_list_CaznPN",
-        "link_list_QA3jfj"
+        "link_list_CaznPN"
       ],
       "settings": {
         "color_scheme": "scheme-4",
