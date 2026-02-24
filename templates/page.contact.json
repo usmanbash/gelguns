@@ -39,7 +39,7 @@
             "title": "Retourbeleid",
             "text": "<p>Een product retourneren? Check onze retour procedure</p>",
             "link_label": "Bekijk Retourbeleid",
-            "link": "#"
+            "link": "shopify://policies/refund-policy"
           }
         }
       },
