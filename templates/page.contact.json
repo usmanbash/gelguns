@@ -29,7 +29,7 @@
             "title": "FAQs",
             "text": "<p>Vind antwoord op je vraag in onze lijst met meestgestelde vragen</p>",
             "link_label": "Bekijk FAQ's",
-            "link": "#"
+            "link": "shopify://blogs/nieuws"
           }
         },
         "column_e89ahc": {
@@ -88,7 +88,7 @@
         "custom_liquid_ikPnWe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<ul class=\"custom-item\">\n<li>\n\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-mail.svg?v=27919459441137881871761580056\" width=\"21px\" alt=\"Mail icon\">\n\t\t<span><a href=\"mailto:someone@example.com\" alt=\"E-mail\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">contact@gelweapons.com</font></font></a></span>\n\t</li>\n\t<li>\n\t\t<img class=\"info-bar-icon-2\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-live-chat.svg?v=143353598810421092661761582112\" width=\"21px\" alt=\"Live Chat icon\">\n\t\t<span><a id=\"intercom-launcher\" href=\"#\" alt=\"Live Chat\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Live Chat (snelste reactie)</font></font></a></span>\n\t</li>\n</ul>"
+            "custom_liquid": "<ul class=\"custom-item\">\n<li>\n\t\t<img class=\"info-bar-icon\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-mail.svg?v=27919459441137881871761580056\" width=\"21px\" alt=\"Mail icon\">\n\t\t<span><a href=\"mailto:someone@example.com\" alt=\"E-mail\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">info@gelguns.com</font></font></a></span>\n\t</li>\n\t<li>\n\t\t<img class=\"info-bar-icon-2\" src=\"//gelwapens.nl/cdn/shop/t/18/assets/icon-live-chat.svg?v=143353598810421092661761582112\" width=\"21px\" alt=\"Live Chat icon\">\n\t\t<span><a id=\"intercom-launcher\" href=\"#\" alt=\"Live Chat\"><font dir=\"auto\" style=\"vertical-align: inherit;\"><font dir=\"auto\" style=\"vertical-align: inherit;\">Live Chat (snelste reactie)</font></font></a></span>\n\t</li>\n</ul>"
           }
         }
       },
@@ -103,7 +103,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "scheme-2b79a500-0884-4ff2-a471-19a3f2d74b07",
         "full_width": true,
