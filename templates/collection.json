@@ -79,15 +79,15 @@
         "featured_collection_DjGN66": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Accessories.webp"
+            "collection": "accessoires",
+            "custom_image": "shopify://shop_images/Your_paragraph_text_16.png"
           }
         },
         "featured_collection_nGQ6w3": {
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Gel-Blaster-Balls.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_18.png"
           }
         }
       },
@@ -100,7 +100,7 @@
         "featured_collection_nGQ6w3"
       ],
       "custom_css": [
-        ".collection-list-wrapper {border-top: solid 0.5px rgba(var(--color-foreground), .75); border-bottom: solid 0.5px rgba(var(--color-foreground), .75); margin-bottom: 60px;}"
+        ".collection-list-wrapper {border-top: solid 0.5px rgba(var(--color-foreground), 0.75); border-bottom: solid 0.5px rgba(var(--color-foreground), 0.75); margin-bottom: 60px;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
