@@ -51,29 +51,29 @@
         "featured_collection_6XafUf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Assault-Gel-Blasters.webp"
+            "collection": "assault",
+            "custom_image": "shopify://shop_images/Your_paragraph_text_14.png"
           }
         },
         "featured_collection_eHitHY": {
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/SMG-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_13.png"
           }
         },
         "featured_collection_nQ78LT": {
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Pistol-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_11.png"
           }
         },
         "featured_collection_YkXf6W": {
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "custom_image": "shopify://shop_images/Rifle-Gel-Blasters.webp"
+            "custom_image": "shopify://shop_images/Your_paragraph_text_12.png"
           }
         },
         "featured_collection_DjGN66": {
