@@ -51,6 +51,13 @@
     >
       {%- if display_image -%}
         <div class="card__media">
+          {%- if card_collection != blank -%}
+            <a
+              href="{{ card_collection.url }}"
+              class="full-unstyled-link"
+              aria-label="{% if card_collection.title != blank %}{{ card_collection.title | escape }}{% else %}{{ 'onboarding.collection_title' | t | escape }}{% endif %}"
+            >
+          {%- endif -%}
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
@@ -76,6 +83,9 @@
               class="motion-reduce"
             >
           </div>
+          {%- if card_collection != blank -%}
+            </a>
+          {%- endif -%}
         </div>
       {%- endif -%}
       {%- if card_collection == blank -%}
