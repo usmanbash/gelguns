@@ -3719,3 +3719,8 @@ details-disclosure > details {
   font-style: italic;
   font-weight: bold;
 }
+span.price-item.price-item--regular {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3bc8ff;
+}
