@@ -1,42 +1,81 @@
-<div class="specs">
-              
-            <div class="bars">
-              <div class="bar-text">
-                  <span class="bar-name">Kracht:</span>
-                  <span class="bar-score">{{product.metafields.custom.power}}</span>
-              </div>
-              <div class="container-bar">
-                  <div class="akm-power bar"></div>
-              </div>
-            
-              <div class="bar-text">
-                  <span class="bar-name">Snelheid:</span>
-                  <span class="bar-score">{{product.metafields.custom.speed}}</span>
-              </div>
-              <div class="container-bar">
-                  <div class="akm-speed bar"></div>
-              </div>
-            
-              <div class="bar-text">
-                  <span class="bar-name">Precisie:</span>
-                  <span class="bar-score">{{product.metafields.custom.precision}}</span>
-              </div>
-              <div class="container-bar">
-                  <div class="akm-accuracy bar"></div>
-              </div>
-            
-              <div class="bar-text">
-                  <span class="bar-name">Bereik:</span>
-                  <span class="bar-score">{{product.metafields.custom.reach}}</span>
-              </div>
-              <div class="container-bar">
-                  <div class="akm-range bar"></div>
-              </div>
-            </div>
-          
-          </div>
-  <style>
+{% comment %} Metafields 1–10: bar width = score × 10 (%) {% endcomment %}
+{%- liquid
+  assign power_raw = product.metafields.custom.power.value | default: product.metafields.custom.power
+  assign speed_raw = product.metafields.custom.speed.value | default: product.metafields.custom.speed
+  assign precision_raw = product.metafields.custom.precision.value | default: product.metafields.custom.precision
+  assign reach_raw = product.metafields.custom.reach.value | default: product.metafields.custom.reach
 
+  assign power = power_raw | plus: 0
+  assign speed = speed_raw | plus: 0
+  assign precision_score = precision_raw | plus: 0
+  assign reach = reach_raw | plus: 0
+
+  if power > 10
+    assign power = 10
+  endif
+  if power < 0
+    assign power = 0
+  endif
+  if speed > 10
+    assign speed = 10
+  endif
+  if speed < 0
+    assign speed = 0
+  endif
+  if precision_score > 10
+    assign precision_score = 10
+  endif
+  if precision_score < 0
+    assign precision_score = 0
+  endif
+  if reach > 10
+    assign reach = 10
+  endif
+  if reach < 0
+    assign reach = 0
+  endif
+
+  assign power_w = power | times: 10
+  assign speed_w = speed | times: 10
+  assign precision_w = precision_score | times: 10
+  assign reach_w = reach | times: 10
+-%}
+<div class="specs">
+  <div class="bars">
+    <div class="bar-text">
+      <span class="bar-name">Kracht:</span>
+      <span class="bar-score">{{ power }}</span>
+    </div>
+    <div class="container-bar">
+      <div class="bar" style="width: {{ power_w }}%;"></div>
+    </div>
+
+    <div class="bar-text">
+      <span class="bar-name">Snelheid:</span>
+      <span class="bar-score">{{ speed }}</span>
+    </div>
+    <div class="container-bar">
+      <div class="bar" style="width: {{ speed_w }}%;"></div>
+    </div>
+
+    <div class="bar-text">
+      <span class="bar-name">Precisie:</span>
+      <span class="bar-score">{{ precision_score }}</span>
+    </div>
+    <div class="container-bar">
+      <div class="bar" style="width: {{ precision_w }}%;"></div>
+    </div>
+
+    <div class="bar-text">
+      <span class="bar-name">Bereik:</span>
+      <span class="bar-score">{{ reach }}</span>
+    </div>
+    <div class="container-bar">
+      <div class="bar" style="width: {{ reach_w }}%;"></div>
+    </div>
+  </div>
+</div>
+<style>
   .container-bar {
     background-color: #e5e5e5;
     width: 100%;
@@ -50,25 +89,12 @@
     height: 100%;
     border-style: solid;
     border-width: 0 4px 0 0;
-    border-color: #29A4EF;
-    display: block!important;
+    border-color: #29a4ef;
+    display: block !important;
     border-radius: 5px;
-  }
-
-  .akm-power {
-      width: 78%;
-  }
-
-  .akm-speed {
-      width: 87%;
-  }
-
-  .akm-accuracy {
-      width: 71%;
-  }
-
-  .akm-range {
-      width: 75%;
+    max-width: 100%;
+    min-width: 0;
+    transition: width 0.25s ease;
   }
 
   .specs {
@@ -110,5 +136,4 @@
     line-height: 1.5;
     letter-spacing: 0em;
   }
-
 </style>
