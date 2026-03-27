@@ -47,13 +47,6 @@
             "custom_image": "shopify://shop_images/Your_paragraph_text_11.png"
           }
         },
-        "featured_collection_WeyJnF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rifles",
-            "custom_image": "shopify://shop_images/Your_paragraph_text_12.png"
-          }
-        },
         "featured_collection_PAMBpJ": {
           "type": "featured_collection",
           "settings": {
@@ -75,7 +68,6 @@
         "featured_collection_YH6RBM",
         "featured_collection_XwNnHa",
         "featured_collection_YKQRc6",
-        "featured_collection_WeyJnF",
         "featured_collection_PAMBpJ",
         "featured_collection_bGBKqg"
       ],
