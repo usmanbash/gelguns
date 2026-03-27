@@ -264,7 +264,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "alle-gelblasters",
         "products_to_show": 4,
         "title": "Al onze Gel Blasters",
         "heading_size": "h2",
@@ -293,7 +293,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "accessoires",
         "products_to_show": 5,
         "title": "Accessoires",
         "heading_size": "h2",
