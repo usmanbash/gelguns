@@ -303,7 +303,7 @@
         "columns_desktop": 5,
         "enable_desktop_slider": true,
         "full_width": true,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "",
         "image_ratio": "adapt",
