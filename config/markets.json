@@ -11,6 +11,12 @@
   "markets": {
     "belgie": {
       "parent": "@default"
+    },
+    "osterreich": {
+      "parent": "@default"
+    },
+    "european-union": {
+      "parent": "@default"
     }
   }
 }
