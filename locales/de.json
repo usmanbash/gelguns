@@ -1204,7 +1204,65 @@
           "other": "Wiederkehrende Sendungen"
         },
         "split_shipping_merchandise_quantity_label_additional": "+ noch %{quantity}",
-        "split_shipping_merchandise_shipment_number": "Sendung %{number} von %{total}"
+        "split_shipping_merchandise_shipment_number": "Sendung %{number} von %{total}",
+        "pre_order_ships_now": "Wird jetzt versandt",
+        "pre_order_ships_later": "Wird später versandt",
+        "split_shipping_shipped_by_shop": "Versendet von %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Mehrere Sendungen",
+        "split_shipping_shipping_label": "Weise",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} Sendungen",
+        "split_shipping_multiple_shipment_notice": "Die Bestellung wird in mehreren Sendungen geliefert",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Ihre Bestellung wird in %{quantity} Sendungen geliefert",
+        "split_shipping_more_shipping_options": "Mehr Versandmöglichkeiten",
+        "split_shipping_shipment_number": "Versand %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Anzahl: %{quantity}",
+        "split_shipping_option_free": "Kostenloser Versand",
+        "split_shipping_option_fastest": "Schnellste",
+        "split_shipping_option_custom": "Angepasst",
+        "default_description": "Wird innerhalb eines Arbeitstages versandt",
+        "split_shipping_shipment_notice": "Du erhältst deine Bestellung in %{quantity_shipments} Lieferungen",
+        "prime_not_available": {
+          "default": "Prime-Lieferung ist für deine Bestellung nicht verfügbar. Deine Versandoptionen wurden aktualisiert."
+        },
+        "split_shipping_first_shipment_notice": "Du erhältst deine erste Bestellung in %{quantity_shipments} Lieferungen",
+        "shipping_method_rollup_accessibility_label": "Versandarten auswählen",
+        "shipping_address_rollup_accessibility_label": "Optionen für den Versand an die Adresse",
+        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Lieferadresse, um verfügbare Versandarten anzuzeigen",
+        "third_party_address_timeout": "Kann Adressen nicht laden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
+        "third_party_address_error": "Beim Laden der Adressauswahl ist ein Fehler aufgetreten. Bitte geben Sie Ihre Adresse unten manuell ein.",
+        "third_party_payment_timeout": "Zahlungsmethoden können nicht geladen werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "third_party_payment_error": "Beim Laden der Zahlungsoption ist ein Fehler aufgetreten. Bitte verwenden Sie eine andere Zahlungsmethode.",
+        "choose_new_address": "Wählen Sie eine neue Adresse aus",
+        "unbranded_description_same_day": "Wird am selben Werktag versandt",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Wird am nächsten Werktag versandt",
+          "other": "Wird innerhalb von %{count} Werktagen versendet"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Wird in %{count} Woche(n) versendet",
+          "other": "Wird in %{count} Wochen versendet"
+        },
+        "add_new_delivery_address": "Eine neue Lieferadresse hinzufügen",
+        "delivery_to": "Lieferung an"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Bezahlung",
+        "amazon_payments_login_hint": "Sie werden gebeten, sich bei Amazon anzumelden.",
+        "amazon_payments_failed_mfa_challenge": "Die ausgewählte Zahlungsmethode kann nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung deiner Zahlung ist ein Problem aufgetreten. Versuche es erneut oder verwende eine andere Zahlungsmethode.",
+        "amount_left_to_pay_label": "Fälliger Betrag:",
+        "discount_button_action_label": "Gutscheincode Einlösen",
+        "gift_card_code_label": "Geschenkgutschein-Code",
+        "gift_card_balance_label": "Kontostand:",
+        "supported_card_brands_more_label": "und mehr…",
+        "detected_card_brand": "Erkannter Kartentyp: {brand}",
+        "card_pay_with": "Bezahlen mit:",
+        "card_security_notice": "Alle Transaktionen sind gesichert und verschlüsselt.",
+        "name_on_card_label": "Name auf der Karte",
+        "name_on_card_placeholder": "Name auf der Karte",
+        "card_expiry_label": "Ablaufdatum (MM/JJ)",
+        "card_expiry_placeholder": "Ablaufdatum (MM/JJ)"
       }
     }
   }
