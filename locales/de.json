@@ -2310,7 +2310,87 @@
         "selector_tabs": "Abholort-Auswahl",
         "could_not_resolve_address": "Adresse kann nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
         "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der ausgewählten Adresse gefunden",
-        "no_pickup_points_near_location": "Keine Abholstellen in der Nähe deines Standorts gefunden"
+        "no_pickup_points_near_location": "Keine Abholstellen in der Nähe deines Standorts gefunden",
+        "no_pickup_points_found": "Keine Abholstellen gefunden",
+        "paginator": {
+          "header": {
+            "one": "Zeigt %{first} - %{last} von %{count} Punkten an",
+            "other": "Zeigt %{first} - %{last} von %{count} Punkten an"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} von %{count} Punkt",
+            "other": "%{pickup_point_index} von %{count} Punkten"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} von %{count} Punkt",
+            "other": "%{first} - %{last} von %{count} Punkten"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} Abholstelle in der Nähe deines Standorts",
+          "other": "%{count} Abholstellen in der Nähe deines Standorts"
+        },
+        "change": "Standort ändern",
+        "waiting_on_pickup_point_location_notice": "Abholstellen suchen...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Das Abrufen des Standortes wird von deinem Browser nicht unterstützt. Versuche es erneut oder verwende einen anderen Browser.",
+            "permission_not_allowed": "Erlaube das Teilen deines Standorts.",
+            "permission_denied": "Standort kann nicht abgerufen werden. Bitte versuchen Sie es erneut."
+          }
+        },
+        "open_twenty_four_hours": "24 Stunden am Tag geöffnet",
+        "pickup_unavailable_banner_title": {
+          "one": "Keine Abholstellen für deinen Artikel verfügbar",
+          "other": "Keine Abholstellen für deine Artikel verfügbar"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Beim Bezahlvorgang ist ein Problem aufgetreten",
+          "message": "Aktualisieren Sie diese Seite oder versuchen Sie es in ein paar Minuten erneut"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Dieser Laden ist mit einem Passwort geschützt",
+          "customer_account_required": "Ein Kundenkonto ist erforderlich, um den Kauf abzuschließen",
+          "cart_completed": "Dieser Kaufvorgang ist bereits abgeschlossen",
+          "invalid_cart": "Der Warenkorb ist nicht mehr gültig",
+          "not_authorized": "Die Überprüfung beim Bezahlen ist fehlgeschlagen. Bitte überprüfe deine Anmeldedaten für die App.",
+          "killswitch_enabled": "Der Bezahlvorgang ist vorübergehend nicht verfügbar",
+          "policy_violation": "Konnte den Kaufvorgang aufgrund von Einschränkungen in der Richtlinienkonfiguration nicht abschließen",
+          "unrecoverable_failure": "Konnte den Bezahlvorgang nicht laden. Bitte versuchen Sie es erneut."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Zurück zum Warenkorb",
+        "subscription_changed": "Eines deiner Abonnements wurde geändert.",
+        "company_location_changed": "Ihr Warenkorb wurde angepasst. Überprüfen Sie Ihre Bestellung, bevor Sie sie absenden.",
+        "individual_violations_title": {
+          "OtherViolations": "Bestelldaten",
+          "UnhandledViolations": "Bestelldaten"
+        },
+        "all_violations_content": "Rufen Sie {{emailLink}} an oder kontaktieren Sie uns, um diese Daten zu aktualisieren und Ihre Bestellung abzuschließen:",
+        "all_violations_email_link": "E-Mail",
+        "editable_shipping_address_violations_message_title": "Fügen Sie diese Informationen hinzu, um Ihre Bestellung abzuschließen:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}}, um die Adresse für diesen Standort dauerhaft zu aktualisieren.",
+        "editable_shipping_address_violations_email_link": "Nehmen Sie Kontakt mit uns auf",
+        "company_location_changed_product_removed": "Dein Warenkorb wurde angepasst, da einige Produkte an diesem Ort nicht verfügbar sind. Überprüfe deine Bestellung, bevor du sie absendest.",
+        "shipping_address_incomplete_title": "Die Lieferadresse ist unvollständig",
+        "calculating_shipping": "Der Versand wird noch berechnet. Bitte versuchen Sie es in einigen Sekunden erneut. Es wurden keine Kosten berechnet.",
+        "calculating_taxes": "Die Steuern werden noch berechnet. Versuchen Sie es in einigen Sekunden erneut. Es wurden keine Kosten berechnet.",
+        "generic_processing_error": {
+          "title": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten",
+          "body": "Es wurden keine Kosten berechnet. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+        },
+        "contact_information": {
+          "title": "Kontaktdaten sind ungültig",
+          "header": "{{emailLink}} um deine Daten zu aktualisieren",
+          "email_link": "Nehmen Sie Kontakt mit uns auf"
+        },
+        "payment_method_not_available_with_payment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung nun unter {{paymentTerms}}-Bedingungen fällt.",
+        "payment_method_not_available_with_fulfillment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung nun bei der Erfüllung erfolgen muss.",
+        "payment_method_not_available_with_fixed_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung später erfolgen muss.",
+        "payment_method_not_available_with_review_requirement": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung fällig wird, sobald die Bestellung bestätigt ist."
       }
     }
   }
