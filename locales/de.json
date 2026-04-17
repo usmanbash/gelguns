@@ -3805,6 +3805,86 @@
       },
       "no_access_to_locations": {
         "description": "Du hast keinen Zugang zu Standorten"
+      },
+      "not_found": {
+        "description": "Überprüfen Sie die URL oder versuchen Sie es in ein paar Minuten erneut."
+      },
+      "order_not_found": {
+        "description": "Diese Bestellung existiert nicht oder du bist nicht berechtigt, sie anzusehen."
+      },
+      "profile_update_error": {
+        "description": "Beim Aktualisieren deines Profils ist ein Problem aufgetreten. Lade diese Seite neu oder überprüfe deine Internetverbindung."
+      },
+      "load_orders_error": {
+        "description": "Versuchen Sie es erneut oder kommen Sie später wieder."
+      },
+      "load_paypal_error": {
+        "description": "Beim Laden von PayPal ist ein Problem aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "load_extension_error": {
+        "description": "Aktualisieren Sie diese Seite oder versuchen Sie es in ein paar Minuten erneut.",
+        "refresh_button": "Seite aktualisieren"
+      },
+      "already_upgraded": "Kundenkonten wurden bereits aktualisiert.",
+      "failed_to_upgrade": "Das Aktualisieren der Kundenkontoeinstellungen ist fehlgeschlagen.",
+      "logout_everywhere": {
+        "description": "Beim Abmelden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "resend_link": {
+        "too_many_requests": "Zu viele Anfragen. Bitte versuchen Sie es später erneut."
+      },
+      "profile_name_update_error": {
+        "description": "Beim Aktualisieren deines Namens ist ein Problem aufgetreten. Lade diese Seite neu oder überprüfe deine Internetverbindung."
+      },
+      "load_address_form_error": {
+        "title": "Kann das Adressformular nicht laden",
+        "description": "Das Adressformular konnte nicht geladen werden."
+      },
+      "not_upgraded": "Kundenkonten wurden nicht aktualisiert.",
+      "failed_to_revert": "Die Wiederherstellung der Kundenkontoeinstellungen ist fehlgeschlagen.",
+      "revert_window_expired": "Die Wiederherstellungszeit ist abgelaufen."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Zahlungsart-Daten",
+        "payment_method_expiring_on": "Läuft ab am {{expiryDate}}",
+        "preauthorized_payments": "Vorab genehmigte Zahlungen",
+        "close_payment_modal_accessibility_label": "Modal Daten Zahlungsmethode schließen",
+        "payment_details_loading": "Zahlungsmethode-Daten werden geladen",
+        "pre_authorized_payments": "Vorab genehmigte Zahlungen",
+        "total_amount_of_subscription_line_items_left": "und noch {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} Artikel insgesamt; {{totalItemsToDisplay}} Artikel werden angezeigt.",
+        "edit_payment_method_button_accessibility_label": "Die Zahlungsmethode, die auf {{lastDigits}} endet, bearbeiten",
+        "credit_card_details_accessibility_label": "endend auf {{lastDigits}}",
+        "card_info_title": "Kartendaten",
+        "loading_shop_pay": "Shop Pay herunterladen",
+        "invalid_payment_method_message": "Verwenden Sie eine neue Kreditkarte, um zukünftige Bestellungen weiterhin zu erhalten.",
+        "replace_payment_method": "Zahlungsmethode ändern",
+        "checkout_card_banner": "Sie können diese Zahlungsmethode nur für vorab genehmigte Zahlungen verwenden. Sie wird beim Bezahlvorgang nicht angezeigt, wenn Sie in diesem Geschäft angemeldet sind.",
+        "default_checkbox_accessibility_label": "Legen Sie diese Zahlungsmethode als Standard fest"
+      },
+      "delete_payment_method_button": "Entfernen",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} entfernen",
+      "payment_delete": {
+        "title": "Zahlungsmethode entfernen",
+        "description_without_replacement": "Diese Zahlungsmethode steht für zukünftige Einkäufe nicht mehr zur Verfügung.",
+        "description_with_replacement": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf zuvor genehmigte Zahlungen. Du kannst sie auch durch eine andere Zahlungsmethode ersetzen, um zukünftige Bestellungen weiterhin zu erhalten.",
+        "payment_method_selector_placeholder": "Wählen Sie eine alternative Zahlungsmethode (optional)",
+        "replace_method_with_new_method_description": "Je {{currentPaymentMethodName}} wird entfernt und durch dein {{newPaymentMethodName}} ersetzt.",
+        "error_when_deleting": "Entschuldigung, es ist ein Fehler aufgetreten und wir können diese Zahlungsmethode nicht entfernen. Versuchen Sie es später noch einmal oder laden Sie die Seite neu.",
+        "delete_and_replace_button": "Entfernen und Ersetzen",
+        "delete_and_replace_button_accessibility_label": "Entfernen Sie {{currentPaymentMethodName}} und ersetzen Sie es durch {{newPaymentMethodName}}.",
+        "deleted_successfully": "Die Zahlungsmethode wurde entfernt.",
+        "loading_available_payment_methods_accessibility_label": "Verfügbare Zahlungsmethoden laden",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf vorab genehmigte Zahlungen. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht, es sei denn, du wählst eine andere Zahlungsmethode aus. Wähle eine andere Zahlungsmethode, um ohne Unterbrechung zukünftige Abonnementbestellungen zu erhalten.",
+          "with_pending_orders": "Das Entfernen der Zahlungsmethode bewirkt, dass diese aus deinem Konto gelöscht wird und für zukünftige Einkäufe nicht mehr zur Verfügung steht. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht, sofern du keine andere Zahlungsmethode auswählst.",
+          "with_subscriptions": "Wenn Sie diese Zahlungsmethode entfernen, hat das Auswirkungen auf vorab genehmigte Zahlungen. Ersetzen Sie diese durch eine andere Zahlungsmethode, um zukünftige Bestellungen weiterhin zu erhalten."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf vorab genehmigte Zahlungen. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht, aber du erhältst keine bevorstehenden Abonnementbestellungen mehr. Füge eine andere Zahlungsmethode hinzu, um weiterhin Abonnementbestellungen zu erhalten.",
+          "with_pending_orders": "Das Entfernen der Zahlungsmethode bewirkt, dass diese von deinem Konto gelöscht wird und für zukünftige Einkäufe nicht mehr zur Verfügung steht. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht."
+        }
       }
     }
   }
