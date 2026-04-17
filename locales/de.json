@@ -3576,7 +3576,73 @@
       "due_on_receipt": "Bei Erhalt zu zahlen",
       "payment_confirmation": {
         "payment_received": "Danke! Ihre Zahlung von {{amount}} wurde erhalten.",
-        "full_payment_received": "Danke! Ihre Zahlung von {{amount}} ist eingegangen und diese Bestellung ist jetzt vollständig bezahlt."
+        "full_payment_received": "Danke! Ihre Zahlung von {{amount}} ist eingegangen und diese Bestellung ist jetzt vollständig bezahlt.",
+        "payment_authorized": "Danke! Der Kontostand wird aktualisiert, sobald die Zahlung eingegangen ist."
+      },
+      "marketing_pending_confirmation": "Klicke auf den Link in deiner E-Mail, um zu bestätigen.",
+      "marketing_resend_email_success": "Link gesendet",
+      "total_savings": "Gesamteinsparung",
+      "price_before_discount_accessibility_label": "Ursprünglicher Preis",
+      "price_after_discount_accessibility_label": "Rabattpreis",
+      "discount_order_stacking": {
+        "one": "Bestellungsrabatt",
+        "other": "Bestellungsrabatte"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adresse entfernt",
+      "cancel_adding_address_accessibility_label": "Adresse hinzufügen abbrechen",
+      "cancel_deletion_button": "Abbrechen",
+      "cancel_deletion_button_accessibility_label": "{{address}} entfernen abbrechen",
+      "delete_button": "Entfernen",
+      "delete_button_accessibility_label": "{{address}} entfernen",
+      "delete_confirmation_button": "Adresse entfernen",
+      "delete_confirmation_button_accessibility_label": "{{address}} entfernen",
+      "delete_confirmation_message": "Adresse entfernen? Dies hat keine Auswirkung auf bestehende Bestellungen.",
+      "loading_accessibility_message": "Adresse laden",
+      "loading_addresses_accessibility_message": "Adressen abrufen",
+      "loading_billing_accessibility_message": "Rechnungsadressen laden",
+      "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
+      "loading_shipping_accessibility_message": "Lieferadresse laden",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Mehr Adressen laden"
+      },
+      "delete_confirmation_title": "Adresse entfernen?",
+      "delete_confirmation_description": "Dies hat keine Auswirkung auf bestehende Bestellungen.",
+      "add_address_banner": "Fügen Sie Adressen hinzu, um sie beim Bezahlen zu verwenden"
+    },
+    "address_form": {
+      "cancel": "Abbrechen",
+      "cancel_accessibility_label": "Die Bearbeitung der Adresse {{address}} abbrechen",
+      "loading_add_form_accessibility_message": "Formular neue Adresse laden",
+      "loading_edit_form_accessibility_message": "Formularadresse bearbeiten laden",
+      "loading_finished_accessibility_message": "Formularadresse ist geladen",
+      "update_success_notification": "Adresse aktualisiert",
+      "attention": "z. Hd.",
+      "attention_help_text": "Der Name der Person oder der Abteilung",
+      "loading_form_accessibility_message": "Formularadresse laden",
+      "attention_company": "Firma/z. H."
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Firmenname"
+      },
+      "locations": {
+        "contact_email": "E-Mail-Adresse",
+        "contact_list_title": "Menschen",
+        "contact_permissions": "Vollmachten",
+        "net_payment_terms_description": "{{name}}: Zahlungen fällig innerhalb von {{numberOfDays}} Tagen",
+        "payment_details_title": "Zahlungsdaten",
+        "permissions_title": "Vollmachten",
+        "shipping_address_required": "Fügen Sie dieser Stelle eine Lieferadresse hinzu, um Bestellungen aufgeben zu können.",
+        "tax_details_title": "Steuerdaten",
+        "multiple_tax_exemptions": "Noch {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "de",
+        "tax_exemption_not_applicable": "nicht zutreffend",
+        "pagination": {
+          "load_more": "Mehr laden"
+        }
       }
     }
   }
