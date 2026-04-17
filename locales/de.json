@@ -717,8 +717,88 @@
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Bei diesem Bezahlvorgang ist die Ablehnung von Zollgebühren nicht gestattet."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Bei diesem Kassiervorgang ist der Einzelhandelszuteilung nicht erlaubt.",
+            "retail_attribution_required": "Bei diesem Kassiervorgang ist eine Einzelhandelszuweisung erforderlich."
+          },
+          "captcha": {
+            "metadata_missing": "Bei diesem Bezahlvorgang ist das Ausfüllen eines Sicherheitscodes verpflichtend.",
+            "token_missing": "Schließen Sie diesen Kaufvorgang ab, indem Sie ein Captcha-Token eingeben.",
+            "job_enqueue_failed": "Die Captcha-Überprüfungsaufgabe kann nicht in die Warteschlange eingereiht werden.",
+            "job_already_queued": "Captcha-Überprüfung wurde bereits für dieses Token in die Warteschlange gestellt.",
+            "token_expired": "Das eingegebene Captcha-Token ist abgelaufen. Bitte führen Sie ein neues Captcha durch, um mit dem Bezahlvorgang fortzufahren.",
+            "token_invalid": "Das angegebene Captcha-Token war ungültig. Bitte führen Sie eine neue Captcha-Prüfung durch, um mit dem Bezahlvorgang fortzufahren.",
+            "token_not_valid_for_session": "Der angegebene Captcha-Code kann bei diesem Bezahlvorgang nicht verwendet werden."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Der erhaltene Betrag muss in der Währung des Ladens sein."
+          },
+          "checkout_source": {
+            "revoked": "Dieser Kassiervorgang ist nicht mehr verfügbar."
           }
-        }
+        },
+        "full_price": "Vollpreis:",
+        "title": "Zur Kasse - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Kasse",
+        "loading_title": "Zur Kasse - {{shopName}}",
+        "google_map_title": "Google-Karte",
+        "submit_order_button_label": "Bestellung aufgeben",
+        "submit_for_review_button_label": "Zur Kontrolle einreichen",
+        "submit_for_review_notice_label": "Die Zahlung ist erst fällig, wenn Ihre Bestellung geprüft wurde",
+        "continue_to_payment_plans_button_label": "Weiter zu Zahlungsplänen",
+        "back_button_label": "Zurückgeben",
+        "choose_delivery_strategy": "Wählen Sie eine Liefermethode aus",
+        "autocomplete_powered_by_google": "Möglich gemacht von {{brandName}}",
+        "submit": "Einreichen",
+        "processing": "Verarbeiten...",
+        "stepper": {
+          "increase": "Anstieg von {{type}}",
+          "decrease": "Abnahme von {{type}}",
+          "minimum_reached": "Mindestmenge von {{value}} erreicht",
+          "maximum_reached": "Maximaler Van von {{value}} erreicht"
+        },
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "Mo.",
+            "tuesday": "Di.",
+            "wednesday": "wo.",
+            "thursday": "tun.",
+            "friday": "v. Chr.",
+            "saturday": "ca.",
+            "sunday": "so."
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Vorherigen Monat anzeigen, {{month}} {{year}}",
+          "range_start": "Bereich beginnen",
+          "in_range": "In Reichweite",
+          "range_end": "Ende des Bereichs"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} in {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} von {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} von {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster von {{number}} Markierungspunkt",
+            "other": "Cluster von {{number}} Markierungspunkten"
+          }
+        },
+        "sheet": {
+          "expand": "Ausklappen"
+        },
+        "dropzone": {
+          "add_file": "Bestand hinzufügen",
+          "invalid_file_type": "Dieser Dateityp wird nicht unterstützt",
+          "dragged_over": "Bestand zum Hochladen ablegen"
+        },
+        "loading": "Lädt..."
       }
     }
   }
