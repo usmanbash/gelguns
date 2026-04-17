@@ -1753,8 +1753,68 @@
             "other": "Ihre Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten."
           },
           "long": "Du erhältst eine E-Mail, sobald deine Bestellung bearbeitet wurde. Zurzeit gibt es eine große Anzahl an Bestellungen.",
-          "no_auto_refresh_html": "%{link}, falls du nicht automatisch weitergeleitet wirst."
-        }
+          "no_auto_refresh_html": "%{link}, falls du nicht automatisch weitergeleitet wirst.",
+          "refresh_this_page": "Diese Seite neu laden"
+        },
+        "you_will_not_be_charged": "Es werden noch keine Kosten berechnet",
+        "redirecting_to_bank": "Umleiten zu {{bank}}",
+        "modal_notice": "Wir nehmen Kontakt mit {{paymentMethod}} auf",
+        "remote_shops_payments_processing": "Zahlungen bearbeiten"
+      },
+      "failed_payment": {
+        "page_title": "Die Zahlung kann nicht verarbeitet werden",
+        "title": "Die Zahlung kann nicht verarbeitet werden",
+        "payment_not_processed_title": "Ihre Zahlung kann nicht verarbeitet werden.",
+        "payment_not_processed_text": "Es wurden keine Kosten berechnet. Kehre zu deinem Warenkorb zurück, um deinen Einkauf abzuschließen."
+      },
+      "payment_gateway": {
+        "money_order_label": "Postscheckschein",
+        "debit_card_label": "Zahlungskarte",
+        "deferred_payment_label": "Wählen Sie später eine Zahlungsmethode aus",
+        "generic_payment_terms": "Die Zahlungsbedingungen für {{translatedName}} gelten. Ihre Zahlung ist fällig am {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} bei einem Konto mit Zugriff auf diesen Standort oder gespeicherte Zahlungsmethoden hinzuzufügen oder zu verwenden.",
+            "link": "Anmelden"
+          }
+        },
+        "direct_payment_terms": "Die {{translatedName}}-Bedingungen gelten. Das Geld wird am {{dueDate}} von deiner Karte abgebucht.",
+        "order_due_on_fulfillment_choose_later": "Die Zahlung ist fällig, sobald die Bestellung bearbeitet wurde.",
+        "order_due_on_fulfillment_payment": "Das Geld wird von deiner Karte abgebucht, sobald die Bestellung bearbeitet wurde.",
+        "draft_order_payment_due_later_no_terms": "Die Zahlung ist fällig, sobald die Bestellung bestätigt wurde.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Das Geld wird von deiner Karte abgebucht, sobald die Bestellung bestätigt ist.",
+        "draft_order_payment_due_later_terms": "Die {{translatedName}}-Bedingungen gelten, sobald die Bestellung bestätigt wurde.",
+        "draft_order_payment_due_on_fulfillment": "Die Zahlung ist fällig, sobald die Bestellung bestätigt und bearbeitet wurde.",
+        "fixed_payment_label": "Die Zahlung ist am {{dueDate}} fällig.",
+        "fixed_direct_payment_terms": "Dieser Betrag wird am {{dueDate}} deiner Karte belastet.",
+        "order_deposit_due_now": "{{depositAmount}} muss heute bezahlt werden. Für den Restbetrag gelten die {{translatedName}}-Bedingungen und er muss bis zum {{dueDate}} beglichen sein.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} muss heute bezahlt werden. Der Restbetrag ist fällig, sobald deine Bestellung bearbeitet wurde.",
+        "order_due_on_receipt_choose_later": "Die Zahlung ist bei Erhalt fällig.",
+        "draft_order_deposit_due_later": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Für den Restbetrag gelten die {{translatedName}}-Bedingungen.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist fällig, sobald deine Bestellung bearbeitet wurde.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} muss heute bezahlt werden. Der Restbetrag ist später fällig.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} muss heute bezahlt werden. Der Restbetrag muss bis zum {{dueDate}} bezahlt sein."
+      },
+      "thank_you": {
+        "title": "Danke für deinen Kauf!",
+        "confirmation_email_sent_text": "Eine Bestätigungs-E-Mail wurde an %{email} gesendet",
+        "return_to_store_link_label": "Zurück zum Laden",
+        "print_link_label": "Kaufbeleg drucken",
+        "shipping_information_title": "Versanddaten",
+        "page_title": "Danke, %{display_name}.",
+        "page_title_no_name": "Danke!",
+        "customer_information_title": "Bestelldaten",
+        "contact_information_title": "Kontaktinformationen",
+        "shipping_address_map_title": "Google-Karte mit Markierung der Lieferadresse: %{address}",
+        "tracking_number": "Verfolgungsnummer:",
+        "company_tracking_number": "%{company} Sendungsnummer:",
+        "estimated_arrival": "Voraussichtliches Lieferdatum:",
+        "re-order": "Die gleichen Artikel erneut bestellen",
+        "thank_you_title": "Deine Bestellung ist bestätigt",
+        "thank_you_confirmed_order_with_email": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit deiner Bestellnummer.",
+        "thank_you_confirmed_order_with_phone": "Du erhältst in Kürze eine Bestätigungs-SMS mit deiner Bestellnummer",
+        "thank_you_confirmed_order_with_email_and_phone": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit deiner Bestellnummer.",
+        "thank_you_confirmed_order_with_missing": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf für Ihre Bestellbestätigung."
       }
     }
   }
