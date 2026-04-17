@@ -1870,7 +1870,69 @@
         "fulfillment": {
           "fulfilled_table_title": "Artikel in dieser Sendung",
           "unfulfilled_table_title": "Artikel werden für den Versand vorbereitet"
-        }
+        },
+        "order_updates_description_missing": "Du erhältst keine Versandbenachrichtigungen.",
+        "order_updates_subscribe_to_email_notifications": "Erhalten Sie Versandaktualisierungen per E-Mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Erhalten Sie Versandaktualisierungen per E-Mail oder SMS",
+        "order_updates_subscribe_to_phone_notifications": "Erhalte Versandbenachrichtigungen per SMS",
+        "order_updates_submit_subscription": "Einreichen",
+        "track_shipment": "Verfolgung der Sendung",
+        "order_status_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, wenn du deine Bestellung abholen kannst.",
+        "order_status_confirmed_order_with_phone_pick_up": "Du erhältst eine SMS, wenn du deine Bestellung abholen kannst.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Du erhältst eine E-Mail und eine SMS, wenn du deine Bestellung abholen kannst.",
+        "pick_up_in_store_marker": {
+          "current": "Aktueller Versandort"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Du erhältst eine E-Mail, wenn du deine Bestellung abholen kannst.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Du erhältst eine SMS, wenn du deine Bestellung abholen kannst.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du erhältst eine E-Mail, wenn du deine Bestellung abholen kannst.",
+        "ready_for_pickup_title": "Die Bestellung ist abholbereit",
+        "ready_for_pickup_description": "Deine Bestellung kann abgeholt werden. Bitte bring die Bestellbestätigung mit, wenn du die Bestellung abholst.",
+        "picked_up_title": "Die Bestellung wurde abgeholt",
+        "picked_up_description_html": "Deine Bestellung wurde am %{date} bei %{location_name} abgeholt.",
+        "other_options": "Andere Optionen",
+        "ready_for_delivery_title": "Die Bestellung ist versandbereit",
+        "ready_for_delivery_description": "Wir haben die Bestellung fertiggestellt.",
+        "order_status_confirmed_order_local": "Wir bereiten deine Bestellung für die Zustellung vor.",
+        "delivery_information_label": "Lieferinformationen:",
+        "gift_card_sent_confirmation": "Geschenkgutscheine versandt",
+        "out_for_delivery_local_title": "Ihre Bestellung ist versandbereit",
+        "out_for_delivery_local_description_html": "Du erhältst deine Bestellung in Kürze.",
+        "delivered_local_title": "Ihre Bestellung wurde geliefert",
+        "delivered_local_description_html": "Hast du deine Bestellung noch nicht erhalten? %{let_us_know}.",
+        "qr_code": {
+          "title": "Folge auf deinem Telefon"
+        },
+        "gift_card_confirmation_by_text": "Falls du diese nicht erhalten hast, lass die SMS erneut senden oder kontaktiere uns.",
+        "gift_card_confirmation_by_email": "Falls Sie diese nicht erhalten haben, lassen Sie die E-Mail bitte erneut zusenden oder wenden Sie sich an uns.",
+        "attempted_delivery_local_title": "Verpasste Zustellung",
+        "attempted_delivery_local_description_html": "Wir konnten deine Bestellung leider nicht zustellen. %{contact_us}, um eine andere Lieferung zu vereinbaren.",
+        "thank_you_title_payment": "Ihre Zahlung ist bestätigt",
+        "thank_you_confirmed_order_with_email_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "thank_you_confirmed_order_with_phone_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "order_status_confirmed_order_with_email_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "order_status_confirmed_order_with_phone_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Sie haben eine Zahlung für Ihre Bestellung vom %{date} vorgenommen.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Mit deinem Telefon scannen"
+          },
+          "sms": {
+            "title": "Oder sende einen Link an dein Telefon"
+          }
+        },
+        "estimated_delivery": "Aktuelle Lieferzeit:",
+        "thank_you_title_review": "Ihre Bestellung wurde zur Prüfung eingereicht",
+        "thank_you_confirmed_order_with_draft": "Wir informieren dich, wenn wir weitere Informationen benötigen oder wenn deine Bestellung bestätigt wurde.",
+        "breadcrumbs_submitted": "Eingereicht",
+        "breadcrumbs_in_review": "Zur Begutachtung",
+        "missing_shipping_address_banner": {
+          "contact_us": "Kontakt mit uns aufnehmen"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Wende dich wieder an den Verkaufsmitarbeiter.",
+        "order_status_confirmed_with_installments_payment_confirm": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit deiner Bestellnummer und den Einzelheiten deines Ratenzahlungsplans.",
+        "in_store_purchase": "Kauf im Geschäft"
       }
     }
   }
