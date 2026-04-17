@@ -3358,10 +3358,78 @@
         "delivery_promise": {
           "promise_line": {
             "single_brand_label": "Lieferung unterstützt von",
-            "mixed_brands_label": "Lieferung garantiert"
+            "mixed_brands_label": "Lieferung garantiert",
+            "modal_accessibility_button_label": "Daten zur Lieferzusicherung"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Fordere deinen Ladenbonus an",
+            "no_shop_app_label": "{{appDownloadLink}} um Shop Cash zu beanspruchen"
+          },
+          "details_modal": {
+            "title": "Lieferung unterstützt von",
+            "modal_accessiblity_label": "Daten zur Lieferzusicherung",
+            "delivery_by_label": "Lieferung bis {{date}}",
+            "delivery_guaranteed_by_label": "Lieferung garantiert bis {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop-Versprechen garantiert schnelle, verlässliche Zustellung. Fordere Shop-Guthaben an, wenn deine Bestellung zu spät geliefert wird.",
+              "may_be_eligible_not_authorized_label": "Möglicherweise haben Sie Anspruch auf Shop-Guthaben, da diese Bestellung zu spät eingetroffen ist. Melden Sie sich an, um die Einzelheiten einzusehen.",
+              "redeemed_label": "Du hast Shop Cash bereits beansprucht, weil diese Bestellung zu spät angekommen ist.",
+              "expired_label": "Diese Bestellung ist nicht für eine Reklamation wegen verspäteter Lieferung berechtigt, da die 30-tägige Garantie abgelaufen ist.",
+              "no_shop_cash_label": "Diese Bestellung ist nicht für eine Reklamation wegen verspäteter Lieferung berechtigt, da sie nicht mit Shop Pay bezahlt wurde.",
+              "no_longer_guaranteed_label": "Diese Artikel werden nicht mehr durch eine Liefergarantie unterstützt.",
+              "claim_shop_cash_title": "Scanne, um {{amount}} an Shop Cash zu beanspruchen",
+              "claim_shop_cash_description": "Du kannst Shop Cash für zukünftige Einkäufe in der Shop-App verwenden."
+            },
+            "delivery_guarantee_label": "Liefergarantie"
           }
-        }
-      }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Verwalten bei Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Lieferung garantiert durch",
+            "external_promise_brand_label": "Liefern für",
+            "not_delivered_by_label": "Besorgt nach {{date}}",
+            "delivery_guarantee_expired_label": "Garantierte Lieferung abgelaufen",
+            "modal_accessibility_button_label": "Daten zur Lieferzusicherung",
+            "download_shop_app_button_label": "Download-Shop für Sendungsverfolgung",
+            "track_with_shop_button_label": "Mit dem Geschäft verfolgen",
+            "claim_shop_cash_button_label": "Shop-Guthaben einlösen"
+          },
+          "details_modal": {
+            "title": "Liefergarantie",
+            "active_delivery_guarantee_label": "Lieferung bis {{date}}",
+            "expired_delivery_guarantee_description": "Die 30-tägige Shop-Versprechen-Garantie für diese Bestellung ist abgelaufen.",
+            "order_includes_guarantees_label": "Jede Lieferung hat {{deliveryAgreementsCount}} Garantien",
+            "order_includes_guarantees_description": "Shop Promise bietet eine Garantie für schnelle, zuverlässige Lieferung. Fordere Shop Cash an, wenn deine Bestellung nach {{date}} geliefert wird.",
+            "delivered_after_label": "Besorgt nach {{date}}",
+            "delivered_after_description": "Deine Bestellung ist zu spät angekommen, daher kannst du {{amount}} Shop Cash beanspruchen.",
+            "claimed_shop_cash_description": "Diese Bestellung wurde zu spät geliefert, daher hast du {{amount}} Shop Cash erhalten.",
+            "eligible_to_claim_shop_cash_description": "Deine Bestellung ist zu spät angekommen, daher kannst du {{amount}} Shop Cash beanspruchen.",
+            "learn_more_button_label": "Mehr Informationen",
+            "claim_shop_cash_button_label": "Shop-Guthaben einlösen",
+            "view_balance_in_shop_button_label": "Kontostand im Laden ansehen",
+            "scan_to_claim_shop_cash_label": "Scanne, um {{amount}} an Shop Cash zu beanspruchen"
+          }
+        },
+        "tracking_number": {
+          "one": "Sendungsnummer",
+          "other": "Sendungsnummern"
+        },
+        "gift_card_resend_button": {
+          "one": "Geschenkgutschein erneut senden",
+          "other": "Geschenkgutscheine erneut senden"
+        },
+        "expected_by": "Erwartet spätestens am {{date}}",
+        "was_expected_by": "Wird spätestens am {{date}} erwartet"
+      },
+      "status_mark_as_delivered": "Als besorgt markieren",
+      "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}",
+      "fulfillment_status_title": "Erfüllungsstatus: {{status}}",
+      "list_title_pending_orders_accessibility_label": "Bestellungen: in Bearbeitung",
+      "switch_order_type_pending_orders_accessibility_label": "Bestellart wechseln; du siehst jetzt Bestellungen in Bearbeitung",
+      "switch_order_type_confirmed_orders_accessibility_label": "Bestellart wechseln; Sie sehen bestätigte Bestellungen ein"
     }
   }
 }
