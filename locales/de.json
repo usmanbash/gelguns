@@ -3039,7 +3039,95 @@
     },
     "page_titles": {
       "shopping_cart": "Ihr Warenkorb",
-      "order": "Bestelle %{name}"
+      "order": "Bestelle %{name}",
+      "search": "Suchen",
+      "not_found": "404 nicht gefunden",
+      "checkpoint": "Kontrollpunkt",
+      "search_results": {
+        "one": "Suche: %{count} Ergebnis gefunden für '%{terms}'",
+        "other": "Suchen: %{count} Ergebnisse gefunden für '%{terms}'"
+      },
+      "blog_or_article_with_error": "Fehler - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Es wurden %{count} Rabatte angewendet"
+    },
+    "challenge": {
+      "message": "Lass uns wissen, dass du kein Roboter bist, um fortzufahren.",
+      "error": "Deine Antwort war nicht richtig, versuche es noch einmal.",
+      "submit_button_text": "Versenden"
+    },
+    "checkpoint": {
+      "message": "Löse das Captcha, um fortzufahren",
+      "error": "Captcha-Überprüfung fehlgeschlagen",
+      "submit_button_text": "Versenden"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Vielen Dank für Ihre Anmeldung zu unserem Verteiler.",
+        "disclaimer": "Du kannst dich jederzeit abmelden."
+      },
+      "unsubscribed": {
+        "confirmation": "Du hast dich von unserem Verteiler abgemeldet.",
+        "disclaimer": "Du erhältst keine Werbeaktualisierungen mehr von uns. Du kannst dich jederzeit wieder anmelden.",
+        "preview": "Sie sehen ein Beispiel dessen, was Kunden sehen werden, wenn sie sich abmelden."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Du hast die Erlaubnis zur E-Mail-Öffnungsüberwachung gegeben.</b>",
+          "visibility": "E-Mail-Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob du eine E-Mail geöffnet hast, als Teil einer zusammengefassten E-Mail-Öffnungsrate.",
+          "opt_out_html": "Du kannst dich <a style='text-decoration:underline;' href='%{link}'>abmelden</a> vom E-Mail-Open-Tracking, wenn du diese Informationen nicht teilen möchtest.",
+          "preview_bar": "Sie sehen ein Beispiel dessen, was Kunden zu sehen bekommen, wenn sie der Erlaubnis zustimmen, E-Mails mit offener Nachverfolgung zu erhalten."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Du hast dich vom E-Mail-Öffnungs-Tracking abgemeldet.</b>",
+          "visibility": "Wir sehen nicht, ob du unsere E-Mails geöffnet hast.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Zustimmung erteilen</a> für das offene Tracking von E-Mails.",
+          "preview_bar": "Sie sehen ein Beispiel dessen, was Kunden angezeigt wird, wenn sie sich vom Empfang von E-Mails über offene Nachverfolgung abmelden."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Wir verfolgen nicht mehr, ob E-Mails geöffnet werden.</b>",
+          "privacy_policy": "Nachdem diese E-Mail versandt wurde, haben wir unsere Datenschutzbestimmungen aktualisiert und verfolgen das Öffnen von E-Mails nicht mehr."
+        },
+        "track": {
+          "status_html": "<b>E-Mail-Öffnungsnachverfolgung wird gemeldet.</b>",
+          "visibility": "Wir werden nur sehen, ob du die E-Mail geöffnet hast, als Teil der gesamten E-Mail-Öffnungsrate."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-Mail-Öffnungsnachverfolgung wird gemeldet.</b>",
+          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen nun geöffnete E-Mails. Die Öffnungsraten der E-Mails werden anonym gemeldet. Wir sehen nur, ob du eine E-Mail geöffnet hast, als Teil der gesamten E-Mail-Öffnungsrate.",
+          "opt_out_html": "Wenn Sie diese Informationen nicht mehr teilen möchten, können Sie sich <a style='text-decoration:underline;' href='%{link}'>abmelden</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Bist du sicher, dass du dich von der SMS-Werbung abmelden möchtest?",
+        "button": "Abmelden"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Meistens innerhalb einer Stunde fertig",
+        "two_hours": "Meistens innerhalb von 2 Stunden fertig",
+        "four_hours": "Meistens innerhalb von 4 Stunden fertig",
+        "twenty_four_hours": "Meistens innerhalb von 24 Stunden fertig",
+        "two_to_four_days": "Meistens innerhalb von 2-4 Tagen fertig",
+        "five_or_more_days": "Meistens fertig in mehr als 5 Tagen",
+        "zero_to_two_hours": "Meistens innerhalb von 2 Stunden fertig",
+        "two_to_four_hours": "Meistens innerhalb von 4 Stunden fertig",
+        "immediately": "Bereit zur Abholung",
+        "next_day": "Bereit zur Abholung am nächsten Tag"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Preis: niedrig bis hoch",
+        "price_descending": "Preis: hoch nach niedrig"
+      },
+      "error": "Beim Laden der Suchergebnisse ist ein Problem aufgetreten. Bitte laden Sie die Seite neu oder versuchen Sie es später noch einmal."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Dieser Artikel ist ein wiederkehrender oder aufgeschobener Kauf. Wenn ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und erteile dir außerdem die Erlaubnis, die angegebenen Preise von meiner Zahlungsmethode zum angegebenen Intervall und an den angegebenen Daten abzubuchen, bis meine Bestellung abgeschlossen ist oder bis ich, falls erlaubt, kündige.",
+      "buyer_consent_cart": "Ein oder mehrere Artikel in deinem Warenkorb sind aufgeschobene oder wiederkehrende Käufe. Wenn ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und erteile dir außerdem die Erlaubnis, die angegebenen Preise von meiner Zahlungsmethode zum angegebenen Rhythmus und an den angegebenen Daten abzubuchen, bis meine Bestellung abgeschlossen ist oder bis ich, falls erlaubt, kündige."
     }
   }
 }
