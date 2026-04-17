@@ -2211,8 +2211,106 @@
         "recurring_totals_with_policies": {
           "first_cycles": {
             "other": "Erste %{count} Zahlungen zu je %{total_price}"
+          },
+          "following_cycles": ", danach %{total_price} alle %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Erste Zahlung %{total_price_with_discount} danach %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", danach %{count} Zahlung von %{total_price}",
+            "other": ", danach %{count} Zahlungen, jeweils %{total_price}"
           }
         }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Bei der Bearbeitung deiner Anfrage ist ein Problem aufgetreten.",
+          "success_message": "Deine Zahlungsmethode wurde entfernt"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Allgemeine Geschäftsbedingungen von MoR (Händler des Eintrags)",
+        "privacy_policy": "Datenschutzerklärung des registrierten Händlers"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Dieses Produkt wird aus deinem Warenkorb entfernt, da es in deinem Land/Region nicht verfügbar ist.",
+          "other": "Diese Produkte werden aus deinem Warenkorb entfernt, da sie in deinem Land/Region nicht verfügbar sind."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dieses Produkt ist in deinem Land/Region nicht verfügbar.",
+          "other": "Diese Produkte sind in deinem Land/Region nicht verfügbar."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ihr Land/Ihre Region wurde aktualisiert. Bitte geben Sie die Lieferadresse ein, um zur Kasse zu gelangen."
+      },
+      "throttle": {
+        "line_to_check_out": "Du stehst in der Schlange, um zu bezahlen",
+        "cart_summary_heading": "Ihr Warenkorb",
+        "inventory": {
+          "partial_inventory_banner": "Ein Teil deines Warenkorbs ist ausverkauft und kann beim Bezahlen nicht erworben werden.",
+          "sold_out": {
+            "heading": "Ihr Warenkorb ist ausverkauft",
+            "storefront_body": "Zurück zum Laden, um weiter einzukaufen",
+            "no_storefront_body": "Der Artikel, den Sie kaufen wollten, ist leider nicht mehr verfügbar.",
+            "link": "Zurück zum Laden"
+          }
+        },
+        "time_to_checkout_title": "Zeit zum Bezahlen - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Geschätzte Wartezeit berechnen",
+          "less_than_one": "Geschätzte Wartezeit: weniger als eine Minute",
+          "one": "Geschätzte Wartezeit: {{count}} Minute",
+          "other": "Geschätzte Wartezeit: {{count}} Minuten"
+        },
+        "footer": {
+          "heading": "Sie müssen diese Seite nicht neu laden, sie wird automatisch aktualisiert.",
+          "body": "Artikel in deinem Warenkorb werden erst reserviert, wenn du den Bestellvorgang abgeschlossen hast."
+        },
+        "too_many_attempts": {
+          "description": "Versuchen Sie es in ein paar Minuten erneut"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Bei der Bearbeitung deiner Anfrage ist ein Problem aufgetreten. Bitte wende dich an den Ladenbesitzer."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Keine Lieferung verfügbar für %{count} Artikel",
+            "other": "Keine Lieferung verfügbar für %{count} Artikel"
+          },
+          "message": {
+            "one": "Dieser Artikel wird aus deinem Warenkorb entfernt, da für deine Adresse keine Liefermethoden verfügbar sind.",
+            "other": "Dieser Artikel wird aus deinem Warenkorb entfernt, da für deine Adresse keine Liefermethoden verfügbar sind."
+          },
+          "label": "Keine Lieferung"
+        }
+      },
+      "no_address_location": {
+        "title": "Ort ohne Adresse",
+        "header": "Für diesen Ort ist keine Lieferadresse vorhanden",
+        "message": "Nehmen Sie Kontakt mit uns auf, um eine Adresse für diesen Standort hinzuzufügen, damit Sie den Kauf abschließen können.",
+        "email_us_button_label": "Schicken Sie uns eine E-Mail",
+        "alt_header": "Lieferadresse fehlt"
+      },
+      "order_errors": {
+        "creation_failure": "Beim Anlegen deiner Bestellung ist ein Problem aufgetreten. Versuche es erneut oder kontaktiere uns für weitere Informationen.",
+        "network_failure": "Deine Bestellung kann wegen eines Netzwerkfehlers nicht abgeschickt werden. Überprüfe deine Verbindung und versuche es erneut.",
+        "inventory_reservation_failure": "Einige Artikel sind nicht mehr verfügbar."
+      },
+      "session_errors": {
+        "session_not_unique": "Bei der Bearbeitung deiner Bestellung ist ein Problem aufgetreten. Lade diese Seite neu, um zum Geschäft zurückzukehren.",
+        "session_already_finished": "Diese Bestellung wurde bereits aufgegeben. Du kannst zum Laden zurückkehren, um eine neue Bestellung zu starten."
+      },
+      "pickup_point": {
+        "title": "Abholstelle",
+        "search_button": "Suchen",
+        "selector_tabs": "Abholort-Auswahl",
+        "could_not_resolve_address": "Adresse kann nicht gefunden werden. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Adresse.",
+        "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der ausgewählten Adresse gefunden",
+        "no_pickup_points_near_location": "Keine Abholstellen in der Nähe deines Standorts gefunden"
       }
     }
   }
