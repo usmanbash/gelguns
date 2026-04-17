@@ -654,7 +654,69 @@
             "new_tax_must_be_accepted": "Die auf deine Bestellung anfallenden Steuern wurden geändert. Überprüfe deine Bestellung und versuche es erneut.",
             "unresolvable_tax_terms": "Die vorgeschlagenen Bedingungen sind im Hinblick auf den bestehenden Verhandlungskontext nicht umsetzbar.",
             "delivery_price_is_abstract": "Der betreffende Preis für die Zustellung ist abstrakt.",
-            "tax_inclusivity_mismatch": "Verhandeln Sie erneut mit einem konkreten Wert für totalTaxAndDutyAmount oder totalAmountIncludedInTarget."
+            "tax_inclusivity_mismatch": "Verhandeln Sie erneut mit einem konkreten Wert für totalTaxAndDutyAmount oder totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "In der aktuellen Verhandlungssitzung werden keine Steuerbefreiungen unterstützt.",
+            "delivery_tax_exemption_not_supported": "Steuerbefreiungen für Lieferregelungen werden derzeit nicht unterstützt.",
+            "proposed_allocations_required": "Das Feld 'vorgeschlagene Zuweisungen' fehlt.",
+            "merchandise_terms_must_be_defined": "Definieren Sie Bedingungen für Waren.",
+            "delivery_terms_must_be_defined": "Definieren Sie Lieferbedingungen.",
+            "merchandise_discount_terms_must_be_defined": "Definieren Sie Bedingungen für Warenrabatt.",
+            "delivery_discount_terms_must_be_defined": "Definieren Sie Bedingungen für Liefernachlass.",
+            "allocated_required": "Das Feld 'zugewiesen' fehlt.",
+            "value_required": "Das Feld 'Wert' fehlt.",
+            "line_splits_not_supported": "Das Feld „Warenpositionen“ muss so aufgeteilt werden, dass für jede Position eine eigene Komponente im Angebot des Verkäufers vorhanden ist."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manuelle Zahlungen sind in B2B-Geschäften nicht erlaubt.",
+            "total_amount_mismatch": "Der insgesamt zu zahlende Betrag stimmt nicht mit der Summe der Zahlungen überein.",
+            "subscription_terms_not_accepted": "Abonnementbedingungen nicht akzeptiert.",
+            "missing_session_id": "Informationen zur Kreditkartensitzung fehlen.",
+            "gateway_not_supported": "Das Zahlungstor unterstützt das Speichern der Zahlungsmethode nicht.",
+            "credit_card_last_name_required": "'Nachname' darf nicht leer sein.",
+            "credit_card_update_failed": "Aktualisierung der Kreditkarte ist fehlgeschlagen.",
+            "invalid_address_type": "Der eingegebene Adresstyp ist für diese Zahlungsmethode ungültig.",
+            "missing_retail_attributions": "Einzelhandelszuweisungen sind für manuell eingegebene Kreditkartenzahlungen erforderlich.",
+            "unexpected_retail_attributions": "Unerwartete Einzelhandelszuweisungen für eine Kreditkartenzahlung angegeben.",
+            "invalid_card_source": "Diese Sitzung ist nicht berechtigt, diese Kartenquelle zu verwenden.",
+            "wallet_content_missing": "Inhalt der Brieftasche fehlt.",
+            "payment_instrument_not_found": "Zahlungsmethode kann nicht gefunden werden",
+            "unauthorized_capture_method": "Die Konfiguration der Methode zur Erfassung von Zahlungen ist nicht erlaubt.",
+            "saved_payment_methods_not_allowed": "'Gespeicherte Zahlungsmethoden' sind nicht erlaubt.",
+            "saved_payment_methods_not_enabled": "'Gespeicherte Zahlungsmethoden' ist für diesen Laden nicht aktiviert.",
+            "store_credit_not_enabled": "Guthaben für diesen Laden ist nicht aktiviert.",
+            "store_credit_account_not_found": "Warenkontoguthaben nicht gefunden.",
+            "store_credit_account_mismatch": "Das Guthabenkonto stimmt nicht mit der Identität des Käufers überein.",
+            "store_credit_mismatched_currency": "Die Währung des Guthabenkontos stimmt nicht mit der Währung der Kasse überein.",
+            "store_credit_insufficient_funds": "Es ist nicht genügend Guthaben auf dem Einkaufskonto vorhanden.",
+            "store_credit_buying_gift_card": "Mit Guthaben im Geschäft kannst du keinen Geschenkgutschein kaufen.",
+            "gift_cards_not_allowed_for_b2b": "Geschenkgutscheine sind in B2B-Geschäften nicht erlaubt.",
+            "saved_payment_methods_cvv_verification_disabled": "Für die ausgewählte Zahlungsmethode ist eine CVV/CVC-Überprüfung erforderlich, diese ist jedoch für diesen Laden nicht aktiviert. Bitte verwenden Sie eine andere Zahlungsmethode."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Der Laden nimmt keine Trinkgelder an.",
+            "only_one_tip_line_allowed": "Mehrere Fußzeilen werden nicht unterstützt.",
+            "tips_not_allowed_for_b2b": "Trinkgelder sind in B2B-Geschäften nicht erlaubt.",
+            "currency_change_reset": "Das Trinkgeld wurde aufgrund einer Währungsänderung zurückgesetzt.",
+            "tips_not_allowed_for_deferred_purchase_options": "Trinkgelder werden für aufgeschobene Kaufoptionen noch nicht unterstützt."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Diese Konzeptbestellung existiert nicht im gegenwärtigen Geschäft.",
+            "staff_member_not_exist": "Dieser Mitarbeiter ist im aktuellen Geschäft nicht bekannt.",
+            "location_not_exist": "Dieser Standort existiert im aktuellen Geschäft nicht.",
+            "point_of_sale_device_not_exist": "Dieses Verkaufsgerät ist im aktuellen Geschäft nicht vorhanden.",
+            "unresolvable_target_merchandise_lines": "Die vorgeschlagenen Verkaufszuweisungen sind im bestehenden Verhandlungskontext nicht lösbar."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Der Vorschlag deines Käufers muss non-negotiable_terms enthalten.",
+            "invalid_signature": "Die Unterschrift für {{target_terms}} ist ungültig."
+          },
+          "inventory": {
+            "missing_quantity_value": "Das Feld 'Menge' fehlt in den Lagerbestandszeilen des Käufers.",
+            "changing_behavior_not_allowed": "Dieser Kunde ist nicht berechtigt, die Lagerbestandsfunktion zu ändern.",
+            "only_one_inventory_behavior_allowed": "Im Moment ist pro Kasse nur eine Lagerfunktion erlaubt."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Bei diesem Bezahlvorgang ist die Ablehnung von Zollgebühren nicht gestattet."
           }
         }
       }
