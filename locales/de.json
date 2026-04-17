@@ -1932,7 +1932,71 @@
         },
         "order_status_confirmed_with_installments_payment_return": "Wende dich wieder an den Verkaufsmitarbeiter.",
         "order_status_confirmed_with_installments_payment_confirm": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit deiner Bestellnummer und den Einzelheiten deines Ratenzahlungsplans.",
-        "in_store_purchase": "Kauf im Geschäft"
+        "in_store_purchase": "Kauf im Geschäft",
+        "choose_payment_method_later": "Zahlungsmethode später wählen",
+        "thank_you_ready_for_picked_up": "Die Bestellung wurde bei %{address} abgeholt.",
+        "ready_for_delivery": "Bereit zur Auslieferung",
+        "order_updates_subscribe_to_email_notifications_failed": "Wir können diese E-Mail-Adresse nicht für Aktualisierungen speichern. Versuchen Sie es erneut oder verwenden Sie eine andere E-Mail-Adresse.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Die eingegebene E-Mail-Adresse ist bereits vorhanden.",
+        "subscriptions_management": {
+          "description": "Gehe weiter zu deinem Konto, um deine Abonnements anzusehen und zu verwalten.",
+          "button_label": "Ihr Abonnement verwalten"
+        },
+        "manage_order_label": "Deine Bestellung verwalten",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "In ein paar Minuten erhältst du eine SMS mit deinem Geschenkgutschein.",
+          "other": "In ein paar Minuten erhältst du eine SMS mit deinen Geschenkgutscheinen."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "In ein paar Minuten erhältst du eine SMS mit deinem Geschenkgutschein.",
+          "other": "In ein paar Minuten erhältst du eine SMS mit deinen Geschenkgutscheinen."
+        },
+        "gift_card_email_title": {
+          "one": "Der Geschenkgutschein wurde per E-Mail versandt",
+          "other": "Geschenkgutscheine wurden per E-Mail versandt"
+        },
+        "gift_card_text_title": {
+          "one": "Der Geschenkgutschein wurde per SMS versendet",
+          "other": "Geschenkgutscheine wurden per SMS versandt"
+        },
+        "resend_gift_cards_by_text": "SMS erneut senden",
+        "gift_card_resent_confirmation": {
+          "one": "Geschenkgutschein wurde erneut versandt.",
+          "other": "Geschenkgutscheine wurden erneut versandt."
+        },
+        "gift_card_resend_failure": {
+          "one": "Beim erneuten Versenden Ihres Geschenkgutscheins ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns.",
+          "other": "Beim erneuten Versenden Ihrer Geschenkgutscheine ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns."
+        },
+        "thank_you_title_payments_app_pending_default": "Die Zahlung wird bearbeitet",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Wir haben deine Bestellung erhalten",
+        "thank_you_title_payments_app_failed_pending_payment": "Ihre Zahlung kann nicht bearbeitet werden",
+        "thank_you_payments_app_failed_pending_payment": "Deine Bestellung ist noch nicht bezahlt. Gehe zurück zu deinem Warenkorb, um deine Bestellung zu überprüfen und zu bezahlen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst deine Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst deine Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du erhältst in Kürze eine SMS zur Bestätigung. Du kannst deine Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nach Abschluss der Zahlung erhältst du eine Bestätigungs-E-Mail. Du kannst deine Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Nach Abschluss der Zahlung erhältst du eine Bestätigungs-E-Mail. Du kannst deine Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nach Abschluss der Zahlung erhalten Sie eine SMS zur Bestätigung. Sie können Ihre Bestellung über die Laden-App verfolgen.",
+        "order_status_payments_app_failed_pending_payment": "Deine Bestellung ist noch nicht bezahlt. Gehe zurück zu deinem Warenkorb, um deine Bestellung zu überprüfen und zu bezahlen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nach Abschluss der Zahlung erhalten Sie eine Bestätigungs-E-Mail. Sie können die Bestellung über die Shop-App verfolgen.",
+        "thank_you_confirmed_order_with_missing_payment": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_confirmed_order_with_draft_payment": "Wir informieren dich, wenn wir weitere Informationen benötigen oder wenn die Bestellung bestätigt wurde.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Wir informieren dich, wenn wir weitere Informationen benötigen oder wenn die Bestellung bestätigt wurde.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Die Bestellung ist noch nicht bezahlt. Gehen Sie zurück zum Warenkorb, um die Bestellung zu überprüfen und zu bezahlen.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Die Bestellung ist noch nicht bezahlt. Gehen Sie zurück zum Warenkorb, um die Bestellung zu überprüfen und zu bezahlen.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Du erhältst in Kürze eine Bestätigungs-E-Mail. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Du erhältst in Kürze eine SMS zur Bestätigung. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du erhältst in Kürze eine SMS zur Bestätigung. Du kannst die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten."
       }
     }
   }
