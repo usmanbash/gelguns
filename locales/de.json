@@ -2054,7 +2054,89 @@
           "one": "Dafür werden keine Kosten berechnet",
           "other": "Dafür werden keine Kosten berechnet"
         },
-        "payment_method_not_charged": "Nicht abgeschrieben"
+        "payment_method_not_charged": "Nicht abgeschrieben",
+        "items_fulfilled_by_store": {
+          "one": "Artikel, die du gekauft hast, stammen von %{remote_shop_name}.",
+          "other": "Artikel, die du gekauft hast, stammen aus anderen Geschäften."
+        },
+        "thank_you_from_other_store": "Aus einem anderen Geschäft",
+        "checkout_on_another_store": "An einer anderen Filiale bezahlen",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Du erhältst in Kürze eine Bestätigungs-E-Mail",
+          "multi_store": "Du erhältst in Kürze eine separate Bestätigungs-E-Mail von jedem Geschäft."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Du erhältst in Kürze eine Bestätigungs-SMS",
+          "multi_store": "Du erhältst bald eine Bestätigungs-SMS von jedem Geschäft"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Du erhältst in Kürze eine Bestätigungs-E-Mail",
+          "multi_store": "Du erhältst in Kürze eine separate Bestätigungs-E-Mail von jedem Geschäft."
+        },
+        "checkout_again": "Kasse erneut ausführen",
+        "cashback_notice": "Du erhältst dein Cashback nach 30 Tagen"
+      },
+      "review": {
+        "title": "Rezension",
+        "checkout_as_guest": "Als Gast bezahlen",
+        "blocks": {
+          "billing_address_title": "Rechnungsstellung",
+          "shipping_address_title": "Versenden an",
+          "change_contact_method_link_label": "Kontaktinformationen ändern",
+          "pick_up_in_store_shipping_method_html": "Abholung im Geschäft · %{location_name}",
+          "change_delivery_method_link_label": "Liefermethode ändern",
+          "due_after_order_reviewed_html": "Verschuldet, nachdem die Bestellung geprüft wurde",
+          "review_title_free_order": "Überprüfen und Bestellung abschließen",
+          "payment_method_saved_company_location": "Karte für diesen Ort speichern",
+          "company_location": "Betriebsstandort",
+          "change_company_location_link_label": "Standort des Unternehmens ändern",
+          "pickup_items_at": {
+            "one": "%{count} Artikel abholen bei",
+            "other": "%{count} Artikel abholen bei"
+          },
+          "ship_items_to": {
+            "one": "%{count} Artikel versenden an",
+            "other": "%{count} Artikel versenden an"
+          }
+        },
+        "block_title": "Überprüfen Sie Ihre Daten",
+        "checkout_a_different_way": "Auf eine andere Weise bezahlen"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Schicken Sie mir eine E-Mail mit Neuigkeiten und Angeboten",
+        "unsubscribe": {
+          "description": "Du erhältst keine Erinnerungen an deinen Warenkorb mehr von uns."
+        },
+        "accept_sms_checkbox_label": "Schicken Sie mir eine SMS mit Neuigkeiten und Angeboten",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Geschäftsbedingungen",
+            "description_html": "Indem du dich per SMS anmeldest, erklärst du dich damit einverstanden, automatisierte Marketingnachrichten, einschließlich Warenkorberinnerungen, an die angegebene Telefonnummer zu erhalten. Die Zustimmung ist keine Kaufbedingung. Antworte mit STOP, um dich abzumelden. Antworte mit HELP für Hilfe. Die Häufigkeit der Nachrichten kann variieren. Nachrichten- und Datengebühren können anfallen. Sieh dir unsere %{privacy_policy_link} und unsere %{terms_of_service_link} an.",
+            "description_transactional_html": "Du erhältst möglicherweise SMS-Nachrichten im Zusammenhang mit Bestellbestätigungen und Versandupdates. Antworte mit STOP, um dich abzumelden. Antworte mit HELP für Hilfe. Die Häufigkeit der Nachrichten kann variieren. Nachrichten- und Datengebühren können anfallen. Sieh dir unsere %{privacy_policy_modal_link} und unsere %{terms_of_service_modal_link} an."
+          },
+          "get_offers_by_text": "Angebote per SMS erhalten"
+        },
+        "post_accept_marketing_checkbox_label": "Du bist angemeldet, um E-Mails mit Neuigkeiten und Angeboten zu erhalten",
+        "pending_accept_marketing_checkbox_label": "Schau in deine E-Mail, um deine Anmeldung für Neuigkeiten und Angebote zu bestätigen",
+        "accept_shop_pay_marketing_checkbox_label": "Melden Sie sich für Neuigkeiten und Angebote dieses Ladens an",
+        "disclaimer": {
+          "terms_of_service": "Geschäftsbedingungen"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Rückerstattungsrichtlinie",
+        "terms_of_service": "Allgemeine Geschäftsbedingungen",
+        "legal_notice": "Gesetzlicher Hinweis",
+        "cookie_preferences": "Kekse",
+        "policies_label": "Richtlinie",
+        "select_policy_label": "Eine Richtlinie auswählen",
+        "terms_and_policies": "Bedingungen und Richtlinien"
+      },
+      "notifications": {
+        "title": "Meldungen"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Zu zahlender Betrag für Bestellung %{order_name}"
       }
     }
   }
