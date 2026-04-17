@@ -928,7 +928,65 @@
         "free_shipping_discount_label": "Kostenloser Versand",
         "applied_discount_message": "Es wurde %{amount} Rabatt vom Gesamtpreis abgezogen.",
         "discount_has_been_applied": "Rabatt wurde angewendet",
-        "discount_has_been_removed": "Rabatt wurde entfernt"
+        "discount_has_been_removed": "Rabatt wurde entfernt",
+        "gift_card_has_been_applied": "Geschenkkarte wurde angewendet",
+        "gift_card_has_been_removed": "Geschenkkarte wurde entfernt",
+        "discount_already_applied": "Auf diese Bestellung wurde ein Rabatt angewendet. Du kannst keinen weiteren Rabatt hinzufügen.",
+        "cart_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> gilt nicht für die Artikel in deinem Warenkorb",
+        "discount_requires_customer_notice": "Gib deine Versanddaten ein, um den Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> anzuwenden",
+        "customer_does_not_meet_discount_requirements_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> ist derzeit nicht für dich verfügbar",
+        "customer_already_used_once_per_customer_discount_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> wurde bereits verwendet",
+        "shipping_default_value": "Berechnet im nächsten Schritt",
+        "shipping_pending_message": "Noch nicht verfügbar",
+        "shipping_policy_link": "Versandkosten",
+        "taxes_label": "übrigens",
+        "total_label": "Insgesamt",
+        "partial_total_label": "Insgesamt",
+        "payment_due_label": "Fällige Zahlung",
+        "vat_label_html": "Inklusive %{amount} MwSt.",
+        "discount_and_gift_card_savings_notice": "Nach %{discount_amount} Rabatt und %{gift_card_amount} Geschenkgutscheinwert",
+        "discount_savings_notice": "Jetzt %{discount_amount} Rabatt sichern",
+        "gift_card_savings_notice": "Na %{gift_card_amount} an Geschenkgutscheinwert",
+        "cost_table_title": "Kostenübersicht",
+        "scroll_order_summary": "Scrollen Sie für weitere Artikel",
+        "total_updated_label": "Aktualisierter Gesamtpreis:",
+        "order_total_updated_label": "Aktualisierte Gesamtzahl",
+        "total_already_paid_label": "bezahlt",
+        "unit_price": {
+          "per_item": {
+            "one": "%{price} pro %{count} Artikel",
+            "other": "%{price} pro %{count} Artikel"
+          }
+        },
+        "pickup_label": "Abholung im Geschäft",
+        "no_pickup_location": "Es sind keine Abholstellen verfügbar.",
+        "calculating_shipping": "Wird berechnet...",
+        "estimated_taxes_label": "Geschätzte Steuer",
+        "gift_card_ending": "Geschenkkarte, die auf %{last_characters} endet",
+        "multiple_shipping_lines_label": "Gesamte Versandkosten",
+        "applied_free_shipping_discount_label": "Angewandt",
+        "recurring_subtotal_label": "Zwischensumme zurückkehrend",
+        "recurring_total_tooltip": "Exklusive Versand, Mehrwertsteuer, Zollgebühren oder eventuelle Rabatte.",
+        "gift_card_subscriptions_notice": "Geschenkgutscheine werden nur bei deiner ersten Zahlung angewendet",
+        "confirmation_number_label": "Bestätigungsnummer %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Der gesamte Steuerbetrag wird per E-Mail oder SMS bestätigt, nachdem du deine Bestellung aufgegeben hast.",
+        "deferred_payment_info": {
+          "title": "Zahlung von %{amount_due} ist fällig am %{due_at}",
+          "description_html": "%{contact_us} für Fragen zu deiner Bestellung.",
+          "paid_today": "Insgesamt heute bezahlt",
+          "due_on_fulfillment_title": "Die Zahlung von %{amount_due} ist bei Erfüllung der Bestellung fällig.",
+          "due_on_receipt_title": "%{amount_due} ist bei Erhalt fällig"
+        },
+        "percent_off_shipping": "%{percent}% Rabatt auf den Versand",
+        "amount_off_shipping": "%{amount} Rabatt auf den Versand",
+        "payment_terms_totals": {
+          "due_today": "Heute insgesamt fällig",
+          "due_later": "Gesamtbetrag fällig am %{due_at}",
+          "due_later_checkout_to_draft": "Gesamt später fällig",
+          "due_on_fulfillment": "Gesamtbetrag bei Erfüllung fällig",
+          "due_on_receipt": "Gesamtbetrag bei Erhalt zu zahlen",
+          "total_paid": "Insgesamt bezahlt"
+        }
       }
     }
   }
