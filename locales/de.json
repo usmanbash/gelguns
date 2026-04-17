@@ -3282,7 +3282,83 @@
             "last_7_days": "Letzte 7 Tage",
             "last_30_days": "Letzte 30 Tage",
             "last_90_days": "Letzte 90 Tage",
-            "last_365_days": "Letzte 12 Monate"
+            "last_365_days": "Letzte 12 Monate",
+            "custom": "Angepasst"
+          }
+        },
+        "no_order_banner": "Erstellen Sie eine Bestellung, um die Erweiterung auf der Seite Bestellstatus zu testen.",
+        "location_filter_picker": {
+          "switch_view": "Anzeige wechseln"
+        },
+        "view_order": "Bestellung ansehen"
+      },
+      "order_status": {
+        "canceled_label": "Abgesagt",
+        "canceled_title": "Ihre Bestellung wurde storniert",
+        "come_back": "Kehre auf diese Seite zurück, um Statusaktualisierungen zu deiner Sendung zu erhalten.",
+        "company_tracking_number": "{{company}}-Sendungsnummer:",
+        "confirmed_title": "Deine Bestellung ist bestätigt",
+        "delivered_label": "Besorgt",
+        "in_review_label": "Zur Begutachtung",
+        "in_review_title": "Ihre Bestellung wird geprüft",
+        "no_tracking_number": "Für diese Sendung gibt es keine Sendungsnummer.",
+        "out_for_delivery_label": "Bereit zur Auslieferung",
+        "resume_tracking": "Folgen fortsetzen",
+        "submitted_label": "Eingereicht",
+        "track_shipment": "Sendung verfolgen",
+        "request_return": "Rückgabe beantragen",
+        "attempted_delivery_label": "Zustellversuch",
+        "preparing_for_shipping_label": "Versand wird vorbereitet",
+        "ready_for_pickup_label": "Bereit zur Abholung",
+        "ready_for_pickup_description": "Diese Artikel sind abholbereit. Bitte bringen Sie die Bestellbestätigung mit, wenn Sie die Bestellung abholen.",
+        "submitted_description": "Überprüfen Sie die Bestellung und die Zahlungsdaten.",
+        "multiple_shipments_label": "Mehrere Sendungen",
+        "view_order_for_details": "Bestellung ansehen für Produktdetails",
+        "confirmed_description_digital": "Du erhältst eine E-Mail, wenn deine Bestellung bereitsteht.",
+        "delivered_description_gift_card": {
+          "one": "Der Geschenkgutschein wurde per E-Mail versandt.",
+          "other": "Geschenkgutscheine wurden per E-Mail versandt."
+        },
+        "gift_card_label": {
+          "one": "Geschenkgutschein"
+        },
+        "ready_for_pickup_location": "Deine Bestellung ist zur Abholung am Standort bereit",
+        "confirmed_description_pickup": "Du erhältst eine E-Mail, wenn du deine Bestellung abholen kannst.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Der Geschenkgutschein wird in einer separaten E-Mail versandt.",
+          "other": "Jeder Geschenkgutschein wird in einer separaten E-Mail versandt."
+        },
+        "confirmed_description_gift_card_text": "Du erhältst eine SMS, wenn die Bestellung fertig ist.",
+        "delivered_description_gift_card_text": {
+          "one": "Der Geschenkgutschein wurde per SMS versandt.",
+          "other": "Die Geschenkgutscheine wurden per SMS versandt."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Der Geschenkgutschein wird in einer separaten SMS versendet.",
+          "other": "Jeder Geschenkgutschein wird in einer separaten SMS versendet."
+        },
+        "gift_resend_success": {
+          "one": "Geschenkgutschein erneut versandt",
+          "other": "Geschenkgutscheine erneut versandt"
+        },
+        "gift_resend_failure": {
+          "one": "Beim erneuten Versenden Ihres Geschenkgutscheins ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns.",
+          "other": "Beim erneuten Versenden Ihrer Geschenkgutscheine ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an uns."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Verwalten mit Amazon",
+            "new_window_disclaimer": "(öffnet in einem neuen Fenster)"
+          }
+        },
+        "attempted_to_deliver_label": "Zustellung versucht",
+        "buy_with_prime_logo_accessibility_label": "Amazon Kaufen mit Prime-Logo",
+        "delivered": "Besorgt am {{date}}",
+        "multiple_statuses_label": "Mehrere Bestellstatusse",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Lieferung unterstützt von",
+            "mixed_brands_label": "Lieferung garantiert"
           }
         }
       }
