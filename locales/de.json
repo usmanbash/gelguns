@@ -1996,7 +1996,65 @@
         "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Du erhältst in Kürze eine SMS zur Bestätigung. Du kannst die Bestellung über die Shop-App verfolgen.",
         "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Du erhältst in Kürze eine SMS zur Bestätigung. Du kannst die Bestellung über die Shop-App verfolgen.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Nehmen Sie per E-Mail oder Telefon Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Nach Abschluss der Zahlung erhalten Sie eine Bestätigungs-E-Mail. Sie können die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Nach Abschluss der Zahlung erhalten Sie eine Bestätigungs-E-Mail. Sie können die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Nach Abschluss der Zahlung erhalten Sie eine Bestätigungs-E-Mail. Sie können die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach Abschluss der Zahlung erhalten Sie eine SMS zur Bestätigung. Sie können die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach Abschluss der Zahlung erhalten Sie eine SMS zur Bestätigung. Sie können die Bestellung über die Shop-App verfolgen.",
+        "order_status_payments_app_failed_pending_payment_payment": "Die Bestellung ist noch nicht bezahlt. Gehen Sie zurück zum Warenkorb, um die Bestellung zu überprüfen und zu bezahlen.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Die Bestellung ist noch nicht bezahlt. Gehen Sie zurück zum Warenkorb, um die Bestellung zu überprüfen und zu bezahlen.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Du erhältst in Kürze eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Du erhältst in Kürze eine SMS mit der Bestätigung und der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Du erhältst in Kürze eine SMS mit der Bestätigung und der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Du erhältst in Kürze eine SMS mit der Bestätigung und der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Nehmen Sie per E-Mail oder telefonisch Kontakt mit uns auf, um die Bestellbestätigung zu erhalten.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach der Bezahlung erhalten Sie eine Bestätigungs-E-Mail mit der Bestellnummer.",
+        "vat_invoices": {
+          "title": "MwSt-Rechnungen"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Ihre Zahlung wird bearbeitet. Sie erhalten eine E-Mail, sobald Ihre Zahlung bestätigt wurde.",
+        "verify_shop_account_title": "Überprüfe dein Shop-Konto",
+        "verify_shop_account_message": "Deine Informationen sind bei Shop gespeichert. Verifiziere dein Konto, um diese automatisch bei Millionen von Geschäften zu verwenden.",
+        "verify_shop_account_cta": "Ihr Konto verifizieren",
+        "verify_shop_account_confirmation": "Kassendaten gespeichert",
+        "announcement": {
+          "expand": "Aufklappen",
+          "collapse": "Einklappen"
+        },
+        "thank_you_confirmed_orders_with_email": "Du erhältst in Kürze separate Bestätigungs-E-Mails mit deinen Bestellnummern.",
+        "thank_you_confirmed_orders_with_phone": "Du erhältst in Kürze separate Bestätigungs-SMS mit deinen Bestellnummern.",
+        "thank_you_confirmed_orders_with_email_and_phone": "Du erhältst in Kürze separate Bestätigungs-E-Mails mit deinen Bestellnummern.",
+        "track_your_order_link_text": "Deine Bestellung verfolgen",
+        "checkout_on_remote_shop_link_text": "Bezahlen bei %{remoteShopName}",
+        "confirmed_orders_title": "Deine Bestellungen sind bestätigt",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Es gibt nicht bestätigte Artikel"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Dafür werden keine Kosten berechnet",
+          "other": "Dafür werden keine Kosten berechnet"
+        },
+        "payment_method_not_charged": "Nicht abgeschrieben"
       }
     }
   }
