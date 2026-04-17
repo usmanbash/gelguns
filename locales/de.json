@@ -1128,9 +1128,83 @@
             "other": "%{count} zusätzliche Lieferungen für %{shipping_price} pro Lieferung"
           },
           "max_cycles_base_shipping_delivery_not_included": {
-            "one": "%{count} Lieferung für %{shipping_price}"
+            "one": "%{count} Lieferung für %{shipping_price}",
+            "other": "%{count} zusätzliche Lieferungen für %{shipping_price} pro Lieferung"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Kostenloser Versand für den ersten %{cycle}, danach %{recurring_order_shipping_price}",
+            "other": "Kostenloser Versand für den ersten %{cycle}, danach %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} für noch %{count} zusätzliche Lieferung",
+            "other": "%{shipping_price} für noch %{count} weitere Lieferungen (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} für %{count} Lieferung",
+            "other": "%{shipping_price} für %{count} Lieferungen (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} für %{count} weitere Lieferungen, danach %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} für noch %{count} weitere Lieferungen (%{per_delivery_cost}), danach %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} für %{count} Lieferung, danach %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} für %{count} Lieferungen (%{per_delivery_cost}), danach %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "estimated_delivery_time": "Erwartete Lieferung %{time}",
+        "estimated_delivery_time_range": "Voraussichtliche Lieferung %{min_time}–%{max_time}",
+        "arrives_time": "Wird in %{time} geliefert",
+        "arrives_time_range": "Wird geliefert zwischen %{min_time}–%{max_time}",
+        "estimated_time": "Erwartet in %{time}",
+        "estimated_time_range": "Erwartet %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Abonnement lokale Zustellung",
+        "subscription_pickup": "Abonnementabholung",
+        "delivery_today": "Lieferung am selben Tag um %{time}",
+        "delivery_tomorrow": "Lieferung am nächsten Tag um %{time}",
+        "two_day_delivery": "Lieferung innerhalb von 2 Tagen um %{time}",
+        "delivery": "Lieferung in %{time}",
+        "shipping_information_redirect_link": "Geben Sie hier Ihre Daten ein",
+        "loading_progressive_rates": "Nach weiteren Tarifen suchen...",
+        "duties_and_taxes_options": {
+          "ddu_title": "Bezahlung bei Lieferung",
+          "ddu_caption": "Zusätzliche Kosten können anfallen",
+          "ddp_title": "Jetzt bezahlen",
+          "ddp_caption": "Keine zusätzlichen Kosten bei der Lieferung"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} auf %{current}"
+        },
+        "shipping_used_as_billing_notice": "Dies wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet.",
+        "add_address": "Verwenden Sie eine andere Adresse",
+        "add_delivery_instructions": "Lieferanweisungen hinzufügen",
+        "delete": "Entfernen",
+        "address_delete": "Adresse entfernen",
+        "address_confirm": "Bist du sicher, dass du diese Adresse aus deinem Konto entfernen möchtest?",
+        "address_form": {
+          "cancel": "Abbrechen",
+          "generic_error": "Beim Speichern deiner Adresse ist ein Problem aufgetreten. Bitte versuche es erneut."
+        },
+        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um verfügbare Versandarten anzuzeigen",
+        "invalid_shipping_method_summary": "Geben Sie eine gültige Lieferadresse ein, um die verfügbaren Versandarten zu sehen",
+        "method_summary": {
+          "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um die verfügbaren Versandarten zu sehen",
+          "incomplete_address_selected": "Wählen Sie eine vollständige Lieferadresse aus, um die verfügbaren Versandarten zu sehen"
+        },
+        "local_pickup": {
+          "search_address": "Adresse suchen",
+          "rollup_accessibility_label": "Optionen für Abholort"
+        },
+        "shipping_method_first_shipment_group_title": {
+          "one": "Erste Sendung",
+          "other": "Erste Sendungen"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Wiederkehrende Sendung",
+          "other": "Wiederkehrende Sendungen"
+        },
+        "split_shipping_merchandise_quantity_label_additional": "+ noch %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Sendung %{number} von %{total}"
       }
     }
   }
