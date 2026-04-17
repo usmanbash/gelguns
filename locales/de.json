@@ -3127,7 +3127,85 @@
     },
     "subscriptions": {
       "buyer_consent_product": "Dieser Artikel ist ein wiederkehrender oder aufgeschobener Kauf. Wenn ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und erteile dir außerdem die Erlaubnis, die angegebenen Preise von meiner Zahlungsmethode zum angegebenen Intervall und an den angegebenen Daten abzubuchen, bis meine Bestellung abgeschlossen ist oder bis ich, falls erlaubt, kündige.",
-      "buyer_consent_cart": "Ein oder mehrere Artikel in deinem Warenkorb sind aufgeschobene oder wiederkehrende Käufe. Wenn ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und erteile dir außerdem die Erlaubnis, die angegebenen Preise von meiner Zahlungsmethode zum angegebenen Rhythmus und an den angegebenen Daten abzubuchen, bis meine Bestellung abgeschlossen ist oder bis ich, falls erlaubt, kündige."
+      "buyer_consent_cart": "Ein oder mehrere Artikel in deinem Warenkorb sind aufgeschobene oder wiederkehrende Käufe. Wenn ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und erteile dir außerdem die Erlaubnis, die angegebenen Preise von meiner Zahlungsmethode zum angegebenen Rhythmus und an den angegebenen Daten abzubuchen, bis meine Bestellung abgeschlossen ist oder bis ich, falls erlaubt, kündige.",
+      "cancellation_policy": "Kündigungsregelung"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Kontomenü verbergen"
+      },
+      "action_menu_accessibility_label": "Mehr Aktionen",
+      "close_menu_accessibility_label": "Hauptnavigation schließen",
+      "contact_email_subject": "Kontaktperson des Webshops {{shopName}}",
+      "contact_link": "Kontaktdaten",
+      "delete_confirmation": {
+        "cancel": "Abbrechen",
+        "delete": "Entfernen"
+      },
+      "dismiss_toast": "Schließen",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "loading_message": "Laden",
+      "logout_overlay_label": "Abmelden...",
+      "nav_label_accessibility_label": "Hauptnavigation",
+      "navigation_accessibility_message": "Du bist zu {{sectionName}} navigiert worden",
+      "open_menu_accessibility_label": "Hauptnavigation öffnen",
+      "country_switcher_toast_message": "Land umgeschaltet auf {{countryName}}",
+      "search": "Suchen",
+      "view_details": "Daten anzeigen",
+      "company_location": "Betriebsstandort",
+      "try_new_search": "Versuchen Sie eine neue Suche",
+      "loading_policy_content_accessibility_label": "Richtlinie zum Laden von Inhalten",
+      "policy_load_error": "{{policyName}} kann nicht geladen werden",
+      "policy_try_again": "Versuchen Sie es erneut",
+      "loading_section_accessibility_label": "{{sectionName}} herunterladen"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kontodaten werden geladen",
+      "loading_finished_accessibility_message": "Kontodaten wurden geladen",
+      "profile_card": {
+        "cancel": "Abbrechen",
+        "cancel_accessibility_label": "Profil bearbeiten abbrechen",
+        "email_help_text": "E-Mail-Adresse kann nicht bearbeitet werden",
+        "phone_number_help_text": "Telefonnummer kann nicht bearbeitet werden",
+        "email": "E-Mail",
+        "errors": {
+          "invalid_email_format": "Geben Sie eine gültige E-Mail-Adresse ein"
+        },
+        "editable_email_help_text": "Diese E-Mail-Adresse wird für die Anmeldung und Bestellaktualisierungen verwendet."
+      },
+      "profile_update_confirmation_message": "Profil aktualisiert",
+      "people": {
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Mehr Menschen laden",
+          "loading_accessibility_label": "Lade Personen"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "Geben Sie den Code ein, der an {{email}} gesendet wurde",
+        "one_time_password_label": "Code aus 6 Ziffern",
+        "email_resend_button_accessibility_label": "Verifizierungscode erneut senden",
+        "verify_button": "Überprüfen",
+        "verify_button_accessibility_label": "Einmaliges Passwort bestätigen",
+        "cancel_button_accessibility_label": "Bearbeitung der E-Mail abbrechen",
+        "email_resend_button_failure_banner_message": "Verifizierungscode konnte nicht gesendet werden"
+      },
+      "email_update_success_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "E-Mail-Aktualisierung war erfolgreich. Zur Anmeldung weiterleiten."
+      },
+      "email_update_confirmation_message": "E-Mail-Adresse aktualisiert auf {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Formatierungsoptionen",
+      "order_list": {
+        "column_headers": {
+          "total": "Insgesamt"
+        }
+      }
     }
   }
 }
