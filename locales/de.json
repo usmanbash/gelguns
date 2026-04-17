@@ -3500,7 +3500,83 @@
       },
       "request_return_failed": "Bei der Bearbeitung deiner Anfrage ist ein Problem aufgetreten. Bitte versuche es erneut.",
       "shipment_timeline": {
-        "expand_events_label": "Daten anzeigen"
+        "expand_events_label": "Daten anzeigen",
+        "expand_events_accessibility_label": "Lieferdaten der Bestellung anzeigen",
+        "hide_events_label": "Daten verbergen",
+        "hide_events_accessibility_label": "Lieferdaten der Bestellung verbergen"
+      },
+      "hide_order_summary": "Bestellübersicht verbergen",
+      "marketing_description": "Du erhältst Werbemails. Du kannst dich jederzeit abmelden.",
+      "marketing_checkbox_label": "Schicken Sie mir E-Mails mit Neuigkeiten und Angeboten",
+      "marketing_checkmark_label": "Du bist angemeldet, um E-Mails mit Neuigkeiten und Angeboten zu erhalten",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}-Menge {{quantity}}",
+        "load_more_items": {
+          "one": "Weitere {{count}} Artikel laden",
+          "other": "Weitere {{count}} Artikel laden"
+        }
+      },
+      "shop_order_tracking": {
+        "title_header": "Mit deinem Telefon scannen",
+        "real_time_delivery_updates": "Nachdem die Bestellung versandt wurde, erhältst du Echtzeit-Lieferupdates von Shop."
+      },
+      "shop_pay": {
+        "learn_more": "Mehr Informationen"
+      },
+      "edit_summary": {
+        "removed": "Gelöscht",
+        "updated_at": "Ihre Bestellung wurde am {{date}} aktualisiert",
+        "returned": "Zurückgesandt",
+        "return_line_item_removed": "Aus Rücksendung entfernt",
+        "return_line_item_removed_with_quantities": "{{delta}} aus Rücksendung entfernt"
+      },
+      "pickup": {
+        "pickup": "Abholung",
+        "pickup_point": "Abholstelle"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Bezahlt mit Shop Pay-Ratenzahlungen",
+        "description": "Bleiben Sie mit Erinnerungen in der Shop-App über Ihren Zahlungsplan informiert.",
+        "desktop_qr_code_content": {
+          "title": "Nach Erinnerungen suchen",
+          "description": "Erinnerungen für deine Ratenzahlungen bei Shop erhalten."
+        },
+        "title": "Zahlungserinnerungen für Shop Pay-Ratenzahlungen"
+      },
+      "order_details": "Bestelldaten",
+      "contact_information": "Kontaktdaten",
+      "login_to_view_all_order_details": "Melden Sie sich an, um alle Bestelldaten einzusehen.",
+      "order_details_skeleton_accessibility_label": "Melden Sie sich an, um alle Bestelldaten einzusehen.",
+      "logged_in_account_no_permission_to_order": "Du bist eingeloggt als {{email}}. Dieses Konto ist nicht berechtigt, diese Bestellung zu verwalten.",
+      "log_in_to_a_different_account": "Bei einem anderen Konto anmelden",
+      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher wurden Zollgebühren zum Gesamtbetrag der Bestellung hinzugefügt.",
+      "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Zustellung Zollgebühren und Steuern anfallen.",
+      "zero_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt. Bei Bestellungen mit diesem Wert werden keine Zollgebühren erhoben.",
+      "fees": {
+        "restocking_fee": "Nachschubkosten",
+        "return_shipping_fee": "Rücksendung"
+      },
+      "vat_invoices": {
+        "title": "MwSt-Rechnungen"
+      },
+      "taxes_included": "Inklusive {{amount}} MwSt.",
+      "duties_and_taxes_included": "Insgesamt sind Zollgebühren und Steuern enthalten. Keine zusätzlichen Zahlungen bei Lieferung.",
+      "grouped_view_components": {
+        "line_item_summary_list_accessibility_label": "Artikel im Bundle {{productTitle}}"
+      },
+      "cash_rounding": "Bargeld runden",
+      "adjusted_total": "Angepasst gesamt",
+      "login_card": {
+        "resend_link_and_login": "Du kannst deine Bestelldaten einsehen, indem du dich anmeldest oder einen neuen Link an die E-Mail-Adresse oder Telefonnummer sendest, die beim Bezahlen verwendet wurde.",
+        "resend_link_only": "Du kannst deine Bestelldaten einsehen, indem du einen neuen Link an die E-Mail-Adresse oder Telefonnummer sendest, die du beim Bezahlen angegeben hast.",
+        "resend_link": "Neue Verknüpfung senden",
+        "title": "Bestelldaten ansehen"
+      },
+      "due_on_fulfillment": "Bei Erfüllung zu zahlen",
+      "due_on_receipt": "Bei Erhalt zu zahlen",
+      "payment_confirmation": {
+        "payment_received": "Danke! Ihre Zahlung von {{amount}} wurde erhalten.",
+        "full_payment_received": "Danke! Ihre Zahlung von {{amount}} ist eingegangen und diese Bestellung ist jetzt vollständig bezahlt."
       }
     }
   }
