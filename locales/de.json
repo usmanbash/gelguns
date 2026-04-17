@@ -3962,7 +3962,87 @@
           "generic": "Es ist ein Problem mit Google Pay aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
           "missing_billing_address": "Für Google Pay benötigst du eine Rechnungsadresse. Füge eine in deinem Konto hinzu."
         },
-        "loading": "Google Pay aufladen"
+        "loading": "Google Pay aufladen",
+        "loading_accessibility_message": "Google Pay aufladen"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay aufladen",
+        "errors": {
+          "generic": "Es ist ein Problem mit Apple Pay aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "missing_billing_address": "Für Apple Pay benötigst du eine Rechnungsadresse. Füge eine in deinem Konto hinzu."
+        }
+      },
+      "add_payment_method_banner": "Zahlungsmethode hinzufügen für schnelleren Kassiervorgang und Dienste zur Vorautorisierung",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}} bearbeiten, die auf {{lastDigits}} endet",
+      "expiration_warning_button_accessibility_label": "Vervalwarnung anzeigen für {{paymentMethodName}}, die auf {{lastDigits}} endet",
+      "store_credit": {
+        "label": "Ladenguthaben",
+        "accesibility_label": "Winkelguthaben - {{formattedBalance}}",
+        "expirable_amounts_button": "Beträge, die verfallen werden, ansehen",
+        "details_modal": {
+          "title": "Guthaben, das verfällt",
+          "balance_label": "Kontostand",
+          "expiration_date_label": "Verfallsdatum",
+          "amount_label": "Betrag",
+          "expirable_balance_info": "Ein Teil des Guthabens verfällt an einem zukünftigen Datum.",
+          "expirable_amount_label": "Gesamtbetrag, der verfällt",
+          "expirable_amounts_info": "Beträge, die früher verfallen, werden beim Bezahlen zuerst angewendet.",
+          "expired_amounts_button": "Abgelaufene Beträge ansehen",
+          "pagination": {
+            "load_more_label": "Mehr laden",
+            "load_more_accessibility_label": "Mehr Beträge, die verfallen werden, laden"
+          },
+          "expirable_amounts_button": "Ansehen",
+          "events": {
+            "order_payment": "Bezahlung der Bestellung",
+            "order_refund": "Rückerstattung der Bestellung",
+            "payment_failure": "Fehlgeschlagene Zahlung",
+            "payment_returned": "Zahlung zurückerstattet",
+            "order_cancellation": "Stornierung der Bestellung",
+            "tax_finalization": "Abschluss der Steuer"
+          }
+        },
+        "expirable_amounts_label": "Verfallene Beträge"
+      },
+      "three_d_secure": {
+        "title": "3D Sicherung",
+        "verification_failed": "Ihre Zahlung kann nicht überprüft werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "PayPal aufladen",
+        "errors": {
+          "generic": "Es gab ein Problem mit PayPal. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+        }
+      },
+      "card_update_consent_subscriptions": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert und kann für jede wiederkehrende oder aufgeschobene Zahlung verwendet werden.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Indem du eine Zahlungsmethode hinzufügst, kannst du erlauben, dass bis zu deinem Widerruf Kosten auf deine Karte belastet werden oder dass bei zukünftigen Käufen, die du genehmigst, Abbuchungen von deinem Bankkonto vorgenommen werden."
+      },
+      "replacement_payment_method_title": "Alternative Zahlungsmethoden",
+      "bank_account": {
+        "loading_accessibility_message": "Knopf für Bankkonto wird geladen",
+        "iframe_title_accessibility_label": "Einrichtung des Bankkontos",
+        "generic_error": "Kann das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut."
+      },
+      "update_payment_method": {
+        "disclaimer": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert und kann für jede wiederkehrende oder aufgeschobene Zahlung verwendet werden.",
+        "loading_form_accessibility_message": "Formular zum Aktualisieren der Zahlungsmethode wird geladen",
+        "loading_digital_wallets": "Optionen für digitale Geldbörsen werden geladen",
+        "pre_orders_title": "Kommend",
+        "pre_orders_list_accessibility_label": "Liste der Produkte mit laufender Bestellung",
+        "resources_list_accessibility_label": "Abonnementprodukte und Produkte mit einer laufenden Bestellung, die diese Zahlungsmethode verwenden",
+        "resources_card_scroll": "Scrollen Sie für weitere Artikel",
+        "loading_resources": "Abonnements und bevorstehende Bestellungen laden"
+      },
+      "link_expired": {
+        "message": "Dieser Link zum Aktualisieren deiner Zahlungsmethode ist abgelaufen."
+      },
+      "update_success": {
+        "done_button": "Mit dem Einkaufen fortfahren"
+      },
+      "or": "ODER",
+      "add_success": {
+        "done_button": "Mit dem Einkaufen fortfahren"
       }
     }
   }
