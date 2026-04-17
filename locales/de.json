@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,72 @@
       "send_on_label": "Senden am (optional)",
       "expanded": "Formular für den Empfänger des Gutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "de",
+      "last_word_connector": ", und"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Zur Kasse",
+        "breadcrumb": "Brotkrume",
+        "continue_button_label": "Fortfahren",
+        "complete_purchase_button_label": "Bestellung abschließen",
+        "pay_now_button_label": "Jetzt bezahlen",
+        "authenticate_purchase_button_label": "Zahlung bestätigen",
+        "edit_link_label": "Ändern",
+        "cart": "Einkaufswagen",
+        "expand_notice_label": "Mehr ansehen",
+        "continue_to_shipping_method": "Mit dem Versand fortfahren",
+        "continue_to_payment_method": "Zur Bezahlung gehen",
+        "back_to_contact_information": "Zurück zu Informationen",
+        "back_to_payment_method": "Zurück zur Bezahlung",
+        "choose_shipping_method": "Wählen Sie eine Versandart",
+        "choose_payment_method": "Wählen Sie eine Zahlungsmethode",
+        "choose_billing_address": "Wählen Sie eine Rechnungsadresse aus",
+        "contact_us_html": "Kontaktieren Sie uns für weitere Informationen",
+        "autocomplete_single_item": "1 Artikel verfügbar",
+        "autocomplete_multi_item": "{{number}} Artikel verfügbar",
+        "forwarding_indicator": {
+          "new_window": "Wird in einem neuen Fenster geöffnet."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Zur Kasse"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Bei deiner Bestellung ist ein Fehler aufgetreten. Bitte versuche erneut zu bezahlen.",
+          "line_item_limit_reached": "Die maximale Anzahl der Bestellzeilen ist erreicht.",
+          "only_empty_terms_accepted": "Diese Richtlinie akzeptiert nur leere Bedingungen.",
+          "session_is_already_finished": "Diese Kassensitzung ist bereits abgeschlossen.",
+          "merchandise": {
+            "only_value_constraint": "Beim Eintragen von Waren sind nur genaue Werte erlaubt.",
+            "merchandise_not_found": "Produkt nicht gefunden.",
+            "merchandise_variant_not_found": "Produktvariante nicht gefunden.",
+            "merchandise_not_applicable": "Produktvariante kann nicht gekauft werden.",
+            "bundle_products_not_supported_for_b2b": "Du kannst keine gebündelten Artikel zu B2B-Bestellungen für diesen Standort hinzufügen.",
+            "gift_card_quantity_mismatch": "Wenn du Gutscheincodes eingibst, müssen die Mengen in der Bestellzeile mit der Anzahl der Gutscheincodes übereinstimmen.",
+            "gift_card_not_supported": "Bei diesem Bezahlvorgang werden keine Geschenkgutscheine akzeptiert.",
+            "gift_card_not_unique": "Gutschein mit dem Code {{code}} erscheint mehrfach in diesem Checkout. Codes werden vor dem Abgleich erstellt.",
+            "gift_card_used": "Der Geschenkgutscheincode {{code}} ist bereits einem Geschenkgutschein zugewiesen. Codes werden vor dem Vergleich formatiert.",
+            "gift_card_code_changed": "Der Geschenkgutscheincode {{proposed_code}} wurde gemäß den Formatierungsregeln in {{formatted_code}} geändert.",
+            "gift_card_with_attributes_not_supported": "Bei diesem Bezahlvorgang werden keine Geschenkgutscheine mit angepassten Merkmalen unterstützt.",
+            "gift_card_with_components_not_supported": "Bei diesem Bezahlvorgang werden keine Geschenkgutscheine mit Bestandteilen unterstützt.",
+            "selling_plan_not_supported_b2b": "Für den B2B-Kaufabschluss werden keine Abonnements unterstützt.",
+            "price_mismatch": "Der zuvor vorgeschlagene Preis für diese Waren war ungültig und wurde aktualisiert.",
+            "inventory_not_found": "Für diese Waren wurde kein Vorrat gefunden.",
+            "product_not_published": "Produkt ist nicht veröffentlicht.",
+            "duplicated_stable_id": "Diese Warenlinie hat dieselbe stabile ID wie eine andere Linie.",
+            "minimum_quantity_not_met": "Bei einigen Artikeln wird die Mindestmenge nicht erreicht",
+            "maximum_quantity_exceeded": "Für einige Artikel wird die maximal zulässige Menge nicht erreicht",
+            "quantity_increment_not_met": "Für einige Artikel werden die Bestellgrenzen nicht eingehalten",
+            "quantity_rules_not_met": "Für einige Artikel werden die Bestellgrenzen nicht eingehalten",
+            "bundle_requires_components": "Dieses Warenbündel enthält keine Bestandteile.",
+            "title_too_long": "Der Titel der Waren ist zu lang."
+          }
+        }
+      }
     }
   }
 }
