@@ -3204,6 +3204,86 @@
       "order_list": {
         "column_headers": {
           "total": "Insgesamt"
+        },
+        "delivered": "Besorgt: {{date}}",
+        "empty_state_order_source_description": "Nur Bestellungen, die über {{email}} aufgegeben wurden, werden hier angezeigt.",
+        "empty_state_subtitle": "Gehen Sie zum Geschäft, um eine Bestellung aufzugeben.",
+        "pagination": {
+          "nav_accessibility_label": "Navigationsknöpfe für Bestellungen",
+          "next": "Nächste",
+          "previous": "Vorherige",
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Mehr Bestellungen laden"
+        },
+        "sort_hide_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen verbergen.",
+        "sort": {
+          "date": {
+            "newest": "Vom neuesten zum ältesten",
+            "oldest": "Vom ältesten zum neuesten"
+          },
+          "location": {
+            "ascending": "Standort (A-Z)",
+            "descending": "Standort (Z-A)"
+          },
+          "order_number": {
+            "descending": "Bestellnummer (hoch nach niedrig)"
+          },
+          "order_total": {
+            "ascending": "Gesamtbestellung (niedrig bis hoch)",
+            "descending": "Gesamtbestellung (hoch bis niedrig)"
+          }
+        },
+        "one_images_accessibility_label": "Bestellung enthält {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_title": "Keine gefilterten Ergebnisse",
+        "estimated_shortform": "Geschätzt am {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Zu spät",
+            "due_without_date": "Verschuldet",
+            "due_on_fulfillment": "Bei Erfüllung zu zahlen",
+            "pay_to_confirm": "Bezahlen zur Bestätigung"
+          },
+          "gallery_view": {
+            "overdue": "Zahlung ist zu spät",
+            "due_today": "Die Zahlung ist heute fällig",
+            "due_without_date": "Zahlung fällig",
+            "due_on_fulfillment": "Zahlung bei Erfüllung fällig",
+            "pay_to_confirm": "Bezahlen zur Bestätigung",
+            "payment_not_due": "Zahlung ist noch nicht fällig"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Derzeit sortiert nach: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Anzahl {{lineItemQuantity1}}",
+          "view_order_details": "Bestelldaten ansehen",
+          "next": "Nächste"
+        },
+        "show_order_actions_accessibility_label": "Bestellaktionen für Bestellung {{name}} anzeigen",
+        "empty_state_title_for_pending_orders": "Keine Bestellungen in Bearbeitung",
+        "more_than_four_products_accessibility_label": "Die Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus noch {{numberOfAdditionalProducts}} Produkte",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} Produkte",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Bestellung ansehen für Produktdetails"
+          },
+          "table_view": {
+            "estimated_delivery": "Voraussichtliche Lieferung am {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Die Bestellung enthält {{lineItemName1}}, {{lineItemName2}} sowie {{numberOfAdditionalProducts}} weitere Produkte",
+        "filter": {
+          "clear_section": "Abschnitt löschen",
+          "clear_all": "Alles erfahren",
+          "date": {
+            "start_date": "Anfangsdatum",
+            "last_7_days": "Letzte 7 Tage",
+            "last_30_days": "Letzte 30 Tage",
+            "last_90_days": "Letzte 90 Tage",
+            "last_365_days": "Letzte 12 Monate"
+          }
         }
       }
     }
