@@ -3883,8 +3883,86 @@
         },
         "warning_message_without_replacement": {
           "with_pending_orders_and_subscriptions": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf vorab genehmigte Zahlungen. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht, aber du erhältst keine bevorstehenden Abonnementbestellungen mehr. Füge eine andere Zahlungsmethode hinzu, um weiterhin Abonnementbestellungen zu erhalten.",
-          "with_pending_orders": "Das Entfernen der Zahlungsmethode bewirkt, dass diese von deinem Konto gelöscht wird und für zukünftige Einkäufe nicht mehr zur Verfügung steht. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht."
+          "with_pending_orders": "Das Entfernen der Zahlungsmethode bewirkt, dass diese von deinem Konto gelöscht wird und für zukünftige Einkäufe nicht mehr zur Verfügung steht. Offene Beträge bestehender Bestellungen werden weiterhin über diese Zahlungsmethode abgebucht.",
+          "with_subscriptions": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf vorab genehmigte Zahlungen. Füge eine andere Zahlungsmethode hinzu, um zukünftige Bestellungen weiterhin zu erhalten."
         }
+      },
+      "edit_payment_method": {
+        "title": "Zahlungsmethode ändern",
+        "cancel_edit_payment_method_button": "Abbrechen",
+        "billing_address_add_new": "Neu hinzufügen",
+        "billing_address_choose_from_list": "Aus der Liste wählen",
+        "future_purchases_notice": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert.",
+        "generic_error": "Beim Aktualisieren ist ein Problem aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "card_fields": {
+        "name_on_card_label": "Name auf der Karte",
+        "name_on_card_placeholder": "Name auf der Karte",
+        "card_expiry_label": "Ablaufdatum (MM/JJ)",
+        "card_expiry_placeholder": "Ablaufdatum (MM/JJ)",
+        "card_start_label": "Ausgabedatum (MM/JJ)",
+        "card_start_placeholder": "Ausgabedatum (MM/JJ)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Sicherheitscode mit 4 Ziffern auf der Vorderseite deiner Karte",
+          "card_verification_value_explanation_other": "Sicherheitscode mit 3 Ziffern auf der Rückseite deiner Karte",
+          "card_verification_value_explanation": "Sicherheitscode mit 3 Ziffern, meist auf der Rückseite Ihrer Karte zu finden. American Express hat einen Code mit 4 Ziffern auf der Vorderseite.",
+          "card_security_notice": "Alle Transaktionen sind gesichert und verschlüsselt."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Gib deinen Namen so ein, wie er auf deiner Karte steht",
+          "credit_card_number_invalid": "Geben Sie eine gültige Kartennummer ein",
+          "credit_card_expiry_invalid": "Geben Sie ein gültiges Ablaufdatum für die Karte ein",
+          "credit_card_verification_value_blank": "Geben Sie den CVV-/CVC- oder Sicherheitscode Ihrer Karte ein"
+        },
+        "unavailable": {
+          "text": "Zahlungen mit Kreditkarte und Debitkarte sind derzeit nicht verfügbar.",
+          "link_text": "Diese Seite aktualisieren",
+          "suffix": "oder versuchen Sie es später noch einmal."
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "add_billing_address_button": "Neu hinzufügen",
+          "choose_billing_address_from_list_button": "Aus der Liste wählen",
+          "choose_billing_address_from_list_button_accessibility_label": "Wählen Sie eine Rechnungsadresse aus der Liste aus",
+          "missing_billing_address_error_message": "Geben Sie eine Rechnungsadresse an",
+          "default_checkbox": "Als Standardzahlungsart festlegen"
+        },
+        "replace_mode_warning": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf Abonnements oder Vorbestellungen. Ersetze sie durch eine andere Zahlungsmethode, um zukünftige Bestellungen weiterhin zu erhalten.",
+        "choose_from_list": "Aus der Liste wählen",
+        "add_new_button": "Neu hinzufügen",
+        "subscription_contracts": {
+          "product_details": "Produktdaten",
+          "more_items": {
+            "one": "Noch {{count}} Produkt",
+            "other": "Noch {{count}} Produkte"
+          },
+          "product_count": {
+            "one": "{{count}} Produkt",
+            "other": "{{count}} Produkte"
+          }
+        },
+        "subscription_contracts_updated": "{{succeeded}} von {{total}} Abonnements aktualisiert",
+        "invalid_wallet_type_error": "Ungültiger Typ digitale Geldbörse",
+        "updating_contracts": {
+          "one": "{{count}} Abonnementvertrag wird aktualisiert...",
+          "other": "{{count}} Abonnementverträge werden aktualisiert..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} Abonnementvertrag wurde aktualisiert",
+          "other": "{{count}} Abonnementverträge wurden aktualisiert"
+        },
+        "missing_customer_error": "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut oder wenden Sie sich an den Kundendienst."
+      },
+      "card_update_consent": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert.",
+      "digital_wallet_title": "Digitale Geldbörse",
+      "credit_or_debit_card_title": "Kreditkarte oder Debitkarte",
+      "google_pay": {
+        "errors": {
+          "generic": "Es ist ein Problem mit Google Pay aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "missing_billing_address": "Für Google Pay benötigst du eine Rechnungsadresse. Füge eine in deinem Konto hinzu."
+        },
+        "loading": "Google Pay aufladen"
       }
     }
   }
