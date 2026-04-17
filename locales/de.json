@@ -852,7 +852,83 @@
         "none_method_definition": "Keine Lieferungen",
         "subscription_pickup_information": "Diese Liefermethode gilt für alle Artikel in dieser Bestellung und für alle zukünftigen Artikel dieses Abonnements.",
         "ship_to_address": "An Adresse senden",
-        "pick_up_from_store": "Abholung im Geschäft"
+        "pick_up_from_store": "Abholung im Geschäft",
+        "company_location_no_address_banner": "Bestellungen, die an Orte ohne Adresse versandt werden, werden zur Überprüfung eingereicht.",
+        "pickup_point_map_title": "Karte mit Abholstellen"
+      },
+      "customer_account": {
+        "not_user_label": "Bist du nicht %{first_name}?",
+        "save_my_information_label": "Diese Informationen speichern, um künftig schneller zu bezahlen",
+        "invalid_address": "Die ausgewählte Adresse ist ungültig. %{update_address_link} oder wählen Sie eine andere Adresse aus.",
+        "incomplete_address": "Die ausgewählte Adresse ist unvollständig. %{update_address_link} oder wählen Sie eine andere Adresse aus.",
+        "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um die verfügbaren Versandarten zu sehen",
+        "saved_address_option_link": "Verwenden Sie eine gespeicherte Adresse",
+        "saved_address_modal_title": "Verwende meine gespeicherte Adresse",
+        "rollup_accessibility_label": "Kontooptionen"
+      },
+      "stock": {
+        "page_title": "Lagerproblem",
+        "title": "Nicht vorrätig",
+        "items_unavailable_notice": "Einige Artikel sind nicht mehr verfügbar.",
+        "reduced_label": "Verringert",
+        "reduced_with_quantity_label": "Nur %{quantity_available} auf Lager",
+        "empty_cart_label": "Ihr Warenkorb ist leer",
+        "quantity_update": {
+          "page_title": "Menge aktualisiert",
+          "title": "Menge aktualisiert",
+          "description": "Die verfügbaren Mengen für diese Artikel wurden geändert und dein Warenkorb wurde aktualisiert."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt kann nicht gekauft werden",
+          "message": "Diese Artikel sind für B2B-Bestellungen nicht verfügbar."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt kann nicht gekauft werden"
+        },
+        "unshippable_product": {
+          "title": "Keine Lieferung verfügbar",
+          "header": {
+            "one": "Keine Lieferung verfügbar für %{count} Artikel",
+            "other": "Keine Lieferung verfügbar für %{count} Artikel"
+          },
+          "message": {
+            "one": "Dieser Artikel wird aus deinem Warenkorb entfernt, da für deine Adresse keine Liefermethoden verfügbar sind.",
+            "other": "Dieser Artikel wird aus deinem Warenkorb entfernt, da für deine Adresse keine Liefermethoden verfügbar sind."
+          },
+          "status_column_header": "Keine Lieferung"
+        },
+        "price_update": {
+          "description": "Die Preise dieser Artikel wurden geändert und in deinem Warenkorb aktualisiert.",
+          "updated_price": "Aktualisierter Preis"
+        },
+        "continue_cta_label": "Mit dem Bezahlen fortfahren",
+        "unfulfillable_product": {
+          "title": "Lieferung nicht verfügbar",
+          "default_message": {
+            "one": "Die gewählte Liefermethode ist für diesen Artikel nicht mehr verfügbar.",
+            "other": "Die gewählte Liefermethode ist für diese Artikel nicht mehr verfügbar."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Aktualisierung von Preis und Menge",
+          "description": "Die Preise und verfügbaren Mengen für diese Artikel wurden geändert und der Warenkorb wurde aktualisiert."
+        },
+        "out_of_stock_in_context_label": "Dieses Produkt ist in deinem Land/Region nicht verfügbar."
+      },
+      "order_summary": {
+        "shopping_cart_label": "Einkaufswagen",
+        "gift_card_title": "Geschenkgutschein",
+        "gift_card_label": "Geschenkgutschein",
+        "gift_card_placeholder": "Geschenkgutschein",
+        "gift_card_and_discount_title": "Rabattcode oder Geschenkgutschein",
+        "gift_card_and_discount_label": "Rabattcode oder Geschenkgutschein",
+        "gift_card_and_discount_placeholder": "Rabattcode oder Geschenkgutschein",
+        "add_discount_or_gift_card": "Einen Rabattcode oder Geschenkgutschein hinzufügen",
+        "remove_gift_card_label": "Geschenkgutschein entfernen",
+        "free_shipping_discount_label": "Kostenloser Versand",
+        "applied_discount_message": "Es wurde %{amount} Rabatt vom Gesamtpreis abgezogen.",
+        "discount_has_been_applied": "Rabatt wurde angewendet",
+        "discount_has_been_removed": "Rabatt wurde entfernt"
       }
     }
   }
