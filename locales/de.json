@@ -596,7 +596,65 @@
             "quantity_increment_not_met": "Für einige Artikel werden die Bestellgrenzen nicht eingehalten",
             "quantity_rules_not_met": "Für einige Artikel werden die Bestellgrenzen nicht eingehalten",
             "bundle_requires_components": "Dieses Warenbündel enthält keine Bestandteile.",
-            "title_too_long": "Der Titel der Waren ist zu lang."
+            "title_too_long": "Der Titel der Waren ist zu lang.",
+            "title_empty": "Der Titel der Waren ist leer.",
+            "mixed_currencies": "Der Warenkorb enthält Bestellpositionen mit verschiedenen Währungen.",
+            "product_not_published_in_buyer_location": "Produkt ist am Standort des Käufers nicht veröffentlicht.",
+            "combined_listing_parent_not_purchasable": "Hauptprodukte aus kombinierten Einträgen können nicht direkt gekauft werden."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Ansprechpartner im Unternehmen hat keinen Zugang zum Betrieb.",
+            "customer_account_required": "Sie müssen sich anmelden, um fortzufahren.",
+            "contact_info_does_not_match_customer_account": "Die Kontaktdaten müssen mit dem Konto übereinstimmen, mit dem du dich angemeldet hast.",
+            "phone_number_does_not_match_expected_pattern": "Die angegebene Telefonnummer hat ein falsches Muster.",
+            "email_required": "Wenn die Waren im Rahmen eines Abonnements gekauft wurden, ist eine E-Mail erforderlich.",
+            "missing_contact_method": "Es fehlt eine gültige Kontaktmöglichkeit.",
+            "checkout_completion_target_is_missing": "Ziel für den Abschluss des Bezahlvorgangs fehlt.",
+            "customer_profile_access_restricted": "Der Kassiervorgang hat keinen Zugriff auf das Kundenprofil.",
+            "checkout_completion_target_is_invalid_proc": "Ungültiges Ziel für den Abschluss des Bestellvorgangs.",
+            "company_location_required": "Der Kunde kann nur fortfahren, wenn er einen Firmenstandort auswählt.",
+            "lost_access_to_company": "Der Kunde hat den Zugang zu jedem Unternehmen verloren.",
+            "company_purchase_permission_required": "Der Kunde ist nicht berechtigt, Firmenbestellungen aufzugeben.",
+            "personal_order_not_allowed": "Persönliche Bestellungen sind für diesen Laden nicht erlaubt.",
+            "buyer_identity_presentment_currency_does_not_match": "Bei der Bearbeitung deiner Bestellung ist ein Problem aufgetreten. Bitte versuche es in ein paar Minuten erneut."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Ein Warenkorb darf nur eine Lieferregel enthalten.",
+            "wrong_number_of_delivery_lines": "Geben Sie für jede Warengruppe eine Lieferregel an.",
+            "external_delivery_promise_error": "Konnte das erwartete Lieferdatum nicht vom externen Anbieter abrufen.",
+            "options_instructions_invalid": "Die angegebenen Anweisungen enthalten ein falsches Muster.",
+            "destination_address_required": "Um fortzufahren, benötigen Sie eine Lieferadresse.",
+            "pickup_points_unavailable": "Abholstellen sind derzeit nicht verfügbar.",
+            "local_pickup_delivery_line_detail_changed": "Um fortzufahren, muss die derzeitige Lieferstrategie für die Abholung vor Ort geändert werden.",
+            "local_pickup_no_delivery_strategy_available": "Keine Lieferstrategie für Abholung vor Ort verfügbar.",
+            "origin_location_id_required": "Eine Herkunftsort-ID ist erforderlich, wenn die Lieferart EINZELHANDEL angefragt wird.",
+            "invalid_origin_location_id": "Kann keinen Standort für die Herkunftsort-ID finden.",
+            "origin_location_id_not_allowed": "Bei den angeforderten Liefermethoden wird keine Herkunftsort-ID unterstützt.",
+            "auto_fulfill_not_allowed": "Diese Sitzung ist nicht berechtigt, das Erfüllungsverhalten zu überschreiben.",
+            "auto_fulfill_required": "Automatische Auftragsabwicklung ist erforderlich, wenn die Liefermethode EINZELHANDEL verlangt wird.",
+            "prefetch_shipping_rates_used": "Vorab festgelegte Versandkosten dürfen niemals Rücksendekosten sein.",
+            "fulfillment_constraints_not_satisfied": "Es wurde eine oder mehrere Erfüllungsbeschränkungen nicht eingehalten.",
+            "must_fulfill_from_constraint_not_satisfied": "Der Grund dafür ist, dass Artikel nicht von den erforderlichen Standorten aus bearbeitet werden können.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Der Grund dafür ist, dass Artikel nicht vom selben Ort aus bearbeitet werden können.",
+            "delivery_strategy_conditions_not_satisfied": "Für diesen Standort sind Lieferstrategien verfügbar, doch die Voraussetzungen werden nicht erfüllt.",
+            "out_of_stock_at_origin_location": "Kein Vorrat am Herkunftsort.",
+            "invalid_signature": "Ungültige Unterschrift für Rabatt.",
+            "selected_pickup_option_no_longer_available": "Die zuvor gewählte Abholoption ist nicht mehr verfügbar."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Rabatte sind in B2B-Geschäften nicht erlaubt.",
+            "custom_discount_not_honoured": "Der eingegebene angepasste Rabatt wurde nicht gewährt.",
+            "unsupported_expectation": "Die eingegebene Rabattregel enthielt eine Annahme, die die Richtlinie nicht interpretieren konnte.",
+            "additional_requested_discount_code_discarded": "{{code}} ist gültig, aber nicht anwendbar. Überprüfen Sie die Bedingungen für Rabatte.",
+            "allocations_mismatch": "Ihr Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
+            "discount_title_too_long": "Der Titel des Rabatts darf nicht länger als 255 Zeichen sein.",
+            "additional_requested_discount_discarded": "Ihr Rabatt ist gültig, kann jedoch nicht angewendet werden. Bitte überprüfen Sie die Bedingungen für Rabatte."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Die auf deine Bestellung anfallenden Steuern wurden geändert. Überprüfe deine Bestellung und versuche es erneut.",
+            "unresolvable_tax_terms": "Die vorgeschlagenen Bedingungen sind im Hinblick auf den bestehenden Verhandlungskontext nicht umsetzbar.",
+            "delivery_price_is_abstract": "Der betreffende Preis für die Zustellung ist abstrakt.",
+            "tax_inclusivity_mismatch": "Verhandeln Sie erneut mit einem konkreten Wert für totalTaxAndDutyAmount oder totalAmountIncludedInTarget."
           }
         }
       }
