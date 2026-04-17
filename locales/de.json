@@ -3715,10 +3715,96 @@
             },
             "deposit": {
               "due_later": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Für den Restbetrag gelten die {{translatedName}}-Bedingungen.",
-              "due_on_fulfillment": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist fällig, wenn Ihre Bestellung bearbeitet wurde."
+              "due_on_fulfillment": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist fällig, wenn Ihre Bestellung bearbeitet wurde.",
+              "due_on_receipt": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist später fällig.",
+              "due_on_date": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist am {{dueDate}} fällig."
             }
-          }
+          },
+          "paid": {
+            "description": "Deine Bestellung ist vollständig bezahlt."
+          },
+          "pay_now": "Jetzt bezahlen",
+          "pending": {
+            "banner_overdue": {
+              "one": "Jede Zahlung ist {{count}} Tag zu spät",
+              "other": "Ihre Zahlung ist {{count}} Tage zu spät"
+            },
+            "banner_due": {
+              "one": "Für jede Zahlung ist {{count}} Tag fällig",
+              "other": "Ihre Zahlung ist in {{count}} Tagen fällig"
+            },
+            "banner_due_today": "Ihre Zahlung ist heute fällig",
+            "title": "Zahlung fällig",
+            "description_overdue": "Ihre Zahlung ist zu spät.",
+            "description_partially_paid": "Diese Bestellung ist teilweise bezahlt. Du hast einen Restbetrag.",
+            "description_authorized": "Der Betrag wird am Fälligkeitsdatum über die von dir gewählte Zahlungsmethode abgebucht. Du kannst auch jetzt schon bezahlen.",
+            "title_due_on_receipt": "Zahlung ist noch nicht fällig",
+            "description_due_on_receipt": "Du erhältst eine Rechnung, wenn die Zahlung fällig ist.",
+            "title_due_on_fulfillment": "Die Zahlung ist bei Erfüllung der Bestellung fällig.",
+            "description_due_on_fulfillment": "Die Zahlung ist fällig, sobald alle Artikel in dieser Bestellung bearbeitet wurden.",
+            "description_waiting_for_manual_payment": "Eine Zahlung für diese Bestellung wird bearbeitet. Der Kontostand wird aktualisiert, sobald wir die Zahlung erhalten.",
+            "description_due_on_receipt_partially_paid": "Diese Bestellung ist teilweise bezahlt. Es bleibt ein Restbetrag offen. Du erhältst eine Rechnung, wenn die Zahlung fällig ist.",
+            "description_due_on_fulfillment_partially_paid": "Diese Bestellung ist teilweise bezahlt. Es bleibt ein Restbetrag offen. Die Zahlung ist fällig, sobald alle Artikel dieser Bestellung bearbeitet wurden.",
+            "description_due_on_fulfillment_partially_paid_next": "Diese Bestellung ist teilweise bezahlt. Du hast einen Restbetrag.",
+            "banner_due_today_for_single_fulfillment": "Zahlung von {{amount}} ist heute fällig. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Zahlung heute fällig für {{count}} Erfüllungen",
+            "banner_overdue_for_multiple_fulfillments": "Zahlung fällig für {{count}} Erfüllungen",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Zahlung von {{amount}} ist {{count}} Tag zu spät. {{link}}",
+              "other": "Zahlung von {{amount}} ist {{count}} Tage zu spät. {{link}}"
+            }
+          },
+          "refund": {
+            "title_with_date": "Zurückgezahlt am {{date}}",
+            "description_full_refund": "Sie haben eine vollständige Rückerstattung für diese Bestellung erhalten.",
+            "description_single_refund": "Sie haben eine teilweise Rückerstattung für diese Bestellung erhalten.",
+            "description_multiple_refunds": "Sie haben Teilrückzahlungen für diese Bestellung erhalten."
+          },
+          "canceled": {
+            "title": "Zahlung abgebrochen",
+            "description": "Es wurden dir keine Kosten berechnet."
+          },
+          "total_balance": "Gesamtsaldo"
+        },
+        "subtitle": "Eingereicht: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Daten anzeigen",
+          "expand_events_accessibility_label": "Daten des Konzeptbestellung anzeigen",
+          "hide_events_label": "Daten verbergen",
+          "hide_events_accessibility_label": "Daten des Konzeptbestellung verbergen"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Diese Zahlungsmethode ist für zukünftige Einkäufe an diesem Ort nicht mehr verfügbar.",
+          "description_with_replacement": "Wenn du diese Zahlungsmethode entfernst, hat das Auswirkungen auf vorab genehmigte Zahlungen für diesen Standort. Ersetze sie durch eine andere Zahlungsmethode, um weiterhin eingehende Bestellungen zu erhalten."
+        },
+        "payment_details": {
+          "draft_label": "Konzeptbestellung {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "cancel": "Abbrechen",
+        "modal_po_number_input_max_length_error": "Bestellnummern sind maximal {{maxLength}} Zeichen lang.",
+        "title": "Bestellnummer {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Beim Löschen dieser Adresse ist ein Problem aufgetreten. Versuchen Sie es erneut oder laden Sie die Seite neu."
+      },
+      "banner_title": {
+        "one": "Es gibt {{count}} Fehler",
+        "other": "Es gibt {{count}} Fehler"
+      },
+      "failed_address_creation": {
+        "description": "Beim Anlegen deiner Adresse ist ein Problem aufgetreten. Bitte lade diese Seite neu oder überprüfe deine Internetverbindung."
+      },
+      "failed_address_update": {
+        "description": "Beim Aktualisieren deiner Adresse ist ein Problem aufgetreten. Lade diese Seite neu oder überprüfe deine Internetverbindung."
+      },
+      "no_access_to_locations": {
+        "description": "Du hast keinen Zugang zu Standorten"
       }
     }
   }
