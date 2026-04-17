@@ -3642,6 +3642,82 @@
         "tax_exemption_not_applicable": "nicht zutreffend",
         "pagination": {
           "load_more": "Mehr laden"
+        },
+        "staff_and_permissions_title": "Mitarbeitende und Berechtigungen",
+        "deposit_percentage": "{{percentage}} Anzahlung"
+      },
+      "location_selection": {
+        "description": "Wenn du bereits Artikel in deinem Warenkorb hast, kann das Ändern des Standorts möglicherweise die Preise und Mengen in deinem Warenkorb beeinflussen.",
+        "list_item_without_address_accessibility_label": "{{name}}: keine Adresse",
+        "list_loading_accessibility_message": "Standortliste laden",
+        "list_loading_address_accessibility_message": "Adresse für {{locationName}} laden",
+        "list_loading_finished_accessibility_message": "Standortliste ist geladen",
+        "loading_store_accessibility_message": "Unterwegs zum Laden",
+        "selection_cancel_button": "Abbrechen",
+        "selection_confirmation_button": "Standort wählen",
+        "title": "Für welchen Standort kaufst du?",
+        "continue_to_store": "Weiter zum Laden",
+        "no_location_title": "Nur persönliche Bestellungen",
+        "no_location_description": "Du bist nicht mehr berechtigt, Bestellungen für {{company}} aufzugeben. Persönliche Bestellungen kannst du jedoch weiterhin tätigen.",
+        "clear_search": "Suchaktion leeren",
+        "try_new_search": "Versuchen Sie eine neue Suche",
+        "search_location_title": "Wählen Sie einen Standort aus",
+        "selection_continue_button": "Fortfahren",
+        "description_switch_later": "Du kannst später jederzeit noch wechseln",
+        "title_choose_location": "Wählen Sie einen Standort aus"
+      },
+      "addresses": {
+        "cancel_adding_billing_address_accessibility_label": "Rechnungsadresse hinzufügen abbrechen",
+        "cancel_adding_shipping_address_accessibility_label": "Lieferadresse hinzufügen abbrechen"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Alles ausblenden",
+          "show_all": "Alles anzeigen",
+          "hide_all_accessibility_label": "Alle Bestellungen in Prüfung verbergen",
+          "show_all_accessibility_label": "Alle Bestellungen in der Überprüfung anzeigen",
+          "title": "In Bearbeitung",
+          "show_all_orders_in_review": "Alle Bestellungen in der Überprüfung anzeigen",
+          "show_less_orders_in_review": "Weniger Bestellungen in der Prüfung anzeigen",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Du hast keine Bestellungen in Bearbeitung",
+            "pending_orders": {
+              "one": "Du hast {{count}} Bestellung in Bearbeitung",
+              "other": "Du hast {{count}} Bestellungen in Bearbeitung"
+            },
+            "more_than_pagination_length": "Du hast mehr als {{count}} Bestellungen in Bearbeitung"
+          },
+          "pending_orders_count_more_than_pagination_length": "mehr als {{count}}"
+        },
+        "removed_company_contact_tooltip": "Aus dem Sortiment entfernt"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bestätigt am {{date}} für Bestellung {{draftOrderName}}",
+        "loading": "Bestelldaten werden geladen",
+        "loading_finished_accessibility_message": "Bestelldaten wurden geladen",
+        "payment_status": {
+          "draft": {
+            "description": "Zahlungsdaten werden festgelegt, sobald die Bestellung bestätigt ist.",
+            "title": "Zahlung ist noch nicht fällig",
+            "in_review": {
+              "description": "Zahlungsdaten werden festgelegt, sobald die Bestellung bestätigt ist.",
+              "title": "Zahlung ist noch nicht fällig"
+            },
+            "submitted": {
+              "description": "Zahlen Sie, um diese Bestellung zu bestätigen.",
+              "title": "Bezahlen zur Bestätigung",
+              "deposit": {
+                "due_later": "Für das Guthaben gelten die {{translatedName}}-Bedingungen und es ist fällig am {{dueDate}}.",
+                "due_on_fulfillment": "Der Saldo ist fällig, sobald alle Artikel in dieser Bestellung bearbeitet wurden.",
+                "due_on_receipt": "Sie erhalten eine Rechnung für den verbleibenden Restbetrag.",
+                "due_on_date": "Der Saldo ist am {{dueDate}} fällig."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Für den Restbetrag gelten die {{translatedName}}-Bedingungen.",
+              "due_on_fulfillment": "{{depositAmount}} ist fällig, sobald die Bestellung bestätigt wurde. Der Restbetrag ist fällig, wenn Ihre Bestellung bearbeitet wurde."
+            }
+          }
         }
       }
     }
