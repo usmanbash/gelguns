@@ -2572,9 +2572,93 @@
             "first_name": "Geben Sie einen Vornamen ein",
             "last_name": "Geben Sie einen Nachnamen ein",
             "address1": "Geben Sie eine Adresse ein",
-            "address2": "Geben Sie eine Wohnungs- oder Suitennummer ein usw."
+            "address2": "Geben Sie eine Wohnungs- oder Suitennummer ein usw.",
+            "city": "Geben Sie einen Ort ein",
+            "province": "Wählen Sie einen Bundesstaat/eine Provinz aus",
+            "country": "Wählen Sie ein Land/Region aus",
+            "zip": "Geben Sie eine Postleitzahl ein",
+            "phone": "Geben Sie eine Telefonnummer ein",
+            "billing_first_name": "Geben Sie einen Vornamen für die Rechnungsadresse ein",
+            "billing_address1": "Geben Sie eine Rechnungsadresse ein",
+            "billing_address2": "Geben Sie eine Wohnungs- oder Suitennummer usw. für die Rechnungsadresse ein",
+            "billing_city": "Geben Sie einen Ort für die Rechnungsadresse ein",
+            "billing_province": "Wählen Sie einen Bundesstaat/eine Provinz für die Rechnungsadresse aus",
+            "billing_zip": "Wählen Sie eine PLZ oder Postleitzahl für die Rechnungsadresse aus",
+            "contact_info": "Geben Sie die Kontaktdaten ein"
+          },
+          "formatting": {
+            "name_contains_emojis": "Emoji aus deinem Namen entfernen",
+            "postal_code_contains_emoji": "Emoji aus deiner Postleitzahl entfernen"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Deine Lieferadresse ist ungültig. Wähle eine andere Adresse oder gib eine neue Adresse ein.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} ist derzeit für deine Bestellung nicht verfügbar. Wähle eine andere Zahlungsmethode, um mit dem Kauf fortzufahren."
+          },
+          "discount_code": "Dieser Rabattcode kann nicht angewendet werden. Überprüfe deinen Code und versuche es erneut.",
+          "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder {{checkout_as_guest_link}}."
+        },
+        "return_to_checkout": "Zurück zur Kasse",
+        "scrim": {
+          "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}}-Fenster fort",
+          "and_return_to_checkout": "und zurück zur Kasse"
+        },
+        "recovery_notice": "Bei deinen Bestelldaten ist ein Fehler aufgetreten. Bitte aktualisiere deine Daten, um die Zahlung abzuschließen."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Überprüfen Sie zuerst Ihre Kontaktdaten, bevor Sie die Zahlung abschließen"
+      },
+      "store_credit_errors": {
+        "generic_error": "Es ist ein Problem mit deinem Einkaufsguthaben aufgetreten. Versuche es erneut oder lade die Seite neu."
+      },
+      "note": {
+        "length_exceeds_maximum": "Kürzen Sie die Bemerkung auf maximal 5000 Zeichen."
+      },
+      "billing": {
+        "same_as_shipping": "Gleich wie Lieferadresse",
+        "delete": "Entfernen",
+        "address_delete": "Adresse entfernen",
+        "address_confirm": "Bist du sicher, dass du diese Adresse aus deinem Konto entfernen möchtest?",
+        "address_form": {
+          "cancel": "Abbrechen"
+        },
+        "billing_address_rollup_accessibility_label": "Abrechnungsoptionen"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Der Geschenkgutschein wurde bereits auf deine Bestellung angewendet",
+          "insufficient_funds": "Auf diesem Geschenkgutschein ist kein Guthaben mehr vorhanden",
+          "expired": "Dieser Geschenkgutschein ist abgelaufen",
+          "not_available": "Dieser Geschenkgutschein ist nicht mehr verfügbar",
+          "invalid": "Geben Sie einen gültigen Geschenkgutschein ein",
+          "generic": "Der Geschenkgutschein kann nicht zum Bezahlvorgang hinzugefügt werden",
+          "throttle_limit_exceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Versuche es später noch einmal.",
+          "no_longer_available": "Dieser Geschenkgutschein kann an dieser Kasse nicht mehr verwendet werden"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in einigen Augenblicken erneut.",
+          "checkout_has_expired": "Dein Checkout ist abgelaufen. Schließe dieses Fenster und versuche erneut bei {{shopName}} zu bezahlen."
+        },
+        "return_to_store_simple": "Zurück zum Laden",
+        "title": "Shop Pay-Kasse"
+      },
+      "company_location": {
+        "location_title": "Betriebsstandort",
+        "location_rollup_accessibility_label": "Optionen für den Betriebsstandort"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Der Preis des Geschenkgutscheins muss höher als 0 sein.",
+            "subtotal_limit_reached": "Der Höchstwert für Bestellpositionen ist erreicht.",
+            "gift_card_price_must_not_exceed_limit": "Der Preis der Geschenkkarte darf %{gift_card_limit} nicht überschreiten.",
+            "signature_mismatch": "Falsche Unterschrift für Ware bei Regel %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nicht kopiert"
       }
     }
   }
