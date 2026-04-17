@@ -2969,9 +2969,77 @@
       "order": {
         "financial_status": {
           "authorized": "Verifiziert",
-          "pending": "In Bearbeitung"
+          "pending": "In Bearbeitung",
+          "voided": "Abgelaufen",
+          "partially_refunded": "Teilweise zurückerstattet"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Abgewickelt",
+          "complete": "Komplett",
+          "unfulfilled": "Ausstehend",
+          "restocked": "Herbstvorrat"
+        },
+        "transaction_status": {
+          "success": "Bestanden",
+          "pending": "In Bearbeitung",
+          "failure": "Gescheitert"
+        },
+        "cancel_reason": {
+          "declined": "Zahlung abgelehnt",
+          "fraud": "Betrügerische Bestellung",
+          "customer": "Kunde hat Bestellung geändert/storniert",
+          "other": "Anders",
+          "staff": "Falsche Mitarbeiter"
+        },
+        "cash_on_delivery": "Nachnahme"
+      },
+      "cart": {
+        "only_n_items_available": "Du kannst nur %{count} %{name} zu deinem Warenkorb hinzufügen.",
+        "too_many_items_in_cart": "Du kannst keine weiteren %{name} zu deinem Warenkorb hinzufügen.",
+        "all_items_in_cart": "Alle %{count} %{name} sind in deinem Warenkorb.",
+        "missing_parameters": "keine gültige ID oder Zeilennummer",
+        "generic_error": "Fehler im Warenkorb",
+        "too_many_line_items_error": "Ihr Warenkorb kann nicht mehr als %{max} Artikel enthalten.",
+        "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> für Sie bereitgestellt.",
+        "items_changed": "Ein oder mehrere Artikel wurden geändert.",
+        "variant_requires_selling_plan": "Variante kann nur mit einem Verkaufsabonnement erworben werden.",
+        "shipping_address_not_required": "Für diesen Einkaufswagen ist kein Versand erforderlich",
+        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Fahren Sie mit dem Bezahlen fort, um die Versandkosten auszuwählen, bevor Sie Ihre Bestellung abschließen.",
+        "selling_plan_not_applicable": "Kann Verkaufsabonnement nicht auf Variante anwenden",
+        "selling_plan_not_available_for_company_locations": "Nur Einmalkäufe sind für B2B-Bestellungen verfügbar.",
+        "digital_product_not_available_for_company_locations": "Du kannst diesen Artikel nicht zu einer B2B-Bestellung hinzufügen",
+        "less_than_minimum": "Dieser Artikel hat eine Mindestmenge von %{min}.",
+        "not_respect_step": "Du kannst diesen Artikel nur in Schritten von %{step} hinzufügen.",
+        "bundle_requires_components": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "gift_card_with_components_not_supported": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "view_lines_limit_reached": "Regeln müssen kleiner als oder gleich %{limit} sein",
+        "gift_card_price_must_be_greater_than_zero": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "cart_too_large": "Der Warenkorb ist zu groß.",
+        "gift_card_recipient_validation_error": "Der angegebene Empfänger des Geschenkgutscheins ist ungültig",
+        "buyer_cannot_purchase_for_company_locations": "Du kannst für diesen Ort keinen Kauf tätigen",
+        "only_one_added_to_cart": "Es wurde nur 1 Artikel aufgrund der Verfügbarkeit zu deinem Warenkorb hinzugefügt.",
+        "only_n_added_to_cart": "Es wurden aufgrund der Verfügbarkeit nur %{quantity} Artikel zu deinem Warenkorb hinzugefügt.",
+        "maximum_available_quantity_reached": "Die maximale Menge dieses Artikels ist bereits in deinem Warenkorb.",
+        "cart_attributes_error": "Warenkorbattribute enthalten ungültige Daten.",
+        "merchandise_not_applicable": "Artikel kann nicht in der gewählten Konfiguration gekauft werden."
+      },
+      "storefront": {
+        "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
+      },
+      "tags": {
+        "add_articles": "Suche auf Artikel mit dem Tag %{tag} beschränken",
+        "add_products": "Suche nur nach Produkten mit dem passenden Tag %{tag}",
+        "remove_articles": "Erweitern Sie die Suche auf Artikel, die nicht mit %{tag} getaggt sind"
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_return_line_item": "%{delta} aus der Rücksendung entfernt"
         }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Ihr Warenkorb",
+      "order": "Bestelle %{name}"
     }
   }
 }
