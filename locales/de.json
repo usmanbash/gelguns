@@ -1462,7 +1462,73 @@
           "manage_label": "Geschenkgutscheine oder Ladenkredit verwalten"
         },
         "saved_credit_card_cvv_verification": "Geben Sie zur Überprüfung den Sicherheitscode Ihrer Karte ein.",
-        "afterpay_label": "Nachzahlung"
+        "afterpay_label": "Nachzahlung",
+        "cashapppay_label": "Cash App Bezahlen",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Aus Rücksendung entfernt",
+          "with_quantities": "{{delta}} aus Rücksendung entfernt"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Aus Rücksendung entfernt",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} aus der Rücksendung entfernt",
+        "proposed_gateway_unavailable": "Das vorgeschlagene Zahlungstor ist nicht verfügbar",
+        "pay_in_installments_split_pay_short": "Vier Zahlungen von %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die gewählte Lieferadresse nicht verfügbar. Bitte wählen Sie eine andere Zahlungsmethode.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero ist für diese Bestellung nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
+        "paypal_disconnect": "Trennen",
+        "paypal_wallet_label": "PayPal-Brieftasche",
+        "payment_method_update_failed": "Aktualisierung der Zahlungsmethode ist fehlgeschlagen.",
+        "alternative_payment_currency_total_manual_payment_notice": "Hinweis: Der umgerechnete Gesamtbetrag beträgt %{amount_due}.",
+        "gift_cards_unavailable": "Dein Geschenkgutschein kann für diese Bestellung nicht mehr verwendet werden und wurde daher entfernt",
+        "network_card_payment_options": "Eine Kreditkartengesellschaft auswählen",
+        "payment_flexibility_terms_id_mismatch": "ID Bedingungen Zahlungsflexibilität stimmt nicht überein",
+        "offsite_gateway_review_page_redirect_hint": "Nachdem du die Bestellung überprüft hast, wirst du zu %{gateway_label} weitergeleitet, um deinen Kauf abzuschließen.",
+        "gift_card_checkbox_label": "Geschenkgutschein einlösen",
+        "blik_label": "Blick",
+        "grabpay_label": "GrabBezahlen",
+        "simulated_express_checkout": "Digitale Geldbörsen sind im Editor-Beispiel aufgrund deiner Region oder deines Browsers nicht verfügbar",
+        "swish_label": "Schwung",
+        "network_card_persistence_description": "Das ausgewählte Netzwerk wird mit deiner Zahlungsmethode für zukünftige Transaktionen gespeichert.",
+        "usdc_label": "US-Dollar-Cent",
+        "payment_method_incompatible_with_payment_terms": "Zahlungsmethode ist mit den Zahlungsbedingungen nicht vereinbar.",
+        "payment_option": {
+          "accessibility_label": "Wählen Sie eine Zahlungsart"
+        },
+        "billing_address_rollup_accessibility_label": "Optionen für die Rechnungsadresse",
+        "payment_method_rollup_accessibility_label": "Zahlungsmethodenoptionen",
+        "crypto_modal": {
+          "header": "Bezahlen Sie %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Erneuern",
+            "sandbox_error": "Es ist etwas schiefgelaufen"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Girokonto"
+        },
+        "bank_account_choose": "Wähle ein Konto, um deinen Einkauf sicher abzuschließen",
+        "bank_account_connect_another": "Anderes Bankkonto verknüpfen",
+        "bank_account_connect": "Bankkonto verknüpfen",
+        "bank_account_missing": "Das Bankkonto muss verknüpft sein",
+        "crypto_payment_method": {
+          "description": "Kopple deine Wallet sicher. Dein Saldo und deine Adresse werden nicht geteilt.",
+          "tooltip": "Der Kontostand deiner Geldbörse und deine Adresse werden nicht weitergegeben, und nur der angeforderte Betrag kann abgebucht werden.",
+          "cashback_descriptor": {
+            "one": "Du erhältst dein Cashback nach %{count} Tagen"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% Cashback",
+        "usdc_cashback_additional_info": "Bezahlen Sie mit USDC auf Base und erhalten Sie innerhalb von 30 Tagen %{incentive_percentage}% zurück in Ihre digitale Geldbörse, bis zu 100 USDC.",
+        "usdc_cashback_terms": "Anwendbare Bedingungen",
+        "discount_show_more_warnings": {
+          "one": "%{count} mehr anzeigen",
+          "other": "%{count} mehr anzeigen"
+        },
+        "separate_payments_label": "Deine Artikel stammen aus mehr als einem Geschäft. Du musst mit %{separate_payments_link} bezahlen.",
+        "separate_payments_text": "einzelne Zahlungen",
+        "business_customer_with_bank_account_vaulting_payment_label": "Speichere diese Zahlungsmethode beim Bezahlen und ermächtige %{company}, dein Konto für zukünftige Einkäufe, die du für diesen Standort genehmigst, zu belasten, bis du widerrufst. Alle Kontaktpersonen, die diesem Standort zugewiesen sind, dürfen die Zahlungsmethode verwenden.",
+        "new_bank_account_disclaimer": "Mit dem Abschluss deiner Bestellung erteilst du %{shop_name} die Ermächtigung, den angegebenen Betrag zum genannten Zeitpunkt per ACH von dem untenstehenden Konto abzubuchen.",
+        "bank_account_disclaimer": "Es kann bis zu 4 Werktage dauern, bis ACH-Zahlungen bearbeitet sind.",
+        "bank_account_generic_error": "Kann das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut."
       }
     }
   }
