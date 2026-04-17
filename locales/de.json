@@ -2805,11 +2805,95 @@
               "lt": "Geben Sie eine gültige litauische Umsatzsteuer-Identifikationsnummer ein",
               "lu": "Geben Sie eine gültige luxemburgische Mehrwertsteuernummer ein",
               "mt": "Geben Sie eine gültige maltesische Mehrwertsteuernummer ein",
-              "nl": "Geben Sie eine gültige niederländische Umsatzsteuer-Identifikationsnummer ein"
+              "nl": "Geben Sie eine gültige niederländische Umsatzsteuer-Identifikationsnummer ein",
+              "pl": "Geben Sie eine gültige polnische Umsatzsteuer-Identifikationsnummer ein",
+              "pt": "Geben Sie eine gültige portugiesische Mehrwertsteuernummer ein",
+              "ro": "Geben Sie eine gültige rumänische Umsatzsteuer-Identifikationsnummer ein",
+              "sk": "Geben Sie eine gültige slowakische Umsatzsteuer-Identifikationsnummer ein",
+              "si": "Geben Sie eine gültige slowenische Umsatzsteuer-Identifikationsnummer ein",
+              "es": "Geben Sie eine gültige spanische Umsatzsteuer-Identifikationsnummer ein",
+              "se": "Geben Sie eine gültige schwedische Umsatzsteuer-Identifikationsnummer ein",
+              "gb": "Geben Sie eine gültige britische Umsatzsteuer-Identifikationsnummer ein"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Die Überprüfung der Mehrwertsteuer-Identifikationsnummer wird durchgeführt",
+              "valid": "Die Btw-Identifikationsnummer ist gültig",
+              "applied": "Btw-Befreiung wurde angewendet",
+              "domestic": "Btw-Befreiung wurde nicht angewendet",
+              "invalid_number": "Btw-Befreiung ist fehlgeschlagen",
+              "service_unavailable": "Kann die Mehrwertsteuerbefreiung nicht überprüfen",
+              "service_error": "Kann die Mehrwertsteuerbefreiung nicht überprüfen"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Diese Zahlung ist nicht mehr erforderlich. Gehen Sie zur Bestellseite für weitere Informationen.",
+        "paid": "Diese Zahlung wurde bereits eingereicht. Gehen Sie zur Bestellseite für weitere Informationen."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Für den Abschluss des Bezahlvorgangs ist eine Erweiterungs-Interaktion erforderlich."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Überprüfe deine Bestellung"
+        },
+        "shipping": {
+          "shipping_options": "Alle Versandoptionen ansehen"
+        },
+        "payment": {
+          "payment_options": "Alle Zahlungsoptionen ansehen"
+        }
+      },
+      "too_many_requests": {
+        "title": "Zu viele Versuche beim Bezahlen",
+        "body": "Warten Sie ein paar Minuten und versuchen Sie es erneut aus Ihrem Warenkorb.",
+        "body_no_cart": "Warten Sie ein paar Minuten und versuchen Sie es erneut."
+      },
+      "address_management": {
+        "saved_with_store": "Gespeichert in diesem Geschäft"
       }
+    },
+    "links": {
+      "powered_by_shopify": "Angetrieben von Shopify",
+      "learn_more": "Mehr Informationen"
+    },
+    "attributes": {
+      "body": "Haupttext"
+    },
+    "addresses": {
+      "state_and_territory": "Staat/Gebiet",
+      "emirate": "Emirat",
+      "governorate": "Regierung"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Bestseller",
+        "az": "Alphabetisch: A-Z",
+        "za": "Alphabetisch: Z-A",
+        "price_ascending": "Preis: niedrig bis hoch",
+        "price_descending": "Preis: hoch nach niedrig",
+        "date_ascending": "Datum: alt zu neu",
+        "date_descending": "Datum: neu nach alt"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Die Kreditkartenautorisierung ist abgelaufen. Bitte geben Sie Ihre Zahlungsdaten erneut ein. Es wurde kein Geld von Ihrer Karte abgebucht.",
+      "invalid_email": "muss eine gültige E-Mail-Adresse sein",
+      "discount_disabled": "Dieser Rabatt ist gesperrt",
+      "discount_limit_reached": "Dieser Rabatt hat das Nutzungslimit erreicht",
+      "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der mit dem Code übereinstimmt",
+      "customer_already_used_once_per_customer_discount_notice": "Dieser Rabatt hat das Nutzungslimit erreicht",
+      "gift_card_already_applied": "Der Code wurde bereits auf deinen Warenkorb angewendet",
+      "gift_card_code_invalid": "Code ist ungültig",
+      "gift_card_currency_mismatch": "Jeder Geschenkgutschein ist in %{gift_card_currency}. Bitte kontaktieren Sie uns, damit wir diesen in %{checkout_currency} neu ausstellen können.",
+      "gift_card_depleted": "Auf diesem Geschenkgutschein ist kein Guthaben mehr vorhanden",
+      "gift_card_disabled": "Gutschein ist gesperrt",
+      "gift_card_expired": "Gutschein ist abgelaufen"
     }
   }
 }
