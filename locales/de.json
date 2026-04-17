@@ -2136,7 +2136,83 @@
         "title": "Meldungen"
       },
       "order_payment_collection": {
-        "custom_line_item_description": "Zu zahlender Betrag für Bestellung %{order_name}"
+        "custom_line_item_description": "Zu zahlender Betrag für Bestellung %{order_name}",
+        "changes_summary": {
+          "removed": "Gelöscht",
+          "return_line_item_removed": "%{count} aus der Rücksendung entfernt"
+        },
+        "additional_payment_requested": "Zahlung von %{total_outstanding} ist erforderlich",
+        "checkout_review_and_pay": "Ihre Bestellung %{order_name} wurde aktualisiert. Sehen Sie sich diese Änderungen an und bezahlen Sie anschließend, um Ihre Bestellung zu bestätigen.",
+        "order_updated_on": "Ihre Bestellung wurde zuletzt am %{last_edited_at} aktualisiert.",
+        "order_review_and_pay": "Deine Bestellung wurde aktualisiert. Überprüfe sie und bezahle, um deine Bestellung zu bestätigen."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Ihre Kreditkarte wird mit %{amount} belastet",
+        "payment_total_label": "Gesamtzahlungen",
+        "change_currency_link": "Ändern in %{currency_name}",
+        "card_provider_fx_charges_warning": "Je Kartenherausgeber kann möglicherweise Gebühren für %{currency_code} Transaktionen erheben.",
+        "currency_not_supported_by_shop": "Die von dir ausgewählte Währung ist nicht mehr verfügbar. Alle Preise sind jetzt in %{currency_code}."
+      },
+      "tips": {
+        "description": "Zeige, dass du das Team von %{shop_name} unterstützt",
+        "presets_description": "Wählen Sie einen Trinkgeldprozentsatz aus",
+        "custom_label": "Angepasste Trinkgeldzahlung",
+        "message": "Danke, wir wissen das wirklich zu schätzen.",
+        "not_available_with_spi": "Nicht verfügbar mit Shop Pay-Ratenzahlungen"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "%{product_name} und noch %{count} weiterer Artikel kaufen",
+          "other": "%{product_name} und noch %{count} weitere Artikel kaufen"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Persönlicher Zollcode",
+          "shipping_credential_cn": "ID-Nummer des Bewohners",
+          "tax_credential_it": "Steueridentifikationsnummer (optional)",
+          "tax_credential_co": "Ausweis/Mehrwertsteuer-Identifikationsnummer",
+          "tax_credential_type_co": "Typ Ausweis",
+          "shipping_credential_co": "Ausweis/Mehrwertsteuer-Identifikationsnummer",
+          "shipping_credential_type_co": "Typ Ausweis",
+          "tax_credential_ec": "CI/RUC/UST",
+          "shipping_credential_ec": "CI/RUC/UST",
+          "tax_credential_gt": "NIT/UST",
+          "shipping_credential_gt": "NIT/UST",
+          "tax_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
+          "shipping_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
+          "tax_credential_type_mx": "Steuerliche Regelung",
+          "tax_credential_use_mx": "Verwendung von CFDI",
+          "tax_credential_py": "CI/RUC/UST",
+          "shipping_credential_py": "CI/RUC/UST",
+          "tax_credential_pt": "USt-IdNr.",
+          "shipping_credential_pt": "USt-IdNr.",
+          "shipping_credential_tw": "Nationale Ausweisnummer/Umsatzsteuer-Identifikationsnummer",
+          "tax_credential_tr": "Türkische Republik Personalausweisnummer/Mehrwertsteuer",
+          "shipping_credential_tr": "Türkische Republik Personalausweisnummer/Mehrwertsteuer"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Du hast für deine Bestellung bezahlt.",
+        "escape_action": "Bestellbestätigung ansehen ›",
+        "components": {
+          "expand": "Mehr ansehen",
+          "processing": "Verarbeiten...",
+          "submit": "Einreichen"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Dein Warenkorb wurde basierend auf deinem Versandland aktualisiert.",
+        "cart_and_currency_updated_based_on_country": "Ihr Warenkorb und Ihre Währung sind an das Versandland angepasst.",
+        "currency_updated_for_country": "Valuta aktualisiert für %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} bei jedem %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Erste %{count} Zahlungen zu je %{total_price}"
+          }
+        }
       }
     }
   }
