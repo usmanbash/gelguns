@@ -3430,6 +3430,78 @@
       "list_title_pending_orders_accessibility_label": "Bestellungen: in Bearbeitung",
       "switch_order_type_pending_orders_accessibility_label": "Bestellart wechseln; du siehst jetzt Bestellungen in Bearbeitung",
       "switch_order_type_confirmed_orders_accessibility_label": "Bestellart wechseln; Sie sehen bestätigte Bestellungen ein"
+    },
+    "order_details": {
+      "addresses_section_title": "Rechnungstellung und Versand",
+      "card_ending_with": "endet auf {{lastDigits}}",
+      "contact": "Ansprechpartner",
+      "hide_items": "Artikel verbergen",
+      "loading": "Bestelldaten werden geladen",
+      "loading_finished_accessibility_message": "Bestelldaten wurden geladen",
+      "payment": {
+        "status_in_review": "Zahlung fällig nach Prüfung",
+        "card_payment_details": "endend auf {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Bezahlt mit Shop Pay-Ratenzahlungen",
+          "view_schedule": "Planung ansehen"
+        },
+        "gift_card_payment_details": "endend auf {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postanweisung - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Nachnahme - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankeinlage - {{formattedTransactionAmount}}",
+          "manual": "Manuell - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Winkelguthaben - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Alles anzeigen",
+          "details": "Daten",
+          "payment_details": "Zahlungsdaten"
+        },
+        "emv_details": {
+          "auth": "Wir verkaufen luxuriöse, handgefertigte Haarverlängerungen aus 100 % echtem Remy-Echthaar. Unser Ton ist weiblich, professionell und warm. Wir verwenden Begriffe wie „Geflecht“, „Clip-in“, „Heiligenschein“, „Ombre“, „Pferdeschwanz“ und „Remy-Haar“.",
+          "aid": "HILFE:",
+          "source": "Wir verkaufen Rosenpflanzen oder Rosen als wurzelnackte Ware."
+        },
+        "payment_type": {
+          "gift_card": "Geschenkgutschein",
+          "store_credit": "Ladenguthaben",
+          "money_order": "Postscheckschein",
+          "cash_on_delivery": "Nachnahme",
+          "bank_deposit": "Banküberweisung"
+        }
+      },
+      "shipping": {
+        "summary": "Versenden",
+        "subscription": "Versand im Abonnement"
+      },
+      "subtitle": "Bestätigt: {{date}}",
+      "summary_list_title_accessibility_label": "Artikel bestellen",
+      "summary_totals_title_accessibility_label": "Gesamtbestellung",
+      "total": "Insgesamt",
+      "unit_price": "{{price}}/Stück",
+      "not_applicable": "nicht zutreffend",
+      "fully_refunded_label": "ERSTATTET",
+      "partially_refunded_label": "TEILWEISE ERSTATTET",
+      "compare_at_sale": "Ausverkauf ({{saleAmount}})",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Mehr Artikel laden"
+      },
+      "returns": {
+        "expand_events_label": "Daten anzeigen",
+        "hide_events_label": "Daten verbergen",
+        "tracking_number": "Sendungsnummer:",
+        "return_and_refund_modal_header": "Rückerstattungsrichtlinie",
+        "ineligible_return_message": "Keine Artikel in dieser Bestellung sind für eine Rückgabe geeignet.",
+        "ineligible_return_message_when_returned": "Es gibt keine Artikel mehr in dieser Bestellung, die für eine Rückgabe in Frage kommen.",
+        "exchange_header": "Tauschartikel",
+        "exchange_subheader": "Tauschartikel werden der Bestellung hinzugefügt, sobald die Rücksendung abgeschlossen ist."
+      },
+      "request_return_failed": "Bei der Bearbeitung deiner Anfrage ist ein Problem aufgetreten. Bitte versuche es erneut.",
+      "shipment_timeline": {
+        "expand_events_label": "Daten anzeigen"
+      }
     }
   }
 }
