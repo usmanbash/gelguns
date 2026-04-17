@@ -985,8 +985,76 @@
           "due_later_checkout_to_draft": "Gesamt später fällig",
           "due_on_fulfillment": "Gesamtbetrag bei Erfüllung fällig",
           "due_on_receipt": "Gesamtbetrag bei Erhalt zu zahlen",
-          "total_paid": "Insgesamt bezahlt"
-        }
+          "total_paid": "Insgesamt bezahlt",
+          "due_on_fulfillment_next": "Bei Erfüllung zu zahlen"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kann nicht mit deinen bestehenden Rabatten verwendet werden.",
+        "maximum_discount_code_limit_reached": "Du hast die maximale Anzahl an Rabattcodes erreicht. Entferne einen bestehenden Code, um <strong style=\"text-transform:uppercase\">%{code}</strong> zu verwenden.",
+        "order_total_label": "Gesamtbestellung",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> funktioniert momentan nicht. Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.",
+        "due_on_fulfillment": "Schulden bei der Auftragsabwicklung",
+        "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Zustellung Zollgebühren und Steuern anfallen.",
+        "may_be_charged_on_delivery": "Kann bei Lieferung in Rechnung gestellt werden",
+        "total_updated_label_with_price": "Aktualisierter Gesamtpreis: %{totalPrice}",
+        "recurring_total_multiple_label": "Diese Bestellung enthält wiederkehrende Kosten für mehrere Artikel.",
+        "deferred_total_due_date_label": "Gesamtbetrag fällig am {{date}}",
+        "full_price": "Vollpreis: %{price}",
+        "custom_discount": "Angepasster Rabatt",
+        "collapse_component_information": {
+          "one": "%{count} Artikel verbergen"
+        },
+        "discount_discovery": {
+          "back_to_finalize_order": "Zurück zur Bestellübersicht"
+        },
+        "alternative_payment_currency_total": "abgebucht als %{amount_due}",
+        "calculating": "Wird berechnet...",
+        "group_title_label": "Teil von '%{group_title}'",
+        "price_per_item": {
+          "label": "%{price}/St."
+        },
+        "updated_shipping_method": "Aktualisierte Versandmethode: %{shipping_method}",
+        "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der mit dem eingegebenen Code übereinstimmt",
+        "total_savings": "Gesamteinsparung",
+        "return_restocking_fee_label": "Nachschubkosten",
+        "return_shipping_fee_label": "Rücksendung",
+        "gift_card_applied": "Geschenkgutschein angewendet",
+        "duties_included_label": "Insgesamt sind Steuern und Zollgebühren enthalten. Keine zusätzlichen Kosten bei der Lieferung.",
+        "deferred_balance_info": {
+          "title": "Der Saldo von {{amount_due}} ist fällig am {{due_at}}.",
+          "due_on_fulfillment_title": "Der Saldo von {{amount_due}} ist bei Erfüllung der Bestellung fällig"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Gutscheincode erforderlich für berechtigte Kunden",
+        "subtotal_label_with_quantity": {
+          "one": "Zwischensumme · %{count} Artikel",
+          "other": "Zwischensumme · %{count} Artikel"
+        },
+        "more_items_modal": {
+          "clear_search": "Suchvorgang löschen",
+          "empty_results": "Keine Ergebnisse gefunden für '%{searchText}'. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder einen anderen Satz.",
+          "search_item": "Suchen"
+        },
+        "view_all_items": {
+          "one": "%{count} Artikel ansehen"
+        },
+        "price_after_discount_aria_text": "Rabattpreis",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "An Adresse senden",
+          "ship_to_address_instead_html": "%{link} stattdessen"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Keine Geschäfte mit deinem Artikel verfügbar",
+          "other": "Keine Geschäfte mit deinen Artikeln verfügbar"
+        },
+        "total_due_today_label": "Heute insgesamt fällig",
+        "total_due_later_label": "Gesamt später fällig",
+        "discount_code_allocations_mismatch": "Ihr Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
+        "total_due_label": "Gesamtbetrag fällig",
+        "total_paid_label": "Insgesamt bezahlt",
+        "from_other_stores_heading": "Von anderen Geschäften",
+        "order_discounts_apply_to_local_shop": "Bestellrabatte gelten nur für Artikel von %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Gutscheine gelten nur für Artikel von %{shop_name}",
+        "discount_code_removed": "Der Rabattcode %{code} wurde entfernt",
+        "discount_code_replaced": "Der Rabattcode %{old_code} wurde entfernt und %{code} wurde angewendet"
       }
     }
   }
