@@ -2751,7 +2751,63 @@
             "tooltip": "Validiert die Umsatzsteuer-Identifikationsnummer und wendet automatisch die Steuerschuldumkehr auf Bestellungen an, die dafür in Frage kommen"
           },
           "add": "Eine Umsatzsteuer-Identifikationsnummer hinzufügen",
-          "vaulted": "Btw-Identifikationsnummer: %{number}"
+          "vaulted": "Btw-Identifikationsnummer: %{number}",
+          "badge": "Btw-Identifikationsnummer: %{number}",
+          "domestic_order": "Die Umkehrung der Steuerschuldnerschaft gilt nur für grenzüberschreitende Bestellungen innerhalb der EU. Für lokale Bestellungen wird die Mehrwertsteuer standardmäßig berechnet.",
+          "status": {
+            "invalid_format": {
+              "at": "Eine Umsatzsteuer-Identifikationsnummer aus Österreich enthält AT und 9 Zeichen",
+              "be": "Eine Mehrwertsteuer-Identifikationsnummer aus Belgien enthält BE und 10 Zeichen",
+              "bg": "Eine Mehrwertsteuer-Identifikationsnummer aus Bulgarien enthält BG und 9-10 Zeichen",
+              "hr": "Eine Mehrwertsteuer-Identifikationsnummer aus Kroatien enthält HR und 11 Zeichen",
+              "cy": "Eine Mehrwertsteuer-Identifikationsnummer aus Zypern enthält CY und 9 Zeichen",
+              "cz": "Eine Mehrwertsteuer-Identifikationsnummer aus Tschechien enthält CY und 8-10 Zeichen.",
+              "dk": "Eine Mehrwertsteuer-Identifikationsnummer aus Dänemark enthält DK und 8 Zeichen",
+              "ee": "Eine Mehrwertsteuer-Identifikationsnummer aus Estland enthält EE und 9 Zeichen",
+              "fi": "Eine Mehrwertsteuer-Identifikationsnummer aus Finnland enthält FI und 8 Zeichen",
+              "fr": "Eine Mehrwertsteuer-Identifikationsnummer aus Frankreich enthält FR und 11 Zeichen",
+              "de": "Eine Umsatzsteuer-Identifikationsnummer aus Deutschland enthält DE und 9 Zeichen",
+              "gr": "Eine Mehrwertsteuer-Identifikationsnummer aus Griechenland enthält EL und 9 Zeichen",
+              "hu": "Eine Mehrwertsteuer-Identifikationsnummer aus Ungarn enthält HU und 8 Zeichen",
+              "ie": "Eine Mehrwertsteuer-Identifikationsnummer aus Irland enthält IE und 8-9 Zeichen",
+              "it": "Eine Mehrwertsteuer-Identifikationsnummer aus Italien enthält IT und 11 Zeichen",
+              "lv": "Eine Mehrwertsteuer-Identifikationsnummer aus Lettland enthält LV und 11 Zeichen",
+              "lt": "Eine Mehrwertsteuer-Identifikationsnummer aus Litauen enthält LT und 9-12 Zeichen",
+              "lu": "Eine Mehrwertsteuer-Identifikationsnummer aus Luxemburg enthält LU und 8 Zeichen",
+              "mt": "Eine Mehrwertsteuer-Identifikationsnummer aus Malta enthält MT und 8 Zeichen",
+              "nl": "Eine Mehrwertsteuer-Identifikationsnummer aus den Niederlanden enthält NL und 12 Zeichen",
+              "pl": "Eine Mehrwertsteuer-Identifikationsnummer aus Polen enthält PL und 10 Zeichen",
+              "pt": "Eine Mehrwertsteuer-Identifikationsnummer aus Portugal enthält PT und 9 Zeichen",
+              "ro": "Eine Mehrwertsteuer-Identifikationsnummer aus Rumänien enthält RO und 10 Zeichen",
+              "sk": "Eine Mehrwertsteuer-Identifikationsnummer aus der Slowakei enthält SK und 10 Zeichen",
+              "si": "Eine Mehrwertsteuer-Identifikationsnummer aus Slowenien enthält SI und 8 Zeichen",
+              "es": "Eine spanische Mehrwertsteuernummer enthält ES und 9 Zeichen",
+              "se": "Eine Mehrwertsteuer-Identifikationsnummer aus Schweden enthält SE und 12 Zeichen",
+              "gb": "Eine Mehrwertsteuer-Identifikationsnummer aus dem Vereinigten Königreich enthält GB oder XI und 5-12 Zeichen"
+            },
+            "invalid_number": {
+              "at": "Geben Sie eine gültige österreichische Umsatzsteuer-Identifikationsnummer ein",
+              "be": "Geben Sie eine gültige belgische Mehrwertsteuernummer ein",
+              "bg": "Geben Sie eine gültige bulgarische Umsatzsteuer-Identifikationsnummer ein",
+              "hr": "Geben Sie eine gültige kroatische Umsatzsteuer-Identifikationsnummer ein",
+              "cy": "Geben Sie eine gültige zyprische Umsatzsteuer-Identifikationsnummer ein",
+              "cz": "Geben Sie eine gültige tschechische Umsatzsteuer-Identifikationsnummer ein",
+              "dk": "Geben Sie eine gültige dänische Mehrwertsteuer-Identifikationsnummer ein",
+              "ee": "Geben Sie eine gültige estnische Umsatzsteuer-Identifikationsnummer ein",
+              "fi": "Geben Sie eine gültige finnische Umsatzsteuer-Identifikationsnummer ein",
+              "fr": "Geben Sie eine gültige französische Mehrwertsteuernummer ein",
+              "de": "Geben Sie eine gültige deutsche Umsatzsteuer-Identifikationsnummer ein",
+              "gr": "Geben Sie eine gültige griechische Mehrwertsteuer-Identifikationsnummer ein",
+              "hu": "Geben Sie eine gültige ungarische Umsatzsteuer-Identifikationsnummer ein",
+              "ie": "Geben Sie eine gültige irische Umsatzsteuer-Identifikationsnummer ein",
+              "it": "Geben Sie eine gültige italienische Umsatzsteuer-Identifikationsnummer ein",
+              "lv": "Geben Sie eine gültige lettische Umsatzsteuer-Identifikationsnummer ein",
+              "lt": "Geben Sie eine gültige litauische Umsatzsteuer-Identifikationsnummer ein",
+              "lu": "Geben Sie eine gültige luxemburgische Mehrwertsteuernummer ein",
+              "mt": "Geben Sie eine gültige maltesische Mehrwertsteuernummer ein",
+              "nl": "Geben Sie eine gültige niederländische Umsatzsteuer-Identifikationsnummer ein"
+            }
+          }
         }
       }
     }
