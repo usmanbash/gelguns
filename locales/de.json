@@ -2490,7 +2490,91 @@
         }
       },
       "split_delivery": {
-        "items_for_pickup": "Artikel zum Abholen"
+        "items_for_pickup": "Artikel zum Abholen",
+        "delivery_method": "Geteilte Liefermethode",
+        "delivery_method_menu": "Menü geteilte Liefermethode",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} von %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} von %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} Artikel können nicht abgerufen werden",
+              "other": "%{count} Artikel können nicht abgerufen werden"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} Artikel können nicht versendet werden"
+            }
+          },
+          "ship_separately": {
+            "one": "apart versenden",
+            "other": "apart versenden"
+          },
+          "pick_them_up_in_store": {
+            "one": "im Geschäft abholen",
+            "other": "im Geschäft abholen"
+          }
+        }
+      },
+      "captcha": {
+        "title": "Bitte lösen Sie das CAPTCHA, um fortzufahren",
+        "errors": {
+          "not_solved": "Bitte lösen Sie das CAPTCHA, um fortzufahren"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Deine Bestellung konnte nicht bearbeitet werden, da dein Rabattcode nicht mehr verfügbar ist. Überprüfe den Gesamtbetrag deiner Bestellung und versuche es erneut."
+      },
+      "wallets": {
+        "redirect_hint": "Du wirst gebeten, dich bei {{walletName}} anzumelden.",
+        "logged_in": "Verbunden mit {{email}}",
+        "payment_in_progress_title": "Zahlung wird bearbeitet",
+        "payment_in_progress_body": "Die Zahlung wird bearbeitet. Die Bestellung ist fast abgeschlossen.",
+        "call_to_action": "Bezahlen mit {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} ist nicht verfügbar",
+            "description": "{{walletName}} war nicht verfügbar. Verwenden Sie eine andere Zahlungsmethode oder versuchen Sie es später erneut.",
+            "instructions": "Es ist ein Problem mit {{walletName}} aufgetreten. Gehen Sie zurück zum Shop und versuchen Sie es erneut oder bezahlen Sie auf eine andere Weise.",
+            "unavailable_for_country": "{{walletName}} ist in {{countryName}} nicht verfügbar. Wähle eine andere Zahlungsmethode, um deinen Kauf abzuschließen."
+          },
+          "generic": "Es ist ein Problem mit {{walletName}} aufgetreten. Bitte versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "terminal": "Es ist ein Problem mit {{walletName}} aufgetreten. Bitte verwenden Sie eine andere Zahlungsmethode.",
+          "detour": {
+            "stock_problems": "Einige Artikel sind nicht mehr verfügbar. Schließen Sie {{walletName}} und versuchen Sie es erneut.",
+            "price_change": "Die Preise einiger Artikel wurden geändert. Schließe {{walletName}}, um deine Bestellung zu überprüfen, und versuche es erneut.",
+            "queue": "Du stehst in der Schlange an der Kasse. Schließe {{walletName}} ab, um fortzufahren.",
+            "currency_change": "Du kannst keine andere Adresse mit {{walletName}} verwenden. Nutze die ursprüngliche Adresse oder probiere eine andere Zahlungsmethode."
+          },
+          "unsupported": {
+            "address": "Der Händler kann an die von dir gewählte Lieferadresse nicht liefern.",
+            "wallet_is_unavailable": "Du kannst {{walletName}} nicht mit dieser Adresse verwenden. Wähle eine andere Adresse oder schließe {{walletName}}, um den Kauf abzuschließen."
+          },
+          "outdated": {
+            "shipping_method": "Die Versandoptionen für deine Bestellung wurden geändert. Überprüfe deine Auswahl.",
+            "payment_terms": "Die Zahlungsbedingungen wurden geändert. Überprüfe deine Bestellung"
+          },
+          "invalid": {
+            "shipping_address": "Geben Sie eine gültige Lieferadresse ein",
+            "billing_address": "Geben Sie eine gültige Rechnungsadresse ein",
+            "shipping_option": "Wählen Sie eine gültige Versandart aus",
+            "email": "Geben Sie eine gültige E-Mail-Adresse ein",
+            "zone": "Geben Sie einen gültigen Bundesstaat/eine gültige Provinz ein",
+            "postal_code": "Geben Sie eine gültige Postleitzahl ein",
+            "reduction_code": "Geben Sie einen gültigen Rabattcode oder Gutschein ein",
+            "billing_must_match_shipping": "Dient zur Übereinstimmung mit der Lieferadresse.",
+            "phone": "Geben Sie eine gültige Telefonnummer ein",
+            "emirate": "Geben Sie ein gültiges Emirat ein",
+            "billing_zone": "Geben Sie einen gültigen Bundesstaat/eine gültige Provinz für die Rechnungsadresse ein",
+            "billing_phone": "Geben Sie eine gültige Telefonnummer für die Rechnungsadresse ein",
+            "billing_zip": "Geben Sie eine gültige Postleitzahl für die Rechnungsadresse ein"
+          },
+          "missing": {
+            "first_name": "Geben Sie einen Vornamen ein",
+            "last_name": "Geben Sie einen Nachnamen ein",
+            "address1": "Geben Sie eine Adresse ein",
+            "address2": "Geben Sie eine Wohnungs- oder Suitennummer ein usw."
+          }
+        }
       }
     }
   }
