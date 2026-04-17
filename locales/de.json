@@ -2893,7 +2893,85 @@
       "gift_card_currency_mismatch": "Jeder Geschenkgutschein ist in %{gift_card_currency}. Bitte kontaktieren Sie uns, damit wir diesen in %{checkout_currency} neu ausstellen können.",
       "gift_card_depleted": "Auf diesem Geschenkgutschein ist kein Guthaben mehr vorhanden",
       "gift_card_disabled": "Gutschein ist gesperrt",
-      "gift_card_expired": "Gutschein ist abgelaufen"
+      "gift_card_expired": "Gutschein ist abgelaufen",
+      "bad_domain": "enthält einen ungültigen Domainnamen",
+      "taken": "ist bereits verwendet",
+      "too_short": "ist zu kurz (das Minimum sind %{count} Zeichen)",
+      "too_long": "ist zu lang (das Maximum sind %{count} Zeichen)",
+      "contains_spaces": "beginnt oder endet mit Leerzeichen.",
+      "invalid_state_in_country": "ist kein gültiger Bundesstaat in %{country}",
+      "less_than_or_equal_to": "muss kleiner als oder gleich %{count} sein",
+      "full_name_required": "Geben Sie einen Vor- und Nachnamen ein",
+      "invalid_for_card_type": "ist ungültig",
+      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieses Typs",
+      "invalid_format": "Format ist ungültig",
+      "expired": "ist abgelaufen",
+      "invalid_start_date_or_issue_number_for_debit": "gültiges Anfangsdatum oder gültige Ausgabennummer erforderlich",
+      "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto dir gehört, kannst du <a href=\"/account/login#recover\">dein Passwort zurücksetzen</a>",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den beigefügten Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
+      "shop_404": {
+        "title": "Erstelle eine Handelswebseite und verkaufe deine Waren online! Handelssoftware von Shopify",
+        "heros": {
+          "store_unavailable": "Dieses Geschäft ist momentan nicht verfügbar.",
+          "store_not_exist": "Dieses Geschäft existiert nicht.",
+          "no_storefront": "Dieses Geschäft hat noch keine Webseite."
+        },
+        "links": {
+          "explore_other_stores": "Andere Geschäfte erkunden",
+          "start_free_trial": "Kostenlos ausprobieren"
+        },
+        "owner_ctas": {
+          "header": "Bist du der Ladenbesitzer?",
+          "fix_domain": "Gehe zu %{domain_settings_link} und schließe die Einrichtung deiner neuen Webadresse ab. Klicke auf „Domain verbinden“ und gib ein: %{domain}.<br>Wenn du nicht in deinen Shop kommst, versuche %{forgot_your_store_link}",
+          "fix_domain_link_text": "je Domain-Einstellungen",
+          "forgot_your_store_link_text": "Deinen Laden vergessen?",
+          "add_storefront": "Du kannst deine Website einrichten, indem du den Webshop-Kanal im %{admin_link} hinzufügst. Wenn du nicht in deinen Shop kommst, versuche %{forgot_your_store_link}",
+          "admin_link_text": "Verwaltungszentrum"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Persönlicher Verkauf",
+            "caption": "Erhalten Sie die Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu führen, egal ob Sie gerade erst anfangen oder erweitern.",
+            "link_text": "Kostenlose Testversion starten"
+          },
+          "open_a_store": {
+            "header": "Einen neuen Shopify-Laden eröffnen",
+            "caption": "Starten Sie eine kostenlose dreitägige Probeversion und fahren Sie danach drei Monate lang für 1 USD pro Monat fort.",
+            "link_text": "Melde dich jetzt an"
+          },
+          "editions": {
+            "header": "Shopify-Ausgaben ansehen",
+            "caption": "Es gibt mehr als 100 Produktaktualisierungen, mit denen du in der Geschäftswelt produktiver, einfallsreicher und tatkräftiger sein kannst, als du je für möglich gehalten hast.",
+            "link_text": "Neueste Ausgaben erkunden"
+          },
+          "store_owner": {
+            "header": "Bist du der Ladenbesitzer?",
+            "caption": "Kommst du nicht in deinen Shop? Probiere die Funktion %{forgot_your_store_link}. Wenn du deinen Shop reaktivieren möchtest, kontaktiere bitte %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify Unterstützung"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "no_account_found": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
+        "invalid_credentials": "Falsche E-Mail oder falsches Kennwort.",
+        "denylisted_reset_password": "Dein Konto kann nicht geöffnet werden, da das aktuelle Kennwort nicht sicher ist. Du erhältst eine E-Mail, um dein Kennwort zurückzusetzen.",
+        "signup_disabled": "Das Anlegen von Kundenkonten ist deaktiviert.",
+        "unsubscribe_error": "Fehler beim Abmelden"
+      },
+      "address": {
+        "updated": "Adresse aktualisiert.",
+        "created": "Adresse erstellt",
+        "deleted": "Adresse entfernt"
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Verifiziert",
+          "pending": "In Bearbeitung"
+        }
+      }
     }
   }
 }
