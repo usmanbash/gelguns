@@ -2659,6 +2659,100 @@
       },
       "clipboard": {
         "failed_to_copy": "Nicht kopiert"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Schließe deinen Kauf mit deinem {{paymentMethod}}-Code ab",
+        "timer_message": "Du hast noch {{timeLeft}}, um zu bezahlen",
+        "header": "Bezahlen mit {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Schließe deinen Kauf mit deinem {{paymentMethod}}-Code ab"
+        },
+        "external": {
+          "instructions": "Bestätige die Zahlung in deiner App, um diesen Kauf abzuschließen"
+        },
+        "close": "Schließe die Herausforderung ab",
+        "open_app_text": "Öffne die {{paymentMethod}}-App"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Bei der Bearbeitung deiner Bestellung ist ein Problem aufgetreten. Bitte versuche es in ein paar Minuten erneut."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Die Warenanweisung %{position} %{name} enthält eine leere Stable-ID.",
+        "invalid_stable_id_target": "Die Warenanweisung %{position} %{name} verweist auf die Stable-ID %{stable_id}, aber diese Stable-ID befindet sich nicht in den Warenpositionen.",
+        "duplicate_variant_id": "Die Warenanweisung %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
+        "invalid_variant_id_target": "Die Warenanweisung %{name} bezieht sich auf die Varianten-ID %{variant_id}, aber diese Variante befindet sich nicht in den Warenpositionen.",
+        "invalid_price_override_target": "Die Anweisung zum Überschreiben des Preises der Ware für die Bestellposition %{stable_id} ist ungültig, da es sich um eine Bundle-Komponente handelt.",
+        "discount_not_supported": "Die Anleitung für Händler zur Anwendung von Warenrabatten unterstützt diese Art von Rabatt nicht."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Dieses Produkt ist nicht für den Versand nach %{location_name} verfügbar.",
+          "some_products_other": "Diese Produkte sind nicht für den Versand nach %{location_name} verfügbar.",
+          "all_products_one": "Das Produkt in deinem Warenkorb ist nicht für den Versand nach %{location_name} verfügbar.",
+          "all_products_other": "Die Produkte in deinem Warenkorb sind nicht für den Versand nach %{location_name} verfügbar."
+        },
+        "cart_updated": "Ihr Warenkorb wurde aktualisiert.",
+        "change_address_only": "Ändern Sie die Lieferadresse, um fortzufahren.",
+        "change_address_or_remove": "Ändern Sie die Lieferadresse oder %{remove_action}.",
+        "empty_cart_action": "Leeren Sie den Warenkorb und kehren Sie zum Geschäft zurück",
+        "remove_items_action": {
+          "one": "entfernen Sie den nicht verfügbaren Artikel",
+          "other": "entfernen Sie die nicht verfügbaren Artikel"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sie sind nicht mehr berechtigt, B2B-Bestellungen aufzugeben. %{logout_url}, um stattdessen eine persönliche Bestellung aufzugeben.",
+        "lost_permissions_subtitle": "Du bist nicht mehr berechtigt, B2B-Bestellungen aufzugeben. Melde dich ab, um eine persönliche Bestellung aufzugeben.",
+        "lost_permissions_title": "Keine Standortgenehmigungen"
+      },
+      "units": {
+        "ounce": "Unze",
+        "pound": "Pfund",
+        "gallon": "Mädchen"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Diese Adresse wird für die aktuelle Mitgliedschaft nicht unterstützt.",
+        "items_split_across_locations_unsupported": "Prime-Lieferung ist für deine Bestellung nicht verfügbar. Deine Versandoptionen wurden aktualisiert."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Zur Webshop-Navigation"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Mehr Informationen über %{context}"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Dieser Artikel kann nicht zu deinem Warenkorb hinzugefügt werden, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
+          "max_remote_shops_exceeded": "Dieses Produkt kann nicht hinzugefügt werden, da dein Warenkorb bereits das Maximum aus anderen Geschäften enthält.",
+          "currency_mismatch_removal": "Ein Artikel wurde aus deinem Warenkorb entfernt, weil er von einem Geschäft stammt, das eine andere Währung verwendet.",
+          "only_remote_merchandise_lines": "Der Warenkorb enthält nur fremde Waren. Es ist eine Weiterleitung zum fremden Geschäft erforderlich, um den Kauf abzuschließen."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Kauf abschließen",
+        "remote_only_notice": "Diese Artikel werden von anderen Geschäften verkauft und versandt. Gehe zur Kasse jedes Geschäfts, um deinen Einkauf abzuschließen.",
+        "return_to_store_label": "Zurück zum Laden",
+        "checkout_on_shop_label": "Bezahlen bei %{shop_name}"
+      },
+      "remote_policies": {
+        "unavailable_policy": "Für diesen Shop wurde keine %{policy_name} bereitgestellt. Für weitere Informationen wenden Sie sich bitte direkt an %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Scannen Sie den QR-Code erneut. Wenn es immer noch nicht funktioniert, informieren Sie bitte unsere Mitarbeiter und versuchen Sie eine andere Zahlungsmethode.",
+        "payment_link_expired_text": "Scannen Sie den QR-Code noch einmal."
+      },
+      "taxes": {
+        "tax_details": "Zusätzliche Steuerangaben",
+        "vat_number": {
+          "field": {
+            "label": "Umsatzsteuer-Identifikationsnummer (optional)",
+            "tooltip": "Validiert die Umsatzsteuer-Identifikationsnummer und wendet automatisch die Steuerschuldumkehr auf Bestellungen an, die dafür in Frage kommen"
+          },
+          "add": "Eine Umsatzsteuer-Identifikationsnummer hinzufügen",
+          "vaulted": "Btw-Identifikationsnummer: %{number}"
+        }
       }
     }
   }
