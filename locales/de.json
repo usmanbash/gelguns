@@ -1390,7 +1390,79 @@
               "verification_value": "Geben Sie einen gültigen CVV/CVC- oder Sicherheitscode ein"
             }
           }
-        }
+        },
+        "simulated_checkout": "Beispiel erscheint in Kürze",
+        "vaulting_agreement_label": "Speichere meine Zahlungsdaten bei %{company} für einen schnelleren Checkout.",
+        "business_customer_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Checkout und ermächtigen Sie %{company}, über diese Karte Geld für zukünftige Einkäufe an diesem Standort abzubuchen. Alle Kontaktpersonen, die diesem Standort zugewiesen sind, dürfen die Zahlungsmethode verwenden.",
+        "purchase_options_and_vaulting_agreement_label": "Ein oder mehrere Artikel im Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn du mit der Zahlung fortfährst, stimmst du zu, dass wir die Kaufbeträge automatisch über deine Zahlungsmethode zum auf dieser Seite angegebenen Preis und in der angegebenen Frequenz berechnen, bis es endet oder du es selbst kündigst. Für alle Kündigungen gilt die %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "Stornierungsbedingungen",
+        "saved_credit_card": "Ihre gespeicherte Kreditkarte",
+        "saved_credit_card_info": "Letzte vier Ziffern",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Alle gespeicherten Karten ansehen",
+          "cancel": "Abbrechen"
+        },
+        "expired_cards_info": {
+          "one": "Es ist %{count} abgelaufene Karte vorhanden. Du kannst diese in deinem Konto ansehen und bearbeiten.",
+          "other": "Es gibt %{count} abgelaufene Karten. Du kannst diese in deinem Konto ansehen und bearbeiten."
+        },
+        "local_payment_method_receiver_notice": "Nach Aufgabe deiner Bestellung erhältst du die Zahlungsinformationen. Führe die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten oder online durch.",
+        "order_edit_banner_title": "Zahlung von {{amount_owed}} ist erforderlich",
+        "order_edit_banner_subtitle": "Deine Bestellung {{order_number}} wurde aktualisiert. Überprüfe diese Änderungen und bezahle, um deine Bestellung zu bestätigen.",
+        "order_edit_banner_single_item_removed": "Gelöscht",
+        "gift_card_wrapper": {
+          "heading": "Geschenkgutschein",
+          "apply_gift_card_label": "Einen Geschenkgutschein einlösen",
+          "payment_tag": "Geschenkgutschein",
+          "apply_another_gift_card_label": "Einen anderen Geschenkgutschein einlösen",
+          "gift_card_label": "Gutschein %{identifier}",
+          "add_label": "Einen Geschenkgutschein hinzufügen"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Bestätigung für angepasste Zahlungen vor Ort"
+        },
+        "markets_pro_disclaimer_label": "Indem du deine Bestellung aufgibst, stimmst du dem Kauf bei Global-e als registriertem Händler zu, unterliegt den %{markets_pro_terms} und %{privacy_policy} von Global-e und teilst deine Daten mit %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "allgemeine geschäftsbedingungen",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Allgemeine Geschäftsbedingungen für Händler im Auftrag",
+        "markets_pro_disclaimer_privacy_policy_title": "Datenschutzerklärung für Händler",
+        "alternative_payment_currency_total_notice": "Hinweis: Es wird %{amount_due} abgebucht.",
+        "waiting_on_taxes_message": "Aktualisieren Sie die Seite, wenn die Steuern nicht innerhalb weniger Sekunden berechnet werden.",
+        "waiting_on_taxes_notice": "Steuern berechnen",
+        "order_edit_banner_single_item_returned": "Zurückgesandt",
+        "shop_pay_installments_label": "Shop Pay-Ratenzahlungen",
+        "add_credit_card_modal": {
+          "cancel": "Abbrechen"
+        },
+        "delete_credit_card_modal": {
+          "title": "Karte entfernen",
+          "confirmation": "Bist du sicher, dass du {{brandName}} mit der Endung {{lastDigits}} löschen möchtest?",
+          "cancel": "Abbrechen",
+          "delete": "Entfernen"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Gelöscht"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Entfernen"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Abbrechen",
+          "description": "Du kannst nur die Rechnungsadresse deiner Karte ändern.",
+          "fields": {
+            "expiry": "Verfallsdatum",
+            "name": "Name auf der Karte",
+            "billing": "Rechnung stellen an"
+          }
+        },
+        "expired_payment_method": "Die gewählte Zahlungsmethode ist abgelaufen",
+        "subscription_heading": "Abonnementvertrag",
+        "purchase_options_agreement_label_wallets": "Wenn Sie mit der Zahlung fortfahren, stimmen Sie den zukünftigen Zahlungen zu, die auf dieser Seite aufgeführt sind, sowie der Kündigungsregelung.",
+        "gift_card_store_credit": {
+          "add_label": "Einen Geschenkgutschein oder Guthaben hinzufügen",
+          "manage_label": "Geschenkgutscheine oder Ladenkredit verwalten"
+        },
+        "saved_credit_card_cvv_verification": "Geben Sie zur Überprüfung den Sicherheitscode Ihrer Karte ein.",
+        "afterpay_label": "Nachzahlung"
       }
     }
   }
