@@ -26,7 +26,7 @@
         "share_on_pinterest": "Auf Pinterest anheften"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (früher Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,111 +37,111 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Weiter shoppen",
+    "continue_shopping": "Zurück zum Laden",
     "pagination": {
-      "label": "Seitennummerierung",
+      "label": "Seitenzahlen",
       "page": "Seite {{ number }}",
       "next": "Nächste Seite",
       "previous": "Vorherige Seite"
     },
     "search": {
       "search": "Suchen",
-      "reset": "Suchbegriff zurücksetzen"
+      "reset": "Suchbegriff löschen"
     },
     "cart": {
       "view": "Warenkorb ansehen ({{ count }})",
-      "item_added": "Artikel wurde in den Warenkorb gelegt",
+      "item_added": "Artikel zum Warenkorb hinzugefügt",
       "view_empty_cart": "Warenkorb ansehen"
     },
     "share": {
       "copy_to_clipboard": "Link kopieren",
       "share_url": "Link",
       "success_message": "Link in die Zwischenablage kopiert",
-      "close": "Teilen schließen"
+      "close": "Teile schließen"
     },
     "slider": {
-      "of": "von",
+      "of": "Lieferwagen",
       "next_slide": "Nach rechts schieben",
       "previous_slide": "Nach links schieben",
-      "name": "Slider"
+      "name": "Schieberegler"
     }
   },
   "newsletter": {
     "label": "E-Mail",
-    "success": "Danke für deine Anmeldung",
+    "success": "Danke für dein Abonnement",
     "button_label": "Abonnieren"
   },
   "accessibility": {
     "skip_to_text": "Direkt zum Inhalt",
     "close": "Schließen",
     "unit_price_separator": "pro",
-    "vendor": "Anbieter:",
+    "vendor": "Verkäufer:",
     "error": "Fehler",
-    "refresh_page": "Wenn du dich für eine Auswahl entscheidest, wird die Seite komplett aktualisiert.",
+    "refresh_page": "Eine Auswahl zu treffen führt dazu, dass die gesamte Seite neu geladen wird.",
     "link_messages": {
-      "new_window": "Wird in einem neuen Fenster geöffnet.",
+      "new_window": "Öffnet in einem neuen Fenster.",
       "external": "Öffnet externe Webseite."
     },
-    "loading": "Wird geladen ...",
-    "skip_to_product_info": "Zu Produktinformationen springen",
-    "total_reviews": "Bewertungen insgesamt",
+    "loading": "Wird geladen...",
+    "skip_to_product_info": "Gehe direkt zu den Produktinformationen",
+    "total_reviews": "Gesamtanzahl der Bewertungen",
     "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen",
-    "collapsible_content_title": "Einklappbarer Inhalt",
-    "complementary_products": "Ergänzende Produkte"
+    "collapsible_content_title": "Zusammenklappbarer Inhalt",
+    "complementary_products": "Zusätzliche Produkte"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "read_more_title": "Weiterlesen: {{ title }}",
       "comments": {
-        "one": "{{ count }} Kommentar",
+        "one": "{{ count }} Reaktion",
         "other": "{{ count }} Kommentare"
       },
-      "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung freigegeben werden müssen.",
-      "comment_form_title": "Hinterlasse einen Kommentar",
+      "moderated": "Achtung: Kommentare müssen genehmigt werden, bevor sie veröffentlicht werden.",
+      "comment_form_title": "Reaktion abgeben",
       "name": "Name",
       "email": "E-Mail",
-      "message": "Kommentar",
-      "post": "Kommentar posten",
+      "message": "Reaktion",
+      "post": "Einen Kommentar hinterlassen",
       "back_to_blog": "Zurück zum Blog",
       "share": "Diesen Artikel teilen",
-      "success": "Dein Kommentar wurde erfolgreich gepostet! Vielen Dank!",
-      "success_moderated": "Dein Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
+      "success": "Ihre Antwort wurde veröffentlicht! Vielen Dank!",
+      "success_moderated": "Ihre Antwort wurde veröffentlicht. Wir stellen sie so bald wie möglich online; unser Blog wird moderiert."
     }
   },
   "onboarding": {
-    "product_title": "Beispiel für Produkttitel",
-    "collection_title": "Name deiner Kollektion"
+    "product_title": "Beispiel Produktname",
+    "collection_title": "Der Name deiner Kollektion"
   },
   "products": {
     "product": {
-      "add_to_cart": "In den Warenkorb legen",
+      "add_to_cart": "Zum Warenkorb hinzufügen",
       "description": "Beschreibung",
-      "on_sale": "Sale",
+      "on_sale": "Angebot",
       "quantity": {
         "label": "Anzahl",
-        "input_label": "Anzahl von {{ product }}",
-        "increase": "Erhöhe die Menge für {{ product }}",
-        "decrease": "Verringere die Menge für {{ product }}",
-        "minimum_of": "Mindestens {{ quantity }}",
-        "maximum_of": "Maximal {{ quantity }}",
-        "multiples_of": "In {{ quantity }}er Schritten",
+        "input_label": "Anzahl für {{ product }}",
+        "increase": "Menge für {{ product }} erhöhen",
+        "decrease": "Menge für {{ product }} verringern",
+        "minimum_of": "Mindestmenge von {{ quantity }}",
+        "maximum_of": "Maximum von {{ quantity }}",
+        "multiples_of": "Schritte von {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> im Warenkorb",
-        "note": "Mengenregeln anzeigen",
-        "min_of": "Mindestens {{ quantity }}",
-        "max_of": "Höchstens {{ quantity }}",
-        "in_cart_aria_label": "Menge ({{ quantity }} im Warenkorb)"
+        "note": "Mengenregeln ansehen",
+        "min_of": "Min. {{ quantity }}",
+        "max_of": "Max. {{ quantity }}",
+        "in_cart_aria_label": "Anzahl ({{ quantity }} im Warenkorb)"
       },
       "price": {
-        "from_price_html": "Von {{ price }}",
+        "from_price_html": "Ab {{ price }}",
         "regular_price": "Normaler Preis",
-        "sale_price": "Verkaufspreis",
-        "unit_price": "Grundpreis"
+        "sale_price": "Angebotspreis",
+        "unit_price": "Stückpreis"
       },
       "share": "Dieses Produkt teilen",
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
-      "vendor": "Anbieter",
+      "vendor": "Verkäufer",
       "video_exit_message": "{{ title }} öffnet das Video auf derselben Seite im Vollbildmodus.",
       "xr_button": "In deinem Bereich ansehen",
       "xr_button_label": "\"Ansicht in deinem Raum\" lädt den Artikel in ein Augmented-Reality-Fenster",
@@ -188,7 +188,17 @@
       "product_variants": "Produktvarianten",
       "taxes_included": "Inkl. Steuern.",
       "duties_included": "Inkl. Zollgebühren.",
-      "duties_and_taxes_included": "Inkl. Zollgebühren und Steuern."
+      "duties_and_taxes_included": "Inkl. Zollgebühren und Steuern.",
+      "inventory_out_of_stock_message": "Auf Lager",
+      "inventory_order_before": "vorne",
+      "inventory_delivered": "bestellt,",
+      "inventory_delivery_time": "morgen zu Hause",
+      "inventory_status": {
+        "in_stock_badge": "Auf Lager",
+        "low_stock_badge": "Wenig Vorrat",
+        "out_of_stock_badge": "Nicht vorrätig",
+        "shipping_message": "Bis 14:00 Uhr bestellt, noch am selben Tag versendet"
+      }
     },
     "modal": {
       "label": "Medien-Galerie"
