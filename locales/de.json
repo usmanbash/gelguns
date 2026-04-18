@@ -4044,6 +4044,72 @@
       "add_success": {
         "done_button": "Mit dem Einkaufen fortfahren"
       }
+    },
+    "payment_method_brands": {
+      "mastercard": "Masterkarte",
+      "shoppay": "Shop-Zahlung",
+      "applepay": "Apple-Bezahlen",
+      "googlepay": "Google Bezahlen",
+      "forbrugsforeningen": "Verbrauchervereinigung",
+      "dankort": "Dankkarte",
+      "hipercard": "Hiperkarte",
+      "unionpay": "Union-Zahlung",
+      "storecredit": "Ladenguthaben",
+      "bogus": "Fälschung"
+    },
+    "enable_javascript": "Aktiviere JavaScript in deinen Browsereinstellungen oder melde dich mit einem anderen Browser an, um dein Konto anzusehen.",
+    "ui_components": {
+      "expandNotification": "Mehr ansehen",
+      "submit": "Einreichen",
+      "processing": "Verarbeiten...",
+      "increase": "Anstieg von {{type}}",
+      "decrease": "Abnahme von {{type}}",
+      "minimumReached": "Mindestmenge von {{value}} erreicht",
+      "maximumReached": "Maximaler Van von {{value}} erreicht",
+      "mondayAbbreviation": "Mo.",
+      "tuesdayAbbreviation": "Di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "tun.",
+      "fridayAbbreviation": "v. Chr.",
+      "saturdayAbbreviation": "ca.",
+      "sundayAbbreviation": "so.",
+      "showPreviousMonth": "Vorherigen Monat anzeigen, {{month}} {{year}}",
+      "rangeStart": "Bereich beginnen",
+      "inRange": "In Reichweite",
+      "rangeEnd": "Ende des Bereichs",
+      "mapClusterTitle": {
+        "one": "Cluster von {{number}} Markierungspunkt",
+        "other": "Cluster von {{number}} Markierungspunkten"
+      },
+      "expandSheet": "Ausklappen",
+      "addFile": "Bestand hinzufügen",
+      "dropzoneInvalidFileType": "Dieser Dateityp wird nicht unterstützt",
+      "dropzoneDraggedOver": "Bestand zum Hochladen ablegen",
+      "clipboardFailedToCopy": "Nicht kopiert",
+      "clear": "Wissen"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Leiste verbergen",
+      "navigate_to_admin": "Zum Verwaltungszentrum navigieren",
+      "previewing": "Sie sehen ein Beispiel von:",
+      "viewing": "Sie sehen:",
+      "not_available": "Keine Profildaten verfügbar",
+      "close_preview": "Beispiel schließen"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "description": "Wenn du ein Gerät verloren hast oder dir Sorgen um die Sicherheit machst, meldest du dich überall ab, um die Sicherheit deines Kontos zu gewährleisten.",
+        "warning_message": "Du wirst auch auf diesem Gerät abgemeldet."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Am {{date}} um {{time}}",
+        "lessThanOneMinuteAgo": "Soeben",
+        "lessThanOneWeekAgo": "Am {{weekday}} um {{time}}",
+        "lessThanOneWeekAway": "Am {{weekday}} um {{time}}",
+        "lessThanOneYearAway": "Am {{date}} um {{time}}"
+      }
     }
   }
 }
