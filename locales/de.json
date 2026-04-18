@@ -10,20 +10,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Shop mit Passwort betreten:",
-      "login_password_button": "Mit Passwort betreten",
+      "login_form_heading": "Geschäft mit Passwort betreten:",
+      "login_password_button": "Mit Passwort eintreten",
       "login_form_password_label": "Passwort",
-      "login_form_password_placeholder": "Dein Passwort",
-      "login_form_error": "Falsches Passwort!",
+      "login_form_password_placeholder": "Ihr Passwort",
+      "login_form_error": "Passwort falsch!",
       "login_form_submit": "Eingeben",
-      "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"/admin\" class=\"link underlined-link\">Hier einloggen</a>",
-      "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
+      "admin_link_html": "Bist du der Ladenbesitzer? <a href=\"/admin\" class=\"link underlined-link\">Hier anmelden</a>",
+      "powered_by_shopify_html": "Dieser Shop wird von {{ shopify }} betrieben"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Auf Facebook teilen",
-        "share_on_twitter": "Auf X teilen",
-        "share_on_pinterest": "Auf Pinterest pinnen"
+        "share_on_twitter": "Teilen auf X",
+        "share_on_pinterest": "Auf Pinterest anheften"
       },
       "links": {
         "twitter": "X (Twitter)",
@@ -4108,8 +4108,96 @@
         "lessThanOneMinuteAgo": "Soeben",
         "lessThanOneWeekAgo": "Am {{weekday}} um {{time}}",
         "lessThanOneWeekAway": "Am {{weekday}} um {{time}}",
-        "lessThanOneYearAway": "Am {{date}} um {{time}}"
+        "lessThanOneYearAway": "Am {{date}} um {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "vor {{count}} Minute(n)"
+        }
       }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Die Erweiterung mit dem Namen '{{extensionName}}' auswählen",
+        "unselect": "Auswahl der Erweiterung namens '{{extensionName}}' rückgängig machen",
+        "move_up_tooltip": "Zur vorherigen Position zurückkehren"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Du kannst diesen Link nicht im Editor öffnen. Der Link wird in einem neuen Fenster geöffnet ({{resolved_to_link}}). Klicke auf OK, um fortzufahren."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Versuchen Sie es in ein paar Minuten erneut"
+      }
+    },
+    "shop_ads": {
+      "title": "Andere Produkte, die Ihnen vielleicht gefallen",
+      "subtitle": "Vorübergehend erhältlich",
+      "button": "Auf Shop durchsuchen",
+      "previous_button": "Vorherige",
+      "next_button": "Nächste"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunden können Rücksendungen selbst beantragen und verwalten.",
+        "disabled": "Kunden müssen sich an den Händler wenden, um eine Rücksendung zu beantragen."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Zahlungsmethode ändern",
+        "loading": "Zahlungsmethoden laden",
+        "select_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Mehr Möglichkeiten zum Einloggen",
+        "alternate_divider": "VON",
+        "email_field_label": "E-Mail",
+        "continue_with_google": "Mit Google fortfahren",
+        "continue_with_facebook": "Mit Facebook fortfahren",
+        "use_email_button": "E-Mail-Adresse verwenden"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hallo {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Suchen"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, Untermenü öffnen",
+        "loading_menu": "Menü laden",
+        "sign_in_with_email": "Mit E-Mail anmelden"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Zahlungsmethode ändern",
+        "replace_with": "Ersetzt durch",
+        "loading": "Modal zum Ändern der Zahlungsmethode wird geladen",
+        "invalid_subscription_contract": "Abonnement kann nicht gefunden werden",
+        "expiry_date": "Läuft ab am {{expiryDate}}"
+      }
+    },
+    "sign_in": {
+      "step_one": {
+        "page_title": "Anmelden - %{shop_name}",
+        "subheading": "Gib deine E-Mail-Adresse ein und wir senden dir einen Bestätigungscode zu",
+        "button": "Fortfahren",
+        "consent_agreement": "Indem Sie fortfahren, stimmen Sie den %{terms} zu"
+      },
+      "step_two": {
+        "page_title": "Code eingeben - %{shop_name}",
+        "input_field_label": "Code aus 6 Ziffern",
+        "button": "Einreichen"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Geben Sie eine gültige E-Mail-Adresse ein",
+          "invalid_code": "Geben Sie den richtigen sechsstelligen Code ein"
+        }
+      },
+      "processing": "Verarbeiten..."
     }
   }
 }
