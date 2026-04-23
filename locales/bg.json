@@ -1278,7 +1278,67 @@
         "shipping_method_first_shipment_group_title": {
           "one": "Първа пратка",
           "other": "Първи пратки"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Повтаряща се пратка",
+          "other": "Повтарящи се пратки"
+        },
+        "address_default": "Задай като стандартно",
+        "split_shipping_merchandise_quantity_label_additional": "+ още %{quantity}",
+        "pre_order_ships_now": "Изпраща се сега",
+        "pre_order_ships_later": "Ще бъде изпратено по-късно",
+        "pre_order_ships_date": "Ще бъде изпратено на %{date}",
+        "split_shipping_shipped_by_shop": "Изпратено от %{shop_name}",
+        "split_shipping_shipping_label": "Вайзе",
+        "split_shipping_multiple_shipment_notice": "Поръчката ще бъде доставена на няколко пратки",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Вашата поръчка ще бъде доставена в %{quantity} пратки",
+        "split_shipping_more_shipping_options": "Още опции за доставка",
+        "split_shipping_option_fastest": "Най-бързият",
+        "split_shipping_option_custom": "Персонализирано",
+        "default_description": "Ще бъде изпратено в рамките на един работен ден",
+        "split_shipping_shipment_notice": "Ще получите поръчката си в %{quantity_shipments}",
+        "unbranded_default_description": "Готово за изпращане",
+        "prime_not_available": {
+          "default": "Prime-доставката не е налична за вашата поръчка. Вашите опции за доставка са актуализирани."
+        },
+        "split_shipping_first_shipment_notice": "Ще получите първата си поръчка след %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Опции за метод на доставка",
+        "shipping_address_rollup_accessibility_label": "Опции за доставка до адрес",
+        "invalid_shipping_method_summary_selected": "Изберете друг адрес за доставка, за да видите наличните методи за доставка",
+        "third_party_address_timeout": "Не може да се зареди адресът. Опитайте отново или използвайте друг адрес.",
+        "third_party_address_error": "Възникна грешка при зареждането на избора на адрес. Моля, въведете адреса си ръчно по-долу.",
+        "third_party_payment_timeout": "Не може да се заредят методите за плащане. Опитайте отново или използвайте друг метод за плащане.",
+        "third_party_payment_error": "Възникна грешка при зареждането на избора на плащане. Моля, използвайте друг метод за плащане.",
+        "add_shipping_address": "Добавяне на адрес за доставка",
+        "unbranded_description_same_day": "Ще бъде изпратено в същия работен ден",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Ще бъде изпратено на следващия работен ден",
+          "other": "Ще бъде изпратено в рамките на %{count} работни дни"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Ще бъде изпратено след %{count} седмици",
+          "other": "Ще бъде изпратено след %{count} седмици"
         }
+      },
+      "payment": {
+        "amazon_payments_login_hint": "Моля, влезте в акаунта си в Amazon.",
+        "amazon_payments_logout": "Излезте от Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Избраната метод на плащане не може да бъде използвана. Моля, изберете друг метод или се свържете с вашата банка или издател на картата.",
+        "amazon_payments_abandoned_mfa_challenge": "Плащането ви не можа да бъде завършено. Опитайте друг метод на плащане или се свържете с вашата банка или издател на картата.",
+        "amazon_payments_could_not_enqueue_authorize": "Възникна проблем при обработката на плащането ви. Моля, опитайте отново или използвайте друг метод на плащане.",
+        "amount_left_to_pay_label": "Дължима сума:",
+        "discount_button_action_label": "Въведете код за отстъпка",
+        "gift_card_code_label": "Код за подаръчен ваучер",
+        "supported_card_brands_more_label": "и още…",
+        "detected_card_brand": "Открит тип карта: {brand}",
+        "card_pay_with": "Плати с:",
+        "card_security_notice": "Всички транзакции са защитени и криптирани.",
+        "name_on_card_label": "Име на карта",
+        "name_on_card_placeholder": "Име на карта",
+        "card_expiry_label": "Срок на валидност (ММ/ГГ)",
+        "card_expiry_placeholder": "Срок на валидност (ММ/ГГ)",
+        "card_verification_value_label": "Код за сигурност",
+        "card_verification_value_placeholder": "Код за сигурност"
       }
     }
   }
