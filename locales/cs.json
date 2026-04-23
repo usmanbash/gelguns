@@ -1364,7 +1364,65 @@
         "card_verification_value_explanation_other": "Bezpečnostní kód o 3 číslicích na zadní straně vaší karty",
         "card_start_label": "Datum vydání (MM / RR)",
         "card_start_placeholder": "Datum vydání (MM / RR)",
-        "card_issue_number_label": "Číslo výdeje"
+        "card_issue_number_label": "Číslo výdeje",
+        "card_issue_number_placeholder": "Číslo výdeje",
+        "ends_with_label": "končí na %{last_digits}",
+        "saved_by_payment_method": "Uloženo s %{payment_method}",
+        "pay_with_payment_method": "Zaplaťte pomocí %{payment_method}",
+        "same_billing_address_label": "Stejné jako doručovací adresa",
+        "free_order_notice_html": "Vaše objednávka je <strong>zdarma</strong>. Platba není vyžadována.",
+        "express_checkout_free_order": "Za bezplatnou objednávku nebudou účtovány žádné poplatky",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Vaše objednávka bude zaplacena dárkovým poukazem.",
+          "other": "Vaše objednávka bude zaplacena pomocí vašich dárkových poukazů."
+        },
+        "offsite_gateway_redirect_hint": "Budete přesměrováni na %{gateway_label}, abyste dokončili svůj nákup.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} celkem %{total_shop_price}",
+        "billing_address_description": "Vyberte adresu, která odpovídá vaší kartě nebo způsobu platby.",
+        "billing_address_description_no_shipping_address": "Zadejte adresu, která odpovídá vaší kartě nebo způsobu platby.",
+        "no_js_credit_card_fields_redirect_hint": "Budete přesměrováni, abyste mohli přidat své platební údaje.",
+        "card_fields_container_prefix": "V tomto poli je:",
+        "card_fields_unavailable_html": {
+          "one": "Platba kreditní kartou nebo platební kartou není momentálně dostupná.<br><a href=\"%{current_url}\">Obnovte tuto stránku</a> nebo to zkuste později znovu.",
+          "other": "Platba kreditní kartou nebo platební kartou není momentálně dostupná.<br><a href=\"%{current_url}\">Obnovte tuto stránku</a> nebo vyzkoušejte jiný způsob platby."
+        },
+        "card_fields_processing_error": "Došlo k problému při zpracování platby. Obnovte tuto stránku nebo zkontrolujte své připojení k internetu.",
+        "technical_error": "Kvůli technickému problému nelze momentálně platby zpracovat. Zkuste to prosím za pár minut znovu.",
+        "missing_credit_card_error": "Zadejte údaje o kartě pro dokončení platby",
+        "generic_incorrect_card_info": "Vaše platební údaje nelze ověřit. Zkontrolujte údaje o kartě a zkuste to znovu.",
+        "sofort_label": "Okamžitě",
+        "klarna_pay_now_label": "Zaplaťte nyní pomocí Klarna",
+        "klarna_pay_later_label": "Platba později s Klarna",
+        "eps_label": "eps-převod (eps-převod)",
+        "klarna_slice_it_label": "Finance s Klarnou",
+        "card_expiration_month_label": "Měsíc úspor",
+        "card_expiration_year_label": "Období platnosti",
+        "card_information_notice": "Všechny transakce jsou zabezpečené a zašifrované. Údaje o kreditní kartě se nikdy neukládají.",
+        "credit_card_start_month": "Měsíc počátku",
+        "credit_card_start_year": "Rok počátečního data",
+        "billing_address_not_supported_for_payment_method_error": "Tento způsob platby není dostupný pro vaši fakturační adresu a měnu. Zkuste jiný způsob platby.",
+        "change_currency_section_description": "Vyberte možnost měny",
+        "no_real_orders_dev_store": "Tento obchod nemůže přijímat skutečné objednávky ani zpracovávat skutečné platby.",
+        "subscription_agreement_label_html": "Rozumím, že souhlasím s odběrem. Bude obnovován za uvedenou cenu a frekvenci, dokud nevyprší nebo nebude\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">zrušen</a>.",
+        "waiting_on_payment_methods": "Načítání dostupných platebních metod...",
+        "apple_pay_payment_error": "Vaše platba nemohla být dokončena. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "subscription_card_update_agreement_label": "Po změně platební metody bude vaše předplatné a pravidelné platby v budoucnu aktualizovány.",
+        "card_security_vault_notice": "Potřebujeme vaše údaje pro budoucí platby. Všechny transakce jsou zabezpečené a zašifrované.",
+        "taxes_not_included": "Bez daní",
+        "no_taxes_banner_content": "Daně nejsou na tuto objednávku účtovány. Daně již nelze přidat, pokud byla platba již přijata.",
+        "card_update_label": "Aktualizovat mapu",
+        "paypal": {
+          "connect": "Klikněte pro propojení vašeho účtu PayPal"
+        },
+        "subscription_agreement_label": "Jeden nebo více položek v košíku je odložený nebo předplatný nákup. Pokud budete pokračovat v platbě, souhlasíte s tím, že částky za nákup budeme automaticky účtovat prostřednictvím vaší platební metody za cenu a frekvenci uvedenou na této stránce, dokud předplatné neskončí nebo jej sami neukončíte. Pro všechna zrušení platí %{cancelled}.",
+        "subscription_agreement_cancelled": "zásady ukončení smlouvy",
+        "card_expired": "Vypršelo",
+        "card_verification_confirm": "Zadejte bezpečnostní kód své karty pro ověření.",
+        "different_credit_card_label": "Použijte jinou platební kartu",
+        "apple": {
+          "connect": "Klikněte pro propojení vašeho účtu Apple Pay",
+          "not_available": "Apple Pay není v tomto prohlížeči dostupný. Pro propojení svého účtu Apple Pay musíte použít Safari na zařízení Apple."
+        }
       }
     }
   }
