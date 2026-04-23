@@ -950,7 +950,75 @@
         },
         "price_update": {
           "description": "Ceny těchto položek byly změněny a aktualizovány ve vašem nákupním košíku."
-        }
+        },
+        "item_label": {
+          "one": "{{count}} položek",
+          "other": "{{count}} položek"
+        },
+        "continue_cta_label": "Pokračovat k pokladně",
+        "out_of_stock": {
+          "description": "Tyto položky již nejsou k dispozici a byly odstraněny z tvého nákupního košíku.",
+          "items_unavailable": "Některé položky již nejsou k dispozici a byly odstraněny z tvého nákupního košíku."
+        },
+        "unfulfillable_product": {
+          "title": "Doručení není k dispozici",
+          "message": {
+            "one": "%{delivery_method} již není k dispozici pro tento produkt.",
+            "other": "%{delivery_method} již není k dispozici pro tyto položky."
+          },
+          "default_message": {
+            "one": "Zvolený způsob doručení již není pro tento článek k dispozici.",
+            "other": "Zvolený způsob doručení již není pro tyto položky k dispozici."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Aktualizovat cenu a množství",
+          "description": "Ceny a dostupné množství těchto položek se změnily a nákupní košík byl aktualizován."
+        },
+        "out_of_stock_in_context_label": "Tento výrobek není dostupný ve vaší zemi/oblasti."
+      },
+      "order_summary": {
+        "title": "Přehled objednávky",
+        "gift_card_title": "Dárkový poukaz",
+        "gift_card_label": "Dárkový poukaz",
+        "gift_card_placeholder": "Dárkový poukaz",
+        "gift_card_and_discount_title": "Slevový kód nebo dárkový poukaz",
+        "gift_card_and_discount_label": "Slevový kód nebo dárkový poukaz",
+        "gift_card_and_discount_placeholder": "Slevový kód nebo dárkový poukaz",
+        "add_discount_or_gift_card": "Přidat slevový kód nebo dárkový poukaz",
+        "remove_gift_card_label": "Odebrat dárkový poukaz",
+        "remove_discount_label": "Odstranit slevu",
+        "applied_discount_message": "Byla odečtena sleva %{amount} z celkové ceny.",
+        "discount_has_been_applied": "Sleva byla uplatněna",
+        "discount_already_applied": "Na tuto objednávku byla uplatněna sleva. Nelze přidat další slevu.",
+        "cart_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> neplatí pro položky ve vašem košíku",
+        "discount_requires_customer_notice": "Zadejte své doručovací údaje pro použití slevového kódu <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> momentálně není pro vás dostupný",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> není k dispozici pro vaši doručovací adresu",
+        "customer_already_used_once_per_customer_discount_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> již byl použit",
+        "shipping_label": "Odeslání",
+        "shipping_default_value": "Vypočítáno při dalším kroku",
+        "shipping_pending_message": "Ještě není k dispozici",
+        "shipping_policy_link": "Poštovné",
+        "taxes_label": "mimochodem",
+        "total_outstanding_label": "Částka k úhradě",
+        "payment_due_label": "Dlužná platba",
+        "vat_label_html": "Včetně %{amount} DPH",
+        "discount_and_gift_card_savings_notice": "Slevu %{discount_amount} a hodnotu dárkové karty %{gift_card_amount}",
+        "discount_savings_notice": "Slevu %{discount_amount}",
+        "gift_card_savings_notice": "Na hodnotu dárkové karty %{gift_card_amount}",
+        "cost_table_title": "Přehled nákladů",
+        "quantity_label": "Počet",
+        "scroll_order_summary": "Posuňte dolů pro více článků",
+        "total_already_paid_label": "zaplaceno",
+        "unit_price": {
+          "accessible_separator": "za",
+          "per_item": {
+            "single": "%{price} za kus",
+            "other": "%{price} za %{count} položek"
+          }
+        },
+        "pickup_label": "Vyzdvihnutí v obchodě"
       }
     }
   }
