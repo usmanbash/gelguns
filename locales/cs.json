@@ -1306,7 +1306,65 @@
         "split_shipping_merchandise_quantity_label_standard": "%{quantity} položek",
         "split_shipping_merchandise_quantity_label_additional": "+ nohy %{quantity}",
         "split_shipping_merchandise_shipment_number": "Zásilka %{number} z %{total}",
-        "pre_order_ships_now": "Právě odesíláno"
+        "pre_order_ships_now": "Právě odesíláno",
+        "pre_order_ships_later": "Bude odesláno později",
+        "pre_order_ships_date": "Bude odesláno %{date}",
+        "split_shipping_shipped_by_shop": "Odesláno %{shop_name}",
+        "split_shipping_shipping_label": "Moudrý",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} zásilek",
+        "split_shipping_multiple_shipment_notice": "Objednávka bude doručena ve více zásilkách",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Vaše objednávka bude doručena ve %{quantity} zásilkách",
+        "split_shipping_more_shipping_options": "Více možností doručení",
+        "split_shipping_shipment_number": "Odeslání %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Počet: %{quantity}",
+        "split_shipping_option_custom": "Upraveno",
+        "default_description": "Odesláno do jednoho pracovního dne",
+        "split_shipping_shipment_notice": "Obdržíte svou objednávku ve %{quantity_shipments} zásilkách",
+        "unbranded_default_description": "Připraveno k odeslání",
+        "prime_not_available": {
+          "default": "Doručení Prime není pro vaši objednávku dostupné. Vaše možnosti doručení byly aktualizovány."
+        },
+        "split_shipping_first_shipment_notice": "Obdržíte svou první objednávku během %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Možnosti způsobu doručení",
+        "invalid_shipping_method_summary_selected": "Vyberte jinou doručovací adresu pro zobrazení dostupných způsobů dopravy",
+        "third_party_address_timeout": "Nelze načíst adresu. Zkuste to znovu nebo použijte jinou adresu.",
+        "third_party_address_error": "Při načítání výběru adresy došlo k chybě. Zadejte svou adresu níže ručně.",
+        "third_party_payment_timeout": "Nelze načíst způsoby platby. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "third_party_payment_error": "Při načítání výběru platby došlo k chybě. Použijte jiný způsob platby.",
+        "add_shipping_address": "Přidat doručovací adresu",
+        "unbranded_description_same_day": "Bude odesláno tentýž pracovní den",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Bude odesláno následující pracovní den",
+          "other": "Bude odesláno během %{count} pracovních dnů"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Bude odesláno za %{count} týden",
+          "other": "Bude odesláno za %{count} týdnů"
+        },
+        "delivery_to": "Doručení na"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Platba",
+        "amazon_payments_login_hint": "Budete vyzváni k přihlášení na Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Vybraný způsob platby nelze použít. Zvolte jiný způsob nebo kontaktujte svou banku či vydavatele karty.",
+        "amazon_payments_abandoned_mfa_challenge": "Vaše platba nemohla být dokončena. Zkuste jiný způsob platby nebo kontaktujte svou banku či vydavatele karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Při zpracování vaší platby došlo k problému. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "amount_left_to_pay_label": "Dlužná částka:",
+        "discount_button_action_label": "Použijte slevový kód",
+        "gift_card_code_label": "Kód dárkového poukazu",
+        "supported_card_brands_more_label": "a více…",
+        "detected_card_brand": "Zjištěný typ karty: {brand}",
+        "card_pay_with": "Plaťte pomocí:",
+        "card_security_notice": "Všechny transakce jsou zabezpečené a zašifrované.",
+        "card_expiry_label": "Datum platnosti (MM/RR)",
+        "card_expiry_placeholder": "Datum platnosti (MM/RR)",
+        "card_expiry_date_explanation": "Rozložení data platnosti karty: měsíc, měsíc, rok, rok",
+        "card_verification_value_explanation": "Bezpečnostní kód ze 3 číslic, obvykle nalezený na zadní straně vaší karty. American Express má kód ze 4 číslic na přední straně.",
+        "card_verification_value_explanation_amex": "Čtyřmístný bezpečnostní kód na přední straně vaší karty",
+        "card_verification_value_explanation_other": "Bezpečnostní kód o 3 číslicích na zadní straně vaší karty",
+        "card_start_label": "Datum vydání (MM / RR)",
+        "card_start_placeholder": "Datum vydání (MM / RR)",
+        "card_issue_number_label": "Číslo výdeje"
       }
     }
   }
