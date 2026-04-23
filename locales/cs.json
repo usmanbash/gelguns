@@ -1018,7 +1018,69 @@
             "other": "%{price} za %{count} položek"
           }
         },
-        "pickup_label": "Vyzdvihnutí v obchodě"
+        "pickup_label": "Vyzdvihnutí v obchodě",
+        "no_pickup_location": "Nejsou k dispozici žádná místa pro vyzvednutí.",
+        "calculating_shipping": "Probíhá výpočet...",
+        "estimated_taxes_label": "Odhadovaná daň",
+        "gift_card_ending": "Dárková karta končící na %{last_characters}",
+        "multiple_shipping_lines_label": "Celkové náklady na dopravu",
+        "applied_free_shipping_discount_label": "Použito",
+        "sale_price": "Akční cena",
+        "recurring_subtotal_label": "Vrácený mezisoučet",
+        "recurring_total_label": "Vrácený celkový součet",
+        "recurring_total_tooltip": "Bez zahrnutí poštovného, DPH, celních poplatků nebo případných slev.",
+        "gift_card_subscriptions_notice": "Dárkové poukazy se uplatní pouze při vaší první platbě",
+        "confirmation_number_label": "Potvrzovací číslo %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Celková částka daně bude potvrzena e-mailem nebo sms po odeslání vaší objednávky.",
+        "deferred_payment_info": {
+          "title": "Platba ve výši %{amount_due} je splatná dne %{due_at}",
+          "description_html": "%{contact_us} pro dotazy ohledně vaší objednávky.",
+          "due_on_fulfillment_title": "Platba ve výši %{amount_due} je splatná při vyřízení objednávky.",
+          "due_on_receipt_title": "%{amount_due} je splatná při převzetí",
+          "paid_today_next": "Dnes zaplaceno"
+        },
+        "percent_off_shipping": "%{percent}% sleva na dopravu",
+        "amount_off_shipping": "%{amount} sleva na dopravu",
+        "payment_terms_totals": {
+          "due_today": "Celkem dlužno dnes",
+          "due_later": "Celkem dlužná částka k %{due_at}",
+          "due_later_checkout_to_draft": "Celkem dlužná částka později",
+          "due_on_fulfillment": "Celkem dlužná částka při plnění",
+          "due_on_receipt": "Celkem k úhradě při převzetí",
+          "due_today_next": "Dnes splatné",
+          "due_on_fulfillment_next": "Platba při vyřízení objednávky"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nelze použít s vašimi stávajícími slevami.",
+        "maximum_discount_code_limit_reached": "Dosáhli jste maximálního počtu slevových kódů. Odstraňte existující kód, abyste mohli použít <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Celková objednávka",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> momentálně nefunguje. Kontaktujte nás, pokud potřebujete pomoc.",
+        "due_on_fulfillment": "Dlužné při plnění objednávky",
+        "subscriptions": "Předplatné",
+        "duties_label": "Celní poplatky",
+        "duties_and_taxes_label": "Celní poplatky a daně",
+        "error_duties_tooltip": "Tato objednávka bude odeslána ze zahraničí, proto mohou být při doručení účtovány clo a daně.",
+        "may_be_charged_on_delivery": "Může být při doručení účtováno",
+        "recurring_payments": "Opakující se platby",
+        "recurring_total_multiple_label": "Tato objednávka obsahuje opakující se poplatky za více položek.",
+        "deferred_total_due_date_label": "Celkem dlužná částka k {{date}}",
+        "custom_discount": "Upravená sleva",
+        "expand_component_information": {
+          "one": "Zobrazit %{count} položek",
+          "other": "Zobrazit %{count} položek"
+        },
+        "collapse_component_information": {
+          "one": "Skrýt %{count} položek",
+          "other": "Skrýt %{count} položek"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} položek",
+            "other": "%{count} položek"
+          }
+        },
+        "alternative_payment_currency_total": "odečteno jako %{amount_due}",
+        "calculating": "Probíhá výpočet...",
+        "group_title_label": "Součást '%{group_title}'"
       }
     }
   }
