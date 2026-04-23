@@ -986,7 +986,73 @@
         "cost_table_title": "Преглед на разходите",
         "quantity_label": "Брой",
         "product_change_label": "Промени",
-        "expand_order_summary_short": "Показване"
+        "expand_order_summary_short": "Показване",
+        "order_total_updated_label": "Актуализиран общо",
+        "total_already_paid_label": "платено",
+        "unit_price": {
+          "accessible_separator": "на",
+          "per_item": {
+            "single": "%{price} за брой",
+            "one": "%{price} за %{count} артикул",
+            "other": "%{price} за %{count} артикула"
+          }
+        },
+        "pickup_label": "Вземете от магазина",
+        "no_pickup_location": "Няма налични места за вземане.",
+        "calculating_shipping": "Изчислява се...",
+        "estimated_taxes_label": "Оценен данък",
+        "gift_card_ending": "Подаръчна карта, която завършва на %{last_characters}",
+        "estimated_tax_label": "Оценен данък",
+        "multiple_shipping_lines_label": "Общи разходи за доставка",
+        "sale_price": "Промоционална цена",
+        "recurring_subtotal_label": "Връщащ се междинен сбор",
+        "recurring_total_label": "Общ брой на връщанията",
+        "recurring_total_tooltip": "Без включена доставка, ДДС, митнически такси или евентуални отстъпки.",
+        "gift_card_subscriptions_notice": "Подаръчните ваучери се прилагат само при първото ви плащане",
+        "confirmation_number_label": "Номер на потвърждение %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Общата сума на данъка ще бъде потвърдена по имейл или SMS след като направите поръчката си.",
+        "deferred_payment_info": {
+          "title": "Плащане на %{amount_due} е дължимо на %{due_at}",
+          "description_html": "%{contact_us} за въпроси относно вашата поръчка.",
+          "paid_today": "Общо платено днес",
+          "due_on_fulfillment_title": "Плащането на %{amount_due} е дължимо при изпълнение на поръчката.",
+          "due_on_receipt_title": "%{amount_due} се дължи при получаване"
+        },
+        "percent_off_shipping": "%{percent}% отстъпка за доставка",
+        "amount_off_shipping": "%{amount} отстъпка за доставка",
+        "payment_terms_totals": {
+          "due_today": "Общо дължима сума днес",
+          "due_later": "Общо дължимо на %{due_at}",
+          "due_later_checkout_to_draft": "Общо дължима по-късно",
+          "due_on_fulfillment": "Общо дължима сума при изпълнение",
+          "due_on_receipt": "Общо за плащане при получаване",
+          "total_paid": "Общо платено",
+          "due_on_fulfillment_next": "Плащане при изпълнение"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> не може да се използва с вашите съществуващи отстъпки.",
+        "maximum_discount_code_limit_reached": "Достигнали сте максималния брой кодове за отстъпка. Премахнете съществуващ код, за да използвате <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Обща поръчка",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> в момента не работи. Свържете се с нас, ако имате нужда от помощ.",
+        "due_on_fulfillment": "Задължение към изпълнение",
+        "duties_label": "Митнически такси",
+        "duties_and_taxes_label": "Митнически такси и данъци",
+        "error_duties_tooltip": "Тази поръчка се изпраща от друга държава, затова при доставката може да бъдат начислени митнически такси и данъци.",
+        "may_be_charged_on_delivery": "Може да бъде начислено при доставка",
+        "recurring_payments": "Повтарящи се плащания",
+        "recurring_total_multiple_label": "Тази поръчка включва повтарящи се такси за няколко артикула.",
+        "deferred_total_due_date_label": "Общо дължимо към {{date}}",
+        "custom_discount": "Персонализирана отстъпка",
+        "expand_component_information": {
+          "one": "Показване на %{count} артикула"
+        },
+        "collapse_component_information": {
+          "one": "Скриване на %{count} артикула"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} артикула"
+          }
+        }
       }
     }
   }
