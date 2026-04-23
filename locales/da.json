@@ -1053,7 +1053,75 @@
         },
         "discount_not_found": "Kan ikke finde nogen gyldig rabat, der svarer til den indtastede kode",
         "total_savings": "Samlet besparelse",
-        "return_restocking_fee_label": "Genopfyldningsomkostninger"
+        "return_restocking_fee_label": "Genopfyldningsomkostninger",
+        "return_shipping_fee_label": "Returnering",
+        "enter_shipping_address": "Indtast leveringsadresse",
+        "shipping_discount_title": "Forsendelsesrabat",
+        "discount_code_applied": "Rabatkode anvendt",
+        "discount_code_applied_with_code": "Rabatkode %{code} er anvendt",
+        "gift_card_applied": "Gavekort anvendt",
+        "duties_included_label": "Det samlede beløb inkluderer skatter og toldafgifter. Ingen ekstra omkostninger ved levering.",
+        "deferred_balance_info": {
+          "title": "Saldoen på {{amount_due}} forfalder til betaling den {{due_at}}.",
+          "due_on_fulfillment_title": "Saldoet på {{amount_due}} forfalder ved opfyldelse af ordren"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabatkode kræves for berettigede kunder",
+        "cost_table_item_column_header": "Artikel",
+        "more_items_modal": {
+          "clear_search": "Slet søgning",
+          "empty_results": "Ingen resultater fundet for '%{searchText}'. Tjek stavningen eller brug et andet ord eller en anden sætning.",
+          "number_items_shown": "%{shownNumber} af %{totalNumber} artikler",
+          "search_item": "Søgning"
+        },
+        "number_items": {
+          "one": "%{count} artikel",
+          "other": "%{count} artikler"
+        },
+        "view_all_items": {
+          "one": "Se %{count} artikel",
+          "other": "Se alle %{count} artikler"
+        },
+        "price_before_discount_aria_text": "Original pris",
+        "price_after_discount_aria_text": "Rabatpris",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Afsendelse til adresse",
+          "ship_to_address_instead_html": "%{link} i stedet for"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen butikker tilgængelige med din vare",
+          "other": "Ingen butikker tilgængelige med dine varer"
+        },
+        "deposit_label": "Forudbetaling",
+        "total_due_today_label": "I alt skyldig i dag",
+        "total_due_later_label": "Samlet skyldig senere",
+        "discount_code_allocations_mismatch": "Din rabatkode <strong style=\"text-transform:uppercase\">%{code}</strong> er ændret. Tjek din indkøbskurv og prøv igen.",
+        "deferred_total_due_date_label_next": "Skyldigt den %{date}",
+        "total_due_label": "Samlet skyldig beløb",
+        "for_add_on": "Til: %{group_title}",
+        "total_paid_label": "Samlet betalt",
+        "order_discounts_apply_to_local_shop": "Bestillingsrabatter gælder kun for varer fra %{shop_name}",
+        "estimated_taxes_label_short": "Anslået",
+        "discount_code_removed": "Rabatterkode %{code} er fjernet",
+        "discount_code_replaced": "Rabatteringskode %{old_code} er fjernet, og %{code} er anvendt",
+        "discount_code_replaced_multiple": "Flere rabatkoder er blevet fjernet, og %{code} er anvendt",
+        "discount_applies_to_subscription_items_only": "Rabatten gælder kun for abonnementsvarer",
+        "estimated_taxes_finalization_tooltip_content_short": "Skatteafrunding efter betaling",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ingen butikker tilgængelige i %{country} med din vare",
+          "other": "Ingen butikker tilgængelige i %{country} med dine varer"
+        },
+        "tax_line": {
+          "gst": "MOMS"
+        }
+      },
+      "shipping": {
+        "title": "Forsendelse",
+        "shipping_method_title": "Forsendelsesmetode",
+        "waiting_on_rate_notice": "Henter tilgængelige forsendelsespriser...",
+        "waiting_on_pickup_location_notice": "Henter tilgængelige afhentningssteder...",
+        "no_rates_for_cart_or_destination_notice": "Der er ingen forsendelsesmetoder tilgængelige for din indkøbskurv eller adresse",
+        "no_pickup_location_notice": "Mindst ét af dine produkter kan ikke afhentes",
+        "no_rates_for_country_notice": "Ingen forsendelsespriser fundet for denne adresse."
       }
     }
   }
