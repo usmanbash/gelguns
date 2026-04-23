@@ -1394,7 +1394,69 @@
         "no_taxes_banner_content": "Данъците не се начисляват върху тази поръчка. Не можете да добавяте данъци, ако плащането вече е получено.",
         "paypal": {
           "connect": "Кликнете, за да свържете своя PayPal акаунт"
-        }
+        },
+        "subscription_agreement_label": "Един или повече артикули в количката са отложена или абонаментна покупка. Ако продължите с плащането, вие се съгласявате, че ще начисляваме автоматично сумите за покупка чрез вашия метод на плащане на цената и честотата, посочени на тази страница, докато абонаментът не изтече или не го прекратите сами. За всички прекратявания важи %{cancelled}.",
+        "subscription_agreement_cancelled": "политика за отказ",
+        "card_verification_confirm": "Въведете кода за сигурност на вашата карта за целите на проверката.",
+        "different_credit_card_label": "Използвайте друга кредитна карта",
+        "apple": {
+          "connect": "Кликнете, за да свържете своя Apple Pay акаунт",
+          "not_available": "Apple Pay не е наличен в този браузър. За да свържете своя Apple Pay акаунт, трябва да използвате Safari на Apple устройство."
+        },
+        "account_connected": "Акаунтът е свързан.",
+        "billing_address_associated_with_mandate": "Използвайте адрес, свързан с вашия метод на плащане",
+        "billing_address_associated_with_mandate_info": "За да промените адреса за фактуриране, изтрийте данните на кредитната си карта и ги въведете отново.",
+        "delete_customer_mandate_modal_cancel": "Отказване",
+        "credit_card_vaulting_sign_in_banner_title": "Запазване на кредитната карта",
+        "credit_card_vaulting_sign_in_banner_info": "Влезте или създайте акаунт, за да запазите кредитната си карта за бъдещи покупки.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Вход",
+        "expiry_long": "(Изтича %{month}/%{year})",
+        "expiry_short": "(Изтича %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Запазете тази кредитна карта в моя акаунт за по-бързо плащане",
+        "delete_customer_mandate_modal_title": "Да изтриете ли тази платежна карта?",
+        "delete_customer_mandate_modal_body": "Ако изтриете тази карта, ще трябва да я добавите отново, преди да я използвате за плащания.",
+        "delete_customer_mandate_modal_confirm": "Премахване на карта",
+        "google": {
+          "connect": "Кликнете, за да свържете своя Google Pay акаунт",
+          "error_authorizing": "Грешка при упълномощаване на плащането"
+        },
+        "klarna_label": "Кларна",
+        "mor_disclaimer_html": "Ако кликнете по-долу и завършите поръчката си, вие се съгласявате да закупите вашия(ите) артикул(и) от Global-e като регистриран търговец за тази транзакция, според <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Общите условия</a> и <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Политиката за поверителност</a> на Global-e. Global-e е международен доставчик на услуги за изпълнение за %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Когато актуализирате метода на плащане, упълномощавате плащания за всяка повтаряща се или отложена покупка според <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> на този магазин.",
+        "multibanco_label": "Мултибанко",
+        "receiver_payment_experience_hint": "След като направите поръчката си, ще получите данните за плащане. Извършете плащането в рамките на %{due_days} дни в Multibanco или онлайн.",
+        "pending_payment": {
+          "due_notice": "Вашето плащане в размер на %{amount_due} е дължимо на %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Извършете плащането си в Multibanco или онлайн, като използвате данните по-долу. %{contact_us} за въпроси или за актуализиране на платежните данни.",
+            "entity": "Единица",
+            "find_nearest_atm": "Намерете най-близкия банкомат",
+            "buyer_action_info": "Вашето плащане на %{amount_due} е неплатено."
+          }
+        },
+        "purchase_options_agreement_label": "Един или повече артикули в твоята количка са отложена покупка, абонамент или повтаряща се покупка. Като продължиш с плащането, ти се съгласяваш, че методът ти на плащане ще бъде автоматично таксуван за цената и честотата, посочени на тази страница, докато не изтече или не отмениш. За всички анулации важи %{cancellation_policy_label}.",
+        "update_payment_method": "Актуализиране на метода на плащане",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Общата сума може да не включва данъци, доставка, отложени такси и някои отстъпки. Продължете към плащане, за да видите сумата за днес."
+        },
+        "purchase_options_agreement_label_html": "Разбирам, че един или повече артикули в моята количка са отложена покупка, абонамент или повтаряща се покупка. Като продължа, се съгласявам с\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">политиката за анулиране</a>\nи давам разрешение да бъде таксуван моят метод на плащане за цените, честотата и датите, посочени на тази страница, докато поръчката ми бъде обработена или докато не отменя, ако това е позволено.",
+        "payment_method_saved": "Методът на плащане е запазен",
+        "card_vaulted_company_location": "Карта запазена за това място",
+        "order_covered_by_store_credit_notice": "Поръчката се плаща с вашия кредит за пазаруване.",
+        "order_covered_by_redeemables_notice": "Поръчката е платена.",
+        "store_credit": {
+          "label": "Кредит в магазина",
+          "apply_label": "Приложи кредит за магазина",
+          "add_label": "Добавяне на кредит към магазина",
+          "manage_label": "Управление на кредит в магазина",
+          "buying_gift_card": "С кредит в магазина не можете да закупите подаръчен ваучер",
+          "no_fixed_selling_plans": "Не можете да използвате кредит в магазина заедно с опции за отложена покупка"
+        },
+        "clear": "Знание",
+        "billing_must_match_shipping_notice": "Адресът за фактуриране на твоя метод на плащане трябва да съвпада с адреса за доставка.",
+        "same_billing_address_checkbox_label": "Адресът за доставка и адресът за фактуриране са еднакви",
+        "location_billing_address_label": "Фактурен адрес на локацията",
+        "fact_billing_address_label": "Адрес за фактура"
       }
     }
   }
