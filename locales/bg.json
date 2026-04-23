@@ -1120,7 +1120,95 @@
         "discount_code_replaced": "Код за отстъпка %{old_code} е премахнат и %{code} е приложен",
         "discount_code_replaced_multiple": "Няколко кода за отстъпка бяха премахнати и %{code} беше приложен",
         "from_multiple_stores_heading": "От няколко магазина",
-        "pay_merchant_label": "Плащане в %{merchant_name}"
+        "pay_merchant_label": "Плащане в %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Отстъпката важи само за абонаментни артикули",
+        "estimated_taxes_finalization_tooltip_content_short": "Закръгляне на данъка след плащане",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Няма налични магазини в %{country} с твоя артикул",
+          "other": "Няма налични магазини в %{country} с твоите артикули"
+        },
+        "tax_line": {
+          "gst": "ДДС",
+          "pst": "ПСТ"
+        }
+      },
+      "shipping": {
+        "waiting_on_rate_notice": "Извличане на наличните тарифи за доставка...",
+        "waiting_on_pickup_location_notice": "Зареждане на налични места за вземане...",
+        "no_rates_for_cart_or_destination_notice": "Няма налични методи за доставка за твоята количка или адрес",
+        "no_pickup_location_notice": "Поне един от твоите продукти не може да бъде взет на място",
+        "no_rates_for_country_notice": "Не са намерени тарифи за доставка за този адрес.",
+        "estimated_delivery_date_range": "от %{minimum} до %{maximum} работни дни",
+        "shipping_line_phone_label": "Мобилен телефонен номер (задължително)",
+        "shipping_line_phone": "Куриерът ти може да използва този номер, за да се свърже с теб.",
+        "other_method": {
+          "zero": "Няма налични други методи",
+          "one": "%{count} друг метод е наличен от",
+          "other": "%{count} други методи налични от"
+        },
+        "shipping_line_delivery_phone": "Възможно е да се свържем с теб с актуализации относно доставката ти.",
+        "optional_shipping_line_delivery_instructions_label": "Инструкции за връщане (по избор)",
+        "shipping_line_delivery_phone_label": "Мобилен телефонен номер",
+        "shipping_line_delivery_instructions": "Въведете необходимата информация, като кодове за врати и инструкции за доставка.",
+        "local_delivery": "Местна доставка",
+        "subscription_shipping": "Абонамент за изпращане",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "за %{count} доставка(и)"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "всеки ден"
+            },
+            "week": {
+              "other": "на всеки %{count} седмици"
+            },
+            "month": {
+              "other": "на всеки %{count} месеца"
+            },
+            "year": {
+              "other": "всяка %{count} година"
+            }
+          },
+          "initial_order_discounted": "Първоначални разходи за доставка %{discounted_shipping_cost}, след това %{frequency_description}",
+          "prepaid_initial_order_discounted": "Първоначални разходи за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Първоначални разходи за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Първоначални разходи за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}, след това %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Първоначални разходи за доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), след това %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "следвано от %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Първа поръчка включена, последвана от %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Първа поръчка безплатно",
+            "other": "Първите %{count} поръчки безплатно"
+          },
+          "free_for_first_n_order": {
+            "one": "За първа поръчка"
+          },
+          "subscription_free_with_frequency_label": "Безплатна доставка %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Безплатна доставка за още %{count} допълнителни поръчки",
+            "other": "Безплатна доставка за още %{count} допълнителни поръчки"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Безплатна доставка за %{count} доставки",
+            "other": "Безплатна доставка за %{count} поръчки"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Безплатна доставка за още %{count} допълнителни поръчки, след това %{recurring_order_shipping_price}",
+            "other": "Безплатна доставка за още %{count} допълнителни поръчки, след това %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Безплатна доставка за %{count} поръчки, след това %{recurring_order_shipping_price}",
+            "other": "Безплатна доставка за %{count} поръчки, след това %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} допълнителна доставка за %{shipping_price}",
+            "other": "%{count} допълнителни доставки за %{shipping_price} на доставка"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} доставка за %{shipping_price}"
+          }
+        }
       }
     }
   }
