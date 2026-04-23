@@ -985,7 +985,75 @@
         "multiple_shipping_lines_label": "Samlede forsendelsesomkostninger",
         "original_price": "Original pris",
         "sale_price": "Tilbudspris",
-        "recurring_subtotal_label": "Løbende delsum"
+        "recurring_subtotal_label": "Løbende delsum",
+        "recurring_total_label": "Samlet tilbagevendende",
+        "recurring_total_tooltip": "Eksklusiv forsendelse, moms, toldafgifter eller eventuelle rabatter.",
+        "gift_card_subscriptions_notice": "Gavekortene bliver kun brugt ved din første betaling",
+        "confirmation_number_label": "Bekræftelsesnummer %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Det samlede skattebeløb bekræftes via e-mail eller sms, efter du har afgivet din bestilling.",
+        "deferred_payment_info": {
+          "title": "Betaling på %{amount_due} forfalder den %{due_at}",
+          "description_html": "%{contact_us} for spørgsmål om din bestilling.",
+          "paid_today": "I alt betalt i dag",
+          "due_on_fulfillment_title": "Betalingen på %{amount_due} forfalder ved opfyldelse af ordren.",
+          "due_on_receipt_title": "%{amount_due} skal betales ved modtagelse"
+        },
+        "percent_off_shipping": "%{percent}% rabat på forsendelse",
+        "amount_off_shipping": "%{amount} rabat på forsendelse",
+        "payment_terms_totals": {
+          "due_today": "I alt skyldig i dag",
+          "due_later": "Samlet skyldig den %{due_at}",
+          "due_later_checkout_to_draft": "Samlet skyldig senere",
+          "due_on_fulfillment": "Samlet skyldig ved opfyldelse",
+          "due_on_receipt": "Samlet beløb at betale ved modtagelse",
+          "total_paid": "Samlet betalt",
+          "due_today_next": "Skyldig i dag",
+          "due_on_fulfillment_next": "At betale ved opfyldelse"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kan ikke bruges sammen med dine eksisterende rabatter.",
+        "maximum_discount_code_limit_reached": "Du har nået det maksimale antal rabatkoder. Fjern en eksisterende kode for at bruge <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Samlet bestilling",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> virker ikke i øjeblikket. Kontakt os, hvis du har brug for hjælp.",
+        "due_on_fulfillment": "Skyldigt ved opfyldelse",
+        "subscriptions": "Abonnementerne",
+        "duties_label": "Toldrettigheder",
+        "duties_and_taxes_label": "Toldafgifter og skatter",
+        "error_duties_tooltip": "Denne ordre sendes fra et andet land, så der kan blive opkrævet told og afgifter ved levering.",
+        "may_be_charged_on_delivery": "Kan der opkræves gebyr for levering",
+        "recurring_payments": "Tilbagevendende betaling",
+        "recurring_total_multiple_label": "Denne bestilling har tilbagevendende omkostninger for flere varer.",
+        "deferred_total_due_date_label": "Samlet skyldig beløb pr. {{date}}",
+        "expand_component_information": {
+          "one": "Vis %{count} artikel",
+          "other": "Vis %{count} artikler"
+        },
+        "collapse_component_information": {
+          "one": "Skjul %{count} artikel",
+          "other": "Skjul %{count} artikler"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} artikel",
+            "other": "%{count} artikler"
+          },
+          "back_to_finalize_order": "Tilbage til at fuldføre bestillingen"
+        },
+        "alternative_payment_currency_total": "afskrevet som %{amount_due}",
+        "calculating": "Beregner...",
+        "group_title_label": "Del af '%{group_title}'",
+        "discount_title_stacking": {
+          "other": "Rabatten"
+        },
+        "discount_order_stacking": {
+          "one": "Bestillingsrabat",
+          "other": "Bestillingsrabat"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} per artikel"
+        },
+        "discount_not_found": "Kan ikke finde nogen gyldig rabat, der svarer til den indtastede kode",
+        "total_savings": "Samlet besparelse",
+        "return_restocking_fee_label": "Genopfyldningsomkostninger"
       }
     }
   }
