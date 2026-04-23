@@ -652,7 +652,65 @@
           },
           "discount": {
             "discounts_not_allowed_for_b2b": "Отстъпки не са разрешени в B2B магазини.",
-            "custom_discount_not_honoured": "Въведената персонализирана отстъпка не е приложена."
+            "custom_discount_not_honoured": "Въведената персонализирана отстъпка не е приложена.",
+            "unsupported_expectation": "Въведеното правило за отстъпка съдържаше предположение, което политиката не можа да интерпретира.",
+            "additional_requested_discount_code_discarded": "{{code}} е валиден, но не е приложим. Проверете условията за отстъпки.",
+            "allocations_mismatch": "Твоят код за отстъпка е променен. Провери количката си и опитай отново.",
+            "discount_title_too_long": "Заглавието на отстъпката не трябва да надвишава 255 знака.",
+            "additional_requested_discount_discarded": "Твоята отстъпка е валидна, но не може да бъде приложена. Провери условията за отстъпки."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Таксите, приложими за вашата поръчка, са променени. Моля, проверете поръчката си и опитайте отново.",
+            "unresolvable_tax_terms": "Предложените условия не са постижими предвид съществуващия контекст на преговорите.",
+            "delivery_price_is_abstract": "Съответната цена за доставка е абстрактна.",
+            "tax_inclusivity_mismatch": "Преговаряйте отново с конкретна стойност за totalTaxAndDutyAmount или totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "В настоящата сесия за преговори не се поддържат данъчни облекчения.",
+            "delivery_tax_exemption_not_supported": "Освобождавания от данъци за правила за доставка в момента не се поддържат.",
+            "proposed_allocations_required": "Полето „предложени назначения“ липсва.",
+            "merchandise_terms_must_be_defined": "Дефинирайте условията за стоките.",
+            "delivery_terms_must_be_defined": "Определете условията за доставка.",
+            "merchandise_discount_terms_must_be_defined": "Дефинирайте условията за отстъпка за стоки.",
+            "delivery_discount_terms_must_be_defined": "Дефинирайте условия за отстъпка при доставка.",
+            "allocated_required": "Полето 'присвоено' липсва.",
+            "value_required": "Полето „стойност“ липсва.",
+            "line_splits_not_supported": "Полето „редове със стоки“ трябва да бъде разделено така, че за всеки ред да има отделен компонент в предложението на продавача."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ръчните плащания не са разрешени в B2B магазини.",
+            "positive_amount_expected": "Сумата за плащане трябва да бъде по-голяма от 0.",
+            "total_amount_mismatch": "Общата сума за плащане не съответства на сбора от плащанията.",
+            "subscription_terms_not_accepted": "Условията за абонамент не са приети.",
+            "missing_session_id": "Липсва информация за сесията с кредитна карта.",
+            "gateway_not_supported": "Платежният шлюз не поддържа запазване на метода на плащане.",
+            "credit_card_last_name_required": "'achternaam' не може да бъде празно.",
+            "credit_card_update_failed": "Актуализирането на кредитната карта не бе успешно.",
+            "invalid_address_type": "Въведеният тип адрес е невалиден за този метод на плащане.",
+            "missing_retail_attributions": "За ръчни плащания с кредитна карта са необходими търговски разпределения.",
+            "unexpected_retail_attributions": "Неочаквани търговски разпределения са посочени за плащане с кредитна карта.",
+            "invalid_card_source": "Тази сесия няма разрешение да използва този източник на карти.",
+            "payment_instrument_not_found": "Не може да се намери метод на плащане",
+            "unauthorized_capture_method": "Конфигурирането на метода за записване на плащания не е разрешено.",
+            "saved_payment_methods_not_allowed": "'Запазените методи на плащане' не са разрешени.",
+            "saved_payment_methods_not_enabled": "'Запазените методи на плащане' не са активирани за този магазин.",
+            "store_credit_not_enabled": "Кредитът за магазина не е активиран за този магазин.",
+            "store_credit_account_not_found": "Акаунт за кредит в магазина не е намерен.",
+            "store_credit_account_mismatch": "Сметката за кредит в магазина не съответства на идентичността на купувача.",
+            "store_credit_mismatched_currency": "Валутата на акаунта за кредит в магазина не съвпада с валутата на касата.",
+            "store_credit_insufficient_funds": "В акаунта за кредит в магазина няма достатъчно наличност.",
+            "store_credit_buying_gift_card": "С кредит в магазина не можете да закупите подаръчен ваучер.",
+            "gift_cards_not_allowed_for_b2b": "Подаръчни ваучери не са разрешени в B2B магазини.",
+            "method_required": "Трябва да бъде предложен метод на плащане.",
+            "saved_payment_methods_cvv_verification_disabled": "За избрания метод на плащане е необходима проверка на CVV/CVC, но тя не е активирана за този магазин. Моля, използвайте друг метод на плащане."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Магазинът не приема бакшиши.",
+            "only_one_tip_line_allowed": "Няколко правила за фоайето не се поддържат.",
+            "tips_not_allowed_for_b2b": "Бакшишите не са разрешени в B2B магазини.",
+            "currency_change_reset": "Fooi е нулиран поради промяна на валутата.",
+            "tips_not_allowed_for_deferred_purchase_options": "Бакшишите все още не се поддържат за отложени опции за покупка."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Тази концептуална поръчка не съществува в настоящия магазин."
           }
         }
       }
