@@ -409,7 +409,7 @@
       "remove_all_single_item_confirmation": "Odebrat 1 položku z tvého nákupního košíku?",
       "min_error": "Pro tento článek platí minimální množství {{ min }}.",
       "max_error": "Pro tento článek platí maximum {{ max }}.",
-      "step_error": "Tuto položku můžete přidat jen v přírůstcích hodnoty: {{ step }}"
+      "step_error": "Tento článek můžete přidat pouze po krocích po {{ step }}"
     }
   },
   "localization": {
