@@ -1492,7 +1492,83 @@
         },
         "simulated_checkout": "Ukázka se brzy objeví",
         "vaulting_agreement_label": "Uložte mé platební údaje u %{company} pro rychlejší dokončení nákupu.",
-        "business_customer_vaulting_payment_label": "Uložte tuto platební metodu při dokončení nákupu a povolte %{company} strhávat peníze z této karty za budoucí nákupy na tomto místě. Všichni kontaktní osoby přiřazené k tomuto místu mohou tuto platební metodu používat."
+        "business_customer_vaulting_payment_label": "Uložte tuto platební metodu při dokončení nákupu a povolte %{company} strhávat peníze z této karty za budoucí nákupy na tomto místě. Všichni kontaktní osoby přiřazené k tomuto místu mohou tuto platební metodu používat.",
+        "purchase_options_and_vaulting_agreement_label": "Jeden nebo více položek v košíku je odložený nebo předplatný nákup. Pokud budete pokračovat v platbě, souhlasíte s tím, že částky za nákup budeme automaticky účtovat prostřednictvím vaší platební metody za cenu a frekvenci uvedenou na této stránce, dokud nákup neskončí nebo jej sami nezrušíte. Pro všechna zrušení platí %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "storno podmínky",
+        "saved_credit_card": "Uložená platební karta",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Zobrazit všechny uložené mapy"
+        },
+        "expired_cards_info": {
+          "one": "Vypršela %{count} karta. Můžete ji zobrazit a upravit ve svém účtu.",
+          "other": "Existuje %{count} expirovaných karet. Můžete je zobrazit a upravit ve svém účtu."
+        },
+        "local_payment_method_receiver_notice": "Po zadání objednávky obdržíte platební údaje. Proveďte platbu do {{dueDays}} dnů na bankomatu nebo online.",
+        "order_edit_banner_title": "Platba ve výši {{amount_owed}} je vyžadována",
+        "order_edit_banner_subtitle": "Vaše objednávka {{order_number}} byla aktualizována. Zkontrolujte tyto změny a zaplaťte, abyste objednávku potvrdili.",
+        "order_edit_banner_multiple_items_added": "{{amount}} přidáno",
+        "order_edit_banner_single_item_removed": "Odstraněno",
+        "order_edit_banner_multiple_items_removed": "{{amount}} odstraněno",
+        "gift_card_wrapper": {
+          "heading": "Dárkový poukaz",
+          "apply_gift_card_label": "Uplatnit dárkový poukaz",
+          "payment_tag": "Dárkový poukaz",
+          "apply_another_gift_card_label": "Použít jiný dárkový poukaz",
+          "gift_card_label": "Dárkový poukaz %{identifier}",
+          "add_label": "Přidat dárkový poukaz",
+          "manage_label": "Správa dárkových poukazů"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Upevnění pro přizpůsobené platby na místě"
+        },
+        "markets_pro_disclaimer_label": "Odesláním objednávky souhlasíte s nákupem u Global-e jako registrovaného prodejce, podléhajícího %{markets_pro_terms} a %{privacy_policy} společnosti Global-e, a sdílíte své údaje s %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "všeobecné podmínky",
+        "markets_pro_disclaimer_privacy_policy": "zásady ochrany soukromí",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Obecné podmínky pro obchodníky zapsané jako plátci",
+        "markets_pro_disclaimer_privacy_policy_title": "Zásady ochrany soukromí pro obchodníky zapsané jako plátci",
+        "purchase_order_number": {
+          "title": "Číslo objednávky",
+          "label": "Číslo objednávky (volitelné)"
+        },
+        "alternative_payment_currency_total_notice": "Poznámka: Bude odečteno %{amount_due}.",
+        "waiting_on_taxes_message": "Obnovte stránku, pokud se daně nevyčíslí během několika sekund.",
+        "order_edit_banner_multiple_items_returned": "{{amount}} vráceno",
+        "shop_pay_installments_label": "Platby na splátky Shop Pay",
+        "delete_credit_card_modal": {
+          "title": "Odebrat kartu",
+          "confirmation": "Jste si jistý, že chcete odstranit {{brandName}} končící na {{lastDigits}}?",
+          "delete": "Odstranit"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} přidáno"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Odstraněno",
+          "with_quantities": "{{delta}} před {{quantity}} odstraněno"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} vráceno",
+          "with_quantities": "{{delta}} z {{quantity}} vráceno"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Odstranit"
+        },
+        "edit_credit_card_modal": {
+          "description": "Můžeš změnit pouze fakturační adresu své karty.",
+          "fields": {
+            "expiry": "Datum platnosti",
+            "billing": "Fakturovat na"
+          }
+        },
+        "payment_method": "Způsob platby",
+        "expired_payment_method": "Vybraná platební metoda vypršela",
+        "subscription_heading": "Smlouva o předplatném",
+        "use_location_billing_address_label": "Použít fakturační adresu místa",
+        "use_location_shipping_address_label": "Použít doručovací adresu místa",
+        "purchase_options_agreement_label_wallets": "Pokud budete pokračovat v platbě, souhlasíte s budoucími platbami uvedenými na této stránce a s pravidly pro zrušení.",
+        "gift_card_store_credit": {
+          "add_label": "Přidat dárkový poukaz nebo obchodní kredit"
+        }
       }
     }
   }
