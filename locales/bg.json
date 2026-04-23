@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -268,107 +277,107 @@
   },
   "sections": {
     "header": {
-      "announcement": "Известие",
+      "announcement": "Обявление",
       "menu": "Меню",
       "cart_count": {
-        "one": "{{ count }} артикул",
+        "one": "{{ count }} артикула",
         "other": "{{ count }} артикула"
       }
     },
     "cart": {
-      "title": "Вашата количка",
-      "caption": "Артикули в количката",
+      "title": "Твоята количка",
+      "caption": "Артикули в пазарската количка",
       "remove_title": "Премахване на {{ title }}",
-      "checkout": "Преминаване към плащане",
-      "empty": "Количката ви е празна.",
-      "cart_error": "При актуализирането на количката ви възникна грешка. Опитайте отново.",
-      "cart_quantity_error_html": "Можете да добавите само {{ quantity }} броя от този артикул в количката си.",
+      "checkout": "Плащане",
+      "empty": "Вашата количка е празна",
+      "cart_error": "Възникна грешка при обновяването на твоята количка. Моля, опитай отново.",
+      "cart_quantity_error_html": "Можете да добавите само {{ quantity }} от този артикул в количката си.",
       "headings": {
         "product": "Продукт",
         "price": "Цена",
-        "total": "Обща сума",
-        "quantity": "Количество",
+        "total": "Общо",
+        "quantity": "Брой",
         "image": "Изображение на продукта"
       },
       "update": "Актуализиране",
-      "note": "Специални инструкции за поръчката",
+      "note": "Специални инструкции за поръчка",
       "login": {
-        "title": "Имате профил?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Влезте</a> за по-бързо преминаване към плащане."
+        "title": "Имаш ли акаунт?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Влезте</a>, за да платите по-бързо."
       },
-      "estimated_total": "Очаквана обща сума",
-      "new_estimated_total": "Нова очаквана обща сума",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "С включено мито и данъци. Отстъпките и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "С включено мито и данъци. Отстъпките и доставката се изчисляват при плащане.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "С включени данъци. Отстъпките и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане.",
-      "taxes_included_shipping_at_checkout_without_policy": "С включени данъци. Отстъпките и доставката се изчисляват при плащане.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "С включено мито. Данъците, отстъпките и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "С включено мито. Данъците, отстъпките и доставката се изчисляват при плащане.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Данъците, отстъпките и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане.",
+      "estimated_total": "Оценен общо",
+      "new_estimated_total": "Ново изчислено общо",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Митнически такси и данъци включени. Отстъпки и <a href=\"{{ link }}\">доставка</a> се изчисляват при плащане.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Митнически такси и данъци включени. Отстъпки и доставка се изчисляват при плащане.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Таксите са включени. Отстъпките и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане.",
+      "taxes_included_shipping_at_checkout_without_policy": "Данъците са включени. Отстъпките и доставката се изчисляват при плащане.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Митнически такси включени. Данъци, отстъпки и <a href=\"{{ link }}\">доставка</a> се изчисляват при плащане.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Митническите такси са включени. Данъци, отстъпки и доставка се изчисляват при плащане.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Данъци, отстъпки и <a href=\"{{ link }}\">доставка</a> се изчисляват при плащане.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Данъците, отстъпките и доставката се изчисляват при плащане."
     },
     "footer": {
       "payment": "Начини на плащане"
     },
     "featured_blog": {
-      "view_all": "Покажи всички",
-      "onboarding_title": "Публикация в блог",
-      "onboarding_content": "Обобщете накратко блог публикацията"
+      "view_all": "Виж всички",
+      "onboarding_title": "Блог публикация",
+      "onboarding_content": "Дайте на клиентите си преглед на вашата публикация в блога"
     },
     "featured_collection": {
-      "view_all": "Покажи всички",
-      "view_all_label": "Покажи всички продукти в колекция {{ collection_name }}"
+      "view_all": "Виж всички",
+      "view_all_label": "Вижте всички продукти в колекцията {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Покажи всички"
+      "view_all": "Виж всички"
     },
     "collection_template": {
       "title": "Колекция",
-      "empty": "Не са открити продукти",
+      "empty": "Няма намерени продукти",
       "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">премахнете всички</a>"
     },
     "video": {
-      "load_video": "Зареждане на видео: {{ description }}"
+      "load_video": "Видео зареждане: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Зареждане на слайд",
+      "load_slide": "Зареждане на деня",
       "previous_slideshow": "Предишен слайд",
       "next_slideshow": "Следващ слайд",
       "pause_slideshow": "Пауза на слайдшоуто",
       "play_slideshow": "Възпроизвеждане на слайдшоу",
       "carousel": "Въртележка",
-      "slide": "Слайд"
+      "slide": "Ден"
     },
     "page": {
-      "title": "Заглавие на страница"
+      "title": "Заглавия на страници"
     },
     "announcements": {
-      "previous_announcement": "Предишно известие",
-      "next_announcement": "Следващо известие",
+      "previous_announcement": "Предишно съобщение",
+      "next_announcement": "Следващо съобщение",
       "carousel": "Въртележка",
-      "announcement": "Известие",
-      "announcement_bar": "Лента с известия"
+      "announcement": "Обявление",
+      "announcement_bar": "Лента за обяви"
     },
     "quick_order_list": {
-      "product_total": "Междинна сума за продукти",
-      "view_cart": "Покажи количката",
-      "each": "{{ money }}/бр.",
+      "product_total": "Междинна сума на продукта",
+      "view_cart": "Преглед на количката",
+      "each": "{{ money }}/бр",
       "product": "Продукт",
       "variant": "Вариант",
-      "variant_total": "Обща сума за варианта",
+      "variant_total": "Обща разновидност",
       "items_added": {
-        "one": "{{ quantity }} артикул е добавен",
-        "other": "{{ quantity }} артикула са добавени"
+        "one": "{{ quantity }} артикула добавени",
+        "other": "{{ quantity }} артикула добавени"
       },
       "items_removed": {
-        "one": "{{ quantity }} артикул е премахнат",
-        "other": "{{ quantity }} артикула са премахнати"
+        "one": "{{ quantity }} артикула изтрити",
+        "other": "{{ quantity }} артикула са изтрити"
       },
-      "product_variants": "Варианти на продукта",
-      "total_items": "Общо артикули",
-      "remove_all_items_confirmation": "Премахване на всички {{ quantity }} артикула от количката?",
-      "remove_all": "Премахване на всички",
-      "cancel": "Отказ",
+      "product_variants": "Видове продукти",
+      "total_items": "Общ брой артикули",
+      "remove_all_items_confirmation": "Да изтриете ли всички {{ quantity }} артикула от количката си?",
+      "remove_all": "Изтрий всичко",
+      "cancel": "Отказване",
       "remove_all_single_item_confirmation": "Премахване на 1 артикул от количката?",
       "min_error": "За този артикул има минимум от {{ min }}",
       "max_error": "За този артикул има максимум от {{ max }}",
@@ -525,6 +534,72 @@
       "send_on_label": "Изпращане на (незадължително)",
       "expanded": "Формулярът за получател на ваучер за подарък е разгънат",
       "collapsed": "Формулярът за получател на ваучер за подарък е свит"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "бг",
+      "last_word_connector": ", бг"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Плащане",
+        "skip_to_content": "Отидете директно към съдържанието",
+        "breadcrumb": "Хлебна троха",
+        "pay_now_button_label": "Плати сега",
+        "authenticate_purchase_button_label": "Потвърдете плащането",
+        "edit_link_label": "Промени",
+        "all_rights_reserved": "Всички права запазени %{shop_name}",
+        "print_policies_link_label": "Отпечатване",
+        "cart": "Количка за пазаруване",
+        "close_modal_label": "Затвори",
+        "close_notice_label": "Затвори",
+        "expand_notice_label": "Виж още",
+        "continue_to_shipping_method": "Продължете с изпращането",
+        "continue_to_payment_method": "Отидете на плащане",
+        "continue_to_review": "Проверка на поръчката",
+        "back_to_cart": "Върни се към количката",
+        "back_to_shipping_method": "Върни се към изпращане",
+        "back_to_payment_method": "Обратно към плащане",
+        "choose_shipping_method": "Изберете метод на доставка",
+        "choose_payment_method": "Изберете метод на плащане",
+        "choose_billing_address": "Изберете адрес за фактура",
+        "autocomplete_single_item": "1 артикул наличен",
+        "autocomplete_multi_item": "{{number}} артикула налични",
+        "autocomplete_close": "Затвори предложенията",
+        "forwarding_indicator": {
+          "external": "Отваряне на външен уебсайт."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Плащане"
+        },
+        "tooltip_accessibility_label": "Повече информация",
+        "errors": {
+          "session_identifier_not_unique_error": "Възникна проблем с вашата поръчка. Моля, опитайте отново да завършите плащането.",
+          "line_item_limit_reached": "Достигнат е максималният брой на редовете в поръчката.",
+          "only_empty_terms_accepted": "Тази политика приема само празни условия.",
+          "session_is_already_finished": "Тази сесия за плащане вече е завършена.",
+          "merchandise": {
+            "only_value_constraint": "При въвеждане на стоки са разрешени само точни стойности.",
+            "merchandise_not_found": "Продуктът не е намерен.",
+            "merchandise_variant_not_found": "Вариантът на продукта не е намерен.",
+            "merchandise_not_applicable": "Вариантът на продукта не може да бъде закупен.",
+            "bundle_products_not_supported_for_b2b": "Не можете да добавяте пакетирани артикули към B2B поръчки за тази локация.",
+            "gift_card_quantity_mismatch": "Когато въвеждате кодове за подаръчни ваучери, количествата в поръчката трябва да съвпадат с броя на кодовете за подаръчни ваучери.",
+            "gift_card_not_supported": "Този касов прозорец не поддържа подаръчни ваучери.",
+            "gift_card_not_unique": "Подаръчен ваучер с код {{code}} се появява няколко пъти в тази каса. Кодове се създават преди сравняването.",
+            "gift_card_used": "Кодът за подаръчен ваучер {{code}} вече е присвоен на подаръчен ваучер. Кодове се изготвят преди сравняването.",
+            "gift_card_invalid": "Кодът за подаръчен ваучер {{code}} е невалиден.",
+            "gift_card_code_changed": "Кодът на подаръчната карта {{proposed_code}} е променен според правилата за форматиране на {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Този касов прозорец не поддържа ваучери с персонализирани характеристики.",
+            "gift_card_with_components_not_supported": "Този касов процес не поддържа подаръчни ваучери с компоненти.",
+            "selling_plan_mismatch": "Абонаментът е актуализиран.",
+            "selling_plan_not_supported": "Абонаментите не се поддържат.",
+            "selling_plan_not_supported_b2b": "За B2B плащания не се поддържат абонаменти.",
+            "price_mismatch": "Преди предложената цена за тези стоки беше невалидна и е актуализирана."
+          }
+        }
+      }
     }
   }
 }
