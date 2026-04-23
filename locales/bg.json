@@ -1051,8 +1051,76 @@
         "discount_discovery": {
           "merchandise_quantity_label": {
             "one": "%{count} артикула"
-          }
-        }
+          },
+          "back_to_finalize_order": "Върни се към завършване на поръчката"
+        },
+        "alternative_payment_currency_total": "отписано като %{amount_due}",
+        "calculating": "Изчислява се...",
+        "group_title_label": "Част от '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Отстъпка при поръчка",
+          "other": "Отстъпки при поръчка"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} на артикул"
+        },
+        "updated_shipping_method": "Актуализиран метод на доставка: %{shipping_method}",
+        "discount_not_found": "Не може да бъде намерена валидна отстъпка, съответстваща на въведения код",
+        "total_savings": "Обща спестявания",
+        "return_restocking_fee_label": "Разходи за зареждане с билки",
+        "return_shipping_fee_label": "Връщане на стока",
+        "shipping_discount_title": "Отстъпка за доставка",
+        "discount_code_applied": "Код за отстъпка приложен",
+        "discount_code_applied_with_code": "Код за отстъпка %{code} е приложен",
+        "gift_card_applied": "Подаръчен ваучер приложен",
+        "duties_included_label": "Общата сума включва данъци и мита. Няма допълнителни такси при доставка.",
+        "deferred_balance_info": {
+          "title": "Салдото от {{amount_due}} е дължимо на {{due_at}}.",
+          "due_on_fulfillment_title": "Салдото от {{amount_due}} е дължимо при изпълнение на поръчката"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> код за отстъпка, изискван за допустим клиент",
+        "subtotal_label_with_quantity": {
+          "one": "Междинна сума · %{count} артикул",
+          "other": "Междинна сума · %{count} артикула"
+        },
+        "cost_table_value_column_header": "стойност",
+        "product_image_quantity_label": "Брой",
+        "more_items_modal": {
+          "clear_search": "Изчистване на търсенето",
+          "empty_results": "Няма намерени резултати за '%{searchText}'. Проверете правописа или използвайте друга дума или израз."
+        },
+        "number_items": {
+          "one": "%{count} артикула"
+        },
+        "view_all_items": {
+          "one": "Преглед на %{count} артикула",
+          "other": "Вижте всички %{count} артикула"
+        },
+        "price_after_discount_aria_text": "Намалена цена",
+        "discount_code_aria_text": "Промо код",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Изпращане до адрес",
+          "ship_to_address_instead_html": "%{link} вместо това"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Няма налични магазини с твоя артикул",
+          "other": "Няма налични магазини с твоите артикули"
+        },
+        "deposit_label": "Авансова вноска",
+        "total_due_today_label": "Общо дължима сума днес",
+        "total_due_later_label": "Общо дължима по-късно",
+        "discount_code_allocations_mismatch": "Твоят код за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong> е променен. Провери количката си и опитай отново.",
+        "total_due_label": "Общо дължима сума",
+        "unconfirmed_label": "Не е потвърдено",
+        "total_paid_label": "Общо платено",
+        "order_discounts_apply_to_local_shop": "Отстъпките за поръчки важат само за артикули от %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Подаръчните ваучери важат само за артикули от %{shop_name}",
+        "estimated_taxes_label_short": "Оценено",
+        "discount_code_removed": "Код за отстъпка %{code} е премахнат",
+        "discount_code_replaced": "Код за отстъпка %{old_code} е премахнат и %{code} е приложен",
+        "discount_code_replaced_multiple": "Няколко кода за отстъпка бяха премахнати и %{code} беше приложен",
+        "from_multiple_stores_heading": "От няколко магазина",
+        "pay_merchant_label": "Плащане в %{merchant_name}"
       }
     }
   }
