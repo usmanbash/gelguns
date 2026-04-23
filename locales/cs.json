@@ -810,9 +810,75 @@
             "may": "mei",
             "june": "dětství",
             "july": "červenec",
-            "august": "srpen"
+            "august": "srpen",
+            "september": "září",
+            "october": "říjen",
+            "november": "listopad",
+            "december": "prosinec"
           }
-        }
+        },
+        "datepicker": {
+          "range_start": "Začít oblast",
+          "in_range": "V dosahu",
+          "range_end": "Konec dosahu"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} v {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} z {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} z {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Shluk u {{number}} značkovacího bodu",
+            "other": "Shluk s {{number}} značkovacími body"
+          }
+        },
+        "dropzone": {
+          "add_file": "Přidat soubor",
+          "invalid_file_type": "Tento typ souboru není podporován",
+          "dragged_over": "Uložit soubor k nahrání"
+        },
+        "remove_chip": "Odstranit položku"
+      },
+      "contact": {
+        "delivery_option_title": "Způsob doručení",
+        "email_or_phone_label": "E‑mail nebo mobilní telefonní číslo",
+        "email_or_phone_placeholder": "E‑mail nebo mobilní telefonní číslo",
+        "new_address_label": "Použijte novou adresu",
+        "optional_first_name_label": "Křestní jméno (volitelné)",
+        "company_label": "Podnik",
+        "optional_company_label": "Firma (volitelné)",
+        "address2_label": "Poštovní schránka č., atd.",
+        "optional_address2_label": "Poštovní schránka č., atd. (volitelně)",
+        "country_label": "Země/oblast",
+        "country_code": "Kód země/regionu",
+        "county_label": "Provincie",
+        "county_placeholder": "Provincie",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Vláda",
+        "governorate_placeholder": "Vláda",
+        "state_and_territory_label": "Stát/Území",
+        "state_and_territory_placeholder": "Stát/Území",
+        "optional_phone_label": "Telefon (volitelně)",
+        "phone_tooltip": "V případě, že vás budeme muset kontaktovat ohledně vaší objednávky",
+        "pincode_label": "PSČ",
+        "pincode_placeholder": "PSČ",
+        "region_none": "Není vybráno",
+        "civic_number_warning": "Přidejte číslo domu, pokud ho máte",
+        "different_shipping_address_label": "Odeslat na jinou adresu",
+        "change_company_location_link_label": "Změnit místo podnikání",
+        "change_location_link_label": "Změnit místo",
+        "ship_to_company": "Odeslat do {{companyName}}",
+        "shipping_used_as_billing_notice": "Toto také používáme jako fakturační adresu pro tuto objednávku.",
+        "company_attention_label": "Firma/pozornost:",
+        "optional_company_attention_label": "Firma/k rukám (volitelné)",
+        "optional_pincode_label": "Kód PIN (volitelný)",
+        "phone_rollup_accessibility_label": "Telefonní možnosti"
       }
     }
   }
