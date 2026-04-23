@@ -784,7 +784,75 @@
           "show_next_month": "Показване следващия месец, {{month}} {{year}}",
           "range_start": "Започнете обхват",
           "in_range": "В обсега"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} в {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} на {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} на {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Клъстер от {{number}} маркиращи точки",
+            "other": "Клъстер от {{number}} маркери"
+          }
+        },
+        "sheet": {
+          "expand": "Разгъване"
+        },
+        "dropzone": {
+          "invalid_file_type": "Този тип файл не се поддържа",
+          "dragged_over": "Поставете файла за качване"
         }
+      },
+      "contact": {
+        "delivery_option_title": "Метод на доставка",
+        "email_or_phone_label": "Имейл или мобилен телефонен номер",
+        "email_or_phone_placeholder": "Имейл или мобилен телефонен номер",
+        "new_address_label": "Използвайте нов адрес",
+        "first_name_label": "Име",
+        "optional_first_name_label": "Име (по избор)",
+        "company_label": "Фирма",
+        "optional_company_label": "Фирма (по избор)",
+        "address2_label": "Пощенски кутии и др.",
+        "optional_address2_label": "Пощенски кутии и др. (по избор)",
+        "county_label": "Провинция",
+        "county_placeholder": "Провинция",
+        "state_label": "Държава",
+        "state_placeholder": "Държава",
+        "governorate_label": "Правителство",
+        "governorate_placeholder": "Правителство",
+        "emirate_label": "Емират",
+        "emirate_placeholder": "Емират",
+        "state_and_territory_label": "Държава/Територия",
+        "state_and_territory_placeholder": "Държава/Територия",
+        "optional_phone_label": "Телефон (по избор)",
+        "phone_tooltip": "В случай че трябва да се свържем с теб относно поръчката ти",
+        "pincode_label": "Пощенски код",
+        "pincode_placeholder": "Пощенски код",
+        "civic_number_warning": "Добавете номер на къща, ако имате такъв",
+        "optional_last_name_label": "Фамилно име (по избор)",
+        "different_shipping_address_label": "Изпрати на друг адрес",
+        "different_shipping_address_text": "Използвайте еднократен адрес за тази поръчка",
+        "ship_to_company": "Изпращане до {{companyName}}",
+        "shipping_used_as_billing_notice": "Ние използваме този адрес и като фактурен адрес за тази поръчка.",
+        "company_attention_label": "Фирма/до вниманието на",
+        "optional_company_attention_label": "Фирма/до вниманието на (по избор)",
+        "optional_zip_code_label": "Пощенски код (по избор)",
+        "optional_postal_code_label": "Пощенски код (по избор)",
+        "optional_postcode_label": "Пощенски код (по избор)",
+        "optional_pincode_label": "Пинкод (по избор)",
+        "phone_rollup_accessibility_label": "Телефонни опции",
+        "phone_country_code_label": "Код на държавата за телефонен номер"
+      },
+      "delivery_options": {
+        "pick_up": "Вземи",
+        "pick_up_in_two_hours": "Обикновено готово в рамките на 2 часа",
+        "pick_up_in_four_hours": "Обикновено готово в рамките на 4 часа",
+        "pick_up_immediately": "Готово за вземане сега"
       }
     }
   }
