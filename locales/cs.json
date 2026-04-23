@@ -682,7 +682,67 @@
           },
           "tax": {
             "new_tax_must_be_accepted": "Daně vztahující se na vaši objednávku byly změněny, zkontrolujte svou objednávku a zkuste to znovu.",
-            "unresolvable_tax_terms": "Navrhované podmínky nejsou s ohledem na stávající vyjednávací situaci dosažitelné."
+            "unresolvable_tax_terms": "Navrhované podmínky nejsou s ohledem na stávající vyjednávací situaci dosažitelné.",
+            "delivery_price_is_abstract": "Příslušná cena za doručení je abstraktní.",
+            "tax_inclusivity_mismatch": "Znovu vyjednejte s konkrétní hodnotou pro totalTaxAndDutyAmount nebo totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "V aktuálním jednacím kole nejsou podporována žádná daňová osvobození.",
+            "delivery_tax_exemption_not_supported": "Osvobození od daně pro pravidla doručování momentálně nejsou podporována.",
+            "proposed_allocations_required": "Pole „navrhovaná přiřazení“ chybí.",
+            "merchandise_terms_must_be_defined": "Definujte podmínky pro zboží.",
+            "delivery_terms_must_be_defined": "Definujte podmínky doručení.",
+            "merchandise_discount_terms_must_be_defined": "Definujte podmínky pro slevu na zboží.",
+            "delivery_discount_terms_must_be_defined": "Definujte podmínky pro slevu na doručení.",
+            "allocated_required": "Pole 'přiřazeno' chybí.",
+            "value_required": "Pole 'hodnota' chybí.",
+            "line_splits_not_supported": "Pole 'řádky zboží' musí být rozděleno tak, aby pro každý řádek byla v návrhu prodávajícího samostatná součást."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ruční platby nejsou v B2B obchodech povoleny.",
+            "positive_amount_expected": "Částka k úhradě musí být větší než 0.",
+            "total_amount_mismatch": "Celková částka k úhradě neodpovídá součtu plateb.",
+            "missing_session_id": "Informace o relaci kreditní karty chybí.",
+            "credit_card_last_name_required": "'příjmení' nesmí být prázdné.",
+            "credit_card_update_failed": "Aktualizace kreditní karty se nezdařila.",
+            "invalid_address_type": "Zadaný typ adresy není pro tento způsob platby platný.",
+            "missing_retail_attributions": "Pro ručně zadávané platby kreditní kartou jsou vyžadována maloobchodní přiřazení.",
+            "unexpected_retail_attributions": "Nečekané maloobchodní přidělení zadáno pro platbu kreditní kartou.",
+            "invalid_card_source": "Tato relace nemá oprávnění používat tento zdroj mapy.",
+            "wallet_content_missing": "Obsah peněženky chybí.",
+            "payment_instrument_not_found": "Nelze najít platební metodu",
+            "unauthorized_capture_method": "Konfigurace metody zaznamenávání plateb není povolena.",
+            "saved_payment_methods_not_allowed": "'Uložené způsoby platby' nejsou povoleny.",
+            "saved_payment_methods_not_enabled": "'Uložené způsoby platby' nejsou pro tento obchod povoleny.",
+            "store_credit_not_enabled": "Zůstatek v obchodě není pro tento obchod povolen.",
+            "store_credit_account_not_found": "Účet s kreditem v obchodě nebyl nalezen.",
+            "store_credit_account_mismatch": "Účet s kreditem ve Winkeltegoed neodpovídá totožnosti kupujícího.",
+            "store_credit_mismatched_currency": "Měna účtu s kreditem v obchodě neodpovídá měně pokladny.",
+            "store_credit_insufficient_funds": "Na účtu s kreditem v obchodě není dostatek prostředků.",
+            "store_credit_buying_gift_card": "S kreditem v obchodě nelze zakoupit dárkový poukaz.",
+            "gift_cards_not_allowed_for_b2b": "Dárkové poukazy nejsou povoleny v obchodech pro podnikatele.",
+            "method_required": "Musí být navržena platební metoda.",
+            "paypal_express_address_invalid": "PayPal vrátil neplatnou adresu.",
+            "saved_payment_methods_cvv_verification_disabled": "Pro vybraný způsob platby je vyžadováno ověření CVV/CVC, ale pro tento obchod není povoleno. Použijte jiný způsob platby."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Více pravidel spropitného není podporováno.",
+            "tips_not_allowed_for_b2b": "Spropitné nejsou v obchodech B2B povolena.",
+            "currency_change_reset": "Fooi byla znovu nastavena kvůli změně měny.",
+            "tips_not_allowed_for_deferred_purchase_options": "Spropitné zatím není podporováno pro odložené možnosti nákupu."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Tato konceptuální objednávka neexistuje v současném obchodě.",
+            "staff_member_not_exist": "Tento zaměstnanec není v současném obchodě znám.",
+            "location_not_exist": "Toto místo v současném obchodě neexistuje.",
+            "point_of_sale_device_not_exist": "Tento prodejní přístroj v současném obchodě neexistuje.",
+            "unresolvable_target_merchandise_lines": "Navrhovaná přidělení prodeje nelze v rámci stávajícího vyjednávacího kontextu vyřešit."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Návrh tvého kupce musí obsahovat non-negotiable_terms.",
+            "invalid_signature": "Podpis pro {{target_terms}} je neplatný."
+          },
+          "inventory": {
+            "missing_quantity_value": "Pole 'Množství' chybí v zásobních řádcích kupujícího.",
+            "changing_behavior_not_allowed": "Tento zákazník není oprávněn měnit funkce zásob."
           }
         }
       }
