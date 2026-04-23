@@ -1080,7 +1080,79 @@
         },
         "alternative_payment_currency_total": "odečteno jako %{amount_due}",
         "calculating": "Probíhá výpočet...",
-        "group_title_label": "Součást '%{group_title}'"
+        "group_title_label": "Součást '%{group_title}'",
+        "discount_order_stacking": {
+          "other": "Slevy na objednávky"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} za kus",
+          "label": "%{price}/ks"
+        },
+        "return_restocking_fee_label": "Náklady na zásobování surovinami",
+        "return_shipping_fee_label": "Vrácení zboží",
+        "enter_shipping_address": "Zadat doručovací adresu",
+        "shipping_discount_title": "Sleva na poštovné",
+        "discount_code_applied": "Slevový kód použit",
+        "discount_code_applied_with_code": "Slevový kód %{code} byl použit",
+        "gift_card_applied": "Dárkový poukaz použitý",
+        "duties_included_label": "Celková částka zahrnuje daně a clo. Při doručení nejsou žádné další poplatky.",
+        "deferred_balance_info": {
+          "title": "Zůstatek {{amount_due}} je splatný dne {{due_at}}.",
+          "due_on_fulfillment_title": "Zůstatek {{amount_due}} je splatný při vyřízení objednávky"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> slevový kód vyžadován pro způsobilého zákazníka",
+        "subtotal_label_with_quantity": {
+          "one": "Mezisoučet · %{count} položka",
+          "other": "Mezisoučet · %{count} položek"
+        },
+        "product_image_quantity_label": "Počet",
+        "more_items_modal": {
+          "empty_results": "Nebyly nalezeny žádné výsledky pro '%{searchText}'. Zkontrolujte pravopis nebo použijte jiné slovo či frázi.",
+          "number_items_shown": "%{shownNumber} z %{totalNumber} položek",
+          "search_item": "Hledat"
+        },
+        "number_items": {
+          "one": "%{count} položek",
+          "other": "%{count} položek"
+        },
+        "view_all_items": {
+          "one": "Zobrazit %{count} položek",
+          "other": "Zobrazit všechny %{count} položky"
+        },
+        "price_after_discount_aria_text": "Sleva",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Odeslat na adresu",
+          "ship_to_address_instead_html": "%{link} místo toho"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Není k dispozici žádný obchod s vaším zbožím",
+          "other": "Žádné obchody s tvými položkami nejsou k dispozici"
+        },
+        "deposit_label": "Záloha",
+        "total_due_today_label": "Celkem dlužno dnes",
+        "total_due_later_label": "Celkem dlužná částka později",
+        "discount_code_allocations_mismatch": "Váš slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> byl změněn. Zkontrolujte svůj nákupní košík a zkuste to znovu.",
+        "deferred_total_due_date_label_next": "Dlužné k %{date}",
+        "total_due_label": "Celkem dlužná částka",
+        "unconfirmed_label": "Není potvrzeno",
+        "from_shop_heading": "Prodejna %{shop_name}",
+        "from_other_stores_heading": "Z jiných obchodů",
+        "order_discounts_apply_to_local_shop": "Slevy z objednávky platí pouze na zboží od %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Dárkové poukazy platí pouze na zboží z %{shop_name}",
+        "estimated_taxes_label_short": "Odhadováno",
+        "discount_code_replaced": "Slevový kód %{old_code} byl odstraněn a %{code} byl použit",
+        "discount_code_replaced_multiple": "Bylo odstraněno několik slevových kódů a %{code} byl použit",
+        "pay_merchant_label": "Zaplatit u %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Sleva platí pouze na předplatné zboží",
+        "estimated_taxes_finalization_tooltip_content_short": "Zaokrouhlení daně po platbě",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "V %{country} nejsou k dispozici žádné obchody s vaším artiklem",
+          "other": "V %{country} nejsou k dispozici žádné obchody s vašimi položkami"
+        },
+        "compare_at_sale": "Výprodej (%{sale_amount})",
+        "tax_line": {
+          "gst": "DPH"
+        }
       }
     }
   }
