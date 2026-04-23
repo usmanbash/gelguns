@@ -1206,8 +1206,78 @@
             "other": "%{count} допълнителни доставки за %{shipping_price} на доставка"
           },
           "max_cycles_base_shipping_delivery_not_included": {
-            "one": "%{count} доставка за %{shipping_price}"
+            "one": "%{count} доставка за %{shipping_price}",
+            "other": "%{count} допълнителни доставки за %{shipping_price} на доставка"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Безплатна доставка за първия %{cycle}, след това %{recurring_order_shipping_price}",
+            "other": "Безплатна доставка за първия %{cycle}, след това %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} за още %{count} допълнителна доставка",
+            "other": "%{shipping_price} за още %{count} допълнителни доставки (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} за още %{count} допълнителна доставка, след това %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} за още %{count} допълнителни доставки (%{per_delivery_cost}), след това %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} за %{count} доставка, след това %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} за %{count} доставки (%{per_delivery_cost}), след това %{recurring_order_shipping_price}"
           }
+        },
+        "estimated_delivery_time": "Очаквана доставка %{time}",
+        "estimated_delivery_time_range": "Очаквана доставка %{min_time}–%{max_time}",
+        "arrives_time": "Доставя се за %{time}",
+        "arrives_time_range": "Доставя се между %{min_time}–%{max_time}",
+        "estimated_time": "Очаквайте след %{time}",
+        "estimated_time_range": "Очаквайте %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Абонамент за локална доставка",
+        "subscription_pickup": "Абонамент за вземане",
+        "delivery_today": "Доставка в същия ден до %{time}",
+        "delivery_tomorrow": "Доставка на следващия ден до %{time}",
+        "two_day_delivery": "Доставка в рамките на 2 дни до %{time}",
+        "delivery": "Доставка за %{time}",
+        "duties_and_taxes_title": "Митнически такси и данъци",
+        "shipping_information_required_notice": "Необходими са данни за доставка. {{link}}.",
+        "shipping_information_redirect_link": "Въведете вашите данни тук",
+        "no_other_methods_available": "Няма налични други методи",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Могат да се прилагат допълнителни такси",
+          "ddp_title": "Плати сега",
+          "ddp_caption": "Без допълнителни такси при доставка"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} от %{current}"
+        },
+        "shipping_used_as_billing_notice": "Това също се използва като вашия адрес за фактура за тази поръчка.",
+        "address_update": "Актуализиране на адреса",
+        "shipping_address_title": "Изпращане до",
+        "add_address": "Използвайте друг адрес",
+        "add_delivery_instructions": "Добавяне на инструкции за доставка",
+        "delete": "Премахване",
+        "address_more": "Още оферти за този адрес",
+        "address_delete": "Премахване на адрес",
+        "address_confirm": "Сигурни ли сте, че искате да изтриете този адрес от профила си?",
+        "address_form": {
+          "save": "Запази",
+          "cancel": "Отказване",
+          "generic_error": "Възникна проблем при запазването на адреса ти. Моля, опитай отново.",
+          "one_time_address_subtitle": "Използвайте еднократен адрес за тази поръчка"
+        },
+        "different_shipping_method_summary": "Въведете друг адрес за доставка, за да видите наличните методи за доставка",
+        "invalid_shipping_method_summary": "Въведете валиден адрес за доставка, за да видите наличните методи за доставка",
+        "method_summary": {
+          "incomplete_address_entered": "Въведете пълен адрес за доставка, за да видите наличните методи за доставка",
+          "incomplete_address_selected": "Изберете пълен адрес за доставка, за да видите наличните методи за доставка"
+        },
+        "local_pickup": {
+          "rollup_title": "Място за настаняване",
+          "rollup_accessibility_label": "Опции за място на вземане"
+        },
+        "shipping_method_first_shipment_group_title": {
+          "one": "Първа пратка",
+          "other": "Първи пратки"
         }
       }
     }
