@@ -922,7 +922,71 @@
         "price_update": {
           "title": "Актуализация на цените",
           "description": "Цените на тези артикули са променени и актуализирани във вашата количка."
-        }
+        },
+        "return_to_store_label": "Върни се в магазина",
+        "item_label": {
+          "one": "{{count}} артикула"
+        },
+        "continue_cta_label": "Продължете към плащане",
+        "out_of_stock": {
+          "description": "Тези артикули вече не са налични и са премахнати от количката ти.",
+          "items_unavailable": "Някои артикули вече не са налични и са премахнати от количката ти."
+        },
+        "unfulfillable_product": {
+          "title": "Доставката не е налична",
+          "message": {
+            "one": "%{delivery_method} вече не е наличен за този артикул.",
+            "other": "%{delivery_method} вече не е наличен за тези артикули."
+          },
+          "default_message": {
+            "one": "Избраната метод за доставка вече не е налична за този артикул.",
+            "other": "Избраната метод за доставка вече не е налична за тези артикули."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Актуализиране на цена и количество",
+          "description": "Цените и наличните количества за тези артикули са променени и количката е актуализирана."
+        },
+        "out_of_stock_in_context_label": "Този продукт не е наличен във вашата страна/регион."
+      },
+      "order_summary": {
+        "title": "Обзор на поръчката",
+        "discount_label": "Промо код",
+        "discount_placeholder": "Промо код",
+        "gift_card_title": "Подаръчен ваучер",
+        "gift_card_label": "Подаръчен ваучер",
+        "gift_card_placeholder": "Подаръчен ваучер",
+        "gift_card_and_discount_title": "Промо код или ваучер за подарък",
+        "gift_card_and_discount_label": "Промо код или ваучер за подарък",
+        "gift_card_and_discount_placeholder": "Промо код или ваучер за подарък",
+        "add_discount_or_gift_card": "Добавяне на код за отстъпка или подаръчен ваучер",
+        "remove_gift_card_label": "Премахване на ваучер за подарък",
+        "remove_discount_label": "Премахване на отстъпката",
+        "applied_discount_message": "От общата цена е извадено %{amount} отстъпка.",
+        "gift_card_has_been_applied": "Подаръчна карта е приложена",
+        "gift_card_has_been_removed": "Подаръчната карта е премахната",
+        "discount_already_applied": "Върху тази поръчка е приложена отстъпка. Не можете да добавите друга отстъпка.",
+        "cart_does_not_meet_discount_requirements_notice": "Код за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong> не важи за артикулите в твоята количка",
+        "discount_requires_customer_notice": "Въведете данните си за доставка, за да приложите код за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Код за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong> в момента не е наличен за теб",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Код за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong> не е наличен за твоя адрес за доставка",
+        "customer_already_used_once_per_customer_discount_notice": "Кодът за отстъпка <strong style=\"text-transform:uppercase\">%{code}</strong> вече е използван",
+        "tip_label": "Чаени пари",
+        "shipping_default_value": "Изчислено на следващата стъпка",
+        "shipping_pending_message": "Все още не е налично",
+        "shipping_policy_link": "Такси за доставка",
+        "taxes_label": "между другото",
+        "total_label": "Общо",
+        "total_outstanding_label": "Сума за плащане",
+        "partial_total_label": "Общо",
+        "vat_label_html": "Включително %{amount} ДДС",
+        "discount_and_gift_card_savings_notice": "С отстъпка от %{discount_amount} и %{gift_card_amount} стойност на подаръчна карта",
+        "discount_savings_notice": "С %{discount_amount} отстъпка",
+        "gift_card_savings_notice": "На стойност %{gift_card_amount} от подаръчна карта",
+        "cost_table_title": "Преглед на разходите",
+        "quantity_label": "Брой",
+        "product_change_label": "Промени",
+        "expand_order_summary_short": "Показване"
       }
     }
   }
