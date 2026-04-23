@@ -710,8 +710,80 @@
             "tips_not_allowed_for_deferred_purchase_options": "Бакшишите все още не се поддържат за отложени опции за покупка."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Тази концептуална поръчка не съществува в настоящия магазин."
+            "draft_order_not_exist": "Тази концептуална поръчка не съществува в настоящия магазин.",
+            "staff_member_not_exist": "Този служител не е познат в настоящия магазин.",
+            "location_not_exist": "Това място не съществува в настоящия магазин.",
+            "point_of_sale_device_not_exist": "Това устройство за продажба не съществува в настоящия магазин.",
+            "unresolvable_target_merchandise_lines": "Предложените продажбени разпределения не могат да бъдат разрешени в съществуващия контекст на преговорите."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Предложението на купувача ти трябва да съдържа non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Полето „Количество“ липсва в правилата за наличност на купувача.",
+            "changing_behavior_not_allowed": "Този клиент няма право да променя функционалността на наличностите.",
+            "only_one_inventory_behavior_allowed": "В момента е разрешена само една функция за наличност на поръчка."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "При това плащане отказът от митнически такси не е разрешен."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "При това плащане не е разрешено разпределение за търговия на дребно.",
+            "retail_attribution_required": "За това плащане е необходимо разпределение за търговия на дребно."
+          },
+          "captcha": {
+            "metadata_missing": "При този процес на плащане попълването на captcha е задължително.",
+            "metadata_mismatch": "Посоченият доставчик на captcha и типът не съответстват на очакваните стойности.",
+            "token_missing": "Завършете тази поръчка, като въведете captcha токен.",
+            "job_enqueue_failed": "Задачата за валидиране на captcha не може да бъде поставена в опашката.",
+            "job_already_queued": "Потвърждението на Captcha вече е поставено в опашката за този токен.",
+            "token_expired": "Въведеният captcha токен е изтекъл. Моля, изпълнете нов captcha, за да продължите с плащането.",
+            "token_invalid": "Въведеният captcha токен е невалиден. Моля, изпълнете нов captcha, за да продължите с плащането.",
+            "token_not_valid_for_session": "Не може да се използва посоченият captcha при това плащане."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Получената сума трябва да бъде в валутата на магазина."
+          },
+          "checkout_source": {
+            "revoked": "Тази каса вече не е налична."
           }
+        },
+        "title": "Плащане - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - плащане",
+        "loading_title": "Плащане - {{shopName}}",
+        "google_map_title": "Google карта",
+        "submit_order_button_label": "Подаване на поръчка",
+        "submit_for_review_button_label": "Подаване на жалба за контрол",
+        "submit_for_review_notice_label": "Плащането се дължи едва след като поръчката ви бъде проверена",
+        "continue_to_payment_plans_button_label": "Продължете към плановете за плащане",
+        "back_button_label": "Връщане",
+        "choose_delivery_strategy": "Изберете метод за доставка",
+        "autocomplete_powered_by_google": "Възможно благодарение на {{brandName}}",
+        "submit": "Подаване",
+        "processing": "Обработка...",
+        "stepper": {
+          "increase": "Увеличение на {{type}}",
+          "decrease": "Вземане на {{type}}",
+          "minimum_reached": "Минимален ван достигнат {{value}}",
+          "maximum_reached": "Максимумът на {{value}} е достигнат"
+        },
+        "remove_tag": "Премахване на етикет",
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "ма.",
+            "tuesday": "ди.",
+            "wednesday": "уо.",
+            "thursday": "направи.",
+            "friday": "г.",
+            "saturday": "за.",
+            "sunday": "зо."
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Показване на предходния месец, {{month}} {{year}}",
+          "show_next_month": "Показване следващия месец, {{month}} {{year}}",
+          "range_start": "Започнете обхват",
+          "in_range": "В обсега"
         }
       }
     }
