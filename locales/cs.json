@@ -878,7 +878,79 @@
         "company_attention_label": "Firma/pozornost:",
         "optional_company_attention_label": "Firma/k rukám (volitelné)",
         "optional_pincode_label": "Kód PIN (volitelný)",
-        "phone_rollup_accessibility_label": "Telefonní možnosti"
+        "phone_rollup_accessibility_label": "Telefonní možnosti",
+        "phone_country_code_label": "Kód země telefonního čísla",
+        "storefront_link": "webová stránka prodejce",
+        "suburb_label": "Okrajová čtvrť"
+      },
+      "delivery_options": {
+        "ship": "Odeslat",
+        "pick_up": "Vyzvednutí",
+        "pick_up_in_two_hours": "Obvykle hotovo do 2 hodin",
+        "pick_up_in_four_hours": "Obvykle hotovo do 4 hodin",
+        "pick_up_immediately": "Připraveno k vyzvednutí nyní",
+        "pick_up_in_one_hour": "Obvykle hotovo do 1 hodiny",
+        "pick_up_in_twenty_four_hours": "Obvykle hotovo do 24 hodin",
+        "pick_up_in_two_to_four_days": "Obvykle hotovo během 2-4 dnů",
+        "pick_up_in_five_or_more_days": "Obvykle hotovo za více než 5 dní",
+        "pickup_point_method_definition": "Odeslat na výdejní místo",
+        "retail_method_definition": "Zásilky maloobchodu",
+        "none_method_definition": "Žádné zásilky",
+        "subscription_pickup_information": "Tento způsob doručení platí pro všechny položky v této objednávce a pro všechny budoucí položky v rámci tohoto předplatného.",
+        "ship_to_address": "Odeslat na adresu",
+        "pick_up_from_store": "Vyzdvihnutí v obchodě",
+        "company_location_no_address_banner": "Objednávky odesílané na místa bez adresy jsou předkládány ke kontrole.",
+        "pickup_point_map_title": "Mapa s místy pro vyzvednutí"
+      },
+      "customer_account": {
+        "have_an_account_label": "Máš účet?",
+        "save_my_information_label": "Uložit tyto informace pro rychlejší platbu příště",
+        "incomplete_address": "Vybraná adresa je neúplná. %{update_address_link} nebo vyberte jinou adresu.",
+        "invalid_shipping_method_summary": "Vyberte platnou doručovací adresu pro zobrazení dostupných způsobů dopravy",
+        "saved_address_option_link": "Použijte uloženou adresu",
+        "saved_address_modal_title": "Použij moji uloženou adresu",
+        "saved_address_option_description": {
+          "other": "Máte {{count}} uložených adres."
+        }
+      },
+      "stock": {
+        "page_title": "Problém s dostupností zásob",
+        "items_unavailable_notice": "Některé položky již nejsou k dispozici.",
+        "quantity_column_header": "Počet",
+        "reduced_label": "Snížený",
+        "reduced_with_quantity_label": "Pouze %{quantity_available} skladem",
+        "go_back_to_cart_button_label": "Zpět do mého nákupního košíku",
+        "remove": "Odstranit",
+        "empty_cart_label": "Váš nákupní košík je prázdný",
+        "quantity_update": {
+          "page_title": "Aktualizované množství",
+          "title": "Aktualizované množství",
+          "description": "Dostupné množství těchto položek se změnilo a váš nákupní košík byl aktualizován."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt nelze zakoupit",
+          "header": "Některé položky byly z tvého nákupního košíku odstraněny",
+          "message": "Tyto položky nejsou k dispozici pro objednávky mezi podniky (B2B)."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt nelze zakoupit",
+          "header": "Některé položky byly z tvého nákupního košíku odstraněny",
+          "message": "Tyto položky nejsou k dispozici."
+        },
+        "unshippable_product": {
+          "title": "Doručení není k dispozici",
+          "header": {
+            "one": "Doručení není k dispozici pro %{count} položku",
+            "other": "Doručení není k dispozici pro %{count} položek"
+          },
+          "message": {
+            "one": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení.",
+            "other": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení."
+          }
+        },
+        "price_update": {
+          "description": "Ceny těchto položek byly změněny a aktualizovány ve vašem nákupním košíku."
+        }
       }
     }
   }
