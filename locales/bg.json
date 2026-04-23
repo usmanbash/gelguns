@@ -852,7 +852,77 @@
         "pick_up": "Вземи",
         "pick_up_in_two_hours": "Обикновено готово в рамките на 2 часа",
         "pick_up_in_four_hours": "Обикновено готово в рамките на 4 часа",
-        "pick_up_immediately": "Готово за вземане сега"
+        "pick_up_immediately": "Готово за вземане сега",
+        "pick_up_next_day": "Готово за вземане на следващия ден",
+        "pick_up_in_one_hour": "Обикновено готово в рамките на 1 час",
+        "pick_up_in_twenty_four_hours": "Обикновено готово в рамките на 24 часа",
+        "pick_up_in_two_to_four_days": "Обикновено готово в рамките на 2-4 дни",
+        "pick_up_in_five_or_more_days": "Обикновено готово след повече от 5 дни",
+        "pick_up_in_zero_to_two_hours": "Готово за вземане след 2 часа",
+        "pick_up_in_two_to_four_hours": "Готово за вземане след 4 часа",
+        "pick_up_locations": "Места за настаняване",
+        "pickup_point_method_definition": "Изпращане до пункт за вземане",
+        "retail_method_definition": "Доставки на дребно",
+        "none_method_definition": "Няма доставки",
+        "subscription_pickup_information": "Този метод на доставка се прилага за всички артикули в тази поръчка и за всички бъдещи артикули по тази абонаментна услуга.",
+        "ship_to_address": "Изпращане до адрес",
+        "pick_up_from_store": "Вземете от магазина",
+        "company_location_no_address_banner": "Поръчките, които се изпращат до места без адрес, се подават за проверка.",
+        "pickup_point_map_title": "Карта с пунктове за вземане"
+      },
+      "customer_account": {
+        "not_user_label": "Не сте ли %{first_name}?",
+        "have_an_account_label": "Имаш ли акаунт?",
+        "save_my_information_label": "Запазете тази информация, за да плащате по-бързо следващия път",
+        "rollup_label": "Акаунт",
+        "invalid_shipping_method_summary": "Изберете валиден адрес за доставка, за да видите наличните методи за доставка",
+        "saved_address_option_link": "Използвайте запазен адрес",
+        "saved_address_modal_title": "Използвай запазения ми адрес",
+        "saved_address_option_description": {
+          "one": "Имаш {{count}} запазен адрес.",
+          "other": "Имаш {{count}} запазени адреса."
+        },
+        "rollup_accessibility_label": "Опции за акаунт"
+      },
+      "stock": {
+        "page_title": "Проблем с наличността",
+        "title": "Няма наличност",
+        "quantity_column_header": "Брой",
+        "removed_from_cart_notice": "Премахнато от количката",
+        "reduced_with_quantity_label": "Остават само %{quantity_available} на склад",
+        "go_back_to_cart_button_label": "Върни се към моята количка",
+        "empty_cart_label": "Вашата количка е празна",
+        "quantity_update": {
+          "page_title": "Количество актуализирано",
+          "title": "Количество актуализирано",
+          "description": "Наличните количества за тези артикули са променени и вашата количка е актуализирана."
+        },
+        "unpurchasable_product": {
+          "title": "Продуктът не може да бъде закупен",
+          "header": "Някои артикули бяха премахнати от количката ти",
+          "message": "Тези артикули не са налични за B2B поръчки.",
+          "status_column_header": "Няма наличност"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Продуктът не може да бъде закупен",
+          "header": "Някои артикули бяха премахнати от количката ти",
+          "status_column_header": "Няма наличност"
+        },
+        "unshippable_product": {
+          "title": "Доставката не е налична",
+          "header": {
+            "one": "Доставка не е налична за %{count} артикул",
+            "other": "Доставка не е налична за %{count} артикула"
+          },
+          "message": {
+            "one": "Този артикул ще бъде премахнат от количката ти, защото за твоя адрес няма налични методи за доставка.",
+            "other": "Този артикул ще бъде премахнат от количката ти, защото за твоя адрес няма налични методи за доставка."
+          }
+        },
+        "price_update": {
+          "title": "Актуализация на цените",
+          "description": "Цените на тези артикули са променени и актуализирани във вашата количка."
+        }
       }
     }
   }
