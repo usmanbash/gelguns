@@ -280,19 +280,19 @@
       "announcement": "Meddelelse",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} vare",
-        "other": "{{ count }} varer"
+        "one": "{{ count }} artikel",
+        "other": "{{ count }} artikler"
       }
     },
     "cart": {
       "title": "Din indkøbskurv",
-      "caption": "Varer i indkøbskurv",
+      "caption": "Varen i indkøbskurven",
       "remove_title": "Fjern {{ title }}",
-      "note": "Særlige instruktioner til ordre",
-      "checkout": "Gå til betaling",
+      "note": "Særlige instruktioner til bestilling",
+      "checkout": "Afrejsebetaling",
       "empty": "Din indkøbskurv er tom",
-      "cart_error": "Der opstod en fejl under opdatering af din indkøbskurv. Prøv igen.",
-      "cart_quantity_error_html": "Du kan kun lægge {{ quantity }} af denne vare i indkøbskurven.",
+      "cart_error": "Der opstod en fejl under opdateringen af din indkøbskurv. Prøv igen.",
+      "cart_quantity_error_html": "Du kan kun tilføje {{ quantity }} af denne vare til din indkøbskurv.",
       "headings": {
         "product": "Produkt",
         "price": "Pris",
@@ -300,21 +300,21 @@
         "quantity": "Antal",
         "image": "Produktbillede"
       },
-      "update": "Opdater",
+      "update": "Opdatering",
       "login": {
         "title": "Har du en konto?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log ind</a> for at betale hurtigere."
       },
-      "estimated_total": "Estimeret totalbeløb",
-      "new_estimated_total": "Ny estimeret totalbeløb",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Inklusive told og skatter. Rabatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Inklusive told og skatter. Rabatter og levering beregnes ved betaling.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Inklusive skatter. Rabatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling.",
-      "taxes_included_shipping_at_checkout_without_policy": "Inklusive skatter. Rabatter og levering beregnes ved betaling.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Inklusive told. Skatter, rabatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Inklusive told. Skatter, rabatter og levering beregnes ved betaling.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Skatter, rabatter og levering beregnes ved betaling.",
+      "estimated_total": "Anslået samlet",
+      "new_estimated_total": "Nyt anslået samlet beløb",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Told og afgifter inkluderet. Rabatter og <a href=\"{{ link }}\">forsendelse</a> beregnes ved kassen.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Told og afgifter inkluderet. Rabatter og forsendelse beregnes ved kassen.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Skatter inkluderet. Rabatter og <a href=\"{{ link }}\">forsendelse</a> beregnes ved kassen.",
+      "taxes_included_shipping_at_checkout_without_policy": "Afgifter inkluderet. Rabatter og forsendelse beregnes ved kassen.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Toldafgifter inkluderet. Skatter, rabatter og <a href=\"{{ link }}\">forsendelse</a> beregnes ved kassen.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Toldafgifter inkluderet. Skatter, rabatter og forsendelse beregnes ved kassen.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter og <a href=\"{{ link }}\">forsendelse</a> beregnes ved kassen.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Skatter, rabatter og forsendelse beregnes ved kassen.",
       "free_shipping_success": "Du har låst GRATIS forsendelse op!",
       "free_shipping_message": "Tilføj",
       "free_shipping_suffix": "mere for GRATIS forsendelse"
@@ -323,33 +323,33 @@
       "payment": "Betalingsmetoder"
     },
     "featured_blog": {
-      "view_all": "Se alle",
-      "onboarding_title": "Blogopslag",
-      "onboarding_content": "Giv dine kunder en oversigt over dit blogopslag"
+      "view_all": "Se alt",
+      "onboarding_title": "Blogindlæg",
+      "onboarding_content": "Giv dine kunder et overblik over dit blogindlæg"
     },
     "featured_collection": {
-      "view_all": "Se alle",
+      "view_all": "Se alt",
       "view_all_label": "Se alle produkter i kollektionen {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Se alle"
+      "view_all": "Se alt"
     },
     "collection_template": {
       "title": "Kollektion",
-      "empty": "Der blev ikke fundet nogen produkter",
-      "use_fewer_filters_html": "Brug færre filtre, eller <a class=\"{{ class }}\" href=\"{{ link }}\">fjern alle</a>"
+      "empty": "Ingen produkter fundet",
+      "use_fewer_filters_html": "Brug færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">fjern alle</a>"
     },
     "video": {
-      "load_video": "Indlæs video: {{ description }}"
+      "load_video": "Video indlæses: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Indlæs dias",
+      "load_slide": "Indlæs dia",
       "previous_slideshow": "Forrige dias",
       "next_slideshow": "Næste dias",
-      "pause_slideshow": "Sæt diasshow på pause",
+      "pause_slideshow": "Sæt diasshowet på pause",
       "play_slideshow": "Afspil diasshow",
       "carousel": "Karrusel",
-      "slide": "Dias"
+      "slide": "Dag"
     },
     "page": {
       "title": "Sidetitel"
@@ -359,32 +359,32 @@
       "next_announcement": "Næste meddelelse",
       "carousel": "Karrusel",
       "announcement": "Meddelelse",
-      "announcement_bar": "Meddelelseslinje"
+      "announcement_bar": "Meddelelsesbjælke"
     },
     "quick_order_list": {
-      "product_total": "Subtotal for produkt",
+      "product_total": "Produktsubtotal",
       "view_cart": "Se indkøbskurv",
-      "each": "{{ money }}/stk.",
+      "each": "{{ money }}/stk",
       "product": "Produkt",
       "variant": "Variant",
-      "variant_total": "Variant i alt",
+      "variant_total": "Samlet variant",
       "items_added": {
-        "one": "{{ quantity }} vare tilføjet",
+        "one": "{{ quantity }} artikel tilføjet",
         "other": "{{ quantity }} varer tilføjet"
       },
       "items_removed": {
-        "one": "{{ quantity }} vare fjernet",
-        "other": "{{ quantity }} varer fjernet"
+        "one": "{{ quantity }} artikel fjernet",
+        "other": "{{ quantity }} artikler fjernet"
       },
-      "product_variants": "Produktvarianter",
-      "total_items": "Varer i alt",
-      "remove_all_items_confirmation": "Vil du fjerne alle {{ quantity }} varer fra din indkøbskurv?",
-      "remove_all": "Fjern alle",
+      "product_variants": "Produktvarianten",
+      "total_items": "Samlet antal varer",
+      "remove_all_items_confirmation": "Fjerne alle {{ quantity }} varer fra din indkøbskurv?",
+      "remove_all": "Fjern alt",
       "cancel": "Annuller",
-      "remove_all_single_item_confirmation": "Vil du fjerne 1 vare fra din indkøbskurv?",
-      "min_error": "Denne vare har en minimumsgrænse på {{ min }}",
-      "max_error": "Denne vare har en maksimumgrænse på {{ max }}",
-      "step_error": "Du kan kun tilføje denne vare i intervaller på {{ step }}"
+      "remove_all_single_item_confirmation": "Fjerne 1 vare fra din indkøbskurv?",
+      "min_error": "Der gælder et minimum på {{ min }} for denne vare.",
+      "max_error": "Der gælder en maksimumgrænse på {{ max }} for denne vare.",
+      "step_error": "Du kan kun tilføje denne vare i trin af {{ step }}"
     }
   },
   "localization": {
