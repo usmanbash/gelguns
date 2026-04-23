@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -528,6 +537,72 @@
       "send_on_label": "Send (valgfrit)",
       "expanded": "Formularen til modtager af gavekort er vist",
       "collapsed": "Formularen til modtager af gavekort er skjult"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "og",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Betaling",
+        "skip_to_content": "Gå direkte til indholdet",
+        "complete_purchase_button_label": "Fuldfør bestilling",
+        "authenticate_purchase_button_label": "Bekræft betaling",
+        "edit_link_label": "Ændre",
+        "all_rights_reserved": "Alle rettigheder forbeholdes %{shop_name}",
+        "print_policies_link_label": "Udskrive",
+        "expand_notice_label": "Se mere",
+        "continue_to_shipping_method": "Fortsæt med at sende",
+        "continue_to_payment_method": "Gå til betaling",
+        "continue_to_review": "Gennemse bestilling",
+        "back_to_cart": "Tilbage til indkøbskurv",
+        "back_to_contact_information": "Tilbage til oplysninger",
+        "back_to_shipping_method": "Tilbage til forsendelse",
+        "back_to_payment_method": "Tilbage til betaling",
+        "choose_shipping_method": "Vælg en forsendelsesmetode",
+        "autocomplete_title": "Forslag",
+        "autocomplete_multi_item": "{{number}} artikler tilgængelige",
+        "autocomplete_selection": "{{number}} af {{total}}",
+        "forwarding_indicator": {
+          "new_window": "Åbnes i et nyt vindue.",
+          "external": "Åbn ekstern hjemmeside.",
+          "external_and_new_window": "Åbner ekstern hjemmeside i et nyt vindue."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kassen"
+        },
+        "tooltip_accessibility_label": "Mere information",
+        "errors": {
+          "session_identifier_not_unique_error": "Der er sket en fejl med din bestilling. Prøv at betale igen.",
+          "line_item_limit_reached": "Det maksimale antal ordrelinjer er nået.",
+          "only_empty_terms_accepted": "Din politik accepterer kun tomme betingelser.",
+          "session_is_already_finished": "Denne betalingssession er allerede afsluttet.",
+          "merchandise": {
+            "only_value_constraint": "Ved indførsel af varer er kun nøjagtige værdier tilladt.",
+            "merchandise_not_found": "Produkt ikke fundet.",
+            "merchandise_variant_not_found": "Produktvariant ikke fundet.",
+            "merchandise_not_applicable": "Produktvariant kan ikke købes.",
+            "bundle_products_not_supported_for_b2b": "Du kan ikke tilføje pakkede varer til B2B-bestillinger for denne lokation.",
+            "gift_card_quantity_mismatch": "Når du indtaster gavekortkoder, skal antallet på ordrelinjen svare til antallet af gavekortkoder.",
+            "gift_card_not_supported": "Der understøttes ikke gavekort ved denne betaling.",
+            "gift_card_not_unique": "Gavekort med kode {{code}} optræder flere gange i denne kasse. Koderne bliver oprettet før sammenligningen.",
+            "gift_card_used": "Gavekortkoden {{code}} er allerede tildelt et gavekort. Koder oprettes før sammenligning.",
+            "gift_card_code_changed": "Gavekortkoden {{proposed_code}} er ændret til {{formatted_code}} i henhold til formateringsreglerne.",
+            "gift_card_with_attributes_not_supported": "Denne kasse understøtter ikke gavekort med tilpassede egenskaber.",
+            "gift_card_with_components_not_supported": "Denne kasse understøtter ikke gavekort med komponenter.",
+            "selling_plan_mismatch": "Abonnementet er opdateret.",
+            "selling_plan_not_supported": "Abonnementerne understøttes ikke.",
+            "selling_plan_not_supported_b2b": "Abonnementer understøttes ikke ved B2B-kassen.",
+            "price_mismatch": "Den tidligere foreslåede pris for disse varer var ugyldig og er blevet opdateret.",
+            "inventory_not_found": "Ingen lagerbeholdning fundet for disse varer.",
+            "product_not_published": "Produktet er ikke offentliggjort.",
+            "duplicated_stable_id": "Denne varelinje har samme stabile-ID som en anden linje.",
+            "minimum_quantity_not_met": "For nogle varer opfyldes det mindst tilladte antal ikke"
+          }
+        }
+      }
     }
   }
 }
