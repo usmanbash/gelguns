@@ -656,6 +656,68 @@
             "allocations_mismatch": "Din rabatkode er ændret. Tjek din indkøbskurv og prøv igen.",
             "discount_title_too_long": "Rabatens titel må ikke være længere end 255 tegn.",
             "additional_requested_discount_discarded": "Din rabat er gyldig, men kan ikke anvendes. Tjek betingelserne for rabatter."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "De afgiften die op je bestilling van toepassing zijn, er ændret. Kontroller din bestilling og prøv igen.",
+            "unresolvable_tax_terms": "De foreslåede betingelser er ikke opnåelige i betragtning af den nuværende forhandlingssituation.",
+            "delivery_price_is_abstract": "Den pågældende pris for levering er abstrakt.",
+            "tax_inclusivity_mismatch": "Forhandle igen med en konkret værdi for totalTaxAndDutyAmount eller totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Der gives ikke skattefritagelser i den nuværende forhandlingsrunde.",
+            "delivery_tax_exemption_not_supported": "Skattefritagelser for leveringsregler understøttes i øjeblikket ikke.",
+            "proposed_allocations_required": "Feltet 'foreslåede tildelinger' mangler.",
+            "merchandise_terms_must_be_defined": "Definér betingelser for varer.",
+            "delivery_terms_must_be_defined": "Definér betingelser for levering.",
+            "merchandise_discount_terms_must_be_defined": "Definér betingelser for vareafslag.",
+            "delivery_discount_terms_must_be_defined": "Definér betingelser for leveringsrabat.",
+            "allocated_required": "Feltet 'tildelt' mangler.",
+            "value_required": "Feltet 'værdi' mangler.",
+            "line_splits_not_supported": "Feltet 'varelinjer' skal opdeles, så der for hver linje er en separat komponent i sælgerens tilbud."
+          },
+          "payment": {
+            "positive_amount_expected": "Det beløb, der skal betales, skal være større end 0.",
+            "total_amount_mismatch": "Det samlede beløb, der skal betales, stemmer ikke overens med summen af betalingerne.",
+            "subscription_terms_not_accepted": "Abonnementsbetingelser ikke accepteret.",
+            "missing_session_id": "Oplysninger om kreditkortsession mangler.",
+            "gateway_not_supported": "Betalingsgatewayen understøtter ikke at gemme betalingsmetoden.",
+            "credit_card_last_name_required": "'efternavn' må ikke være tom.",
+            "invalid_address_type": "Den indtastede adresse type er ugyldig for denne betalingsmetode.",
+            "missing_retail_attributions": "Detailfordelinger er påkrævet for manuelt indtastede kreditkortbetalinger.",
+            "unexpected_retail_attributions": "Uventede detailhandelsfordelinger angivet for en kreditkortbetaling.",
+            "wallet_content_missing": "Indholdet af tegnebogen mangler.",
+            "payment_instrument_not_found": "Kan ikke finde betalingsmetode",
+            "unauthorized_capture_method": "Konfiguration af metoden til registrering af betalinger er ikke tilladt.",
+            "saved_payment_methods_not_allowed": "'Gemte betalingsmetoder' er ikke tilladt.",
+            "saved_payment_methods_not_enabled": "'Gemte betalingsmetoder' er ikke aktiveret for denne butik.",
+            "store_credit_not_enabled": "Butikskredit er ikke aktiveret for denne butik.",
+            "store_credit_account_not_found": "Butikskreditkonto ikke fundet.",
+            "store_credit_account_mismatch": "Butikskreditkonto stemmer ikke overens med køberens identitet.",
+            "store_credit_mismatched_currency": "Valutaen på butikskreditkontoen stemmer ikke overens med valutaen ved kassen.",
+            "store_credit_insufficient_funds": "Der er ikke nok saldo på butikskreditkontoen.",
+            "store_credit_buying_gift_card": "Med butikskredit kan du ikke købe et gavekort.",
+            "method_required": "Der skal foreslås en betalingsmetode.",
+            "saved_payment_methods_cvv_verification_disabled": "For den valgte betalingsmetode kræves CVV/CVC-verificering, men det er ikke aktiveret for denne butik. Brug en anden betalingsmetode."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Butikken accepterer ikke drikkepenge.",
+            "only_one_tip_line_allowed": "Flere regler for markering understøttes ikke.",
+            "currency_change_reset": "Drikkepenge er nulstillet på grund af en valutaveksling.",
+            "tips_not_allowed_for_deferred_purchase_options": "Drikkepenge understøttes endnu ikke for udskudte købsvalg."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Denne konceptbestilling findes ikke i den nuværende butik.",
+            "staff_member_not_exist": "Denne medarbejder er ikke kendt i den nuværende butik.",
+            "location_not_exist": "Denne placering findes ikke i den nuværende butik.",
+            "point_of_sale_device_not_exist": "Dit salgssted findes ikke i den nuværende butik.",
+            "unresolvable_target_merchandise_lines": "De foreslåede salgstildelinger kan ikke løses i den eksisterende forhandlingssammenhæng."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Dit tilbud fra din køber skal indeholde non-negotiable_terms.",
+            "invalid_signature": "Signaturen for {{target_terms}} er ugyldig."
+          },
+          "inventory": {
+            "missing_quantity_value": "Feltet 'Mængde' mangler i køberens lagerlinjer.",
+            "changing_behavior_not_allowed": "Denne kunde har ikke tilladelse til at ændre lagerfunktionaliteten.",
+            "only_one_inventory_behavior_allowed": "I øjeblikket er der kun tilladt én lagerfunktion pr. kasse."
           }
         }
       }
