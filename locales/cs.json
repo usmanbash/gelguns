@@ -624,7 +624,65 @@
             "minimum_quantity_not_met": "U některých položek není dosaženo minimálního povoleného množství",
             "maximum_quantity_exceeded": "U některých položek není dosaženo maximálně povoleného počtu",
             "quantity_increment_not_met": "U některých položek nejsou splněny limity objednávky",
-            "quantity_rules_not_met": "U některých položek nejsou splněny limity objednávky"
+            "quantity_rules_not_met": "U některých položek nejsou splněny limity objednávky",
+            "bundle_requires_components": "Tato sada zboží neobsahuje žádné součásti.",
+            "mixed_currencies": "Pokladna obsahuje položky objednávky v různých měnách.",
+            "product_not_published_in_buyer_location": "Produkt není zveřejněn na místě kupujícího.",
+            "combined_listing_parent_not_purchasable": "Hlavní produkty kombinovaných položek nelze koupit přímo."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Kontaktní osoba ve firmě nemá přístup k firmě.",
+            "customer_account_required": "Musíte se přihlásit, abyste mohli pokračovat.",
+            "contact_info_does_not_match_customer_account": "Kontaktní údaje musí odpovídat účtu, kterým jste přihlášen.",
+            "phone_number_does_not_match_expected_pattern": "Zadané telefonní číslo má nesprávný formát.",
+            "email_required": "Když jsou zboží zakoupena v rámci předplatného, je vyžadován e-mail.",
+            "email_domain_is_invalid": "Zadanou doménu nelze vyhledat.",
+            "missing_contact_method": "Chybí platný způsob kontaktu.",
+            "checkout_completion_target_is_missing": "Cíl pro dokončení pokladny chybí.",
+            "invalid_customer_profile": "Byl zadán neplatný zákaznický profil.",
+            "customer_profile_access_restricted": "Pokladna nemá přístup k profilu zákazníka.",
+            "checkout_completion_target_is_invalid_proc": "Neplatný cíl dokončení pokladny.",
+            "company_location_required": "Zákazník může pokračovat pouze tehdy, pokud si vybere firemní místo.",
+            "lost_access_to_company": "Zákazník ztratil přístup ke každé firmě.",
+            "company_purchase_permission_required": "Zákazník není oprávněn zadávat firemní objednávky.",
+            "personal_order_not_allowed": "Osobní objednávky nejsou pro tento obchod povoleny.",
+            "buyer_identity_presentment_currency_does_not_match": "Při zpracování vaší objednávky došlo k problému. Zkuste to prosím znovu za pár minut."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Nákupní košík může obsahovat pouze jeden řádek doručení.",
+            "wrong_number_of_delivery_lines": "Uveďte pro každou skupinu zboží pravidlo doručení.",
+            "external_delivery_promise_error": "Nelze získat očekávané datum doručení od externího poskytovatele.",
+            "options_instructions_invalid": "Zadané pokyny mají nesprávný vzor.",
+            "destination_address_required": "Chcete-li pokračovat, potřebujete cílovou adresu.",
+            "pickup_points_unavailable": "Výdejní místa momentálně nejsou k dispozici.",
+            "local_pickup_delivery_line_detail_changed": "Chcete-li pokračovat, je třeba změnit současnou strategii doručení pro osobní vyzvednutí.",
+            "local_pickup_no_delivery_strategy_available": "Není k dispozici žádná strategie doručení pro vyzvednutí na místě.",
+            "origin_location_id_required": "ID místa původu je vyžadováno, když je požadována metoda doručení MALOOBCHOD.",
+            "invalid_origin_location_id": "Nelze najít místo pro ID místa původu.",
+            "origin_location_id_not_allowed": "U požadovaných způsobů doručení není podporováno ID místa původu.",
+            "auto_fulfill_not_allowed": "Tato relace nemá oprávnění přepsat chování plnění.",
+            "auto_fulfill_required": "Automatické vyřízení je vyžadováno, když je požadována doručovací metoda MALOOBCHOD.",
+            "prefetch_shipping_rates_used": "Předem stanovené přepravní sazby nesmí být nikdy sazby pro vrácení.",
+            "fulfillment_constraints_not_satisfied": "Nebylo splněno jedno nebo více omezení plnění.",
+            "must_fulfill_from_constraint_not_satisfied": "Důvodem je, že zboží nelze vyřídit z požadovaných míst.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Důvodem je, že zboží nelze vyřídit ze stejného místa.",
+            "delivery_strategy_conditions_not_satisfied": "Pro tuto lokalitu jsou k dispozici způsoby doručení, ale nejsou splněny podmínky.",
+            "out_of_stock_at_origin_location": "Žádné zásoby na místě původu.",
+            "invalid_signature": "Neplatný podpis pro slevu.",
+            "selected_pickup_option_no_longer_available": "Dříve vybraná možnost vyzvednutí již není k dispozici."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Slevy nejsou v B2B obchodech povoleny.",
+            "custom_discount_not_honoured": "Zadaná upravená sleva nebyla udělena.",
+            "unsupported_expectation": "Zadané pravidlo slevy obsahovalo předpoklad, který politika nemohla vyložit.",
+            "additional_requested_discount_code_discarded": "{{code}} je platný, ale není použitelný. Zkontrolujte podmínky pro slevy.",
+            "allocations_mismatch": "Váš slevový kód byl změněn. Zkontrolujte svůj nákupní košík a zkuste to znovu.",
+            "discount_title_too_long": "Název slevy nesmí být delší než 255 znaků.",
+            "additional_requested_discount_discarded": "Vaše sleva je platná, ale nelze ji použít. Zkontrolujte podmínky slev."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Daně vztahující se na vaši objednávku byly změněny, zkontrolujte svou objednávku a zkuste to znovu.",
+            "unresolvable_tax_terms": "Navrhované podmínky nejsou s ohledem na stávající vyjednávací situaci dosažitelné."
           }
         }
       }
