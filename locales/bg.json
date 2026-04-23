@@ -1527,8 +1527,150 @@
         "order_edit_banner_multiple_items_returned": "{{amount}} върнати",
         "shop_pay_installments_label": "Пазарувайте с разсрочено плащане",
         "add_credit_card_modal": {
-          "cancel": "Отказване"
-        }
+          "cancel": "Отказване",
+          "save": "Запази"
+        },
+        "delete_credit_card_modal": {
+          "title": "Премахване на карта",
+          "confirmation": "Сигурни ли сте, че искате да изтриете {{brandName}}, завършващ на {{lastDigits}}?",
+          "cancel": "Отказване",
+          "delete": "Премахване"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Добавено",
+          "other": "%{count} добавени"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Изтрито",
+          "with_quantities": "{{delta}} от {{quantity}} назад"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} върнати",
+          "with_quantities": "{{delta}} от {{quantity}} върнати"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Премахване"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Отказване",
+          "description": "Можеш да промениш само адреса за фактуриране на картата си.",
+          "fields": {
+            "default": "Задай като стандартно",
+            "expiry": "Срок на валидност",
+            "security_code": "Код за сигурност",
+            "name": "Име на карта",
+            "billing": "Фактуриране към"
+          }
+        },
+        "expired_payment_method": "Избраната метод на плащане е изтекъл",
+        "subscription_heading": "Договор за абонамент",
+        "use_order_billing_address_label": "Използвай адреса за фактура от поръчката",
+        "use_location_billing_address_label": "Използвай адреса за фактура на локацията",
+        "use_location_shipping_address_label": "Използвай адреса за доставка на локацията",
+        "purchase_options_agreement_label_wallets": "Ако продължите с плащането, вие се съгласявате с бъдещите плащания, посочени на тази страница, както и с политиката за отказ.",
+        "gift_card_store_credit": {
+          "add_label": "Добавяне на подаръчен ваучер или кредит за пазаруване",
+          "manage_label": "Управление на ваучери за подаръци или кредит за пазаруване"
+        },
+        "saved_credit_card_cvv_verification": "Въведете кода за сигурност на вашата карта за целите на проверката.",
+        "cashapppay_label": "Плащане с Cash App",
+        "card_nickname_label": "Псевдоним (по избор)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Премахнато от връщане",
+          "with_quantities": "{{delta}} премахнато от връщане"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Премахнато от връщане",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} премахнати от връщане",
+        "proposed_gateway_unavailable": "Предложеният платежен шлюз не е наличен",
+        "pay_in_installments_split_pay_short": "Четири вноски по %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Начинът на плащане не е наличен за избрания адрес за доставка. Изберете друг начин на плащане.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero не е наличен за тази поръчка. Изберете друг метод на плащане.",
+        "paypal_disconnect": "Разкачване",
+        "paypal_wallet_label": "Портфейл PayPal",
+        "payment_method_update_failed": "Актуализирането на начина на плащане не бе успешно.",
+        "alternative_payment_currency_total_manual_payment_notice": "Забележка: Конвертираният общ сбор е %{amount_due}.",
+        "gift_cards_unavailable": "Вашият ваучер вече не може да бъде използван за тази поръчка и затова е премахнат",
+        "network_card_payment_options": "Избор на кредитна карта",
+        "payment_flexibility_terms_id_mismatch": "ID условията за гъвкавост на плащанията не съвпадат",
+        "gift_card_checkbox_label": "Приложи ваучер за подарък",
+        "blik_label": "Блик",
+        "grabpay_label": "ГрабПей",
+        "kcp_creditcard_label": "KCP-кредитна карта",
+        "simulated_express_checkout": "Дигиталните портфейли не са налични в примера на редактора поради вашия регион или браузър",
+        "swish_label": "Свиш",
+        "network_card_persistence_description": "Избраният мрежов оператор ще бъде запазен с твоя метод на плащане за бъдещи транзакции.",
+        "payment_method_incompatible_with_payment_terms": "Методът на плащане не е съвместим с условията за плащане.",
+        "payment_option": {
+          "accessibility_label": "Изберете начин на плащане"
+        },
+        "billing_address_rollup_accessibility_label": "Опции за фактурен адрес",
+        "payment_method_rollup_accessibility_label": "Опции за метод на плащане",
+        "crypto_modal": {
+          "header": "Платете %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Обновяване",
+            "close": "затвори",
+            "sandbox_error": "Възникна грешка"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Платежна сметка",
+          "savings": "Спестовна сметка"
+        },
+        "bank_account_connect_another": "Свързване на друг банкова сметка",
+        "bank_account_missing": "Банковата сметка трябва да бъде свързана",
+        "crypto_payment_method": {
+          "description": "Свържете портфейла си сигурно. Вашият баланс и адрес няма да бъдат споделяни.",
+          "tooltip": "Балансът на портфейла ти и адресът ти не се споделят и може да бъде приспадната само поисканата сума",
+          "cashback_descriptor": {
+            "one": "Ще получите своя кешбек след %{count} дни",
+            "other": "Ще получите своя кешбек след %{count} дни"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% кешбек",
+        "usdc_cashback_additional_info": "Платете с USDC в Base и получете %{incentive_percentage}% обратно във вашия дигитален портфейл в рамките на 30 дни.",
+        "usdc_cashback_terms": "Приложими условия и ограничения",
+        "discount_show_more_warnings": {
+          "one": "Покажи още %{count}",
+          "other": "Покажи още %{count}"
+        },
+        "separate_payments_label": "Вашите артикули идват от повече от един магазин. Трябва да платите с %{separate_payments_link}.",
+        "payments": "Плащането",
+        "business_customer_with_bank_account_vaulting_payment_label": "Запазете този метод на плащане при завършване на поръчката и упълномощете %{company} да таксува сметката ви за бъдещи покупки, които одобрите за този обект, докато не отмените. Всички контакти, назначени за този обект, могат да използват този метод на плащане.",
+        "new_bank_account_disclaimer": "С приключването на поръчката си упълномощавате %{shop_name} да удържи посочената сума от посочената по-долу сметка на определения час чрез ACH.",
+        "bank_account_disclaimer": "Обработката на ACH плащания може да отнеме до 4 работни дни.",
+        "bank_account_vaulted_company_location": "Банкова сметка запазена за това място",
+        "bank_account_generic_error": "Не може да се добави банкова сметка. Моля, опитайте отново по-късно.",
+        "discount_codes_removed_summary": {
+          "other": "%{count} кодове за отстъпка са премахнати"
+        },
+        "default": "Стандартен",
+        "continue_to_guest_checkout": "Като гост към плащане",
+        "add_payment_method": "Добавяне на метод за плащане",
+        "add_new_payment_method": "Добавяне на нов метод за плащане",
+        "discount_codes_modified_summary": {
+          "one": "%{count} код за отстъпка е променен",
+          "other": "%{count} кодове за отстъпка са променени"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} код за отстъпка е премахнат или променен",
+          "other": "%{count} кодове за отстъпка са премахнати или променени"
+        },
+        "multiple_primary_payment_not_allowed": "Невалидни методи на плащане"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Текущо салдо %{amount}",
+        "credit_card_expires_on_notice": "Валидно до %{month}/%{year}",
+        "express_payment_gateway_label": "Експрес",
+        "billing_address_title": "Адрес за фактура"
+      },
+      "field_errors": {
+        "email_or_phone_invalid": "Въведете валиден имейл адрес или мобилен телефонен номер",
+        "address_address2_blank": "Въведете номер на апартамент или суит и т.н.",
+        "address_country_not_supported": "Ние не доставяме до тази страна/регион. Въведете нов адрес за доставка и опитайте отново.",
+        "address_province_blank": "Изберете щат/провинция",
+        "address_zip_blank": "Въведете ZIP или пощенски код",
+        "credit_card_name_blank": "Въведете името си точно както е на картата ви"
       }
     }
   }
