@@ -1233,8 +1233,80 @@
           "max_cycles_base_shipping_delivery_not_included": {
             "one": "%{count} doručení za %{shipping_price}",
             "other": "%{count} extra doručení za %{shipping_price} za doručení"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "První %{cycle} doprava zdarma, poté %{recurring_order_shipping_price}",
+            "other": "První %{cycle} doprava zdarma, poté %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} za ještě %{count} další doručení",
+            "other": "%{shipping_price} za ještě %{count} dalších doručení (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} doručení",
+            "other": "%{shipping_price} za %{count} doručení (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} za %{count} dalších dodání, poté %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za dalších %{count} dodávek (%{per_delivery_cost}), poté %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} doručení, poté %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} doručení (%{per_delivery_cost}), poté %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "estimated_delivery_time": "Očekávané doručení %{time}",
+        "estimated_delivery_time_range": "Očekávané doručení %{min_time}–%{max_time}",
+        "arrives_time": "Doručeno za %{time}",
+        "arrives_time_range": "Doručeno mezi %{min_time}–%{max_time}",
+        "estimated_time": "Očekáváno za %{time}",
+        "estimated_time_range": "Očekává se %{min_time}–%{max_time}",
+        "subscription_local_delivery": "Předplatné místního doručení",
+        "subscription_pickup": "Odběr předplatného",
+        "delivery_today": "Doručení ve stejný den do %{time}",
+        "delivery_tomorrow": "Doručení následující den do %{time}",
+        "two_day_delivery": "Doručení do 2 dnů do %{time}",
+        "delivery": "Doručení za %{time}",
+        "duties_and_taxes_title": "Celní poplatky a daně",
+        "shipping_information_required_notice": "Údaje o doručení jsou povinné. {{link}}.",
+        "shipping_information_redirect_link": "Zadejte zde své údaje",
+        "loading_progressive_rates": "Hledat další sazby...",
+        "no_other_methods_available": "Žádné jiné metody nejsou k dispozici",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Mohou být účtovány dodatečné poplatky",
+          "ddp_title": "Nyní zaplatit"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} z %{current}"
+        },
+        "shipping_used_as_billing_notice": "Toto se také používá jako vaše fakturační adresa pro tuto objednávku.",
+        "shipping_address_title": "Odeslat do",
+        "add_address": "Použijte jinou adresu",
+        "add_delivery_instructions": "Přidat pokyny pro doručení",
+        "delete": "Odstranit",
+        "address_more": "Více akcí pro tuto adresu",
+        "address_confirm": "Jsi si jistý, že chceš tuto adresu ze svého účtu odstranit?",
+        "address_form": {
+          "generic_error": "Při ukládání vaší adresy došlo k problému. Zkuste to prosím znovu."
+        },
+        "different_shipping_method_summary": "Zadejte jinou doručovací adresu pro zobrazení dostupných způsobů dopravy",
+        "invalid_shipping_method_summary": "Zadejte platnou doručovací adresu pro zobrazení dostupných způsobů doručení",
+        "method_summary": {
+          "incomplete_address_entered": "Zadejte úplnou doručovací adresu pro zobrazení dostupných způsobů dopravy",
+          "incomplete_address_selected": "Vyberte úplnou doručovací adresu pro zobrazení dostupných způsobů dopravy"
+        },
+        "local_pickup": {
+          "search_address": "Hledat adresu"
+        },
+        "missing_shipping_address": "Chybí doručovací adresa",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Opakující se zásilka",
+          "other": "Opakující se zásilky"
+        },
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} položek",
+        "split_shipping_merchandise_quantity_label_additional": "+ nohy %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Zásilka %{number} z %{total}",
+        "pre_order_ships_now": "Právě odesíláno"
       }
     }
   }
