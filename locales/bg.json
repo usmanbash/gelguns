@@ -1456,7 +1456,79 @@
         "billing_must_match_shipping_notice": "Адресът за фактуриране на твоя метод на плащане трябва да съвпада с адреса за доставка.",
         "same_billing_address_checkbox_label": "Адресът за доставка и адресът за фактуриране са еднакви",
         "location_billing_address_label": "Фактурен адрес на локацията",
-        "fact_billing_address_label": "Адрес за фактура"
+        "fact_billing_address_label": "Адрес за фактура",
+        "location_shipping_address_label": "Адрес за доставка от местоположение",
+        "no_working_method_error": "Този магазин в момента не може да приема плащания. Обновете страницата или се върнете по-късно.",
+        "brand_not_available": "Този магазин не приема {{brand}}. Използвайте друга карта за плащане.",
+        "shipping_rate_updated": "Наличните методи за доставка са актуализирани. Потвърдете избора си преди плащане.",
+        "billing_address_invalid_phone": "Актуализирайте телефонния номер в адреса за фактуриране за {{label}} {{last_digits}}, за да продължите.",
+        "preview_not_available": {
+          "title": "Примерът не е наличен",
+          "content": "Не се притеснявайте, този бърз чек-аут работи за вашите клиенти."
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Въведете валидна дата на издаване",
+              "issue_number": "Въведете валиден номер на издаване"
+            },
+            "invalid": {
+              "verification_value": "Въведете валиден CVV/CVC или код за сигурност"
+            }
+          }
+        },
+        "simulated_checkout": "Примерът ще се появи скоро",
+        "vaulting_agreement_label": "Запазете моите данни за плащане в %{company} за по-бързо плащане.",
+        "business_customer_vaulting_payment_label": "Запазете този метод на плащане при завършване на поръчката и упълномощете %{company} да удържа пари от тази карта за бъдещи покупки на това място. Всички контактни лица, назначени на това място, могат да използват този метод на плащане.",
+        "purchase_options_and_vaulting_agreement_label": "Един или повече артикули в количката са отложена или абонаментна покупка. Ако продължите с плащането, вие се съгласявате, че ще начисляваме сумите автоматично чрез вашия метод на плащане на цената и честотата, посочени на тази страница, докато не изтече срокът или вие не прекратите сами. За всички прекратявания важи %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "политика за анулиране",
+        "use_different_credit_card_label": "Използвайте друга карта",
+        "saved_credit_card": "Запазената ви кредитна карта",
+        "saved_credit_card_info": "Последните четири цифри",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Преглед на всички запазени карти",
+          "cancel": "Отказване"
+        },
+        "expired_cards_info": {
+          "one": "Има %{count} изтекла карта. Можете да я прегледате и редактирате в своя акаунт.",
+          "other": "Има %{count} изтекли карти. Можете да ги прегледате и редактирате в своя акаунт."
+        },
+        "local_payment_method_receiver_notice": "След като направите поръчката си, ще получите данните за плащане. Извършете плащането в рамките на {{dueDays}} дни на банкомат или онлайн.",
+        "order_edit_banner_title": "Плащане на {{amount_owed}} е задължително",
+        "order_edit_banner_subtitle": "Вашата поръчка {{order_number}} е актуализирана. Прегледайте тези промени и платете, за да потвърдите поръчката си.",
+        "order_edit_banner_multiple_items_added": "{{amount}} добавено",
+        "order_edit_banner_single_item_removed": "Изтрито",
+        "order_edit_banner_multiple_items_removed": "{{amount}} изтрито",
+        "gift_card_wrapper": {
+          "heading": "Подаръчен ваучер",
+          "apply_gift_card_label": "Приложи ваучер за подарък",
+          "payment_tag": "Подаръчен ваучер",
+          "apply_another_gift_card_label": "Приложете друг ваучер за подарък",
+          "gift_card_label": "Подаръчен ваучер %{identifier}",
+          "add_label": "Добавяне на подаръчен ваучер",
+          "manage_label": "Управление на ваучери за подаръци"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Потвърждение за персонализирани плащания на място"
+        },
+        "markets_pro_disclaimer_label": "Като направите поръчка, вие се съгласявате с покупката от Global-e като регистриран търговец, подчинена на %{markets_pro_terms} и %{privacy_policy} на Global-e, и споделяте данните си с %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "общи условия",
+        "markets_pro_disclaimer_privacy_policy": "политика за поверителност",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Общи условия за търговци на запис",
+        "markets_pro_disclaimer_privacy_policy_title": "Политика за поверителност за търговци на запис",
+        "purchase_order_number": {
+          "title": "Номер на поръчка",
+          "label": "Номер на поръчка (по избор)"
+        },
+        "alternative_payment_currency_total_notice": "Забележка: Ще бъде начислено %{amount_due}.",
+        "waiting_on_taxes_message": "Обновете страницата, ако данъците не се изчислят в рамките на няколко секунди.",
+        "waiting_on_taxes_notice": "Изчисляване на данъци",
+        "order_edit_banner_single_item_returned": "Върнато",
+        "order_edit_banner_multiple_items_returned": "{{amount}} върнати",
+        "shop_pay_installments_label": "Пазарувайте с разсрочено плащане",
+        "add_credit_card_modal": {
+          "cancel": "Отказване"
+        }
       }
     }
   }

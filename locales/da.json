@@ -855,7 +855,137 @@
         "change_location_link_label": "Skift placering",
         "shipping_used_as_billing_notice": "Vi bruger dette også som faktureringsadresse for denne ordre.",
         "company_attention_label": "Virksomhed/att.",
-        "optional_company_attention_label": "Firma/att.: (valgfrit)"
+        "optional_company_attention_label": "Firma/att.: (valgfrit)",
+        "optional_pincode_label": "Pinkode (valgfrit)",
+        "email_rollup_accessibility_label": "E-mailmuligheder",
+        "phone_rollup_accessibility_label": "Telefonindstillinger",
+        "storefront_link": "websted for forhandleren",
+        "suburb_label": "Udkantsområde"
+      },
+      "delivery_options": {
+        "ship": "Afsendelse",
+        "pick_up": "Afhentning",
+        "pick_up_in_two_hours": "Ofte klar inden for 2 timer",
+        "pick_up_in_four_hours": "Ofte klar inden for 4 timer",
+        "pick_up_in_one_hour": "Ofte klar inden for 1 time",
+        "pick_up_in_twenty_four_hours": "Ofte klar inden for 24 timer",
+        "pick_up_in_two_to_four_days": "Ofte klar inden for 2-4 dage",
+        "pick_up_in_five_or_more_days": "Normalt klar inden for mere end 5 dage",
+        "pick_up_in_zero_to_two_hours": "Klar til afhentning om over 2 timer",
+        "pick_up_in_two_to_four_hours": "Klar til afhentning om over 4 timer",
+        "pick_up_locations": "Afhentningssteder",
+        "pickup_point_method_definition": "Afsendelse til afhentningssted",
+        "retail_method_definition": "Forsendelser fra detailhandel",
+        "none_method_definition": "Ingen forsendelser",
+        "subscription_pickup_information": "Denne leveringsmetode gælder for alle varer i denne bestilling og for alle fremtidige varer til dette abonnement.",
+        "ship_to_address": "Afsendelse til adresse",
+        "pick_up_from_store": "Afhentning i butikken",
+        "company_location_no_address_banner": "Bestillinger, der sendes til steder uden adresse, indsendes til kontrol.",
+        "pickup_point_map_title": "Kort over afhentningssteder"
+      },
+      "customer_account": {
+        "save_my_information_label": "Gem disse oplysninger for at betale hurtigere næste gang",
+        "invalid_address": "Den valgte adresse er ugyldig. %{update_address_link} eller vælg en anden adresse.",
+        "invalid_shipping_method_summary": "Vælg en gyldig leveringsadresse for at se de tilgængelige forsendelsesmetoder",
+        "rollup_accessibility_label": "Kontoindstillinger"
+      },
+      "stock": {
+        "page_title": "Lagerproblem",
+        "product_column_header": "Produktet",
+        "reduced_label": "Formindsket",
+        "reduced_with_quantity_label": "Kun %{quantity_available} på lager",
+        "continue_shopping_button_label": "Fortsæt",
+        "go_back_to_cart_button_label": "Tilbage til min indkøbskurv",
+        "quantity_update": {
+          "page_title": "Mængde opdateret",
+          "title": "Mængde opdateret",
+          "description": "De tilgængelige mængder for disse varer er ændret, og din indkøbskurv er opdateret."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt kan ikke købes",
+          "header": "Nogle varer er fjernet fra din indkøbskurv",
+          "message": "Disse varer er ikke tilgængelige for B2B-bestillinger."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt kan ikke købes",
+          "header": "Nogle varer er fjernet fra din indkøbskurv"
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Din vare fjernes fra din indkøbskurv, fordi der ikke er nogen leveringsmetoder tilgængelige for din adresse.",
+            "other": "Din vare fjernes fra din indkøbskurv, fordi der ikke er nogen leveringsmetoder tilgængelige for din adresse."
+          }
+        },
+        "price_update": {
+          "description": "Priserne på disse varer er ændret og opdateret i din indkøbskurv."
+        },
+        "return_to_store_label": "Tilbage til butik",
+        "item_label": {
+          "one": "{{count}} artikel",
+          "other": "{{count}} artikler"
+        },
+        "continue_cta_label": "Fortsæt til betaling",
+        "unfulfillable_product": {
+          "title": "Levering ikke tilgængelig"
+        },
+        "price_and_quantity_update": {
+          "title": "Opdater pris og mængde",
+          "description": "Priserne og de tilgængelige mængder for disse varer er ændret, og indkøbskurven er opdateret."
+        },
+        "out_of_stock_in_context_label": "Dit produkt er ikke tilgængeligt i dit land/område."
+      },
+      "order_summary": {
+        "title": "Bestillingsoversigt",
+        "order_name_label": "Bestilling %{name}",
+        "add_discount_or_gift_card": "Tilføj en rabatkode eller gavekort",
+        "apply_discount_button_label": "Anvende",
+        "applied_discount_message": "Der er trukket %{amount} rabat fra den samlede pris.",
+        "discount_has_been_applied": "Rabat er anvendt",
+        "discount_has_been_removed": "Rabat er fjernet",
+        "gift_card_has_been_applied": "Gavekort er anvendt",
+        "gift_card_has_been_removed": "Gavekort er fjernet",
+        "discount_already_applied": "Der er anvendt en rabat på denne bestilling. Du kan ikke tilføje en anden rabat.",
+        "cart_does_not_meet_discount_requirements_notice": "Rabatkode <strong style=\"text-transform:uppercase\">%{code}</strong> gælder ikke for varerne i din indkøbskurv",
+        "discount_requires_customer_notice": "Indtast dine leveringsoplysninger for at anvende rabatkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Rabatterkode <strong style=\"text-transform:uppercase\">%{code}</strong> er i øjeblikket ikke tilgængelig for dig",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Rabatterkode <strong style=\"text-transform:uppercase\">%{code}</strong> er ikke tilgængelig for din leveringsadresse",
+        "customer_already_used_once_per_customer_discount_notice": "Rabatten med koden <strong style=\"text-transform:uppercase\">%{code}</strong> er allerede brugt",
+        "subtotal_label": "Delsum",
+        "shipping_label": "Forsendelse",
+        "tip_label": "Drikkepenge",
+        "shipping_policy_link": "Forsendelsesomkostninger",
+        "taxes_label": "for resten",
+        "total_outstanding_label": "Beløb, der skal betales",
+        "payment_due_label": "Skyldig betaling",
+        "vat_label_html": "Inklusive %{amount} moms",
+        "discount_and_gift_card_savings_notice": "Nu med %{discount_amount} rabat og %{gift_card_amount} i gavekortværdi",
+        "discount_savings_notice": "Nu %{discount_amount} rabat",
+        "gift_card_savings_notice": "Na %{gift_card_amount} i gavekortværdi",
+        "cost_table_title": "Kostoversigt",
+        "product_change_label": "Ændre",
+        "scroll_order_summary": "Rul for flere artikler",
+        "expand_order_summary_short": "Visning",
+        "collapse_order_summary_short": "Skjule",
+        "order_total_updated_label": "Opdateret samlet",
+        "total_already_paid_label": "betalt",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} per styk",
+            "one": "%{price} per %{count} artikel",
+            "other": "%{price} per %{count} artikler"
+          }
+        },
+        "pickup_label": "Afhentning i butikken",
+        "no_pickup_location": "Der er ingen afhentningssteder tilgængelige.",
+        "calculating_shipping": "Beregner...",
+        "estimated_taxes_label": "Anslået skat",
+        "information_estimated_taxes_label": "Beregnet belastning",
+        "gift_card_ending": "Gavekort der slutter på %{last_characters}",
+        "estimated_tax_label": "Anslået skat",
+        "multiple_shipping_lines_label": "Samlede forsendelsesomkostninger",
+        "original_price": "Original pris",
+        "sale_price": "Tilbudspris",
+        "recurring_subtotal_label": "Løbende delsum"
       }
     }
   }
