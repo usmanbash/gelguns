@@ -2648,7 +2648,105 @@
           "ship_items_or_search_elsewhere": "%{ship_items} z %{search_elsewhere}"
         },
         "location_address_search_placeholder": "%{postal_code_label} adresy",
-        "location_closest": "Nejbližší místo s vaším artiklem"
+        "location_closest": "Nejbližší místo s vaším artiklem",
+        "toggle_multiple_locations": "Ještě více než %{count} dalších míst",
+        "location_information_far_away": {
+          "one": "Je %{count} místo s vaším artiklem",
+          "other": "Existuje %{count} míst s tvým artiklem"
+        },
+        "location_nearby": {
+          "one": "V blízkosti je %{count} místo s vaším artiklem",
+          "other": "V okolí je %{count} míst s vaším artiklem"
+        },
+        "location_nearby_short": {
+          "one": "%{count} míst v okolí s vaším artiklem",
+          "other": "%{count} míst v okolí s vaším artiklem"
+        },
+        "location_far_away": {
+          "one": "%{count} místo s vaším artiklem",
+          "other": "%{count} míst s vaším artiklem"
+        },
+        "toggle_more_locations": {
+          "one": "Ještě %{count} jiné místo",
+          "other": "Ještě %{count} dalších míst"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Sdílej lokace se svým článkem",
+          "other": "Sdílej lokace se svými položkami"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Žádná místa v %{country} s vaším artiklem",
+          "other": "Žádná místa v %{country} s vašimi položkami"
+        },
+        "title": "Místo"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Vyzvednutí všech položek",
+        "items_for_pickup": "Položky k vyzvednutí",
+        "delivery_method": "Rozdělený způsob doručení",
+        "delivery_method_menu": "Menu rozdělené metody doručení",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} z %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} z %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nelze načíst %{count} položek",
+              "other": "Nelze načíst %{count} položek"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} položek nelze odeslat"
+            }
+          },
+          "remove_item": {
+            "one": "Odstranit položku",
+            "other": "Odstranit položky"
+          },
+          "ship_separately": {
+            "one": "zaslat zvlášť",
+            "other": "zaslat zvlášť"
+          },
+          "pick_them_up_in_store": {
+            "one": "vyzvednout v obchodě",
+            "other": "vyzvednout v obchodě"
+          }
+        },
+        "items_moved_to_shipping_toast": "Položky, které nelze vyzvednout, byly přesunuty k odeslání",
+        "cross_border": {
+          "modal": {
+            "content": "Tímto se všechny položky znovu nastaví na odeslání. Vaše místa vyzvednutí a doručení musí být ve stejné zemi."
+          },
+          "banner": "Způsob doručení byl aktualizován"
+        }
+      },
+      "captcha": {
+        "title": "Projděte CAPTCHA, abyste mohli pokračovat",
+        "errors": {
+          "not_solved": "Projděte CAPTCHA, abyste mohli pokračovat"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Vaše objednávka nemohla být zpracována, protože váš slevový kód již není k dispozici. Zkontrolujte celkovou částku vaší objednávky a zkuste to znovu."
+      },
+      "wallets": {
+        "redirect_hint": "Budete vyzváni k přihlášení do {{walletName}}.",
+        "logged_in": "Připojeno k {{email}}",
+        "shipping_line_label": "Odeslání",
+        "payment_in_progress_body": "Platba se zpracovává. Objednávka je téměř dokončena.",
+        "call_to_action": "Zaplaťte pomocí {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "description": "{{walletName}} nebyla k dispozici. Použijte jinou platební metodu nebo to zkuste později znovu.",
+            "instructions": "Došlo k problému s {{walletName}}. Vraťte se do obchodu a zkuste to znovu nebo zaplaťte jiným způsobem.",
+            "unavailable_for_country": "{{walletName}} není k dispozici v {{countryName}}. Vyberte jiný způsob platby pro dokončení nákupu"
+          },
+          "generic": "Došlo k problému s {{walletName}}. Zkuste to znovu nebo použijte jinou platební metodu.",
+          "terminal": "Došlo k problému s {{walletName}}. Použijte jinou platební metodu.",
+          "detour": {
+            "stock_problems": "Některé položky již nejsou dostupné. Zavřete {{walletName}} a zkuste to znovu.",
+            "price_change": "Ceny některých položek se změnily. Zavřete {{walletName}}, zkontrolujte svou objednávku a zkuste to znovu.",
+            "queue": "Stojíte ve frontě u pokladny. Zavřete {{walletName}}, abyste mohli pokračovat."
+          }
+        }
       }
     }
   }
