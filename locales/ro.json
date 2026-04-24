@@ -802,7 +802,75 @@
       "delivery_options": {
         "ship": "Trimitere",
         "pick_up": "Ridicare",
-        "pick_up_in_two_hours": "De obicei gata în 2 ore"
+        "pick_up_in_two_hours": "De obicei gata în 2 ore",
+        "pick_up_in_four_hours": "De obicei gata în 4 ore",
+        "pick_up_next_day": "Gata de ridicare a doua zi",
+        "pick_up_in_one_hour": "De obicei gata în decurs de 1 oră",
+        "pick_up_in_twenty_four_hours": "De obicei gata în 24 de ore",
+        "pick_up_in_two_to_four_days": "De obicei gata în 2-4 zile",
+        "pick_up_in_five_or_more_days": "De obicei gata în mai mult de 5 zile",
+        "pick_up_in_zero_to_two_hours": "Gata de ridicat peste 2 ore",
+        "pick_up_in_two_to_four_hours": "Gata de ridicare peste 4 ore",
+        "shipping_address": "Adresă de livrare",
+        "pick_up_locations": "Locuri de preluare",
+        "pickup_point_method_definition": "Trimitere către punct de ridicare",
+        "retail_method_definition": "Expedieri din comerțul cu amănuntul",
+        "none_method_definition": "Nicio expediere",
+        "subscription_pickup_information": "Această metodă de livrare se aplică tuturor articolelor din această comandă și tuturor articolelor viitoare pentru acest abonament.",
+        "ship_to_address": "Trimite către adresă",
+        "pick_up_from_store": "Ridicare din magazin",
+        "company_location_no_address_banner": "Comenzile care sunt trimise către locații fără adresă sunt supuse verificării.",
+        "pickup_point_map_title": "Hartă cu puncte de ridicare"
+      },
+      "customer_account": {
+        "sign_in_link_label": "Autentificare",
+        "sign_out_link_label": "Deconectare",
+        "save_my_information_label": "Salvați aceste informații pentru a plăti mai repede data viitoare",
+        "invalid_address": "Adresa selectată este invalidă. %{update_address_link} sau selectați o altă adresă.",
+        "incomplete_address": "Adresa selectată este incompletă. %{update_address_link} sau selectați o altă adresă.",
+        "invalid_shipping_method_summary": "Selectați o adresă de livrare valabilă pentru a vedea metodele de expediere disponibile",
+        "saved_address_option_link": "Folosește o adresă salvată",
+        "saved_address_modal_title": "Folosește adresa mea salvată",
+        "saved_address_option_description": {
+          "one": "Ai {{count}} adrese salvate."
+        },
+        "rollup_accessibility_label": "Opțiuni cont"
+      },
+      "stock": {
+        "page_title": "Problemă de stoc",
+        "title": "Nu este în stoc",
+        "quantity_column_header": "Număr",
+        "removed_from_cart_notice": "Eliminat din coșul de cumpărături",
+        "sold_out_label": "Epuizat",
+        "reduced_with_quantity_label": "Doar %{quantity_available} disponibile în stoc",
+        "remove_from_cart_button_label": "Elimină din coșul de cumpărături",
+        "go_back_to_cart_button_label": "Înapoi la coșul meu de cumpărături",
+        "remove": "Ștergere",
+        "empty_cart_label": "Coșul tău de cumpărături este gol",
+        "quantity_update": {
+          "page_title": "Cantitate actualizată",
+          "title": "Cantitate actualizată",
+          "description": "Cantitățile disponibile pentru aceste articole au fost modificate și coșul tău de cumpărături a fost actualizat."
+        },
+        "unpurchasable_product": {
+          "title": "Produsul nu poate fi cumpărat",
+          "header": "Unele articole au fost eliminate din coșul tău de cumpărături"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produsul nu poate fi cumpărat",
+          "header": "Unele articole au fost eliminate din coșul tău de cumpărături"
+        },
+        "unshippable_product": {
+          "title": "Livrare indisponibilă",
+          "header": {
+            "one": "Livrare indisponibilă pentru %{count} articol(e)",
+            "other": "Livrare indisponibilă pentru %{count} articole"
+          },
+          "message": {
+            "one": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta.",
+            "other": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta."
+          }
+        }
       }
     }
   }
