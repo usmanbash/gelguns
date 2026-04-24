@@ -3526,7 +3526,75 @@
       "due_on_fulfillment": "Da pagare al momento della consegna",
       "due_on_receipt": "Da pagare alla consegna",
       "payment_confirmation": {
-        "payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto."
+        "payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto.",
+        "full_payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto e questo ordine è ora completamente pagato.",
+        "dismiss_label": "Chiudi conferma di pagamento",
+        "payment_authorized": "Grazie! Il saldo verrà aggiornato non appena il pagamento sarà ricevuto."
+      },
+      "marketing_pending_confirmation": "Fai clic sul collegamento nella tua e-mail per confermare.",
+      "marketing_resend_email": "Invia nuovamente l'e-mail",
+      "total_savings": "Risparmio totale",
+      "discount_order_stacking": {
+        "other": "Sconti sugli ordini"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Indirizzo rimosso",
+      "cancel_adding_address_accessibility_label": "Aggiungi indirizzo annulla",
+      "cancel_deletion_button_accessibility_label": "rimuovere {{address}} annullare",
+      "default_address": {
+        "title_accessibility_label": "Indirizzo standard: {{address}}"
+      },
+      "delete_button": "Rimuovere",
+      "delete_button_accessibility_label": "Rimuovere {{address}}",
+      "delete_confirmation_button": "Rimuovi indirizzo",
+      "delete_confirmation_button_accessibility_label": "Rimuovere {{address}}",
+      "delete_confirmation_message": "Rimuovere l'indirizzo? Questo non influirà sugli ordini esistenti.",
+      "loading_accessibility_message": "Caricamento indirizzo",
+      "loading_addresses_accessibility_message": "Caricare indirizzi",
+      "loading_billing_accessibility_message": "Caricamento indirizzi di fatturazione",
+      "loading_finished_accessibility_message": "Nuova pagina con indirizzi caricata",
+      "loading_shipping_accessibility_message": "Caricamento indirizzo di consegna",
+      "pagination": {
+        "load_more": "Carica di più",
+        "load_more_accessibility_label": "Carica altri indirizzi"
+      },
+      "delete_confirmation_title": "Rimuovere l'indirizzo?",
+      "delete_confirmation_description": "Questo non influisce sugli ordini esistenti.",
+      "edit_modal_title": {
+        "shipping": "Modifica indirizzo di consegna"
+      },
+      "add_address_banner": "Aggiungi indirizzi da utilizzare al momento del pagamento",
+      "add_button_text": "Aggiungere",
+      "back_button_accessibility_label": "Torna a modificare l'indirizzo {{address}}",
+      "no_addresses_banner": "Nessun indirizzo aggiunto"
+    },
+    "address_form": {
+      "billing_address": "Usa come indirizzo di fatturazione",
+      "loading_add_form_accessibility_message": "Caricare il modulo per un nuovo indirizzo",
+      "loading_edit_form_accessibility_message": "Caricamento modulo modifica indirizzo",
+      "loading_finished_accessibility_message": "Modulo indirizzo caricato",
+      "attention": "Alla cortese attenzione di",
+      "attention_help_text": "Il nome della persona o del reparto",
+      "loading_form_accessibility_message": "Caricamento modulo indirizzo",
+      "attention_company": "Azienda/c.a."
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nome dell'azienda"
+      },
+      "locations": {
+        "contact_email": "Indirizzo e-mail",
+        "location_picker_label": "Nome della sede",
+        "net_payment_terms_description": "{{name}}: pagamenti dovuti entro {{numberOfDays}} giorni",
+        "payment_details_title": "Dati di pagamento",
+        "payment_terms": "Condizioni di pagamento",
+        "section_title": "Posizione",
+        "shipping_address_required": "Aggiungi un indirizzo di consegna a questa sede per poter effettuare ordini.",
+        "multiple_tax_exemptions": "Ancora {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "it",
+        "tax_exemptions_modal_close": "Chiudere",
+        "taxes_none": "Nessuno"
       }
     }
   }
