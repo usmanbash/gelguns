@@ -942,7 +942,8 @@
           "other": "%{count} discount codes have been changed"
         },
         "discount_codes_removed_or_modified_summary": {
-          "one": "%{count} discount code has been removed or changed"
+          "one": "%{count} discount code has been removed or changed",
+          "other": "%{count} discount codes have been removed or changed"
         }
       },
       "shipping_errors": {
@@ -1436,6 +1437,59 @@
         "discount_applies_to_subscription_items_only": "The discount applies only to subscription items",
         "estimated_taxes_finalization_tooltip_content_short": "Tax rounding after payment",
         "automatic_discount_tooltip": "Automatically applied discounts cannot be removed"
+      },
+      "payment_summary": {
+        "manual_payment_gateway_label": "By hand",
+        "billing_address_title": "Invoice address"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Enter a valid telephone number",
+        "handle_email_invalid": "Enter a valid email address",
+        "email_invalid": "Enter a valid email address",
+        "email_or_phone_blank": "Enter email address or telephone number",
+        "email_or_phone_invalid": "Enter a valid email address or mobile phone number",
+        "address_address2_blank": "Enter an apartment or suite number, etc.",
+        "address_city_blank": "Enter a town",
+        "address_country_not_supported": "We do not ship to this country/region. Please enter a new delivery address and try again.",
+        "address_province_blank": "Select a state/province",
+        "address_phone_blank": "Enter a valid telephone number",
+        "address_zip_blank": "Enter a ZIP or postal code",
+        "address_zip_invalid_for_country": "Enter a valid ZIP or postal code for %{country}",
+        "address_zip_invalid_for_country_and_province": "Enter a valid ZIP or postal code for %{province}, %{country}",
+        "credit_card_name_blank": "Enter your name as it appears on your card",
+        "credit_card_name_invalid": "Enter your name as it appears on your card",
+        "credit_card_start_invalid": "Enter a valid start date for the card",
+        "credit_card_start_month_invalid": "Enter a valid starting month for the card",
+        "credit_card_start_year_invalid": "Enter a valid starting year for the map",
+        "credit_card_verification_value_blank": "Enter the CVV/CVC or security code of your card",
+        "delivery_line_detail_changed": "Some delivery details may have changed. Check your shipping method and try again.",
+        "reduction_code_code_not_found": "Enter a valid discount code or gift voucher",
+        "reduction_code_gift_card_code_invalid": "Enter a valid gift voucher",
+        "reduction_code_gift_card_unusable": "You cannot use a gift voucher to buy another gift voucher",
+        "shipping_line_phone_blank": "Enter a telephone number to use this delivery method",
+        "shipping_line_phone_invalid": "Enter a valid telephone number",
+        "gift_card_already_applied": "This gift voucher has already been applied to your order",
+        "gift_card_disabled": "This gift voucher is no longer available",
+        "gift_card_expired": "This gift voucher has expired",
+        "gift_card_depleted": "There is no money left on this gift voucher",
+        "gift_card_currency_mismatch": "Only gift cards in %{checkout_currency} can be used for this order",
+        "payment_gateway_needs_paid_plan_error": "This payment method cannot currently be used for this shop",
+        "payment_gateway_incompatible_with_multi_currency": "Pay with a credit card to settle this in your local currency",
+        "physical_gift_card_invalid_quantity": "Order lines for physical gift vouchers must have a quantity that matches the number of gift voucher codes.",
+        "physical_gift_card_duplicate_code": "Order line for physical gift voucher contains duplicate code.",
+        "physical_gift_card_invalid_code": "Physical gift voucher code is invalid.",
+        "payment_gateway_not_in_test_mode": "is not built for test orders. This shop cannot accept real orders or process real payments.",
+        "tips_invalid_tip_amount": "Enter a tip of up to %{amount}",
+        "payment_gateway_unsupported_for_subscriptions": "This payment method is not available for subscription orders.",
+        "address_first_name_too_long": "First name is too long (the maximum is 255 characters)",
+        "address_last_name_too_long": "Last name is too long (the maximum is 255 characters)",
+        "address_address1_too_long": "The first address line is too long (the maximum is 255 characters)",
+        "address_address2_too_long": "The second address line is too long (the maximum is 255 characters)",
+        "address_city_too_long": "Place is too long (the maximum is 255 characters)",
+        "address_company_too_long": "Company name is too long (the maximum is 255 characters)",
+        "address_first_name_contains_html_tags": "First name may not contain HTML tags.",
+        "address_last_name_contains_html_tags": "Last name must not contain HTML tags.",
+        "address_address1_contains_html_tags": "Address1 must not contain HTML tags."
       }
     },
     "sentence": {
