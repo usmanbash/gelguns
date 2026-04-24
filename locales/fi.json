@@ -1396,7 +1396,89 @@
         },
         "clear": "Tieto",
         "same_billing_address_checkbox_label": "Toimitusosoite ja laskutusosoite ovat samat",
-        "location_billing_address_label": "Laskutusosoite sijainnista"
+        "location_billing_address_label": "Laskutusosoite sijainnista",
+        "location_shipping_address_label": "Toimitusosoite sijainnista",
+        "no_working_method_error": "Tämä kauppa ei tällä hetkellä voi vastaanottaa maksuja. Päivitä sivu tai palaa myöhemmin.",
+        "brand_not_available": "Tämä kauppa ei hyväksy {{brand}}-kortteja. Käytä maksamiseen toista korttia.",
+        "shipping_rate_updated": "Saatavilla olevat toimitustavat on päivitetty. Vahvista valintasi ennen maksamista.",
+        "billing_address_invalid_phone": "Päivitä puhelinnumero laskutusosoitteeseen {{label}} {{last_digits}} jatkaaksesi.",
+        "billing_address_invalid_phone_no_card": "Päivitä laskutusosoitteen puhelinnumero jatkaaksesi.",
+        "preview_not_available": {
+          "title": "Esimerkkiä ei ole saatavilla",
+          "content": "Älä huoli, tämä nopea kassatoiminto toimii asiakkaillesi.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Anna kelvollinen maksupäivämäärä",
+              "issue_number": "Syötä kelvollinen myyntinumero"
+            },
+            "invalid": {
+              "verification_value": "Syötä kelvollinen CVV/CVC- tai turvakoodi"
+            }
+          }
+        },
+        "simulated_checkout": "Esimerkki ilmestyy pian",
+        "vaulting_agreement_label": "Tallenna maksutietoni %{company} nopeampaa kassalle siirtymistä varten.",
+        "business_customer_vaulting_payment_label": "Valitse tämä maksutapa kassalla ja valtuuta %{company} veloittamaan rahaa tältä kortilta tulevia ostoksia varten tässä myyntipisteessä. Kaikki tähän myyntipisteeseen liitetyt yhteyshenkilöt voivat käyttää tätä maksutapaa.",
+        "purchase_options_and_vaulting_agreement_label": "Yksi tai useampi ostoskorin tuote on tilaus- tai toistuva ostos. Jatkamalla maksua hyväksyt, että veloitamme ostokset automaattisesti valitsemallasi maksutavalla hinnan ja tämän sivun mukaisen aikavälin mukaan, kunnes tilaus päättyy tai peruutat sen itse. Kaikkiin peruutuksiin sovelletaan %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "peruutusehdot",
+        "saved_credit_card_info": "Viimeiset neljä numeroa",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Tallennetut kortit näkyviin"
+        },
+        "expired_cards_info": {
+          "one": "Tililläsi on %{count} vanhentunut kortti. Voit tarkastella ja muokata niitä tililläsi.",
+          "other": "On %{count} vanhentunutta korttia. Voit tarkastella ja muokata niitä tililläsi."
+        },
+        "local_payment_method_receiver_notice": "Tilauksen tekemisen jälkeen saat maksutiedot. Suorita maksu {{dueDays}} päivän kuluessa pankkiautomaatilla tai verkossa.",
+        "order_edit_banner_title": "Maksu {{amount_owed}} on vaadittu",
+        "order_edit_banner_subtitle": "Tilauksesi {{order_number}} on päivitetty. Tarkista nämä muutokset ja maksa vahvistaaksesi tilauksesi.",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Lahjakortin käyttäminen",
+          "manage_label": "Lahjakorttien hallinta"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Kiinnitys räätälöityihin paikan päällä suoritettaviin maksuihin"
+        },
+        "markets_pro_disclaimer_label": "Tekemällä tilauksen hyväksyt ostoksen Global-e:n rekisteröitynä kauppiaana, joka noudattaa Global-e:n %{markets_pro_terms} ja %{privacy_policy} ehtoja, ja jaat tietosi %{shop_name}:n kanssa.",
+        "markets_pro_disclaimer_terms_and_conditions": "yleiset ehdot",
+        "markets_pro_disclaimer_privacy_policy": "tietosuojakäytäntö",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Yleiset ehdot kauppiaille",
+        "markets_pro_disclaimer_privacy_policy_title": "Tietosuojakäytäntö rekisteröidyille myyjille",
+        "purchase_order_number": {
+          "title": "Tilausnumero",
+          "label": "Tilausnumero (valinnainen)"
+        },
+        "alternative_payment_currency_total_notice": "Huomautus: Tililtä veloitetaan %{amount_due}.",
+        "waiting_on_taxes_message": "Päivitä sivu, jos verot eivät lasketa muutamassa sekunnissa.",
+        "waiting_on_taxes_notice": "Verot laskea",
+        "shop_pay_installments_label": "Shop Pay - osamaksu",
+        "delete_credit_card_modal": {
+          "title": "Kortin poisto",
+          "confirmation": "Oletko varma, että haluat poistaa {{brandName}}-laitteen, jonka loppuosa on {{lastDigits}}?"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} jäljellä {{quantity}}:sta"
+        },
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} palautettu {{quantity}}:sta"
+        },
+        "edit_credit_card_modal": {
+          "title": "Muokkaa karttaa",
+          "description": "Voit muuttaa vain korttisi laskutusosoitetta.",
+          "fields": {
+            "card_number": "Kaartin numero",
+            "expiry": "Voimassaolopäivä",
+            "name": "Kasvo kartalla"
+          }
+        },
+        "purchase_options_agreement_label_wallets": "Jos jatkat maksun suorittamista, hyväksyt tällä sivulla mainitut tulevat maksut sekä peruutusehdot.",
+        "gift_card_store_credit": {
+          "add_label": "Lahjakortin tai kauppaluoton lisääminen",
+          "manage_label": "Lahjakorttien tai kauppaluoton hallinta"
+        }
       }
     }
   }
