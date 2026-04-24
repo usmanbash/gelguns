@@ -2659,6 +2659,86 @@
             "cannot_be_shipped": {
               "one": "%{count} položiek nemožno odoslať"
             }
+          },
+          "ship_separately": {
+            "one": "odoslať samostatne",
+            "other": "odoslať samostatne"
+          },
+          "pick_them_up_in_store": {
+            "one": "vyzdvihnúť v obchode",
+            "other": "vyzdvihnúť v obchode"
+          }
+        },
+        "items_for_shipping": "Položky na odoslanie",
+        "items_moved_to_shipping_toast": "Položky, ktoré nie je možné vyzdvihnúť, boli presunuté na odoslanie",
+        "cross_border": {
+          "modal": {
+            "content": "Týmto sa všetky položky opäť nastavia na odoslanie. Miesta vyzdvihnutia a doručenia musia byť v rovnakej krajine."
+          },
+          "banner": "Spôsob doručenia bol aktualizovaný"
+        }
+      },
+      "captcha": {
+        "title": "Prejdite CAPTCHA, aby ste pokračovali",
+        "errors": {
+          "not_solved": "Prejdite CAPTCHA, aby ste pokračovali"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Vaša objednávka nemohla byť spracovaná, pretože váš zľavový kód už nie je platný. Skontrolujte celkovú sumu vašej objednávky a skúste to znova."
+      },
+      "wallets": {
+        "redirect_hint": "Budete vyzvaní na prihlásenie do {{walletName}}.",
+        "logged_in": "Prepojené s {{email}}",
+        "shipping_line_label": "Doručenie",
+        "payment_in_progress_body": "Platba sa spracováva. Objednávka je takmer dokončená.",
+        "call_to_action": "Plaťte s {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nie je k dispozícii",
+            "description": "{{walletName}} nebol k dispozícii. Použite inú platobnú metódu alebo to skúste neskôr znova.",
+            "instructions": "Vyskytol sa problém s {{walletName}}. Vráťte sa do obchodu a skúste to znova alebo zaplaťte iným spôsobom.",
+            "unavailable_for_country": "{{walletName}} nie je dostupná v {{countryName}}. Vyberte inú platobnú metódu na dokončenie nákupu"
+          },
+          "generic": "Vyskytol sa problém s {{walletName}}. Skúste to znova alebo použite inú platobnú metódu.",
+          "terminal": "Vyskytol sa problém s {{walletName}}. Použite inú platobnú metódu.",
+          "detour": {
+            "stock_problems": "Niektoré položky už nie sú dostupné. Zatvorte {{walletName}} a skúste to znova.",
+            "price_change": "Ceny niektorých položiek sa zmenili. Zavrite {{walletName}}, aby ste skontrolovali svoju objednávku a skúste to znova.",
+            "queue": "Ste v rade pri pokladni. Zavrite {{walletName}}, aby ste pokračovali.",
+            "currency_change": "Nemôžete použiť inú adresu s {{walletName}}. Použite pôvodnú adresu alebo skúste inú platobnú metódu."
+          },
+          "unsupported": {
+            "address": "Predajca nemôže doručiť na vybranú doručovaciu adresu.",
+            "postal_code": "Táto lokalita nie je podporovaná",
+            "wallet_is_unavailable": "Nemôžete použiť {{walletName}} s touto adresou. Vyberte inú adresu alebo zatvorte {{walletName}}, aby ste dokončili nákup."
+          },
+          "outdated": {
+            "shipping_method": "Možnosti doručenia tvojej objednávky sa zmenili. Skontroluj svoj výber.",
+            "payment_terms": "Podmienky platby sa zmenili. Skontrolujte svoju objednávku"
+          },
+          "invalid": {
+            "shipping_address": "Zadajte platnú doručovaciu adresu",
+            "shipping_option": "Vyberte platnú možnosť doručenia",
+            "email": "Zadajte platnú e-mailovú adresu",
+            "zone": "Zadajte platný štát/provincie",
+            "postal_code": "Zadajte platné PSČ alebo poštové smerovacie číslo",
+            "billing_must_match_shipping": "Musí zodpovedať doručovacej adrese.",
+            "billing_zone": "Zadajte platný štát/provincie pre fakturačnú adresu",
+            "billing_phone": "Zadajte platné telefónne číslo pre fakturačnú adresu",
+            "billing_zip": "Zadajte platný PSČ alebo poštové smerovacie číslo pre fakturačnú adresu"
+          },
+          "missing": {
+            "first_name": "Zadajte krstné meno",
+            "address2": "Zadajte číslo bytu alebo suity atď.",
+            "city": "Zadajte miesto",
+            "province": "Vyberte štát/provinciu",
+            "country": "Vyberte krajinu/región",
+            "zip": "Zadajte PSČ alebo poštové smerovacie číslo",
+            "billing_first_name": "Zadajte krstné meno pre fakturačnú adresu",
+            "billing_address2": "Zadajte číslo bytu alebo apartmánu a ďalšie údaje pre fakturačnú adresu",
+            "billing_city": "Zadajte miesto pre fakturačnú adresu",
+            "billing_province": "Vyberte štát/provinciu pre fakturačnú adresu"
           }
         }
       }
