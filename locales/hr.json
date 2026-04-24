@@ -1058,7 +1058,83 @@
         "maximum_discount_code_limit_reached": "Dosegnuli ste maksimalan broj kuponskih kodova. Uklonite postojeći kod da biste koristili <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "order_total_label": "Ukupna narudžba",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> trenutno ne radi. Kontaktirajte nas ako trebate pomoć.",
-        "due_on_fulfillment": "Dugovanje kod ispunjenja narudžbe"
+        "due_on_fulfillment": "Dugovanje kod ispunjenja narudžbe",
+        "duties_label": "Carinske pristojbe",
+        "duties_and_taxes_label": "Carine i porezi",
+        "error_duties_tooltip": "Ova narudžba šalje se iz druge zemlje, stoga se pri dostavi mogu naplatiti carine i porezi.",
+        "may_be_charged_on_delivery": "Mogu se naplatiti troškovi dostave",
+        "recurring_total_multiple_label": "Ova narudžba ima ponavljajuće troškove za više artikala.",
+        "deferred_total_due_date_label": "Ukupno dugovanje na {{date}}",
+        "custom_discount": "Prilagođeni popust",
+        "expand_component_information": {
+          "one": "Prikaži %{count} artikala",
+          "other": "Prikazano %{count} artikala"
+        },
+        "collapse_component_information": {
+          "one": "Sakrij %{count} artikala",
+          "other": "Sakrij %{count} artikala"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "other": "%{count} artikala"
+          },
+          "back_to_finalize_order": "Natrag na dovršetak narudžbe"
+        },
+        "alternative_payment_currency_total": "isključeno kao %{amount_due}",
+        "group_title_label": "Dio od '%{group_title}'",
+        "discount_order_stacking": {
+          "other": "Popusti na narudžbe"
+        },
+        "price_per_item": {
+          "label": "%{price}/kom."
+        },
+        "updated_shipping_method": "Ažurirana metoda dostave: %{shipping_method}",
+        "discount_not_found": "Nije moguće pronaći valjani popust koji odgovara unesenom kodu",
+        "total_savings": "Ukupna ušteda",
+        "return_restocking_fee_label": "Troškovi opskrbe biljem",
+        "return_shipping_fee_label": "Povrat robe",
+        "enter_shipping_address": "Unesite adresu dostave",
+        "shipping_discount_title": "Popust na dostavu",
+        "discount_code_applied": "Popustni kod primijenjen",
+        "discount_code_applied_with_code": "Kod za popust %{code} je primijenjen",
+        "gift_card_applied": "Poklon bon primijenjen",
+        "duties_included_label": "Ukupno uključuje poreze i carinske pristojbe. Nema dodatnih troškova pri dostavi.",
+        "deferred_balance_info": {
+          "title": "Stanje od {{amount_due}} dospijeva na {{due_at}}.",
+          "due_on_fulfillment_title": "Stanje od {{amount_due}} dospijeva na naplatu prilikom ispunjenja narudžbe"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kod za popust potreban za kvalificiranog kupca",
+        "subtotal_label_with_quantity": {
+          "one": "Međuzbroj · %{count} artikl",
+          "other": "Međuzbroj · %{count} artikala"
+        },
+        "cost_table_value_column_header": "vrijednost",
+        "product_image_quantity_label": "Broj",
+        "more_items_modal": {
+          "clear_search": "Očisti pretragu",
+          "empty_results": "Nema rezultata za '%{searchText}'. Provjerite pravopis ili upotrijebite drugu riječ ili izraz.",
+          "number_items_shown": "%{shownNumber} od %{totalNumber} artikala",
+          "search_item": "Pretraži"
+        },
+        "number_items": {
+          "other": "%{count} artikala"
+        },
+        "view_all_items": {
+          "one": "Pregledajte %{count} artikala",
+          "other": "Pogledajte svih %{count} artikala"
+        },
+        "price_after_discount_aria_text": "Cijena s popustom",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Slanje na adresu"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nema dostupnih trgovina s tvojim artiklom",
+          "other": "Nema trgovina dostupnih s tvojim artiklima"
+        },
+        "deposit_label": "Predujam",
+        "total_due_today_label": "Ukupno dugujete danas",
+        "total_due_later_label": "Ukupno dugovanje kasnije",
+        "discount_code_allocations_mismatch": "Vaš kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> je promijenjen. Provjerite svoju košaricu i pokušajte ponovno."
       }
     }
   }
