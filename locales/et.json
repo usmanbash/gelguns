@@ -4150,7 +4150,71 @@
         "pagination": {
           "load_more": "Laadi rohkem",
           "load_more_accessibility_label": "Laadi veel asukohti"
-        }
+        },
+        "own_role_contact_name": "Sina",
+        "staff_and_permissions_title": "Töötajad ja volitused",
+        "location_picker_accessibility_label": "Asukoha nimi: {{locationName}}",
+        "deposit_percentage": "{{percentage}} sissemakse"
+      },
+      "location_selection": {
+        "description": "Kui sul on juba tooteid ostukorvis, võib asukoha muutmine mõjutada hindasid ja koguseid ostukorvis.",
+        "list_accessibility_label": "Asukohaloend",
+        "list_item_without_address_accessibility_label": "{{name}}: geeniaadress",
+        "list_loading_accessibility_message": "Asukohaloendi laadimine",
+        "list_loading_address_accessibility_message": "Aadressi laadimine kohas {{locationName}}",
+        "list_loading_finished_accessibility_message": "Asukohaloend on laaditud",
+        "loading_store_accessibility_message": "Teel poodi",
+        "selection_cancel_button": "Tühista",
+        "selection_confirmation_button": "Vali asukoht",
+        "title": "Millise asukoha jaoks ostad?",
+        "continue_to_store": "Jätka poodi",
+        "no_location_title": "Ainult isiklikud tellimused",
+        "no_location_description": "Sul ei ole enam õigust esitada tellimusi {{company}} jaoks. Sa võid siiski esitada isiklikke tellimusi.",
+        "no_locations_found": "Geenide asukohad leitud",
+        "search": "Asukohtade otsimine",
+        "clear_search": "Otsingu tühjendamine",
+        "try_new_search": "Proovi uut otsingut",
+        "search_location_title": "Vali asukoht",
+        "selection_continue_button": "Jätka",
+        "description_switch_later": "Saad hiljem alati vahetada",
+        "title_choose_location": "Vali asukoht"
+      },
+      "addresses": {
+        "add_billing_address_button": "Arve aadressi lisamine",
+        "add_billing_address_section_accessibility_label": "Arve aadressi lisamine",
+        "add_shipping_address_button": "Tarneaadressi lisamine",
+        "add_shipping_address_section_accessibility_label": "Tarneaadressi lisamine",
+        "billing_address_card_title": "Arve aadress",
+        "cancel_adding_billing_address_accessibility_label": "Arve aadressi lisamine tühistamine",
+        "cancel_adding_shipping_address_accessibility_label": "Tarneaadressi lisamine tühistamine",
+        "save_new_billing_address_accessibility_label": "Arve aadressi salvestamine",
+        "save_new_shipping_address_accessibility_label": "Tarneaadressi salvestamine",
+        "shipping_address_card_title": "Kohaletoimetamise aadress"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Peida kõik",
+          "show_all": "Kuva ainult aktiivsed",
+          "hide_all_accessibility_label": "Peida kõik tellimused, mis on ülevaatamisel",
+          "show_all_accessibility_label": "Kuva kõik tellimused ülevaatamisel",
+          "title": "Käsitlemisel",
+          "pagination": {
+            "nav_accessibility_label": "Tellimuste hindamise navigeerimisnupud"
+          },
+          "show_all_orders_in_review": "Kuva kõik tellimused ülevaatamisel",
+          "show_less_orders_in_review": "Näita vähem tellimusi ülevaatamisel",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Sul ei ole ühtegi tellimust töötlemisel",
+            "pending_orders": {
+              "one": "Sul on {{count}} tellimus töös",
+              "other": "Sul on {{count}} tellimust töös"
+            },
+            "more_than_pagination_length": "Sul on üle {{count}} tellimuse töötlemisel"
+          },
+          "pending_orders_count_more_than_pagination_length": "rohkem kui {{count}}"
+        },
+        "order_list_column_headers_location": "Asukoht",
+        "order_list_column_headers_contact": "Võta ühendust"
       }
     }
   }
