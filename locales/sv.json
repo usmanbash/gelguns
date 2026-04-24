@@ -1872,7 +1872,75 @@
         "out_for_delivery_local_description_html": "Du kommer snart att få din beställning.",
         "delivered_local_title": "Din beställning har levererats",
         "delivered_local_description_html": "Har du inte fått din beställning än? %{let_us_know}.",
-        "let_us_know": "Låt oss veta det"
+        "let_us_know": "Låt oss veta det",
+        "qr_code": {
+          "title": "Följ upp på din telefon"
+        },
+        "gift_card_confirmation_by_text": "Om du inte har fått detta, låt sms:et skickas igen eller kontakta oss.",
+        "gift_card_confirmation_by_email": "Om du inte har fått detta, låt e-posten skickas igen eller kontakta oss.",
+        "resend_gift_cards": "Skicka presentkortet igen",
+        "attempted_delivery_local_description_html": "Vi kunde tyvärr inte leverera din beställning. %{contact_us} för att planera en ny leverans.",
+        "thank_you_title_payment": "Din betalning är bekräftad",
+        "thank_you_confirmed_order_with_email_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Du har gjort en betalning för din beställning %{date}.",
+        "estimated_delivery": "Aktuell leveransberäkning:",
+        "thank_you_title_review": "Din beställning har skickats för granskning",
+        "thank_you_confirmed_order_with_draft": "Vi meddelar dig när vi behöver mer information eller när din beställning har bekräftats.",
+        "breadcrumbs_submitted": "Inlämnad",
+        "breadcrumbs_in_review": "För bedömning",
+        "missing_shipping_address_banner": {
+          "title": "Beställningen har ingen leveransadress"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Vänd dig igen till försäljningsmedarbetaren.",
+        "order_status_confirmed_with_installments_payment_confirm": "Du kommer snart att få ett bekräftelsemejl med ditt ordernummer och detaljerna för din delbetalningsplan.",
+        "in_store_purchase": "Köp i butik",
+        "purchase_order_number_title": "Beställningsnummer %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Beställningen har hämtats på %{address}.",
+        "ready_for_delivery": "Klar för leverans",
+        "order_updates_subscribe_to_email_notifications_failed": "Vi kan inte spara denna e-postadress för uppdateringar. Försök igen eller använd en annan e-postadress.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Den e-postadress du angav finns redan.",
+        "subscriptions_management": {
+          "description": "Fortsätt till ditt konto för att se och hantera dina prenumerationer."
+        },
+        "manage_order_label": "Hantera din beställning",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Om några minuter får du ett sms med ditt presentkort.",
+          "other": "Om några minuter får du ett sms med dina presentkort."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Om några minuter får du ett sms med ditt presentkort.",
+          "other": "Om några minuter får du ett sms med dina presentkort."
+        },
+        "gift_card_email_title": {
+          "one": "Presentkortet har skickats via e-post",
+          "other": "Presentkort har skickats via e-post"
+        },
+        "gift_card_text_title": {
+          "one": "Presentkortet har skickats via sms",
+          "other": "Presentkorten har skickats via sms"
+        },
+        "resend_gift_cards_by_email": "Skicka e-post igen",
+        "gift_card_resent_confirmation": {
+          "one": "Presentkortet har skickats igen.",
+          "other": "Presentkorten har skickats igen."
+        },
+        "gift_card_resend_failure": {
+          "one": "Det uppstod ett problem när presentkortet skulle skickas om. Försök igen eller kontakta oss.",
+          "other": "Det uppstod ett problem när dina presentkort skulle skickas om. Försök igen eller kontakta oss."
+        },
+        "failed_pending_payment_page_title": "Det finns ett problem med din betalning",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Vi har mottagit din beställning",
+        "thank_you_title_payments_app_failed_pending_payment": "Din betalning kan inte behandlas",
+        "thank_you_payments_app_failed_pending_payment": "Din beställning är ännu inte betald. Gå tillbaka till din kundvagn för att kontrollera och betala din beställning.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Du kommer snart att få ett bekräftelsemejl. Du kan följa din beställning via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Du kommer snart att få ett bekräftelsemejl. Du kan följa din beställning via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Du får snart ett sms som bekräftelse. Du kan följa din beställning via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Efter att betalningen är slutförd får du ett bekräftelsemejl. Du kan följa din beställning via Butiksappen.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter att betalningen är slutförd får du ett bekräftelsemejl. Du kan följa din beställning via Butiksappen."
       }
     }
   }
