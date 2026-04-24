@@ -2128,7 +2128,79 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "При плащане ще получите имейл за потвърждение с номера на поръчката."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "При плащане ще получите имейл за потвърждение с номера на поръчката.",
+        "vat_invoices": {
+          "title": "Фактури за Btw"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Вашето плащане се обработва. Ще получите имейл, когато плащането ви бъде потвърдено.",
+        "verify_shop_account_title": "Потвърдете своя Shop акаунт",
+        "verify_shop_account_message": "Вашата информация е запазена в Shop. Потвърдете акаунта си, за да я използвате автоматично в милиони магазини.",
+        "verify_shop_account_cta": "Потвърждаване на акаунта ви",
+        "verify_shop_account_confirmation": "Данните за плащане са запазени",
+        "company_location_section_title": "Фирма и местоположение",
+        "announcement": {
+          "close": "Затвори",
+          "expand": "Разгъни",
+          "collapse": "Прибиране"
+        },
+        "confirmed_items_count": "%{confirmed_count} от %{total_count} артикула са потвърдени",
+        "thank_you_confirmed_orders_with_email": "В скоро време ще получите отделни имейли за потвърждение с вашите номера на поръчки",
+        "thank_you_confirmed_orders_with_phone": "Наскоро ще получите отделни потвърждаващи SMS-и с вашите номера за поръчка",
+        "thank_you_confirmed_orders_with_email_and_phone": "В скоро време ще получите отделни имейли за потвърждение с вашите номера на поръчки",
+        "track_your_order_link_text": "Проследяване на вашата поръчка",
+        "checkout_on_remote_shop_link_text": "Плащане в %{remoteShopName}",
+        "confirmed_orders_title": "Вашите поръчки са потвърдени",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Има непотвърдени артикули"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "За това не са начислявани разходи",
+          "other": "За това не са начислявани разходи"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} артикула"
+        },
+        "payment_method_not_charged": "Не е приспаднато",
+        "items_fulfilled_by_store": {
+          "one": "Статиите, които сте закупили, са от %{remote_shop_name}.",
+          "other": "Артикулите, които сте закупили, са от други магазини."
+        },
+        "checkout_on_another_store": "Плащане в друг магазин",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "В скоро време ще получите имейл за потвърждение",
+          "multi_store": "В скоро време ще получите отделен имейл за потвърждение от всеки магазин"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "В скоро време ще получите потвърждаващо SMS съобщение",
+          "multi_store": "В скоро време ще получите потвърждаващо SMS от всеки магазин"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "В скоро време ще получите имейл за потвърждение",
+          "multi_store": "В скоро време ще получите отделен имейл за потвърждение от всеки магазин"
+        },
+        "checkout_again": "Извършете отново плащането",
+        "cashback_notice": "Ще получите кешбека си след 30 дни"
+      },
+      "review": {
+        "title": "Рецензия",
+        "review_title": "Завърши поръчката",
+        "blocks": {
+          "shipping_address_title": "Изпращане до",
+          "shipping_method_title": "Метод на доставка",
+          "change_link_label": "Промени",
+          "change_contact_method_link_label": "Промяна на контактната информация",
+          "change_billing_address_link_label": "Промяна на адрес за фактура",
+          "change_shipping_address_link_label": "Промяна на адрес за доставка",
+          "change_shipping_method_link_label": "Промяна на метода на доставка"
+        }
       }
     }
   }
