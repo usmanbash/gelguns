@@ -4119,6 +4119,84 @@
       },
       "failed_address_update": {
         "description": "Възникна проблем при актуализирането на адреса ти. Презареди тази страница или провери интернет връзката си."
+      },
+      "no_access_to_locations": {
+        "description": "Нямате достъп до локации"
+      },
+      "not_found": {
+        "description": "Проверете URL адреса или опитайте отново след няколко минути.",
+        "title": "Възникна проблем при зареждането на тази страница"
+      },
+      "order_not_found": {
+        "description": "Тази поръчка не съществува или нямате разрешение да я преглеждате.",
+        "title": "Поръчката не е намерена"
+      },
+      "profile_update_error": {
+        "description": "Възникна проблем при актуализирането на профила ти. Презареди тази страница или провери интернет връзката си."
+      },
+      "retry_action_label": "Опитайте отново",
+      "load_orders_error": {
+        "title": "Не може да се заредят поръчките",
+        "retry_button": "Опитайте отново"
+      },
+      "load_paypal_error": {
+        "description": "Възникна проблем при зареждането на PayPal. Моля, опитайте отново."
+      },
+      "load_extension_error": {
+        "description": "Обновете тази страница или опитайте отново след няколко минути.",
+        "refresh_button": "Обнови страницата"
+      },
+      "already_upgraded": "Потребителските акаунти вече са обновени.",
+      "failed_to_upgrade": "Актуализирането на настройките на клиентския акаунт не бе успешно.",
+      "logout_everywhere": {
+        "description": "Възникна проблем при излизането. Моля, опитайте отново."
+      },
+      "resend_link": {
+        "too_many_requests": "Твърде много заявки. Моля, опитайте отново по-късно.",
+        "generic": "Заявката не бе успешна"
+      },
+      "profile_name_update_error": {
+        "description": "Възникна проблем при актуализирането на името ти. Презареди тази страница или провери интернет връзката си."
+      },
+      "load_address_form_error": {
+        "title": "Не може да се зареди формулярът за адрес",
+        "description": "Не може да се зареди формулярът за адрес.",
+        "refresh_button": "Обнови страницата"
+      },
+      "not_upgraded": "Потребителските акаунти не са надградени.",
+      "failed_to_revert": "Възстановяването на настройките на клиентския акаунт не бе успешно.",
+      "revert_window_expired": "Периодът за възстановяване е изтекъл."
+    },
+    "payment_methods": {
+      "add_payment_method_button": "Добавяне на метод за плащане",
+      "payment_details": {
+        "title": "Данни за начина на плащане",
+        "preauthorized_payments": "Предварително упълномощени плащания",
+        "close_payment_modal": "Затвори",
+        "close_payment_modal_accessibility_label": "Модален данни метод на плащане затвори",
+        "payment_method_not_found_error": "Не може да се намери метод на плащане",
+        "payment_details_loading": "Зареждане на данни за начина на плащане",
+        "pre_authorized_payments": "Предварително упълномощени плащания",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Общо {{totalItems}} артикула; показват се {{totalItemsToDisplay}} артикула.",
+        "next_payment_due": "Следващо плащане дължимо на {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Редактиране на начина на плащане, който завършва на {{lastDigits}}",
+        "credit_card_details_accessibility_label": "завършващ на {{lastDigits}}",
+        "billing_title": "Адрес за фактура",
+        "card_info_title": "Данни за картата",
+        "payment_method_expired_on": "Изтекъл на {{expiryDate}}",
+        "loading_shop_pay": "Плати с Shop Pay",
+        "invalid_payment_method": "Невалиден метод на плащане",
+        "invalid_payment_method_message": "Използвайте нова кредитна карта, за да продължите да получавате бъдещи поръчки.",
+        "replace_payment_method": "Смяна на метода на плащане",
+        "checkout_card_banner": "Можете да използвате този метод на плащане само за предварително упълномощени плащания. Той няма да се показва при завършване на поръчката, ако сте влезли в този магазин.",
+        "default_checkbox": "Задай като стандартно",
+        "default_checkbox_accessibility_label": "Настройте този метод на плащане като стандартен"
+      },
+      "delete_payment_method_button": "Премахване",
+      "delete_payment_method_button_accessibility_label": "Премахване на {{paymentMethodName}}",
+      "back_button_accessibility_label": "Върнете се към {{paymentMethodStepTitle}}",
+      "payment_delete": {
+        "title": "Премахване на метод за плащане"
       }
     }
   }
