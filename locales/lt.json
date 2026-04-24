@@ -1840,7 +1840,75 @@
         "test_mode_enabled_only_test_cards": "Testavimo režimas įjungtas, galima pridėti tik testines kreditines korteles.",
         "captcha_required": "Įveskite mokėjimo duomenis ir išspręskite captcha, kad užbaigtumėte pirkimą.",
         "captcha_required_without_payment_information": "Įveskite captcha, kad užbaigtumėte pirkimą.",
-        "shipping_company_required_error": "{{shopName}} reikalauja įmonės pavadinimo pristatymo adresui."
+        "shipping_company_required_error": "{{shopName}} reikalauja įmonės pavadinimo pristatymo adresui.",
+        "payment_credential_delegation_error": "Įvyko problema apdorojant jūsų mokėjimą. Pasirinkite naują mokėjimo būdą.",
+        "cancelled_payment": "Jūsų mokėjimas buvo atšauktas. Pabandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+        "currency": {
+          "no_longer_supported": "Parduotuvės valiuta nebeprieinama."
+        },
+        "installments_payment_method_incompatible": "Pasirinkta mokėjimo priemonė negali būti naudojama daliniams mokėjimams. Pasirinkite kitą mokėjimo būdą."
+      },
+      "shipping_errors": {
+        "shipping_method": "Jūsų užsakymo siuntimo parinktys pasikeitė. Patikrinkite savo pasirinkimą.",
+        "shipping_method_not_available": "Jūsų prekių krepšelis atnaujintas, tačiau pridėti daiktai negali būti pristatyti į jūsų adresą. Pašalinkite šiuos daiktus, kad galėtumėte užbaigti užsakymą.",
+        "shipping_method_not_available_generic": {
+          "one": "Jūsų užsakymas negali būti išsiųstas į pasirinktą adresą. Patikrinkite, ar adresas teisingas, ir bandykite dar kartą, arba pasirinkite kitą adresą.",
+          "other": "Kai kurių prekių iš jūsų krepšelio negalima pristatyti į nurodytą adresą. Patikrinkite, ar adresas teisingas, ir bandykite dar kartą arba pasirinkite kitą adresą."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Prekė, kurią pridėjote, nebus siunčiama į jūsų vietovę. Pašalinkite šią prekę, kad galėtumėte atsiskaityti, arba susisiekite su parduotuve.",
+          "other": "Vienas ar daugiau prekių, kurias pridėjote, negali būti pristatytos į jūsų vietovę. Pašalinkite prekes, kad galėtumėte atsiskaityti, arba susisiekite su parduotuve."
+        },
+        "payment_method_not_supported": "Negalite naudoti šio mokėjimo būdo %{country}. Naudokite kitą mokėjimo būdą, kad galėtumėte siųsti į šią šalį.",
+        "empty_state": "Įveskite pristatymo adresą, kad pamatytumėte galimus siuntimo būdus.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Krepšelyje yra prekių, kurios neatitinka kainos ar svorio reikalavimų, kad būtų galima jas siųsti. Atnaujinkite krepšelį ir bandykite dar kartą.",
+        "title": "Pristatymas nepasiekiamas",
+        "invalid_selected_address": "Pasirinktas pristatymo adresas yra neteisingas",
+        "invalid_selected_address_with_update_link": "Pasirinktas pristatymo adresas yra neteisingas. %{update_address_link} arba pasirinkite kitą adresą.",
+        "unavailable_selected_address": "Pristatymas nepasiekiamas pasirinktu adresu",
+        "unavailable_selected_address_for_region": "Pristatymas nėra galimas į {{region}}. Pasirinkite kitą adresą, kad tęstumėte",
+        "unavailable_addresses_only_countries": "Jūsų užsakymas gali būti išsiųstas tik į {{countriesList}}. Pridėkite naują adresą, kad tęstumėte.",
+        "unavailable_address_country": "Pristatymas į pasirinktą šalį negalimas. Įveskite kitą adresą, kad tęstumėte."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Greitas atsiskaitymas",
+        "or": "IŠ",
+        "show_more_options": "Rodyti daugiau parinkčių",
+        "hide_more_options": "Slėpti daugiau parinkčių",
+        "or_pay_another_way": "Arba mokėkite kitaip",
+        "or_check_out_another_way": "Apmokėti kitu būdu arba kitaip",
+        "or_pay_with_credit_card": "Arba mokėkite kreditine kortele"
+      },
+      "processing": {
+        "redirecting_page_title": "Peradresuoti…",
+        "redirecting_title": "Peradresuoti…",
+        "redirecting_notice": "Jūs būsite nukreiptas.",
+        "complete_your_purchase_title": "Užbaigti pirkimą",
+        "continue_to_payment_gateway_notice": "Eikite į apmokėjimą, kad pridėtumėte savo mokėjimo duomenis.",
+        "continue_to_payment_gateway_button_label": "Eiti į apmokėjimą",
+        "complete_your_purchase_title_error": "Pataisykite savo mokėjimo informaciją",
+        "continue_to_payment_gateway_notice_error": "Jūsų mokėjimo duomenų negalima patvirtinti.",
+        "continue_to_payment_gateway_button_label_error": "Atnaujinti mokėjimo duomenis",
+        "your_order_has_been_received_title": "Ačiū už jūsų užsakymą",
+        "you_will_receive_confirmation": "Šiuo metu gauname labai daug užsakymų. Netrukus turėtumėte gauti patvirtinimą el. paštu arba SMS žinute. Prašome pranešti, jei per valandą jo negausite.",
+        "wait": {
+          "short": "Jūsų užsakymas yra apdorojamas.",
+          "medium": {
+            "one": "Jūsų užsakymas apdorojamas. Numatomas laukimo laikas yra %{count} minutė.",
+            "other": "Jūsų užsakymas apdorojamas. Numatomas laukimo laikas yra %{count} minutės."
+          },
+          "long": "Jūs gausite el. laišką, kai jūsų užsakymas bus apdorotas. Šiuo metu yra daug užsakymų.",
+          "no_auto_refresh_html": "%{link} jei nebūsite automatiškai peradresuoti.",
+          "refresh_this_page": "Įkelti šį puslapį iš naujo"
+        },
+        "you_will_not_be_charged": "Dar nėra jokių mokesčių",
+        "action_required": "Veiksmas reikalingas",
+        "redirecting_to_bank": "Peradresuoti į {{bank}}",
+        "modal_notice": "Mes susisieksime su {{paymentMethod}}",
+        "remote_shops_payments_processing": "Apdoroti mokėjimą"
+      },
+      "failed_payment": {
+        "payment_not_processed_title": "Jūsų mokėjimo negalima apdoroti."
       }
     }
   }

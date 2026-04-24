@@ -619,7 +619,139 @@
           "due_today": "Kopējā šodienas parādsaistība",
           "due_later": "Kopējā summa, kas jāmaksā līdz %{due_at}",
           "due_later_checkout_to_draft": "Kopējā vēlākā samaksa",
-          "due_on_fulfillment": "Kopējā summa, kas jāmaksā pie izpildes"
+          "due_on_fulfillment": "Kopējā summa, kas jāmaksā pie izpildes",
+          "due_on_receipt": "Kopējā samaksa saņemšanas brīdī",
+          "total_paid": "Kopā samaksāts",
+          "due_today_next": "Šodien jāmaksā",
+          "due_on_fulfillment_next": "Maksājiet pie izpildes"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nevar izmantot kopā ar jūsu esošajiem atlaidēm.",
+        "maximum_discount_code_limit_reached": "Jūs esat sasniedzis maksimālo atlaides kodu skaitu. Dzēsiet esošu kodu, lai izmantotu <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Kopējais pasūtījums",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> pašlaik nedarbojas. Sazinieties ar mums, ja jums nepieciešama palīdzība.",
+        "due_on_fulfillment": "Jāmaksā pie izpildes",
+        "subscriptions": "Abonementi",
+        "duties_label": "Muitas nodevas",
+        "duties_and_taxes_label": "Muitas nodevas un nodokļi",
+        "error_duties_tooltip": "Šo pasūtījumu sūta no citas valsts, tāpēc piegādes brīdī var tikt piemēroti muitas nodokļi un nodokļi.",
+        "may_be_charged_on_delivery": "Par piegādi var tikt iekasēta maksa",
+        "total_updated_label_with_price": "Atjauninātā kopējā cena: %{totalPrice}",
+        "recurring_payments": "Atkārtotas maksāšanas",
+        "recurring_total_multiple_label": "Šim pasūtījumam ir atkārtotas maksas par vairākiem priekšmetiem.",
+        "deferred_total_due_date_label": "Kopējā parādsaistība uz {{date}}",
+        "full_price": "Pilna cena: %{price}",
+        "custom_discount": "Pielāgota atlaide",
+        "expand_component_information": {
+          "one": "Rādīt %{count} preces",
+          "other": "Rādīt %{count} preces"
+        },
+        "collapse_component_information": {
+          "one": "Paslēpt %{count} preces",
+          "other": "Paslēpt %{count} preces"
+        },
+        "discount_discovery": {
+          "add_code": "Pievienot atlaidi",
+          "merchandise_quantity_label": {
+            "one": "%{count} prece",
+            "other": "%{count} preces"
+          },
+          "back_to_finalize_order": "Atpakaļ uz pasūtījuma pabeigšanu"
+        },
+        "alternative_payment_currency_total": "norakstīts kā %{amount_due}",
+        "calculating": "Notiek aprēķināšana...",
+        "group_title_label": "Daļa no '%{group_title}'",
+        "discount_title_stacking": {
+          "one": "Atlaide",
+          "other": "Atlaides"
+        },
+        "discount_order_stacking": {
+          "one": "Pasūtījuma atlaide",
+          "other": "Pasūtījumu atlaides"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} par vienību",
+          "label": "%{price}/gab."
+        },
+        "updated_shipping_method": "Atjauninātā piegādes metode: %{shipping_method}",
+        "discount_not_found": "Nevar atrast derīgu atlaidi, kas atbilst ievadītajam kodam",
+        "total_savings": "Kopējā ietaupījuma summa",
+        "return_restocking_fee_label": "Zāļu krājumu uzpildes izmaksas",
+        "return_shipping_fee_label": "Atgriešana",
+        "enter_shipping_address": "Piegādes adrese ievadīt",
+        "shipping_discount_title": "Piegādes atlaide",
+        "discount_code_applied": "Kupona kods piemērots",
+        "discount_code_applied_with_code": "Kortinga kods %{code} ir piemērots",
+        "gift_card_applied": "Dāvanu karte izmantota",
+        "duties_included_label": "Kopējā summa ietver nodokļus un muitas nodevas. Piegādes laikā nav papildu maksājumu.",
+        "deferred_balance_info": {
+          "title": "Salds {{amount_due}} ir jāmaksā līdz {{due_at}}.",
+          "due_on_fulfillment_title": "Rēķina summa {{amount_due}} ir jāmaksā pasūtījuma izpildes brīdī"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> atlaides kods nepieciešams piemērojamam klientam",
+        "subtotal_label_with_quantity": {
+          "one": "Starpsumma · %{count} prece",
+          "other": "Mezsumma · %{count} preces"
+        },
+        "cost_table_item_column_header": "Raksts",
+        "cost_table_value_column_header": "Vērtība",
+        "product_image_quantity_label": "Skaits",
+        "more_items_modal": {
+          "clear_search": "Meklēšanas darbības dzēšana",
+          "empty_results": "Nav atrasti rezultāti priekš '%{searchText}'. Pārbaudiet pareizrakstību vai izmantojiet citu vārdu vai citu teikumu.",
+          "number_items_shown": "%{shownNumber} no %{totalNumber} rakstiem",
+          "search_item": "Meklēt"
+        },
+        "number_items": {
+          "one": "%{count} prece",
+          "other": "%{count} preces"
+        },
+        "view_all_items": {
+          "one": "Skatīt %{count} preces",
+          "other": "Skatīt visus %{count} rakstus"
+        },
+        "price_before_discount_aria_text": "Oriģinālā cena",
+        "price_after_discount_aria_text": "Atlaides cena",
+        "discount_code_aria_text": "Atlaides kods",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Sūtīt uz adresi",
+          "ship_to_address_instead_html": "%{link} tā vietā"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nav pieejamu veikalu ar tavu preci",
+          "other": "Nav pieejamu veikalu ar tavām precēm"
+        },
+        "deposit_label": "Avanss",
+        "total_due_today_label": "Kopējā šodienas parādsaistība",
+        "total_due_later_label": "Kopējā vēlākā samaksa",
+        "discount_code_allocations_mismatch": "Tava atlaides koda <strong style=\"text-transform:uppercase\">%{code}</strong> ir mainīts. Pārbaudi savu iepirkumu grozu un mēģini vēlreiz.",
+        "deferred_total_due_date_label_next": "Parādā līdz %{date}",
+        "total_due_label": "Kopējā parādsaistība",
+        "total_price_label": "Kopējā cena",
+        "for_add_on": "Priekš: %{group_title}",
+        "unconfirmed_label": "Nav apstiprināts",
+        "total_paid_label": "Kopā samaksāts",
+        "from_shop_heading": "Pārdod %{shop_name}",
+        "from_other_stores_heading": "No citām veikalām",
+        "order_discounts_apply_to_local_shop": "Pasūtījumu atlaides attiecas tikai uz %{shop_name} precēm",
+        "gift_cards_apply_to_local_shop": "Dāvanu kuponi derīgi tikai priekšmetiem no %{shop_name}",
+        "estimated_taxes_label_short": "Novērtēts",
+        "discount_code_removed": "Kupona kods %{code} ir dzēsts",
+        "discount_code_replaced": "Kupona kods %{old_code} ir dzēsts un %{code} ir piemērots",
+        "discount_code_replaced_multiple": "Vairāki atlaižu kodi ir dzēsti un ir piemērots %{code}",
+        "from_multiple_stores_heading": "No vairākiem veikaliem",
+        "pay_merchant_label": "Maksāt %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Atlaide attiecas tikai uz abonēšanas precēm",
+        "estimated_taxes_finalization_tooltip_content_short": "Nodokļa noapaļošana pēc maksājuma",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nav pieejamu veikalu %{country} ar tavu preci",
+          "other": "Nav pieejamu veikalu %{country} ar tavām precēm"
+        },
+        "compare_at_sale": "Izpārdošana (%{sale_amount})",
+        "tax_line": {
+          "hst": "HST",
+          "gst": "PVN",
+          "pst": "PST",
+          "rst": "RST"
         }
       }
     }
