@@ -1337,7 +1337,69 @@
           "other": "Betaling med kreditkort eller betalingskort er i øjeblikket ikke tilgængelig.<br><a href=\"%{current_url}\">Opdater denne side</a> eller prøv en anden betalingsmetode."
         },
         "card_fields_processing_error": "Der opstod et problem med behandlingen af betalingen. Opdater denne side eller tjek din internetforbindelse.",
-        "technical_error": "På grund af et teknisk problem kan betalinger i øjeblikket ikke behandles. Prøv igen om et par minutter."
+        "technical_error": "På grund af et teknisk problem kan betalinger i øjeblikket ikke behandles. Prøv igen om et par minutter.",
+        "no_method_error": "Denne butik kan i øjeblikket ikke acceptere betalinger.",
+        "not_configured_error": "Denne butik kan i øjeblikket ikke acceptere betalinger.",
+        "missing_credit_card_error": "Indtast dine kortoplysninger for at fuldføre betalingen",
+        "generic_incorrect_card_info": "Dine betalingsoplysninger kan ikke bekræftes. Kontroller dine kortoplysninger og prøv igen.",
+        "sofort_label": "Med det samme",
+        "klarna_pay_later_label": "Betal bagefter med Klarna",
+        "eps_label": "eps-overførsel (eps-overførsel)",
+        "klarna_slice_it_label": "Økonomi med Klarna",
+        "card_expiration_month_label": "Vervalmaand",
+        "card_expiration_year_label": "Forfaldsår",
+        "card_information_notice": "Alle transaktioner er sikret og krypteret. Kreditkortoplysninger gemmes aldrig.",
+        "credit_card_start_month": "Måned startdato",
+        "credit_card_start_year": "År startdato",
+        "no_real_orders_dev_store": "Denne butik kan ikke acceptere rigtige ordrer eller behandle rigtige betalinger.",
+        "subscription_agreement_label_html": "Jeg forstår, at jeg accepterer et abonnement. Det vil blive fornyet til den angivne pris og hyppighed, indtil det udløber eller bliver\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulleret</a>.",
+        "waiting_on_payment_methods": "Henter tilgængelige betalingsmetoder...",
+        "apple_pay_payment_error": "Din betaling kunne ikke gennemføres. Prøv igen eller brug en anden betalingsmetode.",
+        "subscription_card_update_agreement_label": "Ved at ændre din betalingsmetode opdateres dit abonnement og dine tilbagevendende betalinger fremover.",
+        "card_security_vault_notice": "Vi har brug for dine oplysninger til fremtidige betalinger. Alle transaktioner er sikre og krypterede.",
+        "taxes_not_included": "Eksklusiv skatter",
+        "no_taxes_banner_content": "Skatterne bliver ikke tillagt denne ordre. Du kan ikke tilføje flere skatter, hvis betalingen allerede er modtaget.",
+        "card_update_label": "Opdater kortet",
+        "paypal": {
+          "connect": "Klik for at forbinde din PayPal-konto"
+        },
+        "subscription_agreement_label": "En eller flere varer i indkøbskurven er et udskudt køb eller et abonnementskøb. Hvis du fortsætter til betaling, accepterer du, at vi automatisk opkræver købsbeløbene via din betalingsmetode til den pris og hyppighed, der er angivet på denne side, indtil abonnementet udløber eller du opsiger det selv. For alle opsigelser gælder %{cancelled}.",
+        "card_verification_confirm": "Indtast sikkerhedskoden på dit kort til bekræftelsesformål.",
+        "apple": {
+          "connect": "Klik for at forbinde din Apple Pay-konto",
+          "not_available": "Apple Pay er ikke tilgængelig i denne browser. For at forbinde din Apple Pay-konto skal du bruge Safari på en Apple-enhed."
+        },
+        "account_connected": "Konto tilknyttet.",
+        "billing_address_associated_with_mandate": "Brug den adresse, der er knyttet til din betalingsmetode",
+        "billing_address_associated_with_mandate_info": "For at ændre faktureringsadressen skal du slette dine kreditkortoplysninger og indtaste dem igen",
+        "expiry_short": "(Udløber %{month}/%{year})",
+        "delete_customer_mandate_modal_title": "Fjerne dette betalingskort?",
+        "delete_customer_mandate_modal_body": "Hvis du fjerner dette kort, skal du tilføje det igen, før du kan bruge kortet til betalinger.",
+        "delete_customer_mandate_modal_confirm": "Fjern kort",
+        "google": {
+          "connect": "Klik for at forbinde din Google Pay-konto",
+          "error_authorizing": "Fejl ved godkendelse af betalingen"
+        },
+        "mor_disclaimer_html": "Hvis du klikker nedenfor og fuldfører din bestilling, accepterer du at købe dine varer hos Global-e som registreret forhandler for denne transaktion, i henhold til <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Almindelige betingelser</a> og <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Global-e's privatlivspolitik</a>. Global-e er en international leverandør af opfyldelsestjenester for %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Når du opdaterer betalingsmetoden, godkender du betalinger for hvert tilbagevendende eller udskudt køb i henhold til <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">annulleringspolitikken</a> for denne butik.",
+        "multibanco_label": "Multibank",
+        "receiver_payment_experience_hint": "Efter du har afgivet din bestilling, modtager du betalingsoplysningerne. Udfør betalingen inden for %{due_days} dage via Multibanco eller online.",
+        "pending_payment": {
+          "due_notice": "Din betaling på %{amount_due} forfalder den %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Foretag din betaling via Multibanco eller online ved hjælp af nedenstående oplysninger. %{contact_us} for spørgsmål eller for at opdatere betalingsoplysninger.",
+            "amount": "Snyd",
+            "find_nearest_atm": "Find den nærmeste pengeautomat",
+            "buyer_action_info": "Din betaling på %{amount_due} er åben."
+          }
+        },
+        "purchase_options_agreement_label": "Én eller flere varer i din indkøbskurv er et udskudt køb, abonnement eller tilbagevendende køb. Ved at fortsætte til betaling accepterer du, at din betalingsmetode automatisk bliver opkrævet for den pris og hyppighed, der er angivet på denne side, indtil det udløber eller du annullerer. På alle aflysninger gælder %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Det samlede beløb kan være uden skatter, forsendelse, udskudte gebyrer og visse rabatter. Fortsæt til kassen for det beløb, der skal betales i dag."
+        },
+        "purchase_options_agreement_label_html": "Jeg forstår, at en eller flere varer i min indkøbskurv er et udskudt køb, abonnement eller tilbagevendende køb. Ved at fortsætte accepterer jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulleringspolitikken</a>\nog giver tilladelse til at opkræve min betalingsmetode for priserne, hyppigheden og datoerne, der er angivet på denne side, indtil min ordre er behandlet eller jeg annullerer, hvis det er tilladt.",
+        "payment_method_saved": "Betalingsmetode gemt",
+        "card_vaulted_company_location": "Kort gememt for denne placering"
       }
     }
   }
