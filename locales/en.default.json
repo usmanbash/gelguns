@@ -955,7 +955,75 @@
         "estimated_taxes_label": "Estimated tax",
         "multiple_shipping_lines_label": "Total shipping costs",
         "sale_price": "Offer price",
-        "recurring_subtotal_label": "Returning subtotal"
+        "recurring_subtotal_label": "Returning subtotal",
+        "recurring_total_label": "Returning total",
+        "recurring_total_tooltip": "Exclusive of shipping, value-added tax, customs duties, or any discounts.",
+        "gift_card_subscriptions_notice": "Gift vouchers are only applied to your first payment",
+        "confirmation_number_label": "Confirmation number %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "The total tax amount will be confirmed by email or text message after you have placed your order.",
+        "deferred_payment_info": {
+          "description_html": "%{contact_us} for questions about your order.",
+          "due_on_fulfillment_title": "The payment of %{amount_due} is due upon fulfillment of the order.",
+          "due_on_receipt_title": "%{amount_due} is due upon receipt"
+        },
+        "percent_off_shipping": "%{percent}% discount on shipping",
+        "amount_off_shipping": "%{amount} discount on shipping",
+        "payment_terms_totals": {
+          "due_later": "Total amount due on %{due_at}",
+          "due_on_fulfillment": "Total amount due at fulfilment",
+          "due_on_receipt": "Total to be paid upon receipt",
+          "due_on_fulfillment_next": "To be paid upon fulfillment"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> cannot be used with your existing discounts.",
+        "maximum_discount_code_limit_reached": "You have reached the maximum number of discount codes. Remove an existing code to use <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Total order",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> is currently not working. Please contact us if you need assistance.",
+        "due_on_fulfillment": "Owed at fulfillment",
+        "duties_label": "Customs duties",
+        "duties_and_taxes_label": "Customs duties and taxes",
+        "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery.",
+        "may_be_charged_on_delivery": "May be charged upon delivery",
+        "recurring_payments": "Recurring payments",
+        "recurring_total_multiple_label": "This order has recurring charges for multiple items.",
+        "deferred_total_due_date_label": "Total amount due on {{date}}",
+        "custom_discount": "Adjusted discount",
+        "expand_component_information": {
+          "one": "Show %{count} items"
+        },
+        "collapse_component_information": {
+          "one": "Hide %{count} items"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} items"
+          },
+          "back_to_finalize_order": "Back to complete order"
+        },
+        "alternative_payment_currency_total": "debited as %{amount_due}",
+        "calculating": "Calculating...",
+        "group_title_label": "Part of '%{group_title}'",
+        "price_per_item": {
+          "label": "%{price}/each"
+        },
+        "discount_not_found": "Cannot find a valid discount that matches the entered code",
+        "total_savings": "Total saving",
+        "return_restocking_fee_label": "Restocking costs",
+        "return_shipping_fee_label": "Return shipment",
+        "enter_shipping_address": "Enter delivery address",
+        "shipping_discount_title": "Shipping discount",
+        "gift_card_applied": "Gift voucher applied",
+        "duties_included_label": "Total is inclusive of taxes and customs duties. No additional charges upon delivery.",
+        "deferred_balance_info": {
+          "title": "The balance of {{amount_due}} is due on {{due_at}}.",
+          "due_on_fulfillment_title": "The balance of {{amount_due}} is due upon fulfillment of the order"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> discount code required for eligible customer",
+        "cost_table_item_column_header": "Article",
+        "product_image_quantity_label": "Number",
+        "more_items_modal": {
+          "clear_search": "Clear search action",
+          "empty_results": "No results found for '%{searchText}'. Check the spelling or try a different word or phrase."
+        }
       }
     },
     "sentence": {
