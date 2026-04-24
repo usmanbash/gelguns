@@ -1932,7 +1932,79 @@
         "gift_card_title": "Δωροεπιταγές",
         "resend_gift_cards": "Αποστολή ξανά δωροεπιταγών",
         "attempted_delivery_local_title": "Αποστολή με παράδοση στο σπίτι",
-        "attempted_delivery_local_description_html": "Δυστυχώς δεν καταφέραμε να παραδώσουμε την παραγγελία σου. %{contact_us} για να προγραμματίσουμε μια νέα παράδοση."
+        "attempted_delivery_local_description_html": "Δυστυχώς δεν καταφέραμε να παραδώσουμε την παραγγελία σου. %{contact_us} για να προγραμματίσουμε μια νέα παράδοση.",
+        "thank_you_title_payment": "Η πληρωμή σας έχει επιβεβαιωθεί",
+        "thank_you_confirmed_order_with_email_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Έχετε πραγματοποιήσει μια πληρωμή για την παραγγελία σας %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Σάρωση με το τηλέφωνό σου"
+          },
+          "sms": {
+            "title": "Ή στείλε έναν σύνδεσμο στο τηλέφωνό σου"
+          }
+        },
+        "estimated_delivery": "Τρέχουσα εκτίμηση παράδοσης:",
+        "thank_you_title_review": "Η παραγγελία σας έχει υποβληθεί για αξιολόγηση",
+        "thank_you_confirmed_order_with_draft": "Θα σε ενημερώσουμε αν χρειαστούμε περισσότερες πληροφορίες ή όταν η παραγγελία σου επιβεβαιωθεί.",
+        "breadcrumbs_in_review": "Για αξιολόγηση",
+        "missing_shipping_address_banner": {
+          "title": "Η παραγγελία δεν έχει διεύθυνση παράδοσης"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Απευθυνθείτε ξανά στον πωλητή.",
+        "order_status_confirmed_with_installments_payment_confirm": "Σύντομα θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας σας και τις λεπτομέρειες του προγράμματος δόσεων σας.",
+        "first_payment_complete": "Πρώτη πληρωμή ολοκληρώθηκε",
+        "purchase_order_number_title": "Αριθμός παραγγελίας %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Η παραγγελία έχει παραληφθεί στο %{address}.",
+        "ready_for_delivery": "Έτοιμο για παράδοση",
+        "order_updates_subscribe_to_email_notifications_failed": "Δεν μπορούμε να αποθηκεύσουμε αυτήν τη διεύθυνση email για ενημερώσεις. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη διεύθυνση email.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Η διεύθυνση email που εισαγάγατε υπάρχει ήδη.",
+        "subscriptions_management": {
+          "description": "Συνέχισε στον λογαριασμό σου για να δεις και να διαχειριστείς τις συνδρομές σου.",
+          "button_label": "Διαχείριση συνδρομής μου"
+        },
+        "manage_order_label": "Διαχείριση της παραγγελίας σας",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Σε λίγα λεπτά θα λάβεις ένα SMS με το δωροκουπόνι σου.",
+          "other": "Σε λίγα λεπτά θα λάβεις ένα SMS με τα δωροκουπόνια σου."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Σε λίγα λεπτά θα λάβεις ένα SMS με το δωροκουπόνι σου.",
+          "other": "Σε λίγα λεπτά θα λάβεις ένα SMS με τα δωροκουπόνια σου."
+        },
+        "gift_card_email_title": {
+          "one": "Το Cadeaubon έχει σταλεί μέσω e-mail",
+          "other": "Τα δωροκουπόνια έχουν σταλεί μέσω email"
+        },
+        "gift_card_text_title": {
+          "one": "Το Cadeaubon έχει σταλεί μέσω SMS",
+          "other": "Τα δωροεπιταγές έχουν σταλεί μέσω SMS"
+        },
+        "resend_gift_cards_by_email": "Αποστολή e-mail ξανά",
+        "resend_gift_cards_by_text": "Αποστολή SMS ξανά",
+        "gift_card_resent_confirmation": {
+          "one": "Το Cadeaubon έχει αποσταλεί ξανά.",
+          "other": "Οι δωροκάρτες έχουν αποσταλεί ξανά."
+        },
+        "gift_card_resend_failure": {
+          "one": "Υπήρξε ένα πρόβλημα κατά την επανεκπομπή του δωροεπιταγής σας. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
+          "other": "Υπήρξε ένα πρόβλημα κατά την επανεκπομπή των δωροεπιταγών σου. Δοκίμασε ξανά ή επικοινώνησε μαζί μας."
+        },
+        "failed_pending_payment_page_title": "Υπάρχει ένα πρόβλημα με την πληρωμή σας",
+        "thank_you_title_payments_app_pending_default": "Η πληρωμή επεξεργάζεται",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Έχουμε λάβει την παραγγελία σου",
+        "thank_you_title_payments_app_failed_pending_payment": "Η πληρωμή σας δεν μπορεί να επεξεργαστεί",
+        "thank_you_payments_app_failed_pending_payment": "Η παραγγελία σας δεν έχει ακόμη πληρωθεί. Επιστρέψτε στο καλάθι αγορών σας για να ελέγξετε και να πληρώσετε την παραγγελία σας.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Σύντομα θα λάβεις ένα email επιβεβαίωσης. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Κατάστημα.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Σύντομα θα λάβεις ένα email επιβεβαίωσης. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Κατάστημα.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Σύντομα θα λάβεις ένα SMS επιβεβαίωσης. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Με την ολοκλήρωση της πληρωμής θα λάβεις ένα επιβεβαιωτικό email. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Κατάστημα.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Με την ολοκλήρωση της πληρωμής θα λάβεις ένα επιβεβαιωτικό email. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Κατάστημα.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Με την ολοκλήρωση της πληρωμής θα λάβεις ένα SMS επιβεβαίωσης. Μπορείς να παρακολουθείς την παραγγελία σου μέσω της εφαρμογής Κατάστημα."
       }
     }
   }
