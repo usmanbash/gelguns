@@ -2367,6 +2367,106 @@
             "other": ", puis %{count} paiements, chacun de %{total_price}"
           }
         }
+      },
+      "customer_payment_methods": {
+        "page_title": "Méthodes de paiement",
+        "title": "Méthodes de paiement",
+        "delete_customer_mandate": {
+          "success_message": "Votre mode de paiement a été supprimé"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Conditions générales de MoR (Commerçant officiel)",
+        "privacy_policy": "Politique de confidentialité du commerçant enregistré"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Ce produit est retiré de votre panier car il n'est pas disponible dans votre pays/région.",
+          "other": "Ces produits sont retirés de votre panier car ils ne sont pas disponibles dans votre pays/région."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ce produit n'est pas disponible dans votre pays/région."
+        },
+        "unavailable_label": "Non disponible"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Votre pays/région a été mis à jour. Veuillez saisir l'adresse de livraison pour continuer vers la caisse."
+      },
+      "throttle": {
+        "line_to_check_out": "Vous êtes dans la file pour payer",
+        "inventory": {
+          "partial_inventory_banner": "Une partie de votre panier est en rupture de stock et ne peut pas être achetée lors du passage à la caisse.",
+          "sold_out": {
+            "storefront_body": "Retournez au magasin pour continuer vos achats",
+            "no_storefront_body": "L'article que vous souhaitiez acheter n'est malheureusement plus disponible.",
+            "link": "Retour au magasin"
+          }
+        },
+        "title": "File d'attente",
+        "time_to_checkout_title": "Il est temps de passer à la caisse - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calculer le temps d'attente estimé",
+          "less_than_one": "Temps d'attente estimé : moins d'une minute",
+          "one": "Temps d'attente estimé : {{count}} minute",
+          "other": "Temps d'attente estimé : {{count}} minutes"
+        },
+        "last_checked": "(Dernière vérification : {{time}})",
+        "footer": {
+          "heading": "Vous n'avez pas besoin de rafraîchir cette page, elle se met à jour automatiquement.",
+          "body": "Les articles dans votre panier ne sont réservés qu'une fois que vous avez terminé le passage en caisse."
+        },
+        "too_many_attempts": {
+          "message": "Trop de tentatives"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Un problème est survenu lors du traitement de votre demande. Veuillez contacter le propriétaire du magasin."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "other": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          },
+          "label": "Pas de livraison"
+        }
+      },
+      "no_address_location": {
+        "header": "Il n’y a pas d’adresse de livraison pour ce lieu",
+        "message": "Contactez-nous pour ajouter une adresse à cet emplacement, afin que vous puissiez finaliser votre commande.",
+        "email_us_button_label": "Envoyez-nous un courriel",
+        "alt_header": "Adresse de livraison manquante"
+      },
+      "order_errors": {
+        "creation_failure": "Un problème est survenu lors de la création de votre commande. Veuillez réessayer ou contacter notre service pour plus d'informations.",
+        "network_failure": "Votre commande ne peut pas être envoyée en raison d'une erreur de réseau. Vérifiez votre connexion et réessayez."
+      },
+      "session_errors": {
+        "session_not_unique": "Un problème est survenu lors du traitement de votre commande. Actualisez cette page pour retourner à la boutique.",
+        "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner à la boutique pour commencer une nouvelle commande."
+      },
+      "pickup_point": {
+        "business_hours": "Heures d'ouverture",
+        "title": "Point de retrait",
+        "search_button": "Chercher",
+        "selector_tabs": "Sélecteur de point de retrait",
+        "could_not_resolve_address": "Impossible de trouver l'adresse. Veuillez réessayer ou utiliser une autre adresse.",
+        "no_pickup_points_near_you": "Aucun point de retrait trouvé à proximité de l'adresse sélectionnée",
+        "no_pickup_points_near_location": "Aucun point de retrait trouvé près de votre emplacement",
+        "no_pickup_points_found": "Aucun point de retrait trouvé",
+        "paginator": {
+          "header": {
+            "one": "Affiche %{first} - %{last} sur %{count} points",
+            "other": "Affiche %{first} - %{last} sur %{count} points"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} sur %{count} point"
+          }
+        }
       }
     }
   }
