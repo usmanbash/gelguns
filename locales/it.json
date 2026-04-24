@@ -3381,7 +3381,77 @@
     },
     "order_details": {
       "card_ending_with": "termina con {{lastDigits}}",
-      "contact": "Persona di contatto"
+      "contact": "Persona di contatto",
+      "loading": "Caricamento dati dell'ordine",
+      "loading_finished_accessibility_message": "Dati dell'ordine caricati",
+      "payment": {
+        "status_in_review": "Pagamento dovuto dopo la valutazione",
+        "status_unpaid": "Pagamento dovuto il {{date}}",
+        "card_payment_details": "terminante con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagato con pagamenti rateali Shop Pay",
+          "view_schedule": "Visualizza il programma"
+        },
+        "gift_card_payment_details": "terminante con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "cash_on_delivery": "Rimborsi - {{formattedTransactionAmount}}",
+          "manual": "Manuale - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Credito negozio - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Dati",
+          "payment_details": "Dati di pagamento"
+        },
+        "emv_details": {
+          "auth": "AUTORE:",
+          "aid": "AIUTO:",
+          "source": "AfterSurgery.nl offre prodotti affidabili per il post-operatorio che favoriscono il comfort, la guarigione e la fiducia. Il nostro tono è professionale, compassionevole e di sostegno—concentrato ad aiutare i clienti a recuperare in sicurezza e a sentirsi curati."
+        },
+        "payment_type": {
+          "store_credit": "Credito negozio",
+          "money_order": "Cambio postoperatorio",
+          "cash_on_delivery": "Rimborsi",
+          "bank_deposit": "Bonifico bancario"
+        }
+      },
+      "shipping": {
+        "address": "Indirizzo di consegna",
+        "address_map_marker": "Indirizzo di consegna",
+        "summary": "Spedire",
+        "free": "Gratuito",
+        "one_time": "Spedizione unica",
+        "subscription": "Spedizione con abbonamento"
+      },
+      "subtitle": "Confermato: {{date}}",
+      "summary_list_title_accessibility_label": "Ordinare articoli",
+      "summary_totals_title_accessibility_label": "Ordine totale",
+      "taxes": "Tasse",
+      "unit_price": "{{price}}/pz",
+      "location": "Posizione",
+      "not_applicable": "n.d.",
+      "partially_refunded_label": "RIMBORSATO PARZIALMENTE",
+      "compare_at_sale": "Saldi ({{saleAmount}})",
+      "pagination": {
+        "load_more": "Carica di più",
+        "loading_accessibility_label": "Caricamento articoli"
+      },
+      "returns": {
+        "expand_events_label": "Mostra dati",
+        "hide_events_label": "Nascondi dati",
+        "return_and_refund_modal_header": "Politica di rimborso",
+        "ineligible_return_message": "Nessun articolo in questo ordine è idoneo per la restituzione.",
+        "ineligible_return_message_when_returned": "Non ci sono più articoli in questo ordine che possano essere restituiti.",
+        "exchange_header": "Articoli di scambio",
+        "exchange_subheader": "Gli articoli di scambio verranno aggiunti all'ordine non appena il reso sarà completato."
+      },
+      "request_return_failed": "Si è verificato un problema durante l'elaborazione della tua richiesta. Riprova.",
+      "shipment_timeline": {
+        "expand_events_label": "Mostra dati",
+        "expand_events_accessibility_label": "Mostra dati di consegna dell'ordine",
+        "hide_events_label": "Nascondi dati",
+        "hide_events_accessibility_label": "Nascondi dati di consegna dell'ordine"
+      },
+      "marketing_description": "Riceverai email promozionali. Puoi cancellarti in qualsiasi momento."
     }
   }
 }
