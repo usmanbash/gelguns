@@ -734,7 +734,81 @@
           "sale_attribution": {
             "draft_order_not_exist": "Táto konceptuálna objednávka neexistuje v aktuálnom obchode.",
             "staff_member_not_exist": "Tento zamestnanec nie je v aktuálnom obchode známy.",
-            "location_not_exist": "Táto lokalita neexistuje v aktuálnom obchode."
+            "location_not_exist": "Táto lokalita neexistuje v aktuálnom obchode.",
+            "point_of_sale_device_not_exist": "Toto predajné miesto neexistuje v aktuálnom obchode.",
+            "unresolvable_target_merchandise_lines": "Navrhované predajné priradenia nie je možné vyriešiť v existujúcom kontexte rokovaní."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Návrh tvojho kupujúceho musí obsahovať non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Pole 'Množstvo' chýba v skladových riadkoch kupujúceho.",
+            "changing_behavior_not_allowed": "Tento zákazník nemá oprávnenie meniť funkciu zásob.",
+            "only_one_inventory_behavior_allowed": "V súčasnosti je povolená iba jedna funkcia skladu na jeden nákup."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Pri tomto pokladničnom procese nie je povolené odmietnuť colné poplatky."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Pri tomto pokladničnom procese nie je povolené priradenie na maloobchod.",
+            "retail_attribution_required": "Pre túto pokladňu je potrebné priradenie maloobchodu."
+          },
+          "captcha": {
+            "metadata_missing": "Pri tomto pokladničnom procese je vyplnenie captcha povinné.",
+            "metadata_mismatch": "Zadaný poskytovateľ captcha a typ nezodpovedajú očakávaným hodnotám.",
+            "token_missing": "Dokončite tento nákup zadaním captcha tokenu.",
+            "job_enqueue_failed": "Úloha overenia captcha nemôže byť zaradená do fronty.",
+            "job_already_queued": "Overenie Captcha už bolo zaradené do fronty pre tento token.",
+            "token_expired": "Zadaný token captcha vypršal. Pre pokračovanie v pokladni vykonajte novú captcha.",
+            "token_invalid": "Zadaný token captcha bol neplatný. Pre pokračovanie v pokladni vykonajte novú captcha.",
+            "token_not_valid_for_session": "Nie je možné použiť zadaný captcha pri tomto nákupe."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Prijatá suma musí byť v mene obchodu."
+          },
+          "checkout_source": {
+            "revoked": "Táto pokladňa už nie je k dispozícii."
+          }
+        },
+        "full_price": "Celková cena:",
+        "title": "Pokladňa - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - pokladňa",
+        "loading_title": "Pokladňa - {{shopName}}",
+        "google_map_title": "Google mapa",
+        "submit_for_review_button_label": "Predložiť sťažnosť",
+        "submit_for_review_notice_label": "Platba je splatná až po overení vašej objednávky",
+        "continue_to_payment_plans_button_label": "Pokračovať na platobné plány",
+        "back_button_label": "Vrátenie tovaru",
+        "autocomplete_zero_item": "Žiadne položky nie sú k dispozícii",
+        "autocomplete_powered_by_google": "Umožnené vďaka {{brandName}}",
+        "stepper": {
+          "increase": "Nárast {{type}}",
+          "decrease": "Odber {{type}}",
+          "minimum_reached": "Minimálna hodnota van {{value}} dosiahnutá",
+          "maximum_reached": "Maximálna kapacita vanu {{value}} dosiahnutá"
+        },
+        "remove_item": "Odstrániť %{label}",
+        "dates": {
+          "weekdays": {
+            "monday": "pondelok",
+            "tuesday": "utorok",
+            "wednesday": "streda",
+            "thursday": "štvrtok",
+            "friday": "piatok",
+            "saturday": "sobota",
+            "sunday": "nedeľa"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "urobiť.",
+            "friday": "v. r.",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "may": "mei"
           }
         }
       }

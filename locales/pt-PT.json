@@ -3910,7 +3910,81 @@
         "next_payment_due": "Próximo pagamento devido em {{dueDateInMonthDayYear}}",
         "edit_payment_method_button_accessibility_label": "Editar o método de pagamento que termina em {{lastDigits}}",
         "credit_card_details_accessibility_label": "terminando em {{lastDigits}}",
-        "billing_title": "Morada de faturação"
+        "billing_title": "Morada de faturação",
+        "card_info_title": "Dados do mapa",
+        "payment_method_expired_on": "Expira em {{expiryDate}}",
+        "loading_shop_pay": "Carregar Shop Pay",
+        "invalid_payment_method_message": "Utilize um novo cartão de crédito para continuar a receber as próximas encomendas.",
+        "checkout_card_banner": "Só podes usar este método de pagamento para pagamentos pré-autorizados. Este não aparece no momento da finalização da compra se estiveres ligado a esta loja.",
+        "default_checkbox_accessibility_label": "Defina este método de pagamento como predefinido"
+      },
+      "delete_payment_method_button": "Remover",
+      "delete_payment_method_button_accessibility_label": "Remover {{paymentMethodName}}",
+      "back_button_accessibility_label": "Voltar para {{paymentMethodStepTitle}}",
+      "generic_card": "Mapa",
+      "payment_delete": {
+        "title": "Remover método de pagamento",
+        "description_without_replacement": "Este método de pagamento já não está disponível para compras futuras.",
+        "description_with_replacement": "Se remover este método de pagamento, isso terá consequências para os pagamentos pré-autorizados. Pode também substituí-lo por outro método de pagamento para continuar a receber encomendas futuras.",
+        "payment_method_selector_placeholder": "Selecione um método de pagamento alternativo (opcional)",
+        "replace_method_with_new_method_description": "O teu {{currentPaymentMethodName}} será removido e substituído pelo teu {{newPaymentMethodName}}.",
+        "error_when_deleting": "Pedimos desculpa, ocorreu um erro e não foi possível remover este método de pagamento. Por favor, tente novamente mais tarde ou atualize a página.",
+        "delete_and_replace_button": "Remover e substituir",
+        "delete_and_replace_button_accessibility_label": "Remova {{currentPaymentMethodName}} e substitua-o por {{newPaymentMethodName}}.",
+        "deleted_successfully": "O método de pagamento foi removido.",
+        "payment_method_selector_no_alternative_payment": "Nenhum método substituto",
+        "loading_available_payment_methods_accessibility_label": "Carregar métodos de pagamento disponíveis",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Se remover este método de pagamento, isso terá consequências para pagamentos pré-autorizados. Os montantes pendentes de encomendas existentes ainda serão cobrados através deste método de pagamento, a menos que selecione outro método. Selecione outro método de pagamento para continuar a receber encomendas de assinaturas futuras sem interrupção.",
+          "with_pending_orders": "A remoção do método de pagamento faz com que este seja eliminado da sua conta e deixe de estar disponível para compras futuras. Valores em aberto de encomendas existentes ainda serão cobrados através deste método de pagamento, a menos que selecione outro método de pagamento.",
+          "with_subscriptions": "Se eliminar este método de pagamento, isso terá consequências para os pagamentos pré-autorizados. Substitua-o por outro método de pagamento para continuar a receber encomendas futuras."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Se remover este método de pagamento, isso terá consequências para os pagamentos pré-autorizados. Os valores em aberto de encomendas existentes continuarão a ser cobrados através deste método de pagamento, mas não receberá futuras encomendas de subscrição. Adicione outro método de pagamento para continuar a receber encomendas de subscrição.",
+          "with_pending_orders": "A remoção do método de pagamento faz com que este seja eliminado da sua conta e deixe de estar disponível para compras futuras. Os valores em aberto de encomendas existentes continuarão a ser cobrados através deste método de pagamento.",
+          "with_subscriptions": "Se eliminar este método de pagamento, isso terá consequências para os pagamentos pré-autorizados. Adicione outro método de pagamento para continuar a receber encomendas futuras."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Alterar método de pagamento",
+        "billing_address": "Morada de faturação",
+        "billing_address_add_new": "Adicionar novo",
+        "future_purchases_notice": "Este método de pagamento será guardado para compras futuras.",
+        "generic_error": "Ocorreu um problema ao atualizar. Por favor, tente novamente."
+      },
+      "card_fields": {
+        "card_expiry_label": "Data de validade (MM/AA)",
+        "card_expiry_placeholder": "Data de validade (MM/AA)",
+        "tooltip": {
+          "card_verification_value_explanation": "Código de segurança de 3 dígitos, geralmente encontrado no verso do seu cartão. A American Express tem um código de 4 dígitos no anverso.",
+          "card_security_notice": "Todas as transacções estão seguras e encriptadas."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Introduza o seu nome tal como aparece no seu cartão",
+          "credit_card_expiry_invalid": "Introduza uma data de validade válida para o cartão",
+          "credit_card_verification_value_blank": "Introduza o CVV/CVC ou código de segurança do seu cartão"
+        },
+        "unavailable": {
+          "text": "O pagamento por cartão de crédito e cartão de débito não está disponível neste momento."
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "title": "Morada de faturação",
+          "choose_billing_address_from_list_button_accessibility_label": "Escolha um endereço de faturação da lista",
+          "missing_billing_address_error_message": "Indique um endereço de faturação"
+        },
+        "replace_mode_warning": "Se eliminar este método de pagamento, isso terá consequências para assinaturas ou pré-encomendas. Substitua-o por outro método de pagamento para continuar a receber encomendas futuras.",
+        "subscription_contracts": {
+          "product_details": "Dados do produto",
+          "more_items": {
+            "one": "Nenhum produto {{count}}",
+            "other": "Nog {{count}} produtos"
+          }
+        },
+        "contracts_update_failed": "Alguns contratos de subscrição não puderam ser atualizados",
+        "subscription_contracts_updated": "{{succeeded}} de {{total}} assinaturas atualizadas",
+        "invalid_wallet_type_error": "Tipo inválido de carteira digital"
       }
     }
   }
