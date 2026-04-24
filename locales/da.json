@@ -2487,6 +2487,104 @@
           "title": "Den tidligere valgte placering er ikke længere tilgængelig",
           "description": "Vælg en ny placering eller %{ship_to_address_link}",
           "ship_to_address_link": "Afsendelse til adresse"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Send dine varer",
+          "ship_items_or_search_elsewhere": "%{ship_items} af %{search_elsewhere}"
+        },
+        "location_closest": "Tættest beliggende sted med din vare",
+        "toggle_multiple_locations": "Endnu mere end %{count} andre steder",
+        "location_information_far_away": {
+          "one": "Der er %{count} sted med din vare",
+          "other": "Der er %{count} steder med din vare"
+        },
+        "location_nearby": {
+          "one": "Der er %{count} sted i nærheden med din vare",
+          "other": "Der er %{count} steder i nærheden med din vare"
+        },
+        "location_nearby_short": {
+          "one": "%{count} sted i nærheden med din vare",
+          "other": "%{count} steder i nærheden med din vare"
+        },
+        "location_far_away": {
+          "one": "%{count} placering med din vare",
+          "other": "%{count} steder med din vare"
+        },
+        "toggle_more_locations": {
+          "one": "Endnu %{count} anden lokation",
+          "other": "Endnu %{count} andre steder"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ingen steder med din vare",
+          "other": "Ingen steder med dine varer"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ingen lokationer i %{country} med din vare"
+        },
+        "title": "Placering"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Hent alle varer",
+        "items_for_pickup": "Artiklen til afhentning",
+        "delivery_method": "Opdelt leveringsmetode",
+        "delivery_method_menu": "Menu for opdelt leveringsmetode",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} af %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} af %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} artikel kan ikke hentes",
+              "other": "%{count} artikler kan ikke hentes"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} artikel kan ikke sendes",
+              "other": "%{count} artikler kan ikke sendes"
+            }
+          },
+          "remove_item": {
+            "other": "Fjern varen"
+          },
+          "ship_separately": {
+            "one": "sendes separat",
+            "other": "sendes separat"
+          },
+          "pick_them_up_in_store": {
+            "one": "hent i butikken",
+            "other": "hent i butikken"
+          }
+        },
+        "items_for_shipping": "Varen til forsendelse",
+        "items_moved_to_shipping_toast": "De artikler, der ikke kan hentes, er flyttet til forsendelse",
+        "cross_border": {
+          "modal": {
+            "content": "Hermed bliver alle varer igen sat til forsendelse. Dine afhentnings- og leveringssteder skal befinde sig i samme land."
+          },
+          "banner": "Din leveringsmetode er opdateret"
+        }
+      },
+      "captcha": {
+        "title": "Gennemfør CAPTCHA'en for at fortsætte",
+        "errors": {
+          "not_solved": "Gennemfør CAPTCHA'en for at fortsætte"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Din bestilling kunne ikke behandles, fordi din rabatkode ikke længere er tilgængelig. Tjek det samlede beløb for din bestilling og prøv igen."
+      },
+      "wallets": {
+        "return_to_store": "Tilbage til butik",
+        "redirect_hint": "Du bliver bedt om at logge ind hos {{walletName}}.",
+        "logged_in": "Forbundet med {{email}}",
+        "shipping_line_label": "Forsendelse",
+        "connect_shipping_methods": "{{method1}} en {{method2}}",
+        "payment_in_progress_title": "Betaling under behandling",
+        "payment_in_progress_body": "Betalingen bliver behandlet. Bestillingen er næsten færdig.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} er ikke tilgængelig",
+            "description": "{{walletName}} var ikke tilgængelig. Brug en anden betalingsmetode eller prøv igen senere.",
+            "instructions": "Der opstod et problem med {{walletName}}. Gå tilbage til butikken og prøv igen, eller betal på en anden måde."
+          }
         }
       }
     }
