@@ -2171,6 +2171,108 @@
             "other": ", luego %{count} pagos, cada uno de %{total_price}"
           }
         }
+      },
+      "customer_payment_methods": {
+        "page_title": "Métodos de pago",
+        "title": "Métodos de pago",
+        "delete_customer_mandate": {
+          "generic_error": "Se ha producido un problema al procesar tu solicitud.",
+          "success_message": "Tu método de pago ha sido eliminado"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Condiciones generales de MoR (Comerciante Registrado)",
+        "privacy_policy": "Política de privacidad del comerciante registrado"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Este producto se eliminará de tu carrito porque no está disponible en tu país/región.",
+          "other": "Estos productos se eliminarán de tu carrito porque no están disponibles en tu país/región."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Este producto no está disponible en tu país/región.",
+          "other": "Estos productos no están disponibles en tu país/región."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Tu país/región ha sido actualizado. Introduce la dirección de entrega para continuar con el pago."
+      },
+      "throttle": {
+        "line_to_check_out": "Estás en la fila para pagar",
+        "cart_summary_heading": "Tu carrito de compras",
+        "inventory": {
+          "partial_inventory_banner": "Una parte de tu carrito está agotada y no se puede comprar en la caja.",
+          "sold_out": {
+            "heading": "Tu carrito está agotado",
+            "storefront_body": "Vuelve a la tienda para seguir comprando",
+            "no_storefront_body": "El artículo que querías comprar ya no está disponible."
+          }
+        },
+        "title": "Cola de espera",
+        "estimated_wait_time": {
+          "calculating": "Calcular tiempo de espera estimado"
+        },
+        "last_checked": "(Ultima verificación: {{time}})",
+        "footer": {
+          "heading": "No necesitas actualizar esta página, se actualizará automáticamente.",
+          "body": "Los artículos en tu carrito solo se reservarán una vez que hayas completado la compra."
+        },
+        "too_many_attempts": {
+          "message": "Demasiados intentos",
+          "description": "Inténtalo de nuevo en unos minutos"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Se ha producido un problema al procesar tu solicitud. Por favor, contacta con el propietario de la tienda."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Este artículo se eliminará de tu carrito porque no hay métodos de entrega disponibles para tu dirección.",
+            "other": "Este artículo se eliminará de tu carrito porque no hay métodos de entrega disponibles para tu dirección."
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Ubicación sin dirección",
+        "header": "No hay una dirección de entrega para esta ubicación",
+        "message": "Póngase en contacto con nosotros para añadir una dirección para esta ubicación, de modo que pueda completar la compra.",
+        "alt_header": "Falta la dirección de entrega"
+      },
+      "order_errors": {
+        "creation_failure": "Se ha producido un problema al crear tu pedido. Inténtalo de nuevo o contacta con nosotros para más información.",
+        "network_failure": "No se puede enviar tu pedido debido a un error de red. Verifica tu conexión e inténtalo de nuevo."
+      },
+      "session_errors": {
+        "session_not_unique": "Se ha producido un problema al procesar tu pedido. Actualiza esta página para volver a la tienda.",
+        "session_already_finished": "Este pedido ya ha sido enviado. Puedes volver a la tienda para iniciar un nuevo pedido."
+      },
+      "pickup_point": {
+        "business_hours": "Horario de apertura",
+        "title": "Punto de recogida",
+        "search_button": "Buscar",
+        "selector_tabs": "Selector de punto de recogida",
+        "selector_tab_map": "Tarjeta",
+        "could_not_resolve_address": "No se puede encontrar la dirección. Inténtalo de nuevo o usa otra dirección",
+        "no_pickup_points_near_you": "No se encontraron puntos de recogida cerca de la dirección seleccionada",
+        "no_pickup_points_near_location": "No se encontraron puntos de recogida cerca de tu ubicación",
+        "no_pickup_points_found": "No se encontraron puntos de recogida",
+        "paginator": {
+          "previous_accessibility_label": "Página anterior",
+          "header": {
+            "one": "Muestra %{first} - %{last} de %{count} puntos",
+            "other": "Muestra %{first} - %{last} de %{count} puntos"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} de %{count} puntos"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} de %{count} puntos"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} punto de recogida cerca de tu ubicación"
+        }
       }
     }
   }
