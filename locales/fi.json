@@ -3505,7 +3505,81 @@
       "summary_list_title_accessibility_label": "Tuotteiden tilaaminen",
       "summary_title": "Tilausyhteenveto",
       "summary_totals_title_accessibility_label": "Koko tilaus",
-      "total": "Täysi"
+      "total": "Täysi",
+      "unit_price": "{{price}}/kpl",
+      "location": "Sijainti",
+      "not_applicable": "ei sovellu",
+      "fully_refunded_label": "MAKSETTU TAKAISIN",
+      "partially_refunded_label": "OSITTAIN MAKSETTU TAKAISIN",
+      "refunded_amount": "Maksettu takaisin",
+      "no_data": "Geeni",
+      "pagination": {
+        "load_more_accessibility_label": "Lataa lisää artikkeleita",
+        "loading_accessibility_label": "Ladataan artikkeleita"
+      },
+      "returns": {
+        "expand_events_label": "Näytä tiedot",
+        "hide_events_label": "Piilota tiedot",
+        "print_shipping_label": "Tulostaa lähetysmerkinnän",
+        "return_and_refund_modal_header": "Palautusehdot",
+        "ineligible_return_message": "Tässä tilauksessa on tuotteita, jotka voi palauttaa.",
+        "ineligible_return_message_when_returned": "Tässä tilauksessa ei ole enää tuotteita, joita voisi palauttaa.",
+        "exchange_header": "Vaihto- ja vaihtotavarat",
+        "exchange_subheader": "Vaihto- tai korvaustuotteet lisätään tilaukseen heti, kun palautus on suoritettu loppuun."
+      },
+      "request_return_failed": "Hakemuksesi käsittelyssä ilmeni ongelma. Yritä uudelleen.",
+      "mobile_summary_toggle_button": {
+        "open": "Näytä tilausyhteenveto",
+        "closed": "Tilauksen yhteenveto piilota"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Näytä tiedot",
+        "expand_events_accessibility_label": "Näytä tilauksen toimitustiedot",
+        "hide_events_label": "Piilota tiedot",
+        "hide_events_accessibility_label": "Piilota tilauksen toimitustiedot"
+      },
+      "show_order_summary": "Näytä tilausyhteenveto",
+      "hide_order_summary": "Tilauksen yhteenveto piilota",
+      "marketing_description": "Saat markkinointiviestejä. Voit peruuttaa tilauksesi milloin tahansa.",
+      "marketing_checkbox_label": "Lähetä minulle sähköposteja uutisista ja tarjouksista",
+      "marketing_checkmark_label": "Olet ilmoittautunut vastaanottamaan uutiskirjeitä ja tarjouksia sähköpostitse",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}-määrä {{quantity}}",
+        "next": "Näytä seuraavat artikkelit",
+        "previous": "Näytä edelliset artikkelit",
+        "load_more_items": {
+          "one": "Lataa {{count}} artikkelia",
+          "other": "Ladataan {{count}} artikkelia"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Lataa Kauppa seurataksesi pakettia",
+        "track_order_with_shop": "Tilauksen seuranta Shopilla",
+        "real_time_delivery_updates": "Kun tilaus on lähetetty, saat Shopilta reaaliaikaiset toimituspäivitykset."
+      },
+      "shop_pay": {
+        "order_completed_with": "Tilaus suoritettu loppuun"
+      },
+      "edit_summary": {
+        "updated_at": "Tilauksesi on päivitetty {{date}}",
+        "returned_with_quantities": "{{delta}} palautettu {{total}}:sta",
+        "removed_with_quantities": "{{delta}} poistettu {{total}}:sta",
+        "return_line_item_removed_with_quantities": "{{delta}} poistettu palautuksesta"
+      },
+      "pickup": {
+        "pickup_location": "Noutopaikka"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Maksettu Shop Pay -erämaksuilla",
+        "payment_reminders_button": "Maksumuistutusten vastaanottaminen",
+        "desktop_qr_code_content": {
+          "title": "Skannaa muistoja",
+          "description": "Muistutukset eräpäivämaksuistasi Shopissa."
+        },
+        "title": "Maksumuistutukset Shop Pay -erämaksuista"
+      },
+      "order_details": "Tilaustiedot",
+      "login_to_view_all_order_details": "Kirjaudu sisään nähdäksesi kaikki tilauksen tiedot."
     }
   }
 }
