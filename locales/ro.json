@@ -3679,7 +3679,73 @@
       },
       "pickup": {
         "pickup_location": "Loc de descărcare"
-      }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Plătit cu plăți eșalonate Shop Pay",
+        "description": "Rămâi la curent cu programul tău de plăți prin mementouri în aplicația Magazin.",
+        "payment_reminders_button": "Primiți memento-uri de plată",
+        "desktop_qr_code_content": {
+          "title": "Scanare pentru amintiri",
+          "description": "Primește mementouri pentru plățile tale eșalonate la Magazin."
+        },
+        "title": "Mementouri de plată pentru plățile în rate Shop Pay"
+      },
+      "order_details": "Date comandă",
+      "contact_information": "Date de contact",
+      "login_to_view_all_order_details": "Autentifică-te pentru a vedea toate detaliile comenzii.",
+      "log_in": "Autentificare",
+      "paid_amount": "Plătit",
+      "remaining_amount": "Rămas",
+      "order_details_skeleton_accessibility_label": "Autentifică-te pentru a vedea toate detaliile comenzii.",
+      "tip": "Bacșiș",
+      "logged_in_account_no_permission_to_order": "Ești autentificat ca {{email}}. Acest cont nu este autorizat să gestioneze această comandă.",
+      "log_in_to_a_different_account": "Autentificare cu un alt cont",
+      "duties": "Drepturi vamale",
+      "ok_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așadar au fost adăugate taxe vamale la suma totală a comenzii.",
+      "error_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așadar pot fi percepute taxe vamale și impozite la livrare.",
+      "zero_duties_tooltip": "Această comandă va fi expediată dintr-o altă țară. Nu se percep taxe vamale pentru comenzile cu această valoare.",
+      "group_title_label": "Parte din: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Costuri de aprovizionare cu ierburi",
+        "return_shipping_fee": "Returnare colet"
+      },
+      "vat_invoices": {
+        "title": "Facturi Btw"
+      },
+      "taxes_included": "Inclusiv {{amount}} TVA",
+      "duties_and_taxes_included": "Totalul include taxele vamale și impozitele. Nu se percep plăți suplimentare la livrare.",
+      "grouped_view_components": {
+        "line_item_summary_list_accessibility_label": "Articole în pachet {{productTitle}}"
+      },
+      "cash_rounding": "Rotunjirea banilor lichizi",
+      "adjusted_payment": "Plată personalizată",
+      "login_card": {
+        "log_in": "Autentificare",
+        "link_expired": "Legătura a expirat",
+        "resend_link_and_login": "Poți vedea detaliile comenzii tale conectându-te sau trimițând un nou link către adresa de email sau numărul de telefon folosit la finalizarea comenzii.",
+        "resend_link_only": "Poți vedea detaliile comenzii tale trimițând un nou link către adresa de email sau numărul de telefon pe care le-ai folosit la finalizarea comenzii.",
+        "resend_link": "Trimite link nou",
+        "title": "Vizualizează detaliile comenzii"
+      },
+      "link_sent": "Legătură trimisă",
+      "due_on_date": "Datorat la {{date}}",
+      "due_on_fulfillment": "De plătit la îndeplinirea comenzii",
+      "due_on_receipt": "De plătit la primire",
+      "payment_confirmation": {
+        "payment_received": "Mulțumim! Plata ta de {{amount}} a fost primită.",
+        "full_payment_received": "Mulțumim! Plata ta de {{amount}} a fost primită și această comandă este acum complet achitată.",
+        "payment_authorized": "Mulțumim! Soldul va fi actualizat când plata va fi primită."
+      },
+      "marketing_pending_confirmation": "Apasă pe legătura din e-mailul tău pentru a confirma.",
+      "marketing_resend_email_success": "Legătură trimisă",
+      "price_before_discount_accessibility_label": "Preț inițial"
+    },
+    "addresses": {
+      "add_button": "Adăugare adresă",
+      "address_deleted_notification": "Adresă ștearsă",
+      "cancel_adding_address_accessibility_label": "Adăugare adresă anulare",
+      "cancel_deletion_button": "Anulare",
+      "cancel_deletion_button_accessibility_label": "șterge {{address}} anulează"
     }
   }
 }
