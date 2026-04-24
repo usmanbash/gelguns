@@ -2997,6 +2997,70 @@
         "created": "Endereço criado",
         "error_creating": "Erro ao criar endereço.",
         "deleted": "Endereço removido"
+      },
+      "order": {
+        "not_available": "Esta encomenda não está disponível",
+        "financial_status": {
+          "authorized": "Verificado",
+          "pending": "Em tratamento",
+          "unpaid": "Por pagar",
+          "voided": "Caducado"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Concluído",
+          "complete": "Completo",
+          "partial": "Parcialmente",
+          "unfulfilled": "Em aberto",
+          "restocked": "Reserva de ervas"
+        },
+        "transaction_status": {
+          "success": "Aprovado",
+          "pending": "Em tratamento",
+          "failure": "Falhou"
+        },
+        "cancel_reason": {
+          "inventory": "Artigos não disponíveis",
+          "customer": "Cliente alterou/cancelou a encomenda",
+          "other": "Anders",
+          "staff": "Funcionários incorretos"
+        },
+        "cash_on_delivery": "Reembolso"
+      },
+      "cart": {
+        "only_n_items_available": "Só podes adicionar %{count} %{name} ao teu carrinho de compras.",
+        "too_many_items_in_cart": "Não podes adicionar mais %{name} ao teu carrinho de compras.",
+        "all_items_in_cart": "Todos os %{count} %{name} estão no teu carrinho.",
+        "empty_update": "não é possível atualizar o carrinho vazio",
+        "missing_parameters": "ID ou número de linha inválido",
+        "generic_error": "Carrinho de compras vazio",
+        "too_many_line_items_error": "O teu carrinho não pode conter mais do que %{max} artigos.",
+        "link_expired": "Ligação expirada",
+        "link_no_longer_exists": "O link já não existe.",
+        "stock_problems_html": "Um ou mais artigos já não estão disponíveis. Preparámos um <a href='%{link}'>carrinho atualizado</a>.",
+        "items_changed": "Um ou mais artigos foram alterados.",
+        "variant_not_found": "Não foi possível encontrar a variante",
+        "variant_requires_selling_plan": "A variante só pode ser adquirida com uma subscrição de venda.",
+        "shipping_address_not_required": "Este carrinho de compras não necessita de envio",
+        "shipping_address_invalid": "Ocorreu um problema ao calcular os custos de envio. Continue para o pagamento para escolher os custos de envio antes de concluir a sua encomenda.",
+        "selling_plan_not_applicable": "Não é possível aplicar a subscrição de venda à variante",
+        "selling_plan_not_available_for_company_locations": "Apenas compras únicas estão disponíveis para encomendas B2B.",
+        "digital_product_not_available_for_company_locations": "Não podes adicionar este artigo a uma encomenda B2B",
+        "product_not_available": "Produto não está disponível",
+        "less_than_minimum": "Este artigo tem um mínimo de %{min}.",
+        "more_than_maximum": "Este artigo tem um máximo de %{max}.",
+        "not_respect_step": "Só podes adicionar este artigo em incrementos de %{step}.",
+        "bundle_requires_components": "Não foi possível adicionar o produto em pacote '%{name}' ao carrinho.",
+        "gift_card_with_components_not_supported": "Não foi possível adicionar o produto em pacote '%{name}' ao carrinho.",
+        "view_lines_limit_reached": "As regras devem ser menores ou iguais a %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Ocorreu um erro no seu carrinho de compras."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Não foi possível adicionar o produto em pacote '%{name}' ao carrinho.",
+        "cart_too_large": "O carrinho está demasiado cheio.",
+        "gift_card_recipient_validation_error": "O destinatário indicado do vale-presente é inválido",
+        "buyer_cannot_purchase_for_company_locations": "Não podes fazer uma compra para esta localização",
+        "only_one_added_to_cart": "Foi adicionado apenas 1 artigo ao seu carrinho devido à disponibilidade.",
+        "only_n_added_to_cart": "Foram adicionados apenas %{quantity} artigos ao teu carrinho devido à disponibilidade."
       }
     }
   }
