@@ -4243,7 +4243,171 @@
           "pending_orders_count_more_than_pagination_length": "vairāk nekā {{count}}"
         },
         "order_list_column_headers_location": "Atrašanās vieta",
-        "order_list_column_headers_contact": "Sazināties"
+        "order_list_column_headers_contact": "Sazināties",
+        "removed_company_contact_tooltip": "No uzņēmuma izņemts",
+        "order_list_column_headers_status": "Statuss"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Apstiprināts {{date}} pasūtījumam {{draftOrderName}}",
+        "loading": "Pasūtījuma dati tiek ielādēti",
+        "loading_finished_accessibility_message": "Pasūtījuma dati ir ielādēti",
+        "payment_status": {
+          "draft": {
+            "description": "Maksājuma dati tiek noteikti, kad pasūtījums ir apstiprināts.",
+            "title": "Maksājums vēl nav jāveic",
+            "in_review": {
+              "description": "Maksājuma dati tiek noteikti, kad pasūtījums ir apstiprināts.",
+              "title": "Maksājums vēl nav jāveic"
+            },
+            "submitted": {
+              "description": "Maksājiet, lai apstiprinātu šo pasūtījumu.",
+              "title": "Maksāt, lai apstiprinātu",
+              "deposit": {
+                "title": "Maksājums ir jāveic",
+                "due_later": "Par atlikumu attiecas {{translatedName}} noteikumi, un tas ir jāmaksā līdz {{dueDate}}.",
+                "due_on_fulfillment": "Bilance ir jāmaksā, tiklīdz visi šī pasūtījuma priekšmeti ir izpildīti.",
+                "due_on_receipt": "Jūs saņemsiet rēķinu par atlikušajiem līdzekļiem.",
+                "due_on_date": "Bilance ir jāmaksā līdz {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Par atlikumu attiecas {{translatedName}} noteikumi.",
+              "due_on_fulfillment": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Atlikums ir jāmaksā, kad tavs pasūtījums ir izpildīts.",
+              "due_on_receipt": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Atlikums jāapmaksā vēlāk.",
+              "due_on_date": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Atlikums ir jāmaksā līdz {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Jūsu pasūtījums ir pilnībā apmaksāts.",
+            "title": "Apmaksāts",
+            "title_with_date": "Apmaksāts {{date}}"
+          },
+          "pay_now": "Maksā tagad",
+          "title": "Maksājuma statuss",
+          "pending": {
+            "banner_overdue": {
+              "one": "Jūsu maksājums ir par {{count}} dienu kavēts",
+              "other": "Jūsu maksājums kavējas par {{count}} dienām"
+            },
+            "banner_due": {
+              "one": "Jūsu maksājums ir jāveic {{count}} dienu laikā",
+              "other": "Jūsu maksājums ir jāveic {{count}} dienu laikā"
+            },
+            "banner_due_today": "Jūsu maksājums ir jāveic šodien",
+            "title": "Maksājums jāveic",
+            "title_with_date": "Maksājums jāveic līdz {{date}}",
+            "description_overdue": "Jūsu maksājums ir kavēts.",
+            "description_partially_paid": "Šis pasūtījums ir daļēji apmaksāts. Jums ir atlikusī summa.",
+            "description_authorized": "Summa tiks iekasēta tajā datumā, kad tā ir jāmaksā, izmantojot jūsu izvēlēto maksāšanas veidu. Jūs varat arī samaksāt jau tagad.",
+            "title_due_on_receipt": "Maksājums vēl nav jāveic",
+            "description_due_on_receipt": "Jūs saņemsiet rēķinu, kad būs pienācis maksājuma termiņš.",
+            "title_due_on_fulfillment": "Maksājums ir jāveic, izpildot pasūtījumu.",
+            "description_due_on_fulfillment": "Maksājums ir jāveic, tiklīdz visi šī pasūtījuma priekšmeti ir apstrādāti.",
+            "description_waiting_for_manual_payment": "Maksājums par šo pasūtījumu tiek apstrādāts. Bilance tiks atjaunināta, kad saņemsim maksājumu.",
+            "description_due_on_receipt_partially_paid": "Šis pasūtījums ir daļēji apmaksāts. Jums ir atlikusī summa. Jūs saņemsiet rēķinu, kad būs jāveic maksājums.",
+            "description_due_on_fulfillment_partially_paid": "Šis pasūtījums ir daļēji apmaksāts. Jums ir atlikusī summa. Maksājums jāveic, tiklīdz visi šī pasūtījuma priekšmeti ir izpildīti.",
+            "description_due_on_fulfillment_partially_paid_next": "Šis pasūtījums ir daļēji apmaksāts. Jums ir atlikusī summa.",
+            "banner_due_today_for_single_fulfillment": "Maksājums {{amount}} ir jāveic šodien. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Maksājums šodien par {{count}} izpildījumiem",
+            "banner_overdue_for_multiple_fulfillments": "Maksājums par {{count}} izpildījumiem ir jāmaksā",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Maksājums {{amount}} ir kavēts par {{count}} dienu. {{link}}",
+              "other": "Maksājums {{amount}} ir kavēts par {{count}} dienām. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Atmaksāts",
+            "title_with_date": "Atmaksāts {{date}}",
+            "description_full_refund": "Jūs esat saņēmis pilnu atmaksu par šo pasūtījumu.",
+            "description_single_refund": "Jūs esat saņēmis daļēju atmaksu par šo pasūtījumu.",
+            "description_multiple_refunds": "Jūs esat saņēmis daļēju atmaksu par šo pasūtījumu."
+          },
+          "canceled": {
+            "title": "Maksājums atcelts",
+            "description": "Tev netika uzliktas nekādas maksas."
+          },
+          "pay_now_accessibility_label": "Maksājiet tagad par pasūtījumu {{orderName}}",
+          "due_date": "Parādā uz {{date}}",
+          "total_balance": "Kopējais atlikums"
+        },
+        "subtitle": "Iesniegts: {{date}}",
+        "title": "Pasūtījums {{name}}",
+        "order_timeline": {
+          "expand_events_label": "Rādīt datus",
+          "expand_events_accessibility_label": "Rādīt priekšpasūtījuma datus",
+          "hide_events_label": "Slēpt datus",
+          "hide_events_accessibility_label": "Slēpt datu parauga pasūtījumu"
+        }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Šī maksāšanas metode vairs nav pieejama turpmākiem pirkumiem šajā vietā.",
+          "description_with_replacement": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš atļautajām maksājumiem šai vietai. Aizstājiet to ar citu maksāšanas veidu, lai turpinātu saņemt gaidāmās pasūtījumus."
+        },
+        "payment_details": {
+          "order_label": "Pasūtījums {{name}}",
+          "draft_label": "Konceptpasūtījums {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Pievienot pasūtījuma numuru",
+        "add_modal_title": "Pievienot pasūtījuma numuru",
+        "cancel": "Atcelt",
+        "close_modal_accessibility_label": "Pasūtījuma numura loga aizvēršana",
+        "discard": "Noraidīt",
+        "discard_changes_modal_title": "Atcelt izmaiņas?",
+        "edit_accessibility_label": "Pasūtījuma numura rediģēšana",
+        "edit_modal_title": "Pasūtījuma numura rediģēšana",
+        "empty_state": "Nav pasūtījuma numura",
+        "modal_po_number_input_label": "Pasūtījuma numurs",
+        "modal_po_number_input_max_length_error": "Pasūtījuma numuri var būt līdz {{maxLength}} rakstzīmju gari.",
+        "save": "Saglabāt",
+        "title": "Iepirkuma pasūtījuma numurs {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Radās problēma, dzēšot šo adresi. Mēģiniet vēlreiz vai atsvaidziniet lapu."
+      },
+      "addresses_loading_issue": {
+        "description": "Savienojuma kļūda. Pārbaudi savu interneta savienojumu un mēģini vēlreiz."
+      },
+      "banner_title": {
+        "one": "Ir {{count}} kļūda",
+        "other": "Ir {{count}} kļūdas"
+      },
+      "failed_address_creation": {
+        "description": "Radās problēma, veidojot tavu adresi. Atjaunini šo lapu vai pārbaudi savu interneta savienojumu."
+      },
+      "failed_address_update": {
+        "description": "Radās problēma, atjauninot tavu adresi. Atjaunini šo lapu vai pārbaudi savu interneta savienojumu."
+      },
+      "no_access_to_locations": {
+        "description": "Tev nav piekļuves vietām"
+      },
+      "not_found": {
+        "description": "Pārbaudiet URL vai mēģiniet vēlreiz pēc dažām minūtēm.",
+        "title": "Radās problēma, ielādējot šo lapu"
+      },
+      "order_not_found": {
+        "description": "Šis pasūtījums neeksistē vai tev nav atļaujas to skatīt.",
+        "title": "Pasūtījums nav atrasts"
+      },
+      "profile_update_error": {
+        "description": "Radās problēma, atjauninot tavu profilu. Atsvaidzini šo lapu vai pārbaudi savu interneta savienojumu."
+      },
+      "retry_action_label": "Mēģināt vēlreiz",
+      "load_orders_error": {
+        "title": "Nevar ielādēt pasūtījumus",
+        "description": "Mēģiniet vēlreiz vai atgriezieties vēlāk.",
+        "retry_button": "Mēģināt vēlreiz"
+      },
+      "load_paypal_error": {
+        "description": "Radās problēma, ielādējot PayPal. Lūdzu, mēģiniet vēlreiz."
+      },
+      "load_extension_error": {
+        "title": "Kļūda",
+        "description": "Atjaunojiet šo lapu vai mēģiniet vēlreiz pēc dažām minūtēm."
       }
     }
   }
