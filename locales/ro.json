@@ -1206,7 +1206,65 @@
         "split_shipping_shipping_label": "Înțelept",
         "split_shipping_multiple_shipment_notice": "Comanda va fi livrată în mai multe tranșe",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Comanda ta va fi livrată în %{quantity} tranșe",
-        "split_shipping_more_shipping_options": "Mai multe opțiuni de expediere"
+        "split_shipping_more_shipping_options": "Mai multe opțiuni de expediere",
+        "split_shipping_shipment_number": "Expediere %{number}",
+        "split_shipping_option_free": "Transport gratuit",
+        "split_shipping_option_custom": "Adaptat",
+        "default_description": "Se expediază în termen de o zi lucrătoare",
+        "split_shipping_shipment_notice": "Primești comanda în %{quantity_shipments}",
+        "unbranded_default_description": "Pregătit pentru expediere",
+        "prime_not_available": {
+          "default": "Livrarea prioritară nu este disponibilă pentru comanda ta. Opțiunile tale de expediere au fost actualizate."
+        },
+        "split_shipping_first_shipment_notice": "Vei primi prima ta comandă în %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Opțiuni pentru metoda de trimitere",
+        "shipping_address_rollup_accessibility_label": "Opțiuni pentru trimiterea către adresă",
+        "invalid_shipping_method_summary_selected": "Selectați o altă adresă de livrare pentru a vedea metodele de expediere disponibile",
+        "third_party_address_timeout": "Nu se poate încărca adresa. Încearcă din nou sau folosește o altă adresă.",
+        "third_party_address_error": "A apărut o eroare la încărcarea selecției adresei. Introdu adresa ta manual mai jos.",
+        "third_party_payment_timeout": "Nu se pot încărca metodele de plată. Încearcă din nou sau folosește o altă metodă de plată.",
+        "third_party_payment_error": "A apărut o eroare la încărcarea selecției de plată. Folosiți o altă metodă de plată.",
+        "add_shipping_address": "Adăugați adresa de livrare",
+        "choose_new_address": "Alege o adresă nouă",
+        "unbranded_description_same_day": "Este expediat în aceeași zi lucrătoare",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Se va trimite în ziua lucrătoare următoare",
+          "other": "Se va expedia în peste %{count} zile lucrătoare"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Va fi expediat peste %{count} săptămână/săptămâni",
+          "other": "Va fi expediat peste %{count} săptămâni"
+        },
+        "add_new_delivery_address": "Adaugă o nouă adresă de livrare",
+        "delivery_to": "Livrare către"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Plătește",
+        "amazon_payments_login_hint": "Vi se cere să vă conectați la Amazon.",
+        "amazon_payments_logout": "Deconectare de la Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Metoda de plată selectată nu poate fi folosită. Alege o altă metodă sau contactează-ți banca ori emitentul cardului.",
+        "amazon_payments_abandoned_mfa_challenge": "Plata ta nu a putut fi finalizată. Încearcă o altă metodă de plată sau contactează banca sau emitentul cardului tău.",
+        "amazon_payments_could_not_enqueue_authorize": "A apărut o problemă la procesarea plății tale. Încearcă din nou sau folosește o altă metodă de plată.",
+        "amount_left_to_pay_label": "Sumă datorată:",
+        "discount_button_action_label": "Adaugă codul de reducere",
+        "gift_card_code_label": "Cod bon cadou",
+        "apply_gift_card_button_label": "Aplicare",
+        "supported_card_brands_more_label": "și mai mult…",
+        "detected_card_brand": "Tip card detectat: {brand}",
+        "name_on_card_label": "Nume pe card",
+        "name_on_card_placeholder": "Nume pe card",
+        "card_expiry_label": "Dată de expirare (LL/AA)",
+        "card_expiry_placeholder": "Dată de expirare (LL/AA)",
+        "card_expiry_date_explanation": "Structura datei de expirare a cardului: lună, lună, an, an",
+        "card_verification_value_explanation": "Cod de siguranță format din 3 cifre, de obicei găsit pe partea din spate a cardului tău. American Express are un cod format din 4 cifre pe partea din față.",
+        "card_verification_value_explanation_amex": "Cod de siguranță format din 4 cifre pe fața cardului tău",
+        "card_verification_value_explanation_other": "Cod de siguranță format din 3 cifre pe partea din spate a cardului tău",
+        "card_start_label": "Data eliberării (LL / AA)",
+        "card_start_placeholder": "Data eliberării (LL / AA)",
+        "card_issue_number_label": "Număr de eliberare",
+        "card_issue_number_placeholder": "Număr de eliberare",
+        "card_change_label": "Modificare",
+        "ends_with_label": "se încheie la %{last_digits}"
       }
     }
   }
