@@ -289,7 +289,7 @@
       "announcement": "Annuncio",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} articolo",
+        "one": "{{ count }} articoli",
         "other": "{{ count }} articoli",
         "many": "{{ count }} articoli"
       }
@@ -297,12 +297,12 @@
     "cart": {
       "title": "Il tuo carrello",
       "caption": "Articoli nel carrello",
-      "remove_title": "Rimuovi {{ title }}",
+      "remove_title": "Rimuovere {{ title }}",
       "note": "Istruzioni speciali per l'ordine",
-      "checkout": "Check-out",
+      "checkout": "Pagamento",
       "empty": "Il tuo carrello è vuoto",
-      "cart_error": "Si è verificato un errore durante l'aggiornamento del carrello. Riprova più tardi.",
-      "cart_quantity_error_html": "Puoi aggiungere soltanto {{ quantity }} di questo articolo al tuo carrello.",
+      "cart_error": "Si è verificato un errore durante l'aggiornamento del tuo carrello. Riprova.",
+      "cart_quantity_error_html": "Puoi aggiungere al carrello solo {{ quantity }} di questo articolo.",
       "headings": {
         "product": "Prodotto",
         "price": "Prezzo",
@@ -313,86 +313,86 @@
       "update": "Aggiorna",
       "login": {
         "title": "Hai un account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Accedi</a> per un check-out più veloce."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Accedi</a> per pagare più velocemente."
       },
       "estimated_total": "Totale stimato",
       "new_estimated_total": "Nuovo totale stimato",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Dazi e imposte inclusi. Sconti e <a href=\"{{ link }}\">spedizione</a> calcolati al check-out.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Dazi e imposte inclusi. Sconti e spedizione calcolati al check-out.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Imposte incluse. Sconti e <a href=\"{{ link }}\">spedizione</a> calcolati al check-out.",
-      "taxes_included_shipping_at_checkout_without_policy": "Imposte incluse. Sconti e spedizione calcolati al check-out.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Dazi inclusi. Imposte, sconti e <a href=\"{{ link }}\">spedizione</a> calcolati al check-out.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Dazi inclusi. Imposte, sconti e spedizione calcolati al check-out.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Imposte, sconti e <a href=\"{{ link }}\">spedizione</a> calcolati al check-out.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Imposte, sconti e spedizione calcolati al check-out."
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Dazi doganali e tasse inclusi. Sconti e <a href=\"{{ link }}\">spedizione</a> saranno calcolati al momento del pagamento.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Dazi doganali e imposte incluse. Sconti e spedizione saranno calcolati al momento del pagamento.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Tasse incluse. Sconti e <a href=\"{{ link }}\">spedizione</a> saranno calcolati al momento del pagamento.",
+      "taxes_included_shipping_at_checkout_without_policy": "Tasse incluse. Sconti e spedizione saranno calcolati al momento del pagamento.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Dazi doganali inclusi. Tasse, sconti e <a href=\"{{ link }}\">spedizione</a> saranno calcolati al momento del pagamento.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Diritti doganali inclusi. Tasse, sconti e spedizione saranno calcolati al momento del pagamento.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tasse, sconti e <a href=\"{{ link }}\">spedizione</a> vengono calcolati al momento del pagamento.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Tasse, sconti e spedizione saranno calcolati al momento del pagamento."
     },
     "footer": {
       "payment": "Metodi di pagamento"
     },
     "featured_blog": {
-      "view_all": "Visualizza tutto",
-      "onboarding_title": "Articolo del blog",
-      "onboarding_content": "Offri ai clienti un riepilogo dell'articolo del blog"
+      "view_all": "Vedi tutto",
+      "onboarding_title": "Post del blog",
+      "onboarding_content": "Offri ai tuoi clienti una panoramica del tuo articolo del blog"
     },
     "featured_collection": {
-      "view_all": "Visualizza tutto",
-      "view_all_label": "Visualizza tutti i prodotti della collezione {{ collection_name }}"
+      "view_all": "Vedi tutto",
+      "view_all_label": "Visualizza tutti i prodotti nella collezione {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Visualizza tutto"
+      "view_all": "Vedi tutto"
     },
     "collection_template": {
       "title": "Collezione",
       "empty": "Nessun prodotto trovato",
-      "use_fewer_filters_html": "Utilizza meno filtri o <a class=\"{{ class }}\" href=\"{{ link }}\">rimuovi tutto</a>"
+      "use_fewer_filters_html": "Usa meno filtri o <a class=\"{{ class }}\" href=\"{{ link }}\">rimuovi tutto</a>"
     },
     "video": {
-      "load_video": "Carica il video: {{ description }}"
+      "load_video": "Caricamento video: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Carica slide",
-      "previous_slideshow": "Slide precedente",
-      "next_slideshow": "Slide successiva",
-      "pause_slideshow": "Metti in pausa presentazione",
-      "play_slideshow": "Avvia presentazione",
-      "carousel": "Carousel",
-      "slide": "Scorrimento"
+      "load_slide": "Carica il giorno",
+      "previous_slideshow": "Diapositiva precedente",
+      "next_slideshow": "Diapositiva successiva",
+      "pause_slideshow": "Mettere in pausa la presentazione di diapositive",
+      "play_slideshow": "Riproduci presentazione di diapositive",
+      "carousel": "Carosello",
+      "slide": "Giorno"
     },
     "page": {
-      "title": "Titolo pagina"
+      "title": "Titolo della pagina"
     },
     "announcements": {
       "previous_announcement": "Annuncio precedente",
       "next_announcement": "Annuncio successivo",
-      "carousel": "Carousel",
+      "carousel": "Carosello",
       "announcement": "Annuncio",
       "announcement_bar": "Barra degli annunci"
     },
     "quick_order_list": {
-      "product_total": "Subtotale prodotto",
+      "product_total": "Totale parziale prodotto",
       "view_cart": "Visualizza carrello",
-      "each": "{{ money }}/ciascuno",
+      "each": "{{ money }}/al mese",
       "product": "Prodotto",
       "variant": "Variante",
-      "variant_total": "Totale varianti",
+      "variant_total": "Variante totale",
       "items_added": {
-        "one": "{{ quantity }} articolo aggiunto",
+        "one": "{{ quantity }} articoli aggiunti",
         "other": "{{ quantity }} articoli aggiunti",
         "many": "{{ quantity }} articoli aggiunti"
       },
       "items_removed": {
-        "one": "{{ quantity }} articolo rimosso",
+        "one": "{{ quantity }} articoli rimossi",
         "other": "{{ quantity }} articoli rimossi",
         "many": "{{ quantity }} articoli rimossi"
       },
       "product_variants": "Varianti di prodotto",
-      "total_items": "Articoli totali",
-      "remove_all_items_confirmation": "Rimuovere tutti i {{ quantity }} articoli dal tuo carrello?",
+      "total_items": "Numero totale di articoli",
+      "remove_all_items_confirmation": "Rimuovere tutti e {{ quantity }} gli articoli dal carrello?",
       "remove_all": "Rimuovi tutto",
       "cancel": "Annulla",
-      "remove_all_single_item_confirmation": "Rimuovere un articolo dal carrello?",
-      "min_error": "Questo articolo ha un minimo di {{ min }}",
-      "max_error": "Questo articolo ha un massimo di {{ max }}",
+      "remove_all_single_item_confirmation": "Rimuovere 1 articolo dal tuo carrello?",
+      "min_error": "Per questo articolo vale un minimo di {{ min }}.",
+      "max_error": "Per questo articolo vale un massimo di {{ max }}.",
       "step_error": "Puoi aggiungere questo articolo solo in incrementi di {{ step }}"
     }
   },
