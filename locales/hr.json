@@ -63,93 +63,93 @@
       "of": "izvan",
       "next_slide": "Pomaknite se desno",
       "previous_slide": "Pomakni ulijevo",
-      "name": "Kliznik"
+      "name": "Klizni upravljač"
     }
   },
   "newsletter": {
-    "label": "Adresa e-pošte",
-    "success": "Hvala što ste se pretplatili",
-    "button_label": "Pretplatite se"
+    "label": "E-pošta",
+    "success": "Hvala na pretplati",
+    "button_label": "Pretplati se"
   },
   "accessibility": {
-    "skip_to_text": "Preskoči na sadržaj",
+    "skip_to_text": "Odmah na sadržaj",
     "close": "Zatvori",
     "unit_price_separator": "po",
     "vendor": "Prodavač:",
     "error": "Pogreška",
-    "refresh_page": "Odabirom rezultata osvježava se cijela stranica.",
-    "loading": "Učitavanje...",
+    "refresh_page": "Odabir izbora rezultira potpunim osvježavanjem stranice.",
+    "loading": "Učitavanje u tijeku...",
     "link_messages": {
       "new_window": "Otvara se u novom prozoru.",
-      "external": "Otvara vanjsko web-mjesto."
+      "external": "Otvori vanjsku web-stranicu."
     },
-    "skip_to_product_info": "Preskoči do informacija o proizvodu",
-    "total_reviews": "ukupan broj pregleda",
-    "star_reviews_info": "{{ rating_value }} od sljedećeg broja zvjezdica: {{ rating_max }}",
-    "collapsible_content_title": "Sadržaj koji se može sažeti",
-    "complementary_products": "Komplementarni proizvodi"
+    "skip_to_product_info": "Idi izravno na informacije o proizvodu",
+    "total_reviews": "ukupni broj recenzija",
+    "star_reviews_info": "{{ rating_value }} od {{ rating_max }} zvjezdica",
+    "collapsible_content_title": "Sklopivi sadržaj",
+    "complementary_products": "Dodatni proizvodi"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "read_more_title": "Pročitajte više: {{ title }}",
-      "moderated": "Napominjemo da komentari moraju biti odobreni prije objave.",
-      "comment_form_title": "Ostavite komentar",
+      "moderated": "Pažnja: komentari moraju biti odobreni prije nego što budu objavljeni.",
+      "comment_form_title": "Ostavi komentar",
       "name": "Ime",
-      "email": "Adresa e-pošte",
-      "message": "Komentar",
-      "post": "Objavi komentar",
+      "email": "E-pošta",
+      "message": "Odgovor",
+      "post": "Ostavi komentar",
       "back_to_blog": "Natrag na blog",
-      "share": "Podijeli ovaj članak",
-      "success": "Vaš je komentar uspješno objavljen! Hvala!",
-      "success_moderated": "Vaš je komentar uspješno objavljen. Uskoro ćemo ga objaviti jer se naš blog moderira.",
+      "share": "Podijeli ove članke",
+      "success": "Vaš je odgovor objavljen! Hvala!",
+      "success_moderated": "Vaš je odgovor objavljen. Objavit ćemo ga uskoro; naš blog je pod nadzorom.",
       "comments": {
-        "one": "{{ count }} komentar",
+        "one": "{{ count }} reakcija",
         "other": "{{ count }} komentara",
         "few": "{{ count }} komentara"
       }
     }
   },
   "onboarding": {
-    "product_title": "Primjer naziva proizvoda",
-    "collection_title": "Naziv vaše kolekcije"
+    "product_title": "Primjer naslova proizvoda",
+    "collection_title": "Ime tvoje zbirke"
   },
   "products": {
     "product": {
       "add_to_cart": "Dodaj u košaricu",
       "description": "Opis",
-      "on_sale": "Rasprodaja",
+      "on_sale": "Ponuda",
       "product_variants": "Varijante proizvoda",
-      "share": "Podijelite ovaj proizvod",
+      "share": "Podijeli ovaj proizvod",
       "sold_out": "Rasprodano",
-      "unavailable": "Nedostupno",
+      "unavailable": "Nije dostupno",
       "vendor": "Prodavač",
-      "video_exit_message": "Za {{ title }} otvara se videozapis preko čitavog zaslona u istom prozoru.",
-      "xr_button": "Pogledajte u svojem prostoru",
-      "xr_button_label": "Značajka Pogledajte u svojem prostoru učitava artikl u prozor proširene stvarnosti",
+      "video_exit_message": "{{ title }} otvara videozapis na cijelom zaslonu u istom prozoru.",
+      "xr_button": "Pogledaj u svom prostoru",
+      "xr_button_label": "Pogledaj u svom prostoru, učitaj predmet u prozor proširene stvarnosti",
       "quantity": {
-        "label": "Količina",
-        "input_label": "Količina proizvoda {{ product }}",
-        "increase": "Povećaj količinu proizvoda {{ product }}",
-        "decrease": "Smanji količinu proizvoda {{ product }}",
-        "minimum_of": "Minimalno {{ quantity }}",
-        "maximum_of": "Maksimalno {{ quantity }}",
-        "multiples_of": "Povećanje od {{ quantity }}",
+        "label": "Broj",
+        "input_label": "Količina za {{ product }}",
+        "increase": "Povećajte količinu za {{ product }}",
+        "decrease": "Smanjiti količinu za {{ product }}",
+        "minimum_of": "Minimalno van {{ quantity }}",
+        "maximum_of": "Maksimalno izvan {{ quantity }}",
+        "multiples_of": "Koraci od {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> u košarici",
-        "note": "Prikaži pravila o količini",
+        "note": "Pregled pravila količine",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maks. {{ quantity }}",
         "in_cart_aria_label": "Količina ({{ quantity }} u košarici)"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
-        "regular_price": "Redovna cijena",
-        "sale_price": "Prodajna cijena",
+        "regular_price": "Uobičajena cijena",
+        "sale_price": "Ponudbena cijena",
         "unit_price": "Jedinična cijena"
       },
       "pickup_availability": {
-        "view_store_info": "Prikaži informacije o trgovini",
-        "check_other_stores": "Provjeri dostupnost u drugim trgovinama",
+        "view_store_info": "Pogledajte podatke o trgovini",
+        "check_other_stores": "Provjerite dostupnost u drugim trgovinama",
         "pick_up_available": "Dostupno je preuzimanje",
         "pick_up_available_at_html": "Preuzimanje je dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "Preuzimanje trenutačno nije dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}</span>",
@@ -189,7 +189,17 @@
       },
       "taxes_included": "Porezi su uključeni.",
       "duties_included": "Carina je uključena.",
-      "duties_and_taxes_included": "Carina i porezi su uključeni."
+      "duties_and_taxes_included": "Carina i porezi su uključeni.",
+      "inventory_out_of_stock_message": "Na skladištu",
+      "inventory_order_before": "za",
+      "inventory_delivered": "naručeno,",
+      "inventory_delivery_time": "sutra kod kuće",
+      "inventory_status": {
+        "in_stock_badge": "Na skladištu",
+        "low_stock_badge": "Malo zaliha",
+        "out_of_stock_badge": "Nema na skladištu",
+        "shipping_message": "Naručeno do 14:00, poslano isti dan"
+      }
     },
     "modal": {
       "label": "Galerija medijskih zapisa"
