@@ -2229,7 +2229,93 @@
         "additional_information": {
           "tax_credential_br": "OIB/PDV broj",
           "shipping_credential_br": "OIB/PDV broj",
-          "shipping_credential_kr": "Osobni carinski kod"
+          "shipping_credential_kr": "Osobni carinski kod",
+          "shipping_credential_cn": "ID broj stanovnika",
+          "tax_credential_it": "Porezni broj (opcionalno)",
+          "tax_email_it": "PEC (opcionalno)",
+          "tax_credential_co": "Osobna iskaznica/PDV",
+          "tax_credential_type_co": "Vrsta osobne iskaznice",
+          "shipping_credential_co": "Osobna iskaznica/PDV",
+          "shipping_credential_type_co": "Vrsta osobne iskaznice",
+          "tax_credential_cr": "Identifikacijski broj/RUT",
+          "shipping_credential_cr": "Identifikacijski broj/RUT",
+          "tax_credential_ec": "CI/RUC/PDV",
+          "shipping_credential_ec": "CI/RUC/PDV",
+          "tax_credential_gt": "NIT/PDV",
+          "shipping_credential_gt": "NIT/PDV",
+          "tax_credential_my": "OIB/Registracijski broj",
+          "shipping_credential_my": "OIB/Registracijski broj",
+          "tax_credential_type_mx": "Porezni režim",
+          "tax_credential_use_mx": "Upotreba CFDI-a",
+          "tax_credential_py": "CI/RUC/PDV",
+          "shipping_credential_py": "CI/RUC/PDV",
+          "tax_credential_pt": "OIB/PDV",
+          "shipping_credential_pt": "OIB/PDV",
+          "tax_credential_es": "OIB/NIF",
+          "shipping_credential_es": "OIB/NIF",
+          "shipping_credential_tw": "Nacionalni ID broj/porezni broj",
+          "tax_credential_tr": "Republika Turska Identifikacijski broj/Porez na dodanu vrijednost",
+          "shipping_credential_tr": "Republika Turska Identifikacijski broj/Porez na dodanu vrijednost"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Platili ste svoju narudžbu.",
+        "components": {
+          "expand": "Pogledaj više",
+          "submit": "Podnijeti zahtjev"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Vaša je košarica ažurirana prema vašoj zemlji za dostavu.",
+        "cart_and_currency_updated_based_on_country": "Vaša je košarica i valuta prilagođena zemlji za dostavu.",
+        "currency_updated_for_country": "Valuta ažurirana za %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} pri svakoj %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Prva uplata %{total_price}",
+            "other": "Prve %{count} uplate po cijeni od %{total_price} po komadu"
+          },
+          "following_cycles": ", zatim %{total_price} svake %{interval}"
+        },
+        "recurring_total_intervals": {
+          "week": {
+            "other": "%{count} tjedana"
+          },
+          "month": {
+            "other": "%{count} mjeseci"
+          },
+          "year": {
+            "other": "%{count} godina"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Prva uplata %{total_price_with_discount}, zatim %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", zatim %{count} uplata od %{total_price}",
+            "other": ", zatim %{count} uplata, svaka od %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Ažuriraj kartu",
+        "delete_customer_mandate": {
+          "generic_error": "Došlo je do problema pri obradi vašeg zahtjeva.",
+          "success_message": "Vaša metoda plaćanja je uklonjena"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Opći uvjeti MoR-a (Merchant of Record)"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Ovaj proizvod bit će uklonjen iz tvoje košarice jer nije dostupan u tvojoj zemlji/regiji.",
+          "other": "Ovi proizvodi se uklanjaju iz tvoje košarice jer nisu dostupni u tvojoj zemlji/regiji."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ovaj proizvod nije dostupan u tvojoj zemlji/regiji.",
+          "other": "Ovi proizvodi nisu dostupni u tvojoj zemlji/regiji."
         }
       }
     }

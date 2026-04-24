@@ -2890,7 +2890,75 @@
         "remote_only_notice": "Ces articles sont vendus et expédiés par d'autres boutiques. Rendez-vous à la caisse de chaque boutique pour finaliser votre achat.",
         "return_to_store_label": "Retour au magasin",
         "checkout_on_shop_label": "Payer chez %{shop_name}",
-        "single_shop_transition": "Vous allez être redirigé vers %{advertiser} pour finaliser votre achat."
+        "single_shop_transition": "Vous allez être redirigé vers %{advertiser} pour finaliser votre achat.",
+        "detail_item_label": {
+          "one": "{{count}} articles",
+          "other": "{{count}} articles"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Aucune %{policy_name} n'a été fournie pour cette boutique. Pour plus d'informations, veuillez contacter directement %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Paiement échoué",
+        "payment_not_processed_text": "Scannez à nouveau le code QR. Si cela ne fonctionne toujours pas, informez-en nos employés et essayez un autre mode de paiement.",
+        "payment_link_expired_text": "Scanner à nouveau le code QR.",
+        "title": "Paiement hors site échoué"
+      },
+      "taxes": {
+        "tax_details": "Informations fiscales complémentaires",
+        "vat_number": {
+          "field": {
+            "label": "Numéro d'identification TVA (facultatif)",
+            "tooltip": "Valide le numéro d'identification TVA et applique automatiquement l'autoliquidation sur les commandes qui y sont éligibles"
+          },
+          "vaulted": "Numéro d'identification Btw : %{number}",
+          "badge": "Numéro d'identification Btw : %{number}",
+          "domestic_order": "Le régime de report s'applique uniquement aux commandes transfrontalières au sein de l'UE. Pour les commandes locales, la TVA est facturée par défaut.",
+          "status": {
+            "invalid_format": {
+              "at": "Un numéro d'identification TVA d'Autriche contient AT et 9 caractères",
+              "be": "Un numéro d'identification TVA de Belgique contient BE et 10 caractères",
+              "bg": "Un numéro d'identification TVA de Bulgarie contient BG et 9 à 10 caractères",
+              "hr": "Un numéro d'identification à la taxe sur la valeur ajoutée de Croatie contient HR et 11 caractères",
+              "cy": "Un numéro d'identification TVA de Chypre contient CY et 9 caractères",
+              "cz": "Un numéro d'identification TVA de la République tchèque contient CY et 8 à 10 caractères.",
+              "dk": "Un numéro d'identification TVA du Danemark contient DK et 8 caractères",
+              "ee": "Un numéro d'identification TVA d'Estonie contient EE et 9 caractères",
+              "fi": "Un numéro d'identification TVA de Finlande contient FI et 8 caractères",
+              "fr": "Un numéro d'identification à la taxe sur la valeur ajoutée de la France contient FR et 11 caractères",
+              "de": "Un numéro d'identification TVA d'Allemagne contient DE et 9 caractères",
+              "gr": "Un numéro d'identification TVA de Grèce contient EL et 9 caractères",
+              "hu": "Un numéro d'identification TVA de Hongrie contient HU et 8 caractères",
+              "ie": "Un numéro d'identification TVA d'Irlande contient IE et 8 à 9 caractères",
+              "it": "Un numéro d'identification TVA d'Italie contient IT et 11 caractères",
+              "lv": "Un numéro d'identification TVA de Lettonie contient LV et 11 caractères",
+              "lt": "Un numéro d'identification TVA de Lituanie contient LT et 9 à 12 caractères",
+              "lu": "Un numéro d'identification TVA du Luxembourg contient LU et 8 caractères",
+              "mt": "Un numéro d'identification TVA de Malte contient MT et 8 caractères",
+              "nl": "Un numéro d'identification TVA des Pays-Bas contient NL et 12 caractères",
+              "pl": "Un numéro d'identification TVA de Pologne contient PL et 10 caractères",
+              "pt": "Un numéro d'identification TVA du Portugal contient PT et 9 caractères",
+              "ro": "Un numéro d'identification TVA de Roumanie contient RO et 10 caractères",
+              "sk": "Un numéro d'identification TVA de Slovaquie contient SK et 10 caractères",
+              "si": "Un numéro d'identification TVA de Slovénie contient SI et 8 caractères",
+              "es": "Un numéro d'identification TVA d'Espagne contient ES et 9 caractères",
+              "se": "Un numéro d'identification TVA de la Suède contient SE et 12 caractères",
+              "gb": "Un numéro d'identification TVA du Royaume-Uni contient GB ou XI et 5 à 12 caractères"
+            },
+            "invalid_number": {
+              "at": "Veuillez saisir un numéro d'identification TVA autrichien valide",
+              "be": "Saisissez un numéro d'identification TVA belge valide",
+              "bg": "Veuillez saisir un numéro d'identification TVA bulgare valide",
+              "hr": "Veuillez saisir un numéro d'identification TVA croate valide",
+              "cy": "Veuillez saisir un numéro d'identification TVA chypriote valide",
+              "cz": "Veuillez saisir un numéro d'identification TVA tchèque valide",
+              "dk": "Veuillez saisir un numéro d'identification TVA danois valide",
+              "ee": "Veuillez saisir un numéro d'identification TVA estonien valide",
+              "fi": "Veuillez saisir un numéro d'identification TVA finlandais valide"
+            }
+          }
+        }
       }
     }
   }
