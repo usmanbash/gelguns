@@ -2450,6 +2450,94 @@
         "generic_processing_error": {
           "title": "A apărut o problemă la procesarea comenzii tale",
           "body": "Nu au fost percepute taxe. Încercați din nou sau folosiți o altă metodă de plată."
+        },
+        "contact_information": {
+          "title": "Datele de contact nu sunt valide",
+          "header": "{{emailLink}} pentru a-ți actualiza datele",
+          "email_link": "Contactați-ne"
+        },
+        "payment_method_not_available_with_payment_terms": "Metoda de plată pe care ai selectat-o nu mai este disponibilă deoarece plata pentru această comandă se face acum în conformitate cu condițiile {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Metoda de plată pe care ai selectat-o nu mai este disponibilă deoarece plata pentru această comandă trebuie acum efectuată la îndeplinirea comenzii.",
+        "payment_method_not_available_with_fixed_terms": "Metoda de plată pe care ai selectat-o nu mai este disponibilă deoarece plata pentru această comandă trebuie efectuată mai târziu.",
+        "payment_method_not_available_with_review_requirement": "Metoda de plată pe care ai selectat-o nu mai este disponibilă deoarece plata este datorată odată ce comanda este confirmată.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Livrare",
+            "contact": "Contactează-ne"
+          },
+          "errors_in_section": {
+            "one": "{{count}} eroare în {{section}}",
+            "other": "{{count}} erori în {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Verifică adresa",
+        "subtitle": {
+          "one": "Această comandă va fi trimisă la adresa furnizată de {{merchant}}.",
+          "other": "Această comandă va fi livrată la o adresă furnizată de {{merchant}}. Selectați o adresă de livrare."
+        },
+        "subtitle_no_match": "Această adresă nu corespunde niciuneia dintre adresele tale salvate.",
+        "subtitle_must_use": "Comanda ta va fi trimisă la această adresă.",
+        "use_saved_address": "Folosește o altă adresă",
+        "return_to_cart": "Înapoi la coșul de cumpărături"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Citește",
+          "link_label": "condițiile generale ale {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Întrebări? Vorbește cu noi prin chat"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Există %{count} locație cu stoc în apropiere",
+          "other": "Există %{count} locații cu stoc în apropiere"
+        },
+        "or": "ÎNCHIS",
+        "cancel": "Anulare",
+        "search_button": "Căutare magazine",
+        "no_stores_found": "Niciun magazin găsit",
+        "could_not_resolve_address": "Nu se poate găsi adresa. Încearcă din nou sau folosește o altă adresă",
+        "paginator": {
+          "accessibility_label": "Paginare pentru ridicare la fața locului",
+          "previous": "Pagina anterioară"
+        },
+        "reveal_more_label": {
+          "other": "Afișează încă %{count} locații"
+        },
+        "all_stores_far_away": {
+          "title": "Cele mai apropiate locații se află la o distanță mai mare de %{distance}",
+          "description": "Selectați o locație sau %{ship_to_address_link}",
+          "change_location_link": "Schimbă-ți locația",
+          "title_with_specific_location": "Locația cea mai apropiată cu articolul tău se află la mai mult de %{distance} de %{location}.",
+          "title_with_item": {
+            "one": "Locația cea mai apropiată cu articolul tău se află la mai mult de %{distance} de %{location}.",
+            "other": "Locația cea mai apropiată cu articolele tale se află la mai mult de %{distance} de %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Locația selectată anterior nu mai este disponibilă",
+          "description": "Selectați o locație nouă sau %{ship_to_address_link}",
+          "ship_to_address_link": "Trimite către adresă"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Trimite articolele tale",
+          "search_elsewhere": "caută în altă parte",
+          "ship_items_or_search_elsewhere": "%{ship_items} din %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} sau adresă",
+        "location_closest": "Locația cea mai apropiată cu articolul tău",
+        "toggle_multiple_locations": "Încă mai sunt peste %{count} alte locații",
+        "location_information_far_away": {
+          "one": "Există %{count} locație cu articolul tău",
+          "other": "Există %{count} locații cu articolul tău"
+        },
+        "toggle_more_locations": {
+          "one": "Mai %{count} alte locații",
+          "other": "Mai sunt %{count} alte locații"
         }
       }
     }
