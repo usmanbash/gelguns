@@ -900,7 +900,69 @@
           "ddu_caption": "Võivad kehtida lisatasud",
           "ddp_title": "Nüüd maksa",
           "ddp_caption": "Tarne eest lisatasu ei lisandu"
-        }
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} ja %{current}"
+        },
+        "shipping_used_as_billing_notice": "Seda kasutatakse ka selle tellimuse arveldusaadressina.",
+        "address_update": "Aadressi uuendamine",
+        "shipping_address_title": "Saada aadressile",
+        "add_address": "Kasuta teist aadressi",
+        "add_delivery_instructions": "Tarnejuhiste lisamine",
+        "edit": "Muuda",
+        "delete": "Eemalda",
+        "address_more": "Rohkem kampaaniaid sellele aadressile",
+        "address_edit": "Aadressi redigeerimine",
+        "address_delete": "Aadressi kustutamine",
+        "address_confirm": "Kas oled kindel, et soovid selle aadressi oma kontolt eemaldada?",
+        "address_form": {
+          "add_address": "Lisa aadress",
+          "save": "Salvesta",
+          "cancel": "Tühista",
+          "generic_error": "Sinu aadressi salvestamisel tekkis probleem. Palun proovi uuesti.",
+          "one_time_address_subtitle": "Kasuta selle tellimuse jaoks ühekordset aadressi",
+          "edit": "Aadressi redigeerimine",
+          "update": "Salvesta muudatused"
+        },
+        "different_shipping_method_summary": "Sisesta teine tarneaadress, et näha saadaolevaid saatmisviise",
+        "invalid_shipping_method_summary": "Sisestage kehtiv tarneaadress, et näha saadaolevaid saatmisviise",
+        "method_summary": {
+          "incomplete_address_entered": "Sisestage täielik tarneaadress, et näha saadaolevaid saatmisviise",
+          "incomplete_address_selected": "Vali täielik tarneaadress, et näha saadaolevaid saatmisviise"
+        },
+        "local_pickup": {
+          "search_address": "Aadressi otsimine",
+          "rollup_title": "Tagastuskoht",
+          "rollup_accessibility_label": "Valikud järeletuleku asukoha jaoks"
+        },
+        "missing_shipping_address": "Tarneaadress puudub",
+        "delivery_title": "Kohaletoimetamine",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Esimene saadetis",
+          "other": "Esimesed saadetised"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Tagastav saadetis",
+          "other": "Tagasisaadetised"
+        },
+        "address_default": "Määra vaikeseadeks",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artiklit",
+        "split_shipping_merchandise_quantity_label_additional": "+ veel %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Saatmine %{number} %{total}-st",
+        "pre_order_ships_now": "Saadetakse kohe välja",
+        "pre_order_ships_later": "Saadetakse hiljem",
+        "pre_order_ships_date": "Saadetakse %{date}",
+        "split_shipping_shipped_by_shop": "Saadetud %{shop_name} poolt",
+        "split_shipping_multiple_shipment_label": "Mitmed saadetised",
+        "split_shipping_shipping_label": "Viis",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} saadetist",
+        "split_shipping_multiple_shipment_notice": "Tellimus tarnitakse mitmes saadetises",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Sinu tellimus tarnitakse %{quantity} saadetises.",
+        "split_shipping_more_shipping_options": "Rohkem saatmisvõimalusi",
+        "split_shipping_shipment_number": "Saatmine %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Kogus: %{quantity}",
+        "split_shipping_option_free": "Tasuta saatmine",
+        "split_shipping_option_lowest_price": "Kõrgeim hind"
       }
     }
   },

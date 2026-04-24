@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,72 @@
       "send_on_label": "Lähetä (valinnainen)",
       "expanded": "Lahjakortin saajalomake laajennettuna",
       "collapsed": "Lahjakortin saajalomake pienennettynä"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "ja",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "skip_to_content": "Siirry suoraan sisältöön",
+        "breadcrumb": "Murut",
+        "complete_purchase_button_label": "Tilauksen viimeistely",
+        "authenticate_purchase_button_label": "Vahvista maksu",
+        "edit_link_label": "Muuta",
+        "print_policies_link_label": "Tulostaminen",
+        "continue_to_shipping_method": "Jatka lähettämistä",
+        "continue_to_payment_method": "Siirry maksamaan",
+        "continue_to_review": "Tarkista tilaus",
+        "back_to_cart": "Takaisin ostoskoriin",
+        "back_to_contact_information": "Takaisin tietoihin",
+        "back_to_shipping_method": "Takaisin lähettämiseen",
+        "back_to_payment_method": "Takaisin maksamiseen",
+        "contact_us_html": "Ota meihin yhteyttä saadaksesi lisätietoja",
+        "autocomplete_title": "Ehdotuksia",
+        "autocomplete_single_item": "1 artikkeli saatavilla",
+        "autocomplete_multi_item": "{{number}} artikkelia saatavilla",
+        "forwarding_indicator": {
+          "new_window": "Avautuu uuteen ikkunaan.",
+          "external": "Avaa ulkoinen verkkosivu.",
+          "external_and_new_window": "Avaa ulkoinen verkkosivu uuteen ikkunaan."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kassalle"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Tilauksessasi tapahtui virhe. Yritä maksaa uudelleen.",
+          "line_item_limit_reached": "Suurin sallittu määrä tilauksia on saavutettu.",
+          "only_empty_terms_accepted": "Tämä sääntö hyväksyy vain tyhjät ehdot.",
+          "session_is_already_finished": "Tämä kassasessio on jo päättynyt.",
+          "merchandise": {
+            "only_value_constraint": "Tavaroita vastaanotettaessa sallitaan vain tarkat arvot.",
+            "merchandise_variant_not_found": "Tuotevarianttia ei löytynyt.",
+            "merchandise_not_applicable": "Tuotevarianttia ei voi ostaa.",
+            "bundle_products_not_supported_for_b2b": "Et voi lisätä niputettuja tuotteita B2B-tilauksiin tässä sijainnissa.",
+            "gift_card_quantity_mismatch": "Kun syötät lahjakorttikoodit, tilausrivien määrien on vastattava lahjakorttikoodien määrää.",
+            "gift_card_not_supported": "Tässä maksutavassa ei hyväksytä lahjakortteja.",
+            "gift_card_not_unique": "Lahjakortti, jossa on koodi {{code}}, esiintyy useita kertoja tässä kassalla. Koodit luodaan ennen vertailua.",
+            "gift_card_used": "Lahjakorttikoodi {{code}} on jo liitetty lahjakorttiin. Koodit luodaan ennen vertailua.",
+            "gift_card_invalid": "Lahjakorttikoodi {{code}} on virheellinen.",
+            "gift_card_code_changed": "Lahjakorttikoodi {{proposed_code}} on muotoilusääntöjen mukaisesti muutettu muotoon {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Tässä maksuvaiheessa ei tueta lahjakortteja, joilla on mukautetut ominaisuudet.",
+            "gift_card_with_components_not_supported": "Tässä maksutavassa ei tueta lahjakortteja, joissa on osia.",
+            "selling_plan_not_supported_b2b": "B2B-kassalla ei tueta tilauksia.",
+            "price_mismatch": "Aiemmin ehdotettu hinta näille tavaroille oli virheellinen ja on päivitetty.",
+            "inventory_not_found": "Varastoa ei löytynyt näille tavaroille.",
+            "duplicated_stable_id": "Tällä tavaralinjalla on sama vakaa tunniste kuin toisella linjalla.",
+            "minimum_quantity_not_met": "Joissakin tuotteissa ei täytetä vähimmäismäärää",
+            "maximum_quantity_exceeded": "Joidenkin tuotteiden kohdalla ei saavuteta sallittua enimmäismäärää",
+            "quantity_increment_not_met": "Joihinkin tuotteisiin ei sovelleta tilausrajoja",
+            "quantity_rules_not_met": "Joihinkin tuotteisiin ei sovelleta tilausrajoja",
+            "bundle_requires_components": "Tämä tavarakimppu ei sisällä osia.",
+            "title_too_long": "Tavaroiden otsikko on liian pitkä.",
+            "title_empty": "Tavaran otsikko on tyhjä."
+          }
+        }
+      }
     }
   }
 }
