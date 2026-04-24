@@ -3794,8 +3794,78 @@
       },
       "paid_with_shop_pay_installments_card": {
         "paid_with_shop_pay_installments": "Zaplaceno pomocí splátek Shop Pay",
-        "description": "Zůstaňte v obraze o svém platebním plánu díky připomenutím v aplikaci Obchod."
+        "description": "Zůstaňte v obraze o svém platebním plánu díky připomenutím v aplikaci Obchod.",
+        "payment_reminders_button": "Dostávat upomínky plateb",
+        "desktop_qr_code_content": {
+          "title": "Skenovat vzpomínky",
+          "description": "Dostávat upozornění na splátky u Shopu."
+        },
+        "title": "Připomenutí plateb pro platby na splátky Shop Pay"
+      },
+      "order_details": "Objednávací údaje",
+      "contact_information": "Kontaktní údaje",
+      "login_to_view_all_order_details": "Přihlaste se pro zobrazení všech údajů o objednávce.",
+      "remaining_amount": "Zbývající",
+      "order_details_skeleton_accessibility_label": "Přihlaste se pro zobrazení všech údajů o objednávce.",
+      "logged_in_account_no_permission_to_order": "Jste přihlášen jako {{email}}. Tento účet není oprávněn spravovat tuto objednávku.",
+      "log_in_to_a_different_account": "Přihlásit se k jinému účtu",
+      "duties": "Celní poplatky",
+      "ok_duties_tooltip": "Tato objednávka bude odeslána z jiné země, proto byly k celkové částce objednávky připočteny clo.",
+      "error_duties_tooltip": "Tato objednávka bude odeslána z jiné země, proto mohou být při doručení účtovány clo a daně.",
+      "zero_duties_tooltip": "Tato objednávka bude odeslána z jiné země. U objednávek s touto hodnotou nebudou účtovány žádné clo.",
+      "group_title_label": "Součást: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Náklady na zásobování surovinami",
+        "return_shipping_fee": "Vrácení zboží"
+      },
+      "vat_invoices": {
+        "title": "Btw-faktury"
+      },
+      "taxes_included": "Včetně {{amount}} DPH",
+      "duties_and_taxes_included": "Celková částka zahrnuje clo a daně. Při doručení nejsou žádné další platby.",
+      "grouped_view_components": {
+        "expand_line_items": "Zobrazit {{count}} položek",
+        "collapse_line_items": "Skrýt {{count}} položek",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}"
+      },
+      "cash_rounding": "Zaokrouhlit hotovost",
+      "adjusted_total": "Upravený součet",
+      "login_card": {
+        "link_expired": "Odkaz vypršel",
+        "resend_link_and_login": "Můžeš si prohlédnout své objednávkové údaje přihlášením nebo zasláním nového odkazu na e-mailovou adresu či telefonní číslo, které bylo použito při dokončení nákupu.",
+        "resend_link_only": "Můžeš si prohlédnout své objednávkové údaje zasláním nového odkazu na e-mailovou adresu nebo telefonní číslo, které jsi použil při dokončení nákupu.",
+        "title": "Zobrazit údaje o objednávce"
+      },
+      "link_sent": "Odkaz odeslán",
+      "company_and_location": "Podnik a místo",
+      "due_on_date": "Dlužné k {{date}}",
+      "due_on_fulfillment": "Platba při vyřízení objednávky",
+      "due_on_receipt": "Platba při převzetí",
+      "payment_confirmation": {
+        "full_payment_received": "Děkujeme! Vaše platba ve výši {{amount}} byla přijata a tato objednávka je nyní plně zaplacena.",
+        "dismiss_label": "Zavřít potvrzení o platbě",
+        "payment_authorized": "Děkujeme! Zůstatek bude aktualizován, jakmile bude platba přijata."
+      },
+      "marketing_pending_confirmation": "Klikněte na odkaz ve svém e-mailu pro potvrzení.",
+      "marketing_resend_email_success": "Odkaz odeslán",
+      "subtotal_label_with_quantity": {
+        "other": "Mezisoučet · {{count}} položek"
+      },
+      "total_savings": "Celková úspora",
+      "price_after_discount_accessibility_label": "Sleva",
+      "discount_order_stacking": {
+        "other": "Slevy na objednávky"
       }
+    },
+    "addresses": {
+      "cancel_adding_address_accessibility_label": "Přidat adresu zrušit",
+      "cancel_deletion_button_accessibility_label": "{{address}} odstranit zrušit",
+      "default_address": {
+        "title": "Standardní adresa",
+        "title_accessibility_label": "Standardní adresa: {{address}}"
+      },
+      "delete_button": "Odstranit",
+      "delete_button_accessibility_label": "{{address}} odstranit"
     }
   }
 }
