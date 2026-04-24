@@ -3270,7 +3270,81 @@
       "default_address_update_success_notification": "Standard address updated",
       "loading_add_form_accessibility_message": "Load new address form",
       "loading_finished_accessibility_message": "Form address is loaded",
-      "attention": "Attn."
+      "attention": "Attn.",
+      "attention_help_text": "The name of the person or the department",
+      "loading_form_accessibility_message": "Load address form",
+      "attention_company": "Company/attn."
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "Email address",
+        "contact_permissions": "Authorizations",
+        "net_payment_terms_description": "{{name}}: payment due within {{numberOfDays}} days",
+        "permissions_label": "Your authorizations",
+        "permissions_title": "Authorizations",
+        "shipping_address_required": "Add a delivery address to this location to be able to place orders.",
+        "tax_details_title": "Tax information",
+        "multiple_tax_exemptions": "Only {{taxExemptionsCount}} left",
+        "tax_exemption_not_applicable": "n/a",
+        "tax_exemptions_modal_button_accessibility_label": "Show all tax exemptions",
+        "staff_and_permissions_title": "Employees and authorizations"
+      },
+      "location_selection": {
+        "description": "If you already have items in your shopping cart, changing the location may affect the prices and quantities in your shopping cart.",
+        "list_accessibility_label": "Location list",
+        "list_item_without_address_accessibility_label": "{{name}}: no address",
+        "list_loading_accessibility_message": "Loading location list",
+        "list_loading_address_accessibility_message": "Load address for {{locationName}}",
+        "list_loading_finished_accessibility_message": "Location list is loaded",
+        "loading_store_accessibility_message": "On the way to the shop",
+        "title": "For which location are you buying?",
+        "continue_to_store": "Proceed to shop",
+        "no_location_title": "Only personal orders",
+        "no_location_description": "You are no longer authorized to place orders for {{company}}. However, you can still place personal orders.",
+        "clear_search": "Clear search action",
+        "description_switch_later": "You can always change later"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Add delivery address",
+        "add_shipping_address_section_accessibility_label": "Add delivery address",
+        "billing_address_card_title": "Invoice address",
+        "cancel_adding_billing_address_accessibility_label": "Add invoice address cancel",
+        "cancel_adding_shipping_address_accessibility_label": "Add delivery address cancel",
+        "save_new_shipping_address_accessibility_label": "Save delivery address",
+        "shipping_address_card_title": "Delivery address"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Hide all orders under review",
+          "show_all_accessibility_label": "Show all orders under review",
+          "title": "In progress",
+          "pagination": {
+            "nav_accessibility_label": "Navigation buttons for orders under review"
+          },
+          "show_all_orders_in_review": "Show all orders under review",
+          "show_less_orders_in_review": "Show fewer orders under review",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "You have no orders being processed",
+            "pending_orders": {
+              "one": "You have {{count}} order in process",
+              "other": "You have {{count}} orders in progress"
+            },
+            "more_than_pagination_length": "You have more than {{count}} orders in progress"
+          },
+          "pending_orders_count_more_than_pagination_length": "more than {{count}}"
+        },
+        "removed_company_contact_tooltip": "Removed from business",
+        "order_list_column_headers_status": "Condition"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmed on {{date}} for order {{draftOrderName}}",
+        "payment_status": {
+          "draft": {
+            "description": "Payment details are determined once the order is confirmed.",
+            "title": "Payment is not yet due"
+          }
+        }
+      }
     }
   }
 }
