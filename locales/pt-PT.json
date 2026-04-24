@@ -4066,8 +4066,72 @@
         "error_message": "Não é possível atualizar o método de pagamento",
         "loading_form_accessibility_message": "Formulário para atualizar o método de pagamento está a ser carregado",
         "loading_current_payment_method": "Método de pagamento atual está a ser carregado",
-        "loading_digital_wallets": "Opções para carteira digital estão a ser carregadas"
+        "loading_digital_wallets": "Opções para carteira digital estão a ser carregadas",
+        "loading_card_fields": "Os campos do cartão de crédito estão a ser carregados",
+        "subscriptions_title": "Assinaturas",
+        "subscriptions_list_accessibility_label": "Lista de produtos de subscrição",
+        "pre_orders_title": "Próximo",
+        "pre_orders_list_accessibility_label": "Lista de produtos com encomenda em curso",
+        "resources_list_accessibility_label": "Produtos de subscrição e produtos com uma encomenda em curso que utilizam este método de pagamento",
+        "resources_card_scroll": "Deslize para mais artigos",
+        "loading_resources": "A carregar assinaturas e encomendas futuras"
+      },
+      "link_expired": {
+        "message": "Este link para atualizar o seu método de pagamento expirou.",
+        "return_home_button": "Voltar à página inicial",
+        "update_message": "Este link para atualizar o seu método de pagamento expirou.",
+        "add_message": "Este link para adicionar o seu método de pagamento expirou."
+      },
+      "update_success": {
+        "done_button": "Continuar a comprar"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Pagamento na Loja",
+      "discover": "Descobrir",
+      "dinersclub": "Clube de Diners",
+      "forbrugsforeningen": "Associação de Consumo",
+      "storecredit": "Crédito na loja",
+      "bogus": "Falso"
+    },
+    "enable_javascript": "Ative o JavaScript nas definições do seu navegador ou inicie sessão com outro navegador para ver a sua conta.",
+    "ui_components": {
+      "processing": "A processar...",
+      "increase": "Aumento de {{type}}",
+      "decrease": "Remoção de {{type}}",
+      "minimumReached": "Mínimo de van {{value}} atingido",
+      "maximumReached": "Máximo de van {{value}} atingido",
+      "july": "juli",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "fazer.",
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "showNextMonth": "Mostrar o próximo mês, {{month}} {{year}}",
+      "rangeStart": "Iniciar alcance",
+      "inRange": "Ao alcance",
+      "rangeEnd": "Fim alcançado",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artigos disponíveis",
+        "other": "{{count}} artigos disponíveis"
+      },
+      "removeItem": "remover {{label}}",
+      "mapClusterTitle": {
+        "one": "Agrupamento de {{number}} pontos de marcação",
+        "other": "Agrupamento de {{number}} pontos de marcação"
+      },
+      "expandSheet": "Desdobrar",
+      "dropzoneInvalidFileType": "Este tipo de ficheiro não é suportado",
+      "dropzoneDraggedOver": "Guardar ficheiro para carregar",
+      "clipboardFailedToCopy": "Não copiado",
+      "clear": "Conhecimento"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Ajustar",
+      "hide_bar": "Ocultar viga",
+      "navigate_to_admin": "Navegar para o centro de gestão"
     }
   }
 }
