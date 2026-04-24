@@ -2432,8 +2432,92 @@
             "billing": "Arveldamine"
           },
           "heading": {
-            "one": "Esineb {{count}} viga:"
+            "one": "Esineb {{count}} viga:",
+            "other": "On {{count}} viga:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} viga sektsioonis {{section}}",
+            "other": "{{count}} viga {{section}}"
           }
+        }
+      },
+      "review_address_modal": {
+        "title": "Aadressi kontrollimine",
+        "subtitle": {
+          "one": "See tellimus saadetakse aadressile, mille {{merchant}} on esitanud.",
+          "other": "See tellimus saadetakse aadressile, mille on määranud {{merchant}}. Valige kohaletoimetamise aadress."
+        },
+        "subtitle_no_match": "See aadress ei ühti ühegi sinu salvestatud aadressiga.",
+        "subtitle_must_use": "Sinu tellimus saadetakse sellele aadressile.",
+        "continue": "Jätka selle aadressiga",
+        "use_saved_address": "Kasuta teist aadressi",
+        "return_to_cart": "Tagasi ostukorvi"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Loe",
+          "link_label": "{{partnerDisplayName}} üldtingimused"
+        }
+      },
+      "online_store_chat": {
+        "title": "Küsimusi? Vestle meiega"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Läheduses on %{count} laoseisuga asukohta",
+          "other": "Läheduses on %{count} laoseisuga asukohta"
+        },
+        "toggle_location": "Asukohta muuta",
+        "or": "Välja lülitatud",
+        "cancel": "Tühista",
+        "your_location": "sinu asukoht",
+        "search_button": "Poed otsima",
+        "no_stores_found": "Ühtegi poodi ei leitud",
+        "could_not_resolve_address": "Ei leia aadressi. Proovi uuesti või kasuta teist aadressi",
+        "paginator": {
+          "accessibility_label": "Järjekord kohapealseks kättesaamiseks",
+          "previous": "Eelmine leht",
+          "next": "Järgmine leht",
+          "label": {
+            "one": "%{first} - %{last} %{count} poest",
+            "other": "%{first} - %{last} %{count} poe vahel"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Kuva veel %{count} asukohta",
+          "other": "Näita veel %{count} asukohta"
+        },
+        "location_address_search_label": "Aadress",
+        "all_stores_far_away": {
+          "title": "Kõige lähemad asukohad asuvad rohkem kui %{distance} kaugusel",
+          "description": "Vali asukoht või %{ship_to_address_link}",
+          "ship_to_address_link": "kättetoimetamise aadress",
+          "change_location_link": "Muuda oma asukohta",
+          "title_with_specific_location": "Sinu toote lähim asukoht asub rohkem kui %{distance} kaugusel kohast %{location}.",
+          "title_with_item": {
+            "one": "Sinu toote lähim asukoht asub rohkem kui %{distance} kaugusel kohast %{location}.",
+            "other": "Sinu artiklitele lähim asukoht asub rohkem kui %{distance} kaugusel kohast %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Varem valitud asukoht ei ole enam saadaval",
+          "description": "Vali uus asukoht või %{ship_to_address_link}",
+          "ship_to_address_link": "Saada aadressile"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Saada oma esemed teele",
+          "search_elsewhere": "otsi mujalt",
+          "ship_items_or_search_elsewhere": "%{ship_items} %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} või aadress",
+        "location_closest": "Sinu artikliga lähim asukoht",
+        "toggle_multiple_locations": "Veel rohkem kui %{count} muud asukohta",
+        "location_information_far_away": {
+          "one": "Sinu artikliga on %{count} asukohta",
+          "other": "Sinu artikliga on %{count} asukohta"
+        },
+        "location_nearby": {
+          "one": "Sinu toote lähedal on %{count} asukohta"
         }
       }
     }

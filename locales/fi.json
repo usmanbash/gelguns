@@ -1704,7 +1704,71 @@
         "selected_payment_method": "Valitussa maksutavassa ilmeni ongelma, eikä maksua veloitettu. Yritä uudelleen tai käytä toista maksutapaa.",
         "payment_method_billing_address": "Valitun maksutapasi laskutusosoitteessa on ongelma. Tarkista osoite ja yritä uudelleen tai käytä toista maksutapaa.",
         "processing_error_checkout_as_guest": "Maksun käsittelyssä ilmeni ongelma. Yritä uudelleen toisella maksutavalla tai {{checkout_as_guest_link}}.",
-        "amount_too_small": "Vähimmäismaksun on oltava yli 0,50 USD. Yritä uudelleen suuremmalla summalla."
+        "amount_too_small": "Vähimmäismaksun on oltava yli 0,50 USD. Yritä uudelleen suuremmalla summalla.",
+        "payment_above_threshold": "Maksusumma on suurempi kuin tämän alueen raharaja. Vähennä kokonaissummaa ja yritä uudelleen",
+        "risky": "Maksun käsittelyssä ilmeni ongelma. Yritä uudelleen tai käytä toista maksutapaa.",
+        "expired_buyer_action": "Maksutavan aikakatkaisu. Yritä uudelleen.",
+        "three_d_secure_failed_payment_method": "Korttiasi ei voida vahvistaa. Yritä uudelleen tai lisää toinen kortti.",
+        "name_mismatch": "Tarkista korttitietosi. Kortin nimi ja laskutusosoite eivät täsmää.",
+        "payment_method_not_applicable": "Tämä maksutapa ei ole käytettävissä. Käytä toista maksutapaa.",
+        "shop_pay_wallet_not_available": "Shop Pay ei ole käytettävissä tässä maksutavassa.",
+        "market_manager_blocks_wallet_payments": "Tätä maksutapaa ei tueta maassasi.",
+        "paypal_over_capture": "Tilauksesi kokonaissumma on päivitetty. Maksa {{walletName}}-lompakolla viimeistelläksesi tilauksesi.",
+        "test_mode_enabled_only_test_cards": "Testitila on käytössä, lisätä voi vain testiluottokortteja.",
+        "captcha_required": "Syötä maksutiedot ja ratkaise captcha viimeistelläksesi ostoksesi.",
+        "captcha_required_without_payment_information": "Ratkaise captcha viimeistelläksesi ostoksesi.",
+        "shipping_company_required_error": "{{shopName}} tarvitsee yrityksen nimen toimitusosoitteeseen.",
+        "payment_credential_delegation_error": "Maksun käsittelyssä ilmeni ongelma. Valitse uusi maksutapa.",
+        "cancelled_payment": "Maksusi on peruutettu. Yritä uudelleen tai käytä toista maksutapaa.",
+        "installments_payment_method_incompatible": "Valittua maksutapaa ei voi käyttää osamaksuihin. Valitse toinen maksutapa."
+      },
+      "shipping_errors": {
+        "shipping_method": "Tilauksesi toimitusvaihtoehdot on muutettu. Tarkista valintasi.",
+        "shipping_method_not_available": "Ostoskori on päivitetty, mutta lisäämäsi tuotteet eivät ole toimitettavissa osoitteeseesi. Poista tuotteet jatkaaksesi tilausta.",
+        "shipping_method_not_available_generic": {
+          "one": "Tilaustasi ei voida lähettää valittuun osoitteeseen. Tarkista, että osoite on oikein, ja yritä uudelleen tai valitse toinen osoite.",
+          "other": "Jotkut ostoskorissasi olevat tuotteet eivät ehkä lähetetä antamaasi osoitteeseen. Tarkista, että osoite on oikein, ja yritä uudelleen tai valitse toinen osoite."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Lisäämäsi tuote ei lähetetä sijaintiisi. Poista tämä tuote maksaaksesi tai ota yhteyttä myymälään.",
+          "other": "Yksi tai useampi lisäämäsi tuote ei ole toimitettavissa sijaintiisi. Poista tuotteet maksaaksesi tai ota yhteyttä myymälään."
+        },
+        "payment_method_not_supported": "Et voi käyttää tätä maksutapaa %{country}-maahan. Käytä toista maksutapaa lähettääksesi tähän maahan.",
+        "empty_state": "Anna toimitusosoitteesi nähdäksesi käytettävissä olevat toimitustavat.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Ostoskorissa on tuotteita, jotka eivät täytä hinta- tai painovaatimuksia, jotta ne voisivat kelvata lähetykseen. Päivitä ostoskori ja yritä uudelleen.",
+        "title": "Toimitus ei saatavilla",
+        "invalid_selected_address": "Valittu toimitusosoite on virheellinen",
+        "invalid_selected_address_with_update_link": "Valittu toimitusosoite on virheellinen. %{update_address_link} tai valitse toinen osoite.",
+        "unavailable_selected_address_for_region": "Toimitus ei ole saatavilla alueelle {{region}}. Valitse toinen osoite jatkaaksesi.",
+        "unavailable_addresses_only_countries": "Tilauksesi voidaan lähettää vain osoitteisiin {{countriesList}}. Lisää uusi osoite jatkaaksesi.",
+        "unavailable_address_country": "Toimitus ei ole mahdollista valitsemassasi maassa. Anna toinen osoite jatkaaksesi."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Nopea kassallemeno",
+        "or": "OF",
+        "hide_more_options": "Piilota lisää vaihtoehtoja",
+        "or_pay_another_way": "Tai maksaa toisella tavalla",
+        "or_check_out_another_way": "Tai maksa toisella tavalla"
+      },
+      "processing": {
+        "redirecting_page_title": "Uudelleenohjataan…",
+        "redirecting_title": "Uudelleenohjataan…",
+        "redirecting_notice": "Sinut ohjataan eteenpäin.",
+        "continue_to_payment_gateway_notice": "Siirry maksamiseen lisätäksesi maksutietosi.",
+        "continue_to_payment_gateway_button_label": "Siirry maksamaan",
+        "continue_to_payment_gateway_notice_error": "Maksutietojasi ei voida vahvistaa.",
+        "continue_to_payment_gateway_button_label_error": "Maksutietojen päivittäminen",
+        "page_title": "Tilaus käsitellään",
+        "title": "Tilaus käsitellään",
+        "you_will_receive_confirmation": "Meillä on tällä hetkellä hyvin paljon tilauksia. Sinun pitäisi pian saada vahvistus sähköpostitse tai tekstiviestillä. Ilmoitathan meille, jos et ole saanut sitä tunnin kuluessa.",
+        "wait": {
+          "short": "Tilauksesi käsitellään.",
+          "medium": {
+            "one": "Tilauksesi käsitellään. Arvioitu odotusaika on %{count} minuuttia.",
+            "other": "Tilauksesi käsitellään. Arvioitu odotusaika on %{count} minuuttia."
+          },
+          "long": "Saat sähköpostin heti, kun tilauksesi on käsitelty. Tällä hetkellä on suuri määrä tilauksia."
+        }
       }
     }
   }
