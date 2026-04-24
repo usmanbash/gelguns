@@ -3095,9 +3095,73 @@
         "cancel_reason": {
           "inventory": "Άρθρα μη διαθέσιμα",
           "fraud": "Απατηλή παραγγελία",
-          "other": "Άντερς"
+          "other": "Άντερς",
+          "staff": "Λάθος υπάλληλοι"
+        },
+        "cash_on_delivery": "Επιστροφή χρημάτων"
+      },
+      "cart": {
+        "only_n_items_available": "Μπορείς να προσθέσεις μόνο %{count} %{name} στο καλάθι σου.",
+        "too_many_items_in_cart": "Δεν μπορείς να προσθέσεις άλλα %{name} στο καλάθι σου.",
+        "all_items_in_cart": "Όλα τα %{count} %{name} είναι στο καλάθι σου.",
+        "empty_update": "δεν είναι δυνατή η ενημέρωση του καλαθιού αγορών",
+        "missing_parameters": "μη έγκυρος αριθμός ταυτότητας ή αριθμός σειράς",
+        "generic_error": "Άδειο καλάθι αγορών",
+        "link_expired": "Ο σύνδεσμος έχει λήξει",
+        "stock_problems_html": "Ένα ή περισσότερα είδη δεν είναι πλέον διαθέσιμα. Έχουμε ετοιμάσει ένα <a href='%{link}'>ενημερωμένο καλάθι αγορών</a>.",
+        "changed": "Το καλάθι αγορών ενημερώθηκε",
+        "items_changed": "Ένα ή περισσότερα άρθρα έχουν αλλάξει.",
+        "product_sold_out": "Το προϊόν '%{name}' έχει ήδη εξαντληθεί.",
+        "variant_not_found": "Δεν είναι δυνατή η εύρεση της παραλλαγής Kan",
+        "variant_requires_selling_plan": "Η παραλλαγή μπορεί να αγοραστεί μόνο με συνδρομή πώλησης.",
+        "shipping_address_not_required": "Για αυτό το καλάθι δεν απαιτείται αποστολή",
+        "shipping_address_invalid": "Υπήρξε ένα πρόβλημα κατά τον υπολογισμό των εξόδων αποστολής σας. Συνεχίστε με την ολοκλήρωση της παραγγελίας για να επιλέξετε τα έξοδα αποστολής πριν ολοκληρώσετε την παραγγελία σας.",
+        "selling_plan_not_applicable": "Δεν είναι δυνατή η εφαρμογή συνδρομής πώλησης στην παραλλαγή",
+        "selling_plan_not_available_for_company_locations": "Διαθέσιμες είναι μόνο οι εφάπαξ αγορές για παραγγελίες B2B.",
+        "digital_product_not_available_for_company_locations": "Δεν μπορείτε να προσθέσετε αυτό το προϊόν σε μια παραγγελία B2B",
+        "less_than_minimum": "Αυτό το άρθρο έχει ελάχιστο όριο %{min}.",
+        "more_than_maximum": "Αυτό το άρθρο έχει μέγιστο όριο %{max}.",
+        "not_respect_step": "Μπορείς να προσθέσεις αυτό το προϊόν μόνο σε βήματα των %{step}.",
+        "bundle_requires_components": "Δεν ήταν δυνατή η προσθήκη του πακέτου προϊόντων '%{name}' στο καλάθι αγορών.",
+        "gift_card_with_components_not_supported": "Δεν ήταν δυνατή η προσθήκη του πακέτου προϊόντων '%{name}' στο καλάθι αγορών.",
+        "view_lines_limit_reached": "Οι κανόνες πρέπει να είναι μικρότεροι ή ίσοι με %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Παρουσιάστηκε σφάλμα στο καλάθι αγορών σου."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Δεν ήταν δυνατή η προσθήκη του πακέτου προϊόντων '%{name}' στο καλάθι αγορών.",
+        "cart_too_large": "Το καλάθι αγορών είναι πολύ μεγάλο.",
+        "gift_card_recipient_validation_error": "Ο καθορισμένος παραλήπτης του δωροεπιταγής δεν είναι έγκυρος",
+        "invalid_input": "Η παράμετρος %{parameter} δεν είναι έγκυρη.",
+        "buyer_cannot_purchase_for_company_locations": "Δεν μπορείτε να κάνετε αγορά για αυτήν την τοποθεσία",
+        "only_one_added_to_cart": "Προστέθηκε μόνο 1 προϊόν στο καλάθι σας λόγω διαθεσιμότητας.",
+        "only_n_added_to_cart": "Προστέθηκαν μόνο %{quantity} αντικείμενα στο καλάθι σας λόγω διαθεσιμότητας.",
+        "maximum_available_quantity_reached": "Η μέγιστη ποσότητα αυτού του προϊόντος βρίσκεται ήδη στο καλάθι σου.",
+        "cart_attributes_error": "Τα χαρακτηριστικά του καλαθιού περιέχουν μη έγκυρα δεδομένα.",
+        "merchandise_not_applicable": "Το αντικείμενο δεν μπορεί να αγοραστεί όπως έχει διαμορφωθεί."
+      },
+      "storefront": {
+        "invalid_password": "Λανθασμένος κωδικός πρόσβασης, δοκιμάστε ξανά."
+      },
+      "tags": {
+        "add_articles": "Περιορίστε την αναζήτηση σε άρθρα με την ετικέτα %{tag}",
+        "add_products": "Περιορίστε την αναζήτηση σε προϊόντα με την αντίστοιχη ετικέτα %{tag}",
+        "remove_articles": "Επέκτεινε την αναζήτηση σε άρθρα που δεν έχουν επισημανθεί με %{tag}",
+        "remove_products": "Αφαίρεση ετικέτας %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "προστέθηκε %{delta}",
+          "increment_item": "προστέθηκε %{delta}",
+          "decrement_item": "%{delta} μακριά από %{total}",
+          "decrement_fulfilled_line_item": "%{delta} από %{total} επιστράφηκαν",
+          "decrement_return_line_item": "%{delta} αφαιρέθηκε από την επιστροφή"
         }
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Το καλάθι σας",
+      "order": "Παραγγείλετε %{name}",
+      "not_found": "404 δεν βρέθηκε"
     }
   }
 }
