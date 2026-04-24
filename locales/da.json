@@ -3281,7 +3281,85 @@
           "load_more": "Indlæs mere"
         },
         "sort_by": "Sorter efter: {{option}}",
-        "sort_hide_options_accessibility_label": "Skjul sorteringsmuligheder for bekræftede ordrer."
+        "sort_hide_options_accessibility_label": "Skjul sorteringsmuligheder for bekræftede ordrer.",
+        "sort_show_options_accessibility_label": "Vis sorteringsmuligheder for bekræftede ordrer.",
+        "sort": {
+          "date": {
+            "newest": "Fra nyeste til ældste",
+            "oldest": "Fra ældste til nyeste"
+          },
+          "location": {
+            "ascending": "Placering (A-Å)",
+            "descending": "Placering (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Bestillingsnummer (lav til høj)",
+            "descending": "Bestillingsnummer (høj til lav)"
+          },
+          "order_total": {
+            "ascending": "Samlet bestilling (lav til høj)",
+            "descending": "Samlet bestilling (fra høj til lav)"
+          }
+        },
+        "one_images_accessibility_label": "Bestilling indeholder {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Fjern filtre eller juster dem for at se dine ordrer",
+        "estimated_shortform": "Anslået den {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "For sent",
+            "due": "Skyldigt den {{date}}",
+            "due_today": "Skyldig i dag",
+            "due_without_date": "Skyldigt",
+            "due_on_fulfillment": "At betale ved opfyldelse",
+            "payment_not_due": "Endnu ikke forfalden"
+          },
+          "gallery_view": {
+            "overdue": "Betalingen er for sen",
+            "due": "Betaling forfalder den {{date}}",
+            "due_today": "Betaling skal ske i dag",
+            "due_without_date": "Betaling skyldig",
+            "due_on_fulfillment": "Betaling forfalder ved opfyldelse",
+            "payment_not_due": "Betaling er endnu ikke forfalden"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Sorteret efter: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Bestilling indeholder {{lineItemName1}} antal {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} og mere",
+          "view_order_details": "Se bestillingsoplysninger"
+        },
+        "show_order_actions_accessibility_label": "Vis bestillingskampagner for bestilling {{name}}",
+        "empty_state_title_for_pending_orders": "Ingen ordrer under behandling",
+        "more_than_four_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus {{numberOfAdditionalProducts}} flere produkter",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produkter",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Se bestilling for produktoplysninger",
+            "estimated_delivery": "Forventet den {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Forventet levering den {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Bestillingen indeholder {{lineItemName1}}, {{lineItemName2}}, plus yderligere {{numberOfAdditionalProducts}} produkter",
+        "filter_title": "Filter",
+        "filter": {
+          "clear_section": "Slet sektion",
+          "clear_all": "Alt vide",
+          "apply": "Anvende",
+          "date": {
+            "title": "Bestillingsdato",
+            "last_7_days": "Sidste 7 dage"
+          }
+        }
       }
     }
   }
