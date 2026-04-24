@@ -1334,7 +1334,77 @@
         "purchase_options_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito, un abbonamento o un acquisto ricorrente. Procedendo con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente per il prezzo e la frequenza indicati in questa pagina, fino alla scadenza o alla cancellazione. Su tutte le cancellazioni si applica il %{cancellation_policy_label}.",
         "paypal_modal": {
           "order_contains_fixed_selling_plans": "Il totale può escludere tasse, spedizione, costi differiti e alcuni sconti. Procedi al pagamento per l'importo dovuto oggi."
-        }
+        },
+        "purchase_options_agreement_label_html": "Capisco che uno o più articoli nel mio carrello sono un acquisto differito, un abbonamento o un acquisto ricorrente. Procedendo, accetto la\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo l'addebito del mio metodo di pagamento per i prezzi, la frequenza e le date indicate in questa pagina, fino a quando il mio ordine non sarà completato o annullerò, se consentito.",
+        "card_vaulted_company_location": "Carta salvata per questa posizione",
+        "order_covered_by_store_credit_notice": "L'ordine viene pagato con il tuo credito negozio.",
+        "order_covered_by_redeemables_notice": "L'ordine è stato pagato.",
+        "store_credit": {
+          "label": "Credito negozio",
+          "apply_label": "Applicare il credito negozio",
+          "add_label": "Aggiungi credito negozio",
+          "manage_label": "Gestisci il credito del negozio",
+          "buying_gift_card": "Con un credito in negozio non puoi acquistare una carta regalo",
+          "no_fixed_selling_plans": "Non puoi utilizzare il credito del negozio in combinazione con opzioni di acquisto differito"
+        },
+        "clear": "Conoscenza",
+        "billing_must_match_shipping_notice": "L'indirizzo di fatturazione del tuo metodo di pagamento deve corrispondere all'indirizzo di consegna.",
+        "same_billing_address_checkbox_label": "L'indirizzo di consegna e l'indirizzo di fatturazione sono gli stessi",
+        "location_shipping_address_label": "Indirizzo di consegna della sede",
+        "no_working_method_error": "Questo negozio al momento non può accettare pagamenti. Ricarica la pagina o torna più tardi.",
+        "brand_not_available": "Questo negozio non accetta {{brand}}. Usa un'altra carta per pagare.",
+        "shipping_rate_updated": "I metodi di spedizione disponibili sono stati aggiornati. Conferma la tua scelta prima di procedere al pagamento.",
+        "billing_address_invalid_phone": "Aggiorna il numero di telefono all'indirizzo di fatturazione per {{label}} {{last_digits}} per continuare.",
+        "billing_address_invalid_phone_no_card": "Aggiorna il numero di telefono all'indirizzo di fatturazione per procedere.",
+        "preview_not_available": {
+          "title": "Esempio non disponibile",
+          "content": "Nessun problema, questo pagamento rapido funziona per i tuoi clienti.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Inserisci un CVV/CVC o codice di sicurezza valido"
+            }
+          }
+        },
+        "simulated_checkout": "Esempio apparirà a breve",
+        "vaulting_agreement_label": "Salva i miei dati di pagamento su %{company} per un checkout più veloce.",
+        "business_customer_vaulting_payment_label": "Salva questo metodo di pagamento al checkout e autorizza %{company} a prelevare fondi da questa carta per acquisti futuri in questa sede. Tutti i contatti assegnati a questa sede possono utilizzare il metodo di pagamento.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o più articoli nel carrello sono un acquisto differito o in abbonamento. Se procedi al pagamento, accetti che addebitiamo automaticamente gli importi dell'acquisto tramite il tuo metodo di pagamento al prezzo e con la frequenza indicati in questa pagina, fino alla scadenza o alla tua cancellazione. Per tutte le cancellazioni si applica il %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "politica di cancellazione",
+        "use_different_credit_card_label": "Usare un'altra carta",
+        "saved_credit_cards_modal": {
+          "done": "Pronto"
+        },
+        "expired_cards_info": {
+          "one": "C'è %{count} carta scaduta. Puoi visualizzarla e modificarla nel tuo account.",
+          "other": "Ci sono %{count} carte scadute. Puoi visualizzarle e modificarle nel tuo account."
+        },
+        "local_payment_method_receiver_notice": "Dopo aver effettuato il tuo ordine, riceverai i dati per il pagamento. Effettua il pagamento entro {{dueDays}} giorni presso un bancomat o online.",
+        "order_edit_banner_title": "Pagamento di {{amount_owed}} richiesto",
+        "order_edit_banner_subtitle": "Il tuo ordine {{order_number}} è stato aggiornato. Controlla queste modifiche e paga per confermare il tuo ordine.",
+        "order_edit_banner_multiple_items_added": "{{amount}} aggiunto",
+        "order_edit_banner_multiple_items_removed": "{{amount}} rimosso",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Applicare un buono regalo",
+          "apply_another_gift_card_label": "Applicare un altro buono regalo",
+          "add_label": "Aggiungere un buono regalo",
+          "manage_label": "Gestire i buoni regalo"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Conferma per pagamenti personalizzati in loco"
+        },
+        "markets_pro_disclaimer_label": "Effettuando l'ordine, accetti l'acquisto tramite Global-e come commerciante registrato, soggetto ai %{markets_pro_terms} e %{privacy_policy} di Global-e, e condividi i tuoi dati con %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "condizioni generali",
+        "markets_pro_disclaimer_privacy_policy": "politica sulla riservatezza",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Condizioni generali per i commercianti registrati",
+        "markets_pro_disclaimer_privacy_policy_title": "Informativa sulla privacy per i commercianti registrati",
+        "purchase_order_number": {
+          "title": "Numero d'ordine",
+          "label": "Numero d'ordine (facoltativo)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: Verrà addebitato un importo di %{amount_due}."
       }
     }
   }
