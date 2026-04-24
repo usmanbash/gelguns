@@ -3055,7 +3055,81 @@
       "gift_card_depleted": "Na tejto darčekovej poukážke už nie je žiadny zostatok",
       "gift_card_disabled": "Darčeková poukážka je zablokovaná",
       "gift_card_expired": "Darčeková poukážka vypršala",
-      "invalid": "je neplatný"
+      "invalid": "je neplatný",
+      "bad_domain": "obsahuje neplatné doménové meno",
+      "taken": "už používaný",
+      "contains_html_tags": "nemôže obsahovať HTML značky",
+      "too_short": "je príliš krátky (minimálne %{count} znakov)",
+      "too_long": "je príliš dlhý (maximálny počet je %{count} znakov)",
+      "password_mismatch": "musí byť totožné so zadaným heslom",
+      "invalid_for_country": "nie je platné pre %{country}",
+      "invalid_for_country_and_province": "nie je platné pre %{province} a %{country}",
+      "invalid_province_in_country": "nie je platnou provinciou v %{country}",
+      "invalid_state_in_country": "nie je platný štát v %{country}",
+      "invalid_region_in_country": "nie je platný región v %{country}",
+      "full_name_required": "Zadajte meno a priezvisko",
+      "invalid_for_card_type": "je neplatný",
+      "invalid_type": "ospravedlňujeme sa, neprijímame karty tohto typu",
+      "invalid_format": "formát je neplatný",
+      "expired": "vypršal",
+      "invalid_start_date_or_issue_number_for_debit": "platný dátum začiatku alebo platné číslo vydania je povinné",
+      "invalid_expiry_year": "nie je platný rok expirácie",
+      "reset_password_html": "Táto e-mailová adresa je už priradená k účtu. Ak je tento účet váš, môžete si <a href=\"/account/login#recover\">obnoviť heslo</a>",
+      "verify_email": "Poslali sme e-mail na %{customer_email}. Kliknite prosím na priložený odkaz, aby ste overili svoju e-mailovú adresu.",
+      "product_not_available": "produkt nebol zverejnený pre tohto zákazníka.",
+      "shop_404": {
+        "title": "Vytvorte si e-commerce webovú stránku a predávajte svoje produkty online! E-commerce softvér od Shopify",
+        "heros": {
+          "store_unavailable": "Tento obchod momentálne nie je dostupný.",
+          "no_storefront": "Tento obchod ešte nemá webovú stránku."
+        },
+        "links": {
+          "explore_other_stores": "Preskúmať iné obchody",
+          "start_free_trial": "Vyskúšajte zadarmo"
+        },
+        "owner_ctas": {
+          "header": "Si majiteľom obchodu?",
+          "fix_domain": "Prejdite na %{domain_settings_link} a dokončite nastavenie svojej novej webovej adresy. Kliknite na 'Pripojiť doménu' a zadajte: %{domain}.<br>Ak sa nemôžete dostať do svojho obchodu, skúste %{forgot_your_store_link}",
+          "fix_domain_link_text": "nastavenia domény",
+          "forgot_your_store_link_text": "Zabudli ste si nákupný košík?",
+          "add_storefront": "Môžete nastaviť svoju webovú stránku pridaním kanála e-shopu v %{admin_link}. Ak sa nemôžete dostať do svojho obchodu, skúste %{forgot_your_store_link}",
+          "admin_link_text": "centrum správy"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Získajte funkcie, ktoré potrebujete na riadenie svojho maloobchodného obchodu, či už práve začínate alebo rozširujete.",
+            "link_text": "Spustiť bezplatnú skúšobnú verziu"
+          },
+          "open_a_store": {
+            "header": "Otvoriť nový obchod Shopify",
+            "caption": "Začnite bezplatnú trojdňovú skúšobnú verziu a potom pokračujte tri mesiace za 1 USD mesačne.",
+            "link_text": "Zaregistrujte sa teraz"
+          },
+          "editions": {
+            "header": "Prezrieť si vydania Shopify",
+            "caption": "Existuje viac ako 100 aktualizácií produktov, ktoré vám umožnia byť v komerčnom svete produktívnejší, kreatívnejší a efektívnejší, než ste si kedy dokázali predstaviť.",
+            "link_text": "Preskúmať najnovšie vydania"
+          },
+          "store_owner": {
+            "header": "Si majiteľom obchodu?",
+            "caption": "Nemôžete sa dostať do svojho obchodu? Vyskúšajte funkciu %{forgot_your_store_link}. Ak chcete svoj obchod znova aktivovať, kontaktujte %{shopify_support_link}.",
+            "shopify_support_link_text": "Podpora Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Chyba pri obnove hesla",
+        "no_account_found": "Nebol nájdený žiadny účet s touto e-mailovou adresou.",
+        "denylisted_reset_password": "Účet sa nedá otvoriť, pretože aktuálne heslo nie je bezpečné. Dostanete e-mail na obnovenie hesla.",
+        "signup_disabled": "Vytváranie zákazníckych účtov je vypnuté.",
+        "subscribe_error": "Chyba pri odberaní",
+        "unsubscribe_error": "Chyba pri odhlasovaní"
+      },
+      "address": {
+        "updated": "Adresa aktualizovaná."
+      }
     }
   }
 }
