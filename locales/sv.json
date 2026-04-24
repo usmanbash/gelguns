@@ -4021,7 +4021,71 @@
       "decrease": "Avhämtning av {{type}}",
       "minimumReached": "Minimum från {{value}} uppnått",
       "maximumReached": "Maximalt värde på {{value}} uppnått",
-      "january": "januari"
+      "january": "januari",
+      "february": "februari",
+      "march": "mars",
+      "april": "april",
+      "may": "maj",
+      "june": "juni",
+      "july": "juli",
+      "august": "augusti",
+      "september": "september",
+      "october": "oktober",
+      "november": "november",
+      "december": "december",
+      "monday": "måndag",
+      "tuesday": "tisdag",
+      "wednesday": "onsdag",
+      "thursday": "torsdag",
+      "friday": "fredag",
+      "saturday": "lördag",
+      "sunday": "söndag",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "gör.",
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "rangeStart": "Börja område",
+      "inRange": "Inom räckhåll",
+      "rangeEnd": "Slut på räckvidd",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artikel tillgänglig",
+        "other": "{{count}} artiklar tillgängliga"
+      },
+      "mapClusterTitle": {
+        "one": "Klustervan med {{number}} markörpunkter",
+        "other": "Klustervan {{number}} markörpunkter"
+      },
+      "expandSheet": "Vik ut",
+      "addFile": "Lägg till bestånd",
+      "dropzoneInvalidFileType": "Den här filtypen stöds inte",
+      "dropzoneDraggedOver": "Placera fil för uppladdning",
+      "clipboardFailedToCopy": "Inte kopierad",
+      "clear": "Kunskap"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Dölj balken",
+      "navigate_to_admin": "Navigera till kontrollcenter",
+      "previewing": "Du tittar på ett exempel på:",
+      "saved_at": "Sparad den {{date}} klockan {{time}}",
+      "not_available": "Inga profiluppgifter tillgängliga",
+      "close_preview": "Exempel stängs",
+      "actions_button": "Kampanjer"
+    },
+    "settings": {
+      "loading_accessibility_message": "Laddar inställningssida",
+      "log_out_everywhere": {
+        "description": "Om du har tappat bort en enhet eller om du oroar dig för säkerheten, logga ut överallt för att garantera säkerheten för ditt konto.",
+        "warning_message": "Du loggas också ut från denna apparat."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} kl. {{time}}",
+        "lessThanOneWeekAgo": "Op {{weekday}} klockan {{time}}"
+      }
     }
   }
 }
