@@ -625,7 +625,65 @@
             "phone_number_does_not_match_expected_pattern": "The provided telephone number has an incorrect pattern.",
             "email_required": "When the goods have been purchased in a subscription, an email is required.",
             "missing_contact_method": "A valid contact method is missing.",
-            "checkout_completion_target_is_missing": "Goal for completion of the checkout is missing."
+            "checkout_completion_target_is_missing": "Goal for completion of the checkout is missing.",
+            "invalid_customer_profile": "An invalid customer profile has been provided.",
+            "customer_profile_access_restricted": "The checkout does not have access to the customer profile.",
+            "checkout_completion_target_is_invalid_proc": "Invalid checkout completion goal.",
+            "company_location_required": "The customer can only proceed if they choose a business location.",
+            "lost_access_to_company": "The customer has lost access to every business.",
+            "company_purchase_permission_required": "Customer is not authorized to place business orders.",
+            "buyer_identity_presentment_currency_does_not_match": "There was a problem processing your order. Please try again in a few minutes."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "A shopping cart may contain only one delivery line.",
+            "wrong_number_of_delivery_lines": "Provide a delivery rule for each group of goods.",
+            "external_delivery_promise_error": "Could not retrieve expected delivery date from external provider.",
+            "options_instructions_invalid": "The given instructions have an incorrect pattern.",
+            "destination_address_required": "To continue, you need a delivery address.",
+            "pickup_points_unavailable": "Pickup points are currently not available.",
+            "local_pickup_delivery_line_detail_changed": "To proceed, the current delivery method for local pickup must be changed.",
+            "local_pickup_no_delivery_strategy_available": "No delivery method available for on-site pickup.",
+            "origin_location_id_required": "An origin location ID is required when the delivery method RETAIL is requested.",
+            "invalid_origin_location_id": "Cannot find a location for the origin location ID.",
+            "origin_location_id_not_allowed": "No origin location ID is supported for the requested delivery methods.",
+            "auto_fulfill_required": "Automatic order completion is required when the delivery method RETAIL is requested.",
+            "prefetch_shipping_rates_used": "Prepaid shipping rates must never be return rates.",
+            "fulfillment_constraints_not_satisfied": "One or more fulfillment restrictions have not been met.",
+            "must_fulfill_from_constraint_not_satisfied": "The reason for this is that items cannot be handled from required locations.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "The reason for this is that items cannot be handled from the same location.",
+            "delivery_strategy_conditions_not_satisfied": "There are delivery methods available for this location, but the conditions are not met.",
+            "out_of_stock_at_origin_location": "No stock at origin location.",
+            "invalid_signature": "Invalid signature for discount.",
+            "selected_pickup_option_no_longer_available": "The pickup option you previously selected is no longer available."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Discounts are not allowed in B2B shops.",
+            "custom_discount_not_honoured": "The entered custom discount has not been given.",
+            "unsupported_expectation": "The entered discount rule contained an assumption that the policy could not interpret.",
+            "additional_requested_discount_code_discarded": "{{code}} is valid but not applicable. Check the terms for discounts.",
+            "allocations_mismatch": "Your discount code has been changed. Check your shopping cart and try again.",
+            "discount_title_too_long": "The title of the discount must not be longer than 255 characters.",
+            "additional_requested_discount_discarded": "Your discount is valid but not applicable. Check the terms for discounts."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Taxes applicable to your order have changed, please check your order and try again.",
+            "unresolvable_tax_terms": "The proposed conditions are not feasible given the current negotiation context.",
+            "delivery_price_is_abstract": "The applicable price for delivery is abstract.",
+            "tax_inclusivity_mismatch": "Negotiate again with a specific value for totalTaxAndDutyAmount or totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "No tax exemptions are supported in the current negotiation session.",
+            "delivery_tax_exemption_not_supported": "Tax exemptions for delivery rules are currently not supported.",
+            "proposed_allocations_required": "The field 'suggested assignments' is missing.",
+            "merchandise_terms_must_be_defined": "Define conditions for goods.",
+            "delivery_terms_must_be_defined": "Define conditions for delivery.",
+            "merchandise_discount_terms_must_be_defined": "Define conditions for goods discount.",
+            "delivery_discount_terms_must_be_defined": "Define conditions for delivery discount.",
+            "allocated_required": "The field 'assigned' is missing.",
+            "value_required": "The field 'value' is missing.",
+            "line_splits_not_supported": "The field 'goods lines' must be divided so that there is a separate component in the seller's proposal for each line."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manual payments are not allowed in B2B shops.",
+            "positive_amount_expected": "The amount to be paid must be greater than 0."
           }
         }
       }
