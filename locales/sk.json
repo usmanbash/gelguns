@@ -1964,7 +1964,67 @@
         "failed_contact_merchant_no_company": "Kontaktujte nás, aby sme dohodli doručenie.",
         "non_shippable_title": "Objednávka bola dokončená",
         "login_title": "Prihláste sa, aby ste si mohli prezrieť všetky objednávkové údaje",
-        "login_description": "Svoje číslo objednávky nájdete na faktúre, ktorú ste dostali e‑mailom."
+        "login_description": "Svoje číslo objednávky nájdete na faktúre, ktorú ste dostali e‑mailom.",
+        "login_description_phone": "Nájdete svoje číslo objednávky na faktúre, ktorú ste dostali cez SMS.",
+        "login_not_customer_html": "Niet %{name}? Môžete %{link}",
+        "login_reorder_link_text": {
+          "one": "Kúpiť tento produkt tiež",
+          "other": "kúpiť aj tieto produkty"
+        },
+        "customer_information_hidden_fields_message": "Prihláste sa, aby ste si mohli prezrieť všetky údaje o zákazníkovi.",
+        "cancelled_description": "Vaša objednávka bola zrušená dňa %{date}. Kontaktujte nás, ak máte nejaké otázky.",
+        "customer_validation_error": "Zadajte platnú e-mailovú adresu alebo číslo objednávky.",
+        "customer_validation_error_phone": "Zadajte platné telefónne číslo alebo číslo objednávky.",
+        "unfulfilled_items_title": "Príprava na odoslanie",
+        "unfulfilled_items_description": "Momentálne pripravujeme tieto položky na odoslanie.",
+        "marker": {
+          "current": "Aktuálna lokalita odoslania"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Položky v tomto zásielke",
+          "unfulfilled_table_title": "Pripravujú sa položky na odoslanie",
+          "quantity_label": "Počet"
+        },
+        "order_updates_description_missing": "Nebudete dostávať aktualizácie o zásielke.",
+        "order_updates_subscribe_to_email_notifications": "Získavajte aktualizácie o zásielke e-mailom",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Dostávajte aktualizácie o odoslaní e-mailom alebo SMS",
+        "order_updates_subscribe_to_phone_notifications": "Dostávajte aktualizácie o odoslaní cez SMS",
+        "track_shipment": "Sledovanie zásielky",
+        "order_status_confirmed_order_with_email_pick_up": "Dostanete e-mail, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "order_status_confirmed_order_with_phone_pick_up": "Dostanete SMS, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Dostanete e-mail a SMS, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "pick_up_in_store_marker": {
+          "current": "Aktuálna lokalita odoslania"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Dostanete e-mail, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Dostanete SMS, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Dostanete e-mail, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "ready_for_pickup_title": "Objednávka je pripravená na vyzdvihnutie",
+        "ready_for_pickup_description": "Vašu objednávku si môžete vyzdvihnúť. Pri vyzdvihnutí si prineste potvrdenie objednávky.",
+        "picked_up_title": "Objednávka bola vyzdvihnutá",
+        "picked_up_description_html": "Vaša objednávka bola vyzdvihnutá na %{location_name} dňa %{date}.",
+        "other_options": "Iné možnosti",
+        "shop_phone_description": "Dostanete SMS so odkazom na aplikáciu Shop, kde môžete sledovať svoju objednávku.",
+        "ready_for_delivery_title": "Objednávka je pripravená na doručenie",
+        "ready_for_delivery_description": "Pripravili sme objednávku.",
+        "gift_card_sent_confirmation": "Darčekové poukážky odoslané",
+        "out_for_delivery_local_title": "Vaša objednávka je pripravená na doručenie",
+        "out_for_delivery_local_description_html": "Čoskoro obdržíte svoju objednávku.",
+        "delivered_local_description_html": "Ešte ste nedostali svoju objednávku? %{let_us_know}.",
+        "let_us_know": "Dajte nám vedieť",
+        "qr_code": {
+          "title": "Sleduj na svojom telefóne",
+          "send_link_to_phone": "Alebo pošli odkaz do svojho telefónu"
+        },
+        "gift_card_confirmation_by_text": "Ak ste túto správu nedostali, požiadajte o opätovné odoslanie SMS alebo nás kontaktujte.",
+        "gift_card_confirmation_by_email": "Ak ste tento e-mail nedostali, požiadajte o jeho opätovné odoslanie alebo nás kontaktujte.",
+        "gift_card_title": "Darčekové poukážky",
+        "resend_gift_cards": "Znovu odoslať darčekové poukážky",
+        "attempted_delivery_local_title": "Nedoručená zásielka",
+        "attempted_delivery_local_description_html": "Bohužiaľ sme nemohli doručiť vašu objednávku. %{contact_us} pre dohodnutie iného doručenia.",
+        "thank_you_title_payment": "Vaša platba bola potvrdená",
+        "thank_you_confirmed_order_with_email_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}."
       }
     }
   }
