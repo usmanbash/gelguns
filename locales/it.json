@@ -1404,7 +1404,77 @@
           "title": "Numero d'ordine",
           "label": "Numero d'ordine (facoltativo)"
         },
-        "alternative_payment_currency_total_notice": "Nota: Verrà addebitato un importo di %{amount_due}."
+        "alternative_payment_currency_total_notice": "Nota: Verrà addebitato un importo di %{amount_due}.",
+        "waiting_on_taxes_message": "Aggiorna la pagina se le tasse non vengono calcolate entro pochi secondi.",
+        "waiting_on_taxes_notice": "Calcolare le tasse",
+        "order_edit_banner_single_item_returned": "Restituito",
+        "order_edit_banner_multiple_items_returned": "{{amount}} restituito",
+        "shop_pay_installments_label": "Pagamenti a rate con Shop Pay",
+        "delete_credit_card_modal": {
+          "title": "Rimuovi carta",
+          "confirmation": "Sei sicuro di voler rimuovere {{brandName}} che termina con {{lastDigits}}?",
+          "delete": "Rimuovere"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} aggiunto"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} da {{quantity}} di distanza"
+        },
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} su {{quantity}} restituiti"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Rimuovere"
+        },
+        "edit_credit_card_modal": {
+          "title": "Modifica mappa",
+          "done": "Pronto",
+          "fields": {
+            "card_number": "Numero della carta",
+            "billing": "Fatturare a"
+          }
+        },
+        "subscription_heading": "Contratto di abbonamento",
+        "use_order_billing_address_label": "Usa l'indirizzo di fatturazione dell'ordine",
+        "use_location_billing_address_label": "Usa l'indirizzo di fatturazione della sede",
+        "use_location_shipping_address_label": "Usa l'indirizzo di consegna della sede",
+        "purchase_options_agreement_label_wallets": "Se continui con il pagamento, accetti i pagamenti futuri indicati in questa pagina e la politica di cancellazione.",
+        "gift_card_store_credit": {
+          "add_label": "Aggiungere un buono regalo o un credito negozio",
+          "manage_label": "Gestire buoni regalo o credito negozio"
+        },
+        "saved_credit_card_cvv_verification": "Inserisci il codice di sicurezza della tua carta per scopi di verifica.",
+        "afterpay_label": "Pagamento posticipato",
+        "cashapppay_label": "Pagamento con Cash App",
+        "card_nickname_label": "Soprannome (facoltativo)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} rimosso dal reso"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} rimosso dal reso",
+        "proposed_gateway_unavailable": "Il sistema di pagamento proposto non è disponibile",
+        "pay_in_installments_split_pay_short": "Quattro pagamenti di %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Metodo di pagamento non disponibile per l'indirizzo di consegna scelto. Seleziona un altro metodo di pagamento.",
+        "paypal_disconnect": "Scollegare",
+        "paypal_wallet_label": "Portafoglio PayPal",
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: Il totale convertito è %{amount_due}.",
+        "gift_cards_unavailable": "Il tuo buono regalo non può più essere utilizzato per questo ordine ed è quindi stato rimosso",
+        "network_card_payment_options": "Scegliere una società di carte di credito",
+        "payment_flexibility_terms_id_mismatch": "ID condizioni flessibilità di pagamento non corrisponde",
+        "offsite_gateway_review_page_redirect_hint": "Dopo aver verificato l'ordine, verrai reindirizzato a %{gateway_label} per completare il tuo acquisto.",
+        "twint_label": "DOPPIO",
+        "gift_card_checkbox_label": "Applicare il buono regalo",
+        "blik_label": "Lattina",
+        "grabpay_label": "PagaRapido",
+        "kcp_creditcard_label": "KCP-carta di credito",
+        "simulated_express_checkout": "I portafogli digitali non sono disponibili nell'esempio dell'editor a causa della tua regione o del browser utilizzato",
+        "offsite_gateway_redirect_hint_no_button_label": "Verrai reindirizzato a %{gateway_label} per completare il tuo acquisto.",
+        "swish_label": "Fruscio",
+        "network_card_persistence_description": "La rete selezionata viene salvata con il tuo metodo di pagamento per le transazioni future.",
+        "payment_method_incompatible_with_payment_terms": "Il metodo di pagamento non è compatibile con le condizioni di pagamento.",
+        "payment_option": {
+          "accessibility_label": "Scegli un metodo di pagamento"
+        }
       }
     }
   }
