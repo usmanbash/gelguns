@@ -2968,9 +2968,83 @@
         },
         "ctas": {
           "sell_in_person": {
-            "header": "Henkilökohtainen myynti"
+            "header": "Henkilökohtainen myynti",
+            "caption": "Saat tarvitsemasi toiminnot vähittäiskauppasi pyörittämiseen, olitpa sitten vasta aloittamassa tai laajentamassa.",
+            "link_text": "Aloita ilmainen kokeiluversio"
+          },
+          "open_a_store": {
+            "caption": "Aloita kolmen päivän ilmainen kokeilu ja jatka sen jälkeen kolme kuukautta hintaan 1 USD kuukaudessa."
+          },
+          "editions": {
+            "header": "Shopify Editions tarkasteleminen",
+            "caption": "On yli 100 tuotepäivitystä, joiden avulla voit olla kaupallisessa maailmassa tuottavampi, luovempi ja tehokkaampi kuin olisit koskaan uskonut mahdolliseksi.",
+            "link_text": "Tutustu uusimpiin painoksiin"
+          },
+          "store_owner": {
+            "caption": "Et pääsekö kauppaasi? Kokeile toimintoa %{forgot_your_store_link}. Jos haluat aktivoida kauppasi uudelleen, ota yhteyttä %{shopify_support_link}."
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Virhe salasanan nollauksessa",
+        "no_account_found": "Sähköpostiosoitteella ei löytynyt tiliä.",
+        "invalid_credentials": "Virheellinen sähköpostiosoite tai salasana.",
+        "denylisted_reset_password": "Tiliäsi ei voi avata, koska nykyinen salasana ei ole turvallinen. Saat sähköpostin, jolla voit asettaa salasanasi uudelleen.",
+        "signup_disabled": "Asiakastilien luominen on poistettu käytöstä.",
+        "subscribe_error": "Virhe tilattaessa",
+        "unsubscribe_error": "Virhe kirjautuessa ulos"
+      },
+      "address": {
+        "updated": "Osoite päivitetty.",
+        "error_updating": "Virhe osoitetta päivitettäessä",
+        "created": "Osoite luotu",
+        "error_creating": "Virhe osoitetta luotaessa.",
+        "deleted": "Osoite poistettu",
+        "error_deleting": "Virhe osoitetta poistettaessa."
+      },
+      "order": {
+        "not_available": "Tätä tilausta ei ole saatavilla",
+        "financial_status": {
+          "authorized": "Vahvistettu",
+          "pending": "Käsittelyssä",
+          "unpaid": "Maksamaton",
+          "voided": "Vanhentunut",
+          "partially_refunded": "Osittain maksettu takaisin",
+          "refunded": "Maksettu takaisin"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Käsitelty",
+          "complete": "Täydellinen",
+          "partial": "Osittain",
+          "unfulfilled": "Avoinna",
+          "restocked": "Heinävaja"
+        },
+        "transaction_status": {
+          "pending": "Käsittelyssä",
+          "failure": "Epäonnistui"
+        },
+        "cancel_reason": {
+          "declined": "Maksu evätty",
+          "fraud": "Petollinen tilaus",
+          "customer": "Asiakas muutti/peruutti tilauksen",
+          "other": "Anders",
+          "staff": "Virheellinen henkilökunta"
+        },
+        "cash_on_delivery": "Hyvitys"
+      },
+      "cart": {
+        "only_n_items_available": "Voit lisätä ostoskoriisi vain %{count} %{name}.",
+        "too_many_items_in_cart": "Et voi lisätä enää yhtään %{name} ostoskoriisi.",
+        "all_items_in_cart": "Alle %{count} %{name} on ostoskorissasi.",
+        "empty_update": "ei voi päivittää ostoskoria",
+        "missing_parameters": "ei kelvollista tunnistetta tai rivinumeroa",
+        "generic_error": "Virhe ostoskorissa",
+        "too_many_line_items_error": "Ostoskoriisi ei voi sisältyä enempää kuin %{max} tuotetta.",
+        "link_no_longer_exists": "Linkki ei ole enää olemassa.",
+        "stock_problems_html": "Yksi tai useampi tuote ei ole enää saatavilla. Olemme valmistelleet <a href='%{link}'>päivitetyn ostoskorin</a>.",
+        "changed": "Ostoskori päivitetty"
       }
     }
   }
