@@ -161,34 +161,34 @@
         "gallery_viewer": "Galleri-visning",
         "load_image": "Indlæser billede {{ index }} i galleri-visning",
         "load_model": "Indlæser 3D-model {{ index }} i gallerivisning",
-        "load_video": "Afspil videoen {{ index }} i gallerivisning",
-        "image_available": "Billedet {{ index }} er nu tilgængeligt i gallerivisning"
+        "load_video": "Afspil video {{ index }} i gallerivisning",
+        "image_available": "Billede {{ index }} er nu tilgængeligt i galleri-visning"
       },
       "nested_label": "{{ title }} for {{ parent_title }}",
-      "view_full_details": "Se komplette oplysninger",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Levering</a> beregnes ved betaling.",
+      "view_full_details": "Se alle detaljer",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Forsendelsesomkostninger</a> beregnes ved kassen.",
       "choose_options": "Vælg muligheder",
       "choose_product_options": "Vælg muligheder for {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Ikke tilgængelig",
-      "variant_sold_out_or_unavailable": "Varianten er udsolgt eller utilgængelig",
+      "variant_sold_out_or_unavailable": "Variant udsolgt eller ikke tilgængelig",
       "inventory_in_stock": "På lager",
       "inventory_in_stock_show_count": "{{ quantity }} på lager",
-      "inventory_low_stock": "Lav lagerbeholdning",
-      "inventory_low_stock_show_count": "Lav lagerbeholdning: {{ quantity }} tilbage",
+      "inventory_low_stock": "Lager lav",
+      "inventory_low_stock_show_count": "Lagerstatus: kun {{ quantity }} tilbage",
       "inventory_out_of_stock": "Ikke på lager",
       "inventory_out_of_stock_continue_selling": "På lager",
-      "sku": "SKU",
+      "sku": "Varenummer",
       "volume_pricing": {
-        "title": "Mængderabat",
+        "title": "Mængderabatprissætning",
         "note": "Mængderabat tilgængelig",
         "minimum": "Mere end {{ quantity }}",
         "price_range": "{{ minimum }} – {{ maximum }}",
-        "price_at_each_html": "til {{ price }} pr. stk."
+        "price_at_each_html": "{{ price }}/stk."
       },
-      "product_variants": "Produktvarianter",
-      "taxes_included": "Inklusive skatter.",
-      "duties_included": "Inklusive told.",
-      "duties_and_taxes_included": "Inklusive told og skatter.",
+      "product_variants": "Produktvarianten",
+      "taxes_included": "Skatten inkluderet.",
+      "duties_included": "Toldafgifter inkluderet.",
+      "duties_and_taxes_included": "Told og afgifter inkluderet.",
       "inventory_out_of_stock_message": "På lager",
       "inventory_order_before": "for",
       "inventory_delivered": "bestilt,",
@@ -204,21 +204,21 @@
       "label": "Mediegalleri"
     },
     "facets": {
-      "apply": "Anvend",
-      "clear": "Ryd",
-      "clear_all": "Fjern alle",
-      "from": "Fra",
-      "filter_and_sort": "Filtrer og sortér",
+      "apply": "Anvende",
+      "clear": "Viden",
+      "clear_all": "Fjern alt",
+      "from": "Varevogn",
+      "filter_and_sort": "Filtrér og sorter",
       "filter_by_label": "Filter:",
-      "filter_button": "Filtrer",
+      "filter_button": "Filter",
       "filters_selected": {
         "one": "{{ count }} valgt",
         "other": "{{ count }} valgt"
       },
       "max_price": "Den højeste pris er {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} af {{ count }} produkt",
-        "other": "{{ product_count }} af {{ count }} produkter"
+        "one": "{{ product_count }} rabat på {{ count }} produkter",
+        "other": "{{ product_count }} rabat på {{ count }} produkter"
       },
       "product_count_simple": {
         "one": "{{ count }} produkt",
@@ -226,29 +226,29 @@
       },
       "reset": "Nulstil",
       "sort_button": "Sortér",
-      "sort_by_label": "Sortér efter:",
+      "sort_by_label": "Sorter efter:",
       "to": "Til",
       "clear_filter": "Fjern filter",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filtre er valgt)",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filtre valgt)",
       "show_more": "Vis mere",
-      "show_less": "Vis mindre",
-      "filter_and_operator_subtitle": "Match alle"
+      "show_less": "Vis minder",
+      "filter_and_operator_subtitle": "Alt passer sammen"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Der blev ikke fundet nogen resultater for “{{ terms }}”. Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
+      "no_results": "Ingen resultater fundet for “{{ terms }}”. Tjek stavningen eller brug et andet ord eller en anden sætning.",
       "results_with_count": {
         "one": "{{ count }} resultat",
         "other": "{{ count }} resultater"
       },
       "title": "Søgeresultater",
       "page": "Side",
-      "products": "Produkter",
-      "search_for": "Søg efter “{{ terms }}”",
+      "products": "Produktet",
+      "search_for": "Søg efter '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "Der blev fundet {{ count }} resultat for “{{ terms }}”",
-        "other": "Der blev fundet {{ count }} resultater for “{{ terms }}”"
+        "one": "{{ count }} resultat fundet for “{{ terms }}”",
+        "other": "{{ count }} resultater fundet for “{{ terms }}”"
       },
       "results_pages_with_count": {
         "one": "{{ count }} side",
@@ -271,17 +271,17 @@
     "contact": {
       "form": {
         "name": "Navn",
-        "email": "Mailadresse",
+        "email": "E-mail",
         "phone": "Telefonnummer",
-        "comment": "Kommentar",
-        "send": "Send",
-        "post_success": "Tak for din henvendelse. Vi kontakter dig hurtigst muligt.",
-        "error_heading": "Juster følgende:",
+        "comment": "Reaktion",
+        "send": "Styringen",
+        "post_success": "Tak fordi du kontaktede os. Du hører fra os så hurtigt som muligt.",
+        "error_heading": "Tilpas følgende:",
         "title": "Kontaktformular"
       }
     },
     "404": {
-      "title": "Siden blev ikke fundet",
+      "title": "Side ikke fundet",
       "subtext": "404"
     }
   },
@@ -402,51 +402,51 @@
     "language_label": "Sprog",
     "update_language": "Opdater sprog",
     "update_country": "Opdater land/område",
-    "search": "Søg",
+    "search": "Søgning",
     "popular_countries_regions": "Populære lande/områder",
-    "country_results_count": "{{ count }} lande/områder er fundet"
+    "country_results_count": "{{ count }} lande/regioner fundet"
   },
   "customer": {
     "account": {
       "title": "Konto",
       "details": "Kontooplysninger",
-      "view_addresses": "Se adresser",
+      "view_addresses": "Se adressen",
       "return": "Tilbage til kontooplysninger"
     },
     "account_fallback": "Konto",
     "activate_account": {
-      "title": "Aktivér konto",
-      "subtext": "Opret en adgangskode, så du kan aktivere din konto.",
+      "title": "Konto aktivere",
+      "subtext": "Opret din adgangskode for at aktivere din konto.",
       "password": "Adgangskode",
       "password_confirm": "Bekræft adgangskode",
-      "submit": "Aktivér konto",
-      "cancel": "Afslå invitation"
+      "submit": "Konto aktivere",
+      "cancel": "Afvis invitation"
     },
     "addresses": {
-      "title": "Adresser",
+      "title": "Adressen",
       "default": "Standard",
       "add_new": "Tilføj en ny adresse",
       "edit_address": "Rediger adresse",
       "first_name": "Fornavn",
       "last_name": "Efternavn",
-      "company": "Firma",
+      "company": "Virksomhed",
       "address1": "Adresse 1",
       "address2": "Adresse 2",
-      "city": "By",
+      "city": "Sted",
       "country": "Land/område",
       "province": "Provins",
       "zip": "Postnummer",
-      "phone": "Telefon",
+      "phone": "Telefonnummer",
       "set_default": "Indstil som standardadresse",
       "add": "Tilføj adresse",
       "update": "Opdater adresse",
       "cancel": "Annuller",
       "edit": "Rediger",
-      "delete": "Slet",
+      "delete": "Fjern",
       "delete_confirm": "Er du sikker på, at du vil slette denne adresse?"
     },
     "log_in": "Log ind",
-    "log_out": "Log af",
+    "log_out": "Log ud",
     "login_page": {
       "cancel": "Annuller",
       "create_account": "Opret konto",
