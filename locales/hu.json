@@ -4501,7 +4501,87 @@
       "tuesdayAbbreviation": "di.",
       "wednesdayAbbreviation": "wo.",
       "thursdayAbbreviation": "csináld.",
-      "fridayAbbreviation": "vr."
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "stb.",
+      "showNextMonth": "Következő hónap megjelenítése, {{month}} {{year}}",
+      "showPreviousMonth": "Előző hónap megjelenítése, {{month}} {{year}}",
+      "rangeStart": "Kezdő tartomány",
+      "inRange": "Karnyújtásnyira",
+      "rangeEnd": "Hatótáv vége",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} cikk elérhető",
+        "other": "{{count}} cikk elérhető"
+      },
+      "month": {
+        "other": "hónapok"
+      },
+      "mapClusterTitle": {
+        "one": "Csoport {{number}} jelölőponttal",
+        "other": "Csoport {{number}} jelölőponttal"
+      },
+      "dropzoneInvalidFileType": "Ez a fájltípus nem támogatott",
+      "dropzoneDraggedOver": "Fájl feltöltéshez való elhelyezése",
+      "clipboardFailedToCopy": "Nem másolták le",
+      "clear": "Tudás"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Beállítás",
+      "hide_bar": "Oldalsáv elrejtése",
+      "navigate_to_admin": "Ugrás a kezelőközpontba",
+      "previewing": "Egy példa megtekintése:",
+      "saved_at": "Mentve {{date}}-kor, {{time}}-kor",
+      "viewing": "Te nézed:",
+      "not_available": "Nincs elérhető profiladat",
+      "close_preview": "Példa bezárása",
+      "actions_button": "Akciók"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Mindenhol kijelentkezés",
+        "description": "Ha elvesztettél egy készüléket, vagy aggódsz a biztonság miatt, jelentkezz ki mindenhol, hogy fiókod biztonságát garantáld.",
+        "button": "Kijelentkezés minden eszközről",
+        "warning_message": "Ezen az eszközön is kijelentkeztél."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Nyitva {{date}} -én {{time}} -kor",
+        "lessThanOneWeekAgo": "Nyitva {{weekday}} {{time}}",
+        "yesterday": "Tegnap {{time}}-kor",
+        "today": "Ma {{time}}-kor",
+        "tomorrow": "Holnap {{time}}-kor",
+        "lessThanOneWeekAway": "Nyitva {{weekday}} {{time}}",
+        "lessThanOneYearAway": "Nyitva {{date}} -én {{time}} -kor",
+        "lessThanOneHourAgo": {
+          "other": "{{count}} perce ezelőtt"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "A '{{extensionName}}' nevű bővítmény kiválasztása",
+        "unselect": "A '{{extensionName}}' nevű bővítmény kiválasztásának visszavonása",
+        "move_down": "Kiterjesztés áthelyezése a következő pozícióba",
+        "move_up": "Kiterjesztés áthelyezése az előző pozícióra",
+        "remove": "Bővítmény eltávolítása",
+        "move_down_tooltip": "Következő helyre mozgatás",
+        "move_up_tooltip": "Vissza az előző helyre mozgatás"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Nem nyithatod meg ezt a linket a szerkesztőben. A link egy új ablakban nyílik meg ({{resolved_to_link}}). Kattints az OK gombra a folytatáshoz."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Túl sok próbálkozás",
+        "description": "Próbálja meg újra néhány perc múlva"
+      }
+    },
+    "shop_ads": {
+      "title": "Egyéb termékek, amelyek talán tetszenek neked",
+      "subtitle": "Ideiglenesen elérhető",
+      "button": "Felfedezés a boltban"
     }
   }
 }
