@@ -1634,7 +1634,67 @@
         "separate_payments_label": "Vaše položky pocházejí z více než jednoho obchodu. Musíte zaplatit pomocí %{separate_payments_link}.",
         "separate_payments_text": "samostatné platby",
         "payments": "Platba",
-        "business_customer_with_bank_account_vaulting_payment_label": "Uložte tuto platební metodu při placení a povolte %{company} účtovat vám za budoucí nákupy, které pro toto místo schválíte, dokud to nezrušíte. Všichni kontaktní osoby přiřazené k tomuto místu mohou tuto platební metodu používat."
+        "business_customer_with_bank_account_vaulting_payment_label": "Uložte tuto platební metodu při placení a povolte %{company} účtovat vám za budoucí nákupy, které pro toto místo schválíte, dokud to nezrušíte. Všichni kontaktní osoby přiřazené k tomuto místu mohou tuto platební metodu používat.",
+        "new_bank_account_disclaimer": "Dokončením objednávky zmocňujete %{shop_name} k odepsání uvedené částky z níže uvedeného účtu v uvedeném čase prostřednictvím ACH.",
+        "bank_account_disclaimer": "Zpracování plateb ACH může trvat až 4 pracovní dny.",
+        "bank_account_vaulted_company_location": "Bankovní účet uložen pro toto místo",
+        "bank_account_generic_error": "Nelze přidat bankovní účet. Zkuste to prosím později znovu.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} slevový kód byl odstraněn",
+          "other": "%{count} slevových kódů bylo odstraněno"
+        },
+        "default": "Standardní",
+        "continue_to_guest_checkout": "Jako host k pokladně",
+        "add_payment_method": "Přidat způsob platby",
+        "discount_codes_modified_summary": {
+          "one": "%{count} slevový kód byl změněn",
+          "other": "%{count} slevových kódů bylo změněno"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} slevový kód byl odstraněn nebo změněn",
+          "other": "%{count} slevových kódů bylo odstraněno nebo změněno"
+        },
+        "multiple_primary_payment_not_allowed": "Neplatné způsoby platby"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Platí do %{month}/%{year}",
+        "manual_payment_gateway_label": "Ruční"
+      },
+      "field_errors": {
+        "handle_email_invalid": "Zadejte platnou e-mailovou adresu",
+        "email_invalid": "Zadejte platnou e-mailovou adresu",
+        "email_or_phone_blank": "Zadejte e-mailovou adresu nebo telefonní číslo",
+        "email_or_phone_invalid": "Zadejte platnou e-mailovou adresu nebo mobilní telefonní číslo",
+        "address_address2_blank": "Zadejte číslo bytu nebo apartmá, atd.",
+        "address_country_blank": "Vyberte zemi/oblast",
+        "address_country_not_supported": "Neposíláme do této země/regionu. Zadejte novou doručovací adresu a zkuste to znovu.",
+        "address_province_blank": "Vyberte stát/provincie",
+        "address_company_blank": "Zadejte název firmy",
+        "address_zip_blank": "Zadejte PSČ nebo poštovní směrovací číslo",
+        "address_zip_invalid_for_country": "Zadejte platné PSČ pro %{country}",
+        "address_zip_invalid_for_country_and_province": "Zadejte platné PSČ nebo poštovní směrovací číslo pro %{province}, %{country}",
+        "credit_card_name_blank": "Zadej své jméno tak, jak je uvedeno na tvé kartě",
+        "credit_card_name_invalid": "Zadej své jméno tak, jak je uvedeno na tvé kartě",
+        "credit_card_expiry_invalid": "Zadejte platné datum vypršení platnosti",
+        "credit_card_month_invalid": "Zadejte platný měsíc vypršení platnosti",
+        "credit_card_year_invalid": "Zadejte platný rok vypršení platnosti",
+        "credit_card_start_invalid": "Zadejte platné datum začátku platnosti karty",
+        "credit_card_start_month_invalid": "Zadejte platný počáteční měsíc pro kartu",
+        "credit_card_start_year_invalid": "Zadejte platný počáteční rok pro kartu",
+        "credit_card_verification_value_blank": "Zadejte CVV/CVC nebo bezpečnostní kód své karty",
+        "delivery_line_detail_changed": "Některé údaje o doručení se mohly změnit. Zkontrolujte svůj způsob odeslání a zkuste to znovu.",
+        "reduction_code_code_not_found": "Zadejte platný slevový kód nebo dárkový poukaz",
+        "reduction_code_gift_card_code_invalid": "Zadejte platný dárkový poukaz",
+        "reduction_code_gift_card_unusable": "Nemůžete použít dárkový poukaz k nákupu jiného dárkového poukazu.",
+        "shipping_line_phone_blank": "Zadejte telefonní číslo pro použití této metody doručení",
+        "gift_card_already_applied": "Tento dárkový poukaz byl již použit na vaši objednávku",
+        "gift_card_disabled": "Tento dárkový poukaz již není k dispozici",
+        "gift_card_expired": "Tento dárkový poukaz vypršel",
+        "gift_card_depleted": "Na této dárkové poukázce již není žádný zůstatek",
+        "gift_card_currency_mismatch": "Pouze dárkové poukazy v %{checkout_currency} lze použít pro tuto objednávku",
+        "payment_gateway_needs_paid_plan_error": "Tento způsob platby momentálně nelze v tomto obchodě použít",
+        "payment_gateway_incompatible_with_multi_currency": "Plaťte kreditní kartou, abyste mohli zaplatit v místní měně",
+        "physical_gift_card_invalid_quantity": "Objednávková pravidla pro fyzické dárkové poukazy musí mít množství odpovídající počtu kódů dárkových poukazů."
       }
     }
   }
