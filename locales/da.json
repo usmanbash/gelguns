@@ -2966,8 +2966,90 @@
         "title": "Lav en netbutik og sælg dine varer online! E-handelssoftware fra Shopify",
         "heros": {
           "store_unavailable": "Denne butik er midlertidigt ikke tilgængelig.",
-          "store_not_exist": "Denne butik findes ikke."
+          "store_not_exist": "Denne butik findes ikke.",
+          "no_storefront": "Denne butik har endnu ingen hjemmeside."
+        },
+        "links": {
+          "start_free_trial": "Prøv gratis"
+        },
+        "owner_ctas": {
+          "header": "Er du butiksejer?",
+          "fix_domain": "Gå til %{domain_settings_link} og afslut opsætningen af din nye webadresse. Klik på 'Forbind domæne' og indtast: %{domain}.<br>Hvis du ikke kan komme ind i din butik, prøv %{forgot_your_store_link}",
+          "add_storefront": "Du kan konfigurere din hjemmeside ved at tilføje webshop-kanalen i %{admin_link}. Hvis du ikke kan få adgang til din butik, så prøv %{forgot_your_store_link}",
+          "admin_link_text": "styringscenter"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Personligt salg",
+            "caption": "Få de funktioner, du har brug for til at drive din detailbutik, uanset om du lige er begyndt eller udvider."
+          },
+          "open_a_store": {
+            "header": "Åbne en ny Shopify-butik",
+            "caption": "Start en gratis prøveperiode på tre dage og fortsæt derefter i tre måneder for 1 USD om måneden."
+          },
+          "editions": {
+            "header": "Se Shopify-udgaver",
+            "caption": "Der er mere end 100 produktopdateringer, som gør dig mere produktiv, kreativ og handlekraftig i den kommercielle verden, end du nogensinde havde troet muligt.",
+            "link_text": "Udforsk de nyeste udgaver"
+          },
+          "store_owner": {
+            "header": "Er du butiksejer?",
+            "caption": "Kan du ikke komme ind i din butik? Prøv funktionen %{forgot_your_store_link}. Hvis du vil genaktivere din butik, så kontakt %{shopify_support_link}."
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Fejl ved nulstilling af adgangskode",
+        "no_account_found": "Ingen konto fundet med den e-mailadresse.",
+        "invalid_credentials": "Forkert e-mail eller adgangskode.",
+        "denylisted_reset_password": "Din konto kan ikke åbnes, fordi det nuværende kodeord ikke er sikkert. Du vil modtage en e-mail for at nulstille dit kodeord.",
+        "signup_disabled": "Oprettelse af kundekonti er deaktiveret.",
+        "subscribe_error": "Fejl ved abonnement",
+        "unsubscribe_error": "Fejl ved afmelding"
+      },
+      "address": {
+        "updated": "Adresse opdateret.",
+        "error_updating": "Fejl ved opdatering af adresse",
+        "created": "Adresse oprettet",
+        "error_creating": "Fejl ved oprettelse af adresse.",
+        "deleted": "Adresse fjernet",
+        "error_deleting": "Fejl ved sletning af adresse."
+      },
+      "order": {
+        "not_available": "Denne bestilling er ikke tilgængelig",
+        "financial_status": {
+          "authorized": "Bekræftet",
+          "pending": "Under behandling",
+          "unpaid": "Ubetalt",
+          "voided": "Udløbet",
+          "partially_refunded": "Delvist tilbagebetalt"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Afsluttet",
+          "complete": "Komplet",
+          "partial": "Delvist",
+          "unfulfilled": "Åbenstående",
+          "restocked": "Urteforsyning"
+        },
+        "transaction_status": {
+          "success": "Bestået",
+          "pending": "Under behandling",
+          "failure": "Mislykket"
+        },
+        "cancel_reason": {
+          "inventory": "Varen ikke tilgængelig",
+          "fraud": "Svindelbestilling",
+          "customer": "Kunde ændrede/annullerede bestilling",
+          "other": "Anders",
+          "staff": "Forkerte medarbejdere"
+        },
+        "cash_on_delivery": "Tilbagebetaling"
+      },
+      "cart": {
+        "only_n_items_available": "Du kan kun tilføje %{count} %{name} til din indkøbskurv.",
+        "too_many_items_in_cart": "Du kan ikke tilføje flere %{name} til din indkøbskurv."
       }
     }
   }
