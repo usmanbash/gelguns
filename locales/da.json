@@ -2652,6 +2652,98 @@
         },
         "place_order": "Afgiv bestilling",
         "recovery_notice": "Der opstod en fejl med dine bestillingsoplysninger. Opdater dine oplysninger for at fuldføre betalingen."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Gennemgå først dine kontaktoplysninger, inden du fuldfører betalingen"
+      },
+      "store_credit_errors": {
+        "generic_error": "Der opstod et problem med dit butikskredit. Prøv igen eller genindlæs siden."
+      },
+      "note": {
+        "length_exceeds_maximum": "Indtast bemærkningen med højst 5000 tegn."
+      },
+      "billing": {
+        "billing_address_title": "Faktura til",
+        "same_as_shipping": "Samme som leveringsadresse",
+        "delete": "Fjern",
+        "address_delete": "Fjern adresse",
+        "address_confirm": "Er du sikker på, at du vil fjerne denne adresse fra din konto?",
+        "billing_address_rollup_accessibility_label": "Indstillinger for opkrævning"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Gavekortet er allerede anvendt på din bestilling",
+          "insufficient_funds": "Der er ikke flere penge på dette gavekort",
+          "invalid": "Indtast en gyldig gavekortkode",
+          "currency_mismatch": "Kun gavekort i %{shop_currency} accepteres",
+          "generic": "Gavekortet kan ikke tilføjes til kassen",
+          "throttle_limit_exceeded": "Du har nået det maksimale antal forsøg. Prøv igen senere.",
+          "no_longer_available": "Dette gavekort kan ikke længere bruges ved denne betaling"
+        }
+      },
+      "vaulted": {
+        "change_button": "Ændre"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Der opstod et problem under indlæsning af Shop Pay",
+          "try_again_later": "Kontrollér din forbindelse eller luk dette vindue og prøv igen om et øjeblik.",
+          "checkout_has_expired": "Din betaling er udløbet. Luk dette vindue, og prøv at betale igen hos {{shopName}}."
+        },
+        "return_to_store": "Tilbage til {{shopName}}",
+        "return_to_store_simple": "Tilbage til butik"
+      },
+      "company_location": {
+        "location_title": "Virksomhedens beliggenhed",
+        "location_rollup_accessibility_label": "Valgmuligheder for virksomhedens placering"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Prisen på gavekortet skal være højere end 0.",
+            "subtotal_limit_reached": "Den maksimale værdi for ordrelinjer er nået.",
+            "gift_card_price_must_not_exceed_limit": "Prisen på gavekortet må ikke være højere end %{gift_card_limit}.",
+            "signature_mismatch": "Forkert underskrift på varer for regel %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Ikke kopieret"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Fuldfør dit køb med din {{paymentMethod}}-kode",
+        "timer_message": "Du har stadig {{timeLeft}} til at betale",
+        "copy_text": "Kopier {{paymentMethod}}-kode",
+        "qr_code": {
+          "instructions": "Fuldfør dit køb med din {{paymentMethod}}-kode"
+        },
+        "external": {
+          "instructions": "Bekræft betalingen i din app for at fuldføre dette køb"
+        },
+        "close": "Afslut udfordringen"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Der opstod et problem under behandlingen af din bestilling. Prøv igen om et par minutter."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Godsinstruktionen %{position} %{name} indeholder en tom stable-ID.",
+        "invalid_stable_id_target": "Vareinstruktionen %{position} %{name} henviser til stable-ID %{stable_id}, men denne stable-ID findes ikke i varereglerne.",
+        "duplicate_variant_id": "Vareinstruktionen %{position} %{name} indeholder en dobbelt variant-ID %{variant_id}.",
+        "invalid_variant_id_target": "Vareinstruktionen %{name} henviser til variant-ID %{variant_id}, men den variant findes ikke i varereglerne.",
+        "invalid_price_override_target": "Instruktionen om prisen på varerne for ordrelinje %{stable_id} at overskrive er ugyldig, fordi det er en bundtkomponent.",
+        "discount_not_supported": "Instruktionen til handlende for anvendelse af varebesparelse understøtter ikke denne type rabat."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Dit produkt er ikke tilgængeligt for forsendelse til %{location_name}.",
+          "some_products_other": "Disse produkter kan ikke sendes til %{location_name}.",
+          "all_products_one": "Produktet i din indkøbskurv kan ikke sendes til %{location_name}.",
+          "all_products_other": "De produkter i din indkøbskurv er ikke tilgængelige for forsendelse til %{location_name}."
+        },
+        "indeterminate_location_fallback": "din placering",
+        "cart_updated": "Din indkøbskurv er opdateret.",
+        "change_address_or_remove": "Ændr leveringsadressen eller %{remove_action}.",
+        "empty_cart_action": "tøm indkøbskurven og gå tilbage til butikken"
       }
     }
   }

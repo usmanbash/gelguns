@@ -3269,7 +3269,95 @@
     },
     "page_titles": {
       "reset_account": "Obnovení účtu",
-      "order": "Objednat %{name}"
+      "order": "Objednat %{name}",
+      "search": "Hledat",
+      "collections": "Sbírky",
+      "not_found": "404 nenalezeno",
+      "search_results": {
+        "one": "Hledání: nalezeno %{count} výsledků pro '%{terms}'",
+        "other": "Hledání: nalezeno %{count} výsledků pro '%{terms}'"
+      },
+      "blog_or_article_with_error": "Chyba - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Bylo použito %{count} slev"
+    },
+    "challenge": {
+      "message": "Dejte nám vědět, že nejste robot, abyste mohli pokračovat.",
+      "error": "Tvoje odpověď nebyla správná, zkus to znovu."
+    },
+    "checkpoint": {
+      "message": "Vyplňte captcha pro pokračování",
+      "error": "ověření captcha selhalo"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Děkujeme za přihlášení k odběru našeho seznamu pošty.",
+        "disclaimer": "Můžeš se kdykoli odhlásit.",
+        "unsubscribe": "Odhlásit se"
+      },
+      "unsubscribed": {
+        "confirmation": "Byli jste odhlášeni z našeho seznamu rozesílky.",
+        "disclaimer": "Už od nás nebudete dostávat marketingové novinky. Můžete se kdykoli znovu přihlásit.",
+        "preview": "Prohlížíte si ukázku toho, co zákazníci uvidí, když se odhlásí."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Souhlasili jste se sledováním otevření e-mailu.</b>",
+          "visibility": "Procenta otevření e-mailů jsou hlášena anonymně. Uvidíme pouze, zda jste e-mail otevřeli jako součást souhrnného procenta otevření e-mailů.",
+          "opt_out_html": "Můžeš se <a style='text-decoration:underline;' href='%{link}'>odhlásit</a> ze sledování otevření e-mailu, pokud nechceš tyto informace sdílet.",
+          "preview_bar": "Prohlížíte si ukázku toho, co zákazníci uvidí, když dají souhlas s přijímáním e-mailů o sledování otevření."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Odhlásili jste se ze sledování otevření e-mailu.</b>",
+          "visibility": "Nevidíme, zda jste naše e-maily otevřeli.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Povolit</a> otevřené sledování e-mailů.",
+          "preview_bar": "Zobrazujete ukázku toho, co zákazníci uvidí, když se odhlásí z přijímání e-mailů o sledování otevření."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Už nesledujeme, zda jsou e-maily otevřeny.</b>",
+          "privacy_policy": "Poté, co byl tento e-mail odeslán, jsme aktualizovali naše zásady ochrany soukromí a již nesledujeme otevírání e-mailů."
+        },
+        "track": {
+          "status_html": "<b>Otevření e-mailu je sledováno a hlášeno.</b>",
+          "visibility": "Uvidíme pouze, zda jste e-mail otevřeli, jako součást celkového procenta otevření e-mailů."
+        },
+        "updated_policy": {
+          "status_html": "<b>Otevření e-mailu je sledováno a hlášeno.</b>",
+          "visibility": "Aktualizovali jsme naše zásady a nyní sledujeme otevření e-mailů. Procenta otevření e-mailů jsou hlášena anonymně. Uvidíme pouze, zda jste e-mail otevřeli, jako součást celkového procenta otevření e-mailů.",
+          "opt_out_html": "Pokud již nechcete tyto informace sdílet, můžete se <a style='text-decoration:underline;' href='%{link}'>odhlásit</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Jsi si jistý, že se chceš odhlásit z SMS-marketingu?",
+        "button": "Odhlásit se"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Obvykle hotovo do 1 hodiny",
+        "two_hours": "Obvykle hotovo do 2 hodin",
+        "four_hours": "Obvykle hotovo do 4 hodin",
+        "twenty_four_hours": "Obvykle hotovo do 24 hodin",
+        "two_to_four_days": "Obvykle hotovo během 2-4 dnů",
+        "five_or_more_days": "Obvykle hotovo za více než 5 dní",
+        "zero_to_two_hours": "Obvykle hotovo do 2 hodin",
+        "two_to_four_hours": "Obvykle hotovo do 4 hodin",
+        "immediately": "Připraveno k vyzvednutí nyní"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevance",
+        "price_ascending": "Cena: od nejnižší po nejvyšší",
+        "price_descending": "Cena: od nejvyšší po nejnižší"
+      },
+      "error": "Při načítání výsledků hledání došlo k problému. Obnovte stránku nebo to zkuste později znovu."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Tento článek je opakovaný nebo odložený nákup. Pokud pokračuji, souhlasím s %{cancellationPolicyLink} a zároveň dávám souhlas k odečtení uvedených cen z mé platební metody v uvedených intervalech a datech, dokud nebude moje objednávka vyřízena nebo dokud, pokud je to povoleno, neukončím odběr.",
+      "buyer_consent_cart": "Jeden nebo více položek ve vašem košíku jsou odložené nebo opakované nákupy. Pokud budu pokračovat, souhlasím s %{cancellationPolicyLink} a zároveň vám dávám svolení strhávat uvedené ceny z mé platební metody v uvedených intervalech a termínech, dokud nebude moje objednávka vyřízena nebo dokud, pokud je to povoleno, neukončím odběr.",
+      "cancellation_policy": "zásady ukončení smlouvy"
     }
   }
 }
