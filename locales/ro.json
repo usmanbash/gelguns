@@ -2868,10 +2868,84 @@
               "es": "Un număr de identificare TVA din Spania conține ES și 9 caractere",
               "se": "Un număr de identificare TVA din Suedia conține SE și 12 caractere",
               "gb": "Un număr de identificare TVA din Regatul Unit conține GB sau XI și 5-12 caractere"
+            },
+            "invalid_number": {
+              "at": "Introduceți un număr valid de identificare TVA austriac",
+              "be": "Introduceți un număr valid de identificare TVA belgian",
+              "bg": "Introduceți un număr valid de identificare TVA bulgar",
+              "hr": "Introduceți un număr valid de identificare TVA croat",
+              "cy": "Introduceți un număr valid de identificare TVA cipriot",
+              "cz": "Introduceți un număr valid de identificare TVA cehesc",
+              "dk": "Introduceți un număr valabil de identificare TVA danez",
+              "ee": "Introduceți un număr valid de identificare TVA estonian",
+              "fi": "Introduceți un număr valid de identificare TVA finlandez",
+              "fr": "Introduceți un număr valid de identificare TVA francez",
+              "de": "Introduceți un număr valid de identificare TVA german",
+              "gr": "Introduceți un număr valid de identificare TVA elen",
+              "hu": "Introduceți un număr valid de identificare TVA maghiar",
+              "ie": "Introduceți un număr valid de identificare TVA irlandez",
+              "it": "Introduceți un număr valid de identificare TVA italian",
+              "lv": "Introduceți un număr valid de identificare TVA leton",
+              "lt": "Introduceți un număr valid de identificare TVA lituanian",
+              "lu": "Introduceți un număr valid de identificare TVA din Luxemburg",
+              "mt": "Introduceți un număr valid de identificare TVA maltez",
+              "nl": "Introduceți un număr valid de identificare TVA olandez",
+              "pl": "Introduceți un număr valid de identificare TVA polonez",
+              "pt": "Introduceți un număr valid de identificare fiscală portughez",
+              "ro": "Introduceți un număr valid de identificare TVA românesc",
+              "sk": "Introduceți un număr valid de identificare TVA slovac",
+              "si": "Introduceți un număr valid de identificare TVA sloven",
+              "es": "Introduceți un număr valid de identificare TVA spaniol",
+              "se": "Introduceți un număr valid de identificare TVA suedez",
+              "gb": "Introduceți un număr valid de identificare TVA din Regatul Unit"
+            },
+            "service_unavailable": "Serviciul de validare nu este disponibil",
+            "service_error": "Serviciul de validare nu este disponibil"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Se efectuează validarea numărului de identificare TVA",
+              "valid": "Numărul de identificare Btw este valabil",
+              "invalid_number": "Scutirea de TVA a eșuat",
+              "service_unavailable": "Nu se poate verifica scutirea de TVA",
+              "service_error": "Nu se poate verifica scutirea de TVA"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Această plată nu mai este necesară. Accesați pagina de comandă pentru mai multe informații.",
+        "paid": "Această plată a fost deja trimisă. Mergi la pagina de comandă pentru mai multe informații."
+      },
+      "embed": {
+        "header": {
+          "review_order": "Verifică comanda ta"
+        }
+      },
+      "too_many_requests": {
+        "title": "Prea multe încercări de finalizare a cumpărăturilor",
+        "body": "Așteptați câteva minute și încercați din nou din coșul de cumpărături.",
+        "return_to_cart": "Înapoi la coșul de cumpărături",
+        "body_no_cart": "Așteptați câteva minute și încercați din nou."
+      },
+      "address_management": {
+        "saved_with_store": "Salvat la acest magazin"
       }
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Următorul"
+    },
+    "links": {
+      "powered_by_shopify": "Dezvoltat de Shopify",
+      "learn_more": "Mai multe informații"
+    },
+    "feed": {
+      "more": "Mai mult"
+    },
+    "attributes": {
+      "email": "poștă electronică",
+      "password_confirmation": "confirmarea parolei"
     }
   }
 }
