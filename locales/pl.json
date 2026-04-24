@@ -744,9 +744,141 @@
             "token_missing": "Dokończ tę kasę, wpisując token captcha.",
             "job_enqueue_failed": "Zadanie weryfikacji captcha nie może zostać umieszczone w kolejce.",
             "job_already_queued": "Weryfikacja Captcha została już umieszczona w kolejce dla tego tokena.",
-            "token_expired": "Wprowadzony token captcha wygasł. Wykonaj nową captcha, aby kontynuować realizację zamówienia."
+            "token_expired": "Wprowadzony token captcha wygasł. Wykonaj nową captcha, aby kontynuować realizację zamówienia.",
+            "token_invalid": "Podany token captcha był nieprawidłowy. Wykonaj nową captcha, aby kontynuować realizację zamówienia.",
+            "token_not_valid_for_session": "Nie można użyć podanego captcha przy tym zamówieniu."
+          },
+          "checkout_source": {
+            "revoked": "Ten kasowy punkt nie jest już dostępny."
           }
-        }
+        },
+        "title": "Kasa - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - realizacja zamówienia",
+        "loading_title": "Kasa - {{shopName}}",
+        "submit_for_review_button_label": "Złożyć wniosek o kontrolę",
+        "submit_for_review_notice_label": "Płatność jest należna dopiero po sprawdzeniu twojego zamówienia",
+        "back_button_label": "Zwroty",
+        "choose_delivery_strategy": "Wybierz sposób dostawy",
+        "autocomplete_zero_item": "Brak dostępnych artykułów",
+        "autocomplete_powered_by_google": "Możliwe dzięki {{brandName}}",
+        "submit": "Złóż wniosek",
+        "processing": "Przetwarzanie...",
+        "stepper": {
+          "increase": "Wzrost {{type}}",
+          "decrease": "Pobranie {{type}}",
+          "minimum_reached": "Minimalna wartość {{value}} osiągnięta",
+          "maximum_reached": "Maksymalna wartość {{value}} osiągnięta"
+        },
+        "remove_tag": "Usuń etykietę",
+        "dates": {
+          "weekdays": {
+            "monday": "poniedziałek",
+            "tuesday": "wtorek",
+            "wednesday": "środa",
+            "thursday": "czwartek",
+            "friday": "piątek",
+            "saturday": "sobota",
+            "sunday": "niedziela"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "zrób.",
+            "friday": "wirtualna rzeczywistość",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "styczeń",
+            "february": "luty",
+            "march": "marzec",
+            "april": "kwiecień",
+            "may": "maj",
+            "june": "junior",
+            "july": "lipiec",
+            "august": "sierpień",
+            "september": "wrzesień",
+            "october": "październik",
+            "november": "listopad",
+            "december": "grudzień"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Wyświetl poprzedni miesiąc, {{month}} {{year}}",
+          "show_next_month": "Wyświetl następny miesiąc, {{month}} {{year}}",
+          "range_start": "Rozpocznij zasięg",
+          "in_range": "W zasięgu ręki",
+          "range_end": "Koniec zasięgu"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} w {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} z {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} z {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klastruj van {{number}} punktów orientacyjnych",
+            "other": "Klastr z {{number}} punktami oznaczeń"
+          }
+        },
+        "sheet": {
+          "expand": "Rozwiń"
+        },
+        "dropzone": {
+          "invalid_file_type": "Ten typ pliku nie jest obsługiwany",
+          "dragged_over": "Umieść plik, aby go przesłać"
+        },
+        "loading": "Ładowanie...",
+        "remove_chip": "Usuń artykuł",
+        "finalize_order_accessibility_label": "Zakończ zamówienie"
+      },
+      "contact": {
+        "title": "Informacje",
+        "email_or_phone_label": "Adres e‑mail lub numer telefonu komórkowego",
+        "email_or_phone_placeholder": "Adres e‑mail lub numer telefonu komórkowego",
+        "address2_label": "Numer autobusu pocztowego, itd.",
+        "optional_address2_label": "Numer pocztowy, itd. (opcjonalnie)",
+        "province_label": "Prowincje",
+        "province_placeholder": "Prowincje",
+        "county_label": "Prowincje",
+        "county_placeholder": "Prowincje",
+        "state_label": "Państwo",
+        "state_placeholder": "Państwo",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Rząd",
+        "governorate_placeholder": "Rząd",
+        "state_and_territory_label": "Państwo/Terytorium",
+        "state_and_territory_placeholder": "Państwo/Terytorium",
+        "phone_tooltip": "W przypadku, gdy będziemy musieli się z Tobą skontaktować w sprawie Twojego zamówienia",
+        "pincode_label": "Kod pocztowy",
+        "pincode_placeholder": "Kod pocztowy",
+        "region_none": "Nie wybrano",
+        "different_shipping_address_label": "Wysłać na inny adres",
+        "different_shipping_address_text": "Użyć jednorazowego adresu dla tego zamówienia",
+        "ship_to_company": "Wysyłka do {{companyName}}",
+        "shipping_used_as_billing_notice": "Używamy tego również jako adresu do faktury dla tego zamówienia.",
+        "company_attention_label": "Firma/do rąk własnych",
+        "optional_company_attention_label": "Firma/do rąk własnych (opcjonalnie)",
+        "email_rollup_accessibility_label": "Opcje poczty elektronicznej",
+        "suburb_label": "Przedmieście"
+      },
+      "delivery_options": {
+        "ship": "Wysyłka",
+        "pick_up": "Odbiór",
+        "pick_up_in_two_hours": "Zazwyczaj gotowe w ciągu 2 godzin",
+        "pick_up_in_four_hours": "Zazwyczaj gotowe w ciągu 4 godzin",
+        "pick_up_in_one_hour": "Zazwyczaj gotowe w ciągu 1 godziny",
+        "pick_up_in_twenty_four_hours": "Zazwyczaj gotowe w ciągu 24 godzin",
+        "pick_up_in_two_to_four_days": "Zazwyczaj gotowe w ciągu 2-4 dni",
+        "pick_up_in_five_or_more_days": "Zazwyczaj gotowe w ciągu ponad 5 dni",
+        "free_total_label": "Darmowy",
+        "shipping_address": "Adres dostawy"
       }
     }
   }

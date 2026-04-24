@@ -1337,8 +1337,72 @@
         "bank_account_missing": "Bankas kontam jābūt saistītam",
         "crypto_payment_method": {
           "description": "Nodrošini savu maku. Tavs atlikums un adrese netiek kopīgoti.",
-          "tooltip": "Tava maka atlikums un adrese netiek kopīgoti, un var tikt noņemta tikai pieprasītā summa"
-        }
+          "tooltip": "Tava maka atlikums un adrese netiek kopīgoti, un var tikt noņemta tikai pieprasītā summa",
+          "cashback_descriptor": {
+            "one": "Tu saņemsi savu naudas atmaksu pēc %{count} dienām",
+            "other": "Tu saņemsi savu naudas atmaksu pēc %{count} dienām"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% naudas atmaksas bonuss",
+        "usdc_cashback_additional_info": "Maksājiet ar USDC Base platformā un saņemiet atpakaļ %{incentive_percentage}% savā digitālajā makā 30 dienu laikā.",
+        "usdc_cashback_terms": "Noteikumi un ierobežojumi ir spēkā",
+        "discount_show_more_warnings": {
+          "one": "Rādīt vēl %{count}",
+          "other": "Rādīt vēl %{count}"
+        },
+        "separate_payments_label": "Jūsu preces nāk no vairākām veikalām. Jums jāveic norēķins ar %{separate_payments_link}.",
+        "separate_payments_text": "atsevišķas maksāšanas",
+        "payments": "Maksājums",
+        "business_customer_with_bank_account_vaulting_payment_label": "Saglabājiet šo maksājuma veidu norēķinoties un pilnvarojiet %{company} iekasēt maksu no jūsu konta par turpmākiem pirkumiem, ko apstiprināsiet šai vietai, līdz atcelsiet pilnvarojumu. Visi kontaktpersonas, kas piešķirtas šai vietai, drīkst izmantot šo maksājuma veidu.",
+        "new_bank_account_disclaimer": "Veicot pasūtījuma apstiprināšanu, jūs pilnvarojat %{shop_name} norādīto summu attiecīgajā laikā no zemāk norādītā konta iekasēt, izmantojot ACH.",
+        "bank_account_disclaimer": "ACH maksājumu apstrāde var ilgt līdz 4 darba dienām.",
+        "bank_account_vaulted_company_location": "Bankas konts saglabāts šai vietai",
+        "bank_account_generic_error": "Neizdevās pievienot bankas kontu. Lūdzu, mēģiniet vēlāk vēlreiz.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} atlaižu kods tika dzēsts",
+          "other": "Ir dzēsti %{count} atlaižu kodi"
+        },
+        "default": "Standarta",
+        "continue_to_guest_checkout": "Kā viesis uz norēķinu lapu",
+        "add_payment_method": "Maksāšanas veida pievienošana",
+        "choose_new_payment_method": "Izvēlieties jaunu maksāšanas veidu",
+        "add_new_payment_method": "Pievienot jaunu maksājumu metodi",
+        "discount_codes_modified_summary": {
+          "one": "%{count} atlaižu kods ir mainīts",
+          "other": "%{count} atlaižu kodi ir mainīti"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} atlaižu kods ir dzēsts vai mainīts",
+          "other": "%{count} atlaižu kodi ir dzēsti vai mainīti"
+        },
+        "multiple_primary_payment_not_allowed": "Nederīgas maksājumu metodes"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Pašreizējais atlikums %{amount}",
+        "credit_card_expires_on_notice": "Derīgs līdz %{month}/%{year}",
+        "express_payment_gateway_label": "Ātrā piegāde",
+        "manual_payment_gateway_label": "Rokas vadība",
+        "billing_address_title": "Rēķina adrese",
+        "free_label": "Bezmaksas"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Ievadiet derīgu tālruņa numuru",
+        "handle_email_invalid": "Ievadiet derīgu e-pasta adresi",
+        "email_invalid": "Ievadiet derīgu e-pasta adresi",
+        "email_or_phone_blank": "Ievadiet e-pasta adresi vai tālruņa numuru",
+        "email_or_phone_invalid": "Ievadiet derīgu e-pasta adresi vai mobilo tālruņa numuru",
+        "address_first_name_blank": "Ievadiet vārdu",
+        "address_last_name_blank": "Ievadiet uzvārdu",
+        "address_address1_blank": "Ievadiet adresi",
+        "address_address2_blank": "Ievadiet dzīvokļa vai numura numuru utt.",
+        "address_city_blank": "Ievadiet pilsētu",
+        "address_country_blank": "Izvēlieties valsti/reģionu",
+        "address_country_not_supported": "Mēs nesūtām uz šo valsti/šo reģionu. Lūdzu, ievadiet jaunu piegādes adresi un mēģiniet vēlreiz.",
+        "address_province_blank": "Izvēlieties štatu/provinci",
+        "address_company_blank": "Ievadiet uzņēmuma nosaukumu",
+        "address_phone_blank": "Ievadiet derīgu tālruņa numuru",
+        "address_zip_blank": "Ievadiet pasta indeksu vai pasta kodu",
+        "address_zip_invalid_for_country": "Ievadiet derīgu pasta indeksu vai pasta kodu %{country}"
       }
     }
   },
