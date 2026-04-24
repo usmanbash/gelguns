@@ -3128,7 +3128,71 @@
         "unsubscribe_error": "Chyba pri odhlasovaní"
       },
       "address": {
-        "updated": "Adresa aktualizovaná."
+        "updated": "Adresa aktualizovaná.",
+        "created": "Adresa vytvorená",
+        "deleted": "Adresa odstránená"
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Overené",
+          "pending": "V spracovaní",
+          "voided": "Neplatné",
+          "expired": "Vypršané"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Spracované",
+          "complete": "Compleet",
+          "partial": "Čiastočne",
+          "unfulfilled": "Nezaplatené",
+          "restocked": "Zásoba bylín"
+        },
+        "transaction_status": {
+          "pending": "V spracovaní",
+          "failure": "Zlyhalo"
+        },
+        "cancel_reason": {
+          "inventory": "Položky nie sú k dispozícii",
+          "customer": "Zákazník zmenil/zrušil objednávku",
+          "other": "Anders",
+          "staff": "Nesprávni zamestnanci"
+        },
+        "cash_on_delivery": "Vrátenie peňazí"
+      },
+      "cart": {
+        "only_n_items_available": "Do svojho košíka môžete pridať iba %{count} %{name}.",
+        "too_many_items_in_cart": "Nemôžete pridať do košíka viac ako %{name}.",
+        "all_items_in_cart": "Všetky %{count} %{name} sú vo vašom nákupnom košíku.",
+        "empty_update": "nie je možné aktualizovať nákupný košík",
+        "missing_parameters": "neplatný ID alebo číslo riadku",
+        "generic_error": "Chyba v nákupnom košíku",
+        "too_many_line_items_error": "Váš nákupný košík nemôže obsahovať viac ako %{max} položiek.",
+        "link_expired": "Odkaz vypršal",
+        "stock_problems_html": "Jeden alebo viac produktov už nie je dostupných. Pripravili sme <a href='%{link}'>aktualizovaný nákupný košík</a>.",
+        "changed": "Košík bol zmenený",
+        "items_changed": "Jeden alebo viacero článkov bolo zmenených.",
+        "product_sold_out": "Produkt '%{name}' je už vypredaný.",
+        "variant_not_found": "Nemôžem nájsť variant",
+        "variant_requires_selling_plan": "Variant je možné zakúpiť iba s predplatným na predaj.",
+        "shipping_address_not_required": "K tomuto nákupnému košíku nie je potrebné doručenie",
+        "shipping_address_invalid": "Vyskytol sa problém pri výpočte vašich nákladov na dopravu. Pokračujte v platbe, aby ste si mohli vybrať spôsob dopravy pred dokončením objednávky.",
+        "selling_plan_not_applicable": "Nie je možné použiť predplatné na variantu.",
+        "selling_plan_not_available_for_company_locations": "Pre B2B objednávky sú k dispozícii iba jednorazové nákupy.",
+        "digital_product_not_available_for_company_locations": "Tento produkt nemôžete pridať do B2B objednávky",
+        "less_than_minimum": "Tento artikel má minimálnu hodnotu %{min}.",
+        "more_than_maximum": "Tento článok má maximálny počet %{max}.",
+        "not_respect_step": "Tento článok môžete pridať iba v krokoch po %{step}.",
+        "bundle_requires_components": "Nie je možné pridať balíkový produkt '%{name}' do nákupného košíka.",
+        "gift_card_with_components_not_supported": "Nie je možné pridať balíkový produkt '%{name}' do nákupného košíka.",
+        "view_lines_limit_reached": "Pravidlá musia byť menšie alebo rovné %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Vo vašom nákupnom košíku sa vyskytla chyba."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nie je možné pridať balíkový produkt '%{name}' do nákupného košíka.",
+        "cart_too_large": "Nákupný košík je príliš veľký.",
+        "gift_card_recipient_validation_error": "Zadaný príjemca darčekovej poukážky je neplatný",
+        "buyer_cannot_purchase_for_company_locations": "Nemôžete uskutočniť nákup pre túto lokalitu",
+        "only_one_added_to_cart": "Do vášho košíka bol pridaný iba 1 produkt kvôli dostupnosti.",
+        "only_n_added_to_cart": "Do vášho košíka bolo pridaných len %{quantity} položiek kvôli dostupnosti."
       }
     }
   }
