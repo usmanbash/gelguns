@@ -3733,8 +3733,76 @@
         "description": "Buďte informovaní o svojom platobnom pláne vďaka pripomienkam v aplikácii Shop.",
         "payment_reminders_button": "Dostávať pripomienky platieb",
         "desktop_qr_code_content": {
-          "title": "Skenovať spomienky"
-        }
+          "title": "Skenovať spomienky",
+          "description": "Dostaňte pripomienky na svoje splátky v obchode."
+        },
+        "title": "Pripomienky platby pre splátky Shop Pay"
+      },
+      "order_details": "Údaje o objednávke",
+      "login_to_view_all_order_details": "Prihláste sa, aby ste si mohli prezrieť všetky objednávkové údaje.",
+      "remaining_amount": "Zostávajúci",
+      "order_details_skeleton_accessibility_label": "Prihláste sa, aby ste si mohli prezrieť všetky objednávkové údaje.",
+      "tip": "Fooi",
+      "logged_in_account_no_permission_to_order": "Ste prihlásený ako {{email}}. Tento účet nemá oprávnenie spravovať túto objednávku.",
+      "log_in_to_a_different_account": "Prihlásiť sa do iného účtu",
+      "duties": "Colné poplatky",
+      "ok_duties_tooltip": "Táto objednávka bude odoslaná z inej krajiny, preto boli k celkovej sume objednávky pridané colné poplatky.",
+      "error_duties_tooltip": "Táto objednávka bude odoslaná z inej krajiny, preto môžu byť pri doručení účtované colné poplatky a dane.",
+      "zero_duties_tooltip": "Táto objednávka bude odoslaná z inej krajiny. Pri objednávkach s touto hodnotou sa neúčtujú žiadne colné poplatky.",
+      "group_title_label": "Súčasť: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Náklady na zásobovanie bylinami",
+        "return_shipping_fee": "Vrátenie tovaru"
+      },
+      "vat_invoices": {
+        "title": "Faktúry Btw"
+      },
+      "taxes_included": "Vrátane {{amount}} DPH",
+      "duties_and_taxes_included": "Celková suma zahŕňa colné poplatky a dane. Pri doručení nie sú žiadne ďalšie platby.",
+      "grouped_view_components": {
+        "expand_line_items": "Zobraziť {{count}} položiek",
+        "collapse_line_items": "skryť {{count}} položiek",
+        "line_item_summary_accessibility_label": "{{productTitle}}, množstvo: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Položky v balíku {{productTitle}}"
+      },
+      "cash_rounding": "Zaokrúhliť hotovosť",
+      "adjusted_payment": "Prispôsobená platba",
+      "adjusted_total": "Upravený celkový súčet",
+      "login_card": {
+        "link_expired": "Odkaz vypršal",
+        "resend_link_and_login": "Môžete si prezrieť svoje objednávkové údaje prihlásením sa alebo zaslaním nového odkazu na e-mailovú adresu alebo telefónne číslo použité pri platbe.",
+        "resend_link_only": "Môžete si prezrieť svoje objednávkové údaje zaslaním nového odkazu na e-mailovú adresu alebo telefónne číslo, ktoré ste použili pri platbe.",
+        "resend_link": "Odošli nový odkaz",
+        "title": "Zobraziť údaje o objednávke"
+      },
+      "link_sent": "Odkaz bol odoslaný",
+      "company_and_location": "Spoločnosť a lokalita",
+      "due_on_date": "Dlžné k {{date}}",
+      "due_on_fulfillment": "Platiť pri doručení",
+      "due_on_receipt": "Zaplaťte pri prevzatí",
+      "payment_confirmation": {
+        "payment_received": "Ďakujeme! Vaša platba vo výške {{amount}} bola prijatá.",
+        "full_payment_received": "Ďakujeme! Vaša platba vo výške {{amount}} bola prijatá a táto objednávka je teraz úplne zaplatená.",
+        "dismiss_label": "Zatvoriť potvrdenie o platbe",
+        "payment_authorized": "Ďakujeme! Zostatok bude aktualizovaný po prijatí platby."
+      },
+      "marketing_pending_confirmation": "Kliknite na odkaz vo vašom e-maile, aby ste potvrdili.",
+      "marketing_resend_email": "Odoslať e-mail znova",
+      "marketing_resend_email_success": "Odkaz bol odoslaný",
+      "subtotal_label_with_quantity": {
+        "other": "Medzisúčet · {{count}} položiek"
+      },
+      "total_savings": "Celkové úspory",
+      "discount_order_stacking": {
+        "other": "Zľavy na objednávky"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adresa odstránená",
+      "cancel_adding_address_accessibility_label": "Pridať adresu zrušiť",
+      "cancel_deletion_button_accessibility_label": "{{address}} odstrániť zrušiť",
+      "default_address": {
+        "title": "Štandardná adresa"
       }
     }
   }
