@@ -3138,7 +3138,85 @@
       "loading_finished_accessibility_message": "Datos de la cuenta cargados",
       "profile_card": {
         "cancel_accessibility_label": "Editar perfil cancelar",
-        "email_help_text": "No se puede editar la dirección de correo electrónico"
+        "email_help_text": "No se puede editar la dirección de correo electrónico",
+        "phone_number_help_text": "El número de teléfono no se puede editar",
+        "no_name_provided_accessibility_label": "Sin nombre añadido",
+        "errors": {
+          "name_cannot_contain_url": "{{fieldName}} no debe contener URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} no debe contener etiquetas HTML",
+          "email_cant_be_blank": "El correo electrónico no puede estar vacío",
+          "invalid_email_format": "Introduce una dirección de correo electrónico válida"
+        },
+        "editable_email_help_text": "Esta dirección de correo electrónico se utiliza para el registro y las actualizaciones de pedidos."
+      },
+      "verify_new_email_modal": {
+        "description": "Introduce el código que se envió a {{email}}",
+        "one_time_password_label": "Código de 6 dígitos",
+        "email_resend_button": "Reenviar código",
+        "verify_button_accessibility_label": "Verificación única de contraseña",
+        "cancel_button_accessibility_label": "Cancelar edición de correo electrónico"
+      },
+      "email_update_success_modal": {
+        "description": "Actualización del correo electrónico realizada con éxito. Redirigiendo al inicio de sesión."
+      },
+      "email_update_confirmation_message": "Dirección de correo electrónico actualizada a {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opciones de formato",
+      "order_list": {
+        "column_headers": {
+          "actions_accessibility_label": "Promociones"
+        },
+        "delivered": "Preocupado: {{date}}",
+        "empty_state_order_source_description": "Solo se mostrarán aquí los pedidos realizados a través de {{email}}.",
+        "empty_state_subtitle": "Ve a la tienda para hacer un pedido.",
+        "empty_state_title": "Aún no hay pedidos",
+        "estimated_delivery": "Esperado para {{date}}",
+        "items": {
+          "one": "{{count}} artículos"
+        },
+        "order_link": "Ver pedido {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Botones de navegación para pedidos",
+          "next_accessibility_label": "Próximos pedidos"
+        },
+        "sort_by": "Ordenar por: {{option}}",
+        "sort_hide_options_accessibility_label": "Ocultar opciones de ordenación para pedidos confirmados.",
+        "sort_show_options_accessibility_label": "Mostrar opciones de ordenación para pedidos confirmados.",
+        "sort": {
+          "date": {
+            "newest": "De lo más nuevo a lo más antiguo",
+            "oldest": "De lo más antiguo a lo más nuevo"
+          },
+          "location": {
+            "ascending": "Ubicación (A-Z)",
+            "descending": "Ubicación (Z-A)"
+          }
+        },
+        "one_images_accessibility_label": "Pedido contiene {{lineItemName1}}",
+        "two_images_accessibility_label": "Pedido contiene {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "El pedido contiene {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Pedido contiene {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Elimina los filtros o ajústalos para ver tus pedidos",
+        "no_filtered_results_title": "No hay resultados filtrados",
+        "estimated_shortform": "Estimado el {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Tarde",
+            "due": "Adeudado el {{date}}",
+            "due_today": "Hoy adeudado",
+            "due_without_date": "Adeudado",
+            "due_on_fulfillment": "Pagar al recibir el pedido",
+            "payment_not_due": "Aún no adeudado"
+          },
+          "gallery_view": {
+            "overdue": "El pago está atrasado",
+            "due": "Pago debido el {{date}}",
+            "due_today": "El pago se debe realizar hoy",
+            "due_without_date": "Pago debido",
+            "due_on_fulfillment": "Pago debido al cumplimiento"
+          }
+        }
       }
     }
   }
