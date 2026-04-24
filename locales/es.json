@@ -2694,7 +2694,69 @@
       },
       "offsite_payment_failed": {
         "payment_not_processed_text": "Escanee el código QR nuevamente. Si aún no funciona, informe a nuestro personal y pruebe otro método de pago.",
-        "payment_link_expired_title": "Enlace de pago caducado"
+        "payment_link_expired_title": "Enlace de pago caducado",
+        "payment_link_expired_text": "Escanee el código QR nuevamente.",
+        "title": "Pago fuera del sitio fallido"
+      },
+      "taxes": {
+        "tax_details": "Datos fiscales adicionales",
+        "vat_number": {
+          "field": {
+            "label": "Número de identificación fiscal (opcional)",
+            "tooltip": "Valida el número de identificación fiscal y aplica automáticamente la inversión del sujeto pasivo en los pedidos que cumplan con los requisitos."
+          },
+          "vaulted": "Número de identificación Btw: %{number}",
+          "badge": "Número de identificación Btw: %{number}",
+          "domestic_order": "El régimen de inversión del sujeto pasivo se aplica únicamente a pedidos transfronterizos dentro de la UE. Para pedidos locales, se cobra el IVA estándar.",
+          "status": {
+            "invalid_format": {
+              "at": "Un número de identificación fiscal de Austria contiene AT y 9 caracteres",
+              "be": "Un número de identificación de IVA de Bélgica contiene BE y 10 caracteres",
+              "bg": "Un número de identificación fiscal de Bulgaria contiene BG y 9-10 caracteres",
+              "hr": "Un número de identificación fiscal de Croacia contiene HR y 11 caracteres",
+              "cy": "Un número de identificación fiscal de Chipre contiene CY y 9 caracteres",
+              "cz": "Un número de identificación fiscal de la República Checa contiene CY y de 8 a 10 caracteres.",
+              "dk": "Un número de identificación fiscal de Dinamarca contiene DK y 8 caracteres",
+              "ee": "Un número de identificación fiscal de Estonia contiene EE y 9 caracteres",
+              "fi": "Un número de identificación fiscal de Finlandia contiene FI y 8 caracteres",
+              "fr": "Un número de identificación fiscal de Francia contiene FR y 11 caracteres",
+              "de": "Un número de identificación fiscal de Alemania contiene DE y 9 caracteres",
+              "gr": "Un número de identificación fiscal de Grecia contiene EL y 9 caracteres",
+              "hu": "Un número de identificación fiscal de Hungría contiene HU y 8 caracteres",
+              "ie": "Un número de identificación fiscal de Irlanda contiene IE y 8-9 caracteres",
+              "it": "Un número de identificación fiscal de Italia contiene IT y 11 caracteres",
+              "lv": "Un número de identificación fiscal de Letonia contiene LV y 11 caracteres",
+              "lt": "Un número de identificación fiscal de Lituania contiene LT y de 9 a 12 caracteres",
+              "lu": "Un número de identificación de IVA de Luxemburgo contiene LU y 8 caracteres",
+              "mt": "Un número de identificación fiscal de Malta contiene MT y 8 caracteres",
+              "nl": "Un número de identificación fiscal de los Países Bajos contiene NL y 12 caracteres",
+              "pl": "Un número de identificación fiscal de Polonia contiene PL y 10 caracteres",
+              "pt": "Un número de identificación fiscal de Portugal contiene PT y 9 caracteres",
+              "ro": "Un número de identificación fiscal de Rumania contiene RO y 10 caracteres",
+              "sk": "Un número de identificación fiscal de Eslovaquia contiene SK y 10 caracteres",
+              "si": "Un número de identificación fiscal de Eslovenia contiene SI y 8 caracteres",
+              "es": "Un número de identificación fiscal de España contiene ES y 9 caracteres",
+              "se": "Un número de identificación fiscal de Suecia contiene SE y 12 caracteres",
+              "gb": "Un número de identificación fiscal del Reino Unido contiene GB o XI y de 5 a 12 caracteres"
+            },
+            "invalid_number": {
+              "at": "Introduzca un número de identificación fiscal válido de Austria",
+              "be": "Introduzca un número de identificación de IVA belga válido",
+              "bg": "Introduzca un número de identificación fiscal búlgaro válido",
+              "hr": "Introduzca un número de identificación fiscal croata válido",
+              "cy": "Introduzca un número de identificación fiscal chipriota válido",
+              "cz": "Introduzca un número de identificación fiscal checo válido",
+              "dk": "Introduzca un número de identificación fiscal danés válido",
+              "ee": "Introduzca un número de identificación fiscal estonio válido",
+              "fi": "Introduzca un número de identificación fiscal finlandés válido",
+              "fr": "Introduzca un número de identificación fiscal francés válido",
+              "de": "Introduzca un número de identificación fiscal alemán válido",
+              "gr": "Introduzca un número de identificación fiscal griego válido",
+              "hu": "Introduzca un número de identificación fiscal húngaro válido",
+              "ie": "Introduzca un número de identificación fiscal irlandés válido"
+            }
+          }
+        }
       }
     }
   }
