@@ -1972,7 +1972,79 @@
           "other": "%{count} artiklit"
         },
         "thank_you_from_shop": "Müüdud %{shop_name} kaudu",
-        "payment_method_not_charged": "Mitte maha kantud"
+        "payment_method_not_charged": "Mitte maha kantud",
+        "items_fulfilled_by_store": {
+          "one": "Tooted, mida olete ostnud, pärinevad poest %{remote_shop_name}.",
+          "other": "Ostetud artiklid pärinevad teistest poodidest."
+        },
+        "thank_you_from_other_store": "Teisest poest",
+        "checkout_on_another_store": "Makse teises poes",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Sa saad peagi kinnituskirja e-posti teel",
+          "multi_store": "Saad peagi iga poe kohta eraldi kinnituskirja."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Sa saad varsti kinnitussõnumi",
+          "multi_store": "Sa saad peagi iga poe kinnitussõnumi SMS-iga."
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Sa saad peagi kinnituskirja e-posti teel",
+          "multi_store": "Saad peagi iga poe kohta eraldi kinnituskirja."
+        },
+        "checkout_again": "Teosta kassas makse uuesti",
+        "cashback_notice": "Saad oma raha tagasi 30 päeva pärast"
+      },
+      "review": {
+        "title": "Arvustus",
+        "review_title": "Viimistle oma tellimus",
+        "checkout_as_guest": "Kassasse külalisena",
+        "blocks": {
+          "contact_method_title": "Võta ühendust",
+          "billing_address_title": "Arveldamine",
+          "shipping_address_title": "Saada aadressile",
+          "shipping_method_title": "Saatmisviis",
+          "payment_method_title": "Makseviis",
+          "change_link_label": "Muuda",
+          "change_contact_method_link_label": "Kontaktandmete muutmine",
+          "change_billing_address_link_label": "Arve aadressi muutmine",
+          "change_shipping_address_link_label": "Tarneaadressi muutmine",
+          "change_shipping_method_link_label": "Saatmisviisi muutmine",
+          "change_payment_method_link_label": "Makseviisi muutmine",
+          "pick_up_in_store_shipping_method_html": "Jäta poodi järgi · %{location_name}",
+          "purchase_order_number_title": "Tellimuse number",
+          "change_purchase_order_number_label": "Tellimuse numbri muutmine",
+          "change_delivery_method_link_label": "Tarneviisi muutmine",
+          "no_address": "(Geen aadress)",
+          "no_purchase_order_number": "(Geen tellimisnumber)",
+          "due_after_order_reviewed_html": "Tasumisele kuuluv pärast tellimuse kontrollimist",
+          "review_title_free_order": "Kontrolli ja lõpeta tellimus",
+          "payment_method_saved_company_location": "Salvesta kaart selle asukoha jaoks",
+          "company_location": "Ettevõtte asukoht",
+          "change_company_location_link_label": "Ettevõtte asukoha muutmine",
+          "pickup_items_at": {
+            "one": "%{count} artiklit järele võtma",
+            "other": "%{count} artiklit järele võtma"
+          },
+          "ship_items_to": {
+            "one": "%{count} artiklit saatma aadressile",
+            "other": "Saada %{count} artiklit aadressile"
+          }
+        },
+        "block_title": "Kontrolli oma andmeid",
+        "checkout_a_different_way": "Teise meetodiga maksmine",
+        "item_header": {
+          "change_value": "Väärtust muuta",
+          "section": "Sektsioon",
+          "value": "Väärtus"
+        },
+        "review_and_confirm_title": "Kontrolli ja kinnita",
+        "account_more_actions": "Rohkem kampaaniaid selle konto jaoks"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Saada mulle e-kiri uudiste ja pakkumistega",
+        "unsubscribe": {
+          "title": "Oled välja logitud"
+        }
       }
     }
   },
