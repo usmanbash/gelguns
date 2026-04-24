@@ -4349,7 +4349,71 @@
       "card_update_consent_subscriptions": "Този метод на плащане се запазва за бъдещи покупки и може да се използва за всяка повтаряща се или отложена покупка.",
       "add_payment_method_dropdown": {
         "bank_account_consent": "Чрез добавяне на метод за плащане можете да разрешите таксуване на вашата карта, докато не отмените, или да позволите при бъдещи покупки, които одобрите, да се извършват тегления от вашата банкова сметка."
+      },
+      "replacement_payment_method_title": "Алтернативни методи на плащане",
+      "bank_account": {
+        "loading_accessibility_message": "Бутонът за банкова сметка се зарежда",
+        "generic_error": "Не може да се добави банкова сметка. Моля, опитайте отново по-късно."
+      },
+      "update_payment_method": {
+        "title": "Актуализиране на метода на плащане",
+        "billing_address": "Адрес за фактура",
+        "disclaimer": "Този метод на плащане се запазва за бъдещи покупки и може да се използва за всяка повтаряща се или отложена покупка.",
+        "error_message": "Не може да се актуализира методът на плащане",
+        "current": "Текущо",
+        "loading_form_accessibility_message": "Формуляр за актуализиране на начина на плащане се зарежда",
+        "loading_current_payment_method": "Текущият метод на плащане се зарежда",
+        "loading_digital_wallets": "Зареждат се опции за дигитален портфейл",
+        "loading_card_fields": "Зареждат се полетата за кредитна карта",
+        "pre_orders_title": "Предстоящи",
+        "pre_orders_list_accessibility_label": "Списък с продукти с текуща поръчка",
+        "resources_list_accessibility_label": "Продукти с абонамент и продукти с текуща поръчка, които използват този метод на плащане",
+        "resources_card_show_more": "Покажи още",
+        "resources_card_show_less": "Покажи по-малко"
+      },
+      "link_expired": {
+        "return_home_button": "Върни се на началната страница",
+        "update_message": "Този линк за актуализиране на начина на плащане е изтекъл.",
+        "add_message": "Този линк за добавяне на вашия метод на плащане е изтекъл."
+      },
+      "update_success": {
+        "title": "Методът на плащане е актуализиран",
+        "done_button": "Продължете с пазаруването"
+      },
+      "or": "ИЛИ",
+      "additional_payment_methods": "Допълнителни методи на плащане",
+      "add_success": {
+        "title": "Метод на плащане добавен",
+        "done_button": "Продължете с пазаруването"
       }
+    },
+    "payment_method_brands": {
+      "visa": "Виза",
+      "mastercard": "Мастъркард",
+      "shoppay": "Плати с Shop Pay",
+      "americanexpress": "Американ Експрес",
+      "discover": "Открийте",
+      "dinersclub": "Дайнерс Клуб",
+      "elo": "Ело",
+      "visaelectron": "Виза Електрон",
+      "maestro": "Маестро",
+      "forbrugsforeningen": "Потребителска асоциация",
+      "dankort": "Данкорт",
+      "hipercard": "Хиперкард",
+      "unionpay": "Union Pay",
+      "laser": "Лазер",
+      "storecredit": "Кредит в магазина",
+      "bogus": "Фалшив",
+      "klarna_pay_now": "Кларна",
+      "klarna_pay_later": "Кларна",
+      "klarna_slice_it": "Кларна"
+    },
+    "enable_javascript": "Включете JavaScript в настройките на браузъра си или влезте с друг браузър, за да видите акаунта си.",
+    "ui_components": {
+      "closeNotification": "Затвори",
+      "expandNotification": "Виж още",
+      "closeModal": "Затвори",
+      "submit": "Подаване"
     }
   }
 }
