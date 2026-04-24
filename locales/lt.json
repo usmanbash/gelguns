@@ -2148,7 +2148,67 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Baigus mokėjimą, gausite patvirtinimo SMS žinutę. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Baigus mokėjimą, gausite patvirtinimo SMS žinutę. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_failed_pending_payment_payment": "Užsakymas dar neapmokėtas. Grįžkite į prekių krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Užsakymas dar neapmokėtas. Grįžkite į prekių krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "order_status_confirmed_order_local_pick_up": "Paruošiame tavo užsakymą.",
+        "order_status_confirmed_order_local_payment": "Paruošiame tavo užsakymą.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Jūs netrukus gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Netrukus gausite SMS su patvirtinimu ir užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Netrukus gausite SMS su patvirtinimu ir užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Netrukus gausite SMS su patvirtinimu ir užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po apmokėjimo gausite patvirtinimo el. laišką su užsakymo numeriu.",
+        "vat_invoices": {
+          "title": "Btw sąskaitos faktūros"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Jūsų mokėjimas apdorojamas. Jūs gausite el. laišką, kai mokėjimas bus patvirtintas.",
+        "verify_shop_account_title": "Patvirtinkite savo Shop paskyrą",
+        "verify_shop_account_message": "Jūsų informacija išsaugota „Shop“. Patvirtinkite savo paskyrą, kad automatiškai naudotumėte ją milijonuose parduotuvių.",
+        "verify_shop_account_confirmation": "Atsiskaitymo duomenys išsaugoti",
+        "announcement": {
+          "collapse": "Sulankstyti"
+        },
+        "confirmed_items_count": "%{confirmed_count} iš %{total_count} straipsnių patvirtinta",
+        "thank_you_confirmed_orders_with_email": "Netrukus gausite atskirus patvirtinimo laiškus su savo užsakymo numeriais",
+        "thank_you_confirmed_orders_with_phone": "Netrukus gausite atskirus patvirtinimo SMS su savo užsakymo numeriais",
+        "thank_you_confirmed_orders_with_email_and_phone": "Netrukus gausite atskirus patvirtinimo laiškus su savo užsakymo numeriais",
+        "track_your_order_link_text": "Sekti jūsų užsakymą",
+        "checkout_on_remote_shop_link_text": "Atsiskaitymas %{remoteShopName}",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 straipsnis nėra patvirtintas",
+          "other": "Yra nepatvirtintų straipsnių"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Už tai nėra taikomi jokie mokesčiai",
+          "other": "Už tai nėra taikomi jokie mokesčiai"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} straipsnis",
+          "other": "%{count} straipsniai"
+        },
+        "thank_you_from_shop": "Parduotuvėje %{shop_name}"
       }
     }
   }
