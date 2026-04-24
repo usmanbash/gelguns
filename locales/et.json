@@ -4442,7 +4442,75 @@
         "description_without_replacement": "See makseviis ei ole tulevaste ostude jaoks enam saadaval.",
         "description_with_replacement": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Saate selle asendada ka teise makseviisiga, et jätkata tulevaste tellimuste saamist.",
         "payment_method_selector_placeholder": "Vali asendav makseviis (valikuline)",
-        "replace_method_with_new_method_description": "Sinu {{currentPaymentMethodName}} eemaldatakse ja asendatakse sinu {{newPaymentMethodName}}-ga."
+        "replace_method_with_new_method_description": "Sinu {{currentPaymentMethodName}} eemaldatakse ja asendatakse sinu {{newPaymentMethodName}}-ga.",
+        "error_when_deleting": "Vabandame, midagi läks valesti ja me ei saa seda makseviisi eemaldada. Proovige hiljem uuesti või värskendage lehte.",
+        "delete_and_replace_button": "Eemalda ja asenda",
+        "delete_and_replace_button_accessibility_label": "Eemalda {{currentPaymentMethodName}} ja asenda see {{newPaymentMethodName}}-ga.",
+        "deleted_successfully": "Makseviis on eemaldatud.",
+        "payment_method_selector_no_alternative_payment": "Geen asendamise meetod",
+        "loading_available_payment_methods_accessibility_label": "Saadaval makseviiside laadimine",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Olemasolevate tellimuste tasumata summad võetakse endiselt selle makseviisi kaudu, välja arvatud juhul, kui valite teise makseviisi. Valige teine makseviis, et jätkata katkestusteta tulevaste tellimuste saamist.",
+          "with_pending_orders": "Makseviisi eemaldamine kustutab selle sinu kontolt ja see ei ole enam saadaval tulevaste ostude jaoks. Olevaid tellimusi selle makseviisiga võidakse siiski arveldada, välja arvatud juhul, kui valid teise makseviisi.",
+          "with_subscriptions": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Asendage see mõne teise makseviisiga, et jätkata tulevaste tellimuste saamist."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Olemasolevate tellimuste tasumata summad võetakse endiselt selle makseviisi kaudu, kuid te ei saa uusi tellimusi tellimusteenuse jaoks. Lisage teine makseviis, et jätkata tellimusteenuse tellimuste saamist.",
+          "with_pending_orders": "Makseviisi eemaldamine kustutab selle sinu kontolt ning see ei ole enam saadaval tulevaste ostude jaoks. Olemasolevate tellimuste tasumata summad võetakse siiski selle makseviisi kaudu.",
+          "with_subscriptions": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Lisage teine makseviis, et jätkata tulevaste tellimuste saamist."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Makseviisi muutmine",
+        "save_payment_method_button": "Salvesta",
+        "cancel_edit_payment_method_button": "Tühista",
+        "payment_method_updated_toast": "Makseviis uuendatud",
+        "billing_address": "Arve aadress",
+        "billing_address_add_new": "Lisa uus",
+        "billing_address_choose_from_list": "Vali nimekirjast",
+        "future_purchases_notice": "See makseviis salvestatakse tulevaste ostude jaoks.",
+        "generic_error": "Tekkis probleem uuendamisega. Palun proovi uuesti."
+      },
+      "card_fields": {
+        "card_number_label": "Kaardi number",
+        "card_number_placeholder": "Kaardi number",
+        "name_on_card_label": "Nimi kaardil",
+        "name_on_card_placeholder": "Nimi kaardil",
+        "card_expiry_label": "Väljastamise kuupäev (KK/AA)",
+        "card_expiry_placeholder": "Väljastamise kuupäev (KK/AA)",
+        "card_verification_value_label": "Turvakood",
+        "card_verification_value_placeholder": "Turvakood",
+        "card_start_label": "Väljastamiskuupäev (KK/AA)",
+        "card_start_placeholder": "Väljastamiskuupäev (KK/AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Rohkem teavet",
+          "card_verification_value_explanation_amex": "Kaardi esiküljel olev 4-kohaline turvakood",
+          "card_verification_value_explanation_other": "Kaardi tagaküljel olev 3-kohaline turvakood",
+          "card_verification_value_explanation": "3-kohaline turvakood, mis asub tavaliselt kaardi tagaküljel. American Expressil on 4-kohaline kood kaardi esiküljel.",
+          "card_security_notice": "Kõik tehingud on turvatud ja krüpteeritud."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Sisesta oma nimi täpselt nii, nagu see on sinu kaardil",
+          "credit_card_number_invalid": "Sisestage kehtiv kaardinumber",
+          "credit_card_expiry_invalid": "Sisestage kaardi kehtiv aeg korrektse kuupäevana",
+          "credit_card_verification_value_blank": "Sisesta oma kaardi CVV/CVC- või turvakood"
+        },
+        "unavailable": {
+          "text": "Maksmine krediitkaardi ja deebetkaardiga ei ole hetkel saadaval.",
+          "link_text": "Värskenda seda lehte",
+          "suffix": "või proovi hiljem uuesti."
+        }
+      },
+      "add_payment_method": {
+        "title": "Makseviisi lisamine",
+        "payment_method_added_confirmation": "Makseviis lisatud",
+        "billing_address": {
+          "title": "Arve aadress",
+          "add_billing_address_button": "Lisa uus",
+          "add_billing_address_button_accessibility_label": "Lisa uus arveldusaadress",
+          "choose_billing_address_from_list_button": "Vali nimekirjast",
+          "choose_billing_address_from_list_button_accessibility_label": "Vali arve aadress nimekirjast"
+        }
       }
     }
   }
