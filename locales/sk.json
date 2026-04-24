@@ -3192,7 +3192,99 @@
         "gift_card_recipient_validation_error": "Zadaný príjemca darčekovej poukážky je neplatný",
         "buyer_cannot_purchase_for_company_locations": "Nemôžete uskutočniť nákup pre túto lokalitu",
         "only_one_added_to_cart": "Do vášho košíka bol pridaný iba 1 produkt kvôli dostupnosti.",
-        "only_n_added_to_cart": "Do vášho košíka bolo pridaných len %{quantity} položiek kvôli dostupnosti."
+        "only_n_added_to_cart": "Do vášho košíka bolo pridaných len %{quantity} položiek kvôli dostupnosti.",
+        "maximum_available_quantity_reached": "Maximálne množstvo tohto produktu už máte v košíku.",
+        "merchandise_not_applicable": "Položku nie je možné kúpiť v takomto nastavení.",
+        "not_found": "Nákupný košík nebol nájdený"
+      },
+      "storefront": {
+        "invalid_password": "Nesprávne heslo, skúste to znova."
+      },
+      "tags": {
+        "add_articles": "Obmedzte vyhľadávanie na články s tagom %{tag}",
+        "add_products": "Obmedzte vyhľadávanie na produkty s príslušnou značkou %{tag}",
+        "remove_articles": "Rozšír vyhľadávanie o položky, ktoré nie sú označené %{tag}",
+        "remove_products": "Odstrániť značku %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} pridané",
+          "increment_item": "%{delta} pridané",
+          "decrement_item": "%{delta} z %{total} odstránených",
+          "decrement_fulfilled_line_item": "%{delta} z %{total} vrátených",
+          "decrement_return_line_item": "%{delta} odstránené z vrátenia"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Váš nákupný košík",
+      "reset_account": "Obnovenie účtu",
+      "order": "Objednať %{name}",
+      "search": "Hľadať",
+      "challenge": "Výzva",
+      "search_results": {
+        "one": "Hľadanie: %{count} výsledok nájdený pre '%{terms}'",
+        "other": "Hľadanie: %{count} výsledkov nájdených pre '%{terms}'"
+      },
+      "blog_or_article_with_error": "Chyba - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Bolo uplatnených %{count} zliav"
+    },
+    "challenge": {
+      "message": "Dajte nám vedieť, že nie ste robot, aby ste mohli pokračovať.",
+      "error": "Tvoja odpoveď nebola správna, skúšaj to znova."
+    },
+    "checkpoint": {
+      "message": "Riešte captcha, aby ste mohli pokračovať",
+      "error": "overenie captcha zlyhalo"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Ďakujeme za prihlásenie na náš mailingový zoznam.",
+        "disclaimer": "Môžete sa odhlásiť kedykoľvek.",
+        "unsubscribe": "Odhlásiť sa"
+      },
+      "unsubscribed": {
+        "confirmation": "Bol si odhlásený z nášho mailingového zoznamu.",
+        "disclaimer": "Už od nás nedostávate marketingové aktualizácie. Môžete sa kedykoľvek znova prihlásiť.",
+        "preview": "Pozriete si ukážku toho, čo zákazníci uvidia, keď sa odhlásia."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Udelili ste súhlas so sledovaním otvorenia e-mailu.</b>",
+          "visibility": "Percentá otvorenia e-mailov sú hlásené anonymne. Uvidíme iba to, či ste e-mail otvorili ako súčasť agregovaného percenta otvorení e-mailov.",
+          "opt_out_html": "Môžete sa <a style='text-decoration:underline;' href='%{link}'>odhlásiť</a> z e-mailového sledovania otvorení, ak nechcete zdieľať tieto informácie.",
+          "preview_bar": "Pozrite si ukážku toho, čo zákazníci uvidia, keď súhlasia s prijímaním e-mailov o otvorenom sledovaní."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Odhlásili ste sa z e-mailového sledovania otvorení.</b>",
+          "visibility": "Nevidíme, či ste naše e-maily otvorili.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Povoliť</a> otvorené sledovanie e-mailov.",
+          "preview_bar": "Pozrite si ukážku toho, čo zákazníci uvidia, keď sa odhlásia z prijímania e-mailov o otvorenom sledovaní."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Už nesledujeme, či sa e-maily otvárajú.</b>",
+          "privacy_policy": "Po odoslaní tohto e-mailu sme aktualizovali naše zásady ochrany osobných údajov a už nesledujeme otváranie e-mailov."
+        },
+        "track": {
+          "status_html": "<b>Sledovanie otvorenia e-mailu je zaznamenané.</b>",
+          "visibility": "Uvidíme, či ste e-mail otvorili, iba ako súčasť celkového percenta otvorení e-mailov."
+        },
+        "updated_policy": {
+          "status_html": "<b>Sledovanie otvorenia e-mailu je zaznamenané.</b>",
+          "visibility": "Aktualizovali sme naše zásady a teraz sledujeme otvorené e-maily. Percentá otvorenia e-mailov sú hlásené anonymne. Uvidíme iba to, či ste e-mail otvorili, ako súčasť celkového percenta otvorení e-mailov.",
+          "opt_out_html": "Ak už nechcete zdieľať tieto informácie, môžete sa <a style='text-decoration:underline;' href='%{link}'>odhlásiť</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Ste si istý, že sa chcete odhlásiť z SMS marketingu?"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "two_to_four_days": "Zvyčajne pripravené do 2-4 dní",
+        "five_or_more_days": "Zvyčajne pripravené za viac ako 5 dní"
       }
     }
   }
