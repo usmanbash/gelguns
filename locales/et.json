@@ -686,6 +686,72 @@
         "deferred_balance_info": {
           "title": "Saldosumma {{amount_due}} tuleb tasuda {{due_at}}.",
           "due_on_fulfillment_title": "Tellimuse täitmisel tuleb tasuda summa {{amount_due}}"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> sooduskood nõutav kvalifitseeruva kliendi jaoks",
+        "subtotal_label_with_quantity": {
+          "one": "Vahesumma · %{count} artikkel",
+          "other": "Vahesumma · %{count} artiklit"
+        },
+        "cost_table_item_column_header": "Artikkel",
+        "cost_table_value_column_header": "Väärtus",
+        "product_image_quantity_label": "Kogus",
+        "more_items_modal": {
+          "clear_search": "Otsingu tühjendamine",
+          "empty_results": "Ei leitud tulemusi otsingule '%{searchText}'. Kontrollige õigekirja või kasutage teist sõna või teist fraasi.",
+          "number_items_shown": "%{shownNumber} kuni %{totalNumber} artiklit",
+          "search_item": "Otsi"
+        },
+        "number_items": {
+          "one": "%{count} artikkel",
+          "other": "%{count} artiklit"
+        },
+        "view_all_items": {
+          "one": "Vaata %{count} artiklit",
+          "other": "Vaata kõiki %{count} artiklit"
+        },
+        "price_before_discount_aria_text": "Algne hind",
+        "price_after_discount_aria_text": "Soodushind",
+        "discount_code_aria_text": "Sooduskood",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Saada aadressile",
+          "ship_to_address_instead_html": "%{link} selle asemel"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Ühtegi poodi sinu artikliga ei ole saadaval",
+          "other": "Ühtegi poodi sinu artiklitega ei ole saadaval"
+        },
+        "deposit_label": "Ettemaks",
+        "total_due_today_label": "Täna tasumisele kuuluv kogusumma",
+        "total_due_later_label": "Kokku tasumisele kuuluv hiljem",
+        "discount_code_allocations_mismatch": "Sinu sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> on muudetud. Kontrolli oma ostukorvi ja proovi uuesti.",
+        "deferred_total_due_date_label_next": "Võlgnetav alates %{date}",
+        "total_due_label": "Kokku võlgu",
+        "total_price_label": "Koguhind",
+        "for_add_on": "Eelvaade: %{group_title}",
+        "unconfirmed_label": "Ei ole kinnitatud",
+        "total_paid_label": "Kokku makstud",
+        "from_shop_heading": "Müüdud %{shop_name} kaudu",
+        "from_other_stores_heading": "Teistest poodidest",
+        "order_discounts_apply_to_local_shop": "Tellimissoodustused kehtivad ainult %{shop_name} artiklitele",
+        "gift_cards_apply_to_local_shop": "Kingituskupongid kehtivad ainult %{shop_name} artiklitele",
+        "estimated_taxes_label_short": "Hinnanguliselt",
+        "discount_code_removed": "Sooduskood %{code} on eemaldatud",
+        "discount_code_replaced": "Sooduskood %{old_code} on eemaldatud ja %{code} on rakendatud",
+        "discount_code_replaced_multiple": "Mitmed sooduskoodid on eemaldatud ja %{code} on rakendatud",
+        "from_multiple_stores_heading": "Mitmest poest",
+        "pay_merchant_label": "Makse %{merchant_name} kaudu",
+        "discount_applies_to_subscription_items_only": "Soodustus kehtib ainult tellimiskaupadele",
+        "estimated_taxes_finalization_tooltip_content_short": "Maksuarvestus pärast maksmist",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ühtegi poodi pole saadaval %{country} sinu toote jaoks",
+          "other": "Ükski pood ei ole saadaval %{country} sinu artiklitega"
+        },
+        "compare_at_sale": "Soodusmüük (%{sale_amount})",
+        "tax_line": {
+          "hst": "HST",
+          "gst": "Käibemaks",
+          "pst": "PST",
+          "rst": "RST"
         }
       }
     }
