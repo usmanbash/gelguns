@@ -2076,7 +2076,89 @@
         },
         "confirmed_items_count": "%{confirmed_count} od %{total_count} artikala je potvrđeno",
         "thank_you_confirmed_orders_with_email": "Uskoro ćeš dobiti zasebne potvrde narudžbi s tvojim brojevima narudžbi",
-        "thank_you_confirmed_orders_with_phone": "Uskoro ćeš dobiti zasebne potvrde putem SMS-a s tvojim brojevima narudžbi"
+        "thank_you_confirmed_orders_with_phone": "Uskoro ćeš dobiti zasebne potvrde putem SMS-a s tvojim brojevima narudžbi",
+        "thank_you_confirmed_orders_with_email_and_phone": "Uskoro ćeš dobiti zasebne potvrde narudžbi s tvojim brojevima narudžbi",
+        "track_your_order_link_text": "Prati narudžbu",
+        "checkout_on_remote_shop_link_text": "Plaćanje kod %{remoteShopName}",
+        "confirmed_orders_title": "Vaša narudžba je potvrđena",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Postoje stavke koje nisu potvrđene"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Za ovo nisu naplaćeni nikakvi troškovi",
+          "other": "Za ovo nisu naplaćeni nikakvi troškovi"
+        },
+        "thank_you_item_label": {
+          "other": "%{count} artikala"
+        },
+        "thank_you_from_shop": "Van %{shop_name}",
+        "payment_method_not_charged": "Nije otpisano",
+        "items_fulfilled_by_store": {
+          "one": "Artikli koje ste kupili dolaze iz %{remote_shop_name}.",
+          "other": "Artikli koje ste kupili dolaze iz drugih trgovina."
+        },
+        "checkout_on_another_store": "Plaćanje u drugoj trgovini",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Uskoro ćete primiti potvrdu putem e-pošte",
+          "multi_store": "Uskoro ćete primiti zaseban potvrđujući e-mail od svake trgovine."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Uskoro ćete primiti potvrdu putem SMS-a",
+          "multi_store": "Uskoro ćete primiti potvrdu putem SMS-a iz svake trgovine"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Uskoro ćete primiti potvrdu putem e-pošte",
+          "multi_store": "Uskoro ćete primiti zaseban potvrđujući e-mail od svake trgovine."
+        },
+        "checkout_again": "Ponovno izvršite naplatu",
+        "cashback_notice": "Dobit ćete svoj povrat novca za 30 dana"
+      },
+      "review": {
+        "title": "Recenzija",
+        "review_title": "Dovrši narudžbu",
+        "checkout_as_guest": "Plaćanje kao gost",
+        "blocks": {
+          "billing_address_title": "Fakturiranje",
+          "shipping_address_title": "Slanje na",
+          "shipping_method_title": "Metoda dostave",
+          "change_contact_method_link_label": "Promijeni kontaktne podatke",
+          "change_billing_address_link_label": "Promijeni adresu za fakturiranje",
+          "change_shipping_address_link_label": "Promijeni adresu dostave",
+          "due_after_order_reviewed_html": "Dugovanje nakon provjere narudžbe",
+          "review_title_free_order": "Provjerite i dovršite narudžbu",
+          "payment_method_saved_company_location": "Spremi kartu za ovu lokaciju",
+          "change_company_location_link_label": "Promijenite lokaciju tvrtke",
+          "pickup_items_at": {
+            "one": "Preuzmite %{count} artikl kod",
+            "other": "Preuzmite %{count} artikala kod"
+          },
+          "ship_items_to": {
+            "one": "Poslati %{count} artikala na",
+            "other": "slanje %{count} artikala na"
+          }
+        },
+        "block_title": "Provjerite svoje podatke",
+        "checkout_a_different_way": "Platiti na drugi način",
+        "item_header": {
+          "section": "Sekcija",
+          "value": "vrijednost"
+        },
+        "review_and_confirm_title": "Provjeriti i potvrditi",
+        "account_more_actions": "Više akcija za ovaj račun"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Pošaljite mi e-mail s novostima i ponudama",
+        "unsubscribe": {
+          "title": "Odjavili ste se",
+          "description": "Vi više ne primate podsjetnike za košaricu od nas."
+        },
+        "accept_sms_checkbox_label": "Pošaljite mi SMS s vijestima i ponudama",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Pravila privatnosti",
+            "terms_of_service": "Uvjeti usluge"
+          }
+        }
       }
     }
   }
