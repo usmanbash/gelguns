@@ -864,7 +864,85 @@
         "pick_up_in_two_to_four_hours": "Listo para recoger en 4 horas",
         "shipping_address": "Dirección de entrega",
         "pick_up_locations": "Lugares de recogida",
-        "pickup_point_method_definition": "Enviar a punto de recogida"
+        "pickup_point_method_definition": "Enviar a punto de recogida",
+        "retail_method_definition": "Envíos al por menor",
+        "none_method_definition": "Sin envíos",
+        "subscription_pickup_information": "Este método de entrega se aplica a todos los artículos de este pedido y a todos los artículos futuros de esta suscripción.",
+        "ship_to_address": "Enviar a la dirección",
+        "pick_up_from_store": "Recoger en la tienda",
+        "company_location_no_address_banner": "Los pedidos que se envían a ubicaciones sin dirección se someten a revisión.",
+        "pickup_point_map_title": "Mapa con puntos de recogida"
+      },
+      "customer_account": {
+        "save_my_information_label": "Guardar esta información para pagar más rápido la próxima vez",
+        "invalid_address": "La dirección seleccionada no es válida. %{update_address_link} o seleccione otra dirección.",
+        "incomplete_address": "La dirección seleccionada está incompleta. %{update_address_link} o seleccione otra dirección.",
+        "invalid_shipping_method_summary": "Seleccione una dirección de entrega válida para ver los métodos de envío disponibles",
+        "saved_address_modal_title": "Usar mi dirección guardada"
+      },
+      "stock": {
+        "page_title": "Problema de stock",
+        "title": "No disponible",
+        "removed_from_cart_notice": "Eliminado del carrito",
+        "reduced_label": "Disminuido",
+        "reduced_with_quantity_label": "Solo %{quantity_available} en stock",
+        "remove_from_cart_button_label": "Eliminar del carrito",
+        "go_back_to_cart_button_label": "Volver a mi carrito de compras",
+        "remove": "Eliminar",
+        "empty_cart_label": "Tu carrito está vacío",
+        "quantity_update": {
+          "page_title": "Cantidad actualizada",
+          "title": "Cantidad actualizada",
+          "description": "Las cantidades disponibles para estos artículos han cambiado y tu carrito de compras ha sido actualizado."
+        },
+        "unpurchasable_product": {
+          "title": "Producto no disponible para la compra",
+          "header": "Algunos artículos han sido eliminados de tu carrito de compras",
+          "message": "Estos artículos no están disponibles para pedidos B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Producto no disponible para la compra",
+          "header": "Algunos artículos han sido eliminados de tu carrito de compras"
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Este artículo se eliminará de tu carrito porque no hay métodos de entrega disponibles para tu dirección.",
+            "other": "Este artículo se eliminará de tu carrito porque no hay métodos de entrega disponibles para tu dirección."
+          }
+        },
+        "price_update": {
+          "description": "Los precios de estos artículos han sido modificados y actualizados en tu carrito de compras."
+        },
+        "return_to_store_label": "Volver a la tienda",
+        "item_label": {
+          "one": "{{count}} artículos"
+        },
+        "out_of_stock": {
+          "description": "Estos artículos ya no están disponibles y han sido eliminados de tu carrito.",
+          "items_unavailable": "Algunos artículos ya no están disponibles y han sido eliminados de tu carrito."
+        },
+        "unfulfillable_product": {
+          "default_message": {
+            "one": "El método de entrega seleccionado ya no está disponible para este artículo.",
+            "other": "El método de entrega seleccionado ya no está disponible para estos artículos."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Los precios y las cantidades disponibles de estos artículos han cambiado y el carrito de compras ha sido actualizado."
+        },
+        "out_of_stock_in_context_label": "Este producto no está disponible en tu país/región."
+      },
+      "order_summary": {
+        "shopping_cart_label": "Carrito de compras",
+        "gift_card_title": "Vale de regalo",
+        "gift_card_label": "Vale de regalo",
+        "gift_card_placeholder": "Vale de regalo",
+        "gift_card_and_discount_title": "Código de descuento o vale regalo",
+        "gift_card_and_discount_label": "Código de descuento o vale regalo",
+        "gift_card_and_discount_placeholder": "Código de descuento o vale regalo",
+        "add_discount_or_gift_card": "Agregar un código de descuento o un vale de regalo",
+        "remove_gift_card_label": "Eliminar vale de regalo",
+        "applied_discount_message": "Se ha descontado %{amount} del precio total."
       }
     }
   }
