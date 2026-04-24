@@ -3674,7 +3674,71 @@
     },
     "B2B": {
       "locations": {
-        "contact_email": "Endereço de correio eletrónico"
+        "contact_email": "Endereço de correio eletrónico",
+        "contact_permissions": "Autorizações",
+        "location_picker_label": "Nome do local",
+        "net_payment_terms_description": "{{name}}: pagamentos devidos dentro de {{numberOfDays}} dias",
+        "payment_details_title": "Dados de pagamento",
+        "payment_terms": "Condições de pagamento",
+        "permissions_label": "As tuas autorizações",
+        "permissions_title": "Autorizações",
+        "shipping_address_required": "Adicione um endereço de entrega a esta localização para poder fazer encomendas.",
+        "tax_details_title": "Dados fiscais",
+        "tax_id": "Número de Identificação Fiscal",
+        "multiple_tax_exemptions": "Ainda {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "pt",
+        "taxes_none": "Nenhum",
+        "tax_exemption_not_applicable": "n.a.",
+        "tax_exemptions_modal_button_accessibility_label": "Mostrar todas as isenções fiscais",
+        "own_role_contact_name": "Tu",
+        "staff_and_permissions_title": "Funcionários e autorizações",
+        "location_picker_accessibility_label": "Nome do local: {{locationName}}",
+        "deposit_percentage": "depósito de {{percentage}}"
+      },
+      "location_selection": {
+        "description": "Se já tiver artigos no seu carrinho, alterar a localização pode afetar os preços e as quantidades no seu carrinho.",
+        "list_accessibility_label": "Lista de locais",
+        "list_loading_accessibility_message": "A carregar lista de locais",
+        "list_loading_address_accessibility_message": "Carregar endereço para {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lista de locais carregada",
+        "loading_store_accessibility_message": "A caminho da loja",
+        "title": "Para qual local compra?",
+        "no_location_description": "Já não tem autorização para fazer encomendas para {{company}}. Ainda pode fazer encomendas pessoais.",
+        "no_locations_found": "Nenhum local encontrado",
+        "try_new_search": "Tente uma nova pesquisa",
+        "search_location_title": "Selecione uma localização",
+        "description_switch_later": "Podes sempre mudar mais tarde",
+        "title_choose_location": "Escolha uma localização"
+      },
+      "addresses": {
+        "add_billing_address_button": "Adicionar morada de faturação",
+        "add_billing_address_section_accessibility_label": "Adicionar morada de faturação",
+        "add_shipping_address_button": "Adicionar morada de entrega",
+        "add_shipping_address_section_accessibility_label": "Adicionar morada de entrega",
+        "billing_address_card_title": "Morada de faturação",
+        "cancel_adding_billing_address_accessibility_label": "Adicionar morada de faturação cancelar",
+        "cancel_adding_shipping_address_accessibility_label": "Adicionar morada de entrega cancelar",
+        "save_new_billing_address_accessibility_label": "Guardar morada de faturação",
+        "save_new_shipping_address_accessibility_label": "Guardar endereço de entrega",
+        "shipping_address_card_title": "Endereço de entrega"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Ocultar todas as encomendas em avaliação",
+          "show_all_accessibility_label": "Mostrar todas as encomendas em avaliação",
+          "title": "Em tratamento",
+          "pagination": {
+            "nav_accessibility_label": "Botões de navegação para encomendas em avaliação"
+          },
+          "show_all_orders_in_review": "Mostrar todas as encomendas em avaliação",
+          "show_less_orders_in_review": "Mostrar menos encomendas em avaliação",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Não tens encomendas em processamento",
+            "pending_orders": {
+              "one": "Tens {{count}} encomenda em processamento"
+            }
+          }
+        }
       }
     }
   }
