@@ -4219,7 +4219,77 @@
     },
     "enable_javascript": "Ενεργοποιήστε τη JavaScript στις ρυθμίσεις του προγράμματος περιήγησής σας ή συνδεθείτε με άλλο πρόγραμμα περιήγησης για να δείτε τον λογαριασμό σας.",
     "ui_components": {
-      "expandNotification": "Δείτε περισσότερα"
+      "expandNotification": "Δείτε περισσότερα",
+      "processing": "Επεξεργασία...",
+      "increase": "Αύξηση του {{type}}",
+      "decrease": "Αφαίρεση {{type}}",
+      "minimumReached": "Ελάχιστο βαν {{value}} επιτευχθεί",
+      "maximumReached": "Έχει επιτευχθεί το μέγιστο van {{value}}",
+      "march": "Μάρτης",
+      "may": "μει",
+      "june": "τζούνι",
+      "august": "αύγουστος",
+      "november": "νοέμβριος",
+      "mondayAbbreviation": "μα.",
+      "tuesdayAbbreviation": "ντι.",
+      "wednesdayAbbreviation": "ω.",
+      "thursdayAbbreviation": "κάνε.",
+      "fridayAbbreviation": "ε.μ.",
+      "saturdayAbbreviation": "ζα.",
+      "sundayAbbreviation": "ζω.",
+      "rangeStart": "Έναρξη περιοχής",
+      "inRange": "Εντός εμβέλειας",
+      "rangeEnd": "Τέλος εμβέλειας",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} διαθέσιμα είδη",
+        "other": "{{count}} διαθέσιμα είδη"
+      },
+      "removeItem": "Αφαίρεση {{label}}",
+      "removeTag": "Αφαίρεση ετικέτας",
+      "mapClusterTitle": {
+        "one": "Συστάδα από {{number}} σημεία σήμανσης",
+        "other": "Συστάδα από {{number}} σημεία σήμανσης"
+      },
+      "expandSheet": "Αναδίπλωση",
+      "dropzoneInvalidFileType": "Αυτός ο τύπος αρχείου δεν υποστηρίζεται",
+      "dropzoneDraggedOver": "Αποθήκευση αρχείου για μεταφόρτωση",
+      "clipboardCopied": "Αντιγράφηκε",
+      "clipboardFailedToCopy": "Δεν αντιγράφηκε",
+      "clear": "Γνώση"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Απόκρυψη μπαλκονιού",
+      "navigate_to_admin": "Πλοήγηση στο κέντρο διαχείρισης",
+      "previewing": "Προβάλλετε ένα δείγμα από:",
+      "saved_at": "Αποθηκεύτηκε στις {{date}} στις {{time}}",
+      "viewing": "Παρακολουθείς:",
+      "not_available": "Δεν υπάρχουν διαθέσιμα στοιχεία προφίλ",
+      "close_preview": "Κλείσιμο παραδείγματος",
+      "actions_button": "Προσφορές"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Αποσύνδεση από όλα",
+        "description": "Αν χάσεις μια συσκευή ή αν ανησυχείς για την ασφάλεια, αποσυνδέσου από παντού για να διασφαλίσεις την ασφάλεια του λογαριασμού σου.",
+        "warning_message": "Επίσης αποσυνδέεσαι από αυτή τη συσκευή."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Την {{date}} στις {{time}}",
+        "lessThanOneWeekAgo": "Την {{weekday}} στις {{time}}",
+        "lessThanOneWeekAway": "Την {{weekday}} στις {{time}}",
+        "lessThanOneYearAway": "Την {{date}} στις {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} λεπτά πριν",
+          "other": "{{count}} λεπτά πριν"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Επιλογή της επέκτασης με όνομα '{{extensionName}}'"
+      }
     }
   }
 }
