@@ -2975,6 +2975,70 @@
       },
       "remote_policies": {
         "unavailable_policy": "Šiai parduotuvei nėra pateikta %{policy_name}. Dėl daugiau informacijos tiesiogiai susisiekite su %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Mokėjimas nepavyko",
+        "payment_not_processed_text": "Nuskaitykite QR kodą dar kartą. Jei vis tiek neveikia, praneškite mūsų darbuotojams ir išbandykite kitą mokėjimo būdą.",
+        "payment_link_expired_title": "Mokėjimo nuoroda pasibaigė",
+        "payment_link_expired_text": "Nuskaitykite QR kodą dar kartą.",
+        "title": "Išorinė mokėjimo operacija nepavyko"
+      },
+      "taxes": {
+        "tax_details": "Papildomi mokesčių duomenys",
+        "vat_number": {
+          "field": {
+            "label": "Btw identifikacijos numeris (pasirinktinai)",
+            "tooltip": "Patikrina PVM identifikacijos numerį ir automatiškai taiko pervedimą užsakymams, kurie atitinka reikalavimus"
+          },
+          "add": "Pridėti PVM numerį",
+          "vaulted": "Btw-identifikacijos numeris: %{number}",
+          "badge": "Btw-identifikacijos numeris: %{number}",
+          "domestic_order": "Nuolaidų sistema taikoma tik tarpvalstybiniams užsakymams ES viduje. Vietiniams užsakymams taikomas standartinis PVM.",
+          "status": {
+            "invalid_format": {
+              "at": "Austrijos PVM identifikacijos numeris prasideda nuo AT ir turi 9 simbolius",
+              "be": "Belgijos PVM identifikacijos numeris prasideda nuo BE ir turi 10 simbolių",
+              "bg": "Bulgarijos PVM identifikacijos numeris prasideda BG ir turi 9–10 simbolių",
+              "hr": "Kroatijos PVM identifikacijos numeris prasideda HR ir turi 11 simbolių",
+              "cy": "Kipro PVM identifikacijos numeris prasideda nuo CY ir turi 9 simbolius",
+              "cz": "Čekijos PVM identifikacijos numeris prasideda CY ir turi 8–10 simbolių.",
+              "dk": "Danijos PVM identifikacinis numeris prasideda DK ir turi 8 simbolius",
+              "ee": "Estijos PVM identifikacijos numeris prasideda EE ir turi 9 simbolius",
+              "fi": "Suomijos PVM identifikacinis numeris prasideda nuo FI ir turi 8 simbolius",
+              "fr": "Prancūzijos PVM identifikacijos numeris prasideda FR ir turi 11 simbolių",
+              "de": "Vokietijos PVM identifikacijos numeris prasideda DE ir turi 9 simbolius",
+              "gr": "Graikijos PVM identifikacijos numeris prasideda EL ir turi 9 simbolius",
+              "hu": "Vengrijos PVM identifikacinis numeris prasideda nuo HU ir turi 8 simbolius",
+              "ie": "Airijos PVM identifikacinis numeris prasideda nuo IE ir turi 8–9 simbolius",
+              "it": "Italijos PVM identifikacinis numeris prasideda IT ir turi 11 simbolių",
+              "lv": "Latvijos PVM identifikacijos numeris prasideda LV ir turi 11 simbolių",
+              "lt": "Lietuvos PVM identifikacijos numeris prasideda LT ir turi 9–12 simbolių",
+              "lu": "Liuksemburgo PVM identifikacijos numeris prasideda LU ir turi 8 simbolius",
+              "mt": "Malto PVM identifikacijos numeris prasideda nuo MT ir turi 8 simbolius",
+              "nl": "Nyderlandų PVM identifikacijos numeris prasideda nuo NL ir turi 12 simbolių",
+              "pl": "Lenkijos PVM identifikacijos numeris prasideda nuo PL ir turi 10 simbolių",
+              "pt": "Portugalijos PVM identifikacijos numeris prasideda PT ir turi 9 simbolius",
+              "ro": "Rumunijos PVM identifikacinis numeris prasideda RO ir turi 10 simbolių",
+              "sk": "Slowakijos PVM identifikacijos numeris prasideda SK ir turi 10 ženklų",
+              "si": "Slovėnijos PVM identifikacijos numeris prasideda SI ir turi 8 simbolius",
+              "es": "Ispanijos PVM identifikacijos numeris prasideda ES ir turi 9 simbolius",
+              "se": "Švedijos PVM identifikacijos numeris prasideda SE ir turi 12 simbolių",
+              "gb": "JK PVM identifikacijos numeris turi GB arba XI ir 5–12 simbolių"
+            },
+            "invalid_number": {
+              "at": "Įveskite galiojantį Austrijos PVM identifikacijos numerį",
+              "be": "Įveskite galiojantį Belgijos PVM identifikacijos numerį",
+              "bg": "Įveskite galiojantį Bulgarijos PVM identifikacijos numerį",
+              "hr": "Įveskite galiojantį Kroatijos PVM identifikacijos numerį",
+              "cy": "Įveskite galiojantį Kipro PVM identifikacijos numerį",
+              "cz": "Įveskite galiojantį Čekijos PVM identifikacijos numerį",
+              "dk": "Įveskite galiojantį Danijos PVM identifikacijos numerį",
+              "ee": "Įveskite galiojantį Estijos PVM identifikacijos numerį",
+              "fi": "Įveskite galiojantį Suomijos PVM identifikacijos numerį",
+              "fr": "Įveskite galiojantį Prancūzijos PVM identifikacijos numerį"
+            }
+          }
+        }
       }
     }
   }
