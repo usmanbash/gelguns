@@ -2061,7 +2061,79 @@
         "vat_invoices": {
           "title": "Momsfakturaen"
         },
-        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Din betaling behandles. Du modtager en e-mail, når din betaling er bekræftet."
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Din betaling behandles. Du modtager en e-mail, når din betaling er bekræftet.",
+        "verify_shop_account_message": "Dine oplysninger er gemt hos Shop. Bekræft din konto for automatisk at bruge dem i millioner af butikker.",
+        "verify_shop_account_confirmation": "Betalingsoplysninger gemt",
+        "company_location_section_title": "Virksomhed og beliggenhed",
+        "announcement": {
+          "expand": "Udklapning",
+          "collapse": "Sammenklapning"
+        },
+        "confirmed_items_count": "%{confirmed_count} af de %{total_count} artikler er bekræftet",
+        "thank_you_confirmed_orders_with_email": "Du vil snart modtage separate bekræftelsesbreve med dine ordrenumre",
+        "thank_you_confirmed_orders_with_phone": "Du vil snart modtage separate bekræftelses-sms'er med dine ordrenumre",
+        "thank_you_confirmed_orders_with_email_and_phone": "Du vil snart modtage separate bekræftelsesbreve med dine ordrenumre",
+        "track_your_order_link_text": "Følg din bestilling",
+        "checkout_on_remote_shop_link_text": "Betaling hos %{remoteShopName}",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Der er artikler, der ikke er bekræftet"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Der er ikke opkrævet nogen gebyrer for dette",
+          "other": "Der er ikke opkrævet nogen gebyrer for dette"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artikel",
+          "other": "%{count} artikler"
+        },
+        "payment_method_not_charged": "Ikke afskrevet",
+        "checkout_on_another_store": "Betaling i en anden butik",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Du vil snart modtage en bekræftelsesmail",
+          "multi_store": "Du modtager snart en separat bekræftelsesmail fra hver butik"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Du modtager snart en bekræftelses-sms",
+          "multi_store": "Du modtager snart en bekræftelses-sms fra hver butik"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Du vil snart modtage en bekræftelsesmail",
+          "multi_store": "Du modtager snart en separat bekræftelsesmail fra hver butik"
+        },
+        "checkout_again": "Udfør kassen igen",
+        "cashback_notice": "Du får din cashback efter 30 dage"
+      },
+      "review": {
+        "title": "Anmeldelse",
+        "review_title": "Fuldfør din bestilling",
+        "checkout_as_guest": "Betaling som gæst",
+        "blocks": {
+          "shipping_address_title": "Afsendelse til",
+          "shipping_method_title": "Forsendelsesmetode",
+          "change_link_label": "Ændre",
+          "change_contact_method_link_label": "Ændre kontaktoplysninger",
+          "change_billing_address_link_label": "Ændre faktureringsadresse",
+          "change_shipping_address_link_label": "Ændre leveringsadresse",
+          "change_shipping_method_link_label": "Skift forsendelsesmetode",
+          "change_payment_method_link_label": "Betalingsmetode ændre",
+          "pick_up_in_store_shipping_method_html": "Afhentning i butikken · %{location_name}",
+          "purchase_order_number_title": "Bestillingsnummer",
+          "change_purchase_order_number_label": "Ændre bestillingsnummer",
+          "change_delivery_method_link_label": "Ændre leveringsmetode",
+          "no_purchase_order_number": "(Uden bestillingsnummer)",
+          "due_after_order_reviewed_html": "Skyldig efter at bestillingen er kontrolleret",
+          "review_title_free_order": "Kontrollér og fuldfør bestillingen",
+          "payment_method_saved_company_location": "Gem kort for dette sted",
+          "company_location": "Virksomhedens beliggenhed",
+          "change_company_location_link_label": "Ændre virksomhedens adresse",
+          "pickup_items_at": {
+            "one": "%{count} artikel afhentes hos",
+            "other": "Hent %{count} artikler ved"
+          },
+          "ship_items_to": {
+            "one": "Send %{count} artikel til"
+          }
+        }
       }
     }
   }
