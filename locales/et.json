@@ -3484,7 +3484,75 @@
         "cancel": "Tühista",
         "cancel_accessibility_label": "Profiili redigeerimise tühistamine",
         "edit": "Muuda",
-        "edit_accessibility_label": "Profiili redigeerimine"
+        "edit_accessibility_label": "Profiili redigeerimine",
+        "email_help_text": "E-posti aadressi ei saa muuta",
+        "first_name": "Eesnimi",
+        "last_name": "Perekonnanimi",
+        "phone_number_help_text": "Telefoninumbrit ei saa muuta",
+        "save": "Salvesta",
+        "save_accessibility_label": "Profiili salvestamine",
+        "title": "Profiil",
+        "no_name_provided_accessibility_label": "Geen nimi lisatud",
+        "email": "E-post",
+        "errors": {
+          "name_too_long": "{{fieldName}} on liiga pikk (kuni 255 märki)",
+          "name_cannot_contain_url": "{{fieldName}} ei tohi sisaldada URL-i",
+          "name_cannot_contain_html_tags": "{{fieldName}} ei tohi sisaldada HTML-silte",
+          "email_cant_be_blank": "E-post ei tohi olla tühi",
+          "invalid_email_format": "Sisestage kehtiv e-posti aadress"
+        },
+        "editable_email_help_text": "See e-posti aadressi kasutatakse registreerimiseks ja tellimuste uuenduste saamiseks."
+      },
+      "profile_update_confirmation_message": "Profiil uuendatud",
+      "title": "Profiil",
+      "people": {
+        "pagination": {
+          "load_more": "Laadi rohkem",
+          "load_more_accessibility_label": "Rohkem inimesi laadib",
+          "loading_accessibility_label": "Inimeste laadimine käib"
+        }
+      },
+      "add_button": "Lisa",
+      "verify_new_email_modal": {
+        "title": "E-posti aadressi kinnitamine",
+        "description": "Sisestage kood, mis saadeti aadressile {{email}}",
+        "one_time_password_label": "6-kohaline kood",
+        "email_resend_button": "Saada kood uuesti",
+        "email_resend_button_accessibility_label": "Kinnituskoodi uuesti saatmine",
+        "verify_button": "Kinnita",
+        "verify_button_accessibility_label": "Ühekordse parooli kinnitamine",
+        "cancel_button": "Tühista",
+        "cancel_button_accessibility_label": "E-posti redigeerimise tühistamine",
+        "email_resend_button_success_toast_message": "Kinnituskood saadetud",
+        "email_resend_button_failure_banner_message": "Kinnituskoodi ei õnnestu saata"
+      },
+      "email_update_success_modal": {
+        "title": "E-posti aadressi kinnitamine",
+        "description": "E-posti uuendus õnnestus. Suunamine registreerumiseks."
+      },
+      "email_update_confirmation_message": "E-posti aadress uuendatud aadressile {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Paigutusvalikud",
+      "list_title": "Tellimused",
+      "order_list": {
+        "column_headers": {
+          "total": "Kokku",
+          "order": "Tellimus",
+          "actions_accessibility_label": "Kampaaniad",
+          "products_accessibility_label": "Tooted"
+        },
+        "delivered": "Murelik: {{date}}",
+        "empty_state_order_source_description": "Ainult tellimused, mis on esitatud aadressilt {{email}}, kuvatakse siin.",
+        "empty_state_subtitle": "Mine poodi, et tellimus esitada.",
+        "empty_state_title": "Veel pole tellimusi",
+        "estimated_delivery": "Oodatav {{date}}",
+        "items": {
+          "one": "{{count}} artikkel",
+          "other": "{{count}} artiklit"
+        },
+        "order_link": "Tellimuse {{name}} vaatamine",
+        "order_number": "Tellimus {{name}}"
       }
     }
   }
