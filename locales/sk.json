@@ -255,22 +255,22 @@
       },
       "page": "Stránka",
       "products": "Produkty",
-      "search_for": "Vyhľadať výraz „{{ terms }}“",
+      "search_for": "Hľadať '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "Pre výraz „{{ terms }}“ sa našiel {{ count }} výsledok",
-        "other": "Pre výraz „{{ terms }}“ sa našiel tento počet výsledkov: {{ count }}",
+        "one": "{{ count }} výsledok nájdený pre „{{ terms }}“",
+        "other": "{{ count }} výsledkov nájdených pre „{{ terms }}“",
         "few": "Pre výraz „{{ terms }}“ sa našiel tento počet výsledkov: {{ count }}",
         "many": "Pre výraz „{{ terms }}“ sa našiel tento počet výsledkov: {{ count }}"
       },
       "results_pages_with_count": {
         "one": "{{ count }} stránka",
-        "other": "Počet stránok: {{ count }}",
+        "other": "{{ count }} stránok",
         "few": "Počet stránok: {{ count }}",
         "many": "Počet stránok: {{ count }}"
       },
       "results_products_with_count": {
         "one": "{{ count }} produkt",
-        "other": "Počet produktov: {{ count }}",
+        "other": "{{ count }} produktov",
         "few": "Počet produktov: {{ count }}",
         "many": "Počet produktov: {{ count }}"
       },
@@ -278,28 +278,28 @@
       "pages": "Stránky",
       "results_suggestions_with_count": {
         "one": "{{ count }} návrh",
-        "other": "Počet návrhov: {{ count }}",
+        "other": "{{ count }} návrhov",
         "few": "Počet návrhov: {{ count }}",
         "many": "Počet návrhov: {{ count }}"
       }
     },
     "cart": {
-      "cart": "Košík"
+      "cart": "Nákupný košík"
     },
     "contact": {
       "form": {
         "name": "Meno",
         "email": "E-mail",
         "phone": "Telefónne číslo",
-        "comment": "Komentár",
+        "comment": "Reakcia",
         "send": "Odoslať",
-        "post_success": "Ďakujeme, že ste nás kontaktovali. Budeme sa vám venovať čo najskôr.",
-        "error_heading": "Upravte tieto údaje:",
+        "post_success": "Ďakujeme, že ste nás kontaktovali. Čoskoro sa vám ozveme.",
+        "error_heading": "Upravte nasledujúce:",
         "title": "Kontaktný formulár"
       }
     },
     "404": {
-      "title": "Stránka sa nenašla",
+      "title": "Stránka nenájdená",
       "subtext": "404"
     }
   },
@@ -419,85 +419,85 @@
     }
   },
   "localization": {
-    "country_label": "Krajina/oblasť",
+    "country_label": "Krajina/región",
     "language_label": "Jazyk",
     "update_language": "Aktualizovať jazyk",
-    "update_country": "Aktualizovať krajinu/oblasť",
-    "search": "Vyhľadať",
-    "popular_countries_regions": "Obľúbené krajiny/oblasti",
-    "country_results_count": "Našiel sa tento počet krajín/oblastí: {{ count }}"
+    "update_country": "Aktualizovať krajinu/región",
+    "search": "Hľadať",
+    "popular_countries_regions": "Populárne krajiny/regióny",
+    "country_results_count": "{{ count }} krajín/regiónov nájdených"
   },
   "customer": {
     "account": {
-      "title": "Konto",
-      "details": "Podrobnosti o konte",
+      "title": "Účet",
+      "details": "Údaje o účte",
       "view_addresses": "Zobraziť adresy",
-      "return": "Späť na podrobnosti o konte"
+      "return": "Späť na Údaje o účte"
     },
-    "account_fallback": "Konto",
+    "account_fallback": "Účet",
     "log_in": "Prihlásiť sa",
     "log_out": "Odhlásiť sa",
     "activate_account": {
-      "title": "Aktivovať konto",
-      "subtext": "Vytvorte si heslo a aktivujte si konto.",
+      "title": "Aktivovať účet",
+      "subtext": "Vytvorte si heslo na aktiváciu svojho účtu.",
       "password": "Heslo",
-      "password_confirm": "Potvrďte heslo",
-      "submit": "Aktivovať konto",
-      "cancel": "Odmietnuť pozvanie"
+      "password_confirm": "Potvrdiť heslo",
+      "submit": "Aktivovať účet",
+      "cancel": "Odmietnuť pozvánku"
     },
     "addresses": {
       "title": "Adresy",
-      "default": "Predvolené",
-      "add_new": "Pridať novú adresu",
+      "default": "Štandard",
+      "add_new": "Pridajte novú adresu",
       "edit_address": "Upraviť adresu",
       "first_name": "Meno",
       "last_name": "Priezvisko",
       "company": "Spoločnosť",
       "address1": "Adresa 1",
       "address2": "Adresa 2",
-      "city": "Mesto",
-      "country": "Krajina/oblasť",
-      "province": "Provincia",
-      "zip": "Poštové smerovacie číslo",
-      "phone": "Telefón",
+      "city": "Miesto",
+      "country": "Krajina/región",
+      "province": "Provincie",
+      "zip": "PSČ",
+      "phone": "Telefónne číslo",
       "set_default": "Nastaviť ako predvolenú adresu",
       "add": "Pridať adresu",
       "update": "Aktualizovať adresu",
       "cancel": "Zrušiť",
       "edit": "Upraviť",
       "delete": "Odstrániť",
-      "delete_confirm": "Naozaj chcete túto adresu odstrániť?"
+      "delete_confirm": "Ste si istý, že chcete túto adresu odstrániť?"
     },
     "login_page": {
       "cancel": "Zrušiť",
-      "create_account": "Vytvoriť konto",
+      "create_account": "Vytvoriť účet",
       "email": "E-mail",
       "forgot_password": "Zabudli ste heslo?",
       "guest_continue": "Pokračovať",
       "guest_title": "Pokračovať ako hosť",
       "password": "Heslo",
-      "title": "Prihlásiť sa",
+      "title": "Prihlasovacie údaje",
       "sign_in": "Prihlásiť sa",
       "submit": "Odoslať",
-      "alternate_provider_separator": "alebo"
+      "alternate_provider_separator": "z"
     },
     "orders": {
-      "title": "História objednávok",
+      "title": "Prehľad objednávok",
       "order_number": "Objednávka",
       "order_number_link": "Číslo objednávky {{ number }}",
       "date": "Dátum",
       "payment_status": "Stav platby",
-      "fulfillment_status": "Stav vybavenia",
-      "total": "Celkove",
-      "none": "Zatiaľ ste nezadali žiadne objednávky."
+      "fulfillment_status": "Stav vybavenia objednávky",
+      "total": "Celkom",
+      "none": "Ešte ste neuskutočnili žiadne objednávky."
     },
     "recover_password": {
-      "title": "Resetovať heslo",
-      "subtext": "Odošleme vám e-mail, aby ste si mohli resetovať heslo",
-      "success": "Odoslali sme vám e-mail s prepojením, aby ste si mohli aktualizovať heslo."
+      "title": "Obnoviť heslo",
+      "subtext": "Pošleme vám e-mail na obnovenie hesla",
+      "success": "Poslali sme vám e-mail s odkazom na obnovenie hesla."
     },
     "register": {
-      "title": "Vytvoriť konto",
+      "title": "Vytvoriť účet",
       "first_name": "Meno",
       "last_name": "Priezvisko",
       "email": "E-mail",
@@ -505,21 +505,21 @@
       "submit": "Vytvoriť"
     },
     "reset_password": {
-      "title": "Resetovať heslo konta",
+      "title": "Obnoviť heslo účtu",
       "subtext": "Zadajte nové heslo",
       "password": "Heslo",
-      "password_confirm": "Potvrďte heslo",
-      "submit": "Resetovať heslo"
+      "password_confirm": "Potvrdiť heslo",
+      "submit": "Obnoviť heslo"
     },
     "order": {
       "title": "Objednávka {{ name }}",
-      "date_html": "Zadaná {{ date }}",
-      "cancelled_html": "Objednávka bola zrušená {{ date }}",
+      "date_html": "Zverejnené dňa {{ date }}",
+      "cancelled_html": "Objednávka zrušená dňa {{ date }}",
       "cancelled_reason": "Dôvod: {{ reason }}",
       "billing_address": "Fakturačná adresa",
       "payment_status": "Stav platby",
       "shipping_address": "Dodacia adresa",
-      "fulfillment_status": "Stav vybavenia",
+      "fulfillment_status": "Stav vybavenia objednávky",
       "discount": "Zľava",
       "shipping": "Doprava",
       "tax": "Daň",
