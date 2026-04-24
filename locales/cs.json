@@ -2560,7 +2560,95 @@
         "editable_shipping_address_violations_message_title": "Přidejte tyto informace pro dokončení vaší objednávky:",
         "editable_shipping_address_violations_message_footer": "{{emailLink}} pro trvalou aktualizaci adresy této lokality.",
         "editable_shipping_address_violations_email_link": "Kontaktujte nás",
-        "company_location_changed_product_removed": "Váš nákupní košík byl upraven, protože některé produkty nejsou na tomto místě k dispozici. Zkontrolujte svou objednávku před jejím odesláním."
+        "company_location_changed_product_removed": "Váš nákupní košík byl upraven, protože některé produkty nejsou na tomto místě k dispozici. Zkontrolujte svou objednávku před jejím odesláním.",
+        "shipping_address_incomplete_title": "Dodací adresa je neúplná",
+        "calculating_shipping": "Doprava bude ještě vypočítána. Zkuste to znovu za několik sekund. Žádné poplatky nebyly účtovány.",
+        "calculating_taxes": "Daně se ještě počítají. Zkuste to znovu za několik sekund. Žádné poplatky nebyly účtovány.",
+        "generic_processing_error": {
+          "body": "Nebyly účtovány žádné poplatky. Zkuste to znovu nebo použijte jiný způsob platby."
+        },
+        "contact_information": {
+          "title": "Kontaktní údaje jsou neplatné",
+          "header": "{{emailLink}} pro aktualizaci vašich údajů",
+          "email_link": "Kontaktujte nás"
+        },
+        "payment_method_not_available_with_payment_terms": "Zvolená platební metoda již není dostupná, protože platba za tuto objednávku nyní spadá pod podmínky {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Zvolený způsob platby již není k dispozici, protože platba za tuto objednávku musí být nyní provedena při vyřízení.",
+        "payment_method_not_available_with_fixed_terms": "Zvolený způsob platby již není k dispozici, protože platba za tuto objednávku musí být provedena později.",
+        "payment_method_not_available_with_review_requirement": "Zvolený způsob platby již není k dispozici, protože platba je splatná po potvrzení objednávky.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "Je {{count}} chyba:",
+            "other": "Je {{count}} chyb:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} chyba v {{section}}",
+            "other": "{{count}} chyb v {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "one": "Tato objednávka bude odeslána na adresu, kterou uvedl {{merchant}}.",
+          "other": "Tato objednávka bude odeslána na adresu, kterou uvedl {{merchant}}. Vyberte doručovací adresu."
+        },
+        "subtitle_no_match": "Tato adresa neodpovídá žádné z tvých uložených adres.",
+        "return_to_cart": "Zpět do nákupního košíku"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Číst",
+          "link_label": "Všeobecné obchodní podmínky {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Máte otázky? Chat s námi"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "V okolí je %{count} místo s dostupným skladem",
+          "other": "V okolí je %{count} skladových míst."
+        },
+        "toggle_location": "Změnit místo",
+        "or": "Z OF",
+        "your_location": "tvoje poloha",
+        "search_button": "Hledat obchody",
+        "no_stores_found": "Nebyly nalezeny žádné obchody",
+        "could_not_resolve_address": "Nelze najít vaši adresu. Zkuste to znovu nebo použijte jinou adresu.",
+        "paginator": {
+          "accessibility_label": "Stránkování pro vyzvednutí na místě",
+          "label": {
+            "one": "%{first} - %{last} z %{count} obchodů",
+            "other": "%{first} - %{last} z %{count} obchodů"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Zobrazit %{count} míst",
+          "other": "Zobrazit ještě %{count} lokalit"
+        },
+        "all_stores_far_away": {
+          "title": "Nejbližší místa se nacházejí ve vzdálenosti větší než %{distance}",
+          "description": "Vyberte místo nebo %{ship_to_address_link}",
+          "ship_to_address_link": "dodací adresa",
+          "change_location_link": "Změňte své místo",
+          "title_with_specific_location": "Nejbližší místo s vaším artiklem se nachází více než %{distance} od %{location}.",
+          "title_with_item": {
+            "one": "Nejbližší místo s vaším artiklem se nachází více než %{distance} od %{location}.",
+            "other": "Nejbližší místo s vašimi položkami se nachází více než %{distance} od %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Dříve vybrané místo již není k dispozici",
+          "description": "Vyberte nové místo nebo %{ship_to_address_link}",
+          "ship_to_address_link": "Odeslat na adresu"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Odeslat vaše zboží",
+          "search_elsewhere": "hledat jinde",
+          "ship_items_or_search_elsewhere": "%{ship_items} z %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} adresy",
+        "location_closest": "Nejbližší místo s vaším artiklem"
       }
     }
   }
