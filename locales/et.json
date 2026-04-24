@@ -962,7 +962,65 @@
         "split_shipping_shipment_number": "Saatmine %{number}",
         "split_shipping_merchandise_quantity_label_inline_primary": "Kogus: %{quantity}",
         "split_shipping_option_free": "Tasuta saatmine",
-        "split_shipping_option_lowest_price": "Kõrgeim hind"
+        "split_shipping_option_lowest_price": "Kõrgeim hind",
+        "split_shipping_option_fastest": "Kiireim",
+        "split_shipping_option_recommended": "Soovitatav",
+        "split_shipping_option_custom": "Kohandatud",
+        "default_description": "Saadetakse ühe tööpäeva jooksul",
+        "split_shipping_shipment_notice": "Saad oma tellimuse %{quantity_shipments} osas",
+        "unbranded_default_description": "Valmis saatmiseks",
+        "prime_not_available": {
+          "default": "Prime-kullerteenus ei ole sinu tellimuse jaoks saadaval. Sinu saatmisvalikud on uuendatud."
+        },
+        "split_shipping_first_shipment_notice": "Saad oma esimese tellimuse üle %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Saatmisviisi valikud",
+        "shipping_address_rollup_accessibility_label": "Saatmisvalikud aadressile",
+        "back": "Tagasi",
+        "invalid_shipping_method_summary_selected": "Vali teine tarneaadress, et näha saadaolevaid saatmisviise",
+        "third_party_address_timeout": "Ei saa aadressi laadida. Proovi uuesti või kasuta teist aadressi.",
+        "third_party_address_error": "Aadressi valimisel tekkis viga. Sisesta oma aadress allpool käsitsi.",
+        "third_party_payment_timeout": "Maksmismeetodeid ei õnnestu laadida. Proovi uuesti või kasuta mõnda teist maksmismeetodit.",
+        "third_party_payment_error": "Makseliigi valimisel tekkis viga. Kasuta palun mõnda teist makseviisi.",
+        "add_shipping_address": "Tarneaadressi lisamine",
+        "choose_new_address": "Vali uus aadress",
+        "unbranded_description_same_day": "Saadetakse samal tööpäeval",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Saadetakse järgmise tööpäeva jooksul",
+          "other": "Saadetakse välja %{count} tööpäeva jooksul"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Saadetakse üle %{count} nädala",
+          "other": "Saadetakse välja %{count} nädala pärast"
+        },
+        "add_new_delivery_address": "Lisa uus kohaletoimetamise aadress",
+        "delivery_to": "Kohaletoimetamine aadressile"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Sinu kästakse Amazonisse sisse logida.",
+        "amazon_payments_logout": "Logi välja Amazon Pay'st",
+        "amazon_payments_failed_mfa_challenge": "Valitud makseviisi ei saa kasutada. Palun vali teine meetod või võta ühendust oma pangaga või kaardi väljastajaga.",
+        "amazon_payments_abandoned_mfa_challenge": "Sinu makset ei õnnestunud lõpule viia. Proovi mõnda teist makseviisi või võta ühendust oma pangaga või kaardi väljastajaga.",
+        "amazon_payments_could_not_enqueue_authorize": "Makse töötlemisel tekkis probleem. Proovi uuesti või kasuta mõnda teist makseviisi.",
+        "title": "Makse",
+        "amount_left_to_pay_label": "Võlgnud summa:",
+        "discount_button_action_label": "Sisesta sooduskood",
+        "gift_card_code_label": "Kingituskupongi kood",
+        "apply_gift_card_button_label": "Rakenda",
+        "gift_card_balance_label": "Saldo:",
+        "supported_card_brands_more_label": "ja veel…",
+        "detected_card_brand": "Tuvastatud kaarditüüp: {brand}",
+        "card_number_label": "Kaardi number",
+        "card_number_placeholder": "Kaardi number",
+        "card_pay_with": "Makseviisid:",
+        "card_security_notice": "Kõik tehingud on turvatud ja krüpteeritud.",
+        "name_on_card_label": "Nimi kaardil",
+        "name_on_card_placeholder": "Nimi kaardil",
+        "card_expiry_label": "Väljastamise kuupäev (KK/AA)",
+        "card_expiry_placeholder": "Väljastamise kuupäev (KK/AA)",
+        "card_verification_value_label": "Turvakood",
+        "card_verification_value_placeholder": "Turvakood",
+        "card_expiry_date_explanation": "Kaardi kehtivusaeg: kuu, kuu, aasta, aasta"
       }
     }
   },
