@@ -2273,7 +2273,93 @@
         "time_to_checkout_title": "Aeg maksmiseks - {{shopName}}",
         "estimated_wait_time": {
           "calculating": "Hinnanguline ooteaeg arvutamine",
-          "less_than_one": "Hinnanguline ooteaeg: vähem kui minut"
+          "less_than_one": "Hinnanguline ooteaeg: vähem kui minut",
+          "one": "Hinnanguline ooteaeg: {{count}} minutit",
+          "other": "Hinnanguline ooteaeg: {{count}} minutit"
+        },
+        "last_checked": "(Viimati kontrollitud: {{time}})",
+        "footer": {
+          "heading": "Sa ei pea seda lehte värskendama, see uuendatakse automaatselt.",
+          "body": "Ostukorvis olevad artiklid reserveeritakse alles pärast ostuprotsessi lõpetamist."
+        },
+        "too_many_attempts": {
+          "message": "Veel katseid",
+          "description": "Proovi mõne minuti pärast uuesti"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Taotluse töötlemisel tekkis probleem. Palun võta ühendust poeomanikuga."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Tarne pole saadaval %{count} tootele",
+            "other": "Tarne ei ole saadaval %{count} tootele"
+          },
+          "message": {
+            "one": "See artikkel eemaldatakse sinu ostukorvist, kuna sinu aadressile ei ole kohaletoimetamise meetodeid saadaval.",
+            "other": "See artikkel eemaldatakse sinu ostukorvist, kuna sinu aadressile ei ole kohaletoimetamise meetodeid saadaval."
+          },
+          "label": "Geen kohaletoimetamine"
+        }
+      },
+      "no_address_location": {
+        "title": "Asukoht ilma aadressita",
+        "header": "Sellele asukohale ei ole kohaletoimetamise aadressi määratud",
+        "message": "Võta meiega ühendust, et lisada selle asukoha aadress, et saaksid ostu sooritada.",
+        "email_us_button_label": "Saada meile e-kiri",
+        "alt_header": "Tarneaadress puudub"
+      },
+      "order_errors": {
+        "creation_failure": "Tellimuse loomisel tekkis probleem. Proovi uuesti või võta lisateabe saamiseks meiega ühendust.",
+        "network_failure": "Sinu tellimust ei saanud esitada võrguvea tõttu. Kontrolli oma ühendust ja proovi uuesti.",
+        "inventory_reservation_failure": "Mõned artiklid ei ole enam saadaval."
+      },
+      "session_errors": {
+        "session_not_unique": "Tellimuse töötlemisel tekkis probleem. Värskenda seda lehte, et naasta poodi.",
+        "session_already_finished": "See tellimus on juba esitatud. Saad poodi tagasi minna, et alustada uut tellimust."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Suletud",
+        "business_hours": "Avamisaegade info",
+        "title": "Väljavõtupunkt",
+        "or": "of",
+        "search_button": "Otsi",
+        "selector_tabs": "Järelkättesaamispunkti valija",
+        "selector_tab_map": "Kaart",
+        "selector_tab_list": "Nimekiri",
+        "could_not_resolve_address": "Ei leia aadressi. Proovi uuesti või kasuta teist aadressi",
+        "no_pickup_points_near_you": "Valitud aadressi lähedal ei leitud ühtegi väljavõtupunkti",
+        "no_pickup_points_near_location": "Sinu asukoha lähedal ei leitud ühtegi väljavõtupunkti",
+        "no_pickup_points_found": "Ühtegi väljastuspunkti ei leitud",
+        "paginator": {
+          "next_accessibility_label": "Järgmine leht",
+          "previous_accessibility_label": "Eelmine leht",
+          "header": {
+            "one": "Annetab %{first} - %{last} %{count} punkti tagasi",
+            "other": "Annab tagasi %{first} - %{last} %{count} punktist"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} punktist %{count} punktini",
+            "other": "%{pickup_point_index} punktist %{count} punktini"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} %{count} punkti vanune",
+            "other": "%{first} - %{last} van %{count} punkti"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} väljavõtupunkti sinu asukoha lähedal",
+          "other": "%{count} väljavõtupunkti sinu asukoha lähedal"
+        },
+        "change": "Asukohta muuta",
+        "waiting_on_pickup_point_location_notice": "Afhaalpunktide otsimine...",
+        "geolocation": {
+          "shared_location_button": "Kasuta minu asukohta",
+          "errors": {
+            "unsuported_by_browser": "Geolokatsiooni pärimine ei ole sinu brauseri poolt toetatud. Proovi uuesti või kasuta teist brauserit.",
+            "permission_not_allowed": "Luba oma asukoha jagamine."
+          }
         }
       }
     }

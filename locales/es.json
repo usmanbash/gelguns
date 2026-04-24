@@ -2908,7 +2908,71 @@
       },
       "address": {
         "updated": "Dirección actualizada.",
-        "error_updating": "Error al actualizar la dirección"
+        "error_updating": "Error al actualizar la dirección",
+        "created": "Dirección creada",
+        "deleted": "Dirección eliminada"
+      },
+      "order": {
+        "not_available": "Este pedido no está disponible",
+        "financial_status": {
+          "authorized": "Verificado",
+          "pending": "En proceso",
+          "paid": "Pagado",
+          "unpaid": "No pagado",
+          "voided": "Caducado",
+          "partially_paid": "Parcialmente pagado",
+          "partially_refunded": "Parcialmente reembolsado",
+          "refunded": "Reembolsado",
+          "expired": "Caducado"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Finalizado",
+          "complete": "Completo",
+          "partial": "Parcialmente",
+          "unfulfilled": "Pendiente",
+          "restocked": "Reserva de hierbas"
+        },
+        "transaction_status": {
+          "success": "Aprobado",
+          "pending": "En proceso",
+          "failure": "Fallido"
+        },
+        "cancel_reason": {
+          "customer": "Cliente modificó/canceló el pedido",
+          "other": "De otra manera",
+          "staff": "Empleados incorrectos"
+        },
+        "cash_on_delivery": "Reembolso"
+      },
+      "cart": {
+        "only_n_items_available": "Solo puedes añadir %{count} %{name} a tu carrito de compras.",
+        "too_many_items_in_cart": "No puedes añadir más %{name} a tu carrito de compras.",
+        "all_items_in_cart": "Todos los %{count} %{name} están en tu carrito.",
+        "empty_update": "no se puede actualizar el carrito vacío",
+        "missing_parameters": "ID o número de línea no válido",
+        "generic_error": "Carrito de compras incorrecto",
+        "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
+        "link_expired": "Enlace caducado",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos preparado un <a href='%{link}'>carrito actualizado</a>.",
+        "changed": "Carrito modificado",
+        "items_changed": "Uno o más artículos han sido modificados.",
+        "product_sold_out": "El producto '%{name}' ya está agotado.",
+        "variant_not_found": "No se puede encontrar la variante",
+        "variant_requires_selling_plan": "La variante solo se puede adquirir con una suscripción de venta.",
+        "shipping_address_not_required": "No se requiere envío para este carrito de compras",
+        "shipping_address_invalid": "Se ha producido un problema al calcular los gastos de envío. Continúa con el pago para elegir los gastos de envío antes de completar tu pedido.",
+        "selling_plan_not_applicable": "No se puede aplicar la suscripción de venta a la variante",
+        "selling_plan_not_available_for_company_locations": "Solo están disponibles compras únicas para pedidos B2B.",
+        "digital_product_not_available_for_company_locations": "No puedes añadir este artículo a un pedido B2B",
+        "product_not_available": "Producto no disponible",
+        "not_respect_step": "Solo puedes añadir este artículo en incrementos de %{step}.",
+        "bundle_requires_components": "No se puede añadir el producto combinado '%{name}' al carrito.",
+        "gift_card_with_components_not_supported": "No se puede añadir el producto combinado '%{name}' al carrito.",
+        "view_lines_limit_reached": "Las reglas deben ser menores o iguales a %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Se ha producido un error en tu carrito de compras."
+        },
+        "gift_card_price_must_be_greater_than_zero": "No se puede añadir el producto combinado '%{name}' al carrito."
       }
     }
   }
