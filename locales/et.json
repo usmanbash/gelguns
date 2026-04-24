@@ -2114,7 +2114,67 @@
         "title": "Jäta jootraha juurde",
         "description": "Näita, et toetad %{shop_name} meeskonda",
         "presets_description": "Vali tippi protsent",
-        "custom_label": "Kohandatud jootraha"
+        "custom_label": "Kohandatud jootraha",
+        "add_tip": "Jäta jootraha juurde",
+        "update_tip": "Jäta jootraha uuendamine",
+        "message": "Aitäh, me hindame seda tõesti.",
+        "no_tip_label": "Geen",
+        "not_available_with_spi": "Ei ole saadaval Shop Pay osamaksetega"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Osta %{product_name}",
+          "one": "Osta %{product_name} ja veel %{count} muud eset",
+          "other": "Osta %{product_name} ja veel %{count} muud eset"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Täiendav teave",
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Isiklik tollikood",
+          "shipping_credential_cn": "Elaniku ID-number",
+          "tax_credential_it": "Fiskaalkood (valikuline)",
+          "tax_email_it": "PEC (valikuline)",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "Tunnistus/ käibemaksukohustuslase number",
+          "tax_credential_type_co": "Tüüp Tõend",
+          "shipping_credential_co": "Tunnistus/ käibemaksukohustuslase number",
+          "shipping_credential_type_co": "Tüüp Tõend",
+          "tax_credential_cr": "Isikukood/RUT",
+          "shipping_credential_cr": "Isikukood/RUT",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/KM",
+          "shipping_credential_gt": "NIT/KM",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
+          "tax_credential_my": "TIN/Registreerimisnumber",
+          "shipping_credential_my": "TIN/Registreerimisnumber",
+          "shipping_credential_mx": "RFC",
+          "tax_credential_mx": "RFC",
+          "tax_credential_type_mx": "Maksusüsteem",
+          "tax_credential_use_mx": "CFDI kasutamine",
+          "tax_credential_py": "CI/RUC/IVA",
+          "shipping_credential_py": "CI/RUC/IVA",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "KMKR/ käibemaksukohustuslase number",
+          "shipping_credential_pt": "KMKR/ käibemaksukohustuslase number",
+          "tax_credential_es": "DNI/NIF",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Riiklik ID-number/käibemaksukohustuslase number",
+          "tax_credential_tr": "Türgi Vabariigi isikukood/Käibemaks",
+          "shipping_credential_tr": "Türgi Vabariigi isikukood/Käibemaks"
+        }
+      },
+      "post_purchase": {
+        "page_title": "Pärast ostu",
+        "title": "Pärast ostu",
+        "escape_confirmation": "Oled oma tellimuse eest tasunud.",
+        "escape_action": "Tellimuse kinnitus vaatamine ›"
       }
     }
   },

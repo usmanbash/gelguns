@@ -1478,7 +1478,71 @@
         "gift_card_store_credit": {
           "add_label": "Lahjakortin tai kauppaluoton lisääminen",
           "manage_label": "Lahjakorttien tai kauppaluoton hallinta"
-        }
+        },
+        "saved_credit_card_cvv_verification": "Syötä korttisi turvakoodi varmennusta varten.",
+        "afterpay_label": "Jälkimaksu",
+        "cashapppay_label": "Cash App -maksu",
+        "card_nickname_label": "Lempinimi (valinnainen)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} poistettu palautuksesta"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} poistettu palautuksesta",
+        "proposed_gateway_unavailable": "Ehdotettu maksuväylä ei ole käytettävissä",
+        "pay_in_installments_split_pay_short": "Neljä maksua, yhteensä %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Maksutapa ei ole käytettävissä valitulle toimitusosoitteelle. Valitse toinen maksutapa.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero ei ole käytettävissä tähän tilaukseen. Valitse toinen maksutapa.",
+        "paypal_disconnect": "Irrottaminen",
+        "payment_method_update_failed": "Maksutavan päivittäminen epäonnistui.",
+        "alternative_payment_currency_total_manual_payment_notice": "Huomautus: Muunnettu summa on %{amount_due}.",
+        "gift_cards_unavailable": "Lahjakorttiasi ei voi enää käyttää tähän tilaukseen, joten se on poistettu",
+        "network_card_payment_options": "Luottokorttiyhtiön valitseminen",
+        "payment_flexibility_terms_id_mismatch": "ID ehdot maksujoustavuudelle eivät täsmää",
+        "offsite_gateway_review_page_redirect_hint": "Kun olet tarkistanut tilauksen, sinut ohjataan %{gateway_label}-palveluun viimeistelemään ostoksesi.",
+        "gift_card_checkbox_label": "Lahjakortin käyttäminen",
+        "blik_label": "Vilkaisu",
+        "grabpay_label": "NappaaMaksa",
+        "simulated_express_checkout": "Digitaaliset lompakot eivät ole käytettävissä editorin esikatselussa alueesi tai selaimesi vuoksi",
+        "offsite_gateway_redirect_hint_no_button_label": "Sinut ohjataan %{gateway_label}-palveluun viimeistelemään ostoksesi.",
+        "swish_label": "Sviippi",
+        "network_card_persistence_description": "Valittu verkko tallennetaan maksutapasi kanssa tulevia tapahtumia varten.",
+        "payment_method_incompatible_with_payment_terms": "Maksutapa ei ole yhteensopiva maksuehtojen kanssa.",
+        "payment_option": {
+          "accessibility_label": "Valitse maksutapa"
+        },
+        "billing_address_rollup_accessibility_label": "Laskutusosoitteen valinnat",
+        "crypto_modal": {
+          "header": "Maksa %{shop_name} %{total_price} USDC",
+          "error": {
+            "sandbox_error": "Jotain meni vikaan"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Maksutili",
+          "savings": "Säästötili"
+        },
+        "bank_account_choose": "Valitse tili ostoksesi turvalliseen suorittamiseen",
+        "bank_account_connect_another": "Toisen pankkitilin liittäminen",
+        "bank_account_connect": "Pankkitilin liittäminen",
+        "bank_account_missing": "Pankkitilin on oltava liitettynä",
+        "crypto_payment_method": {
+          "description": "Yhdistä lompakkosi turvallisesti. Saldoasi ja osoitettasi ei jaeta.",
+          "tooltip": "Lompakkosi saldoa ja osoitettasi ei jaeta, ja vain pyydetty summa voidaan veloittaa",
+          "cashback_descriptor": {
+            "one": "Saat käteispalautuksesi %{count} päivän kuluttua",
+            "other": "Saat käteispalautuksesi %{count} päivän kuluttua"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% käteispalautus",
+        "usdc_cashback_additional_info": "Maksa USDC:llä Base-alustalla ja saat 30 päivän kuluessa %{incentive_percentage}% takaisin digitaaliseen lompakkoosi.",
+        "usdc_cashback_terms": "Sovellettavat ehdot ja rajoitukset",
+        "separate_payments_label": "Tuotteesi tulevat useammasta kuin yhdestä kaupasta. Sinun täytyy maksaa %{separate_payments_link}.",
+        "separate_payments_text": "erilliset maksut",
+        "payments": "Maksu",
+        "business_customer_with_bank_account_vaulting_payment_label": "Tallenna tämä maksutapa kassalla ja valtuuta %{company veloittamaan tililtäsi tulevista ostoksista, jotka hyväksyt tätä sijaintia varten, kunnes peruutat valtuutuksen. Kaikki tähän sijaintiin liitetyt yhteyshenkilöt voivat käyttää maksutapaa.",
+        "new_bank_account_disclaimer": "Vahvistamalla tilauksesi valtuutat %{shop_name} veloittamaan ilmoitetun summan alla mainitulta tililtä ACH-maksuna ilmoitettuna ajankohtana.",
+        "bank_account_disclaimer": "ACH-maksujen käsittely voi kestää jopa 4 työpäivää.",
+        "bank_account_vaulted_company_location": "Pankkitili tallennettu tälle paikalle",
+        "bank_account_generic_error": "Tilin lisääminen ei onnistu. Yritä myöhemmin uudelleen."
       }
     }
   }
