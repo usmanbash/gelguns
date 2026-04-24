@@ -2945,7 +2945,73 @@
     },
     "attributes": {
       "email": "poștă electronică",
-      "password_confirmation": "confirmarea parolei"
+      "password_confirmation": "confirmarea parolei",
+      "body": "text principal"
+    },
+    "addresses": {
+      "zip_code": "Cod poștal",
+      "pincode": "Cod poștal",
+      "state_and_territory": "Stat/Teritoriu",
+      "county": "Provincie",
+      "governorate": "Guvern",
+      "confirm": "Ești sigur că vrei să ștergi această adresă?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Evidențiat",
+        "az": "Alfabetic: A-Ă",
+        "za": "Alfabetic: Z-A",
+        "price_ascending": "Preț: de la mic la mare",
+        "price_descending": "Preț: de la mare la mic",
+        "date_ascending": "Dată: vechi spre nou",
+        "date_descending": "Dată: de la nou la vechi",
+        "most_relevant": "Cel mai relevant"
+      }
+    },
+    "errors": {
+      "blank": "nu poate fi gol",
+      "credit_card_session_expired": "Autorizarea cardului de credit a expirat. Introdu din nou datele de plată. Nu a fost retras niciun ban de pe cardul tău.",
+      "invalid_email": "trebuie să fie o adresă de e-mail valabilă",
+      "discount_disabled": "Această reducere este blocată",
+      "discount_expired": "Această reducere nu mai este valabilă",
+      "discount_limit_reached": "Această reducere a atins limita de utilizare",
+      "discount_not_found": "Nu se poate găsi o reducere valabilă care să corespundă codului",
+      "customer_already_used_once_per_customer_discount_notice": "Această reducere a atins limita de utilizare",
+      "gift_card_already_applied": "Codul a fost aplicat la coșul tău de cumpărături",
+      "gift_card_code_invalid": "Codul este nevalid",
+      "gift_card_depleted": "Nu mai există sold pe acest bon cadou",
+      "gift_card_disabled": "Cadeaubon este blocat",
+      "gift_card_expired": "Voucherul cadou a expirat",
+      "taken": "este deja folosit",
+      "too_short": "este prea scurt (minimul este %{count} caractere)",
+      "too_long": "este prea lung (maximul este %{count} caractere)",
+      "password_mismatch": "trebuie să fie identic cu parola introdusă",
+      "invalid_for_country": "nu este valabil pentru %{country}",
+      "invalid_for_country_and_province": "nu este valabil pentru %{province} și %{country}",
+      "invalid_province_in_country": "nu este o provincie validă în %{country}",
+      "invalid_state_in_country": "nu este un stat valid în %{country}",
+      "invalid_region_in_country": "nu este o regiune validă în %{country}",
+      "full_name_required": "Introduceți un prenume și un nume de familie",
+      "invalid_for_card_type": "este nevalid",
+      "invalid_format": "formatul este nevalid",
+      "invalid_start_date_or_issue_number_for_debit": "dată de început valabilă sau număr de emitere valabil necesar",
+      "reset_password_html": "Această adresă de email este deja legată de un cont. Dacă acest cont îți aparține, poți <a href=\"/account/login#recover\">reseta parola</a>",
+      "verify_email": "Am trimis un e-mail către %{customer_email}. Te rugăm să faci clic pe linkul atașat pentru a-ți verifica adresa de e-mail.",
+      "product_not_available": "produsul nu a fost publicat pentru acest client.",
+      "shop_404": {
+        "title": "Creează un site de comerț electronic și vinde-ți produsele online! Software de comerț electronic de la Shopify",
+        "heros": {
+          "store_unavailable": "Acest magazin nu este disponibil momentan."
+        },
+        "links": {
+          "explore_other_stores": "Explorați alte magazine",
+          "start_free_trial": "Încercare gratuită"
+        },
+        "owner_ctas": {
+          "fix_domain": "Accesează %{domain_settings_link} și finalizează configurarea noului tău adresă web. Apasă pe „Conectează domeniul” și tastează: %{domain}.<br>Dacă nu poți accesa magazinul tău, încearcă %{forgot_your_store_link}",
+          "fix_domain_link_text": "setările domeniului tău"
+        }
+      }
     }
   }
 }
