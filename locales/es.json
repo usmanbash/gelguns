@@ -1000,7 +1000,81 @@
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> no funciona en este momento. Contáctanos si necesitas ayuda.",
         "due_on_fulfillment": "Adeudado en cumplimiento",
         "duties_label": "Derechos aduaneros",
-        "duties_and_taxes_label": "Derechos de aduana e impuestos"
+        "duties_and_taxes_label": "Derechos de aduana e impuestos",
+        "error_duties_tooltip": "Este pedido se envía desde otro país, por lo que pueden aplicarse derechos de aduana e impuestos al momento de la entrega.",
+        "may_be_charged_on_delivery": "Puede cobrarse en la entrega",
+        "recurring_total_multiple_label": "Este pedido tiene costos recurrentes para varios artículos.",
+        "deferred_total_due_date_label": "Total adeudado el {{date}}",
+        "full_price": "Precio completo: %{price}",
+        "expand_component_information": {
+          "one": "Mostrar %{count} artículos"
+        },
+        "collapse_component_information": {
+          "one": "Ocultar %{count} artículos"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} artículos"
+          },
+          "back_to_finalize_order": "Volver a finalizar el pedido"
+        },
+        "alternative_payment_currency_total": "cobrado como %{amount_due}",
+        "calculating": "Calculando...",
+        "group_title_label": "Parte de '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Descuento por pedido",
+          "other": "Descuentos por pedido"
+        },
+        "discount_not_found": "No se puede encontrar un descuento válido que coincida con el código ingresado",
+        "return_restocking_fee_label": "Costos de reposición",
+        "return_shipping_fee_label": "Devolución",
+        "enter_shipping_address": "Introducir dirección de entrega",
+        "shipping_discount_title": "Descuento por envío",
+        "discount_code_applied_with_code": "Código de descuento %{code} aplicado",
+        "gift_card_applied": "Vale de regalo aplicado",
+        "duties_included_label": "El total incluye impuestos y derechos aduaneros. No hay costos adicionales al momento de la entrega.",
+        "deferred_balance_info": {
+          "title": "El saldo de {{amount_due}} vence el {{due_at}}.",
+          "due_on_fulfillment_title": "El saldo de {{amount_due}} se debe al completar el pedido"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> código de descuento requerido para clientes elegibles",
+        "more_items_modal": {
+          "empty_results": "No se encontraron resultados para '%{searchText}'. Verifique la ortografía o use otra palabra o frase."
+        },
+        "number_items": {
+          "one": "%{count} artículos"
+        },
+        "view_all_items": {
+          "one": "Ver %{count} artículos"
+        },
+        "price_after_discount_aria_text": "Precio con descuento",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Enviar a la dirección",
+          "ship_to_address_instead_html": "%{link} en su lugar"
+        },
+        "total_due_today_label": "Total adeudado hoy",
+        "total_due_later_label": "Total adeudado más tarde",
+        "discount_code_allocations_mismatch": "Tu código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> ha sido modificado. Revisa tu carrito y vuelve a intentarlo.",
+        "deferred_total_due_date_label_next": "Adeudado el %{date}",
+        "total_due_label": "Total adeudado",
+        "unconfirmed_label": "No confirmado",
+        "from_shop_heading": "De %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Los descuentos por pedido solo aplican para artículos de %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Los vales de regalo solo son válidos para artículos de %{shop_name}",
+        "discount_code_removed": "El código de descuento %{code} ha sido eliminado",
+        "discount_code_replaced": "El código de descuento %{old_code} ha sido eliminado y se ha aplicado %{code}",
+        "discount_code_replaced_multiple": "Se han eliminado varios códigos de descuento y se ha aplicado %{code}",
+        "pay_merchant_label": "Pagar %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "El descuento se aplica solo a artículos de suscripción",
+        "estimated_taxes_finalization_tooltip_content_short": "Redondeo de impuestos después del pago",
+        "compare_at_sale": "Rebajas (%{sale_amount})",
+        "tax_line": {
+          "gst": "IVA"
+        }
+      },
+      "shipping": {
+        "shipping_method_title": "Método de envío",
+        "waiting_on_rate_notice": "Obteniendo tarifas de envío disponibles..."
       }
     }
   }
