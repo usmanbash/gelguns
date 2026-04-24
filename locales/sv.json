@@ -277,7 +277,7 @@
   },
   "sections": {
     "header": {
-      "announcement": "Meddelande",
+      "announcement": "Tillkännagivande",
       "menu": "Meny",
       "cart_count": {
         "one": "{{ count }} artikel",
@@ -285,103 +285,103 @@
       }
     },
     "cart": {
-      "title": "Din varukorg",
-      "caption": "Varukorgsartiklar",
+      "title": "Din kundvagn",
+      "caption": "Varor i kundvagnen",
       "remove_title": "Ta bort {{ title }}",
-      "note": "Beställ särskilda instruktioner",
-      "checkout": "Gå till kassan",
-      "empty": "Din varukorg är tom",
-      "cart_error": "Ett fel uppstod när du uppdaterade din varukorg. Försök igen.",
-      "cart_quantity_error_html": "Du kan endast lägga till {{ quantity }} av denna artikel i din varukorg.",
+      "note": "Särskilda anvisningar för beställning",
+      "checkout": "Betalning",
+      "empty": "Din kundvagn är tom",
+      "cart_error": "Ett fel uppstod när din kundvagn skulle uppdateras. Försök igen.",
+      "cart_quantity_error_html": "Du kan bara lägga till {{ quantity }} av denna artikel i din kundvagn.",
       "headings": {
         "product": "Produkt",
         "price": "Pris",
         "total": "Totalt",
-        "quantity": "Kvantitet",
+        "quantity": "Antal",
         "image": "Produktbild"
       },
       "update": "Uppdatera",
       "login": {
         "title": "Har du ett konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in</a> för att gå till kassan snabbare."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in</a> för att betala snabbare."
       },
-      "estimated_total": "Beräknad totalsumma",
-      "new_estimated_total": "Nytt beräknat totalbelopp",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Tullavgifter och skatter ingår. Rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Tullavgifter och skatter ingår. Rabatter och fraktkostnad beräknas i kassan.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Skatter ingår. Rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
-      "taxes_included_shipping_at_checkout_without_policy": "Skatter ingår. Rabatter och fraktkostnad beräknas i kassan.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tullavgifter ingår. Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tullavgifter ingår. Skatter, rabatter och fraktkostnad beräknas i kassan.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Skatter, rabatter och fraktkostnad beräknas i kassan."
+      "estimated_total": "Uppskattat totalt",
+      "new_estimated_total": "Nytt uppskattat totalt",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Tullavgifter och skatter ingår. Rabatter och <a href=\"{{ link }}\">frakt</a> beräknas i kassan.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Tullavgifter och skatter ingår. Rabatter och fraktkostnader beräknas vid kassan.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Skatter inkluderade. Rabatter och <a href=\"{{ link }}\">frakt</a> beräknas i kassan.",
+      "taxes_included_shipping_at_checkout_without_policy": "Skatter inkluderade. Rabatter och frakt beräknas vid kassan.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tullavgifter ingår. Skatter, rabatter och <a href=\"{{ link }}\">frakt</a> beräknas i kassan.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tullavgifter inkluderade. Skatter, rabatter och frakt beräknas vid kassan.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter och <a href=\"{{ link }}\">frakt</a> beräknas i kassan.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Skatter, rabatter och fraktkostnader beräknas vid kassan."
     },
     "footer": {
       "payment": "Betalningsmetoder"
     },
     "featured_blog": {
-      "view_all": "Visa alla",
+      "view_all": "Visa allt",
       "onboarding_title": "Blogginlägg",
-      "onboarding_content": "Ge en sammanfattning av dina bloggposter till dina kunder"
+      "onboarding_content": "Ge dina kunder en översikt över ditt blogginlägg"
     },
     "featured_collection": {
-      "view_all": "Visa alla",
-      "view_all_label": "Visa alla produkter i produktserien {{ collection_name }}"
+      "view_all": "Visa allt",
+      "view_all_label": "Se alla produkter i kollektionen {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Visa alla"
+      "view_all": "Visa allt"
     },
     "collection_template": {
-      "title": "Produktserie",
+      "title": "Samling",
       "empty": "Inga produkter hittades",
-      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla</a>"
+      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort allt</a>"
     },
     "video": {
-      "load_video": "Ladda video: {{ description }}"
+      "load_video": "Video laddas: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Ladda bild",
+      "load_slide": "Ladda dia",
       "previous_slideshow": "Föregående bild",
       "next_slideshow": "Nästa bild",
-      "pause_slideshow": "Pausa bildspelet",
+      "pause_slideshow": "Pausa bildspel",
       "play_slideshow": "Spela bildspel",
       "carousel": "Karusell",
-      "slide": "Bild"
+      "slide": "Dia"
     },
     "page": {
-      "title": "Sidrubrik"
+      "title": "Sidtitel"
     },
     "announcements": {
-      "previous_announcement": "Tidigare meddelande",
-      "next_announcement": "Kommande meddelande",
+      "previous_announcement": "Föregående meddelande",
+      "next_announcement": "Nästa tillkännagivande",
       "carousel": "Karusell",
-      "announcement": "Meddelande",
+      "announcement": "Tillkännagivande",
       "announcement_bar": "Meddelandefält"
     },
     "quick_order_list": {
-      "product_total": "Delsumma för produkt",
-      "view_cart": "Visa varukorg",
-      "each": "{{ money }}/st.",
+      "product_total": "Produktsubtotal",
+      "view_cart": "Visa kundvagn",
+      "each": "{{ money }}/st",
       "product": "Produkt",
       "variant": "Variant",
-      "variant_total": "Totalbelopp för variant",
+      "variant_total": "Total variant",
       "items_added": {
-        "one": "{{ quantity }} artikel lades till",
-        "other": "{{ quantity }} artiklar lades till"
+        "one": "{{ quantity }} artikel tillagd",
+        "other": "{{ quantity }} artiklar tillagda"
       },
       "items_removed": {
-        "one": "{{ quantity }} artikel togs bort",
-        "other": "{{ quantity }} artiklar togs bort"
+        "one": "{{ quantity }} artikel borttagen",
+        "other": "{{ quantity }} artiklar borttagna"
       },
-      "product_variants": "Produktvarianter",
+      "product_variants": "Produktvarianten",
       "total_items": "Totalt antal artiklar",
-      "remove_all_items_confirmation": "Ta bort alla {{ quantity }} artiklar från din varukorg?",
-      "remove_all": "Ta bort alla",
+      "remove_all_items_confirmation": "Ta bort alla {{ quantity }} artiklar från din kundvagn?",
+      "remove_all": "Ta bort allt",
       "cancel": "Avbryt",
-      "remove_all_single_item_confirmation": "Vill du ta bort 1 artikel från varukorgen?",
-      "min_error": "Den här artikeln har minst {{ min }}",
-      "max_error": "Den här artikeln har max {{ max }}",
-      "step_error": "Du kan endast lägga till den här artikeln med ökningar om {{ step }}"
+      "remove_all_single_item_confirmation": "Ta bort 1 artikel från din kundvagn?",
+      "min_error": "För denna artikel gäller ett minimum på {{ min }}.",
+      "max_error": "För denna artikel gäller en maxgräns på {{ max }}.",
+      "step_error": "Du kan bara lägga till den här artikeln i steg om {{ step }}"
     }
   },
   "localization": {
