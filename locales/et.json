@@ -1853,8 +1853,66 @@
           "other": "Mõne minuti pärast saad kingituskupongidega SMS-i."
         },
         "gift_card_confirmation_by_email_typ": {
-          "one": "Mõne minuti pärast saad kingituskupongi sisaldava SMS-i."
-        }
+          "one": "Mõne minuti pärast saad kingituskupongi sisaldava SMS-i.",
+          "other": "Mõne minuti pärast saad kingituskupongidega SMS-i."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon on saadetud e-posti teel",
+          "other": "Kingituskupongid on saadetud e-posti teel"
+        },
+        "gift_card_text_title": {
+          "one": "Cadeaubon on saadetud SMS-iga",
+          "other": "Kingituskupongid on saadetud SMS-iga"
+        },
+        "resend_gift_cards_by_email": "Saada e-kiri uuesti",
+        "resend_gift_cards_by_text": "Saada SMS uuesti",
+        "gift_card_resent_confirmation": {
+          "one": "Cadeaubon on uuesti saadetud.",
+          "other": "Kingituskupongid on uuesti saadetud."
+        },
+        "gift_card_resend_failure": {
+          "one": "Sinu kinkekaardi uuesti saatmisel tekkis probleem. Proovi uuesti või võta meiega ühendust.",
+          "other": "Sinu kinkekaartide uuesti saatmisel tekkis probleem. Proovi uuesti või võta meiega ühendust."
+        },
+        "failed_pending_payment_page_title": "Maksmisel tekkis probleem",
+        "thank_you_title_payments_app_pending_default": "Makse töödeldakse",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Oleme sinu tellimuse kätte saanud",
+        "thank_you_title_payments_app_failed_pending_payment": "Teie makset ei õnnestunud töödelda",
+        "thank_you_payments_app_failed_pending_payment": "Sinu tellimus ei ole veel tasutud. Mine tagasi oma ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Sa saad peagi kinnituskirja. Sa saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Sa saad peagi kinnituskirja. Sa saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Sa saad peagi kinnitava SMS-i. Saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Pärast makse sooritamist saad kinnituskirja. Saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Pärast makse sooritamist saad kinnituskirja. Saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Pärast makse sooritamist saad kinnituseks SMS-i. Saad oma tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_failed_pending_payment": "Sinu tellimus ei ole veel tasutud. Mine tagasi oma ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Pärast makse sooritamist saad kinnituskirja. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "thank_you_confirmed_order_with_missing_payment": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "thank_you_confirmed_order_with_draft_payment": "Anname sulle teada, kui vajame lisateavet või kui tellimus on kinnitatud.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Anname sulle teada, kui vajame lisateavet või kui tellimus on kinnitatud.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Tellimus ei ole veel tasutud. Naaske ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Tellimus ei ole veel tasutud. Naaske ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Sa saad peagi kinnituskirja. Sa saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Sa saad peagi kinnituskirja. Sa saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Sa saad peagi kinnituskirja. Sa saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Sa saad peagi kinnituskirja. Sa saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Sa saad peagi kinnitava SMS-i. Saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Sa saad peagi kinnitava SMS-i. Saad tellimust jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Võtke tellimuse kinnitamiseks meiega ühendust e-posti või telefoni teel.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Pärast makse sooritamist saad kinnituskirja. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Pärast makse sooritamist saad kinnituskirja. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Pärast makse sooritamist saad kinnituskirja. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Pärast makse sooritamist saad kinnituseks SMS-i. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pärast makse sooritamist saad kinnituseks SMS-i. Tellimust saad jälgida Shopi rakenduse kaudu.",
+        "order_status_payments_app_failed_pending_payment_payment": "Tellimus ei ole veel tasutud. Naaske ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Tellimus ei ole veel tasutud. Naaske ostukorvi, et tellimus üle vaadata ja tasuda.",
+        "order_status_confirmed_order_local_pick_up": "Me valmistame su tellimuse ette."
       }
     }
   },
