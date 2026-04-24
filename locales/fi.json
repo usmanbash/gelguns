@@ -1767,8 +1767,68 @@
             "one": "Tilauksesi käsitellään. Arvioitu odotusaika on %{count} minuuttia.",
             "other": "Tilauksesi käsitellään. Arvioitu odotusaika on %{count} minuuttia."
           },
-          "long": "Saat sähköpostin heti, kun tilauksesi on käsitelty. Tällä hetkellä on suuri määrä tilauksia."
-        }
+          "long": "Saat sähköpostin heti, kun tilauksesi on käsitelty. Tällä hetkellä on suuri määrä tilauksia.",
+          "no_auto_refresh_html": "%{link} jos sinua ei ohjata automaattisesti.",
+          "refresh_this_page": "Lataa tämä sivu uudelleen"
+        },
+        "you_will_not_be_charged": "Kuluja ei ole vielä veloitettu",
+        "action_required": "Toiminta vaaditaan",
+        "redirecting_to_bank": "Siirry {{bank}}-pankkiin",
+        "modal_notice": "Otamme yhteyttä {{paymentMethod}}-palveluun",
+        "remote_shops_payments_processing": "Maksun käsittely",
+        "remote_checkout_count": "%{current} / %{total}"
+      },
+      "failed_payment": {
+        "page_title": "Maksua ei voida käsitellä",
+        "title": "Maksua ei voida käsitellä",
+        "payment_not_processed_title": "Maksuasi ei voida käsitellä.",
+        "payment_not_processed_text": "Maksuja ei ole veloitettu. Palaa ostoskoriisi viimeistelläksesi ostoksesi.",
+        "return_to_cart_button_label": "Takaisin ostoskoriin"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Luottokortti",
+        "bank_deposit_label": "Pankkikokous",
+        "cash_on_delivery_label": "Hyvitys",
+        "money_order_label": "Postisiirto",
+        "deferred_payment_label": "Valitse myöhemmin maksutapa",
+        "generic_payment_terms": "De {{translatedName}}-maksuehdot ovat voimassa. Maksusi erääntyy {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} tilille, jolla on pääsy tähän sijaintiin tai tallennettujen maksutapojen lisäämiseksi tai käyttämiseksi."
+          }
+        },
+        "direct_payment_terms": "De {{translatedName}}-ehdot ovat voimassa. Rahat veloitetaan kortiltasi {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Maksu erääntyy heti, kun tilaus on käsitelty.",
+        "order_due_on_fulfillment_payment": "Rahat veloitetaan kortiltasi heti, kun tilaus on käsitelty.",
+        "draft_order_payment_due_later_no_terms": "Maksu erääntyy heti, kun tilaus on vahvistettu.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Rahat veloitetaan kortiltasi heti, kun tilaus on vahvistettu.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}} -ehdot tulevat voimaan, kun tilaus on vahvistettu.",
+        "draft_order_payment_due_on_fulfillment": "Maksu erääntyy heti, kun tilaus on vahvistettu ja käsitelty.",
+        "fixed_payment_label": "Maksu erääntyy {{dueDate}}.",
+        "fixed_direct_payment_terms": "Tämä veloitetaan kortiltasi {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} on maksettava tänään. Saldoon sovelletaan {{translatedName}}-ehtoja, ja se on maksettava viimeistään {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} on maksettava tänään. Jäljellä oleva summa erääntyy maksettavaksi, kun tilauksesi on käsitelty.",
+        "order_due_on_receipt_choose_later": "Maksu on suoritettava vastaanotettaessa.",
+        "draft_order_deposit_due_later": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Saldoon sovelletaan {{translatedName}}-ehtoja.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Jäännössumma on maksettava, kun tilauksesi on käsitelty.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} on maksettava tänään. Jäljellä oleva saldo erääntyy myöhemmin.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} on maksettava tänään. Jäljellä oleva summa on maksettava viimeistään {{dueDate}}."
+      },
+      "thank_you": {
+        "return_to_store_link_label": "Palaa kauppaan",
+        "print_link_label": "Ostokuitti tulostettavaksi",
+        "page_title": "Kiitos, %{display_name}.",
+        "cancelled_page_title": "Tilaus peruutettu",
+        "customer_information_title": "Tilaustiedot",
+        "shipping_address_map_title": "Google-kartta, jossa toimitusosoitteen tarkka sijainti: %{address}",
+        "company_tracking_number": "%{company} seurantanumero:",
+        "estimated_arrival": "Arvioitu toimituspäivä:",
+        "re-order": "Tilaa samat tuotteet uudelleen",
+        "thank_you_confirmed_order_with_email": "Saat pian vahvistussähköpostin, jossa on tilausnumerosi.",
+        "thank_you_confirmed_order_with_phone": "Saat pian vahvistustekstiviestin, jossa on tilausnumerosi",
+        "thank_you_confirmed_order_with_email_and_phone": "Saat pian vahvistussähköpostin, jossa on tilausnumerosi.",
+        "thank_you_confirmed_order_with_missing": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistustasi varten.",
+        "order_status_confirmed_order_with_email": "Saat sähköpostin, kun tilauksesi on valmis."
       }
     }
   }
