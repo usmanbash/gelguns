@@ -2743,7 +2743,93 @@
         "indeterminate_location_fallback": "din placering",
         "cart_updated": "Din indkøbskurv er opdateret.",
         "change_address_or_remove": "Ændr leveringsadressen eller %{remove_action}.",
-        "empty_cart_action": "tøm indkøbskurven og gå tilbage til butikken"
+        "empty_cart_action": "tøm indkøbskurven og gå tilbage til butikken",
+        "remove_items_action": {
+          "one": "fjern den ikke tilgængelige vare",
+          "other": "fjern de ikke tilgængelige varer"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Du har ikke længere tilladelse til at afgive B2B-ordrer. %{logout_url} for i stedet at afgive en personlig ordre.",
+        "lost_permissions_title": "Ingen tilladelser til placering"
+      },
+      "units": {
+        "centiliter": "kl",
+        "pound": "lb",
+        "inch": "i",
+        "square_foot": "ft²",
+        "item": "artikel"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Din adresse understøttes ikke for det nuværende medlemskab.",
+        "items_split_across_locations_unsupported": "Prime-levering er ikke tilgængelig for din bestilling. Dine forsendelsesmuligheder er opdateret."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Naviger til netbutik"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Ekstra betalingsmetoder"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Din vare kan ikke tilføjes til din indkøbskurv, fordi den kommer fra en butik, der bruger en anden valuta.",
+          "max_remote_shops_exceeded": "Dit produkt kan ikke tilføjes, fordi din indkøbskurv allerede indeholder det maksimale fra andre butikker.",
+          "currency_mismatch_removal": "Der er fjernet en vare fra din indkøbskurv, fordi den stammer fra en butik, der bruger en anden valuta.",
+          "only_remote_merchandise_lines": "Betalingen indeholder kun eksterne varer. Der er behov for en omdirigering til den eksterne butik for at fuldføre betalingen."
+        }
+      },
+      "remote_merchandise_only": {
+        "remote_only_notice": "Disse varer sælges og sendes af andre butikker. Gå til kassen i hver butik for at fuldføre dit køb.",
+        "return_to_store_label": "Tilbage til butik",
+        "checkout_on_shop_label": "Betaling hos %{shop_name}",
+        "detail_item_label": {
+          "one": "{{count}} artikel",
+          "other": "{{count}} artikler"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Der er ikke angivet nogen %{policy_name} for denne butik. Kontakt venligst %{shop_name} direkte for mere information."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Betaling mislykkedes",
+        "payment_not_processed_text": "Scan QR-koden igen. Hvis det stadig ikke virker, så giv besked til vores medarbejdere og prøv en anden betalingsmetode.",
+        "payment_link_expired_title": "Betalingslink udløbet",
+        "payment_link_expired_text": "Scan QR-koden igen.",
+        "title": "Betaling uden for stedet mislykkedes"
+      },
+      "taxes": {
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifikationsnummer (valgfrit)",
+            "tooltip": "Validerer momsnummeret og anvender automatisk omvendt betalingspligt på ordrer, der er berettigede hertil"
+          },
+          "vaulted": "Btw-identifikationsnummer: %{number}",
+          "badge": "Btw-identifikationsnummer: %{number}",
+          "domestic_order": "Omlægningsordningen gælder kun for grænseoverskridende ordrer inden for EU. For lokale ordrer opkræves der som regel moms.",
+          "status": {
+            "invalid_format": {
+              "at": "Et momsregistreringsnummer fra Østrig indeholder AT og 9 tegn",
+              "be": "Et momsregistreringsnummer fra Belgien indeholder BE og 10 tegn",
+              "bg": "Et momsregistreringsnummer fra Bulgarien indeholder BG og 9-10 tegn",
+              "hr": "Et momsregistreringsnummer fra Kroatien indeholder HR og 11 tegn",
+              "cy": "Et momsregistreringsnummer fra Cypern indeholder CY og 9 tegn",
+              "cz": "Et momsregistreringsnummer fra Tjekkiet indeholder CY og 8-10 tegn.",
+              "dk": "Et momsregistreringsnummer fra Danmark indeholder DK og 8 tegn",
+              "ee": "Et momsregistreringsnummer fra Estland indeholder EE og 9 tegn",
+              "fi": "Et momsregistreringsnummer fra Finland indeholder FI og 8 tegn",
+              "fr": "Et momsregistreringsnummer fra Frankrig indeholder FR og 11 tegn",
+              "de": "Et momsregistreringsnummer fra Tyskland indeholder DE og 9 tegn",
+              "gr": "Et momsregistreringsnummer fra Grækenland indeholder EL og 9 tegn",
+              "hu": "Et momsregistreringsnummer fra Ungarn indeholder HU og 8 tegn",
+              "ie": "Et momsregistreringsnummer fra Irland indeholder IE og 8-9 tegn",
+              "it": "Et momsregistreringsnummer fra Italien indeholder IT og 11 tegn",
+              "lv": "Et momsregistreringsnummer fra Letland indeholder LV og 11 tegn",
+              "lt": "Et momsregistreringsnummer fra Litauen indeholder LT og 9-12 tegn"
+            }
+          }
+        }
       }
     }
   }

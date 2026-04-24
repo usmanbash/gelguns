@@ -3471,8 +3471,84 @@
           "location": {
             "ascending": "Местоположение (A-Я)",
             "descending": "Местоположение (Я-А)"
+          },
+          "order_number": {
+            "ascending": "Номер на поръчка (от най-нисък към най-висок)",
+            "descending": "Номер на поръчка (от най-висок към най-нисък)"
+          },
+          "order_total": {
+            "ascending": "Обща поръчка (от ниска към висока)",
+            "descending": "Обща поръчка (от най-висока към най-ниска)"
           }
+        },
+        "one_images_accessibility_label": "Поръчката съдържа {{lineItemName1}}",
+        "two_images_accessibility_label": "Поръчката съдържа {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Поръчката съдържа {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Поръчката съдържа {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Премахнете филтрите или ги коригирайте, за да видите вашите поръчки",
+        "no_filtered_results_title": "Няма филтрирани резултати",
+        "estimated_shortform": "Оценено на {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Закъснял",
+            "due_without_date": "Задължен",
+            "due_on_fulfillment": "Плащане при изпълнение",
+            "payment_not_due": "Все още не е дължимо"
+          },
+          "gallery_view": {
+            "overdue": "Плащането е закъсняло",
+            "due": "Плащане дължимо на {{date}}",
+            "due_without_date": "Плащане дължимо",
+            "due_on_fulfillment": "Плащане дължимо при изпълнение",
+            "payment_not_due": "Плащането все още не е дължимо"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "В момента сортирано по: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}, {{lineItemName3}} брой {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}, {{lineItemName3}} брой {{lineItemQuantity3}}, {{lineItemName4}} брой {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}, {{lineItemName3}} брой {{lineItemQuantity3}}, {{lineItemName4}} брой {{lineItemQuantity4}}, {{lineItemName5}} брой {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}, {{lineItemName3}} брой {{lineItemQuantity3}}, {{lineItemName4}} брой {{lineItemQuantity4}}, {{lineItemName5}} брой {{lineItemQuantity5}}, {{lineItemName6}} брой {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Поръчката съдържа {{lineItemName1}} брой {{lineItemQuantity1}}, {{lineItemName2}} брой {{lineItemQuantity2}}, {{lineItemName3}} брой {{lineItemQuantity3}}, {{lineItemName4}} брой {{lineItemQuantity4}}, {{lineItemName5}} брой {{lineItemQuantity5}}, {{lineItemName6}} брой {{lineItemQuantity6}} и още",
+          "view_order_details": "Преглед на данните за поръчката",
+          "previous": "Предишен",
+          "next": "Следващ"
+        },
+        "show_order_actions_accessibility_label": "Показване на промоции за поръчка на {{name}}",
+        "empty_state_title_for_pending_orders": "Няма поръчки в обработка",
+        "more_than_four_products_accessibility_label": "Поръчката съдържа {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} плюс още {{numberOfAdditionalProducts}} продукта",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} продукта",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Преглед на поръчката за продуктови данни",
+            "estimated_delivery": "Очаква се на {{date}}",
+            "last_updated": "Последна актуализация на {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Очаквана доставка на {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Поръчката съдържа {{lineItemName1}}, {{lineItemName2}}, плюс още {{numberOfAdditionalProducts}} продукта",
+        "filter": {
+          "clear_section": "Изтриване на секция",
+          "clear_all": "Всичко да знаеш",
+          "date": {
+            "title": "Дата на поръчка",
+            "custom": "Персонализирано"
+          }
+        },
+        "no_order_banner": "Създайте поръчка, за да тествате разширението на страницата за статус на поръчката.",
+        "location_filter_picker": {
+          "all_location": "Всички локации",
+          "current_location": "Текущо местоположение",
+          "switch_view": "Смяна на изгледа"
         }
+      },
+      "order_status": {
+        "canceled_label": "Отменено",
+        "canceled_title": "Вашата поръчка е анулирана"
       }
     }
   }
