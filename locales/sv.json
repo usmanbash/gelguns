@@ -1990,7 +1990,83 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Efter betalning får du ett bekräftelsemejl med beställningsnumret."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Efter betalning får du ett bekräftelsemejl med beställningsnumret.",
+        "vat_invoices": {
+          "title": "Momsfakturan"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Din betalning behandlas. Du kommer att få ett e-postmeddelande när din betalning har bekräftats.",
+        "verify_shop_account_title": "Verifiera ditt butikskonto",
+        "verify_shop_account_message": "Din information har sparats hos Shop. Verifiera ditt konto för att automatiskt använda det hos miljontals butiker.",
+        "verify_shop_account_confirmation": "Betalningsuppgifter sparade",
+        "announcement": {
+          "expand": "Vik ut",
+          "collapse": "Inklappen"
+        },
+        "confirmed_items_count": "%{confirmed_count} av %{total_count} artiklar är bekräftade",
+        "thank_you_confirmed_orders_with_email": "Du kommer snart att få separata bekräftelsemejl med dina ordernummer",
+        "thank_you_confirmed_orders_with_phone": "Du kommer snart att få separata bekräftelse-sms med dina beställningsnummer",
+        "thank_you_confirmed_orders_with_email_and_phone": "Du kommer snart att få separata bekräftelsemejl med dina ordernummer",
+        "track_your_order_link_text": "Följ din beställning",
+        "confirmed_orders_title": "Dina beställningar är bekräftade",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 artikel är inte bekräftad",
+          "other": "Det finns artiklar som inte är bekräftade"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Det har inte tagits ut några avgifter för detta",
+          "other": "Det har inte tagits ut några avgifter för detta"
+        },
+        "payment_method_not_charged": "Inte avskrivet",
+        "items_fulfilled_by_store": {
+          "one": "Artiklarna du har köpt kommer från %{remote_shop_name}.",
+          "other": "De varor du har köpt kommer från andra butiker."
+        },
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Du kommer snart att få ett bekräftelsemejl",
+          "multi_store": "Du kommer snart att få ett separat bekräftelsemejl från varje butik"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Du kommer snart att få ett bekräftelse-sms",
+          "multi_store": "Du kommer snart att få ett bekräftelse-sms från varje butik"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Du kommer snart att få ett bekräftelsemejl",
+          "multi_store": "Du kommer snart att få ett separat bekräftelsemejl från varje butik"
+        },
+        "checkout_again": "Utför utcheckning igen"
+      },
+      "review": {
+        "review_title": "Slutför din beställning",
+        "blocks": {
+          "contact_method_title": "Kontakt",
+          "shipping_method_title": "Fraktsätt",
+          "change_contact_method_link_label": "Ändra kontaktuppgifter",
+          "change_payment_method_link_label": "Byt betalningsmetod",
+          "pick_up_in_store_shipping_method_html": "Hämta i butik · %{location_name}",
+          "purchase_order_number_title": "Beställningsnummer",
+          "change_purchase_order_number_label": "Ändra beställningsnummer",
+          "no_purchase_order_number": "(Inget beställningsnummer)",
+          "due_after_order_reviewed_html": "Skyldig efter att beställningen har kontrollerats",
+          "review_title_free_order": "Kontrollera och slutför beställningen",
+          "payment_method_saved_company_location": "Spara karta för denna plats",
+          "company_location": "Företagsplats",
+          "pickup_items_at": {
+            "one": "%{count} artikel att hämta hos",
+            "other": "Hämta %{count} artiklar hos"
+          },
+          "ship_items_to": {
+            "one": "Skicka %{count} artikel till",
+            "other": "Skicka %{count} artiklar till"
+          }
+        },
+        "block_title": "Kontrollera dina uppgifter",
+        "item_header": {
+          "section": "Avdelning"
+        }
       }
     }
   }
