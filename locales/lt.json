@@ -3413,7 +3413,85 @@
     },
     "subscriptions": {
       "buyer_consent_product": "Šis straipsnis yra pasikartojantis arba atidėtas pirkimas. Jei tęsiu, sutinku su %{cancellationPolicyLink} ir taip pat suteikiu leidimą nurodytas kainas nuskaičiuoti iš mano mokėjimo būdo nurodytu dažnumu ir datomis, kol mano užsakymas bus įvykdytas arba kol aš, jei leidžiama, atšauksiu.",
-      "buyer_consent_cart": "Vienas ar daugiau prekių jūsų krepšelyje yra atidėti arba pasikartojantys pirkimai. Jei tęsiu, sutinku su %{cancellationPolicyLink} ir taip pat suteikiu leidimą nurodytas kainas nuskaičiuoti iš mano mokėjimo būdo nurodytu dažnumu ir datomis, kol mano užsakymas bus įvykdytas arba kol aš, jei leidžiama, atšauksiu."
+      "buyer_consent_cart": "Vienas ar daugiau prekių jūsų krepšelyje yra atidėti arba pasikartojantys pirkimai. Jei tęsiu, sutinku su %{cancellationPolicyLink} ir taip pat suteikiu leidimą nurodytas kainas nuskaičiuoti iš mano mokėjimo būdo nurodytu dažnumu ir datomis, kol mano užsakymas bus įvykdytas arba kol aš, jei leidžiama, atšauksiu.",
+      "cancellation_policy": "atsisakymo politika"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "nav_accessibility_label": "Paskyros navigacija",
+        "open_menu_accessibility_label": "Atidaryti paskyros navigaciją",
+        "close_menu_accessibility_label": "Užbaigti paskyros naršymą",
+        "loading_message": "Paskyros navigacijos įkėlimas"
+      },
+      "action_menu_accessibility_label": "Daugiau akcijų",
+      "close_menu_accessibility_label": "Uždaryti pagrindinę navigaciją",
+      "contact_email_subject": "Kontaktinis asmuo internetinėje parduotuvėje {{shopName}}",
+      "delete_confirmation": {
+        "delete": "Pašalinti"
+      },
+      "dismiss_toast": "Uždaryti",
+      "document_title": "{{sectionName}} - {{shopName}} - paskyra",
+      "loading_message": "Įkrovimas",
+      "logout_overlay_label": "Atsijungti...",
+      "nav_label_accessibility_label": "Pagrindinė navigacija",
+      "navigation_accessibility_message": "Jūs navigavote į {{sectionName}}",
+      "open_menu_accessibility_label": "Atidaryti pagrindinę navigaciją",
+      "shop_logo_accessibility_label": "{{shopName}}-logotipas",
+      "settings_link": "Nustatymai",
+      "country_switcher_toast_message": "Šalis perjungta į {{countryName}}",
+      "switch_country": "Perjungti žemę",
+      "switch_location": "Vietos keitimas",
+      "view_details": "Peržiūrėti duomenis",
+      "no_countries_found": "Šalys nerastos",
+      "no_locations_found": "Nerasta vietų",
+      "skip_to_content": "Eiti tiesiai prie turinio",
+      "loading_policy_content_accessibility_label": "Įjungta turinio įkėlimui",
+      "policy_load_error": "Negalima įkelti {{policyName}}",
+      "policy_try_again": "Bandykite dar kartą",
+      "loading_section_accessibility_label": "{{sectionName}} įkeltas"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kraunama paskyros informacija",
+      "loading_finished_accessibility_message": "Paskyros duomenys įkelti",
+      "profile_card": {
+        "cancel_accessibility_label": "Redaguoti profilį atšaukti",
+        "email_help_text": "El. pašto adresas negali būti redaguojamas",
+        "phone_number_help_text": "Telefono numerio negalima redaguoti",
+        "no_name_provided_accessibility_label": "Nėra pridėto pavadinimo",
+        "errors": {
+          "name_too_long": "{{fieldName}} yra per ilgas (maksimaliai 255 simboliai)",
+          "name_cannot_contain_url": "{{fieldName}} negali turėti URL",
+          "email_cant_be_blank": "El. paštas negali būti tuščias"
+        },
+        "editable_email_help_text": "Šis el. pašto adresas naudojamas registracijai ir užsakymų atnaujinimams."
+      },
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Daugiau žmonių įkelia",
+          "loading_accessibility_label": "Įkeliama žmonių"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "El. pašto patvirtinimas",
+        "description": "Įveskite kodą, kuris buvo išsiųstas į {{email}}",
+        "email_resend_button": "Siųsti kodą dar kartą",
+        "email_resend_button_accessibility_label": "Siųsti patvirtinimo kodą dar kartą",
+        "verify_button_accessibility_label": "Vienkartinio slaptažodžio patvirtinimas"
+      },
+      "email_update_success_modal": {
+        "title": "El. pašto patvirtinimas",
+        "description": "El. pašto atnaujinimas sėkmingas. Nukreipti į prisijungimą."
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Formatavimo parinktys",
+      "order_list": {
+        "column_headers": {
+          "total": "Iš viso"
+        }
+      }
     }
   }
 }

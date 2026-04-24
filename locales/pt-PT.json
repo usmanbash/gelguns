@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -537,6 +546,72 @@
       "send_on_label": "Enviar a (opcional)",
       "expanded": "Formulário de destinatário do cartão de oferta expandido",
       "collapsed": "Formulário de destinatário do cartão de oferta fechado"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "pt",
+      "last_word_connector": ", pt"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Finalizar compra",
+        "skip_to_content": "Ir diretamente para o conteúdo",
+        "breadcrumb": "Migalha de pão",
+        "complete_purchase_button_label": "Concluir encomenda",
+        "authenticate_purchase_button_label": "Validar pagamento",
+        "edit_link_label": "Alterar",
+        "cart": "Carrinho de compras",
+        "continue_to_shipping_method": "Continuar a enviar",
+        "continue_to_payment_method": "Ir para pagamento",
+        "continue_to_review": "Verificar encomenda",
+        "back_to_cart": "Voltar ao carrinho de compras",
+        "back_to_contact_information": "Voltar para informações",
+        "back_to_shipping_method": "Voltar para enviar",
+        "choose_shipping_method": "Escolha um método de envio",
+        "contact_us_html": "Contacte-nos para mais informações",
+        "autocomplete_single_item": "1 artigo disponível",
+        "autocomplete_multi_item": "{{number}} artigos disponíveis",
+        "forwarding_indicator": {
+          "new_window": "Abre numa nova janela.",
+          "external": "Abrir site externo.",
+          "external_and_new_window": "Abre website externo numa nova janela."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Finalizar compra"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Ocorreu um erro com a sua encomenda. Por favor, tente pagar novamente.",
+          "line_item_limit_reached": "O número máximo de linhas de pedido foi atingido.",
+          "only_empty_terms_accepted": "Esta política aceita apenas condições vazias.",
+          "session_is_already_finished": "Esta sessão de pagamento já foi concluída.",
+          "merchandise": {
+            "only_value_constraint": "Ao introduzir mercadorias, só são permitidos valores exatos.",
+            "merchandise_variant_not_found": "Variante do produto não encontrada.",
+            "merchandise_not_applicable": "A variante do produto não pode ser comprada.",
+            "bundle_products_not_supported_for_b2b": "Não podes adicionar artigos agrupados a encomendas B2B para este local.",
+            "gift_card_quantity_mismatch": "Quando introduzir códigos de vales-presente, as quantidades na linha da encomenda devem corresponder ao número de códigos de vales-presente.",
+            "gift_card_not_supported": "Este caixa não suporta vales-presente.",
+            "gift_card_not_unique": "Vale-presente com o código {{code}} aparece várias vezes neste checkout. Os códigos são formatados antes da comparação.",
+            "gift_card_used": "O código de vale-presente {{code}} já está atribuído a um vale-presente. Os códigos são gerados antes da comparação.",
+            "gift_card_invalid": "O código do vale-presente {{code}} é inválido.",
+            "gift_card_code_changed": "O código do vale-presente {{proposed_code}} foi alterado para {{formatted_code}} de acordo com as regras de formatação.",
+            "gift_card_with_attributes_not_supported": "Nesta finalização de compra não são aceites vales-presente com características personalizadas.",
+            "gift_card_with_components_not_supported": "Nesta finalização de compra não são aceites vales-presente com componentes.",
+            "selling_plan_not_supported": "Assinaturas não são suportadas.",
+            "selling_plan_not_supported_b2b": "Não são suportadas subscrições para o pagamento B2B.",
+            "price_mismatch": "O preço anteriormente proposto para estes bens era inválido e foi atualizado.",
+            "inventory_not_found": "Nenhum stock encontrado para estes bens.",
+            "duplicated_stable_id": "Esta linha de mercadorias tem o mesmo ID estável que outra linha.",
+            "minimum_quantity_not_met": "Para alguns artigos, não é cumprido o número mínimo permitido",
+            "maximum_quantity_exceeded": "Para alguns artigos, não é atingido o número máximo permitido",
+            "quantity_increment_not_met": "Para alguns artigos, os limites de encomenda não são cumpridos",
+            "quantity_rules_not_met": "Para alguns artigos, os limites de encomenda não são cumpridos",
+            "bundle_requires_components": "Este conjunto de mercadorias não contém componentes.",
+            "title_too_long": "O título das mercadorias é demasiado longo."
+          }
+        }
+      }
     }
   }
 }
