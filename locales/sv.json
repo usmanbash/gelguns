@@ -1698,7 +1698,71 @@
         "unavailable_address_country": "Leverans är inte möjlig till det land du har valt. Ange en annan adress för att fortsätta"
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Snabb kassa"
+        "express_checkout": "Snabb kassa",
+        "or": "AV",
+        "show_more_options": "Visa fler valmöjligheter",
+        "hide_more_options": "Dölj fler valmöjligheter",
+        "or_pay_another_way": "Betala kontant eller på annat sätt",
+        "or_check_out_another_way": "Betala kontant eller på annat sätt",
+        "or_pay_with_credit_card": "Eller betala med kreditkort"
+      },
+      "processing": {
+        "redirecting_page_title": "Omdirigerar…",
+        "redirecting_title": "Omdirigerar…",
+        "redirecting_notice": "Du blir vidarebefordrad.",
+        "continue_to_payment_gateway_notice": "Fortsätt till betalningen för att lägga till dina betaluppgifter.",
+        "continue_to_payment_gateway_button_label": "Gå till betalning",
+        "complete_your_purchase_title_error": "Korrigera dina betalningsuppgifter",
+        "continue_to_payment_gateway_notice_error": "Dina betalningsuppgifter kan inte verifieras.",
+        "continue_to_payment_gateway_button_label_error": "Uppdatera betalningsuppgifter",
+        "page_title": "Beställningen behandlas",
+        "title": "Beställningen behandlas",
+        "your_order_has_been_received_title": "Tack för din beställning",
+        "you_will_receive_confirmation": "Vi tar emot mycket beställningar just nu. Du bör snart få en bekräftelse via e-post eller sms. Hör av dig till oss om du inte har fått den inom en timme.",
+        "wait": {
+          "short": "Din beställning behandlas.",
+          "medium": {
+            "one": "Din beställning behandlas. Beräknad väntetid är %{count} minut.",
+            "other": "Din beställning behandlas. Beräknad väntetid är %{count} minuter."
+          },
+          "long": "Du får ett e-postmeddelande så snart din beställning har behandlats. Det är för närvarande ett stort antal beställningar.",
+          "no_auto_refresh_html": "%{link} omdirigeras du inte automatiskt.",
+          "refresh_this_page": "Ladda om denna sida"
+        },
+        "you_will_not_be_charged": "Inga kostnader har ännu debiterats",
+        "redirecting_to_bank": "Omdirigera till {{bank}}",
+        "remote_shops_payments_processing": "Bearbeta betalningen"
+      },
+      "failed_payment": {
+        "page_title": "Betalningen kan inte behandlas",
+        "title": "Betalningen kan inte behandlas",
+        "payment_not_processed_title": "Din betalning kan inte behandlas.",
+        "payment_not_processed_text": "Inga avgifter har debiterats. Gå tillbaka till din kundvagn för att slutföra ditt köp.",
+        "return_to_cart_button_label": "Tillbaka till kundvagnen"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditkort",
+        "bank_deposit_label": "Bankstämma",
+        "cash_on_delivery_label": "Återbetalning",
+        "debit_card_label": "Betalkort",
+        "deferred_payment_label": "Välj senare en betalningsmetod",
+        "generic_payment_terms": "De {{translatedName}}-betalningsvillkor gäller. Din betalning förfaller den {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} på ett konto med åtkomst till denna plats eller för att lägga till eller använda sparade betalningsmetoder."
+          }
+        },
+        "direct_payment_terms": "De {{translatedName}}-villkoren gäller. Pengarna dras från ditt kort den {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Betalningen ska göras så snart beställningen har behandlats.",
+        "order_due_on_fulfillment_payment": "Pengarna dras från ditt kort så snart beställningen har behandlats.",
+        "draft_order_payment_due_later_no_terms": "Betalningen ska göras så snart beställningen har bekräftats.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Pengarna dras från ditt kort så snart beställningen har bekräftats.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}}-villkoren gäller så snart beställningen har bekräftats.",
+        "draft_order_payment_due_on_fulfillment": "Betalningen ska göras så snart beställningen har bekräftats och behandlats.",
+        "fixed_payment_label": "Betalningen ska göras senast {{dueDate}}.",
+        "fixed_direct_payment_terms": "Denna debiteras på ditt kort den {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} måste betalas idag. För saldot gäller {{translatedName}}-villkor och det måste vara återbetalat på {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} måste betalas idag. Saldo är förfallet så snart din beställning har hanterats."
       }
     }
   }
