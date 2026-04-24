@@ -3204,7 +3204,73 @@
       "order_details_skeleton_accessibility_label": "Log in to view all order details.",
       "logged_in_account_no_permission_to_order": "You are logged in as {{email}}. This account is not authorized to manage this order.",
       "log_in_to_a_different_account": "Log in to another account",
-      "duties": "Customs duties"
+      "duties": "Customs duties",
+      "ok_duties_tooltip": "This order is being shipped from another country, so customs duties have been added to the total amount of the order.",
+      "error_duties_tooltip": "This order is shipped from another country, so customs duties and taxes may be charged upon delivery.",
+      "zero_duties_tooltip": "This order is shipped from another country. No customs duties are charged on orders of this value.",
+      "fees": {
+        "restocking_fee": "Restocking costs",
+        "return_shipping_fee": "Return shipment"
+      },
+      "taxes_included": "Including {{amount}} VAT",
+      "duties_and_taxes_included": "Total includes customs duties and taxes. No additional payments upon delivery.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, quantity: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Items in bundle {{productTitle}}"
+      },
+      "cash_rounding": "Rounding cash payments",
+      "login_card": {
+        "log_in": "Log in",
+        "resend_link_and_login": "You can view your order details by logging in or sending a new link to the email address or telephone number used at checkout.",
+        "resend_link_only": "You can view your order details by sending a new link to the email address or telephone number you used at checkout.",
+        "title": "View order details"
+      },
+      "due_on_date": "Due on {{date}}",
+      "due_on_fulfillment": "To be paid upon fulfillment",
+      "due_on_receipt": "Payable upon receipt",
+      "payment_confirmation": {
+        "payment_received": "Thank you! Your payment of {{amount}} has been received.",
+        "full_payment_received": "Thank you! Your payment of {{amount}} has been received and this order is now fully paid.",
+        "dismiss_label": "Close payment confirmation",
+        "payment_authorized": "Thank you! The balance will be updated once the payment has been received."
+      },
+      "marketing_resend_email": "Resend e-mail",
+      "total_savings": "Total saving",
+      "price_after_discount_accessibility_label": "Discount price"
+    },
+    "addresses": {
+      "address_deleted_notification": "Address removed",
+      "cancel_adding_address_accessibility_label": "Add address cancel",
+      "cancel_deletion_button_accessibility_label": "remove {{address}} cancel",
+      "default_address": {
+        "title": "Standard address",
+        "title_accessibility_label": "Standard address: {{address}}"
+      },
+      "delete_button": "Remove",
+      "delete_button_accessibility_label": "Remove {{address}}",
+      "delete_confirmation_button": "Remove address",
+      "delete_confirmation_button_accessibility_label": "Remove {{address}}",
+      "delete_confirmation_message": "Remove address? This will not affect existing orders.",
+      "loading_accessibility_message": "Load address",
+      "loading_billing_accessibility_message": "Load invoice addresses",
+      "loading_finished_accessibility_message": "New page with addresses has been loaded",
+      "loading_shipping_accessibility_message": "Load delivery address",
+      "delete_confirmation_title": "Remove address?",
+      "delete_confirmation_description": "This does not affect existing orders.",
+      "edit_modal_title": {
+        "billing": "Edit invoice address",
+        "shipping": "Edit delivery address"
+      },
+      "billing_address_dropdown_placeholder": "Invoice address"
+    },
+    "address_form": {
+      "cancel_accessibility_label": "Cancel editing the address {{address}}",
+      "default_address": "This is my usual address",
+      "default_address_creation_success_notification": "Standard address added",
+      "default_address_update_success_notification": "Standard address updated",
+      "loading_add_form_accessibility_message": "Load new address form",
+      "loading_finished_accessibility_message": "Form address is loaded",
+      "attention": "Attn."
     }
   }
 }
