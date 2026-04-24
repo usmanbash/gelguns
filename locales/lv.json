@@ -1730,7 +1730,65 @@
         "contact_us_html": "Nepieciešama palīdzība? %{contact_us}",
         "updated_time": "Atjaunināts %{time_ago} atpakaļ",
         "failure": "Nebēdājiet",
-        "failed_title": "Jūsu pasūtījumu nebija iespējams piegādāt."
+        "failed_title": "Jūsu pasūtījumu nebija iespējams piegādāt.",
+        "failed_contact_merchant": "Sazinieties ar %{company}, lai vienotos par piegādi.",
+        "failed_contact_merchant_no_company": "Sazinieties ar mums, lai vienotos par piegādi.",
+        "non_shippable_title": "Pasūtījums ir pabeigts",
+        "login_title": "Pierakstieties, lai skatītu visus pasūtījuma datus",
+        "login_description": "Tu vari atrast savu pasūtījuma numuru rēķinā, ko saņēmi pa e-pastu.",
+        "login_description_phone": "Jūs atradīsiet savu pasūtījuma numuru rēķinā, ko esat saņēmis īsziņā.",
+        "login_not_customer_html": "Nav %{name}? Tu vari %{link}",
+        "login_reorder_link_text": {
+          "one": "pirkt šo preci arī",
+          "other": "pirkt arī šos produktus"
+        },
+        "customer_information_hidden_fields_message": "Pierakstieties, lai skatītu visus klienta datus.",
+        "cancelled_title": "Jūsu pasūtījums ir atcelts",
+        "cancelled_description": "Jūsu pasūtījums ir atcelts %{date}. Sazinieties ar mums, ja jums ir jautājumi.",
+        "order_number_label": "Pasūtījuma numurs",
+        "customer_validation_error": "Ievadiet derīgu e-pasta adresi vai pasūtījuma numuru.",
+        "customer_validation_error_phone": "Ievadiet derīgu tālruņa vai pasūtījuma numuru.",
+        "login": "Pieslēgties",
+        "unfulfilled_items_title": "Sūtīšana tiek sagatavota",
+        "unfulfilled_items_description": "Pašlaik sagatavojam šos rakstus nosūtīšanai.",
+        "marker": {
+          "current": "Pašreizējā nosūtīšanas vieta",
+          "shipping": "Piegādes adrese"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Preces šajā sūtījumā",
+          "unfulfilled_table_title": "Preces tiek sagatavotas nosūtīšanai",
+          "product_image_label": "Produkta attēls",
+          "description_label": "Apraksts",
+          "quantity_label": "Skaits"
+        },
+        "order_updates_description_missing": "Jūs nesaņemat sūtījuma atjauninājumus.",
+        "order_updates_subscribe_to_email_notifications": "Saņemiet sūtījuma atjauninājumus pa e-pastu",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Saņemiet sūtījuma atjauninājumus pa e-pastu vai īsziņu",
+        "order_updates_subscribe_to_phone_notifications": "Saņem sūtījuma atjauninājumus pa īsziņu",
+        "order_updates_submit_subscription": "Iesniegt",
+        "track_shipment": "Volgas piegāde",
+        "order_status_confirmed_order_with_email_pick_up": "Tu saņemsi e-pastu, kad varēsi saņemt savu pasūtījumu.",
+        "order_status_confirmed_order_with_phone_pick_up": "Tu saņemsi īsziņu, kad varēsi saņemt savu pasūtījumu.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Tu saņemsi e-pastu un īsziņu, kad varēsi saņemt savu pasūtījumu.",
+        "pick_up_in_store_marker": {
+          "current": "Pašreizējā nosūtīšanas vieta",
+          "shipping": "Izdalīšanas vieta"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Tu saņemsi e-pastu, kad varēsi saņemt savu pasūtījumu.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Tu saņemsi īsziņu, kad varēsi saņemt savu pasūtījumu.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Tu saņemsi e-pastu, kad varēsi saņemt savu pasūtījumu.",
+        "ready_for_pickup_title": "Pasūtījums ir gatavs saņemšanai",
+        "ready_for_pickup_description": "Jūsu pasūtījumu var saņemt. Lūdzu, ņemiet līdzi pasūtījuma apstiprinājumu, kad nākat pēc pasūtījuma.",
+        "picked_up_title": "Pasūtījums ir saņemts",
+        "picked_up_description_html": "Jūsu pasūtījums tika saņemts %{location_name} %{date}.",
+        "other_options": "Citas iespējas",
+        "shop_phone_description": "Tu saņemsi īsziņu ar saiti uz Veikala lietotni, lai sekotu līdzi savam pasūtījumam.",
+        "ready_for_delivery_title": "Pasūtījums ir gatavs piegādei",
+        "ready_for_delivery_description": "Mēs esam sagatavojuši pasūtījumu.",
+        "order_status_confirmed_order_local": "Mēs sagatavojam tavu pasūtījumu piegādei.",
+        "delivery_information_label": "Piegādes informācija:",
+        "gift_card_sent_confirmation": "Dāvanu kuponi nosūtīti"
       }
     }
   },
