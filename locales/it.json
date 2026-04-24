@@ -3990,7 +3990,69 @@
       },
       "link_expired": {
         "message": "Questo link per aggiornare il tuo metodo di pagamento è scaduto.",
-        "return_home_button": "Torna alla pagina principale"
+        "return_home_button": "Torna alla pagina principale",
+        "update_message": "Questo link per aggiornare il tuo metodo di pagamento è scaduto.",
+        "add_message": "Questo collegamento per aggiungere il tuo metodo di pagamento è scaduto."
+      },
+      "update_success": {
+        "done_button": "Continua a fare acquisti"
+      },
+      "or": "OPPURE",
+      "add_success": {
+        "done_button": "Continua a fare acquisti"
+      }
+    },
+    "payment_method_brands": {
+      "visa": "Visto",
+      "shoppay": "Pagamento rapido",
+      "discover": "Scopri",
+      "forbrugsforeningen": "Associazione dei Consumatori",
+      "hipercard": "Carta Iper",
+      "storecredit": "Credito negozio",
+      "bogus": "Falso"
+    },
+    "enable_javascript": "Attiva JavaScript nelle impostazioni del tuo browser oppure accedi con un altro browser per visualizzare il tuo account.",
+    "ui_components": {
+      "closeNotification": "Chiudere",
+      "expandNotification": "Mostra di più",
+      "closeModal": "Chiudere",
+      "processing": "Elaborazione...",
+      "increase": "Aumento di {{type}}",
+      "decrease": "Prelievo di {{type}}",
+      "minimumReached": "Minimo van raggiunto {{value}}",
+      "maximumReached": "Massimo van {{value}} raggiunto",
+      "january": "gennaio",
+      "february": "febbraio",
+      "march": "marzo",
+      "april": "aprile",
+      "may": "maggio",
+      "june": "giugno",
+      "july": "luglio",
+      "august": "agosto",
+      "september": "settembre",
+      "october": "ottobre",
+      "november": "novembre",
+      "december": "dicembre",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "fare.",
+      "fridayAbbreviation": "realtà virtuale",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "showNextMonth": "Visualizza il mese prossimo, {{month}} {{year}}",
+      "showPreviousMonth": "Visualizza il mese precedente, {{month}} {{year}}",
+      "rangeStart": "Inizio copertura",
+      "inRange": "A portata di mano",
+      "rangeEnd": "Fine del percorso",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} articoli disponibili"
+      },
+      "removeItem": "Rimuovere {{label}}",
+      "removeTag": "Rimuovi etichetta",
+      "mapClusterTitle": {
+        "one": "Cluster di {{number}} punti di riferimento",
+        "other": "Cluster di {{number}} punti di riferimento"
       }
     }
   }
