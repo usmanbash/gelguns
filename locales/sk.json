@@ -3441,7 +3441,77 @@
         },
         "sort_currently_sorted_by_accessibility_label": "Momentálne zoradené podľa: {{option}}",
         "carousel": {
-          "one_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}"
+          "one_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}, {{lineItemName6}} počet {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}, {{lineItemName6}} počet {{lineItemQuantity6}} a ďalšie",
+          "view_order_details": "Zobraziť údaje o objednávke",
+          "previous": "Predchádzajúci",
+          "next": "Ďalšie"
+        },
+        "empty_state_title_for_pending_orders": "Žiadne objednávky v spracovaní",
+        "more_than_four_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus ešte {{numberOfAdditionalProducts}} produktov",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktov",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Zobraziť objednávku pre údaje o produkte",
+            "estimated_delivery": "Očakáva sa {{date}}",
+            "last_updated": "Naposledy aktualizované {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Odhadované doručenie {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, plus ešte {{numberOfAdditionalProducts}} produktov",
+        "filter_title": "Filterovať",
+        "filter": {
+          "clear_all": "Všetko vedieť",
+          "date": {
+            "start_date": "Dátum začiatku",
+            "custom": "Prispôsobené"
+          }
+        },
+        "no_order_banner": "Vytvorte objednávku, aby ste otestovali rozšírenie na stránke Stav objednávky.",
+        "location_filter_picker": {
+          "all_location": "Všetky lokality",
+          "current_location": "Aktuálna poloha",
+          "switch_view": "Prepnúť zobrazenie"
+        }
+      },
+      "order_status": {
+        "come_back": "Vráťte sa na túto stránku pre aktualizácie stavu vašej zásielky.",
+        "company_tracking_number": "{{company}}-sledovacie číslo:",
+        "confirmed_title": "Vaša objednávka bola potvrdená",
+        "delivered_label": "Znepokojený",
+        "estimated_delivery": "Očakáva sa {{date}}",
+        "in_review_label": "Na hodnotenie",
+        "in_review_title": "Vaša objednávka je v procese hodnotenia",
+        "no_tracking_number": "Pre túto zásielku neexistuje sledovacie číslo.",
+        "out_for_delivery_label": "Pripravené na doručenie",
+        "submitted_label": "Podané",
+        "track_shipment": "Sledovanie zásielky",
+        "attempted_delivery_label": "Pokús o doručenie",
+        "preparing_for_shipping_label": "Príprava na odoslanie",
+        "ready_for_pickup_description": "Tieto položky sú pripravené na vyzdvihnutie. Pri vyzdvihnutí objednávky si vezmite so sebou potvrdenie objednávky.",
+        "last_updated": "Naposledy aktualizované {{date}}",
+        "multiple_shipments_label": "Viacero zásielok",
+        "view_order_for_details": "Zobraziť objednávku pre údaje o produkte",
+        "confirmed_description_digital": "Dostanete e-mail, keď bude vaša objednávka pripravená.",
+        "delivered_description_gift_card": {
+          "other": "Darčekové poukážky boli odoslané e-mailom."
+        },
+        "gift_card_label": {
+          "one": "Darčeková poukážka",
+          "other": "Darčekové poukážky"
+        },
+        "ready_for_pickup_location": "Vaša objednávka je pripravená na vyzdvihnutie na mieste",
+        "confirmed_description_pickup": "Dostanete e-mail, keď si budete môcť vyzdvihnúť svoju objednávku.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Darčeková poukážka bude odoslaná v samostatnom e-maile.",
+          "other": "Každý darčekový poukaz bude odoslaný v samostatnom e-maile."
         }
       }
     }
