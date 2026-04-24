@@ -2786,7 +2786,95 @@
         "add_address": "Използвайте друг адрес",
         "delete": "Премахване",
         "address_more": "Още оферти за този адрес",
-        "address_delete": "Премахване на адрес"
+        "address_delete": "Премахване на адрес",
+        "address_confirm": "Сигурни ли сте, че искате да изтриете този адрес от профила си?",
+        "address_form": {
+          "save": "Запази",
+          "cancel": "Отказване"
+        },
+        "billing_address_rollup_accessibility_label": "Опции за таксуване"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Подаръчният ваучер вече е приложен към вашата поръчка",
+          "insufficient_funds": "Няма повече пари на този подаръчен ваучер",
+          "not_available": "Този подаръчен ваучер вече не е наличен",
+          "invalid": "Въведете валиден подаръчен ваучер",
+          "currency_mismatch": "Приемат се само ваучери за подаръци в %{shop_currency}",
+          "generic": "Подаръчният ваучер не може да бъде добавен към касата",
+          "throttle_limit_exceeded": "Достигнахте максималния брой опити. Моля, опитайте отново по-късно.",
+          "no_longer_available": "Този ваучер за подарък вече не може да се използва при това плащане"
+        }
+      },
+      "vaulted": {
+        "change_button": "Промени"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Възникна проблем при зареждането на Shop Pay",
+          "try_again_later": "Проверете връзката си или затворете този прозорец и опитайте отново след няколко момента.",
+          "checkout_has_expired": "Вашата сесия за плащане е изтекла. Затворете този прозорец и опитайте отново да завършите поръчката в {{shopName}}."
+        },
+        "return_to_store": "Обратно към {{shopName}}",
+        "return_to_store_simple": "Върни се в магазина",
+        "title": "Плати с Shop Pay"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Опции за местоположение на фирмата"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Стойността на ваучера за подарък трябва да бъде по-голяма от 0.",
+            "subtotal_limit_reached": "Достигнато е максималното количество за поръчкови позиции.",
+            "gift_card_price_must_not_exceed_limit": "Стойността на подаръчната карта не може да надвишава %{gift_card_limit}.",
+            "signature_mismatch": "Грешен подпис на стоките за ред %{stable_id}."
+          }
+        }
+      },
+      "payment_challenge_modal": {
+        "instructions": "Завършете покупката си с вашия {{paymentMethod}} код",
+        "timer_message": "Остават ти още {{timeLeft}} за плащане",
+        "copy_text": "Копиране на {{paymentMethod}} код",
+        "header": "Платете с {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Завършете покупката си с вашия {{paymentMethod}} код"
+        },
+        "external": {
+          "instructions": "Потвърдете плащането в приложението си, за да завършите тази покупка"
+        },
+        "close": "Приключи предизвикателството"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Възникна проблем при обработката на вашата поръчка. Моля, опитайте отново след няколко минути."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Инструкцията за стоката %{position} %{name} съдържа празен stable-ID.",
+        "invalid_stable_id_target": "Инструкцията за стоката %{position} %{name} се отнася до stable-ID %{stable_id}, но този stable-ID не се намира в редовете за стоки.",
+        "duplicate_variant_id": "Инструкцията за стоката %{position} %{name} съдържа двойно ID на варианта %{variant_id}.",
+        "invalid_variant_id_target": "Инструкцията за стоката %{name} се отнася до вариант с ID %{variant_id}, но този вариант не се намира в редовете със стоки.",
+        "invalid_price_override_target": "Инструкцията за презаписване на цената на стоките за поръчков ред %{stable_id} е невалидна, тъй като е компонент на пакет.",
+        "discount_not_supported": "Инструкцията за търговците за прилагане на отстъпка за стоки не поддържа този вид отстъпка."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Този продукт не е наличен за доставка до %{location_name}.",
+          "some_products_other": "Тези продукти не са налични за доставка до %{location_name}.",
+          "all_products_one": "Продуктът в твоята количка не е наличен за доставка до %{location_name}.",
+          "all_products_other": "Продуктите в твоята количка не са налични за доставка до %{location_name}."
+        },
+        "missing_country_fallback": "твоята страна",
+        "indeterminate_location_fallback": "твоето местоположение",
+        "cart_updated": "Вашата количка е актуализирана.",
+        "empty_cart_action": "изпразнете количката и се върнете в магазина",
+        "remove_items_action": {
+          "one": "премахнете артикула, който не е наличен",
+          "other": "премахнете недостъпните артикули"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Вече нямате право да правите B2B поръчки. %{logout_url}, за да направите лична поръчка вместо това.",
+        "lost_permissions_subtitle": "Вече нямате право да правите B2B поръчки. Излезте от профила си, за да направите лична поръчка."
       }
     }
   }
