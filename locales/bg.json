@@ -3169,8 +3169,68 @@
       },
       "order": {
         "financial_status": {
-          "authorized": "Проверено"
-        }
+          "authorized": "Проверено",
+          "pending": "В процес на обработка",
+          "paid": "Платено",
+          "unpaid": "Неплатен",
+          "voided": "Изтекъл срок",
+          "partially_paid": "Частично платено",
+          "partially_refunded": "Частично възстановено",
+          "refunded": "Върнато плащане"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Обработено",
+          "complete": "Комплит",
+          "partial": "Частично",
+          "unfulfilled": "Отворен",
+          "restocked": "Запас от билки"
+        },
+        "transaction_status": {
+          "pending": "В процес на обработка"
+        },
+        "cancel_reason": {
+          "declined": "Плащането е отказано",
+          "fraud": "Мошеническа поръчка",
+          "customer": "Клиентът промени/отмени поръчката",
+          "other": "Андерс",
+          "staff": "Грешка при служителите"
+        },
+        "cash_on_delivery": "Наложен платеж"
+      },
+      "cart": {
+        "only_n_items_available": "Можете да добавите само %{count} %{name} към вашата количка.",
+        "too_many_items_in_cart": "Не можеш да добавиш повече %{name} към количката си.",
+        "all_items_in_cart": "Всички %{count} %{name} са в твоята количка.",
+        "empty_update": "не може да се обнови количката за пазаруване",
+        "missing_parameters": "недействителен идентификатор или номер на ред",
+        "generic_error": "Грешка в количката",
+        "too_many_line_items_error": "Вашата количка не може да съдържа повече от %{max} артикула.",
+        "stock_problems_html": "Един или повече артикули вече не са налични. Подготвихме <a href='%{link}'>актуализирана количка</a>.",
+        "changed": "Количката е променена",
+        "product_sold_out": "Продуктът '%{name}' вече е изчерпан.",
+        "variant_not_found": "Не може да се намери такъв вариант",
+        "variant_requires_selling_plan": "Вариантът може да бъде закупен само с абонамент за продажба.",
+        "shipping_address_not_required": "За тази количка не е необходима доставка",
+        "shipping_address_invalid": "Възникна проблем при изчисляването на разходите за доставка. Продължете към плащане, за да изберете разходите за доставка преди да завършите поръчката си.",
+        "selling_plan_not_applicable": "Не може да се приложи абонамент за продажба към варианта",
+        "selling_plan_not_available_for_company_locations": "За B2B поръчки са налични само еднократни покупки.",
+        "digital_product_not_available_for_company_locations": "Не можете да добавите този артикул към B2B поръчка",
+        "less_than_minimum": "Този артикул има минимум %{min}.",
+        "more_than_maximum": "Този артикул има максимум %{max}.",
+        "not_respect_step": "Можете да добавяте този артикул само на стъпки от %{step}.",
+        "bundle_requires_components": "Не може да се добави пакетният продукт '%{name}' в количката.",
+        "gift_card_with_components_not_supported": "Не може да се добави пакетният продукт '%{name}' в количката.",
+        "view_lines_limit_reached": "Правилата трябва да са по-малки или равни на %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Възникна грешка във вашата количка."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Не може да се добави пакетният продукт '%{name}' в количката.",
+        "cart_too_large": "Количката е твърде голяма.",
+        "gift_card_recipient_validation_error": "Посоченият получател на ваучера е невалиден",
+        "invalid_input": "Параметър %{parameter} е невалиден.",
+        "buyer_cannot_purchase_for_company_locations": "Не можете да направите покупка за тази локация",
+        "only_one_added_to_cart": "В количката ти е добавен само 1 артикул поради наличност.",
+        "only_n_added_to_cart": "В количката ти са добавени само %{quantity} артикула поради наличност."
       }
     }
   }
