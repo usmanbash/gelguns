@@ -3872,6 +3872,84 @@
         "field_errors": {
           "credit_card_name_invalid": "Ange ditt namn som det står på ditt kort",
           "credit_card_verification_value_blank": "Ange CVV/CVC- eller säkerhetskoden på ditt kort"
+        },
+        "unavailable": {
+          "text": "Betalning med kreditkort och betalkort är för närvarande inte tillgänglig.",
+          "link_text": "Uppdatera denna sida"
+        }
+      },
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Betalningsmetod tillagd",
+        "replace_mode_warning": "Om du tar bort denna betalningsmetod påverkas prenumerationer eller förhandsbeställningar. Byt ut den mot en annan betalningsmetod för att fortsätta ta emot kommande beställningar.",
+        "button_title": "Lägga till",
+        "subscription_contracts": {
+          "title": "Betalningsmetod använda för återkommande beställningar",
+          "product_details": "Produktuppgifter",
+          "load_more": "Ladda mer",
+          "more_items": {
+            "one": "Inte tillräckligt med {{count}} produkter",
+            "other": "Minst {{count}} produkter"
+          }
+        },
+        "contracts_update_failed": "Vissa abonnemangsavtal kunde inte uppdateras",
+        "subscription_contracts_updated": "{{succeeded}} av {{total}} abonnemang uppdaterade",
+        "invalid_wallet_type_error": "Ogiltig typ av digital plånbok",
+        "updating_contracts": {
+          "one": "{{count}} abonnemangsavtal uppdateras...",
+          "other": "{{count}} abonnemangsavtal uppdateras..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} abonnemangsavtal har uppdaterats",
+          "other": "{{count}} abonnemangsavtal har uppdaterats"
+        },
+        "missing_customer_error": "Något gick fel. Försök igen eller kontakta supporten."
+      },
+      "expires_soon": "Detta kort går snart ut",
+      "expired": "Detta kort har gått ut",
+      "card_update_consent": "Denna betalningsmetod sparas för framtida köp.",
+      "credit_or_debit_card_title": "Kreditkort eller betalkort",
+      "google_pay": {
+        "errors": {
+          "generic": "Ett problem har uppstått med Google Pay. Försök igen eller använd en annan betalningsmetod.",
+          "missing_billing_address": "För Google Pay behöver du en faktureringsadress. Lägg till en i ditt konto."
+        },
+        "loading": "Ladda Google Pay",
+        "loading_accessibility_message": "Ladda Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay-laddning",
+        "errors": {
+          "generic": "Ett problem har uppstått med Apple Pay. Försök igen eller använd en annan betalningsmetod.",
+          "not_available": "Apple Pay är inte tillgängligt på den här enheten.",
+          "missing_billing_address": "För Apple Pay behöver du en faktureringsadress. Lägg till en i ditt konto."
+        }
+      },
+      "add_payment_method_banner": "Lägg till betalningsmetod för snabbare kassa och tjänster för förhandsauktorisering",
+      "expiration_warning_button_accessibility_label": "Visa varning för {{paymentMethodName}} som slutar på {{lastDigits}}",
+      "no_payment_methods_banner": "Inga betalningsmetoder tillagda",
+      "store_credit": {
+        "label": "Butikskredit",
+        "accesibility_label": "Butikskredit - {{formattedBalance}}",
+        "expirable_amounts_button": "Visa förfallna fordringar",
+        "details_modal": {
+          "title": "Butikskredit som kommer att förfalla",
+          "expiration_date_label": "Förfallodatum",
+          "amount_label": "Bedragare",
+          "expirable_balance_info": "En del av saldot förfaller på ett framtida datum.",
+          "expirable_amount_label": "Totalt belopp som kommer att förfalla",
+          "expirable_amounts_info": "Rabatter som löper ut tidigare tillämpas först vid utcheckningen.",
+          "expired_amounts_button": "Visa förfallna belopp",
+          "pagination": {
+            "load_more_label": "Ladda mer",
+            "load_more_accessibility_label": "Ladda fler belopp som kommer att förfalla"
+          },
+          "events": {
+            "order_payment": "Betalning av beställning",
+            "order_refund": "Återbetalning av beställning",
+            "payment_failure": "Misslyckad betalning",
+            "order_cancellation": "Avbeställning av beställning",
+            "tax_finalization": "Avrundning av skatt"
+          }
         }
       }
     }
