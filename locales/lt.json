@@ -1148,7 +1148,77 @@
           "other": "Nėra parduotuvių, kuriose būtų tavo prekės"
         },
         "deposit_label": "Avansas",
-        "total_due_today_label": "Iš viso šiandien mokėtina suma"
+        "total_due_today_label": "Iš viso šiandien mokėtina suma",
+        "total_due_later_label": "Iš viso vėliau sumokėtina suma",
+        "discount_code_allocations_mismatch": "Jūsų nuolaidos kodas <strong style=\"text-transform:uppercase\">%{code}</strong> buvo pakeistas. Patikrinkite savo prekių krepšelį ir bandykite dar kartą.",
+        "deferred_total_due_date_label_next": "Skola iki %{date}",
+        "total_due_label": "Iš viso skolinga",
+        "total_price_label": "Bendra kaina",
+        "unconfirmed_label": "Neužtikrinta",
+        "from_shop_heading": "Parduotuvėje %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Nuolaidos galioja tik %{shop_name} prekėms",
+        "gift_cards_apply_to_local_shop": "Dovanų kuponai galioja tik %{shop_name} prekėms",
+        "estimated_taxes_label_short": "Įvertinta",
+        "discount_code_removed": "Nuolaidos kodas %{code} buvo pašalintas",
+        "discount_code_replaced": "Nuolaidos kodas %{old_code} buvo pašalintas ir %{code} pritaikytas",
+        "discount_code_replaced_multiple": "Keletas nuolaidų kodų buvo pašalinti, o %{code} pritaikytas",
+        "from_multiple_stores_heading": "Iš kelių parduotuvių",
+        "pay_merchant_label": "%{merchant_name} mokėti",
+        "discount_applies_to_subscription_items_only": "Nuolaida taikoma tik prenumeratos prekėms",
+        "estimated_taxes_finalization_tooltip_content_short": "Mokesčių suapvalinimas po apmokėjimo",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nėra parduotuvių %{country} su tavo preke",
+          "other": "Nėra parduotuvių %{country} su tavo prekėmis"
+        },
+        "tax_line": {
+          "gst": "PVM"
+        },
+        "automatic_discount_tooltip": "Automatiškai taikomos nuolaidos negali būti pašalintos"
+      },
+      "shipping": {
+        "shipping_method_title": "Pristatymo būdas",
+        "waiting_on_rate_notice": "Gaunami galimi siuntimo tarifai...",
+        "waiting_on_pickup_location_notice": "Gaunami galimi atsiėmimo taškai...",
+        "no_rates_for_cart_or_destination_notice": "Jūsų krepšeliui ar adresui nėra prieinamų siuntimo būdų",
+        "no_pickup_location_notice": "Bent vieno iš jūsų produktų negalima atsiimti",
+        "no_rates_for_country_notice": "Nerasta pristatymo kainų šiam adresui.",
+        "no_rates_contact_notice": "Susisiekite su mumis dėl daugiau informacijos",
+        "cheapest_rate_label": "Pigiausias",
+        "estimated_delivery_date": {
+          "one": "%{count} darbo diena",
+          "other": "%{count} darbo dienos"
+        },
+        "estimated_delivery_date_range": "%{minimum} iki %{maximum} darbo dienų",
+        "shipping_line_phone_label": "Mobiliojo telefono numeris (privalomas)",
+        "shipping_line_phone": "Jūsų kurjeris gali naudoti šį numerį, kad susisiektų su jumis.",
+        "other_method": {
+          "zero": "Nėra kitų prieinamų metodų",
+          "one": "%{count} kita prieinama metodika nuo",
+          "other": "%{count} kitų metodų prieinama nuo"
+        },
+        "shipping_rate_discounted_amount": "Buvo: %{original_amount}. Dabar: %{amount}",
+        "shipping_line_delivery_phone": "Gali būti, kad su jumis susisieks dėl atnaujinimų apie jūsų pristatymą.",
+        "optional_shipping_line_delivery_instructions_label": "Pristatymo instrukcijos (pasirinktinai)",
+        "shipping_line_delivery_instructions": "Įveskite reikiamą informaciją, pvz., durų kodus ir pristatymo instrukcijas.",
+        "subscription_shipping": "Prenumerata siuntimui",
+        "shipping_method_one_time_purchase_group_title": "Vienkartinis pirkimas",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pristatymas už %{count}",
+            "other": "už %{count} pristatymų"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "kiekvieną dieną"
+            },
+            "year": {
+              "one": "kiekvienais metais",
+              "other": "kiekvienais %{count} metais"
+            }
+          },
+          "initial_order_discounted": "Pirmosios siuntimo išlaidos %{discounted_shipping_cost}, vėliau %{frequency_description}",
+          "prepaid_initial_order_discounted": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency}"
+        }
       }
     }
   }
