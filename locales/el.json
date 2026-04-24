@@ -3408,7 +3408,87 @@
             "estimated_delivery": "Εκτιμώμενη παράδοση στις {{date}}"
           }
         },
-        "more_than_three_products_accessibility_label": "Η παραγγελία περιλαμβάνει {{lineItemName1}}, {{lineItemName2}}, καθώς και άλλα {{numberOfAdditionalProducts}} προϊόντα"
+        "more_than_three_products_accessibility_label": "Η παραγγελία περιλαμβάνει {{lineItemName1}}, {{lineItemName2}}, καθώς και άλλα {{numberOfAdditionalProducts}} προϊόντα",
+        "filter_title": "Φίλτρο",
+        "filter": {
+          "clear_all": "Τα πάντα γνωστά",
+          "date": {
+            "end_date": "Ημερομηνία λήξης",
+            "custom": "Προσαρμοσμένο"
+          }
+        },
+        "no_order_banner": "Κάντε μια παραγγελία για να δοκιμάσετε την επέκταση στη σελίδα Κατάσταση Παραγγελίας."
+      },
+      "order_status": {
+        "canceled_label": "Ακυρώθηκε",
+        "come_back": "Επιστρέψτε σε αυτή τη σελίδα για ενημερώσεις κατάστασης σχετικά με την αποστολή σας.",
+        "confirmed_title": "Η παραγγελία σας έχει επιβεβαιωθεί",
+        "delivered_label": "Ανησυχημένος",
+        "estimated_delivery": "Αναμένεται στις {{date}}",
+        "in_review_label": "Για αξιολόγηση",
+        "in_review_title": "Η παραγγελία σας αξιολογείται",
+        "out_for_delivery_label": "Έτοιμο για παράδοση",
+        "resume_tracking": "Συνέχεια Volgen",
+        "request_return": "Αίτηση επιστροφής",
+        "preparing_for_shipping_label": "Η αποστολή ετοιμάζεται",
+        "ready_for_pickup_label": "Έτοιμο για παραλαβή",
+        "ready_for_pickup_description": "Αυτά τα είδη είναι έτοιμα για παραλαβή. Φέρτε μαζί την επιβεβαίωση παραγγελίας όταν παραλαμβάνετε την παραγγελία.",
+        "picked_up_label": "Παραλαβή",
+        "submitted_description": "Ελέγξτε την παραγγελία και τα στοιχεία πληρωμής.",
+        "last_updated": "Τελευταία ενημέρωση στις {{date}}",
+        "view_order_for_details": "Προβολή παραγγελίας για λεπτομέρειες προϊόντος",
+        "confirmed_description_digital": "Θα λάβεις ένα email όταν η παραγγελία σου είναι έτοιμη.",
+        "delivered_description_gift_card": {
+          "one": "Το Cadeaubon έχει σταλεί μέσω e-mail.",
+          "other": "Τα δωροκουπόνια έχουν σταλεί μέσω email."
+        },
+        "gift_card_label": {
+          "other": "Δωροεπιταγές"
+        },
+        "ready_for_pickup_location": "Η παραγγελία σας είναι έτοιμη για παραλαβή στο κατάστημα",
+        "confirmed_description_pickup": "Θα λάβεις ένα email όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Η δωροκάρτα αποστέλλεται σε ξεχωριστό email.",
+          "other": "Κάθε δωροκάρτα αποστέλλεται σε ξεχωριστό email."
+        },
+        "confirmed_description_gift_card_text": "Θα λάβετε ένα SMS όταν η παραγγελία είναι έτοιμη.",
+        "delivered_description_gift_card_text": {
+          "one": "Το δωροκουπόνι έχει σταλεί μέσω SMS.",
+          "other": "Οι δωροκάρτες έχουν σταλεί μέσω SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Το δωροκουπόνι αποστέλλεται με ξεχωριστό μήνυμα SMS.",
+          "other": "Κάθε δωροκάρτα αποστέλλεται με ξεχωριστό μήνυμα SMS."
+        },
+        "gift_resend_success": {
+          "other": "Επαναποστολή δωροεπιταγών"
+        },
+        "gift_resend_failure": {
+          "one": "Υπήρξε ένα πρόβλημα κατά την επανεκπομπή του δωροεπιταγής σας. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
+          "other": "Υπήρξε ένα πρόβλημα κατά την επανεκπομπή των δωροεπιταγών σου. Δοκίμασε ξανά ή επικοινώνησε μαζί μας."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(ανοίγει σε νέο παράθυρο)"
+          }
+        },
+        "attempted_to_deliver_label": "Προσπάθεια παράδοσης",
+        "there_was_a_problem_label": "Παρουσιάστηκε ένα πρόβλημα",
+        "buy_with_prime_logo_accessibility_label": "Amazon Αγορά με Prime-λογότυπο",
+        "delivered": "Παραδοτέο στις {{date}}",
+        "multiple_statuses_label": "Πολλαπλές καταστάσεις παραγγελίας",
+        "status_timestamp": "Ενημερώθηκε στις {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Παράδοση υποστηρίζεται από",
+            "not_delivered_by_label": "Δεν ανησυχείτε μέχρι τις {{date}}",
+            "modal_accessibility_button_label": "Υπόσχεση παράδοσης δεδομένων"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Αξιοποίησε το Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} για να διεκδικήσετε το Shop Cash"
+          }
+        }
       }
     }
   }
