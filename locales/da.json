@@ -2903,6 +2903,72 @@
       "address_management": {
         "saved_with_store": "Gemt hos denne butik"
       }
+    },
+    "links": {
+      "learn_more": "Mere information"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password_confirmation": "adgangskodebekræftelsen",
+      "body": "hovedtekst"
+    },
+    "addresses": {
+      "region": "Region",
+      "state_and_territory": "Stat/Territorium",
+      "county": "Provins",
+      "governorate": "Regering",
+      "confirm": "Er du sikker på, at du vil slette denne adresse?"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Bedst sælgende",
+        "az": "Alfabetisk: A-Å",
+        "za": "Alfabetisk: Z-A",
+        "price_ascending": "Pris: lav til høj",
+        "price_descending": "Pris: høj til lav",
+        "date_ascending": "Dato: gammel til ny",
+        "date_descending": "Dato: nyt til gammelt",
+        "most_relevant": "Mest relevant"
+      }
+    },
+    "errors": {
+      "blank": "kan ikke være tom",
+      "credit_card_session_expired": "Kreditkorttilladelsen er udløbet. Indtast dine betalingsoplysninger igen. Der er ikke trukket penge fra dit kort.",
+      "empty": "kan ikke være tom",
+      "invalid_email": "skal være en gyldig e-mailadresse",
+      "discount_disabled": "Denne rabat er blokeret",
+      "discount_expired": "Denne rabat er ikke længere gyldig",
+      "discount_limit_reached": "Denne rabat har nået brugstgrænsen",
+      "discount_not_found": "Kan ikke finde nogen gyldig rabat, der passer til koden",
+      "customer_already_used_once_per_customer_discount_notice": "Denne rabat har nået brugstgrænsen",
+      "gift_card_already_applied": "Koden er allerede anvendt i din indkøbskurv",
+      "gift_card_currency_mismatch": "Dit gavekort er i %{gift_card_currency}. Kontakt os, så vi kan udstede det igen i %{checkout_currency}.",
+      "gift_card_depleted": "Der er ikke flere penge på dette gavekort",
+      "gift_card_disabled": "Gavekortet er spærret",
+      "gift_card_expired": "Gavekortet er udløbet",
+      "taken": "er allerede brugt",
+      "contains_html_tags": "kan ikke indeholde HTML-tags",
+      "password_mismatch": "skal være identisk med den angivne adgangskode",
+      "contains_spaces": "begynder eller slutter med mellemrum.",
+      "invalid_province_in_country": "er ikke en gyldig provins i %{country}",
+      "invalid_region_in_country": "er ikke en gyldig region i %{country}",
+      "not_supported": "understøttes ikke",
+      "full_name_required": "Indtast et for- og efternavn",
+      "invalid_for_card_type": "er ugyldig",
+      "invalid_type": "undskyld, vi accepterer ikke kort af denne type",
+      "invalid_format": "formatet er ugyldigt",
+      "invalid_start_date_or_issue_number_for_debit": "gyldig startdato eller gyldigt udstedelsesnummer påkrævet",
+      "reset_password_html": "Din e-mailadresse er allerede knyttet til en konto. Hvis denne konto er din, kan du <a href=\"/account/login#recover\">nulstille dit kodeord</a>",
+      "verify_email": "Vi har sendt en e-mail til %{customer_email}. Klik venligst på det vedhæftede link for at bekræfte din e-mailadresse.",
+      "blocked_address": "Denne placering understøttes ikke",
+      "product_not_available": "produktet er ikke offentliggjort for denne kunde.",
+      "shop_404": {
+        "title": "Lav en netbutik og sælg dine varer online! E-handelssoftware fra Shopify",
+        "heros": {
+          "store_unavailable": "Denne butik er midlertidigt ikke tilgængelig.",
+          "store_not_exist": "Denne butik findes ikke."
+        }
+      }
     }
   }
 }
