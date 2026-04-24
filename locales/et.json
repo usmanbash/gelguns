@@ -3893,7 +3893,75 @@
       "unit_price": "{{price}}/st",
       "location": "Asukoht",
       "not_applicable": "ei kehti",
-      "fully_refunded_label": "TAGASTATUD"
+      "fully_refunded_label": "TAGASTATUD",
+      "partially_refunded_label": "OSALISELT TAGASTATUD",
+      "refunded_amount": "Tagastatud",
+      "discount": "Soodustus",
+      "compare_at_sale": "Soodusmüük ({{saleAmount}})",
+      "no_data": "Geen",
+      "pagination": {
+        "load_more": "Laadi rohkem",
+        "load_more_accessibility_label": "Laadi veel artikleid",
+        "loading_accessibility_label": "Artikleid laadimas"
+      },
+      "returns": {
+        "expand_events_label": "Andmete kuvamine",
+        "hide_events_label": "Peida andmed",
+        "print_shipping_label": "Saatelehe printimine",
+        "tracking_number": "Jälgimisnumber:",
+        "return_and_refund_modal_header": "Tagasimaksepoliitika",
+        "ineligible_return_message": "Selles tellimuses pole tagastamiseks sobivaid artikleid.",
+        "ineligible_return_message_when_returned": "Selles tellimuses ei ole enam ühtegi tagastamiseks sobivat eset.",
+        "exchange_header": "Vahetuskaubad",
+        "exchange_subheader": "Tagastatavad esemed lisatakse tellimusele kohe, kui tagastus on lõpetatud."
+      },
+      "request_return_failed": "Taotluse töötlemisel tekkis probleem. Palun proovi uuesti.",
+      "mobile_summary_toggle_button": {
+        "open": "Tellimuste ülevaate kuvamine",
+        "closed": "Tellimuste ülevaate peitmine"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Andmete kuvamine",
+        "expand_events_accessibility_label": "Tellimuse kohaletoimetamise andmed kuvada",
+        "hide_events_label": "Peida andmed",
+        "hide_events_accessibility_label": "Tellimuse kohaletoimetamise andmed peita"
+      },
+      "show_order_summary": "Tellimuste ülevaate kuvamine",
+      "hide_order_summary": "Tellimuste ülevaate peitmine",
+      "company": "Ettevõte",
+      "no_data_provided_accessibility_label": "{{fieldName}} on leeg",
+      "marketing_section_title": "Uudised ja pakkumised",
+      "marketing_description": "Sa saad turunduskirju. Sa saad igal ajal tellimusest loobuda.",
+      "marketing_checkbox_label": "Saada mulle uudiskirju ja pakkumisi e-posti teel",
+      "marketing_checkmark_label": "Oled registreerunud uudiskirjade ja pakkumiste saamiseks e-posti teel",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} kogus {{quantity}}",
+        "next": "Järgmised artiklid näitamiseks",
+        "previous": "Näita eelnevaid artikleid",
+        "load_more_items": {
+          "one": "Laadi {{count}} artiklit",
+          "other": "Laadimine veel {{count}} artiklit"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Laadi alla Shop, et paketti jälgida",
+        "track_order_with_shop": "Tellimuse jälgimine Shopiga",
+        "title_header": "Skaneeri oma telefoniga",
+        "real_time_delivery_updates": "Pärast tellimuse saatmist saad Shopilt reaalajas tarneuuendusi."
+      },
+      "shop_pay": {
+        "order_completed_with": "Tellimus lõpetatud koos",
+        "learn_more": "Rohkem teavet"
+      },
+      "edit_summary": {
+        "added": "Lisatud",
+        "added_with_quantity": "{{quantity}} lisatud",
+        "removed": "Kustutatud",
+        "removed_with_quantity": "{{quantity}} eemaldatud",
+        "updated_at": "Sinu tellimus uuendati {{date}}",
+        "returned": "Tagastatud",
+        "returned_with_quantities": "{{delta}} tagasi {{total}} tagastatud"
+      }
     }
   }
 }
