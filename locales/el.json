@@ -3486,10 +3486,76 @@
           },
           "claim_shop_cash_cta": {
             "has_shop_app_label": "Αξιοποίησε το Shop Cash",
-            "no_shop_app_label": "{{appDownloadLink}} για να διεκδικήσετε το Shop Cash"
+            "no_shop_app_label": "{{appDownloadLink}} για να διεκδικήσετε το Shop Cash",
+            "download_shop_app_label": "Κατέβασε το κατάστημα"
+          },
+          "details_modal": {
+            "title": "Παράδοση υποστηρίζεται από",
+            "modal_accessiblity_label": "Δεδομένα υπόσχεσης παράδοσης",
+            "delivery_guaranteed_by_label": "Παράδοση εγγυημένη μέχρι {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Το Shop Promise εγγυάται γρήγορη, αξιόπιστη παράδοση. Αξιοποίησε το Shop Cash αν η παραγγελία σου καθυστερήσει.",
+              "may_be_eligible_not_authorized_label": "Ενδέχεται να δικαιούστε να διεκδικήσετε Shop Cash, επειδή αυτή η παραγγελία έφτασε αργά. Συνδεθείτε για να δείτε τις λεπτομέρειες.",
+              "redeemed_label": "Έχεις ήδη διεκδικήσει το Shop Cash επειδή αυτή η παραγγελία έφτασε αργά.",
+              "expired_label": "Αυτή η παραγγελία δεν δικαιούται αξίωση για καθυστερημένη παράδοση, επειδή η εγγύηση των 30 ημερών έχει λήξει.",
+              "no_shop_cash_label": "Αυτή η παραγγελία δεν δικαιούται αξίωση για καθυστερημένη παράδοση, επειδή δεν πληρώθηκε με Shop Pay.",
+              "no_longer_guaranteed_label": "Αυτά τα είδη δεν υποστηρίζονται πλέον από εγγύηση παράδοσης.",
+              "claim_shop_cash_title": "Σάρωση για να διεκδικήσετε {{amount}} σε Shop Cash",
+              "claim_shop_cash_description": "Μπορείς να χρησιμοποιήσεις Shop Cash για μελλοντικές αγορές στην εφαρμογή Shop."
+            }
           }
-        }
-      }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Διαχείριση στο Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Παράδοση εγγυημένη από",
+            "external_promise_brand_label": "Παράδοση για",
+            "not_delivered_by_label": "Ανησυχημένος μετά τις {{date}}",
+            "delivery_guarantee_expired_label": "Η εγγυημένη παράδοση έχει λήξει",
+            "modal_accessibility_button_label": "Δεδομένα υπόσχεσης παράδοσης",
+            "download_shop_app_button_label": "Λήψη Κατάστημα για παρακολούθηση",
+            "track_with_shop_button_label": "Παρακολούθηση με Αγορές",
+            "claim_shop_cash_button_label": "Αξιοποίησε μετρητά"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Παράδοση για {{date}}",
+            "expired_delivery_guarantee_description": "Η εγγύηση Shop Promise των 30 ημερών για αυτήν την παραγγελία έχει λήξει.",
+            "expired_badge_label": "Ληγμένο",
+            "order_includes_guarantees_label": "Η παράδοσή σας έχει {{deliveryAgreementsCount}} εγγυήσεις",
+            "order_includes_guarantees_description": "Το Shop Promise προσφέρει εγγύηση για γρήγορη, αξιόπιστη παράδοση. Αξιοποίησε το Shop Cash αν η παραγγελία σου παραδοθεί μετά τις {{date}}.",
+            "delivered_after_label": "Ανησυχημένος μετά τις {{date}}",
+            "delivered_after_description": "Η παραγγελία σας έφτασε αργά, οπότε μπορείτε να διεκδικήσετε {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Αυτή η παραγγελία παραδόθηκε αργά, οπότε έχεις διεκδικήσει {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Η παραγγελία σας έφτασε αργά, οπότε μπορείτε να διεκδικήσετε {{amount}} Shop Cash.",
+            "learn_more_button_label": "Περισσότερες πληροφορίες",
+            "claim_shop_cash_button_label": "Αξιοποίησε μετρητά",
+            "view_balance_in_shop_button_label": "Προβολή υπολοίπου στο κατάστημα",
+            "scan_to_claim_shop_cash_label": "Σάρωση για να διεκδικήσετε {{amount}} σε Shop Cash"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Αποστολή δωροεπιταγής ξανά",
+          "other": "Αποστολή ξανά δωροεπιταγών"
+        },
+        "expected_by": "Αναμένεται το αργότερο στις {{date}}",
+        "was_expected_by": "Αναμένεται το αργότερο έως {{date}}"
+      },
+      "status_mark_as_delivered": "Σήμανση ως ανησυχητικό",
+      "buy_again": "Αγοράστε ξανά",
+      "buy_again_accessibility_label": "Αγοράστε ξανά για την παραγγελία {{orderId}}",
+      "fulfillment_status_title": "Κατάσταση εκπλήρωσης: {{status}}",
+      "list_title_confirmed_orders_accessibility_label": "Παραγγελίες: επιβεβαιώθηκαν",
+      "list_title_pending_orders_accessibility_label": "Παραγγελίες: σε επεξεργασία",
+      "switch_order_type_pending_orders_accessibility_label": "Αλλαγή τύπου παραγγελίας· τώρα βλέπετε παραγγελίες σε επεξεργασία",
+      "switch_order_type_confirmed_orders_accessibility_label": "Αλλαγή τύπου παραγγελίας· βλέπετε τις επιβεβαιωμένες παραγγελίες σας",
+      "group_title_label": "Μέρος του: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Τιμολόγηση και αποστολή",
+      "billing_address": "Διεύθυνση τιμολογίου",
+      "card_ending_with": "λήγει στις {{lastDigits}}"
     }
   }
 }
