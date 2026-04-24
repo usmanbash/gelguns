@@ -1898,7 +1898,131 @@
         "order_updates_subscribe_to_email_or_phone_notifications": "Primajte obavijesti o dostavi putem e-pošte ili SMS-a",
         "order_updates_subscribe_to_phone_notifications": "Primaj obavijesti o slanju putem SMS-a",
         "order_updates_submit_subscription": "Podnijeti zahtjev",
-        "track_shipment": "Volg pošiljku"
+        "track_shipment": "Volg pošiljku",
+        "order_status_confirmed_order_with_email_pick_up": "Dobit ćete e-mail kada možete preuzeti svoju narudžbu.",
+        "order_status_confirmed_order_with_phone_pick_up": "Dobit ćete SMS kada možete preuzeti svoju narudžbu.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Dobit ćete e-mail i SMS kada možete preuzeti svoju narudžbu.",
+        "pick_up_in_store_marker": {
+          "current": "Trenutačna lokacija dostave",
+          "shipping": "Mjesto preuzimanja"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Dobit ćete e-mail kada možete preuzeti svoju narudžbu.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Dobit ćete SMS kada možete preuzeti svoju narudžbu.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Dobit ćete e-mail kada možete preuzeti svoju narudžbu.",
+        "ready_for_pickup_title": "Narudžba je spremna za preuzimanje",
+        "ready_for_pickup_description": "Vaša narudžba je spremna za preuzimanje. Ponesite potvrdu narudžbe kada dolazite po narudžbu.",
+        "picked_up_title": "Narudžba je preuzeta",
+        "picked_up_description_html": "Vaša je narudžba preuzeta u %{location_name} na %{date}.",
+        "other_options": "Druge opcije",
+        "shop_phone_description": "Dobit ćete SMS s poveznicom na aplikaciju Trgovina za praćenje vaše narudžbe.",
+        "ready_for_delivery_title": "Narudžba je spremna za dostavu",
+        "ready_for_delivery_description": "Pripremili smo narudžbu.",
+        "order_status_confirmed_order_local": "Pripremamo tvoju narudžbu za dostavu.",
+        "delivery_information_label": "Informacije o dostavi:",
+        "gift_card_sent_confirmation": "Poklon bonovi poslani",
+        "out_for_delivery_local_title": "Vaša narudžba je spremna za dostavu",
+        "out_for_delivery_local_description_html": "Uskoro ćete primiti svoju narudžbu.",
+        "delivered_local_title": "Vaša je narudžba isporučena",
+        "delivered_local_description_html": "Jesi li još uvijek nije primio svoju narudžbu? %{let_us_know}.",
+        "let_us_know": "Javite nam",
+        "qr_code": {
+          "title": "Prati na svom telefonu",
+          "send_link_to_phone": "Ili pošalji poveznicu na svoj telefon"
+        },
+        "gift_card_confirmation_by_text": "Ako ih niste primili, zatražite ponovno slanje SMS-a ili nas kontaktirajte.",
+        "gift_card_confirmation_by_email": "Ako ih niste primili, zatražite ponovno slanje e-pošte ili nas kontaktirajte.",
+        "gift_card_title": "Poklon bonovi",
+        "resend_gift_cards": "Ponovno poslati poklon bonove",
+        "attempted_delivery_local_title": "Neuspjela dostava",
+        "attempted_delivery_local_description_html": "Nažalost, nismo uspjeli dostaviti vašu narudžbu. %{contact_us} kako biste dogovorili drugu dostavu.",
+        "thank_you_title_payment": "Vaša uplata je potvrđena",
+        "thank_you_confirmed_order_with_email_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Izvršili ste uplatu za svoju narudžbu %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "sms": {
+            "title": "Ili pošalji poveznicu na svoj telefon"
+          }
+        },
+        "estimated_delivery": "Trenutna procjena dostave:",
+        "view_business_customer_account": "Pogledaj račun",
+        "thank_you_confirmed_order_with_draft": "Obavijestit ćemo te ako budemo trebali dodatne informacije ili kada tvoja narudžba bude potvrđena.",
+        "breadcrumbs_submitted": "Podneseno",
+        "breadcrumbs_in_review": "Za ocjenu",
+        "missing_shipping_address_banner": {
+          "title": "Narudžba nema adresu dostave",
+          "text_html": "%{contact_us} da dodate svoju adresu",
+          "contact_us": "Kontaktirajte nas"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Obratite se prodajnom savjetniku.",
+        "order_status_confirmed_with_installments_payment_confirm": "Uskoro ćete primiti potvrdu e-poštom s brojem vaše narudžbe i detaljima vašeg rasporeda obročne otplate.",
+        "first_payment_complete": "Prva uplata dovršena",
+        "choose_payment_method_later": "Odaberite način plaćanja kasnije",
+        "purchase_order_number_title": "Broj narudžbe %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Narudžba je preuzeta na %{address}.",
+        "ready_for_delivery": "Spremno za dostavu",
+        "order_updates_subscribe_to_email_notifications_failed": "Ne možemo spremiti ovu adresu e-pošte za ažuriranja. Pokušajte ponovno ili upotrijebite drugu adresu e-pošte.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Unesena adresa e-pošte već postoji.",
+        "subscriptions_management": {
+          "description": "Nastavi na svoj račun kako bi pregledao i upravljao svojim pretplatama.",
+          "button_label": "Upravljanje pretplatom"
+        },
+        "manage_order_label": "Upravljanje vašom narudžbom",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Za nekoliko minuta dobit ćeš SMS s tvojom poklon bonom.",
+          "other": "Za nekoliko minuta dobit ćeš SMS s tvojim poklon bonovima."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Za nekoliko minuta dobit ćeš SMS s tvojom poklon bonom.",
+          "other": "Za nekoliko minuta dobit ćeš SMS s tvojim poklon bonovima."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon je poslan e-poštom",
+          "other": "Poklon bonovi su poslani putem e-pošte"
+        },
+        "gift_card_text_title": {
+          "one": "Cadeaubon je poslan putem SMS-a",
+          "other": "Poklon bonovi su poslani putem SMS-a"
+        },
+        "resend_gift_cards_by_email": "Ponovno pošalji e-mail",
+        "resend_gift_cards_by_text": "Ponovno pošalji SMS",
+        "gift_card_resent_confirmation": {
+          "one": "Poklon bon je ponovno poslan.",
+          "other": "Poklon bonovi su ponovno poslani."
+        },
+        "gift_card_resend_failure": {
+          "one": "Došlo je do problema prilikom ponovnog slanja vaše poklon bonove. Pokušajte ponovno ili nas kontaktirajte.",
+          "other": "Došlo je do problema prilikom ponovnog slanja tvojih poklon bonova. Pokušaj ponovno ili nas kontaktiraj."
+        },
+        "failed_pending_payment_page_title": "Došlo je do problema s vašom uplatom",
+        "thank_you_title_payments_app_pending_default": "Plaćanje se obrađuje",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Primili smo tvoju narudžbu",
+        "thank_you_title_payments_app_failed_pending_payment": "Vaša uplata ne može biti obrađena",
+        "thank_you_payments_app_failed_pending_payment": "Vaša narudžba još nije plaćena. Vratite se u svoju košaricu kako biste provjerili i platili narudžbu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Uskoro ćete primiti SMS za potvrdu. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nakon dovršetka plaćanja dobit ćeš potvrdu putem e-pošte. Narudžbu možeš pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Nakon dovršetka plaćanja dobit ćeš potvrdu putem e-pošte. Narudžbu možeš pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nakon dovršetka plaćanja dobit ćeš SMS za potvrdu. Narudžbu možeš pratiti putem Shop aplikacije.",
+        "order_status_payments_app_failed_pending_payment": "Vaša narudžba još nije plaćena. Vratite se u svoju košaricu kako biste provjerili i platili narudžbu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nakon dovršetka plaćanja dobit ćeš potvrdu putem e-pošte. Narudžbu možeš pratiti putem Shop aplikacije.",
+        "thank_you_confirmed_order_with_missing_payment": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu narudžbe.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu narudžbe.",
+        "thank_you_confirmed_order_with_draft_payment": "Obavijestit ćemo vas ako budemo trebali dodatne informacije ili kada narudžba bude potvrđena.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Obavijestit ćemo vas ako budemo trebali dodatne informacije ili kada narudžba bude potvrđena.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Narudžba još nije plaćena. Vratite se u košaricu kako biste provjerili i platili narudžbu.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Narudžba još nije plaćena. Vratite se u košaricu kako biste provjerili i platili narudžbu.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu narudžbe.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu narudžbe.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu narudžbe.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Uskoro ćete primiti potvrdu putem e-pošte. Narudžbu možete pratiti putem Shop aplikacije."
       }
     }
   }
