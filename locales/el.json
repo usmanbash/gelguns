@@ -652,7 +652,71 @@
             "new_tax_must_be_accepted": "Οι φόροι που ισχύουν για την παραγγελία σου έχουν αλλάξει. Έλεγξε την παραγγελία σου και δοκίμασε ξανά.",
             "unresolvable_tax_terms": "Οι προτεινόμενοι όροι δεν είναι εφικτοί δεδομένου του υπάρχοντος πλαισίου διαπραγμάτευσης.",
             "delivery_price_is_abstract": "Η αντίστοιχη τιμή για την παράδοση είναι αφηρημένη.",
-            "tax_inclusivity_mismatch": "Διαπραγματευτείτε ξανά με μια συγκεκριμένη τιμή για το totalTaxAndDutyAmount ή το totalAmountIncludedInTarget."
+            "tax_inclusivity_mismatch": "Διαπραγματευτείτε ξανά με μια συγκεκριμένη τιμή για το totalTaxAndDutyAmount ή το totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Στην τρέχουσα διαπραγματευτική συνεδρία δεν υποστηρίζονται φοροαπαλλαγές.",
+            "delivery_tax_exemption_not_supported": "Απαλλαγές φόρου για κανόνες παράδοσης δεν υποστηρίζονται αυτήν τη στιγμή.",
+            "proposed_allocations_required": "Το πεδίο 'προτεινόμενες αναθέσεις' λείπει.",
+            "merchandise_terms_must_be_defined": "Ορίστε όρους για τα αγαθά.",
+            "delivery_terms_must_be_defined": "Ορίστε όρους για την παράδοση.",
+            "merchandise_discount_terms_must_be_defined": "Ορίστε όρους για την έκπτωση προϊόντων.",
+            "delivery_discount_terms_must_be_defined": "Ορίστε όρους για την έκπτωση παράδοσης.",
+            "allocated_required": "Το πεδίο «ανατεθεί» λείπει.",
+            "value_required": "Το πεδίο 'waarde' λείπει.",
+            "line_splits_not_supported": "Το πεδίο 'goederenregels' πρέπει να χωριστεί έτσι ώστε να υπάρχει ένα ξεχωριστό στοιχείο στην πρόταση του πωλητή για κάθε γραμμή."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Οι χειροκίνητες πληρωμές δεν επιτρέπονται σε καταστήματα B2B.",
+            "positive_amount_expected": "Το ποσό που πρέπει να πληρωθεί πρέπει να είναι μεγαλύτερο από 0.",
+            "total_amount_mismatch": "Το συνολικό ποσό προς πληρωμή δεν συμφωνεί με το άθροισμα των πληρωμών.",
+            "subscription_terms_not_accepted": "Οι όροι συνδρομής δεν έγιναν αποδεκτοί.",
+            "missing_session_id": "Λείπουν πληροφορίες για τη συνεδρία πιστωτικής κάρτας.",
+            "gateway_not_supported": "Η πύλη πληρωμών δεν υποστηρίζει την αποθήκευση της μεθόδου πληρωμής.",
+            "credit_card_last_name_required": "Το 'achternaam' δεν μπορεί να είναι κενό.",
+            "credit_card_update_failed": "Η ενημέρωση της πιστωτικής κάρτας απέτυχε.",
+            "invalid_address_type": "Ο τύπος διεύθυνσης που εισήχθη δεν είναι έγκυρος για αυτήν την μέθοδο πληρωμής.",
+            "missing_retail_attributions": "Απαιτούνται αναθέσεις λιανικής για χειροκίνητες πληρωμές με πιστωτική κάρτα.",
+            "unexpected_retail_attributions": "Απροσδόκητες αναθέσεις λιανικής καταχωρήθηκαν για μια πληρωμή με πιστωτική κάρτα.",
+            "invalid_card_source": "Αυτή η συνεδρία δεν έχει δικαίωμα να χρησιμοποιήσει αυτή την πηγή χάρτη.",
+            "wallet_content_missing": "Το περιεχόμενο του πορτοφολιού λείπει.",
+            "payment_instrument_not_found": "Δεν μπορώ να βρω τη μέθοδο πληρωμής",
+            "unauthorized_capture_method": "Η διαμόρφωση της μεθόδου καταγραφής πληρωμών δεν επιτρέπεται.",
+            "saved_payment_methods_not_allowed": "Οι αποθηκευμένες μέθοδοι πληρωμής δεν επιτρέπονται.",
+            "store_credit_not_enabled": "Το υπόλοιπο καταστήματος δεν είναι ενεργοποιημένο για αυτό το κατάστημα.",
+            "store_credit_account_not_found": "Ο λογαριασμός πιστωτικού υπολοίπου καταστήματος δεν βρέθηκε.",
+            "store_credit_account_mismatch": "Ο λογαριασμός πιστωτικού υπολοίπου δεν αντιστοιχεί στην ταυτότητα του αγοραστή.",
+            "store_credit_mismatched_currency": "Το νόμισμα του λογαριασμού πιστωτικού υπολοίπου δεν συμφωνεί με το νόμισμα της ολοκλήρωσης αγοράς.",
+            "store_credit_insufficient_funds": "Δεν υπάρχει επαρκές υπόλοιπο στο λογαριασμό πιστωτικού καταστήματος.",
+            "store_credit_buying_gift_card": "Με το υπόλοιπο καταστήματος δεν μπορείτε να αγοράσετε δωροκάρτα.",
+            "gift_cards_not_allowed_for_b2b": "Τα δωροκουπόνια δεν επιτρέπονται σε καταστήματα B2B.",
+            "paypal_express_address_invalid": "Η PayPal επέστρεψε μια μη έγκυρη διεύθυνση.",
+            "saved_payment_methods_cvv_verification_disabled": "Για την επιλεγμένη μέθοδο πληρωμής απαιτείται επαλήθευση CVV/CVC, αλλά αυτή δεν είναι ενεργοποιημένη για αυτό το κατάστημα. Χρησιμοποιήστε άλλη μέθοδο πληρωμής."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Πολλοί κανόνες ελέγχου δεν υποστηρίζονται.",
+            "tips_not_allowed_for_b2b": "Δεν επιτρέπονται φιλοδωρήματα σε καταστήματα B2B.",
+            "currency_change_reset": "Το Fooi έχει επαναρυθμιστεί λόγω αλλαγής νομίσματος.",
+            "tips_not_allowed_for_deferred_purchase_options": "Οι φιλοδωρήματα δεν υποστηρίζονται ακόμη για επιλογές αναβαλλόμενης αγοράς."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Αυτή η παραγγελία προτύπου δεν υπάρχει στο τρέχον κατάστημα.",
+            "staff_member_not_exist": "Αυτός ο υπάλληλος δεν είναι γνωστός στο τρέχον κατάστημα.",
+            "point_of_sale_device_not_exist": "Αυτή η συσκευή σημείου πώλησης δεν υπάρχει στο τρέχον κατάστημα.",
+            "unresolvable_target_merchandise_lines": "Οι προτεινόμενες αναθέσεις πωλήσεων δεν μπορούν να επιλυθούν στο υπάρχον πλαίσιο διαπραγμάτευσης."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Η προσφορά του αγοραστή σου πρέπει να περιλαμβάνει non-negotiable_terms.",
+            "invalid_signature": "Η υπογραφή για {{target_terms}} δεν είναι έγκυρη."
+          },
+          "inventory": {
+            "missing_quantity_value": "Το πεδίο 'Ποσότητα' λείπει από τους κανόνες αποθέματος του αγοραστή.",
+            "changing_behavior_not_allowed": "Αυτός ο πελάτης δεν έχει εξουσιοδότηση να τροποποιήσει τη λειτουργία αποθέματος.",
+            "only_one_inventory_behavior_allowed": "Αυτή τη στιγμή επιτρέπεται μόνο μία λειτουργία αποθέματος ανά ολοκλήρωση αγοράς."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Σε αυτήν την ολοκλήρωση αγοράς δεν επιτρέπεται η άρνηση των τελωνειακών δασμών."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Σε αυτήν την ολοκλήρωση αγοράς δεν επιτρέπεται η κατανομή λιανικής."
           }
         }
       }
