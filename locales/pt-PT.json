@@ -2542,7 +2542,79 @@
         }
       },
       "captcha": {
-        "title": "Complete o CAPTCHA para continuar"
+        "title": "Complete o CAPTCHA para continuar",
+        "errors": {
+          "not_solved": "Complete o CAPTCHA para continuar"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "A sua encomenda não pôde ser processada porque o seu código de desconto já não está disponível. Verifique o total da sua encomenda e tente novamente."
+      },
+      "wallets": {
+        "redirect_hint": "É solicitado que inicies sessão no {{walletName}}.",
+        "logged_in": "Ligado a {{email}}",
+        "connect_shipping_methods": "{{method1}} em {{method2}}",
+        "payment_in_progress_body": "O pagamento está a ser processado. A encomenda está quase concluída.",
+        "call_to_action": "Pague com {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} não está disponível",
+            "description": "{{walletName}} não estava disponível. Utilize outro método de pagamento ou tente novamente mais tarde.",
+            "instructions": "Ocorreu um problema com {{walletName}}. Volte à loja e tente novamente ou pague de outra forma.",
+            "unavailable_for_country": "{{walletName}} não está disponível em {{countryName}}. Selecione outro método de pagamento para concluir a sua compra"
+          },
+          "generic": "Ocorreu um problema com {{walletName}}. Tente novamente ou utilize outro método de pagamento.",
+          "terminal": "Ocorreu um problema com {{walletName}}. Utilize outro método de pagamento.",
+          "detour": {
+            "stock_problems": "Alguns artigos já não estão disponíveis. Feche {{walletName}} e tente novamente.",
+            "price_change": "Os preços de alguns artigos foram alterados. Feche {{walletName}} para verificar a sua encomenda e tente novamente.",
+            "queue": "Estás na fila para o checkout. Fecha {{walletName}} para continuar.",
+            "currency_change": "Não podes usar outro endereço com {{walletName}}. Usa o endereço original ou tenta outro método de pagamento."
+          },
+          "unsupported": {
+            "address": "O comerciante não pode entregar no endereço de entrega que selecionaste.",
+            "wallet_is_unavailable": "Não podes usar {{walletName}} com este endereço. Seleciona outro endereço ou fecha {{walletName}} para concluir a compra."
+          },
+          "outdated": {
+            "shipping_method": "As opções de envio para a tua encomenda foram alteradas. Verifica a tua seleção.",
+            "payment_terms": "As condições de pagamento foram alteradas. Verifique a sua encomenda"
+          },
+          "invalid": {
+            "shipping_address": "Introduza um endereço de entrega válido",
+            "billing_address": "Introduza um morada de faturação válido",
+            "shipping_option": "Escolha uma opção de envio válida",
+            "email": "Introduza um endereço de correio eletrónico válido",
+            "postal_code": "Introduza um código postal válido",
+            "reduction_code": "Introduza um código de desconto ou vale-presente válido",
+            "billing_must_match_shipping": "Deve corresponder ao endereço de entrega.",
+            "billing_zone": "Introduza um estado/província válido para o endereço de faturação",
+            "billing_phone": "Introduza um número de telefone válido para o endereço de faturação",
+            "billing_zip": "Introduza um código postal válido para o endereço de faturação"
+          },
+          "missing": {
+            "first_name": "Introduza um nome próprio",
+            "address2": "Introduza um número de apartamento ou de suite, etc.",
+            "city": "Introduza um local",
+            "province": "Selecione um estado/província",
+            "country": "Selecione um país/região",
+            "zip": "Introduza um código postal ou CEP",
+            "billing_first_name": "Introduza um nome próprio para o endereço de faturação",
+            "billing_address1": "Introduza um endereço de faturação",
+            "billing_address2": "Introduza um número de apartamento ou de suite, etc., para o endereço de faturação",
+            "billing_city": "Introduza um local para a morada de faturação",
+            "billing_province": "Selecione um estado/província para o endereço de faturação",
+            "billing_zip": "Selecione um código postal para o endereço de faturação",
+            "contact_info": "Introduza os dados de contacto"
+          },
+          "formatting": {
+            "name_contains_emojis": "Remover emoji do teu nome",
+            "postal_code_contains_emoji": "Remover emoji do teu código postal",
+            "first_name_too_long": "O nome contém letras a mais",
+            "last_name_too_long": "O apelido contém letras a mais",
+            "address_too_long": "A linha do endereço é demasiado longa"
+          },
+          "select_different_shipping_address_to_resolve_errors": "O endereço de entrega é inválido. Selecione outro endereço ou utilize um endereço novo."
+        }
       }
     }
   }
