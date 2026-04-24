@@ -3626,8 +3626,78 @@
         "closed": "Απόκρυψη επισκόπησης παραγγελίας"
       },
       "shipment_timeline": {
-        "expand_events_label": "Εμφάνιση δεδομένων"
-      }
+        "expand_events_label": "Εμφάνιση δεδομένων",
+        "expand_events_accessibility_label": "Εμφάνιση στοιχείων παράδοσης παραγγελίας",
+        "hide_events_label": "Απόκρυψη δεδομένων",
+        "hide_events_accessibility_label": "Απόκρυψη στοιχείων παράδοσης παραγγελίας"
+      },
+      "show_order_summary": "Εμφάνιση επισκόπησης παραγγελίας",
+      "hide_order_summary": "Απόκρυψη επισκόπησης παραγγελίας",
+      "no_data_provided_accessibility_label": "{{fieldName}} είναι κενό",
+      "marketing_description": "Θα λαμβάνεις ενημερωτικά email. Μπορείς να διαγραφείς οποιαδήποτε στιγμή επιθυμείς.",
+      "marketing_checkbox_label": "Στείλε μου email με νέα και προσφορές",
+      "marketing_checkmark_label": "Έχετε εγγραφεί για να λαμβάνετε ενημερωτικά δελτία και προσφορές μέσω email",
+      "image_gallery": {
+        "product_name_and_quantity": "ποσότητα {{productName}} {{quantity}}",
+        "next": "Εμφάνιση επόμενων άρθρων",
+        "previous": "Εμφάνιση προηγούμενων άρθρων",
+        "load_more_items": {
+          "one": "Φόρτωση Nog {{count}} άρθρων",
+          "other": "Φόρτωση {{count}} αντικειμένων"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Κατεβάστε το Shop για να παρακολουθείτε το πακέτο",
+        "track_order_with_shop": "Παρακολούθηση παραγγελίας με Shop",
+        "title_header": "Σάρωση με το τηλέφωνό σου",
+        "real_time_delivery_updates": "Αφού αποσταλεί η παραγγελία, θα λαμβάνεις ενημερώσεις παράδοσης σε πραγματικό χρόνο από το Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Παραγγελία ολοκληρώθηκε με",
+        "learn_more": "Περισσότερες πληροφορίες"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} προστέθηκε",
+        "removed": "Διαγραμμένο",
+        "removed_with_quantity": "{{quantity}} αφαιρέθηκε",
+        "returned_with_quantities": "{{delta}} από {{total}} επιστράφηκαν",
+        "removed_with_quantities": "{{delta}} από {{total}} αφαιρέθηκαν",
+        "return_line_item_removed": "Αφαιρέθηκε από την επιστροφή",
+        "return_line_item_removed_with_quantities": "{{delta}} αφαιρέθηκε από την επιστροφή"
+      },
+      "pickup": {
+        "pickup_location": "Τοποθεσία επιστροφής"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Πληρώθηκε με δόσεις Shop Pay",
+        "description": "Μείνετε ενημερωμένοι για το πρόγραμμα πληρωμών σας με υπενθυμίσεις στην εφαρμογή Κατάστημα.",
+        "desktop_qr_code_content": {
+          "title": "Σάρωση για υπενθυμίσεις",
+          "description": "Λήψη ειδοποιήσεων για τις πληρωμές σου στο Shop."
+        },
+        "title": "Υπενθυμίσεις πληρωμής για τις πληρωμές με δόσεις Shop Pay"
+      },
+      "order_details": "Στοιχεία παραγγελίας",
+      "contact_information": "Στοιχεία επικοινωνίας",
+      "login_to_view_all_order_details": "Συνδεθείτε για να δείτε όλα τα στοιχεία παραγγελίας.",
+      "paid_amount": "Πληρωμένο",
+      "remaining_amount": "Υπόλοιπο",
+      "order_details_skeleton_accessibility_label": "Συνδεθείτε για να δείτε όλα τα στοιχεία παραγγελίας.",
+      "tip": "Φούι",
+      "logged_in_account_no_permission_to_order": "Έχετε συνδεθεί ως {{email}}. Αυτός ο λογαριασμός δεν έχει εξουσιοδότηση να διαχειριστεί αυτήν την παραγγελία.",
+      "log_in_to_a_different_account": "Σύνδεση με άλλο λογαριασμό",
+      "duties": "Τελωνειακοί δασμοί",
+      "ok_duties_tooltip": "Αυτή η παραγγελία αποστέλλεται από άλλη χώρα, οπότε έχουν προστεθεί τελωνειακοί δασμοί στο συνολικό ποσό της παραγγελίας.",
+      "error_duties_tooltip": "Αυτή η παραγγελία αποστέλλεται από άλλη χώρα, οπότε ενδέχεται να επιβληθούν τελωνειακοί δασμοί και φόροι κατά την παράδοση.",
+      "zero_duties_tooltip": "Αυτή η παραγγελία αποστέλλεται από άλλη χώρα. Δεν επιβάλλονται τελωνειακοί δασμοί σε παραγγελίες με αυτή την αξία.",
+      "fees": {
+        "restocking_fee": "Κόστος προμήθειας βοτάνων",
+        "return_shipping_fee": "Επιστροφή αποστολής"
+      },
+      "vat_invoices": {
+        "title": "Τιμολόγια Btw"
+      },
+      "taxes_included": "Συμπεριλαμβανομένου του {{amount}} ΦΠΑ"
     }
   }
 }
