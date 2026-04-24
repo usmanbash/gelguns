@@ -1552,7 +1552,71 @@
         },
         "payment_method": "Méthode de paiement",
         "expired_payment_method": "La méthode de paiement sélectionnée a expiré",
-        "subscription_heading": "Contrat d'abonnement"
+        "subscription_heading": "Contrat d'abonnement",
+        "use_order_billing_address_label": "Utiliser l'adresse de facturation de la commande",
+        "use_location_billing_address_label": "Utiliser l'adresse de facturation du lieu",
+        "use_location_shipping_address_label": "Utiliser l'adresse de livraison du site",
+        "purchase_options_agreement_label_wallets": "En poursuivant le paiement, vous acceptez les paiements futurs mentionnés sur cette page ainsi que la politique d'annulation.",
+        "gift_card_store_credit": {
+          "add_label": "Ajouter un bon cadeau ou un crédit en magasin",
+          "manage_label": "Gérer les bons cadeaux ou le crédit en magasin"
+        },
+        "saved_credit_card_cvv_verification": "Saisissez le code de sécurité de votre carte à des fins de vérification.",
+        "afterpay_label": "Après-paiement",
+        "cashapppay_label": "Paiement Cash App",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} supprimé du retour"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} supprimé du retour",
+        "proposed_gateway_unavailable": "La passerelle de paiement proposée n'est pas disponible",
+        "pay_in_installments_split_pay_short": "Quatre paiements de %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Méthode de paiement non disponible pour l'adresse de livraison choisie. Veuillez choisir une autre méthode de paiement.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero n'est pas disponible pour cette commande. Choisissez un autre mode de paiement.",
+        "paypal_disconnect": "Détacher",
+        "paypal_wallet_label": "Portefeuille PayPal",
+        "payment_method_update_failed": "La mise à jour du mode de paiement a échoué.",
+        "alternative_payment_currency_total_manual_payment_notice": "Remarque : Le total converti est de %{amount_due}.",
+        "gift_cards_unavailable": "Votre bon cadeau ne peut plus être utilisé pour cette commande et a donc été supprimé",
+        "network_card_payment_options": "Choisir une société de carte de crédit",
+        "payment_flexibility_terms_id_mismatch": "ID conditions de flexibilité de paiement ne correspondent pas",
+        "gift_card_checkbox_label": "Appliquer le bon cadeau",
+        "blik_label": "Boîte",
+        "grabpay_label": "PaiementRapide",
+        "kcp_creditcard_label": "KCP-carte de crédit",
+        "simulated_express_checkout": "Les portefeuilles numériques ne sont pas disponibles dans l'exemple de l'éditeur en raison de votre région ou de votre navigateur",
+        "offsite_gateway_redirect_hint_no_button_label": "Vous allez être redirigé vers %{gateway_label} pour finaliser votre achat.",
+        "swish_label": "Sifflement",
+        "network_card_persistence_description": "Le réseau sélectionné sera enregistré avec votre mode de paiement pour les transactions futures.",
+        "payment_method_incompatible_with_payment_terms": "La méthode de paiement est incompatible avec les conditions de paiement.",
+        "billing_address_rollup_accessibility_label": "Options pour l'adresse de facturation",
+        "payment_method_rollup_accessibility_label": "Options de mode de paiement",
+        "crypto_modal": {
+          "header": "Payer %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Renouveler",
+            "sandbox_error": "Il y a eu un problème"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Compte courant",
+          "savings": "Compte d'épargne"
+        },
+        "bank_account_connect_another": "Lier un autre compte bancaire",
+        "bank_account_connect": "Lier un compte bancaire",
+        "bank_account_missing": "Le compte bancaire doit être lié",
+        "crypto_payment_method": {
+          "tooltip": "Le solde de votre porte-monnaie et votre adresse ne sont pas partagés et seul le montant demandé peut être prélevé",
+          "cashback_descriptor": {
+            "one": "Vous recevrez votre cashback après %{count} jour(s)",
+            "other": "Vous recevrez votre cashback après %{count} jours"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% de cashback",
+        "usdc_cashback_additional_info": "Payez avec USDC sur Base et recevez %{incentive_percentage}% de retour dans votre portefeuille numérique sous 30 jours.",
+        "usdc_cashback_terms": "Conditions et limites applicables",
+        "separate_payments_label": "Vos articles proviennent de plusieurs magasins. Vous devez régler vos achats avec %{separate_payments_link}.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Enregistrez ce mode de paiement lors du passage à la caisse et autorisez %{company} à débiter votre compte pour les achats futurs que vous approuvez pour ce lieu, jusqu'à ce que vous annuliez. Toutes les personnes de contact assignées à ce lieu peuvent utiliser ce mode de paiement.",
+        "new_bank_account_disclaimer": "En finalisant votre commande, vous autorisez %{shop_name} à débiter le montant indiqué à la date spécifiée sur le compte ci-dessous via ACH."
       }
     }
   }
