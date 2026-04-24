@@ -1370,7 +1370,67 @@
         "billing_address_title": "Adres do faktury",
         "billing_address_description": "Wybierz adres zgodny z twoją kartą lub metodą płatności.",
         "billing_address_description_no_shipping_address": "Wprowadź adres zgodny z twoją kartą lub metodą płatności.",
-        "no_js_credit_card_fields_redirect_hint": "Zostaniesz przekierowany, aby dodać swoje dane płatności."
+        "no_js_credit_card_fields_redirect_hint": "Zostaniesz przekierowany, aby dodać swoje dane płatności.",
+        "card_fields_container_prefix": "W tym polu znajduje się:",
+        "card_fields_unavailable_html": {
+          "one": "Płatność kartą kredytową lub debetową jest obecnie niedostępna.<br><a href=\"%{current_url}\">Odśwież tę stronę</a> lub spróbuj ponownie później.",
+          "other": "Płatność kartą kredytową lub debetową jest obecnie niedostępna.<br><a href=\"%{current_url}\">Odśwież tę stronę</a> lub spróbuj innej metody płatności."
+        },
+        "card_fields_processing_error": "Wystąpił problem z przetworzeniem płatności. Odśwież tę stronę lub sprawdź swoje połączenie internetowe.",
+        "technical_error": "Z powodu problemu technicznego płatności nie mogą być obecnie przetwarzane. Spróbuj ponownie za kilka minut.",
+        "no_method_error": "Ten sklep obecnie nie może przyjmować płatności.",
+        "not_configured_error": "Ten sklep obecnie nie może przyjmować płatności.",
+        "missing_credit_card_error": "Wprowadź dane swojej karty, aby zakończyć płatność",
+        "generic_incorrect_card_info": "Twoje dane płatności nie mogą zostać zweryfikowane. Sprawdź dane swojej karty i spróbuj ponownie.",
+        "sofort_label": "Natychmiast",
+        "klarna_pay_now_label": "Zapłać teraz z Klarna",
+        "klarna_pay_later_label": "Zapłać później z Klarna",
+        "eps_label": "przelew eps (przelew eps)",
+        "klarna_slice_it_label": "Finanse z Klarna",
+        "card_expiration_month_label": "Miesiąc wyrzucania śmieci",
+        "card_expiration_year_label": "Rok weryfikacji",
+        "card_information_notice": "Wszystkie transakcje są zabezpieczone i zaszyfrowane. Dane karty kredytowej nigdy nie są przechowywane.",
+        "credit_card_start_month": "Data rozpoczęcia miesiąca",
+        "credit_card_start_year": "Rok daty rozpoczęcia",
+        "billing_address_not_supported_for_payment_method_error": "Ta metoda płatności nie jest dostępna dla twojego adresu rozliczeniowego i waluty. Spróbuj innej metody płatności.",
+        "no_real_orders_dev_store": "Ten sklep nie może przyjmować prawdziwych zamówień ani przetwarzać prawdziwych płatności.",
+        "subscription_agreement_label_html": "Rozumiem, że zgadzam się na subskrypcję. Będzie ona odnawiana po podanej cenie i częstotliwości, aż do wygaśnięcia lub <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulowania</a>.",
+        "subscription_card_update_agreement_label": "Zmieniając metodę płatności, zaktualizujesz swoje subskrypcje i przyszłe powtarzające się płatności.",
+        "card_security_vault_notice": "Potrzebujemy Twoich danych do przyszłych płatności. Wszystkie transakcje są zabezpieczone i zaszyfrowane.",
+        "taxes_not_included": "Bez podatków",
+        "no_taxes_banner_content": "Podatki nie są doliczane do tego zamówienia. Nie możesz dodać podatków, jeśli płatność została już pobrana.",
+        "paypal": {
+          "connect": "Kliknij, aby połączyć swoje konto PayPal"
+        },
+        "subscription_agreement_label": "Jeden lub więcej artykułów w koszyku to zakup odroczony lub subskrypcyjny. Kontynuując płatność, zgadzasz się, że będziemy automatycznie pobierać kwoty za zakupy za pomocą Twojej metody płatności według ceny i częstotliwości podanych na tej stronie, aż subskrypcja wygaśnie lub ją samodzielnie anulujesz. W przypadku wszystkich anulowań obowiązuje %{cancelled}.",
+        "subscription_agreement_cancelled": "polityka wypowiedzenia umowy",
+        "card_expired": "Wygasło",
+        "card_verification_confirm": "Wprowadź kod zabezpieczający swojej karty w celu weryfikacji.",
+        "apple": {
+          "connect": "Kliknij, aby połączyć swoje konto Apple Pay",
+          "not_available": "Apple Pay nie jest dostępny w tej przeglądarce. Aby połączyć swoje konto Apple Pay, musisz użyć Safari na urządzeniu Apple."
+        },
+        "account_connected": "Konto powiązane.",
+        "billing_address_associated_with_mandate": "Użyj adresu powiązanego z twoją metodą płatności",
+        "billing_address_associated_with_mandate_info": "Aby zmienić adres do faktury, usuń dane swojej karty kredytowej i wprowadź je ponownie",
+        "credit_card_vaulting_sign_in_banner_title": "Zapisz kartę kredytową",
+        "credit_card_vaulting_sign_in_banner_info": "Zaloguj się lub załóż konto, aby zapisać swoją kartę kredytową do przyszłych zakupów.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Zaloguj się",
+        "ftd_vault_credit_card_label": "Zachowaj tę kartę kredytową na moim koncie, aby szybciej dokonywać płatności",
+        "delete_customer_mandate_modal_title": "Usunąć tę kartę płatniczą?",
+        "delete_customer_mandate_modal_body": "Jeśli usuniesz tę kartę, musisz ją ponownie dodać, zanim użyjesz jej do płatności.",
+        "delete_customer_mandate_modal_confirm": "Usuń kartę",
+        "google": {
+          "connect": "Kliknij, aby połączyć swoje konto Google Pay",
+          "error_authorizing": "Błąd podczas autoryzacji płatności"
+        },
+        "mor_disclaimer_html": "Klikając poniżej i finalizując zamówienie, zgadzasz się na zakup swojego(-ich) artykułu(-ów) u Global-e jako zarejestrowanego sprzedawcy\ndla tej transakcji, zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Ogólnymi warunkami</a>\noraz <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Polityką prywatności</a> Global-e. Global-e jest międzynarodowym\ndostawcą usług realizacji zamówień dla %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Aktualizując metodę płatności, autoryzujesz płatności za każde powtarzające się lub odroczone zakupy zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> tego sklepu.",
+        "multibanco_label": "Multibank",
+        "receiver_payment_experience_hint": "Po złożeniu zamówienia otrzymasz dane do płatności. Dokonaj płatności w ciągu %{due_days} dni w Multibanco lub online.",
+        "pending_payment": {
+          "due_notice": "Twoja płatność w wysokości %{amount_due} jest należna do %{due_date}."
+        }
       }
     }
   }
