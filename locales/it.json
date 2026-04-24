@@ -3451,7 +3451,83 @@
         "hide_events_label": "Nascondi dati",
         "hide_events_accessibility_label": "Nascondi dati di consegna dell'ordine"
       },
-      "marketing_description": "Riceverai email promozionali. Puoi cancellarti in qualsiasi momento."
+      "marketing_description": "Riceverai email promozionali. Puoi cancellarti in qualsiasi momento.",
+      "marketing_checkbox_label": "Inviami e-mail con notizie e offerte",
+      "marketing_checkmark_label": "Sei iscritto per ricevere e-mail con notizie e offerte",
+      "image_gallery": {
+        "product_name_and_quantity": "Quantità di {{productName}} {{quantity}}",
+        "next": "Mostra i seguenti articoli",
+        "load_more_items": {
+          "one": "Carica ancora {{count}} articoli",
+          "other": "Carica ancora {{count}} articoli"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Scarica Shop per seguire il pacco",
+        "track_order_with_shop": "Segui l'ordine con Shop",
+        "title_header": "Scansiona con il tuo telefono",
+        "real_time_delivery_updates": "Dopo che l'ordine è stato spedito, riceverai aggiornamenti in tempo reale sulla consegna da Shop."
+      },
+      "shop_pay": {
+        "learn_more": "Ulteriori informazioni"
+      },
+      "edit_summary": {
+        "updated_at": "Il tuo ordine è stato aggiornato il {{date}}",
+        "returned": "Restituito",
+        "returned_with_quantities": "{{delta}} su {{total}} restituiti",
+        "removed_with_quantities": "{{delta}} su {{total}} rimossi",
+        "return_line_item_removed_with_quantities": "{{delta}} rimosso dal reso"
+      },
+      "pickup": {
+        "pickup_location": "Luogo di ritiro"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagato con pagamenti rateali Shop Pay",
+        "description": "Rimani aggiornata sul tuo piano di pagamento con promemoria nell'app Negozio.",
+        "payment_reminders_button": "Ricevere promemoria di pagamento",
+        "desktop_qr_code_content": {
+          "title": "Scansiona per i ricordi",
+          "description": "Ricevi promemoria per i tuoi pagamenti rateali su Shop."
+        },
+        "title": "Promemoria di pagamento per i pagamenti rateali Shop Pay"
+      },
+      "order_details": "Dati dell'ordine",
+      "contact_information": "Dati di contatto",
+      "log_in": "Accesso",
+      "remaining_amount": "Rimanente",
+      "logged_in_account_no_permission_to_order": "Sei connesso come {{email}}. Questo account non è autorizzato a gestire questo ordine.",
+      "log_in_to_a_different_account": "Accedi con un altro account",
+      "duties": "Dazi doganali",
+      "ok_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi sono stati aggiunti dazi doganali all'importo totale dell'ordine.",
+      "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere applicati dazi doganali e imposte al momento della consegna.",
+      "zero_duties_tooltip": "Questo ordine viene spedito da un altro paese. Non verranno addebitati dazi doganali per ordini di questo valore.",
+      "fees": {
+        "restocking_fee": "Costi di approvvigionamento delle erbe",
+        "return_shipping_fee": "Reso"
+      },
+      "vat_invoices": {
+        "title": "Fatture Btw"
+      },
+      "taxes_included": "Incluso {{amount}} IVA",
+      "duties_and_taxes_included": "Il totale include dazi doganali e tasse. Nessun pagamento aggiuntivo alla consegna.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, quantità: {{refundableQuantity}}"
+      },
+      "cash_rounding": "Arrotondare contanti",
+      "adjusted_payment": "Pagamento personalizzato",
+      "adjusted_total": "Totale personalizzato",
+      "login_card": {
+        "log_in": "Accesso",
+        "resend_link_and_login": "Puoi visualizzare i dettagli del tuo ordine effettuando l'accesso o inviando un nuovo collegamento all'indirizzo e-mail o al numero di telefono utilizzato al momento del pagamento.",
+        "resend_link_only": "Puoi visualizzare i dettagli del tuo ordine inviando un nuovo link all'indirizzo e-mail o al numero di telefono che hai usato al momento del pagamento.",
+        "resend_link": "Invia nuovo collegamento",
+        "title": "Visualizza i dati dell'ordine"
+      },
+      "due_on_fulfillment": "Da pagare al momento della consegna",
+      "due_on_receipt": "Da pagare alla consegna",
+      "payment_confirmation": {
+        "payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto."
+      }
     }
   }
 }
