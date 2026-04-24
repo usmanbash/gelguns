@@ -2517,7 +2517,99 @@
           "other": "Sinu artikliga on %{count} asukohta"
         },
         "location_nearby": {
-          "one": "Sinu toote lähedal on %{count} asukohta"
+          "one": "Sinu toote lähedal on %{count} asukohta",
+          "other": "Sinu artikliga on läheduses %{count} asukohta"
+        },
+        "location_nearby_short": {
+          "one": "%{count} asukohta lähedal sinu artikliga",
+          "other": "%{count} asukohta lähedal sinu artikliga"
+        },
+        "location_far_away": {
+          "one": "%{count} asukohta sinu artikliga",
+          "other": "%{count} asukohta sinu artikliga"
+        },
+        "toggle_more_locations": {
+          "one": "Veel %{count} asukohta",
+          "other": "Veel %{count} teist asukohta"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Jaga oma artikli asukohti",
+          "other": "Jaga oma artiklitega asukohti"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Geen asukohad %{country} koos sinu artikliga",
+          "other": "Geen asukohad %{country} koos sinu artiklitega"
+        },
+        "title": "Asukoht"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Kõik artiklid järele võtma",
+        "items_for_pickup": "Artiklid järeletulekuks",
+        "delivery_method": "Jagatud kohaletoimetamise meetod",
+        "delivery_method_menu": "Menüü jagatud kohaletoimetamismeetod",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} artiklit ei saa kätte saada",
+              "other": "%{count} artiklit ei saa laadida"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} artiklit ei saa saata",
+              "other": "%{count} artiklit ei saa saata"
+            }
+          },
+          "remove_item": {
+            "one": "Artikli eemaldamine",
+            "other": "Artiklite eemaldamine"
+          },
+          "ship_separately": {
+            "one": "saadetise saatmine eraldi",
+            "other": "saadetise saatmine eraldi"
+          },
+          "pick_them_up_in_store": {
+            "one": "võta kauplusest kätte",
+            "other": "võta kauplusest kätte"
+          }
+        },
+        "items_for_shipping": "Saatmiseks mõeldud artiklid",
+        "items_moved_to_shipping_toast": "Artiklid, mida ei saa kätte saada, on saadetiseks ümber paigutatud",
+        "cross_border": {
+          "modal": {
+            "heading": "Muuta riiki?",
+            "content": "Sellega seatakse kõik artiklid uuesti saatmiseks. Sinu järeletuleku- ja saatmiskohtade peab asuma samas riigis.",
+            "change_country": "Muuda riiki"
+          },
+          "banner": "Sinu kohaletoimetamise meetod on uuendatud"
+        }
+      },
+      "captcha": {
+        "title": "Läbige CAPTCHA, et jätkata",
+        "errors": {
+          "not_solved": "Läbige CAPTCHA, et jätkata"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Sinu tellimust ei saanud töödelda, kuna sinu sooduskood ei ole enam saadaval. Kontrolli oma tellimuse kogusummat ja proovi uuesti."
+      },
+      "wallets": {
+        "return_to_store": "Tagasi poodi",
+        "redirect_hint": "Sinu palutakse sisse logida {{walletName}}.",
+        "logged_in": "Ühendatud aadressiga {{email}}",
+        "shipping_line_label": "Saatmine",
+        "connect_shipping_methods": "{{method1}} ja {{method2}}",
+        "payment_in_progress_title": "Makse töös",
+        "payment_in_progress_body": "Makse töödeldakse. Tellimus on peaaegu lõpetatud.",
+        "call_to_action": "Makse {{walletName}} abil",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} ei ole saadaval",
+            "description": "{{walletName}} ei olnud saadaval. Kasuta mõnda teist makseviisi või proovi hiljem uuesti.",
+            "instructions": "{{walletName}}-ga tekkis probleem. Mine poodi tagasi ja proovi uuesti või maksa mõnel teisel viisil.",
+            "unavailable_for_country": "{{walletName}} ei ole saadaval {{countryName}}. Vali ostu lõpetamiseks mõni muu makseviis"
+          },
+          "generic": "{{walletName}} kasutamisel tekkis probleem. Proovi uuesti või kasuta mõnda muud makseviisi."
         }
       }
     }
