@@ -3396,6 +3396,82 @@
           "view_order_details": "Wyświetl dane zamówienia",
           "previous": "Poprzedni",
           "next": "Następny"
+        },
+        "show_order_actions_accessibility_label": "Wyświetl promocje zamówienia dla zamówienia {{name}}",
+        "empty_state_title_for_pending_orders": "Brak zamówień w realizacji",
+        "more_than_four_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} oraz jeszcze {{numberOfAdditionalProducts}} produktów",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktów",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Wyświetl zamówienie, aby zobaczyć dane produktu",
+            "estimated_delivery": "Oczekiwane na {{date}}",
+            "last_updated": "Ostatnia aktualizacja {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Szacowana dostawa na {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}}, {{lineItemName2}} oraz dodatkowo {{numberOfAdditionalProducts}} produktów",
+        "filter_title": "Filtr",
+        "filter": {
+          "clear_all": "Wiedzieć wszystko",
+          "date": {
+            "today": "Dzisiaj",
+            "custom": "Dostosowany"
+          }
+        },
+        "no_order_banner": "Złóż zamówienie, aby przetestować rozszerzenie na stronie Status zamówienia.",
+        "location_filter_picker": {
+          "current_location": "Aktualna lokalizacja"
+        }
+      },
+      "order_status": {
+        "canceled_title": "Twoje zamówienie zostało anulowane",
+        "come_back": "Wróć na tę stronę, aby uzyskać aktualizacje statusu swojej przesyłki.",
+        "confirmed_label": "Potwierdzono",
+        "confirmed_title": "Twoje zamówienie zostało potwierdzone",
+        "delivered_label": "Zmartwiony",
+        "estimated_delivery": "Oczekiwane na {{date}}",
+        "in_review_label": "Do oceny",
+        "in_review_title": "Twoje zamówienie jest oceniane",
+        "no_tracking_number": "Nie ma numeru przesyłki dla tej wysyłki.",
+        "out_for_delivery_label": "Gotowe do dostarczenia",
+        "submitted_label": "Złożono",
+        "track_shipment": "Śledzenie przesyłki",
+        "request_return": "Złożyć wniosek o zwrot",
+        "attempted_delivery_label": "Próba doręczenia",
+        "preparing_for_shipping_label": "Wysyłka jest przygotowywana",
+        "ready_for_pickup_description": "Te artykuły są gotowe do odbioru. Prosimy zabrać ze sobą potwierdzenie zamówienia podczas odbioru.",
+        "picked_up_label": "Odebrane",
+        "submitted_description": "Sprawdź zamówienie i dane do płatności.",
+        "last_updated": "Ostatnia aktualizacja {{date}}",
+        "view_order_for_details": "Wyświetl zamówienie, aby zobaczyć dane produktu",
+        "confirmed_description_digital": "Otrzymasz e-mail, gdy twoje zamówienie będzie gotowe.",
+        "delivered_description_gift_card": {
+          "one": "Bon podarunkowy został wysłany e-mailem.",
+          "other": "Bony podarunkowe zostały wysłane e-mailem."
+        },
+        "gift_card_label": {
+          "one": "Bon podarunkowy",
+          "other": "Bony podarunkowe"
+        },
+        "ready_for_pickup_location": "Twoje zamówienie jest gotowe do odbioru na miejscu",
+        "confirmed_description_pickup": "Otrzymasz e-mail, gdy będziesz mógł odebrać swoje zamówienie.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Bon podarunkowy zostanie wysłany w osobnym e-mailu.",
+          "other": "Każdy bon podarunkowy zostanie wysłany w osobnym e-mailu."
+        },
+        "confirmed_description_gift_card_text": "Otrzymasz wiadomość SMS, gdy zamówienie będzie gotowe.",
+        "delivered_description_gift_card_text": {
+          "one": "Bon podarunkowy został wysłany przez SMS.",
+          "other": "Bony podarunkowe zostały wysłane przez SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Bon podarunkowy zostanie wysłany w osobnym SMS-ie.",
+          "other": "Każdy bon podarunkowy jest wysyłany w osobnym sms-ie."
+        },
+        "gift_resend_success": {
+          "one": "Bon podarunkowy wysłany ponownie"
         }
       }
     }
