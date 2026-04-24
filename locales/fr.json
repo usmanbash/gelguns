@@ -2640,7 +2640,93 @@
       },
       "split_delivery": {
         "pickup_all_items": "Retirer tous les articles",
-        "items_for_pickup": "Articles à retirer"
+        "items_for_pickup": "Articles à retirer",
+        "delivery_method": "Méthode de livraison fractionnée",
+        "delivery_method_menu": "Menu méthode de livraison fractionnée",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} de %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} de %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Impossible de récupérer %{count} article(s)"
+            }
+          },
+          "remove_item": {
+            "one": "Supprimer l'article",
+            "other": "Supprimer les articles"
+          },
+          "ship_separately": {
+            "one": "envoyer séparément",
+            "other": "envoyer séparément"
+          },
+          "pick_them_up_in_store": {
+            "one": "retirer en magasin",
+            "other": "retirer en magasin"
+          }
+        },
+        "items_for_shipping": "Articles pour expédition",
+        "items_moved_to_shipping_toast": "Les articles qui ne peuvent pas être récupérés ont été déplacés vers l'expédition",
+        "cross_border": {
+          "modal": {
+            "content": "Cela réinitialise tous les articles pour l'expédition. Vos points de retrait et d'expédition doivent se trouver dans le même pays.",
+            "change_country": "Modifier le pays"
+          },
+          "banner": "Votre méthode de livraison a été mise à jour"
+        }
+      },
+      "captcha": {
+        "title": "Passez le CAPTCHA pour continuer",
+        "errors": {
+          "not_solved": "Passez le CAPTCHA pour continuer"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Votre commande n'a pas pu être traitée car votre code de réduction n'est plus disponible. Vérifiez le total de votre commande et réessayez."
+      },
+      "wallets": {
+        "return_to_store": "Retour au magasin",
+        "redirect_hint": "Vous êtes invité à vous connecter à {{walletName}}.",
+        "logged_in": "Connecté avec {{email}}",
+        "connect_shipping_methods": "{{method1}} en {{method2}}",
+        "payment_in_progress_body": "Le paiement est en cours de traitement. La commande est presque terminée.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} n'est pas disponible",
+            "description": "{{walletName}} n'était pas disponible. Utilisez un autre moyen de paiement ou réessayez plus tard.",
+            "instructions": "Un problème est survenu avec {{walletName}}. Retournez à la boutique et essayez de nouveau ou payez avec une autre méthode.",
+            "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour finaliser votre achat"
+          },
+          "generic": "Un problème est survenu avec {{walletName}}. Veuillez réessayer ou utiliser un autre mode de paiement.",
+          "terminal": "Un problème est survenu avec {{walletName}}. Veuillez utiliser un autre mode de paiement.",
+          "detour": {
+            "price_change": "Les prix de certains articles ont changé. Fermez {{walletName}} pour vérifier votre commande et réessayez.",
+            "queue": "Vous êtes dans la file d'attente pour le paiement. Connectez {{walletName}} pour continuer.",
+            "currency_change": "Vous ne pouvez pas utiliser une autre adresse avec {{walletName}}. Utilisez l'adresse d'origine ou essayez un autre mode de paiement."
+          },
+          "unsupported": {
+            "address": "Le marchand ne peut pas livrer à l'adresse de livraison que vous avez choisie.",
+            "postal_code": "Cet emplacement n'est pas pris en charge",
+            "wallet_is_unavailable": "Vous ne pouvez pas utiliser {{walletName}} avec cette adresse. Sélectionnez une autre adresse ou fermez {{walletName}} pour finaliser l'achat."
+          },
+          "outdated": {
+            "shipping_method": "Les options d'expédition pour votre commande ont été modifiées. Veuillez vérifier votre sélection.",
+            "payment_terms": "Les conditions de paiement ont été modifiées. Vérifiez votre commande"
+          },
+          "invalid": {
+            "shipping_address": "Veuillez saisir une adresse de livraison valide",
+            "billing_address": "Veuillez saisir une adresse de facturation valide",
+            "shipping_option": "Choisissez une option d'expédition valide",
+            "email": "Veuillez saisir une adresse courriel valide",
+            "zone": "Veuillez saisir un état/province valide",
+            "postal_code": "Veuillez saisir un code postal valide",
+            "reduction_code": "Entrez un code de réduction ou un bon cadeau valide",
+            "billing_must_match_shipping": "Doit correspondre à l'adresse de livraison.",
+            "phone": "Veuillez saisir un numéro de téléphone valide",
+            "emirate": "Entrez un émirat valide",
+            "billing_zone": "Veuillez saisir un état/province valide pour l'adresse de facturation",
+            "billing_phone": "Veuillez saisir un numéro de téléphone valide pour l'adresse de facturation"
+          }
+        }
       }
     }
   }
