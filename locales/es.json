@@ -1476,7 +1476,77 @@
         "swish_label": "Ondear",
         "network_card_persistence_description": "La red seleccionada se guardará con tu método de pago para futuras transacciones.",
         "payment_method_incompatible_with_payment_terms": "El método de pago es incompatible con los términos de pago.",
-        "billing_address_rollup_accessibility_label": "Opciones para la dirección de facturación"
+        "billing_address_rollup_accessibility_label": "Opciones para la dirección de facturación",
+        "payment_method_rollup_accessibility_label": "Opciones de método de pago",
+        "crypto_modal": {
+          "header": "Pagar %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Renovar",
+            "web_component_error": "Se ha producido un problema al cargar esta página"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Cuenta corriente",
+          "savings": "Cuenta de ahorros"
+        },
+        "bank_account_choose": "Elige una cuenta para completar tu compra de forma segura",
+        "bank_account_connect_another": "Vincular otra cuenta bancaria",
+        "bank_account_connect": "Vincular cuenta bancaria",
+        "bank_account_missing": "La cuenta bancaria debe estar vinculada",
+        "crypto_payment_method": {
+          "description": "Conecta tu billetera de forma segura. Tu saldo y dirección no se compartirán.",
+          "tooltip": "El saldo de tu cartera y tu dirección no se comparten y solo se puede descontar la cantidad solicitada",
+          "cashback_descriptor": {
+            "one": "Recibirás tu reembolso después de %{count} días"
+          }
+        },
+        "usdc_cashback_additional_info": "Paga con USDC en Base y recibe dentro de 30 días %{incentive_percentage}% de vuelta en tu billetera digital.",
+        "usdc_cashback_terms": "Términos y límites aplicables",
+        "separate_payments_label": "Tus artículos provienen de más de una tienda. Debes pagar con %{separate_payments_link}.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Guarda este método de pago al finalizar la compra y autoriza a %{company} a cargar tu cuenta por futuras compras que apruebes para esta ubicación, hasta que canceles. Todos los contactos asignados a esta ubicación pueden usar el método de pago.",
+        "new_bank_account_disclaimer": "Al completar tu pedido, autorizas a %{shop_name} a debitar el importe indicado en la fecha mencionada de la cuenta siguiente mediante ACH.",
+        "bank_account_disclaimer": "Puede tardar hasta 4 días hábiles en procesarse los pagos ACH.",
+        "bank_account_vaulted_company_location": "Cuenta bancaria guardada para esta ubicación",
+        "bank_account_generic_error": "No se puede añadir la cuenta bancaria. Inténtalo de nuevo más tarde.",
+        "discount_codes_removed_summary": {
+          "one": "Se eliminó el código de descuento %{count}",
+          "other": "Se han eliminado %{count} códigos de descuento"
+        },
+        "default": "Estándar",
+        "continue_to_guest_checkout": "Como invitado al pago",
+        "add_payment_method": "Agregar método de pago",
+        "choose_new_payment_method": "Elige un nuevo método de pago",
+        "add_new_payment_method": "Agregar un nuevo método de pago",
+        "discount_codes_modified_summary": {
+          "one": "Se ha modificado %{count} código de descuento",
+          "other": "Se han modificado %{count} códigos de descuento"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "Se ha eliminado o modificado el código de descuento %{count}",
+          "other": "Se han eliminado o modificado %{count} códigos de descuento"
+        },
+        "multiple_primary_payment_not_allowed": "Métodos de pago no válidos"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Caduca el %{month}/%{year}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Introduzca un número de teléfono válido",
+        "handle_email_invalid": "Introduce una dirección de correo electrónico válida",
+        "email_invalid": "Introduce una dirección de correo electrónico válida",
+        "email_or_phone_blank": "Introduzca dirección de correo electrónico o número de teléfono",
+        "email_or_phone_invalid": "Introduzca una dirección de correo electrónico o un número de teléfono móvil válido",
+        "address_last_name_blank": "Introduzca un apellido",
+        "address_address2_blank": "Introduzca un número de apartamento o suite, etc.",
+        "address_city_blank": "Introduce una ciudad",
+        "address_country_blank": "Seleccione un país/región",
+        "address_country_not_supported": "No enviamos a este país/esta región. Introduzca una nueva dirección de entrega y vuelva a intentarlo.",
+        "address_province_blank": "Seleccione un estado/provincia",
+        "address_company_blank": "Introduzca un nombre de empresa",
+        "address_phone_blank": "Introduzca un número de teléfono válido",
+        "address_zip_blank": "Introduzca un código postal o ZIP",
+        "address_zip_invalid_for_country": "Introduzca un código postal válido para %{country}",
+        "address_zip_invalid_for_country_and_province": "Introduzca un código postal válido para %{province}, %{country}"
       }
     }
   }
