@@ -4363,7 +4363,85 @@
         "missing_customer_error": "Valami hiba történt. Próbálja meg újra, vagy lépjen kapcsolatba a támogatással."
       },
       "expired": "Ez a kártya lejárt.",
-      "card_update_consent": "Ez a fizetési mód a jövőbeni vásárlásokhoz elmentésre kerül."
+      "card_update_consent": "Ez a fizetési mód a jövőbeni vásárlásokhoz elmentésre kerül.",
+      "google_pay": {
+        "errors": {
+          "generic": "Probléma történt a Google Pay használata közben. Próbálja meg újra, vagy válasszon másik fizetési módot.",
+          "missing_billing_address": "A Google Pay használatához szükséged van egy számlázási címre. Adj hozzá egyet a fiókodban."
+        },
+        "loading": "Google Pay betöltve",
+        "loading_accessibility_message": "Google Pay betöltve"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay feltöltve",
+        "errors": {
+          "generic": "Probléma történt az Apple Pay használata közben. Próbálja meg újra, vagy válasszon másik fizetési módot.",
+          "not_available": "Az Apple Pay nem elérhető ezen az eszközön.",
+          "missing_billing_address": "Az Apple Pay használatához számlázási cím szükséges. Adj hozzá egyet a fiókodban."
+        }
+      },
+      "add_payment_method_banner": "Fizetési mód hozzáadása a gyorsabb fizetéshez és az előzetes engedélyezés szolgáltatásaihoz",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}} szerkesztése, amely {{lastDigits}}-re végződik",
+      "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}} szerkesztése",
+      "expiration_warning_button_accessibility_label": "Figyelmeztetés megjelenítése a(z) {{paymentMethodName}} fizetési módhoz, amely {{lastDigits}} végződik",
+      "no_payment_methods_banner": "Nincs hozzáadva fizetési mód",
+      "store_credit": {
+        "label": "Vásárlási jóváírás",
+        "accesibility_label": "Boltbeli egyenleg - {{formattedBalance}}",
+        "details_modal": {
+          "title": "Lejáró vásárlási jóváírás",
+          "expiration_date_label": "Lejárati dátum",
+          "expirable_balance_info": "A számla egy része egy jövőbeli napon lejár.",
+          "expirable_amount_label": "Teljes összeg, amely elvész",
+          "expirable_amounts_info": "A korábban lejárt összegeket a fizetéskor először alkalmazzuk.",
+          "pagination": {
+            "load_more_label": "Több betöltése",
+            "load_more_accessibility_label": "További összegek, amelyek lejárnak betöltése"
+          },
+          "events": {
+            "adjustment": "Beállítás",
+            "order_payment": "Rendelés fizetése",
+            "payment_returned": "Visszafizetés megtörtént",
+            "tax_finalization": "Adózási lezárás"
+          }
+        },
+        "expirable_amounts_label": "Lejárt összegek"
+      },
+      "three_d_secure": {
+        "title": "3D Biztonságos Azonosítás",
+        "verification_failed": "A fizetésed nem ellenőrizhető. Próbáld újra, vagy használj másik fizetési módot."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "PayPal-fizetési mód hozzáadása",
+        "loading_accessibility_message": "PayPal fizetés",
+        "errors": {
+          "generic": "Probléma adódott a PayPallal. Próbálja meg újra, vagy használjon más fizetési módot."
+        }
+      },
+      "card_update_consent_subscriptions": "Ez a fizetési mód elmentésre kerül a jövőbeni vásárlásokhoz, és használható bármilyen ismétlődő vagy elhalasztott vásárláshoz.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Egy fizetési mód hozzáadásával engedélyezheted, hogy amíg vissza nem vonod, költségek kerüljenek felszámításra a kártyádon, vagy hogy a jövőbeni vásárlásaidnál, amelyeket jóváhagysz, levonások történjenek a bankszámládról."
+      },
+      "replacement_payment_method_title": "Helyettesítő fizetési módok",
+      "bank_account": {
+        "loading_accessibility_message": "A bankszámla gomb betöltése folyamatban",
+        "generic_error": "Nem sikerült hozzáadni a bankszámlát. Kérjük, próbálja meg később újra."
+      },
+      "update_payment_method": {
+        "disclaimer": "Ez a fizetési mód elmentésre kerül a jövőbeni vásárlásokhoz, és használható bármilyen ismétlődő vagy elhalasztott vásárláshoz.",
+        "error_message": "Nem lehet frissíteni a fizetési módot",
+        "loading_form_accessibility_message": "A fizetési mód frissítésére szolgáló űrlap betöltése folyamatban van",
+        "loading_current_payment_method": "Jelenlegi fizetési mód betöltése alatt áll",
+        "loading_digital_wallets": "Digitális pénztárca lehetőségek betöltése alatt állnak",
+        "loading_card_fields": "Hitelkártya mezők betöltése folyamatban",
+        "subscriptions_list_accessibility_label": "Előfizetési termékek listája",
+        "pre_orders_title": "Következő",
+        "pre_orders_list_accessibility_label": "Folyamatban lévő rendelésekkel rendelkező termékek listája",
+        "resources_list_accessibility_label": "Előfizetéses termékek és folyamatban lévő rendelést használó termékek, amelyek ezt a fizetési módot alkalmazzák",
+        "resources_card_scroll": "Görgessen lejjebb további cikkekért",
+        "resources_card_show_more": "További megjelenítése",
+        "resources_card_show_less": "Mindet megjelenít"
+      }
     }
   }
 }
