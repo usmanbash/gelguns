@@ -3950,8 +3950,78 @@
             "order_cancellation": "Avbeställning av beställning",
             "tax_finalization": "Avrundning av skatt"
           }
-        }
+        },
+        "expirable_amounts_label": "Förfallna belopp"
+      },
+      "three_d_secure": {
+        "title": "3D Säkerhet",
+        "verification_failed": "Din betalning kan inte verifieras. Försök igen eller använd en annan betalningsmetod."
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Ladda PayPal"
+      },
+      "card_update_consent_subscriptions": "Denna betalningsmetod sparas för framtida köp och kan användas för varje återkommande eller uppskjuten betalning.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Genom att lägga till en betalningsmetod kan du godkänna att kostnader debiteras ditt kort tills du avbryter, eller att framtida köp som du godkänner dras från ditt bankkonto."
+      },
+      "replacement_payment_method_title": "Ersättande betalningsmetoder",
+      "bank_account": {
+        "loading_accessibility_message": "Knapp för bankkonto laddas",
+        "iframe_title_accessibility_label": "Inställning av bankkonto",
+        "generic_error": "Kan inte lägga till bankkonto. Försök igen senare."
+      },
+      "update_payment_method": {
+        "button_title": "Uppdateringen",
+        "disclaimer": "Denna betalningsmetod sparas för framtida köp och kan användas för varje återkommande eller uppskjuten betalning.",
+        "error_message": "Kan inte uppdatera betalningsmetod",
+        "loading_form_accessibility_message": "Formulär för uppdatering av betalningsmetod laddas",
+        "loading_current_payment_method": "Aktuell betalningsmetod laddas",
+        "loading_digital_wallets": "Alternativ för digital plånbok laddas",
+        "loading_card_fields": "Kreditkortsuppgifterna laddas",
+        "subscriptions_title": "Prenumerationerna",
+        "pre_orders_list_accessibility_label": "Lista över produkter med pågående beställning",
+        "resources_list_accessibility_label": "Prenumerationsprodukter och produkter med en pågående beställning som använder denna betalningsmetod",
+        "resources_card_show_more": "Visa mer",
+        "resources_card_show_less": "Visa mindre",
+        "loading_resources": "Laddar prenumerationer och kommande beställningar"
+      },
+      "link_expired": {
+        "message": "Denna länk för att uppdatera din betalningsmetod har gått ut.",
+        "return_home_button": "Tillbaka till startsidan",
+        "update_message": "Denna länk för att uppdatera din betalningsmetod har gått ut.",
+        "add_message": "Denna länk för att lägga till din betalningsmetod har gått ut."
+      },
+      "update_success": {
+        "done_button": "Fortsätt handla"
+      },
+      "expired_badge_label": "Utgånget",
+      "credit_card_title": "Kreditkort",
+      "or": "ELLER",
+      "add_success": {
+        "title": "Betalningsmetod tillagd"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Handla med Pay",
+      "applepay": "Apple-betalning",
+      "googlepay": "Google Betalning",
+      "discover": "Upptäck",
+      "dinersclub": "Dinersklubben",
+      "forbrugsforeningen": "Förbrukningsföreningen",
+      "hipercard": "Hiperkort",
+      "unionpay": "Unionbetalning",
+      "storecredit": "Butikskredit"
+    },
+    "enable_javascript": "Aktivera JavaScript i dina webbläsarinställningar eller logga in med en annan webbläsare för att se ditt konto.",
+    "ui_components": {
+      "expandNotification": "Se mer",
+      "submit": "Indien",
+      "processing": "Bearbetar...",
+      "increase": "Ökning av {{type}}",
+      "decrease": "Avhämtning av {{type}}",
+      "minimumReached": "Minimum från {{value}} uppnått",
+      "maximumReached": "Maximalt värde på {{value}} uppnått",
+      "january": "januari"
     }
   }
 }
