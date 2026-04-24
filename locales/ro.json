@@ -1534,7 +1534,65 @@
         "discount_show_more_warnings": {
           "one": "Afișează %{count} mai multe",
           "other": "Afișează %{count} mai multe"
+        },
+        "separate_payments_label": "Articolele tale provin din mai multe magazine. Trebuie să plătești cu %{separate_payments_link}.",
+        "payments": "Plata",
+        "business_customer_with_bank_account_vaulting_payment_label": "Salvează această metodă de plată la finalizarea comenzii și autorizează %{company} să îți debiteze contul pentru achizițiile viitoare pe care le aprobi pentru această locație, până când anulezi. Toate persoanele de contact atribuite acestei locații pot folosi metoda de plată.",
+        "new_bank_account_disclaimer": "Prin finalizarea comenzii, autorizezi %{shop_name} să debiteze suma indicată la data specificată din contul de mai jos prin ACH.",
+        "bank_account_disclaimer": "Poate dura până la 4 zile lucrătoare până când plățile ACH sunt procesate.",
+        "bank_account_vaulted_company_location": "Cont bancar salvat pentru această locație",
+        "bank_account_generic_error": "Nu se poate adăuga contul bancar. Vă rugăm să încercați din nou mai târziu.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} cod de reducere a fost șters",
+          "other": "Au fost eliminate %{count} coduri de reducere"
+        },
+        "default": "Standard",
+        "continue_to_guest_checkout": "Ca oaspete la finalizarea comenzii",
+        "add_payment_method": "Adăugare metodă de plată",
+        "add_new_payment_method": "Adăugați o nouă metodă de plată",
+        "discount_codes_removed_or_modified_summary": {
+          "one": "Codul de reducere %{count} a fost șters sau modificat"
         }
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Expiră în %{month}/%{year}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Introduceți un număr de telefon valid",
+        "handle_email_invalid": "Introduceți o adresă de email valabilă",
+        "email_invalid": "Introduceți o adresă de email valabilă",
+        "email_or_phone_blank": "Introduceți adresa de email sau numărul de telefon",
+        "email_or_phone_invalid": "Introduceți o adresă de email valabilă sau un număr de telefon mobil",
+        "address_first_name_blank": "Introduceți un prenume",
+        "address_last_name_blank": "Introduceți un nume de familie",
+        "address_address1_blank": "Introduceți o adresă",
+        "address_address2_blank": "Introduceți un număr de apartament sau suită, etc.",
+        "address_city_blank": "Introduceți un oraș",
+        "address_country_blank": "Selectați o țară/regiune",
+        "address_country_not_supported": "Nu livrăm în această țară/regiune. Introdu o nouă adresă de livrare și încearcă din nou.",
+        "address_province_blank": "Selectați un stat/provincie",
+        "address_company_blank": "Introduceți un nume de firmă",
+        "address_phone_blank": "Introduceți un număr de telefon valid",
+        "address_zip_blank": "Introduceți un cod poștal sau ZIP",
+        "address_zip_invalid_for_country": "Introduceți un cod poștal valid pentru %{country}",
+        "address_zip_invalid_for_country_and_province": "Introduceți un cod poștal valid pentru %{province}, %{country}",
+        "credit_card_name_blank": "Introdu numele tău așa cum apare pe cardul tău",
+        "credit_card_name_invalid": "Introdu numele tău așa cum apare pe cardul tău",
+        "credit_card_number_invalid": "Introduceți un număr de card valid",
+        "credit_card_expiry_invalid": "Introduceți o dată de expirare valabilă",
+        "credit_card_month_invalid": "Introduceți o lună de expirare validă",
+        "credit_card_year_invalid": "Introduceți un an de expirare valabil",
+        "credit_card_start_invalid": "Introduceți o dată de început valabilă pentru card",
+        "credit_card_start_month_invalid": "Introduceți o lună de început valabilă pentru card",
+        "credit_card_start_year_invalid": "Introduceți un an de început valid pentru hartă",
+        "credit_card_verification_value_blank": "Introduceți codul CVV/CVC sau codul de siguranță al cardului dumneavoastră",
+        "delivery_line_detail_changed": "Unele date de livrare s-ar fi putut schimba. Verifică metoda de expediere și încearcă din nou.",
+        "reduction_code_code_not_found": "Introduceți un cod de reducere sau un bon cadou valid",
+        "reduction_code_discount_not_found": "Introduceți un cod de reducere valid",
+        "reduction_code_gift_card_code_invalid": "Introduceți un bon cadou valabil",
+        "reduction_code_gift_card_unusable": "Nu poți folosi un bon cadou pentru a cumpăra un alt bon cadou",
+        "shipping_line_phone_blank": "Introduceți un număr de telefon pentru a folosi această metodă de livrare",
+        "shipping_line_phone_invalid": "Introduceți un număr de telefon valid"
       }
     }
   }

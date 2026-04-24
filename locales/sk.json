@@ -404,8 +404,8 @@
       "cancel": "Zrušiť",
       "remove_all_single_item_confirmation": "Odstrániť 1 položku z tvojho košíka?",
       "min_error": "Pre tento článok platí minimálny odber {{ min }}.",
-      "max_error": "Maximálne množstvo tejto položky je {{ max }}",
-      "step_error": "Túto položku môžete pridať iba v prírastkoch po {{ step }}"
+      "max_error": "Pre tento článok platí maximum {{ max }}.",
+      "step_error": "Tento článok môžete pridať iba po krokoch {{ step }}"
     }
   },
   "localization": {
