@@ -2441,6 +2441,86 @@
               "one": "No se pueden enviar %{count} artículos",
               "other": "No se pueden enviar %{count} artículos"
             }
+          },
+          "ship_separately": {
+            "one": "enviar por separado",
+            "other": "enviar por separado"
+          },
+          "pick_them_up_in_store": {
+            "one": "recoger en la tienda",
+            "other": "recoger en la tienda"
+          }
+        },
+        "items_moved_to_shipping_toast": "Los artículos que no se pueden recoger han sido trasladados a envío",
+        "cross_border": {
+          "modal": {
+            "content": "Esto restablece todos los artículos para envío. Tus ubicaciones de recogida y envío deben estar en el mismo país.",
+            "change_country": "Cambiar país"
+          },
+          "banner": "Tu método de entrega ha sido actualizado"
+        }
+      },
+      "captcha": {
+        "title": "Complete el CAPTCHA para continuar",
+        "errors": {
+          "not_solved": "Complete el CAPTCHA para continuar"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "No se pudo procesar tu pedido porque tu código de descuento ya no está disponible. Revisa el total de tu pedido e inténtalo de nuevo."
+      },
+      "wallets": {
+        "redirect_hint": "Se te solicita iniciar sesión en {{walletName}}.",
+        "logged_in": "Conectado con {{email}}",
+        "connect_shipping_methods": "{{method1}} en {{method2}}",
+        "payment_in_progress_title": "Pago en proceso",
+        "payment_in_progress_body": "El pago se está procesando. El pedido está casi completado.",
+        "call_to_action": "Paga con {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "description": "{{walletName}} no estaba disponible. Utilice otro método de pago o inténtelo de nuevo más tarde.",
+            "instructions": "Ha ocurrido un problema con {{walletName}}. Vuelve a la tienda y prueba de nuevo o paga con otro método.",
+            "unavailable_for_country": "{{walletName}} no está disponible en {{countryName}}. Selecciona otro método de pago para completar tu compra"
+          },
+          "generic": "Se ha producido un problema con {{walletName}}. Intenta de nuevo o utiliza otro método de pago.",
+          "terminal": "Ha ocurrido un problema con {{walletName}}. Utilice otro método de pago.",
+          "detour": {
+            "stock_problems": "Algunos artículos ya no están disponibles. Cierra {{walletName}} y vuelve a intentarlo.",
+            "price_change": "Los precios de algunos artículos han cambiado. Cierra {{walletName}} para revisar tu pedido y vuelve a intentarlo.",
+            "queue": "Estás en la fila para el pago. Cierra {{walletName}} para continuar.",
+            "currency_change": "No puedes usar otra dirección con {{walletName}}. Usa la dirección original o intenta con otro método de pago."
+          },
+          "unsupported": {
+            "address": "El comerciante no puede entregar en la dirección de envío que has seleccionado.",
+            "postal_code": "Esta ubicación no está soportada",
+            "wallet_is_unavailable": "No puedes usar {{walletName}} con esta dirección. Selecciona otra dirección o cierra {{walletName}} para completar la compra."
+          },
+          "outdated": {
+            "shipping_method": "Las opciones de envío para tu pedido han cambiado. Revisa tu selección.",
+            "payment_terms": "Las condiciones de pago han cambiado. Verifica tu pedido"
+          },
+          "invalid": {
+            "shipping_address": "Introduzca una dirección de entrega válida",
+            "billing_address": "Introduzca una dirección de facturación válida",
+            "shipping_option": "Elige una opción de envío válida",
+            "email": "Introduce una dirección de correo electrónico válida",
+            "zone": "Introduzca un estado/provincia válido",
+            "postal_code": "Introduzca un código postal válido",
+            "reduction_code": "Introduce un código de descuento o vale regalo válido",
+            "billing_must_match_shipping": "Debe coincidir con la dirección de entrega.",
+            "phone": "Introduzca un número de teléfono válido",
+            "emirate": "Introduzca un emirato válido",
+            "billing_zone": "Introduzca un estado/provincia válido para la dirección de facturación",
+            "billing_phone": "Introduzca un número de teléfono válido para la dirección de facturación",
+            "billing_zip": "Introduzca un código postal válido para la dirección de facturación"
+          },
+          "missing": {
+            "last_name": "Introduzca un apellido",
+            "address2": "Introduzca un número de apartamento o suite, etc.",
+            "city": "Introduce un lugar",
+            "province": "Seleccione un estado/provincia",
+            "country": "Seleccione un país/región",
+            "zip": "Introduzca un código postal o ZIP"
           }
         }
       }
