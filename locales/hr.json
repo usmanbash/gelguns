@@ -4263,7 +4263,67 @@
         "title": "Način plaćanja ažuriran",
         "done_button": "Nastavi s kupnjom"
       },
-      "or": "ILI"
+      "or": "ILI",
+      "add_success": {
+        "title": "Način plaćanja dodan",
+        "done_button": "Nastavi s kupnjom"
+      }
+    },
+    "payment_method_brands": {
+      "shoppay": "Plati prilikom kupnje",
+      "discover": "Otkrijte",
+      "hipercard": "Hiperkartica",
+      "unionpay": "Union Pay",
+      "storecredit": "Kredit u trgovini",
+      "bogus": "Lažan"
+    },
+    "enable_javascript": "Uključi JavaScript u postavkama preglednika ili se prijavi s drugim preglednikom da bi pregledao svoj račun.",
+    "ui_components": {
+      "expandNotification": "Pogledaj više",
+      "submit": "Podnijeti zahtjev",
+      "increase": "Povećanje {{type}}",
+      "decrease": "Preuzimanje {{type}}",
+      "minimumReached": "Minimalno van {{value}} dosegnuto",
+      "maximumReached": "Maksimalni van {{value}} dosegnut",
+      "january": "siječanj",
+      "february": "veljača",
+      "march": "ožujak",
+      "april": "travanj",
+      "may": "mei",
+      "june": "lipanj",
+      "july": "srpanj",
+      "august": "kolovoz",
+      "september": "rujan",
+      "october": "listopad",
+      "november": "studeni",
+      "december": "prosinac",
+      "monday": "ponedjeljak",
+      "tuesday": "utorak",
+      "wednesday": "srijeda",
+      "thursday": "četvrtak",
+      "friday": "petak",
+      "saturday": "subota",
+      "sunday": "nedjelja",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "učiniti.",
+      "fridayAbbreviation": "g.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "showPreviousMonth": "Prikaz prethodnog mjeseca, {{month}} {{year}}",
+      "rangeStart": "Započni doseg",
+      "inRange": "U dosegu",
+      "rangeEnd": "Kraj dosega",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artikala dostupno",
+        "other": "{{count}} dostupnih artikala"
+      },
+      "removeTag": "Ukloni oznaku",
+      "mapClusterTitle": {
+        "one": "Skupina od {{number}} oznaka za označavanje",
+        "other": "Skupina od {{number}} označenih točaka"
+      }
     }
   }
 }
