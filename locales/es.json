@@ -482,7 +482,7 @@
     "recover_password": {
       "title": "Restablecer contraseña",
       "subtext": "Te enviaremos un correo electrónico para restablecer tu contraseña",
-      "success": "Te hemos enviado un correo electrónico con un enlace para actualizar tu contraseña."
+      "success": "Te hemos enviado un correo electrónico con un enlace para restablecer tu contraseña."
     },
     "register": {
       "title": "Crear cuenta",
@@ -493,21 +493,21 @@
       "submit": "Crear"
     },
     "reset_password": {
-      "title": "Restablecer contraseña de cuenta",
-      "subtext": "Introduce una nueva contraseña.",
+      "title": "Restablecer la contraseña de la cuenta",
+      "subtext": "Introduzca una nueva contraseña",
       "password": "Contraseña",
       "password_confirm": "Confirmar contraseña",
       "submit": "Restablecer contraseña"
     },
     "order": {
       "title": "Pedido {{ name }}",
-      "date_html": "Realizado el {{ date }}",
+      "date_html": "Publicado el {{ date }}",
       "cancelled_html": "Pedido cancelado el {{ date }}",
-      "cancelled_reason": "Motivo: {{ reason }}",
+      "cancelled_reason": "Razón: {{ reason }}",
       "billing_address": "Dirección de facturación",
-      "payment_status": "Estado del pago",
-      "shipping_address": "Dirección de envío",
-      "fulfillment_status": "Estado de preparación del pedido",
+      "payment_status": "Estado de pago",
+      "shipping_address": "Dirección de entrega",
+      "fulfillment_status": "Estado de cumplimiento",
       "discount": "Descuento",
       "shipping": "Envío",
       "tax": "Impuesto",
@@ -516,46 +516,46 @@
       "price": "Precio",
       "quantity": "Cantidad",
       "total": "Total",
-      "fulfilled_at_html": "Preparado el {{ date }}",
-      "track_shipment": "Hacer seguimiento del envío",
+      "fulfilled_at_html": "Completado {{ date }}",
+      "track_shipment": "Seguir envío",
       "tracking_url": "Enlace de seguimiento",
-      "tracking_company": "Empresa de transporte",
+      "tracking_company": "Transportista",
       "tracking_number": "Número de seguimiento",
       "subtotal": "Subtotal",
-      "total_duties": "Aranceles",
+      "total_duties": "Derechos aduaneros",
       "total_refunded": "Reembolsado"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Este es el saldo de tu tarjeta de regalo de {{ value }} para {{ shop }}.",
-      "subtext": "Tu tarjeta de regalo",
-      "gift_card_code": "Código de tarjeta de regalo",
-      "shop_link": "Visitar la tienda online",
-      "add_to_apple_wallet": "Agregar a Apple Wallet",
-      "qr_image_alt": "Código QR: escanea para canjear la tarjeta de regalo",
-      "copy_code": "Copiar el código de la tarjeta de regalo",
-      "expired": "Vencido",
-      "copy_code_success": "El código se copió correctamente",
-      "how_to_use_gift_card": "Usar el código de la tarjeta de regalo online o el código QR en la tienda",
+      "title": "Este es el saldo de la tarjeta de regalo por un valor de {{ value }} para {{ shop }}",
+      "subtext": "Tu vale de regalo",
+      "gift_card_code": "Código de vale regalo",
+      "shop_link": "Visitar tienda en línea",
+      "add_to_apple_wallet": "Añadir a Apple Wallet",
+      "qr_image_alt": "Código QR — escanee para canjear el vale regalo",
+      "copy_code": "Copiar código de vale regalo",
+      "expired": "Caducado",
+      "copy_code_success": "Código copiado",
+      "how_to_use_gift_card": "Utilice el código del vale regalo en línea o el código QR en la tienda",
       "expiration_date": "Caduca el {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
-      "checkbox": "Quiero enviar esto como un regalo.",
-      "email_label": "Correo electrónico de la persona destinataria",
-      "email": "Correo electrónico",
-      "name_label": "Nombre de la persona destinataria (opcional)",
+      "checkbox": "Quiero enviar esto como regalo",
+      "email_label": "Dirección de correo electrónico del destinatario",
+      "email": "Dirección de correo electrónico",
+      "name_label": "Nombre del destinatario (opcional)",
       "name": "Nombre",
       "message_label": "Mensaje (opcional)",
       "message": "Mensaje",
-      "max_characters": "{{ max_chars }} caracteres máx.",
-      "email_label_optional_for_no_js_behavior": "Correo electrónico de la persona destinataria (opcional)",
+      "max_characters": "Máximo {{ max_chars }} caracteres",
+      "email_label_optional_for_no_js_behavior": "Correo electrónico del destinatario (opcional)",
       "send_on": "AAAA-MM-DD",
       "send_on_label": "Enviar el (opcional)",
-      "expanded": "Formulario del destinatario de la tarjeta de regalo expandido",
-      "collapsed": "Formulario del destinatario de tarjeta de regalo contraído"
+      "expanded": "Formulario para destinatario de bono de regalo desplegado",
+      "collapsed": "Formulario para destinatario de bono regalo plegado"
     }
   },
   "shopify": {
