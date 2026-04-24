@@ -2449,8 +2449,100 @@
         },
         "all_stores_far_away": {
           "title": "As localizações mais próximas encontram-se a mais de %{distance} de distância",
-          "description": "Selecione uma localização ou %{ship_to_address_link}"
+          "description": "Selecione uma localização ou %{ship_to_address_link}",
+          "ship_to_address_link": "endereço de entrega",
+          "title_with_specific_location": "A localização mais próxima com o seu artigo encontra-se a mais de %{distance} de %{location}.",
+          "title_with_item": {
+            "one": "A localização mais próxima com o seu artigo encontra-se a mais de %{distance} de %{location}.",
+            "other": "A localização mais próxima com os seus artigos encontra-se a mais de %{distance} de %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "O local selecionado anteriormente já não está disponível",
+          "description": "Selecione uma nova localização ou %{ship_to_address_link}",
+          "ship_to_address_link": "Enviar para o endereço"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Enviar os seus artigos",
+          "search_elsewhere": "procure noutro lado",
+          "ship_items_or_search_elsewhere": "%{ship_items} de %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} ou morada",
+        "location_closest": "Local mais próximo com o seu artigo",
+        "toggle_multiple_locations": "Mais de %{count} outros locais",
+        "location_information_far_away": {
+          "one": "Há %{count} local com o teu artigo",
+          "other": "Existem %{count} locais com o teu artigo"
+        },
+        "location_nearby": {
+          "one": "Há %{count} localizações próximas com o teu artigo",
+          "other": "Existem %{count} locais perto com o teu artigo"
+        },
+        "location_nearby_short": {
+          "one": "%{count} localizações próximas com o seu artigo",
+          "other": "%{count} locais próximos com o seu artigo"
+        },
+        "location_far_away": {
+          "one": "%{count} localizações com o seu artigo",
+          "other": "%{count} locais com o seu artigo"
+        },
+        "toggle_more_locations": {
+          "one": "Nog %{count} outra localização",
+          "other": "Nog %{count} outras localizações"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nenhum local com o seu artigo",
+          "other": "Nenhum local com os seus artigos"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nenhum local em %{country} com o seu artigo",
+          "other": "Nenhum local em %{country} com os seus artigos"
         }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Levantar todos os artigos",
+        "items_for_pickup": "Artigos para levantar",
+        "delivery_method": "Método de entrega dividido",
+        "delivery_method_menu": "Menu método de entrega dividido",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} de %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} de %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Não foi possível obter %{count} artigos",
+              "other": "Não foi possível recuperar %{count} artigos"
+            },
+            "cannot_be_shipped": {
+              "one": "Não é possível enviar %{count} artigo(s)",
+              "other": "Não é possível enviar %{count} artigos"
+            }
+          },
+          "remove_item": {
+            "one": "Remover artigo",
+            "other": "Remover artigos"
+          },
+          "ship_separately": {
+            "one": "enviar separadamente",
+            "other": "enviar separadamente"
+          },
+          "pick_them_up_in_store": {
+            "one": "levantar na loja",
+            "other": "levantar na loja"
+          }
+        },
+        "items_for_shipping": "Artigos para envio",
+        "items_moved_to_shipping_toast": "Artigos que não podem ser recolhidos foram transferidos para envio",
+        "cross_border": {
+          "modal": {
+            "heading": "Alterar país?",
+            "content": "Isto irá repor todos os artigos para envio. Os seus locais de recolha e envio devem estar no mesmo país.",
+            "change_country": "Alterar país"
+          },
+          "banner": "O seu método de entrega foi atualizado"
+        }
+      },
+      "captcha": {
+        "title": "Complete o CAPTCHA para continuar"
       }
     }
   }
