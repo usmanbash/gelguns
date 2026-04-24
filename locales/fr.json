@@ -2136,7 +2136,79 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Après paiement, vous recevrez un courriel de confirmation avec le numéro de commande.",
+        "vat_invoices": {
+          "title": "Factures TVA"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Votre paiement est en cours de traitement. Vous recevrez un courriel lorsque votre paiement sera confirmé.",
+        "verify_shop_account_title": "Vérifie ton compte Boutique",
+        "verify_shop_account_message": "Vos informations sont enregistrées chez Shop. Vérifiez votre compte pour les utiliser automatiquement dans des millions de boutiques.",
+        "verify_shop_account_confirmation": "Données de paiement enregistrées",
+        "announcement": {
+          "expand": "Déplier",
+          "collapse": "Replier"
+        },
+        "confirmed_items_count": "%{confirmed_count} des %{total_count} articles sont confirmés",
+        "thank_you_confirmed_orders_with_email": "Vous recevrez bientôt des courriels de confirmation séparés avec vos numéros de commande",
+        "thank_you_confirmed_orders_with_phone": "Tu recevras bientôt des SMS de confirmation séparés avec tes numéros de commande",
+        "thank_you_confirmed_orders_with_email_and_phone": "Vous recevrez bientôt des courriels de confirmation séparés avec vos numéros de commande",
+        "checkout_on_remote_shop_link_text": "Payer chez %{remoteShopName}",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 article n'est pas confirmé",
+          "other": "Il y a des articles non confirmés"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Aucun frais n'a été facturé pour cela",
+          "other": "Aucun frais n'a été facturé pour cela"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} article",
+          "other": "%{count} articles"
+        },
+        "payment_method_not_charged": "Non amorti",
+        "items_fulfilled_by_store": {
+          "one": "Les articles que vous avez achetés proviennent de %{remote_shop_name}.",
+          "other": "Les articles que vous avez achetés proviennent d'autres magasins."
+        },
+        "thank_you_from_other_store": "Dans une autre boutique",
+        "checkout_on_another_store": "Payer dans un autre magasin",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Vous recevrez bientôt un courriel de confirmation",
+          "multi_store": "Vous recevrez bientôt un courriel de confirmation distinct de chaque boutique"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Vous recevrez bientôt un SMS de confirmation",
+          "multi_store": "Vous recevrez bientôt un texto de confirmation de chaque boutique"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Vous recevrez bientôt un courriel de confirmation",
+          "multi_store": "Vous recevrez bientôt un courriel de confirmation distinct de chaque boutique"
+        },
+        "checkout_again": "Effectuer à nouveau le paiement",
+        "cashback_notice": "Vous recevrez votre cashback après 30 jours"
+      },
+      "review": {
+        "title": "Critique",
+        "review_title": "Finalisez votre commande",
+        "checkout_as_guest": "Payer en tant qu'invité",
+        "blocks": {
+          "contact_method_title": "Contactez-nous",
+          "shipping_address_title": "Envoyer à",
+          "shipping_method_title": "Méthode d’expédition",
+          "payment_method_title": "Méthode de paiement",
+          "change_contact_method_link_label": "Modifier les coordonnées de contact",
+          "change_billing_address_link_label": "Modifier l'adresse de facturation",
+          "change_shipping_address_link_label": "Modifier l'adresse de livraison",
+          "change_shipping_method_link_label": "Modifier le mode d'expédition",
+          "pick_up_in_store_shipping_method_html": "Retrait en magasin · %{location_name}",
+          "purchase_order_number_title": "Numéro de commande",
+          "change_purchase_order_number_label": "Modifier le numéro de commande"
+        }
       }
     }
   }
