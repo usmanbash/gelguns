@@ -938,7 +938,65 @@
       },
       "order_summary": {
         "add_discount_or_gift_card": "Aggiungere un codice sconto o un buono regalo",
-        "remove_gift_card_label": "Rimuovere il buono regalo"
+        "remove_gift_card_label": "Rimuovere il buono regalo",
+        "apply_discount_button_label": "Applicare",
+        "applied_discount_message": "È stato applicato uno sconto di %{amount} sul prezzo totale.",
+        "discount_has_been_applied": "Sconto applicato",
+        "gift_card_has_been_applied": "Carta regalo applicata",
+        "gift_card_has_been_removed": "La carta regalo è stata rimossa",
+        "discount_already_applied": "È stato applicato uno sconto a questo ordine. Non puoi aggiungere un altro sconto.",
+        "cart_does_not_meet_discount_requirements_notice": "Il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> non si applica agli articoli nel tuo carrello",
+        "discount_requires_customer_notice": "Inserisci i tuoi dati di spedizione per applicare il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> non è attualmente disponibile per te",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> non è disponibile per il tuo indirizzo di consegna",
+        "customer_already_used_once_per_customer_discount_notice": "Il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> è già stato utilizzato",
+        "shipping_default_value": "Calcolato al passaggio successivo",
+        "taxes_label": "a proposito",
+        "free_total_label": "Gratuito",
+        "free_shipping_total_label": "Gratuito",
+        "vat_label_html": "Incluso %{amount} IVA",
+        "discount_and_gift_card_savings_notice": "Con uno sconto di %{discount_amount} e %{gift_card_amount} di valore buono regalo",
+        "discount_savings_notice": "Sconto del %{discount_amount}",
+        "gift_card_savings_notice": "Dopo %{gift_card_amount} di valore della carta regalo",
+        "cost_table_title": "Riepilogo dei costi",
+        "product_change_label": "Modificare",
+        "product_image_label": "Immagine del prodotto",
+        "scroll_order_summary": "Scorri per altri articoli",
+        "expand_order_summary_short": "Visualizza",
+        "collapse_order_summary_short": "Nascondere",
+        "total_updated_label": "Prezzo totale aggiornato:",
+        "total_already_paid_label": "pagato",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} per pezzo",
+            "one": "%{price} per %{count} articoli"
+          }
+        },
+        "no_pickup_location": "Non ci sono punti di ritiro disponibili.",
+        "calculating_shipping": "Calcolando...",
+        "estimated_taxes_label": "Imposta stimata",
+        "information_estimated_taxes_label": "Tasse (stimato)",
+        "gift_card_ending": "Carta regalo che termina con %{last_characters}",
+        "estimated_tax_label": "Imposta stimata",
+        "multiple_shipping_lines_label": "Spese di spedizione totali",
+        "sale_price": "Prezzo promozionale",
+        "recurring_subtotal_label": "Totale parziale ricorrente",
+        "recurring_total_tooltip": "Esclusi spedizione, IVA, dazi doganali o eventuali sconti.",
+        "gift_card_subscriptions_notice": "I buoni regalo vengono applicati solo al tuo primo pagamento",
+        "confirmation_number_label": "Numero di conferma %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "L'importo totale delle tasse verrà confermato via e-mail o sms dopo che avrai effettuato il tuo ordine.",
+        "deferred_payment_info": {
+          "title": "Il pagamento di %{amount_due} è dovuto entro %{due_at}",
+          "description_html": "%{contact_us} per domande sul tuo ordine.",
+          "due_on_fulfillment_title": "Il pagamento di %{amount_due} è dovuto al completamento dell'ordine.",
+          "due_on_receipt_title": "%{amount_due} è dovuto al ricevimento"
+        },
+        "percent_off_shipping": "%{percent}% di sconto sulla spedizione",
+        "amount_off_shipping": "%{amount} di sconto sulla spedizione",
+        "payment_terms_totals": {
+          "due_later": "Totale dovuto il %{due_at}",
+          "due_on_fulfillment": "Totale dovuto al momento dell'evasione dell'ordine"
+        }
       }
     }
   }
