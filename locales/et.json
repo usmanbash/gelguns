@@ -3829,7 +3829,71 @@
     "order_details": {
       "addresses_section_title": "Arve esitamine ja saatmine",
       "billing_address": "Arve aadress",
-      "card_ending_with": "lõpeb {{lastDigits}}"
+      "card_ending_with": "lõpeb {{lastDigits}}",
+      "contact": "Kontaktisik",
+      "hide_items": "Peida artiklid",
+      "loading": "Tellimuse andmete laadimine",
+      "loading_finished_accessibility_message": "Tellimuse andmed on laaditud",
+      "payment": {
+        "status_in_review": "Makse tasumine pärast hindamist",
+        "status_unpaid": "Makse tähtaeg on {{date}}",
+        "title": "Makse",
+        "card_payment_details": "tehing {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Makstud Shop Pay järelmaksuga",
+          "view_schedule": "Plaanimist vaadata"
+        },
+        "gift_card_payment_details": "tehing {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postwissel - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Tagastamine - {{formattedTransactionAmount}}",
+          "bank_deposit": "Pangadeposiit - {{formattedTransactionAmount}}",
+          "manual": "Käsitsi - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Ostukrediit - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Kuva ainult aktiivsed",
+          "show_less": "Näita vähem",
+          "details": "Andmed",
+          "payment_details": "Makseandmed"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "ABI:",
+          "source": "Palun tagastage väljund täpselt selles formaadis (ilma ``` piirideta, ilma selgitusteta, ilma lisatekstita):"
+        },
+        "payment_type": {
+          "gift_card": "Kingituskinkekaart",
+          "store_credit": "Ostukrediit",
+          "money_order": "Postivahetus",
+          "cash_on_delivery": "Tagasimakse",
+          "bank_deposit": "Pangasissemakse",
+          "manual": "Käsitsi"
+        }
+      },
+      "shipping": {
+        "address": "Kohaletoimetamise aadress",
+        "address_map_marker": "Kohaletoimetamise aadress",
+        "method": "Saatmisviis",
+        "summary": "Saada teele",
+        "free": "Tasuta",
+        "free_shipping_discount": "Tasuta saatmine",
+        "one_time": "Ühekordne saatmine",
+        "subscription": "Saatmine tellimuse alusel"
+      },
+      "show_items": "Kuva artiklid",
+      "subtitle": "Kinnitatud: {{date}}",
+      "subtotal": "Vahesumma",
+      "summary_list_title_accessibility_label": "Toodete tellimine",
+      "summary_title": "Tellimuste ülevaade",
+      "summary_totals_title_accessibility_label": "Kogu tellimus",
+      "taxes": "Maksud",
+      "title": "Tellimus {{name}}",
+      "total": "Kokku",
+      "unit_price": "{{price}}/st",
+      "location": "Asukoht",
+      "not_applicable": "ei kehti",
+      "fully_refunded_label": "TAGASTATUD"
     }
   }
 }
