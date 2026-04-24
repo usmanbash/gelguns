@@ -2224,7 +2224,83 @@
           "title": "Odhlásili ste sa",
           "description": "Už od nás nedostávate pripomienky k nákupnému košíku."
         },
-        "accept_sms_checkbox_label": "Pošlite mi SMS so správami a ponukami"
+        "accept_sms_checkbox_label": "Pošlite mi SMS so správami a ponukami",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Zásady ochrany osobných údajov",
+            "terms_of_service": "Podmienky služby",
+            "description_html": "Registráciou cez SMS súhlasíte so zasielaním automatizovaných marketingových správ, vrátane pripomienok košíka, na zadané telefónne číslo. Súhlas nie je podmienkou nákupu. Odpovedzte STOP pre odhlásenie. Odpovedzte HELP pre pomoc. Frekvencia správ sa môže líšiť. Môžu platiť poplatky za správy a dáta. Prečítajte si naše %{privacy_policy_link} a %{terms_of_service_link}.",
+            "description_transactional_html": "Môžete dostávať SMS správy týkajúce sa potvrdení objednávok a aktualizácií zásielok. Odpovedzte STOP, ak sa chcete odhlásiť. Odpovedzte HELP pre pomoc. Frekvencia správ sa môže líšiť. Môžu platiť poplatky za správy a dáta. Prezrite si naše %{privacy_policy_modal_link} a naše %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilné telefónne číslo",
+          "get_offers_by_text": "Získavať ponuky cez SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Ste prihlásený na odber e-mailov s novinkami a ponukami",
+        "pending_accept_marketing_checkbox_label": "Pozri si svoj e-mail, aby si potvrdil svoje prihlásenie na novinky a ponuky",
+        "accept_shop_pay_marketing_checkbox_label": "Prihláste sa na odber noviniek a ponúk tohto obchodu",
+        "disclaimer": {
+          "privacy_policy": "Zásady ochrany osobných údajov",
+          "terms_of_service": "Podmienky služby"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politika vrátenia peňazí",
+        "privacy_policy": "Zásady ochrany osobných údajov",
+        "terms_of_service": "Všeobecné podmienky",
+        "shipping_policy": "Doručenie",
+        "terms_of_sale": "Predajné podmienky",
+        "purchase_options_policy": "Zásady možností nákupu",
+        "cookie_preferences": "Cookies",
+        "policy_label": "Urážka",
+        "policies_label": "Urážka",
+        "select_policy_label": "Vybrať politiku",
+        "terms_and_policies": "Podmienky a politika"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Suma na zaplatenie za objednávku %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} pridaných"
+          },
+          "subtracted": "%{count} odstránených",
+          "returned": "%{count} vrátených",
+          "return_line_item_removed": "%{count} odstránených z vrátenia"
+        },
+        "additional_payment_requested": "Platba %{total_outstanding} je vyžadovaná",
+        "checkout_review_and_pay": "Vaša objednávka %{order_name} bola aktualizovaná. Prezrite si tieto zmeny a potom zaplaťte, aby ste potvrdili svoju objednávku.",
+        "order_review_and_pay": "Vaša objednávka bola aktualizovaná. Skontrolujte ju a zaplaťte, aby ste ju potvrdili.",
+        "pay_now": "Zaplaťte teraz"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Vaša kreditná karta bude zaťažená sumou %{amount}",
+        "payment_total_label": "Celkové platby",
+        "card_provider_fx_charges_warning": "Vydavateľ vašej karty môže účtovať poplatky za transakcie v %{currency_code}.",
+        "currency_not_supported_by_shop": "Mena, ktorú ste vybrali, už nie je dostupná. Všetky ceny sú teraz v %{currency_code}."
+      },
+      "tips": {
+        "title": "Pridať tip",
+        "description": "Ukáž, že podporuješ tím %{shop_name}",
+        "presets_description": "Vyberte percento tipovania",
+        "custom_label": "Prispôsobený tip",
+        "add_tip": "Pridať tip",
+        "update_tip": "Aktualizovať tip",
+        "message": "Ďakujeme, naozaj si to vážime.",
+        "not_available_with_spi": "Nie je dostupné s platbami na splátky cez Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "kúpiť %{product_name}",
+          "one": "Kúpiť %{product_name} a ešte %{count} ďalší článok",
+          "other": "Kúpiť %{product_name} a ešte %{count} ďalších položiek"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Doplňujúce informácie",
+          "tax_credential_br": "IČO/DIČ",
+          "shipping_credential_br": "IČO/DIČ",
+          "shipping_credential_kr": "Osobný colný kód"
+        }
       }
     }
   }
