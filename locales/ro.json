@@ -2264,7 +2264,113 @@
       },
       "post_purchase": {
         "page_title": "După cumpărare",
-        "title": "După cumpărare"
+        "title": "După cumpărare",
+        "escape_confirmation": "Ai plătit pentru comanda ta.",
+        "escape_action": "Vizualizați confirmarea comenzii ›",
+        "components": {
+          "expand": "Vezi mai mult"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Coșul tău de cumpărături a fost actualizat în funcție de țara ta pentru livrare.",
+        "cart_and_currency_updated_based_on_country": "Coșul tău de cumpărături și moneda au fost adaptate în funcție de țara de livrare.",
+        "currency_updated_for_country": "Valuta actualizată pentru %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Prima plată %{total_price}",
+            "other": "Primele %{count} plăți pentru %{total_price} fiecare"
+          },
+          "following_cycles": ", apoi %{total_price} la fiecare %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Prima plată %{total_price_with_discount} apoi %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", apoi %{count} plată de %{total_price}",
+            "other": ", apoi %{count} plăți, fiecare în valoare de %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Actualizează harta",
+        "delete_customer_mandate": {
+          "generic_error": "A apărut o problemă la procesarea cererii tale.",
+          "success_message": "Metoda ta de plată a fost ștearsă"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Condiții generale ale MoR (Comerciant înregistrat)"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Acest produs va fi scos din coșul tău de cumpărături deoarece nu este disponibil în țara/regiunea ta.",
+          "other": "Aceste produse vor fi eliminate din coșul tău pentru că nu sunt disponibile în țara/regiunea ta."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Țara/regiunea ta a fost actualizată. Introdu adresa de livrare pentru a continua către finalizarea comenzii."
+      },
+      "throttle": {
+        "line_to_check_out": "Ești la rând să plătești",
+        "cart_summary_heading": "Coșul tău de cumpărături",
+        "merchandise": {
+          "sold_out": "Epuizat"
+        },
+        "inventory": {
+          "partial_inventory_banner": "O parte din coșul tău de cumpărături este epuizată și nu poate fi achiziționată la finalizarea comenzii.",
+          "sold_out": {
+            "heading": "Coșul tău de cumpărături este gol",
+            "storefront_body": "Întoarce-te la magazin pentru a continua cumpărăturile",
+            "no_storefront_body": "Articolul pe care doreai să-l cumperi nu mai este disponibil."
+          }
+        },
+        "title": "Coada de așteptare",
+        "time_to_checkout_title": "Timp pentru plată - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calcularea timpului estimat de așteptare",
+          "less_than_one": "Timp estimat de așteptare: mai puțin de un minut",
+          "one": "Timp estimat de așteptare: {{count}} minut",
+          "other": "Timp estimat de așteptare: {{count}} minute"
+        },
+        "last_checked": "(Ultima verificare: {{time}})",
+        "footer": {
+          "heading": "Nu trebuie să reîmprospătezi această pagină, ea se actualizează automat.",
+          "body": "Articolele din coșul tău de cumpărături vor fi rezervate doar după ce finalizezi plata."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "A apărut o problemă la procesarea cererii tale. Te rugăm să contactezi proprietarul magazinului."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Livrare indisponibilă pentru %{count} articol(e)",
+            "other": "Livrare indisponibilă pentru %{count} articole"
+          },
+          "message": {
+            "one": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta.",
+            "other": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta."
+          },
+          "label": "Fără livrare"
+        }
+      },
+      "no_address_location": {
+        "header": "Nu există o adresă de livrare pentru această locație",
+        "message": "Contactează-ne pentru a adăuga o adresă pentru această locație, astfel încât să poți finaliza plata.",
+        "alt_header": "Lipsă adresă de livrare"
+      },
+      "order_errors": {
+        "creation_failure": "A apărut o problemă la crearea comenzii tale. Încearcă din nou sau contactează-ne pentru mai multe informații.",
+        "network_failure": "Comanda ta nu poate fi trimisă din cauza unei erori de rețea. Verifică conexiunea și încearcă din nou."
+      },
+      "session_errors": {
+        "session_not_unique": "A apărut o problemă la procesarea comenzii tale. Reîncarcă această pagină pentru a te întoarce la magazin.",
+        "session_already_finished": "Această comandă a fost deja trimisă. Poți reveni la magazin pentru a începe o comandă nouă."
+      },
+      "pickup_point": {
+        "business_hours": "Ore de funcționare",
+        "or": "din"
       }
     }
   }
