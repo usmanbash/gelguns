@@ -932,9 +932,73 @@
             "other": "Aucune livraison disponible pour %{count} articles"
           },
           "message": {
-            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "other": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          },
+          "status_column_header": "Pas de livraison"
+        },
+        "price_update": {
+          "title": "Mise à jour des prix",
+          "description": "Les prix de ces articles ont été modifiés et mis à jour dans votre panier.",
+          "updated_price": "Prix mis à jour"
+        },
+        "return_to_store_label": "Retour au magasin",
+        "item_label": {
+          "one": "{{count}} articles",
+          "other": "{{count}} articles"
+        },
+        "continue_cta_label": "Continuer vers le paiement",
+        "unfulfillable_product": {
+          "title": "Livraison non disponible",
+          "message": {
+            "one": "%{delivery_method} n'est plus disponible pour cet article.",
+            "other": "%{delivery_method} n'est plus disponible pour ces articles."
+          },
+          "default_message": {
+            "one": "La méthode de livraison choisie n'est plus disponible pour cet article.",
+            "other": "La méthode de livraison choisie n'est plus disponible pour ces articles."
           }
-        }
+        },
+        "price_and_quantity_update": {
+          "title": "Mise à jour du prix et de la quantité",
+          "description": "Les prix et les quantités disponibles pour ces articles ont été modifiés et le panier a été mis à jour."
+        },
+        "out_of_stock_in_context_label": "Ce produit n'est pas disponible dans votre pays/région."
+      },
+      "order_summary": {
+        "title": "Récapitulatif de la commande",
+        "discount_title": "Réduction",
+        "discount_label": "Code de réduction",
+        "discount_placeholder": "Code de réduction",
+        "gift_card_title": "Bon cadeau",
+        "gift_card_label": "Bon cadeau",
+        "gift_card_placeholder": "Bon cadeau",
+        "gift_card_and_discount_title": "Code de réduction ou bon cadeau",
+        "gift_card_and_discount_label": "Code de réduction ou bon cadeau",
+        "gift_card_and_discount_placeholder": "Code de réduction ou bon cadeau",
+        "add_discount_or_gift_card": "Ajouter un code de réduction ou un bon cadeau",
+        "remove_gift_card_label": "Supprimer le bon cadeau",
+        "remove_discount_label": "Supprimer la remise",
+        "free_shipping_discount_label": "Livraison gratuite",
+        "apply_discount_button_label": "Appliquer",
+        "applied_discount_message": "Une remise de %{amount} a été déduite du prix total.",
+        "discount_has_been_applied": "Une remise a été appliquée",
+        "discount_has_been_removed": "La remise a été supprimée",
+        "gift_card_has_been_applied": "Carte-cadeau appliquée",
+        "gift_card_has_been_removed": "Carte-cadeau a été supprimée",
+        "discount_already_applied": "Une remise a été appliquée à cette commande. Vous ne pouvez pas ajouter d'autre remise.",
+        "cart_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> ne s'applique pas aux articles dans votre panier",
+        "discount_requires_customer_notice": "Saisissez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> n'est actuellement pas disponible pour vous",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> n'est pas disponible pour votre adresse de livraison",
+        "customer_already_used_once_per_customer_discount_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a déjà été utilisé",
+        "shipping_default_value": "Calculé à l'étape suivante",
+        "shipping_policy_link": "Frais de livraison",
+        "taxes_label": "TVA",
+        "vat_label_html": "Inclus %{amount} TVA",
+        "discount_and_gift_card_savings_notice": "Après une remise de %{discount_amount} et %{gift_card_amount} de valeur en carte cadeau",
+        "discount_savings_notice": "À %{discount_amount} de réduction",
+        "gift_card_savings_notice": "À hauteur de %{gift_card_amount} en valeur de carte cadeau"
       }
     }
   }
