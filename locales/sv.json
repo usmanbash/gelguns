@@ -2334,6 +2334,84 @@
             "cta": "Ladda om sidan"
           },
           "request_id": "Begäran-ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Denna butik är lösenordsskyddad",
+          "customer_account_required": "Kundkonto krävs för att slutföra köpet",
+          "cart_completed": "Denna kassa är redan slutförd",
+          "not_authorized": "Kassanverifiering misslyckades. Kontrollera dina inloggningsuppgifter för appen.",
+          "killswitch_enabled": "Kassan är tillfälligt otillgänglig",
+          "policy_violation": "Kan inte slutföra utcheckningen på grund av begränsningar i policyns inställningar",
+          "unrecoverable_failure": "Kan inte ladda kassan. Försök igen"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tillbaka till kundvagnen",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} för att uppdatera kvantiteterna",
+        "subscription_changed": "Ett av dina abonnemang har ändrats.",
+        "company_location_changed": "Din kundvagn har ändrats. Kontrollera din beställning innan du skickar den.",
+        "violations_title": "{{violation}} saknas eller är ogiltigt",
+        "individual_violations_title": {
+          "OtherViolations": "Beställningsuppgifter",
+          "UnhandledViolations": "Beställningsuppgifter"
+        },
+        "all_violations_content": "Ring {{emailLink}} för att uppdatera dessa uppgifter och slutföra din beställning:",
+        "editable_shipping_address_violations_message_title": "Lägg till denna information för att slutföra din beställning:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} för att permanent uppdatera adressen för denna plats.",
+        "editable_shipping_address_violations_email_link": "Kontakta oss",
+        "company_location_changed_product_removed": "Din kundvagn har ändrats eftersom vissa produkter inte finns tillgängliga på denna plats. Kontrollera din beställning innan du skickar den.",
+        "calculating_shipping": "Fraktkostnaden beräknas fortfarande. Försök igen om några sekunder. Inga avgifter har debiterats.",
+        "calculating_taxes": "Skatterna beräknas fortfarande. Försök igen om några sekunder. Inga avgifter har tagits ut.",
+        "generic_processing_error": {
+          "title": "Det uppstod ett problem vid behandlingen av din beställning",
+          "body": "Inga avgifter har debiterats. Försök igen eller använd en annan betalningsmetod."
+        },
+        "contact_information": {
+          "title": "Kontaktuppgifterna är ogiltiga",
+          "header": "{{emailLink}} för att uppdatera dina uppgifter",
+          "email_link": "Kontakta oss"
+        },
+        "payment_method_not_available_with_payment_terms": "Den betalningsmetod du har valt är inte längre tillgänglig eftersom betalningen för denna beställning nu omfattas av {{paymentTerms}}-villkor.",
+        "payment_method_not_available_with_fulfillment_terms": "Den betalningsmetod du har valt är inte längre tillgänglig eftersom betalningen för denna beställning nu måste göras vid leverans.",
+        "payment_method_not_available_with_fixed_terms": "Den betalningsmetod du har valt är inte längre tillgänglig eftersom betalningen för denna beställning måste göras senare.",
+        "payment_method_not_available_with_review_requirement": "Den betalningsmetod du har valt är inte längre tillgänglig eftersom betalningen ska göras när beställningen har bekräftats."
+      },
+      "review_address_modal": {
+        "title": "Kontrollera adressen",
+        "subtitle": {
+          "one": "Denna beställning skickas till den adress som {{merchant}} har angett.",
+          "other": "Denna beställning skickas till en adress som {{merchant}} har angett. Välj en leveransadress."
+        },
+        "subtitle_no_match": "Din adress stämmer inte överens med någon av dina sparade adresser.",
+        "subtitle_must_use": "Din beställning skickas till denna adress.",
+        "return_to_cart": "Tillbaka till kundvagnen"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Läs",
+          "link_label": "de allmänna villkoren för {{partnerDisplayName}}"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Det finns %{count} plats med lager i närheten",
+          "other": "Det finns %{count} platser med lager i närheten"
+        },
+        "toggle_location": "Ändra plats",
+        "or": "AV",
+        "search_button": "Söka efter butiker",
+        "could_not_resolve_address": "Kan inte hitta din adress. Försök igen eller använd en annan adress",
+        "paginator": {
+          "accessibility_label": "Sidindelning för avhämtning på plats"
+        },
+        "reveal_more_label": {
+          "one": "Visa nog %{count} platser till",
+          "other": "Visa fler än %{count} platser"
+        },
+        "all_stores_far_away": {
+          "title": "De närmaste platserna ligger mer än %{distance} bort",
+          "ship_to_address_link": "leveransadress",
+          "title_with_specific_location": "Den närmaste platsen med din artikel ligger mer än %{distance} från %{location}."
         }
       }
     }
