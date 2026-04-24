@@ -3176,7 +3176,83 @@
         "link_expired": "Lien expiré",
         "stock_problems_html": "Un ou plusieurs articles ne sont plus disponibles. Nous avons préparé un <a href='%{link}'>panier mis à jour</a>.",
         "changed": "Panier modifié",
-        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock."
+        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock.",
+        "variant_not_found": "Impossible de trouver la variante",
+        "variant_requires_selling_plan": "La variante ne peut être achetée qu'avec un abonnement de vente.",
+        "shipping_address_not_required": "Aucun envoi n'est nécessaire pour ce panier",
+        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais d'envoi. Continuez le paiement pour choisir les frais d'envoi avant de finaliser votre commande.",
+        "selling_plan_not_applicable": "Impossible d'appliquer l'abonnement de vente à la variante",
+        "selling_plan_not_available_for_company_locations": "Seules les commandes uniques sont disponibles pour les achats interentreprises.",
+        "digital_product_not_available_for_company_locations": "Vous ne pouvez pas ajouter cet article à une commande B2B",
+        "product_not_available": "Produit non disponible",
+        "not_respect_step": "Vous ne pouvez ajouter cet article qu'en quantités de %{step}.",
+        "bundle_requires_components": "Impossible d'ajouter le produit groupé '%{name}' au panier.",
+        "gift_card_with_components_not_supported": "Impossible d'ajouter le produit groupé '%{name}' au panier.",
+        "view_lines_limit_reached": "Les règles doivent être inférieures ou égales à %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Une erreur s'est produite dans votre panier."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Impossible d'ajouter le produit groupé '%{name}' au panier.",
+        "gift_card_recipient_validation_error": "Le destinataire indiqué du bon cadeau est invalide",
+        "invalid_input": "Le paramètre %{parameter} est invalide.",
+        "buyer_cannot_purchase_for_company_locations": "Vous ne pouvez pas effectuer d'achat pour cet emplacement",
+        "only_one_added_to_cart": "Un seul article a été ajouté à votre panier en raison de la disponibilité.",
+        "only_n_added_to_cart": "Seulement %{quantity} articles ont été ajoutés à votre panier en raison de la disponibilité.",
+        "merchandise_not_applicable": "L'article ne peut pas être acheté tel que configuré.",
+        "not_found": "Panier non trouvé"
+      },
+      "storefront": {
+        "invalid_password": "Mot de passe incorrect, veuillez réessayer."
+      },
+      "tags": {
+        "add_articles": "Limitez la recherche aux articles avec le tag %{tag}",
+        "add_products": "Limitez la recherche aux produits avec le tag correspondant %{tag}",
+        "remove_articles": "Étendez la recherche aux articles qui ne sont pas étiquetés avec %{tag}",
+        "remove_products": "Supprimer le tag %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} ajouté",
+          "increment_item": "%{delta} ajouté",
+          "decrement_item": "%{delta} supprimé de %{total}",
+          "decrement_fulfilled_line_item": "%{delta} sur %{total} retournés",
+          "decrement_return_line_item": "%{delta} retiré du retour"
+        }
+      }
+    },
+    "page_titles": {
+      "order": "Commander %{name}",
+      "search": "Chercher",
+      "not_found": "404 non trouvé",
+      "search_results": {
+        "one": "Recherche : %{count} résultat trouvé pour '%{terms}'",
+        "other": "Recherche : %{count} résultats trouvés pour '%{terms}'"
+      },
+      "blog_or_article_with_error": "Erreur - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Il y a %{count} réductions appliquées"
+    },
+    "challenge": {
+      "message": "Faites-nous savoir que vous n'êtes pas un robot pour continuer.",
+      "error": "Votre réponse n'était pas correcte, veuillez réessayer.",
+      "submit_button_text": "Expédition"
+    },
+    "checkpoint": {
+      "message": "Résolvez le captcha pour continuer",
+      "error": "échec de la vérification captcha",
+      "submit_button_text": "Expédition"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Merci de vous être inscrit à notre liste de diffusion.",
+        "disclaimer": "Vous pouvez vous désinscrire à tout moment.",
+        "unsubscribe": "Se désinscrire"
+      },
+      "unsubscribed": {
+        "confirmation": "Vous vous êtes désabonné de notre liste de diffusion.",
+        "disclaimer": "Vous ne recevrez plus de mises à jour publicitaires de notre part. Vous pouvez vous réinscrire à tout moment.",
+        "preview": "Vous regardez un aperçu de ce que les clients verront lorsqu'ils se désabonneront."
       }
     }
   }
