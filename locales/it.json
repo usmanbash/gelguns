@@ -3834,7 +3834,87 @@
         "payment_method_selector_placeholder": "Seleziona un metodo di pagamento alternativo (facoltativo)",
         "replace_method_with_new_method_description": "Il tuo {{currentPaymentMethodName}} verrà rimosso e sostituito con il tuo {{newPaymentMethodName}}.",
         "error_when_deleting": "Ci scusiamo, si è verificato un problema e non possiamo rimuovere questo metodo di pagamento. Riprova più tardi o aggiorna la pagina.",
-        "delete_and_replace_button": "Rimuovere e sostituire"
+        "delete_and_replace_button": "Rimuovere e sostituire",
+        "delete_and_replace_button_accessibility_label": "Rimuovi {{currentPaymentMethodName}} e sostituiscilo con {{newPaymentMethodName}}.",
+        "deleted_successfully": "Il metodo di pagamento è stato rimosso.",
+        "loading_available_payment_methods_accessibility_label": "Caricamento dei metodi di pagamento disponibili",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo. Gli importi in sospeso degli ordini esistenti verranno ancora addebitati tramite questo metodo di pagamento, a meno che tu non selezioni un altro metodo di pagamento. Seleziona un altro metodo di pagamento per continuare a ricevere senza interruzioni gli ordini di abbonamento in arrivo.",
+          "with_pending_orders": "La rimozione del metodo di pagamento comporta la sua eliminazione dal tuo account e non sarà più disponibile per acquisti futuri. Gli importi in sospeso degli ordini esistenti verranno comunque addebitati tramite questo metodo di pagamento, a meno che tu non scelga un altro metodo di pagamento.",
+          "with_subscriptions": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo. Sostituiscilo con un altro metodo di pagamento per continuare a ricevere gli ordini in arrivo."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo. Gli importi in sospeso degli ordini esistenti verranno comunque addebitati tramite questo metodo di pagamento, ma non riceverai più gli ordini di abbonamento in arrivo. Aggiungi un altro metodo di pagamento per continuare a ricevere gli ordini di abbonamento.",
+          "with_pending_orders": "La rimozione del metodo di pagamento comporta la sua eliminazione dal tuo account e non sarà più disponibile per acquisti futuri. Gli importi dovuti per ordini esistenti verranno comunque addebitati tramite questo metodo di pagamento.",
+          "with_subscriptions": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo. Aggiungi un altro metodo di pagamento per continuare a ricevere gli ordini in arrivo."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Modificare il metodo di pagamento",
+        "billing_address_choose_from_list": "Scegli dalla lista",
+        "future_purchases_notice": "Questo metodo di pagamento verrà salvato per acquisti futuri.",
+        "generic_error": "Si è verificato un problema durante l'aggiornamento. Riprova."
+      },
+      "card_fields": {
+        "card_number_label": "Numero della carta",
+        "card_number_placeholder": "Numero della carta",
+        "card_start_label": "Data di rilascio (MM/AA)",
+        "card_start_placeholder": "Data di rilascio (MM/AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Ulteriori informazioni",
+          "card_verification_value_explanation_amex": "Codice di sicurezza di 4 cifre sul davanti della tua carta",
+          "card_verification_value_explanation_other": "Codice di sicurezza di 3 cifre sul retro della tua carta",
+          "card_verification_value_explanation": "Codice di sicurezza di 3 cifre, solitamente situato sul retro della tua carta. American Express ha un codice di 4 cifre sul davanti.",
+          "card_security_notice": "Tutte le transazioni sono protette e criptate."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Inserisci il tuo nome esattamente come appare sulla tua carta",
+          "credit_card_expiry_invalid": "Inserisci una data di scadenza valida per la carta",
+          "credit_card_verification_value_blank": "Inserisci il codice CVV/CVC o il codice di sicurezza della tua carta"
+        },
+        "unavailable": {
+          "text": "I pagamenti con carta di credito e carta di debito non sono al momento disponibili."
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "choose_billing_address_from_list_button": "Scegli dalla lista",
+          "choose_billing_address_from_list_button_accessibility_label": "Scegli un indirizzo di fatturazione dall'elenco",
+          "missing_billing_address_error_message": "Fornisci un indirizzo di fatturazione"
+        },
+        "replace_mode_warning": "Se rimuovi questo metodo di pagamento, ciò avrà conseguenze sugli abbonamenti o sugli ordini anticipati. Sostituiscilo con un altro metodo di pagamento per continuare a ricevere gli ordini futuri.",
+        "choose_from_list": "Scegli dalla lista",
+        "button_title": "Aggiungere",
+        "subscription_contracts": {
+          "title": "Metodo di pagamento per ordini ricorrenti",
+          "product_details": "Dati del prodotto",
+          "load_more": "Carica di più",
+          "more_items": {
+            "one": "Ancora {{count}} prodotto",
+            "other": "Ancora {{count}} prodotti"
+          }
+        },
+        "contracts_update_failed": "Alcuni contratti di abbonamento non sono stati aggiornati",
+        "subscription_contracts_updated": "{{succeeded}} di {{total}} abbonamenti aggiornati",
+        "invalid_wallet_type_error": "Tipo di portafoglio digitale non valido",
+        "updating_contracts": {
+          "one": "Il contratto di abbonamento {{count}} viene aggiornato...",
+          "other": "{{count}} contratti di abbonamento vengono aggiornati..."
+        },
+        "contracts_updated": {
+          "one": "Il contratto di abbonamento {{count}} è stato aggiornato",
+          "other": "{{count}} contratti di abbonamento sono stati aggiornati"
+        },
+        "missing_customer_error": "Si è verificato un errore. Riprova oppure contatta l'assistenza."
+      },
+      "expires_soon": "Questa carta scadrà a breve",
+      "card_update_consent": "Questo metodo di pagamento verrà salvato per acquisti futuri.",
+      "credit_or_debit_card_title": "Carta di credito o carta di debito",
+      "google_pay": {
+        "errors": {
+          "generic": "Si è verificato un problema con Google Pay. Riprova o usa un altro metodo di pagamento.",
+          "missing_billing_address": "Per Google Pay è necessario un indirizzo di fatturazione. Aggiungine uno nel tuo account."
+        }
       }
     }
   }
