@@ -2442,7 +2442,89 @@
             "cta": "Przeładuj stronę"
           },
           "request_id": "ID zgłoszenia: {{requestId}}"
+        },
+        "embed_errors": {
+          "customer_account_required": "Konto klienta jest wymagane, aby zakończyć realizację zamówienia",
+          "cart_completed": "To zamówienie zostało już zrealizowane",
+          "invalid_cart": "Koszyk nie jest już ważny",
+          "not_authorized": "Weryfikacja przy kasie nie powiodła się. Sprawdź swoje dane logowania do aplikacji.",
+          "killswitch_enabled": "Kasa jest tymczasowo niedostępna",
+          "policy_violation": "Nie można zakończyć realizacji zamówienia z powodu ograniczeń w konfiguracji zasad",
+          "unrecoverable_failure": "Nie można załadować kasy. Spróbuj ponownie"
         }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Powrót do koszyka",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} aby zaktualizować ilości",
+        "subscription_changed": "Jeden z twoich abonamentów został zmieniony.",
+        "company_location_changed": "Twój koszyk został zmieniony. Sprawdź swoje zamówienie, zanim je wyślesz.",
+        "violations_title": "{{violation}} jest brakujące lub nieprawidłowe",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adres dostawy",
+          "PaymentViolations": "Adres do faktury",
+          "OtherViolations": "Dane zamówienia",
+          "UnhandledViolations": "Dane zamówienia"
+        },
+        "all_violations_content": "Kliknij na {{emailLink}}, aby zaktualizować te dane i dokończyć swoje zamówienie:",
+        "all_violations_email_link": "e-mail",
+        "editable_shipping_address_violations_message_title": "Dodaj te informacje, aby zakończyć swoje zamówienie:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} aby na stałe zaktualizować adres dla tej lokalizacji.",
+        "editable_shipping_address_violations_email_link": "Skontaktuj się z nami",
+        "company_location_changed_product_removed": "Twój koszyk został zmieniony, ponieważ niektóre produkty nie są dostępne w tej lokalizacji. Sprawdź swoje zamówienie przed jego wysłaniem.",
+        "shipping_address_incomplete_title": "Adres dostawy jest niepełny",
+        "calculating_shipping": "Wysyłka jest jeszcze obliczana. Spróbuj ponownie za kilka sekund. Nie naliczono żadnych opłat.",
+        "calculating_taxes": "Podatki są jeszcze obliczane. Spróbuj ponownie za kilka sekund. Nie naliczono żadnych opłat.",
+        "generic_processing_error": {
+          "title": "Wystąpił problem podczas przetwarzania twojego zamówienia",
+          "body": "Nie naliczono żadnych opłat. Spróbuj ponownie lub użyj innej metody płatności."
+        },
+        "contact_information": {
+          "header": "{{emailLink}} aby zaktualizować swoje dane",
+          "email_link": "Skontaktuj się z nami"
+        },
+        "payment_method_not_available_with_payment_terms": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie jest teraz objęta warunkami {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie musi być teraz dokonana przy realizacji.",
+        "payment_method_not_available_with_fixed_terms": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie musi zostać dokonana później.",
+        "payment_method_not_available_with_review_requirement": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność jest należna po potwierdzeniu zamówienia.",
+        "validation_errors_banner": {
+          "section_label": {
+            "billing": "Fakturowanie"
+          },
+          "heading": {
+            "other": "Jest {{count}} błędów:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} błąd w {{section}}",
+            "other": "{{count}} błędów w {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "other": "To zamówienie zostanie wysłane na adres podany przez {{merchant}}. Wybierz adres dostawy."
+        },
+        "subtitle_no_match": "Ten adres nie odpowiada żadnemu z zapisanych adresów.",
+        "continue": "Kontynuuj z tym adresem",
+        "return_to_cart": "Powrót do koszyka"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Czytaj",
+          "link_label": "Ogólne warunki {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Pytania? Porozmawiaj z nami na czacie"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "W okolicy jest %{count} miejsce z dostępnością towaru",
+          "other": "W pobliżu znajduje się %{count} lokalizacji z zapasami"
+        },
+        "or": "ZŁ",
+        "your_location": "twoja lokalizacja",
+        "search_button": "Szukaj sklepów",
+        "could_not_resolve_address": "Nie można znaleźć twojego adresu. Spróbuj ponownie lub użyj innego adresu"
       }
     }
   }
