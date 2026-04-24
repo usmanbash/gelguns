@@ -2724,9 +2724,83 @@
             "phone": "Veuillez saisir un numéro de téléphone valide",
             "emirate": "Entrez un émirat valide",
             "billing_zone": "Veuillez saisir un état/province valide pour l'adresse de facturation",
-            "billing_phone": "Veuillez saisir un numéro de téléphone valide pour l'adresse de facturation"
-          }
+            "billing_phone": "Veuillez saisir un numéro de téléphone valide pour l'adresse de facturation",
+            "billing_zip": "Veuillez saisir un code postal valide pour l'adresse de facturation"
+          },
+          "missing": {
+            "last_name": "Entrez un nom de famille",
+            "address2": "Entrez un numéro d'appartement ou de suite, etc.",
+            "city": "Entrez un lieu",
+            "province": "Sélectionnez un état/province",
+            "country": "Sélectionnez un pays/région",
+            "zip": "Entrez un code postal ou un code ZIP",
+            "phone": "Entrez un numéro de téléphone",
+            "billing_first_name": "Entrez un prénom pour l'adresse de facturation",
+            "billing_address2": "Saisissez un numéro d'appartement ou de suite, etc. pour l'adresse de facturation",
+            "billing_city": "Entrez un lieu pour l'adresse de facturation",
+            "billing_province": "Sélectionnez un état/province pour l'adresse de facturation",
+            "billing_zip": "Sélectionnez un code postal ou un code ZIP pour l'adresse de facturation",
+            "contact_info": "Entrez les coordonnées"
+          },
+          "formatting": {
+            "name_contains_emojis": "Supprimer les emojis de votre nom",
+            "postal_code_contains_emoji": "Supprimer les emojis de votre code postal",
+            "last_name_too_long": "Le nom de famille contient trop de lettres",
+            "address_too_long": "La ligne d'adresse est trop longue"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Votre adresse de livraison est invalide. Veuillez choisir une autre adresse ou en utiliser une nouvelle.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Choisissez une autre méthode de paiement pour continuer votre achat."
+          },
+          "discount_code": "Impossible d'appliquer ce code de réduction. Vérifiez votre code et réessayez.",
+          "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Vous allez être redirigé vers {{walletName}} pour finaliser votre achat",
+        "return_to_checkout": "Retour à la caisse",
+        "scrim": {
+          "continue_purchase_in_window": "Continuez votre achat dans la fenêtre {{walletName}}",
+          "and_return_to_checkout": "et retour à la caisse"
+        },
+        "place_order": "Passer commande",
+        "recovery_notice": "Une erreur s'est produite avec vos informations de commande. Veuillez mettre à jour vos données pour finaliser le paiement."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Vérifiez d'abord vos coordonnées avant de finaliser le paiement"
+      },
+      "store_credit_errors": {
+        "generic_error": "Un problème est survenu avec votre crédit boutique. Veuillez réessayer ou recharger la page."
+      },
+      "note": {
+        "length_exceeds_maximum": "Réduisez la remarque à un maximum de 5000 caractères."
+      },
+      "billing": {
+        "billing_address_title": "Facture à",
+        "same_as_shipping": "Identique à l'adresse de livraison",
+        "add_address": "Utiliser une autre adresse",
+        "address_more": "Plus d'offres pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Le bon cadeau a déjà été appliqué à votre commande",
+          "insufficient_funds": "Il n'y a plus d'argent sur ce bon cadeau",
+          "expired": "Ce bon cadeau a expiré",
+          "not_available": "Ce bon cadeau n'est plus disponible",
+          "invalid": "Entrez un bon cadeau valide",
+          "generic": "Le bon cadeau ne peut pas être ajouté à la caisse",
+          "throttle_limit_exceeded": "Vous avez atteint le nombre maximal de tentatives. Veuillez réessayer plus tard.",
+          "no_longer_available": "Ce bon cadeau ne peut plus être utilisé lors de ce passage en caisse"
         }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Un problème est survenu lors du chargement de Shop Pay",
+          "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de nouveau de régler votre commande chez {{shopName}}."
+        },
+        "return_to_store": "Retour à {{shopName}}",
+        "return_to_store_simple": "Retour au magasin"
       }
     }
   }
