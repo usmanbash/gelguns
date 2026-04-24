@@ -2271,7 +2271,85 @@
           }
         },
         "number_of_pickup_points_near_location": {
-          "one": "%{count} punto de recogida cerca de tu ubicación"
+          "one": "%{count} punto de recogida cerca de tu ubicación",
+          "other": "%{count} puntos de recogida cerca de tu ubicación"
+        },
+        "waiting_on_pickup_point_location_notice": "Buscando puntos de recogida...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "La solicitud de geolocalización no es compatible con tu navegador. Intenta de nuevo o utiliza otro navegador.",
+            "permission_denied": "No se puede obtener la ubicación. Inténtalo de nuevo."
+          }
+        },
+        "no_business_hours": "No hay horarios disponibles",
+        "open_twenty_four_hours": "Abierto las 24 horas, los 7 días de la semana"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Se ha producido un problema durante el pago",
+          "message": "Actualice esta página o inténtelo de nuevo en unos minutos.",
+          "action": {
+            "cta": "Recargar página"
+          },
+          "request_id": "ID de solicitud: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Esta tienda está protegida con una contraseña",
+          "customer_account_required": "Se requiere una cuenta de cliente para completar la compra",
+          "cart_completed": "Esta compra ya ha sido completada",
+          "invalid_cart": "El carrito de compras ya no es válido",
+          "not_authorized": "La verificación de pago ha fallado. Verifica tus datos de acceso para la aplicación.",
+          "policy_violation": "No se puede completar el pago debido a restricciones en la configuración de la política",
+          "unrecoverable_failure": "No se puede cargar el pago. Inténtalo de nuevo."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Volver al carrito de compras",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} para actualizar las cantidades",
+        "subscription_changed": "Uno de tus suscripciones ha sido modificado.",
+        "company_location_changed": "Tu carrito ha sido actualizado. Revisa tu pedido antes de enviarlo.",
+        "violations_title": "{{violation}} falta o no es válido",
+        "individual_violations_title": {
+          "DeliveryViolations": "Dirección de entrega",
+          "OtherViolations": "Datos del pedido",
+          "UnhandledViolations": "Datos del pedido"
+        },
+        "all_violations_content": "Haz clic en {{emailLink}} para actualizar esta información y completar tu pedido:",
+        "all_violations_email_link": "correo electrónico",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} para actualizar permanentemente la dirección de esta ubicación.",
+        "editable_shipping_address_violations_email_link": "Póngase en contacto con nosotros",
+        "company_location_changed_product_removed": "Tu carrito ha sido modificado porque algunos productos no están disponibles en esta ubicación. Revisa tu pedido antes de enviarlo.",
+        "shipping_address_incomplete_title": "La dirección de entrega está incompleta",
+        "calculating_shipping": "El envío se calculará más adelante. Inténtalo de nuevo en unos segundos. No se han cobrado cargos.",
+        "calculating_taxes": "Los impuestos aún se están calculando. Inténtalo de nuevo en unos segundos. No se han cobrado cargos.",
+        "generic_processing_error": {
+          "title": "Se ha producido un problema al procesar tu pedido",
+          "body": "No se ha cobrado ningún cargo. Inténtalo de nuevo o utiliza otro método de pago."
+        },
+        "contact_information": {
+          "title": "Los datos de contacto no son válidos",
+          "header": "{{emailLink}} para actualizar tus datos",
+          "email_link": "Póngase en contacto con nosotros"
+        },
+        "payment_method_not_available_with_payment_terms": "El método de pago que seleccionaste ya no está disponible porque el pago de este pedido ahora se realiza bajo las condiciones de {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "El método de pago que has seleccionado ya no está disponible porque el pago de este pedido debe realizarse ahora en el momento de la entrega.",
+        "payment_method_not_available_with_fixed_terms": "El método de pago que has seleccionado ya no está disponible porque el pago de este pedido debe realizarse más tarde.",
+        "payment_method_not_available_with_review_requirement": "El método de pago que has seleccionado ya no está disponible porque el pago se debe realizar una vez que el pedido ha sido confirmado."
+      },
+      "review_address_modal": {
+        "title": "Comprobar dirección",
+        "subtitle": {
+          "one": "Este pedido se enviará a la dirección que {{merchant}} ha proporcionado.",
+          "other": "Este pedido se enviará a una dirección proporcionada por {{merchant}}. Seleccione una dirección de entrega."
+        },
+        "subtitle_must_use": "Tu pedido será enviado a esta dirección.",
+        "use_saved_address": "Usar otra dirección",
+        "return_to_cart": "Volver al carrito de compras"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Leer",
+          "link_label": "de Términos y condiciones generales de {{partnerDisplayName}}"
         }
       }
     }
