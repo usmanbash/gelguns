@@ -2729,7 +2729,87 @@
         "variant_requires_selling_plan": "Variant can only be purchased with a sales subscription.",
         "shipping_address_not_required": "No shipping is needed for this shopping cart",
         "shipping_address_invalid": "There was a problem calculating your shipping costs. Continue to checkout to choose shipping costs before completing your order.",
-        "selling_plan_not_applicable": "Cannot apply sales subscription to variant"
+        "selling_plan_not_applicable": "Cannot apply sales subscription to variant",
+        "selling_plan_not_available_for_company_locations": "Only one-time purchases are available for B2B orders.",
+        "digital_product_not_available_for_company_locations": "You cannot add this item to a B2B order",
+        "bundle_requires_components": "Cannot add the bundle product '%{name}' to the shopping cart.",
+        "gift_card_with_components_not_supported": "Cannot add the bundle product '%{name}' to the shopping cart.",
+        "view_lines_limit_reached": "Rules must be less than or equal to %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "An error has occurred in your shopping cart."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Cannot add the bundle product '%{name}' to the shopping cart.",
+        "cart_too_large": "Shopping cart is too large.",
+        "gift_card_recipient_validation_error": "The specified recipient of the gift voucher is invalid",
+        "invalid_input": "Parameter %{parameter} is invalid.",
+        "buyer_cannot_purchase_for_company_locations": "You cannot make a purchase for this location",
+        "only_one_added_to_cart": "Only 1 item has been added to your shopping cart due to availability.",
+        "only_n_added_to_cart": "Only %{quantity} items have been added to your shopping cart due to availability.",
+        "maximum_available_quantity_reached": "The maximum quantity of this item is already in your shopping cart.",
+        "cart_attributes_error": "Shopping cart attributes contain invalid data.",
+        "not_found": "Shopping cart not found"
+      },
+      "tags": {
+        "add_articles": "Limit the search to items with the tag %{tag}",
+        "add_products": "Limit the search to products with the matching tag %{tag}",
+        "remove_articles": "Expand the search to include items not tagged with %{tag}",
+        "remove_products": "Remove Tag %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} added",
+          "increment_item": "%{delta} added",
+          "decrement_item": "%{delta} removed from %{total}",
+          "decrement_fulfilled_line_item": "%{delta} of %{total} returned",
+          "decrement_return_line_item": "%{delta} removed from return"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Your shopping cart",
+      "create_account": "Create account",
+      "reset_account": "Reset account",
+      "not_found": "404 not found",
+      "search_results": {
+        "one": "Search: %{count} result found for '%{terms}'",
+        "other": "Search: %{count} results found for '%{terms}'"
+      }
+    },
+    "cart": {
+      "discounts_with_count": "There are %{count} discounts applied"
+    },
+    "challenge": {
+      "message": "Let us know that you are not a machine to continue.",
+      "error": "Your answer was not correct, please try again.",
+      "submit_button_text": "Shipping"
+    },
+    "checkpoint": {
+      "message": "Solve captchas to continue",
+      "error": "captcha verification failed",
+      "submit_button_text": "Shipping"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Thank you for signing up for our mailing list.",
+        "disclaimer": "You can unsubscribe at any desired moment.",
+        "unsubscribe": "Log out"
+      },
+      "unsubscribed": {
+        "confirmation": "You have unsubscribed from our mailing list.",
+        "disclaimer": "You will no longer receive marketing updates from us. You can sign up again at any time you wish.",
+        "preview": "You are viewing a sample of what customers will see when they unsubscribe."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>You have given permission for email open-tracking.</b>",
+          "visibility": "Email open rates are reported anonymously. We will only see if you have opened an email as part of an aggregated email opening rate.",
+          "opt_out_html": "You can <a style='text-decoration:underline;' href='%{link}'>unsubscribe</a> from email open-tracking if you do not want to share this information.",
+          "preview_bar": "You are viewing a sample of what customers see when they give permission to receive emails about open tracking."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>You have unsubscribed from email open-tracking.</b>",
+          "visibility": "We cannot see if you have opened our emails."
+        }
       }
     }
   }
