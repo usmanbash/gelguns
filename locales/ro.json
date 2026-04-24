@@ -3156,6 +3156,102 @@
     "challenge": {
       "message": "Anunță-ne că nu ești robot pentru a continua.",
       "submit_button_text": "Trimitere"
+    },
+    "checkpoint": {
+      "message": "Dezactivează captcha pentru a continua",
+      "error": "verificarea captcha a eșuat",
+      "submit_button_text": "Trimitere"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Vă mulțumim pentru înscrierea pe lista noastră de corespondență.",
+        "disclaimer": "Te poți dezabona în orice moment dorești.",
+        "unsubscribe": "Deconectare"
+      },
+      "unsubscribed": {
+        "disclaimer": "Nu vei mai primi actualizări de marketing de la noi. Te poți înscrie din nou oricând dorești.",
+        "preview": "Vizualizezi un exemplu al ceea ce vor vedea clienții când se vor dezabona."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Ai acordat permisiunea pentru urmărirea deschiderii e-mailului.</b>",
+          "visibility": "Procentajele de deschidere a e-mailurilor sunt raportate anonim. Vom vedea doar dacă ai deschis un e-mail ca parte a unui procentaj agregat de deschidere a e-mailurilor.",
+          "opt_out_html": "Poți să te <a style='text-decoration:underline;' href='%{link}'>dezabonezi</a> de la urmărirea deschiderii e-mailurilor dacă nu dorești să partajezi aceste informații.",
+          "preview_bar": "Vizualizezi un exemplu al ceea ce clienții văd atunci când își dau acordul pentru a primi e-mailuri despre urmărirea deschiderii."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Te-ai dezabonat de la urmărirea deschiderii e-mailurilor.</b>",
+          "visibility": "Nu vedem dacă ai deschis e-mailurile noastre.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Permiteți</a> urmărirea deschisă a e-mailurilor.",
+          "preview_bar": "Vizualizezi un exemplu al ceea ce clienții văd atunci când se dezabonează de la primirea e-mailurilor despre urmărirea deschiderii."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nu mai urmărim dacă e-mailurile sunt deschise.</b>",
+          "privacy_policy": "După ce acest e-mail a fost trimis, am actualizat politica noastră de confidențialitate și nu mai urmărim deschiderea e-mailurilor."
+        },
+        "track": {
+          "status_html": "<b>Urmărirea deschiderii e-mailului este raportată.</b>",
+          "visibility": "Vom vedea dacă ai deschis e-mailul doar ca parte a procentului total de deschidere a e-mailurilor."
+        },
+        "updated_policy": {
+          "status_html": "<b>Urmărirea deschiderii e-mailului este raportată.</b>",
+          "visibility": "Am actualizat politica noastră și urmărim acum e-mailurile deschise. Procentajele de deschidere a e-mailurilor sunt raportate anonim. Vom vedea doar dacă ai deschis un e-mail, ca parte a procentajului total de deschidere a e-mailurilor.",
+          "opt_out_html": "Dacă nu mai dorești să partajezi aceste informații, te poți <a style='text-decoration:underline;' href='%{link}'>dezabona</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Ești sigur că vrei să te dezabonezi de la marketingul prin SMS?",
+        "button": "Deconectare"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "De obicei gata în decurs de 1 oră",
+        "two_hours": "De obicei gata în 2 ore",
+        "four_hours": "De obicei gata în 4 ore",
+        "twenty_four_hours": "De obicei gata în 24 de ore",
+        "two_to_four_days": "De obicei gata în 2-4 zile",
+        "five_or_more_days": "De obicei gata în mai mult de 5 zile",
+        "zero_to_two_hours": "De obicei gata în 2 ore",
+        "two_to_four_hours": "De obicei gata în 4 ore",
+        "next_day": "Gata de ridicare a doua zi"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Nu este în stoc"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Preț: de la mic la mare",
+        "price_descending": "Preț: de la mare la mic"
+      },
+      "error": "A apărut o problemă la încărcarea rezultatelor căutării. Reîmprospătează pagina sau încearcă din nou mai târziu."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Acest articol este o achiziție recurentă sau amânată. Dacă continui, sunt de acord cu %{cancellationPolicyLink} și îți dau permisiunea să debitezi prețurile menționate de pe metoda mea de plată, la frecvența și datele indicate, până când comanda mea este procesată sau până când, dacă este permis, anulez.",
+      "buyer_consent_cart": "Unul sau mai multe articole din coșul tău sunt achiziții amânate sau recurente. Dacă continui, sunt de acord cu %{cancellationPolicyLink} și îți dau permisiunea să debitezi prețurile menționate de pe metoda mea de plată, la frecvența și datele indicate, până când comanda mea este procesată sau până când, dacă este permis, anulez.",
+      "cancellation_policy": "politica de reziliere"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ascunde meniul contului",
+        "show_accessibility_label": "Afișează meniul contului",
+        "nav_accessibility_label": "Navigare cont",
+        "open_menu_accessibility_label": "Deschide navigarea contului",
+        "close_menu_accessibility_label": "Închide navigarea contului",
+        "loading_message": "Se încarcă navigarea contului"
+      },
+      "contact_email_subject": "Persoană de contact a magazinului online {{shopName}}",
+      "contact_link": "Date de contact",
+      "delete_confirmation": {
+        "cancel": "Anulare"
+      }
     }
   }
 }
