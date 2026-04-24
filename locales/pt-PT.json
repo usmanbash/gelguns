@@ -608,7 +608,65 @@
             "quantity_increment_not_met": "Para alguns artigos, os limites de encomenda não são cumpridos",
             "quantity_rules_not_met": "Para alguns artigos, os limites de encomenda não são cumpridos",
             "bundle_requires_components": "Este conjunto de mercadorias não contém componentes.",
-            "title_too_long": "O título das mercadorias é demasiado longo."
+            "title_too_long": "O título das mercadorias é demasiado longo.",
+            "title_empty": "O título das mercadorias está vazio.",
+            "mixed_currencies": "O carrinho contém linhas de encomenda com várias moedas.",
+            "product_not_published_in_buyer_location": "O produto não está publicado na localização do comprador."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Pessoa de contacto dentro da empresa não tem acesso à empresa.",
+            "customer_account_required": "É necessário iniciar sessão para continuar.",
+            "contact_info_does_not_match_customer_account": "Os dados de contacto devem corresponder à conta com a qual iniciou sessão.",
+            "phone_number_does_not_match_expected_pattern": "O número de telefone fornecido tem um formato incorreto.",
+            "email_required": "Quando os bens são adquiridos numa subscrição, é necessário um correio eletrónico.",
+            "email_domain_is_invalid": "O domínio indicado não pode ser resolvido.",
+            "missing_contact_method": "Falta um método de contacto válido.",
+            "checkout_completion_target_is_missing": "Falta o objetivo para a conclusão do pagamento.",
+            "invalid_customer_profile": "Foi fornecido um perfil de cliente inválido.",
+            "customer_profile_access_restricted": "O caixa não tem acesso ao perfil do cliente.",
+            "checkout_completion_target_is_invalid_proc": "Destino inválido para conclusão da finalização da compra.",
+            "company_location_required": "O cliente só pode continuar se escolher uma localização da empresa.",
+            "lost_access_to_company": "O cliente perdeu o acesso a cada empresa.",
+            "company_purchase_permission_required": "O cliente não está autorizado a fazer encomendas empresariais.",
+            "personal_order_not_allowed": "Encomendas pessoais não são permitidas nesta loja.",
+            "buyer_identity_presentment_currency_does_not_match": "Ocorreu um problema ao processar a sua encomenda. Por favor, tente novamente daqui a alguns minutos."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Um carrinho de compras só pode conter uma única linha de entrega.",
+            "wrong_number_of_delivery_lines": "Indique uma regra de entrega para cada grupo de mercadorias.",
+            "external_delivery_promise_error": "Não foi possível obter a data de entrega prevista junto do fornecedor externo.",
+            "options_instructions_invalid": "As instruções fornecidas têm um padrão incorreto.",
+            "destination_address_required": "Para continuar, é necessário um endereço de destino.",
+            "pickup_points_unavailable": "Os pontos de recolha não estão disponíveis de momento.",
+            "local_pickup_delivery_line_detail_changed": "Para continuar, a estratégia atual de entrega para levantamento no local deve ser alterada.",
+            "local_pickup_no_delivery_strategy_available": "Nenhuma estratégia de entrega para levantamento no local disponível.",
+            "origin_location_id_required": "É necessário um ID de local de origem quando o método de entrega RETAIL for solicitado.",
+            "invalid_origin_location_id": "Não é possível encontrar uma localização para o ID da localização de origem.",
+            "origin_location_id_not_allowed": "Nenhum ID de local de origem é suportado nos métodos de entrega solicitados.",
+            "auto_fulfill_not_allowed": "Esta sessão não está autorizada a substituir o comportamento de cumprimento.",
+            "auto_fulfill_required": "O cumprimento automático é necessário quando o método de entrega RETAIL é solicitado.",
+            "prefetch_shipping_rates_used": "As tarifas de envio pré-pagas nunca devem ser tarifas de devolução.",
+            "fulfillment_constraints_not_satisfied": "Não foi cumprida uma ou mais restrições de cumprimento.",
+            "must_fulfill_from_constraint_not_satisfied": "A razão para isto é que os artigos não podem ser tratados a partir dos locais exigidos.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "A razão para isso é que os artigos não podem ser tratados a partir do mesmo local.",
+            "delivery_strategy_conditions_not_satisfied": "Existem estratégias de entrega disponíveis para esta localização, mas as condições não são cumpridas.",
+            "out_of_stock_at_origin_location": "Sem stock na localização de origem.",
+            "invalid_signature": "Assinatura inválida para desconto.",
+            "selected_pickup_option_no_longer_available": "A opção de levantamento selecionada anteriormente já não está disponível."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Descontos não são permitidos em lojas B2B.",
+            "custom_discount_not_honoured": "O desconto personalizado introduzido não foi aplicado.",
+            "unsupported_expectation": "A regra de desconto introduzida continha uma suposição que a política não conseguiu interpretar.",
+            "additional_requested_discount_code_discarded": "{{code}} é válido mas não aplicável. Verifique os termos para descontos.",
+            "allocations_mismatch": "O seu código de desconto foi alterado. Verifique o seu carrinho e tente novamente.",
+            "discount_title_too_long": "O título do desconto não pode ter mais de 255 caracteres.",
+            "additional_requested_discount_discarded": "O seu desconto é válido mas não aplicável. Verifique os termos e condições dos descontos."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Os impostos aplicáveis à sua encomenda foram alterados. Verifique a sua encomenda e tente novamente.",
+            "unresolvable_tax_terms": "As condições propostas não são viáveis tendo em conta o contexto negocial atual.",
+            "delivery_price_is_abstract": "O preço em questão para a entrega é abstrato."
           }
         }
       }
