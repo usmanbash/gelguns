@@ -1202,7 +1202,71 @@
         "shipping_used_as_billing_notice": "Detta används också som din faktureringsadress för denna beställning.",
         "shipping_address_title": "Skicka till",
         "delete": "Ta bort",
-        "address_more": "Fler åtgärder för denna adress"
+        "address_more": "Fler åtgärder för denna adress",
+        "address_delete": "Ta bort adress",
+        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?",
+        "address_form": {
+          "generic_error": "Det uppstod ett problem när din adress skulle sparas. Försök igen.",
+          "one_time_address_subtitle": "Använd en engångsadress för denna beställning"
+        },
+        "different_shipping_method_summary": "Fyll i en annan leveransadress för att se tillgängliga leveranssätt",
+        "local_pickup": {
+          "search_address": "Söka adress",
+          "rollup_title": "Utlämningsställe"
+        },
+        "shipping_method_first_shipment_group_title": {
+          "one": "Första leveransen",
+          "other": "Första leveranserna"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Återkommande försändelse",
+          "other": "Återkommande försändelser"
+        },
+        "address_default": "Ställ in som standard",
+        "split_shipping_merchandise_quantity_label_additional": "+ minst %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Zending %{number} av %{total}",
+        "pre_order_ships_now": "Skickas nu",
+        "pre_order_ships_later": "Skickas senare",
+        "pre_order_ships_date": "Skickas den %{date}",
+        "split_shipping_shipped_by_shop": "Skickat av %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Flera försändelser",
+        "split_shipping_shipping_label": "Visdom",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} försändelser",
+        "split_shipping_multiple_shipment_notice": "Beställningen levereras i flera omgångar",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Din beställning levereras i %{quantity} leveranser",
+        "split_shipping_shipment_number": "Sändning %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Antal: %{quantity}",
+        "split_shipping_option_fastest": "Snabbaste",
+        "split_shipping_option_recommended": "Rekommenderad",
+        "default_description": "Skickas inom en arbetsdag",
+        "split_shipping_shipment_notice": "Du får din beställning i %{quantity_shipments}",
+        "unbranded_default_description": "Klar för leverans",
+        "prime_not_available": {
+          "default": "Prime-leverans är inte tillgänglig för din beställning. Dina leveransalternativ har uppdaterats."
+        },
+        "split_shipping_first_shipment_notice": "Du får din första beställning om %{quantity_shipments}",
+        "third_party_address_timeout": "Kan inte ladda adressen. Försök igen eller använd en annan adress.",
+        "third_party_address_error": "Ett fel uppstod vid inläsning av adressvalet. Ange din adress manuellt nedan.",
+        "third_party_payment_timeout": "Kan inte ladda betalningsmetoder. Försök igen eller använd en annan betalningsmetod.",
+        "third_party_payment_error": "Ett fel uppstod vid inläsning av betalningsvalet. Använd en annan betalningsmetod.",
+        "unbranded_description_same_day": "Skickas samma arbetsdag",
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Skickas om %{count} vecka",
+          "other": "Skickas om %{count} veckor"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Betalning",
+        "amazon_payments_login_hint": "Du ombeds logga in på Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Den valda betalningsmetoden kan inte användas. Välj en annan metod eller kontakta din bank eller kortutgivare.",
+        "amazon_payments_abandoned_mfa_challenge": "Din betalning kunde inte slutföras. Försök med en annan betalningsmetod eller kontakta din bank eller kortutgivare.",
+        "amazon_payments_could_not_enqueue_authorize": "Ett problem uppstod vid behandlingen av din betalning. Försök igen eller använd en annan betalningsmetod.",
+        "amount_left_to_pay_label": "Skyldigt belopp:",
+        "detected_card_brand": "Upptäckt korttyp: {brand}",
+        "card_security_notice": "Alla transaktioner är säkrade och krypterade.",
+        "name_on_card_label": "Namn på kortet",
+        "name_on_card_placeholder": "Namn på kortet",
+        "card_expiry_label": "Utgångsdatum (MM/ÅÅ)"
       }
     }
   }
