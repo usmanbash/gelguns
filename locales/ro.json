@@ -4188,10 +4188,80 @@
           },
           "events": {
             "adjustment": "Ajustare",
-            "order_payment": "Plata comenzii"
+            "order_payment": "Plata comenzii",
+            "order_refund": "Rambursarea comenzii",
+            "payment_failure": "Plată eșuată",
+            "payment_returned": "Plată returnată",
+            "order_cancellation": "Anularea comenzii",
+            "tax_finalization": "Încheierea impozitului"
           }
+        },
+        "expirable_amounts_label": "Sume expirate"
+      },
+      "three_d_secure": {
+        "title": "3D Securizat",
+        "verification_failed": "Plata ta nu poate fi verificată. Încearc-o din nou sau folosește o altă metodă de plată."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Adăugare metodă de plată PayPal",
+        "loading_accessibility_message": "Încarcă PayPal",
+        "errors": {
+          "generic": "A apărut o problemă cu PayPal. Încearcă din nou sau folosește o altă metodă de plată."
         }
-      }
+      },
+      "card_update_consent_subscriptions": "Această metodă de plată este salvată pentru achiziții viitoare și poate fi folosită pentru orice cumpărătură repetată sau amânată.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Adăugând o metodă de plată, poți autoriza ca, până când anulezi, să se perceapă taxe pe cardul tău sau ca la cumpărăturile viitoare pe care le aprobi să se efectueze retrageri din contul tău bancar."
+      },
+      "replacement_payment_method_title": "Metode alternative de plată",
+      "bank_account": {
+        "loading_accessibility_message": "Butonul pentru contul bancar se încarcă",
+        "generic_error": "Nu se poate adăuga contul bancar. Vă rugăm să încercați din nou mai târziu."
+      },
+      "update_payment_method": {
+        "billing_address": "Adresă de facturare",
+        "disclaimer": "Această metodă de plată este salvată pentru achiziții viitoare și poate fi folosită pentru orice cumpărătură repetată sau amânată.",
+        "error_message": "Nu se poate actualiza metoda de plată",
+        "loading_form_accessibility_message": "Se încarcă formularul pentru actualizarea metodei de plată",
+        "loading_current_payment_method": "Metoda de plată curentă se încarcă",
+        "loading_digital_wallets": "Opțiuni pentru portofel digital se încarcă",
+        "loading_card_fields": "Câmpurile pentru cardul de credit se încarcă",
+        "subscriptions_list_accessibility_label": "Listă cu produse pe bază de abonament",
+        "pre_orders_title": "Următorul",
+        "pre_orders_list_accessibility_label": "Listă cu produse cu comandă în curs",
+        "resources_list_accessibility_label": "Produse cu abonament și produse cu o comandă în curs care utilizează această metodă de plată"
+      },
+      "link_expired": {
+        "message": "Acest link pentru a-ți actualiza metoda de plată a expirat.",
+        "return_home_button": "Înapoi la pagina principală",
+        "update_message": "Acest link pentru a-ți actualiza metoda de plată a expirat.",
+        "add_message": "Acest link pentru a adăuga metoda ta de plată a expirat."
+      },
+      "update_success": {
+        "title": "Metoda de plată actualizată"
+      },
+      "or": "SAU",
+      "additional_payment_methods": "Metode suplimentare de plată"
+    },
+    "payment_method_brands": {
+      "shoppay": "Plată Magazin",
+      "applepay": "Plată Apple",
+      "googlepay": "Google Plătește",
+      "discover": "Descoperă",
+      "dinersclub": "Clubul Diners",
+      "maestro": "Maestru",
+      "forbrugsforeningen": "Asociația de Consumatori",
+      "unionpay": "Plată Union"
+    },
+    "enable_javascript": "Activează JavaScript în setările browserului tău sau autentifică-te cu un alt browser pentru a-ți vedea contul.",
+    "ui_components": {
+      "expandNotification": "Vezi mai mult",
+      "increase": "Creștere a {{type}}",
+      "decrease": "Achiziție de {{type}}",
+      "minimumReached": "Valoarea minimă a furgonului a atins {{value}}",
+      "maximumReached": "Valoarea maximă de {{value}} atinsă",
+      "january": "ianuarie",
+      "february": "februarie"
     }
   }
 }
