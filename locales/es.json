@@ -2000,7 +2000,89 @@
           "title": "Facturas btw"
         },
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Tu pago está siendo procesado. Recibirás un correo electrónico cuando tu pago haya sido confirmado.",
-        "verify_shop_account_title": "Verifica tu cuenta de tienda"
+        "verify_shop_account_title": "Verifica tu cuenta de tienda",
+        "verify_shop_account_message": "Tu información está guardada en Shop. Verifica tu cuenta para usarla automáticamente en millones de tiendas.",
+        "verify_shop_account_cta": "Verificar tu cuenta",
+        "verify_shop_account_confirmation": "Datos de pago guardados",
+        "company_location_section_title": "Empresa y ubicación",
+        "announcement": {
+          "expand": "Desplegar",
+          "collapse": "Cerrar"
+        },
+        "thank_you_confirmed_orders_with_email": "Pronto recibirás correos electrónicos de confirmación separados con tus números de pedido",
+        "thank_you_confirmed_orders_with_phone": "Pronto recibirás mensajes de confirmación separados con tus números de pedido",
+        "thank_you_confirmed_orders_with_email_and_phone": "Pronto recibirás correos electrónicos de confirmación separados con tus números de pedido",
+        "track_your_order_link_text": "Seguir tu pedido",
+        "confirmed_orders_title": "Tus pedidos han sido confirmados",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Hay artículos no confirmados"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "No se han cobrado costos por esto",
+          "other": "No se han cobrado costos por esto"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artículos"
+        },
+        "payment_method_not_charged": "No amortizado",
+        "items_fulfilled_by_store": {
+          "one": "Los artículos que has comprado provienen de %{remote_shop_name}.",
+          "other": "Los artículos que has comprado provienen de otras tiendas."
+        },
+        "thank_you_confirmed_with_email_description": {
+          "multi_store": "Pronto recibirás un correo electrónico de confirmación separado de cada tienda"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "multi_store": "Pronto recibirás un mensaje de confirmación de cada tienda"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Pronto recibirás un correo electrónico de confirmación separado de cada tienda"
+        },
+        "checkout_again": "Realizar el pago nuevamente",
+        "cashback_notice": "Recibirás tu reembolso después de 30 días"
+      },
+      "review": {
+        "title": "Reseña",
+        "blocks": {
+          "payment_method_title": "Método de pago",
+          "change_link_label": "Modificar",
+          "change_shipping_address_link_label": "Cambiar dirección de entrega",
+          "pick_up_in_store_shipping_method_html": "Recoger en la tienda · %{location_name}",
+          "purchase_order_number_title": "Número de pedido",
+          "change_purchase_order_number_label": "Cambiar número de pedido",
+          "change_delivery_method_link_label": "Cambiar método de entrega",
+          "no_address": "(Sin dirección)",
+          "no_purchase_order_number": "(Sin número de pedido)",
+          "due_after_order_reviewed_html": "Adeudado después de que se haya verificado el pedido",
+          "review_title_free_order": "Revise y complete el pedido",
+          "payment_method_saved_company_location": "Guardar tarjeta para esta ubicación",
+          "change_company_location_link_label": "Cambiar ubicación de la empresa",
+          "pickup_items_at": {
+            "one": "Recoger %{count} artículo(s) en",
+            "other": "Recoger %{count} artículos en"
+          },
+          "ship_items_to": {
+            "one": "Enviar %{count} artículos a"
+          }
+        },
+        "block_title": "Verifica tus datos",
+        "review_and_confirm_title": "Comprobar y confirmar",
+        "account_more_actions": "Más promociones para esta cuenta"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Envíame un correo electrónico con noticias y ofertas",
+        "unsubscribe": {
+          "title": "Te has dado de baja",
+          "description": "Ya no recibirás recordatorios de carrito de nuestra parte."
+        },
+        "accept_sms_checkbox_label": "Envíame un mensaje de texto con noticias y ofertas",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Condiciones del servicio",
+            "description_html": "Al registrarte por SMS, aceptas recibir mensajes de marketing automatizados, incluidos recordatorios de carrito, en el número de teléfono proporcionado. El consentimiento no es un requisito para la compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse cargos por mensajes y datos. Consulta nuestra %{privacy_policy_link} y nuestros %{terms_of_service_link}.",
+            "description_transactional_html": "Es posible que recibas mensajes SMS relacionados con confirmaciones de pedidos y actualizaciones de envío. Responde con STOP para darte de baja. Responde con HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse cargos por mensajes y datos. Consulta nuestro %{privacy_policy_modal_link} y nuestros %{terms_of_service_modal_link}."
+          }
+        }
       }
     }
   }
