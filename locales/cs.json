@@ -4082,6 +4082,94 @@
         "modal_po_number_input_max_length_error": "Čísla objednávek mohou mít maximálně {{maxLength}} znaků.",
         "title": "Číslo nákupní objednávky {{poNumber}}"
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Při odstraňování této adresy došlo k problému. Zkuste to znovu nebo obnovte stránku."
+      },
+      "addresses_loading_issue": {
+        "description": "Chyba připojení. Zkontrolujte své internetové připojení a zkuste to znovu."
+      },
+      "banner_title": {
+        "one": "Je {{count}} chyba",
+        "other": "Je {{count}} chyb"
+      },
+      "failed_address_creation": {
+        "description": "Při vytváření tvé adresy došlo k problému. Obnov tuto stránku nebo zkontroluj své připojení k internetu."
+      },
+      "failed_address_update": {
+        "description": "Při aktualizaci vaší adresy došlo k problému. Obnovte tuto stránku nebo zkontrolujte své připojení k internetu."
+      },
+      "no_access_to_locations": {
+        "description": "Nemáte přístup k místům"
+      },
+      "not_found": {
+        "description": "Zkontrolujte adresu URL nebo to zkuste znovu za pár minut."
+      },
+      "order_not_found": {
+        "description": "Tato objednávka neexistuje nebo k ní nemáte oprávnění.",
+        "title": "Objednávka nenalezena"
+      },
+      "profile_update_error": {
+        "description": "Při aktualizaci tvého profilu došlo k problému. Obnov tuto stránku nebo zkontroluj své připojení k internetu."
+      },
+      "load_orders_error": {
+        "title": "Nelze načíst objednávky",
+        "description": "Zkuste to znovu nebo se vraťte později."
+      },
+      "load_paypal_error": {
+        "description": "Při načítání PayPalu došlo k problému. Zkuste to znovu."
+      },
+      "load_extension_error": {
+        "description": "Obnovte tuto stránku nebo to zkuste znovu za pár minut.",
+        "refresh_button": "Obnovit stránku"
+      },
+      "already_upgraded": "Účty zákazníků již byly vylepšeny.",
+      "failed_to_upgrade": "Aktualizace nastavení zákaznického účtu se nezdařila.",
+      "logout_everywhere": {
+        "description": "Při odhlašování došlo k chybě. Zkuste to prosím znovu."
+      },
+      "resend_link": {
+        "too_many_requests": "Příliš mnoho požadavků. Zkuste to prosím později znovu.",
+        "generic": "Žádost selhala"
+      },
+      "profile_name_update_error": {
+        "description": "Při aktualizaci tvého jména došlo k problému. Obnov tuto stránku nebo zkontroluj své připojení k internetu."
+      },
+      "load_address_form_error": {
+        "description": "Nelze načíst formulář adresy."
+      },
+      "not_upgraded": "Účty zákazníků nebyly vylepšeny.",
+      "failed_to_revert": "Obnovení nastavení zákaznického účtu se nezdařilo.",
+      "revert_window_expired": "Období obnovy uplynulo."
+    },
+    "payment_methods": {
+      "add_payment_method_button": "Přidat způsob platby",
+      "payment_details": {
+        "title": "Údaje o způsobu platby",
+        "payment_method_expiring_on": "Platí do {{expiryDate}}",
+        "preauthorized_payments": "Předem schválené platby",
+        "close_payment_modal_accessibility_label": "Modální údaje platební metody zavřít",
+        "payment_method_not_found_error": "Nelze najít platební metodu",
+        "payment_details_loading": "Načítání údajů o způsobu platby",
+        "pre_authorized_payments": "Předem schválené platby",
+        "total_amount_of_subscription_line_items_left": "a ještě {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Celkem {{totalItems}} položek; zobrazuje se {{totalItemsToDisplay}} položek.",
+        "next_payment_due": "Další platba splatná dne {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Upravit platební metodu končící na {{lastDigits}}",
+        "credit_card_details_accessibility_label": "končící na {{lastDigits}}",
+        "card_info_title": "Údaje o mapě",
+        "payment_method_expired_on": "Vyprší dne {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay načteno",
+        "invalid_payment_method_message": "Použijte novou platební kartu, abyste mohli nadále přijímat nadcházející objednávky.",
+        "replace_payment_method": "Způsob platby změnit",
+        "checkout_card_banner": "Tuto platební metodu můžete použít pouze pro předem schválené platby. Při přihlášení v tomto obchodě se nezobrazí při dokončování nákupu.",
+        "default_checkbox_accessibility_label": "Nastavte tuto platební metodu jako výchozí",
+        "replace_payment_method_button": "Vyměnit"
+      },
+      "delete_payment_method_button": "Odstranit",
+      "delete_payment_method_button_accessibility_label": "Odebrat {{paymentMethodName}}",
+      "back_button_accessibility_label": "Zpět na {{paymentMethodStepTitle}}"
     }
   }
 }
