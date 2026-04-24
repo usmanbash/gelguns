@@ -2670,7 +2670,89 @@
             "city": "Unesite mjesto",
             "country": "Odaberite zemlju/regiju",
             "zip": "Unesite poštanski broj ili ZIP kod",
-            "phone": "Unesite telefonski broj"
+            "phone": "Unesite telefonski broj",
+            "billing_first_name": "Unesite ime za adresu za fakturiranje",
+            "billing_address1": "Unesite adresu za fakturiranje",
+            "billing_address2": "Unesite broj stana ili suitea itd. za adresu za fakturiranje",
+            "billing_city": "Unesite adresu za račun",
+            "billing_province": "Odaberite državu/provinciju za adresu računa",
+            "billing_zip": "Odaberite ZIP ili poštanski broj za adresu za naplatu",
+            "contact_info": "Unesite kontaktne podatke"
+          },
+          "formatting": {
+            "name_contains_emojis": "Ukloni emoji iz svog imena",
+            "postal_code_contains_emoji": "Ukloni emoji iz svoje poštanske oznake"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Adresa dostave nije valjana. Odaberite drugu adresu ili upotrijebite novu adresu.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} trenutno nije dostupan za vašu narudžbu. Odaberite drugi način plaćanja kako biste nastavili s kupnjom."
+          },
+          "discount_code": "Ne mogu primijeniti ovaj kod za popust. Provjerite svoj kod i pokušajte ponovno.",
+          "processing_error_checkout_as_guest": "Došlo je do problema pri obradi vaše uplate. Pokušajte ponovno ili {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Bit ćete preusmjereni na {{walletName}} da dovršite svoju kupnju",
+        "return_to_checkout": "Natrag na naplatu",
+        "scrim": {
+          "and_return_to_checkout": "i natrag na blagajnu",
+          "cancel": "Otkaži"
+        },
+        "place_order": "Podnošenje narudžbe",
+        "recovery_notice": "Došlo je do pogreške s vašim podacima za narudžbu. Ažurirajte svoje podatke kako biste dovršili plaćanje."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Prvo provjerite svoje kontaktne podatke prije nego što dovršite uplatu"
+      },
+      "store_credit_errors": {
+        "generic_error": "Došlo je do problema s vašim trgovinskim kreditom. Pokušajte ponovno ili osvježite stranicu."
+      },
+      "note": {
+        "length_exceeds_maximum": "Skratite komentar na najviše 5000 znakova."
+      },
+      "billing": {
+        "billing_address_title": "Račun za",
+        "same_as_shipping": "Isto kao i adresa za dostavu",
+        "add_address": "Koristiti drugu adresu",
+        "delete": "Ukloni",
+        "address_more": "Više akcija za ovu adresu",
+        "address_delete": "Ukloni adresu",
+        "address_confirm": "Jeste li sigurni da želite ukloniti ovu adresu iz svog računa?",
+        "address_form": {
+          "add_address": "Dodaj adresu",
+          "cancel": "Otkaži"
+        },
+        "billing_address_rollup_accessibility_label": "Opcije naplate"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Poklon bon je već primijenjen na tvoju narudžbu",
+          "insufficient_funds": "Na ovoj poklon kartici više nema novca",
+          "expired": "Ovaj poklon bon je istekao",
+          "not_available": "Ova poklon bon više nije dostupan",
+          "invalid": "Unesite valjani poklon bon",
+          "currency_mismatch": "Prihvaćaju se samo poklon bonovi u %{shop_currency}",
+          "generic": "Poklon bon se ne može dodati na blagajnu",
+          "throttle_limit_exceeded": "Dosegnuli ste maksimalan broj pokušaja. Pokušajte ponovno kasnije.",
+          "no_longer_available": "Ovaj poklon bon više se ne može koristiti pri ovoj naplati"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Došlo je do problema pri učitavanju Shop Pay-a",
+          "checkout_has_expired": "Vaša sesija je istekla. Zatvorite ovaj prozor i pokušajte ponovno izvršiti kupnju na {{shopName}}."
+        },
+        "return_to_store": "Natrag na {{shopName}}",
+        "return_to_store_simple": "Natrag u trgovinu",
+        "title": "Plaćanje putem Shop Pay"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Opcije za lokaciju tvrtke"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Vrijednost poklon bona mora biti veća od 0.",
+            "subtotal_limit_reached": "Dosegnuta je maksimalna vrijednost za stavke narudžbe.",
+            "gift_card_price_must_not_exceed_limit": "Cijena poklon bona ne smije biti veća od %{gift_card_limit}."
           }
         }
       }
