@@ -1501,8 +1501,74 @@
           "payment_tag": "Bon podarunkowy",
           "apply_another_gift_card_label": "Zastosuj inny bon podarunkowy",
           "gift_card_label": "Bon podarunkowy %{identifier}",
-          "add_label": "Dodaj bon podarunkowy"
-        }
+          "add_label": "Dodaj bon podarunkowy",
+          "manage_label": "Zarządzanie bonami podarunkowymi"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Mocowanie do dostosowanych płatności na miejscu"
+        },
+        "markets_pro_disclaimer_label": "Składając zamówienie, zgadzasz się na zakup u Global-e jako zarejestrowanego sprzedawcy, zgodnie z %{markets_pro_terms} i %{privacy_policy} Global-e, oraz udostępniasz swoje dane %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "ogólne warunki",
+        "markets_pro_disclaimer_privacy_policy": "polityka prywatności",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Ogólne warunki dla sprzedawców zarejestrowanych jako podmiot rozliczeniowy",
+        "markets_pro_disclaimer_privacy_policy_title": "Polityka prywatności dla sprzedawców zarejestrowanych",
+        "alternative_payment_currency_total_notice": "Uwaga: Zostanie pobrane %{amount_due}.",
+        "waiting_on_taxes_message": "Odśwież stronę, jeśli podatki nie zostaną obliczone w ciągu kilku sekund.",
+        "order_edit_banner_single_item_returned": "Zwrócony",
+        "order_edit_banner_multiple_items_returned": "{{amount}} zwróconych",
+        "shop_pay_installments_label": "Płatności ratalne Shop Pay",
+        "delete_credit_card_modal": {
+          "confirmation": "Czy na pewno chcesz usunąć {{brandName}} kończący się na {{lastDigits}}?"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} z {{quantity}} usunięto"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} zwróconych",
+          "with_quantities": "{{delta}} z {{quantity}} zwróconych"
+        },
+        "edit_credit_card_modal": {
+          "title": "Edytuj kartę",
+          "description": "Możesz zmienić tylko adres rozliczeniowy swojej karty.",
+          "fields": {
+            "default": "Ustaw jako domyślne",
+            "expiry": "Data ważności",
+            "security_code": "Kod zabezpieczający",
+            "name": "Nazwa na karcie",
+            "billing": "Wystawianie faktury dla"
+          }
+        },
+        "subscription_heading": "Umowa abonamentowa",
+        "use_order_billing_address_label": "Użyj adresu do faktury z zamówienia",
+        "use_location_billing_address_label": "Użyj adresu do faktury z lokalizacji",
+        "use_location_shipping_address_label": "Użyj adresu dostawy z lokalizacji",
+        "purchase_options_agreement_label_wallets": "Kontynuując płatność, zgadzasz się na przyszłe płatności wymienione na tej stronie oraz na zasady anulowania.",
+        "gift_card_store_credit": {
+          "add_label": "Dodaj bon podarunkowy lub saldo sklepu",
+          "manage_label": "Zarządzanie bonami podarunkowymi lub kredytem sklepowym"
+        },
+        "saved_credit_card_cvv_verification": "Wprowadź kod zabezpieczający swojej karty w celu weryfikacji.",
+        "afterpay_label": "Zapłać później",
+        "cashapppay_label": "Płatność Cash App",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Usunięto z zwrotu",
+          "with_quantities": "{{delta}} usunięty z zwrotu"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Usunięto z zwrotu",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} usunięto z zwrotu",
+        "proposed_gateway_unavailable": "Proponowana brama płatnicza jest niedostępna",
+        "pay_in_installments_split_pay_short": "Cztery płatności po %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Metoda płatności niedostępna dla wybranego adresu dostawy. Wybierz inną metodę płatności.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nie jest dostępne dla tego zamówienia. Wybierz inną metodę płatności.",
+        "paypal_disconnect": "Odłączanie",
+        "alternative_payment_currency_total_manual_payment_notice": "Uwaga: Przekonwertowana suma wynosi %{amount_due}.",
+        "gift_cards_unavailable": "Twój bon podarunkowy nie może być już użyty do tego zamówienia i dlatego został usunięty",
+        "network_card_payment_options": "Wybór firmy obsługującej karty kredytowe",
+        "payment_flexibility_terms_id_mismatch": "ID warunki elastyczności płatności nie zgadzają się",
+        "offsite_gateway_review_page_redirect_hint": "Po sprawdzeniu zamówienia zostaniesz przekierowany do %{gateway_label}, aby sfinalizować zakup.",
+        "gift_card_checkbox_label": "Zastosuj bon podarunkowy",
+        "kcp_creditcard_label": "KCP-karta kredytowa",
+        "simulated_express_checkout": "Portfele cyfrowe nie są dostępne w podglądzie edytora z powodu twojego regionu lub przeglądarki"
       }
     }
   }
