@@ -3919,7 +3919,73 @@
       "paid_amount": "Fizetett",
       "remaining_amount": "Maradék",
       "order_details_skeleton_accessibility_label": "Jelentkezzen be az összes rendelési adat megtekintéséhez.",
-      "logged_in_account_no_permission_to_order": "Bejelentkezve mint {{email}}. Ez a fiók nem jogosult ennek a rendelésnek a kezelésére."
+      "logged_in_account_no_permission_to_order": "Bejelentkezve mint {{email}}. Ez a fiók nem jogosult ennek a rendelésnek a kezelésére.",
+      "log_in_to_a_different_account": "Bejelentkezés másik fiókkal",
+      "ok_duties_tooltip": "Ez a rendelés egy másik országból kerül kiszállításra, ezért vámköltségek kerültek hozzáadásra a rendelés teljes összegéhez.",
+      "error_duties_tooltip": "Ez a rendelés egy másik országból kerül kiszállításra, ezért a kézbesítéskor vám- és adóköltségek merülhetnek fel.",
+      "zero_duties_tooltip": "Ez a rendelés egy másik országból kerül kiszállításra. Az ilyen értékű rendelések után nem számítanak fel vámot.",
+      "group_title_label": "Rész a következőből: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Fűtőanyag-ellátási költségek"
+      },
+      "vat_invoices": {
+        "title": "Btw-számlák"
+      },
+      "taxes_included": "Áfával együtt {{amount}}",
+      "duties_and_taxes_included": "Az összeg tartalmazza a vámokat és adókat. A kézbesítéskor nincs további fizetnivaló.",
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} cikk megjelenítése",
+        "collapse_line_items": "{{count}} cikk elrejtése",
+        "line_item_summary_list_accessibility_label": "Cikkek a {{productTitle}} csomagban"
+      },
+      "cash_rounding": "Készpénz kerekítése",
+      "adjusted_total": "Módosított összeg",
+      "login_card": {
+        "link_expired": "Link lejárt",
+        "resend_link_and_login": "Megtekintheted a rendelési adataidat, ha bejelentkezel, vagy új hivatkozást küldesz arra az e-mail címre vagy telefonszámra, amelyet a fizetéskor használtál.",
+        "resend_link_only": "Megtekintheted a rendelési adataidat, ha új hivatkozást küldünk arra az e-mail címre vagy telefonszámra, amelyet a fizetéskor használtál.",
+        "title": "Megrendelési adatok megtekintése"
+      },
+      "link_sent": "Link elküldve",
+      "company_and_location": "Vállalat és helyszín",
+      "due_on_date": "Fizetendő {{date}}-kor",
+      "due_on_fulfillment": "Fizetés a teljesítéskor",
+      "due_on_receipt": "Fizetés átvételkor",
+      "group_title_label_with_parent": "Címzett: {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Köszönjük! A {{amount}} összegű fizetését megkaptuk.",
+        "full_payment_received": "Köszönjük! A {{amount}} összegű fizetését megkaptuk, és a rendelés most teljesen ki van fizetve.",
+        "dismiss_label": "Fizetés visszaigazolás bezárása",
+        "payment_authorized": "Köszönjük! Az egyenleg frissül, amint a befizetés megérkezik."
+      },
+      "marketing_pending_confirmation": "Kattints az e-mailedben lévő hivatkozásra a megerősítéshez.",
+      "marketing_resend_email": "E-mail újraküldése",
+      "marketing_resend_email_success": "Link elküldve",
+      "subtotal_label_with_quantity": {
+        "other": "Részösszeg · {{count}} cikk"
+      },
+      "total_savings": "Teljes megtakarítás"
+    },
+    "addresses": {
+      "cancel_adding_address_accessibility_label": "Cím hozzáadása megszakítása",
+      "cancel_deletion_button_accessibility_label": "{{address}} eltávolítása megszakítása",
+      "delete_button": "Eltávolítás",
+      "delete_button_accessibility_label": "{{address}} eltávolítása",
+      "delete_confirmation_button_accessibility_label": "{{address}} eltávolítása",
+      "delete_confirmation_message": "Cím törlése? Ez nem befolyásolja a meglévő megrendeléseket.",
+      "edit_button_accessibility_label": "{{address}} szerkesztése",
+      "edit_section_accessibility_label": "{{address}} szerkesztése",
+      "loading_accessibility_message": "Cím betöltése",
+      "loading_addresses_accessibility_message": "Címek betöltése",
+      "loading_billing_accessibility_message": "Számlázási címek betöltése",
+      "loading_finished_accessibility_message": "Új oldal címekkel betöltve",
+      "loading_shipping_accessibility_message": "Cím betöltése szállításhoz",
+      "pagination": {
+        "load_more": "Több betöltése"
+      },
+      "delete_confirmation_title": "Cím törlése?",
+      "delete_confirmation_description": "Ennek nincs hatása a meglévő rendelésekre.",
+      "add_address_banner": "Adj hozzá címeket a fizetésnél való használathoz"
     }
   }
 }
