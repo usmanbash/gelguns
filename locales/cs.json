@@ -2152,7 +2152,77 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zaplacení obdržíte potvrzovací e-mail s číslem objednávky.",
+        "vat_invoices": {
+          "title": "Btw-faktury"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Vaše platba je zpracovávána. Obdržíte e-mail, jakmile bude platba potvrzena.",
+        "verify_shop_account_title": "Ověřte svůj účet v obchodě",
+        "verify_shop_account_message": "Vaše informace jsou uloženy u obchodu. Ověřte svůj účet, abyste je mohli automaticky používat v milionech obchodů.",
+        "verify_shop_account_cta": "Ověřit účet",
+        "verify_shop_account_confirmation": "Údaje o platbě uloženy",
+        "company_location_section_title": "Podnik a místo",
+        "announcement": {
+          "collapse": "Složit"
+        },
+        "confirmed_items_count": "%{confirmed_count} z %{total_count} položek bylo potvrzeno",
+        "thank_you_confirmed_orders_with_email": "Brzy obdržíte samostatné potvrzovací e-maily s čísly vašich objednávek",
+        "thank_you_confirmed_orders_with_phone": "Brzy obdržíte samostatné potvrzovací SMS s čísly vašich objednávek",
+        "thank_you_confirmed_orders_with_email_and_phone": "Brzy obdržíte samostatné potvrzovací e-maily s čísly vašich objednávek",
+        "track_your_order_link_text": "Sledovat vaši objednávku",
+        "checkout_on_remote_shop_link_text": "Zaplatit u %{remoteShopName}",
+        "confirmed_orders_title": "Vaše objednávky byly potvrzeny",
+        "thank_you_unconfirmed_items_description": {
+          "one": "Za to nejsou účtovány žádné poplatky",
+          "other": "Za to nejsou účtovány žádné poplatky"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} položek",
+          "other": "%{count} položek"
+        },
+        "thank_you_from_shop": "Prodejna %{shop_name}",
+        "payment_method_not_charged": "Není odepsáno",
+        "items_fulfilled_by_store": {
+          "one": "Položky, které jste zakoupili, pocházejí z %{remote_shop_name}.",
+          "other": "Položky, které jste zakoupili, pocházejí z jiných obchodů."
+        },
+        "checkout_on_another_store": "Zaplatit v jiném obchodě",
+        "thank_you_confirmed_with_email_description": {
+          "multi_store": "Brzy obdržíte samostatný potvrzovací e-mail od každého obchodu."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Brzy obdržíte potvrzovací SMS zprávu",
+          "multi_store": "Brzy obdržíte potvrzující SMS od každého obchodu"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Brzy obdržíte samostatný potvrzovací e-mail od každého obchodu."
+        },
+        "checkout_again": "Proveďte platbu znovu",
+        "cashback_notice": "Obdržíte svůj cashback do 30 dnů"
+      },
+      "review": {
+        "title": "Recenze",
+        "checkout_as_guest": "Zaplatit jako host",
+        "blocks": {
+          "shipping_address_title": "Odeslat do",
+          "shipping_method_title": "Způsob doručení",
+          "payment_method_title": "Způsob platby",
+          "change_contact_method_link_label": "Změnit kontaktní informace",
+          "change_shipping_address_link_label": "Změnit doručovací adresu",
+          "change_shipping_method_link_label": "Změnit způsob doručení",
+          "change_payment_method_link_label": "Změnit způsob platby",
+          "pick_up_in_store_shipping_method_html": "Vyzdvihnutí v obchodě · %{location_name}",
+          "purchase_order_number_title": "Číslo objednávky",
+          "change_purchase_order_number_label": "Změnit číslo objednávky",
+          "change_delivery_method_link_label": "Změnit způsob doručení",
+          "no_purchase_order_number": "(Žádné číslo objednávky)",
+          "due_after_order_reviewed_html": "Dlužná částka po kontrole objednávky",
+          "review_title_free_order": "Zkontrolujte a dokončete objednávku"
+        }
       }
     }
   }
