@@ -3047,10 +3047,84 @@
               "ro": "Egy romániai áfa-azonosító szám RO betűket és 10 karaktert tartalmaz",
               "sk": "Egy szlovák áfa-azonosító szám SK betűket és 10 karaktert tartalmaz",
               "si": "Egy szlovén áfa-azonosító szám SI betűket és 8 karaktert tartalmaz",
-              "es": "Egy spanyol áfa-azonosító szám ES betűket és 9 karaktert tartalmaz"
+              "es": "Egy spanyol áfa-azonosító szám ES betűket és 9 karaktert tartalmaz",
+              "se": "Egy svéd áfa-azonosító szám SE betűket és 12 karaktert tartalmaz",
+              "gb": "Az Egyesült Királyság áfa-azonosító száma GB vagy XI betűket és 5-12 karaktert tartalmaz"
+            },
+            "invalid_number": {
+              "at": "Adjon meg egy érvényes osztrák áfa-azonosító számot",
+              "be": "Adjon meg egy érvényes belga áfa-azonosító számot",
+              "bg": "Adjon meg egy érvényes bolgár áfa-azonosító számot",
+              "hr": "Adjon meg egy érvényes horvát áfa-azonosító számot",
+              "cy": "Adjon meg egy érvényes ciprusi áfa-azonosító számot",
+              "cz": "Adjon meg egy érvényes cseh áfa-azonosító számot",
+              "dk": "Adjon meg egy érvényes dán áfa-azonosító számot",
+              "ee": "Adjon meg egy érvényes észt áfa-azonosító számot",
+              "fi": "Adjon meg egy érvényes finn áfa-azonosító számot",
+              "fr": "Adjon meg egy érvényes francia áfa-azonosító számot",
+              "de": "Adjon meg egy érvényes német áfa-azonosító számot",
+              "gr": "Adjon meg egy érvényes görög áfa-azonosító számot",
+              "hu": "Adjon meg egy érvényes magyar áfa-azonosító számot",
+              "ie": "Adjon meg egy érvényes ír áfa-azonosító számot",
+              "it": "Adjon meg egy érvényes olasz áfa-azonosító számot",
+              "lv": "Adjon meg egy érvényes lett áfa-azonosító számot",
+              "lt": "Adjon meg egy érvényes litván áfa-azonosító számot",
+              "lu": "Adjon meg egy érvényes luxemburgi áfa-azonosító számot",
+              "mt": "Adjon meg egy érvényes máltai áfa-azonosító számot",
+              "nl": "Adjon meg egy érvényes holland áfa-azonosító számot",
+              "pl": "Adjon meg egy érvényes lengyel áfa-azonosító számot",
+              "pt": "Adjon meg egy érvényes portugál áfa-azonosító számot",
+              "ro": "Adjon meg egy érvényes román áfa-azonosító számot",
+              "sk": "Adjon meg egy érvényes szlovák áfa-azonosító számot",
+              "si": "Adjon meg egy érvényes szlovén áfa-azonosító számot",
+              "es": "Adjon meg egy érvényes spanyol áfa-azonosító számot",
+              "se": "Adjon meg egy érvényes svéd áfa-azonosító számot",
+              "gb": "Adjon meg egy érvényes brit áfa-azonosító számot"
+            },
+            "service_unavailable": "Érvényesítési szolgáltatás nem elérhető",
+            "service_error": "Érvényesítési szolgáltatás nem elérhető"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Az áfa-azonosító szám érvényesítése folyamatban van",
+              "valid": "A Btw-azonosító szám érvényes",
+              "applied": "Az ÁFA-mentesség alkalmazva",
+              "domestic": "Az áfa-mentesség nem került alkalmazásra",
+              "invalid_number": "Az ÁFA-mentesség sikertelen volt",
+              "service_unavailable": "Nem lehet ellenőrizni az áfa-mentességet",
+              "service_error": "Nem lehet ellenőrizni az áfa-mentességet"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Ez a fizetés már nem szükséges. További információért látogasson el a rendelési oldalra.",
+        "paid": "Ez a fizetés már be lett nyújtva. További információkért látogasson el a rendelési oldalra."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "A fizetés befejezéséhez bővítmény-kölcsönhatás szükséges."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Ellenőrizze a rendelését"
+        },
+        "shipping": {
+          "shipping_options": "Tekintse meg az összes szállítási lehetőséget"
+        },
+        "payment": {
+          "payment_options": "Tekintse meg az összes fizetési lehetőséget"
+        }
+      },
+      "too_many_requests": {
+        "title": "Túl sok fizetési próbálkozás",
+        "body": "Várjon néhány percet, majd próbálja meg újra a kosarából.",
+        "return_to_cart": "Vissza a bevásárlókosárhoz",
+        "body_no_cart": "Várjon néhány percet, majd próbálja újra."
+      },
+      "address_management": {
+        "saved_with_store": "Elmentve ennél a boltban"
       }
     }
   }

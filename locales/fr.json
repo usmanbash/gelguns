@@ -4092,8 +4092,162 @@
         "title": "Modifier le mode de paiement",
         "payment_method_updated_toast": "Méthode de paiement mise à jour",
         "billing_address_add_new": "Ajouter nouveau",
-        "billing_address_choose_from_list": "Choisir dans la liste"
-      }
+        "billing_address_choose_from_list": "Choisir dans la liste",
+        "future_purchases_notice": "Cette méthode de paiement sera enregistrée pour les achats futurs."
+      },
+      "card_fields": {
+        "card_expiry_label": "Date d'expiration (MM/AA)",
+        "card_expiry_placeholder": "Date d'expiration (MM/AA)",
+        "card_start_label": "Date de délivrance (MM/AA)",
+        "card_start_placeholder": "Date de délivrance (MM/AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Plus d'informations",
+          "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+          "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au verso de votre carte",
+          "card_verification_value_explanation": "Code de sécurité à 3 chiffres, généralement situé au verso de votre carte. American Express possède un code à 4 chiffres au recto."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Saisis ton nom tel qu'il figure sur ta carte",
+          "credit_card_expiry_invalid": "Veuillez saisir une date d'expiration valide pour la carte",
+          "credit_card_verification_value_blank": "Saisissez le code CVV/CVC ou le code de sécurité de votre carte"
+        },
+        "unavailable": {
+          "text": "Les paiements par carte de crédit et carte de débit ne sont pas disponibles pour le moment.",
+          "link_text": "Rafraîchir cette page",
+          "suffix": "ou essayez de nouveau plus tard."
+        }
+      },
+      "add_payment_method": {
+        "title": "Ajouter un mode de paiement",
+        "payment_method_added_confirmation": "Méthode de paiement ajoutée",
+        "billing_address": {
+          "add_billing_address_button": "Ajouter nouveau",
+          "add_billing_address_button_accessibility_label": "Ajouter une nouvelle adresse de facturation",
+          "choose_billing_address_from_list_button": "Choisir dans la liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Choisissez une adresse de facturation dans la liste",
+          "missing_billing_address_error_message": "Indiquez une adresse de facturation",
+          "default_checkbox": "Définir comme méthode de paiement par défaut"
+        },
+        "replace_mode_warning": "Si vous supprimez ce mode de paiement, cela aura des répercussions sur les abonnements ou les précommandes. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir.",
+        "choose_from_list": "Choisir dans la liste",
+        "add_new_button": "Ajouter nouveau",
+        "subscription_contracts": {
+          "title": "Utiliser la méthode de paiement pour les commandes récurrentes",
+          "product_details": "Données du produit",
+          "more_items": {
+            "one": "Encore {{count}} produit",
+            "other": "Encore {{count}} produits"
+          },
+          "product_count": {
+            "one": "{{count}} produit",
+            "other": "{{count}} produits"
+          }
+        },
+        "contracts_update_failed": "Certains contrats d'abonnement n'ont pas pu être mis à jour",
+        "subscription_contracts_updated": "{{succeeded}} sur {{total}} abonnements mis à jour",
+        "invalid_wallet_type_error": "Type de portefeuille numérique invalide",
+        "updating_contracts": {
+          "one": "Le contrat d'abonnement {{count}} est en cours de mise à jour...",
+          "other": "{{count}} contrats d'abonnement sont en cours de mise à jour..."
+        },
+        "contracts_updated": {
+          "one": "Le contrat d'abonnement {{count}} a été mis à jour",
+          "other": "{{count}} contrats d'abonnement ont été mis à jour"
+        },
+        "missing_customer_error": "Il y a eu une erreur. Veuillez réessayer ou contacter le service d'assistance."
+      },
+      "card_update_consent": "Cette méthode de paiement sera enregistrée pour les achats futurs.",
+      "digital_wallet_title": "Portefeuille numérique",
+      "credit_or_debit_card_title": "Carte de crédit ou carte de débit",
+      "google_pay": {
+        "errors": {
+          "generic": "Un problème est survenu avec Google Pay. Veuillez réessayer ou utiliser un autre mode de paiement.",
+          "missing_billing_address": "Pour Google Pay, vous avez besoin d'une adresse de facturation. Ajoutez-en une dans votre compte."
+        },
+        "loading": "Charger Google Pay",
+        "iframe_title_accessibility_label": "Ajouter une méthode de paiement Google Pay",
+        "loading_accessibility_message": "Charger Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Charger avec Apple Pay",
+        "errors": {
+          "generic": "Un problème est survenu avec Apple Pay. Veuillez réessayer ou utiliser un autre mode de paiement.",
+          "not_available": "Apple Pay n'est pas disponible sur cet appareil.",
+          "missing_billing_address": "Pour Apple Pay, vous avez besoin d'une adresse de facturation. Ajoutez-en une dans votre compte."
+        }
+      },
+      "add_payment_method_banner": "Ajouter un mode de paiement pour un passage en caisse plus rapide et des services d'autorisation préalable",
+      "expiration_warning_button_accessibility_label": "Afficher un avertissement de rejet pour {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "no_payment_methods_banner": "Aucune méthode de paiement ajoutée",
+      "default": "Standard",
+      "store_credit": {
+        "label": "Crédit boutique",
+        "accesibility_label": "Crédit boutique - {{formattedBalance}}",
+        "expirable_amounts_button": "Consulter les montants qui vont expirer",
+        "details_modal": {
+          "title": "Crédit en boutique qui va expirer",
+          "expiration_date_label": "Date d'expiration",
+          "expirable_balance_info": "Une partie du solde expirera à une date ultérieure.",
+          "expirable_amount_label": "Montant total qui sera annulé",
+          "expirable_amounts_info": "Les montants échus antérieurement sont appliqués en premier lors du passage en caisse.",
+          "expired_amounts_button": "Voir les montants échus",
+          "pagination": {
+            "load_more_accessibility_label": "Charger plus de montants qui vont expirer"
+          },
+          "expirable_amounts_button": "Voir",
+          "events": {
+            "payment_failure": "Paiement échoué",
+            "payment_returned": "Paiement remboursé",
+            "tax_finalization": "Clôture de l'impôt"
+          }
+        },
+        "expirable_amounts_label": "Montants échus"
+      },
+      "three_d_secure": {
+        "title": "3D Sécurisé",
+        "verification_failed": "Votre paiement ne peut pas être vérifié. Veuillez réessayer ou utiliser un autre mode de paiement."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Ajouter une méthode de paiement PayPal",
+        "loading_accessibility_message": "Charger PayPal",
+        "errors": {
+          "generic": "Il y a eu un problème avec PayPal. Veuillez réessayer ou utiliser un autre mode de paiement."
+        }
+      },
+      "card_update_consent_subscriptions": "Cette méthode de paiement est enregistrée pour les achats futurs et peut être utilisée pour tout achat récurrent ou différé.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "En ajoutant un mode de paiement, vous pouvez autoriser que des frais soient prélevés sur votre carte jusqu'à ce que vous annuliez, ou que des débits soient effectués sur votre compte bancaire pour les achats futurs que vous approuvez."
+      },
+      "replacement_payment_method_title": "Méthodes de paiement de remplacement",
+      "bank_account": {
+        "loading_accessibility_message": "Le bouton pour le compte bancaire est en cours de chargement",
+        "iframe_title_accessibility_label": "Paramétrage du compte bancaire",
+        "generic_error": "Impossible d'ajouter le compte bancaire. Veuillez réessayer plus tard."
+      },
+      "update_payment_method": {
+        "title": "Mettre à jour le mode de paiement",
+        "disclaimer": "Cette méthode de paiement est enregistrée pour les achats futurs et peut être utilisée pour tout achat récurrent ou différé.",
+        "error_message": "Impossible de mettre à jour le mode de paiement",
+        "loading_form_accessibility_message": "Formulaire de mise à jour du mode de paiement en cours de chargement",
+        "loading_current_payment_method": "La méthode de paiement actuelle est en cours de chargement",
+        "loading_digital_wallets": "Options pour portefeuille numérique en cours de chargement",
+        "loading_card_fields": "Les champs de carte de crédit sont en cours de chargement",
+        "subscriptions_list_accessibility_label": "Liste des produits d'abonnement",
+        "pre_orders_list_accessibility_label": "Liste des produits avec commande en cours",
+        "resources_list_accessibility_label": "Produits par abonnement et produits avec une commande en cours utilisant ce mode de paiement",
+        "resources_card_scroll": "Faites défiler pour voir plus d'articles"
+      },
+      "link_expired": {
+        "message": "Ce lien pour mettre à jour votre mode de paiement a expiré.",
+        "return_home_button": "Retour à la page d'accueil",
+        "update_message": "Ce lien pour mettre à jour votre mode de paiement a expiré.",
+        "add_message": "Ce lien pour ajouter votre mode de paiement a expiré."
+      },
+      "update_success": {
+        "title": "Méthode de paiement mise à jour",
+        "done_button": "Continuer vos achats"
+      },
+      "or": "OU"
     }
   }
 }
