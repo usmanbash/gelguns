@@ -2816,8 +2816,80 @@
           },
           "missing": {
             "first_name": "Adjon meg egy keresztnevet",
-            "last_name": "Írjon be egy vezetéknevet"
-          }
+            "last_name": "Írjon be egy vezetéknevet",
+            "address1": "Adjon meg egy címet",
+            "address2": "Adjon meg egy lakás- vagy lakosztályszámot, és így tovább",
+            "city": "Írjon be egy helyet",
+            "province": "Válasszon egy államot/tartományt",
+            "country": "Válasszon országot/régiót",
+            "zip": "Adjon meg egy irányítószámot vagy postai kódot",
+            "phone": "Adjon meg egy telefonszámot",
+            "billing_first_name": "Adjon meg egy keresztnevet a számlázási címhez",
+            "billing_address1": "Adjon meg egy számlázási címet",
+            "billing_address2": "Adjon meg egy lakás- vagy lakosztályszámot stb. a számlázási címhez",
+            "billing_city": "Adja meg a számlázási címet",
+            "billing_province": "Válasszon egy államot/tartományt a számlázási címhez",
+            "billing_zip": "Válasszon egy irányítószámot vagy postai kódot a számlázási címhez",
+            "contact_info": "Adja meg a kapcsolattartási adatokat"
+          },
+          "formatting": {
+            "name_contains_emojis": "Emoji eltávolítása a nevedből",
+            "postal_code_contains_emoji": "Emoji eltávolítása az irányítószámodból",
+            "first_name_too_long": "A keresztnév túl sok betűt tartalmaz",
+            "last_name_too_long": "A vezetéknév túl sok betűt tartalmaz",
+            "address_too_long": "A cím megadása túl hosszú"
+          },
+          "select_different_shipping_address_to_resolve_errors": "A kézbesítési cím érvénytelen. Válasszon másik címet, vagy használjon új címet.",
+          "unavailable_terminal": {
+            "instructions": "A(z) {{walletName}} jelenleg nem elérhető a rendelésedhez. Válassz egy másik fizetési módot a vásárlás folytatásához."
+          },
+          "discount_code": "Nem lehet alkalmazni ezt a kedvezménykódot. Ellenőrizd a kódot, és próbáld újra.",
+          "processing_error_checkout_as_guest": "Hiba történt a fizetés feldolgozása során. Próbáld újra, vagy {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Átirányítunk a {{walletName}} oldalára a vásárlás befejezéséhez",
+        "return_to_checkout": "Vissza a pénztárhoz",
+        "scrim": {
+          "continue_purchase_in_window": "Folytassa a vásárlást a {{walletName}} ablakban",
+          "and_return_to_checkout": "és vissza a pénztárhoz"
+        },
+        "place_order": "Megrendelés leadása",
+        "recovery_notice": "Hiba történt a rendelési adataiddal. Frissítsd az adataidat a fizetés befejezéséhez."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Ellenőrizd először az elérhetőségeidet, mielőtt befejeznéd a fizetést"
+      },
+      "store_credit_errors": {
+        "generic_error": "Probléma történt az áruházegyenlegeddel. Próbáld meg újra, vagy frissítsd az oldalt."
+      },
+      "note": {
+        "length_exceeds_maximum": "Írja be a megjegyzést legfeljebb 5000 karakter hosszúságban."
+      },
+      "billing": {
+        "billing_address_title": "Számla címzettje",
+        "same_as_shipping": "Ugyanaz, mint a kézbesítési cím",
+        "add_address": "Egy másik cím használata",
+        "delete": "Eltávolítás",
+        "address_more": "További akciók erre a címre",
+        "address_confirm": "Biztosan törölni szeretnéd ezt a címet a fiókodból?",
+        "billing_address_rollup_accessibility_label": "Számlázási lehetőségek"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Az ajándékutalvány már érvényesítve lett a rendeléseden",
+          "insufficient_funds": "Nincs több pénz ezen az ajándékkártyán",
+          "expired": "Ez az ajándékutalvány lejárt.",
+          "not_available": "Ez az ajándékutalvány már nem elérhető",
+          "invalid": "Adjon meg egy érvényes ajándékutalványt",
+          "currency_mismatch": "Csak %{shop_currency} ajándékutalványokat fogadunk el",
+          "generic": "Az ajándékutalvány nem adható hozzá a fizetéshez",
+          "throttle_limit_exceeded": "Elérted a maximális próbálkozások számát. Kérjük, próbáld meg később újra.",
+          "no_longer_available": "Ezt az ajándékutalványt már nem lehet használni ezen a fizetésnél"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Hiba történt a Shop Pay betöltése közben",
+          "try_again_later": "Ellenőrizd a kapcsolatodat, vagy zárd be ezt az ablakot, és próbáld meg néhány pillanat múlva újra."
         }
       }
     }
