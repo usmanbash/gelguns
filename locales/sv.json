@@ -2147,8 +2147,96 @@
       "localized_fields": {
         "additional_information": {
           "shipping_credential_cn": "ID-nummer för invånare",
-          "tax_credential_it": "Personnummer (valfritt)"
+          "tax_credential_it": "Personnummer (valfritt)",
+          "tax_credential_cl": "RUT-avdraget",
+          "shipping_credential_cl": "RUT-avdraget",
+          "tax_credential_co": "ID/ Momsnummer",
+          "tax_credential_type_co": "Typ av identitetshandling",
+          "shipping_credential_co": "ID/ Momsnummer",
+          "shipping_credential_type_co": "Typ av identitetshandling",
+          "tax_credential_cr": "Identifikationsnummer/RUT",
+          "shipping_credential_cr": "Identifikationsnummer/RUT",
+          "tax_credential_ec": "CI/RUC/MOMS",
+          "shipping_credential_ec": "CI/RUC/MOMS",
+          "tax_credential_my": "TIN/Registreringsnummer",
+          "shipping_credential_my": "TIN/Registreringsnummer",
+          "tax_credential_type_mx": "Skattesystemet",
+          "tax_credential_use_mx": "Användning av CFDI",
+          "tax_credential_py": "CI/RUC/MOMS",
+          "shipping_credential_py": "CI/RUC/MOMS",
+          "tax_credential_pt": "NIF/IVA",
+          "shipping_credential_pt": "NIF/IVA",
+          "tax_credential_tr": "Republiken Turkiets identitetsnummer/moms",
+          "shipping_credential_tr": "Republiken Turkiets identitetsnummer/moms"
         }
+      },
+      "post_purchase": {
+        "page_title": "Efter köp",
+        "title": "Efter köp",
+        "escape_confirmation": "Du har betalat för din beställning.",
+        "escape_action": "Visa beställningsbekräftelse ›",
+        "components": {
+          "expand": "Se mer",
+          "processing": "Bearbetar...",
+          "submit": "Indien"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Din kundvagn har uppdaterats baserat på ditt land för leverans.",
+        "cart_and_currency_updated_based_on_country": "Din kundvagn och valuta har anpassats efter leveranslandet.",
+        "currency_updated_for_country": "Valuta uppdaterad för %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} vid varje %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Första %{count} betalningarna för %{total_price} styck"
+          },
+          "following_cycles": ", sedan %{total_price} varje %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} dagen"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Första betalning %{total_price_with_discount} därefter %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", sedan %{count} betalning av %{total_price}",
+            "other": ", därefter %{count} betalningar, vardera på %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Uppdatera kortet",
+        "delete_customer_mandate": {
+          "generic_error": "Det uppstod ett problem vid behandlingen av din begäran.",
+          "success_message": "Din betalningsmetod har tagits bort"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Allmänna villkor för MoR (Handlare av posten)",
+        "privacy_policy": "Sekretesspolicy för registrerad handlare"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Ej tillgänglig produkt"
+        },
+        "products_not_available": {
+          "one": "Din vara tas bort från din kundvagn eftersom den inte finns tillgänglig i ditt land/område.",
+          "other": "Dessa produkter tas bort från din kundvagn eftersom de inte finns tillgängliga i ditt land/område."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Din produkt är inte tillgänglig i ditt land/region."
+        },
+        "unavailable_label": "Inte tillgänglig"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Ditt land/region har uppdaterats. Ange leveransadressen för att fortsätta till kassan."
+      },
+      "throttle": {
+        "line_to_check_out": "Du står i kön för att betala",
+        "cart_summary_heading": "Din kundvagn"
       }
     }
   }
