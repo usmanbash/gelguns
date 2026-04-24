@@ -2549,6 +2549,94 @@
           "one": "Jūsų prekei nėra galimų atsiėmimo punktų",
           "other": "Nėra atsiėmimo punktų tavo prekėms"
         }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Įvyko problema atsiskaitant",
+          "message": "Atnaujinkite šį puslapį arba bandykite dar kartą po kelių minučių",
+          "action": {
+            "cta": "Įkelti puslapį iš naujo"
+          }
+        },
+        "embed_errors": {
+          "customer_account_required": "Norint užbaigti atsiskaitymą, reikia kliento paskyros",
+          "cart_completed": "Šis atsiskaitymas jau baigtas",
+          "invalid_cart": "Prekybos krepšelis nebėra galiojantis",
+          "not_authorized": "Atsiskaitymo patikra nepavyko. Patikrinkite savo prisijungimo duomenis programėlėje.",
+          "killswitch_enabled": "Atsiskaitymas šiuo metu laikinai nepasiekiamas",
+          "policy_violation": "Nepavyksta užbaigti atsiskaitymo dėl politikos konfigūracijos apribojimų",
+          "unrecoverable_failure": "Nepavyksta įkelti kasos. Bandykite dar kartą"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Grįžti į krepšelį",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} norint atnaujinti kiekius",
+        "subscription_changed": "Vienas iš tavo prenumeratų buvo pakeistas.",
+        "company_location_changed": "Jūsų prekių krepšelis atnaujintas. Patikrinkite savo užsakymą prieš jį pateikdami.",
+        "violations_title": "{{violation}} trūksta arba yra neteisingas",
+        "individual_violations_title": {
+          "PaymentViolations": "Sąskaitos adresas",
+          "OtherViolations": "Užsakymo duomenys",
+          "UnhandledViolations": "Užsakymo duomenys"
+        },
+        "all_violations_content": "Paspauskite ant {{emailLink}}, kad atnaujintumėte šiuos duomenis ir užbaigtumėte savo užsakymą:",
+        "all_violations_email_link": "el. paštas",
+        "editable_shipping_address_violations_message_title": "Pridėkite šią informaciją, kad užbaigtumėte savo užsakymą:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} norint nuolat atnaujinti šios vietos adresą.",
+        "editable_shipping_address_violations_email_link": "Susisiekite su mumis",
+        "company_location_changed_product_removed": "Jūsų krepšelis buvo pakeistas, nes kai kurie produktai šioje vietoje nėra prieinami. Patikrinkite savo užsakymą prieš jį pateikdami.",
+        "shipping_address_incomplete_title": "Pristatymo adresas yra nevisiškas",
+        "calculating_shipping": "Pristatymas dar skaičiuojamas. Bandykite dar kartą po kelių sekundžių. Mokesčiai nebuvo taikomi.",
+        "calculating_taxes": "Mokesčiai dar skaičiuojami. Bandykite dar kartą po kelių sekundžių. Jokių mokesčių nebuvo taikyta.",
+        "generic_processing_error": {
+          "title": "Įvyko problema apdorojant jūsų užsakymą",
+          "body": "Jokių mokesčių nebuvo taikyta. Pabandykite dar kartą arba naudokite kitą mokėjimo būdą."
+        },
+        "contact_information": {
+          "title": "Kontaktiniai duomenys yra neteisingi",
+          "header": "{{emailLink}} savo duomenims atnaujinti",
+          "email_link": "Susisiekite su mumis"
+        },
+        "payment_method_not_available_with_payment_terms": "Pasirinktas mokėjimo būdas nebėra prieinamas, nes šio užsakymo mokėjimas dabar vykdomas pagal {{paymentTerms}} sąlygas.",
+        "payment_method_not_available_with_fulfillment_terms": "Pasirinktas mokėjimo būdas nebėra prieinamas, nes šiam užsakymui mokėjimas dabar turi būti atliktas vykdymo metu.",
+        "payment_method_not_available_with_fixed_terms": "Pasirinktas mokėjimo būdas nebėra prieinamas, nes šiam užsakymui mokėjimas turi būti atliktas vėliau.",
+        "payment_method_not_available_with_review_requirement": "Pasirinktas mokėjimo būdas nebėra prieinamas, nes mokėjimas turi būti atliktas patvirtinus užsakymą.",
+        "validation_errors_banner": {
+          "section_label": {
+            "payment": "Apmokėjimas",
+            "billing": "Sąskaitų išrašymas"
+          },
+          "heading": {
+            "other": "Yra {{count}} klaidos:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} klaida {{section}}",
+            "other": "{{count}} klaidos {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Patikrinti adresą",
+        "subtitle": {
+          "one": "Šis užsakymas bus išsiųstas į adresą, kurį nurodė {{merchant}}.",
+          "other": "Šis užsakymas bus išsiųstas į adresą, kurį nurodė {{merchant}}. Pasirinkite pristatymo adresą."
+        },
+        "subtitle_no_match": "Šis adresas nesutampa su jokiu iš tavo išsaugotų adresų.",
+        "subtitle_must_use": "Jūsų užsakymas bus išsiųstas į šį adresą."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Skaityti",
+          "link_label": "de Bendrosios sąlygos {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Klausimų? Susirašinėkite su mumis pokalbių lange"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Netoliese yra %{count} vieta su atsargomis"
+        }
       }
     }
   }
