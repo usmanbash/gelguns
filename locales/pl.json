@@ -1742,7 +1742,129 @@
         "deferred_payment_not_allowed": "Odroczone płatności nie są dozwolone. Sprawdź swoje zamówienie i spróbuj ponownie.",
         "deferred_payment_required": "Do tego zamówienia wymagana jest odroczona płatność. Sprawdź swoje zamówienie i spróbuj ponownie.",
         "deferred_amount_changed": "Twoja płatność nie może zostać przetworzona, ponieważ kwota odroczonej płatności została zmieniona. Sprawdź swoje zamówienie i spróbuj ponownie.",
-        "deferred_date_changed": "Twoja płatność nie może zostać przetworzona, ponieważ data odroczonej płatności została zmieniona. Sprawdź swoje zamówienie i spróbuj ponownie."
+        "deferred_date_changed": "Twoja płatność nie może zostać przetworzona, ponieważ data odroczonej płatności została zmieniona. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "multiple_deferred_payment_not_allowed": "Dozwolona jest tylko jedna odroczona płatność na jedno zgłoszenie. Sprawdź swoje zgłoszenie i spróbuj ponownie.",
+        "shipping_must_match_billing": "Adres do faktury musi zgadzać się z adresem dostawy. Użyj innej metody płatności.",
+        "decision_rule_block": "Wystąpił problem z przetworzeniem twojej płatności. Skontaktuj się z właścicielem sklepu.",
+        "cannot_verify": "Twoje dane płatności nie mogą zostać zweryfikowane. Sprawdź dane swojej karty i spróbuj ponownie.",
+        "invalid_number": "Wprowadź prawidłowy numer karty",
+        "invalid_expiry_date": "Wprowadź prawidłową datę ważności",
+        "invalid_cvc": "Wprowadź prawidłowy kod zabezpieczający",
+        "expired_card": "Twoja karta wygasła. Użyj innej metody płatności.",
+        "processing_error": "Wystąpił problem z przetworzeniem Twojej płatności. Spróbuj ponownie lub wybierz inną metodę płatności.",
+        "call_issuer": "Twoja karta została odrzucona. Użyj innej metody płatności lub skontaktuj się ze swoim bankiem, aby uzyskać więcej informacji.",
+        "test_mode_live_card": "Ten sklep nie może przyjmować prawdziwych zamówień ani przetwarzać prawdziwych płatności.",
+        "transient_error": "Wystąpił problem z przetworzeniem twojej płatności. Odśwież tę stronę lub sprawdź swoje połączenie internetowe.",
+        "missing_shipping_address": "Twoja płatność nie mogła zostać przetworzona, ponieważ brakuje adresu dostawy. Dodaj adres dostawy i spróbuj ponownie.",
+        "invalid_shipping_address": "Twoja płatność nie mogła zostać przetworzona, ponieważ nie mogliśmy znaleźć Twojego adresu dostawy. Sprawdź swój adres dostawy i spróbuj ponownie.",
+        "successful_offsite_with_gift_card_error": "Wystąpił problem podczas przetwarzania twojej płatności bonem podarunkowym. Spróbuj ponownie lub użyj innej metody płatności.",
+        "development_store_order_limit_reached": "Osiągnąłeś maksymalną liczbę zamówień w sklepie deweloperskim z tym procesorem płatności. Użyj testowej bramki płatności, aby złożyć kolejne zamówienie. Więcej informacji znajdziesz w %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Użyj testowej bramki płatności, aby złożyć zamówienie testowe. Więcej informacji znajdziesz w %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testowanie zamówień w sklepach deweloperskich",
+        "method_not_available": "Wybrana metoda płatności nie jest dostępna. Wybierz inną metodę płatności i spróbuj ponownie.",
+        "selected_payment_method": "Wystąpił problem z wybraną metodą płatności i nie pobrano żadnych opłat. Spróbuj ponownie lub użyj innej metody płatności.",
+        "payment_method_billing_address": "Wystąpił problem z adresem rozliczeniowym wybranej metody płatności. Sprawdź adres i spróbuj ponownie lub wybierz inną metodę płatności.",
+        "processing_error_checkout_as_guest": "Wystąpił problem z przetworzeniem płatności. Spróbuj ponownie, używając innej metody płatności lub {{checkout_as_guest_link}}.",
+        "amount_too_small": "Minimalna kwota płatności musi być wyższa niż 0,50 USD. Spróbuj ponownie z wyższą kwotą.",
+        "payment_above_threshold": "Kwota płatności przekracza limit pieniędzy dla tego regionu. Proszę zmniejszyć sumę i spróbować ponownie",
+        "risky": "Wystąpił problem z przetworzeniem płatności. Spróbuj ponownie lub wybierz inną metodę płatności.",
+        "expired_buyer_action": "Przekroczono limit czasu metody płatności. Spróbuj ponownie.",
+        "three_d_secure_failed_payment_method": "Twoja karta nie może zostać zweryfikowana. Spróbuj ponownie lub dodaj inną kartę.",
+        "name_mismatch": "Sprawdź dane swojej karty. Nazwa na karcie i adres rozliczeniowy nie zgadzają się.",
+        "shop_pay_wallet_not_available": "Shop Pay nie jest dostępny dla tego zamówienia.",
+        "market_manager_blocks_wallet_payments": "Ta metoda płatności nie jest obsługiwana w twoim kraju.",
+        "paypal_over_capture": "Całkowita kwota Twojego zamówienia została zaktualizowana. Zapłać za pomocą {{walletName}}, aby dokończyć zamówienie.",
+        "test_mode_enabled_only_test_cards": "Tryb testowy jest włączony, można dodać tylko testowe karty kredytowe.",
+        "captcha_required": "Wprowadź dane płatności i rozwiąż captcha, aby zakończyć zakup.",
+        "captcha_required_without_payment_information": "Rozwiąż captcha, aby dokończyć zakup.",
+        "shipping_company_required_error": "{{shopName}} wymaga nazwy firmy dla adresu dostawy.",
+        "payment_credential_delegation_error": "Wystąpił problem podczas przetwarzania Twojej płatności. Wybierz nową metodę płatności.",
+        "cancelled_payment": "Twoja płatność została anulowana. Spróbuj ponownie lub użyj innej metody płatności.",
+        "installments_payment_method_incompatible": "Wybrana metoda płatności nie może być używana do płatności ratalnych. Wybierz inną metodę płatności."
+      },
+      "shipping_errors": {
+        "shipping_method": "Opcje wysyłki dla twojego zamówienia zostały zmienione. Sprawdź swój wybór.",
+        "shipping_method_not_available": "Twój koszyk został zaktualizowany, a dodane przez Ciebie przedmioty nie mogą zostać wysłane na Twój adres. Usuń przedmioty, aby dokończyć zamówienie.",
+        "shipping_method_not_available_generic": {
+          "one": "Twoje zamówienie nie może zostać wysłane na wybrany adres. Sprawdź, czy adres jest poprawny i spróbuj ponownie, lub wybierz inny adres.",
+          "other": "Niektóre artykuły w twoim koszyku nie mogą zostać wysłane na podany adres. Sprawdź, czy adres jest poprawny i spróbuj ponownie lub wybierz inny adres."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Dodany przez Ciebie przedmiot nie jest wysyłany do Twojej lokalizacji. Usuń ten przedmiot, aby dokonać płatności, lub skontaktuj się ze sklepem.",
+          "other": "Jeden lub więcej dodanych przez Ciebie artykułów nie może zostać wysłanych do Twojej lokalizacji. Usuń artykuły, aby dokonać płatności, lub skontaktuj się ze sklepem."
+        },
+        "payment_method_not_supported": "Nie możesz użyć tej metody płatności dla %{country}. Użyj innej metody płatności, aby wysłać do tego kraju.",
+        "empty_state": "Wprowadź swój adres dostawy, aby zobaczyć dostępne metody wysyłki.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "W koszyku znajdują się artykuły, które nie spełniają wymagań dotyczących ceny lub wagi, aby kwalifikować się do wysyłki. Zaktualizuj koszyk i spróbuj ponownie.",
+        "title": "Wysyłka niedostępna",
+        "invalid_selected_address": "Wybrany adres dostawy jest nieprawidłowy",
+        "invalid_selected_address_with_update_link": "Wybrany adres dostawy jest nieprawidłowy. %{update_address_link} lub wybierz inny adres.",
+        "unavailable_selected_address": "Wysyłka niedostępna dla wybranego adresu",
+        "unavailable_selected_address_for_region": "Wysyłka nie jest dostępna dla {{region}}. Wybierz inny adres, aby kontynuować",
+        "unavailable_addresses_only_countries": "Twoje zamówienie może być wysłane tylko do {{countriesList}}. Dodaj nowy adres, aby kontynuować.",
+        "unavailable_address_country": "Wysyłka nie jest możliwa do wybranego przez Ciebie kraju. Podaj inny adres, aby kontynuować."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Szybka kasa",
+        "or": "ZŁ",
+        "or_pay_another_way": "Lub zapłać w inny sposób",
+        "or_check_out_another_way": "Lub zapłać w inny sposób",
+        "or_pay_with_credit_card": "Lub zapłać kartą kredytową"
+      },
+      "processing": {
+        "redirecting_page_title": "Przekierowywanie…",
+        "redirecting_title": "Przekierowywanie…",
+        "redirecting_notice": "Zostaniesz przekierowany.",
+        "complete_your_purchase_title": "Dokończ swój zakup",
+        "continue_to_payment_gateway_notice": "Przejdź do płatności, aby dodać swoje dane płatnicze.",
+        "complete_your_purchase_title_error": "Popraw swoje dane płatności",
+        "continue_to_payment_gateway_notice_error": "Twoje dane płatności nie mogą zostać zweryfikowane.",
+        "continue_to_payment_gateway_button_label_error": "Aktualizuj dane płatności",
+        "page_title": "Zamówienie jest przetwarzane",
+        "title": "Zamówienie jest przetwarzane",
+        "your_order_has_been_received_title": "Dziękujemy za twoje zamówienie",
+        "you_will_receive_confirmation": "Obecnie otrzymujemy bardzo dużo zamówień. Wkrótce powinieneś otrzymać potwierdzenie e-mailem lub SMS-em. Daj nam znać, jeśli nie otrzymasz go w ciągu godziny.",
+        "wait": {
+          "medium": {
+            "one": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania to %{count} minut.",
+            "other": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania to %{count} minut."
+          },
+          "long": "Otrzymasz e-mail, gdy twoje zamówienie zostanie przetworzone. Obecnie jest duża liczba zamówień.",
+          "no_auto_refresh_html": "%{link}, jeśli nie zostaniesz automatycznie przekierowany.",
+          "refresh_this_page": "Załaduj tę stronę ponownie"
+        },
+        "you_will_not_be_charged": "Nie naliczono jeszcze żadnych opłat",
+        "action_required": "Wymagana akcja",
+        "redirecting_to_bank": "Przekieruj do {{bank}}",
+        "modal_notice": "Nawiązujemy kontakt z {{paymentMethod}}"
+      },
+      "failed_payment": {
+        "page_title": "Płatność nie może zostać przetworzona",
+        "title": "Płatność nie może zostać przetworzona",
+        "payment_not_processed_title": "Twoja płatność nie może zostać przetworzona.",
+        "payment_not_processed_text": "Nie naliczono żadnych opłat. Wróć do swojego koszyka, aby dokończyć zakup.",
+        "return_to_cart_button_label": "Powrót do koszyka"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Wpłata bankowa",
+        "cash_on_delivery_label": "Zwrot pieniędzy",
+        "money_order_label": "Przekaz pocztowy",
+        "debit_card_label": "Karta płatnicza",
+        "generic_payment_terms": "Obowiązują warunki płatności {{translatedName}}. Twoja płatność przypada na {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} na konto z dostępem do tej lokalizacji lub aby dodać bądź użyć zapisane metody płatności."
+          }
+        },
+        "direct_payment_terms": "Obowiązują warunki {{translatedName}}. Pieniądze zostaną pobrane z Twojej karty w dniu {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Płatność jest należna, gdy zamówienie zostanie zrealizowane.",
+        "order_due_on_fulfillment_payment": "Pieniądze zostaną pobrane z twojej karty, gdy zamówienie zostanie zrealizowane.",
+        "draft_order_payment_due_later_no_terms": "Płatność jest należna zaraz po potwierdzeniu zamówienia.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Pieniądze zostaną pobrane z twojej karty, gdy zamówienie zostanie potwierdzone.",
+        "draft_order_payment_due_later_terms": "Warunki {{translatedName}} obowiązują od momentu potwierdzenia zamówienia.",
+        "draft_order_payment_due_on_fulfillment": "Płatność jest należna, gdy zamówienie zostanie potwierdzone i zrealizowane.",
+        "fixed_payment_label": "Płatność jest należna do {{dueDate}}.",
+        "fixed_direct_payment_terms": "Ta kwota zostanie pobrana z Twojej karty w dniu {{dueDate}}."
       }
     }
   }

@@ -806,7 +806,69 @@
             "lastWordConnector": "{{previousWords}} de {{lastWord}}",
             "twoWordConnector": "{{firstWord}} de {{secondWord}}"
           }
-        }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Agrupamento de {{number}} pontos de marcação",
+            "other": "Agrupamento de {{number}} pontos de marcação"
+          }
+        },
+        "sheet": {
+          "expand": "Desdobrar"
+        },
+        "dropzone": {
+          "invalid_file_type": "Este tipo de ficheiro não é suportado",
+          "dragged_over": "Guardar ficheiro para carregar"
+        },
+        "remove_chip": "Remover artigo"
+      },
+      "contact": {
+        "title": "Informação",
+        "email_label": "Correio eletrónico",
+        "email_placeholder": "Correio eletrónico",
+        "email_or_phone_label": "Endereço de correio eletrónico ou número de telemóvel",
+        "email_or_phone_placeholder": "Endereço de correio eletrónico ou número de telemóvel",
+        "stored_addresses_label": "Endereços guardados",
+        "new_address_label": "Utilize um novo endereço",
+        "last_name_label": "Apelido",
+        "address2_label": "Caixa postal, etc.",
+        "optional_address2_label": "N.º de caixa postal, etc. (opcional)",
+        "country_label": "Território/região",
+        "country_code": "Código de terra/região",
+        "county_label": "Província",
+        "county_placeholder": "Província",
+        "governorate_label": "Governo",
+        "governorate_placeholder": "Governo",
+        "emirate_label": "Emirados",
+        "emirate_placeholder": "Emirados",
+        "phone_tooltip": "Caso seja necessário entrar em contacto contigo relativamente à tua encomenda",
+        "pincode_label": "Código postal",
+        "pincode_placeholder": "Código postal",
+        "civic_number_warning": "Adicione um número de porta se tiver um",
+        "different_shipping_address_label": "Enviar para outro endereço",
+        "different_shipping_address_text": "Utilizar um único endereço para esta encomenda",
+        "change_company_location_link_label": "Alterar local da empresa",
+        "shipping_used_as_billing_notice": "Também usamos este endereço como morada de faturação para esta encomenda.",
+        "company_attention_label": "Empresa/a.c.",
+        "optional_company_attention_label": "Empresa/a/c (opcional)",
+        "optional_zip_code_label": "Código postal (opcional)",
+        "email_rollup_accessibility_label": "Opções de correio eletrónico",
+        "phone_country_code_label": "Código do país do número de telefone",
+        "storefront_link": "site do comerciante",
+        "suburb_label": "Bairro exterior"
+      },
+      "delivery_options": {
+        "pick_up": "Recolher",
+        "pick_up_in_four_hours": "Normalmente pronto dentro de 4 horas",
+        "pick_up_immediately": "Pronto para levantar agora",
+        "pick_up_next_day": "Pronto para levantar no dia seguinte",
+        "pick_up_in_twenty_four_hours": "Normalmente pronto dentro de 24 horas",
+        "pick_up_in_two_to_four_days": "Normalmente pronto dentro de 2-4 dias",
+        "pick_up_in_five_or_more_days": "Normalmente pronto em mais de 5 dias",
+        "pick_up_in_zero_to_two_hours": "Pronto para levantar dentro de 2 horas",
+        "pick_up_in_two_to_four_hours": "Pronto para levantar dentro de 4 horas",
+        "free_total_label": "Grátis",
+        "shipping_address": "Endereço de entrega"
       }
     }
   }

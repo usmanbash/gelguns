@@ -3636,9 +3636,79 @@
         },
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "Valdyti su Amazon"
+            "text": "Valdyti su Amazon",
+            "new_window_disclaimer": "(atidaroma naujame lange)"
           }
-        }
+        },
+        "attempted_to_deliver_label": "Bandymas pristatyti",
+        "there_was_a_problem_label": "Įvyko problema",
+        "buy_with_prime_logo_accessibility_label": "Amazon Pirkite su Prime logotipas",
+        "delivered": "Pristatymas {{date}}",
+        "complete_label": "Užbaigta",
+        "multiple_statuses_label": "Keli užsakymų būsenos",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Pristatymas palaikomas pagal",
+            "mixed_brands_label": "Pristatymas garantuotas",
+            "not_delivered_by_label": "Nesijaudinkite dėl {{date}}",
+            "modal_accessibility_button_label": "Duomenų pristatymo pažadas"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Reikalauk Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} norint atsiimti Shop Cash",
+            "download_shop_app_label": "Atsisiųsti parduotuvę"
+          },
+          "details_modal": {
+            "title": "Pristatymas palaikomas pagal",
+            "modal_accessiblity_label": "Pristatymo pažado duomenys",
+            "delivery_guaranteed_by_label": "Pristatymas garantuotas iki {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantuoja greitą ir patikimą pristatymą. Reikalauk Shop Cash, jei tavo užsakymas vėluoja.",
+              "may_be_eligible_not_authorized_label": "Jūs galbūt galite pareikalauti Shop Cash, nes šis užsakymas atvyko vėluodamas. Prisijunkite, kad peržiūrėtumėte detales.",
+              "redeemed_label": "Jūs jau pasinaudojote Shop Cash, nes šis užsakymas atvyko per vėlai.",
+              "expired_label": "Šis užsakymas negali būti pateiktas kaip pretenzija dėl vėluojančio pristatymo, nes 30 dienų garantija jau pasibaigė.",
+              "no_shop_cash_label": "Šis užsakymas negali būti pateiktas kaip pretenzija dėl vėluojančio pristatymo, nes jis nebuvo apmokėtas naudojant Shop Pay.",
+              "no_longer_guaranteed_label": "Šiems straipsniams nebegalioja pristatymo garantija.",
+              "claim_shop_cash_title": "Skenuokite, kad gautumėte {{amount}} Shop Cash premiją",
+              "claim_shop_cash_description": "Galite naudoti Shop Cash būsimoms pirkiniams Shop programėlėje."
+            }
+          }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Tvarkyti Amazonėje"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Pristatymas garantuotas per",
+            "external_promise_brand_label": "Priežiūra dėl",
+            "not_delivered_by_label": "Susirūpinęs po {{date}}",
+            "delivery_guarantee_expired_label": "Garantuoto pristatymo terminas pasibaigė",
+            "modal_accessibility_button_label": "Pristatymo pažado duomenys",
+            "download_shop_app_button_label": "Atsisiųsti parduotuvę stebėjimui",
+            "track_with_shop_button_label": "Sekti su Parduotuve",
+            "claim_shop_cash_button_label": "Pirkti Cash claimen"
+          },
+          "details_modal": {
+            "expired_delivery_guarantee_description": "De Shop Promise 30 dienų garantija šiam užsakymui pasibaigė.",
+            "expired_badge_label": "Pasibaigęs",
+            "order_includes_guarantees_label": "Jūsų pristatymui taikoma {{deliveryAgreementsCount}} garantijų",
+            "order_includes_guarantees_description": "Shop Promise suteikia greito ir patikimo pristatymo garantiją. Reikalauk Shop Cash, jei tavo užsakymas bus pristatytas po {{date}}.",
+            "delivered_after_label": "Susirūpinęs po {{date}}",
+            "delivered_after_description": "Jūsų užsakymas vėlavo, todėl galite pareikalauti {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Šis užsakymas buvo pristatytas vėluodamas, todėl jūs pareiškėte {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Jūsų užsakymas vėlavo, todėl galite pareikalauti {{amount}} Shop Cash.",
+            "learn_more_button_label": "Daugiau informacijos",
+            "claim_shop_cash_button_label": "Pirkti Cash claimen",
+            "view_balance_in_shop_button_label": "Peržiūrėti likutį parduotuvėje",
+            "scan_to_claim_shop_cash_label": "Skenuokite, kad gautumėte {{amount}} Shop Cash premiją"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Siųsti dovanų kuponą dar kartą",
+          "other": "Dovanų kuponų pakartotinis siuntimas"
+        },
+        "expected_by": "Tikimasi ne vėliau kaip {{date}}",
+        "was_expected_by": "Laukiama ne vėliau kaip {{date}}"
       }
     }
   }
