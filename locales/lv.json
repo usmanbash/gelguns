@@ -4120,7 +4120,131 @@
       },
       "add_address_banner": "Pievienojiet adreses, lai izmantotu norēķinu laikā",
       "billing_address_dropdown_placeholder": "Rēķina adrese",
-      "add_button_text": "Pievienot"
+      "add_button_text": "Pievienot",
+      "add_button_accessibility_label": "Pievienot adresi",
+      "back_button": "Atpakaļ",
+      "back_button_accessibility_label": "Atpakaļ uz adreses {{address}} rediģēšanu",
+      "no_addresses_banner": "Nav pievienotas adreses"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Ieteikumi aizvērt",
+      "auto_complete_title": "Ieteikumi",
+      "billing_address": "Izmantot kā rēķina adresi",
+      "cancel": "Atcelt",
+      "cancel_accessibility_label": "Atcelt adreses {{address}} rediģēšanu",
+      "creation_success_notification": "Adrese pievienota",
+      "default_address": "Šī ir mana standarta adrese",
+      "default_address_creation_success_notification": "Standarta adrese pievienota",
+      "default_address_update_success_notification": "Standarta adrese atjaunināta",
+      "loading_add_form_accessibility_message": "Ielādēt jauna adrese veidlapu",
+      "loading_edit_form_accessibility_message": "Formas adrese rediģēšana ielādēšana",
+      "loading_finished_accessibility_message": "Adrešu veidlapa ir ielādēta",
+      "save": "Saglabāt",
+      "save_accessibility_label": "Saglabāt adresi {{address}}",
+      "section_title_accessibility_label": "Pievienot adresi",
+      "update_success_notification": "Adrese atjaunināta",
+      "attention": "Attiecībā uz",
+      "attention_help_text": "Personas vai nodaļas nosaukums",
+      "loading_form_accessibility_message": "Veidlapas adrese ielādēta",
+      "attention_company": "Uzņēmums/uzmanībai"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Uzņēmuma nosaukums",
+        "company_card_section_accessibility_label": "Uzņēmums"
+      },
+      "locations": {
+        "contact_email": "E-pasta adrese",
+        "contact_list_title": "Cilvēki",
+        "contact_name": "Vārds",
+        "contact_permissions": "Pilnvaras",
+        "contact_phone_number": "Tālruņa numurs",
+        "location_picker_label": "Vietas nosaukums",
+        "net_payment_terms_description": "{{name}}: maksājums jāveic {{numberOfDays}} dienu laikā",
+        "payment_details_title": "Maksājumu dati",
+        "payment_terms": "Apmaksas nosacījumi",
+        "permissions_label": "Tavas pilnvaras",
+        "permissions_title": "Pilnvaras",
+        "section_title": "Atrašanās vieta",
+        "shipping_address_required": "Pievienojiet piegādes adresi šai vietai, lai varētu veikt pasūtījumus.",
+        "tax_details_title": "Nodokļu dati",
+        "tax_id": "Nodokļu identifikācijas numurs",
+        "tax_exemptions": "Nodokļu atvieglojumi",
+        "multiple_tax_exemptions": "Atlikums {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "lv",
+        "tax_exemptions_modal_close": "Aizvērt",
+        "taxes_none": "Nav",
+        "tax_exemption_not_applicable": "nav piemērojams",
+        "tax_exemptions_modal_button_accessibility_label": "Rādīt visas nodokļu atbrīvošanas",
+        "pagination": {
+          "load_more": "Ielādēt vairāk",
+          "load_more_accessibility_label": "Ielādēt vairāk vietu"
+        },
+        "own_role_contact_name": "Tu",
+        "staff_and_permissions_title": "Darbinieki un pilnvarojumi",
+        "location_picker_accessibility_label": "Atrašanās vietas nosaukums: {{locationName}}",
+        "deposit_percentage": "{{percentage}} depozīts"
+      },
+      "location_selection": {
+        "description": "Ja tev jau ir preces iepirkumu grozā, atrašanās vietas maiņa var ietekmēt preču cenas un daudzumus tavā grozā.",
+        "list_accessibility_label": "Vietu saraksts",
+        "list_item_without_address_accessibility_label": "{{name}}: nav adrese",
+        "list_loading_accessibility_message": "Ielādēt atrašanās vietu sarakstu",
+        "list_loading_address_accessibility_message": "Adrese ielādēšanai {{locationName}}",
+        "list_loading_finished_accessibility_message": "Vietu saraksts ir ielādēts",
+        "loading_store_accessibility_message": "Ceļā uz veikalu",
+        "selection_cancel_button": "Atcelt",
+        "selection_confirmation_button": "Izvēlēties vietu",
+        "title": "Kurai vietai tu pērk?",
+        "continue_to_store": "Turpināt uz veikalu",
+        "no_location_title": "Tikai personiskie pasūtījumi",
+        "no_location_description": "Jums vairs nav tiesību veikt pasūtījumus {{company}}. Tomēr jūs joprojām varat veikt personiskos pasūtījumus.",
+        "no_locations_found": "Nav atrasta neviena vieta",
+        "search": "Atrast vietas",
+        "clear_search": "Notīrīt meklēšanas vaicājumu",
+        "try_new_search": "Mēģiniet jaunu meklēšanu",
+        "search_location_title": "Izvēlieties vietu",
+        "selection_continue_button": "Turpināt",
+        "description_switch_later": "Tu vari vēlāk vienmēr mainīt",
+        "title_choose_location": "Izvēlieties vietu"
+      },
+      "addresses": {
+        "add_billing_address_button": "Pievienot rēķina adresi",
+        "add_billing_address_section_accessibility_label": "Pievienot rēķina adresi",
+        "add_shipping_address_button": "Piegādes adreses pievienošana",
+        "add_shipping_address_section_accessibility_label": "Piegādes adreses pievienošana",
+        "billing_address_card_title": "Rēķina adrese",
+        "cancel_adding_billing_address_accessibility_label": "Pievienot rēķina adresi atcelt",
+        "cancel_adding_shipping_address_accessibility_label": "Piegādes adreses pievienošana atcelt",
+        "save_new_billing_address_accessibility_label": "Saglabāt rēķina adresi",
+        "save_new_shipping_address_accessibility_label": "Piegādes adrese saglabāt",
+        "shipping_address_card_title": "Piegādes adrese"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Slēpt visu",
+          "show_all": "Rādīt visu",
+          "hide_all_accessibility_label": "Paslēpt visus pasūtījumus pārskatīšanai",
+          "show_all_accessibility_label": "Rādīt visas pasūtījumu pārbaudes laikā",
+          "title": "Apstrādē",
+          "pagination": {
+            "nav_accessibility_label": "Navigācijas pogas pasūtījumiem pārskatīšanai"
+          },
+          "show_all_orders_in_review": "Rādīt visas pasūtījumu pārbaudes laikā",
+          "show_less_orders_in_review": "Rādīt mazāk pasūtījumu pārskatēšanā",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Tev nav nevienas pasūtījuma gaidīšanas stadijā",
+            "pending_orders": {
+              "one": "Tev ir {{count}} pasūtījums apstrādē",
+              "other": "Tev ir {{count}} pasūtījumi izpildē"
+            },
+            "more_than_pagination_length": "Tev ir vairāk nekā {{count}} pasūtījumi apstrādē"
+          },
+          "pending_orders_count_more_than_pagination_length": "vairāk nekā {{count}}"
+        },
+        "order_list_column_headers_location": "Atrašanās vieta",
+        "order_list_column_headers_contact": "Sazināties"
+      }
     }
   }
 }

@@ -214,10 +214,10 @@
       "filter_by_label": "Filtras:",
       "filter_button": "Filtras",
       "max_price": "Didžiausia kaina yra {{ price }}",
-      "reset": "Nustatyti iš naujo",
+      "reset": "Atstatyti iš naujo",
       "sort_button": "Rūšiuoti",
       "sort_by_label": "Rūšiuoti pagal:",
-      "to": "Į",
+      "to": "Aan",
       "filters_selected": {
         "one": "{{ count }} pasirinkta",
         "other": "{{ count }} pasirinkta",
@@ -236,47 +236,47 @@
         "few": "{{ count }} gaminiai (-ių)",
         "many": "{{ count }} gaminiai (-ių)"
       },
-      "clear_filter": "Pašalinti filtrą",
-      "filter_selected_accessibility": "{{ type }} (pasirinkta filtrų: {{ count }})",
+      "clear_filter": "Filtrą pašalinti",
+      "filter_selected_accessibility": "{{ type }} (pasirinkta {{ count }} filtrų)",
       "show_more": "Rodyti daugiau",
       "show_less": "Rodyti mažiau",
-      "filter_and_operator_subtitle": "Atitikti visas"
+      "filter_and_operator_subtitle": "Viską suderinti"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Nerasta jokių rezultatų pagal užklausą „{{ terms }}“. Patikrinkite rašybą arba vartokite kitą žodį ar frazę.",
+      "no_results": "Nerasta rezultatų pagal „{{ terms }}“. Patikrinkite rašybą arba naudokite kitą žodį ar kitą frazę.",
       "page": "Puslapis",
       "title": "Paieškos rezultatai",
       "results_with_count": {
         "one": "{{ count }} rezultatas",
-        "other": "{{ count }} rezultatas",
+        "other": "{{ count }} rezultatų",
         "few": "{{ count }} rezultatas",
         "many": "{{ count }} rezultatas"
       },
-      "products": "Gaminiai",
-      "search_for": "Ieškoti „{{ terms }}“",
+      "products": "Produktai",
+      "search_for": "Ieškoti '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "Rastas {{ count }} rezultatas pagal užklausą „{{ terms }}“",
-        "other": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“",
+        "one": "Rasta {{ count }} rezultatas(-ų) pagal „{{ terms }}“",
+        "other": "Rasta {{ count }} rezultatų pagal „{{ terms }}“",
         "few": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“",
         "many": "Rasti {{ count }} rezultatai (-ų) pagal užklausą „{{ terms }}“"
       },
       "results_pages_with_count": {
         "one": "{{ count }} puslapis",
-        "other": "{{ count }} puslapiai (-ių)",
+        "other": "{{ count }} puslapiai",
         "few": "{{ count }} puslapiai (-ių)",
         "many": "{{ count }} puslapiai (-ių)"
       },
       "results_suggestions_with_count": {
         "one": "{{ count }} pasiūlymas",
-        "other": "{{ count }} pasiūlymai (-ų)",
+        "other": "{{ count }} pasiūlymai",
         "few": "{{ count }} pasiūlymai (-ų)",
         "many": "{{ count }} pasiūlymai (-ų)"
       },
       "results_products_with_count": {
-        "one": "{{ count }} gaminys",
-        "other": "{{ count }} gaminiai (-ių)",
+        "one": "{{ count }} produktas",
+        "other": "{{ count }} produktai",
         "few": "{{ count }} gaminiai (-ių)",
         "many": "{{ count }} gaminiai (-ių)"
       },
@@ -284,18 +284,18 @@
       "pages": "Puslapiai"
     },
     "cart": {
-      "cart": "Krepšelis"
+      "cart": "Prekių krepšelis"
     },
     "contact": {
       "form": {
         "name": "Vardas",
-        "email": "El. pašto adresas",
+        "email": "El. paštas",
         "phone": "Telefono numeris",
-        "comment": "Komentuoti",
+        "comment": "Atsakymas",
         "send": "Siųsti",
-        "post_success": "Dėkojame, kad su mumis susisiekėte. Atsakysime kaip galėdami greičiau.",
-        "error_heading": "Pakoreguokite toliau pateiktą informaciją.",
-        "title": "Kontaktinė forma"
+        "post_success": "Dėkojame, kad susisiekėte su mumis. Greitai su jumis susisieksime.",
+        "error_heading": "Atlikite šiuos pakeitimus:",
+        "title": "Kontaktų forma"
       }
     },
     "404": {
@@ -419,67 +419,67 @@
     }
   },
   "localization": {
-    "country_label": "Šalis / regionas",
+    "country_label": "Šalis/regionas",
     "language_label": "Kalba",
     "update_language": "Atnaujinti kalbą",
-    "update_country": "Atnaujinti šalį / regioną",
+    "update_country": "Atnaujinti šalį/regioną",
     "search": "Ieškoti",
-    "popular_countries_regions": "Populiarios valstybės / regionai",
-    "country_results_count": "Rasta valstybių / regionų: {{ count }}"
+    "popular_countries_regions": "Populiarios šalys/regionai",
+    "country_results_count": "Rasta {{ count }} šalių/regionų"
   },
   "customer": {
     "account": {
       "title": "Paskyra",
-      "details": "Paskyros informacija",
-      "view_addresses": "Žr. adresus",
-      "return": "Grįžti į paskyros informaciją"
+      "details": "Paskyros duomenys",
+      "view_addresses": "Peržiūrėti adresus",
+      "return": "Grįžti į Paskyros duomenis"
     },
     "account_fallback": "Paskyra",
     "log_in": "Prisijungti",
     "log_out": "Atsijungti",
     "activate_account": {
-      "title": "Aktyvinti paskyrą",
-      "subtext": "Sukurkite slaptažodį, kad galėtumėte aktyvinti paskyrą.",
+      "title": "Paskyros aktyvinimas",
+      "subtext": "Sukurk slaptažodį, kad aktyvintum savo paskyrą.",
       "password": "Slaptažodis",
       "password_confirm": "Patvirtinti slaptažodį",
-      "submit": "Aktyvinti paskyrą",
+      "submit": "Paskyros aktyvinimas",
       "cancel": "Atmesti kvietimą"
     },
     "addresses": {
       "title": "Adresai",
-      "default": "Numatytasis",
+      "default": "Standartinis",
       "add_new": "Pridėti naują adresą",
       "edit_address": "Redaguoti adresą",
       "first_name": "Vardas",
       "last_name": "Pavardė",
       "company": "Įmonė",
-      "address1": "1 adresas",
-      "address2": "2 adresas",
-      "city": "Miestas",
-      "country": "Šalis / regionas",
-      "province": "Provincija",
+      "address1": "Adresas 1",
+      "address2": "Adresas 2",
+      "city": "Vieta",
+      "country": "Šalis/regionas",
+      "province": "Provincia",
       "zip": "Pašto kodas",
-      "phone": "Telefonas",
+      "phone": "Telefono numeris",
       "set_default": "Nustatyti kaip numatytąjį adresą",
       "add": "Pridėti adresą",
       "update": "Atnaujinti adresą",
       "cancel": "Atšaukti",
       "edit": "Redaguoti",
-      "delete": "Ištrinti",
+      "delete": "Pašalinti",
       "delete_confirm": "Ar tikrai norite ištrinti šį adresą?"
     },
     "login_page": {
       "cancel": "Atšaukti",
-      "create_account": "Kurti paskyrą",
-      "email": "El. pašto adresas",
+      "create_account": "Sukurti paskyrą",
+      "email": "El. paštas",
       "forgot_password": "Pamiršote slaptažodį?",
       "guest_continue": "Tęsti",
       "guest_title": "Tęsti kaip svečias",
       "password": "Slaptažodis",
-      "title": "Prisijungimo vardas",
+      "title": "Prisijungimo duomenys",
       "sign_in": "Prisijungti",
-      "submit": "Pateikti",
-      "alternate_provider_separator": "arba"
+      "submit": "Siųsti",
+      "alternate_provider_separator": "iš"
     },
     "order": {
       "title": "Užsakymas {{ name }}",
@@ -508,19 +508,19 @@
       "total_refunded": "Kompensuota"
     },
     "orders": {
-      "title": "Užsakymų istorija",
+      "title": "Užsakymų apžvalga",
       "order_number": "Užsakymas",
       "order_number_link": "Užsakymo numeris {{ number }}",
       "date": "Data",
       "payment_status": "Mokėjimo būsena",
       "fulfillment_status": "Įvykdymo būsena",
-      "total": "Visa suma",
-      "none": "Dar nepateikėte užsakymų."
+      "total": "Iš viso",
+      "none": "Jūs dar nepadarėte jokių užsakymų."
     },
     "recover_password": {
-      "title": "Nustatykite slaptažodį iš naujo",
-      "subtext": "Atsiųsime jums el. laišką, kad galėtumėte nustatyti slaptažodį iš naujo",
-      "success": "Išsiuntėme jums el. laišką su nuoroda slaptažodžiui atnaujinti."
+      "title": "Slaptažodžio atkūrimas",
+      "subtext": "Mes atsiųsime jums el. laišką, kad galėtumėte atstatyti slaptažodį",
+      "success": "Mes išsiuntėme tau el. laišką su nuoroda, kad galėtum atstatyti savo slaptažodį."
     },
     "register": {
       "title": "Kurti paskyrą",
