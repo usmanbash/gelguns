@@ -1203,7 +1203,79 @@
           "apply_gift_card_label": "Dāvanu kupona izmantošana",
           "payment_tag": "Dāvanu karte",
           "apply_another_gift_card_label": "Pielietot citu dāvanu karti",
-          "gift_card_label": "Dāvanu karte %{identifier}"
+          "gift_card_label": "Dāvanu karte %{identifier}",
+          "add_label": "Pievienot dāvanu karti",
+          "manage_label": "Dāvanu kuponu pārvaldība"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Apstiprinājums par pielāgotām norēķinu vietnē veiksmēm"
+        },
+        "markets_pro_disclaimer_label": "Veicot pasūtījumu, jūs piekrītat pirkumam pie Global-e kā reģistrētā tirgotāja, ievērojot Global-e %{markets_pro_terms} un %{privacy_policy}, un kopīgojat savus datus ar %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "vispārīgie noteikumi",
+        "markets_pro_disclaimer_privacy_policy": "privātuma politika",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Vispārīgie noteikumi reģistrēto tirgotāju darbībai",
+        "markets_pro_disclaimer_privacy_policy_title": "Privātuma politika reģistrētajiem tirgotājiem",
+        "purchase_order_number": {
+          "title": "Pasūtījuma numurs",
+          "label": "Pasūtījuma numurs (pēc izvēles)"
+        },
+        "alternative_payment_currency_total_notice": "Piezīme: Tiks noņemti %{amount_due}.",
+        "waiting_on_taxes_message": "Atjaunojiet lapu, ja nodokļi netiek aprēķināti dažu sekunžu laikā.",
+        "waiting_on_taxes_notice": "Nodokļu aprēķināšana",
+        "order_edit_banner_single_item_returned": "Atgriezts",
+        "order_edit_banner_multiple_items_returned": "{{amount}} atgriezts",
+        "shop_pay_installments_label": "Shop Pay termiņmaksājumi",
+        "add_credit_card_modal": {
+          "title": "Pievienot karti",
+          "cancel": "Atcelt",
+          "save": "Saglabāt"
+        },
+        "delete_credit_card_modal": {
+          "title": "Kartes dzēšana",
+          "confirmation": "Vai tiešām vēlaties dzēst {{brandName}}, kura numura beigas ir {{lastDigits}}?",
+          "cancel": "Atcelt",
+          "delete": "Noņemt"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Pievienots",
+          "other": "%{count} pievienots"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Dzēsts",
+          "with_quantities": "{{delta}} no {{quantity}} attālumā"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} atgriezts",
+          "with_quantities": "{{delta}} no {{quantity}} atgriezts"
+        },
+        "saved_credit_card_actions": {
+          "edit": "Rediģēt",
+          "delete": "Noņemt"
+        },
+        "edit_credit_card_modal": {
+          "title": "Rediģēt karti",
+          "done": "Gatavs",
+          "cancel": "Atcelt",
+          "description": "Tu vari mainīt tikai kartes rēķina adresi.",
+          "fields": {
+            "default": "Iestatīt kā noklusējumu",
+            "card_number": "Kartes numurs",
+            "expiry": "Derīguma termiņš",
+            "security_code": "Drošības kods",
+            "name": "Vārds uz kartes",
+            "billing": "Rēķina izrakstīšana uz"
+          }
+        },
+        "payment_method": "Maksāšanas veids",
+        "expired_payment_method": "Izvēlētā maksāšanas metode ir beigusies derīguma termiņš",
+        "subscription_heading": "Abonēšanas līgums",
+        "use_order_billing_address_label": "Izmantot pasūtījuma rēķina adresi",
+        "use_location_billing_address_label": "Izmantot atrašanās vietas rēķina adresi",
+        "use_location_shipping_address_label": "Izmantot piegādes adresi no vietas",
+        "purchase_options_agreement_label_wallets": "Turpinot maksājumu, jūs piekrītat turpmākajiem maksājumiem, kas norādīti šajā lapā, un atcelšanas noteikumiem.",
+        "gift_card_store_credit": {
+          "add_label": "Pievienot dāvanu karti vai veikala kredītu",
+          "manage_label": "Dāvanu kuponu vai veikala kredīta pārvaldība"
         }
       }
     }
