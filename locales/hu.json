@@ -4441,7 +4441,67 @@
         "resources_card_scroll": "Görgessen lejjebb további cikkekért",
         "resources_card_show_more": "További megjelenítése",
         "resources_card_show_less": "Mindet megjelenít"
+      },
+      "link_expired": {
+        "message": "Ez a hivatkozás a fizetési módod frissítéséhez lejárt.",
+        "return_home_button": "Vissza a kezdőlapra",
+        "update_message": "Ez a hivatkozás a fizetési módod frissítéséhez lejárt.",
+        "add_message": "Ez a hivatkozás a fizetési mód hozzáadásához lejárt."
+      },
+      "update_success": {
+        "done_button": "Folytatás a vásárlással"
+      },
+      "credit_card_title": "Hitelkártya",
+      "or": "VAGY",
+      "add_success": {
+        "done_button": "Folytatás a vásárlással"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Bolt Fizetés",
+      "applepay": "Apple Fizetés",
+      "googlepay": "Google Fizetés",
+      "discover": "Felfedezés",
+      "dinersclub": "Diners Klub",
+      "maestro": "Mester",
+      "forbrugsforeningen": "Fogyasztói Egyesület",
+      "hipercard": "Hiperkártya",
+      "laser": "Lézer",
+      "storecredit": "Vásárlási jóváírás",
+      "bogus": "Álnév"
+    },
+    "enable_javascript": "Kapcsold be a JavaScriptet a böngésződ beállításaiban, vagy jelentkezz be egy másik böngészővel a fiókod megtekintéséhez.",
+    "ui_components": {
+      "expandNotification": "Továbbiak megtekintése",
+      "processing": "Feldolgozás...",
+      "increase": "{{type}} növekedése",
+      "decrease": "{{type}} átvétele",
+      "minimumReached": "Minimum elérte a {{value}} értéket",
+      "maximumReached": "Elérte a maximumot: {{value}}",
+      "january": "január",
+      "february": "február",
+      "march": "március",
+      "april": "április",
+      "may": "mei",
+      "june": "június",
+      "july": "július",
+      "august": "augusztus",
+      "september": "szeptember",
+      "october": "október",
+      "november": "november",
+      "december": "december",
+      "monday": "hétfő",
+      "tuesday": "kedd",
+      "wednesday": "szerda",
+      "thursday": "csütörtök",
+      "friday": "péntek",
+      "saturday": "szombat",
+      "sunday": "vasárnap",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "csináld.",
+      "fridayAbbreviation": "vr."
     }
   }
 }
