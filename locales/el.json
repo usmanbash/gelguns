@@ -118,7 +118,7 @@
       "add_to_cart": "Προσθήκη στο καλάθι αγορών",
       "description": "Περιγραφή",
       "on_sale": "Προσφορά",
-      "product_variants": "Παραλλαγές προϊόντος",
+      "product_variants": "Παραλλαγές προϊόντων",
       "quantity": {
         "label": "Ποσότητα",
         "input_label": "Ποσότητα για {{ product }}",
@@ -142,53 +142,53 @@
       "share": "Κοινοποίηση αυτού του προϊόντος",
       "sold_out": "Εξαντλημένο",
       "unavailable": "Μη διαθέσιμο",
-      "vendor": "Προμηθευτής",
-      "video_exit_message": "Το {{ title }} ανοίγει βίντεο σε πλήρη οθόνη στο ίδιο παράθυρο.",
-      "xr_button": "Προβολή στον χώρο σας",
-      "xr_button_label": "Η επιλογή \"Προβολή στον χώρο σας\", φορτώνει το αντικείμενο στο παράθυρο επαυξημένης πραγματικότητας",
+      "vendor": "Πωλητής",
+      "video_exit_message": "{{ title }} ανοίγει ένα βίντεο σε πλήρη οθόνη στο ίδιο παράθυρο.",
+      "xr_button": "Δες στον χώρο σου",
+      "xr_button_label": "Δες στον χώρο σου, φόρτωσε το αντικείμενο στο παράθυρο επαυξημένης πραγματικότητας",
       "pickup_availability": {
-        "view_store_info": "Προβολή πληροφοριών καταστήματος",
-        "check_other_stores": "Έλεγχος διαθεσιμότητας σε άλλα καταστήματα",
-        "pick_up_available": "Υπάρχει δυνατότητα παραλαβής",
-        "pick_up_available_at_html": "Υπάρχει δυνατότητα παραλαβής από <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Δεν υπάρχει δυνατότητα παραλαβής από <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "Δεν ήταν δυνατή η φόρτωση της διαθεσιμότητας παραλαβής",
+        "view_store_info": "Προβολή στοιχείων καταστήματος",
+        "check_other_stores": "Ελέγξτε τη διαθεσιμότητα σε άλλα καταστήματα",
+        "pick_up_available": "Η παραλαβή είναι διαθέσιμη",
+        "pick_up_available_at_html": "Η παραλαβή είναι διαθέσιμη στο <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Η παραλαβή δεν είναι προς το παρόν διαθέσιμη στο <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Δεν είναι δυνατή η φόρτωση της διαθεσιμότητας για παραλαβή",
         "refresh": "Ανανέωση"
       },
       "media": {
-        "open_media": "Άνοιγμα μέσου {{ index }} στο βοηθητικό παράθυρο",
-        "play_model": "Έναρξη εφαρμογής προβολής 3D",
+        "open_media": "Άνοιγμα Media {{ index }} σε παράθυρο modal",
+        "play_model": "Αναπαραγωγή 3D προβολέα",
         "play_video": "Αναπαραγωγή βίντεο",
-        "gallery_viewer": "Εργαλείο προβολής συλλογής",
-        "load_image": "Φόρτωση εικόνας {{ index }} στην προβολή συλλογής",
-        "load_model": "Φόρτωση μοντέλου 3D {{ index }} στην προβολή συλλογής",
-        "load_video": "Αναπαραγωγή βίντεο {{ index }} στην προβολή συλλογής",
-        "image_available": "Η εικόνα {{ index }} είναι τώρα διαθέσιμη στην προβολή συλλογής"
+        "gallery_viewer": "Προβολή γκαλερί",
+        "load_image": "Φόρτωση εικόνας {{ index }} στην προβολή γκαλερί",
+        "load_model": "Φόρτωση 3D μοντέλου {{ index }} σε προβολή γκαλερί",
+        "load_video": "Αναπαραγωγή βίντεο {{ index }} σε προβολή γκαλερί",
+        "image_available": "Η εικόνα {{ index }} είναι τώρα διαθέσιμη σε προβολή γκαλερί"
       },
       "nested_label": "{{ title }} για {{ parent_title }}",
-      "view_full_details": "Προβολή όλων των λεπτομερειών",
-      "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "choose_options": "Ορίστε επιλογές",
-      "choose_product_options": "Ορίστε επιλογές για {{ product_name }}",
+      "view_full_details": "Δείτε όλες τις λεπτομέρειες",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Τα έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "choose_options": "Επιλογή επιλογών",
+      "choose_product_options": "Επιλογή επιλογών για {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Μη διαθέσιμο",
       "variant_sold_out_or_unavailable": "Η παραλλαγή εξαντλήθηκε ή δεν είναι διαθέσιμη",
       "inventory_in_stock": "Σε απόθεμα",
       "inventory_in_stock_show_count": "{{ quantity }} σε απόθεμα",
       "inventory_low_stock": "Χαμηλό απόθεμα",
-      "inventory_low_stock_show_count": "Χαμηλό απόθεμα: Απομένουν {{ quantity }}",
-      "inventory_out_of_stock": "Χωρίς απόθεμα",
+      "inventory_low_stock_show_count": "Διαθέσιμο απόθεμα: μόνο {{ quantity }} απομένουν",
+      "inventory_out_of_stock": "Μη διαθέσιμο σε απόθεμα",
       "inventory_out_of_stock_continue_selling": "Σε απόθεμα",
-      "sku": "SKU",
+      "sku": "Κωδικός προϊόντος (SKU)",
       "volume_pricing": {
-        "title": "Τιμολόγηση βάσει ποσότητας",
-        "note": "Διατίθεται τιμολόγηση βάσει ποσότητας",
-        "minimum": "{{ quantity }}+",
+        "title": "Τιμολόγηση όγκου",
+        "note": "Διαθέσιμη τιμολόγηση όγκου",
+        "minimum": "Περισσότερα από {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "στα {{ price }}/τμχ"
+        "price_at_each_html": "{{ price }}/τεμ."
       },
-      "taxes_included": "Οι φόροι συμπεριλαμβάνονται.",
-      "duties_included": "Οι δασμοί συμπεριλαμβάνονται.",
-      "duties_and_taxes_included": "Οι δασμοί και οι φόροι συμπεριλαμβάνονται.",
+      "taxes_included": "Φόροι περιλαμβάνονται.",
+      "duties_included": "Τέλη εκτελωνισμού περιλαμβάνονται.",
+      "duties_and_taxes_included": "Τέλη εκτελωνισμού και φόροι περιλαμβάνονται.",
       "inventory_out_of_stock_message": "Σε απόθεμα",
       "inventory_order_before": "για",
       "inventory_delivered": "παραγγέλθηκε,",
@@ -201,24 +201,24 @@
       }
     },
     "modal": {
-      "label": "Συλλογή μέσων"
+      "label": "Μediagalerij"
     },
     "facets": {
       "apply": "Εφαρμογή",
-      "clear": "Διαγραφή",
+      "clear": "Γνώση",
       "clear_all": "Κατάργηση όλων",
-      "from": "Από",
+      "from": "Φορτηγό",
       "filter_and_sort": "Φιλτράρισμα και ταξινόμηση",
-      "filter_by_label": "Φιλτράρισμα:",
-      "filter_button": "Φιλτράρισμα",
+      "filter_by_label": "Φίλτρο:",
+      "filter_button": "Φίλτρο",
       "filters_selected": {
-        "one": "Επιλέχθηκε {{ count }}",
-        "other": "Επιλέχθηκαν {{ count }}"
+        "one": "{{ count }} επιλεγμένα",
+        "other": "{{ count }} επιλεγμένα"
       },
       "max_price": "Η υψηλότερη τιμή είναι {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} από {{ count }} προϊόν",
-        "other": "{{ product_count }} από {{ count }} προϊόντα"
+        "one": "{{ product_count }} έκπτωση σε {{ count }} προϊόντα",
+        "other": "{{ product_count }} έκπτωση σε {{ count }} προϊόντα"
       },
       "product_count_simple": {
         "one": "{{ count }} προϊόν",
@@ -227,17 +227,17 @@
       "reset": "Επαναφορά",
       "sort_button": "Ταξινόμηση",
       "sort_by_label": "Ταξινόμηση κατά:",
-      "to": "Έως",
+      "to": "Άαν",
       "clear_filter": "Κατάργηση φίλτρου",
-      "filter_selected_accessibility": "{{ type }} (επιλέχθηκαν {{ count }} φίλτρα)",
-      "show_more": "Εμφάνιση περισσότερων",
-      "show_less": "Εμφάνιση λιγότερων",
-      "filter_and_operator_subtitle": "Αντιστοιχεί με όλα"
+      "filter_selected_accessibility": "{{ type }} (επιλεγμένα {{ count }} φίλτρα)",
+      "show_more": "Δείτε περισσότερα",
+      "show_less": "Εμφάνιση περισσότερων",
+      "filter_and_operator_subtitle": "Τα πάντα ταιριάζουν"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Δεν βρέθηκαν αποτελέσματα για «{{ terms }}». Ελέγξτε την ορθογραφία ή χρησιμοποιήστε άλλη λέξη ή φράση.",
+      "no_results": "Δεν βρέθηκαν αποτελέσματα για “{{ terms }}”. Ελέγξτε την ορθογραφία ή χρησιμοποιήστε μια άλλη λέξη ή φράση.",
       "results_with_count": {
         "one": "{{ count }} αποτέλεσμα",
         "other": "{{ count }} αποτελέσματα"
@@ -245,10 +245,10 @@
       "title": "Αποτελέσματα αναζήτησης",
       "page": "Σελίδα",
       "products": "Προϊόντα",
-      "search_for": "Αναζήτηση για «{{ terms }}»",
+      "search_for": "Αναζήτηση για '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "Βρέθηκε {{ count }} αποτέλεσμα για «{{ terms }}»",
-        "other": "Βρέθηκαν {{ count }} αποτελέσματα για «{{ terms }}»"
+        "one": "{{ count }} αποτέλεσμα βρέθηκε για “{{ terms }}”",
+        "other": "{{ count }} αποτελέσματα βρέθηκαν για “{{ terms }}”"
       },
       "results_pages_with_count": {
         "one": "{{ count }} σελίδα",
