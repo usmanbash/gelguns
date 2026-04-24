@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Belépés a webáruházba jelszóval:",
-      "login_password_button": "Belépés jelszóval",
+      "login_form_heading": "Lépjen be jelszóval:",
+      "login_password_button": "Lépj be jelszóval",
       "login_form_password_label": "Jelszó",
-      "login_form_password_placeholder": "Saját jelszó",
-      "login_form_error": "Téves jelszót írtál be.",
-      "login_form_submit": "Belépés",
-      "admin_link_html": "Te vagy a webáruház tulajdonosa? <a href=\"/admin\" class=\"link underlined-link\">Itt tudsz bejelentkezni</a>",
-      "powered_by_shopify_html": "A bolt szolgáltatója a {{ shopify }}"
+      "login_form_password_placeholder": "Jelszavad",
+      "login_form_error": "Helytelen jelszó!",
+      "login_form_submit": "Bevitel",
+      "admin_link_html": "Te vagy az üzlet tulajdonosa? <a href=\"/admin\" class=\"link underlined-link\">Jelentkezz be itt</a>",
+      "powered_by_shopify_html": "Ezt a boltot a {{ shopify }} működteti"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Megosztás a Facebookon",
-        "share_on_twitter": "Megosztás az X-en",
-        "share_on_pinterest": "Közzététel a Pinteresten"
+        "share_on_facebook": "Megosztás Facebookon",
+        "share_on_twitter": "Megosztás X-en",
+        "share_on_pinterest": "Kitűzés a Pinteresten"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (korábban Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,9 +37,9 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Vásárlás folytatása",
+    "continue_shopping": "Visszatérés a boltba",
     "pagination": {
-      "label": "Tördelés",
+      "label": "Oldalszámozás",
       "page": "{{ number }}. oldal",
       "next": "Következő oldal",
       "previous": "Előző oldal"
@@ -4582,6 +4582,75 @@
       "title": "Egyéb termékek, amelyek talán tetszenek neked",
       "subtitle": "Ideiglenesen elérhető",
       "button": "Felfedezés a boltban"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "A vásárlók maguk kérhetik és kezelhetik a visszaküldéseket.",
+        "disabled": "A vásárlóknak kapcsolatba kell lépniük az eladóval a visszaküldés igényléséhez."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Értesítősáv kibontása",
+      "collapse_label": "Értesítősáv összecsukása",
+      "close_label": "Értesítősáv bezárása"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "loading": "Fizetési módok betöltése",
+        "no_payment_methods_available": "Nincs elérhető fizetési mód",
+        "select_new_payment_method": "Válasszon új fizetési módot",
+        "use_new_payment_method": "+ Használjon új fizetési módot"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Bejelentkezés vagy fiók létrehozása",
+        "section_divider": "További módok a bejelentkezéshez",
+        "alternate_divider": "OF",
+        "email_field_label": "E-mail",
+        "shop_login_button": "Bejelentkezés a Shopba",
+        "continue_with_google": "Folytatás a Google-lal",
+        "continue_with_facebook": "Folytatás a Facebookkal",
+        "use_email_button": "E-mail-cím használata"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Szia {{first_name}},"
+      },
+      "aria_labels": {
+        "sign_in_with_email": "Bejelentkezés e-mail címmel"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "replace_with": "Felváltva",
+        "loading": "A fizetési mód cseréjéhez szükséges ablak betöltése folyamatban",
+        "success": "Fizetési mód frissítve",
+        "expiry_date": "Lejárt {{expiryDate}}"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logó",
+      "step_one": {
+        "page_title": "Bejelentkezés - %{shop_name}",
+        "subheading": "Add meg az e-mail címed, és elküldjük neked az ellenőrző kódot",
+        "subheading_with_sign_in_options": "Bejelentkezés vagy fiók létrehozása",
+        "or": "ból, -ből",
+        "consent_agreement": "A folytatással elfogadod a %{terms} feltételeit"
+      },
+      "step_two": {
+        "page_title": "Kód megadása - %{shop_name}",
+        "subheading": "Elküldve erre a címre: %{email}",
+        "restart_link": "Bejelentkezés másik e-mail címmel",
+        "input_field_label": "6 számjegyű kód",
+        "button": "Beküldés"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Adjon meg egy érvényes e-mail címet",
+          "invalid_code": "Adja meg a helyes, hat számjegyből álló kódot"
+        }
+      },
+      "processing": "Feldolgozás..."
     }
   }
 }

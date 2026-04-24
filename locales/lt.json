@@ -734,7 +734,79 @@
             "draft_order_not_exist": "Šio koncepcinio užsakymo nėra dabartinėje parduotuvėje.",
             "staff_member_not_exist": "Šis darbuotojas nėra žinomas dabartinėje parduotuvėje.",
             "location_not_exist": "Ši vieta neegzistuoja dabartinėje parduotuvėje.",
-            "point_of_sale_device_not_exist": "Ši pardavimo vietos įranga neegzistuoja dabartinėje parduotuvėje."
+            "point_of_sale_device_not_exist": "Ši pardavimo vietos įranga neegzistuoja dabartinėje parduotuvėje.",
+            "unresolvable_target_merchandise_lines": "Siūlomi pardavimo paskirstymai esamoje derybų situacijoje nėra išsprendžiami."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Pirkėjo pasiūlyme turi būti non-negotiable_terms.",
+            "invalid_signature": "Parašas {{target_terms}} yra neteisingas."
+          },
+          "inventory": {
+            "missing_quantity_value": "Laukas „Kiekis“ trūksta pirkėjo atsargų eilutėse.",
+            "changing_behavior_not_allowed": "Šis klientas neturi įgaliojimų keisti atsargų funkcionalumo.",
+            "only_one_inventory_behavior_allowed": "Šiuo metu leidžiama naudoti tik vieną atsargų funkciją kiekvienam atsiskaitymui."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Šiame atsiskaityme muitų mokesčių atsisakyti negalima."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Šiame atsiskaityme mažmeninė paskirstymas nėra leidžiamas.",
+            "retail_attribution_required": "Šiam atsiskaitymui reikalingas mažmeninės prekybos paskyrimas."
+          },
+          "captcha": {
+            "metadata_missing": "Šiame atsiskaitymo lange būtina užpildyti captcha.",
+            "metadata_mismatch": "Nurodytas captcha tiekėjas ir tipas nesutampa su tikėtomis reikšmėmis.",
+            "token_missing": "Užbaikite šį atsiskaitymą įvesdami captcha žetoną.",
+            "job_enqueue_failed": "Captcha patvirtinimo užduoties negalima įdėti į eilę.",
+            "job_already_queued": "Captcha patvirtinimas jau įtrauktas į eilę šiam žetono kodui.",
+            "token_expired": "Įvestas captcha žetonas pasibaigė. Atlikite naują captcha, kad galėtumėte tęsti atsiskaitymą.",
+            "token_invalid": "Įvestas captcha žetonas buvo neteisingas. Atlikite naują captcha, kad galėtumėte tęsti atsiskaitymą.",
+            "token_not_valid_for_session": "Negalima naudoti nurodyto captcha šiame atsiskaityme."
+          },
+          "checkout_source": {
+            "revoked": "Šis atsiskaitymo būdas nebeprieinamas."
+          }
+        },
+        "full_price": "Pilna kaina:",
+        "full_title": "{{pageTitle}} - {{shopName}} - atsiskaitymas",
+        "submit_for_review_button_label": "Pateikti skundą",
+        "submit_for_review_notice_label": "Mokėjimas reikalingas tik patvirtinus jūsų užsakymą",
+        "continue_to_payment_plans_button_label": "Tęsti prie mokėjimo planų",
+        "back_button_label": "Grąžinimas",
+        "autocomplete_zero_item": "Nėra prekių",
+        "autocomplete_powered_by_google": "Įgyvendinta naudojant {{brandName}}",
+        "processing": "Apdorojama...",
+        "stepper": {
+          "increase": "Padidėjimas {{type}}",
+          "decrease": "Paėmimas iš {{type}}",
+          "minimum_reached": "Pasiekta minimali vertė {{value}}",
+          "maximum_reached": "Maksimalus furgonas pasiekė {{value}}"
+        },
+        "remove_tag": "Pašalinti žymę",
+        "dates": {
+          "weekdays": {
+            "monday": "pirmadienis",
+            "tuesday": "antradienis",
+            "wednesday": "trečiadienis",
+            "thursday": "ketvirtadienis",
+            "friday": "penktadienis",
+            "saturday": "šeštadienis",
+            "sunday": "sekmadienis"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "daryti.",
+            "friday": "vr.",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "sausis",
+            "february": "vasaris",
+            "march": "kovas",
+            "april": "balandis"
           }
         }
       }
