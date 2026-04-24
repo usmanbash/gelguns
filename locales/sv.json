@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,72 @@
       "send_on_label": "Skicka den (valfritt)",
       "expanded": "Mottagarformulär för presentkort öppnat",
       "collapsed": "Mottagarformulär för presentkort stängt"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "och",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Kassa",
+        "skip_to_content": "Hoppa direkt till innehållet",
+        "breadcrumb": "Brödsmula",
+        "complete_purchase_button_label": "Slutför beställningen",
+        "authenticate_purchase_button_label": "Verifiera betalning",
+        "edit_link_label": "Ändra",
+        "all_rights_reserved": "Alla rättigheter förbehållna %{shop_name}",
+        "print_policies_link_label": "Skriva ut",
+        "expand_notice_label": "Se mer",
+        "continue_to_shipping_method": "Fortsätt med att skicka",
+        "continue_to_payment_method": "Gå till betalning",
+        "continue_to_review": "Granska beställning",
+        "back_to_cart": "Tillbaka till kundvagnen",
+        "back_to_contact_information": "Tillbaka till information",
+        "back_to_shipping_method": "Tillbaka till leverans",
+        "contact_us_html": "Kontakta oss för mer information",
+        "autocomplete_single_item": "1 artikel tillgänglig",
+        "autocomplete_multi_item": "{{number}} artiklar tillgängliga",
+        "autocomplete_close": "Stäng förslag",
+        "forwarding_indicator": {
+          "external": "Öppna extern webbplats.",
+          "external_and_new_window": "Öppna extern webbplats i ett nytt fönster."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kassan"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Något gick fel med din beställning. Försök att betala igen.",
+          "line_item_limit_reached": "Det maximala antalet orderrader har uppnåtts.",
+          "only_empty_terms_accepted": "Din policy godkänner endast tomma villkor.",
+          "merchandise": {
+            "only_value_constraint": "Vid införsel av varor är endast exakta värden tillåtna.",
+            "merchandise_variant_not_found": "Produktvariant hittades inte.",
+            "merchandise_not_applicable": "Produktvariant kan inte köpas.",
+            "bundle_products_not_supported_for_b2b": "Du kan inte lägga till sammansatta artiklar i B2B-beställningar för denna plats.",
+            "gift_card_quantity_mismatch": "När du anger presentkortskoder måste antalen på orderraden stämma överens med antalet presentkortskoder.",
+            "gift_card_not_supported": "Denna kassa stöder inga presentkort.",
+            "gift_card_not_unique": "Presentkort med koden {{code}} förekommer flera gånger i denna kassa. Koderna genereras före jämförelsen.",
+            "gift_card_used": "Presentkortskoden {{code}} är redan tilldelad ett presentkort. Koder formateras före jämförelsen.",
+            "gift_card_invalid": "Presentkortskoden {{code}} är ogiltig.",
+            "gift_card_code_changed": "Presentkortskoden {{proposed_code}} har ändrats enligt formateringsreglerna till {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Denna kassa stöder inte presentkort med anpassade egenskaper.",
+            "gift_card_with_components_not_supported": "Denna kassa stöder inte presentkort med komponenter.",
+            "selling_plan_mismatch": "Prenumerationen har uppdaterats.",
+            "selling_plan_not_supported_b2b": "Prenumerationer stöds inte för B2B-kassan.",
+            "price_mismatch": "Det tidigare föreslagna priset för dessa varor var ogiltigt och har uppdaterats.",
+            "inventory_not_found": "Inget lager hittades för dessa varor.",
+            "product_not_published": "Produkten är inte publicerad.",
+            "duplicated_stable_id": "Denna varulinje har samma stabila ID som en annan linje.",
+            "minimum_quantity_not_met": "För vissa artiklar uppfylls inte det minsta tillåtna antalet",
+            "maximum_quantity_exceeded": "För vissa artiklar uppnås inte det högsta tillåtna antalet",
+            "quantity_increment_not_met": "För vissa artiklar uppfylls inte beställningsgränserna",
+            "quantity_rules_not_met": "För vissa artiklar uppfylls inte beställningsgränserna",
+            "bundle_requires_components": "Detta varupaket innehåller inga delar."
+          }
+        }
+      }
     }
   }
 }
