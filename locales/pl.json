@@ -3083,8 +3083,70 @@
         "financial_status": {
           "authorized": "Zweryfikowano",
           "pending": "W trakcie realizacji",
-          "paid": "Opłacono"
-        }
+          "paid": "Opłacono",
+          "unpaid": "Nieopłacony",
+          "voided": "Przestarzały",
+          "partially_paid": "Częściowo opłacone",
+          "partially_refunded": "Częściowo zwrócone",
+          "refunded": "Zwrócono pieniądze",
+          "expired": "Wygasło"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Załatwione",
+          "complete": "Compleet",
+          "partial": "Częściowo",
+          "unfulfilled": "Otwarte",
+          "restocked": "Zapas ziół"
+        },
+        "transaction_status": {
+          "success": "Zdałeś",
+          "pending": "W trakcie realizacji"
+        },
+        "cancel_reason": {
+          "inventory": "Artykuły niedostępne",
+          "other": "Anders",
+          "staff": "Błąd pracowników"
+        },
+        "cash_on_delivery": "Zwrot pieniędzy"
+      },
+      "cart": {
+        "too_many_items_in_cart": "Nie możesz dodać więcej %{name} do swojego koszyka.",
+        "all_items_in_cart": "Wszystkie %{count} %{name} są w twoim koszyku.",
+        "empty_update": "nie można zaktualizować koszyka na zakupy",
+        "missing_parameters": "nieprawidłowy identyfikator lub numer wiersza",
+        "generic_error": "Błąd koszyka zakupów",
+        "too_many_line_items_error": "Twój koszyk nie może zawierać więcej niż %{max} artykułów.",
+        "link_no_longer_exists": "Link nie istnieje już.",
+        "stock_problems_html": "Jeden lub więcej artykułów nie jest już dostępnych. Przygotowaliśmy <a href='%{link}'>zaktualizowany koszyk</a>.",
+        "items_changed": "Jeden lub więcej artykułów zostało zmienionych.",
+        "product_sold_out": "Produkt '%{name}' jest już wyprzedany.",
+        "variant_requires_selling_plan": "Wariant można nabyć wyłącznie wraz z abonamentem sprzedażowym.",
+        "shipping_address_not_required": "Do tego wózka nie jest potrzebna wysyłka",
+        "shipping_address_invalid": "Wystąpił problem podczas obliczania kosztów wysyłki. Kontynuuj realizację zamówienia, aby wybrać koszty wysyłki przed jego zakończeniem.",
+        "selling_plan_not_applicable": "Nie można zastosować subskrypcji sprzedaży do wariantu",
+        "selling_plan_not_available_for_company_locations": "Dostępne są tylko jednorazowe zakupy dla zamówień B2B.",
+        "digital_product_not_available_for_company_locations": "Nie możesz dodać tego artykułu do zamówienia B2B",
+        "product_not_available": "Produkt jest niedostępny",
+        "less_than_minimum": "Ten artykuł ma minimalną ilość %{min}.",
+        "more_than_maximum": "Ten artykuł ma maksymalnie %{max}.",
+        "not_respect_step": "Możesz dodać ten artykuł tylko w ilościach po %{step}.",
+        "bundle_requires_components": "Nie można dodać produktu z zestawu '%{name}' do koszyka.",
+        "gift_card_with_components_not_supported": "Nie można dodać produktu z zestawu '%{name}' do koszyka.",
+        "view_lines_limit_reached": "Reguły muszą być mniejsze lub równe %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Wystąpił błąd w twoim koszyku."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nie można dodać produktu z zestawu '%{name}' do koszyka.",
+        "gift_card_recipient_validation_error": "Podany odbiorca bonu podarunkowego jest nieprawidłowy",
+        "buyer_cannot_purchase_for_company_locations": "Nie możesz dokonać zakupu dla tej lokalizacji",
+        "only_one_added_to_cart": "Do twojego koszyka dodano tylko 1 artykuł ze względu na dostępność.",
+        "only_n_added_to_cart": "Do Twojego koszyka dodano tylko %{quantity} artykułów ze względu na dostępność.",
+        "maximum_available_quantity_reached": "Maksymalna ilość tego artykułu jest już w twoim koszyku.",
+        "merchandise_not_applicable": "Przedmiot nie może zostać zakupiony w tak skonfigurowanej formie.",
+        "not_found": "Koszyk nie znaleziony"
+      },
+      "storefront": {
+        "invalid_password": "Nieprawidłowe hasło, spróbuj ponownie."
       }
     }
   }
