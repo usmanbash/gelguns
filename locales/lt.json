@@ -3178,7 +3178,87 @@
         "links": {
           "explore_other_stores": "Naršyti kitose parduotuvėse",
           "start_free_trial": "Nemokamai išbandyti"
+        },
+        "owner_ctas": {
+          "fix_domain": "Eikite į %{domain_settings_link} ir užbaikite naujojo interneto adreso nustatymą. Spustelėkite „Prijungti domeną“ ir įveskite: %{domain}.<br>Jei negalite patekti į savo parduotuvę, pabandykite %{forgot_your_store_link}",
+          "fix_domain_link_text": "jūsų domeno nustatymai",
+          "forgot_your_store_link_text": "Pamiršote savo krepšelį?",
+          "add_storefront": "Galite nustatyti savo svetainę pridėdami internetinės parduotuvės kanalą į %{admin_link}. Jei negalite patekti į savo parduotuvę, pabandykite %{forgot_your_store_link}",
+          "admin_link_text": "valdymo centras"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Asmeninis pardavimas",
+            "caption": "Gaukite funkcijas, kurių reikia jūsų mažmeninės prekybos parduotuvei valdyti, nesvarbu, ar tik pradedate, ar plečiatės."
+          },
+          "open_a_store": {
+            "header": "Atidaryti naują Shopify parduotuvę",
+            "caption": "Pradėkite nemokamą trijų dienų bandomąją versiją ir po to tęskite tris mėnesius už 1 USD per mėnesį.",
+            "link_text": "Užsiregistruok dabar"
+          },
+          "editions": {
+            "header": "Peržiūrėti Shopify leidimus",
+            "caption": "Yra daugiau nei 100 produktų atnaujinimų, kurie padės tau būti produktyvesniu, kūrybiškesniu ir veiksmingesniu komercinėje srityje nei kada nors manei įmanoma.",
+            "link_text": "Naršyti naujausius leidimus"
+          },
+          "store_owner": {
+            "caption": "Negalite patekti į savo parduotuvę? Išbandykite funkciją %{forgot_your_store_link}. Jei norite vėl suaktyvinti savo parduotuvę, susisiekite su %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify palaikymas"
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Klaida nustatant slaptažodį iš naujo",
+        "no_account_found": "Nerasta paskyros su šiuo el. pašto adresu.",
+        "denylisted_reset_password": "Jūsų paskyra negali būti atidaryta, nes dabartinis slaptažodis nėra saugus. Jūs gausite el. laišką, kad galėtumėte iš naujo nustatyti slaptažodį.",
+        "signup_disabled": "Klientų paskyrų kūrimas yra išjungtas.",
+        "subscribe_error": "Klaida prenumeruojant",
+        "unsubscribe_error": "Klaida atsijungiant"
+      },
+      "address": {
+        "updated": "Adresas atnaujintas.",
+        "error_updating": "Klaida atnaujinant adresą",
+        "created": "Adresas sukurtas",
+        "deleted": "Adresas pašalintas",
+        "error_deleting": "Klaida pašalinant adresą."
+      },
+      "order": {
+        "not_available": "Šis užsakymas nėra prieinamas",
+        "financial_status": {
+          "authorized": "Patikrinta",
+          "pending": "Vykdoma",
+          "voided": "Pasenęs",
+          "partially_paid": "Iš dalies apmokėta",
+          "partially_refunded": "Iš dalies grąžinta",
+          "refunded": "Grąžinta"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Apdorota",
+          "complete": "Compleet",
+          "unfulfilled": "Atviras",
+          "restocked": "Žolės atsargos"
+        },
+        "transaction_status": {
+          "success": "Sėkmingai",
+          "pending": "Vykdoma",
+          "failure": "Nepavyko"
+        },
+        "cancel_reason": {
+          "inventory": "Prekės nėra prieinamos",
+          "fraud": "Sukčiavimo užsakymas",
+          "customer": "Klientas pakeitė/atšaukė užsakymą",
+          "other": "Anders",
+          "staff": "Klaidų darbuotojai"
+        },
+        "cash_on_delivery": "Grąžinti"
+      },
+      "cart": {
+        "only_n_items_available": "Į savo krepšelį galite pridėti tik %{count} %{name}.",
+        "too_many_items_in_cart": "Jūs negalite pridėti daugiau %{name} į savo pirkinių krepšelį.",
+        "all_items_in_cart": "Visi %{count} %{name} yra tavo pirkinių krepšelyje.",
+        "empty_update": "negali atnaujinti pirkinių krepšelio"
       }
     }
   }
