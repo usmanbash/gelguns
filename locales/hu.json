@@ -1814,7 +1814,131 @@
         "invalid_expiry_date": "Adjon meg egy érvényes lejárati dátumot",
         "invalid_cvc": "Adjon meg egy érvényes biztonsági kódot",
         "expired_card": "A kártyád lejárt. Használj másik fizetési módot.",
-        "card_declined": "A kártyáját elutasították. Próbálja meg újra, vagy használjon más fizetési módot."
+        "card_declined": "A kártyáját elutasították. Próbálja meg újra, vagy használjon más fizetési módot.",
+        "processing_error": "Probléma történt a fizetés feldolgozása során. Próbáld meg újra, vagy használj másik fizetési módot.",
+        "call_issuer": "A kártyádat elutasították. Használj más fizetési módot, vagy lépj kapcsolatba a bankoddal további információért.",
+        "test_mode_live_card": "Ez az üzlet nem fogadhat el valódi megrendeléseket, és nem dolgozhat fel valódi fizetéseket.",
+        "transient_error": "Probléma történt a fizetés feldolgozása közben. Frissítse ezt az oldalt, vagy ellenőrizze az internetkapcsolatát.",
+        "missing_shipping_address": "A fizetésed nem volt feldolgozható, mert hiányzik a szállítási címed. Adj meg egy szállítási címet, és próbáld újra.",
+        "invalid_shipping_address": "A fizetésed nem volt feldolgozható, mert nem találtuk meg a szállítási címedet. Ellenőrizd a szállítási címedet, és próbáld meg újra.",
+        "successful_offsite_with_gift_card_error": "Probléma merült fel az ajándékkártyás fizetés feldolgozása során. Próbáld meg újra, vagy használj más fizetési módot.",
+        "development_store_order_limit_reached": "Elérted a fejlesztői bolt megrendeléseinek maximális számát ezzel a fizetési feldolgozóval. Használj teszt fizetési átjárót egy újabb megrendelés leadásához. Itt találsz további információt a %{development_store_order_testing_docs_link} témában.",
+        "development_store_with_order_limit": "Használj tesztfizetési átjárót egy tesztrendelés leadásához. Itt találsz további információkat a %{development_store_order_testing_docs_link} témában.",
+        "development_store_order_testing_docs_link": "rendelések tesztelése fejlesztői boltokban",
+        "method_not_available": "A kért fizetési mód nem elérhető. Válasszon másik fizetési módot, és próbálja újra.",
+        "available_methods_updated": "Elérhető fizetési módok frissítve.",
+        "selected_payment_method": "Probléma adódott a kiválasztott fizetési móddal, és nem történt terhelés. Próbálja meg újra, vagy válasszon másik fizetési módot.",
+        "payment_method_billing_address": "Probléma van a kiválasztott fizetési mód számlázási címével. Ellenőrizd a címet, és próbáld újra, vagy válassz másik fizetési módot.",
+        "processing_error_checkout_as_guest": "Hiba történt a fizetés feldolgozása során. Próbálja meg újra egy másik fizetési móddal, vagy {{checkout_as_guest_link}}.",
+        "amount_too_small": "A minimális fizetendő összegnek nagyobbnak kell lennie 0,50 USD-nél. Kérjük, próbálja meg újra egy magasabb összeggel.",
+        "payment_above_threshold": "A fizetendő összeg magasabb, mint a régióra vonatkozó pénzkorlát. Csökkentse az összeget, és próbálja újra.",
+        "risky": "Hiba történt a fizetés feldolgozása során. Kérjük, próbálja meg újra, vagy használjon más fizetési módot.",
+        "expired_buyer_action": "A fizetési mód időtúllépés miatt megszakadt. Kérjük, próbálja újra.",
+        "three_d_secure_failed_payment_method": "A kártya nem ellenőrizhető. Próbálja újra, vagy adjon hozzá egy másik kártyát.",
+        "name_mismatch": "Ellenőrizze a kártyaadatait. A kártyán szereplő név és a számlázási cím nem egyezik.",
+        "payment_method_not_applicable": "Ez a fizetési mód nem alkalmazható. Használjon másik fizetési módot.",
+        "shop_pay_wallet_not_available": "A Shop Pay nem elérhető ennél a fizetésnél.",
+        "market_manager_blocks_wallet_payments": "Ez a fizetési mód nem támogatott az Ön országában.",
+        "paypal_over_capture": "A rendelésed teljes összege frissítve lett. Fizess a {{walletName}} segítségével a rendelés befejezéséhez.",
+        "test_mode_enabled_only_test_cards": "A tesztmód be van kapcsolva, csak teszt hitelkártyák adhatók hozzá.",
+        "captcha_required": "Add meg a fizetési adatokat, és oldd meg a captcha-t a vásárlás befejezéséhez.",
+        "captcha_required_without_payment_information": "Oldd meg a biztonsági kódot a vásárlás befejezéséhez.",
+        "shipping_company_required_error": "{{shopName}} kér egy cégnév megadását a szállítási címhez.",
+        "payment_credential_delegation_error": "Hiba történt a fizetés feldolgozása során. Válassz egy új fizetési módot.",
+        "cancelled_payment": "A fizetésed megszakadt. Próbáld újra, vagy használj másik fizetési módot.",
+        "currency": {
+          "no_longer_supported": "A bolt pénznemét már nem támogatjuk."
+        },
+        "installments_payment_method_incompatible": "A kiválasztott fizetési mód nem használható részletfizetéshez. Válasszon másik fizetési módot."
+      },
+      "shipping_errors": {
+        "shipping_method": "A rendelésed szállítási lehetőségei megváltoztak. Ellenőrizd a választásodat.",
+        "shipping_method_not_available": "A kosarad frissült, és a hozzáadott termékeket nem lehet a megadott címre kiszállítani. Távolítsd el a termékeket a rendelés befejezéséhez.",
+        "shipping_method_not_available_generic": {
+          "one": "A rendelés nem küldhető a kiválasztott címre. Ellenőrizze, hogy a cím helyes-e, és próbálja újra, vagy válasszon másik címet.",
+          "other": "Néhány termék a kosaradban nem szállítható a megadott címre. Ellenőrizd, hogy a cím helyes-e, és próbáld újra, vagy válassz másik címet."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "A hozzáadott terméket nem szállítjuk a megadott helyre. Távolítsa el ezt a terméket a fizetéshez, vagy lépjen kapcsolatba az üzlettel.",
+          "other": "Egy vagy több, általad hozzáadott termék nem szállítható a megadott helyre. Távolítsd el a termékeket a fizetéshez, vagy vedd fel a kapcsolatot az üzlettel."
+        },
+        "payment_method_not_supported": "Ezt a fizetési módot nem használhatod %{country} esetében. Használj másik fizetési módot a szállításhoz ebbe az országba.",
+        "empty_state": "Add meg a szállítási címedet a rendelkezésre álló kézbesítési módok megtekintéséhez.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "A kosárban vannak olyan tételek, amelyek nem felelnek meg az ár- vagy súlykövetelményeknek a szállításra való jogosultsághoz. Frissítse a kosarat, és próbálja újra.",
+        "title": "Szállítás nem elérhető",
+        "invalid_selected_address": "A kiválasztott kézbesítési cím érvénytelen",
+        "invalid_selected_address_with_update_link": "A kiválasztott szállítási cím érvénytelen. %{update_address_link} vagy válasszon másik címet.",
+        "unavailable_selected_address": "Szállítás nem elérhető a kiválasztott címre",
+        "unavailable_selected_address_for_region": "A szállítás nem elérhető a {{region}} számára. Válasszon másik címet a folytatáshoz",
+        "unavailable_addresses_only_countries": "A rendelés csak a következő országokba küldhető: {{countriesList}}. Új cím hozzáadásával folytathatja.",
+        "unavailable_address_country": "A kiválasztott országba nem lehetséges a szállítás. Kérjük, adjon meg egy másik címet a folytatáshoz."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Gyors fizetés",
+        "or": "OF",
+        "show_more_options": "További beállítások megjelenítése",
+        "hide_more_options": "További beállítások elrejtése",
+        "or_pay_another_way": "Vagy más módon fizetni",
+        "or_check_out_another_way": "Vagy más módon fizetni",
+        "or_pay_with_credit_card": "Vagy fizessen hitelkártyával"
+      },
+      "processing": {
+        "redirecting_page_title": "Átirányítás…",
+        "redirecting_title": "Átirányítás…",
+        "redirecting_notice": "Átirányítjuk.",
+        "complete_your_purchase_title": "Vásárlás befejezése",
+        "continue_to_payment_gateway_notice": "Folytasd a fizetéshez, hogy hozzáadd a fizetési adataidat.",
+        "continue_to_payment_gateway_button_label": "Fizetéshez lépés",
+        "complete_your_purchase_title_error": "Javítsd ki a fizetési adataidat",
+        "continue_to_payment_gateway_notice_error": "Az Ön fizetési adatai nem ellenőrizhetők.",
+        "page_title": "A rendelés feldolgozás alatt áll",
+        "title": "A rendelés feldolgozás alatt áll",
+        "your_order_has_been_received_title": "Köszönjük a rendelésedet",
+        "you_will_receive_confirmation": "Jelenleg nagyon sok rendelést kapunk. Hamarosan e-mailben vagy sms-ben kellene megerősítést kapnod. Kérjük, jelezd nekünk, ha ezt egy órán belül nem kapod meg.",
+        "wait": {
+          "short": "A rendelésed feldolgozás alatt áll.",
+          "medium": {
+            "one": "A rendelésed feldolgozás alatt áll. A várható várakozási idő %{count} perc.",
+            "other": "A rendelésed feldolgozás alatt áll. A várható várakozási idő %{count} perc."
+          },
+          "long": "Egy e-mailt kapsz, amint a rendelésed feldolgozásra került. Jelenleg sok rendelés érkezett.",
+          "no_auto_refresh_html": "%{link}, ha nem irányítanak át automatikusan.",
+          "refresh_this_page": "Töltse be újra ezt az oldalt"
+        },
+        "you_will_not_be_charged": "Még nem számítanak fel díjat",
+        "action_required": "Művelet szükséges",
+        "redirecting_to_bank": "Átirányítás a {{bank}}-hoz",
+        "modal_notice": "Kapcsolatba lépünk a {{paymentMethod}} szolgáltatóval",
+        "remote_shops_payments_processing": "Fizetés feldolgozása",
+        "remote_checkout_count": "%{current} van %{total}"
+      },
+      "failed_payment": {
+        "page_title": "A fizetés nem dolgozható fel",
+        "title": "A fizetés nem dolgozható fel",
+        "payment_not_processed_title": "A fizetésed nem feldolgozható.",
+        "payment_not_processed_text": "Nincsenek felszámított költségek. Térj vissza a kosaradhoz, hogy befejezd a vásárlást.",
+        "return_to_cart_button_label": "Vissza a bevásárlókosárhoz"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bankszámlára történő befizetés",
+        "cash_on_delivery_label": "Visszatérítés",
+        "money_order_label": "Postautalvány",
+        "debit_card_label": "Fizetőkártya",
+        "deferred_payment_label": "Válasszon később egy fizetési módot",
+        "generic_payment_terms": "A {{translatedName}} fizetési feltételei érvényesek. A fizetése {{dueDate}} esedékes.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} egy fiókba, hogy hozzáférést kapjon ehhez a helyszínhez vagy elmentett fizetési módokat adjon hozzá vagy használjon.",
+            "link": "Bejelentkezés"
+          }
+        },
+        "direct_payment_terms": "A {{translatedName}} feltételei érvényesek. A pénzösszeg a kártyádról kerül levonásra {{dueDate}}-kor.",
+        "order_due_on_fulfillment_choose_later": "A fizetés esedékes, amint a rendelés teljesítve van.",
+        "order_due_on_fulfillment_payment": "A pénz a kártyádról kerül levonásra, amint a rendelés feldolgozásra került.",
+        "draft_order_payment_due_later_no_terms": "A fizetés esedékes, amint a rendelés megerősítésre került.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "A pénz a kártyádról kerül levonásra, amint a rendelés megerősítésre kerül.",
+        "draft_order_payment_due_later_terms": "A {{translatedName}} feltételei érvényesek, amint a rendelés megerősítésre kerül.",
+        "draft_order_payment_due_on_fulfillment": "A fizetés esedékes, amint a rendelés megerősítésre és feldolgozásra került."
       }
     }
   }
