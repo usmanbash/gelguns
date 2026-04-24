@@ -3432,6 +3432,80 @@
         "description": "Aktualizace e-mailu byla úspěšná. Přesměrování na přihlášení."
       },
       "email_update_confirmation_message": "E-mailová adresa byla aktualizována na {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Možnosti formátování",
+      "order_list": {
+        "delivered": "Doručeno: {{date}}",
+        "empty_state_order_source_description": "Zobrazují se zde pouze objednávky provedené přes {{email}}.",
+        "empty_state_subtitle": "Přejděte do obchodu a vytvořte objednávku.",
+        "empty_state_title": "Žádné objednávky",
+        "estimated_delivery": "Očekává se {{date}}",
+        "items": {
+          "one": "{{count}} položek",
+          "other": "{{count}} položek"
+        },
+        "pagination": {
+          "nav_accessibility_label": "Navigační tlačítka pro objednávky",
+          "load_more": "Načíst více",
+          "load_more_accessibility_label": "Načíst více objednávek"
+        },
+        "sort_hide_options_accessibility_label": "Skrýt možnosti řazení pro potvrzené objednávky.",
+        "sort_show_options_accessibility_label": "Zobrazit možnosti řazení pro potvrzené objednávky.",
+        "sort_title": "Třídit",
+        "sort": {
+          "date": {
+            "newest": "Od nejnovějších po nejstarší",
+            "oldest": "Od nejstaršího po nejnovější"
+          },
+          "location": {
+            "ascending": "Místo (A-Ž)",
+            "descending": "Místo (Z-A)"
+          },
+          "order_total": {
+            "ascending": "Celková objednávka (od nejnižší po nejvyšší)",
+            "descending": "Celková objednávka (od nejvyššího po nejnižší)"
+          }
+        },
+        "one_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}",
+        "two_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Odstraňte filtry nebo je upravte, abyste viděli své objednávky",
+        "no_filtered_results_title": "Žádné filtrované výsledky",
+        "estimated_shortform": "Odhadováno k {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Příliš pozdě",
+            "due": "Dlužné k {{date}}",
+            "due_today": "Dnes splatné",
+            "due_without_date": "Dlužený",
+            "due_on_fulfillment": "Platba při vyřízení objednávky",
+            "pay_to_confirm": "Zaplatit pro potvrzení",
+            "payment_not_due": "Ještě nezaplaceno"
+          },
+          "gallery_view": {
+            "overdue": "Platba je opožděná",
+            "due": "Platba splatná k {{date}}",
+            "due_without_date": "Platba dlužná",
+            "due_on_fulfillment": "Platba splatná při vyřízení objednávky",
+            "pay_to_confirm": "Zaplatit pro potvrzení"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Aktuálně seřazeno podle: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}, {{lineItemName6}} počet {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}, {{lineItemName2}} počet {{lineItemQuantity2}}, {{lineItemName3}} počet {{lineItemQuantity3}}, {{lineItemName4}} počet {{lineItemQuantity4}}, {{lineItemName5}} počet {{lineItemQuantity5}}, {{lineItemName6}} počet {{lineItemQuantity6}} a další",
+          "view_order_details": "Zobrazit údaje o objednávce"
+        },
+        "show_order_actions_accessibility_label": "Zobrazit akční nabídky pro objednávku {{name}}",
+        "empty_state_title_for_pending_orders": "Žádné objednávky v řešení"
+      }
     }
   }
 }

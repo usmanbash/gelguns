@@ -3621,8 +3621,76 @@
             "has_shop_app_label": "Искане на Shop Cash",
             "no_shop_app_label": "{{appDownloadLink}} за да получите Shop Cash",
             "download_shop_app_label": "Изтегляне на магазина"
+          },
+          "details_modal": {
+            "title": "Доставка, поддържана от",
+            "modal_accessiblity_label": "Данни за обещание за доставка",
+            "delivery_guaranteed_by_label": "Доставка гарантирана до {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise гарантира бърза и надеждна доставка. Изискай Shop Cash, ако поръчката ти бъде доставена със закъснение.",
+              "may_be_eligible_not_authorized_label": "Възможно е да имате право да поискате Shop Cash, тъй като тази поръчка е пристигнала със закъснение. Влезте в профила си, за да видите подробностите.",
+              "redeemed_label": "Вече сте заявили Shop Cash, защото тази поръчка пристигна със закъснение.",
+              "expired_label": "Тази поръчка не подлежи на претенция за закъсняла доставка, тъй като 30-дневната гаранция е изтекла.",
+              "no_shop_cash_label": "Тази поръчка не отговаря на условията за претенция за късна доставка, тъй като не е платена чрез Shop Pay.",
+              "no_longer_guaranteed_label": "Тези артикули вече не се поддържат с гаранция за доставка.",
+              "claim_shop_cash_title": "Сканирайте, за да заявите {{amount}} Shop Cash",
+              "claim_shop_cash_description": "Можеш да използваш Shop Cash за бъдещи покупки в приложението Shop."
+            }
           }
-        }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Управление в Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Доставка гарантирана от",
+            "external_promise_brand_label": "Доставка за",
+            "not_delivered_by_label": "Загрижен след {{date}}",
+            "delivery_guarantee_expired_label": "Гарантирана доставка изтекла",
+            "modal_accessibility_button_label": "Данни за обещание за доставка",
+            "download_shop_app_button_label": "Изтеглете магазин за проследяване",
+            "track_with_shop_button_label": "Проследи с Магазин",
+            "claim_shop_cash_button_label": "Потърсете паричен иск"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Доставка за {{date}}",
+            "expired_delivery_guarantee_description": "Гаранцията De Shop Promise за 30 дни за тази поръчка е изтекла.",
+            "expired_badge_label": "Изтекъл",
+            "order_includes_guarantees_label": "Вашата доставка има {{deliveryAgreementsCount}} гаранции",
+            "order_includes_guarantees_description": "Shop Promise предлага гаранция за бърза и надеждна доставка. Изискайте Shop Cash, ако поръчката ви бъде доставена след {{date}}.",
+            "delivered_after_label": "Загрижен след {{date}}",
+            "delivered_after_description": "Поръчката ти пристигна със закъснение, затова можеш да заявиш {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Тази поръчка беше доставена със закъснение, затова получихте {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Поръчката ти пристигна със закъснение, затова можеш да заявиш {{amount}} Shop Cash.",
+            "learn_more_button_label": "Повече информация",
+            "claim_shop_cash_button_label": "Потърсете паричен иск",
+            "view_balance_in_shop_button_label": "Виж салдото в магазина"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Изпрати ваучера за подарък отново",
+          "other": "Препращане на подаръчни ваучери"
+        },
+        "expected_by": "Очаква се най-късно на {{date}}",
+        "was_expected_by": "Очаква се най-късно до {{date}}"
+      },
+      "status_mark_as_delivered": "Отбележи като доставено",
+      "buy_again": "Купи отново",
+      "list_title_confirmed_orders_accessibility_label": "Поръчките: потвърдени",
+      "list_title_pending_orders_accessibility_label": "Поръчки: в процес на обработка",
+      "switch_order_type_pending_orders_accessibility_label": "Смяна на типа поръчка; в момента разглеждате поръчки в обработка",
+      "switch_order_type_confirmed_orders_accessibility_label": "Смяна на типа поръчка; преглеждате потвърдените си поръчки"
+    },
+    "order_details": {
+      "addresses_section_title": "Фактуриране и изпращане",
+      "billing_address": "Адрес за фактура",
+      "card_ending_with": "изтича на {{lastDigits}}",
+      "contact": "Лице за контакт",
+      "hide_items": "Скриване на артикули",
+      "loading": "Зареждане на данни за поръчката",
+      "loading_finished_accessibility_message": "Данните за поръчката са заредени",
+      "payment": {
+        "status_in_review": "Плащане дължимо след преглед"
       }
     }
   }
