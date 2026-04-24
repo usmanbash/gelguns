@@ -3775,7 +3775,81 @@
       "not_applicable": "n.v.t.",
       "fully_refunded_label": "GRĄŽINTA",
       "partially_refunded_label": "DALINAI GRĄŽINTA",
-      "refunded_amount": "Grąžinta"
+      "refunded_amount": "Grąžinta",
+      "no_data": "Žalias",
+      "pagination": {
+        "loading_accessibility_label": "Įkeliami straipsniai"
+      },
+      "returns": {
+        "expand_events_label": "Rodyti duomenis",
+        "hide_events_label": "Slėpti duomenis",
+        "return_and_refund_modal_header": "Grąžinimo politika",
+        "ineligible_return_message": "Šiame užsakyme nėra prekių, tinkamų grąžinimui.",
+        "ineligible_return_message_when_returned": "Šiame užsakyme nebėra prekių, tinkamų grąžinimui.",
+        "exchange_header": "Grąžinimo prekės",
+        "exchange_subheader": "Grąžinimo prekės bus pridėtos prie užsakymo, kai grąžinimas bus užbaigtas."
+      },
+      "request_return_failed": "Įvyko problema apdorojant jūsų užklausą. Bandykite dar kartą.",
+      "mobile_summary_toggle_button": {
+        "open": "Rodyti užsakymų apžvalgą",
+        "closed": "Slėpti užsakymų apžvalgą"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Rodyti duomenis",
+        "expand_events_accessibility_label": "Rodyti užsakymo pristatymo duomenis",
+        "hide_events_label": "Slėpti duomenis",
+        "hide_events_accessibility_label": "Užsakymo pristatymo duomenų slėpimas"
+      },
+      "show_order_summary": "Rodyti užsakymų apžvalgą",
+      "hide_order_summary": "Slėpti užsakymų apžvalgą",
+      "no_data_provided_accessibility_label": "{{fieldName}} yra tuščias",
+      "marketing_description": "Jūs gaunate rinkodaros laiškus. Bet kada galite atsisakyti prenumeratos.",
+      "marketing_checkbox_label": "Siųskite man el. laiškus su naujienomis ir pasiūlymais",
+      "marketing_checkmark_label": "Jūs užsiregistravote gauti naujienų ir pasiūlymų el. laiškus",
+      "image_gallery": {
+        "next": "Rodyti kitus straipsnius",
+        "previous": "Rodyti ankstesnius straipsnius",
+        "load_more_items": {
+          "one": "Įkelti {{count}} straipsnius",
+          "other": "Įkelti {{count}} straipsnius"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Atsisiųskite Shop, kad galėtumėte sekti paketą",
+        "track_order_with_shop": "Užsakymo sekimas su Shop",
+        "title_header": "Skenuoti telefonu",
+        "real_time_delivery_updates": "Kai užsakymas bus išsiųstas, gausite realaus laiko pristatymo atnaujinimus iš Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Užsakymas įvykdytas su",
+        "learn_more": "Daugiau informacijos"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} pridėta",
+        "removed": "Ištrinta",
+        "removed_with_quantity": "{{quantity}} pašalinta",
+        "updated_at": "Jūsų užsakymas atnaujintas {{date}}",
+        "returned_with_quantities": "{{delta}} iš {{total}} grąžinta",
+        "removed_with_quantities": "{{delta}} iš {{total}} pašalinta",
+        "return_line_item_removed": "Pašalinta iš grąžinimų",
+        "return_line_item_removed_with_quantities": "{{delta}} pašalintas iš grąžinimo"
+      },
+      "pickup": {
+        "pickup": "Atsiimti",
+        "pickup_point": "Atsiėmimo punktas"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Apmokėta naudojant Shop Pay dalimis mokėjimą",
+        "description": "Sekite savo mokėjimų grafiką su priminimais Shop programėlėje.",
+        "desktop_qr_code_content": {
+          "title": "Skenuoti prisiminimus",
+          "description": "Gauti priminimus apie savo terminuotus mokėjimus Shop."
+        },
+        "title": "Mokėjimo priminimai dėl Shop Pay dalinių mokėjimų"
+      },
+      "order_details": "Užsakymo duomenys",
+      "login_to_view_all_order_details": "Prisijunkite, kad peržiūrėtumėte visą užsakymo informaciją.",
+      "paid_amount": "Apmokėta"
     }
   }
 }
