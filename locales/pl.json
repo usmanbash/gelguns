@@ -3904,9 +3904,109 @@
           },
           "refund": {
             "title": "Zwrócono pieniądze",
-            "title_with_date": "Zwrot dokonany w dniu {{date}}"
-          }
+            "title_with_date": "Zwrot dokonany w dniu {{date}}",
+            "description_full_refund": "Otrzymałeś pełny zwrot pieniędzy za to zamówienie.",
+            "description_single_refund": "Otrzymałeś częściowy zwrot pieniędzy za to zamówienie.",
+            "description_multiple_refunds": "Otrzymałeś częściowe zwroty za to zamówienie."
+          },
+          "canceled": {
+            "title": "Płatność anulowana",
+            "description": "Nie zostały naliczone żadne opłaty."
+          },
+          "due_date": "Należne na dzień {{date}}",
+          "total_balance": "Całkowity stan konta"
+        },
+        "subtitle": "Złożono: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Wyświetl dane",
+          "expand_events_accessibility_label": "Wyświetl dane wstępnego zamówienia",
+          "hide_events_label": "Ukryj dane",
+          "hide_events_accessibility_label": "Ukryj dane wstępnego zamówienia"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ta metoda płatności nie jest już dostępna dla przyszłych zakupów w tej lokalizacji.",
+          "description_with_replacement": "Jeśli usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności dla tej lokalizacji. Zastąp ją inną metodą płatności, aby nadal otrzymywać nadchodzące zamówienia."
+        },
+        "payment_details": {
+          "draft_label": "Zamówienie koncepcyjne {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "close_modal_accessibility_label": "Zamknij okno numeru zamówienia",
+        "discard_changes_modal_title": "Odrzucić zmiany?",
+        "modal_po_number_input_max_length_error": "Numery zamówień mają maksymalnie {{maxLength}} znaków.",
+        "title": "Numer zamówienia zakupu {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Wystąpił problem podczas usuwania tego adresu. Spróbuj ponownie lub odśwież stronę."
+      },
+      "addresses_loading_issue": {
+        "description": "Błąd połączenia. Sprawdź swoje połączenie internetowe i spróbuj ponownie."
+      },
+      "banner_title": {
+        "other": "Jest {{count}} błąd/ błędy/ błędów"
+      },
+      "failed_address_creation": {
+        "description": "Wystąpił problem podczas tworzenia twojego adresu. Odśwież tę stronę lub sprawdź swoje połączenie internetowe."
+      },
+      "failed_address_update": {
+        "description": "Wystąpił problem podczas aktualizacji twojego adresu. Odśwież tę stronę lub sprawdź swoje połączenie internetowe."
+      },
+      "no_access_to_locations": {
+        "description": "Nie masz dostępu do lokalizacji"
+      },
+      "not_found": {
+        "title": "Wystąpił problem podczas ładowania tej strony"
+      },
+      "order_not_found": {
+        "description": "To zamówienie nie istnieje lub nie masz uprawnień, aby je przeglądać.",
+        "title": "Zamówienie nie znalezione"
+      },
+      "profile_update_error": {
+        "description": "Wystąpił problem podczas aktualizacji twojego profilu. Odśwież tę stronę lub sprawdź swoje połączenie internetowe."
+      },
+      "retry_action_label": "Spróbuj ponownie",
+      "load_orders_error": {
+        "retry_button": "Spróbuj ponownie"
+      },
+      "load_paypal_error": {
+        "description": "Wystąpił problem podczas ładowania PayPala. Spróbuj ponownie."
+      },
+      "load_extension_error": {
+        "description": "Odśwież tę stronę lub spróbuj ponownie za kilka minut."
+      },
+      "already_upgraded": "Konta klientów zostały już zaktualizowane.",
+      "failed_to_upgrade": "Aktualizacja ustawień konta klienta nie powiodła się.",
+      "logout_everywhere": {
+        "description": "Wystąpił błąd podczas wylogowywania. Spróbuj ponownie."
+      },
+      "resend_link": {
+        "too_many_requests": "Zbyt wiele żądań. Spróbuj ponownie później.",
+        "generic": "Wniosek nie powiódł się"
+      },
+      "profile_name_update_error": {
+        "description": "Wystąpił problem podczas aktualizacji twojego imienia. Odśwież tę stronę lub sprawdź swoje połączenie internetowe."
+      },
+      "load_address_form_error": {
+        "title": "Nie można załadować formularza adresowego",
+        "description": "Nie można załadować formularza adresowego."
+      },
+      "not_upgraded": "Konta klientów nie zostały zaktualizowane.",
+      "failed_to_revert": "Przywracanie ustawień konta klienta nie powiodło się.",
+      "revert_window_expired": "Okres naprawczy minął."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Dane metody płatności",
+        "payment_method_expiring_on": "Wygasa {{expiryDate}}",
+        "preauthorized_payments": "Wcześniej zatwierdzone płatności",
+        "close_payment_modal_accessibility_label": "Modaal Dane metody płatności zamknij",
+        "payment_details_loading": "Ładowanie danych metody płatności",
+        "pre_authorized_payments": "Wcześniej zatwierdzone płatności"
       }
     }
   }
