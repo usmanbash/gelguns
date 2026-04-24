@@ -2276,6 +2276,68 @@
           "subtracted": "%{count} изтрити",
           "returned": "%{count} върнати",
           "return_line_item_removed": "%{count} премахнати от връщане"
+        },
+        "additional_payment_requested": "Плащане на %{total_outstanding} е задължително",
+        "checkout_review_and_pay": "Вашата поръчка %{order_name} е актуализирана. Прегледайте тези промени и след това платете, за да потвърдите поръчката си.",
+        "order_updated_on": "Вашата поръчка беше актуализирана на %{last_edited_at}.",
+        "order_review_and_pay": "Вашата поръчка е актуализирана. Проверете и платете, за да потвърдите поръчката си.",
+        "pay_now": "Плати сега"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Кредитната ви карта ще бъде таксувана с %{amount}",
+        "payment_total_label": "Общо плащания",
+        "change_currency_link": "Промяна в %{currency_name}",
+        "card_provider_fx_charges_warning": "Вашият издател на карта може да начислява такси за транзакции в %{currency_code}.",
+        "currency_not_supported_by_shop": "Валутата, която избрахте, вече не е налична. Всички цени сега са в %{currency_code}."
+      },
+      "tips": {
+        "title": "Добавяне на бакшиш",
+        "description": "Покажи, че подкрепяш екипа на %{shop_name}",
+        "presets_description": "Изберете процент бакшиш",
+        "custom_label": "Персонализирано бакшиш",
+        "add_tip": "Добавяне на бакшиш",
+        "update_tip": "Актуализиране на бакшиша",
+        "message": "Благодарим ви, наистина го ценим.",
+        "not_available_with_spi": "Не е налично с разсрочено плащане чрез Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Купете %{product_name}",
+          "one": "Купете %{product_name} и още %{count} артикула",
+          "other": "Купете %{product_name} и още %{count} други артикула"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Личен митнически код",
+          "shipping_credential_cn": "Идентификационен номер на жител",
+          "tax_credential_it": "Данъчен кодекс (по избор)",
+          "tax_email_it": "PEC (по избор)",
+          "tax_credential_cl": "РУТ",
+          "shipping_credential_cl": "РУТ",
+          "tax_credential_co": "Лична карта/ДДС",
+          "tax_credential_type_co": "Тип лична карта",
+          "shipping_credential_co": "Лична карта/ДДС",
+          "shipping_credential_type_co": "Тип лична карта",
+          "tax_credential_ec": "ЦИ/РУК/ДДС",
+          "shipping_credential_ec": "ЦИ/РУК/ДДС",
+          "tax_credential_gt": "ДДС/Данък върху добавената стойност",
+          "shipping_credential_gt": "ДДС/Данък върху добавената стойност",
+          "tax_credential_id": "ИНПС",
+          "shipping_credential_id": "ИНПС",
+          "tax_credential_my": "Данъчен/Регистрационен номер",
+          "shipping_credential_my": "Данъчен/Регистрационен номер",
+          "tax_credential_type_mx": "Данъчен режим",
+          "tax_credential_use_mx": "Използване на CFDI",
+          "tax_credential_py": "ЦИ/РУК/ДДС",
+          "shipping_credential_py": "ЦИ/РУК/ДДС",
+          "tax_credential_pe": "ДНИ/РУК/ЦЕ",
+          "shipping_credential_pe": "ДНИ/РУК/ЦЕ",
+          "tax_credential_pt": "ДДС/ИН по ЗДДС",
+          "shipping_credential_pt": "ДДС/ИН по ЗДДС",
+          "tax_credential_es": "ДНИ/НИФ",
+          "shipping_credential_es": "ДНИ/НИФ",
+          "shipping_credential_tw": "Национален ИД номер/ДДС"
         }
       }
     }
