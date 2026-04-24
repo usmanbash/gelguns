@@ -3865,7 +3865,71 @@
         "title_accessibility_label": "Standardní adresa: {{address}}"
       },
       "delete_button": "Odstranit",
-      "delete_button_accessibility_label": "{{address}} odstranit"
+      "delete_button_accessibility_label": "{{address}} odstranit",
+      "delete_confirmation_button_accessibility_label": "{{address}} odstranit",
+      "delete_confirmation_message": "Odstranit adresu? Toto nemá vliv na stávající objednávky.",
+      "edit_button_accessibility_label": "upravit {{address}}",
+      "edit_section_accessibility_label": "upravit {{address}}",
+      "loading_accessibility_message": "Adresní náklad",
+      "loading_addresses_accessibility_message": "Načíst adresy",
+      "loading_billing_accessibility_message": "Načítání fakturačních adres",
+      "loading_finished_accessibility_message": "Nová stránka s adresami byla načtena",
+      "loading_shipping_accessibility_message": "Načíst doručovací adresu",
+      "pagination": {
+        "load_more": "Načíst více",
+        "load_more_accessibility_label": "Načíst více adres"
+      },
+      "delete_confirmation_title": "Odstranit adresu?",
+      "delete_confirmation_description": "To nemá vliv na stávající objednávky.",
+      "edit_modal_title": {
+        "default": "Upravit adresu",
+        "billing": "Upravit fakturační adresu",
+        "shipping": "Upravit doručovací adresu"
+      },
+      "add_address_banner": "Přidejte adresy pro použití při placení",
+      "back_button_accessibility_label": "Zpět k úpravě adresy {{address}}",
+      "no_addresses_banner": "Žádné adresy přidány"
+    },
+    "address_form": {
+      "billing_address": "Použít jako fakturační adresu",
+      "cancel_accessibility_label": "Zrušit úpravu adresy {{address}}",
+      "creation_success_notification": "Adresa přidána",
+      "default_address_creation_success_notification": "Výchozí adresa přidána",
+      "default_address_update_success_notification": "Výchozí adresa aktualizována",
+      "loading_add_form_accessibility_message": "Načíst formulář nová adresa",
+      "loading_edit_form_accessibility_message": "Načítání úpravy adresy formuláře",
+      "loading_finished_accessibility_message": "Formulářová adresa je načtena",
+      "update_success_notification": "Adresa aktualizována",
+      "attention": "T.a.v.",
+      "attention_help_text": "Jméno osoby nebo oddělení",
+      "loading_form_accessibility_message": "Načíst adresu formuláře",
+      "attention_company": "Firma/pozornost:"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Název firmy",
+        "company_card_section_accessibility_label": "Podnik"
+      },
+      "locations": {
+        "contact_email": "E-mailová adresa",
+        "location_picker_label": "Název místa",
+        "payment_details_title": "Platební údaje",
+        "permissions_label": "Tvé oprávnění",
+        "section_title": "Místo",
+        "shipping_address_required": "Přidejte k této adrese doručení, abyste mohli zadávat objednávky.",
+        "tax_id": "Daňové identifikační číslo",
+        "tax_exemptions": "Daňová osvobození",
+        "multiple_tax_exemptions": "Ještě {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "cs",
+        "taxes_none": "Žádný",
+        "tax_exemption_not_applicable": "není relevantní",
+        "tax_exemptions_modal_button_accessibility_label": "Zobrazit všechny daňové úlevy",
+        "pagination": {
+          "load_more": "Načíst více",
+          "load_more_accessibility_label": "Načíst více míst"
+        },
+        "own_role_contact_name": "Ty"
+      }
     }
   }
 }
