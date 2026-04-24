@@ -665,6 +665,64 @@
             "allocations_mismatch": "Tvoj kod za popust je promijenjen. Provjeri svoju košaricu i pokušaj ponovno.",
             "discount_title_too_long": "Naslov popusta ne smije biti duži od 255 znakova.",
             "additional_requested_discount_discarded": "Vaš popust je važeći, ali se ne može primijeniti. Provjerite uvjete za popuste."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Porezi koji se primjenjuju na tvoju narudžbu su promijenjeni. Provjeri svoju narudžbu i pokušaj ponovno.",
+            "unresolvable_tax_terms": "Predloženi uvjeti nisu izvedivi s obzirom na postojeći kontekst pregovora.",
+            "delivery_price_is_abstract": "Odgovarajuća cijena dostave je apstraktna.",
+            "tax_inclusivity_mismatch": "Ponovno pregovarajte s konkretnom vrijednošću za totalTaxAndDutyAmount ili totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "U trenutnoj pregovaračkoj sesiji nisu podržane porezne olakšice.",
+            "delivery_tax_exemption_not_supported": "Oslobođenja od poreza za pravila dostave trenutno nisu podržana.",
+            "proposed_allocations_required": "Polje 'predložene dodjele' nedostaje.",
+            "merchandise_terms_must_be_defined": "Definirajte uvjete za robu.",
+            "delivery_terms_must_be_defined": "Definirajte uvjete dostave.",
+            "merchandise_discount_terms_must_be_defined": "Definirajte uvjete za popust na robu.",
+            "delivery_discount_terms_must_be_defined": "Definirajte uvjete za popust na dostavu.",
+            "allocated_required": "Polje 'dodijeljeno' nedostaje.",
+            "value_required": "Polje 'vrijednost' nedostaje.",
+            "line_splits_not_supported": "Polje 'stavke robe' mora biti podijeljeno tako da za svaki redak postoji zasebna komponenta u ponudi prodavača."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ručna plaćanja nisu dopuštena u B2B trgovinama.",
+            "positive_amount_expected": "Iznos za plaćanje mora biti veći od 0.",
+            "total_amount_mismatch": "Ukupan iznos za plaćanje ne odgovara zbroju uplata.",
+            "subscription_terms_not_accepted": "Uvjeti pretplate nisu prihvaćeni.",
+            "missing_session_id": "Nedostaju informacije o sesiji kreditne kartice.",
+            "gateway_not_supported": "Gateway za plaćanje ne podržava spremanje načina plaćanja.",
+            "credit_card_last_name_required": "'prezime' ne smije biti prazno.",
+            "credit_card_update_failed": "Ažuriranje kreditne kartice nije uspjelo.",
+            "invalid_address_type": "Uneseni tip adrese nije valjan za ovu metodu plaćanja.",
+            "missing_retail_attributions": "Za ručno unesene uplate kreditnom karticom potrebne su maloprodajne dodjele.",
+            "unexpected_retail_attributions": "Neočekivane maloprodajne dodjele navedene za plaćanje kreditnom karticom.",
+            "invalid_card_source": "Ova sesija nema ovlasti za korištenje ovog izvora karte.",
+            "wallet_content_missing": "Sadržaj vanjskog novčanika nedostaje.",
+            "payment_instrument_not_found": "Ne mogu pronaći ovu metodu plaćanja",
+            "unauthorized_capture_method": "Konfiguracija metode za evidentiranje uplata nije dopuštena.",
+            "saved_payment_methods_not_allowed": "'Spremljene metode plaćanja' nisu dopuštene.",
+            "saved_payment_methods_not_enabled": "'Spremljene metode plaćanja' nisu omogućene za ovu trgovinu.",
+            "store_credit_not_enabled": "Kredit u trgovini nije omogućen za ovu trgovinu.",
+            "store_credit_account_not_found": "Račun za kredit u trgovini nije pronađen.",
+            "store_credit_account_mismatch": "Račun za kredit u trgovini ne odgovara identitetu kupca.",
+            "store_credit_mismatched_currency": "Valuta računa za trgovinski kredit ne odgovara valuti na blagajni.",
+            "store_credit_insufficient_funds": "Na računu za saldo trgovine nema dovoljno sredstava.",
+            "store_credit_buying_gift_card": "S kreditom u trgovini ne možete kupiti poklon bon.",
+            "gift_cards_not_allowed_for_b2b": "Poklon bonovi nisu dopušteni u B2B trgovinama.",
+            "method_required": "Treba predložiti način plaćanja.",
+            "paypal_express_address_invalid": "PayPal je vratio nevažeću adresu.",
+            "saved_payment_methods_cvv_verification_disabled": "Za odabrani način plaćanja potrebna je CVV/CVC provjera, ali ona nije omogućena za ovu trgovinu. Koristite drugi način plaćanja."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Trgovina ne prihvaća napojnice.",
+            "only_one_tip_line_allowed": "Više pravila za sajam nisu podržana.",
+            "tips_not_allowed_for_b2b": "Napojnice nisu dozvoljene u B2B trgovinama.",
+            "currency_change_reset": "Fooi je ponovno postavljen zbog promjene valute.",
+            "tips_not_allowed_for_deferred_purchase_options": "Napojnice još nisu podržane za odgođene opcije kupnje."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ova konceptna narudžba ne postoji u trenutnoj trgovini.",
+            "staff_member_not_exist": "Ovaj zaposlenik nije poznat u trenutnoj trgovini.",
+            "location_not_exist": "Ova lokacija ne postoji u trenutnoj trgovini.",
+            "point_of_sale_device_not_exist": "Ovaj prodajni uređaj ne postoji u trenutnoj trgovini."
           }
         }
       }
