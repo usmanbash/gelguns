@@ -2022,7 +2022,69 @@
         "order_updates_subscribe_to_email_or_phone_notifications": "Gaukite siuntimo atnaujinimus el. paštu arba SMS žinute",
         "order_updates_subscribe_to_phone_notifications": "Gaukite siuntimo atnaujinimus per SMS",
         "track_shipment": "Volgo siuntimas",
-        "order_status_confirmed_order_with_email_pick_up": "Jūs gausite el. laišką, kai galėsite atsiimti savo užsakymą."
+        "order_status_confirmed_order_with_email_pick_up": "Jūs gausite el. laišką, kai galėsite atsiimti savo užsakymą.",
+        "order_status_confirmed_order_with_phone_pick_up": "Jūs gausite SMS, kai galėsite atsiimti savo užsakymą.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Jūs gausite el. laišką ir SMS, kai galėsite atsiimti savo užsakymą.",
+        "pick_up_in_store_marker": {
+          "current": "Dabartinė siuntimo vieta"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Jūs gausite el. laišką, kai galėsite atsiimti savo užsakymą.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Jūs gausite SMS, kai galėsite atsiimti savo užsakymą.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Jūs gausite el. laišką, kai galėsite atsiimti savo užsakymą.",
+        "ready_for_pickup_title": "Užsakymas paruoštas atsiėmimui",
+        "ready_for_pickup_description": "Jūsų užsakymą galima atsiimti. Pasiimkite užsakymo patvirtinimą atsiimdami užsakymą.",
+        "picked_up_title": "Užsakymas atsiimtas",
+        "picked_up_description_html": "Jūsų užsakymas buvo paimtas %{location_name} %{date}.",
+        "shop_phone_description": "Jūs gausite SMS su nuoroda į Shop programėlę, kad galėtumėte sekti savo užsakymą.",
+        "ready_for_delivery_title": "Užsakymas paruoštas pristatymui",
+        "ready_for_delivery_description": "Mes paruošėme užsakymą.",
+        "order_status_confirmed_order_local": "Paruošiame jūsų užsakymą pristatymui.",
+        "gift_card_sent_confirmation": "Dovanų kuponai išsiųsti",
+        "out_for_delivery_local_description_html": "Jūsų užsakymas netrukus bus pristatytas.",
+        "delivered_local_description_html": "Ar dar negavote savo užsakymo? %{let_us_know}.",
+        "qr_code": {
+          "send_link_to_phone": "Arba siųskite nuorodą į savo telefoną"
+        },
+        "gift_card_confirmation_by_text": "Jei jų negavote, paprašykite, kad SMS būtų išsiųsta dar kartą, arba susisiekite su mumis.",
+        "gift_card_confirmation_by_email": "Jei jų negavote, paprašykite el. laiško pakartotinai išsiųsti arba susisiekite su mumis.",
+        "gift_card_title": "Dovanų kuponai",
+        "resend_gift_cards": "Dovanų kuponų pakartotinis siuntimas",
+        "attempted_delivery_local_title": "Gemiste pristatymas",
+        "attempted_delivery_local_description_html": "Deja, negalėjome pristatyti jūsų užsakymo. %{contact_us} norėdami suplanuoti kitą pristatymą.",
+        "thank_you_confirmed_order_with_email_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Jūs atlikote mokėjimą už savo užsakymą %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skenuoti telefonu"
+          },
+          "sms": {
+            "title": "Arba siųskite nuorodą į savo telefoną"
+          }
+        },
+        "estimated_delivery": "Dabartinis pristatymo įvertinimas:",
+        "view_business_customer_account": "Peržiūrėti paskyrą",
+        "thank_you_title_review": "Jūsų užsakymas pateiktas peržiūrai",
+        "thank_you_confirmed_order_with_draft": "Pranešime, jei reikės daugiau informacijos arba kai tavo užsakymas bus patvirtintas.",
+        "breadcrumbs_submitted": "Pateikta",
+        "breadcrumbs_in_review": "Galutinis įvertinimas",
+        "breadcrumbs_confirmed": "Patvirtinta",
+        "missing_shipping_address_banner": {
+          "title": "Užsakymas neturi pristatymo adreso",
+          "text_html": "%{contact_us} norėdami pridėti savo adresą"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Kreipkitės į pardavimo konsultantą.",
+        "order_status_confirmed_with_installments_payment_confirm": "Netrukus gausite patvirtinimo el. laišką su jūsų užsakymo numeriu ir jūsų mokėjimo plano detalėmis.",
+        "first_payment_complete": "Pirmasis mokėjimas atliktas",
+        "choose_payment_method_later": "Pasirinkti mokėjimo būdą vėliau",
+        "purchase_order_number_title": "Užsakymo numeris %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Užsakymas atsiimtas %{address}.",
+        "ready_for_delivery": "Paruošta pristatymui",
+        "order_updates_subscribe_to_email_notifications_failed": "Negalime išsaugoti šio el. pašto adreso atnaujinimams. Bandykite dar kartą arba naudokite kitą el. pašto adresą.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Įvestas el. pašto adresas jau egzistuoja."
       }
     }
   }
