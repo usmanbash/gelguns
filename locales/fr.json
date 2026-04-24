@@ -797,8 +797,74 @@
         "datepicker": {
           "show_next_month": "Afficher le mois prochain, {{month}} {{year}}",
           "range_start": "Début de la portée",
-          "in_range": "À portée de main"
-        }
+          "in_range": "À portée de main",
+          "range_end": "Fin de la portée"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} en {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} en {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} de {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} de {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Groupe de {{number}} points de repère",
+            "other": "Groupe de {{number}} points de repère"
+          }
+        },
+        "sheet": {
+          "expand": "Déplier"
+        },
+        "dropzone": {
+          "invalid_file_type": "Ce type de fichier n'est pas pris en charge",
+          "dragged_over": "Déposer le fichier pour le téléverser"
+        },
+        "remove_chip": "Supprimer l'article"
+      },
+      "contact": {
+        "delivery_option_title": "Méthode de livraison",
+        "contact_method_title": "Contactez-nous",
+        "email_label": "Courriel",
+        "email_placeholder": "Courriel",
+        "email_or_phone_label": "Adresse électronique ou numéro de téléphone portable",
+        "email_or_phone_placeholder": "Adresse électronique ou numéro de téléphone portable",
+        "new_address_label": "Utilisez une nouvelle adresse",
+        "optional_first_name_label": "Prénom (facultatif)",
+        "last_name_label": "Nom de famille",
+        "optional_company_label": "Entreprise (facultatif)",
+        "address2_label": "Boîte postale, etc.",
+        "optional_address2_label": "Boîte postale, etc. (facultatif)",
+        "country_code": "Code pays/région",
+        "county_label": "Province",
+        "county_placeholder": "Province",
+        "governorate_label": "Gouvernement",
+        "governorate_placeholder": "Gouvernement",
+        "state_and_territory_label": "État/Territoire",
+        "state_and_territory_placeholder": "État/Territoire",
+        "optional_phone_label": "Téléphone (facultatif)",
+        "phone_tooltip": "Dans le cas où nous devons vous contacter au sujet de votre commande",
+        "zip_code_label": "Code postal",
+        "zip_code_placeholder": "Code postal",
+        "pincode_label": "Code postal",
+        "pincode_placeholder": "Code postal",
+        "region_none": "Aucun sélectionné",
+        "civic_number_warning": "Ajoutez un numéro de maison si vous en avez un",
+        "optional_last_name_label": "Nom de famille (facultatif)",
+        "different_shipping_address_label": "Envoyer à une autre adresse",
+        "change_company_location_link_label": "Modifier le lieu d'implantation de l'entreprise",
+        "change_location_link_label": "Modifier l'emplacement",
+        "ship_to_company": "Envoyer à {{companyName}}",
+        "shipping_used_as_billing_notice": "Nous utilisons également cette adresse comme adresse de facturation pour cette commande.",
+        "company_attention_label": "Entreprise/à l’attention de",
+        "optional_company_attention_label": "Entreprise/à l’attention de (facultatif)",
+        "email_rollup_accessibility_label": "Options de courriel",
+        "phone_rollup_accessibility_label": "Options téléphoniques",
+        "phone_country_code_label": "Indicatif téléphonique du pays",
+        "suburb_label": "Quartier extérieur"
       }
     }
   }
