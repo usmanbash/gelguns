@@ -3928,7 +3928,85 @@
           "load_more": "Načíst více",
           "load_more_accessibility_label": "Načíst více míst"
         },
-        "own_role_contact_name": "Ty"
+        "own_role_contact_name": "Ty",
+        "location_picker_accessibility_label": "Název místa: {{locationName}}"
+      },
+      "location_selection": {
+        "description": "Pokud již máte položky v košíku, může změna místa ovlivnit ceny a množství v košíku.",
+        "list_accessibility_label": "Seznam míst",
+        "list_item_without_address_accessibility_label": "{{name}}: žádná adresa",
+        "list_loading_accessibility_message": "Načítání seznamu míst",
+        "list_loading_address_accessibility_message": "Načíst adresu pro {{locationName}}",
+        "list_loading_finished_accessibility_message": "Seznam míst je načten",
+        "loading_store_accessibility_message": "Na cestě do obchodu",
+        "selection_confirmation_button": "Vybrat místo",
+        "title": "Pro které místo kupujete?",
+        "no_location_description": "Už nemáte oprávnění zadávat objednávky pro {{company}}. Osobní objednávky však stále můžete zadávat.",
+        "search": "Hledat místa",
+        "clear_search": "Vymazat vyhledávání",
+        "try_new_search": "Vyzkoušejte nové hledání",
+        "search_location_title": "Vyberte místo",
+        "description_switch_later": "Můžeš později kdykoli změnit",
+        "title_choose_location": "Vyberte místo"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Přidat doručovací adresu",
+        "add_shipping_address_section_accessibility_label": "Přidat doručovací adresu",
+        "cancel_adding_billing_address_accessibility_label": "Přidat fakturační adresu zrušit",
+        "cancel_adding_shipping_address_accessibility_label": "Přidat doručovací adresu zrušit",
+        "save_new_shipping_address_accessibility_label": "Uložit doručovací adresu"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Skrýt všechny objednávky ve stavu hodnocení",
+          "show_all_accessibility_label": "Zobrazit všechny objednávky k posouzení",
+          "title": "Ve zpracování",
+          "pagination": {
+            "nav_accessibility_label": "Navigační tlačítka pro objednávky v hodnocení"
+          },
+          "show_all_orders_in_review": "Zobrazit všechny objednávky k posouzení",
+          "show_less_orders_in_review": "Zobrazit méně objednávek v hodnocení",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nemáte žádné objednávky v řešení",
+            "pending_orders": {
+              "one": "Máte {{count}} objednávku v řešení",
+              "other": "Máte {{count}} objednávek ve zpracování"
+            },
+            "more_than_pagination_length": "Máte více než {{count}} objednávek ve zpracování"
+          },
+          "pending_orders_count_more_than_pagination_length": "více než {{count}}"
+        },
+        "order_list_column_headers_location": "Místo",
+        "removed_company_contact_tooltip": "Odstraněno ze společnosti"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Potvrzeno dne {{date}} pro objednávku {{draftOrderName}}",
+        "loading": "Načítání údajů o objednávce",
+        "loading_finished_accessibility_message": "Údaje o objednávce byly načteny",
+        "payment_status": {
+          "draft": {
+            "description": "Platební údaje budou určeny po potvrzení objednávky.",
+            "in_review": {
+              "description": "Platební údaje budou určeny po potvrzení objednávky."
+            },
+            "submitted": {
+              "description": "Zaplaťte pro potvrzení této objednávky.",
+              "title": "Zaplatit pro potvrzení",
+              "deposit": {
+                "due_later": "Pro zůstatek platí podmínky {{translatedName}} a je splatný k {{dueDate}}.",
+                "due_on_fulfillment": "Zůstatek je splatný, jakmile jsou všechny položky v této objednávce vyřízeny.",
+                "due_on_receipt": "Dostanete fakturu na zbývající zůstatek.",
+                "due_on_date": "Zůstatek je splatný k {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} je splatná po potvrzení objednávky. Pro zůstatek platí podmínky {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} je splatná po potvrzení objednávky. Zbývající částka je splatná po vyřízení vaší objednávky.",
+              "due_on_receipt": "{{depositAmount}} je splatná po potvrzení objednávky. Zbývající částka je splatná později.",
+              "due_on_date": "{{depositAmount}} je splatná po potvrzení objednávky. Zbývající částka je splatná k {{dueDate}}."
+            }
+          }
+        }
       }
     }
   }
