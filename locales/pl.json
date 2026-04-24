@@ -3147,6 +3147,96 @@
       },
       "storefront": {
         "invalid_password": "Nieprawidłowe hasło, spróbuj ponownie."
+      },
+      "tags": {
+        "add_articles": "Ogranicz wyszukiwanie do artykułów z tagiem %{tag}",
+        "add_products": "Ogranicz wyszukiwanie do produktów z odpowiadającym tagiem %{tag}",
+        "remove_articles": "Rozszerz wyszukiwanie o artykuły, które nie są oznaczone tagiem %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "dodano %{delta}",
+          "increment_item": "dodano %{delta}",
+          "decrement_item": "%{delta} z %{total} usuniętych",
+          "decrement_fulfilled_line_item": "%{delta} z %{total} zwróconych",
+          "decrement_return_line_item": "%{delta} usunięto z zwrotu"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Twój koszyk",
+      "order": "Zamów %{name}",
+      "not_found": "404 nie znaleziono",
+      "search_results": {
+        "one": "Wyszukiwanie: znaleziono %{count} wyników dla '%{terms}'",
+        "other": "Szukaj: znaleziono %{count} wyników dla '%{terms}'"
+      }
+    },
+    "cart": {
+      "discounts_with_count": "Zastosowano %{count} rabatów"
+    },
+    "challenge": {
+      "message": "Daj nam znać, że nie jesteś robotem, aby kontynuować.",
+      "error": "Twoja odpowiedź była niepoprawna, spróbuj ponownie.",
+      "submit_button_text": "Wysyłka"
+    },
+    "checkpoint": {
+      "message": "Rozwiąż captcha, aby kontynuować",
+      "error": "weryfikacja captcha nie powiodła się",
+      "submit_button_text": "Wysyłka"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Dziękujemy za zapisanie się na naszą listę mailingową.",
+        "disclaimer": "Możesz się wypisać w dowolnym momencie.",
+        "unsubscribe": "Wyloguj się"
+      },
+      "unsubscribed": {
+        "confirmation": "Zostałeś wypisany z naszej listy mailingowej.",
+        "disclaimer": "Nie będziesz już otrzymywać od nas informacji marketingowych. Możesz się ponownie zapisać w dowolnym momencie.",
+        "preview": "Podgląd tego, co zobaczą klienci po wylogowaniu."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Wyraziłeś zgodę na śledzenie otwarcia wiadomości e-mail.</b>",
+          "visibility": "Procenty otwarć e-maili są raportowane anonimowo. Zobaczymy tylko, czy otworzyłeś e-mail w ramach zbiorczego wskaźnika otwarć e-maili.",
+          "opt_out_html": "Możesz się <a style='text-decoration:underline;' href='%{link}'>wypisać</a> z monitorowania otwarć e-maili, jeśli nie chcesz udostępniać tych informacji.",
+          "preview_bar": "Oglądasz przykład tego, co klienci zobaczą, gdy wyrażą zgodę na otrzymywanie wiadomości e-mail dotyczących otwartego śledzenia."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Wypisałeś się z monitorowania otwarć e-maili.</b>",
+          "visibility": "Nie widzimy, czy otworzyłeś nasze e-maile.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Wyrażenie zgody</a> na otwarte śledzenie e-maili.",
+          "preview_bar": "Oglądasz przykład tego, co klienci widzą, gdy rezygnują z otrzymywania wiadomości e-mail dotyczących śledzenia otwarć."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nie śledzimy już, czy e-maile zostały otwarte.</b>",
+          "privacy_policy": "Po wysłaniu tego e-maila zaktualizowaliśmy naszą politykę prywatności i nie śledzimy już otwierania wiadomości e-mail."
+        },
+        "track": {
+          "status_html": "<b>Śledzenie otwarcia e-maila jest raportowane.</b>",
+          "visibility": "Zobaczymy, czy otworzyłeś e-mail, tylko jako część całkowitego wskaźnika otwarć e-maili."
+        },
+        "updated_policy": {
+          "status_html": "<b>Śledzenie otwarcia e-maila jest raportowane.</b>",
+          "visibility": "Zaktualizowaliśmy naszą politykę i teraz śledzimy otwarcia wiadomości e-mail. Procenty otwarć e-maili są raportowane anonimowo. Zobaczymy tylko, czy otworzyłeś wiadomość e-mail, jako część całkowitego wskaźnika otwarć e-maili.",
+          "opt_out_html": "Jeśli nie chcesz już udostępniać tych informacji, możesz się <a style='text-decoration:underline;' href='%{link}'>wypisać</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Czy na pewno chcesz zrezygnować z marketingu SMS?",
+        "button": "Wyloguj się"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Zazwyczaj gotowe w ciągu 1 godziny",
+        "two_hours": "Zazwyczaj gotowe w ciągu 2 godzin",
+        "four_hours": "Zazwyczaj gotowe w ciągu 4 godzin",
+        "twenty_four_hours": "Zazwyczaj gotowe w ciągu 24 godzin",
+        "two_to_four_days": "Zazwyczaj gotowe w ciągu 2-4 dni",
+        "five_or_more_days": "Zazwyczaj gotowe w ciągu ponad 5 dni",
+        "zero_to_two_hours": "Zazwyczaj gotowe w ciągu 2 godzin"
       }
     }
   }
