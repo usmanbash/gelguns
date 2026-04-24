@@ -4006,7 +4006,73 @@
         "preauthorized_payments": "Wcześniej zatwierdzone płatności",
         "close_payment_modal_accessibility_label": "Modaal Dane metody płatności zamknij",
         "payment_details_loading": "Ładowanie danych metody płatności",
-        "pre_authorized_payments": "Wcześniej zatwierdzone płatności"
+        "pre_authorized_payments": "Wcześniej zatwierdzone płatności",
+        "total_amount_of_subscription_line_items_left": "i jeszcze {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artykułów łącznie; wyświetlanych jest {{totalItemsToDisplay}} artykułów.",
+        "next_payment_due": "Następna płatność do zapłaty {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Edytuj metodę płatności kończącą się na {{lastDigits}}",
+        "credit_card_details_accessibility_label": "kończący się na {{lastDigits}}",
+        "billing_title": "Adres do faktury",
+        "card_info_title": "Dane mapy",
+        "payment_method_expired_on": "Wygasa {{expiryDate}}",
+        "invalid_payment_method_message": "Użyj nowej karty kredytowej, aby nadal otrzymywać nadchodzące zamówienia.",
+        "replace_payment_method": "Zamiana metody płatności",
+        "checkout_card_banner": "Możesz używać tej metody płatności tylko do wcześniej zatwierdzonych płatności. Nie będzie ona wyświetlana przy kasie, jeśli jesteś zalogowany w tym sklepie.",
+        "default_checkbox": "Ustaw jako domyślne",
+        "replace_payment_method_button": "Wymień"
+      },
+      "back_button": "Wstecz",
+      "generic_card": "Mapa",
+      "payment_delete": {
+        "description_without_replacement": "Ta metoda płatności nie jest już dostępna dla przyszłych zakupów.",
+        "description_with_replacement": "Jeśli usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Możesz ją również zastąpić inną metodą płatności, aby nadal otrzymywać nadchodzące zamówienia.",
+        "payment_method_selector_placeholder": "Wybierz alternatywną metodę płatności (opcjonalnie)",
+        "replace_method_with_new_method_description": "Twój {{currentPaymentMethodName}} zostanie usunięty i zastąpiony przez {{newPaymentMethodName}}.",
+        "error_when_deleting": "Przepraszamy, wystąpił błąd i nie możemy usunąć tej metody płatności. Spróbuj ponownie później lub odśwież stronę.",
+        "delete_and_replace_button": "Usuwanie i wymiana",
+        "delete_and_replace_button_accessibility_label": "Usuń {{currentPaymentMethodName}} i zastąp go {{newPaymentMethodName}}.",
+        "deleted_successfully": "Metoda płatności została usunięta.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Jeśli usuniesz tę metodę płatności, będzie to miało wpływ na wcześniej autoryzowane płatności. Należności z istniejących zamówień nadal będą pobierane za pomocą tej metody płatności, chyba że wybierzesz inną metodę płatności. Wybierz inną metodę płatności, aby bez przerwy otrzymywać nadchodzące zamówienia abonamentowe.",
+          "with_pending_orders": "Usunięcie metody płatności spowoduje jej usunięcie z twojego konta i uniemożliwi korzystanie z niej przy przyszłych zakupach. Należności z istniejących zamówień nadal będą pobierane za pomocą tej metody płatności, chyba że wybierzesz inną metodę płatności.",
+          "with_subscriptions": "Jeśli usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Zastąp ją inną metodą płatności, aby nadal otrzymywać nadchodzące zamówienia."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Jeśli usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Należności z istniejących zamówień nadal będą pobierane za pomocą tej metody płatności, ale nie będziesz otrzymywać nadchodzących zamówień abonamentowych. Dodaj inną metodę płatności, aby nadal otrzymywać zamówienia abonamentowe.",
+          "with_pending_orders": "Usunięcie metody płatności spowoduje jej usunięcie z twojego konta i uniemożliwi jej użycie przy przyszłych zakupach. Należności z istniejących zamówień nadal będą pobierane za pomocą tej metody płatności.",
+          "with_subscriptions": "Jeśli usuniesz tę metodę płatności, wpłynie to na wcześniej autoryzowane płatności. Dodaj inną metodę płatności, aby nadal otrzymywać nadchodzące zamówienia."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Zmień metodę płatności",
+        "payment_method_updated_toast": "Metoda płatności zaktualizowana",
+        "billing_address": "Adres do faktury",
+        "future_purchases_notice": "Ta metoda płatności zostanie zapisana do przyszłych zakupów.",
+        "generic_error": "Wystąpił problem podczas aktualizacji. Spróbuj ponownie."
+      },
+      "card_fields": {
+        "name_on_card_label": "Nazwa na karcie",
+        "name_on_card_placeholder": "Nazwa na karcie",
+        "card_expiry_label": "Data ważności (MM/RR)",
+        "card_expiry_placeholder": "Data ważności (MM/RR)",
+        "card_verification_value_label": "Kod zabezpieczający",
+        "card_verification_value_placeholder": "Kod zabezpieczający",
+        "card_start_label": "Data wydania (MM/RR)",
+        "card_start_placeholder": "Data wydania (MM/RR)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Kod zabezpieczający z 4 cyfr na przedniej stronie twojej karty",
+          "card_verification_value_explanation_other": "Kod zabezpieczający z 3 cyfr na odwrocie twojej karty",
+          "card_verification_value_explanation": "Kod zabezpieczający składający się z 3 cyfr, zwykle znajduje się na odwrocie twojej karty. American Express ma kod z 4 cyfr na awersie.",
+          "card_security_notice": "Wszystkie transakcje są zabezpieczone i zaszyfrowane."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Wpisz swoje imię i nazwisko tak, jak jest na twojej karcie",
+          "credit_card_number_invalid": "Wprowadź prawidłowy numer karty",
+          "credit_card_verification_value_blank": "Wprowadź kod CVV/CVC lub kod bezpieczeństwa swojej karty"
+        },
+        "unavailable": {
+          "text": "Płatność kartą kredytową i debetową jest obecnie niedostępna."
+        }
       }
     }
   }

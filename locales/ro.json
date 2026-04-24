@@ -608,7 +608,65 @@
             "quantity_rules_not_met": "Pentru unele articole nu sunt respectate limitele de comandă",
             "bundle_requires_components": "Acest pachet de bunuri nu conține componente.",
             "title_too_long": "Titlul bunurilor este prea lung.",
-            "title_empty": "Titlul bunurilor este gol."
+            "title_empty": "Titlul bunurilor este gol.",
+            "mixed_currencies": "Coșul conține linii de comandă cu valute diferite.",
+            "product_not_published_in_buyer_location": "Produsul nu este publicat la locația cumpărătorului.",
+            "combined_listing_parent_not_purchasable": "Produsele principale din listările combinate nu pot fi cumpărate direct."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Persoana de contact din cadrul firmei nu are acces la firmă.",
+            "customer_account_required": "Trebuie să te autentifici pentru a continua.",
+            "contact_info_does_not_match_customer_account": "Datele de contact trebuie să corespundă cu contul cu care te-ai autentificat.",
+            "phone_number_does_not_match_expected_pattern": "Numărul de telefon introdus are un format greșit.",
+            "email_required": "Când bunurile sunt cumpărate printr-un abonament, este necesar un e-mail.",
+            "email_domain_is_invalid": "Domeniul specificat nu poate fi rezolvat.",
+            "missing_contact_method": "Lipsește o metodă de contact valabilă.",
+            "checkout_completion_target_is_missing": "Scopul pentru finalizarea plății lipsește.",
+            "customer_profile_access_restricted": "Casa de marcat nu are acces la profilul clientului.",
+            "checkout_completion_target_is_invalid_proc": "Scop nevalid pentru finalizarea comenzii.",
+            "company_location_required": "Clientul poate continua doar dacă alege o locație a firmei.",
+            "lost_access_to_company": "Clientul a pierdut accesul la orice firmă.",
+            "company_purchase_permission_required": "Clientul nu este autorizat să plaseze comenzi pentru firme.",
+            "buyer_identity_presentment_currency_does_not_match": "A apărut o problemă la procesarea comenzii tale. Te rugăm să încerci din nou peste câteva minute."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Un coș de cumpărături poate conține doar o singură regulă de livrare.",
+            "wrong_number_of_delivery_lines": "Introduceți o regulă de livrare pentru fiecare grupă de mărfuri.",
+            "external_delivery_promise_error": "Nu s-a putut prelua data estimată de livrare de la furnizorul extern.",
+            "options_instructions_invalid": "Instrucțiunile date au un tipar greșit.",
+            "destination_address_required": "Pentru a continua, ai nevoie de o adresă de destinație.",
+            "pickup_points_unavailable": "Punctele de ridicare nu sunt disponibile în acest moment.",
+            "local_pickup_delivery_line_detail_changed": "Pentru a continua, trebuie modificată strategia actuală de livrare pentru ridicare la fața locului.",
+            "local_pickup_no_delivery_strategy_available": "Nu există o strategie de livrare pentru ridicare de la fața locului disponibilă.",
+            "origin_location_id_required": "Este necesar un ID de locație de proveniență atunci când se solicită metoda de livrare RETAIL.",
+            "invalid_origin_location_id": "Nu se poate găsi o locație pentru ID-ul locației de origine.",
+            "origin_location_id_not_allowed": "Niciuna dintre metodele de livrare solicitate nu acceptă un ID de locație de origine.",
+            "auto_fulfill_not_allowed": "Această sesiune nu este autorizată să suprascrie comportamentul de îndeplinire.",
+            "auto_fulfill_required": "Completarea automată este necesară atunci când se solicită metoda de livrare RETAIL.",
+            "prefetch_shipping_rates_used": "Tarifele de expediere preluate anterior nu trebuie să fie niciodată tarife de retur.",
+            "fulfillment_constraints_not_satisfied": "Nu s-a respectat una sau mai multe restricții de îndeplinire.",
+            "must_fulfill_from_constraint_not_satisfied": "Motivul pentru aceasta este că articolele nu pot fi procesate din locațiile necesare.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Motivul pentru aceasta este că articolele nu pot fi procesate din aceeași locație.",
+            "delivery_strategy_conditions_not_satisfied": "Există strategii de livrare disponibile pentru această locație, dar nu sunt îndeplinite condițiile.",
+            "out_of_stock_at_origin_location": "Nu există stoc la locația de proveniență.",
+            "invalid_signature": "Semnătură nevalidă pentru reducere."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Reducerea personalizată introdusă nu a fost acordată.",
+            "unsupported_expectation": "Regula de reducere introdusă conținea o presupunere pe care politica nu a putut să o interpreteze.",
+            "additional_requested_discount_code_discarded": "{{code}} este valabil, dar nu se aplică. Verificați condițiile pentru reduceri.",
+            "allocations_mismatch": "Codul tău de reducere a fost schimbat. Verifică coșul de cumpărături și încearcă din nou.",
+            "discount_title_too_long": "Titlul reducerii nu trebuie să depășească 255 de caractere.",
+            "additional_requested_discount_discarded": "Reducerea ta este valabilă, dar nu poate fi aplicată. Verifică condițiile pentru reduceri."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Taxele aplicabile comenzii tale au fost modificate. Verifică comanda și încearcă din nou.",
+            "unresolvable_tax_terms": "Condițiile propuse nu sunt realizabile în contextul actual al negocierilor.",
+            "delivery_price_is_abstract": "Prețul respectiv pentru livrare este abstract.",
+            "tax_inclusivity_mismatch": "Negociați din nou cu o valoare concretă pentru totalTaxAndDutyAmount sau totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "În sesiunea actuală de negocieri nu se susțin scutiri de taxe.",
+            "delivery_tax_exemption_not_supported": "Scutirile de taxe pentru regulile de livrare nu sunt în prezent acceptate.",
+            "proposed_allocations_required": "Câmpul „alocări propuse” lipsește."
           }
         }
       }
