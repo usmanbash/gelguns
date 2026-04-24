@@ -2351,6 +2351,98 @@
           "legal_text": "Leer",
           "link_label": "de Términos y condiciones generales de {{partnerDisplayName}}"
         }
+      },
+      "online_store_chat": {
+        "title": "¿Preguntas? Chatea con nosotras"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Hay %{count} ubicación con stock cerca",
+          "other": "Hay %{count} ubicaciones con stock cerca"
+        },
+        "toggle_location": "Cambiar ubicación",
+        "or": "DE",
+        "could_not_resolve_address": "No se puede encontrar la dirección. Inténtalo de nuevo o usa otra dirección",
+        "paginator": {
+          "accessibility_label": "Paginación para recogida en el lugar",
+          "previous": "Página anterior"
+        },
+        "reveal_more_label": {
+          "one": "Mostrar %{count} ubicación más",
+          "other": "Mostrar %{count} ubicaciones más"
+        },
+        "all_stores_far_away": {
+          "title": "Las ubicaciones más cercanas están a más de %{distance} de distancia",
+          "description": "Seleccione una ubicación o %{ship_to_address_link}",
+          "ship_to_address_link": "dirección de entrega",
+          "change_location_link": "Cambiar tu ubicación",
+          "title_with_specific_location": "La ubicación más cercana con tu artículo se encuentra a más de %{distance} de %{location}.",
+          "title_with_item": {
+            "one": "La ubicación más cercana con tu artículo se encuentra a más de %{distance} de %{location}.",
+            "other": "La ubicación más cercana con tus artículos se encuentra a más de %{distance} de %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "La ubicación que seleccionaste anteriormente ya no está disponible",
+          "description": "Seleccione una nueva ubicación o %{ship_to_address_link}",
+          "ship_to_address_link": "Enviar a la dirección"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Enviar tus artículos",
+          "search_elsewhere": "busca en otro lugar",
+          "ship_items_or_search_elsewhere": "%{ship_items} de %{search_elsewhere}"
+        },
+        "location_closest": "Ubicación más cercana con tu artículo",
+        "toggle_multiple_locations": "Todavía más de %{count} otras ubicaciones",
+        "location_information_far_away": {
+          "one": "Hay %{count} ubicación con tu artículo",
+          "other": "Hay %{count} ubicaciones con tu artículo"
+        },
+        "location_nearby": {
+          "one": "Hay %{count} ubicación cerca con tu artículo",
+          "other": "Hay %{count} ubicaciones cerca con tu artículo"
+        },
+        "location_nearby_short": {
+          "one": "%{count} ubicación cerca con tu artículo",
+          "other": "%{count} ubicaciones cercanas con tu artículo"
+        },
+        "location_far_away": {
+          "one": "%{count} ubicaciones con tu artículo",
+          "other": "%{count} ubicaciones con tu artículo"
+        },
+        "toggle_more_locations": {
+          "one": "Quedan %{count} otras ubicaciones",
+          "other": "Quedan %{count} otras ubicaciones"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "No hay ubicaciones con tu artículo",
+          "other": "No hay ubicaciones con tus artículos"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "No hay ubicaciones en %{country} con tu artículo",
+          "other": "No hay ubicaciones en %{country} con tus artículos"
+        },
+        "title": "Ubicación"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Recoger todos los artículos",
+        "items_for_pickup": "Artículos para recoger",
+        "delivery_method": "Método de entrega dividido",
+        "delivery_method_menu": "Menú método de entrega dividido",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} de %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} de %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "No se pueden recuperar %{count} artículos",
+              "other": "No se pueden recuperar %{count} artículos"
+            },
+            "cannot_be_shipped": {
+              "one": "No se pueden enviar %{count} artículos",
+              "other": "No se pueden enviar %{count} artículos"
+            }
+          }
+        }
       }
     }
   }
