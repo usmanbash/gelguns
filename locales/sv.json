@@ -854,7 +854,77 @@
       "delivery_options": {
         "ship": "Skicka",
         "pick_up": "Hämtning",
-        "pick_up_in_two_hours": "Vanligtvis klart inom 2 timmar"
+        "pick_up_in_two_hours": "Vanligtvis klart inom 2 timmar",
+        "pick_up_in_four_hours": "Vanligtvis klart inom 4 timmar",
+        "pick_up_immediately": "Klar att hämtas nu",
+        "pick_up_next_day": "Klar att hämtas nästa dag",
+        "pick_up_in_one_hour": "Vanligtvis klart inom 1 timme",
+        "pick_up_in_twenty_four_hours": "Vanligtvis klart inom 24 timmar",
+        "pick_up_in_two_to_four_days": "Vanligtvis klart inom 2-4 dagar",
+        "pick_up_in_five_or_more_days": "Vanligtvis klart inom mer än 5 dagar",
+        "pick_up_in_zero_to_two_hours": "Klar att hämtas om över 2 timmar",
+        "pick_up_in_two_to_four_hours": "Klar att hämtas om över 4 timmar",
+        "pick_up_locations": "Utlämningsställen",
+        "pickup_point_method_definition": "Skicka till upphämtningsställe",
+        "retail_method_definition": "Detaljhandelssändningar",
+        "none_method_definition": "Inga leveranser",
+        "subscription_pickup_information": "Denna leveransmetod gäller för alla artiklar i denna beställning och för alla framtida artiklar för denna prenumeration.",
+        "ship_to_address": "Skicka till adress",
+        "company_location_no_address_banner": "Beställningar som skickas till platser utan adress lämnas in för kontroll.",
+        "pickup_point_map_title": "Karta med upphämtningsställen"
+      },
+      "customer_account": {
+        "not_user_label": "Är du inte %{first_name}?",
+        "save_my_information_label": "Spara denna information för att betala snabbare nästa gång",
+        "invalid_address": "Det valda adressen är ogiltig. %{update_address_link} eller välj en annan adress.",
+        "incomplete_address": "Det valda adressen är ofullständig. %{update_address_link} eller välj en annan adress.",
+        "invalid_shipping_method_summary": "Välj en giltig leveransadress för att se tillgängliga leveransmetoder",
+        "saved_address_option_description": {
+          "one": "Du har {{count}} sparade adresser."
+        },
+        "rollup_accessibility_label": "Kontoinställningar"
+      },
+      "stock": {
+        "page_title": "Lagerproblem",
+        "title": "Slut i lager",
+        "items_unavailable_notice": "Vissa artiklar finns inte längre tillgängliga.",
+        "product_column_header": "Produkten",
+        "quantity_column_header": "Antal",
+        "removed_from_cart_notice": "Borttagen från kundvagn",
+        "reduced_label": "Minskad",
+        "reduced_with_quantity_label": "Endast %{quantity_available} i lager",
+        "remove_from_cart_button_label": "Ta bort från kundvagn",
+        "go_back_to_cart_button_label": "Tillbaka till min kundvagn",
+        "empty_cart_label": "Din kundvagn är tom",
+        "quantity_update": {
+          "page_title": "Uppdaterad mängd",
+          "title": "Uppdaterad mängd",
+          "description": "De tillgängliga mängderna för dessa artiklar har ändrats och din kundvagn har uppdaterats."
+        },
+        "unpurchasable_product": {
+          "title": "Produkten kan inte köpas",
+          "header": "Vissa varor har tagits bort från din kundvagn",
+          "message": "Dessa artiklar är inte tillgängliga för företagsbeställningar."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkten kan inte köpas",
+          "header": "Vissa varor har tagits bort från din kundvagn",
+          "message": "Dessa artiklar finns inte tillgängliga."
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Den här varan tas bort från din kundvagn eftersom det inte finns några leveranssätt tillgängliga för din adress.",
+            "other": "Den här varan tas bort från din kundvagn eftersom det inte finns några leveranssätt tillgängliga för din adress."
+          }
+        },
+        "price_update": {
+          "description": "Priserna på dessa varor har ändrats och uppdaterats i din kundvagn."
+        },
+        "return_to_store_label": "Tillbaka till butik",
+        "continue_cta_label": "Fortsätt till kassan",
+        "out_of_stock": {
+          "description": "Dessa varor finns inte längre tillgängliga och har tagits bort från din kundvagn."
+        }
       }
     }
   }
