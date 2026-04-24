@@ -3049,7 +3049,239 @@
       },
       "cart": {
         "only_n_items_available": "Du kan kun tilføje %{count} %{name} til din indkøbskurv.",
-        "too_many_items_in_cart": "Du kan ikke tilføje flere %{name} til din indkøbskurv."
+        "too_many_items_in_cart": "Du kan ikke tilføje flere %{name} til din indkøbskurv.",
+        "empty_update": "kan ikke opdatere indkøbsvogn",
+        "missing_parameters": "ingen gyldig ID eller reglenummer",
+        "too_many_line_items_error": "Din indkøbskurv kan ikke indeholde mere end %{max} varer.",
+        "link_expired": "Link udløbet",
+        "link_no_longer_exists": "Link findes ikke længere.",
+        "stock_problems_html": "Én eller flere varer er ikke længere tilgængelige. Vi har gjort en <a href='%{link}'>opdateret indkøbskurv</a> klar.",
+        "items_changed": "Én eller flere artikler er ændret.",
+        "variant_requires_selling_plan": "Variant kan kun købes med et salgsabonnement.",
+        "shipping_address_not_required": "Der er ikke behov for forsendelse ved denne indkøbsvogn",
+        "shipping_address_invalid": "Der opstod et problem ved beregningen af dine forsendelsesomkostninger. Fortsæt til betaling for at vælge forsendelsesomkostninger, inden du fuldfører din bestilling.",
+        "selling_plan_not_applicable": "Kan ikke anvende salgsabonnement på variant",
+        "selling_plan_not_available_for_company_locations": "Kun engangskøb er tilgængelige for B2B-ordrer.",
+        "digital_product_not_available_for_company_locations": "Du kan ikke tilføje denne vare til en B2B-bestilling",
+        "less_than_minimum": "Din vare har en minimum på %{min}.",
+        "more_than_maximum": "Din vare har en maksimum på %{max}.",
+        "not_respect_step": "Du kan kun tilføje denne vare i trin af %{step}.",
+        "bundle_requires_components": "Kan ikke tilføje bundtproduktet '%{name}' til indkøbskurven.",
+        "gift_card_with_components_not_supported": "Kan ikke tilføje bundtproduktet '%{name}' til indkøbskurven.",
+        "view_lines_limit_reached": "Regler skal være mindre end eller lig med %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Der er opstået en fejl i din indkøbskurv."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Kan ikke tilføje bundtproduktet '%{name}' til indkøbskurven.",
+        "gift_card_recipient_validation_error": "Den angivne modtager af gavekortet er ugyldig",
+        "invalid_input": "Parameter %{parameter} er ugyldig.",
+        "buyer_cannot_purchase_for_company_locations": "Du kan ikke foretage et køb til denne placering",
+        "only_one_added_to_cart": "Der er kun tilføjet 1 vare til din indkøbskurv på grund af tilgængelighed.",
+        "only_n_added_to_cart": "Der er kun %{quantity} varer tilføjet til din indkøbskurv på grund af tilgængelighed.",
+        "maximum_available_quantity_reached": "Den maksimale mængde af denne vare er allerede i din indkøbskurv.",
+        "cart_attributes_error": "Indkøbsvognsatributter indeholder ugyldige oplysninger.",
+        "merchandise_not_applicable": "Varen kan ikke købes som konfigureret.",
+        "not_found": "Indkøbsvogn ikke fundet"
+      },
+      "storefront": {
+        "invalid_password": "Adgangskode forkert, prøv igen."
+      },
+      "tags": {
+        "add_articles": "Begræns søgningen til artikler med tagget %{tag}",
+        "add_products": "Begræns søgningen til produkter med den tilsvarende tag %{tag}",
+        "remove_products": "Fjern tag %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} tilføjet",
+          "increment_item": "%{delta} tilføjet",
+          "decrement_item": "%{delta} af %{total} slettet",
+          "decrement_fulfilled_line_item": "%{delta} af %{total} returneret",
+          "decrement_return_line_item": "%{delta} fjernet fra retur"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Produktet",
+      "reset_account": "Nulstilling af konto",
+      "addresses": "Adressen",
+      "order": "Bestil %{name}",
+      "search": "Søgning",
+      "not_found": "404 ikke fundet",
+      "search_results": {
+        "one": "Søgning: %{count} resultat fundet for '%{terms}'",
+        "other": "Søgning: %{count} resultater fundet for '%{terms}'"
+      },
+      "blog_or_article_with_error": "Fejl - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Der er anvendt %{count} rabatter"
+    },
+    "challenge": {
+      "message": "Lad os vide, at du ikke er en robot for at fortsætte.",
+      "error": "Dit svar var ikke korrekt, prøv igen.",
+      "submit_button_text": "Afsendelse"
+    },
+    "checkpoint": {
+      "message": "Løs captchaen for at fortsætte",
+      "error": "captcha-bekræftelse mislykkedes",
+      "submit_button_text": "Afsendelse"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Tak for tilmeldingen til vores mailingliste."
+      },
+      "unsubscribed": {
+        "confirmation": "Du er afmeldt vores postliste.",
+        "disclaimer": "Du modtager ikke længere markedsføringsopdateringer fra os. Du kan til enhver tid tilmelde dig igen.",
+        "preview": "Du ser et eksempel på, hvad kunderne vil se, når de afmelder sig."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Du har givet tilladelse til e-mail åbningssporing.</b>",
+          "visibility": "E-mailåbningsprocenter rapporteres anonymt. Vi vil kun kunne se, om du har åbnet en e-mail som en del af en samlet e-mailåbningsprocent.",
+          "opt_out_html": "Du kan <a style='text-decoration:underline;' href='%{link}'>framelde</a> dig e-mail open-tracking, hvis du ikke ønsker at dele disse oplysninger.",
+          "preview_bar": "Du ser et eksempel på, hvad kunderne får vist, når de giver tilladelse til at modtage e-mails om åben sporing."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Du har afmeldt dig for e-mail åbningssporing.</b>",
+          "visibility": "Vi kan ikke se, om du har åbnet vores e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Giv tilladelse</a> til åben sporing af e-mails.",
+          "preview_bar": "Du ser et eksempel på, hvad kunderne får vist, når de afmelder sig for at modtage e-mails om åben sporing."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Vi følger ikke længere, om e-mails bliver åbnet.</b>",
+          "privacy_policy": "Efter denne e-mail blev sendt, har vi opdateret vores privatlivspolitik og følger ikke længere åbningen af e-mails."
+        },
+        "track": {
+          "status_html": "<b>E-mail åbning spores og rapporteres.</b>",
+          "visibility": "Vi vil kun kunne se, om du har åbnet e-mailen, som en del af den samlede åbningsprocent for e-mails."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-mail åbning spores og rapporteres.</b>",
+          "visibility": "Vi har opdateret vores politik og følger nu åbne e-mails. Procentdelen af åbnede e-mails rapporteres anonymt. Vi vil kun kunne se, om du har åbnet en e-mail, som en del af den samlede åbningsprocent for e-mails.",
+          "opt_out_html": "Hvis du ikke længere ønsker at dele disse oplysninger, kan du <a style='text-decoration:underline;' href='%{link}'>framelde dig</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Er du sikker på, at du vil framelde dig sms-markedsføring?"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Ofte klar inden for 1 time",
+        "two_hours": "Ofte klar inden for 2 timer",
+        "four_hours": "Ofte klar inden for 4 timer",
+        "twenty_four_hours": "Ofte klar inden for 24 timer",
+        "two_to_four_days": "Ofte klar inden for 2-4 dage",
+        "five_or_more_days": "Normalt klar inden for mere end 5 dage",
+        "zero_to_two_hours": "Ofte klar inden for 2 timer",
+        "two_to_four_hours": "Ofte klar inden for 4 timer"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Pris: lav til høj",
+        "price_descending": "Pris: høj til lav"
+      },
+      "error": "Der opstod et problem under indlæsning af søgeresultaterne. Opdater siden eller prøv igen senere."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Din vare er et tilbagevendende eller udskudt køb. Hvis jeg fortsætter, accepterer jeg %{cancellationPolicyLink} og giver dig også tilladelse til at trække de angivne beløb fra min betalingsmetode med den angivne hyppighed og på de angivne datoer, indtil min ordre er behandlet eller indtil jeg, hvis det er tilladt, opsiger.",
+      "buyer_consent_cart": "En eller flere varer i din indkøbskurv er udskudte eller tilbagevendende køb. Hvis jeg fortsætter, accepterer jeg %{cancellationPolicyLink} og giver dig også tilladelse til at trække de angivne priser fra min betalingsmetode, med den angivne hyppighed og på de angivne datoer, indtil min ordre er behandlet eller indtil jeg, hvis det er tilladt, opsiger.",
+      "cancellation_policy": "opsigelsespolitik"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "open_menu_accessibility_label": "Åbn kontonavigation",
+        "close_menu_accessibility_label": "Luk kontonavigation",
+        "loading_message": "Indlæser kontonavigation"
+      },
+      "contact_email_subject": "Kontaktperson for webshoppen {{shopName}}",
+      "contact_link": "Kontaktoplysninger",
+      "delete_confirmation": {
+        "delete": "Fjern"
+      },
+      "dismiss_toast": "Luk",
+      "document_title": "{{sectionName}} - {{shopName}} - konto",
+      "loading_message": "Opladning",
+      "logout_overlay_label": "Log ud...",
+      "navigation_accessibility_message": "Du er navigeret til {{sectionName}}",
+      "search": "Søgning",
+      "location_switcher_toast_message": "Placering ændret til {{locationName}}",
+      "switch_location": "Skift af sted",
+      "view_details": "Se data",
+      "company_location": "Virksomhedens beliggenhed",
+      "no_locations_found": "Ingen steder fundet",
+      "skip_to_content": "Gå direkte til indholdet",
+      "loading_policy_content_accessibility_label": "Politik for indholdsindlæsning",
+      "policy_load_error": "Kan ikke indlæse {{policyName}}",
+      "loading_section_accessibility_label": "{{sectionName}} butik"
+    },
+    "account_information": {
+      "loading_finished_accessibility_message": "Kontodata er indlæst",
+      "profile_card": {
+        "cancel_accessibility_label": "Rediger profil annuller",
+        "email_help_text": "E-mailadresse kan ikke redigeres",
+        "email": "E-mail",
+        "errors": {
+          "name_too_long": "{{fieldName}} er for lang (maksimalt 255 tegn)",
+          "name_cannot_contain_url": "{{fieldName}} må ikke indeholde en URL",
+          "email_cant_be_blank": "E-mail må ikke være tom",
+          "invalid_email_format": "Indtast en gyldig e-mailadresse"
+        },
+        "editable_email_help_text": "Din e-mailadresse bruges til tilmelding og opdateringer om bestillinger."
+      },
+      "profile_update_confirmation_message": "Profil opdateret",
+      "people": {
+        "pagination": {
+          "load_more": "Indlæs mere",
+          "load_more_accessibility_label": "Flere mennesker downloader"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "E-mail bekræftelse",
+        "description": "Indtast koden, der er sendt til {{email}}",
+        "one_time_password_label": "Kode på 6 cifre",
+        "email_resend_button": "Send kode igen",
+        "email_resend_button_accessibility_label": "Send bekræftelseskode igen",
+        "cancel_button_accessibility_label": "Annuller redigering af e-mail",
+        "email_resend_button_success_toast_message": "Bekræftelseskode sendt",
+        "email_resend_button_failure_banner_message": "Kan ikke sende bekræftelseskode"
+      },
+      "email_update_success_modal": {
+        "title": "E-mail bekræftelse",
+        "description": "E-mailopdateringen er lykkedes. Omdirigerer til tilmelding."
+      },
+      "email_update_confirmation_message": "E-mailadresse opdateret til {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Layoutmuligheder",
+      "list_title": "Bestillingen",
+      "order_list": {
+        "column_headers": {
+          "order": "Bestilling",
+          "actions_accessibility_label": "Kampagner",
+          "products_accessibility_label": "Produktet"
+        },
+        "delivered": "Bekymret: {{date}}",
+        "empty_state_order_source_description": "Kun ordrer afgivet via {{email}} vises her.",
+        "empty_state_subtitle": "Gå til butikken for at afgive en bestilling.",
+        "estimated_delivery": "Forventet den {{date}}",
+        "items": {
+          "one": "{{count}} artikel",
+          "other": "{{count}} artikler"
+        },
+        "order_link": "Se bestilling {{name}}",
+        "order_number": "Bestilling {{name}}",
+        "pagination": {
+          "previous_accessibility_label": "Tidligere ordrer",
+          "load_more": "Indlæs mere"
+        },
+        "sort_by": "Sorter efter: {{option}}",
+        "sort_hide_options_accessibility_label": "Skjul sorteringsmuligheder for bekræftede ordrer."
       }
     }
   }
