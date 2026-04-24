@@ -1954,7 +1954,67 @@
         "delivered": "Préoccupé",
         "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez indiquée. Si vous ne l'avez pas reçue, ou si vous rencontrez d'autres problèmes, %{contact_us}.",
         "contact_us": "Contactez-nous",
-        "contact_us_lowercase": "contactez-nous"
+        "contact_us_lowercase": "contactez-nous",
+        "contact_us_html": "Besoin d'aide ? %{contact_us}",
+        "updated_time": "Mis à jour il y a %{time_ago}",
+        "failed_title": "Votre commande n'a pas pu être livrée.",
+        "non_shippable_title": "La commande est terminée",
+        "login_title": "Connectez-vous pour voir toutes les informations de commande",
+        "login_description": "Vous pouvez trouver votre numéro de commande dans la facture que vous avez reçue par courriel.",
+        "login_description_phone": "Vous trouverez votre numéro de commande dans la facture que vous avez reçue par SMS.",
+        "login_not_customer_html": "Pas %{name} ? Vous pouvez %{link}",
+        "login_reorder_link_text": {
+          "one": "acheter aussi ce produit",
+          "other": "acheter aussi ces produits"
+        },
+        "customer_information_hidden_fields_message": "Connectez-vous pour voir toutes les informations client.",
+        "customer_validation_error": "Veuillez saisir une adresse courriel valide ou un numéro de commande.",
+        "customer_validation_error_phone": "Veuillez saisir un numéro de téléphone ou de commande valide.",
+        "login": "Connexion",
+        "unfulfilled_items_title": "L'expédition est en cours de préparation",
+        "unfulfilled_items_description": "Nous préparons actuellement ces articles pour l'expédition.",
+        "marker": {
+          "current": "Lieu d'expédition actuel"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Les articles sont préparés pour l'expédition",
+          "quantity_label": "Nombre"
+        },
+        "order_updates_description_missing": "Vous ne recevrez pas de mises à jour d'expédition.",
+        "order_updates_subscribe_to_email_notifications": "Recevez des mises à jour d'expédition par courriel",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour d'expédition par courriel ou SMS",
+        "order_updates_subscribe_to_phone_notifications": "Recevez vos mises à jour d'expédition par SMS",
+        "order_updates_submit_subscription": "Soumettre",
+        "track_shipment": "Suivre l'envoi",
+        "order_status_confirmed_order_with_email_pick_up": "Vous recevrez un courriel lorsque vous pourrez venir chercher votre commande.",
+        "order_status_confirmed_order_with_phone_pick_up": "Vous recevrez un texto lorsque vous pourrez retirer votre commande.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Vous recevrez un courriel et un texto lorsque vous pourrez retirer votre commande.",
+        "pick_up_in_store_marker": {
+          "current": "Lieu d'expédition actuel",
+          "shipping": "Lieu de retrait"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Vous recevrez un courriel lorsque vous pourrez venir chercher votre commande.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Vous recevrez un texto lorsque vous pourrez retirer votre commande.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Vous recevrez un courriel lorsque vous pourrez venir chercher votre commande.",
+        "ready_for_pickup_title": "La commande est prête à être retirée",
+        "ready_for_pickup_description": "Votre commande peut être retirée. Veuillez apporter la confirmation de commande lors du retrait.",
+        "picked_up_title": "La commande a été retirée",
+        "shop_phone_description": "Vous recevrez un texto avec un lien vers l’application Boutique pour suivre votre commande.",
+        "ready_for_delivery_title": "La commande est prête pour la livraison",
+        "ready_for_delivery_description": "Nous avons préparé la commande.",
+        "order_status_confirmed_order_local": "Nous préparons votre commande pour la livraison.",
+        "delivery_information_label": "Informations de livraison :",
+        "gift_card_sent_confirmation": "Bons cadeaux envoyés",
+        "out_for_delivery_local_title": "Votre commande est prête pour la livraison",
+        "out_for_delivery_local_description_html": "Vous recevrez votre commande bientôt.",
+        "delivered_local_description_html": "Vous n'avez pas encore reçu votre commande ? %{let_us_know}.",
+        "let_us_know": "Faites-le nous savoir",
+        "qr_code": {
+          "title": "Suivez sur votre téléphone",
+          "send_link_to_phone": "Ou envoie un lien vers ton téléphone"
+        },
+        "gift_card_confirmation_by_text": "Si vous ne l'avez pas reçu, demandez à renvoyer le SMS ou contactez-nous.",
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, demandez à ce que le courriel soit renvoyé ou contactez-nous."
       }
     }
   }
