@@ -3940,6 +3940,80 @@
       "load_orders_error": {
         "title": "Kan ikke indlæse bestillingen",
         "description": "Prøv igen eller kom tilbage senere."
+      },
+      "load_paypal_error": {
+        "description": "Der opstod et problem under indlæsning af PayPal. Prøv igen."
+      },
+      "load_extension_error": {
+        "description": "Opdater denne side eller prøv igen om et par minutter."
+      },
+      "already_upgraded": "Kundeprofiler er allerede opgraderet.",
+      "failed_to_upgrade": "Opgraderingen af kundekontoindstillingerne mislykkedes.",
+      "logout_everywhere": {
+        "description": "Der opstod en fejl under udlogningen. Prøv igen."
+      },
+      "resend_link": {
+        "too_many_requests": "For mange forespørgsler. Prøv igen senere.",
+        "generic": "Anmodning mislykkedes"
+      },
+      "profile_name_update_error": {
+        "description": "Der opstod et problem under opdateringen af dit navn. Opdater denne side eller tjek din internetforbindelse."
+      },
+      "load_address_form_error": {
+        "title": "Kan ikke indlæse adresseformularen",
+        "description": "Kunne ikke indlæse adresseformularen.",
+        "refresh_button": "Opdater side"
+      },
+      "not_upgraded": "Kundeprofiler er ikke opgraderet.",
+      "failed_to_revert": "Gendannelse af kundekontoindstillingerne mislykkedes.",
+      "revert_window_expired": "Genoprettelsesperioden er udløbet."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "payment_method_expiring_on": "Udløber den {{expiryDate}}",
+        "preauthorized_payments": "Forudautoriserede betalinger",
+        "close_payment_modal_accessibility_label": "Modalt Data betalingsmetode luk",
+        "payment_method_not_found_error": "Kan ikke finde betalingsmetode",
+        "payment_details_loading": "Indlæser betalingsmetodeoplysninger",
+        "pre_authorized_payments": "Forudautoriserede betalinger",
+        "total_amount_of_subscription_line_items_left": "en mere {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artikler i alt; {{totalItemsToDisplay}} artikler vises.",
+        "next_payment_due": "Næste betaling forfalder den {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Rediger betalingsmetoden, der ender på {{lastDigits}}",
+        "credit_card_details_accessibility_label": "slutter på {{lastDigits}}",
+        "card_info_title": "Kortdata",
+        "payment_method_expired_on": "Udløber den {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay indlæsning",
+        "replace_payment_method": "Betalingsmetode udskifte",
+        "checkout_card_banner": "Du kan kun bruge denne betalingsmetode til forudgodkendte betalinger. Den vises ikke ved kassen, hvis du er logget ind i denne butik.",
+        "default_checkbox": "Indstil som standard",
+        "default_checkbox_accessibility_label": "Indstil denne betalingsmetode som standard",
+        "replace_payment_method_button": "Udskiftning"
+      },
+      "delete_payment_method_button": "Fjern",
+      "delete_payment_method_button_accessibility_label": "Fjern {{paymentMethodName}}",
+      "payment_delete": {
+        "title": "Fjern betalingsmetode",
+        "description_without_replacement": "Denne betalingsmetode er ikke længere tilgængelig for fremtidige køb.",
+        "description_with_replacement": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger. Du kan også erstatte den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer.",
+        "replace_method_with_new_method_description": "Din {{currentPaymentMethodName}} bliver fjernet og erstattet med din {{newPaymentMethodName}}.",
+        "error_when_deleting": "Vi beklager, der er opstået en fejl, og vi kan ikke fjerne denne betalingsmetode. Prøv igen senere eller opdater siden.",
+        "delete_and_replace_button": "Fjerne og udskifte",
+        "delete_and_replace_button_accessibility_label": "Fjern {{currentPaymentMethodName}} og erstat den med {{newPaymentMethodName}}.",
+        "deleted_successfully": "Betalingsmetoden er fjernet.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger. Udestående beløb for eksisterende ordrer vil stadig blive opkrævet via denne betalingsmetode, medmindre du vælger en anden betalingsmetode. Vælg en anden betalingsmetode for at fortsætte med at modtage kommende abonnementsordrer uden afbrydelse.",
+          "with_pending_orders": "Fjernelse af betalingsmetoden betyder, at den bliver fjernet fra din konto og ikke længere er tilgængelig til fremtidige køb. Udestående beløb fra eksisterende ordrer vil stadig blive opkrævet via denne betalingsmetode, medmindre du vælger en anden betalingsmetode.",
+          "with_subscriptions": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger. Erstat den med en anden betalingsmetode for fortsat at modtage kommende ordrer."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger. Udestående beløb for eksisterende ordrer vil stadig blive opkrævet via denne betalingsmetode, men du vil ikke modtage kommende abonnementsordrer. Tilføj en anden betalingsmetode for fortsat at modtage abonnementsordrer.",
+          "with_pending_orders": "Fjernelse af betalingsmetoden betyder, at den bliver fjernet fra din konto og ikke længere er tilgængelig for fremtidige køb. Udestående beløb fra eksisterende ordrer vil stadig blive opkrævet via denne betalingsmetode.",
+          "with_subscriptions": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger. Tilføj en anden betalingsmetode for at fortsætte med at modtage kommende ordrer."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Betalingsmetode ændre"
       }
     }
   }
