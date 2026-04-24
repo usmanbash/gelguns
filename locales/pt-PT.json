@@ -1426,7 +1426,79 @@
               "verification_value": "Introduza um CVV/CVC ou código de segurança válido"
             }
           }
-        }
+        },
+        "simulated_checkout": "Exemplo aparecerá em breve",
+        "vaulting_agreement_label": "Guarde os meus dados de pagamento na %{company} para um checkout mais rápido.",
+        "business_customer_vaulting_payment_label": "Guarde este método de pagamento no checkout e autorize %{company} a debitar dinheiro através deste cartão para compras futuras neste local. Todas as pessoas de contacto atribuídas a este local podem usar o método de pagamento.",
+        "purchase_options_and_vaulting_agreement_label": "Um ou mais artigos no carrinho são uma compra adiada ou por subscrição. Ao continuar com o pagamento, concorda que cobramos automaticamente os valores da compra através do seu método de pagamento pelo preço e frequência indicados nesta página, até que termine ou cancele. Para todas as cancelamentos aplica-se o %{cancellation_policy_label}.",
+        "use_different_credit_card_label": "Usar outro cartão",
+        "saved_credit_card_info": "Últimos quatro dígitos",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Ver todos os mapas guardados",
+          "done": "Pronto"
+        },
+        "expired_cards_info": {
+          "one": "Existe %{count} cartão expirado. Podes visualizá-lo e editá-lo na tua conta.",
+          "other": "Existem %{count} cartões expirados. Podes visualizá-los e editá-los na tua conta."
+        },
+        "local_payment_method_receiver_notice": "Após efetuar a sua encomenda, receberá os dados de pagamento. Efetue o pagamento dentro de {{dueDays}} dias num multibanco ou online.",
+        "order_edit_banner_title": "Pagamento de {{amount_owed}} é obrigatório",
+        "order_edit_banner_subtitle": "A sua encomenda {{order_number}} foi atualizada. Verifique estas alterações e pague para confirmar a sua encomenda.",
+        "order_edit_banner_multiple_items_added": "{{amount}} adicionado",
+        "order_edit_banner_multiple_items_removed": "{{amount}} removido",
+        "gift_card_wrapper": {
+          "heading": "Vale-presente",
+          "apply_gift_card_label": "Aplicar um vale-presente",
+          "payment_tag": "Vale-presente",
+          "apply_another_gift_card_label": "Aplicar outro vale-presente",
+          "gift_card_label": "Vale-presente %{identifier}",
+          "add_label": "Adicionar um vale-presente",
+          "manage_label": "Gerir vales-presente"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Fixação para pagamentos personalizados no local"
+        },
+        "markets_pro_disclaimer_label": "Ao efetuar a sua encomenda, concorda com a compra junto da Global-e como comerciante registado, sujeita aos %{markets_pro_terms} e %{privacy_policy} da Global-e, e partilha os seus dados com %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "condições gerais",
+        "markets_pro_disclaimer_privacy_policy": "política de privacidade",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Condições gerais para comerciantes registados",
+        "markets_pro_disclaimer_privacy_policy_title": "Política de privacidade para comerciantes registados",
+        "purchase_order_number": {
+          "title": "Número de encomenda",
+          "label": "Número de encomenda (opcional)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: Será debitado %{amount_due}.",
+        "waiting_on_taxes_message": "Atualize a página se os impostos não forem calculados dentro de alguns segundos.",
+        "waiting_on_taxes_notice": "Calcular impostos",
+        "order_edit_banner_multiple_items_returned": "{{amount}} devolvido",
+        "shop_pay_installments_label": "Pagamentos a prazo Shop Pay",
+        "delete_credit_card_modal": {
+          "title": "Remover cartão",
+          "confirmation": "Tem a certeza de que quer remover o {{brandName}} que termina em {{lastDigits}}?",
+          "delete": "Remover"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} adicionado"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} de {{quantity}} removidos"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} devolvido",
+          "with_quantities": "{{delta}} de {{quantity}} devolvidos"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Remover"
+        },
+        "edit_credit_card_modal": {
+          "title": "Editar mapa",
+          "done": "Pronto",
+          "description": "Só podes alterar o endereço de faturação do teu cartão."
+        },
+        "subscription_heading": "Contrato de assinatura",
+        "use_order_billing_address_label": "Usar o endereço de faturação da encomenda",
+        "use_location_billing_address_label": "Usar o endereço de faturação da localização",
+        "use_location_shipping_address_label": "Usar o endereço de entrega da localização"
       }
     }
   }
