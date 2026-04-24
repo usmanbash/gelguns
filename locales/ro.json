@@ -869,8 +869,72 @@
           "message": {
             "one": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta.",
             "other": "Acest articol va fi scos din coșul tău pentru că nu există metode de livrare disponibile pentru adresa ta."
+          },
+          "status_column_header": "Fără livrare"
+        },
+        "price_update": {
+          "description": "Prețurile acestor articole au fost modificate și actualizate în coșul tău de cumpărături.",
+          "updated_price": "Preț actualizat"
+        },
+        "return_to_store_label": "Înapoi la magazin",
+        "item_label": {
+          "one": "{{count}} articole"
+        },
+        "continue_cta_label": "Continuă cu plata",
+        "out_of_stock": {
+          "description": "Aceste articole nu mai sunt disponibile și au fost eliminate din coșul tău de cumpărături.",
+          "items_unavailable": "Unele articole nu mai sunt disponibile și au fost eliminate din coșul tău de cumpărături."
+        },
+        "unfulfillable_product": {
+          "title": "Livrare indisponibilă",
+          "message": {
+            "one": "%{delivery_method} nu mai este disponibil pentru acest articol.",
+            "other": "%{delivery_method} nu mai este disponibil pentru aceste articole."
           }
+        },
+        "price_and_quantity_update": {
+          "title": "Actualizare preț și cantitate",
+          "description": "Prețurile și cantitățile disponibile pentru aceste articole au fost modificate, iar coșul de cumpărături a fost actualizat."
         }
+      },
+      "order_summary": {
+        "title": "Rezumatul comenzii",
+        "order_name_label": "Comandă %{name}",
+        "shopping_cart_label": "Coș de cumpărături",
+        "gift_card_title": "Bon cadou",
+        "gift_card_label": "Bon cadou",
+        "gift_card_placeholder": "Bon cadou",
+        "gift_card_and_discount_title": "Cod de reducere sau bon cadou",
+        "gift_card_and_discount_label": "Cod de reducere sau bon cadou",
+        "gift_card_and_discount_placeholder": "Cod de reducere sau bon cadou",
+        "add_discount_or_gift_card": "Adăugarea unui cod de reducere sau a unui bon cadou",
+        "remove_gift_card_label": "Anulare bon cadou",
+        "remove_discount_label": "Eliminare reducere",
+        "free_shipping_discount_label": "Transport gratuit",
+        "apply_discount_button_label": "Aplicare",
+        "applied_discount_message": "S-a scăzut o reducere de %{amount} din prețul total.",
+        "discount_has_been_applied": "Reducere aplicată",
+        "discount_has_been_removed": "Reducerea a fost eliminată",
+        "gift_card_has_been_applied": "Card cadou a fost aplicat",
+        "gift_card_has_been_removed": "Cardul cadou a fost șters",
+        "discount_already_applied": "S-a aplicat o reducere pentru această comandă. Nu poți adăuga o altă reducere.",
+        "cart_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu se aplică articolelor din coșul tău de cumpărături",
+        "discount_requires_customer_notice": "Introduceți datele de expediere pentru a aplica codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu este momentan disponibil pentru tine",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu este disponibil pentru adresa ta de livrare",
+        "customer_already_used_once_per_customer_discount_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> a fost deja folosit",
+        "shipping_label": "Expediere",
+        "tip_label": "Bacșiș",
+        "shipping_default_value": "Calculat la pasul următor",
+        "shipping_pending_message": "Nu este disponibil încă",
+        "shipping_policy_link": "Costuri de expediere",
+        "taxes_label": "apropo",
+        "total_outstanding_label": "Sumă de plată",
+        "paid_label": "Plătit",
+        "payment_due_label": "Plată datorată",
+        "vat_label_html": "Inclusiv %{amount} TVA",
+        "discount_and_gift_card_savings_notice": "Reducere de %{discount_amount} și %{gift_card_amount} valoare în card cadou",
+        "discount_savings_notice": "Reducere de %{discount_amount}"
       }
     }
   }

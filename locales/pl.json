@@ -4288,7 +4288,103 @@
         "lessThanOneWeekAgo": "W {{weekday}} o {{time}}",
         "today": "Dziś o {{time}}",
         "lessThanOneWeekAway": "W {{weekday}} o {{time}}",
-        "lessThanOneYearAway": "Op {{date}} o {{time}}"
+        "lessThanOneYearAway": "Op {{date}} o {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minut temu",
+          "other": "{{count}} minut temu"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Wybierz rozszerzenie o nazwie '{{extensionName}}'",
+        "unselect": "Cofnięcie wyboru rozszerzenia o nazwie '{{extensionName}}'",
+        "move_down": "Przesuń rozszerzenie na następną pozycję",
+        "move_up": "Przesuń rozszerzenie do poprzedniej pozycji",
+        "move_down_tooltip": "Przenieś do następnej pozycji",
+        "move_up_tooltip": "Przenieś do poprzedniej pozycji"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Nie możesz otworzyć tego linku w edytorze. Link zostanie otwarty w nowym oknie ({{resolved_to_link}}). Kliknij OK, aby kontynuować."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Zbyt wiele prób"
+      }
+    },
+    "shop_ads": {
+      "subtitle": "Tymczasowo dostępne",
+      "button": "Przeglądaj w Sklepie",
+      "previous_button": "Poprzedni",
+      "next_button": "Następny"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Klienci mogą sami zgłaszać i zarządzać zwrotami.",
+        "disabled": "Klienci muszą skontaktować się ze sprzedawcą, aby zgłosić zwrot."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Zamiana metody płatności",
+        "current_method": "Obecny",
+        "success": "Metoda płatności zaktualizowana"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Zaloguj się lub załóż konto",
+        "section_divider": "Więcej sposobów logowania się",
+        "alternate_divider": "ZŁ",
+        "shop_login_button": "Zaloguj się za pomocą Sklepu",
+        "continue_with_google": "Kontynuuj za pomocą Google",
+        "continue_with_facebook": "Kontynuuj z Facebookiem",
+        "use_email_button": "Użyj adresu e-mail"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Cześć {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Szukaj"
+      },
+      "aria_labels": {
+        "back_to_main_menu": "Powrót do głównego menu z {{title}}",
+        "open_submenu": "{{title}}, otwórz podmenu",
+        "sign_in_with_email": "Zaloguj się za pomocą e-maila"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Zamiana metody płatności",
+        "replace_with": "Zastąp przez",
+        "add_new_payment_method": "Dodaj nowy",
+        "loading": "Modal do zmiany metody płatności jest ładowany",
+        "success": "Metoda płatności zaktualizowana",
+        "invalid_subscription_contract": "Nie można znaleźć abonamentu",
+        "expiry_date": "Wygasa {{expiryDate}}",
+        "edit_current_payment_method": "Edytuj bieżącą metodę płatności"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "logo %{shop_name}",
+      "step_one": {
+        "page_title": "Zaloguj się - %{shop_name}",
+        "subheading": "Wprowadź swój adres e-mail, a my wyślemy Ci kod weryfikacyjny",
+        "subheading_with_sign_in_options": "Zaloguj się lub załóż konto",
+        "or": "z",
+        "consent_agreement": "Kontynuując, zgadzasz się z %{terms}"
+      },
+      "step_two": {
+        "page_title": "Wprowadź kod - %{shop_name}",
+        "subheading": "Wysłano na %{email}",
+        "input_field_label": "Kod z 6 cyfr",
+        "button": "Złóż wniosek"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Wprowadź poprawny sześciocyfrowy kod"
+        }
       }
     }
   }
