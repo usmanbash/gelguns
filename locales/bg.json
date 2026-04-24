@@ -4040,9 +4040,85 @@
             "banner_due": {
               "one": "Вашето плащане е дължимо след {{count}} дни",
               "other": "Вашето плащане е дължимо след {{count}} дни"
+            },
+            "banner_due_today": "Плащането ви е дължимо днес",
+            "title": "Плащане дължимо",
+            "title_with_date": "Плащане дължимо на {{date}}",
+            "description_overdue": "Плащането ви е закъсняло.",
+            "description_partially_paid": "Тази поръчка е частично платена. Остава ви баланс за плащане.",
+            "description_authorized": "Сумата ще бъде начислена на датата, на която е дължима, чрез избрания от теб метод на плащане. Можеш да платиш и сега.",
+            "title_due_on_receipt": "Плащането все още не е дължимо",
+            "description_due_on_receipt": "Ще получите фактура, когато плащането е дължимо.",
+            "title_due_on_fulfillment": "Плащането се дължи при изпълнение на поръчката.",
+            "description_due_on_fulfillment": "Плащането е дължимо веднага щом всички артикули в тази поръчка бъдат обработени.",
+            "description_waiting_for_manual_payment": "Плащането за тази поръчка е в процес на обработка. Балансът ще бъде актуализиран, когато получим плащането.",
+            "description_due_on_receipt_partially_paid": "Тази поръчка е частично платена. Остава ви остатък за плащане. Ще получите фактура, когато плащането стане дължимо.",
+            "description_due_on_fulfillment_partially_paid": "Тази поръчка е частично платена. Остава ви баланс за плащане. Плащането е дължимо, след като всички артикули в тази поръчка бъдат обработени.",
+            "description_due_on_fulfillment_partially_paid_next": "Тази поръчка е частично платена. Остава ви баланс за плащане.",
+            "banner_due_today_for_single_fulfillment": "Плащане на {{amount}} е дължимо днес. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Плащане днес дължимо за {{count}} изпълнения",
+            "banner_overdue_for_multiple_fulfillments": "Плащане дължимо за {{count}} изпълнения",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Плащането на {{amount}} закъснява с {{count}} дни. {{link}}",
+              "other": "Плащането на {{amount}} закъснява с {{count}} дни. {{link}}"
             }
+          },
+          "refund": {
+            "title": "Върнато плащане",
+            "title_with_date": "Върнато на {{date}}",
+            "description_full_refund": "Вие сте получили пълно възстановяване на сумата за тази поръчка.",
+            "description_single_refund": "Вие сте получили частично възстановяване за тази поръчка.",
+            "description_multiple_refunds": "Получили сте частични възстановявания за тази поръчка."
+          },
+          "canceled": {
+            "description": "Не са ви начислени никакви такси."
           }
+        },
+        "subtitle": "Подадено: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Показване на данни",
+          "expand_events_accessibility_label": "Показване на данни за концептуална поръчка",
+          "hide_events_label": "Скриване на данни",
+          "hide_events_accessibility_label": "Скриване на данни за концептуална поръчка"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Този метод на плащане вече не е наличен за бъдещи покупки на това място.",
+          "description_with_replacement": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания за това място. Заменете го с друг метод на плащане, за да продължите да получавате предстоящи поръчки."
+        },
+        "payment_details": {
+          "draft_label": "Поръчка по концепция {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Добавяне на номер за поръчка",
+        "add_modal_title": "Добавяне на номер за поръчка",
+        "cancel": "Отказване",
+        "close_modal_accessibility_label": "Затвори модалния прозорец за номер на поръчка",
+        "discard": "Отказване",
+        "discard_changes_modal_title": "Отказ от промените?",
+        "edit_accessibility_label": "Редактиране на номер на поръчка",
+        "edit_modal_title": "Редактиране на номер на поръчка",
+        "empty_state": "Няма номер на поръчка",
+        "modal_po_number_input_label": "Номер на поръчка",
+        "modal_po_number_input_max_length_error": "Номерата за поръчка са с дължина до {{maxLength}} знака.",
+        "save": "Запази",
+        "title": "Номер на поръчка за покупка {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Възникна проблем при изтриването на този адрес. Опитайте отново или презаредете страницата."
+      },
+      "addresses_loading_issue": {
+        "description": "Грешка при връзката. Проверете интернет връзката си и опитайте отново."
+      },
+      "failed_address_creation": {
+        "description": "Възникна проблем при създаването на твоя адрес. Презареди тази страница или провери интернет връзката си."
+      },
+      "failed_address_update": {
+        "description": "Възникна проблем при актуализирането на адреса ти. Презареди тази страница или провери интернет връзката си."
       }
     }
   }
