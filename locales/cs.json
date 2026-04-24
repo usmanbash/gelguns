@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Zadejte heslo, abyste mohli vstoupit do obchodu:",
-      "login_password_button": "Vstoupit pomocí hesla",
+      "login_form_heading": "Vstupte do obchodu pomocí hesla:",
+      "login_password_button": "Vstupte s heslem",
       "login_form_password_label": "Heslo",
       "login_form_password_placeholder": "Vaše heslo",
-      "login_form_error": "Heslo není správné!",
+      "login_form_error": "Nesprávné heslo!",
       "login_form_submit": "Zadat",
       "admin_link_html": "Jste majitelem obchodu? <a href=\"/admin\" class=\"link underlined-link\">Přihlaste se zde</a>",
-      "powered_by_shopify_html": "Obchod bude využívat platformu {{ shopify }}"
+      "powered_by_shopify_html": "Tento obchod je poháněn {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Sdílet na Facebooku",
-        "share_on_twitter": "Sdílení přes X",
-        "share_on_pinterest": "Připnout na Pinterestu"
+        "share_on_twitter": "Sdílet na X",
+        "share_on_pinterest": "Připnout na Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (dříve Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,26 +37,26 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Pokračovat v nákupu",
+    "continue_shopping": "Návrat do obchodu",
     "pagination": {
-      "label": "Stránkování",
-      "page": "Strana {{ number }}",
+      "label": "Číslování stránek",
+      "page": "Stránka {{ number }}",
       "next": "Další stránka",
       "previous": "Předchozí stránka"
     },
     "search": {
-      "search": "Hledání",
-      "reset": "Vymazat hledaný termín"
+      "search": "Hledat",
+      "reset": "Vymazat hledaný výraz"
     },
     "cart": {
       "view": "Zobrazit košík ({{ count }})",
-      "item_added": "Položka byla přidána do košíku",
-      "view_empty_cart": "Zobrazit košík"
+      "item_added": "Položka přidána do nákupního košíku",
+      "view_empty_cart": "Zobrazit nákupní košík"
     },
     "share": {
       "copy_to_clipboard": "Kopírovat odkaz",
       "share_url": "Odkaz",
-      "success_message": "Odkaz byl zkopírován do schránky",
+      "success_message": "Odkaz zkopírován do schránky",
       "close": "Zavřít okno pro sdílení"
     },
     "slider": {
@@ -4480,6 +4480,65 @@
         "select_new_payment_method": "Vyberte novou platební metodu",
         "use_new_payment_method": "+ Použijte novou platební metodu"
       }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Více způsobů přihlášení",
+        "alternate_divider": "Z OF",
+        "shop_login_button": "Přihlásit se pomocí Shopu",
+        "continue_with_google": "Pokračovat s Googlem",
+        "use_email_button": "Použít e-mailovou adresu"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Ahoj {{first_name}},"
+      },
+      "location_picker": {
+        "sheet_title": "Místa",
+        "search_field_placeholder": "Hledat"
+      },
+      "aria_labels": {
+        "back_to_main_menu": "Zpět do hlavního menu z {{title}}",
+        "open_submenu": "{{title}}, otevřít podnabídku",
+        "loading_menu": "Nahrávání menu"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Způsob platby změnit",
+        "replace_with": "Nahrazeno",
+        "add_new_payment_method": "Přidat nové",
+        "loading": "Modální okno pro změnu platební metody se načítá",
+        "success": "Platební metoda aktualizována",
+        "invalid_subscription_contract": "Nelze najít předplatné",
+        "expiry_date": "Vyprší {{expiryDate}}",
+        "edit_current_payment_method": "Upravit aktuální způsob platby",
+        "edit_selected_payment_method": "Upravit vybraný způsob platby"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "logo %{shop_name}",
+      "step_one": {
+        "page_title": "Přihlásit se - %{shop_name}",
+        "heading": "Přihlásit se",
+        "subheading": "Zadejte svou e-mailovou adresu a my vám pošleme ověřovací kód",
+        "input_field_label": "E-mailová adresa",
+        "subheading_with_sign_in_options": "Přihlásit se nebo vytvořit účet",
+        "or": "z",
+        "consent_agreement": "Pokračováním souhlasíte s %{terms}"
+      },
+      "step_two": {
+        "page_title": "Zadat kód - %{shop_name}",
+        "heading": "Zadat kód",
+        "subheading": "Odesláno na %{email}",
+        "restart_link": "Přihlásit se s jinou e-mailovou adresou",
+        "input_field_label": "Kód o 6 číslicích"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Zadejte správný šestimístný kód"
+        }
+      },
+      "processing": "Zpracovává se..."
     }
   }
 }
