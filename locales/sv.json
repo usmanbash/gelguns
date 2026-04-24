@@ -2066,6 +2066,88 @@
         "block_title": "Kontrollera dina uppgifter",
         "item_header": {
           "section": "Avdelning"
+        },
+        "review_and_confirm_title": "Kontrollera och bekräfta",
+        "account_more_actions": "Fler åtgärder för detta konto"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Skicka mig ett e-postmeddelande med nyheter och erbjudanden",
+        "unsubscribe": {
+          "title": "Du har loggat ut",
+          "description": "Du kommer inte längre att få påminnelser om varukorgen från oss."
+        },
+        "accept_sms_checkbox_label": "Skicka ett sms till mig med nyheter och erbjudanden",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Servicevillkor",
+            "description_html": "Genom att anmäla dig via sms samtycker du till att ta emot automatiserade marknadsföringsmeddelanden, inklusive påminnelser om varukorgen, på det angivna telefonnumret. Samtycke är inte ett köpkrav. Svara STOPP för att avregistrera dig. Svara HJÄLP för hjälp. Meddelandefrekvensen varierar. Meddelande- och datakostnader kan tillkomma. Läs vår %{privacy_policy_link} och våra %{terms_of_service_link}.",
+            "description_transactional_html": "Du kan få sms-meddelanden om bekräftelser av beställningar och uppdateringar om leveranser. Svara STOPP för att avregistrera dig. Svara HJÄLP för hjälp. Meddelandefrekvensen varierar. Meddelande- och datakostnader kan tillkomma. Läs vår %{privacy_policy_modal_link} och våra %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobiltelefonnummer",
+          "get_offers_by_text": "Få erbjudanden via sms"
+        },
+        "post_accept_marketing_checkbox_label": "Du är anmäld för att ta emot e-post med nyheter och erbjudanden",
+        "pending_accept_marketing_checkbox_label": "Titta i din e-post för att bekräfta din anmälan till nyheter och erbjudanden",
+        "accept_shop_pay_marketing_checkbox_label": "Anmäl mig till nyheter och erbjudanden från denna butik",
+        "disclaimer": {
+          "terms_of_service": "Servicevillkor"
+        }
+      },
+      "shop_policies": {
+        "terms_of_service": "Allmänna villkor",
+        "legal_notice": "Lagstadgad information",
+        "subscription_policy": "Avbokningen",
+        "purchase_options_policy": "Köpalternativspolicy",
+        "contact_information": "Kontakt",
+        "purchase_options_cancellation_policy": "Avbokningen",
+        "policies_label": "Policy",
+        "terms_and_policies": "Villkor och policy"
+      },
+      "notifications": {
+        "title": "Meddelandet"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Belopp att betala för beställning %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Tillagt",
+            "other": "%{count} tillagt"
+          },
+          "subtracted": "%{count} borttaget",
+          "returned": "%{count} returnerade",
+          "return_line_item_removed": "%{count} borttaget från retur"
+        },
+        "additional_payment_requested": "Betalning av %{total_outstanding} krävs",
+        "checkout_review_and_pay": "Din beställning %{order_name} har uppdaterats. Granska dessa ändringar och betala sedan för att bekräfta din beställning.",
+        "order_updated_on": "Din beställning uppdaterades %{last_edited_at}.",
+        "order_review_and_pay": "Din beställning har uppdaterats. Kontrollera och betala för att bekräfta din beställning."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Ditt kreditkort debiteras %{amount}",
+        "payment_total_label": "Totala betalningar",
+        "change_currency_link": "Ändra i %{currency_name}",
+        "card_provider_fx_charges_warning": "Din kortutgivare kan ta ut avgifter för %{currency_code}-transaktioner.",
+        "currency_not_supported_by_shop": "Den valuta du valde är inte längre tillgänglig. Alla priser är nu i %{currency_code}."
+      },
+      "tips": {
+        "description": "Visa att du stödjer teamet på %{shop_name}",
+        "presets_description": "Välj dricksprocent",
+        "custom_label": "Anpassad dricks",
+        "message": "Tack, vi uppskattar det verkligen.",
+        "no_tip_label": "Grön",
+        "not_available_with_spi": "Inte tillgängligt med Shop Pay delbetalningar"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "köpa %{product_name}",
+          "one": "Köp %{product_name} och ytterligare %{count} artikel(er)",
+          "other": "Köp %{product_name} och ytterligare %{count} artiklar"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_cn": "ID-nummer för invånare",
+          "tax_credential_it": "Personnummer (valfritt)"
         }
       }
     }
