@@ -3606,7 +3606,75 @@
       "cash_rounding": "Arredondar dinheiro em numerário",
       "adjusted_payment": "Pagamento personalizado",
       "login_card": {
-        "resend_link_and_login": "Podes consultar os teus dados de encomenda ao iniciares sessão ou ao enviares um novo link para o endereço de correio eletrónico ou número de telefone utilizado na finalização da compra."
+        "resend_link_and_login": "Podes consultar os teus dados de encomenda ao iniciares sessão ou ao enviares um novo link para o endereço de correio eletrónico ou número de telefone utilizado na finalização da compra.",
+        "resend_link_only": "Podes consultar os teus dados de encomenda enviando um novo link para o endereço de correio eletrónico ou número de telefone que usaste na finalização da compra.",
+        "resend_link": "Enviar novo link",
+        "title": "Ver detalhes da encomenda"
+      },
+      "due_on_date": "Devido em {{date}}",
+      "due_on_fulfillment": "A pagar na expedição",
+      "due_on_receipt": "A pagar na entrega",
+      "payment_confirmation": {
+        "dismiss_label": "Fechar confirmação de pagamento",
+        "payment_authorized": "Obrigado! O saldo será atualizado assim que o pagamento for recebido."
+      },
+      "subtotal_label_with_quantity": {
+        "other": "Subtotal · {{count}} artigos"
+      },
+      "total_savings": "Poupança total",
+      "discount_order_stacking": {
+        "other": "Descontos por encomenda"
+      }
+    },
+    "addresses": {
+      "add_button": "Adicionar morada",
+      "address_deleted_notification": "Endereço removido",
+      "cancel_adding_address_accessibility_label": "Adicionar morada cancelar",
+      "cancel_deletion_button_accessibility_label": "remover {{address}} cancelar",
+      "default_address": {
+        "title": "Endereço padrão",
+        "title_accessibility_label": "Endereço padrão: {{address}}"
+      },
+      "delete_button": "Remover",
+      "delete_button_accessibility_label": "remover {{address}}",
+      "delete_confirmation_button": "Remover endereço",
+      "delete_confirmation_button_accessibility_label": "remover {{address}}",
+      "delete_confirmation_message": "Remover endereço? Isto não terá impacto nas encomendas existentes.",
+      "edit_button_accessibility_label": "editar {{address}}",
+      "edit_section_accessibility_label": "editar {{address}}",
+      "loading_accessibility_message": "Carregar endereço",
+      "loading_addresses_accessibility_message": "Carregar endereços",
+      "loading_billing_accessibility_message": "Carregar endereços de faturação",
+      "loading_finished_accessibility_message": "Nova página com endereços foi carregada",
+      "loading_shipping_accessibility_message": "Carregar endereço de entrega",
+      "delete_confirmation_title": "Remover endereço?",
+      "delete_confirmation_description": "Isto não tem impacto nas encomendas existentes.",
+      "edit_modal_title": {
+        "billing": "Editar morada de faturação",
+        "shipping": "Editar morada de entrega"
+      },
+      "add_address_banner": "Adicione endereços para usar no pagamento",
+      "billing_address_dropdown_placeholder": "Morada de faturação",
+      "add_button_accessibility_label": "Adicionar morada"
+    },
+    "address_form": {
+      "billing_address": "Usar como morada de faturação",
+      "cancel_accessibility_label": "Cancelar a edição do endereço {{address}}",
+      "default_address": "Este é o meu endereço padrão",
+      "default_address_creation_success_notification": "Endereço padrão adicionado",
+      "default_address_update_success_notification": "Endereço padrão atualizado",
+      "loading_add_form_accessibility_message": "Carregar formulário de novo endereço",
+      "loading_edit_form_accessibility_message": "Carregar formulário para editar endereço",
+      "loading_finished_accessibility_message": "Formulário de endereço carregado",
+      "section_title_accessibility_label": "Adicionar morada",
+      "attention": "Relativamente a.",
+      "attention_help_text": "O nome da pessoa ou do departamento",
+      "loading_form_accessibility_message": "Carregar formulário de endereço",
+      "attention_company": "Empresa/a.c."
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "Endereço de correio eletrónico"
       }
     }
   }
