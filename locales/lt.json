@@ -1012,7 +1012,65 @@
         "tip_label": "Arbatpinigiai",
         "shipping_default_value": "Apskaičiuota kito žingsnio metu",
         "shipping_pending_message": "Dar neprieinama",
-        "shipping_policy_link": "Pristatymo išlaidos"
+        "shipping_policy_link": "Pristatymo išlaidos",
+        "taxes_label": "beje",
+        "total_label": "Iš viso",
+        "partial_total_label": "Iš viso",
+        "payment_due_label": "Suma, kurią reikia sumokėti",
+        "vat_label_html": "Įskaitant %{amount} PVM",
+        "discount_and_gift_card_savings_notice": "Na %{discount_amount} nuolaida ir %{gift_card_amount} dovanų kupono vertė",
+        "discount_savings_notice": "Gauk %{discount_amount} nuolaidą",
+        "gift_card_savings_notice": "Na %{gift_card_amount} dovanų kortelės vertės",
+        "cost_table_title": "Išlaidų apžvalga",
+        "description_label": "Aprašymas",
+        "product_change_label": "Keisti",
+        "product_image_label": "Produkto vaizdas",
+        "scroll_order_summary": "Slinkite žemyn, kad pamatytumėte daugiau prekių",
+        "total_updated_label": "Atnaujinta bendra kaina:",
+        "order_total_updated_label": "Atnaujinta suma",
+        "total_already_paid_label": "apmokėta",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} už vienetą",
+            "one": "%{price} už %{count} straipsnį",
+            "other": "%{price} už %{count} prekes"
+          }
+        },
+        "pickup_label": "Atsiimti parduotuvėje",
+        "estimated_taxes_label": "Apskaičiuotas mokestis",
+        "information_estimated_taxes_label": "Mokesčiai (apskaičiuota)",
+        "gift_card_ending": "Dovanų kortelė, kurios pabaiga %{last_characters}",
+        "estimated_tax_label": "Apskaičiuotas mokestis",
+        "multiple_shipping_lines_label": "Bendros siuntimo išlaidos",
+        "applied_free_shipping_discount_label": "Taikoma",
+        "sale_price": "Pasiūlymo kaina",
+        "recurring_subtotal_label": "Grįžtantis tarpinis suma",
+        "recurring_total_label": "Grįžtantis bendras suma",
+        "recurring_total_tooltip": "Išskyrus siuntimą, PVM, muito mokesčius ar galimas nuolaidas.",
+        "gift_card_subscriptions_notice": "Dovanų kuponai taikomi tik pirmajam mokėjimui",
+        "confirmation_number_label": "Patvirtinimo numeris %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Bendra mokesčių suma bus patvirtinta el. paštu arba SMS žinute po to, kai pateiksite savo užsakymą.",
+        "deferred_payment_info": {
+          "title": "Mokėjimas %{amount_due} turi būti atliktas iki %{due_at}",
+          "description_html": "%{contact_us} dėl klausimų apie jūsų užsakymą.",
+          "due_on_fulfillment_title": "Mokėjimas %{amount_due} yra privalomas įvykdžius užsakymą.",
+          "due_on_receipt_title": "%{amount_due} turi būti sumokėta gavus prekę",
+          "paid_today_next": "Šiandien apmokėta"
+        },
+        "percent_off_shipping": "%{percent}% nuolaida siuntimui",
+        "payment_terms_totals": {
+          "due_today": "Iš viso šiandien mokėtina suma",
+          "due_later": "Iš viso mokėtina %{due_at}",
+          "due_later_checkout_to_draft": "Iš viso vėliau sumokėtina suma",
+          "due_on_fulfillment": "Iš viso mokėtina už įvykdymą",
+          "due_on_receipt": "Iš viso mokėtina gavus",
+          "due_today_next": "Šiandien mokėtina",
+          "due_on_fulfillment_next": "Mokėti vykdant užsakymą"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> negali būti naudojamas kartu su jūsų esamomis nuolaidomis.",
+        "maximum_discount_code_limit_reached": "Jūs pasiekėte maksimalų nuolaidų kodų skaičių. Ištrinkite esamą kodą, kad galėtumėte naudoti <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Bendra užsakymo suma",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> šiuo metu neveikia. Susisiekite su mumis, jei reikia pagalbos."
       }
     }
   }
