@@ -2889,7 +2889,93 @@
       "shop_pay_external": {
         "errors": {
           "problem_loading": "Hiba történt a Shop Pay betöltése közben",
-          "try_again_later": "Ellenőrizd a kapcsolatodat, vagy zárd be ezt az ablakot, és próbáld meg néhány pillanat múlva újra."
+          "try_again_later": "Ellenőrizd a kapcsolatodat, vagy zárd be ezt az ablakot, és próbáld meg néhány pillanat múlva újra.",
+          "checkout_has_expired": "A fizetési folyamat lejárt. Zárja be ezt az ablakot, és próbálja meg újra a fizetést a {{shopName}} oldalán."
+        },
+        "return_to_store": "Vissza a {{shopName}} oldalra",
+        "return_to_store_simple": "Vissza a boltba"
+      },
+      "company_location": {
+        "location_title": "Vállalati telephely",
+        "location_rollup_accessibility_label": "Vállalati telephely választási lehetőségek"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Az ajándékutalvány ára nagyobbnak kell lennie nullánál.",
+            "subtotal_limit_reached": "Elértük a rendelési tételek maximális értékét.",
+            "gift_card_price_must_not_exceed_limit": "A ajándékkártya ára nem lehet magasabb, mint %{gift_card_limit}.",
+            "signature_mismatch": "Hibás aláírású áruk a %{stable_id} szabályhoz."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nem másolták le"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Fejezd be a vásárlást a {{paymentMethod}}-kódoddal",
+        "timer_message": "Még {{timeLeft}} van hátra a fizetésre",
+        "header": "Fizessen {{paymentMethod}} segítségével",
+        "qr_code": {
+          "instructions": "Fejezd be a vásárlást a {{paymentMethod}}-kódoddal"
+        },
+        "external": {
+          "instructions": "Erősítsd meg a fizetést az alkalmazásodban a vásárlás befejezéséhez"
+        },
+        "close": "Zárd le a kihívást",
+        "open_app_text": "Nyisd meg a {{paymentMethod}} alkalmazást"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Probléma történt a rendelés feldolgozása közben. Kérjük, próbáld meg néhány perc múlva újra."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "A %{position} %{name} árucikkutasítása üres stable-ID-t tartalmaz.",
+        "invalid_stable_id_target": "A %{position} %{name} árucímke a %{stable_id} stable-ID-re hivatkozik, de ez a stable-ID nem található meg az árucikkek között.",
+        "duplicate_variant_id": "A %{position} %{name} termékinstrukció kettős %{variant_id} variánsazonosítót tartalmaz.",
+        "invalid_variant_id_target": "A %{name} árucikkutasítás a %{variant_id} variánsazonosítóra hivatkozik, de ez a variáns nem található meg az árucikk-sorok között.",
+        "invalid_price_override_target": "Az ár felülírására vonatkozó utasítás a %{stable_id} rendelési tételhez érvénytelen, mert az egy csomag összetevője.",
+        "discount_not_supported": "Az eladók számára készült útmutató az árengedmény alkalmazásához nem támogatja az ilyen típusú kedvezményt."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ez a termék nem szállítható %{location_name} címre.",
+          "some_products_other": "Ezek a termékek nem szállíthatók %{location_name} címre.",
+          "all_products_one": "A kosaradban lévő termék nem szállítható %{location_name} címre.",
+          "all_products_other": "A kosaradban lévő termékek nem szállíthatók %{location_name} címre."
+        },
+        "missing_country_fallback": "az országod",
+        "indeterminate_location_fallback": "a te helyed",
+        "cart_updated": "A kosarad frissítve lett.",
+        "change_address_only": "Módosítsa a kézbesítési címet a folytatáshoz.",
+        "change_address_or_remove": "Módosítsa a szállítási címet vagy %{remove_action}.",
+        "empty_cart_action": "ürítse ki a bevásárlókosarat, és térjen vissza a boltba",
+        "remove_items_action": {
+          "one": "távolítsa el a nem elérhető tételt",
+          "other": "távolítsa el a nem elérhető tételeket"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Már nem jogosult B2B megrendelések leadására. %{logout_url} egy személyes rendelés leadásához.",
+        "lost_permissions_subtitle": "Már nem jogosult B2B megrendelések leadására. Jelentkezzen ki, hogy személyes megrendelést adhasson le.",
+        "lost_permissions_title": "Nincsenek helyszíni engedélyek"
+      },
+      "units": {
+        "ounce": "óz",
+        "pound": "font",
+        "fluid_ounce": "fl uncia",
+        "gallon": "galéria",
+        "inch": "ban",
+        "foot": "Ft",
+        "square_foot": "négyzetláb",
+        "item": "cikk"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Ez a cím nem támogatott a jelenlegi tagsághoz.",
+        "items_split_across_locations_unsupported": "A Prime-szállítás nem elérhető a rendelésedhez. A szállítási lehetőségeid frissültek."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Áruház böngészése"
         }
       }
     }
