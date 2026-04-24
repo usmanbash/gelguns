@@ -3284,7 +3284,87 @@
     "store_availability": {
       "pick_up_time": {
         "two_to_four_days": "Zvyčajne pripravené do 2-4 dní",
-        "five_or_more_days": "Zvyčajne pripravené za viac ako 5 dní"
+        "five_or_more_days": "Zvyčajne pripravené za viac ako 5 dní",
+        "immediately": "Pripravené na vyzdvihnutie teraz"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Nedostupné na sklade"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevantnosť",
+        "price_ascending": "Cena: od najnižšej po najvyššiu",
+        "price_descending": "Cena: od najvyššej po najnižšiu"
+      },
+      "error": "Vyskytol sa problém pri načítavaní výsledkov vyhľadávania. Obnovte stránku alebo to skúste neskôr znova."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Tento tovar je opakovaný alebo odložený nákup. Ak pokračujem, súhlasím s %{cancellationPolicyLink} a zároveň dávam súhlas na stiahnutie uvedených cien z mojej platobnej metódy v uvedenej frekvencii a dátumoch, až kým nebude moja objednávka vybavená alebo kým ju, ak je to povolené, nezruším.",
+      "buyer_consent_cart": "Jeden alebo viac produktov vo vašom nákupnom košíku sú odložené alebo opakujúce sa nákupy. Ak pokračujem, súhlasím s %{cancellationPolicyLink} a zároveň dávam povolenie na stiahnutie uvedených cien z mojej platobnej metódy v uvedenej frekvencii a dátumoch, až kým nebude moja objednávka vybavená alebo kým, ak je to povolené, nezruším predplatné.",
+      "cancellation_policy": "politika zrušenia"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Skryť ponuku účtu",
+        "show_accessibility_label": "Zobraziť ponuku účtu",
+        "nav_accessibility_label": "Navigácia účtu",
+        "open_menu_accessibility_label": "Otvoriť navigáciu účtu",
+        "close_menu_accessibility_label": "Zatvoriť navigáciu účtu",
+        "loading_message": "Načítavanie navigácie účtu"
+      },
+      "action_menu_accessibility_label": "Viac akcií",
+      "contact_email_subject": "Kontaktná osoba internetového obchodu {{shopName}}",
+      "dismiss_toast": "Zavrieť",
+      "document_title": "{{sectionName}} - {{shopName}} - účet",
+      "loading_message": "Naložené",
+      "logout_overlay_label": "Odhlásiť sa...",
+      "navigation_accessibility_message": "Prešli ste do {{sectionName}}",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "country_switcher_toast_message": "Krajina prepnutá na {{countryName}}",
+      "search": "Hľadať",
+      "location_switcher_toast_message": "Miesto zmenené na {{locationName}}",
+      "view_details": "Zobraziť údaje",
+      "company_location": "Miesto podnikania",
+      "no_countries_found": "Nenašli sa žiadne krajiny",
+      "no_locations_found": "Nenašli sa žiadne lokality",
+      "try_new_search": "Vyskúšajte nové vyhľadávanie",
+      "skip_to_content": "Ihneď na obsah",
+      "loading_policy_content_accessibility_label": "Chyba pri načítavaní obsahu",
+      "policy_load_error": "Kan {{policyName}} načítať",
+      "loading_section_accessibility_label": "{{sectionName}} laden"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Načítavam údaje účtu",
+      "loading_finished_accessibility_message": "Údaje o účte boli načítané",
+      "profile_card": {
+        "cancel_accessibility_label": "Upraviť profil zrušiť",
+        "email_help_text": "E-mailovú adresu nie je možné upraviť",
+        "no_name_provided_accessibility_label": "Nebol pridaný žiadny názov",
+        "errors": {
+          "name_too_long": "{{fieldName}} je príliš dlhý (maximálne 255 znakov)",
+          "name_cannot_contain_url": "{{fieldName}} nesmie obsahovať URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} nesmie obsahovať HTML značky",
+          "email_cant_be_blank": "E-mail nesmie byť prázdny",
+          "invalid_email_format": "Zadajte platnú e-mailovú adresu"
+        },
+        "editable_email_help_text": "Táto e-mailová adresa sa používa na registráciu a aktualizácie objednávok."
+      },
+      "profile_update_confirmation_message": "Profil aktualizovaný",
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Viac ľudí sa načítava",
+          "loading_accessibility_label": "Načítavanie ľudí"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Overiť e-mail"
       }
     }
   }
