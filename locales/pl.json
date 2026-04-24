@@ -3471,7 +3471,85 @@
           "other": "Każdy bon podarunkowy jest wysyłany w osobnym sms-ie."
         },
         "gift_resend_success": {
-          "one": "Bon podarunkowy wysłany ponownie"
+          "one": "Bon podarunkowy wysłany ponownie",
+          "other": "Bony podarunkowe ponownie wysłane"
+        },
+        "gift_resend_failure": {
+          "one": "Wystąpił problem podczas ponownego wysyłania twojego bonu podarunkowego. Spróbuj ponownie lub skontaktuj się z nami.",
+          "other": "Wystąpił problem podczas ponownego wysyłania twoich bonów podarunkowych. Spróbuj ponownie lub skontaktuj się z nami."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Zarządzaj za pomocą Amazon",
+            "new_window_disclaimer": "(otwiera się w nowym oknie)"
+          }
+        },
+        "attempted_to_deliver_label": "Próba doręczenia",
+        "buy_with_prime_logo_accessibility_label": "Logo Amazon Kup z Prime",
+        "delivered": "Dostarczone {{date}}",
+        "complete_label": "Zakończono",
+        "multiple_statuses_label": "Wiele statusów zamówienia",
+        "status_timestamp": "Zaktualizowano {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Dostawa wspierana przez",
+            "not_delivered_by_label": "Nie ubezpieczone do {{date}}",
+            "modal_accessibility_button_label": "Obietnica dostawy danych"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Zgłoś swój Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} aby odebrać Shop Cash",
+            "download_shop_app_label": "Pobierz sklep"
+          },
+          "details_modal": {
+            "title": "Dostawa wspierana przez",
+            "modal_accessiblity_label": "Dane dotyczące obietnicy dostawy",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise gwarantuje szybką, niezawodną dostawę. Odbierz Shop Cash, jeśli Twoje zamówienie zostanie dostarczone z opóźnieniem.",
+              "may_be_eligible_not_authorized_label": "Możesz kwalifikować się do otrzymania zwrotu pieniędzy za zakupy, ponieważ to zamówienie dotarło z opóźnieniem. Zaloguj się, aby zobaczyć szczegóły.",
+              "redeemed_label": "Otrzymałeś już zwrot gotówki za zakupy, ponieważ to zamówienie dotarło z opóźnieniem.",
+              "expired_label": "To zamówienie nie kwalifikuje się do reklamacji z powodu opóźnionej dostawy, ponieważ gwarancja 30-dniowa wygasła.",
+              "no_shop_cash_label": "To zamówienie nie kwalifikuje się do reklamacji z powodu opóźnionej dostawy, ponieważ nie zostało opłacone za pomocą Shop Pay.",
+              "no_longer_guaranteed_label": "Te artykuły nie są już objęte gwarancją dostawy.",
+              "claim_shop_cash_title": "Skanuj, aby odebrać {{amount}} Shop Cash",
+              "claim_shop_cash_description": "Możesz użyć Shop Cash przy przyszłych zakupach w aplikacji Sklep."
+            }
+          }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Zarządzaj na Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Dostarczyć dla",
+            "not_delivered_by_label": "Zaniepokojony po {{date}}",
+            "delivery_guarantee_expired_label": "Gwarantowana dostawa wygasła",
+            "modal_accessibility_button_label": "Dane dotyczące obietnicy dostawy",
+            "download_shop_app_button_label": "Pobierz sklep do śledzenia",
+            "track_with_shop_button_label": "Śledź z Sklepem",
+            "claim_shop_cash_button_label": "Odbierz zwrot gotówki ze sklepu"
+          },
+          "details_modal": {
+            "expired_delivery_guarantee_description": "Gwarancja De Shop Promise na 30 dni dla tego zamówienia wygasła.",
+            "expired_badge_label": "Wygasło",
+            "order_includes_guarantees_label": "Twoja dostawa ma {{deliveryAgreementsCount}} gwarancji",
+            "order_includes_guarantees_description": "Shop Promise oferuje gwarancję szybkiej i niezawodnej dostawy. Odbierz Shop Cash, jeśli Twoje zamówienie zostanie dostarczone po {{date}}.",
+            "delivered_after_label": "Zaniepokojony po {{date}}",
+            "delivered_after_description": "Twoje zamówienie dotarło z opóźnieniem, więc możesz zgłosić roszczenie o {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "To zamówienie zostało dostarczone z opóźnieniem, więc otrzymałeś {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Twoje zamówienie dotarło z opóźnieniem, więc możesz zgłosić roszczenie o {{amount}} Shop Cash.",
+            "learn_more_button_label": "Więcej informacji",
+            "claim_shop_cash_button_label": "Odbierz zwrot gotówki ze sklepu",
+            "view_balance_in_shop_button_label": "Zobacz saldo w sklepie",
+            "scan_to_claim_shop_cash_label": "Skanuj, aby odebrać {{amount}} Shop Cash"
+          }
+        },
+        "tracking_number": {
+          "one": "Numer przesyłki"
+        },
+        "gift_card_resend_button": {
+          "one": "Ponowne wysłanie bonu podarunkowego",
+          "other": "Ponowne wysłanie bonów podarunkowych"
         }
       }
     }
