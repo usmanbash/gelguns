@@ -734,7 +734,75 @@
             "token_missing": "Finalizează această plată introducând un cod captcha.",
             "job_enqueue_failed": "Sarcina de validare captcha nu poate fi pusă în așteptare."
           }
-        }
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} în {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} în {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} din {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} din {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster de {{number}} puncte de marcare",
+            "other": "Cluster de {{number}} puncte de marcare"
+          }
+        },
+        "sheet": {
+          "expand": "Desfășurare"
+        },
+        "confirm_order_button_label": "Confirmare comandă",
+        "dropzone": {
+          "add_file": "Adăugare fișier",
+          "invalid_file_type": "Acest tip de fișier nu este acceptat",
+          "dragged_over": "Așezați fișierul pentru a-l încărca"
+        },
+        "remove_chip": "Șterge articolul"
+      },
+      "contact": {
+        "title": "Informație",
+        "contact_method_title": "Contactează-ne",
+        "email_or_phone_label": "Adresă de e‑mail sau număr de telefon mobil",
+        "email_or_phone_placeholder": "Adresă de e‑mail sau număr de telefon mobil",
+        "company_label": "Întreprindere",
+        "address2_label": "Nr. cutie poștală, ș.a.m.d.",
+        "optional_address2_label": "Număr poștal, ș.a.m.d. (opțional)",
+        "city_label": "Stadion",
+        "country_label": "Țară/regiune",
+        "country_code": "Cod țară/regiune",
+        "county_label": "Provincie",
+        "county_placeholder": "Provincie",
+        "governorate_label": "Guvern",
+        "governorate_placeholder": "Guvern",
+        "state_and_territory_label": "Stat/Teritoriu",
+        "state_and_territory_placeholder": "Stat/Teritoriu",
+        "phone_tooltip": "În cazul în care trebuie să luăm legătura cu tine în legătură cu comanda ta",
+        "zip_code_label": "Cod poștal",
+        "zip_code_placeholder": "Cod poștal",
+        "pincode_label": "Cod poștal",
+        "pincode_placeholder": "Cod poștal",
+        "region_none": "Nimic selectat",
+        "different_shipping_address_label": "Trimiteți la o altă adresă",
+        "different_shipping_address_text": "Folosiți o singură adresă pentru această comandă",
+        "change_company_location_link_label": "Schimbare locație firmă",
+        "ship_to_company": "Expediere către {{companyName}}",
+        "shipping_used_as_billing_notice": "Folosim aceasta și ca adresă de facturare pentru această comandă.",
+        "company_attention_label": "Firmă/către atenția domnului/doamnei",
+        "optional_company_attention_label": "Companie/către atenția (opțional)",
+        "optional_zip_code_label": "Cod poștal (opțional)",
+        "email_rollup_accessibility_label": "Opțiuni e-mail",
+        "phone_rollup_accessibility_label": "Opțiuni telefon",
+        "phone_country_code_label": "Codul țării pentru numărul de telefon",
+        "storefront_link": "site-ul comerciantului",
+        "suburb_label": "Cartier exterior"
+      },
+      "delivery_options": {
+        "ship": "Trimitere",
+        "pick_up": "Ridicare",
+        "pick_up_in_two_hours": "De obicei gata în 2 ore"
       }
     }
   }
