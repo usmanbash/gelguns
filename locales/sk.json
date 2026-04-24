@@ -3802,7 +3802,69 @@
       "cancel_adding_address_accessibility_label": "Pridať adresu zrušiť",
       "cancel_deletion_button_accessibility_label": "{{address}} odstrániť zrušiť",
       "default_address": {
-        "title": "Štandardná adresa"
+        "title": "Štandardná adresa",
+        "title_accessibility_label": "Štandardná adresa: {{address}}"
+      },
+      "delete_button_accessibility_label": "odstrániť {{address}}",
+      "delete_confirmation_button_accessibility_label": "odstrániť {{address}}",
+      "delete_confirmation_message": "Odstrániť adresu? Toto nemá vplyv na existujúce objednávky.",
+      "edit_button_accessibility_label": "upraviť {{address}}",
+      "edit_section_accessibility_label": "upraviť {{address}}",
+      "loading_accessibility_message": "Adresa načítaná",
+      "loading_addresses_accessibility_message": "Načítať adresy",
+      "loading_billing_accessibility_message": "Načítať fakturačné adresy",
+      "loading_finished_accessibility_message": "Nová stránka s adresami bola načítaná",
+      "loading_shipping_accessibility_message": "Načítať doručovaciu adresu",
+      "pagination": {
+        "load_more": "Načítať viac",
+        "load_more_accessibility_label": "Načítať viac adries"
+      },
+      "delete_confirmation_title": "Odstrániť adresu?",
+      "delete_confirmation_description": "Toto nemá vplyv na existujúce objednávky.",
+      "edit_modal_title": {
+        "shipping": "Upraviť doručovaciu adresu"
+      },
+      "add_address_banner": "Pridajte adresy na použitie pri pokladni",
+      "back_button_accessibility_label": "Späť na úpravu adresy {{address}}",
+      "no_addresses_banner": "Žiadne adresy nepridané"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Zatvoriť návrhy",
+      "cancel_accessibility_label": "Zrušiť úpravu adresy {{address}}",
+      "creation_success_notification": "Adresa pridaná",
+      "default_address": "Toto je moja štandardná adresa",
+      "default_address_creation_success_notification": "Štandardná adresa pridaná",
+      "default_address_update_success_notification": "Štandardná adresa aktualizovaná",
+      "loading_add_form_accessibility_message": "Načítať formulár novú adresu",
+      "loading_edit_form_accessibility_message": "Načítať úpravu adresy formulára",
+      "loading_finished_accessibility_message": "Formulár adresa je načítaná",
+      "update_success_notification": "Adresa aktualizovaná",
+      "attention": "T.a.v.",
+      "attention_help_text": "Meno osoby alebo oddelenia",
+      "loading_form_accessibility_message": "Načítať adresu formulára",
+      "attention_company": "Spoločnosť/na pozornosť"
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "E-mailová adresa",
+        "contact_permissions": "Oprávnenia",
+        "net_payment_terms_description": "{{name}}: platby splatné do {{numberOfDays}} dní",
+        "permissions_label": "Tvoje oprávnenia",
+        "permissions_title": "Oprávnenia",
+        "section_title": "Poloha",
+        "shipping_address_required": "Pridajte doručovaciu adresu na túto lokalitu, aby ste mohli zadávať objednávky.",
+        "tax_exemptions": "Daňové oslobodenia",
+        "multiple_tax_exemptions": "Zvyšných {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "angličtina",
+        "tax_exemption_not_applicable": "n.e.u.",
+        "tax_exemptions_modal_button_accessibility_label": "Zobraziť všetky daňové oslobodenia",
+        "pagination": {
+          "load_more": "Načítať viac",
+          "load_more_accessibility_label": "Načítať viac lokalít"
+        },
+        "own_role_contact_name": "Ty",
+        "staff_and_permissions_title": "Zamestnanci a oprávnenia",
+        "location_picker_accessibility_label": "Názov lokality: {{locationName}}"
       }
     }
   }
