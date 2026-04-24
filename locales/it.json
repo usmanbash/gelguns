@@ -2269,6 +2269,88 @@
       "session_errors": {
         "session_not_unique": "Si è verificato un problema durante l'elaborazione del tuo ordine. Ricarica questa pagina per tornare al negozio.",
         "session_already_finished": "Questo ordine è già stato inviato. Puoi tornare al negozio per iniziare un nuovo ordine."
+      },
+      "pickup_point": {
+        "business_hours": "Orari di apertura",
+        "or": "di",
+        "search_button": "Cerca",
+        "selector_tab_map": "Carta",
+        "could_not_resolve_address": "Impossibile trovare l'indirizzo. Riprova oppure usa un altro indirizzo",
+        "no_pickup_points_near_you": "Nessun punto di ritiro trovato nelle vicinanze dell'indirizzo selezionato",
+        "no_pickup_points_near_location": "Nessun punto di ritiro trovato vicino alla tua posizione",
+        "paginator": {
+          "header": {
+            "one": "Mostra %{first} - %{last} di %{count} punti",
+            "other": "Mostra %{first} - %{last} di %{count} punti"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} di %{count} punti"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} di %{count} punti"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} punto di ritiro vicino alla tua posizione",
+          "other": "%{count} punti di ritiro vicino alla tua posizione"
+        },
+        "change": "Modifica posizione",
+        "waiting_on_pickup_point_location_notice": "Cerca punti di ritiro...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "La richiesta di geolocalizzazione non è supportata dal tuo browser. Riprova o utilizza un altro browser.",
+            "permission_not_allowed": "Consenti la condivisione della tua posizione.",
+            "permission_denied": "Impossibile recuperare la posizione. Riprova."
+          }
+        },
+        "open_twenty_four_hours": "Aperto 24 ore su 24, 7 giorni su 7"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Si è verificato un problema durante il pagamento",
+          "message": "Aggiorna questa pagina o riprova tra qualche minuto",
+          "action": {
+            "cta": "Ricarica pagina"
+          }
+        },
+        "embed_errors": {
+          "storefront_password_required": "Questo negozio è protetto da una password",
+          "customer_account_required": "È necessario un account cliente per completare il pagamento",
+          "cart_completed": "Questo pagamento è già stato completato",
+          "not_authorized": "La verifica del pagamento non è riuscita. Verifica le tue credenziali di accesso per l'app.",
+          "killswitch_enabled": "Il pagamento non è temporaneamente disponibile",
+          "policy_violation": "Impossibile completare il pagamento a causa delle restrizioni della configurazione delle norme",
+          "unrecoverable_failure": "Impossibile caricare il pagamento. Riprova."
+        }
+      },
+      "notice_banner": {
+        "subscription_changed": "Uno dei tuoi abbonamenti è stato modificato.",
+        "company_location_changed": "Il tuo carrello è stato aggiornato. Controlla il tuo ordine prima di inviarlo.",
+        "violations_title": "{{violation}} manca o non è valido",
+        "individual_violations_title": {
+          "DeliveryViolations": "Indirizzo di consegna",
+          "OtherViolations": "Dati dell'ordine",
+          "UnhandledViolations": "Dati dell'ordine"
+        },
+        "all_violations_content": "Clicca su {{emailLink}} per aggiornare questi dati e completare il tuo ordine:",
+        "all_violations_email_link": "posta elettronica",
+        "editable_shipping_address_violations_message_title": "Aggiungi queste informazioni per completare il tuo ordine:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} per aggiornare permanentemente l'indirizzo di questa sede.",
+        "editable_shipping_address_violations_email_link": "Contattaci",
+        "company_location_changed_product_removed": "Il tuo carrello è stato modificato perché alcuni prodotti non sono disponibili in questa zona. Controlla il tuo ordine prima di inviarlo.",
+        "shipping_address_incomplete_title": "L'indirizzo di consegna è incompleto",
+        "calculating_shipping": "La spedizione verrà calcolata. Riprova tra qualche secondo. Non sono stati addebitati costi.",
+        "calculating_taxes": "Le tasse sono ancora in fase di calcolo. Riprova tra qualche secondo. Non sono stati addebitati costi.",
+        "generic_processing_error": {
+          "title": "Si è verificato un problema durante l'elaborazione del tuo ordine",
+          "body": "Non sono stati addebitati costi. Riprova o usa un altro metodo di pagamento."
+        },
+        "contact_information": {
+          "title": "I dati di contatto non sono validi",
+          "header": "{{emailLink}} per aggiornare i tuoi dati",
+          "email_link": "Contattaci"
+        },
+        "payment_method_not_available_with_payment_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine ora rientra nelle condizioni {{paymentTerms}}."
       }
     }
   }
