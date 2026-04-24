@@ -1466,7 +1466,73 @@
           }
         },
         "expired_payment_method": "Den valda betalningsmetoden har gått ut",
-        "subscription_heading": "Prenumerationsavtal"
+        "subscription_heading": "Prenumerationsavtal",
+        "use_order_billing_address_label": "Använd faktureringsadress från beställningen",
+        "use_location_billing_address_label": "Använd faktureringsadress från platsen",
+        "use_location_shipping_address_label": "Använd leveransadress från platsen",
+        "purchase_options_agreement_label_wallets": "Om du fortsätter med betalningen godkänner du de framtida betalningar som anges på denna sida samt uppsägningsvillkoren.",
+        "gift_card_store_credit": {
+          "add_label": "Lägg till ett presentkort eller butikskredit",
+          "manage_label": "Hantera presentkort eller butikskredit"
+        },
+        "saved_credit_card_cvv_verification": "Ange säkerhetskoden på ditt kort för verifieringsändamål.",
+        "order_edit_banner_updated_order_label": "Uppdaterad beställning",
+        "afterpay_label": "Betala senare",
+        "cashapppay_label": "Cash App Betala",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} borttagen från retur"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} borttaget från retur",
+        "proposed_gateway_unavailable": "Den föreslagna betalningsportalen är inte tillgänglig",
+        "payment_method_not_available_for_shipping_address_error": "Betalningsmetod inte tillgänglig för vald leveransadress. Välj en annan betalningsmetod.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero är inte tillgängligt för denna beställning. Välj en annan betalningsmetod.",
+        "paypal_disconnect": "Frikoppla",
+        "paypal_wallet_label": "PayPal-plånbok",
+        "payment_method_update_failed": "Uppdatering av betalningsmetod misslyckades.",
+        "alternative_payment_currency_total_manual_payment_notice": "Observera: Konverterat totalt är %{amount_due}.",
+        "gift_cards_unavailable": "Ditt presentkort kan inte längre användas för denna beställning och har därför tagits bort",
+        "network_card_payment_options": "Välja ett kreditkortsbolag",
+        "payment_flexibility_terms_id_mismatch": "ID villkor för betalningsflexibilitet stämmer inte överens",
+        "offsite_gateway_review_page_redirect_hint": "När du har kontrollerat beställningen omdirigeras du till %{gateway_label} för att slutföra ditt köp.",
+        "gift_card_checkbox_label": "Använd presentkortet",
+        "blik_label": "Blänk",
+        "grabpay_label": "FåBetalning",
+        "kcp_creditcard_label": "KCP-kreditkort",
+        "simulated_express_checkout": "Digitala plånböcker är inte tillgängliga i redigerarens exempel på grund av din region eller webbläsare",
+        "offsite_gateway_redirect_hint_no_button_label": "Du omdirigeras till %{gateway_label} för att slutföra ditt köp.",
+        "payment_method_incompatible_with_payment_terms": "Betalningsmetod är oförenlig med betalningsvillkoren.",
+        "payment_option": {
+          "accessibility_label": "Välj ett betalningssätt"
+        },
+        "billing_address_rollup_accessibility_label": "Alternativ för fakturaadress",
+        "payment_method_rollup_accessibility_label": "Betalningsmetoder",
+        "crypto_modal": {
+          "error": {
+            "refresh": "Förnya",
+            "close": "stäng",
+            "sandbox_error": "Något gick fel",
+            "web_component_error": "Det uppstod ett problem när sidan skulle laddas"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Betalkonto"
+        },
+        "bank_account_choose": "Välj ett konto för att slutföra ditt köp säkert",
+        "bank_account_connect_another": "Koppla ett annat bankkonto",
+        "bank_account_connect": "Koppla bankkonto",
+        "crypto_payment_method": {
+          "description": "Koppla din plånbok säkert. Ditt saldo och din adress delas inte.",
+          "tooltip": "Saldit på din plånbok och din adress delas inte, och endast det begärda beloppet kan dras.",
+          "cashback_descriptor": {
+            "one": "Du får din cashback efter %{count} dagar"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% återbetalning",
+        "usdc_cashback_additional_info": "Betala med USDC på Base och få %{incentive_percentage}% tillbaka inom 30 dagar i din digitala plånbok.",
+        "separate_payments_label": "Dina varor kommer från mer än en butik. Du måste betala med %{separate_payments_link}.",
+        "separate_payments_text": "enskilda betalningar",
+        "payments": "Betalningen",
+        "business_customer_with_bank_account_vaulting_payment_label": "Spara denna betalningsmetod vid kassan och ge %{company} tillåtelse att debitera ditt konto för framtida köp som du godkänner för denna plats, tills du avbryter. Alla kontaktpersoner som är kopplade till denna plats får använda betalningsmetoden."
       }
     }
   }

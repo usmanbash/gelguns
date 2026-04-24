@@ -3609,7 +3609,77 @@
         "subscription": "Expediere prin abonament"
       },
       "subtitle": "Confirmat: {{date}}",
-      "summary_list_title_accessibility_label": "Comandă articole"
+      "summary_list_title_accessibility_label": "Comandă articole",
+      "summary_title": "Rezumatul comenzii",
+      "summary_totals_title_accessibility_label": "Comandă totală",
+      "taxes": "Impozite",
+      "title": "Comandă {{name}}",
+      "unit_price": "{{price}}/buc",
+      "not_applicable": "n.a.",
+      "fully_refunded_label": "RĂSPUNS",
+      "partially_refunded_label": "PLĂTIT PARȚIAL ÎNAPOI",
+      "refunded_amount": "Rambursat",
+      "compare_at_sale": "Reducere ({{saleAmount}})",
+      "no_data": "Niciunul",
+      "pagination": {
+        "load_more": "Încarcă mai mult"
+      },
+      "returns": {
+        "expand_events_label": "Afișează datele",
+        "hide_events_label": "Ascunde datele",
+        "print_shipping_label": "Tipărire etichetă de expediere",
+        "ineligible_return_message": "Nu există articole în această comandă care să poată fi returnate.",
+        "ineligible_return_message_when_returned": "Nu mai există articole în această comandă care să poată fi returnate.",
+        "exchange_header": "Articole de schimb",
+        "exchange_subheader": "Articolele de schimb sunt adăugate la comandă imediat ce returul este finalizat."
+      },
+      "request_return_failed": "A apărut o problemă la procesarea cererii tale. Încearcă din nou.",
+      "mobile_summary_toggle_button": {
+        "open": "Afișare rezumat comandă"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Afișează datele",
+        "expand_events_accessibility_label": "Afișează datele de livrare a comenzii",
+        "hide_events_label": "Ascunde datele",
+        "hide_events_accessibility_label": "Ascunde datele de livrare a comenzii"
+      },
+      "show_order_summary": "Afișare rezumat comandă",
+      "company": "Întreprindere",
+      "no_data_provided_accessibility_label": "{{fieldName}} este gol",
+      "marketing_description": "Primești mesaje de marketing. Te poți dezabona în orice moment dorești.",
+      "marketing_checkbox_label": "Trimite-mi e-mailuri cu noutăți și oferte",
+      "marketing_checkmark_label": "Te-ai abonat pentru a primi e-mailuri cu noutăți și oferte",
+      "image_gallery": {
+        "product_name_and_quantity": "Cantitate {{quantity}} din {{productName}}",
+        "next": "Afișează următoarele articole",
+        "load_more_items": {
+          "one": "Încarcă {{count}} articole noi",
+          "other": "Se încarcă {{count}} articole"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descarcă Magazinul pentru a urmări pachetul",
+        "track_order_with_shop": "Urmărire comandă cu Shop",
+        "title_header": "Scanează cu telefonul tău",
+        "real_time_delivery_updates": "După ce comanda a fost expediată, vei primi actualizări în timp real despre livrare de la Shop."
+      },
+      "shop_pay": {
+        "learn_more": "Mai multe informații"
+      },
+      "edit_summary": {
+        "added": "Adăugat",
+        "added_with_quantity": "{{quantity}} adăugat",
+        "removed": "Șters",
+        "removed_with_quantity": "{{quantity}} eliminat",
+        "updated_at": "Comanda ta a fost actualizată la {{date}}",
+        "returned_with_quantities": "{{delta}} din {{total}} returnate",
+        "removed_with_quantities": "{{delta}} din {{total}} șters",
+        "return_line_item_removed": "Eliminat din retur",
+        "return_line_item_removed_with_quantities": "{{delta}} eliminat din retur"
+      },
+      "pickup": {
+        "pickup_location": "Loc de descărcare"
+      }
     }
   }
 }
