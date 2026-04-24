@@ -50,7 +50,7 @@
     },
     "cart": {
       "view": "Ver carrito ({{ count }})",
-      "item_added": "Artículo agregado a tu carrito",
+      "item_added": "Artículo añadido al carrito de compras",
       "view_empty_cart": "Ver carrito"
     },
     "share": {
@@ -61,9 +61,9 @@
     },
     "slider": {
       "of": "de",
-      "next_slide": "Diapositiva a la derecha",
-      "previous_slide": "Diapositiva a la izquierda",
-      "name": "Carrusel"
+      "next_slide": "Deslizar hacia la derecha",
+      "previous_slide": "Deslizar hacia la izquierda",
+      "name": "Control deslizante"
     }
   },
   "newsletter": {
@@ -75,48 +75,48 @@
     "skip_to_text": "Ir directamente al contenido",
     "close": "Cerrar",
     "unit_price_separator": "por",
-    "vendor": "Proveedor:",
+    "vendor": "Vendedor:",
     "error": "Error",
-    "refresh_page": "Al seleccionar una opción, se actualiza toda la página.",
+    "refresh_page": "Seleccionar una opción resultará en la recarga completa de la página.",
     "link_messages": {
-      "new_window": "Se abre en una nueva ventana.",
-      "external": "Se abre el sitio web externo."
+      "new_window": "Se abre en una ventana nueva.",
+      "external": "Abre sitio web externo."
     },
     "loading": "Cargando...",
     "skip_to_product_info": "Ir directamente a la información del producto",
-    "total_reviews": "reseñas totales",
+    "total_reviews": "número total de reseñas",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
-    "collapsible_content_title": "Contenido desplegable",
-    "complementary_products": "Productos complementarios"
+    "collapsible_content_title": "Contenido plegable",
+    "complementary_products": "Productos adicionales"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Más información: {{ title }}",
+      "read_more_title": "Leer más: {{ title }}",
       "comments": {
-        "one": "{{ count }} comentario",
-        "other": "{{ count }} comentarios",
+        "one": "{{ count }} reacciones",
+        "other": "{{ count }} respuestas",
         "many": "{{ count }} comentarios"
       },
-      "moderated": "Ten en cuenta que los comentarios deben aprobarse antes de que se publiquen.",
-      "comment_form_title": "Deja un comentario",
+      "moderated": "Atención: los comentarios deben ser aprobados antes de ser publicados.",
+      "comment_form_title": "Publicar respuesta",
       "name": "Nombre",
       "email": "Correo electrónico",
-      "message": "Comentario",
-      "post": "Publicar comentario",
-      "back_to_blog": "Regresar al blog",
+      "message": "Respuesta",
+      "post": "Publicar un comentario",
+      "back_to_blog": "Volver al blog",
       "share": "Compartir este artículo",
-      "success": "Tu comentario se publicó correctamente. ¡Gracias!",
-      "success_moderated": "Tu comentario se publicó correctamente. Lo publicaremos en breve, cuando se modere nuestro blog."
+      "success": "¡Tu comentario ha sido publicado! ¡Gracias!",
+      "success_moderated": "Tu comentario ha sido publicado. Lo publicaremos pronto; nuestro blog está moderado."
     }
   },
   "onboarding": {
-    "product_title": "Ejemplo de nombre del producto",
-    "collection_title": "Nombre de tu colección"
+    "product_title": "Ejemplo de título de producto",
+    "collection_title": "El nombre de tu colección"
   },
   "products": {
     "product": {
-      "add_to_cart": "Agregar al carrito",
+      "add_to_cart": "Añadir al carrito",
       "description": "Descripción",
       "on_sale": "Oferta",
       "quantity": {
@@ -124,39 +124,39 @@
         "input_label": "Cantidad para {{ product }}",
         "increase": "Aumentar cantidad para {{ product }}",
         "decrease": "Reducir cantidad para {{ product }}",
-        "minimum_of": "Mínimo de {{ quantity }}",
-        "maximum_of": "Máximo de {{ quantity }}",
-        "multiples_of": "Incrementos de {{ quantity }}",
+        "minimum_of": "Furgoneta mínima de {{ quantity }}",
+        "maximum_of": "Furgoneta máxima {{ quantity }}",
+        "multiples_of": "Pasos de {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> en el carrito",
         "note": "Ver reglas de cantidad",
-        "min_of": "Mín.: {{ quantity }}",
-        "max_of": "Máx.: {{ quantity }}",
+        "min_of": "Mín. {{ quantity }}",
+        "max_of": "Máx. {{ quantity }}",
         "in_cart_aria_label": "Cantidad ({{ quantity }} en el carrito)"
       },
       "price": {
-        "from_price_html": "A partir de {{ price }}",
-        "regular_price": "Precio habitual",
+        "from_price_html": "Desde {{ price }}",
+        "regular_price": "Precio normal",
         "sale_price": "Precio de oferta",
         "unit_price": "Precio unitario"
       },
       "share": "Compartir este producto",
       "sold_out": "Agotado",
       "unavailable": "No disponible",
-      "vendor": "Proveedor",
-      "video_exit_message": "{{ title }} abre el video en pantalla completa en la misma ventana.",
+      "vendor": "Vendedor",
+      "video_exit_message": "{{ title }} abre un video en pantalla completa en la misma ventana.",
       "xr_button": "Ver en tu espacio",
-      "xr_button_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
+      "xr_button_label": "Ver en tu espacio, cargar artículo en ventana de realidad aumentada",
       "pickup_availability": {
-        "view_store_info": "Ver información de la tienda",
-        "check_other_stores": "Verificar disponibilidad en otras tiendas",
-        "pick_up_available": "Retiro disponible",
-        "pick_up_available_at_html": "Retiro disponible en <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "No se pudo cargar la disponibilidad de retiro",
-        "refresh": "Actualizar"
+        "view_store_info": "Ver detalles de la tienda",
+        "check_other_stores": "Verifique la disponibilidad en otras tiendas",
+        "pick_up_available": "La recogida está disponible",
+        "pick_up_available_at_html": "La recogida está disponible en <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "La recogida no está disponible actualmente en <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "No se puede cargar la disponibilidad para recogida",
+        "refresh": "Renovar"
       },
       "media": {
-        "open_media": "Abrir elemento multimedia {{ index }} en una ventana modal",
+        "open_media": "Abrir Media {{ index }} en modal",
         "play_model": "Reproducir el visor 3D",
         "play_video": "Reproducir video",
         "gallery_viewer": "Visor de la galería",
@@ -189,7 +189,17 @@
       "product_variants": "Variantes de producto",
       "taxes_included": "Impuestos incluidos.",
       "duties_included": "Aranceles incluidos.",
-      "duties_and_taxes_included": "Aranceles e impuestos incluidos."
+      "duties_and_taxes_included": "Aranceles e impuestos incluidos.",
+      "inventory_out_of_stock_message": "En stock",
+      "inventory_order_before": "para",
+      "inventory_delivered": "pedido,",
+      "inventory_delivery_time": "mañana en casa",
+      "inventory_status": {
+        "in_stock_badge": "En stock",
+        "low_stock_badge": "Poca stock",
+        "out_of_stock_badge": "No disponible",
+        "shipping_message": "Pedido antes de las 14:00, enviado el mismo día"
+      }
     },
     "modal": {
       "label": "Galería multimedia"
