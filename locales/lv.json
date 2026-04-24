@@ -3989,8 +3989,74 @@
         "removed_with_quantity": "{{quantity}} izdzēsts",
         "updated_at": "Jūsu pasūtījums ir atjaunināts {{date}}",
         "returned": "Atgriezts",
-        "returned_with_quantities": "{{delta}} no {{total}} atgriezts"
-      }
+        "returned_with_quantities": "{{delta}} no {{total}} atgriezts",
+        "removed_with_quantities": "{{delta}} no {{total}} noņemts",
+        "return_line_item_removed": "Izņemts no atgriešanas",
+        "return_line_item_removed_with_quantities": "{{delta}} izņemts no atgriešanas"
+      },
+      "pickup": {
+        "pickup": "Paņemt klāt",
+        "pickup_location": "Izdalīšanas vieta",
+        "pickup_point": "Izņemšanas punkts"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Apmaksāts ar Shop Pay termiņmaksājumiem",
+        "description": "Sekojiet līdzi savam maksājumu grafikam ar atgādinājumiem Veikala lietotnē.",
+        "payment_reminders_button": "Saņemt maksājuma atgādinājumus",
+        "desktop_qr_code_content": {
+          "title": "Skenēt atmiņas",
+          "description": "Atgādinājumi par termiņmaksājumiem veikalā."
+        },
+        "title": "Maksājumu atgādinājumi par Shop Pay termiņmaksājumiem"
+      },
+      "order_details": "Pasūtījuma dati",
+      "contact_information": "Kontakti",
+      "login_to_view_all_order_details": "Pierakstieties, lai skatītu visus pasūtījuma datus.",
+      "log_in": "Pieslēgties",
+      "paid_amount": "Apmaksāts",
+      "remaining_amount": "Atlikums",
+      "order_details_skeleton_accessibility_label": "Pierakstieties, lai skatītu visus pasūtījuma datus.",
+      "tip": "Dzeramnauda",
+      "logged_in_account_no_permission_to_order": "Jūs esat pieteicies kā {{email}}. Šim kontam nav tiesību pārvaldīt šo pasūtījumu.",
+      "log_in_to_a_different_account": "Pieslēgties citam kontam",
+      "duties": "Muitas nodevas",
+      "ok_duties_tooltip": "Šis pasūtījums tiek sūtīts no citas valsts, tāpēc kopējai pasūtījuma summai ir pievienotas muitas nodevas.",
+      "error_duties_tooltip": "Šis pasūtījums tiek sūtīts no citas valsts, tāpēc piegādes brīdī var tikt piemērotas muitas nodevas un nodokļi.",
+      "zero_duties_tooltip": "Šis pasūtījums tiek nosūtīts no citas valsts. Pasūtījumiem ar šo vērtību muitas nodevas netiek piemērotas.",
+      "group_title_label": "Daļa no: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Zāļu krājumu uzpildes izmaksas",
+        "return_shipping_fee": "Atgriešana"
+      },
+      "vat_invoices": {
+        "title": "Btw-rēķini"
+      },
+      "taxes_included": "Ieskaitot {{amount}} PVN",
+      "duties_and_taxes_included": "Kopējā summa ietver muitas nodevas un nodokļus. Piegādes brīdī nav papildu maksājumu.",
+      "grouped_view_components": {
+        "expand_line_items": "Rādīt {{count}} preces",
+        "collapse_line_items": "Paslēpt {{count}} preces",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}}, daudzums: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Preces komplektā {{productTitle}}"
+      },
+      "cash_rounding": "Noapaļot skaidru naudu",
+      "adjusted_payment": "Pielāgota samaksa",
+      "adjusted_total": "Pielāgots kopējais daudzums",
+      "login_card": {
+        "log_in": "Pieslēgties",
+        "link_expired": "Saite beigusies",
+        "resend_link_and_login": "Tu vari apskatīt savus pasūtījuma datus, piesakoties vai nosūtot jaunu saiti uz e-pasta adresi vai tālruņa numuru, kas izmantots pasūtīšanas laikā.",
+        "resend_link_only": "Tu vari apskatīt savus pasūtījuma datus, nosūtot jaunu saiti uz e-pasta adresi vai tālruņa numuru, ko izmantoji pasūtīšanas laikā.",
+        "resend_link": "Sūtīt jaunu saiti",
+        "title": "Skatīt pasūtījuma datus"
+      },
+      "link_sent": "Saite nosūtīta",
+      "view_controls": {
+        "gallery": "Galerija",
+        "list": "Saraksts"
+      },
+      "company_and_location": "Uzņēmums un atrašanās vieta"
     }
   }
 }
