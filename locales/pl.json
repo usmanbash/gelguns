@@ -4071,7 +4071,93 @@
           "credit_card_verification_value_blank": "Wprowadź kod CVV/CVC lub kod bezpieczeństwa swojej karty"
         },
         "unavailable": {
-          "text": "Płatność kartą kredytową i debetową jest obecnie niedostępna."
+          "text": "Płatność kartą kredytową i debetową jest obecnie niedostępna.",
+          "link_text": "Odśwież tę stronę"
+        }
+      },
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Metoda płatności dodana",
+        "billing_address": {
+          "title": "Adres do faktury",
+          "add_billing_address_button_accessibility_label": "Dodaj nowy adres do faktury",
+          "choose_billing_address_from_list_button_accessibility_label": "Wybierz adres do faktury z listy",
+          "missing_billing_address_error_message": "Podaj adres do faktury"
+        },
+        "replace_mode_warning": "Jeśli usuniesz tę metodę płatności, wpłynie to na subskrypcje lub zamówienia przedpremierowe. Zastąp ją inną metodą płatności, aby nadal otrzymywać nadchodzące zamówienia.",
+        "add_new_button": "Dodaj nowy",
+        "subscription_contracts": {
+          "title": "Metoda płatności do zamówień cyklicznych",
+          "product_details": "Dane produktu",
+          "load_more": "Załaduj więcej",
+          "more_items": {
+            "one": "Produkt Nog {{count}}",
+            "other": "Jeszcze {{count}} produktów"
+          },
+          "product_count": {
+            "other": "{{count}} produktów"
+          }
+        },
+        "contracts_update_failed": "Niektórych umów abonamentowych nie można było zaktualizować",
+        "invalid_wallet_type_error": "Nieprawidłowy typ cyfrowego portfela",
+        "updating_contracts": {
+          "one": "Umowa subskrypcyjna {{count}} jest aktualizowana...",
+          "other": "Aktualizowanych jest {{count}} umów subskrypcyjnych..."
+        },
+        "contracts_updated": {
+          "one": "Umowa abonamentowa {{count}} została zaktualizowana",
+          "other": "{{count}} umów subskrypcyjnych zostało zaktualizowanych"
+        }
+      },
+      "expires_soon": "Ta karta wkrótce wygaśnie",
+      "expired": "Ta karta wygasła",
+      "card_update_consent": "Ta metoda płatności zostanie zapisana do przyszłych zakupów.",
+      "google_pay": {
+        "errors": {
+          "missing_billing_address": "Do Google Pay potrzebny jest adres rozliczeniowy. Dodaj go w swoim koncie."
+        }
+      },
+      "apple_pay": {
+        "errors": {
+          "not_available": "Apple Pay nie jest dostępny na tym urządzeniu.",
+          "missing_billing_address": "Do Apple Pay potrzebny jest adres rozliczeniowy. Dodaj go w swoim koncie."
+        }
+      },
+      "add_payment_method_banner": "Dodaj metodę płatności dla szybszej finalizacji zamówienia oraz usług wstępnej autoryzacji",
+      "edit_payment_method_button_accessibility_label": "Edytuj {{paymentMethodName}} kończący się na {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Wyświetl ostrzeżenie o wygaśnięciu dla {{paymentMethodName}} kończącej się na {{lastDigits}}",
+      "no_payment_methods_banner": "Nie dodano metod płatności",
+      "default": "Standardowy",
+      "store_credit": {
+        "accesibility_label": "Saldo sklepu - {{formattedBalance}}",
+        "expirable_amounts_button": "Przeglądaj kwoty, które wygasną",
+        "details_modal": {
+          "title": "Saldo rabatowe, które wygasa",
+          "expiration_date_label": "Data ważności",
+          "expirable_balance_info": "Część salda wygasa w przyszłym terminie.",
+          "expirable_amount_label": "Całkowita kwota, która zostanie anulowana",
+          "expirable_amounts_info": "Kwoty, które wcześniej wygasły, są najpierw stosowane przy kasie.",
+          "pagination": {
+            "load_more_accessibility_label": "Więcej kwot, które wygasną, ładowanie"
+          },
+          "expirable_amounts_button": "Obejrzyj",
+          "event_label": "Wydarzenie",
+          "events": {
+            "adjustment": "Dostosowanie",
+            "order_refund": "Zwrot zamówienia",
+            "payment_failure": "Nieudana płatność",
+            "payment_returned": "Zwrot płatności",
+            "tax_finalization": "Zakończenie podatku"
+          }
+        },
+        "expirable_amounts_label": "Przeterminowane kwoty"
+      },
+      "three_d_secure": {
+        "title": "3D Bezpieczeństwo",
+        "verification_failed": "Twoja płatność nie może zostać potwierdzona. Spróbuj ponownie lub użyj innej metody płatności."
+      },
+      "pay_pal": {
+        "errors": {
+          "generic": "Wystąpił problem z PayPal. Spróbuj ponownie lub użyj innej metody płatności."
         }
       }
     }
