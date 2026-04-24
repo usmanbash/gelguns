@@ -1070,7 +1070,81 @@
         "recurring_total_multiple_label": "Táto objednávka obsahuje opakujúce sa poplatky za viacero položiek.",
         "deferred_total_due_date_label": "Celková suma splatná k {{date}}",
         "full_price": "Celková cena: %{price}",
-        "custom_discount": "Prispôsobená zľava"
+        "custom_discount": "Prispôsobená zľava",
+        "expand_component_information": {
+          "one": "Zobraziť %{count} položiek",
+          "other": "Zobraziť %{count} položiek"
+        },
+        "collapse_component_information": {
+          "one": "skryť %{count} položiek",
+          "other": "skryť %{count} položiek"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "other": "%{count} článkov"
+          }
+        },
+        "alternative_payment_currency_total": "stiahnuté ako %{amount_due}",
+        "calculating": "Vypočítava sa...",
+        "group_title_label": "Súčasť '%{group_title}'",
+        "discount_order_stacking": {
+          "other": "Zľavy na objednávky"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} za kus"
+        },
+        "updated_shipping_method": "Aktualizovaná metóda doručenia: %{shipping_method}",
+        "discount_not_found": "Nenašla sa žiadna platná zľava zodpovedajúca zadanému kódu",
+        "total_savings": "Celkové úspory",
+        "return_restocking_fee_label": "Náklady na zásobovanie bylinami",
+        "return_shipping_fee_label": "Vrátenie tovaru",
+        "enter_shipping_address": "Zadajte doručovaciu adresu",
+        "discount_code_applied": "Zľavový kód použitý",
+        "gift_card_applied": "Použitý darčekový poukaz",
+        "duties_included_label": "Celková suma zahŕňa dane a colné poplatky. Pri doručení nebudú účtované žiadne ďalšie poplatky.",
+        "deferred_balance_info": {
+          "title": "Zostatok vo výške {{amount_due}} je splatný k {{due_at}}.",
+          "due_on_fulfillment_title": "Zostatok {{amount_due}} je splatný pri vybavení objednávky"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> zľavový kód vyžadovaný pre oprávneného zákazníka",
+        "subtotal_label_with_quantity": {
+          "one": "Medzisúčet · %{count} položka",
+          "other": "Medzisúčet · %{count} položiek"
+        },
+        "product_image_quantity_label": "Počet",
+        "more_items_modal": {
+          "clear_search": "Vymazať vyhľadávanie",
+          "empty_results": "Nenašli sa žiadne výsledky pre '%{searchText}'. Skontrolujte pravopis alebo použite iné slovo či vetu.",
+          "search_item": "Hľadať"
+        },
+        "number_items": {
+          "other": "%{count} článkov"
+        },
+        "view_all_items": {
+          "one": "Zobraziť %{count} položiek",
+          "other": "Zobraziť všetky %{count} položiek"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Žiadne obchody s tvojím artiklom nie sú k dispozícii",
+          "other": "Žiadne obchody s tvojimi položkami nie sú k dispozícii"
+        },
+        "deposit_label": "Záloha",
+        "discount_code_allocations_mismatch": "Váš zľavový kód <strong style=\"text-transform:uppercase\">%{code}</strong> bol zmenený. Skontrolujte svoj nákupný košík a skúste to znova.",
+        "deferred_total_due_date_label_next": "Splatné dňa %{date}",
+        "total_due_label": "Celková suma na úhradu",
+        "unconfirmed_label": "Niet potvrdené",
+        "total_paid_label": "Celkom zaplatené",
+        "from_shop_heading": "Van %{shop_name}",
+        "from_other_stores_heading": "Z iných obchodov",
+        "order_discounts_apply_to_local_shop": "Zľavy na objednávky platia iba na produkty z %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Darčekové poukážky platia iba na produkty z %{shop_name}",
+        "estimated_taxes_label_short": "Odhadované",
+        "discount_code_replaced": "Zľavový kód %{old_code} bol odstránený a %{code} bol použitý",
+        "discount_code_replaced_multiple": "Viacero zľavových kódov bolo odstránených a %{code} bol použitý",
+        "from_multiple_stores_heading": "Z viacerých obchodov",
+        "pay_merchant_label": "Zaplaťte %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Zľava platí iba na predplatné produkty",
+        "estimated_taxes_finalization_tooltip_content_short": "Zaokrúhlenie dane po platbe"
       }
     }
   }

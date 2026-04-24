@@ -2123,8 +2123,78 @@
         "blocks": {
           "contact_method_title": "Contactează-ne",
           "shipping_address_title": "Expediere către",
-          "shipping_method_title": "Metoda de expediere"
+          "shipping_method_title": "Metoda de expediere",
+          "change_link_label": "Modificare",
+          "change_contact_method_link_label": "Modificare informații de contact",
+          "change_billing_address_link_label": "Schimbă adresa de facturare",
+          "change_shipping_address_link_label": "Schimbă adresa de livrare",
+          "change_shipping_method_link_label": "Schimbă metoda de expediere",
+          "change_payment_method_link_label": "Schimbare metodă de plată",
+          "pick_up_in_store_shipping_method_html": "Ridicare în magazin · %{location_name}",
+          "purchase_order_number_title": "Număr comandă",
+          "change_purchase_order_number_label": "Modificare număr comandă",
+          "change_delivery_method_link_label": "Modifică metoda de livrare",
+          "no_address": "(Fără adresă)",
+          "no_purchase_order_number": "(Fără număr de comandă)",
+          "due_after_order_reviewed_html": "Datorat după ce comanda a fost verificată",
+          "review_title_free_order": "Verifică și finalizează comanda",
+          "payment_method_saved_company_location": "Salvează harta pentru această locație",
+          "company_location": "Locație firmă",
+          "change_company_location_link_label": "Schimbare locație firmă",
+          "pickup_items_at": {
+            "one": "Ridicare %{count} articole de la",
+            "other": "Ridicați %{count} articole de la"
+          },
+          "ship_items_to": {
+            "one": "Trimite %{count} articole către",
+            "other": "Trimite %{count} articole către"
+          }
+        },
+        "block_title": "Verifică-ți datele",
+        "checkout_a_different_way": "Plată printr-o altă metodă",
+        "item_header": {
+          "change_value": "Modificare valoare",
+          "section": "Secție"
+        },
+        "review_and_confirm_title": "Verificare și confirmare"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Trimite-mi un mesaj electronic cu noutăți și oferte",
+        "unsubscribe": {
+          "title": "Te-ai delogat",
+          "description": "Nu vei mai primi de la noi memento-uri pentru coșul de cumpărături."
+        },
+        "accept_sms_checkbox_label": "Trimite-mi un mesaj scurt cu noutăți și oferte",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Condiții de serviciu",
+            "description_html": "Prin înscrierea prin SMS, ești de acord să primești mesaje de marketing automatizate, inclusiv memento-uri pentru coșul de cumpărături, la numărul de telefon furnizat. Consimțământul nu este o condiție pentru cumpărare. Răspunde STOP pentru a te dezabona. Răspunde HELP pentru ajutor. Frecvența mesajelor poate varia. Pot fi aplicate costuri pentru mesaje și date. Consultă %{privacy_policy_link} și %{terms_of_service_link}.",
+            "description_transactional_html": "Este posibil să primiți mesaje SMS legate de confirmările comenzilor și actualizările de expediere. Răspundeți cu STOP pentru a vă dezabona. Răspundeți cu HELP pentru ajutor. Frecvența mesajelor poate varia. Pot fi aplicate costuri pentru mesaje și date. Consultați %{privacy_policy_modal_link} și %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Număr de telefon mobil",
+          "get_offers_by_text": "Primiți oferte prin sms"
+        },
+        "post_accept_marketing_checkbox_label": "Te-ai abonat pentru a primi e-mailuri cu noutăți și oferte",
+        "pending_accept_marketing_checkbox_label": "Verifică-ți poșta electronică pentru a-ți confirma înscrierea la noutăți și oferte",
+        "accept_shop_pay_marketing_checkbox_label": "Înscrie-mă pentru noutăți și oferte de la acest magazin",
+        "disclaimer": {
+          "terms_of_service": "Condiții de serviciu"
         }
+      },
+      "shop_policies": {
+        "terms_of_service": "Condiții generale",
+        "legal_notice": "Notificare legală",
+        "shipping_policy": "Expediere",
+        "purchase_options_policy": "Politica opțiunilor de cumpărare",
+        "contact_information": "Contactează-ne",
+        "cookie_preferences": "Biscuiți",
+        "policy_label": "Regulament",
+        "policies_label": "Regulament",
+        "select_policy_label": "Selectați o politică",
+        "terms_and_policies": "Condiții și reguli"
+      },
+      "notifications": {
+        "title": "Mesaje"
       }
     }
   }
