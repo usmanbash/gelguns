@@ -2767,7 +2767,85 @@
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Questo pagamento non è più richiesto. Vai alla pagina dell'ordine per maggiori informazioni.",
+        "paid": "Questo pagamento è già stato inviato. Vai alla pagina dell'ordine per maggiori informazioni."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "È necessaria un'interazione con l'estensione per completare il pagamento."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Controlla il tuo ordine"
+        },
+        "shipping": {
+          "shipping_options": "Visualizza tutte le opzioni di spedizione"
+        },
+        "payment": {
+          "payment_options": "Visualizza tutte le opzioni di pagamento"
+        }
+      },
+      "too_many_requests": {
+        "title": "Troppi tentativi di pagamento",
+        "body": "Attendi qualche minuto e riprova dal tuo carrello."
       }
+    },
+    "links": {
+      "powered_by_shopify": "Alimentato da Shopify",
+      "learn_more": "Ulteriori informazioni"
+    },
+    "attributes": {
+      "email": "posta elettronica",
+      "password_confirmation": "la conferma della password",
+      "body": "testo principale"
+    },
+    "addresses": {
+      "zip_code": "Codice postale",
+      "postal_code": "Codice postale",
+      "pincode": "Codice postale",
+      "region": "Regione",
+      "province": "Province",
+      "state_and_territory": "Stato/Territorio",
+      "county": "Province",
+      "emirate": "Emirati",
+      "governorate": "Governo",
+      "confirm": "Sei sicura di voler eliminare questo indirizzo?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "In evidenza",
+        "best_selling": "Più venduto",
+        "az": "In ordine alfabetico: A-Z",
+        "za": "Alfabetico: Z-A",
+        "price_ascending": "Prezzo: dal più basso al più alto",
+        "price_descending": "Prezzo: dal più alto al più basso",
+        "date_ascending": "Data: da vecchio a nuovo",
+        "date_descending": "Data: nuovo a vecchio",
+        "most_relevant": "Più rilevante"
+      }
+    },
+    "errors": {
+      "blank": "non può essere vuoto",
+      "credit_card_session_expired": "L'autorizzazione della carta di credito è scaduta. Inserisci nuovamente i tuoi dati di pagamento. Non è stato addebitato alcun importo sulla tua carta.",
+      "empty": "non può essere vuoto",
+      "invalid_email": "deve essere un indirizzo di posta elettronica valido",
+      "discount_disabled": "Questo sconto è stato bloccato",
+      "discount_expired": "Questo sconto non è più valido",
+      "discount_limit_reached": "Questo sconto ha raggiunto il limite di utilizzo",
+      "discount_not_found": "Impossibile trovare uno sconto valido corrispondente al codice",
+      "customer_already_used_once_per_customer_discount_notice": "Questo sconto ha raggiunto il limite di utilizzo",
+      "gift_card_already_applied": "Il codice è già stato applicato al tuo carrello",
+      "gift_card_code_invalid": "Il codice non è valido",
+      "gift_card_currency_mismatch": "Il tuo buono regalo è in %{gift_card_currency}. Contattaci per poterlo riemettere in %{checkout_currency}.",
+      "gift_card_depleted": "Non c'è più credito su questa carta regalo",
+      "gift_card_disabled": "La carta regalo è bloccata",
+      "invalid": "non valido",
+      "taken": "è già usato",
+      "too_short": "è troppo corto (il minimo è %{count} caratteri)",
+      "too_long": "è troppo lungo (il massimo è %{count} caratteri)"
     }
   }
 }
