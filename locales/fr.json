@@ -4247,7 +4247,63 @@
         "title": "Méthode de paiement mise à jour",
         "done_button": "Continuer vos achats"
       },
-      "or": "OU"
+      "or": "OU",
+      "additional_payment_methods": "Méthodes de paiement supplémentaires",
+      "add_success": {
+        "title": "Méthode de paiement ajoutée",
+        "done_button": "Continuer vos achats"
+      }
+    },
+    "payment_method_brands": {
+      "mastercard": "Carte Mastercard",
+      "shoppay": "Paiement en boutique",
+      "applepay": "Paiement Apple",
+      "googlepay": "Google Paiement",
+      "discover": "Découvrir",
+      "dinersclub": "Club des Dîneurs",
+      "elo": "Élo",
+      "visaelectron": "Visa Électron",
+      "maestro": "Maître",
+      "forbrugsforeningen": "Association de Consommation",
+      "dankort": "Merci",
+      "hipercard": "Hipercarte",
+      "unionpay": "UnionPay",
+      "storecredit": "Crédit boutique",
+      "bogus": "Faux"
+    },
+    "enable_javascript": "Activez JavaScript dans les paramètres de votre navigateur ou connectez-vous avec un autre navigateur pour consulter votre compte.",
+    "ui_components": {
+      "processing": "Traitement...",
+      "decrease": "Prise en charge de {{type}}",
+      "maximumReached": "Maximum de la fourgonnette atteint {{value}}",
+      "january": "janvier",
+      "february": "février",
+      "march": "mars",
+      "april": "avril",
+      "may": "mai",
+      "june": "juin",
+      "july": "juillet",
+      "august": "août",
+      "september": "septembre",
+      "october": "octobre",
+      "november": "novembre",
+      "december": "décembre",
+      "monday": "lundi",
+      "tuesday": "mardi",
+      "wednesday": "mercredi",
+      "thursday": "jeudi",
+      "friday": "vendredi",
+      "saturday": "samedi",
+      "sunday": "dimanche",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "mar.",
+      "wednesdayAbbreviation": "sem.",
+      "thursdayAbbreviation": "faire.",
+      "fridayAbbreviation": "vendredi",
+      "saturdayAbbreviation": "sam.",
+      "sundayAbbreviation": "ainsi.",
+      "showNextMonth": "Afficher le mois prochain, {{month}} {{year}}",
+      "rangeStart": "Début de la portée"
     }
   }
 }

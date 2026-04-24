@@ -3733,7 +3733,77 @@
         "title": "Btw-računi"
       },
       "taxes_included": "Uključujući {{amount}} PDV-a",
-      "duties_and_taxes_included": "Ukupno uključuje carinske pristojbe i poreze. Nema dodatnih uplata prilikom dostave."
+      "duties_and_taxes_included": "Ukupno uključuje carinske pristojbe i poreze. Nema dodatnih uplata prilikom dostave.",
+      "grouped_view_components": {
+        "expand_line_items": "Prikaz {{count}} artikala",
+        "collapse_line_items": "Sakrij {{count}} artikala"
+      },
+      "adjusted_payment": "Prilagođena uplata",
+      "adjusted_total": "Prilagođeni ukupno",
+      "login_card": {
+        "resend_link_and_login": "Možete pregledati podatke o svojoj narudžbi prijavom ili slanjem nove poveznice na e-mail adresu ili telefonski broj korišten pri naplati.",
+        "resend_link_only": "Možeš pregledati svoje podatke o narudžbi slanjem nove poveznice na e-mail adresu ili telefonski broj koji si koristio/la prilikom plaćanja.",
+        "title": "Pregled podataka o narudžbi"
+      },
+      "link_sent": "Veza poslana",
+      "company_and_location": "Poduzeće i lokacija",
+      "due_on_date": "Dugovanje na dan {{date}}",
+      "due_on_fulfillment": "Plaćanje pri isporuci",
+      "due_on_receipt": "Platiti po primitku",
+      "payment_confirmation": {
+        "payment_received": "Hvala! Vaša uplata od {{amount}} je primljena.",
+        "full_payment_received": "Hvala! Vaša uplata od {{amount}} je primljena i ova narudžba je sada u potpunosti plaćena.",
+        "dismiss_label": "Zatvori potvrdu o plaćanju",
+        "payment_authorized": "Hvala! Stanje će biti ažurirano čim uplata bude primljena."
+      },
+      "marketing_pending_confirmation": "Kliknite na poveznicu u svojoj e-pošti da potvrdite.",
+      "marketing_resend_email": "Ponovno pošalji e-mail",
+      "marketing_resend_email_success": "Veza poslana",
+      "subtotal_label_with_quantity": {
+        "one": "Međuzbroj",
+        "other": "Međuzbroj · {{count}} artikala"
+      },
+      "total_savings": "Ukupna ušteda",
+      "price_after_discount_accessibility_label": "Cijena s popustom",
+      "discount_order_stacking": {
+        "other": "Popusti na narudžbe"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adresa uklonjena",
+      "cancel_adding_address_accessibility_label": "Dodaj adresu otkaži",
+      "cancel_deletion_button": "Otkaži",
+      "cancel_deletion_button_accessibility_label": "ukloniti {{address}} otkazati",
+      "default_address": {
+        "title": "Standardna adresa",
+        "title_accessibility_label": "Standardna adresa: {{address}}"
+      },
+      "delete_button": "Ukloni",
+      "delete_button_accessibility_label": "ukloniti {{address}}",
+      "delete_confirmation_button": "Ukloni adresu",
+      "delete_confirmation_button_accessibility_label": "ukloniti {{address}}",
+      "edit_button_accessibility_label": "uredi {{address}}",
+      "edit_section_accessibility_label": "uredi {{address}}",
+      "loading_accessibility_message": "Adresa trgovine",
+      "loading_addresses_accessibility_message": "Učitaj adrese",
+      "loading_billing_accessibility_message": "Učitavanje adresa za fakturiranje",
+      "loading_finished_accessibility_message": "Nova stranica s adresama je učitana",
+      "loading_shipping_accessibility_message": "Učitavanje adrese za dostavu",
+      "pagination": {
+        "load_more_accessibility_label": "Učitaj još adresa"
+      },
+      "delete_confirmation_description": "Ovo nema utjecaja na postojeće narudžbe.",
+      "edit_modal_title": {
+        "billing": "Uredi adresu za fakturiranje",
+        "shipping": "Uredi adresu dostave"
+      },
+      "add_address_banner": "Dodajte adrese za korištenje pri naplati",
+      "billing_address_dropdown_placeholder": "Adresa za račun",
+      "back_button_accessibility_label": "Povratak na uređivanje adrese {{address}}",
+      "no_addresses_banner": "Nema dodanih adresa"
+    },
+    "address_form": {
+      "billing_address": "Koristiti kao adresu za račun"
     }
   }
 }

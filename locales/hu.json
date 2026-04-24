@@ -3126,6 +3126,70 @@
       "address_management": {
         "saved_with_store": "Elmentve ennél a boltban"
       }
+    },
+    "links": {
+      "powered_by_shopify": "A Shopify működtetésével",
+      "learn_more": "További információk"
+    },
+    "feed": {
+      "more": "Több"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password_confirmation": "a jelszó megerősítése",
+      "first_name": "keresztnév",
+      "body": "főszöveg"
+    },
+    "addresses": {
+      "pincode": "Irányítószám",
+      "region": "Vidék",
+      "prefecture": "Prefektúra",
+      "province": "Vármegye",
+      "state_and_territory": "Állam/Terület",
+      "county": "Vármegye",
+      "governorate": "Kormányzat"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Kiemelt",
+        "best_selling": "Legjobban eladott",
+        "az": "Ábécé sorrendben: A-Z",
+        "za": "Ábécé szerint: Z-A",
+        "price_ascending": "Ár: alacsonytól a magasig",
+        "price_descending": "Ár: magasról alacsonyra",
+        "date_ascending": "Dátum: régi szerint újra",
+        "date_descending": "Dátum: újtól régi felé"
+      }
+    },
+    "errors": {
+      "blank": "nem lehet üres",
+      "credit_card_session_expired": "A hitelkártya engedélyezése lejárt. Kérjük, add meg újra a fizetési adataidat. A kártyádról nem vontak le pénzt.",
+      "empty": "nem lehet üres",
+      "invalid_email": "érvényes e-mail címnek kell lennie",
+      "discount_disabled": "Ez a kedvezmény le van tiltva",
+      "discount_limit_reached": "Ez a kedvezmény elérte a használati korlátot",
+      "discount_not_found": "Nem található érvényes kedvezmény, amely megfelel a kódnak",
+      "customer_already_used_once_per_customer_discount_notice": "Ez a kedvezmény elérte a használati korlátot",
+      "gift_card_already_applied": "A kód már alkalmazva van a kosaradban",
+      "gift_card_code_invalid": "A kód érvénytelen",
+      "gift_card_currency_mismatch": "Az ajándékkártyád %{gift_card_currency} értékű. Lépj kapcsolatba velünk, hogy újra kiadhassuk %{checkout_currency} valutában.",
+      "gift_card_depleted": "Nincs több egyenleg ezen az ajándékkártyán",
+      "gift_card_disabled": "Az ajándékutalvány le van tiltva",
+      "gift_card_expired": "Az ajándékutalvány lejárt",
+      "taken": "már használva van",
+      "too_short": "túl rövid (a minimum %{count} karakter)",
+      "too_long": "is túl hosszú (a maximum %{count} karakter)",
+      "password_mismatch": "meg kell egyeznie a megadott jelszóval",
+      "invalid_for_country": "nem érvényes %{country} esetén",
+      "invalid_for_country_and_province": "nem érvényes %{province} és %{country} területén",
+      "invalid_province_in_country": "nem érvényes tartomány %{country}-ban",
+      "invalid_state_in_country": "nem érvényes állapot %{country}-ban",
+      "invalid_region_in_country": "nem érvényes régió %{country}-ban",
+      "less_than_or_equal_to": "kisebb vagy egyenlő kell legyen %{count}-nál",
+      "full_name_required": "Adja meg a kereszt- és vezetéknevét",
+      "invalid_for_card_type": "érvénytelen",
+      "invalid_type": "sajnáljuk, nem fogadunk el ilyen típusú kártyákat",
+      "invalid_format": "a formátum érvénytelen"
     }
   }
 }
