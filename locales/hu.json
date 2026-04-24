@@ -3492,7 +3492,87 @@
       "profile_card": {
         "cancel_accessibility_label": "Profil szerkesztése megszakítás",
         "email_help_text": "Az e-mail cím nem szerkeszthető",
-        "first_name": "Keresztnév"
+        "first_name": "Keresztnév",
+        "phone_number_help_text": "A telefonszám nem szerkeszthető",
+        "no_name_provided_accessibility_label": "Név nincs megadva",
+        "email": "E-mail",
+        "errors": {
+          "name_too_long": "{{fieldName}} túl hosszú (maximum 255 karakter)",
+          "name_cannot_contain_url": "{{fieldName}} nem tartalmazhat URL-t",
+          "name_cannot_contain_html_tags": "{{fieldName}} nem tartalmazhat HTML-címkéket",
+          "email_cant_be_blank": "Az e-mail nem lehet üres",
+          "invalid_email_format": "Adjon meg egy érvényes e-mail címet"
+        },
+        "editable_email_help_text": "Ezt az e-mail címet a regisztrációhoz és a rendelésfrissítésekhez használjuk."
+      },
+      "people": {
+        "pagination": {
+          "load_more": "Több betöltése",
+          "load_more_accessibility_label": "Több ember tölt le",
+          "loading_accessibility_label": "Emberek betöltése folyamatban"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "E-mail cím ellenőrzése",
+        "description": "Írja be a {{email}} címre küldött kódot",
+        "one_time_password_label": "6 számjegyű kód",
+        "email_resend_button_accessibility_label": "Ellenőrzőkód újbóli elküldése",
+        "cancel_button_accessibility_label": "E-mail szerkesztés megszakítása",
+        "email_resend_button_success_toast_message": "Ellenőrzőkód elküldve",
+        "email_resend_button_failure_banner_message": "Nem lehet elküldeni a megerősítő kódot"
+      },
+      "email_update_success_modal": {
+        "title": "E-mail cím ellenőrzése",
+        "description": "Az e-mail frissítése sikerült. Átirányítás a bejelentkezéshez."
+      },
+      "email_update_confirmation_message": "E-mail cím frissítve erre: {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Formázási beállítások",
+      "order_list": {
+        "column_headers": {
+          "total": "Összesen",
+          "actions_accessibility_label": "Akciók"
+        },
+        "delivered": "Aggódó: {{date}}",
+        "empty_state_order_source_description": "Csak a {{email}} címen leadott megrendelések jelennek meg itt.",
+        "empty_state_subtitle": "Menjen a boltba rendelés leadásához.",
+        "empty_state_title": "Még nincs rendelés",
+        "estimated_delivery": "Várható {{date}}-kor",
+        "items": {
+          "one": "{{count}} cikk",
+          "other": "{{count}} cikk"
+        },
+        "order_link": "{{name}} rendelés megtekintése",
+        "order_number": "Rendelés {{name}}",
+        "orders_title": "Megerősítve",
+        "pagination": {
+          "nav_accessibility_label": "Navigációs gombok a rendelésekhez",
+          "next_accessibility_label": "Következő rendelések",
+          "previous_accessibility_label": "Előző rendelések",
+          "load_more": "Több betöltése"
+        },
+        "sort_by": "Rendezés: {{option}}",
+        "sort_hide_options_accessibility_label": "Rögzített rendelések szűrési lehetőségeinek elrejtése.",
+        "sort_show_options_accessibility_label": "Rendezési lehetőségek megjelenítése megerősített rendelésekhez.",
+        "sort": {
+          "date": {
+            "newest": "Legújabbtól a legrégebbi felé"
+          },
+          "location": {
+            "ascending": "Helyszín (A-Z)",
+            "descending": "Helyszín (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Rendelési szám (alacsonytól a magasig)",
+            "descending": "Rendelési szám (nagyól kicsi felé)"
+          },
+          "order_total": {
+            "ascending": "Teljes rendelés (alacsonytól a magasig)",
+            "descending": "Teljes rendelés (nagyól kicsiig)"
+          }
+        },
+        "one_images_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}} terméket"
       }
     }
   }
