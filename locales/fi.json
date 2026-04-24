@@ -2505,7 +2505,101 @@
           "other": "%{count} sijaintia tuotteellasi"
         },
         "toggle_more_locations": {
-          "one": "Nog %{count} muuta sijaintia"
+          "one": "Nog %{count} muuta sijaintia",
+          "other": "Nog %{count} muuta sijaintia"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Jaa sijainnit artikkelisi kanssa",
+          "other": "Geen sijainnit artikkeleidesi kanssa"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Geen sijainnit %{country} artikkelillesi",
+          "other": "Ei sijainteja %{country} alueella artikkeleillesi"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Nouda kaikki artikkelit",
+        "items_for_pickup": "Noudettavat artikkelit",
+        "delivery_method_menu": "Valikko jaettu toimitustapa",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} artikkelia ei voida noutaa",
+              "other": "%{count} artikkelia ei voida noutaa"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} artikkelia ei voida lähettää",
+              "other": "%{count} artikkelia ei voida lähettää"
+            }
+          },
+          "remove_item": {
+            "one": "Poista artikkeli",
+            "other": "Poista artikkelit"
+          },
+          "ship_separately": {
+            "one": "lähetä erikseen",
+            "other": "lähetä erikseen"
+          },
+          "pick_them_up_in_store": {
+            "one": "noutaa myymälästä",
+            "other": "noutaa myymälästä"
+          }
+        },
+        "items_for_shipping": "Lähetykseen tarkoitetut tuotteet",
+        "items_moved_to_shipping_toast": "Noudettavissa olevat tuotteet on siirretty lähetykseen",
+        "cross_border": {
+          "modal": {
+            "heading": "Muuta maa?",
+            "content": "Tämän seurauksena kaikki artikkelit asetetaan uudelleen toimitettaviksi. Nouto- ja toimituspaikkojen on sijaittava samassa maassa.",
+            "change_country": "Vaihda maa"
+          }
+        }
+      },
+      "captcha": {
+        "title": "Täytä CAPTCHA jatkaaksesi",
+        "errors": {
+          "not_solved": "Täytä CAPTCHA jatkaaksesi"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Tilaustasi ei voitu käsitellä, koska alennuskoodisi ei ole enää voimassa. Tarkista tilauksesi kokonaissumma ja yritä uudelleen."
+      },
+      "wallets": {
+        "return_to_store": "Takaisin kauppaan",
+        "redirect_hint": "Sinua pyydetään kirjautumaan sisään palveluun {{walletName}}.",
+        "logged_in": "Yhdistetty {{email}}",
+        "payment_in_progress_title": "Maksu käynnissä",
+        "payment_in_progress_body": "Maksu käsitellään. Tilaus on melkein valmis.",
+        "call_to_action": "Maksa {{walletName}}-lompakolla",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} ei ole saatavilla",
+            "description": "{{walletName}} ei ollut saatavilla. Käytä toista maksutapaa tai yritä myöhemmin uudelleen.",
+            "instructions": "{{walletName}}-lompakossa ilmeni ongelma. Palaa kauppaan ja yritä uudelleen tai maksa toisella tavalla.",
+            "unavailable_for_country": "{{walletName}} ei ole saatavilla {{countryName}}. Valitse toinen maksutapa viimeistelläksesi ostoksesi"
+          },
+          "generic": "{{walletName}}-lompakossa ilmeni ongelma. Yritä uudelleen tai käytä toista maksutapaa.",
+          "terminal": "{{walletName}}-lompakossa ilmeni ongelma. Käytä toista maksutapaa.",
+          "detour": {
+            "stock_problems": "Jotkut tuotteet eivät ole enää saatavilla. Sulje {{walletName}} ja yritä uudelleen.",
+            "price_change": "Joidenkin tuotteiden hinnat ovat muuttuneet. Sulje {{walletName}} tarkistaaksesi tilauksesi ja yritä uudelleen.",
+            "queue": "Olet kassajonossa. Sulje {{walletName}} jatkaaksesi.",
+            "currency_change": "Et voi käyttää toista osoitetta {{walletName}}-lompakolla. Käytä alkuperäistä osoitetta tai kokeile toista maksutapaa."
+          },
+          "unsupported": {
+            "address": "Myyjä ei voi toimittaa valitsemaasi toimitusosoitteeseen.",
+            "wallet_is_unavailable": "Et voi käyttää {{walletName}}-lompakkoa tämän osoitteen kanssa. Valitse toinen osoite tai sulje {{walletName}} viimeistelläksesi ostoksen."
+          },
+          "outdated": {
+            "shipping_method": "Tilauksesi toimitusvaihtoehdot on muutettu. Tarkista valintasi.",
+            "payment_terms": "Maksuehdot on muutettu. Tarkista tilauksesi"
+          },
+          "invalid": {
+            "shipping_option": "Valitse kelvollinen toimitustapa",
+            "zone": "Anna kelvollinen osavaltio/maakunta"
+          }
         }
       }
     }
