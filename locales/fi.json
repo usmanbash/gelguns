@@ -3434,10 +3434,78 @@
             "order_includes_guarantees_label": "Toimituksellasi on {{deliveryAgreementsCount}} takuuta",
             "order_includes_guarantees_description": "Shop Promise tarjoaa takuun nopeasta ja luotettavasta toimituksesta. Vaatikaa Shop Cash, jos tilauksenne toimitetaan {{date}} jälkeen.",
             "delivered_after_label": "Huolestunut {{date}} jälkeen",
-            "delivered_after_description": "Tilauksesi saapui myöhässä, joten voit vaatia {{amount}} Shop Cashia."
+            "delivered_after_description": "Tilauksesi saapui myöhässä, joten voit vaatia {{amount}} Shop Cashia.",
+            "claimed_shop_cash_description": "Tämä tilaus toimitettiin myöhässä, joten olet lunastanut {{amount}} Shop Cashia.",
+            "eligible_to_claim_shop_cash_description": "Tilauksesi saapui myöhässä, joten voit vaatia {{amount}} Shop Cashia.",
+            "claim_shop_cash_button_label": "Osta Käteiskorvausclaim",
+            "view_balance_in_shop_button_label": "Näytä saldo myymälässä",
+            "scan_to_claim_shop_cash_label": "Skannaa saadaksesi {{amount}} Shop Cashia"
           }
+        },
+        "tracking_number": {
+          "other": "Seurantakoodit"
+        },
+        "gift_card_resend_button": {
+          "one": "Lahjakortin uudelleenlähetys",
+          "other": "Lahjakorttien uudelleenlähetys"
+        },
+        "expected_by": "Odotettavissa viimeistään {{date}}",
+        "was_expected_by": "Odotetaan viimeistään {{date}}"
+      },
+      "status_mark_as_delivered": "Merkitse huolestuneeksi",
+      "buy_again_accessibility_label": "Osta uudelleen tilaukselle {{orderId}}",
+      "manage_accessiblity_label": "Tilaus {{orderId}} hallinta",
+      "fulfillment_status_title": "Toimitustila: {{status}}",
+      "list_title_pending_orders_accessibility_label": "Tilaukset: käsittelyssä",
+      "switch_order_type_pending_orders_accessibility_label": "Tilaustyypin vaihtaminen; tarkastelet nyt käsiteltäviä tilauksia",
+      "switch_order_type_confirmed_orders_accessibility_label": "Tilaustyypin vaihtaminen; tarkastelet vahvistettuja tilauksiasi",
+      "group_title_label": "Osa: {{groupTitle}}",
+      "group_title_label_with_parent": "Vastaanottaja: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Laskutus ja lähetys",
+      "card_ending_with": "päättyy {{lastDigits}}",
+      "contact": "Yhteyshenkilö",
+      "hide_items": "Piilota artikkelit",
+      "loading": "Tilaustiedot latautuvat",
+      "payment": {
+        "status_in_review": "Maksu erääntyy arvioinnin jälkeen",
+        "status_unpaid": "Maksu erääntyy {{date}}",
+        "card_payment_details": "päättyen numeroihin {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Maksettu Shop Pay -erämaksuilla",
+          "view_schedule": "Suunnitelman tarkastelu"
+        },
+        "gift_card_payment_details": "päättyen numeroihin {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postiveloitus - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Rembours - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Ostohyvitys - {{formattedTransactionAmount}}",
+        "emv_details": {
+          "auth": "VALTUUTUS:",
+          "aid": "Avustaja:",
+          "source": "Käytä seuraavaa tulostusmuotoa (ei koodilohkoja, ei ylimääräistä tekstiä):"
+        },
+        "payment_type": {
+          "store_credit": "Ostohyvitys",
+          "money_order": "Postisiirto",
+          "cash_on_delivery": "Hyvitys",
+          "bank_deposit": "Pankkikokous",
+          "manual": "Käsin"
         }
-      }
+      },
+      "shipping": {
+        "summary": "Lähetys",
+        "one_time": "Lähetä kerran",
+        "subscription": "Toimitus tilauksella"
+      },
+      "show_items": "Näytä artikkelit",
+      "subtitle": "Vahvistettu: {{date}}",
+      "summary_list_title_accessibility_label": "Tuotteiden tilaaminen",
+      "summary_title": "Tilausyhteenveto",
+      "summary_totals_title_accessibility_label": "Koko tilaus",
+      "total": "Täysi"
     }
   }
 }
