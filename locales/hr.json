@@ -1419,8 +1419,82 @@
           "payment_tag": "Poklon bon",
           "apply_another_gift_card_label": "Primijeniti drugi poklon bon",
           "gift_card_label": "Poklon bon %{identifier}",
-          "add_label": "Dodavanje poklon bona"
-        }
+          "add_label": "Dodavanje poklon bona",
+          "manage_label": "Upravljanje poklon bonovima"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Potvrda za prilagođene onsite uplate"
+        },
+        "markets_pro_disclaimer_label": "Postavljanjem narudžbe slažete se s kupnjom kod Global-e kao registriranog trgovca, podložnu %{markets_pro_terms} i %{privacy_policy} Global-e, te dijelite svoje podatke s %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "opći uvjeti",
+        "markets_pro_disclaimer_privacy_policy": "pravila privatnosti",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Opći uvjeti za trgovce zapisa",
+        "markets_pro_disclaimer_privacy_policy_title": "Pravila privatnosti za trgovce zapisa",
+        "purchase_order_number": {
+          "label": "Broj narudžbe (opcionalno)"
+        },
+        "alternative_payment_currency_total_notice": "Napomena: Bit će terećen iznos od %{amount_due}.",
+        "waiting_on_taxes_message": "Osvježite stranicu ako se porezi ne izračunaju u roku od nekoliko sekundi.",
+        "order_edit_banner_multiple_items_returned": "{{amount}} vraćeno",
+        "shop_pay_installments_label": "Kupujte na rate putem Pay-termijnbetalingen",
+        "add_credit_card_modal": {
+          "title": "Dodaj kartu",
+          "cancel": "Otkaži"
+        },
+        "delete_credit_card_modal": {
+          "title": "Ukloni karticu",
+          "confirmation": "Jeste li sigurni da želite ukloniti {{brandName}} koji završava na {{lastDigits}}?",
+          "cancel": "Otkaži",
+          "delete": "Ukloni"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} dodano"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Izbrisano",
+          "with_quantities": "{{delta}} udaljeno od {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} vraćeno",
+          "with_quantities": "{{delta}} od {{quantity}} vraćeno"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Ukloni"
+        },
+        "edit_credit_card_modal": {
+          "title": "Uredi kartu",
+          "done": "Spremno",
+          "cancel": "Otkaži",
+          "description": "Možete promijeniti samo adresu za fakturiranje vaše kartice.",
+          "fields": {
+            "expiry": "Datum isteka",
+            "name": "Ime na karti",
+            "billing": "Fakturiranje prema"
+          }
+        },
+        "subscription_heading": "Ugovor o pretplati",
+        "use_order_billing_address_label": "Koristi adresu za fakturiranje narudžbe",
+        "use_location_billing_address_label": "Koristi adresu za fakturiranje lokacije",
+        "use_location_shipping_address_label": "Koristi adresu dostave lokacije",
+        "purchase_options_agreement_label_wallets": "Ako nastavite s plaćanjem, slažete se s budućim uplatama navedenim na ovoj stranici i s politikom otkazivanja.",
+        "gift_card_store_credit": {
+          "add_label": "Dodavanje poklon bona ili trgovinskog kredita",
+          "manage_label": "Upravljanje poklon bonovima ili kreditom u trgovini"
+        },
+        "saved_credit_card_cvv_verification": "Unesite sigurnosni kod sa svoje kartice radi provjere.",
+        "cashapppay_label": "Cash App Plaćanje",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} uklonjen iz povrata"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} uklonjeno iz povrata",
+        "proposed_gateway_unavailable": "Predloženi platni sustav nije dostupan",
+        "pay_in_installments_split_pay_short": "Četiri uplate od %{amount}",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nije dostupan za ovu narudžbu. Odaberite drugi način plaćanja.",
+        "paypal_disconnect": "Odspojiti",
+        "payment_method_update_failed": "Ažuriranje načina plaćanja nije uspjelo.",
+        "alternative_payment_currency_total_manual_payment_notice": "Napomena: Konvertirani ukupni iznos je %{amount_due}.",
+        "gift_cards_unavailable": "Poklon bon se više ne može koristiti za ovu narudžbu i stoga je uklonjen",
+        "network_card_payment_options": "Odabir kreditne kartične tvrtke"
       }
     }
   }
