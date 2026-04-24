@@ -619,7 +619,73 @@
           "due_today": "Täna tasumisele kuuluv kogusumma",
           "due_later": "Kokku tasumisele kuuluv summa %{due_at}",
           "due_later_checkout_to_draft": "Kokku tasumisele kuuluv hiljem",
-          "due_on_fulfillment": "Kogusumma, mis tuleb täita"
+          "due_on_fulfillment": "Kogusumma, mis tuleb täita",
+          "due_on_receipt": "Kokku tasuda kättesaamisel",
+          "total_paid": "Kokku makstud",
+          "due_today_next": "Täna tasumisele kuuluv summa",
+          "due_on_fulfillment_next": "Tasumine täitmise juures"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ei saa kasutada koos sinu olemasolevate allahindlustega.",
+        "maximum_discount_code_limit_reached": "Oled saavutanud maksimaalse arvu sooduskoodide kasutamise. Eemalda olemasolev kood, et kasutada <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Kogu tellimus",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ei tööta praegu. Võta meiega ühendust, kui vajad abi.",
+        "due_on_fulfillment": "Võlgu täitmisele",
+        "subscriptions": "Tellimused",
+        "duties_label": "Tollimaksud",
+        "duties_and_taxes_label": "Tollimaksud ja maksud",
+        "error_duties_tooltip": "See tellimus saadetakse teistest riikidest, seega võivad kohaletoimetamisel lisanduda tollimaksud ja maksud.",
+        "may_be_charged_on_delivery": "Kas kohaletoimetamise eest võidakse tasu küsida?",
+        "total_updated_label_with_price": "Uuendatud koguhind: %{totalPrice}",
+        "recurring_payments": "Korduvad maksed",
+        "recurring_total_multiple_label": "Sellel tellimusel on korduvad kulud mitme toote eest.",
+        "deferred_total_due_date_label": "Kokku võlgned {{date}} seisuga",
+        "full_price": "Täishind: %{price}",
+        "custom_discount": "Kohandatud allahindlus",
+        "expand_component_information": {
+          "one": "Kuva %{count} artiklit",
+          "other": "Kuva %{count} artiklit"
+        },
+        "collapse_component_information": {
+          "one": "Peida %{count} artiklit",
+          "other": "Peida %{count} artiklit"
+        },
+        "discount_discovery": {
+          "add_code": "Soodustuse lisamine",
+          "merchandise_quantity_label": {
+            "one": "%{count} artikkel",
+            "other": "%{count} artiklit"
+          },
+          "back_to_finalize_order": "Tagasi tellimuse lõpetamise juurde"
+        },
+        "alternative_payment_currency_total": "arvestatud kui %{amount_due}",
+        "calculating": "Arvutamisel...",
+        "group_title_label": "Osa '%{group_title}'-st",
+        "discount_title_stacking": {
+          "one": "Soodustus",
+          "other": "Soodustused"
+        },
+        "discount_order_stacking": {
+          "one": "Tellimissoodustus",
+          "other": "Tellimissoodustused"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} artikli kohta",
+          "label": "%{price}/tk."
+        },
+        "updated_shipping_method": "Uuendatud saatmismeetod: %{shipping_method}",
+        "discount_not_found": "Ei leitud kehtivat allahindlust, mis vastaks sisestatud koodile",
+        "total_savings": "Kogusääst",
+        "return_restocking_fee_label": "Taimede varustuskulud",
+        "return_shipping_fee_label": "Tagastamine",
+        "enter_shipping_address": "Tarneaadressi sisestamine",
+        "shipping_discount_title": "Saatmiskulu soodustus",
+        "discount_code_applied": "Sooduskood rakendatud",
+        "discount_code_applied_with_code": "Sooduskood %{code} on rakendatud",
+        "gift_card_applied": "Kinkekaart rakendatud",
+        "duties_included_label": "Summa sisaldab makse ja tollimakse. Tarne ajal lisatasusid ei lisandu.",
+        "deferred_balance_info": {
+          "title": "Saldosumma {{amount_due}} tuleb tasuda {{due_at}}.",
+          "due_on_fulfillment_title": "Tellimuse täitmisel tuleb tasuda summa {{amount_due}}"
         }
       }
     }
