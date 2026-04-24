@@ -2830,7 +2830,97 @@
         "artifact_dissatisfaction_without_violation": "Pri spracovaní vašej objednávky sa vyskytol problém. Skúste to prosím o niekoľko minút znova."
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "Inštrukcia tovaru %{position} %{name} obsahuje prázdne ID skladu."
+        "empty_stable_id": "Inštrukcia tovaru %{position} %{name} obsahuje prázdne ID skladu.",
+        "invalid_stable_id_target": "Inštrukcia tovaru %{position} %{name} odkazuje na stable-ID %{stable_id}, ale toto stable-ID sa nenachádza v riadkoch tovaru.",
+        "duplicate_variant_id": "Inštrukcia tovaru %{position} %{name} obsahuje duplicitné ID variantu %{variant_id}.",
+        "invalid_variant_id_target": "Inštrukcia tovaru %{name} odkazuje na variant-ID %{variant_id}, ale tento variant sa nenachádza v riadkoch tovaru.",
+        "invalid_price_override_target": "Inštrukcia na prepísanie ceny tovaru pre objednávkový riadok %{stable_id} je neplatná, pretože ide o súčasť balíka.",
+        "discount_not_supported": "Inštrukcia pre predajcov na uplatnenie zľavy na tovar nepodporuje tento typ zľavy."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tento produkt nie je dostupný na doručenie do %{location_name}.",
+          "some_products_other": "Tieto produkty nie sú dostupné na doručenie do %{location_name}.",
+          "all_products_one": "Produkt vo vašom nákupnom košíku nie je dostupný na doručenie do %{location_name}.",
+          "all_products_other": "Produkty vo vašom nákupnom košíku nie sú dostupné na doručenie do %{location_name}."
+        },
+        "missing_country_fallback": "tvoja krajina",
+        "indeterminate_location_fallback": "tvoja lokalita",
+        "cart_updated": "Váš nákupný košík bol aktualizovaný.",
+        "empty_cart_action": "vyprázdnite nákupný košík a vráťte sa do obchodu",
+        "remove_items_action": {
+          "one": "odstráňte nedostupný tovar",
+          "other": "odstrániť nedostupné položky"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Už nemáte oprávnenie zadávať B2B objednávky. %{logout_url} na zadanie osobnej objednávky namiesto toho.",
+        "lost_permissions_subtitle": "Už nemáte oprávnenie zadávať B2B objednávky. Odhláste sa, aby ste mohli zadať osobnú objednávku.",
+        "lost_permissions_title": "Žiadne povolenia na lokalizáciu"
+      },
+      "units": {
+        "pound": "libra",
+        "inch": "v",
+        "foot": "stôp",
+        "square_foot": "st²",
+        "item": "artikel"
+      },
+      "memberships": {
+        "items_split_across_locations_unsupported": "Prime doručenie nie je pre tvoju objednávku dostupné. Tvoje možnosti doručenia boli aktualizované."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Prejsť do internetového obchodu"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Viac informácií o %{context}"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Tento produkt nemožno pridať do košíka, pretože pochádza z obchodu používajúceho inú menu.",
+          "max_remote_shops_exceeded": "Tento produkt nemožno pridať, pretože váš nákupný košík už obsahuje maximálny počet položiek z iných obchodov.",
+          "currency_mismatch_removal": "Z košíka bol odstránený jeden produkt, pretože pochádza z obchodu používajúceho inú menu.",
+          "only_remote_merchandise_lines": "Pokladňa obsahuje iba externé tovary. Na dokončenie platby je potrebné presmerovanie do externého obchodu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Dokončiť nákup",
+        "remote_only_notice": "Tieto produkty predávajú a zasielajú iné obchody. Pre dokončenie nákupu prejdite do pokladne každého obchodu.",
+        "checkout_on_shop_label": "Zaplaťte v %{shop_name}",
+        "single_shop_transition": "Budete presmerovaný na %{advertiser}, aby ste dokončili svoj nákup.",
+        "detail_item_label": {
+          "other": "{{count}} položiek"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Pre tento obchod nebola poskytnutá žiadna %{policy_name}. Pre viac informácií kontaktujte priamo %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Naskenujte QR kód znova. Ak to stále nefunguje, dajte to vedieť našim zamestnancom a skúste inú platobnú metódu.",
+        "payment_link_expired_title": "Platobný odkaz vypršal",
+        "payment_link_expired_text": "Znova naskenujte QR kód.",
+        "title": "Platba mimo miesta zlyhala"
+      },
+      "taxes": {
+        "tax_details": "Doplňujúce daňové údaje",
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifikačné číslo (voliteľné)",
+            "tooltip": "Overuje platnosť DIČ a automaticky uplatňuje režim prenesenia daňovej povinnosti na objednávky, ktoré na to majú nárok"
+          },
+          "add": "Pridať DIČ",
+          "vaulted": "Btw-identifikačné číslo: %{number}",
+          "badge": "Btw-identifikačné číslo: %{number}",
+          "domestic_order": "Režim presunu platí iba pre cezhraničné objednávky v rámci EÚ. Pri miestnych objednávkach sa štandardne účtuje DPH.",
+          "status": {
+            "invalid_format": {
+              "at": "Rakúske DIČ obsahuje AT a 9 znakov",
+              "be": "Identifikačné číslo DPH v Belgicku obsahuje BE a 10 znakov",
+              "bg": "Daňové identifikačné číslo (DIČ) Bulharska obsahuje BG a 9-10 znakov"
+            }
+          }
+        }
       }
     }
   }
