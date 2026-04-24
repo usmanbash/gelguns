@@ -2792,7 +2792,85 @@
         "square_foot": "p²"
       },
       "memberships": {
-        "delivery_promise_unfulfillable": "Această adresă nu este acceptată pentru calitatea de membru curent."
+        "delivery_promise_unfulfillable": "Această adresă nu este acceptată pentru calitatea de membru curent.",
+        "items_split_across_locations_unsupported": "Livrarea prioritară nu este disponibilă pentru comanda ta. Opțiunile tale de expediere au fost actualizate."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigare către magazinul online"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Metode suplimentare de plată"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Acest articol nu poate fi adăugat în coșul tău de cumpărături deoarece provine dintr-un magazin care folosește o monedă diferită.",
+          "max_remote_shops_exceeded": "Acest produs nu poate fi adăugat deoarece coșul tău de cumpărături a atins deja limita maximă pentru alte magazine.",
+          "currency_mismatch_removal": "Un articol a fost scos din coșul tău de cumpărături deoarece provine dintr-un magazin care folosește o monedă diferită.",
+          "only_remote_merchandise_lines": "Coșul conține doar bunuri externe. Este necesară o redirecționare către magazinul extern pentru a finaliza plata."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Finalizează achiziția ta",
+        "remote_only_notice": "Aceste articole sunt vândute și expediate de alte magazine. Mergi la casa fiecărui magazin pentru a-ți finaliza cumpărăturile.",
+        "single_shop_transition": "Veți fi redirecționat către %{advertiser} pentru a finaliza achiziția.",
+        "detail_item_label": {
+          "one": "{{count}} articole"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Nu a fost furnizată nicio %{policy_name} pentru acest magazin. Pentru mai multe informații, contactați direct %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Plata a eșuat",
+        "payment_not_processed_text": "Scanează codul QR din nou. Dacă tot nu funcționează, anunță angajații noștri și încearcă o altă metodă de plată.",
+        "payment_link_expired_text": "Scanează din nou codul QR.",
+        "title": "Plata în afara site-ului a eșuat"
+      },
+      "taxes": {
+        "vat_number": {
+          "field": {
+            "label": "Număr de identificare Btw (opțional)",
+            "tooltip": "Validează numărul de identificare TVA și aplică automat inversarea taxării pentru comenzile care se califică pentru aceasta"
+          },
+          "add": "Adăugarea unui număr de TVA",
+          "vaulted": "Număr de identificare Btw: %{number}",
+          "badge": "Număr de identificare Btw: %{number}",
+          "domestic_order": "Regimul de amânare a plății TVA se aplică doar pentru comenzile transfrontaliere în cadrul UE. Pentru comenzile locale se aplică în mod obișnuit TVA.",
+          "status": {
+            "invalid_format": {
+              "at": "Un număr de identificare TVA din Austria conține AT și 9 caractere",
+              "be": "Un număr de identificare TVA din Belgia conține BE și 10 caractere",
+              "bg": "Un număr de identificare TVA din Bulgaria conține BG și 9-10 caractere",
+              "hr": "Un număr de identificare TVA din Croația conține HR și 11 caractere",
+              "cy": "Un număr de identificare TVA din Cipru conține CY și 9 caractere",
+              "cz": "Un număr de identificare TVA din Cehia conține CY și 8-10 caractere.",
+              "dk": "Un număr de identificare TVA din Danemarca conține DK și 8 caractere",
+              "ee": "Un număr de identificare TVA din Estonia conține EE și 9 caractere",
+              "fi": "Un număr de identificare TVA din Finlanda conține FI și 8 caractere",
+              "fr": "Un număr de identificare TVA din Franța conține FR și 11 caractere",
+              "de": "Un număr de identificare TVA din Germania conține DE și 9 caractere",
+              "gr": "Un număr de identificare TVA din Grecia conține EL și 9 caractere",
+              "hu": "Un număr de identificare TVA din Ungaria conține HU și 8 caractere",
+              "ie": "Un număr de identificare TVA din Irlanda conține IE și 8-9 caractere",
+              "it": "Un număr de identificare TVA din Italia conține IT și 11 caractere",
+              "lv": "Un număr de identificare TVA din Letonia conține LV și 11 caractere",
+              "lt": "Un număr de identificare TVA din Lituania conține LT și 9-12 caractere",
+              "lu": "Un număr de identificare TVA din Luxemburg conține LU și 8 caractere",
+              "mt": "Un număr de identificare TVA din Malta conține MT și 8 caractere",
+              "nl": "Un număr de identificare TVA din Olanda conține NL și 12 caractere",
+              "pl": "Un număr de identificare TVA din Polonia conține PL și 10 caractere",
+              "pt": "Un număr de identificare TVA din Portugalia conține PT și 9 caractere",
+              "ro": "Un număr de identificare TVA din România conține RO și 10 caractere",
+              "sk": "Un număr de identificare TVA din Slovacia conține SK și 10 caractere",
+              "si": "Un număr de identificare TVA din Slovenia conține SI și 8 caractere",
+              "es": "Un număr de identificare TVA din Spania conține ES și 9 caractere",
+              "se": "Un număr de identificare TVA din Suedia conține SE și 12 caractere",
+              "gb": "Un număr de identificare TVA din Regatul Unit conține GB sau XI și 5-12 caractere"
+            }
+          }
+        }
       }
     }
   }
