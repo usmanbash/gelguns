@@ -666,7 +666,73 @@
             "tax_inclusivity_mismatch": "Negociați din nou cu o valoare concretă pentru totalTaxAndDutyAmount sau totalAmountIncludedInTarget.",
             "tax_exemption_not_supported": "În sesiunea actuală de negocieri nu se susțin scutiri de taxe.",
             "delivery_tax_exemption_not_supported": "Scutirile de taxe pentru regulile de livrare nu sunt în prezent acceptate.",
-            "proposed_allocations_required": "Câmpul „alocări propuse” lipsește."
+            "proposed_allocations_required": "Câmpul „alocări propuse” lipsește.",
+            "merchandise_terms_must_be_defined": "Definește condițiile pentru bunuri.",
+            "delivery_terms_must_be_defined": "Definește condițiile pentru livrare.",
+            "merchandise_discount_terms_must_be_defined": "Definește condițiile pentru reducerea mărfurilor.",
+            "delivery_discount_terms_must_be_defined": "Definește condițiile pentru reducerea la livrare.",
+            "allocated_required": "Câmpul 'atribuit' lipsește.",
+            "value_required": "Câmpul „valoare” lipsește.",
+            "line_splits_not_supported": "Câmpul „reguli pentru mărfuri” trebuie împărțit astfel încât să existe un element separat în oferta vânzătorului pentru fiecare regulă."
+          },
+          "payment": {
+            "positive_amount_expected": "Suma de plată trebuie să fie mai mare decât 0.",
+            "total_amount_mismatch": "Suma totală de plată nu corespunde cu suma plăților.",
+            "missing_session_id": "Informații despre sesiunea cardului de credit lipsesc.",
+            "gateway_not_supported": "Gateway-ul de plată nu suportă salvarea metodei de plată.",
+            "credit_card_last_name_required": "'prenume' nu poate fi gol.",
+            "credit_card_update_failed": "Actualizarea cardului de credit nu a reușit.",
+            "invalid_address_type": "Tipul de adres introdus nu este valabil pentru această metodă de plată.",
+            "missing_retail_attributions": "Alocările pentru vânzare cu amănuntul sunt necesare pentru plățile cu cardul de credit introduse manual.",
+            "unexpected_retail_attributions": "Alocări neașteptate în comerț specificate pentru o plată cu cardul de credit.",
+            "invalid_card_source": "Această sesiune nu are dreptul să folosească această sursă de hartă.",
+            "payment_instrument_not_found": "Nu pot găsi metoda de plată",
+            "unauthorized_capture_method": "Configurarea metodei pentru înregistrarea plăților nu este permisă.",
+            "saved_payment_methods_not_allowed": "'Metodele de plată salvate' nu sunt permise.",
+            "saved_payment_methods_not_enabled": "'Metodele de plată salvate' nu sunt activate pentru acest magazin.",
+            "store_credit_not_enabled": "Creditul magazinului nu este activat pentru acest magazin.",
+            "store_credit_account_not_found": "Contul de credit pentru magazin nu a fost găsit.",
+            "store_credit_account_mismatch": "Contul de credit al magazinului nu corespunde cu identitatea cumpărătorului.",
+            "store_credit_mismatched_currency": "Valuta contului de credit din magazin nu corespunde cu valuta de la finalizarea comenzii.",
+            "store_credit_insufficient_funds": "Nu există suficient sold în contul de credit al magazinului.",
+            "store_credit_buying_gift_card": "Cu creditul din magazin nu poți cumpăra un bon cadou.",
+            "gift_cards_not_allowed_for_b2b": "Voucherele cadou nu sunt permise în magazinele B2B.",
+            "method_required": "Trebuie să fie propusă o metodă de plată.",
+            "saved_payment_methods_cvv_verification_disabled": "Pentru metoda de plată selectată este necesară verificarea CVV/CVC, dar aceasta nu este activată pentru acest magazin. Folosiți o altă metodă de plată."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Mai multe reguli de eroare nu sunt acceptate.",
+            "tips_not_allowed_for_b2b": "Bacșișurile nu sunt permise în magazinele B2B.",
+            "currency_change_reset": "Fooi a fost resetat din cauza unei modificări valutare.",
+            "tips_not_allowed_for_deferred_purchase_options": "Bacșișurile nu sunt încă acceptate pentru opțiunile de cumpărare amânată."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Această comandă conceptuală nu există în magazinul actual.",
+            "staff_member_not_exist": "Acest angajat nu este cunoscut în magazinul actual.",
+            "point_of_sale_device_not_exist": "Acest dispozitiv de vânzare nu există în magazinul actual.",
+            "unresolvable_target_merchandise_lines": "Atribuirile de vânzare propuse nu pot fi rezolvate în contextul actual al negocierilor."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Propunerea cumpărătorului tău trebuie să conțină non-negotiable_terms.",
+            "invalid_signature": "Semnătura pentru {{target_terms}} este invalidă."
+          },
+          "inventory": {
+            "missing_quantity_value": "Câmpul „Cantitate” lipsește în regulile de stoc ale cumpărătorului.",
+            "changing_behavior_not_allowed": "Acest client nu este autorizat să modifice funcționalitatea stocului.",
+            "only_one_inventory_behavior_allowed": "În acest moment este permisă doar o singură funcție de stoc pe fiecare finalizare a cumpărăturilor."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "La această plată, refuzul taxelor vamale nu este permis."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "La această finalizare a cumpărăturilor nu este permisă alocarea pentru vânzarea cu amănuntul.",
+            "retail_attribution_required": "La această finalizare a comenzii este necesară alocarea pentru vânzare cu amănuntul."
+          },
+          "captcha": {
+            "metadata_missing": "La această finalizare a comenzii, completarea unui captcha este obligatorie.",
+            "metadata_mismatch": "Furnizorul captcha specificat și tipul nu corespund valorilor așteptate.",
+            "token_missing": "Finalizează această plată introducând un cod captcha.",
+            "job_enqueue_failed": "Sarcina de validare captcha nu poate fi pusă în așteptare."
           }
         }
       }
