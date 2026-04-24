@@ -3899,7 +3899,67 @@
       "no_addresses_banner": "Няма добавени адреси"
     },
     "address_form": {
-      "auto_complete_close_accessibility_label": "Затвори предложенията"
+      "auto_complete_close_accessibility_label": "Затвори предложенията",
+      "billing_address": "Използвай като адрес за фактура",
+      "cancel": "Отказване",
+      "cancel_accessibility_label": "Отказване на редактирането на адрес {{address}}",
+      "creation_success_notification": "Адрес добавен",
+      "default_address": "Това е моят стандартен адрес",
+      "default_address_creation_success_notification": "Стандартен адрес добавен",
+      "default_address_update_success_notification": "Стандартен адрес актуализиран",
+      "loading_add_form_accessibility_message": "Зареждане на нов адресен формуляр",
+      "save": "Запази",
+      "save_accessibility_label": "Запазване на адрес {{address}}",
+      "attention": "Т.а.в.",
+      "attention_help_text": "Името на лицето или отдела",
+      "loading_form_accessibility_message": "Формуляр за зареждане на адрес",
+      "attention_company": "Фирма/до вниманието на"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Име на фирмата",
+        "company_card_section_accessibility_label": "Фирма"
+      },
+      "locations": {
+        "contact_email": "Имейл адрес",
+        "contact_list_title": "Мъже",
+        "contact_permissions": "Пълномощия",
+        "location_picker_label": "Име на локация",
+        "net_payment_terms_description": "{{name}}: плащането трябва да бъде извършено в рамките на {{numberOfDays}} дни",
+        "payment_details_title": "Платежни данни",
+        "payment_terms": "Условия за плащане",
+        "permissions_label": "Твоите разрешения",
+        "permissions_title": "Пълномощия",
+        "shipping_address_required": "Добавете адрес за доставка към това място, за да можете да правите поръчки.",
+        "tax_details_title": "Данъчни данни",
+        "tax_exemptions": "Освобождавания от данъци",
+        "multiple_tax_exemptions": "Още {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "бг",
+        "tax_exemptions_modal_close": "Затвори",
+        "tax_exemption_not_applicable": "н.д.",
+        "tax_exemptions_modal_button_accessibility_label": "Показване на всички данъчни освобождавания",
+        "pagination": {
+          "load_more": "Зареди още",
+          "load_more_accessibility_label": "Зареждане на още локации"
+        },
+        "own_role_contact_name": "Ти",
+        "staff_and_permissions_title": "Служители и пълномощия",
+        "location_picker_accessibility_label": "Име на локация: {{locationName}}"
+      },
+      "location_selection": {
+        "description": "Ако вече имате артикули в количката си, промяната на местоположението може да повлияе на цените и количествата в количката ви.",
+        "list_accessibility_label": "Списък с локации",
+        "list_item_without_address_accessibility_label": "{{name}}: няма адрес",
+        "list_loading_accessibility_message": "Зареждане на списъка с локации",
+        "list_loading_finished_accessibility_message": "Списъкът с локации е зареден",
+        "loading_store_accessibility_message": "По пътя към магазина",
+        "selection_cancel_button": "Отказване",
+        "selection_confirmation_button": "Изберете местоположение",
+        "title": "За коя локация купуваш?",
+        "continue_to_store": "Продължете към магазина",
+        "no_location_description": "Вече нямате право да правите поръчки за {{company}}. Все още можете да правите лични поръчки.",
+        "no_locations_found": "Не са намерени локации"
+      }
     }
   }
 }

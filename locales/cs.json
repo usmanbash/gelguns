@@ -3723,7 +3723,79 @@
       "summary_totals_title_accessibility_label": "Celková objednávka",
       "unit_price": "{{price}}/ks",
       "location": "Místo",
-      "not_applicable": "není relevantní"
+      "not_applicable": "není relevantní",
+      "fully_refunded_label": "VRÁCENO",
+      "compare_at_sale": "Výprodej ({{saleAmount}})",
+      "no_data": "Žádný",
+      "pagination": {
+        "load_more": "Načíst více",
+        "load_more_accessibility_label": "Načíst více položek"
+      },
+      "returns": {
+        "expand_events_label": "Zobrazit údaje",
+        "hide_events_label": "Skrýt údaje",
+        "print_shipping_label": "Tisk štítku pro odeslání",
+        "tracking_number": "Sledovací číslo:",
+        "return_and_refund_modal_header": "Zásady vracení peněz",
+        "ineligible_return_message": "V této objednávce nejsou žádné položky způsobilé k vrácení.",
+        "ineligible_return_message_when_returned": "V této objednávce již nejsou žádné položky, které by bylo možné vrátit.",
+        "exchange_header": "Výměnné zboží",
+        "exchange_subheader": "Výměnné zboží bude přidáno k objednávce, jakmile bude vrácení dokončeno."
+      },
+      "request_return_failed": "Při zpracování tvé žádosti došlo k problému. Zkus to prosím znovu.",
+      "mobile_summary_toggle_button": {
+        "open": "Zobrazit přehled objednávek",
+        "closed": "Skrýt přehled objednávky"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Zobrazit údaje",
+        "expand_events_accessibility_label": "Zobrazit údaje o doručení objednávky",
+        "hide_events_label": "Skrýt údaje",
+        "hide_events_accessibility_label": "Skrýt údaje o doručení objednávky"
+      },
+      "show_order_summary": "Zobrazit přehled objednávek",
+      "hide_order_summary": "Skrýt přehled objednávky",
+      "company": "Podnik",
+      "no_data_provided_accessibility_label": "{{fieldName}} je prázdné",
+      "marketing_description": "Dostáváte marketingové e-maily. Můžete se kdykoli odhlásit.",
+      "marketing_checkbox_label": "Posílejte mi e-maily s novinkami a nabídkami",
+      "marketing_checkmark_label": "Jste přihlášeni k odběru e-mailů s novinkami a nabídkami",
+      "image_gallery": {
+        "product_name_and_quantity": "Množství {{productName}} {{quantity}}",
+        "previous": "Zobrazit předchozí články",
+        "load_more_items": {
+          "one": "Načíst {{count}} položek",
+          "other": "Načíst {{count}} položek"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Stáhnout obchod pro sledování balíčku",
+        "track_order_with_shop": "Sledování objednávky pomocí Shopu",
+        "title_header": "Skenování pomocí telefonu",
+        "real_time_delivery_updates": "Po odeslání objednávky obdržíte od Shopu aktuální informace o doručení v reálném čase."
+      },
+      "shop_pay": {
+        "order_completed_with": "Objednávka dokončena s",
+        "learn_more": "Více informací"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} přidáno",
+        "removed": "Odstraněno",
+        "removed_with_quantity": "{{quantity}} odstraněno",
+        "updated_at": "Vaše objednávka byla aktualizována dne {{date}}",
+        "returned_with_quantities": "{{delta}} z {{total}} vráceno",
+        "removed_with_quantities": "{{delta}} z {{total}} odstraněno",
+        "return_line_item_removed": "Odebráno z vrácení",
+        "return_line_item_removed_with_quantities": "{{delta}} odstraněn z vrácení"
+      },
+      "pickup": {
+        "pickup": "Vyzdvihnutí",
+        "pickup_point": "Místo vyzvednutí"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Zaplaceno pomocí splátek Shop Pay",
+        "description": "Zůstaňte v obraze o svém platebním plánu díky připomenutím v aplikaci Obchod."
+      }
     }
   }
 }
