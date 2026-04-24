@@ -1276,6 +1276,68 @@
         "gift_card_store_credit": {
           "add_label": "Kingituskupongi või poe krediidi lisamine",
           "manage_label": "Kingituskupongide või poe saldo haldamine"
+        },
+        "saved_credit_card_cvv_verification": "Sisesta oma kaardi turvakood kontrollimiseks.",
+        "order_edit_banner_updated_order_label": "Uuendatud tellimus",
+        "afterpay_label": "Järelmaks",
+        "cashapppay_label": "Cash Appi makse",
+        "card_nickname_label": "Hüüdnimi (valikuline)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eemaldatud tagastusest",
+          "with_quantities": "{{delta}} eemaldatud tagastusest"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Eemaldatud tagastusest",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eemaldatud tagastusest",
+        "proposed_gateway_unavailable": "Pakutud makselahendus ei ole saadaval",
+        "pay_in_installments_split_pay_short": "Neli makset summas %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Makseviis valitud tarneaadressi jaoks pole saadaval. Palun vali teine makseviis.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero ei ole selle tellimuse jaoks saadaval. Palun vali mõni muu makseviis.",
+        "paypal_disconnect": "Ühenduse katkestamine",
+        "paypal_wallet_label": "PayPal rahakott",
+        "payment_method_update_failed": "Makseviisi uuendamine ebaõnnestus.",
+        "alternative_payment_currency_total_manual_payment_notice": "Märkus: Konverteeritud kogusumma on %{amount_due}.",
+        "gift_cards_unavailable": "Seda kinkekaarti ei saa selle tellimuse jaoks enam kasutada ja see on seetõttu eemaldatud",
+        "network_card_payment_options": "Krediitkaardifirma valimine",
+        "payment_flexibility_terms_id_mismatch": "ID tingimused maksete paindlikkuse kohta ei ühti",
+        "offsite_gateway_review_page_redirect_hint": "Pärast tellimuse kontrollimist suunatakse sind %{gateway_label} juurde, et ost lõpetada.",
+        "przelewy24_label": "Przelewy24",
+        "twint_label": "TWINT",
+        "gift_card_checkbox_label": "Kinkekaardi kasutamine",
+        "blik_label": "Blik",
+        "vipps_label": "Vipps",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP-krediitkaart",
+        "simulated_express_checkout": "Digitaalsed rahakotid ei ole redaktori näidises saadaval sinu piirkonna või brauseri tõttu",
+        "offsite_gateway_redirect_hint_no_button_label": "Sind suunatakse ostu lõpetamiseks %{gateway_label} juurde.",
+        "swish_label": "Swish",
+        "network_card_persistence_description": "Valitud võrk salvestatakse sinu makseviisiga tulevaste tehingute jaoks.",
+        "usdc_label": "USDC",
+        "payment_method_incompatible_with_payment_terms": "Makseviis ei ühildu maksetingimustega.",
+        "payment_option": {
+          "accessibility_label": "Vali maksevõimalus"
+        },
+        "billing_address_rollup_accessibility_label": "Arve aadressi valikud",
+        "payment_method_rollup_accessibility_label": "Makseviiside valikud",
+        "crypto_modal": {
+          "header": "Maksma %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Uuenda",
+            "close": "sulge",
+            "sandbox_error": "Midagi läks valesti",
+            "web_component_error": "Selle lehe laadimisel tekkis probleem"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Arvelduskonto",
+          "savings": "Säästukonto"
+        },
+        "bank_account_choose": "Vali konto, et oma ost turvaliselt lõpetada",
+        "bank_account_connect_another": "Teise pangakonto sidumine",
+        "bank_account_connect": "Pangakonto sidumine",
+        "bank_account_missing": "Pangakonto peab olema seotud",
+        "crypto_payment_method": {
+          "description": "Ühenda oma rahakott turvaliselt. Sinu saldo ja aadressi ei jagata.",
+          "tooltip": "Sinu rahakoti saldo ja aadressi ei jagata ning ainult taotletud summa saab maha arvestada"
         }
       }
     }
