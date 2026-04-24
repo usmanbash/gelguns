@@ -3211,9 +3211,93 @@
           "preview_bar": "Pregledavate primjer onoga što kupci vide kada daju dozvolu za primanje e-mailova o otvorenom praćenju."
         },
         "opt_out": {
-          "opted_out_html": "<b>Odjavili ste se s praćenja otvaranja e-pošte.</b>"
+          "opted_out_html": "<b>Odjavili ste se s praćenja otvaranja e-pošte.</b>",
+          "visibility": "Ne vidimo jesi li otvorio/la naše e-mailove.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Dati dopuštenje</a> za otvoreno praćenje e-pošte.",
+          "preview_bar": "Pregledavate primjer onoga što kupci vide kada se odjave za primanje e-mailova o praćenju otvaranja."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Više ne pratimo otvaraju li se e-mailovi.</b>",
+          "privacy_policy": "Nakon slanja ovog e-maila, ažurirali smo našu politiku privatnosti i više ne pratimo otvaranje e-mailova."
+        },
+        "track": {
+          "visibility": "Vidjet ćemo jeste li otvorili e-mail samo kao dio ukupnog postotka otvaranja e-mailova."
+        },
+        "updated_policy": {
+          "visibility": "Ažurirali smo našu politiku i sada pratimo otvorene e-mailove. Postotci otvaranja e-mailova prijavljuju se anonimno. Vidjet ćemo samo jeste li otvorili e-mail kao dio ukupnog postotka otvaranja e-mailova.",
+          "opt_out_html": "Ako više ne želite dijeliti ove informacije, možete se <a style='text-decoration:underline;' href='%{link}'>odjaviti</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Jesi li siguran/na da se želiš odjaviti s SMS marketinga?",
+        "button": "Odjava"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Obično spremno unutar 1 sat",
+        "two_hours": "Obično spremno unutar 2 sata",
+        "four_hours": "Obično spremno unutar 4 sata",
+        "twenty_four_hours": "Obično spremno unutar 24 sata",
+        "two_to_four_days": "Obično spremno unutar 2-4 dana",
+        "five_or_more_days": "Obično spremno za više od 5 dana",
+        "zero_to_two_hours": "Obično spremno unutar 2 sata",
+        "two_to_four_hours": "Obično spremno unutar 4 sata",
+        "immediately": "Spremno za preuzimanje sada"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Na skladištu",
+          "out_of_stock": "Nema na skladištu"
         }
       }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Cijena: od najniže do najviše",
+        "price_descending": "Cijena: od najviše prema najnižoj"
+      },
+      "error": "Došlo je do problema pri učitavanju rezultata pretraživanja. Osvježite stranicu ili pokušajte ponovno kasnije."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Ovaj je proizvod ponovljena ili odgođena kupnja. Ako nastavim, slažem se s %{cancellationPolicyLink} i dajete mi dopuštenje da terećete navedene cijene s moje metode plaćanja, u navedenim intervalima i datumima, dok moja narudžba ne bude obrađena ili dok ne otkažem, ako je to dopušteno.",
+      "buyer_consent_cart": "Jedan ili više artikala u tvojoj košarici su odgođene ili ponavljajuće kupnje. Ako nastavim, slažem se s %{cancellationPolicyLink} i dajem ti dopuštenje da terećiš navedene cijene s moje metode plaćanja, u navedenoj učestalosti i datumima, dok moja narudžba ne bude obrađena ili dok, ako je dopušteno, ne otkažem.",
+      "cancellation_policy": "politika otkazivanja"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "open_menu_accessibility_label": "Otvorite navigaciju računa",
+        "loading_message": "Učitavanje navigacije računa"
+      },
+      "action_menu_accessibility_label": "Više akcija",
+      "contact_email_subject": "Kontakt osoba web trgovine {{shopName}}",
+      "contact_link": "Kontakt podaci",
+      "delete_confirmation": {
+        "cancel": "Otkaži",
+        "delete": "Ukloni"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - račun",
+      "loading_message": "Utovarivanje",
+      "navigation_accessibility_message": "Navigirali ste do {{sectionName}}",
+      "open_menu_accessibility_label": "Otvorite glavnu navigaciju",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "country_switcher_toast_message": "Zemlja prebačena na {{countryName}}",
+      "search": "Pretraži",
+      "location_switcher_toast_message": "Lokacija promijenjena u {{locationName}}",
+      "view_details": "Pregled podataka",
+      "no_locations_found": "Nema pronađenih lokacija",
+      "try_new_search": "Isprobajte novu pretragu",
+      "skip_to_content": "Odmah na sadržaj",
+      "loading_policy_content_accessibility_label": "Pravila za učitavanje sadržaja",
+      "policy_load_error": "Ne mogu učitati {{policyName}}",
+      "loading_section_accessibility_label": "{{sectionName}} natovaren"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Učitavanje podataka računa"
     }
   }
 }
