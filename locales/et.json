@@ -1554,7 +1554,73 @@
         "payment_method_not_applicable": "See makseviis ei kehti. Kasutage mõnda muud makseviisi.",
         "shop_pay_wallet_not_available": "Shop Pay ei ole selle kassaprotsessi jaoks saadaval.",
         "market_manager_blocks_wallet_payments": "Seda makseviisi sinu riigis ei toetata.",
-        "paypal_over_capture": "Sinu tellimuse kogusumma on uuendatud. Maksa tellimuse lõpetamiseks {{walletName}} abil."
+        "paypal_over_capture": "Sinu tellimuse kogusumma on uuendatud. Maksa tellimuse lõpetamiseks {{walletName}} abil.",
+        "test_mode_enabled_only_test_cards": "Testrežiim on sisse lülitatud, lisada saab ainult testkrediitkaarte.",
+        "captcha_required": "Sisesta makseandmed ja lahenda captcha, et oma ost lõpetada.",
+        "captcha_required_without_payment_information": "Lahenda captcha, et oma ost lõpetada.",
+        "shipping_company_required_error": "{{shopName}} vajab kohaletoimetamise aadressi jaoks ettevõtte nime.",
+        "payment_credential_delegation_error": "Makse töötlemisel tekkis probleem. Palun vali uus makseviis.",
+        "cancelled_payment": "Sinu makse on tühistatud. Proovi uuesti või kasuta mõnda teist makseviisi.",
+        "currency": {
+          "no_longer_supported": "Poeraha ei ole enam toetatud."
+        },
+        "installments_payment_method_incompatible": "Valitud makseviisi ei saa kasutada järelmaksu puhul. Palun valige mõni teine makseviis."
+      },
+      "shipping_errors": {
+        "shipping_method": "Sinu tellimuse saatmisvalikud on muudetud. Kontrolli oma valikut.",
+        "shipping_method_not_available": "Sinu ostukorv on uuendatud ja lisatud tooteid ei saa sinu aadressile saata. Eemalda tooted, et tellimus lõpetada.",
+        "shipping_method_not_available_generic": {
+          "one": "Teie tellimust ei saa valitud aadressile saata. Kontrollige aadressi õigsust ja proovige uuesti või valige mõni teine aadress.",
+          "other": "Mõned tooted sinu ostukorvis ei pruugi sisestatud aadressile saadetavad olla. Kontrolli, kas aadress on õige, ja proovi uuesti või vali mõni teine aadress."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Ese, mille lisasite, ei saadeta teie asukohta. Eemaldage see ese, et maksta, või võtke ühendust poega.",
+          "other": "Üks või mitu lisatud eset ei saa teie asukohta saata. Eemaldage esemed, et maksta, või võtke ühendust poega."
+        },
+        "payment_method_not_supported": "Sa ei saa seda makseviisi kasutada %{country} jaoks. Kasuta selle riiki saatmiseks mõnda muud makseviisi.",
+        "empty_state": "Sisesta oma tarneaadress, et näha saadaolevaid saatmisviise.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Ostukorvis on tooteid, mis ei vasta hinna- või kaalunõuetele, et kvalifitseeruda saatmiseks. Uuenda ostukorvi ja proovi uuesti.",
+        "title": "Saatmine pole saadaval",
+        "invalid_selected_address": "Valitud tarneaadress on kehtetu",
+        "invalid_selected_address_with_update_link": "Valitud tarneaadress on kehtetu. %{update_address_link} või vali teine aadress.",
+        "unavailable_selected_address": "Saatmine valitud aadressile ei ole saadaval",
+        "unavailable_selected_address_for_region": "Saatmine ei ole saadaval piirkonnas {{region}}. Jätkamiseks valige teine aadress",
+        "unavailable_addresses_only_countries": "Sinu tellimus saab saata ainult aadressidele {{countriesList}}. Jätkamiseks lisa uus aadress.",
+        "unavailable_address_country": "Saatmine valitud riiki ei ole võimalik. Palun sisesta teine aadress, et jätkata."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Kiire kassasse minek",
+        "or": "Välja lülitatud",
+        "show_more_options": "Kuva rohkem valikuid",
+        "hide_more_options": "Peida rohkem valikuid",
+        "or_pay_another_way": "Või maksta teisel viisil",
+        "or_check_out_another_way": "Või maksa teisel viisil",
+        "or_pay_with_credit_card": "Või maksa krediitkaardiga"
+      },
+      "processing": {
+        "redirecting_page_title": "Suunamine…",
+        "redirecting_title": "Suunamine…",
+        "redirecting_notice": "Sind suunatakse edasi.",
+        "complete_your_purchase_title": "Teie ostu lõpetamine",
+        "continue_to_payment_gateway_notice": "Mine maksmise juurde, et lisada oma makseandmed.",
+        "continue_to_payment_gateway_button_label": "Makse juurde",
+        "complete_your_purchase_title_error": "Paranda oma makseandmeid",
+        "continue_to_payment_gateway_notice_error": "Teie makseandmeid ei õnnestu kinnitada.",
+        "continue_to_payment_gateway_button_label_error": "Makseandmete uuendamine",
+        "page_title": "Tellimus töödeldakse",
+        "title": "Tellimus töödeldakse",
+        "your_order_has_been_received_title": "Täname tellimuse eest",
+        "you_will_receive_confirmation": "Praegu saame väga palju tellimusi. Sa peaksid peagi saama kinnituse e-posti või SMS-i teel. Palun anna meile teada, kui sa seda tunni jooksul ei saa.",
+        "wait": {
+          "short": "Sinu tellimus töödeldakse.",
+          "medium": {
+            "one": "Teie tellimus on töödeldud. Eeldatav ooteaeg on %{count} minutit.",
+            "other": "Teie tellimus on töödeldud. Hinnanguline ooteaeg on %{count} minutit."
+          },
+          "long": "Saad e-kirja, kui su tellimus on töödeldud. Hetkel on palju tellimusi.",
+          "no_auto_refresh_html": "%{link}, kui sind ei suunata automaatselt edasi.",
+          "refresh_this_page": "Laadi see leht uuesti"
+        }
       }
     }
   },
