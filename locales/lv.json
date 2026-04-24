@@ -2432,8 +2432,184 @@
             "billing": "Rēķinu izrakstīšana"
           },
           "heading": {
-            "one": "Ir {{count}} kļūda:"
+            "one": "Ir {{count}} kļūda:",
+            "other": "Ir {{count}} kļūdas:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} kļūda {{section}}",
+            "other": "{{count}} kļūdas {{section}}"
           }
+        }
+      },
+      "review_address_modal": {
+        "title": "Pārbaudīt adresi",
+        "subtitle": {
+          "one": "Šis pasūtījums tiks nosūtīts uz adresi, ko norādījis {{merchant}}.",
+          "other": "Šis pasūtījums tiks nosūtīts uz adresi, ko norādījis {{merchant}}. Izvēlieties piegādes adresi."
+        },
+        "subtitle_no_match": "Šī adrese neatbilst nevienai no tavām saglabātajām adresēm.",
+        "subtitle_must_use": "Jūsu pasūtījums tiks nosūtīts uz šo adresi.",
+        "continue": "Turpināt ar šo adresi",
+        "use_saved_address": "Izmantot citu adresi",
+        "return_to_cart": "Atpakaļ uz iepirkumu grozu"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Lasīt",
+          "link_label": "vispārīgie noteikumi {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Jautājumi? Sarunājieties ar mums tērzēšanā"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Tuvumā ir %{count} noliktavas vieta",
+          "other": "Tuvumā ir %{count} noliktavas ar krājumu"
+        },
+        "toggle_location": "Mainīt atrašanās vietu",
+        "or": "NO",
+        "cancel": "Atcelt",
+        "your_location": "tava atrašanās vieta",
+        "search_button": "Veikalu meklēšana",
+        "no_stores_found": "Veikalu nav atrasts",
+        "could_not_resolve_address": "Nevar atrast jūsu adresi. Mēģiniet vēlreiz vai izmantojiet citu adresi",
+        "paginator": {
+          "accessibility_label": "Lappušu numerācija vietējai saņemšanai",
+          "previous": "Iepriekšējā lapa",
+          "next": "Nākamā lapa",
+          "label": {
+            "one": "%{first} - %{last} no %{count} veikaliem",
+            "other": "%{first} - %{last} no %{count} veikaliem"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Rādīt vēl %{count} atrašanās vietas",
+          "other": "Rādīt vēl %{count} atrašanās vietas"
+        },
+        "location_address_search_label": "Adrese",
+        "all_stores_far_away": {
+          "title": "Tuvākās atrašanās vietas atrodas vairāk nekā %{distance} attālumā",
+          "description": "Izvēlieties atrašanās vietu vai %{ship_to_address_link}",
+          "ship_to_address_link": "piegādes adrese",
+          "change_location_link": "Mainīt savu atrašanās vietu",
+          "title_with_specific_location": "Tuvākā vieta ar jūsu preci atrodas vairāk nekā %{distance} no %{location}.",
+          "title_with_item": {
+            "one": "Tuvākā vieta ar jūsu preci atrodas vairāk nekā %{distance} no %{location}.",
+            "other": "Tuvākā vieta ar jūsu precēm atrodas vairāk nekā %{distance} no %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Iepriekš izvēlētā vieta vairs nav pieejama",
+          "description": "Izvēlieties jaunu atrašanās vietu vai %{ship_to_address_link}",
+          "ship_to_address_link": "Sūtīt uz adresi"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Nosūti savus priekšmetus",
+          "search_elsewhere": "meklē citur",
+          "ship_items_or_search_elsewhere": "%{ship_items} no %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} vai adrese",
+        "location_closest": "Tuvākā vieta ar tavu preci",
+        "toggle_multiple_locations": "Vairāk nekā %{count} citas vietas",
+        "location_information_far_away": {
+          "one": "Ir %{count} vieta ar tavu preci",
+          "other": "Ir %{count} vietas ar tavu preci"
+        },
+        "location_nearby": {
+          "one": "Tuvumā ir %{count} vieta ar tavu preci",
+          "other": "Tuvumā ir %{count} vietas ar tavu preci"
+        },
+        "location_nearby_short": {
+          "one": "%{count} atrašanās vieta tuvumā ar jūsu preci",
+          "other": "%{count} tuvumā esošas vietas ar jūsu preci"
+        },
+        "location_far_away": {
+          "one": "%{count} atrašanās vieta ar jūsu preci",
+          "other": "%{count} atrašanās vietas ar jūsu preci"
+        },
+        "toggle_more_locations": {
+          "one": "Vēl %{count} cita vieta",
+          "other": "Vēl %{count} citas atrašanās vietas"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nav nevienas vietas ar tavu preci",
+          "other": "Nav atrašanās vietu ar tavām precēm"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nav atrašanās vietu %{country} ar jūsu preci",
+          "other": "Nav atrašanās vietu %{country} ar jūsu precēm"
+        },
+        "title": "Atrašanās vieta"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Visus rakstus saņemt klātienē",
+        "items_for_pickup": "Preces saņemšanai",
+        "delivery_method": "Sadalītā piegādes metode",
+        "delivery_method_menu": "Izvēlne sadalītajai piegādes metodei",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} no %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} no %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nevar ielādēt %{count} vienumus",
+              "other": "Nevarēja iegūt %{count} rakstus"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} prece(-es) nevar tikt nosūtīta(-as)",
+              "other": "%{count} preces nevar nosūtīt"
+            }
+          },
+          "remove_item": {
+            "one": "Noņemt preci",
+            "other": "Dzēst preces"
+          },
+          "ship_separately": {
+            "one": "izņemot piegādi",
+            "other": "izņemot piegādi"
+          },
+          "pick_them_up_in_store": {
+            "one": "saņemt veikalā",
+            "other": "saņemt veikalā"
+          }
+        },
+        "items_for_shipping": "Preces nosūtīšanai",
+        "items_moved_to_shipping_toast": "Preces, kuras nav iespējams saņemt, ir pārvietotas uz nosūtīšanu",
+        "cross_border": {
+          "modal": {
+            "heading": "Mainīt valsti?",
+            "content": "Tādējādi visi priekšmeti tiks atkal iestatīti nosūtīšanai. Jūsu saņemšanas un piegādes vietām jāatrodas vienā un tajā pašā valstī.",
+            "change_country": "Mainīt valsti"
+          },
+          "banner": "Tava piegādes metode ir atjaunināta"
+        }
+      },
+      "captcha": {
+        "title": "Izpildi CAPTCHA, lai turpinātu",
+        "errors": {
+          "not_solved": "Izpildi CAPTCHA, lai turpinātu"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Tava pasūtījuma apstrāde neizdevās, jo atlaides kods vairs nav derīgs. Pārbaudi pasūtījuma kopējo summu un mēģini vēlreiz."
+      },
+      "wallets": {
+        "return_to_store": "Atpakaļ uz veikalu",
+        "redirect_hint": "Jūs tiekat aicināts pieslēgties {{walletName}}.",
+        "logged_in": "Savienots ar {{email}}",
+        "shipping_line_label": "Sūtīšana",
+        "connect_shipping_methods": "{{method1}} un {{method2}}",
+        "payment_in_progress_title": "Maksājums tiek veikts",
+        "payment_in_progress_body": "Maksājums tiek apstrādāts. Pasūtījums drīz būs pabeigts.",
+        "call_to_action": "Maksājiet ar {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nav pieejams",
+            "description": "{{walletName}} nebija pieejams. Izmantojiet citu maksājuma veidu vai mēģiniet vēlāk vēlreiz.",
+            "instructions": "Radās problēma ar {{walletName}}. Atgriezieties veikalā un mēģiniet vēlreiz vai norēķinieties citā veidā.",
+            "unavailable_for_country": "{{walletName}} nav pieejams {{countryName}}. Izvēlieties citu maksājuma veidu, lai pabeigtu pirkumu"
+          },
+          "generic": "Radās problēma ar {{walletName}}. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu."
         }
       }
     }
