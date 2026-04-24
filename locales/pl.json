@@ -2929,11 +2929,85 @@
           "accessibility": {
             "status": {
               "validating": "Weryfikacja numeru identyfikacji podatku VAT jest przeprowadzana",
-              "valid": "Numer identyfikacyjny Btw jest ważny"
+              "valid": "Numer identyfikacyjny Btw jest ważny",
+              "applied": "Zwolnienie z podatku VAT zostało zastosowane",
+              "domestic": "Zwolnienie z podatku VAT nie zostało zastosowane",
+              "invalid_number": "Zwolnienie z BTW nie powiodło się",
+              "service_unavailable": "Nie można zweryfikować zwolnienia z VAT",
+              "service_error": "Nie można zweryfikować zwolnienia z VAT"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Ta płatność nie jest już wymagana. Przejdź do strony zamówienia, aby uzyskać więcej informacji.",
+        "paid": "Ta płatność została już złożona. Przejdź do strony zamówienia, aby uzyskać więcej informacji."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Wymagana jest interakcja rozszerzenia, aby zakończyć realizację zamówienia."
+        }
+      },
+      "too_many_requests": {
+        "title": "Zbyt wiele prób finalizacji zamówienia",
+        "body": "Poczekaj kilka minut i spróbuj ponownie z koszyka.",
+        "return_to_cart": "Powrót do koszyka"
       }
+    },
+    "pagination": {
+      "previous": "Poprzedni",
+      "next": "Następny"
+    },
+    "links": {
+      "powered_by_shopify": "Zasilane przez Shopify",
+      "learn_more": "Więcej informacji"
+    },
+    "feed": {
+      "more": "Morze"
+    },
+    "attributes": {
+      "password_confirmation": "potwierdzenie hasła",
+      "body": "tekst główny"
+    },
+    "addresses": {
+      "pincode": "Kod pocztowy",
+      "region": "Regio",
+      "province": "Prowincje",
+      "state": "Państwo",
+      "state_and_territory": "Państwo/Terytorium",
+      "county": "Prowincje",
+      "governorate": "Rząd"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Wyróżnione",
+        "az": "Alfabetycznie: A-Ż",
+        "za": "Alfabetycznie: Z-A",
+        "price_ascending": "Cena: od najniższej do najwyższej",
+        "price_descending": "Cena: od najwyższej do najniższej",
+        "date_ascending": "Data: stary na nowy",
+        "date_descending": "Data: od nowego do starego",
+        "most_relevant": "Najbardziej odpowiednie"
+      }
+    },
+    "errors": {
+      "blank": "nie może być puste",
+      "credit_card_session_expired": "Autoryzacja karty kredytowej wygasła. Wprowadź ponownie dane płatności. Z Twojej karty nie pobrano żadnych środków.",
+      "empty": "nie może być puste",
+      "invalid_email": "musi być prawidłowy adres e-mail",
+      "discount_disabled": "Ten rabat jest zablokowany",
+      "discount_expired": "Ten rabat nie jest już ważny",
+      "discount_limit_reached": "Ten rabat osiągnął limit użycia",
+      "discount_not_found": "Nie można znaleźć ważnego rabatu odpowiadającego kodowi",
+      "customer_already_used_once_per_customer_discount_notice": "Ten rabat osiągnął limit użycia",
+      "gift_card_already_applied": "Kod został już zastosowany do twojego koszyka",
+      "gift_card_currency_mismatch": "Twoja karta podarunkowa jest w %{gift_card_currency}. Skontaktuj się z nami, abyśmy mogli ją ponownie wydać w %{checkout_currency}.",
+      "gift_card_depleted": "Na tej karcie podarunkowej nie ma już środków",
+      "gift_card_disabled": "Bon podarunkowy jest zablokowany",
+      "gift_card_expired": "Bon podarunkowy wygasł",
+      "invalid": "jest nieprawidłowy",
+      "taken": "jest już używany",
+      "too_short": "jest za krótki (minimum to %{count} znaków)"
     }
   }
 }
