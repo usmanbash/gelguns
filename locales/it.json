@@ -2446,7 +2446,89 @@
             "cannot_be_picked_up": {
               "one": "Impossibile recuperare %{count} articoli",
               "other": "Impossibile recuperare %{count} articoli"
+            },
+            "cannot_be_shipped": {
+              "one": "Non è possibile spedire %{count} articoli",
+              "other": "Non è possibile spedire %{count} articoli"
             }
+          },
+          "ship_separately": {
+            "one": "spedizione separata",
+            "other": "spedizione separata"
+          },
+          "pick_them_up_in_store": {
+            "one": "ritirare in negozio",
+            "other": "ritirare in negozio"
+          }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "In questo modo tutti gli articoli verranno nuovamente impostati per la spedizione. I tuoi punti di ritiro e spedizione devono trovarsi nello stesso paese.",
+            "change_country": "Modifica paese"
+          },
+          "banner": "Il tuo metodo di consegna è stato aggiornato"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Il tuo ordine non può essere elaborato perché il codice sconto non è più disponibile. Controlla il totale del tuo ordine e riprova."
+      },
+      "wallets": {
+        "return_to_store": "Torna al negozio",
+        "redirect_hint": "Ti viene chiesto di accedere a {{walletName}}.",
+        "logged_in": "Collegato con {{email}}",
+        "payment_in_progress_body": "Il pagamento è in corso di elaborazione. L'ordine è quasi completato.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} non è disponibile",
+            "description": "{{walletName}} non era disponibile. Usa un altro metodo di pagamento o riprova più tardi.",
+            "instructions": "Si è verificato un problema con {{walletName}}. Torna al negozio e riprova oppure effettua il pagamento con un altro metodo.",
+            "unavailable_for_country": "{{walletName}} non è disponibile in {{countryName}}. Seleziona un altro metodo di pagamento per completare il tuo acquisto"
+          },
+          "generic": "Si è verificato un problema con {{walletName}}. Riprova o usa un altro metodo di pagamento.",
+          "terminal": "Si è verificato un problema con {{walletName}}. Usa un altro metodo di pagamento.",
+          "detour": {
+            "price_change": "I prezzi di alcuni articoli sono cambiati. Chiudi {{walletName}} per controllare il tuo ordine e riprova.",
+            "queue": "Sei in fila per il checkout. Chiudi {{walletName}} per continuare.",
+            "currency_change": "Non puoi usare un altro indirizzo con {{walletName}}. Usa l'indirizzo originale o prova un altro metodo di pagamento."
+          },
+          "unsupported": {
+            "address": "Il commerciante non può consegnare all'indirizzo di spedizione che hai selezionato.",
+            "wallet_is_unavailable": "Non puoi usare {{walletName}} con questo indirizzo. Seleziona un altro indirizzo o chiudi {{walletName}} per completare l'acquisto."
+          },
+          "outdated": {
+            "shipping_method": "Le opzioni di spedizione per il tuo ordine sono state modificate. Controlla la tua selezione.",
+            "payment_terms": "Le condizioni di pagamento sono state modificate. Controlla il tuo ordine"
+          },
+          "invalid": {
+            "shipping_address": "Inserisci un indirizzo di consegna valido",
+            "email": "Inserisci un indirizzo e-mail valido",
+            "zone": "Inserisci uno stato/provincia valido",
+            "postal_code": "Inserisci un CAP o codice postale valido",
+            "billing_must_match_shipping": "Deve corrispondere all'indirizzo di consegna.",
+            "billing_zone": "Inserisci uno stato/provincia valido per l'indirizzo di fatturazione",
+            "billing_zip": "Inserisci un CAP o codice postale valido per l'indirizzo di fatturazione"
+          },
+          "missing": {
+            "first_name": "Inserisci un nome",
+            "last_name": "Inserisci un cognome",
+            "address1": "Inserisci un indirizzo",
+            "address2": "Inserisci un numero di appartamento o di suite, ecc.",
+            "city": "Inserisci un luogo",
+            "country": "Seleziona un paese/regione",
+            "zip": "Inserisci un CAP o codice postale",
+            "billing_address2": "Inserisci un numero di appartamento o di suite ecc. per l'indirizzo di fatturazione",
+            "billing_city": "Inserisci un luogo per l'indirizzo di fatturazione",
+            "billing_province": "Seleziona uno stato/provincia per l'indirizzo di fatturazione",
+            "billing_zip": "Seleziona un CAP o codice postale per l'indirizzo di fatturazione",
+            "contact_info": "Inserisci i dati di contatto"
+          },
+          "formatting": {
+            "name_contains_emojis": "Rimuovere le emoji dal tuo nome",
+            "postal_code_contains_emoji": "Rimuovere le emoji dal tuo codice postale"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di consegna non è valido. Seleziona un altro indirizzo o usa un nuovo indirizzo.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} non è attualmente disponibile per il tuo ordine. Scegli un altro metodo di pagamento per procedere con l'acquisto."
           }
         }
       }
