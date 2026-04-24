@@ -219,8 +219,8 @@
       },
       "max_price": "O preço mais alto é {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} de {{ count }} produto",
-        "other": "{{ product_count }} de {{ count }} produtos",
+        "one": "{{ product_count }} desconto em {{ count }} produtos",
+        "other": "{{ product_count }} desconto em {{ count }} produtos",
         "many": "{{ product_count }} de {{ count }} produtos"
       },
       "product_count_simple": {
@@ -236,12 +236,12 @@
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtros selecionados)",
       "show_more": "Mostrar mais",
       "show_less": "Mostrar menos",
-      "filter_and_operator_subtitle": "Corresponder todos"
+      "filter_and_operator_subtitle": "Combinar tudo"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Não foram encontrados resultados para \"{{ terms }}\". Verifique a ortografia ou utilize uma palavra ou frase diferente.",
+      "no_results": "Nenhum resultado encontrado para “{{ terms }}”. Verifique a ortografia ou utilize outra palavra ou frase.",
       "page": "Página",
       "results_with_count": {
         "one": "{{ count }} resultado",
@@ -250,10 +250,10 @@
       },
       "title": "Resultados da pesquisa",
       "products": "Produtos",
-      "search_for": "Procurar por \"{{ terms }}\"",
+      "search_for": "Procurar por '{{ terms }}'",
       "results_with_count_and_term": {
         "one": "{{ count }} resultado encontrado para “{{ terms }}”",
-        "other": "{{ count }} resultado encontrado para “{{ terms }}”",
+        "other": "{{ count }} resultados encontrados para “{{ terms }}”",
         "many": "{{ count }} resultado encontrado para “{{ terms }}”"
       },
       "results_pages_with_count": {
@@ -275,16 +275,16 @@
       "pages": "Páginas"
     },
     "cart": {
-      "cart": "Carrinho"
+      "cart": "Carrinho de compras"
     },
     "contact": {
       "form": {
         "name": "Nome",
-        "email": "E-mail",
+        "email": "Correio eletrónico",
         "phone": "Número de telefone",
-        "comment": "Comentário",
+        "comment": "Resposta",
         "send": "Enviar",
-        "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
+        "post_success": "Obrigado por nos contactar. Responderemos o mais breve possível.",
         "error_heading": "Ajuste o seguinte:",
         "title": "Formulário de contacto"
       }
@@ -407,7 +407,7 @@
     }
   },
   "localization": {
-    "country_label": "País/região",
+    "country_label": "Território/região",
     "language_label": "Idioma",
     "update_language": "Atualizar idioma",
     "update_country": "Atualizar país/região",
@@ -418,9 +418,9 @@
   "customer": {
     "account": {
       "title": "Conta",
-      "details": "Detalhes da conta",
+      "details": "Dados da conta",
       "view_addresses": "Ver endereços",
-      "return": "Regressar aos detalhes da conta"
+      "return": "Voltar para Dados da Conta"
     },
     "account_fallback": "Conta",
     "activate_account": {
@@ -433,97 +433,97 @@
     },
     "addresses": {
       "title": "Endereços",
-      "default": "Predefinição",
+      "default": "Padrão",
       "add_new": "Adicionar um novo endereço",
       "edit_address": "Editar endereço",
       "first_name": "Nome próprio",
       "last_name": "Apelido",
       "company": "Empresa",
-      "address1": "Endereço1",
+      "address1": "Endereço 1",
       "address2": "Endereço 2",
-      "city": "Localidade",
-      "country": "País/região",
+      "city": "Localização",
+      "country": "Território/região",
       "province": "Província",
       "zip": "Código postal",
-      "phone": "Telefone",
-      "set_default": "Selecionar como endereço predefinido",
-      "add": "Adicionar endereço",
-      "update": "Atualizar endereço",
+      "phone": "Número de telefone",
+      "set_default": "Definir como endereço padrão",
+      "add": "Adicionar morada",
+      "update": "Atualizar morada",
       "cancel": "Cancelar",
       "edit": "Editar",
-      "delete": "Eliminar",
-      "delete_confirm": "Tem a certeza que deseja eliminar este endereço?"
+      "delete": "Remover",
+      "delete_confirm": "Tem a certeza de que quer eliminar este endereço?"
     },
     "log_in": "Iniciar sessão",
     "log_out": "Terminar sessão",
     "login_page": {
       "cancel": "Cancelar",
       "create_account": "Criar conta",
-      "email": "E-mail",
-      "forgot_password": "Esqueceu-se da sua palavra-passe?",
+      "email": "Correio eletrónico",
+      "forgot_password": "Esqueceu-se da palavra-passe?",
       "guest_continue": "Continuar",
-      "guest_title": "Continuar como visitante",
+      "guest_title": "Continuar como convidado",
       "password": "Palavra-passe",
-      "title": "Iniciar sessão",
+      "title": "Dados de acesso",
       "sign_in": "Iniciar sessão",
-      "submit": "Submeter",
-      "alternate_provider_separator": "ou"
+      "submit": "Enviar",
+      "alternate_provider_separator": "de"
     },
     "order": {
       "title": "Encomenda {{ name }}",
-      "date_html": "Efetuado a {{ date }}",
+      "date_html": "Publicado em {{ date }}",
       "cancelled_html": "Encomenda cancelada em {{ date }}",
       "cancelled_reason": "Motivo: {{ reason }}",
-      "billing_address": "Endereço de faturação",
+      "billing_address": "Morada de faturação",
       "payment_status": "Estado do pagamento",
-      "shipping_address": "Endereço de envio",
-      "fulfillment_status": "Estado de processamento",
+      "shipping_address": "Endereço de entrega",
+      "fulfillment_status": "Estado de cumprimento",
       "discount": "Desconto",
       "shipping": "Envio",
-      "tax": "Taxa",
+      "tax": "Imposto",
       "product": "Produto",
-      "sku": "SKU",
+      "sku": "Referência",
       "price": "Preço",
       "quantity": "Quantidade",
       "total": "Total",
-      "fulfilled_at_html": "Concluído em {{ date }}",
-      "track_shipment": "Rastrear encomenda",
-      "tracking_url": "Ligação de rastreio",
+      "fulfilled_at_html": "Concluído {{ date }}",
+      "track_shipment": "Envio por correio normal",
+      "tracking_url": "Volglink",
       "tracking_company": "Transportadora",
       "tracking_number": "Número de rastreio",
       "subtotal": "Subtotal",
-      "total_duties": "Encargos",
+      "total_duties": "Direitos aduaneiros",
       "total_refunded": "Reembolsado"
     },
     "orders": {
-      "title": "Histórico de encomendas",
+      "title": "Resumo da encomenda",
       "order_number": "Encomenda",
-      "order_number_link": "Número da encomenda {{ number }}",
+      "order_number_link": "Número de encomenda {{ number }}",
       "date": "Data",
       "payment_status": "Estado do pagamento",
-      "fulfillment_status": "Estado de processamento",
+      "fulfillment_status": "Estado de cumprimento",
       "total": "Total",
-      "none": "Ainda não efetuou nenhuma encomenda."
+      "none": "Ainda não efetuaste nenhuma encomenda."
     },
     "recover_password": {
-      "title": "Repor palavra-passe",
-      "subtext": "Vamos enviar-lhe um e-mail para repor a sua palavra-passe",
-      "success": "Enviámos-lhe um e-mail com uma ligação para atualizar a sua palavra-passe."
+      "title": "Redefinir palavra-passe",
+      "subtext": "Enviamos-lhe um e-mail para redefinir a sua palavra-passe",
+      "success": "Enviámos-te um e-mail com um link para redefinires a tua palavra-passe."
     },
     "register": {
       "title": "Criar conta",
       "first_name": "Nome próprio",
       "last_name": "Apelido",
-      "email": "E-mail",
+      "email": "Correio eletrónico",
       "password": "Palavra-passe",
       "submit": "Criar"
     },
     "reset_password": {
-      "title": "Repor palavra-passe da conta",
-      "subtext": "Insira uma nova palavra-passe",
+      "title": "Redefinir palavra-passe da conta",
+      "subtext": "Introduza uma nova palavra-passe",
       "password": "Palavra-passe",
       "password_confirm": "Confirmar palavra-passe",
-      "submit": "Repor palavra-passe"
+      "submit": "Redefinir palavra-passe"
     }
   },
   "gift_cards": {
