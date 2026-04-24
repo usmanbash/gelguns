@@ -2694,8 +2694,102 @@
           },
           "formatting": {
             "name_contains_emojis": "Usuń emotikonę z nazwy",
-            "postal_code_contains_emoji": "Usuń emotikony z twojego kodu pocztowego"
+            "postal_code_contains_emoji": "Usuń emotikony z twojego kodu pocztowego",
+            "first_name_too_long": "Imię zawiera zbyt wiele liter",
+            "last_name_too_long": "Nazwisko zawiera zbyt wiele liter"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Twój adres dostawy jest nieprawidłowy. Wybierz inny adres lub użyj nowego adresu.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} jest obecnie niedostępny dla Twojego zamówienia. Wybierz inną metodę płatności, aby kontynuować zakup."
+          },
+          "processing_error_checkout_as_guest": "Wystąpił problem z przetworzeniem Twojej płatności. Spróbuj ponownie lub {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Zostaniesz przekierowany do {{walletName}}, aby dokończyć zakup",
+        "return_to_checkout": "Powrót do kasy",
+        "scrim": {
+          "and_return_to_checkout": "i wróć do kasy"
+        },
+        "recovery_notice": "Wystąpił błąd w danych zamówienia. Zaktualizuj swoje dane, aby dokończyć płatność."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Najpierw sprawdź swoje dane kontaktowe, zanim zakończysz płatność"
+      },
+      "store_credit_errors": {
+        "generic_error": "Wystąpił problem z twoim saldem sklepowym. Spróbuj ponownie lub odśwież stronę."
+      },
+      "note": {
+        "length_exceeds_maximum": "Skróć uwagę do maksymalnie 5000 znaków."
+      },
+      "billing": {
+        "billing_address_title": "Faktura do",
+        "same_as_shipping": "Takie samo jak adres dostawy",
+        "address_more": "Więcej działań dla tego adresu",
+        "billing_address_rollup_accessibility_label": "Opcje naliczania opłat"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Bon podarunkowy został już zastosowany do twojego zamówienia",
+          "insufficient_funds": "Na tej karcie podarunkowej nie ma już środków.",
+          "expired": "Ten bon podarunkowy wygasł",
+          "not_available": "Ten bon podarunkowy nie jest już dostępny",
+          "invalid": "Wprowadź ważny bon podarunkowy",
+          "currency_mismatch": "Akceptowane są tylko bony podarunkowe w %{shop_currency}",
+          "generic": "Bon podarunkowy nie może zostać dodany do kasy",
+          "throttle_limit_exceeded": "Osiągnąłeś maksymalną liczbę prób. Spróbuj ponownie później.",
+          "no_longer_available": "Ten bon podarunkowy nie może być już użyty przy tym kasie"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Wystąpił problem podczas ładowania Shop Pay",
+          "try_again_later": "Sprawdź swoje połączenie lub zamknij to okno i spróbuj ponownie za kilka chwil.",
+          "checkout_has_expired": "Twój czas na dokonanie płatności wygasł. Zamknij to okno i spróbuj ponownie zapłacić w {{shopName}}."
+        },
+        "return_to_store_simple": "Powrót do sklepu",
+        "title": "Płatność Shop Pay"
+      },
+      "company_location": {
+        "location_title": "Lokalizacja firmy"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Cena bonu podarunkowego musi być wyższa niż 0.",
+            "subtotal_limit_reached": "Osiągnięto maksymalną wartość dla pozycji zamówienia.",
+            "gift_card_price_must_not_exceed_limit": "Cena karty podarunkowej nie może przekraczać %{gift_card_limit}.",
+            "signature_mismatch": "Nieprawidłowy podpis towarów dla reguły %{stable_id}."
           }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nie skopiowano"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Zakończ zakup za pomocą kodu {{paymentMethod}}",
+        "timer_message": "Masz jeszcze {{timeLeft}} na dokonanie płatności",
+        "qr_code": {
+          "instructions": "Zakończ zakup za pomocą kodu {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Potwierdź płatność w swojej aplikacji, aby zakończyć ten zakup"
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Wystąpił problem podczas przetwarzania twojego zamówienia. Spróbuj ponownie za kilka minut."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Instrukcja towaru %{position} %{name} zawiera pusty identyfikator magazynu.",
+        "invalid_stable_id_target": "Instrukcja towaru %{position} %{name} odnosi się do stable-ID %{stable_id}, ale ten stable-ID nie znajduje się w wierszach towarów.",
+        "duplicate_variant_id": "Instrukcja towaru %{position} %{name} zawiera podwójny identyfikator wariantu %{variant_id}.",
+        "invalid_variant_id_target": "Instrukcja towaru %{name} odnosi się do identyfikatora wariantu %{variant_id}, ale ten wariant nie znajduje się w liniach towarowych.",
+        "invalid_price_override_target": "Instrukcja nadpisania ceny towarów dla pozycji zamówienia %{stable_id} jest nieprawidłowa, ponieważ jest to składnik pakietu.",
+        "discount_not_supported": "Instrukcja dla sprzedawców dotycząca stosowania rabatu na towary nie obsługuje tego rodzaju zniżki."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ten produkt nie jest dostępny do wysyłki do %{location_name}.",
+          "some_products_other": "Te produkty nie są dostępne do wysyłki do %{location_name}.",
+          "all_products_one": "Produkt w Twoim koszyku nie jest dostępny do wysyłki do %{location_name}."
         }
       }
     }

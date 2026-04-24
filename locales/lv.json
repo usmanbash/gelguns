@@ -3858,7 +3858,71 @@
     "order_details": {
       "addresses_section_title": "Rēķinu izrakstīšana un nosūtīšana",
       "billing_address": "Rēķina adrese",
-      "card_ending_with": "beidzas ar {{lastDigits}}"
+      "card_ending_with": "beidzas ar {{lastDigits}}",
+      "contact": "Kontaktpersona",
+      "hide_items": "Slēpt rakstus",
+      "loading": "Pasūtījuma dati tiek ielādēti",
+      "loading_finished_accessibility_message": "Pasūtījuma dati ir ielādēti",
+      "payment": {
+        "status_in_review": "Maksājums jāmaksā pēc izvērtēšanas",
+        "status_unpaid": "Maksājums jāveic līdz {{date}}",
+        "title": "Apmaksa",
+        "card_payment_details": "beidzas ar {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Apmaksāts ar Shop Pay termiņmaksājumiem",
+          "view_schedule": "Skatīt plānojumu"
+        },
+        "gift_card_payment_details": "beidzas ar {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Naudas pārvedums - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Naudas atmaksa - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankas depozīts - {{formattedTransactionAmount}}",
+          "manual": "Rokasgrāmata - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Veikala kredīts - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Rādīt visu",
+          "show_less": "Rādīt mazāk",
+          "details": "Dati",
+          "payment_details": "Maksājuma dati"
+        },
+        "emv_details": {
+          "auth": "AUTORS:",
+          "aid": "PALĪDZĪBA:",
+          "source": "Izmantojiet šo izkārtojumu, lai izveidotu {{count}} jaunas lapas."
+        },
+        "payment_type": {
+          "gift_card": "Dāvanu karte",
+          "store_credit": "Veikala kredīts",
+          "money_order": "Pasta pārvedums",
+          "cash_on_delivery": "Nauda atpakaļ",
+          "bank_deposit": "Bankas pārskaitījums",
+          "manual": "Rokas vadība"
+        }
+      },
+      "shipping": {
+        "address": "Piegādes adrese",
+        "address_map_marker": "Piegādes adrese",
+        "method": "Sūtīšanas veids",
+        "summary": "Sūtīt",
+        "free": "Bezmaksas",
+        "free_shipping_discount": "Bezmaksas piegāde",
+        "one_time": "Vienreizēja sūtīšana",
+        "subscription": "Sūtīšana pēc abonementa"
+      },
+      "show_items": "Rādīt rakstus",
+      "subtitle": "Apstiprināts: {{date}}",
+      "subtotal": "Starpsumma",
+      "summary_list_title_accessibility_label": "Pasūtīt preces",
+      "summary_title": "Pasūtījuma pārskats",
+      "summary_totals_title_accessibility_label": "Kopējais pasūtījums",
+      "taxes": "Nodokļi",
+      "title": "Pasūtījums {{name}}",
+      "total": "Kopā",
+      "unit_price": "{{price}}/st",
+      "location": "Atrašanās vieta",
+      "not_applicable": "nav piemērojams",
+      "fully_refunded_label": "ATMAKSĀTS"
     }
   }
 }

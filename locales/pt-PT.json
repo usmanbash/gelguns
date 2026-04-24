@@ -1564,7 +1564,67 @@
         "business_customer_with_bank_account_vaulting_payment_label": "Guarde este método de pagamento no checkout e autorize %{company} a cobrar a sua conta para futuras compras que aprovar para esta localização, até cancelar. Todos os contactos atribuídos a esta localização podem usar o método de pagamento.",
         "new_bank_account_disclaimer": "Ao concluir a sua encomenda, autoriza %{shop_name} a debitar o montante indicado na data mencionada da conta abaixo através de ACH.",
         "bank_account_disclaimer": "Pode demorar até 4 dias úteis a processar os pagamentos ACH.",
-        "bank_account_vaulted_company_location": "Conta bancária guardada para este local"
+        "bank_account_vaulted_company_location": "Conta bancária guardada para este local",
+        "bank_account_generic_error": "Não foi possível adicionar a conta bancária. Por favor, tente novamente mais tarde.",
+        "discount_codes_removed_summary": {
+          "other": "Foram removidos %{count} códigos de desconto"
+        },
+        "default": "Padrão",
+        "continue_to_guest_checkout": "Como convidado para finalizar a compra",
+        "discount_codes_modified_summary": {
+          "one": "%{count} código de desconto foi alterado",
+          "other": "Foram alterados %{count} códigos de desconto"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} código de desconto foi removido ou alterado",
+          "other": "Foram removidos ou alterados %{count} códigos de desconto"
+        }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Saldo atual %{amount}",
+        "billing_address_title": "Morada de faturação"
+      },
+      "field_errors": {
+        "handle_email_invalid": "Introduza um endereço de correio eletrónico válido",
+        "email_invalid": "Introduza um endereço de correio eletrónico válido",
+        "email_or_phone_blank": "Introduza o endereço de correio eletrónico ou número de telefone",
+        "email_or_phone_invalid": "Introduza um endereço de correio eletrónico válido ou um número de telemóvel",
+        "address_first_name_blank": "Introduza um nome próprio",
+        "address_address2_blank": "Introduza um número de apartamento ou de suite, etc.",
+        "address_city_blank": "Introduza uma cidade",
+        "address_country_blank": "Selecione um país/região",
+        "address_country_not_supported": "Não enviamos para este país/região. Introduza um novo endereço de entrega e tente novamente.",
+        "address_province_blank": "Selecione um estado/província",
+        "address_company_blank": "Introduza um nome de empresa",
+        "address_zip_blank": "Introduza um código postal ou CEP",
+        "credit_card_name_blank": "Introduza o seu nome tal como aparece no seu cartão",
+        "credit_card_name_invalid": "Introduza o seu nome tal como aparece no seu cartão",
+        "credit_card_number_invalid": "Introduza um número de cartão válido",
+        "credit_card_start_invalid": "Introduza uma data de início válida para o cartão",
+        "credit_card_start_month_invalid": "Introduza um mês de início válido para o cartão",
+        "credit_card_start_year_invalid": "Introduza um ano inicial válido para o mapa",
+        "credit_card_verification_value_blank": "Introduza o CVV/CVC ou código de segurança do seu cartão",
+        "delivery_line_detail_changed": "Alguns dados de entrega podem ter sido alterados. Verifique o seu método de envio e tente novamente.",
+        "reduction_code_code_not_found": "Introduza um código de desconto ou vale-presente válido",
+        "reduction_code_gift_card_code_invalid": "Introduza um vale-presente válido",
+        "reduction_code_gift_card_unusable": "Não podes usar um vale-presente para comprar outro vale-presente",
+        "shipping_line_phone_blank": "Introduza um número de telefone para utilizar este método de entrega",
+        "gift_card_already_applied": "Este vale-presente já foi aplicado à sua encomenda",
+        "gift_card_disabled": "Este vale-presente já não está disponível",
+        "gift_card_expired": "Este vale-presente expirou",
+        "gift_card_depleted": "Não há mais saldo neste vale-presente",
+        "gift_card_currency_mismatch": "Só podem ser utilizados vales-presente em %{checkout_currency} para esta encomenda",
+        "payment_gateway_needs_paid_plan_error": "Este método de pagamento não pode ser utilizado nesta loja de momento",
+        "payment_gateway_incompatible_with_multi_currency": "Pague com cartão de crédito para liquidar isto na sua moeda local",
+        "physical_gift_card_invalid_quantity": "As regras de encomenda para vales-presente físicos devem ter uma quantidade que corresponda ao número de códigos de vale-presente.",
+        "physical_gift_card_duplicate_code": "A regra de encomenda para vale-presente físico contém código duplicado.",
+        "physical_gift_card_invalid_code": "O código do vale-presente físico é inválido.",
+        "payment_gateway_not_in_test_mode": "não foi concebido para encomendas de teste. Esta loja não pode aceitar encomendas reais nem processar pagamentos reais.",
+        "tips_invalid_tip_amount": "Introduza uma gorjeta até %{amount}",
+        "payment_gateway_unsupported_for_subscriptions": "Este método de pagamento não está disponível para encomendas de subscrição.",
+        "address_first_name_too_long": "O nome próprio é demasiado longo (o máximo é 255 caracteres)",
+        "address_last_name_too_long": "O apelido é demasiado longo (o máximo é 255 caracteres)",
+        "address_address1_too_long": "A primeira linha do endereço é demasiado longa (o máximo é 255 caracteres)"
       }
     }
   }
