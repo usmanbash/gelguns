@@ -1478,7 +1478,79 @@
             "entity": "Vienetas",
             "buyer_action_info": "Jūsų mokėjimas už %{amount_due} yra neapmokėtas."
           }
-        }
+        },
+        "purchase_options_agreement_label": "Vienas ar daugiau prekių jūsų krepšelyje yra atidėtas pirkimas, prenumerata arba pasikartojantis pirkimas. Tęsdami mokėjimą, sutinkate, kad jūsų mokėjimo būdas bus automatiškai nuskaičiuojamas už kainą ir dažnumą, nurodytus šioje puslapio dalyje, kol prenumerata pasibaigs arba ją atšauksite. Visoms atšaukimams taikomas %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Bendra suma gali būti nurodyta be mokesčių, siuntimo, atidėtų mokesčių ir kai kurių nuolaidų. Pereikite prie atsiskaitymo, kad sužinotumėte šiandien mokėtiną sumą."
+        },
+        "purchase_options_agreement_label_html": "Suprantu, kad vienas ar daugiau mano krepšelio prekių yra atidėtas pirkimas, prenumerata arba pasikartojantis pirkimas. Tęsiant sutinku su\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atšaukimo politika</a>\nir suteikiu leidimą apmokestinti mano mokėjimo būdą už kainas, dažnumą ir datas, nurodytas šiame puslapyje, kol mano užsakymas bus įvykdytas arba aš atšauksiu, jei tai leidžiama.",
+        "order_covered_by_store_credit_notice": "Užsakymas apmokamas naudojant tavo parduotuvės kreditą.",
+        "order_covered_by_redeemables_notice": "Užsakymas apmokėtas.",
+        "store_credit": {
+          "apply_label": "Pritaikyti parduotuvės kreditą",
+          "manage_label": "Valdyti parduotuvės kreditą",
+          "buying_gift_card": "Su parduotuvės kreditu negalima įsigyti dovanų kupono",
+          "no_fixed_selling_plans": "Negalite naudoti parduotuvės kredito kartu su atidėto pirkimo galimybėmis"
+        },
+        "clear": "Žinios",
+        "billing_must_match_shipping_notice": "Jūsų mokėjimo metodo sąskaitos adresas turi sutapti su pristatymo adresu.",
+        "same_billing_address_checkbox_label": "Pristatymo adresas ir sąskaitos adresas yra tas pats",
+        "location_billing_address_label": "Sąskaitos adresas vietoje",
+        "fact_billing_address_label": "Sąskaitos adresas",
+        "location_shipping_address_label": "Pristatymo adresas iš vietos",
+        "brand_not_available": "Ši parduotuvė nepriima {{brand}}. Mokėkite kita kortele.",
+        "shipping_rate_updated": "Galimi siuntimo būdai atnaujinti. Patvirtinkite savo pasirinkimą prieš atsiskaitydami.",
+        "billing_address_invalid_phone": "Atnaujinkite telefono numerį sąskaitos adrese {{label}} {{last_digits}}, kad galėtumėte tęsti.",
+        "billing_address_invalid_phone_no_card": "Atnaujinkite telefono numerį sąskaitos adrese, kad galėtumėte tęsti.",
+        "preview_not_available": {
+          "title": "Pavyzdys neprieinamas",
+          "content": "Nerimaukite, ši greita atsiskaitymo sistema veikia jūsų klientams."
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Įveskite galiojančią išdavimo datą",
+              "issue_number": "Įveskite galiojantį išdavimo numerį"
+            },
+            "invalid": {
+              "verification_value": "Įveskite galiojantį CVV/CVC arba saugos kodą"
+            }
+          }
+        },
+        "simulated_checkout": "Pavyzdys netrukus pasirodys",
+        "vaulting_agreement_label": "Išsaugokite savo mokėjimo duomenis %{company} greitesniam atsiskaitymui.",
+        "business_customer_vaulting_payment_label": "Išsaugokite šį mokėjimo būdą atsiskaitymo metu ir suteikite %{company} leidimą naudoti šią kortelę ateities pirkimams šioje vietoje. Visi kontaktiniai asmenys, priskirti šiai vietai, gali naudoti šį mokėjimo būdą.",
+        "purchase_options_and_vaulting_agreement_label": "Vienas ar daugiau prekių krepšelyje yra atidėtas arba prenumeratos pirkimas. Jei tęsiate apmokėjimą, sutinkate, kad mes automatiškai nuskaičiuosime pirkimo sumas per jūsų mokėjimo būdą pagal šioje puslapio nurodytą kainą ir dažnumą, kol pasibaigs terminas arba kol patys atšauksite. Visoms atšaukimams taikoma %{cancellation_policy_label}.",
+        "saved_credit_card": "Išsaugota kreditinė kortelė",
+        "saved_credit_cards_modal": {
+          "done": "Paruošta"
+        },
+        "expired_cards_info": {
+          "one": "Yra %{count} pasibaigusi kortelė. Galite ją peržiūrėti ir redaguoti savo paskyroje.",
+          "other": "Yra %{count} pasibaigusių kortelių. Jas galite peržiūrėti ir redaguoti savo paskyroje."
+        },
+        "local_payment_method_receiver_notice": "Įvykdžius užsakymą, gausite mokėjimo duomenis. Atlikite mokėjimą per {{dueDays}} dienas bankomate arba internetu.",
+        "order_edit_banner_title": "Mokėjimas už {{amount_owed}} yra privalomas",
+        "order_edit_banner_subtitle": "Jūsų užsakymas {{order_number}} atnaujintas. Peržiūrėkite šiuos pakeitimus ir apmokėkite, kad patvirtintumėte užsakymą.",
+        "order_edit_banner_multiple_items_added": "{{amount}} pridėta",
+        "order_edit_banner_single_item_removed": "Ištrinta",
+        "order_edit_banner_multiple_items_removed": "{{amount}} pašalinta",
+        "gift_card_wrapper": {
+          "heading": "Dovanų kuponas",
+          "apply_gift_card_label": "Pritaikyti dovanų kuponą",
+          "payment_tag": "Dovanų kuponas",
+          "apply_another_gift_card_label": "Panaudoti kitą dovanų kuponą",
+          "gift_card_label": "Dovanų kuponas %{identifier}",
+          "add_label": "Pridėti dovanų kuponą",
+          "manage_label": "Dovanų kuponų valdymas"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Patvirtinimas dėl pritaikytų vietinių mokėjimų"
+        },
+        "markets_pro_disclaimer_label": "Pateikdami užsakymą, jūs sutinkate su pirkimu iš Global-e kaip registruoto prekybininko, laikantis %{markets_pro_terms} ir %{privacy_policy} iš Global-e, ir dalijatės savo duomenimis su %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "bendrosios sąlygos",
+        "markets_pro_disclaimer_privacy_policy": "privatumo politika",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Bendrosios sąlygos prekybininkams, įrašytiems į sąrašą"
       }
     }
   }

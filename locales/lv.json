@@ -248,7 +248,83 @@
         "autocomplete_zero_item": "Nav pieejamu rakstu",
         "autocomplete_powered_by_google": "Iespējots ar {{brandName}}",
         "submit": "Iesniegt",
-        "processing": "Apstrāde..."
+        "processing": "Apstrāde...",
+        "stepper": {
+          "increase": "{{type}} pieaugums",
+          "decrease": "Paņemšana no {{type}}",
+          "minimum_reached": "Minimums sasniegts {{value}}",
+          "maximum_reached": "Maksimālais furgona {{value}} sasniegts"
+        },
+        "remove_item": "Noņemt %{label}",
+        "remove_tag": "Noņemt birku",
+        "dates": {
+          "weekdays": {
+            "monday": "pirmdiena",
+            "tuesday": "otrdiena",
+            "wednesday": "trešdiena",
+            "thursday": "ceturtdiena",
+            "friday": "piektdiena",
+            "saturday": "sestdien",
+            "sunday": "svētdiena"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "darīt.",
+            "friday": "vr.",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "janvāris",
+            "february": "februāris",
+            "march": "marts",
+            "april": "aprīlis",
+            "may": "mei",
+            "june": "jūnijs",
+            "july": "jūlijs",
+            "august": "augusts",
+            "september": "septembris",
+            "october": "oktobris",
+            "november": "novembris",
+            "december": "decembris"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Rādīt iepriekšējo mēnesi, {{month}} {{year}}",
+          "show_next_month": "Rādīt nākamajā mēnesī, {{month}} {{year}}",
+          "range_start": "Sākt diapazonu",
+          "in_range": "Sasniedzams",
+          "range_end": "Sasniegts beigu punkts"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} un {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} un {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} no {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} no {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klāsters ar {{number}} atzīmēšanas punktiem",
+            "other": "Kopa ar {{number}} atzīmēšanas punktiem"
+          }
+        },
+        "sheet": {
+          "expand": "Izvērst"
+        },
+        "confirm_order_button_label": "Pasūtījuma apstiprināšana",
+        "qr_code": "QR kods",
+        "dropzone": {
+          "add_file": "Pievienot failu",
+          "invalid_file_type": "Šis faila tips netiek atbalstīts",
+          "dragged_over": "Saglabāt failu, lai augšupielādētu"
+        },
+        "loading": "Ielādē..."
       }
     }
   },
