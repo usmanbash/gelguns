@@ -2230,7 +2230,83 @@
           "one": "%{count} cikk",
           "other": "%{count} cikk"
         },
-        "thank_you_from_shop": "Van %{shop_name}"
+        "thank_you_from_shop": "Van %{shop_name}",
+        "payment_method_not_charged": "Nem leírt",
+        "items_fulfilled_by_store": {
+          "one": "A megvásárolt cikkek a %{remote_shop_name} áruházból származnak.",
+          "other": "A megvásárolt árucikkek más boltokból származnak."
+        },
+        "thank_you_from_other_store": "Egy másik boltból",
+        "checkout_on_another_store": "Fizetés egy másik boltban",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Hamarosan kapsz egy visszaigazoló e-mailt",
+          "multi_store": "Hamarosan külön megerősítő e-mailt kapsz minden egyes bolttól"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Hamarosan kapsz egy visszaigazoló sms-t",
+          "multi_store": "Hamarosan minden bolttól kapsz egy visszaigazoló sms-t"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Hamarosan kapsz egy visszaigazoló e-mailt",
+          "multi_store": "Hamarosan külön megerősítő e-mailt kapsz minden egyes bolttól"
+        },
+        "checkout_again": "Futtassa újra a fizetést",
+        "cashback_notice": "A cashbacked 30 nap után kapod meg"
+      },
+      "review": {
+        "title": "Értékelés",
+        "review_title": "Fejezd be a rendelésedet",
+        "checkout_as_guest": "Fizetés vendégként",
+        "blocks": {
+          "contact_method_title": "Kapcsolat",
+          "billing_address_title": "Számlázás",
+          "shipping_address_title": "Küldés ide",
+          "shipping_method_title": "Kézbesítési mód",
+          "change_shipping_method_link_label": "Szállítási mód módosítása",
+          "change_payment_method_link_label": "Fizetési mód módosítása",
+          "pick_up_in_store_shipping_method_html": "Átvétel az üzletben · %{location_name}",
+          "purchase_order_number_title": "Rendelési szám",
+          "no_purchase_order_number": "(Nincs rendelési szám)",
+          "due_after_order_reviewed_html": "Fizetendő a rendelés ellenőrzése után",
+          "review_title_free_order": "Ellenőrizze és fejezze be a rendelést",
+          "payment_method_saved_company_location": "Hely mentése ehhez a helyhez",
+          "company_location": "Vállalati telephely",
+          "change_company_location_link_label": "Vállalati telephely módosítása",
+          "pickup_items_at": {
+            "one": "%{count} cikk átvétele helyszínen",
+            "other": "%{count} cikk átvétele helyben"
+          },
+          "ship_items_to": {
+            "one": "%{count} cikk küldése ide",
+            "other": "%{count} cikk küldése ide"
+          }
+        },
+        "block_title": "Ellenőrizze adatait",
+        "checkout_a_different_way": "Más módon fizetni",
+        "item_header": {
+          "section": "Szakasz"
+        },
+        "review_and_confirm_title": "Ellenőrzés és megerősítés",
+        "account_more_actions": "További akciók ehhez a fiókhoz"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Küldj nekem e-mailt hírekkel és ajánlatokkal",
+        "unsubscribe": {
+          "title": "Kijelentkeztél",
+          "description": "Többé nem kapsz tőlünk emlékeztetőt a bevásárlókosarad tartalmáról."
+        },
+        "accept_sms_checkbox_label": "Küldj nekem egy rövid üzenetet hírekkel és ajánlatokkal",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Adatvédelmi szabályzat",
+            "terms_of_service": "Szolgáltatási feltételek",
+            "description_html": "Az SMS-en keresztüli regisztrációval hozzájárulsz, hogy automatikus marketingüzeneteket, beleértve a kosárelhagyási emlékeztetőket, kapj a megadott telefonszámon. A hozzájárulás nem vásárlási feltétel. A leiratkozáshoz válaszolj STOP szöveggel. Segítségért válaszolj HELP szöveggel. Az üzenetek gyakorisága változó. Üzenet- és adatdíjak felmerülhetnek. Tekintsd meg a %{privacy_policy_link} és a %{terms_of_service_link} oldalakat.",
+            "description_transactional_html": "Előfordulhat, hogy SMS-eket kapsz rendelés visszaigazolásáról és szállítási frissítésekről. Válaszolj STOP szöveggel a leiratkozáshoz. Válaszolj HELP szöveggel segítségért. Az üzenetek gyakorisága változó. Üzenet- és adatdíjak felmerülhetnek. Tekintsd meg a %{privacy_policy_modal_link} és a %{terms_of_service_modal_link} oldalunkat."
+          },
+          "get_offers_by_text": "Ajánlatok fogadása sms-ben"
+        },
+        "post_accept_marketing_checkbox_label": "Feliratkoztál, hogy híreket és ajánlatokat tartalmazó e-maileket kapj.",
+        "pending_accept_marketing_checkbox_label": "Nézd meg az e-mailedet, hogy megerősítsd a hírlevelekre és ajánlatokra való feliratkozásodat"
       }
     }
   }
