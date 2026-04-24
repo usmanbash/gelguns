@@ -981,7 +981,8 @@
         "billing_address_rollup_accessibility_label": "Options for charging"
       },
       "address_management": {
-        "confirm_address_deletion": "Are you sure you want to delete the address {{address}} ?"
+        "confirm_address_deletion": "Are you sure you want to delete the address {{address}} ?",
+        "saved_with_store": "Saved at this store"
       },
       "general": {
         "page_title": "Proceed to payment",
@@ -2502,15 +2503,90 @@
               "sk": "A VAT identification number from Slovakia contains SK and 10 characters",
               "si": "A VAT identification number from Slovenia contains SI and 8 characters",
               "es": "A VAT identification number from Spain contains ES and 9 characters",
-              "se": "A VAT identification number from Sweden contains SE and 12 characters"
+              "se": "A VAT identification number from Sweden contains SE and 12 characters",
+              "gb": "A VAT identification number from the UK contains GB or XI and 5-12 characters"
+            },
+            "invalid_number": {
+              "at": "Enter a valid Austrian VAT identification number",
+              "be": "Enter a valid Belgian VAT identification number",
+              "bg": "Enter a valid Bulgarian VAT identification number",
+              "hr": "Enter a valid Croatian VAT identification number",
+              "cy": "Enter a valid Cypriot VAT identification number",
+              "cz": "Enter a valid Czech VAT identification number",
+              "dk": "Enter a valid Danish VAT identification number",
+              "ee": "Enter a valid Estonian VAT identification number",
+              "fi": "Enter a valid Finnish VAT identification number",
+              "fr": "Enter a valid French VAT identification number",
+              "de": "Enter a valid German VAT identification number",
+              "gr": "Enter a valid Greek VAT identification number",
+              "hu": "Enter a valid Hungarian VAT identification number",
+              "ie": "Enter a valid Irish VAT identification number",
+              "it": "Enter a valid Italian VAT identification number",
+              "lv": "Enter a valid Latvian VAT identification number",
+              "lt": "Enter a valid Lithuanian VAT identification number",
+              "lu": "Enter a valid Luxembourg VAT identification number",
+              "mt": "Enter a valid Maltese VAT identification number",
+              "nl": "Enter a valid Dutch VAT identification number",
+              "pl": "Enter a valid Polish VAT identification number",
+              "pt": "Enter a valid Portuguese VAT identification number",
+              "ro": "Enter a valid Romanian VAT identification number",
+              "sk": "Enter a valid Slovak VAT identification number",
+              "si": "Enter a valid Slovenian VAT identification number",
+              "es": "Enter a valid Spanish VAT identification number",
+              "se": "Enter a valid Swedish VAT identification number",
+              "gb": "Enter a valid UK VAT identification number"
+            },
+            "service_unavailable": "Validation service not available",
+            "service_error": "Validation service not available"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Validation of VAT identification number is being carried out",
+              "valid": "VAT identification number is valid",
+              "domestic": "VAT exemption has not been applied",
+              "service_unavailable": "Cannot verify VAT exemption",
+              "service_error": "Cannot verify VAT exemption"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "This payment is no longer required. Go to the order page for more information.",
+        "paid": "This payment has already been submitted. Go to the order page for more information."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "An extension interaction is needed to complete checkout."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Check your order"
+        },
+        "shipping": {
+          "shipping_options": "View all shipping options"
+        },
+        "payment": {
+          "payment_options": "View all payment options"
+        }
+      },
+      "too_many_requests": {
+        "body": "Wait a few minutes and try again from your shopping cart.",
+        "return_to_cart": "Back to shopping cart",
+        "body_no_cart": "Wait a few minutes and try again."
       }
     },
     "sentence": {
       "two_words_connector": "and",
       "last_word_connector": ", and"
+    },
+    "links": {
+      "powered_by_shopify": "Driven by Shopify",
+      "learn_more": "More information"
+    },
+    "attributes": {
+      "password_confirmation": "the password confirmation",
+      "body": "main text"
     }
   }
 }
