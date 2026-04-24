@@ -2367,7 +2367,89 @@
         },
         "embed_errors": {
           "storefront_password_required": "Esta loja está protegida por uma palavra-passe",
-          "cart_completed": "Esta finalização de compra já foi concluída"
+          "cart_completed": "Esta finalização de compra já foi concluída",
+          "invalid_cart": "O carrinho de compras já não é válido",
+          "not_authorized": "A verificação de pagamento falhou. Verifique as suas credenciais de acesso para a aplicação.",
+          "killswitch_enabled": "O pagamento está temporariamente indisponível",
+          "policy_violation": "Não foi possível concluir o pagamento devido a restrições da configuração da política",
+          "unrecoverable_failure": "Não foi possível carregar a finalização da compra. Tente novamente"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Voltar ao carrinho de compras",
+        "company_location_changed": "O teu carrinho foi alterado. Verifica a tua encomenda antes de a enviar.",
+        "individual_violations_title": {
+          "DeliveryViolations": "Endereço de entrega",
+          "PaymentViolations": "Morada de faturação",
+          "OtherViolations": "Dados da encomenda",
+          "UnhandledViolations": "Dados da encomenda"
+        },
+        "all_violations_content": "Ligue para {{emailLink}} ou para nós para atualizar estes dados e concluir a sua encomenda:",
+        "all_violations_email_link": "correio eletrónico",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} para atualizar permanentemente o endereço deste local.",
+        "editable_shipping_address_violations_email_link": "Contacte-nos",
+        "company_location_changed_product_removed": "O teu carrinho foi alterado porque alguns produtos não estão disponíveis nesta localização. Verifica a tua encomenda antes de a enviar.",
+        "shipping_address_incomplete_title": "O endereço de entrega está incompleto",
+        "calculating_shipping": "O envio ainda está a ser calculado. Tente novamente daqui a alguns segundos. Não foram cobrados custos.",
+        "calculating_taxes": "Os impostos ainda estão a ser calculados. Tente novamente daqui a alguns segundos. Não foram cobrados quaisquer custos.",
+        "generic_processing_error": {
+          "body": "Não foram cobrados custos. Tente novamente ou utilize outro método de pagamento."
+        },
+        "contact_information": {
+          "title": "Os dados de contacto são inválidos",
+          "header": "{{emailLink}} para atualizar os seus dados",
+          "email_link": "Contacte-nos"
+        },
+        "payment_method_not_available_with_payment_terms": "O método de pagamento que selecionou já não está disponível porque o pagamento desta encomenda agora está sujeito a {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "O método de pagamento que selecionou já não está disponível porque o pagamento desta encomenda deve agora ser efetuado no momento da entrega.",
+        "payment_method_not_available_with_fixed_terms": "O método de pagamento que selecionou já não está disponível porque o pagamento desta encomenda deve ser efetuado mais tarde.",
+        "payment_method_not_available_with_review_requirement": "O método de pagamento que selecionou já não está disponível porque o pagamento é devido assim que a encomenda é confirmada.",
+        "validation_errors_banner": {
+          "heading": {
+            "other": "Existem {{count}} erros:"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Verificar endereço",
+        "subtitle": {
+          "one": "Esta encomenda será enviada para o endereço fornecido por {{merchant}}.",
+          "other": "Esta encomenda será enviada para um endereço fornecido por {{merchant}}. Selecione um endereço de entrega."
+        },
+        "subtitle_no_match": "Este endereço não corresponde a nenhum dos teus endereços guardados.",
+        "use_saved_address": "Usar outro endereço",
+        "return_to_cart": "Voltar ao carrinho de compras"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Lês",
+          "link_label": "os Termos e Condições Gerais da {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Dúvidas? Converse connosco pelo chat"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Há %{count} local com stock nas proximidades",
+          "other": "Existem %{count} locais com stock nas proximidades"
+        },
+        "toggle_location": "Alterar localização",
+        "or": "DE",
+        "your_location": "a tua localização",
+        "search_button": "Procurar lojas",
+        "no_stores_found": "Nenhuma loja encontrada",
+        "could_not_resolve_address": "Não é possível encontrar o endereço. Tente novamente ou utilize outro endereço",
+        "paginator": {
+          "accessibility_label": "Paginação para levantamento no local"
+        },
+        "reveal_more_label": {
+          "one": "Mostrar mais %{count} locais",
+          "other": "Mostrar mais %{count} locais"
+        },
+        "all_stores_far_away": {
+          "title": "As localizações mais próximas encontram-se a mais de %{distance} de distância",
+          "description": "Selecione uma localização ou %{ship_to_address_link}"
         }
       }
     }
