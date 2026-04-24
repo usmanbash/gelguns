@@ -2142,7 +2142,75 @@
       },
       "shop_policies": {
         "refund_policy": "Palautusehdot",
-        "terms_of_service": "Yleiset ehdot"
+        "terms_of_service": "Yleiset ehdot",
+        "legal_notice": "Lakisääteinen ilmoitus",
+        "purchase_options_policy": "Ostoasetuskäytäntö",
+        "contact_information": "Yhteystiedot",
+        "policy_label": "Politiikka",
+        "policies_label": "Politiikka"
+      },
+      "notifications": {
+        "title": "Ilmoitus"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Maksettava summa tilaukselle %{order_name}",
+        "changes_summary": {
+          "returned": "%{count} palautettua"
+        },
+        "additional_payment_requested": "Maksu %{total_outstanding} on vaadittu",
+        "checkout_review_and_pay": "Tilauksesi %{order_name} on päivitetty. Tarkista nämä muutokset ja maksa sitten vahvistaaksesi tilauksesi.",
+        "order_updated_on": "Tilauksesi on päivitetty %{last_edited_at}.",
+        "order_review_and_pay": "Tilauksesi on päivitetty. Tarkista ja maksa vahvistaaksesi tilauksesi."
+      },
+      "change_currency": {
+        "payment_total_label": "Kokonaismaksut",
+        "change_currency_link": "Muuta %{currency_name}",
+        "card_provider_fx_charges_warning": "Kortin myöntäjä saattaa periä maksuja %{currency_code} -tapahtumista.",
+        "currency_not_supported_by_shop": "Valitsemasi valuutta ei ole enää saatavilla. Kaikki hinnat ovat nyt %{currency_code}."
+      },
+      "tips": {
+        "description": "Näytä, että tuet %{shop_name} -tiimiä",
+        "presets_description": "Valitse tippi prosentteina",
+        "update_tip": "Tippi päivitetty",
+        "message": "Kiitos, arvostamme sitä todella.",
+        "no_tip_label": "Geeni",
+        "not_available_with_spi": "Ei saatavilla Shop Pay -erämaksuilla"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Osta %{product_name} ja vielä %{count} muuta tuotetta",
+          "other": "Osta %{product_name} ja vielä %{count} muuta tuotetta"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Lisätietoja",
+          "shipping_credential_cn": "Asukkaan tunnistenumero",
+          "tax_credential_it": "Veronumero (valinnainen)",
+          "tax_credential_co": "Henkilötodistus/ALV",
+          "tax_credential_type_co": "Tyyppi Henkilötunnus",
+          "shipping_credential_co": "Henkilötodistus/ALV",
+          "shipping_credential_type_co": "Tyyppi Henkilötunnus",
+          "tax_credential_cr": "Tunnistenumero/RUT",
+          "shipping_credential_cr": "Tunnistenumero/RUT",
+          "tax_credential_ec": "CI/RUC/ALV",
+          "shipping_credential_ec": "CI/RUC/ALV",
+          "tax_credential_my": "Y-tunnus/Rekisterinumero",
+          "shipping_credential_my": "Y-tunnus/Rekisterinumero",
+          "tax_credential_type_mx": "Verotusjärjestelmä",
+          "tax_credential_use_mx": "CFDI:n käyttö",
+          "tax_credential_py": "CI/RUC/ALV",
+          "shipping_credential_py": "CI/RUC/ALV",
+          "tax_credential_pe": "HET/YTJ/CE",
+          "shipping_credential_pe": "HET/YTJ/CE",
+          "tax_credential_pt": "NIF/ALV",
+          "shipping_credential_pt": "NIF/ALV",
+          "tax_credential_es": "Henkilötunnus/Verotunnus",
+          "shipping_credential_es": "Henkilötunnus/Verotunnus",
+          "shipping_credential_tw": "Kansallinen henkilötunnus/alv",
+          "tax_credential_tr": "Turkin tasavallan henkilötunnus/ALV",
+          "shipping_credential_tr": "Turkin tasavallan henkilötunnus/ALV"
+        }
       }
     }
   }
