@@ -4002,7 +4002,71 @@
       "payment_details": {
         "title": "Στοιχεία μεθόδου πληρωμής",
         "close_payment_modal_accessibility_label": "Modaal Δεδομένα μέθοδος πληρωμής κλείσιμο",
-        "payment_method_not_found_error": "Δεν μπορώ να βρω τη μέθοδο πληρωμής"
+        "payment_method_not_found_error": "Δεν μπορώ να βρω τη μέθοδο πληρωμής",
+        "payment_details_loading": "Φόρτωση στοιχείων μεθόδου πληρωμής",
+        "pre_authorized_payments": "Προεγκεκριμένες πληρωμές",
+        "total_amount_of_subscription_line_items_left": "και ακόμα {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} συνολικά άρθρα· εμφανίζονται {{totalItemsToDisplay}} άρθρα.",
+        "next_payment_due": "Επόμενη πληρωμή οφειλόμενη στις {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Επεξεργασία της μεθόδου πληρωμής που τελειώνει σε {{lastDigits}}",
+        "billing_title": "Διεύθυνση τιμολογίου",
+        "card_info_title": "Στοιχεία κάρτας",
+        "payment_method_expired_on": "Λήγει στις {{expiryDate}}",
+        "loading_shop_pay": "Πληρωμή Shop Pay φορτωμένη",
+        "replace_payment_method": "Αλλαγή μεθόδου πληρωμής",
+        "checkout_card_banner": "Μπορείς να χρησιμοποιήσεις αυτήν την μέθοδο πληρωμής μόνο για προεγκεκριμένες πληρωμές. Δεν εμφανίζεται κατά την ολοκλήρωση αγοράς αν έχεις συνδεθεί σε αυτό το κατάστημα.",
+        "default_checkbox": "Ορισμός ως προεπιλογή",
+        "default_checkbox_accessibility_label": "Ορίστε αυτήν την μέθοδο πληρωμής ως προεπιλογή",
+        "replace_payment_method_button": "Αντικατάσταση"
+      },
+      "delete_payment_method_button": "Αφαίρεση",
+      "delete_payment_method_button_accessibility_label": "Αφαίρεση {{paymentMethodName}}",
+      "back_button_accessibility_label": "Επιστροφή στο {{paymentMethodStepTitle}}",
+      "payment_delete": {
+        "title": "Αφαίρεση μεθόδου πληρωμής",
+        "description_without_replacement": "Αυτή η μέθοδος πληρωμής δεν είναι πλέον διαθέσιμη για μελλοντικές αγορές.",
+        "description_with_replacement": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι προεγκεκριμένες πληρωμές. Μπορείτε επίσης να την αντικαταστήσετε με μια άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε τις επερχόμενες παραγγελίες.",
+        "payment_method_selector_placeholder": "Επιλέξτε μια εναλλακτική μέθοδο πληρωμής (προαιρετικό)",
+        "replace_method_with_new_method_description": "Η {{currentPaymentMethodName}} σου θα αφαιρεθεί και θα αντικατασταθεί από τη {{newPaymentMethodName}} σου.",
+        "error_when_deleting": "Συγγνώμη, παρουσιάστηκε ένα πρόβλημα και δεν μπορούμε να αφαιρέσουμε αυτήν την μέθοδο πληρωμής. Δοκιμάστε ξανά αργότερα ή ανανεώστε τη σελίδα.",
+        "delete_and_replace_button": "Αφαίρεση και αντικατάσταση",
+        "delete_and_replace_button_accessibility_label": "Αφαιρέστε το {{currentPaymentMethodName}} και αντικαταστήστε το με το {{newPaymentMethodName}}.",
+        "deleted_successfully": "Η μέθοδος πληρωμής έχει αφαιρεθεί.",
+        "payment_method_selector_no_alternative_payment": "Δεν υπάρχει εναλλακτική μέθοδος",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι προεγκεκριμένες πληρωμές. Τα εκκρεμή ποσά από υπάρχουσες παραγγελίες θα χρεωθούν ακόμα μέσω αυτής της μεθόδου πληρωμής, εκτός αν επιλέξετε άλλη μέθοδο πληρωμής. Επιλέξτε άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε απρόσκοπτα τις επερχόμενες παραγγελίες συνδρομής.",
+          "with_pending_orders": "Η αφαίρεση της μεθόδου πληρωμής σημαίνει ότι αυτή θα διαγραφεί από τον λογαριασμό σου και δεν θα είναι πλέον διαθέσιμη για μελλοντικές αγορές. Τα εκκρεμή ποσά από υπάρχουσες παραγγελίες θα χρεωθούν ακόμα μέσω αυτής της μεθόδου πληρωμής, εκτός αν επιλέξεις άλλη μέθοδο πληρωμής.",
+          "with_subscriptions": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι προεγκεκριμένες πληρωμές. Αντικαταστήστε την με μια άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε τις επερχόμενες παραγγελίες."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι προεγκεκριμένες πληρωμές. Τα εκκρεμή ποσά από υπάρχουσες παραγγελίες θα χρεωθούν ακόμα μέσω αυτής της μεθόδου πληρωμής, αλλά δεν θα λαμβάνετε επερχόμενες παραγγελίες συνδρομής. Προσθέστε μια άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε παραγγελίες συνδρομής.",
+          "with_pending_orders": "Η αφαίρεση της μεθόδου πληρωμής διασφαλίζει ότι αυτή θα αφαιρεθεί από τον λογαριασμό σας και δεν θα είναι πλέον διαθέσιμη για μελλοντικές αγορές. Τα εκκρεμή ποσά από υπάρχουσες παραγγελίες θα χρεωθούν ακόμα μέσω αυτής της μεθόδου πληρωμής.",
+          "with_subscriptions": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι προεγκεκριμένες πληρωμές. Προσθέστε μια άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε τις επερχόμενες παραγγελίες."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Αλλαγή μεθόδου πληρωμής",
+        "payment_method_updated_toast": "Τρόπος πληρωμής ενημερώθηκε",
+        "billing_address": "Διεύθυνση τιμολογίου",
+        "billing_address_add_new": "Προσθήκη νέου",
+        "billing_address_choose_from_list": "Επιλογή από τη λίστα",
+        "future_purchases_notice": "Αυτή η μέθοδος πληρωμής θα αποθηκευτεί για μελλοντικές αγορές.",
+        "generic_error": "Παρουσιάστηκε πρόβλημα κατά την ενημέρωση. Παρακαλώ δοκιμάστε ξανά."
+      },
+      "card_fields": {
+        "card_expiry_label": "Ημερομηνία λήξης (MM/ΕΕ)",
+        "card_expiry_placeholder": "Ημερομηνία λήξης (MM/ΕΕ)",
+        "card_start_label": "Ημερομηνία έκδοσης (ΜΜ/ΕΕ)",
+        "card_start_placeholder": "Ημερομηνία έκδοσης (ΜΜ/ΕΕ)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Κωδικός ασφαλείας 4 ψηφίων στην μπροστινή πλευρά της κάρτας σου",
+          "card_verification_value_explanation_other": "Κωδικός ασφαλείας 3 ψηφίων στο πίσω μέρος της κάρτας σου",
+          "card_verification_value_explanation": "Κωδικός ασφαλείας 3 ψηφίων, που συνήθως βρίσκεται στην πίσω πλευρά της κάρτας σας. Η American Express έχει έναν κωδικό 4 ψηφίων στην μπροστινή πλευρά."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Εισάγετε το όνομά σας όπως εμφανίζεται στην κάρτα σας",
+          "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας"
+        }
       }
     }
   }
