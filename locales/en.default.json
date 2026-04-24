@@ -3051,7 +3051,89 @@
             "new_window_disclaimer": "(opens in a new window)"
           }
         },
-        "attempted_to_deliver_label": "Attempted delivery"
+        "attempted_to_deliver_label": "Attempted delivery",
+        "there_was_a_problem_label": "A problem has occurred",
+        "delivered": "Delivered on {{date}}",
+        "complete_label": "Completed",
+        "status_timestamp": "Updated on {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Delivery supported by"
+          },
+          "claim_shop_cash_cta": {
+            "download_shop_app_label": "Download shop"
+          },
+          "details_modal": {
+            "title": "Delivery supported by",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise guarantees fast, reliable delivery. Claim Shop Cash if your order is delivered late.",
+              "may_be_eligible_not_authorized_label": "You may be eligible to claim Shop Cash because this order arrived late. Log in to view the details.",
+              "expired_label": "This order is not eligible for a claim for late delivery because the 30-day guarantee has expired.",
+              "no_shop_cash_label": "This order is not eligible for a claim for late delivery because it was not paid with Shop Pay.",
+              "no_longer_guaranteed_label": "These items are no longer supported by a delivery guarantee.",
+              "claim_shop_cash_description": "You can use Shop Cash for future purchases in the Shop app."
+            }
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Delivery for",
+            "not_delivered_by_label": "Worried after {{date}}",
+            "delivery_guarantee_expired_label": "Guaranteed delivery expired",
+            "download_shop_app_button_label": "Download Shop for tracking",
+            "track_with_shop_button_label": "Follow with Shop"
+          },
+          "details_modal": {
+            "expired_delivery_guarantee_description": "The Shop Promise guarantee of 30 days for this order has expired.",
+            "order_includes_guarantees_label": "Your delivery has {{deliveryAgreementsCount}} guarantees",
+            "order_includes_guarantees_description": "Shop Promise offers a guarantee for fast, reliable delivery. Claim Shop Cash if your order is delivered after {{date}}.",
+            "delivered_after_label": "Worried after {{date}}",
+            "delivered_after_description": "Your order arrived late, so you can claim {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "This order was delivered late, so you have claimed {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Your order arrived late, so you can claim {{amount}} Shop Cash.",
+            "learn_more_button_label": "More information",
+            "view_balance_in_shop_button_label": "View balance in shop",
+            "scan_to_claim_shop_cash_label": "Scan to claim {{amount}} in Shop Cash"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Resend gift voucher",
+          "other": "Resend gift vouchers"
+        },
+        "expected_by": "Expected by {{date}} at the latest",
+        "was_expected_by": "Expected no later than {{date}}"
+      },
+      "list_title_pending_orders_accessibility_label": "Orders: being processed",
+      "switch_order_type_pending_orders_accessibility_label": "Change order type; you are now viewing orders in progress",
+      "switch_order_type_confirmed_orders_accessibility_label": "Change order type; you are viewing your confirmed orders"
+    },
+    "order_details": {
+      "addresses_section_title": "Invoicing and shipping",
+      "billing_address": "Invoice address",
+      "card_ending_with": "ends with {{lastDigits}}",
+      "contact": "Contact person",
+      "payment": {
+        "card_payment_details": "ending in {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Paid with Shop Pay installment payments"
+        },
+        "gift_card_payment_details": "ending in {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Money order - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Refund - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bank deposit - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "payment_details": "Payment details"
+        },
+        "emv_details": {
+          "auth": "We sell rose plants or bare-root roses",
+          "aid": "We sell rose plants or bare-root roses",
+          "source": "we sell rose plants or bare-root roses"
+        },
+        "payment_type": {
+          "gift_card": "Gift voucher"
+        }
       }
     }
   }
