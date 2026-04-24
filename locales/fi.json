@@ -3205,7 +3205,89 @@
       "shop_logo_accessibility_label": "{{shopName}}-logo",
       "country_switcher_toast_message": "Maa vaihdettu {{countryName}}",
       "switch_country": "Maan vaihtaminen",
-      "search": "Etsi"
+      "search": "Etsi",
+      "location_switcher_toast_message": "Sijainti vaihdettu kohteeseen {{locationName}}",
+      "switch_location": "Sijainnin vaihto",
+      "view_details": "Tarkastele tietoja",
+      "no_countries_found": "Ei löytynyt maita",
+      "no_locations_found": "Geen paikkoja löytynyt",
+      "try_new_search": "Kokeile uutta hakua",
+      "loading_policy_content_accessibility_label": "Sisällön latauspolitiikka",
+      "policy_load_error": "Kan {{policyName}} ladata",
+      "loading_section_accessibility_label": "{{sectionName}} lataaminen"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Tilitietojen lataus",
+      "loading_finished_accessibility_message": "Tilitiedot on ladattu",
+      "profile_card": {
+        "cancel_accessibility_label": "Muokkaa profiilia peruuta",
+        "no_name_provided_accessibility_label": "Geen nimi lisätty",
+        "errors": {
+          "name_too_long": "{{fieldName}} on teksti (enintään 255 merkkiä)",
+          "name_cannot_contain_url": "{{fieldName}} ei saa sisältää URL-osoitetta",
+          "name_cannot_contain_html_tags": "{{fieldName}} ei saa sisältää HTML-tageja",
+          "email_cant_be_blank": "Sähköpostin kenttä ei saa olla tyhjä"
+        },
+        "editable_email_help_text": "Tätä sähköpostiosoitetta käytetään kirjautumiseen ja tilauksen päivityksiin."
+      },
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Lisää ihmisiä lataa",
+          "loading_accessibility_label": "Ihmisten lataaminen käynnissä"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Sähköpostin vahvistus",
+        "description": "Syötä koodi, joka on lähetetty osoitteeseen {{email}}",
+        "one_time_password_label": "6 numeron koodi",
+        "email_resend_button_accessibility_label": "Vahvistuskoodin uudelleenlähetys",
+        "verify_button_accessibility_label": "Kertaluonteisen salasanan vahvistus",
+        "cancel_button_accessibility_label": "Sähköpostin muokkaamisen peruuttaminen"
+      },
+      "email_update_success_modal": {
+        "title": "Sähköpostin vahvistus",
+        "description": "Sähköpostipäivitys onnistui. Ohjataan kirjautumissivulle."
+      },
+      "email_update_confirmation_message": "Sähköpostiosoite päivitetty muotoon {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Muotoiluvalinnat",
+      "order_list": {
+        "column_headers": {
+          "total": "Täysi",
+          "actions_accessibility_label": "Tarjoukset"
+        },
+        "delivered": "Huolestunut: {{date}}",
+        "empty_state_order_source_description": "Vain {{email}} kautta tehdyt tilaukset näytetään täällä.",
+        "empty_state_subtitle": "Mene kauppaan tekemään tilaus.",
+        "estimated_delivery": "Odotettavissa {{date}}",
+        "items": {
+          "one": "{{count}} artikkelia",
+          "other": "{{count}} artikkelia"
+        },
+        "order_link": "Tarkastele tilausta {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Navigointipainikkeet tilauksille"
+        },
+        "sort_by": "Lajittele: {{option}}",
+        "sort_show_options_accessibility_label": "Näytä lajitteluvaihtoehdot vahvistetuille tilauksille.",
+        "sort": {
+          "location": {
+            "ascending": "Sijainti (A-Ö)",
+            "descending": "Sijainti (Z-A)"
+          },
+          "order_number": {
+            "descending": "Tilausnumero (korkeasta matalaan)"
+          },
+          "order_total": {
+            "ascending": "Koko tilaus (pienimmästä suurimpaan)",
+            "descending": "Kokonaistilaus (suuresta pieneen)"
+          }
+        },
+        "two_images_accessibility_label": "Tilaus sisältää {{lineItemName1}}, {{lineItemName2}}",
+        "no_filtered_results_description": "Poista suodattimet tai säädä niitä nähdäksesi tilauksesi",
+        "estimated_shortform": "Arvioitu {{date}}"
+      }
     }
   }
 }
