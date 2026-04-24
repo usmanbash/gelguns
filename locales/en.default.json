@@ -950,7 +950,25 @@
         "must_use_address_banner": {
           "one": "Your order can only be shipped to %{name}'s address.",
           "other": "Your order can only be shipped to one of these addresses."
-        }
+        },
+        "shipping_method": "The shipping options for your order have changed. Please check your selection.",
+        "shipping_method_not_available": "Your shopping cart has been updated and the items you have added cannot be sent to your address. Remove the items to complete your order.",
+        "shipping_method_not_available_generic": {
+          "one": "Your order cannot be sent to the chosen address. Please check if the address is correct and try again, or select a different address.",
+          "other": "Some items in your shopping cart cannot be sent to the entered address. Please check if the address is correct and try again or choose a different address."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "The item you have added will not be sent to your location. Remove this item to pay, or contact the shop.",
+          "other": "One or more items you have added cannot be sent to your location. Remove the items to pay, or contact the shop."
+        },
+        "payment_method_not_supported": "You cannot use this payment method for %{country}. Use a different payment method to ship to this country.",
+        "empty_state": "Enter your delivery address to see the available shipping methods.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "There are items in the shopping cart that do not meet the price or weight requirements to qualify for shipping. Update the shopping cart and try again.",
+        "invalid_selected_address": "The chosen delivery address is invalid",
+        "invalid_selected_address_with_update_link": "The selected delivery address is invalid. %{update_address_link} or select a different address.",
+        "unavailable_selected_address": "Shipping not available for the selected address",
+        "unavailable_selected_address_for_region": "Shipping is not available for {{region}}. Please select a different address to continue",
+        "unavailable_address_country": "Shipping is not possible to the country you have selected. Please provide a different address to continue"
       },
       "billing": {
         "update_address_banner": "Update this address to see your delivery options."
@@ -1591,7 +1609,61 @@
         "test_mode_enabled_only_test_cards": "The test mode is enabled, only test credit cards can be added.",
         "captcha_required": "Enter the payment details and solve the captcha to complete your purchase.",
         "shipping_company_required_error": "{{shopName}} requires a company name for the delivery address.",
-        "payment_credential_delegation_error": "There was a problem processing your payment. Please choose a new payment method."
+        "payment_credential_delegation_error": "There was a problem processing your payment. Please choose a new payment method.",
+        "cancelled_payment": "Your payment has been canceled. Please try again or use a different payment method.",
+        "currency": {
+          "no_longer_supported": "The store currency is no longer supported."
+        },
+        "installments_payment_method_incompatible": "The selected payment method cannot be used for installment payments. Please choose a different payment method."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Quick checkout",
+        "or_pay_another_way": "Or pay in another way",
+        "or_check_out_another_way": "Or pay in another way"
+      },
+      "processing": {
+        "redirecting_notice": "You are being redirected.",
+        "continue_to_payment_gateway_notice": "Proceed to payment to add your payment details.",
+        "continue_to_payment_gateway_button_label": "Go to payment",
+        "continue_to_payment_gateway_notice_error": "Your payment details cannot be verified.",
+        "continue_to_payment_gateway_button_label_error": "Update payment details",
+        "page_title": "Order is being processed",
+        "title": "Order is being processed",
+        "your_order_has_been_received_title": "Thank you for your order",
+        "you_will_receive_confirmation": "We are currently receiving a very large number of orders. You should soon receive a confirmation by email or text message. Please let us know if you have not received it within an hour.",
+        "wait": {
+          "short": "Your order is being processed.",
+          "medium": {
+            "one": "Your order is being processed. Estimated wait time is %{count} minute.",
+            "other": "Your order is being processed. Estimated wait time is %{count} minutes."
+          },
+          "long": "You will receive an email once your order has been processed. There is currently a large number of orders.",
+          "no_auto_refresh_html": "%{link} if you are not redirected automatically.",
+          "refresh_this_page": "Reload this page"
+        },
+        "you_will_not_be_charged": "No charges are being applied yet",
+        "redirecting_to_bank": "Redirect to {{bank}}"
+      },
+      "failed_payment": {
+        "page_title": "The payment cannot be processed",
+        "title": "The payment cannot be processed",
+        "payment_not_processed_title": "Your payment cannot be processed.",
+        "payment_not_processed_text": "No charges have been made. Return to your shopping cart to complete your purchase.",
+        "return_to_cart_button_label": "Back to shopping cart"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bank transfer",
+        "cash_on_delivery_label": "Cash on delivery",
+        "money_order_label": "Money order",
+        "debit_card_label": "Payment card",
+        "deferred_payment_label": "Choose a payment method later",
+        "generic_payment_terms": "The {{translatedName}} payment terms apply. Your payment is due on {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} to an account with access to this location or to add or use saved payment methods.",
+            "link": "Sign in"
+          }
+        }
       }
     },
     "sentence": {
