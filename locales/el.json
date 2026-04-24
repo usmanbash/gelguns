@@ -988,7 +988,71 @@
         "pickup_label": "Παραλαβή από το κατάστημα",
         "calculating_shipping": "Υπολογίζεται...",
         "estimated_taxes_label": "Εκτιμώμενος φόρος",
-        "information_estimated_taxes_label": "Φόροι (εκτιμώμενοι)"
+        "information_estimated_taxes_label": "Φόροι (εκτιμώμενοι)",
+        "gift_card_ending": "Κάρτα δώρου που λήγει σε %{last_characters}",
+        "multiple_shipping_lines_label": "Συνολικά έξοδα αποστολής",
+        "applied_free_shipping_discount_label": "Εφαρμοσμένο",
+        "sale_price": "Τιμή προσφοράς",
+        "recurring_total_label": "Επιστρεφόμενο σύνολο",
+        "recurring_total_tooltip": "Εξαιρούνται τα έξοδα αποστολής, ο ΦΠΑ, τα τελωνειακά δικαιώματα ή τυχόν εκπτώσεις.",
+        "gift_card_subscriptions_notice": "Οι δωροκάρτες εφαρμόζονται μόνο στην πρώτη σου πληρωμή",
+        "confirmation_number_label": "Αριθμός επιβεβαίωσης %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Το συνολικό ποσό φόρου επιβεβαιώνεται μέσω email ή sms αφού υποβάλετε την παραγγελία σας.",
+        "deferred_payment_info": {
+          "title": "Η πληρωμή ύψους %{amount_due} οφείλεται στις %{due_at}",
+          "description_html": "%{contact_us} για ερωτήσεις σχετικά με την παραγγελία σας.",
+          "paid_today": "Συνολικό ποσό που πληρώθηκε σήμερα",
+          "due_on_fulfillment_title": "Η πληρωμή του %{amount_due} οφείλεται κατά την εκτέλεση της παραγγελίας.",
+          "due_on_receipt_title": "Πρέπει να καταβληθεί το %{amount_due} κατά την παραλαβή",
+          "paid_today_next": "Πληρώθηκε σήμερα"
+        },
+        "percent_off_shipping": "%{percent}% έκπτωση στα έξοδα αποστολής",
+        "amount_off_shipping": "%{amount} έκπτωση στα έξοδα αποστολής",
+        "payment_terms_totals": {
+          "due_today": "Συνολικό οφειλόμενο σήμερα",
+          "due_later": "Συνολικό οφειλόμενο ποσό στις %{due_at}",
+          "due_later_checkout_to_draft": "Συνολικό οφειλόμενο αργότερα",
+          "due_on_fulfillment": "Συνολικό οφειλόμενο κατά την εκπλήρωση",
+          "due_on_receipt": "Συνολικό ποσό πληρωμής κατά την παραλαβή",
+          "total_paid": "Συνολικό πληρωτέο ποσό",
+          "due_today_next": "Οφείλεται σήμερα",
+          "due_on_fulfillment_next": "Πληρωμή κατά την εκπλήρωση παραγγελίας"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> δεν μπορεί να χρησιμοποιηθεί με τις υπάρχουσες εκπτώσεις σου.",
+        "maximum_discount_code_limit_reached": "Έχετε φτάσει στον μέγιστο αριθμό κωδικών έκπτωσης. Αφαιρέστε έναν υπάρχοντα κωδικό για να χρησιμοποιήσετε το <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Συνολική παραγγελία",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> δεν λειτουργεί αυτή τη στιγμή. Επικοινωνήστε μαζί μας αν χρειάζεστε βοήθεια.",
+        "due_on_fulfillment": "Οφειλόμενο στην εκπλήρωση παραγγελίας",
+        "duties_label": "Τελωνειακοί δασμοί",
+        "duties_and_taxes_label": "Τέλη εκτελωνισμού και φόροι",
+        "error_duties_tooltip": "Αυτή η παραγγελία αποστέλλεται από άλλη χώρα, οπότε ενδέχεται να επιβληθούν τελωνειακοί δασμοί και φόροι κατά την παράδοση.",
+        "may_be_charged_on_delivery": "Μπορεί να χρεωθεί κατά την παράδοση",
+        "recurring_total_multiple_label": "Αυτή η παραγγελία έχει επαναλαμβανόμενα κόστη για πολλά είδη.",
+        "deferred_total_due_date_label": "Συνολικό οφειλόμενο ποσό στις {{date}}",
+        "expand_component_information": {
+          "one": "Εμφάνιση %{count} άρθρων",
+          "other": "Εμφάνιση %{count} άρθρων"
+        },
+        "collapse_component_information": {
+          "one": "Απόκρυψη %{count} άρθρων",
+          "other": "Απόκρυψη %{count} άρθρων"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} άρθρα",
+            "other": "%{count} άρθρα"
+          },
+          "back_to_finalize_order": "Επιστροφή στην ολοκλήρωση παραγγελίας"
+        },
+        "alternative_payment_currency_total": "χρεώθηκε ως %{amount_due}",
+        "calculating": "Υπολογίζεται...",
+        "group_title_label": "Μέρος του '%{group_title}'",
+        "price_per_item": {
+          "accessibility_label": "%{price} ανά άρθρο",
+          "label": "%{price}/τεμ."
+        },
+        "updated_shipping_method": "Ενημερωμένη μέθοδος αποστολής: %{shipping_method}",
+        "discount_not_found": "Δεν βρέθηκε έγκυρη έκπτωση που να αντιστοιχεί στον κωδικό που εισήχθη"
       }
     }
   }
