@@ -1215,7 +1215,69 @@
         },
         "estimated_delivery_time": "Forventet levering %{time}",
         "estimated_delivery_time_range": "Forventet levering %{min_time}–%{max_time}",
-        "arrives_time": "Bliver leveret om %{time}"
+        "arrives_time": "Bliver leveret om %{time}",
+        "arrives_time_range": "Leveres mellem %{min_time}–%{max_time}",
+        "estimated_time": "Forventet %{time}",
+        "estimated_time_range": "Forventet %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Abonnement lokal levering",
+        "subscription_pickup": "Abonnementsafhentning",
+        "delivery_today": "Levering samme dag inden %{time}",
+        "delivery_tomorrow": "Levering næste dag kl. %{time}",
+        "two_day_delivery": "Levering inden for 2 dage om %{time}",
+        "delivery": "Levering om %{time}",
+        "duties_and_taxes_title": "Toldafgifter og skatter",
+        "shipping_information_required_notice": "Forsendelsesoplysninger er påkrævet. {{link}}.",
+        "shipping_information_redirect_link": "Indtast dine oplysninger her",
+        "loading_progressive_rates": "Når du søger efter flere takster...",
+        "no_other_methods_available": "Ingen andre metoder tilgængelige",
+        "duties_and_taxes_options": {
+          "ddu_title": "Betaling ved levering",
+          "ddu_caption": "Ekstra omkostninger kan være gældende",
+          "ddp_caption": "Ingen ekstra omkostninger ved levering"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} en %{current}"
+        },
+        "shipping_used_as_billing_notice": "Dette bruges også som din faktureringsadresse for denne bestilling.",
+        "shipping_address_title": "Afsendelse til",
+        "delete": "Fjern",
+        "address_delete": "Fjern adresse",
+        "address_confirm": "Er du sikker på, at du vil fjerne denne adresse fra din konto?",
+        "address_form": {
+          "one_time_address_subtitle": "Brug en enkelt adresse til denne bestilling"
+        },
+        "different_shipping_method_summary": "Indtast en anden leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "invalid_shipping_method_summary": "Indtast en gyldig leveringsadresse for at se de tilgængelige forsendelsesmetoder",
+        "method_summary": {
+          "incomplete_address_entered": "Indtast en fuldstændig leveringsadresse for at se de tilgængelige forsendelsesmetoder",
+          "incomplete_address_selected": "Vælg en fuldstændig leveringsadresse for at se de tilgængelige forsendelsesmetoder"
+        },
+        "local_pickup": {
+          "search_address": "Find adresse",
+          "rollup_title": "Afhentningssted",
+          "rollup_accessibility_label": "Valgmuligheder for afhentningssted"
+        },
+        "address_default": "Indstil som standard",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artikler",
+        "split_shipping_merchandise_quantity_label_additional": "+ mere %{quantity}",
+        "pre_order_ships_now": "Sendes nu",
+        "pre_order_ships_later": "Sendes senere",
+        "pre_order_ships_date": "Sendes den %{date}",
+        "split_shipping_shipped_by_shop": "Sendt af %{shop_name}",
+        "split_shipping_shipping_label": "Visdom",
+        "split_shipping_multiple_shipment_notice": "Bestillingen leveres i flere forsendelser",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Din ordre leveres i %{quantity} forsendelser",
+        "split_shipping_more_shipping_options": "Flere forsendelsesmuligheder",
+        "split_shipping_option_recommended": "Anbefalet",
+        "default_description": "Afsendes inden for én arbejdsdag",
+        "split_shipping_shipment_notice": "Du modtager din ordre i %{quantity_shipments} levering(er)",
+        "prime_not_available": {
+          "default": "Prime-levering er ikke tilgængelig for din bestilling. Dine forsendelsesmuligheder er opdateret."
+        },
+        "split_shipping_first_shipment_notice": "Du modtager din første ordre om %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Forsendelsesmetodevalg",
+        "shipping_address_rollup_accessibility_label": "Valgmuligheder for forsendelse til adresse",
+        "invalid_shipping_method_summary_selected": "Vælg en anden leveringsadresse for at se tilgængelige forsendelsesmetoder"
       }
     }
   }
