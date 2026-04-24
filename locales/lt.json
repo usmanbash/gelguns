@@ -676,7 +676,65 @@
             "discounts_not_allowed_for_b2b": "Nuolaidos B2B parduotuvėse nėra leidžiamos.",
             "custom_discount_not_honoured": "Įvestas pritaikytas nuolaidos kodas nėra galiojantis.",
             "unsupported_expectation": "Įvesta nuolaidos taisyklė turėjo prielaidą, kurios politika negalėjo interpretuoti.",
-            "additional_requested_discount_code_discarded": "{{code}} galioja, bet netaikomas. Patikrinkite nuolaidų sąlygas."
+            "additional_requested_discount_code_discarded": "{{code}} galioja, bet netaikomas. Patikrinkite nuolaidų sąlygas.",
+            "allocations_mismatch": "Jūsų nuolaidos kodas buvo pakeistas. Patikrinkite savo prekių krepšelį ir bandykite dar kartą.",
+            "discount_title_too_long": "Nuolaidos pavadinimas negali būti ilgesnis nei 255 simboliai.",
+            "additional_requested_discount_discarded": "Jūsų nuolaida galioja, bet jos negalima taikyti. Patikrinkite nuolaidų sąlygas."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Mokesčiai, taikomi jūsų užsakymui, pasikeitė. Patikrinkite savo užsakymą ir bandykite dar kartą.",
+            "unresolvable_tax_terms": "Siūlomos sąlygos esamo derybų konteksto atžvilgiu nėra įgyvendinamos.",
+            "delivery_price_is_abstract": "Atitinkama pristatymo kaina yra abstrakti.",
+            "tax_inclusivity_mismatch": "Derėkitės iš naujo dėl konkrečios totalTaxAndDutyAmount arba totalAmountIncludedInTarget vertės.",
+            "tax_exemption_not_supported": "Šioje derybų sesijoje nebus taikomos jokių mokesčių lengvatos.",
+            "delivery_tax_exemption_not_supported": "Pristatymo taisyklėms taikomos mokesčių lengvatos šiuo metu nepalaikomos.",
+            "proposed_allocations_required": "Laukas „pasiūlytos priskirtys“ trūksta.",
+            "merchandise_terms_must_be_defined": "Nustatykite prekių sąlygas.",
+            "delivery_terms_must_be_defined": "Nustatykite pristatymo sąlygas.",
+            "merchandise_discount_terms_must_be_defined": "Nustatykite prekių nuolaidų sąlygas.",
+            "delivery_discount_terms_must_be_defined": "Nustatykite sąlygas pristatymo nuolaidai.",
+            "allocated_required": "Laukas „priskirta“ trūksta.",
+            "value_required": "Laukas „waarde“ trūksta.",
+            "line_splits_not_supported": "Laukas „prekės eilutės“ turi būti suskirstytas taip, kad kiekvienai eilutei pasiūlyme būtų atskira komponentė."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Rankiniai mokėjimai B2B parduotuvėse neleidžiami.",
+            "positive_amount_expected": "Mokėtina suma turi būti didesnė nei 0.",
+            "subscription_terms_not_accepted": "Prenumeratos sąlygos nepriimtos.",
+            "missing_session_id": "Trūksta informacijos apie kreditinės kortelės sesiją.",
+            "gateway_not_supported": "Mokėjimo šliuzas nepalaiko mokėjimo metodo išsaugojimo.",
+            "credit_card_last_name_required": "'achternaam' negali būti tuščias.",
+            "credit_card_update_failed": "Nepavyko atnaujinti kreditinės kortelės.",
+            "invalid_address_type": "Įvestas adreso tipas nėra galiojantis šiam mokėjimo būdui.",
+            "missing_retail_attributions": "Mažmeninės paskirties nurodymai reikalingi rankiniu būdu įvedamiems kreditinių kortelių mokėjimams.",
+            "unexpected_retail_attributions": "Nenumatytos mažmeninės prekybos paskirstymo klaidos nurodytos kreditinės kortelės mokėjimui.",
+            "invalid_card_source": "Ši sesija neturi teisės naudoti šio žemėlapio šaltinio.",
+            "wallet_content_missing": "Turinys piniginėje trūksta.",
+            "payment_instrument_not_found": "Negalima rasti mokėjimo metodo",
+            "unauthorized_capture_method": "Mokėjimų registravimo metodo konfigūravimas neleidžiamas.",
+            "saved_payment_methods_not_allowed": "'Išsaugoti mokėjimo būdai' nėra leidžiami.",
+            "saved_payment_methods_not_enabled": "'Išsaugoti mokėjimo būdai' nėra įjungti šioje parduotuvėje.",
+            "store_credit_not_enabled": "Parduotuvėje nėra įjungtas pirkinių kreditas.",
+            "store_credit_account_not_found": "Winkeltegoed paskyra nerasta.",
+            "store_credit_account_mismatch": "Winkeltegoed paskyra nesutampa su pirkėjo tapatybe.",
+            "store_credit_insufficient_funds": "Sąskaitoje nėra pakankamai lėšų pirkinių kredito.",
+            "store_credit_buying_gift_card": "Su parduotuvės kreditu negalite įsigyti dovanų kupono.",
+            "gift_cards_not_allowed_for_b2b": "Dovanų kuponai nėra leidžiami B2B parduotuvėse.",
+            "method_required": "Reikia pasiūlyti mokėjimo būdą.",
+            "paypal_express_address_invalid": "PayPal grąžino neteisingą adresą.",
+            "saved_payment_methods_cvv_verification_disabled": "Pasirinktam mokėjimo būdui reikalinga CVV/CVC patvirtinimas, tačiau šiame parduotuvėje jis nėra įjungtas. Naudokite kitą mokėjimo būdą."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Kelios antraštės eilutės nėra palaikomos.",
+            "tips_not_allowed_for_b2b": "Arbatpinigiai B2B parduotuvėse nėra leidžiami.",
+            "currency_change_reset": "Fooi buvo iš naujo nustatytas dėl valiutos pakeitimo.",
+            "tips_not_allowed_for_deferred_purchase_options": "Arbatpinigiai dar nepalaikomi atidėto pirkimo parinkčių."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Šio koncepcinio užsakymo nėra dabartinėje parduotuvėje.",
+            "staff_member_not_exist": "Šis darbuotojas nėra žinomas dabartinėje parduotuvėje.",
+            "location_not_exist": "Ši vieta neegzistuoja dabartinėje parduotuvėje.",
+            "point_of_sale_device_not_exist": "Ši pardavimo vietos įranga neegzistuoja dabartinėje parduotuvėje."
           }
         }
       }

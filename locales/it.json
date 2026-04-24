@@ -3085,7 +3085,79 @@
       "error": "Si è verificato un problema durante il caricamento dei risultati della ricerca. Ricarica la pagina o riprova più tardi."
     },
     "subscriptions": {
-      "buyer_consent_product": "Questo articolo è un acquisto ricorrente o differito. Procedendo, accetto la %{cancellationPolicyLink} e autorizzo anche a addebitare i prezzi indicati sul mio metodo di pagamento, con la frequenza e le date indicate, fino a quando il mio ordine non sarà completato o fino a quando non annullerò, se consentito."
+      "buyer_consent_product": "Questo articolo è un acquisto ricorrente o differito. Procedendo, accetto la %{cancellationPolicyLink} e autorizzo anche a addebitare i prezzi indicati sul mio metodo di pagamento, con la frequenza e le date indicate, fino a quando il mio ordine non sarà completato o fino a quando non annullerò, se consentito.",
+      "buyer_consent_cart": "Uno o più articoli nel tuo carrello sono acquisti differiti o ricorrenti. Procedendo, accetto la %{cancellationPolicyLink} e autorizzo anche a addebitare i prezzi indicati sul mio metodo di pagamento, con la frequenza e le date indicate, fino a quando il mio ordine non sarà completato o fino a quando, se consentito, non annullerò.",
+      "cancellation_policy": "politica di cancellazione"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "nav_accessibility_label": "Navigazione account",
+        "open_menu_accessibility_label": "Apri la navigazione dell'account",
+        "close_menu_accessibility_label": "Chiudi navigazione account",
+        "loading_message": "Caricamento navigazione account"
+      },
+      "action_menu_accessibility_label": "Altre offerte",
+      "close_menu_accessibility_label": "Chiudi navigazione principale",
+      "contact_email_subject": "Persona di contatto del negozio online {{shopName}}",
+      "contact_link": "Dati di contatto",
+      "delete_confirmation": {
+        "delete": "Rimuovere"
+      },
+      "dismiss_toast": "Chiudere",
+      "document_title": "{{sectionName}} - {{shopName}} - account",
+      "loading_message": "Caricare",
+      "log_out_link": "Disconnettersi",
+      "logout_overlay_label": "Disconnettersi...",
+      "nav_label_accessibility_label": "Navigazione principale",
+      "navigation_accessibility_message": "Sei stato reindirizzato a {{sectionName}}",
+      "open_menu_accessibility_label": "Apri navigazione principale",
+      "country_switcher_toast_message": "La terra è passata a {{countryName}}",
+      "location_switcher_toast_message": "Posizione cambiata in {{locationName}}",
+      "switch_location": "Cambia posizione",
+      "view_details": "Visualizza dati",
+      "skip_to_content": "Vai subito al contenuto",
+      "loading_policy_content_accessibility_label": "Politica per il caricamento dei contenuti",
+      "loading_section_accessibility_label": "carico {{sectionName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Caricamento dati account",
+      "loading_finished_accessibility_message": "Dati dell'account caricati",
+      "profile_card": {
+        "cancel_accessibility_label": "Modifica profilo annulla",
+        "email_help_text": "L'indirizzo e-mail non può essere modificato",
+        "phone_number_help_text": "Il numero di telefono non può essere modificato",
+        "email": "Posta elettronica",
+        "errors": {
+          "name_too_long": "{{fieldName}} è troppo lungo (massimo 255 caratteri)",
+          "name_cannot_contain_url": "{{fieldName}} non può contenere URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} non può contenere tag HTML",
+          "email_cant_be_blank": "L'e-mail non può essere vuota",
+          "invalid_email_format": "Inserisci un indirizzo e-mail valido"
+        },
+        "editable_email_help_text": "Questo indirizzo e-mail viene utilizzato per la registrazione e gli aggiornamenti degli ordini."
+      },
+      "people": {
+        "pagination": {
+          "load_more": "Carica di più",
+          "load_more_accessibility_label": "Carica più persone",
+          "loading_accessibility_label": "Caricamento persone in corso"
+        }
+      },
+      "add_button": "Aggiungere",
+      "verify_new_email_modal": {
+        "title": "Verifica e-mail",
+        "description": "Inserisci il codice inviato a {{email}}",
+        "email_resend_button": "Reinvia codice",
+        "email_resend_button_accessibility_label": "Reinvia codice di verifica",
+        "verify_button": "Verificare",
+        "verify_button_accessibility_label": "Verifica della password monouso",
+        "cancel_button_accessibility_label": "Annulla modifica dell'e-mail"
+      },
+      "email_update_success_modal": {
+        "title": "Verifica e-mail"
+      }
     }
   }
 }
