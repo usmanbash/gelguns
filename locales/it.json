@@ -863,6 +863,82 @@
         "phone_country_code_label": "Prefisso internazionale del numero di telefono",
         "storefront_link": "sito web del commerciante",
         "suburb_label": "Fuori quartiere"
+      },
+      "delivery_options": {
+        "ship": "Spedire",
+        "pick_up_in_two_hours": "Di solito pronto entro 2 ore",
+        "pick_up_in_four_hours": "Di solito pronto entro 4 ore",
+        "pick_up_immediately": "Pronto per il ritiro ora",
+        "pick_up_in_one_hour": "Di solito pronto entro 1 ora",
+        "pick_up_in_twenty_four_hours": "Di solito pronto entro 24 ore",
+        "pick_up_in_two_to_four_days": "Di solito pronto entro 2-4 giorni",
+        "pick_up_in_five_or_more_days": "Di solito pronto in più di 5 giorni",
+        "pick_up_in_zero_to_two_hours": "Pronto per il ritiro tra 2 ore",
+        "pick_up_in_two_to_four_hours": "Pronto per il ritiro tra 4 ore",
+        "free_total_label": "Gratuito",
+        "shipping_address": "Indirizzo di consegna",
+        "pick_up_locations": "Punti di ritiro",
+        "pickup_point_method_definition": "Spedire al punto di ritiro",
+        "retail_method_definition": "Spedizioni al dettaglio",
+        "subscription_pickup_information": "Questo metodo di consegna si applica a tutti gli articoli di questo ordine e a tutti gli articoli futuri per questo abbonamento.",
+        "ship_to_address": "Spedire all'indirizzo",
+        "company_location_no_address_banner": "Gli ordini spediti a località senza indirizzo vengono sottoposti a verifica.",
+        "pickup_point_map_title": "Carta con punti di ritiro"
+      },
+      "customer_account": {
+        "sign_in_link_label": "Accesso",
+        "sign_out_link_label": "Disconnettersi",
+        "save_my_information_label": "Salvare queste informazioni per pagare più rapidamente in futuro",
+        "invalid_address": "L'indirizzo selezionato non è valido. %{update_address_link} o seleziona un altro indirizzo.",
+        "incomplete_address": "L'indirizzo selezionato è incompleto. %{update_address_link} o seleziona un altro indirizzo.",
+        "invalid_shipping_method_summary": "Seleziona un indirizzo di consegna valido per vedere i metodi di spedizione disponibili",
+        "saved_address_option_description": {
+          "one": "Hai {{count}} indirizzi salvati."
+        }
+      },
+      "stock": {
+        "page_title": "Problema di disponibilità",
+        "title": "Non disponibile",
+        "removed_from_cart_notice": "Rimosso dal carrello",
+        "reduced_with_quantity_label": "Solo %{quantity_available} disponibili in magazzino",
+        "remove_from_cart_button_label": "Rimuovi dal carrello",
+        "remove": "Rimuovere",
+        "quantity_update": {
+          "page_title": "Quantità aggiornata",
+          "title": "Quantità aggiornata",
+          "description": "Le quantità disponibili per questi articoli sono cambiate e il tuo carrello è stato aggiornato."
+        },
+        "unpurchasable_product": {
+          "title": "Prodotto non disponibile per l'acquisto",
+          "message": "Questi articoli non sono disponibili per ordini B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Prodotto non disponibile per l'acquisto"
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Questo articolo verrà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo.",
+            "other": "Questo articolo verrà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo."
+          }
+        },
+        "price_update": {
+          "title": "Aggiornamento prezzi",
+          "description": "I prezzi di questi articoli sono stati modificati e aggiornati nel tuo carrello."
+        },
+        "return_to_store_label": "Torna al negozio",
+        "item_label": {
+          "one": "{{count}} articoli"
+        },
+        "continue_cta_label": "Procedi al pagamento",
+        "price_and_quantity_update": {
+          "title": "Aggiornamento di prezzo e quantità",
+          "description": "I prezzi e le quantità disponibili per questi articoli sono stati modificati e il carrello è stato aggiornato."
+        },
+        "out_of_stock_in_context_label": "Questo prodotto non è disponibile nel tuo paese/regione."
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Aggiungere un codice sconto o un buono regalo",
+        "remove_gift_card_label": "Rimuovere il buono regalo"
       }
     }
   }

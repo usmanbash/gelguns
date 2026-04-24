@@ -1990,7 +1990,65 @@
         "in_transit_description_days": "A rendelésed %{number} napon belül kiszállításra kerül.",
         "in_transit_description_today": "A rendelésed ma érkezik meg.",
         "in_transit_description_tomorrow": "A rendelésed holnap érkezik meg.",
-        "no_tracking_number": "Ehhez a rendeléshez nincs követési szám."
+        "no_tracking_number": "Ehhez a rendeléshez nincs követési szám.",
+        "out_for_delivery": "Kiszállításra kész",
+        "out_for_delivery_title": "A rendelésed készen áll a kiszállításra",
+        "out_for_delivery_description_html": "A rendelésed úton van, és ma kellene megérkeznie. Ha a következő két napban nem érkezik meg, %{contact_us}.",
+        "attempted_delivery": "Kézbesítési kísérlet",
+        "attempted_delivery_title": "Megkísérelték kézbesíteni a rendelésedet",
+        "attempted_delivery_description_html": "A rendelés kézbesítési kísérlete sikertelen volt. Egy újabb kézbesítési kísérlet egyeztetéséhez %{contact_us}.",
+        "delivered": "Aggódó",
+        "delivered_title": "A rendelésed kiszállítva",
+        "delivered_description_html": "A rendelésed a megadott címre kézbesítésre került. Ha nem kaptad meg, vagy más problémák merülnek fel, %{contact_us}.",
+        "contact_us": "Lépjen kapcsolatba velünk",
+        "contact_us_lowercase": "lépjen kapcsolatba velünk",
+        "contact_us_html": "Segítségre van szüksége? %{contact_us}",
+        "updated_time": "Frissítve %{time_ago} ezelőtt",
+        "failure": "Nem kézbesítve",
+        "failed_title": "A rendelésedet nem sikerült kézbesíteni.",
+        "failed_contact_merchant": "Lépjen kapcsolatba a %{company}-val a szállítás megszervezése érdekében.",
+        "failed_contact_merchant_no_company": "Lépjen kapcsolatba velünk a kiszállítás megszervezése érdekében.",
+        "non_shippable_title": "A rendelés befejeződött",
+        "login_title": "Jelentkezzen be az összes rendelési adat megtekintéséhez",
+        "login_description": "A rendelési számodat megtalálod a számlán, amelyet e-mailben kaptál.",
+        "login_description_phone": "A rendelési számodat megtalálod a számlán, amelyet sms-ben kaptál meg.",
+        "login_not_customer_html": "Nem %{name}? Megteheted, hogy %{link}",
+        "login_reorder_link_text": {
+          "one": "ezt a terméket is megvásárolni",
+          "other": "ezeket a termékeket is megvásárolhatja"
+        },
+        "customer_information_hidden_fields_message": "Jelentkezzen be az összes ügyféladat megtekintéséhez.",
+        "cancelled_title": "A rendelésed törölve lett",
+        "cancelled_description": "A rendelésed %{date} dátummal törölve lett. Kérjük, lépj kapcsolatba velünk, ha kérdéseid vannak.",
+        "order_number_label": "Rendelési szám",
+        "customer_validation_error": "Adjon meg egy érvényes e-mail címet vagy rendelési számot.",
+        "customer_validation_error_phone": "Adjon meg egy érvényes telefonszámot vagy rendelési számot.",
+        "unfulfilled_items_title": "A szállítás előkészítése folyamatban van",
+        "unfulfilled_items_description": "Jelenleg ezeket a cikkeket készítjük elő a feladásra.",
+        "marker": {
+          "current": "Jelenlegi szállítási helyszín",
+          "shipping": "Kézbesítési cím"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Cikkek ebben a szállítmányban",
+          "unfulfilled_table_title": "A cikkek előkészítése folyamatban a szállításhoz",
+          "product_image_label": "Termékkép"
+        },
+        "order_updates_description_missing": "Nem kapsz szállítási frissítéseket.",
+        "order_updates_subscribe_to_email_notifications": "Kézbesítési értesítések e-mailben",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Kézbesítési frissítések e-mailben vagy sms-ben történő fogadása",
+        "order_updates_subscribe_to_phone_notifications": "Küldjön sms-ben értesítést a szállítás állapotáról",
+        "track_shipment": "Szállítás alatt",
+        "order_status_confirmed_order_with_email_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet.",
+        "order_status_confirmed_order_with_phone_pick_up": "Sms-t kapsz, amikor átveheted a rendelésed.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "E-mailt és rövid üzenetet kapsz, amikor átveheted a rendelésedet.",
+        "pick_up_in_store_marker": {
+          "current": "Jelenlegi szállítási helyszín",
+          "shipping": "Átvételi hely"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Sms-t kapsz, amikor átveheted a rendelésed.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet."
       }
     }
   }
