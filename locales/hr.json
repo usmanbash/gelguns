@@ -864,7 +864,65 @@
         "phone_tooltip": "U slučaju da te trebamo kontaktirati u vezi tvoje narudžbe",
         "pincode_label": "Poštanski broj",
         "pincode_placeholder": "Poštanski broj",
-        "region_none": "Nije odabrano"
+        "region_none": "Nije odabrano",
+        "civic_number_warning": "Dodajte kućni broj ako ga imate",
+        "optional_last_name_label": "Prezime (opcionalno)",
+        "different_shipping_address_label": "Pošalji na drugu adresu",
+        "different_shipping_address_text": "Koristiti jednu adresu za ovu narudžbu",
+        "change_company_location_link_label": "Promijenite lokaciju tvrtke",
+        "ship_to_company": "Slanje prema {{companyName}}",
+        "shipping_used_as_billing_notice": "Ovo također koristimo kao adresu za račun za ovu narudžbu.",
+        "company_attention_label": "Poduzeće/za pažnju:",
+        "optional_company_attention_label": "Tvrtka/za pažnju (opcionalno)",
+        "optional_zip_code_label": "Poštanski broj (opcionalno)",
+        "optional_postal_code_label": "Poštanski broj (opcionalno)",
+        "optional_postcode_label": "Poštanski broj (opcionalno)",
+        "optional_pincode_label": "PIN kod (opcionalno)",
+        "email_rollup_accessibility_label": "Opcije e-pošte",
+        "phone_rollup_accessibility_label": "Opcije telefona",
+        "phone_country_code_label": "Pozivni broj telefona",
+        "storefront_link": "web stranica trgovca",
+        "suburb_label": "Predgrađe"
+      },
+      "delivery_options": {
+        "ship": "Slanje",
+        "pick_up": "Preuzmi",
+        "pick_up_in_two_hours": "Obično spremno unutar 2 sata",
+        "pick_up_in_four_hours": "Obično spremno unutar 4 sata",
+        "pick_up_immediately": "Spremno za preuzimanje sada",
+        "pick_up_next_day": "Spremno za preuzimanje sljedeći dan",
+        "pick_up_in_one_hour": "Obično spremno unutar 1 sat",
+        "pick_up_in_twenty_four_hours": "Obično spremno unutar 24 sata",
+        "pick_up_in_two_to_four_days": "Obično spremno unutar 2-4 dana",
+        "pick_up_in_five_or_more_days": "Obično spremno za više od 5 dana",
+        "shipping_address": "Adresa dostave",
+        "pick_up_locations": "Lokacije za preuzimanje",
+        "pickup_point_method_definition": "Slanje na mjesto preuzimanja",
+        "retail_method_definition": "Pošiljke maloprodaje",
+        "none_method_definition": "Nema pošiljki",
+        "subscription_pickup_information": "Ova metoda dostave primjenjuje se na sve artikle u ovoj narudžbi i na sve buduće artikle za ovu pretplatu.",
+        "ship_to_address": "Slanje na adresu",
+        "company_location_no_address_banner": "Narudžbe koje se šalju na lokacije bez adrese podliježu provjeri.",
+        "pickup_point_map_title": "Karta s mjestima za preuzimanje"
+      },
+      "customer_account": {
+        "not_user_label": "Nisi li ti %{first_name}?",
+        "have_an_account_label": "Imaš li račun?",
+        "save_my_information_label": "Spremi ove podatke za bržu naplatu ubuduće",
+        "invalid_address": "Odabrana adresa nije valjana. %{update_address_link} ili odaberite drugu adresu.",
+        "incomplete_address": "Odabrana adresa je nepotpuna. %{update_address_link} ili odaberite drugu adresu.",
+        "invalid_shipping_method_summary": "Odaberite valjanu adresu za dostavu kako biste vidjeli dostupne metode slanja",
+        "saved_address_option_link": "Koristi spremljenu adresu",
+        "saved_address_modal_title": "Koristi moju spremljenu adresu",
+        "saved_address_option_description": {
+          "one": "Imaš {{count}} spremljenu adresu.",
+          "other": "Imate {{count}} spremljenih adresa."
+        },
+        "rollup_accessibility_label": "Opcije računa"
+      },
+      "stock": {
+        "page_title": "Problem z zalihama",
+        "title": "Nema na skladištu"
       }
     }
   }
