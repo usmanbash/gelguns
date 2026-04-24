@@ -3461,7 +3461,79 @@
         "was_expected_by": "Esperado até {{date}}"
       },
       "status_mark_as_delivered": "Marcar como preocupado",
-      "buy_again_accessibility_label": "Comprar novamente para a encomenda {{orderId}}"
+      "buy_again_accessibility_label": "Comprar novamente para a encomenda {{orderId}}",
+      "fulfillment_status_title": "Estado de cumprimento: {{status}}",
+      "list_title_pending_orders_accessibility_label": "Encomendas: em processamento",
+      "switch_order_type_pending_orders_accessibility_label": "Alterar tipo de encomenda; está a ver encomendas em processamento",
+      "switch_order_type_confirmed_orders_accessibility_label": "Alterar tipo de encomenda; está a ver as suas encomendas confirmadas"
+    },
+    "order_details": {
+      "addresses_section_title": "Faturar e enviar",
+      "billing_address": "Morada de faturação",
+      "card_ending_with": "termina em {{lastDigits}}",
+      "contact": "Pessoa de contacto",
+      "hide_items": "Ocultar artigos",
+      "loading": "A carregar dados da encomenda",
+      "loading_finished_accessibility_message": "Dados da encomenda carregados",
+      "payment": {
+        "status_in_review": "Pagamento devido após avaliação",
+        "status_unpaid": "Pagamento devido em {{date}}",
+        "card_payment_details": "terminando em {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pago com pagamentos a prazo Shop Pay",
+          "view_schedule": "Ver planeamento"
+        },
+        "gift_card_payment_details": "terminando em {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "cash_on_delivery": "Reembolso - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Crédito na loja - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Dados",
+          "payment_details": "Dados de pagamento"
+        },
+        "emv_details": {
+          "auth": "AUTENTICAÇÃO:",
+          "aid": "ID de Ajuda:",
+          "source": "Utilize o seguinte formato de saída (sem blocos de código, sem texto extra):"
+        },
+        "payment_type": {
+          "gift_card": "Vale-presente",
+          "store_credit": "Crédito na loja",
+          "cash_on_delivery": "Reembolso"
+        }
+      },
+      "shipping": {
+        "address": "Endereço de entrega",
+        "address_map_marker": "Endereço de entrega",
+        "summary": "Enviar",
+        "free": "Grátis",
+        "one_time": "Enviar uma vez",
+        "subscription": "Enviar por assinatura"
+      },
+      "show_items": "Mostrar artigos",
+      "subtitle": "Confirmado: {{date}}",
+      "summary_list_title_accessibility_label": "Encomendar artigos",
+      "summary_totals_title_accessibility_label": "Encomenda total",
+      "unit_price": "{{price}}/unid.",
+      "not_applicable": "n.a.",
+      "no_data": "Nenhum",
+      "pagination": {
+        "load_more_accessibility_label": "Carregar mais artigos",
+        "loading_accessibility_label": "A carregar artigos"
+      },
+      "returns": {
+        "expand_events_label": "Mostrar dados",
+        "hide_events_label": "Ocultar dados",
+        "ineligible_return_message": "Não há artigos nesta encomenda que possam ser devolvidos.",
+        "ineligible_return_message_when_returned": "Não há mais artigos nesta encomenda que possam ser devolvidos.",
+        "exchange_header": "Artigos para troca",
+        "exchange_subheader": "Os artigos de troca serão adicionados à encomenda assim que a devolução estiver concluída."
+      },
+      "request_return_failed": "Ocorreu um problema ao processar o seu pedido. Por favor, tente novamente.",
+      "shipment_timeline": {
+        "expand_events_label": "Mostrar dados"
+      }
     }
   }
 }
