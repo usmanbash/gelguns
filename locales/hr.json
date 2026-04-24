@@ -2156,8 +2156,80 @@
         "sms": {
           "disclaimer": {
             "privacy_policy": "Pravila privatnosti",
-            "terms_of_service": "Uvjeti usluge"
-          }
+            "terms_of_service": "Uvjeti usluge",
+            "description_html": "Prijavom putem SMS-a pristajete na primanje automatiziranih marketinških poruka, uključujući podsjetnike za napuštenu košaricu, na navedeni telefonski broj. Dozvola nije uvjet za kupnju. Pošaljite STOP za odjavu. Pošaljite HELP za pomoć. Učestalost poruka varira. Mogu se primijeniti troškovi poruka i podataka. Pogledajte našu %{privacy_policy_link} i naše %{terms_of_service_link}.",
+            "description_transactional_html": "Možda ćete primati SMS poruke vezane uz potvrde narudžbi i obavijesti o slanju. Odgovorite s STOP za odjavu. Odgovorite s HELP za pomoć. Učestalost poruka varira. Mogu se primijeniti troškovi poruka i podataka. Pogledajte naš %{privacy_policy_modal_link} i naše %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilni broj telefona",
+          "get_offers_by_text": "Primajte ponude putem SMS-a"
+        },
+        "post_accept_marketing_checkbox_label": "Prijavljeni ste za primanje e-mailova s vijestima i ponudama",
+        "pending_accept_marketing_checkbox_label": "Pogledaj svoj e-mail kako bi potvrdio/la prijavu za novosti i ponude",
+        "accept_shop_pay_marketing_checkbox_label": "Prijavi me za vijesti i ponude ove trgovine",
+        "disclaimer": {
+          "privacy_policy": "Pravila privatnosti",
+          "terms_of_service": "Uvjeti usluge"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politika povrata novca",
+        "privacy_policy": "Pravila privatnosti",
+        "terms_of_service": "Opći uvjeti",
+        "legal_notice": "Zakonska obavijest",
+        "shipping_policy": "Slanje",
+        "subscription_policy": "Otkazi",
+        "purchase_options_policy": "Politika opcija kupnje",
+        "purchase_options_cancellation_policy": "Otkazi",
+        "cookie_preferences": "Kolačići",
+        "policy_label": "Politika",
+        "policies_label": "Politika",
+        "select_policy_label": "Odaberite politiku"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Iznos za plaćanje za narudžbu %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} dodano"
+          },
+          "removed": "Izbrisano",
+          "subtracted": "%{count} uklonjeno",
+          "returned": "%{count} vraćeno",
+          "return_line_item_removed": "%{count} uklonjeno iz povrata"
+        },
+        "additional_payment_requested": "Plaćanje iznosa %{total_outstanding} je obavezno",
+        "checkout_review_and_pay": "Vaša narudžba %{order_name} je ažurirana. Pogledajte ove promjene i zatim platite kako biste potvrdili svoju narudžbu.",
+        "order_updated_on": "Vaša je narudžba ažurirana %{last_edited_at}.",
+        "order_review_and_pay": "Vaša je narudžba ažurirana. Provjerite i platite kako biste potvrdili narudžbu.",
+        "pay_now": "Plati sada"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Vaša kreditna kartica bit će terećena za %{amount}",
+        "payment_total_label": "Ukupna plaćanja",
+        "card_provider_fx_charges_warning": "Vaš izdavač kartice može naplatiti naknadu za transakcije u iznosu od %{currency_code}."
+      },
+      "tips": {
+        "title": "Dodaj napojnicu",
+        "description": "Pokaži da podržavaš tim %{shop_name}",
+        "presets_description": "Odaberite postotak napojnice",
+        "custom_label": "Prilagođeni napojnica",
+        "add_tip": "Dodaj napojnicu",
+        "update_tip": "Ažuriraj napojnice",
+        "message": "Hvala vam, stvarno cijenimo to.",
+        "no_tip_label": "Nema",
+        "not_available_with_spi": "Nije dostupno s obročnim plaćanjem putem Shop Pay-a"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "kupi %{product_name}",
+          "one": "Kupiti %{product_name} i još %{count} drugi artikl",
+          "other": "Kupiti %{product_name} i još %{count} drugih artikala"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "OIB/PDV broj",
+          "shipping_credential_br": "OIB/PDV broj",
+          "shipping_credential_kr": "Osobni carinski kod"
         }
       }
     }
