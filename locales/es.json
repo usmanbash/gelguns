@@ -802,7 +802,69 @@
             "lastWordConnector": "{{previousWords}} de {{lastWord}}",
             "twoWordConnector": "{{firstWord}} de {{secondWord}}"
           }
-        }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Clúster del punto de referencia {{number}}",
+            "other": "Clúster de {{number}} puntos de referencia"
+          }
+        },
+        "sheet": {
+          "expand": "Desplegar"
+        },
+        "dropzone": {
+          "invalid_file_type": "Este tipo de archivo no es compatible",
+          "dragged_over": "Colocar archivo para subir"
+        },
+        "loading": "Cargando..."
+      },
+      "contact": {
+        "delivery_option_title": "Método de entrega",
+        "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
+        "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
+        "new_address_label": "Usar una dirección nueva",
+        "last_name_label": "Apellido",
+        "address2_label": "Apartado postal, etc.",
+        "optional_address2_label": "Apartado postal, etc. (opcional)",
+        "country_label": "País/región",
+        "province_label": "Provincia",
+        "province_placeholder": "Provincia",
+        "county_label": "Provincia",
+        "county_placeholder": "Provincia",
+        "governorate_label": "Gobierno",
+        "governorate_placeholder": "Gobierno",
+        "phone_tooltip": "En caso de que necesitemos ponernos en contacto contigo sobre tu pedido",
+        "pincode_label": "Código postal",
+        "pincode_placeholder": "Código postal",
+        "region_none": "Ninguno seleccionado",
+        "civic_number_warning": "Agrega un número de casa si tienes uno",
+        "optional_last_name_label": "Apellido (opcional)",
+        "different_shipping_address_label": "Enviar a otra dirección",
+        "different_shipping_address_text": "Usar una dirección única para este pedido",
+        "change_company_location_link_label": "Cambiar ubicación de la empresa",
+        "change_location_link_label": "Cambiar ubicación",
+        "shipping_used_as_billing_notice": "También usamos esta dirección como dirección de facturación para este pedido.",
+        "company_attention_label": "Empresa/a la atención de",
+        "optional_company_attention_label": "Empresa/a la atención de (opcional)",
+        "optional_pincode_label": "Código postal (opcional)",
+        "suburb_label": "Afueras"
+      },
+      "delivery_options": {
+        "ship": "Enviar",
+        "pick_up": "Recoger",
+        "pick_up_in_two_hours": "Generalmente listo en 2 horas",
+        "pick_up_in_four_hours": "Generalmente listo en 4 horas",
+        "pick_up_immediately": "Listo para recoger ahora",
+        "pick_up_next_day": "Listo para recoger al día siguiente",
+        "pick_up_in_one_hour": "Generalmente listo en 1 hora",
+        "pick_up_in_twenty_four_hours": "Generalmente listo en 24 horas",
+        "pick_up_in_two_to_four_days": "Generalmente listo en 2-4 días",
+        "pick_up_in_five_or_more_days": "Generalmente listo en más de 5 días",
+        "pick_up_in_zero_to_two_hours": "Listo para recoger en 2 horas",
+        "pick_up_in_two_to_four_hours": "Listo para recoger en 4 horas",
+        "shipping_address": "Dirección de entrega",
+        "pick_up_locations": "Lugares de recogida",
+        "pickup_point_method_definition": "Enviar a punto de recogida"
       }
     }
   }
