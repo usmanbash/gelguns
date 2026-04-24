@@ -1382,7 +1382,65 @@
         "card_issue_number_placeholder": "Kiadási szám",
         "ends_with_label": "lejárata: %{last_digits}",
         "saved_by_payment_method": "Elmentve a %{payment_method} segítségével",
-        "pay_with_payment_method": "Fizessen %{payment_method} segítségével"
+        "pay_with_payment_method": "Fizessen %{payment_method} segítségével",
+        "same_billing_address_label": "Ugyanaz, mint a kézbesítési cím",
+        "different_billing_address_label": "Egy másik számlázási címet használni",
+        "free_order_notice_html": "A rendelésed <strong>ingyenes</strong>. Fizetés nem szükséges.",
+        "express_checkout_free_order": "Ingyenes rendelés esetén nem számítunk fel díjat",
+        "order_covered_by_gift_cards_notice": {
+          "one": "A rendelésedet az ajándékkártyáddal fizeted ki.",
+          "other": "A rendelésedet az ajándékutalványaiddal fizeted ki."
+        },
+        "offsite_gateway_redirect_hint": "Átirányítunk a %{gateway_label} oldalra, hogy befejezd a vásárlást.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} összesen %{total_shop_price}",
+        "billing_address_description": "Válaszd ki azt a címet, amely megfelel a kártyádnak vagy fizetési módodnak.",
+        "billing_address_description_no_shipping_address": "Add meg a címet, amely megfelel a kártyádnak vagy fizetési módodnak.",
+        "no_js_credit_card_fields_redirect_hint": "Átirányítunk, hogy hozzáadhassa fizetési adatait.",
+        "card_fields_container_prefix": "Ebben a mezőben áll:",
+        "card_fields_unavailable_html": {
+          "one": "Fizetés hitelkártyával vagy bankkártyával jelenleg nem elérhető.<br><a href=\"%{current_url}\">Frissítse ezt az oldalt</a> vagy próbálja meg később újra.",
+          "other": "Fizetés hitelkártyával vagy bankkártyával jelenleg nem elérhető.<br><a href=\"%{current_url}\">Frissítse ezt az oldalt</a> vagy próbáljon ki egy másik fizetési módot."
+        },
+        "card_fields_processing_error": "Hiba történt a fizetés feldolgozása közben. Frissítse ezt az oldalt, vagy ellenőrizze az internetkapcsolatát.",
+        "technical_error": "Műszaki hiba miatt jelenleg nem lehet fizetéseket feldolgozni. Kérjük, próbálja meg néhány perc múlva újra.",
+        "no_method_error": "Ez az üzlet jelenleg nem tud fizetéseket elfogadni.",
+        "not_configured_error": "Ez az üzlet jelenleg nem tud fizetéseket elfogadni.",
+        "missing_credit_card_error": "Add meg a kártyaadataidat a fizetés befejezéséhez",
+        "generic_incorrect_card_info": "A fizetési adataid nem ellenőrizhetők. Ellenőrizd a kártyaadataidat, és próbáld újra.",
+        "sofort_label": "Azonnal",
+        "bank_picker_label": "Kanapé",
+        "klarna_pay_now_label": "Fizessen most Klarna segítségével",
+        "klarna_pay_later_label": "Utólagos fizetés a Klarnával",
+        "eps_label": "eps-átutalás (eps-átadás)",
+        "klarna_slice_it_label": "Pénzügyek a Klarnával",
+        "card_expiration_month_label": "Értékesítési hónap",
+        "card_expiration_year_label": "Érvényességi év",
+        "card_information_notice": "Minden tranzakció biztonságos és titkosított. A hitelkártyaadatok soha nem kerülnek tárolásra.",
+        "credit_card_start_month": "Hónap kezdőnapja",
+        "credit_card_start_year": "Év kezdőnapja",
+        "billing_address_not_supported_for_payment_method_error": "Ez a fizetési mód nem elérhető a számlázási címedhez és pénznemedhez. Próbálj meg egy másik fizetési módot.",
+        "change_currency_section_description": "Válasszon pénznemopciót",
+        "no_real_orders_dev_store": "Ez az üzlet nem fogadhat el valódi megrendeléseket, és nem dolgozhat fel valódi fizetéseket.",
+        "subscription_agreement_label_html": "Értem, hogy előfizetésre kötelezem el magam. Az előfizetés a megadott áron és gyakorisággal megújul, amíg le nem jár vagy <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">lemondásra nem kerül</a>.",
+        "waiting_on_payment_methods": "Elérhető fizetési módok lekérése...",
+        "apple_pay_payment_error": "A fizetés nem sikerült. Próbálja meg újra, vagy használjon másik fizetési módot.",
+        "subscription_card_update_agreement_label": "A fizetési mód megváltoztatásával előfizetésed és a jövőbeni ismétlődő fizetések frissülnek.",
+        "card_security_vault_notice": "Szükségünk van az adataidra a jövőbeni fizetésekhez. Minden tranzakció biztonságos és titkosított.",
+        "taxes_not_included": "Adómentes",
+        "no_taxes_banner_content": "Adók nem kerülnek felszámításra ezen a rendelésen. Több adót nem adhatsz hozzá, ha a fizetés már megtörtént.",
+        "card_update_label": "Térkép frissítése",
+        "paypal": {
+          "connect": "Kattints a PayPal-fiókod összekapcsolásához"
+        },
+        "subscription_agreement_label": "A kosárban lévő egy vagy több termék halasztott vagy előfizetéses vásárlás. Ha folytatod a fizetést, elfogadod, hogy a vásárlási összegeket automatikusan levonjuk a fizetési módodról az ezen az oldalon megadott ár és gyakoriság szerint, amíg az előfizetés le nem jár, vagy amíg te magad le nem mondod. Minden lemondásra a %{cancelled} vonatkozik.",
+        "subscription_agreement_cancelled": "felmondási szabályzat",
+        "card_verification_confirm": "A kártyád biztonsági kódját írd be az ellenőrzéshez.",
+        "different_credit_card_label": "Használjon másik hitelkártyát",
+        "apple": {
+          "connect": "Kattints az Apple Pay-fiókod összekapcsolásához",
+          "not_available": "Az Apple Pay nem érhető el ebben a böngészőben. Az Apple Pay-fiókod összekapcsolásához Safari böngészőt kell használnod egy Apple-készüléken."
+        },
+        "account_connected": "Fiók összekapcsolva."
       }
     }
   }
