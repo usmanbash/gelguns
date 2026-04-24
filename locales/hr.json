@@ -2995,7 +2995,73 @@
       }
     },
     "errors": {
-      "credit_card_session_expired": "Autorizacija kreditne kartice je istekla. Unesite svoje podatke za plaćanje ponovno. S vašeg računa nije skinut novac."
+      "credit_card_session_expired": "Autorizacija kreditne kartice je istekla. Unesite svoje podatke za plaćanje ponovno. S vašeg računa nije skinut novac.",
+      "invalid_email": "mora biti valjana adresa e-pošte",
+      "discount_disabled": "Ovaj popust je blokiran",
+      "discount_expired": "Ovaj popust više nije važeći",
+      "discount_limit_reached": "Ovaj popust je dosegao ograničenje korištenja",
+      "discount_not_found": "Nije moguće pronaći valjani popust koji odgovara kodu",
+      "customer_already_used_once_per_customer_discount_notice": "Ovaj popust je dosegao ograničenje korištenja",
+      "gift_card_already_applied": "Kod je već primijenjen na tvoju košaricu",
+      "gift_card_code_invalid": "Kod nije valjan",
+      "gift_card_currency_mismatch": "Vaša poklon bon je u %{gift_card_currency}. Kontaktirajte nas kako bismo ga mogli ponovno izdati u %{checkout_currency}.",
+      "gift_card_depleted": "Na ovom poklon bonu više nema sredstava",
+      "gift_card_disabled": "Poklon bon je blokiran",
+      "gift_card_expired": "Poklon bon je istekao",
+      "invalid": "nije valjano",
+      "bad_domain": "sadrži nevažeće ime domene",
+      "taken": "je već korišteno",
+      "contains_html_tags": "ne smije sadržavati HTML oznake",
+      "too_short": "je prekratak (minimalno je %{count} znakova)",
+      "too_long": "je predugačko (maksimalno %{count} znakova)",
+      "password_mismatch": "mora biti identično unesenoj lozinki",
+      "contains_spaces": "počinje ili završava razmacima.",
+      "invalid_for_country": "nije važeće za %{country}",
+      "invalid_for_country_and_province": "nije važi za %{province} i %{country}",
+      "invalid_province_in_country": "nije važeća pokrajina u %{country}",
+      "invalid_state_in_country": "nije važeća država u %{country}",
+      "invalid_region_in_country": "nije valjana regija u %{country}",
+      "less_than_or_equal_to": "mora biti manje ili jednako %{count}",
+      "invalid_for_card_type": "nije valjano",
+      "invalid_type": "žao nam je, ne prihvaćamo kartice ovog tipa",
+      "invalid_format": "format nije valjan",
+      "expired": "je istekao",
+      "invalid_start_date_or_issue_number_for_debit": "valjani datum početka ili valjani broj izdavanja obvezan",
+      "reset_password_html": "Ova je e-mail adresa već povezana s računom. Ako je ovaj račun tvoj, možeš <a href=\"/account/login#recover\">resetirati svoju lozinku</a>",
+      "verify_email": "Poslali smo e‑poruku na %{customer_email}. Molimo kliknite na priloženi link kako biste potvrdili svoju e‑adresu.",
+      "product_not_available": "proizvod nije objavljen za ovog kupca.",
+      "shop_404": {
+        "title": "Izradite e-commerce web stranicu i prodajte svoje proizvode online! E-commerce softver tvrtke Shopify",
+        "heros": {
+          "store_unavailable": "Ova trgovina trenutno nije dostupna.",
+          "no_storefront": "Ova trgovina još nema web stranicu."
+        },
+        "links": {
+          "start_free_trial": "Isprobajte besplatno"
+        },
+        "owner_ctas": {
+          "fix_domain": "Idite na %{domain_settings_link} i dovršite postavljanje svoje nove web adrese. Kliknite na 'Poveži domenu' i upišite: %{domain}.<br>Ako ne možete pristupiti svojoj trgovini, pokušajte %{forgot_your_store_link}",
+          "fix_domain_link_text": "je postavke domene",
+          "forgot_your_store_link_text": "Jeste li zaboravili svoju košaricu?",
+          "add_storefront": "Možete postaviti svoju web stranicu dodavanjem webshop-kanala u %{admin_link}. Ako ne možete pristupiti svojoj trgovini, pokušajte %{forgot_your_store_link}",
+          "admin_link_text": "centar za upravljanje"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Osobna prodaja",
+            "caption": "Dobijte funkcije koje su vam potrebne za vođenje vaše maloprodajne trgovine, bilo da tek počinjete ili proširujete poslovanje.",
+            "link_text": "Pokreni besplatnu probnu verziju"
+          },
+          "open_a_store": {
+            "header": "Otvoriti novu Shopify trgovinu",
+            "caption": "Započni besplatnu probnu verziju od tri dana, a zatim nastavi tri mjeseca za 1 USD mjesečno.",
+            "link_text": "Prijavi se sada"
+          },
+          "editions": {
+            "header": "Pogledajte Shopify izdanja"
+          }
+        }
+      }
     }
   }
 }

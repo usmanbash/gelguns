@@ -3492,7 +3492,89 @@
         "on_its_way_label": "En chemin",
         "out_for_delivery_label": "Prêt pour la livraison",
         "submitted_label": "Soumis",
-        "track_shipment": "Suivi de l'envoi"
+        "track_shipment": "Suivi de l'envoi",
+        "preparing_for_shipping_label": "L'expédition est en cours de préparation",
+        "ready_for_pickup_label": "Prêt à être retiré",
+        "ready_for_pickup_description": "Ces articles sont prêts à être retirés. Veuillez apporter la confirmation de commande lorsque vous venez chercher la commande.",
+        "picked_up_label": "Retiré",
+        "submitted_description": "Vérifiez la commande et les informations de paiement.",
+        "view_order_for_details": "Voir la commande pour les détails du produit",
+        "confirmed_description_digital": "Vous recevrez un courriel lorsque votre commande sera prête.",
+        "delivered_description_gift_card": {
+          "one": "Le bon cadeau a été envoyé par courriel.",
+          "other": "Les bons cadeaux ont été envoyés par courriel."
+        },
+        "gift_card_label": {
+          "one": "Bon cadeau",
+          "other": "Bons cadeaux"
+        },
+        "ready_for_pickup_location": "Votre commande est prête à être retirée sur place",
+        "confirmed_description_pickup": "Vous recevrez un courriel lorsque vous pourrez retirer votre commande.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Le bon cadeau est envoyé dans un courriel séparé.",
+          "other": "Chaque bon cadeau est envoyé dans un courriel séparé."
+        },
+        "confirmed_description_gift_card_text": "Vous recevrez un texto lorsque la commande sera prête.",
+        "delivered_description_gift_card_text": {
+          "one": "Le bon cadeau a été envoyé par SMS.",
+          "other": "Les bons cadeaux ont été envoyés par SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Le bon cadeau est envoyé dans un SMS séparé.",
+          "other": "Chaque bon cadeau est envoyé dans un SMS séparé."
+        },
+        "gift_resend_success": {
+          "one": "Bon cadeau renvoyé",
+          "other": "Bons cadeaux renvoyés"
+        },
+        "gift_resend_failure": {
+          "one": "Un problème est survenu lors de la réexpédition de votre bon cadeau. Veuillez réessayer ou contacter notre service.",
+          "other": "Un problème est survenu lors de la réexpédition de vos bons cadeaux. Veuillez réessayer ou contacter notre service."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(s’ouvre dans une nouvelle fenêtre)"
+          }
+        },
+        "buy_with_prime_logo_accessibility_label": "Logo Amazon Acheter avec Prime",
+        "delivered": "Livré le {{date}}",
+        "multiple_statuses_label": "Plusieurs statuts de commande",
+        "status_timestamp": "Mis à jour le {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Livraison prise en charge par",
+            "not_delivered_by_label": "Non livré avant le {{date}}",
+            "modal_accessibility_button_label": "Données sur la promesse de livraison"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Réclame ton Argent Boutique",
+            "no_shop_app_label": "{{appDownloadLink}} pour réclamer Shop Cash",
+            "download_shop_app_label": "Télécharger la boutique"
+          },
+          "details_modal": {
+            "title": "Livraison prise en charge par",
+            "modal_accessiblity_label": "Données sur la promesse de livraison",
+            "delivery_by_label": "Livraison avant le {{date}}",
+            "delivery_guaranteed_by_label": "Livraison garantie avant le {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantit une livraison rapide et fiable. Réclamez Shop Cash si votre commande est livrée en retard.",
+              "may_be_eligible_not_authorized_label": "Vous pourriez avoir droit à réclamer de l'Argent Boutique, car cette commande est arrivée en retard. Connectez-vous pour voir les détails.",
+              "redeemed_label": "Vous avez déjà réclamé Shop Cash car cette commande est arrivée en retard.",
+              "expired_label": "Cette commande ne peut pas faire l'objet d'une réclamation pour livraison tardive, car la garantie de 30 jours est expirée.",
+              "no_shop_cash_label": "Cette commande ne peut pas faire l'objet d'une réclamation pour livraison tardive, car elle n'a pas été payée avec Shop Pay.",
+              "no_longer_guaranteed_label": "Ces articles ne sont plus couverts par une garantie de livraison.",
+              "claim_shop_cash_title": "Scannez pour réclamer {{amount}} en Shop Cash",
+              "claim_shop_cash_description": "Vous pouvez utiliser Shop Cash pour des achats futurs dans l’application Shop."
+            },
+            "delivery_guarantee_label": "Garantie de livraison"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Livraison pour",
+            "not_delivered_by_label": "Inquiet après le {{date}}"
+          }
+        }
       }
     }
   }
