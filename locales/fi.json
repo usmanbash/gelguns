@@ -654,7 +654,71 @@
             "unresolvable_tax_terms": "Ehdotetut ehdot eivät nykyisen neuvottelutilanteen valossa ole toteuttamiskelpoisia.",
             "delivery_price_is_abstract": "Kyseinen toimitushinta on abstrakti.",
             "tax_inclusivity_mismatch": "Neuvottele uudelleen konkreettisesta arvosta totalTaxAndDutyAmount- tai totalAmountIncludedInTarget-kentälle.",
-            "tax_exemption_not_supported": "Nykyisessä neuvottelukierroksessa ei tueta verovapautuksia."
+            "tax_exemption_not_supported": "Nykyisessä neuvottelukierroksessa ei tueta verovapautuksia.",
+            "delivery_tax_exemption_not_supported": "Toimitussääntöjen verovapautuksia ei tällä hetkellä tueta.",
+            "proposed_allocations_required": "Kenttä 'ehdotetut osoitukset' puuttuu.",
+            "merchandise_terms_must_be_defined": "Määrittele tavaroiden ehdot.",
+            "delivery_terms_must_be_defined": "Määrittele toimitusehdot.",
+            "merchandise_discount_terms_must_be_defined": "Määrittele tavara-alennuksen ehdot.",
+            "delivery_discount_terms_must_be_defined": "Määrittele ehdot toimitusalennukselle.",
+            "allocated_required": "Kenttä 'määrätty' puuttuu.",
+            "value_required": "Kenttä 'arvo' puuttuu.",
+            "line_splits_not_supported": "Kenttä 'tavaraerät' on jaettava siten, että jokaiselle riville on myyjän ehdotuksessa oma erillinen osa."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Käsin tehtävät maksut eivät ole sallittuja yritysmyymälöissä.",
+            "total_amount_mismatch": "Maksettava kokonaissumma ei vastaa maksujen summaa.",
+            "subscription_terms_not_accepted": "Tilaus- ja käyttöehdot eivät ole hyväksyttyjä.",
+            "missing_session_id": "Tietoa luottokorttisessiosta puuttuu.",
+            "gateway_not_supported": "Maksunvälityspalvelu ei tue maksutavan tallentamista.",
+            "credit_card_last_name_required": "'sukunimi' ei saa olla tyhjä.",
+            "invalid_address_type": "Syötetty osoitetyyppi ei kelpaa tähän maksutapaan.",
+            "missing_retail_attributions": "Vähittäismyyntimääritykset ovat pakollisia käsin syötetyille luottokorttimaksuille.",
+            "unexpected_retail_attributions": "Odottamattomia vähittäiskaupan kohdistuksia annettu luottokorttimaksulle.",
+            "invalid_card_source": "Tällä istunnolla ei ole oikeutta käyttää tätä karttalähdettä.",
+            "wallet_content_missing": "Sisältö lompakkovanhasta puuttuu.",
+            "payment_instrument_not_found": "Kan maksutapaa ei löydy",
+            "unauthorized_capture_method": "Maksujen kirjausmenetelmän määritys ei ole sallittua.",
+            "saved_payment_methods_not_allowed": "'Tallennetut maksutavat' ei ole sallittu.",
+            "saved_payment_methods_not_enabled": "'Tallennetut maksutavat' eivät ole käytössä tässä kaupassa.",
+            "store_credit_not_enabled": "Ostohyvitys ei ole käytössä tässä kaupassa.",
+            "store_credit_account_not_found": "Lahjakorttitiliä ei löytynyt.",
+            "store_credit_account_mismatch": "Ostajan henkilöllisyys ei vastaa kauppakrediittitiliä.",
+            "store_credit_mismatched_currency": "Lahjakorttitilin valuutta ei vastaa kassalla käytettävää valuuttaa.",
+            "store_credit_insufficient_funds": "Kauppakrediittitilillä ei ole riittävästi saldoa.",
+            "store_credit_buying_gift_card": "Lahjakorttia ei voi ostaa kauppaluotolla.",
+            "gift_cards_not_allowed_for_b2b": "Lahjakortit eivät ole sallittuja yritysmyymälöissä.",
+            "method_required": "Maksutapa on valittava.",
+            "saved_payment_methods_cvv_verification_disabled": "Valitulle maksutavalle vaaditaan CVV/CVC-tarkistus, mutta se ei ole käytössä tässä kaupassa. Käytä toista maksutapaa."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Kauppa ei ota vastaan tippiä.",
+            "only_one_tip_line_allowed": "Useita juhlakauden sääntöjä ei tueta.",
+            "tips_not_allowed_for_b2b": "Tippiä ei sallita yritysmyymälöissä.",
+            "currency_change_reset": "Fooi on asetettu uudelleen valuutan muutoksen vuoksi.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tippiä ei vielä tueta viivästetyissä ostoissa."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Tätä luonnostilausta ei ole nykyisessä kaupassa.",
+            "staff_member_not_exist": "Tätä työntekijää ei tunneta nykyisessä myymälässä.",
+            "location_not_exist": "Tätä paikkaa ei ole nykyisessä kaupassa.",
+            "point_of_sale_device_not_exist": "Tätä myyntipäätettä ei ole nykyisessä myymälässä.",
+            "unresolvable_target_merchandise_lines": "Ehdotettuja myyntimääräyksiä ei voida ratkaista nykyisessä neuvottelutilanteessa."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Tarjouksessasi ostajasi tulee sisältää neuvottelemattomat ehdot.",
+            "invalid_signature": "Allekirjoitus {{target_terms}} on virheellinen."
+          },
+          "inventory": {
+            "missing_quantity_value": "Kenttä 'Määrä' puuttuu ostajan varastosäännöistä.",
+            "changing_behavior_not_allowed": "Tällä asiakkaalla ei ole oikeutta muuttaa varastotoimintoja.",
+            "only_one_inventory_behavior_allowed": "Tällä hetkellä kassalla on sallittu vain yksi varastotoiminto."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Tässä kassalla tullimaksujen kieltäminen ei ole sallittua."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Tässä kassalla vähittäismyyntijako ei ole sallittu."
           }
         }
       }
