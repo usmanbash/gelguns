@@ -1711,7 +1711,67 @@
         "card_declined": "Dit kort blev afvist. Prøv igen eller brug en anden betalingsmetode.",
         "processing_error": "Der opstod et problem med at behandle din betaling. Prøv igen eller brug en anden betalingsmetode.",
         "call_issuer": "Dit kort blev afvist. Brug en anden betalingsmetode eller kontakt din bank for mere information.",
-        "test_mode_live_card": "Denne butik kan ikke acceptere rigtige ordrer eller behandle rigtige betalinger."
+        "test_mode_live_card": "Denne butik kan ikke acceptere rigtige ordrer eller behandle rigtige betalinger.",
+        "transient_error": "Der opstod et problem med at behandle din betaling. Opdater denne side eller tjek din internetforbindelse.",
+        "missing_shipping_address": "Din betaling kunne ikke behandles, fordi leveringsadressen mangler. Tilføj en leveringsadresse og prøv igen.",
+        "invalid_shipping_address": "Din betaling kunne ikke behandles, fordi vi ikke kunne finde din leveringsadresse. Kontroller din leveringsadresse og prøv igen.",
+        "successful_offsite_with_gift_card_error": "Der opstod et problem under behandlingen af din betaling med gavekort. Prøv igen eller brug en anden betalingsmetode.",
+        "development_store_order_limit_reached": "Du har nået det maksimale antal development store-ordrer med denne betalingsudbyder. Brug en testbetalingsgateway for at afgive endnu en ordre. Her finder du mere information om %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Brug en testbetalingsgateway til at afgive en testordre. Her finder du mere information om %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "teste bestillingen i udviklingsbutikker",
+        "method_not_available": "Den ønskede betalingsmetode er ikke tilgængelig. Vælg en anden betalingsmetode og prøv igen.",
+        "available_methods_updated": "Tilgængelige betalingsmetoder er opdateret.",
+        "selected_payment_method": "Der opstod et problem med den valgte betalingsmetode, og der er ikke blevet opkrævet nogen gebyrer. Prøv igen eller brug en anden betalingsmetode.",
+        "payment_method_billing_address": "Der er et problem med faktureringsadressen for din valgte betalingsmetode. Kontroller adressen og prøv igen, eller brug en anden betalingsmetode.",
+        "processing_error_checkout_as_guest": "Der opstod et problem med behandlingen af betalingen. Prøv igen med en anden betalingsmetode eller {{checkout_as_guest_link}}.",
+        "amount_too_small": "Det mindste betalingsbeløb skal være højere end 0,50 USD. Prøv igen med et højere beløb.",
+        "payment_above_threshold": "Betalingsbeløbet er højere end den tilladte grænse for denne region. Sænk det samlede beløb og prøv igen.",
+        "risky": "Der opstod et problem med at behandle betalingen. Prøv igen eller brug en anden betalingsmetode.",
+        "expired_buyer_action": "Betalingsmetode midlertidigt ude af drift. Prøv igen.",
+        "three_d_secure_failed_payment_method": "Dit kort kan ikke bekræftes. Prøv igen eller tilføj et andet kort.",
+        "name_mismatch": "Kontrollér dine kortoplysninger. Navnet på dit kort og faktureringsadressen stemmer ikke overens.",
+        "payment_method_not_applicable": "Denne betalingsmetode gælder ikke. Brug en anden betalingsmetode.",
+        "market_manager_blocks_wallet_payments": "Denne betalingsmetode understøttes ikke i dit land.",
+        "paypal_over_capture": "Det samlede beløb for din ordre er opdateret. Betal med {{walletName}} for at fuldføre din ordre.",
+        "test_mode_enabled_only_test_cards": "Testtilstand er aktiveret, der kan kun tilføjes testkreditkort.",
+        "captcha_required": "Indtast betalingsoplysningerne og løs captchaen for at fuldføre dit køb.",
+        "captcha_required_without_payment_information": "Løs captchaen for at fuldføre dit køb.",
+        "shipping_company_required_error": "{{shopName}} kræver et firmanavn til leveringsadressen.",
+        "cancelled_payment": "Din betaling er blevet annulleret. Prøv igen eller brug en anden betalingsmetode.",
+        "installments_payment_method_incompatible": "Den valgte betalingsmetode kan ikke bruges til afbetalingsordninger. Vælg en anden betalingsmetode."
+      },
+      "shipping_errors": {
+        "shipping_method": "Forsendelsesmulighederne for din bestilling er ændret. Tjek dit valg.",
+        "shipping_method_not_available": "Din indkøbskurv er opdateret, og de varer, du har tilføjet, kan ikke sendes til din adresse. Fjern varerne for at fuldføre din bestilling.",
+        "shipping_method_not_available_generic": {
+          "one": "Din bestilling kan ikke sendes til den valgte adresse. Kontroller, at adressen er korrekt, og prøv igen, eller vælg en anden adresse.",
+          "other": "Nogle varer i din indkøbskurv kan ikke sendes til den indtastede adresse. Kontroller, at adressen er korrekt, og prøv igen, eller vælg en anden adresse."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Den vare, du har tilføjet, kan ikke sendes til din adresse. Fjern denne vare for at betale, eller kontakt butikken.",
+          "other": "Én eller flere varer, som du har tilføjet, kan ikke sendes til din adresse. Fjern varerne for at betale, eller kontakt butikken."
+        },
+        "payment_method_not_supported": "Du kan ikke bruge denne betalingsmetode til %{country}. Brug en anden betalingsmetode for at sende til dette land.",
+        "empty_state": "Indtast din leveringsadresse for at se de tilgængelige forsendelsesmetoder.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Der er varer i indkøbskurven, som ikke opfylder pris- eller vægtkravene for at kunne sendes. Opdater indkøbskurven og prøv igen.",
+        "title": "Forsendelse ikke tilgængelig",
+        "invalid_selected_address": "Den valgte leveringsadresse er ugyldig",
+        "invalid_selected_address_with_update_link": "Den valgte leveringsadresse er ugyldig. %{update_address_link} eller vælg en anden adresse.",
+        "unavailable_selected_address": "Forsendelse ikke tilgængelig for den valgte adresse",
+        "unavailable_selected_address_for_region": "Forsendelse er ikke tilgængelig for {{region}}. Vælg en anden adresse for at fortsætte",
+        "unavailable_addresses_only_countries": "Din bestilling kan kun sendes til {{countriesList}}. Tilføj en ny adresse for at fortsætte.",
+        "unavailable_address_country": "Forsendelse er ikke mulig til det land, du har valgt. Angiv en anden adresse for at fortsætte"
+      },
+      "alternative_payment_method_banner": {
+        "or": "AF",
+        "show_more_options": "Vis flere valgmuligheder",
+        "hide_more_options": "Skjul flere valgmuligheder",
+        "or_pay_another_way": "Betal på en anden måde",
+        "or_check_out_another_way": "Betal på en anden måde"
+      },
+      "processing": {
+        "redirecting_page_title": "Videreføre…",
+        "redirecting_title": "Videreføre…"
       }
     }
   }
