@@ -683,9 +683,149 @@
           },
           "payment": {
             "manual_payments_not_allowed_for_b2b": "Manual payments are not allowed in B2B shops.",
-            "positive_amount_expected": "The amount to be paid must be greater than 0."
+            "positive_amount_expected": "The amount to be paid must be greater than 0.",
+            "total_amount_mismatch": "The total amount to be paid does not match the sum of the payments.",
+            "missing_session_id": "Information about the credit card session is missing.",
+            "gateway_not_supported": "The payment gateway does not support saving the payment method.",
+            "credit_card_last_name_required": "'last name' must not be empty.",
+            "credit_card_update_failed": "Updating credit card failed.",
+            "invalid_address_type": "The entered address type is invalid for this payment method.",
+            "missing_retail_attributions": "Retail allocations are required for manually entered credit card payments.",
+            "unexpected_retail_attributions": "Unexpected retail allocations entered for a credit card payment.",
+            "invalid_card_source": "This session is not authorized to use this map source.",
+            "wallet_content_missing": "Content of wallet missing.",
+            "payment_instrument_not_found": "Cannot find payment method",
+            "unauthorized_capture_method": "Configuration of the method for recording payments is not allowed.",
+            "saved_payment_methods_not_allowed": "'Saved payment methods' is not allowed.",
+            "saved_payment_methods_not_enabled": "'Saved payment methods' is not enabled for this shop.",
+            "store_credit_account_mismatch": "Store credit account does not match the identity of the buyer.",
+            "store_credit_mismatched_currency": "The currency of the store credit account does not match the currency of the checkout.",
+            "store_credit_insufficient_funds": "There is insufficient balance in the shopping credit account.",
+            "store_credit_buying_gift_card": "You cannot buy a gift voucher with store credit.",
+            "gift_cards_not_allowed_for_b2b": "Gift vouchers are not allowed in business-to-business shops.",
+            "method_required": "A payment method must be suggested.",
+            "paypal_express_address_invalid": "PayPal has returned an invalid address.",
+            "saved_payment_methods_cvv_verification_disabled": "For the chosen payment method, CVV/CVC verification is required, but it is not enabled for this shop. Please use a different payment method."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Multiple form rules are not supported.",
+            "tips_not_allowed_for_b2b": "Tips are not allowed in B2B shops.",
+            "currency_change_reset": "Tip has been reset due to a currency change.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tips are not yet supported for deferred purchase options."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "This concept order does not exist in the current shop.",
+            "staff_member_not_exist": "This employee is not known in the current shop.",
+            "location_not_exist": "This location does not exist in the current shop.",
+            "point_of_sale_device_not_exist": "This point of sale device does not exist in the current shop.",
+            "unresolvable_target_merchandise_lines": "The proposed sales allocations cannot be resolved in the existing negotiation context."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "The offer from your buyer must include non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "The field 'Quantity' is missing in the buyer's stock lines.",
+            "changing_behavior_not_allowed": "This customer is not authorized to change stock functionality.",
+            "only_one_inventory_behavior_allowed": "At this moment, only one stock function per checkout is allowed."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "At this checkout, refusing customs duties is not allowed."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Retail allocation is not allowed at this checkout.",
+            "retail_attribution_required": "Retail allocation is required for this checkout."
+          },
+          "captcha": {
+            "metadata_missing": "Filling in a captcha is required at this checkout.",
+            "metadata_mismatch": "The specified captcha provider and the type do not match the expected values.",
+            "token_missing": "Complete this checkout by entering a captcha token.",
+            "job_enqueue_failed": "The captcha verification task cannot be queued.",
+            "job_already_queued": "Captcha validation has already been placed in the queue for this token.",
+            "token_expired": "The entered captcha token has expired. Complete a new captcha to continue with the checkout.",
+            "token_invalid": "The entered captcha token was invalid. Complete a new captcha to continue with the checkout.",
+            "token_not_valid_for_session": "Cannot use the provided captcha at this checkout."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "The received amount must be in the shop's currency."
           }
-        }
+        },
+        "full_title": "{{pageTitle}} - {{shopName}} - checkout",
+        "google_map_title": "Google map",
+        "submit_order_button_label": "Place order",
+        "submit_for_review_button_label": "Submit for inspection",
+        "submit_for_review_notice_label": "Payment is only due once your order has been checked",
+        "continue_to_payment_plans_button_label": "Proceed to payment plans",
+        "back_button_label": "Returning",
+        "processing": "Processing...",
+        "stepper": {
+          "increase": "Increase of {{type}}",
+          "decrease": "Purchase of {{type}}"
+        },
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "Mon.",
+            "tuesday": "Tue.",
+            "wednesday": "week.",
+            "thursday": "do.",
+            "friday": "Fri.",
+            "saturday": "Sat.",
+            "sunday": "thus."
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Display last month, {{month}} {{year}}",
+          "range_start": "Start range",
+          "in_range": "Within reach",
+          "range_end": "End of range"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} in {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} or {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster of {{number}} landmarks",
+            "other": "Cluster of {{number}} marking points"
+          }
+        },
+        "sheet": {
+          "expand": "Unfold"
+        },
+        "dropzone": {
+          "invalid_file_type": "This file type is not supported",
+          "dragged_over": "Place file down to upload"
+        },
+        "loading": "Loading...",
+        "finalize_order_accessibility_label": "Complete order"
+      },
+      "contact": {
+        "address2_label": "P.O. Box number, etc.",
+        "optional_address2_label": "P.O. Box number, etc. (optional)",
+        "country_label": "Country/region",
+        "country_code": "Country/region code",
+        "county_label": "Province",
+        "county_placeholder": "Province",
+        "state_label": "Condition",
+        "state_placeholder": "Condition",
+        "governorate_label": "Government",
+        "governorate_placeholder": "Government",
+        "state_and_territory_label": "State/Territory",
+        "state_and_territory_placeholder": "State/Territory",
+        "phone_label": "Telephone",
+        "optional_phone_label": "Telephone (optional)",
+        "phone_placeholder": "Telephone",
+        "phone_tooltip": "In case we need to get in touch with you about your order",
+        "zip_code_label": "Postal code",
+        "zip_code_placeholder": "Postal code",
+        "postcode_label": "Postal code",
+        "postcode_placeholder": "Postal code",
+        "pincode_label": "Postal code",
+        "pincode_placeholder": "Postal code",
+        "different_shipping_address_label": "Send to another address"
       }
     },
     "sentence": {
