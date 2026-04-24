@@ -2208,7 +2208,157 @@
           "one": "%{count} straipsnis",
           "other": "%{count} straipsniai"
         },
-        "thank_you_from_shop": "Parduotuvėje %{shop_name}"
+        "thank_you_from_shop": "Parduotuvėje %{shop_name}",
+        "payment_method_not_charged": "Neišrašyta",
+        "items_fulfilled_by_store": {
+          "one": "Straipsniai, kuriuos įsigijote, yra iš %{remote_shop_name}.",
+          "other": "Prekės, kurias įsigijote, yra iš kitų parduotuvių."
+        },
+        "checkout_on_another_store": "Atsiskaityti kitoje parduotuvėje",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Jūs netrukus gausite patvirtinimo el. laišką",
+          "multi_store": "Netrukus gausite atskirą patvirtinimo laišką iš kiekvienos parduotuvės"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Netrukus gausite patvirtinimo SMS žinutę",
+          "multi_store": "Netrukus gausite patvirtinimo SMS iš kiekvienos parduotuvės"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Jūs netrukus gausite patvirtinimo el. laišką",
+          "multi_store": "Netrukus gausite atskirą patvirtinimo laišką iš kiekvienos parduotuvės"
+        },
+        "checkout_again": "Atlikite atsiskaitymą dar kartą",
+        "cashback_notice": "Gausite savo pinigų grąžinimą po 30 dienų"
+      },
+      "review": {
+        "title": "Atsiliepimas",
+        "checkout_as_guest": "Atsiskaityti kaip svečias",
+        "blocks": {
+          "contact_method_title": "Kontaktai",
+          "billing_address_title": "Sąskaitų išrašymas",
+          "shipping_address_title": "Siųsti į",
+          "shipping_method_title": "Pristatymo būdas",
+          "change_link_label": "Keisti",
+          "change_contact_method_link_label": "Keisti kontaktinę informaciją",
+          "change_billing_address_link_label": "Pakeisti sąskaitos adresą",
+          "change_shipping_method_link_label": "Keisti siuntimo būdą",
+          "change_payment_method_link_label": "Mokėjimo metodo keitimas",
+          "pick_up_in_store_shipping_method_html": "Atsiimti parduotuvėje · %{location_name}",
+          "purchase_order_number_title": "Užsakymo numeris",
+          "change_purchase_order_number_label": "Užsakymo numerio keitimas",
+          "change_delivery_method_link_label": "Pristatymo būdo keitimas",
+          "no_address": "(Be adresas)",
+          "no_purchase_order_number": "(Nėra užsakymo numerio)",
+          "due_after_order_reviewed_html": "Mokėtina po užsakymo patikrinimo",
+          "review_title_free_order": "Patikrinkite ir užbaikite užsakymą",
+          "change_company_location_link_label": "Keisti įmonės vietą",
+          "pickup_items_at": {
+            "one": "%{count} prekės atsiėmimas pas",
+            "other": "%{count} prekių atsiėmimas pas"
+          },
+          "ship_items_to": {
+            "one": "Išsiųsti %{count} prekę",
+            "other": "Siųsti %{count} prekes į"
+          }
+        },
+        "block_title": "Patikrinkite savo duomenis",
+        "item_header": {
+          "section": "Skiltis"
+        },
+        "review_and_confirm_title": "Patikrinti ir patvirtinti",
+        "account_more_actions": "Daugiau veiksmų šiai paskyrai"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Siųskite man el. laišką su naujienomis ir pasiūlymais",
+        "unsubscribe": {
+          "title": "Jūs atsijungėte",
+          "description": "Jūs nebegausite iš mūsų priminimų apie pirkinių krepšelį."
+        },
+        "accept_sms_checkbox_label": "Siųskite man SMS su naujienomis ir pasiūlymais",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Paslaugų sąlygos",
+            "description_html": "Registruodamasis per SMS, sutinkate gauti automatinius rinkodaros pranešimus, įskaitant priminimus apie krepšelį, nurodytu telefono numeriu. Sutikimas nėra pirkimo sąlyga. Atsakykite STOP, jei norite atsisakyti prenumeratos. Atsakykite HELP, jei reikia pagalbos. Pranešimų dažnis gali skirtis. Gali būti taikomi pranešimų ir duomenų mokesčiai. Peržiūrėkite mūsų %{privacy_policy_link} ir %{terms_of_service_link}.",
+            "description_transactional_html": "Gali būti siunčiami SMS pranešimai, susiję su užsakymo patvirtinimais ir siuntimo atnaujinimais. Atsakykite STOP, jei norite atsisakyti prenumeratos. Atsakykite HELP, jei reikia pagalbos. Pranešimų dažnis gali skirtis. Gali būti taikomi pranešimų ir duomenų mokesčiai. Peržiūrėkite mūsų %{privacy_policy_modal_link} ir mūsų %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Gauti pasiūlymus per SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Jūs užsiregistravote gauti naujienų ir pasiūlymų el. laiškus",
+        "pending_accept_marketing_checkbox_label": "Patikrinkite savo el. paštą, kad patvirtintumėte savo prenumeratą naujienoms ir pasiūlymams",
+        "accept_shop_pay_marketing_checkbox_label": "Užsiregistruokite gauti naujienas ir pasiūlymus iš šios parduotuvės",
+        "disclaimer": {
+          "terms_of_service": "Paslaugų sąlygos"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Grąžinimo politika",
+        "privacy_policy": "Privatumo politika",
+        "terms_of_service": "Bendrosios sąlygos",
+        "shipping_policy": "Siuntimas",
+        "purchase_options_policy": "Pirkimo parinkčių politika",
+        "contact_information": "Kontaktai",
+        "policy_label": "Įgalinti",
+        "policies_label": "Įgalinti",
+        "select_policy_label": "Pasirinkti politiką"
+      },
+      "notifications": {
+        "title": "Pranešimas"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Mokėtina suma už užsakymą %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Pridėta",
+            "other": "Pridėta %{count}"
+          },
+          "removed": "Ištrinta",
+          "subtracted": "%{count} pašalinta",
+          "returned": "%{count} grąžinta",
+          "return_line_item_removed": "%{count} pašalinta iš grąžinimo"
+        },
+        "additional_payment_requested": "Mokėjimas už %{total_outstanding} yra privalomas",
+        "checkout_review_and_pay": "Jūsų užsakymas %{order_name} buvo atnaujintas. Peržiūrėkite šiuos pakeitimus ir tada apmokėkite, kad patvirtintumėte užsakymą.",
+        "order_updated_on": "Jūsų užsakymas atnaujintas %{last_edited_at}.",
+        "order_review_and_pay": "Jūsų užsakymas atnaujintas. Patikrinkite ir apmokėkite, kad patvirtintumėte užsakymą.",
+        "pay_now": "Dabar mokėti"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Jūsų kreditinė kortelė bus nurašyta %{amount}",
+        "payment_total_label": "Viso mokėjimų",
+        "change_currency_link": "Pakeisti į %{currency_name}",
+        "card_provider_fx_charges_warning": "Jūsų kortelės išdavėjas gali taikyti mokesčius už %{currency_code} operacijas.",
+        "currency_not_supported_by_shop": "Pasirinkta valiuta nebeprieinama. Visos kainos dabar pateikiamos %{currency_code}."
+      },
+      "tips": {
+        "presets_description": "Pasirinkite arbatpinigių procentą",
+        "custom_label": "Pritaikytas arbatpinigis",
+        "update_tip": "Atnaujinti mokėjimą",
+        "message": "Ačiū, mes tikrai vertiname tai.",
+        "no_tip_label": "Žalias",
+        "not_available_with_spi": "Nepasiekiama su Shop Pay dalinėmis įmokomis"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Įsigyti %{product_name}",
+          "one": "Pirkti %{product_name} ir dar %{count} kitą prekę",
+          "other": "Įsigyti %{product_name} ir dar %{count} kitų prekių"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Asmeninis muito kodas",
+          "shipping_credential_cn": "Gyventojo ID numeris",
+          "tax_credential_it": "Mokesčių kodas (pasirinktinai)",
+          "tax_credential_co": "Asmens tapatybės kortelė/ PVM",
+          "shipping_credential_co": "Asmens tapatybės kortelė/ PVM",
+          "tax_credential_cr": "Identifikacijos numeris/RUT",
+          "shipping_credential_cr": "Identifikacijos numeris/RUT",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/PNF"
+        }
       }
     }
   }
