@@ -1972,7 +1972,79 @@
           "other": "%{count} preces"
         },
         "thank_you_from_shop": "Pārdod %{shop_name}",
-        "payment_method_not_charged": "Nav norakstīts"
+        "payment_method_not_charged": "Nav norakstīts",
+        "items_fulfilled_by_store": {
+          "one": "Preces, ko esi iegādājies, nāk no %{remote_shop_name}.",
+          "other": "Preces, ko esi iegādājies, nāk no citām veikaliem."
+        },
+        "thank_you_from_other_store": "No citas veikala",
+        "checkout_on_another_store": "Norēķināties citā veikalā",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Drīzumā saņemsiet apstiprinājuma e-pastu",
+          "multi_store": "Drīzumā saņemsi atsevišķu apstiprinājuma vēstuli no katras veikala"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Drīzumā saņemsiet apstiprinājuma īsziņu",
+          "multi_store": "Drīzumā saņemsi apstiprinājuma īsziņu no katras veikala"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Drīzumā saņemsiet apstiprinājuma e-pastu",
+          "multi_store": "Drīzumā saņemsi atsevišķu apstiprinājuma vēstuli no katras veikala"
+        },
+        "checkout_again": "Veiciet norēķinu atkārtoti",
+        "cashback_notice": "Tu saņemsi savu naudas atmaksu pēc 30 dienām"
+      },
+      "review": {
+        "title": "Atsauksme",
+        "review_title": "Pabeidz savu pasūtījumu",
+        "checkout_as_guest": "Norēķināties kā viesis",
+        "blocks": {
+          "contact_method_title": "Sazināties",
+          "billing_address_title": "Rēķinu izrakstīšana",
+          "shipping_address_title": "Sūtīt uz",
+          "shipping_method_title": "Sūtīšanas veids",
+          "payment_method_title": "Maksāšanas veids",
+          "change_link_label": "Mainīt",
+          "change_contact_method_link_label": "Mainīt kontaktinformāciju",
+          "change_billing_address_link_label": "Rēķina adreses maiņa",
+          "change_shipping_address_link_label": "Piegādes adreses maiņa",
+          "change_shipping_method_link_label": "Piegādes veida maiņa",
+          "change_payment_method_link_label": "Maksāšanas veida maiņa",
+          "pick_up_in_store_shipping_method_html": "Saņemt veikalā · %{location_name}",
+          "purchase_order_number_title": "Pasūtījuma numurs",
+          "change_purchase_order_number_label": "Pasūtījuma numura maiņa",
+          "change_delivery_method_link_label": "Piegādes veida maiņa",
+          "no_address": "(Nav adrese)",
+          "no_purchase_order_number": "(Nav pasūtījuma numura)",
+          "due_after_order_reviewed_html": "Jāmaksā pēc pasūtījuma pārbaudes",
+          "review_title_free_order": "Pārbaudiet un pabeidziet pasūtījumu",
+          "payment_method_saved_company_location": "Saglabāt karti šai vietai",
+          "company_location": "Uzņēmuma atrašanās vieta",
+          "change_company_location_link_label": "Uzņēmuma atrašanās vietas maiņa",
+          "pickup_items_at": {
+            "one": "%{count} preces saņemt pie",
+            "other": "%{count} preces saņemt pie"
+          },
+          "ship_items_to": {
+            "one": "Sūtīt %{count} preces uz",
+            "other": "Sūtīt %{count} preces uz"
+          }
+        },
+        "block_title": "Pārbaudi savus datus",
+        "checkout_a_different_way": "Norēķināties citādāk",
+        "item_header": {
+          "change_value": "Vērtības maiņa",
+          "section": "Sadaļa",
+          "value": "Vērtība"
+        },
+        "review_and_confirm_title": "Pārbaudīt un apstiprināt",
+        "account_more_actions": "Vairāk akciju šim kontam"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Sūti man e-pastu ar jaunumiem un piedāvājumiem",
+        "unsubscribe": {
+          "title": "Tu esi atlogojies"
+        }
       }
     }
   },
