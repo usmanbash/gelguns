@@ -876,7 +876,69 @@
         "phone_tooltip": "Jei reikės su jumis susisiekti dėl jūsų užsakymo",
         "pincode_label": "Pašto kodas",
         "pincode_placeholder": "Pašto kodas",
-        "region_none": "Nepasirinkta"
+        "region_none": "Nepasirinkta",
+        "civic_number_warning": "Pridėkite namo numerį, jei jį turite",
+        "different_shipping_address_label": "Siųsti į kitą adresą",
+        "different_shipping_address_text": "Naudoti vieną adresą šiam užsakymui",
+        "change_company_location_link_label": "Keisti įmonės vietą",
+        "change_location_link_label": "Keisti vietą",
+        "ship_to_company": "Siųsti į {{companyName}}",
+        "shipping_used_as_billing_notice": "Mes taip pat naudojame šį adresą kaip sąskaitos faktūros adresą šiam užsakymui.",
+        "company_attention_label": "Įmonė/dėl dėmesio",
+        "optional_company_attention_label": "Įmonė / dėmesiui (pasirinktinai)",
+        "optional_pincode_label": "PIN kodas (pasirinktinai)",
+        "storefront_link": "prekiautojo svetainė",
+        "suburb_label": "Buitenwijk"
+      },
+      "delivery_options": {
+        "pick_up_in_two_hours": "Dažniausiai paruošiama per 2 valandas",
+        "pick_up_in_four_hours": "Dažniausiai paruošiama per 4 valandas",
+        "pick_up_immediately": "Paruošta atsiimti dabar",
+        "pick_up_next_day": "Pasiruošę atsiimti kitą dieną",
+        "pick_up_in_one_hour": "Dažniausiai paruošiama per 1 valandą",
+        "pick_up_in_twenty_four_hours": "Dažniausiai paruošiama per 24 valandas",
+        "pick_up_in_two_to_four_days": "Dažniausiai paruošiama per 2–4 dienas",
+        "pick_up_in_five_or_more_days": "Dažniausiai paruošiama per daugiau nei 5 dienas",
+        "pick_up_in_zero_to_two_hours": "Paruošta atsiimti po 2 valandų",
+        "pick_up_in_two_to_four_hours": "Paruošta atsiimti po 4 valandų",
+        "pick_up_locations": "Išdavimo vietos",
+        "pickup_point_method_definition": "Siųsti į atsiėmimo punktą",
+        "retail_method_definition": "Mažmeninės prekybos siuntos",
+        "none_method_definition": "Nėra siuntų",
+        "subscription_pickup_information": "Šis pristatymo būdas taikomas visiems šios užsakymo prekėms ir visoms būsimoms prekėms pagal šią prenumeratą.",
+        "ship_to_address": "Siųsti į adresą",
+        "pick_up_from_store": "Atsiimti parduotuvėje",
+        "company_location_no_address_banner": "Užsakymai, siunčiami į vietas be adreso, pateikiami patikrinimui.",
+        "pickup_point_map_title": "Kortelė su atsiėmimo punktais"
+      },
+      "customer_account": {
+        "not_user_label": "Ar nesate %{first_name}?",
+        "have_an_account_label": "Ar turite paskyrą?",
+        "save_my_information_label": "Išsaugoti šią informaciją, kad ateityje atsiskaitytumėte greičiau",
+        "incomplete_address": "Pasirinktas adresas yra neišsamus. %{update_address_link} arba pasirinkite kitą adresą.",
+        "invalid_shipping_method_summary": "Pasirinkite galiojantį pristatymo adresą, kad pamatytumėte galimus siuntimo būdus",
+        "saved_address_option_description": {
+          "one": "Jūs turite {{count}} išsaugotą adresą.",
+          "other": "Jūs turite {{count}} išsaugotus adresus."
+        }
+      },
+      "stock": {
+        "page_title": "Atsargų problema",
+        "title": "Nėra sandėlyje",
+        "items_unavailable_notice": "Kai kurie straipsniai nebeprieinami.",
+        "product_column_header": "Produktai",
+        "reduced_label": "Sumažinta",
+        "reduced_with_quantity_label": "Liko tik %{quantity_available} sandėlyje",
+        "go_back_to_cart_button_label": "Grįžti į mano krepšelį",
+        "empty_cart_label": "Jūsų pirkinių krepšelis tuščias",
+        "quantity_update": {
+          "page_title": "Atnaujintas kiekis",
+          "title": "Atnaujintas kiekis",
+          "description": "Prieinami šių prekių kiekiai pasikeitė, todėl jūsų pirkinių krepšelis atnaujintas."
+        },
+        "unpurchasable_product": {
+          "title": "Prekės negalima įsigyti"
+        }
       }
     }
   }
