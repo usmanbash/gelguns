@@ -3769,7 +3769,91 @@
         "list_loading_accessibility_message": "Indlæser stedliste",
         "list_loading_address_accessibility_message": "Indlæs adresse for {{locationName}}",
         "list_loading_finished_accessibility_message": "Lokationsliste er indlæst",
-        "loading_store_accessibility_message": "På vej til butikken"
+        "loading_store_accessibility_message": "På vej til butikken",
+        "selection_confirmation_button": "Vælg placering",
+        "title": "Til hvilken lokalitet køber du?",
+        "no_locations_found": "Ingen steder fundet",
+        "search": "Søg efter steder",
+        "search_location_title": "Vælg et sted",
+        "title_choose_location": "Vælg et sted"
+      },
+      "addresses": {
+        "cancel_adding_billing_address_accessibility_label": "Faktureringsadresse tilføje annullere",
+        "cancel_adding_shipping_address_accessibility_label": "Tilføj leveringsadresse annuller"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Skjul alt",
+          "show_all": "Vis alt",
+          "hide_all_accessibility_label": "Skjul alle ordrer under vurdering",
+          "show_all_accessibility_label": "Vis alle ordrer under vurdering",
+          "title": "Under behandling",
+          "pagination": {
+            "nav_accessibility_label": "Navigationsknapper til ordrer under vurdering"
+          },
+          "show_all_orders_in_review": "Vis alle ordrer under vurdering",
+          "show_less_orders_in_review": "Vis minder ordrer under vurdering",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Du har ingen ordrer under behandling",
+            "pending_orders": {
+              "one": "Du har {{count}} ordre under behandling",
+              "other": "Du har {{count}} ordrer under behandling"
+            },
+            "more_than_pagination_length": "Du har mere end {{count}} ordrer under behandling"
+          },
+          "pending_orders_count_more_than_pagination_length": "mere end {{count}}"
+        },
+        "order_list_column_headers_location": "Placering",
+        "removed_company_contact_tooltip": "Fjernet fra drift"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bekræftet den {{date}} for bestilling {{draftOrderName}}",
+        "loading": "Indlæser bestillingsoplysninger",
+        "loading_finished_accessibility_message": "Bestillingsoplysninger er indlæst",
+        "payment_status": {
+          "draft": {
+            "description": "Betalingsoplysninger fastsættes, når bestillingen er bekræftet.",
+            "title": "Betaling er endnu ikke forfalden",
+            "in_review": {
+              "description": "Betalingsoplysninger fastsættes, når bestillingen er bekræftet.",
+              "title": "Betaling er endnu ikke forfalden"
+            },
+            "submitted": {
+              "description": "Betal for at bekræfte denne bestilling.",
+              "deposit": {
+                "title": "Betaling er skyldig",
+                "due_later": "Saldoet er underlagt {{translatedName}}-betingelserne og forfalder den {{dueDate}}.",
+                "due_on_fulfillment": "Saldoen forfalder, når alle varer i denne bestilling er behandlet.",
+                "due_on_receipt": "Du modtager en regning for det resterende beløb.",
+                "due_on_date": "Saldoen forfalder til betaling den {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} skal betales, når ordren er bekræftet. For saldoen gælder {{translatedName}}-betingelserne.",
+              "due_on_fulfillment": "{{depositAmount}} skal betales, når ordren er bekræftet. Restbeløbet skal betales, når din ordre er behandlet.",
+              "due_on_receipt": "{{depositAmount}} skal betales, når ordren er bekræftet. Restbeløbet skal betales senere.",
+              "due_on_date": "{{depositAmount}} skal betales, når ordren er bekræftet. Restbeløbet skal betales den {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Din bestilling er fuldt betalt."
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Din betaling er {{count}} dag forsinket",
+              "other": "Din betaling er {{count}} dage forsinket"
+            },
+            "banner_due": {
+              "one": "Din betaling forfalder om {{count}} dag(e)"
+            },
+            "title": "Betaling skyldig",
+            "title_with_date": "Betaling forfalder den {{date}}",
+            "description_overdue": "Din betaling er forsinket.",
+            "description_partially_paid": "Denne bestilling er delvist betalt. Du har en resterende saldo.",
+            "description_authorized": "Beløbet trækkes på den dato, det forfalder, via din valgte betalingsmetode. Du kan også betale allerede nu.",
+            "title_due_on_receipt": "Betaling er endnu ikke forfalden"
+          }
+        }
       }
     }
   }
