@@ -3706,7 +3706,71 @@
       "delete_confirmation_message": "Adresse slette? Dette påvirker ikke eksisterende ordrer.",
       "loading_accessibility_message": "Indlæs adresse",
       "loading_addresses_accessibility_message": "Indlæs adressen",
-      "loading_billing_accessibility_message": "Indlæser faktureringsadresser"
+      "loading_billing_accessibility_message": "Indlæser faktureringsadresser",
+      "loading_finished_accessibility_message": "Ny side med adresser er indlæst",
+      "loading_shipping_accessibility_message": "Leveringsadresse indlæses",
+      "pagination": {
+        "load_more": "Indlæs mere"
+      },
+      "title": "Adressen",
+      "delete_confirmation_title": "Fjerne adresse?",
+      "delete_confirmation_description": "Dette påvirker ikke eksisterende ordrer.",
+      "add_address_banner": "Tilføj adresser til brug ved kassen",
+      "back_button_accessibility_label": "Tilbage til redigering af adresse {{address}}",
+      "no_addresses_banner": "Ingen adresser tilføjet"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Forslag lukker",
+      "auto_complete_title": "Forslag",
+      "creation_success_notification": "Adresse tilføjet",
+      "default_address_creation_success_notification": "Standardadresse tilføjet",
+      "default_address_update_success_notification": "Standardadresse opdateret",
+      "loading_add_form_accessibility_message": "Indlæs formular til ny adresse",
+      "loading_edit_form_accessibility_message": "Formular adresse redigering indlæser",
+      "loading_finished_accessibility_message": "Formularadresse er indlæst",
+      "save_accessibility_label": "Gem adresse {{address}}",
+      "update_success_notification": "Adresse opdateret",
+      "attention": "Att.",
+      "attention_help_text": "Navnet på personen eller afdelingen",
+      "loading_form_accessibility_message": "Formular adresse indlæse",
+      "attention_company": "Virksomhed/att."
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_section_accessibility_label": "Virksomhed"
+      },
+      "locations": {
+        "contact_email": "E-mailadresse",
+        "contact_list_title": "Mennesket",
+        "contact_permissions": "Bemyndigelser",
+        "location_picker_label": "Stednavn",
+        "net_payment_terms_description": "{{name}}: betalingen forfalder inden for {{numberOfDays}} dage",
+        "payment_terms": "Betalingsbetingelser",
+        "permissions_title": "Bemyndigelser",
+        "section_title": "Placering",
+        "shipping_address_required": "Tilføj en leveringsadresse til dette sted for at kunne afgive ordrer.",
+        "tax_id": "Skatte-ID",
+        "multiple_tax_exemptions": "Nog {{taxExemptionsCount}}",
+        "tax_exemption_not_applicable": "ikke relevant",
+        "tax_exemptions_modal_button_accessibility_label": "Vis alle skattefritagelser",
+        "pagination": {
+          "load_more": "Indlæs mere",
+          "load_more_accessibility_label": "Indlæs flere steder"
+        },
+        "own_role_contact_name": "Du",
+        "staff_and_permissions_title": "Medarbejdere og beføjelser",
+        "location_picker_accessibility_label": "Stednavn: {{locationName}}",
+        "deposit_percentage": "{{percentage}} depositum"
+      },
+      "location_selection": {
+        "description": "Hvis du allerede har varer i din indkøbskurv, kan det at ændre stedet muligvis påvirke priserne og mængderne i din indkøbskurv.",
+        "list_accessibility_label": "Stedliste",
+        "list_item_without_address_accessibility_label": "{{name}}: intet adresse",
+        "list_loading_accessibility_message": "Indlæser stedliste",
+        "list_loading_address_accessibility_message": "Indlæs adresse for {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lokationsliste er indlæst",
+        "loading_store_accessibility_message": "På vej til butikken"
+      }
     }
   }
 }
