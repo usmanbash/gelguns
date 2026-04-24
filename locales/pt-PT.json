@@ -951,6 +951,66 @@
           "title": "Atualizar preço e quantidade",
           "description": "Os preços e as quantidades disponíveis destes artigos foram alterados e o carrinho foi atualizado."
         }
+      },
+      "order_summary": {
+        "gift_card_title": "Vale-presente",
+        "gift_card_label": "Vale-presente",
+        "gift_card_placeholder": "Vale-presente",
+        "gift_card_and_discount_title": "Código de desconto ou vale-presente",
+        "gift_card_and_discount_label": "Código de desconto ou vale-presente",
+        "gift_card_and_discount_placeholder": "Código de desconto ou vale-presente",
+        "add_discount_or_gift_card": "Adicionar um código de desconto ou um vale-presente",
+        "remove_gift_card_label": "Remover vale-presente",
+        "applied_discount_message": "Foi deduzido um desconto de %{amount} ao preço total.",
+        "discount_has_been_applied": "Desconto aplicado",
+        "discount_has_been_removed": "Desconto removido",
+        "gift_card_has_been_applied": "Cartão de oferta aplicado",
+        "discount_already_applied": "Foi aplicado um desconto nesta encomenda. Não pode adicionar outro desconto.",
+        "cart_does_not_meet_discount_requirements_notice": "O código de desconto <strong style=\"text-transform:uppercase\">%{code}</strong> não é válido para os artigos no seu carrinho de compras",
+        "discount_requires_customer_notice": "Introduza os seus dados de envio para aplicar o código de desconto <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Código de desconto <strong style=\"text-transform:uppercase\">%{code}</strong> não está disponível para si neste momento",
+        "shipping_information_does_not_meet_discount_requirements_notice": "O código de desconto <strong style=\"text-transform:uppercase\">%{code}</strong> não está disponível para o seu endereço de entrega",
+        "tip_label": "Fooi",
+        "shipping_default_value": "Calculado na etapa seguinte",
+        "shipping_pending_message": "Ainda não disponível",
+        "taxes_label": "a propósito",
+        "total_outstanding_label": "Montante a pagar",
+        "vat_label_html": "Inclui %{amount} IVA",
+        "discount_and_gift_card_savings_notice": "Com %{discount_amount} de desconto e %{gift_card_amount} em valor de cartão presente",
+        "discount_savings_notice": "Com %{discount_amount} de desconto",
+        "gift_card_savings_notice": "No valor do cartão presente de %{gift_card_amount}",
+        "cost_table_title": "Resumo de custos",
+        "product_image_label": "Imagem do produto",
+        "scroll_order_summary": "Deslize para mais artigos",
+        "expand_order_summary_short": "Exibir",
+        "total_already_paid_label": "pago",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} por unidade",
+            "one": "%{price} por %{count} artigo",
+            "other": "%{price} por %{count} artigos"
+          }
+        },
+        "pickup_label": "Levantamento na loja",
+        "estimated_taxes_label": "Imposto estimado",
+        "information_estimated_taxes_label": "Impostos (estimados)",
+        "gift_card_ending": "Cartão presente que termina em %{last_characters}",
+        "multiple_shipping_lines_label": "Custo total de envio",
+        "sale_price": "Preço promocional",
+        "recurring_total_tooltip": "Exclusivamente envio, IVA, direitos aduaneiros ou eventuais descontos.",
+        "gift_card_subscriptions_notice": "Os vales-presente são aplicados apenas no seu primeiro pagamento",
+        "confirmation_number_label": "Número de confirmação %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "O montante total do imposto será confirmado por correio eletrónico ou mensagem de texto após ter efetuado a sua encomenda.",
+        "deferred_payment_info": {
+          "title": "Pagamento de %{amount_due} é devido em %{due_at}",
+          "description_html": "%{contact_us} para questões sobre a sua encomenda.",
+          "due_on_fulfillment_title": "O pagamento de %{amount_due} é devido no momento da execução da encomenda.",
+          "due_on_receipt_title": "%{amount_due} é devido no recebimento"
+        },
+        "payment_terms_totals": {
+          "due_today": "Total devido hoje",
+          "due_later": "Total devido em %{due_at}"
+        }
       }
     }
   }
