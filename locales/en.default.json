@@ -2081,7 +2081,99 @@
         "alt_header": "Delivery address missing"
       },
       "order_errors": {
-        "creation_failure": "There was a problem creating your order. Please try again or contact us for more information."
+        "creation_failure": "There was a problem creating your order. Please try again or contact us for more information.",
+        "network_failure": "Your order cannot be submitted due to a network error. Check your connection and try again."
+      },
+      "session_errors": {
+        "session_not_unique": "There was a problem processing your order. Refresh this page to return to the shop.",
+        "session_already_finished": "This order has already been submitted. You can return to the shop to start a new order."
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Cannot find address. Please try again or use a different address",
+        "paginator": {
+          "header": {
+            "one": "Shows %{first} - %{last} of %{count} points",
+            "other": "Displays %{first} - %{last} of %{count} points"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} of %{count} points"
+          }
+        },
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Requesting geolocation is not supported by your browser. Please try again or use a different browser.",
+            "permission_denied": "Cannot retrieve location. Please try again."
+          }
+        },
+        "open_twenty_four_hours": "Open day and night"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "There has been a problem at the payment stage",
+          "message": "Refresh this page or try again in a few minutes please",
+          "action": {
+            "cta": "Reload page"
+          }
+        },
+        "embed_errors": {
+          "storefront_password_required": "This shop is protected with a password",
+          "invalid_cart": "The shopping cart is no longer valid",
+          "not_authorized": "Checkout verification has failed. Please verify your login details for the app.",
+          "policy_violation": "Cannot complete checkout due to policy configuration restrictions",
+          "unrecoverable_failure": "Cannot load checkout. Please try again."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Back to shopping cart",
+        "subscription_changed": "One of your subscriptions has been changed.",
+        "company_location_changed": "Your shopping cart has been updated. Check your order before you send it.",
+        "individual_violations_title": {
+          "DeliveryViolations": "Delivery address",
+          "PaymentViolations": "Invoice address",
+          "OtherViolations": "Order details",
+          "UnhandledViolations": "Order details"
+        },
+        "all_violations_content": "Call {{emailLink}} to update this information and complete your order:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} to permanently update the address for this location.",
+        "editable_shipping_address_violations_email_link": "Contact us",
+        "company_location_changed_product_removed": "Your shopping cart has been adjusted because some products are not available at this location. Please check your order before sending it.",
+        "shipping_address_incomplete_title": "The delivery address is incomplete",
+        "calculating_shipping": "Shipping will be calculated later. Please try again in a few seconds. No charges have been applied.",
+        "calculating_taxes": "The taxes are still being calculated. Please try again in a few seconds. No charges have been applied.",
+        "generic_processing_error": {
+          "title": "There has been a problem processing your order",
+          "body": "No charges have been made. Please try again or use a different payment method."
+        },
+        "contact_information": {
+          "title": "Contact details are invalid",
+          "header": "{{emailLink}} to update your information",
+          "email_link": "Contact us"
+        },
+        "payment_method_not_available_with_payment_terms": "The payment method you selected is no longer available because the payment for this order now falls under {{paymentTerms}} terms.",
+        "payment_method_not_available_with_fulfillment_terms": "The payment method you selected is no longer available because the payment for this order must now be made at the time of delivery.",
+        "payment_method_not_available_with_fixed_terms": "The payment method you have selected is no longer available because the payment for this order must be made later.",
+        "payment_method_not_available_with_review_requirement": "The payment method you have selected is no longer available because payment is due once the order is confirmed."
+      },
+      "review_address_modal": {
+        "title": "Check address",
+        "subtitle": {
+          "other": "This order will be shipped to an address provided by {{merchant}}. Please select a delivery address."
+        },
+        "subtitle_no_match": "This address does not match any of your saved addresses.",
+        "subtitle_must_use": "Your order will be sent to this address.",
+        "return_to_cart": "Back to shopping cart"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Read",
+          "link_label": "the General Terms and Conditions of {{partnerDisplayName}}"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "There is %{count} location with stock nearby",
+          "other": "There are %{count} locations with stock nearby"
+        }
       }
     },
     "sentence": {
