@@ -2609,8 +2609,72 @@
             "instructions": "Radās problēma ar {{walletName}}. Atgriezieties veikalā un mēģiniet vēlreiz vai norēķinieties citā veidā.",
             "unavailable_for_country": "{{walletName}} nav pieejams {{countryName}}. Izvēlieties citu maksājuma veidu, lai pabeigtu pirkumu"
           },
-          "generic": "Radās problēma ar {{walletName}}. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu."
-        }
+          "generic": "Radās problēma ar {{walletName}}. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+          "terminal": "Radās problēma ar {{walletName}}. Izmantojiet citu maksājuma veidu.",
+          "detour": {
+            "stock_problems": "Daži priekšmeti vairs nav pieejami. Aizveriet {{walletName}} un mēģiniet vēlreiz.",
+            "price_change": "Dažu preču cenas ir mainījušās. Aizveriet {{walletName}}, lai pārbaudītu savu pasūtījumu un mēģiniet vēlreiz.",
+            "queue": "Jūs esat rindā pie norēķinu kases. Aizveriet {{walletName}}, lai turpinātu.",
+            "currency_change": "Jūs nevarat izmantot citu adresi ar {{walletName}}. Izmantojiet sākotnējo adresi vai mēģiniet citu maksājuma veidu."
+          },
+          "unsupported": {
+            "address": "Pārdevējs nevar piegādāt uz izvēlēto piegādes adresi.",
+            "postal_code": "Šī vieta netiek atbalstīta",
+            "wallet_is_unavailable": "Jūs nevarat izmantot {{walletName}} ar šo adresi. Izvēlieties citu adresi vai aizveriet {{walletName}}, lai pabeigtu pirkumu."
+          },
+          "outdated": {
+            "shipping_method": "Tavas pasūtījuma piegādes iespējas ir mainītas. Lūdzu, pārbaudi savu izvēli.",
+            "payment_terms": "Maksāšanas nosacījumi ir mainīti. Pārbaudi savu pasūtījumu"
+          },
+          "invalid": {
+            "shipping_address": "Ievadiet derīgu piegādes adresi",
+            "billing_address": "Ievadiet derīgu rēķina adresi",
+            "shipping_option": "Izvēlieties derīgu piegādes veidu",
+            "email": "Ievadiet derīgu e-pasta adresi",
+            "zone": "Ievadiet derīgu štatu/provinci",
+            "postal_code": "Ievadiet derīgu pasta indeksu vai pasta kodu",
+            "reduction_code": "Ievadiet derīgu atlaides kodu vai dāvanu karti",
+            "billing_must_match_shipping": "Jāatbilst piegādes adresei.",
+            "phone": "Ievadiet derīgu tālruņa numuru",
+            "emirate": "Ievadiet derīgu emirātu",
+            "billing_zone": "Ievadiet derīgu štatu/provinci rēķina adresei",
+            "billing_phone": "Ievadiet derīgu tālruņa numuru rēķina adresei",
+            "billing_zip": "Ievadiet derīgu pasta indeksu vai pasta kodu rēķina adresei"
+          },
+          "missing": {
+            "first_name": "Ievadiet vārdu",
+            "last_name": "Ievadiet uzvārdu",
+            "address1": "Ievadiet adresi",
+            "address2": "Ievadiet dzīvokļa vai numura numuru utt.",
+            "city": "Ievadiet vietu",
+            "province": "Izvēlieties štatu/provinci",
+            "country": "Izvēlieties valsti/reģionu",
+            "zip": "Ievadiet pasta indeksu vai pasta kodu",
+            "phone": "Ievadiet tālruņa numuru",
+            "billing_first_name": "Ievadiet vārdu rēķina adresei",
+            "billing_address1": "Ievadiet rēķina adresi",
+            "billing_address2": "Ievadiet dzīvokļa vai numura numuru utt. rēķina adresē",
+            "billing_city": "Ievadiet rēķina adresi",
+            "billing_province": "Izvēlieties štatu/pierobežas apgabalu rēķina adresei",
+            "billing_zip": "Izvēlieties pasta indeksu vai pasta kodu rēķina adresei",
+            "contact_info": "Ievadiet kontaktinformāciju"
+          },
+          "formatting": {
+            "name_contains_emojis": "Noņemt emocijzīmes no sava vārda",
+            "postal_code_contains_emoji": "Noņemt emocijzīmi no pasta koda",
+            "first_name_too_long": "Vārds satur pārāk daudz burtu",
+            "last_name_too_long": "Uzvārds satur pārāk daudz burtu",
+            "address_too_long": "Adreses rinda ir pārāk gara"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Jūsu piegādes adrese nav derīga. Izvēlieties citu adresi vai izmantojiet jaunu adresi.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} pašlaik nav pieejams tavai pasūtījumam. Izvēlies citu norēķinu metodi, lai turpinātu pirkumu."
+          },
+          "discount_code": "Neizdevās piemērot šo atlaides kodu. Lūdzu, pārbaudi savu kodu un mēģini vēlreiz.",
+          "processing_error_checkout_as_guest": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Jūs tiksiet novirzīts uz {{walletName}}, lai pabeigtu savu pirkumu",
+        "return_to_checkout": "Atpakaļ uz norēķinu lapu"
       }
     }
   },
