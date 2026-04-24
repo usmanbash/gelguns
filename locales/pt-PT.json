@@ -1676,7 +1676,129 @@
         "three_d_secure_failed": "O seu pagamento não pode ser verificado. Tente novamente ou utilize outro método de pagamento.",
         "three_d_secure_throttled": "Demasiadas tentativas; aguarde um momento antes de tentar novamente",
         "subscription_agreement_blank": "Os seus dados de pagamento serão guardados ao subscrever um plano. Confirme que concorda ou remova quaisquer subscrições da sua encomenda para continuar.",
-        "three_d_secure_failed_duplicate": "A autenticação 3D Secure do cartão de crédito falhou porque já está a ser realizada outra."
+        "three_d_secure_failed_duplicate": "A autenticação 3D Secure do cartão de crédito falhou porque já está a ser realizada outra.",
+        "insufficient_funds": "O seu pagamento foi recusado devido a saldo insuficiente. Tente novamente ou utilize outro método de pagamento.",
+        "payment_processing_no_retry": "O seu pagamento não pode ser processado por razões técnicas. Por favor, tente outro método de pagamento.",
+        "checkout_amount_changed": "O seu pagamento não pode ser processado porque o valor devido foi alterado no momento do pagamento. Verifique a sua encomenda e tente novamente.",
+        "deferred_payment_not_allowed": "Pagamentos adiados não são permitidos. Verifique a sua encomenda e tente novamente.",
+        "deferred_payment_required": "Para esta encomenda é necessário um pagamento diferido. Verifique a sua encomenda e tente novamente.",
+        "deferred_amount_changed": "O seu pagamento não pode ser processado porque o valor do pagamento diferido foi alterado. Verifique a sua encomenda e tente novamente.",
+        "deferred_date_changed": "O seu pagamento não pode ser processado porque a data do pagamento diferido foi alterada. Verifique a sua encomenda e tente novamente.",
+        "multiple_deferred_payment_not_allowed": "Só é permitida uma única pagamento diferido por pedido. Verifique o seu pedido e tente novamente.",
+        "shipping_must_match_billing": "O endereço de faturação deve corresponder ao endereço de entrega. Utilize um método de pagamento diferente.",
+        "decision_rule_block": "Ocorreu um problema ao processar o seu pagamento. Por favor, contacte o proprietário da loja.",
+        "cannot_verify": "Os seus dados de pagamento não podem ser verificados. Verifique os dados do seu cartão e tente novamente.",
+        "expired_card": "O seu cartão expirou. Utilize outro método de pagamento.",
+        "call_issuer": "O seu cartão foi recusado. Utilize outro método de pagamento ou contacte o seu banco para mais informações.",
+        "test_mode_live_card": "Esta loja não pode aceitar encomendas reais nem processar pagamentos reais.",
+        "transient_error": "Ocorreu um problema ao processar o seu pagamento. Atualize esta página ou verifique a sua ligação à internet.",
+        "missing_shipping_address": "O seu pagamento não pôde ser processado porque falta o endereço de entrega. Adicione um endereço de entrega e tente novamente.",
+        "invalid_shipping_address": "O seu pagamento não pôde ser processado porque não conseguimos encontrar o seu endereço de entrega. Verifique o seu endereço de entrega e tente novamente.",
+        "successful_offsite_with_gift_card_error": "Ocorreu um problema ao processar o seu pagamento com vale-presente. Tente novamente ou utilize outro método de pagamento.",
+        "development_store_order_limit_reached": "Atingiste o número máximo de encomendas na loja de desenvolvimento com este processador de pagamentos. Utiliza uma gateway de pagamento de teste para fazer mais uma encomenda. Aqui encontras mais informações sobre %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Utilize uma gateway de pagamento de teste para fazer uma encomenda de teste. Aqui encontra mais informações sobre %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testar encomendas em lojas de desenvolvimento",
+        "selected_payment_method": "Houve um problema com o método de pagamento escolhido e não foram cobrados quaisquer encargos. Tente novamente ou utilize outro método de pagamento.",
+        "payment_method_billing_address": "Há um problema com o endereço de faturação do método de pagamento selecionado. Verifique o endereço e tente novamente ou utilize outro método de pagamento.",
+        "processing_error_checkout_as_guest": "Ocorreu um problema ao processar o pagamento. Tente novamente com outro método de pagamento ou {{checkout_as_guest_link}}.",
+        "amount_too_small": "O valor mínimo de pagamento deve ser superior a 0,50 USD. Tente novamente com um valor mais elevado.",
+        "payment_above_threshold": "O valor do pagamento é superior ao limite monetário para esta região. Reduza o total e tente novamente.",
+        "risky": "Ocorreu um problema ao processar o pagamento. Tente novamente ou utilize outro método de pagamento.",
+        "expired_buyer_action": "Tempo esgotado para o método de pagamento. Por favor, tente novamente.",
+        "three_d_secure_failed_payment_method": "O seu cartão não pode ser verificado. Tente novamente ou adicione outro cartão.",
+        "name_mismatch": "Verifique os dados do seu cartão. O nome no seu cartão e o endereço de faturação não coincidem.",
+        "shop_pay_wallet_not_available": "O Shop Pay não está disponível para este pagamento.",
+        "market_manager_blocks_wallet_payments": "Este método de pagamento não é suportado no seu país.",
+        "paypal_over_capture": "O valor total da sua encomenda foi atualizado. Pague com {{walletName}} para concluir a sua encomenda.",
+        "test_mode_enabled_only_test_cards": "O modo de teste está ativado, só podem ser adicionados cartões de crédito de teste.",
+        "captcha_required": "Introduza os dados de pagamento e resolva o captcha para concluir a sua compra.",
+        "captcha_required_without_payment_information": "Complete o captcha para finalizar a sua compra.",
+        "shipping_company_required_error": "{{shopName}} requer um nome de empresa para o endereço de entrega.",
+        "payment_credential_delegation_error": "Ocorreu um problema ao processar o seu pagamento. Escolha um novo método de pagamento.",
+        "cancelled_payment": "O seu pagamento foi cancelado. Tente novamente ou utilize outro método de pagamento.",
+        "installments_payment_method_incompatible": "O método de pagamento selecionado não pode ser utilizado para pagamentos a prazo. Por favor, escolha outro método de pagamento."
+      },
+      "shipping_errors": {
+        "shipping_method": "As opções de envio para a tua encomenda foram alteradas. Verifica a tua seleção.",
+        "shipping_method_not_available": "O teu carrinho foi atualizado e os artigos que adicionaste não podem ser enviados para o teu endereço. Remove os artigos para completares a tua encomenda.",
+        "shipping_method_not_available_generic": {
+          "one": "A sua encomenda não pode ser enviada para o endereço selecionado. Verifique se o endereço está correto e tente novamente, ou escolha outro endereço.",
+          "other": "Alguns artigos no seu carrinho não podem ser enviados para o endereço indicado. Verifique se o endereço está correto e tente novamente ou escolha outro endereço."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "O artigo que adicionaste não é enviado para a tua localização. Remove este artigo para proceder ao pagamento ou contacta a loja.",
+          "other": "Um ou mais artigos que adicionou não podem ser enviados para a sua localização. Remova os artigos para proceder ao pagamento ou contacte a loja."
+        },
+        "payment_method_not_supported": "Não podes usar este método de pagamento para %{country}. Utiliza outro método de pagamento para enviar para este país.",
+        "empty_state": "Introduza o seu endereço de entrega para ver os métodos de envio disponíveis.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Existem artigos no carrinho que não cumprem os requisitos de preço ou peso para serem elegíveis para envio. Atualize o carrinho e tente novamente.",
+        "title": "Envio não disponível",
+        "invalid_selected_address": "O endereço de entrega selecionado é inválido",
+        "invalid_selected_address_with_update_link": "O endereço de entrega selecionado é inválido. %{update_address_link} ou selecione outro endereço.",
+        "unavailable_selected_address": "Envio não disponível para o endereço selecionado",
+        "unavailable_selected_address_for_region": "Envio não disponível para {{region}}. Selecione outro endereço para continuar",
+        "unavailable_addresses_only_countries": "A sua encomenda só pode ser enviada para {{countriesList}}. Adicione um novo endereço para continuar.",
+        "unavailable_address_country": "O envio não é possível para o país que selecionou. Por favor, forneça outro endereço para continuar."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Pagamento rápido",
+        "or": "DE",
+        "or_check_out_another_way": "Ou pagar de outra forma"
+      },
+      "processing": {
+        "redirecting_page_title": "A encaminhar…",
+        "redirecting_title": "A encaminhar…",
+        "redirecting_notice": "Serás redirecionado.",
+        "complete_your_purchase_title": "Concluir a sua compra",
+        "continue_to_payment_gateway_notice": "Prossiga para o pagamento para adicionar os seus dados de pagamento.",
+        "continue_to_payment_gateway_button_label": "Ir para pagamento",
+        "continue_to_payment_gateway_notice_error": "Os seus dados de pagamento não podem ser verificados.",
+        "continue_to_payment_gateway_button_label_error": "Atualizar dados de pagamento",
+        "page_title": "Encomenda a ser processada",
+        "title": "Encomenda a ser processada",
+        "you_will_receive_confirmation": "Estamos a receber um grande número de encomendas neste momento. Deverá receber uma confirmação por e-mail ou mensagem de texto em breve. Informe-nos se não a receber dentro de uma hora.",
+        "wait": {
+          "medium": {
+            "one": "A sua encomenda está a ser processada. O tempo de espera estimado é de %{count} minuto."
+          },
+          "long": "Receberá um e-mail assim que a sua encomenda for processada. Atualmente, há um grande número de encomendas.",
+          "no_auto_refresh_html": "%{link} se não for redirecionado automaticamente.",
+          "refresh_this_page": "Recarregar esta página"
+        },
+        "you_will_not_be_charged": "Ainda não foram cobrados custos",
+        "redirecting_to_bank": "Redirecionar para {{bank}}",
+        "modal_notice": "Entramos em contacto com {{paymentMethod}}",
+        "remote_shops_payments_processing": "Processar o pagamento"
+      },
+      "failed_payment": {
+        "page_title": "O pagamento não pode ser processado",
+        "title": "O pagamento não pode ser processado",
+        "payment_not_processed_title": "O seu pagamento não pode ser processado.",
+        "payment_not_processed_text": "Não foram cobrados custos. Volte ao seu carrinho para concluir a sua compra.",
+        "return_to_cart_button_label": "Voltar ao carrinho de compras"
+      },
+      "payment_gateway": {
+        "cash_on_delivery_label": "Reembolso",
+        "deferred_payment_label": "Escolha um método de pagamento mais tarde",
+        "generic_payment_terms": "Os termos de pagamento de {{translatedName}} aplicam-se. O seu pagamento vence em {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} numa conta com acesso a esta localização ou para adicionar ou usar métodos de pagamento guardados."
+          }
+        },
+        "direct_payment_terms": "Os termos e condições de {{translatedName}} aplicam-se. O dinheiro será debitado do seu cartão em {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "O pagamento é devido assim que a encomenda for processada.",
+        "order_due_on_fulfillment_payment": "O dinheiro será debitado do seu cartão assim que a encomenda for processada.",
+        "draft_order_payment_due_later_no_terms": "O pagamento é devido assim que a encomenda for confirmada.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "O dinheiro será debitado do seu cartão assim que a encomenda for confirmada.",
+        "draft_order_payment_due_later_terms": "Os termos e condições de {{translatedName}} aplicam-se assim que a encomenda for confirmada.",
+        "draft_order_payment_due_on_fulfillment": "O pagamento é devido assim que a encomenda for confirmada e processada.",
+        "fixed_payment_label": "O pagamento é devido em {{dueDate}}.",
+        "fixed_direct_payment_terms": "Este valor será cobrado no seu cartão em {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} deve ser pago hoje. O saldo está sujeito aos termos de {{translatedName}} e deve ser liquidado até {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} deve ser pago hoje. O saldo é devido assim que a sua encomenda for processada.",
+        "order_due_on_receipt_choose_later": "O pagamento é devido no ato da receção.",
+        "draft_order_deposit_due_later": "{{depositAmount}} é devido quando a encomenda for confirmada. Para o saldo, aplicam-se os termos e condições do {{translatedName}}."
       }
     }
   }
