@@ -2956,6 +2956,64 @@
       "password_confirmation": "η επιβεβαίωση κωδικού πρόσβασης",
       "last_name": "επώνυμο",
       "body": "κύριο κείμενο"
+    },
+    "addresses": {
+      "zip_code": "Ταχυδρομικός Κώδικας",
+      "postal_code": "Ταχυδρομικός Κώδικας",
+      "postcode": "Ταχυδρομικός Κώδικας",
+      "pincode": "Ταχυδρομικός Κώδικας",
+      "region": "Ρέτζιο",
+      "state": "Κράτος",
+      "state_and_territory": "Κράτος/Έδαφος",
+      "county": "Επαρχία",
+      "emirate": "Εμιράτ",
+      "governorate": "Κυβέρνηση",
+      "confirm": "Είσαι σίγουρος ότι θέλεις να διαγράψεις αυτή τη διεύθυνση;"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Επιλεγμένο",
+        "best_selling": "Καλύτερα πωλούμενο",
+        "az": "Αλφαβητικά: Α-Ω",
+        "za": "Αλφαβητικά: Ζ-Α",
+        "price_ascending": "Τιμή: από χαμηλή σε υψηλή",
+        "price_descending": "Τιμή: από υψηλή σε χαμηλή",
+        "date_ascending": "Ημερομηνία: παλιό προς νέο",
+        "date_descending": "Ημερομηνία: από νέο σε παλιό",
+        "most_relevant": "Πιο σχετικό"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Η εξουσιοδότηση της πιστωτικής κάρτας έχει λήξει. Εισάγετε ξανά τα στοιχεία πληρωμής σας. Δεν έχει γίνει καμία χρέωση στην κάρτα σας.",
+      "discount_disabled": "Αυτή η έκπτωση έχει αποκλειστεί",
+      "discount_expired": "Αυτή η έκπτωση δεν ισχύει πλέον",
+      "discount_limit_reached": "Αυτή η έκπτωση έχει φτάσει το όριο χρήσης της",
+      "discount_not_found": "Δεν βρέθηκε έγκυρη έκπτωση που να αντιστοιχεί στον κωδικό",
+      "customer_already_used_once_per_customer_discount_notice": "Αυτή η έκπτωση έχει φτάσει το όριο χρήσης της",
+      "gift_card_already_applied": "Ο κωδικός έχει εφαρμοστεί στο καλάθι αγορών σου",
+      "gift_card_currency_mismatch": "Το δωροκάρτα σας είναι σε %{gift_card_currency}. Επικοινωνήστε μαζί μας ώστε να μπορέσουμε να την επανεκδώσουμε σε %{checkout_currency}.",
+      "gift_card_depleted": "Δεν υπάρχει υπόλοιπο σε αυτήν την δωροκάρτα πλέον",
+      "gift_card_disabled": "Η δωροκάρτα έχει μπλοκαριστεί",
+      "gift_card_expired": "Η δωροκάρτα έχει λήξει",
+      "invalid": "είναι άκυρο",
+      "bad_domain": "περιέχει ένα μη έγκυρο όνομα τομέα",
+      "taken": "έχει ήδη χρησιμοποιηθεί",
+      "contains_html_tags": "δεν μπορεί να περιέχει HTML ετικέτες",
+      "too_short": "είναι πολύ σύντομο (το ελάχιστο είναι %{count} χαρακτήρες)",
+      "too_long": "είναι πολύ μακρύ (το μέγιστο είναι %{count} χαρακτήρες)",
+      "password_mismatch": "πρέπει να είναι ίδιο με τον καθορισμένο κωδικό πρόσβασης",
+      "contains_spaces": "ξεκινά ή τελειώνει με κενά διαστήματα.",
+      "invalid_for_country": "δεν ισχύει για %{country}",
+      "invalid_for_country_and_province": "δεν ισχύει για %{province} και %{country}",
+      "invalid_province_in_country": "δεν είναι έγκυρη επαρχία στο %{country}",
+      "invalid_state_in_country": "δεν είναι έγκυρη κατάσταση στο %{country}",
+      "invalid_region_in_country": "δεν είναι έγκυρη περιοχή στο %{country}",
+      "less_than_or_equal_to": "πρέπει να είναι μικρότερο ή ίσο με %{count}",
+      "full_name_required": "Συμπληρώστε όνομα και επώνυμο",
+      "invalid_for_card_type": "είναι άκυρο",
+      "invalid_type": "συγγνώμη, δεν δεχόμαστε κάρτες αυτού του τύπου",
+      "expired": "έχει λήξει",
+      "invalid_start_date_or_issue_number_for_debit": "απαιτείται έγκυρη ημερομηνία έναρξης ή έγκυρος αριθμός έκδοσης"
     }
   }
 }
