@@ -1210,7 +1210,131 @@
         "split_shipping_multiple_shipment_notice": "L'ordine verrà consegnato in più spedizioni",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Il tuo ordine verrà consegnato in %{quantity} spedizioni",
         "split_shipping_more_shipping_options": "Più opzioni di spedizione",
-        "split_shipping_option_custom": "Adattato"
+        "split_shipping_option_custom": "Adattato",
+        "default_description": "Spedito entro un giorno lavorativo",
+        "split_shipping_shipment_notice": "Riceverai il tuo ordine in %{quantity_shipments}",
+        "prime_not_available": {
+          "default": "La consegna Prime non è disponibile per il tuo ordine. Le tue opzioni di spedizione sono state aggiornate."
+        },
+        "split_shipping_first_shipment_notice": "Riceverai il tuo primo ordine in %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Opzioni per il metodo di spedizione",
+        "shipping_address_rollup_accessibility_label": "Opzioni per la spedizione all'indirizzo",
+        "invalid_shipping_method_summary_selected": "Seleziona un altro indirizzo di consegna per vedere i metodi di spedizione disponibili",
+        "third_party_address_timeout": "Impossibile caricare gli indirizzi. Riprova oppure usa un altro indirizzo.",
+        "third_party_address_error": "Si è verificato un errore durante il caricamento della selezione dell'indirizzo. Inserisci il tuo indirizzo manualmente qui sotto.",
+        "third_party_payment_timeout": "Impossibile caricare i metodi di pagamento. Riprova o utilizza un altro metodo di pagamento.",
+        "third_party_payment_error": "Si è verificato un errore durante il caricamento della selezione del pagamento. Utilizza un altro metodo di pagamento.",
+        "add_shipping_address": "Aggiungi indirizzo di consegna",
+        "unbranded_description_same_day": "Viene spedito lo stesso giorno lavorativo",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Verrà spedito il giorno lavorativo successivo",
+          "other": "Verrà spedito entro %{count} giorni lavorativi"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Verrà spedito tra %{count} settimana",
+          "other": "Verrà spedito tra %{count} settimane"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Pagamento Amazon",
+        "amazon_payments_login_hint": "Ti viene chiesto di accedere ad Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Il metodo di pagamento selezionato non può essere utilizzato. Seleziona un altro metodo o contatta la tua banca o l'emittente della carta.",
+        "amazon_payments_abandoned_mfa_challenge": "Il tuo pagamento non è stato completato. Prova un altro metodo di pagamento o contatta la tua banca o l'emittente della carta.",
+        "amazon_payments_could_not_enqueue_authorize": "Si è verificato un problema durante l'elaborazione del tuo pagamento. Riprova oppure usa un altro metodo di pagamento.",
+        "discount_button_action_label": "Applica Codice Sconto",
+        "apply_gift_card_button_label": "Applicare",
+        "supported_card_brands_more_label": "e altro ancora…",
+        "detected_card_brand": "Tipo di carta rilevato: {brand}",
+        "card_number_label": "Numero della carta",
+        "card_number_placeholder": "Numero della carta",
+        "card_pay_with": "Paga con:",
+        "card_security_notice": "Tutte le transazioni sono protette e criptate.",
+        "card_expiry_date_explanation": "Suddivisione della data di scadenza della carta: mese, mese, anno, anno",
+        "card_verification_value_explanation": "Codice di sicurezza di 3 cifre, solitamente situato sul retro della tua carta. American Express ha un codice di 4 cifre sul davanti.",
+        "card_verification_value_explanation_amex": "Codice di sicurezza di 4 cifre sul davanti della tua carta",
+        "card_verification_value_explanation_other": "Codice di sicurezza di 3 cifre sul retro della tua carta",
+        "card_start_label": "Data di rilascio (MM / AA)",
+        "card_start_placeholder": "Data di rilascio (MM / AA)",
+        "card_change_label": "Modificare",
+        "ends_with_label": "termina con %{last_digits}",
+        "same_billing_address_label": "Uguale all'indirizzo di consegna",
+        "different_billing_address_label": "Usare un altro indirizzo di fatturazione",
+        "free_order_notice_html": "Il tuo ordine è <strong>gratuito</strong>. Non è richiesto alcun pagamento.",
+        "express_checkout_free_order": "Non vengono addebitati costi per un ordine gratuito",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Il tuo ordine sarà pagato con il tuo buono regalo.",
+          "other": "Il tuo ordine viene pagato con i tuoi buoni regalo."
+        },
+        "offsite_gateway_redirect_hint": "Verrai reindirizzato a %{gateway_label} per completare il tuo acquisto.",
+        "billing_address_description": "Seleziona l'indirizzo che corrisponde alla tua carta o metodo di pagamento.",
+        "billing_address_description_no_shipping_address": "Inserisci l'indirizzo che corrisponde alla tua carta o metodo di pagamento.",
+        "no_js_credit_card_fields_redirect_hint": "Verrai reindirizzato per aggiungere le tue informazioni di pagamento.",
+        "card_fields_container_prefix": "In questo campo c'è:",
+        "card_fields_unavailable_html": {
+          "one": "Il pagamento con carta di credito o bancomat non è attualmente disponibile.<br><a href=\"%{current_url}\">Aggiorna questa pagina</a> o riprova più tardi.",
+          "other": "Il pagamento con carta di credito o bancomat non è attualmente disponibile.<br><a href=\"%{current_url}\">Aggiorna questa pagina</a> o prova un altro metodo di pagamento."
+        },
+        "card_fields_processing_error": "Si è verificato un problema durante l'elaborazione del pagamento. Ricarica questa pagina o controlla la tua connessione a internet.",
+        "technical_error": "A causa di un problema tecnico, al momento non è possibile elaborare i pagamenti. Riprova tra qualche minuto.",
+        "no_method_error": "Questo negozio al momento non può accettare pagamenti.",
+        "not_configured_error": "Questo negozio al momento non può accettare pagamenti.",
+        "generic_incorrect_card_info": "I dati di pagamento non possono essere verificati. Controlla i dati della tua carta e riprova.",
+        "sofort_label": "Immediato",
+        "klarna_pay_later_label": "Pagamento posticipato con Klarna",
+        "eps_label": "bonifico eps (trasferimento eps)",
+        "klarna_slice_it_label": "Finanze con Klarna",
+        "card_expiration_month_label": "Mese di recupero",
+        "card_information_notice": "Tutte le transazioni sono protette e criptate. I dati della carta di credito non vengono mai memorizzati.",
+        "credit_card_start_month": "Data di inizio mese",
+        "credit_card_start_year": "Data di inizio anno",
+        "billing_address_not_supported_for_payment_method_error": "Questo metodo di pagamento non è disponibile per il tuo indirizzo di fatturazione e valuta. Prova un altro metodo di pagamento.",
+        "no_real_orders_dev_store": "Questo negozio non può accettare ordini reali né elaborare pagamenti veri.",
+        "subscription_agreement_label_html": "Capisco che accetto un abbonamento. Verrà rinnovato al prezzo e alla frequenza indicati fino alla scadenza o alla\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancellazione</a>.",
+        "waiting_on_payment_methods": "Recupero dei metodi di pagamento disponibili...",
+        "apple_pay_payment_error": "Il tuo pagamento non è stato completato. Riprova o utilizza un altro metodo di pagamento.",
+        "subscription_card_update_agreement_label": "Modificando il metodo di pagamento, il tuo abbonamento e i pagamenti ricorrenti futuri verranno aggiornati.",
+        "card_security_vault_notice": "Abbiamo bisogno dei tuoi dati per i pagamenti futuri. Tutte le transazioni sono protette e criptate.",
+        "taxes_not_included": "Escluso tasse",
+        "no_taxes_banner_content": "Le tasse non vengono addebitate su questo ordine. Non è possibile aggiungere ulteriori tasse una volta che il pagamento è stato incassato.",
+        "paypal": {
+          "connect": "Clicca per collegare il tuo conto PayPal"
+        },
+        "subscription_agreement_label": "Uno o più articoli nel carrello sono un acquisto differito o in abbonamento. Se procedi al pagamento, accetti che addebitiamo automaticamente gli importi dell'acquisto tramite il tuo metodo di pagamento al prezzo e con la frequenza indicati in questa pagina, fino alla scadenza dell'abbonamento o alla tua cancellazione. Per tutte le cancellazioni vale il %{cancelled}.",
+        "subscription_agreement_cancelled": "politica di cancellazione",
+        "card_verification_confirm": "Inserisci il codice di sicurezza della tua carta per scopi di verifica.",
+        "apple": {
+          "not_available": "Apple Pay non è disponibile in questo browser. Per collegare il tuo account Apple Pay, devi utilizzare Safari su un dispositivo Apple."
+        },
+        "billing_address_associated_with_mandate": "Usa l'indirizzo associato al tuo metodo di pagamento",
+        "billing_address_associated_with_mandate_info": "Per modificare l'indirizzo di fatturazione, elimina i dati della tua carta di credito e inseriscili nuovamente",
+        "credit_card_vaulting_sign_in_banner_title": "Salva la tua carta di credito",
+        "credit_card_vaulting_sign_in_banner_info": "Accedi o crea un account per salvare la tua carta di credito per acquisti futuri.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Accesso",
+        "expiry_long": "(Scade %{month}/%{year})",
+        "expiry_short": "(Scade %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Salva questa carta di credito sul mio account per pagare più rapidamente",
+        "delete_customer_mandate_modal_body": "Se rimuovi questa carta, dovrai aggiungerla nuovamente prima di poterla utilizzare per i pagamenti.",
+        "delete_customer_mandate_modal_confirm": "Rimuovi carta",
+        "google": {
+          "connect": "Fai clic per collegare il tuo account Google Pay"
+        },
+        "mor_disclaimer_html": "Cliccando qui sotto e completando l’ordine, accetti di acquistare il/i tuo/i articolo/i da Global-e come merchant registrato per questa transazione, secondo i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termini e condizioni</a> e la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Informativa sulla privacy</a> di Global-e. Global-e è un fornitore internazionale di servizi di fulfilment per %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Aggiornando il metodo di pagamento, autorizzi i pagamenti per ogni acquisto ricorrente o differito secondo il <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> di questo negozio.",
+        "multibanco_label": "Multibanca",
+        "receiver_payment_experience_hint": "Dopo aver effettuato l'ordine, riceverai i dati per il pagamento. Effettua il pagamento entro %{due_days} giorni presso Multibanco o online.",
+        "pending_payment": {
+          "due_notice": "Il tuo pagamento di %{amount_due} è dovuto entro %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Effettua il pagamento presso Multibanco o online utilizzando i dati sottostanti. %{contact_us} per domande o per aggiornare i dati di pagamento.",
+            "entity": "Unità",
+            "find_nearest_atm": "Trova il bancomat più vicino",
+            "buyer_action_info": "Il tuo pagamento di %{amount_due} è in sospeso."
+          }
+        },
+        "purchase_options_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito, un abbonamento o un acquisto ricorrente. Procedendo con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente per il prezzo e la frequenza indicati in questa pagina, fino alla scadenza o alla cancellazione. Su tutte le cancellazioni si applica il %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Il totale può escludere tasse, spedizione, costi differiti e alcuni sconti. Procedi al pagamento per l'importo dovuto oggi."
+        }
       }
     }
   }
