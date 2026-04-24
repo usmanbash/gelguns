@@ -2375,7 +2375,101 @@
           "shipping_credential_ec": "CI/RUC/ÁFA",
           "tax_credential_gt": "NIT/ÁFA",
           "shipping_credential_gt": "NIT/ÁFA",
-          "tax_credential_id": "Adóazonosító szám"
+          "tax_credential_id": "Adóazonosító szám",
+          "shipping_credential_id": "Adóazonosító szám",
+          "tax_credential_my": "Adóazonosító szám/Bejegyzési szám",
+          "shipping_credential_my": "Adóazonosító szám/Bejegyzési szám",
+          "tax_credential_type_mx": "Adózási rendszer",
+          "tax_credential_use_mx": "CFDI használata",
+          "tax_credential_py": "CI/RUC/ÁFA",
+          "shipping_credential_py": "CI/RUC/ÁFA",
+          "tax_credential_pe": "Személyi igazolvány / Adószám / Tartózkodási engedély",
+          "shipping_credential_pe": "Személyi igazolvány / Adószám / Tartózkodási engedély",
+          "tax_credential_pt": "NIF/ÁFA",
+          "shipping_credential_pt": "NIF/ÁFA",
+          "tax_credential_es": "Személyi igazolvány szám / Adóazonosító jel",
+          "shipping_credential_es": "Személyi igazolvány szám / Adóazonosító jel",
+          "shipping_credential_tw": "Nemzeti azonosító szám/adószám",
+          "tax_credential_tr": "Török Köztársaság Személyi Azonosító Száma/ÁFA",
+          "shipping_credential_tr": "Török Köztársaság Személyi Azonosító Száma/ÁFA"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Fizettél a rendelésedért.",
+        "escape_action": "Rendelés visszaigazolás megtekintése ›",
+        "components": {
+          "expand": "Továbbiak megtekintése",
+          "processing": "Feldolgozás...",
+          "submit": "Beküldés"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "A kosarad frissítve lett a szállítási országod alapján.",
+        "cart_and_currency_updated_based_on_country": "A kosarad és a pénznem a szállítási ország szerint lett beállítva.",
+        "currency_updated_for_country": "Valuta frissítve %{country} számára"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{interval} alatt minden %{total_price} esetén",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Első fizetés %{total_price}",
+            "other": "Első %{count} fizetések %{total_price} darabonként"
+          },
+          "following_cycles": ", majd %{total_price} minden %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dagasztás"
+          },
+          "month": {
+            "other": "%{count} hónapig"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Első fizetés %{total_price_with_discount}, majd %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", majd %{count} fizetés %{total_price} összegben",
+            "other": ", majd %{count} fizetés, mindegyik %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Frissítés térkép",
+        "delete_customer_mandate": {
+          "generic_error": "Probléma merült fel a kérelmed feldolgozása során.",
+          "success_message": "A fizetési módod törölve lett"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "A MoR (Kereskedői Nyilvántartás) általános szerződési feltételei",
+        "privacy_policy": "Regisztrált kereskedő adatvédelmi szabályzata"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nem elérhető termék",
+          "other": "Nem elérhető termékek"
+        },
+        "products_not_available": {
+          "one": "Ezt a terméket eltávolítjuk a kosaradból, mert nem elérhető az országodban/régiódban.",
+          "other": "Ezeket a termékeket eltávolítjuk a kosaradból, mert nem elérhetők az országodban/régiódban."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ez a termék nem elérhető az Ön országában/régiójában.",
+          "other": "Ezek a termékek nem elérhetők az országodban/régiódban."
+        },
+        "unavailable_label": "Nem elérhető"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Az országod/régiód frissítve lett. Add meg a kézbesítési címet a fizetéshez való továbblépéshez."
+      },
+      "throttle": {
+        "line_to_check_out": "A pénztárnál állsz sorban fizetésre",
+        "cart_summary_heading": "A kosarad",
+        "inventory": {
+          "partial_inventory_banner": "A kosarad egy része elfogyott, és nem vásárolható meg a pénztárnál.",
+          "sold_out": {
+            "heading": "A kosarad kiárusított"
+          }
         }
       }
     }

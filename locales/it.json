@@ -1146,9 +1146,71 @@
             "one": "%{shipping_price} per %{count} consegne aggiuntive"
           },
           "prepaid_order_no_cycle": {
-            "one": "%{shipping_price} per %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}"
+            "one": "%{shipping_price} per %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} per altre %{count} consegne extra (%{per_delivery_cost}), poi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} per %{count} consegna, poi %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} per %{count} consegne (%{per_delivery_cost}), poi %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "estimated_delivery_time": "Consegna prevista %{time}",
+        "estimated_delivery_time_range": "Consegna prevista %{min_time}–%{max_time}",
+        "arrives_time": "Consegnato entro %{time}",
+        "arrives_time_range": "Viene consegnato tra %{min_time} e %{max_time}",
+        "estimated_time": "Previsto in %{time}",
+        "estimated_time_range": "Previsto tra %{min_time} e %{max_time}",
+        "subscription_local_delivery": "Abbonamento consegna locale",
+        "subscription_pickup": "Abbonamento ritiro",
+        "delivery_today": "Consegna lo stesso giorno entro %{time}",
+        "delivery_tomorrow": "Consegna il giorno successivo entro %{time}",
+        "two_day_delivery": "Consegna entro 2 giorni alle %{time}",
+        "delivery": "Consegna entro %{time}",
+        "duties_and_taxes_title": "Dazi doganali e imposte",
+        "shipping_information_redirect_link": "Inserisci qui i tuoi dati",
+        "loading_progressive_rates": "Cerca altre tariffe...",
+        "no_other_methods_available": "Nessun altro metodo disponibile",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagamento alla consegna",
+          "ddu_caption": "Potrebbero essere applicati costi aggiuntivi",
+          "ddp_caption": "Nessun costo aggiuntivo per la consegna"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} in %{current}"
+        },
+        "shipping_used_as_billing_notice": "Questo verrà utilizzato anche come indirizzo di fatturazione per questo ordine.",
+        "add_address": "Usa un altro indirizzo",
+        "add_delivery_instructions": "Aggiungi istruzioni di consegna",
+        "delete": "Rimuovere",
+        "address_more": "Altre offerte per questo indirizzo",
+        "address_delete": "Rimuovi indirizzo",
+        "address_confirm": "Sei sicura di voler rimuovere questo indirizzo dal tuo account?",
+        "address_form": {
+          "generic_error": "Si è verificato un problema durante il salvataggio del tuo indirizzo. Riprova.",
+          "one_time_address_subtitle": "Usare un indirizzo unico per questo ordine"
+        },
+        "different_shipping_method_summary": "Inserisci un altro indirizzo di consegna per visualizzare i metodi di spedizione disponibili",
+        "invalid_shipping_method_summary": "Inserisci un indirizzo di consegna valido per vedere i metodi di spedizione disponibili",
+        "method_summary": {
+          "incomplete_address_entered": "Inserisci un indirizzo di consegna completo per vedere i metodi di spedizione disponibili",
+          "incomplete_address_selected": "Seleziona un indirizzo di consegna completo per vedere i metodi di spedizione disponibili"
+        },
+        "local_pickup": {
+          "rollup_title": "Luogo di ritiro",
+          "rollup_accessibility_label": "Opzioni per il luogo di ritiro"
+        },
+        "missing_shipping_address": "Indirizzo di consegna mancante",
+        "split_shipping_merchandise_quantity_label_additional": "+ altro %{quantity}",
+        "pre_order_ships_now": "Spedito ora",
+        "pre_order_ships_later": "Verrà spedito in seguito",
+        "pre_order_ships_date": "Spedito il %{date}",
+        "split_shipping_shipped_by_shop": "Inviato da %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Più spedizioni",
+        "split_shipping_shipping_label": "Saggio",
+        "split_shipping_multiple_shipment_notice": "L'ordine verrà consegnato in più spedizioni",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Il tuo ordine verrà consegnato in %{quantity} spedizioni",
+        "split_shipping_more_shipping_options": "Più opzioni di spedizione",
+        "split_shipping_option_custom": "Adattato"
       }
     }
   }
