@@ -3619,7 +3619,79 @@
       "pagination": {
         "load_more_accessibility_label": "Załaduj więcej artykułów",
         "loading_accessibility_label": "Ładowanie artykułów"
-      }
+      },
+      "returns": {
+        "expand_events_label": "Wyświetl dane",
+        "hide_events_label": "Ukryj dane",
+        "print_shipping_label": "Drukuj etykietę wysyłkową",
+        "return_and_refund_modal_header": "Polityka zwrotów",
+        "ineligible_return_message": "Brak artykułów w tym zamówieniu kwalifikujących się do zwrotu.",
+        "ineligible_return_message_when_returned": "W tym zamówieniu nie ma już artykułów kwalifikujących się do zwrotu.",
+        "exchange_header": "Towary wymienne",
+        "exchange_subheader": "Towary wymieniane zostaną dodane do zamówienia po zakończeniu zwrotu."
+      },
+      "request_return_failed": "Wystąpił problem podczas przetwarzania twojego zgłoszenia. Spróbuj ponownie.",
+      "mobile_summary_toggle_button": {
+        "open": "Wyświetl podsumowanie zamówienia"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Wyświetl dane",
+        "expand_events_accessibility_label": "Pokaż dane dostawy zamówienia",
+        "hide_events_label": "Ukryj dane",
+        "hide_events_accessibility_label": "Ukryj dane dostawy zamówienia"
+      },
+      "show_order_summary": "Wyświetl podsumowanie zamówienia",
+      "no_data_provided_accessibility_label": "{{fieldName}} jest pusty",
+      "marketing_section_title": "Wiadomości i oferty specjalne",
+      "marketing_description": "Otrzymujesz wiadomości marketingowe. Możesz się wypisać w dowolnym momencie.",
+      "marketing_checkbox_label": "Wyślij mi e-maile z wiadomościami i ofertami specjalnymi",
+      "marketing_checkmark_label": "Zostałeś zapisany do otrzymywania wiadomości e-mail z nowościami i ofertami specjalnymi",
+      "image_gallery": {
+        "next": "Pokaż kolejne artykuły",
+        "previous": "Pokaż poprzednie artykuły",
+        "load_more_items": {
+          "one": "Załaduj jeszcze {{count}} artykułów",
+          "other": "Załaduj {{count}} artykułów więcej"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Pobierz Sklep, aby śledzić paczkę",
+        "track_order_with_shop": "Śledzenie zamówienia za pomocą Shop",
+        "title_header": "Skanuj telefonem",
+        "real_time_delivery_updates": "Po wysłaniu zamówienia otrzymasz na bieżąco informacje o dostawie od Sklepu."
+      },
+      "shop_pay": {
+        "order_completed_with": "Zamówienie zakończone z",
+        "learn_more": "Więcej informacji"
+      },
+      "edit_summary": {
+        "added_with_quantity": "dodano {{quantity}}",
+        "removed_with_quantity": "{{quantity}} usunięto",
+        "returned": "Zwrócony",
+        "returned_with_quantities": "{{delta}} z {{total}} zwróconych",
+        "removed_with_quantities": "{{delta}} z {{total}} usuniętych",
+        "return_line_item_removed": "Usunięto z zwrotu",
+        "return_line_item_removed_with_quantities": "{{delta}} usunięty z zwrotu"
+      },
+      "pickup": {
+        "pickup": "Odbiór osobisty",
+        "pickup_location": "Miejsce odbioru"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Zapłacono za pomocą płatności ratalnej Shop Pay",
+        "description": "Bądź na bieżąco ze swoim harmonogramem płatności dzięki przypomnieniom w aplikacji Sklep.",
+        "payment_reminders_button": "Otrzymywanie przypomnień o płatnościach",
+        "desktop_qr_code_content": {
+          "title": "Skanuj wspomnienia",
+          "description": "Otrzymuj przypomnienia o swoich płatnościach ratalnych w Sklepie."
+        },
+        "title": "Przypomnienia o płatności dla płatności ratalnych Shop Pay"
+      },
+      "order_details": "Dane zamówienia",
+      "login_to_view_all_order_details": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia.",
+      "paid_amount": "Opłacono",
+      "remaining_amount": "Pozostały",
+      "order_details_skeleton_accessibility_label": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia."
     }
   }
 }
