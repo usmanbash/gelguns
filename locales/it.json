@@ -2163,8 +2163,112 @@
           "tax_credential_type_mx": "Regime Fiscale",
           "tax_credential_use_mx": "Uso di CFDI",
           "tax_credential_pt": "Partita IVA",
-          "shipping_credential_pt": "Partita IVA"
+          "shipping_credential_pt": "Partita IVA",
+          "shipping_credential_tw": "Numero ID nazionale/IVA",
+          "tax_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA",
+          "shipping_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA"
         }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Hai pagato per il tuo ordine.",
+        "escape_action": "Visualizza conferma ordine ›",
+        "components": {
+          "close": "Chiudere",
+          "expand": "Mostra di più",
+          "processing": "Elaborazione..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Il tuo carrello è stato aggiornato in base al tuo paese di spedizione.",
+        "cart_and_currency_updated_based_on_country": "Il tuo carrello e la valuta sono stati adattati al paese di spedizione."
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Primo pagamento %{total_price}",
+            "other": "Prime %{count} pagamenti per %{total_price} ciascuno"
+          },
+          "following_cycles": ", poi %{total_price} ogni %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Primo pagamento %{total_price_with_discount} poi %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", poi %{count} pagamento di %{total_price}",
+            "other": ", poi %{count} pagamenti, ciascuno di %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Si è verificato un problema durante l'elaborazione della tua richiesta.",
+          "success_message": "Il tuo metodo di pagamento è stato rimosso"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Condizioni generali di MoR (Commerciante ufficiale)",
+        "privacy_policy": "Informativa sulla privacy del commerciante registrato"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Questo prodotto verrà rimosso dal tuo carrello perché non è disponibile nel tuo paese/regione.",
+          "other": "Questi prodotti sono stati rimossi dal tuo carrello perché non sono disponibili nel tuo paese/regione."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Questo prodotto non è disponibile nel tuo paese/regione.",
+          "other": "Questi prodotti non sono disponibili nel tuo paese/regione."
+        },
+        "unavailable_label": "Non disponibile"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Il tuo paese/regione è stato aggiornato. Inserisci l'indirizzo di consegna per procedere al pagamento."
+      },
+      "throttle": {
+        "line_to_check_out": "Sei in fila per pagare",
+        "inventory": {
+          "partial_inventory_banner": "Una parte del tuo carrello è esaurita e non può essere acquistata al momento del pagamento.",
+          "sold_out": {
+            "heading": "Il tuo carrello è esaurito",
+            "storefront_body": "Torna al negozio per continuare a fare acquisti",
+            "no_storefront_body": "L'articolo che volevi acquistare non è purtroppo più disponibile."
+          }
+        },
+        "title": "Coda d'attesa",
+        "time_to_checkout_title": "È ora di pagare - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calcolare il tempo di attesa stimato",
+          "less_than_one": "Tempo di attesa stimato: meno di un minuto"
+        },
+        "last_checked": "(Ultimo controllo: {{time}})",
+        "footer": {
+          "heading": "Non è necessario aggiornare questa pagina, si aggiorna automaticamente.",
+          "body": "Gli articoli nel tuo carrello saranno riservati solo dopo aver completato il pagamento."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Si è verificato un problema durante l'elaborazione della tua richiesta. Contatta il proprietario del negozio."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Questo articolo verrà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo.",
+            "other": "Questo articolo verrà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo."
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Posizione senza indirizzo",
+        "header": "Non è disponibile un indirizzo di consegna per questa località",
+        "message": "Contattaci per aggiungere un indirizzo per questa sede, così potrai completare il pagamento.",
+        "email_us_button_label": "Inviaci un'e-mail",
+        "alt_header": "Indirizzo di consegna mancante"
+      },
+      "order_errors": {
+        "creation_failure": "Si è verificato un problema durante la creazione del tuo ordine. Riprova oppure contattaci per maggiori informazioni.",
+        "network_failure": "Il tuo ordine non può essere inviato a causa di un errore di rete. Controlla la tua connessione e riprova."
+      },
+      "session_errors": {
+        "session_not_unique": "Si è verificato un problema durante l'elaborazione del tuo ordine. Ricarica questa pagina per tornare al negozio.",
+        "session_already_finished": "Questo ordine è già stato inviato. Puoi tornare al negozio per iniziare un nuovo ordine."
       }
     }
   }
