@@ -3944,9 +3944,105 @@
             "description_due_on_receipt_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo. Račun ćete dobiti kada uplata bude dospjela.",
             "description_due_on_fulfillment_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo. Plaćanje je potrebno čim se svi artikli u ovoj narudžbi obrade.",
             "description_due_on_fulfillment_partially_paid_next": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
-            "banner_due_today_for_single_fulfillment": "Plaćanje od {{amount}} dospijeva danas. {{link}}"
-          }
+            "banner_due_today_for_single_fulfillment": "Plaćanje od {{amount}} dospijeva danas. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Plaćanje danas dospjelo za {{count}} ispunjenja",
+            "banner_overdue_for_multiple_fulfillments": "Plaćanje je potrebno za {{count}} isporuka",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Plaćanje od {{amount}} kasni {{count}} dan. {{link}}",
+              "other": "Plaćanje od {{amount}} kasni {{count}} dana. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Povraćeno",
+            "title_with_date": "Povraćeno na {{date}}",
+            "description_full_refund": "Primili ste puni povrat novca za ovu narudžbu.",
+            "description_single_refund": "Primili ste djelomični povrat novca za ovu narudžbu.",
+            "description_multiple_refunds": "Primili ste djelomične povrate za ovu narudžbu."
+          },
+          "canceled": {
+            "title": "Plaćanje otkazano",
+            "description": "Nisu ti naplaćeni nikakvi troškovi."
+          },
+          "pay_now_accessibility_label": "Platite sada za narudžbu {{orderName}}",
+          "due_date": "Dugovanje na dan {{date}}",
+          "total_balance": "Ukupno stanje"
+        },
+        "subtitle": "Podneseno: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Prikaži podatke",
+          "expand_events_accessibility_label": "Prikaz podataka konceptne narudžbe",
+          "hide_events_label": "Sakrij podatke",
+          "hide_events_accessibility_label": "Sakrij podatke o konceptnoj narudžbi"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ovaj način plaćanja više nije dostupan za buduće kupnje na ovoj lokaciji.",
+          "description_with_replacement": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate za ovu lokaciju. Zamijenite je drugom metodom plaćanja kako biste nastavili primati nadolazeće narudžbe."
+        },
+        "payment_details": {
+          "draft_label": "Konceptna narudžba {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "cancel": "Otkaži",
+        "close_modal_accessibility_label": "Zatvori modalni prozor narudžbe",
+        "discard_changes_modal_title": "Odbaciti promjene?",
+        "modal_po_number_input_max_length_error": "Brojevi narudžbi mogu imati najviše {{maxLength}} znakova.",
+        "title": "Broj narudžbenice {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Došlo je do problema prilikom uklanjanja ove adrese. Pokušajte ponovno ili osvježite stranicu."
+      },
+      "addresses_loading_issue": {
+        "description": "Pogreška veze. Provjerite svoju internetsku vezu i pokušajte ponovno."
+      },
+      "banner_title": {
+        "one": "Pogreška je {{count}}",
+        "other": "Postoji {{count}} pogrešaka"
+      },
+      "failed_address_creation": {
+        "description": "Došlo je do problema prilikom stvaranja vaše adrese. Osvježite ovu stranicu ili provjerite svoju internetsku vezu."
+      },
+      "failed_address_update": {
+        "description": "Došlo je do problema prilikom ažuriranja tvoje adrese. Osvježi ovu stranicu ili provjeri svoju internetsku vezu."
+      },
+      "no_access_to_locations": {
+        "description": "Nemate pristup lokacijama"
+      },
+      "not_found": {
+        "description": "Provjerite URL ili pokušajte ponovno za nekoliko minuta.",
+        "title": "Došlo je do problema pri učitavanju ove stranice"
+      },
+      "order_not_found": {
+        "description": "Ova narudžba ne postoji ili nemaš ovlasti za njezin pregled.",
+        "title": "Naručivanje nije pronađeno"
+      },
+      "profile_update_error": {
+        "description": "Došlo je do problema prilikom ažuriranja vašeg profila. Osvježite ovu stranicu ili provjerite svoju internetsku vezu."
+      },
+      "retry_action_label": "Pokušajte ponovno",
+      "load_orders_error": {
+        "title": "Ne mogu učitati narudžbe",
+        "description": "Pokušajte ponovno ili se vratite kasnije.",
+        "retry_button": "Pokušajte ponovno"
+      },
+      "load_paypal_error": {
+        "description": "Došlo je do problema pri učitavanju PayPala. Pokušajte ponovno."
+      },
+      "load_extension_error": {
+        "description": "Osvježi ovu stranicu ili pokušaj ponovno za nekoliko minuta."
+      },
+      "already_upgraded": "Korisnički računi su već nadograđeni.",
+      "failed_to_upgrade": "Nadogradnja postavki korisničkog računa nije uspjela.",
+      "logout_everywhere": {
+        "description": "Došlo je do pogreške prilikom odjave. Pokušajte ponovno."
+      },
+      "resend_link": {
+        "too_many_requests": "Previše zahtjeva. Pokušajte ponovo kasnije.",
+        "generic": "Zahtjev nije uspio"
       }
     }
   }
