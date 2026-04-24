@@ -2043,8 +2043,138 @@
       "marketing": {
         "accept_marketing_checkbox_label": "Sūti man e-pastu ar jaunumiem un piedāvājumiem",
         "unsubscribe": {
-          "title": "Tu esi atlogojies"
+          "title": "Tu esi atlogojies",
+          "description": "Tu vairs nesaņem no mums atgādinājumus par iepirkumu grozu."
+        },
+        "accept_sms_checkbox_label": "Sūti man īsziņu ar jaunumiem un piedāvājumiem",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privātuma politika",
+            "terms_of_service": "Pakalpojuma noteikumi",
+            "description_html": "Reģistrējoties, izmantojot SMS, jūs piekrītat saņemt automatizētus mārketinga ziņojumus, tostarp atgādinājumus par iepirkumu grozu, uz norādīto tālruņa numuru. Piekrīšana nav pirkuma priekšnoteikums. Atbildiet STOP, lai atteiktos no saņemšanas. Atbildiet HELP, lai saņemtu palīdzību. Ziņojumu biežums var atšķirties. Var tikt piemēroti ziņojumu un datu tarifi. Apskatiet mūsu %{privacy_policy_link} un mūsu %{terms_of_service_link}.",
+            "description_transactional_html": "Jūs varat saņemt īsziņas saistībā ar pasūtījuma apstiprinājumiem un piegādes atjauninājumiem. Atbildiet ar STOP, lai atteiktos no saņemšanas. Atbildiet ar HELP, lai saņemtu palīdzību. Ziņojumu biežums var atšķirties. Var tikt piemēroti ziņojumu un datu tarifi. Apskatiet mūsu %{privacy_policy_modal_link} un mūsu %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilais tālruņa numurs",
+          "get_offers_by_text": "Saņemt piedāvājumus pa īsziņu"
+        },
+        "post_accept_marketing_checkbox_label": "Jūs esat reģistrējies, lai saņemtu ziņu un piedāvājumu e-pastus",
+        "pending_accept_marketing_checkbox_label": "Pārbaudi savu e-pastu, lai apstiprinātu savu pieteikšanos jaunumiem un piedāvājumiem",
+        "accept_shop_pay_marketing_checkbox_label": "Pierakstīties saņemt ziņas un piedāvājumus no šīs veikala",
+        "disclaimer": {
+          "privacy_policy": "Privātuma politika",
+          "terms_of_service": "Pakalpojuma noteikumi"
         }
+      },
+      "shop_policies": {
+        "refund_policy": "Atmaksas politika",
+        "privacy_policy": "Privātuma politika",
+        "terms_of_service": "Vispārīgie noteikumi",
+        "legal_notice": "Juridiskā paziņojuma teksts",
+        "shipping_policy": "Sūtīšana",
+        "terms_of_sale": "Pārdošanas noteikumi",
+        "subscription_policy": "Atteikumi",
+        "purchase_options_policy": "Iepirkšanās iespēju politika",
+        "contact_information": "Sazināties",
+        "purchase_options_cancellation_policy": "Atteikumi",
+        "cookie_preferences": "Sīkdatnes",
+        "policy_label": "Apvainojums",
+        "policies_label": "Apvainojums",
+        "select_policy_label": "Izvēlēties politiku",
+        "terms_and_policies": "Nosacījumi un politika"
+      },
+      "notifications": {
+        "title": "Ziņojums"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Summa, kas jāmaksā par pasūtījumu %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Pievienots",
+            "other": "%{count} pievienots"
+          },
+          "removed": "Dzēsts",
+          "subtracted": "%{count} izdzēsts",
+          "returned": "%{count} atgriezts",
+          "return_line_item_removed": "%{count} izņemts no atgriešanas"
+        },
+        "additional_payment_requested": "Maksājums par %{total_outstanding} ir nepieciešams",
+        "checkout_review_and_pay": "Tava pasūtījuma %{order_name} statuss ir atjaunināts. Apskati šīs izmaiņas un pēc tam samaksā, lai apstiprinātu savu pasūtījumu.",
+        "order_updated_on": "Jūsu pasūtījums ir atjaunināts %{last_edited_at}.",
+        "order_review_and_pay": "Tava pasūtījuma informācija ir atjaunināta. Pārbaudi un apmaksā, lai apstiprinātu savu pasūtījumu.",
+        "pay_now": "Tagad maksāt"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Jūsu kredītkartai tiks iekasēta summa %{amount}",
+        "payment_total_label": "Kopējie maksājumi",
+        "change_currency_link": "Mainīt uz %{currency_name}",
+        "card_provider_fx_charges_warning": "Jūsu kartes izdevējs var iekasēt maksu par %{currency_code} darījumiem.",
+        "currency_not_supported_by_shop": "Valūta, kuru izvēlējāties, vairs nav pieejama. Visas cenas tagad ir %{currency_code}."
+      },
+      "tips": {
+        "title": "Pievienot dzeramnaudu",
+        "description": "Parādi, ka atbalsti %{shop_name} komandu",
+        "presets_description": "Izvēlieties dzeramnaudas procentu",
+        "custom_label": "Pielāgota dzeramnauda",
+        "add_tip": "Pievienot dzeramnaudu",
+        "update_tip": "Atjaunināt rēķinu",
+        "message": "Paldies, mēs to patiesi novērtējam.",
+        "no_tip_label": "Nav",
+        "not_available_with_spi": "Nav pieejams ar Shop Pay termiņmaksājumiem"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "pirkt %{product_name}",
+          "one": "Pirkt %{product_name} un vēl %{count} citu preci",
+          "other": "Pirkt %{product_name} un vēl %{count} citus priekšmetus"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Papildu informācija",
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Personīgā muitas kods",
+          "shipping_credential_cn": "Iedzīvotāja ID numurs",
+          "tax_credential_it": "Nodokļu kods (pēc izvēles)",
+          "tax_email_it": "PEC (pēc izvēles)",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "Apliecība/ PVN",
+          "tax_credential_type_co": "Veida apliecība",
+          "shipping_credential_co": "Apliecība/ PVN",
+          "shipping_credential_type_co": "Veida apliecība",
+          "tax_credential_cr": "Identifikācijas numurs/RUT",
+          "shipping_credential_cr": "Identifikācijas numurs/RUT",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/PNN",
+          "shipping_credential_gt": "NIT/PNN",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
+          "tax_credential_my": "Nodokļu maksātāja reģistrācijas numurs",
+          "shipping_credential_my": "Nodokļu maksātāja reģistrācijas numurs",
+          "shipping_credential_mx": "RFC",
+          "tax_credential_mx": "RFC",
+          "tax_credential_type_mx": "Nodokļu režīms",
+          "tax_credential_use_mx": "CFDI lietošana",
+          "tax_credential_py": "CI/RUC/IVA",
+          "shipping_credential_py": "CI/RUC/IVA",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "NIF/IVA",
+          "shipping_credential_pt": "NIF/IVA",
+          "tax_credential_es": "DNI/NIF",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Nacionālais ID numurs/ pievienotās vērtības nodoklis",
+          "tax_credential_tr": "Turcijas Republikas personas kods/ PVN",
+          "shipping_credential_tr": "Turcijas Republikas personas kods/ PVN"
+        }
+      },
+      "post_purchase": {
+        "page_title": "Pēc pirkuma",
+        "title": "Pēc pirkuma",
+        "escape_confirmation": "Jūs esat samaksājis par savu pasūtījumu.",
+        "escape_action": "Skatīt pasūtījuma apstiprinājumu ›"
       }
     }
   },

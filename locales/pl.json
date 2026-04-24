@@ -1429,7 +1429,79 @@
         "multibanco_label": "Multibank",
         "receiver_payment_experience_hint": "Po złożeniu zamówienia otrzymasz dane do płatności. Dokonaj płatności w ciągu %{due_days} dni w Multibanco lub online.",
         "pending_payment": {
-          "due_notice": "Twoja płatność w wysokości %{amount_due} jest należna do %{due_date}."
+          "due_notice": "Twoja płatność w wysokości %{amount_due} jest należna do %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Dokonaj płatności w Multibanco lub online, korzystając z poniższych danych. %{contact_us} w razie pytań lub chęci aktualizacji danych do płatności.",
+            "reference": "Odniesienie",
+            "buyer_action_info": "Twoja płatność w wysokości %{amount_due} jest zaległa."
+          }
+        },
+        "purchase_options_agreement_label": "Jeden lub więcej artykułów w Twoim koszyku to zakup odroczony, subskrypcja lub zakup cykliczny. Kontynuując płatność, zgadzasz się, że Twoja metoda płatności będzie automatycznie obciążana kwotą i z częstotliwością podaną na tej stronie, aż do wygaśnięcia lub anulowania. Na wszystkie anulacje ma zastosowanie %{cancellation_policy_label}.",
+        "update_payment_method": "Aktualizuj metodę płatności",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Całkowita kwota może nie obejmować podatków, kosztów wysyłki, odroczonych opłat oraz niektórych rabatów. Przejdź do kasy, aby zobaczyć kwotę należną dzisiaj."
+        },
+        "purchase_options_agreement_label_html": "Rozumiem, że jeden lub więcej artykułów w moim koszyku to zakup odroczony, subskrypcja lub zakup cykliczny. Kontynuując, zgadzam się z\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">polityką anulowania</a>\ni wyrażam zgodę na obciążenie mojej metody płatności za ceny, częstotliwość i daty podane na tej stronie, aż do momentu realizacji mojego\nzamówienia lub anulowania, jeśli jest to dozwolone.",
+        "payment_method_saved": "Metoda płatności zapisana",
+        "card_vaulted_company_location": "Mapa zapisana dla tej lokalizacji",
+        "order_covered_by_store_credit_notice": "Zamówienie zostanie opłacone za pomocą twojego salda sklepowego.",
+        "order_covered_by_redeemables_notice": "Zamówienie zostało opłacone.",
+        "store_credit": {
+          "apply_label": "Zastosuj saldo sklepu",
+          "add_label": "Dodaj saldo sklepu",
+          "buying_gift_card": "Za pomocą salda sklepowego nie można kupić bonu podarunkowego",
+          "no_fixed_selling_plans": "Nie możesz użyć kredytu sklepowego w połączeniu z odroczonymi opcjami zakupu"
+        },
+        "clear": "Wiedza",
+        "billing_must_match_shipping_notice": "Adres rozliczeniowy twojej metody płatności musi zgadzać się z adresem dostawy.",
+        "same_billing_address_checkbox_label": "Adres dostawy i adres do faktury są takie same",
+        "location_billing_address_label": "Adres do faktury lokalizacji",
+        "fact_billing_address_label": "Adres do faktury",
+        "location_shipping_address_label": "Adres dostawy miejsca",
+        "no_working_method_error": "Ten sklep obecnie nie może przyjmować płatności. Odśwież stronę lub wróć później.",
+        "shipping_rate_updated": "Dostępne metody wysyłki zostały zaktualizowane. Potwierdź swój wybór przed dokonaniem płatności.",
+        "billing_address_invalid_phone_no_card": "Zaktualizuj numer telefonu przy adresie rozliczeniowym, aby kontynuować.",
+        "preview_not_available": {
+          "title": "Przykład niedostępny",
+          "content": "Nie martw się, ten szybki kasjer działa dla twoich klientów.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Wprowadź prawidłową datę wydania",
+              "issue_number": "Wprowadź prawidłowy numer wydania"
+            },
+            "invalid": {
+              "verification_value": "Wprowadź prawidłowy kod CVV/CVC lub kod bezpieczeństwa"
+            }
+          }
+        },
+        "simulated_checkout": "Przykład pojawi się wkrótce",
+        "vaulting_agreement_label": "Zapisz moje dane płatności w %{company} dla szybszego finalizowania zamówienia.",
+        "business_customer_vaulting_payment_label": "Zapisz tę metodę płatności przy kasie i upoważnij %{company} do pobierania środków z tej karty na przyszłe zakupy w tym miejscu. Wszyscy kontaktowi przypisani do tego miejsca mogą korzystać z tej metody płatności.",
+        "purchase_options_and_vaulting_agreement_label": "Jeden lub więcej produktów w koszyku to zakup odroczony lub subskrypcyjny. Kontynuując płatność, zgadzasz się, że będziemy automatycznie pobierać kwoty za zakupy za pomocą Twojej metody płatności według ceny i częstotliwości podanych na tej stronie, aż do wygaśnięcia lub anulowania przez Ciebie. W przypadku wszystkich anulowań obowiązuje %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "zasady anulowania",
+        "saved_credit_card": "Twoja zapisana karta kredytowa",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Wyświetl wszystkie zapisane mapy"
+        },
+        "expired_cards_info": {
+          "one": "Jest %{count} wygasła karta. Możesz ją przeglądać i edytować w swoim koncie.",
+          "other": "Jest %{count} wygasłych kart. Możesz je przeglądać i edytować w swoim koncie."
+        },
+        "local_payment_method_receiver_notice": "Po złożeniu zamówienia otrzymasz dane do płatności. Dokonaj płatności w ciągu {{dueDays}} dni w bankomacie lub online.",
+        "order_edit_banner_title": "Wymagana jest płatność w wysokości {{amount_owed}}",
+        "order_edit_banner_subtitle": "Twoje zamówienie {{order_number}} zostało zaktualizowane. Sprawdź te zmiany i zapłać, aby potwierdzić zamówienie.",
+        "order_edit_banner_multiple_items_added": "dodano {{amount}}",
+        "order_edit_banner_multiple_items_removed": "{{amount}} usunięto",
+        "gift_card_wrapper": {
+          "heading": "Bon podarunkowy",
+          "apply_gift_card_label": "Zastosuj bon podarunkowy",
+          "payment_tag": "Bon podarunkowy",
+          "apply_another_gift_card_label": "Zastosuj inny bon podarunkowy",
+          "gift_card_label": "Bon podarunkowy %{identifier}",
+          "add_label": "Dodaj bon podarunkowy"
         }
       }
     }
