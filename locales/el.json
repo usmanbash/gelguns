@@ -3330,7 +3330,85 @@
         "empty_state_order_source_description": "Εδώ εμφανίζονται μόνο οι παραγγελίες που έγιναν μέσω του {{email}}.",
         "empty_state_subtitle": "Μεταβείτε στο κατάστημα για να κάνετε μια παραγγελία.",
         "empty_state_title": "Δεν υπάρχουν παραγγελίες ακόμα",
-        "estimated_delivery": "Αναμένεται στις {{date}}"
+        "estimated_delivery": "Αναμένεται στις {{date}}",
+        "items": {
+          "one": "{{count}} άρθρα",
+          "other": "{{count}} άρθρα"
+        },
+        "pagination": {
+          "nav_accessibility_label": "Κουμπιά πλοήγησης για παραγγελίες"
+        },
+        "sort": {
+          "date": {
+            "newest": "Από τα νεότερα στα παλαιότερα",
+            "oldest": "Από το παλαιότερο στο νεότερο"
+          },
+          "location": {
+            "descending": "Τοποθεσία (Ζ-Α)"
+          },
+          "order_number": {
+            "ascending": "Αριθμός παραγγελίας (από το μικρότερο στο μεγαλύτερο)",
+            "descending": "Αριθμός παραγγελίας (από το μεγαλύτερο στο μικρότερο)"
+          },
+          "order_total": {
+            "ascending": "Συνολική παραγγελία (από το χαμηλότερο στο υψηλότερο)",
+            "descending": "Συνολική παραγγελία (από το μεγαλύτερο στο μικρότερο)"
+          }
+        },
+        "one_images_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}}",
+        "two_images_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Αφαίρεσε τα φίλτρα ή προσαρμόσέ τα για να δεις τις παραγγελίες σου",
+        "no_filtered_results_title": "Δεν βρέθηκαν φιλτραρισμένα αποτελέσματα",
+        "estimated_shortform": "Εκτιμήθηκε στις {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Αργά",
+            "due": "Οφειλόμενο στις {{date}}",
+            "due_today": "Οφείλεται σήμερα",
+            "due_without_date": "Οφειλόμενο",
+            "due_on_fulfillment": "Πληρωμή κατά την εκπλήρωση παραγγελίας",
+            "pay_to_confirm": "Πληρώστε για να επιβεβαιώσετε",
+            "payment_not_due": "Δεν οφείλεται ακόμα",
+            "paid": "Πληρωμένο"
+          },
+          "gallery_view": {
+            "overdue": "Η πληρωμή είναι καθυστερημένη",
+            "due": "Πληρωμή οφειλόμενη στις {{date}}",
+            "due_today": "Η πληρωμή οφείλεται σήμερα",
+            "due_without_date": "Οφειλόμενη πληρωμή",
+            "due_on_fulfillment": "Πληρωμή οφείλεται κατά την εκπλήρωση",
+            "pay_to_confirm": "Πληρώστε για να επιβεβαιώσετε",
+            "payment_not_due": "Η πληρωμή δεν οφείλεται ακόμα"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Επί του παρόντος ταξινομημένο κατά: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} ποσότητα {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} ποσότητα {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} ποσότητα {{lineItemQuantity4}}, {{lineItemName5}} ποσότητα {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} ποσότητα {{lineItemQuantity4}}, {{lineItemName5}} ποσότητα {{lineItemQuantity5}}, {{lineItemName6}} ποσότητα {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Η παραγγελία περιέχει {{lineItemName1}} ποσότητα {{lineItemQuantity1}}, {{lineItemName2}} ποσότητα {{lineItemQuantity2}}, {{lineItemName3}} ποσότητα {{lineItemQuantity3}}, {{lineItemName4}} ποσότητα {{lineItemQuantity4}}, {{lineItemName5}} ποσότητα {{lineItemQuantity5}}, {{lineItemName6}} ποσότητα {{lineItemQuantity6}} και περισσότερα",
+          "view_order_details": "Προβολή στοιχείων παραγγελίας"
+        },
+        "show_order_actions_accessibility_label": "Εμφάνιση προσφορών παραγγελίας για την παραγγελία {{name}}",
+        "empty_state_title_for_pending_orders": "Δεν υπάρχουν παραγγελίες σε επεξεργασία",
+        "more_than_four_products_accessibility_label": "Η παραγγελία περιλαμβάνει {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} και ακόμα {{numberOfAdditionalProducts}} προϊόντα",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} προϊόντα",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Προβολή παραγγελίας για λεπτομέρειες προϊόντος",
+            "estimated_delivery": "Αναμένεται στις {{date}}",
+            "last_updated": "Τελευταία ενημέρωση στις {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Εκτιμώμενη παράδοση στις {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Η παραγγελία περιλαμβάνει {{lineItemName1}}, {{lineItemName2}}, καθώς και άλλα {{numberOfAdditionalProducts}} προϊόντα"
       }
     }
   }
