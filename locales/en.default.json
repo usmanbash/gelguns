@@ -2342,8 +2342,92 @@
           "not_available": "This gift voucher is no longer available",
           "invalid": "Enter a valid gift voucher",
           "generic": "The gift voucher cannot be added to the checkout",
-          "throttle_limit_exceeded": "You have reached the maximum number of attempts. Please try again later."
+          "throttle_limit_exceeded": "You have reached the maximum number of attempts. Please try again later.",
+          "no_longer_available": "This gift voucher can no longer be used at this checkout"
         }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "There was a problem loading Shop Pay",
+          "checkout_has_expired": "Your checkout session has expired. Please close this window and try checking out again at {{shopName}}."
+        },
+        "return_to_store": "Back to {{shopName}}",
+        "return_to_store_simple": "Back to shop",
+        "title": "Shop Pay checkout"
+      },
+      "company_location": {
+        "location_title": "Business location",
+        "location_rollup_accessibility_label": "Options for business location"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "The price of the gift voucher must be greater than 0.",
+            "subtotal_limit_reached": "The maximum value for order lines has been reached.",
+            "gift_card_price_must_not_exceed_limit": "The price of the gift card must not exceed %{gift_card_limit}.",
+            "signature_mismatch": "Incorrect signature goods for rule %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Not copied"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Complete your purchase with your {{paymentMethod}} code",
+        "timer_message": "You have {{timeLeft}} left to pay",
+        "qr_code": {
+          "instructions": "Complete your purchase with your {{paymentMethod}} code"
+        },
+        "external": {
+          "instructions": "Confirm the payment on your app to complete this purchase"
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "There was a problem processing your order. Please try again in a few minutes."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "The goods instruction %{position} %{name} contains an empty stable ID.",
+        "invalid_stable_id_target": "The goods instruction %{position} %{name} refers to stable-ID %{stable_id}, but that stable-ID is not found in the goods lines.",
+        "duplicate_variant_id": "The goods instruction %{position} %{name} contains a duplicate variant ID %{variant_id}.",
+        "invalid_variant_id_target": "The goods instruction %{name} refers to variant ID %{variant_id}, but that variant is not present in the goods lines.",
+        "invalid_price_override_target": "The instruction to override the price of the goods for order line %{stable_id} is invalid because it is a bundle component.",
+        "discount_not_supported": "The instruction for merchants on applying goods discounts does not support this type of discount."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "This product is not available for shipping to %{location_name}.",
+          "some_products_other": "These products are not available for shipping to %{location_name}.",
+          "all_products_one": "The product in your shopping cart is not available for shipping to %{location_name}.",
+          "all_products_other": "The products in your shopping cart are not available for shipping to %{location_name}."
+        },
+        "cart_updated": "Your shopping cart has been updated.",
+        "change_address_only": "Change the delivery address to continue.",
+        "change_address_or_remove": "Change the delivery address or %{remove_action}.",
+        "empty_cart_action": "empty the shopping cart and return to the shop",
+        "remove_items_action": {
+          "one": "remove the unavailable item",
+          "other": "remove the unavailable items"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "You are no longer authorized to place B2B orders. %{logout_url} to place a personal order instead.",
+        "log_out_link_text": "Log out",
+        "lost_permissions_subtitle": "You are no longer authorized to place B2B orders. Log out to place a personal order.",
+        "lost_permissions_title": "No location permits"
+      },
+      "units": {
+        "milligram": "milligram",
+        "kilogram": "kilogram",
+        "milliliter": "milliliter",
+        "liter": "I",
+        "cubic_meter": "cubic meter",
+        "centimeter": "centimeter",
+        "square_meter": "square meters",
+        "ounce": "ounce",
+        "pound": "pound",
+        "fluid_ounce": "fluid oz",
+        "gallon": "girl",
+        "foot": "foot"
       }
     },
     "sentence": {

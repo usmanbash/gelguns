@@ -2081,6 +2081,94 @@
             "terms_of_service": "Condiciones del servicio",
             "description_html": "Al registrarte por SMS, aceptas recibir mensajes de marketing automatizados, incluidos recordatorios de carrito, en el número de teléfono proporcionado. El consentimiento no es un requisito para la compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse cargos por mensajes y datos. Consulta nuestra %{privacy_policy_link} y nuestros %{terms_of_service_link}.",
             "description_transactional_html": "Es posible que recibas mensajes SMS relacionados con confirmaciones de pedidos y actualizaciones de envío. Responde con STOP para darte de baja. Responde con HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse cargos por mensajes y datos. Consulta nuestro %{privacy_policy_modal_link} y nuestros %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Recibir ofertas por mensaje de texto"
+        },
+        "post_accept_marketing_checkbox_label": "Te has suscrito para recibir correos electrónicos con noticias y ofertas",
+        "pending_accept_marketing_checkbox_label": "Revisa tu correo electrónico para confirmar tu suscripción a noticias y ofertas",
+        "disclaimer": {
+          "terms_of_service": "Condiciones del servicio"
+        }
+      },
+      "shop_policies": {
+        "terms_of_service": "Condiciones generales",
+        "cookie_preferences": "Galletas",
+        "policies_label": "Política",
+        "select_policy_label": "Seleccionar una política",
+        "terms_and_policies": "Términos y condiciones"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Cantidad a pagar por el pedido %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Añadido",
+            "other": "%{count} añadido"
+          },
+          "removed": "Eliminado",
+          "subtracted": "%{count} eliminado",
+          "returned": "%{count} devuelto",
+          "return_line_item_removed": "%{count} eliminado de la devolución"
+        },
+        "additional_payment_requested": "Pago de %{total_outstanding} es requerido",
+        "checkout_review_and_pay": "Tu pedido %{order_name} ha sido actualizado. Revisa estos cambios y luego paga para confirmar tu pedido.",
+        "order_updated_on": "Tu pedido fue actualizado el %{last_edited_at}.",
+        "order_review_and_pay": "Tu pedido ha sido actualizado. Revisa y paga para confirmar tu pedido."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Tu tarjeta de crédito será cargada con %{amount}",
+        "payment_total_label": "Pagos totales",
+        "change_currency_link": "Cambiar a %{currency_name}",
+        "card_provider_fx_charges_warning": "Tu emisor de tarjeta puede cobrar comisiones por transacciones en %{currency_code}.",
+        "currency_not_supported_by_shop": "La moneda que seleccionaste ya no está disponible. Todos los precios ahora están en %{currency_code}."
+      },
+      "tips": {
+        "description": "Demuestra que apoyas al equipo de %{shop_name}",
+        "presets_description": "Elige un porcentaje de propina",
+        "message": "Gracias, realmente lo apreciamos.",
+        "not_available_with_spi": "No disponible con pagos a plazos de Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "other": "Comprar %{product_name} y %{count} otros artículos más"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Código aduanero personal",
+          "shipping_credential_cn": "Número de identificación del residente",
+          "tax_credential_it": "Código Fiscal (opcional)",
+          "tax_email_it": "PEC (opcional)",
+          "tax_credential_type_co": "Tipo de Documento",
+          "shipping_credential_type_co": "Tipo de Documento",
+          "tax_credential_gt": "NIF/IVA",
+          "shipping_credential_gt": "NIF/IVA",
+          "tax_credential_my": "Número de Identificación Fiscal/Registro",
+          "shipping_credential_my": "Número de Identificación Fiscal/Registro",
+          "shipping_credential_tw": "Número nacional de identificación/IVA",
+          "tax_credential_tr": "Número de Identidad de la República de Turquía/IVA",
+          "shipping_credential_tr": "Número de Identidad de la República de Turquía/IVA"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Has pagado por tu pedido.",
+        "components": {
+          "processing": "Procesando..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Tu carrito ha sido actualizado según tu país para el envío.",
+        "cart_and_currency_updated_based_on_country": "Tu carrito y moneda se han ajustado al país de envío."
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Primeras %{count} pagos por %{total_price} cada uno"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Primer pago %{total_price_with_discount} luego %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": ", luego %{count} pagos, cada uno de %{total_price}"
           }
         }
       }
