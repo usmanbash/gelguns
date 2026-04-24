@@ -1890,7 +1890,71 @@
         "purchase_order_number_title": "Numero d'ordine %{purchase_order_number}",
         "thank_you_ready_for_picked_up": "L'ordine è stato ritirato a %{address}.",
         "order_updates_subscribe_to_email_notifications_failed": "Non possiamo salvare questo indirizzo e-mail per gli aggiornamenti. Riprova oppure usa un altro indirizzo e-mail.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'indirizzo email che hai inserito esiste già."
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'indirizzo email che hai inserito esiste già.",
+        "subscriptions_management": {
+          "description": "Procedi al tuo account per visualizzare e gestire i tuoi abbonamenti.",
+          "button_label": "Gestisci il tuo abbonamento"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Tra qualche minuto riceverai un messaggio con il tuo buono regalo.",
+          "other": "Tra qualche minuto riceverai un messaggio con i tuoi buoni regalo."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Tra qualche minuto riceverai un messaggio con il tuo buono regalo.",
+          "other": "Tra qualche minuto riceverai un messaggio con i tuoi buoni regalo."
+        },
+        "gift_card_email_title": {
+          "one": "Il buono regalo è stato inviato via e-mail",
+          "other": "I buoni regalo sono stati inviati via e-mail"
+        },
+        "gift_card_text_title": {
+          "one": "Il buono regalo è stato inviato via sms",
+          "other": "I buoni regalo sono stati inviati tramite sms"
+        },
+        "resend_gift_cards_by_email": "Invia nuovamente l'e-mail",
+        "resend_gift_cards_by_text": "Invia nuovamente l'SMS",
+        "gift_card_resent_confirmation": {
+          "one": "La carta regalo è stata inviata nuovamente."
+        },
+        "gift_card_resend_failure": {
+          "one": "Si è verificato un problema durante il reinvio del tuo buono regalo. Riprova oppure contattaci.",
+          "other": "Si è verificato un problema durante il reinvio dei tuoi buoni regalo. Riprova oppure contattaci."
+        },
+        "failed_pending_payment_page_title": "C'è un problema con il tuo pagamento",
+        "thank_you_title_payments_app_pending_default": "Il pagamento è in corso di elaborazione",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Abbiamo ricevuto il tuo ordine",
+        "thank_you_title_payments_app_failed_pending_payment": "Il tuo pagamento non può essere elaborato",
+        "thank_you_payments_app_failed_pending_payment": "Il tuo ordine non è ancora stato pagato. Torna al carrello per controllare e pagare il tuo ordine.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Riceverai presto un'email di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Riceverai presto un'email di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Riceverai presto un messaggio di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Al completamento del pagamento riceverai un messaggio di conferma. Puoi seguire il tuo ordine tramite l'app Negozio.",
+        "order_status_payments_app_failed_pending_payment": "Il tuo ordine non è ancora stato pagato. Torna al carrello per controllare e pagare il tuo ordine.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "thank_you_confirmed_order_with_missing_payment": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "thank_you_confirmed_order_with_draft_payment": "Ti informeremo se avremo bisogno di ulteriori informazioni o quando l'ordine sarà confermato.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Ti informeremo se avremo bisogno di ulteriori informazioni o quando l'ordine sarà confermato.",
+        "thank_you_payments_app_failed_pending_payment_payment": "L'ordine non è ancora stato pagato. Torna al carrello per controllare e pagare l'ordine.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "L'ordine non è ancora stato pagato. Torna al carrello per controllare e pagare l'ordine.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Riceverai presto un'email di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Riceverai presto un'email di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Riceverai presto un'email di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Riceverai presto un'email di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Riceverai presto un messaggio di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Riceverai presto un messaggio di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Contattaci via e-mail o telefono per la conferma dell'ordine.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Al completamento del pagamento riceverai una mail di conferma. Puoi seguire l'ordine tramite l'app Negozio.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Al completamento del pagamento riceverai un messaggio di conferma. Puoi seguire l'ordine tramite l'app Negozio."
       }
     }
   }
