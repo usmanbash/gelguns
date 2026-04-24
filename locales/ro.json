@@ -1694,7 +1694,67 @@
         "processing_error": "A apărut o problemă la procesarea plății tale. Încearcă din nou sau folosește o altă metodă de plată.",
         "call_issuer": "Cardul tău a fost refuzat. Folosește o altă metodă de plată sau contactează banca ta pentru mai multe informații.",
         "test_mode_live_card": "Acest magazin nu poate accepta comenzi reale sau procesa plăți reale.",
-        "transient_error": "A apărut o problemă la procesarea plății tale. Reîncarcă această pagină sau verifică conexiunea ta la internet."
+        "transient_error": "A apărut o problemă la procesarea plății tale. Reîncarcă această pagină sau verifică conexiunea ta la internet.",
+        "missing_shipping_address": "Plata ta nu a putut fi procesată deoarece lipsește adresa de livrare. Adaugă o adresă de livrare și încearcă din nou.",
+        "invalid_shipping_address": "Plata ta nu a putut fi procesată deoarece nu am putut găsi adresa ta de livrare. Verifică adresa de livrare și încearcă din nou.",
+        "successful_offsite_with_gift_card_error": "A apărut o problemă la procesarea plății cu bonul cadou. Încearcă din nou sau folosește o altă metodă de plată.",
+        "development_store_order_limit_reached": "Ai atins numărul maxim de comenzi în magazinul de dezvoltare cu acest procesator de plăți. Folosește o poartă de plată de test pentru a plasa o altă comandă. Aici găsești mai multe informații despre %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Folosește o poartă de plată de test pentru a plasa o comandă de test. Aici găsești mai multe informații despre %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testarea comenzilor în magazinele de dezvoltare",
+        "method_not_available": "Metoda de plată solicitată nu este disponibilă. Alege o altă metodă de plată și încearcă din nou.",
+        "selected_payment_method": "A apărut o problemă cu metoda de plată aleasă și nu au fost percepute taxe. Încercați din nou sau folosiți o altă metodă de plată.",
+        "payment_method_billing_address": "Există o problemă cu adresa de facturare a metodei de plată selectate. Verifică adresa și încearcă din nou sau folosește o altă metodă de plată.",
+        "processing_error_checkout_as_guest": "A apărut o problemă la procesarea plății. Vă rugăm să încercați din nou cu o altă metodă de plată sau {{checkout_as_guest_link}}.",
+        "amount_too_small": "Suma minimă de plată trebuie să fie mai mare de 0,50 USD. Vă rugăm să încercați din nou cu o sumă mai mare.",
+        "payment_above_threshold": "Suma de plată este mai mare decât limita valutară pentru această regiune. Reduceți totalul și încercați din nou",
+        "risky": "A apărut o problemă la procesarea plății. Încercați din nou sau folosiți o altă metodă de plată.",
+        "expired_buyer_action": "Timp de așteptare pentru metoda de plată. Încearcă din nou.",
+        "three_d_secure_failed_payment_method": "Cardul tău nu poate fi verificat. Încearcă din nou sau adaugă un alt card.",
+        "name_mismatch": "Verifică datele cardului tău. Numele de pe card și adresa de facturare nu corespund.",
+        "payment_method_not_applicable": "Această metodă de plată nu este valabilă. Folosiți o altă metodă de plată.",
+        "shop_pay_wallet_not_available": "Shop Pay nu este disponibil pentru această plată.",
+        "market_manager_blocks_wallet_payments": "Această metodă de plată nu este acceptată în țara ta.",
+        "paypal_over_capture": "Suma totală a comenzii tale a fost actualizată. Plătește cu {{walletName}} pentru a finaliza comanda ta.",
+        "test_mode_enabled_only_test_cards": "Modul de testare este activat, se pot adăuga doar carduri de credit de test.",
+        "captcha_required": "Introduceți datele de plată și rezolvați captcha pentru a finaliza cumpărăturile.",
+        "captcha_required_without_payment_information": "Rezolvă captcha pentru a-ți finaliza cumpărăturile.",
+        "shipping_company_required_error": "{{shopName}} necesită un nume de firmă pentru adresa de livrare.",
+        "payment_credential_delegation_error": "A apărut o problemă la procesarea plății tale. Alege o metodă de plată nouă.",
+        "cancelled_payment": "Plata ta a fost anulată. Încearcă din nou sau folosește o altă metodă de plată.",
+        "currency": {
+          "no_longer_supported": "Valuta magazinului nu mai este acceptată."
+        },
+        "installments_payment_method_incompatible": "Metoda de plată selectată nu poate fi utilizată pentru plăți în rate. Vă rugăm să alegeți o altă metodă de plată."
+      },
+      "shipping_errors": {
+        "shipping_method": "Opțiunile de trimitere pentru comanda ta au fost schimbate. Verifică selecția ta.",
+        "shipping_method_not_available": "Coșul tău de cumpărături a fost actualizat, iar articolele pe care le-ai adăugat nu pot fi trimise la adresa ta. Elimină articolele pentru a finaliza comanda.",
+        "shipping_method_not_available_generic": {
+          "one": "Comanda dumneavoastră nu poate fi trimisă la adresa selectată. Verificați dacă adresa este corectă și încercați din nou, sau alegeți o altă adresă.",
+          "other": "Unele articole din coșul tău nu pot fi trimise la adresa introdusă. Verifică dacă adresa este corectă și încearcă din nou sau alege o altă adresă."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Articolul pe care l-ai adăugat nu poate fi trimis la locația ta. Elimină acest articol pentru a putea plăti sau contactează magazinul.",
+          "other": "Unul sau mai multe articole pe care le-ai adăugat nu pot fi trimise la locația ta. Elimină articolele pentru a plăti sau contactează magazinul."
+        },
+        "payment_method_not_supported": "Nu poți folosi această metodă de plată pentru %{country}. Folosește o altă metodă de plată pentru a trimite în această țară.",
+        "empty_state": "Introduceți adresa de livrare pentru a vedea metodele de expediere disponibile.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Există articole în coșul de cumpărături care nu îndeplinesc cerințele de preț sau greutate pentru a fi eligibile pentru expediere. Actualizați coșul și încercați din nou.",
+        "title": "Expediere indisponibilă",
+        "invalid_selected_address": "Adresa de livrare selectată este nevalidă",
+        "invalid_selected_address_with_update_link": "Adresa de livrare selectată este invalidă. %{update_address_link} sau selectați o altă adresă.",
+        "unavailable_selected_address": "Expedierea nu este disponibilă pentru adresa selectată",
+        "unavailable_selected_address_for_region": "Livrarea nu este disponibilă pentru {{region}}. Selectați o altă adresă pentru a continua",
+        "unavailable_addresses_only_countries": "Comanda ta poate fi trimisă doar către {{countriesList}}. Adaugă o adresă nouă pentru a continua.",
+        "unavailable_address_country": "Expedierea nu este posibilă în țara pe care ai selectat-o. Te rugăm să furnizezi o altă adresă pentru a continua."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Plată rapidă",
+        "or": "ÎNCHIS",
+        "hide_more_options": "Ascunde mai multe opțiuni",
+        "or_pay_another_way": "Sau plătiți în alt mod",
+        "or_check_out_another_way": "Sau plătește în alt mod",
+        "or_pay_with_credit_card": "Sau plătește cu cardul de credit"
       }
     }
   }
