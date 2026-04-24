@@ -3058,9 +3058,79 @@
             "link_text": "Prijavi se sada"
           },
           "editions": {
-            "header": "Pogledajte Shopify izdanja"
+            "header": "Pogledajte Shopify izdanja",
+            "caption": "Postoji više od 100 ažuriranja proizvoda koja ti omogućuju da budeš produktivniji, kreativniji i učinkovitiji u poslovnom svijetu nego što si ikada smatrao mogućim.",
+            "link_text": "Istražite najnovija izdanja"
+          },
+          "store_owner": {
+            "caption": "Ne možete pristupiti svojoj trgovini? Isprobajte funkciju %{forgot_your_store_link}. Ako želite ponovno aktivirati svoju trgovinu, kontaktirajte %{shopify_support_link}.",
+            "shopify_support_link_text": "Podrška za Shopify"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Pogreška pri resetiranju lozinke",
+        "no_account_found": "Nije pronađen račun s tom adresom e-pošte.",
+        "invalid_credentials": "Neispravna e-pošta ili lozinka.",
+        "denylisted_reset_password": "Račun se ne može otvoriti jer je trenutna lozinka nesigurna. Dobit ćete e-poštu za ponovno postavljanje lozinke.",
+        "signup_disabled": "Izrada korisničkih računa je onemogućena.",
+        "unsubscribe_error": "Pogreška pri odjavi"
+      },
+      "address": {
+        "updated": "Adresa je ažurirana.",
+        "created": "Adresa je kreirana",
+        "error_creating": "Pogreška pri stvaranju adrese.",
+        "deleted": "Adresa uklonjena",
+        "error_deleting": "Pogreška pri uklanjanju adrese."
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Provjereno",
+          "pending": "U obradi",
+          "voided": "Isteklo",
+          "partially_refunded": "Djelomično vraćeno",
+          "refunded": "Povraćeno"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Završeno",
+          "complete": "Kompletan",
+          "unfulfilled": "Otvoreno",
+          "restocked": "Zaliha biljaka"
+        },
+        "transaction_status": {
+          "success": "Položeno",
+          "pending": "U obradi",
+          "failure": "Neuspjelo"
+        },
+        "cancel_reason": {
+          "declined": "Plaćanje odbijeno",
+          "inventory": "Artikli nisu dostupni",
+          "customer": "Kupac je promijenio/otkazao narudžbu",
+          "other": "Anders",
+          "staff": "Pogrešni zaposlenici"
+        },
+        "cash_on_delivery": "Povrat"
+      },
+      "cart": {
+        "only_n_items_available": "Možete dodati samo %{count} %{name} u svoju košaricu.",
+        "too_many_items_in_cart": "Ne možete dodati više %{name} u svoju košaricu.",
+        "all_items_in_cart": "Svi %{count} %{name} su u tvojoj košarici.",
+        "empty_update": "ne mogu ažurirati košaricu",
+        "missing_parameters": "nevažeći ID ili broj pravila",
+        "generic_error": "Pogrešna košarica",
+        "too_many_line_items_error": "Vaša košarica ne može sadržavati više od %{max} artikala.",
+        "stock_problems_html": "Jedan ili više artikala više nisu dostupni. Pripremili smo <a href='%{link}'>ažuriranu košaricu</a>.",
+        "items_changed": "Jedan ili više artikala su promijenjeni.",
+        "product_sold_out": "Proizvod '%{name}' je već rasprodan.",
+        "variant_not_found": "Ne mogu pronaći varijantu",
+        "variant_requires_selling_plan": "Varijantu je moguće kupiti samo uz prodajnu pretplatu.",
+        "shipping_address_invalid": "Došlo je do problema pri izračunu troškova dostave. Nastavite s plaćanjem kako biste odabrali troškove dostave prije nego što dovršite svoju narudžbu.",
+        "selling_plan_not_applicable": "Ne može se primijeniti prodajna pretplata na varijantu",
+        "selling_plan_not_available_for_company_locations": "Dostupne su samo jednokratne kupnje za B2B narudžbe.",
+        "digital_product_not_available_for_company_locations": "Ne možete dodati ovaj artikl u B2B narudžbu",
+        "less_than_minimum": "Ovaj artikal ima minimalno %{min}."
       }
     }
   }
