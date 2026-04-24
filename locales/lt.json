@@ -1070,7 +1070,85 @@
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> negali būti naudojamas kartu su jūsų esamomis nuolaidomis.",
         "maximum_discount_code_limit_reached": "Jūs pasiekėte maksimalų nuolaidų kodų skaičių. Ištrinkite esamą kodą, kad galėtumėte naudoti <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "order_total_label": "Bendra užsakymo suma",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> šiuo metu neveikia. Susisiekite su mumis, jei reikia pagalbos."
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> šiuo metu neveikia. Susisiekite su mumis, jei reikia pagalbos.",
+        "due_on_fulfillment": "Skola už įvykdymą",
+        "duties_label": "Muitai",
+        "duties_and_taxes_label": "Muitai ir mokesčiai",
+        "error_duties_tooltip": "Šis užsakymas bus išsiųstas iš kitos šalies, todėl pristatymo metu gali būti taikomi muito mokesčiai ir kitos mokesčių prievolės.",
+        "may_be_charged_on_delivery": "Gali būti taikomas pristatymo mokestis",
+        "total_updated_label_with_price": "Atnaujinta bendra kaina: %{totalPrice}",
+        "recurring_payments": "Pasikartojantys mokėjimai",
+        "recurring_total_multiple_label": "Ši užsakymas apima pasikartojančias išlaidas keliems prekėms.",
+        "deferred_total_due_date_label": "Iš viso skolinga {{date}}",
+        "full_price": "Viso kaina: %{price}",
+        "custom_discount": "Individuali nuolaida",
+        "expand_component_information": {
+          "one": "Rodyti %{count} straipsnius",
+          "other": "Rodyti %{count} straipsnius"
+        },
+        "collapse_component_information": {
+          "one": "paslėpti %{count} straipsnius",
+          "other": "Slėpti %{count} straipsnius"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} straipsnis",
+            "other": "%{count} straipsniai"
+          },
+          "back_to_finalize_order": "Grįžti į užsakymo užbaigimą"
+        },
+        "alternative_payment_currency_total": "nurašyta kaip %{amount_due}",
+        "group_title_label": "Dalį sudaro '%{group_title}'",
+        "discount_title_stacking": {
+          "other": "Nuolaidos"
+        },
+        "discount_order_stacking": {
+          "other": "Užsakymų nuolaidos"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} už vienetą"
+        },
+        "discount_not_found": "Nepavyko rasti galiojančios nuolaidos, atitinkančios įvestą kodą",
+        "total_savings": "Bendra taupymas",
+        "return_restocking_fee_label": "Žolės tiekimo išlaidos",
+        "return_shipping_fee_label": "Grąžinimas",
+        "discount_code_applied_with_code": "Nuolaidos kodas %{code} buvo pritaikytas",
+        "gift_card_applied": "Dovanų kuponas pritaikytas",
+        "duties_included_label": "Bendra suma įskaičiuoja mokesčius ir muito rinkliavas. Pristatymo metu papildomų mokesčių nėra.",
+        "deferred_balance_info": {
+          "title": "Suma {{amount_due}} turi būti sumokėta iki {{due_at}}.",
+          "due_on_fulfillment_title": "Užsakymo įvykdymo metu reikia sumokėti {{amount_due}} balansą"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> nuolaidos kodas reikalingas tinkamam klientui",
+        "subtotal_label_with_quantity": {
+          "one": "Suma · %{count} prekė",
+          "other": "Suma be PVM · %{count} prekės"
+        },
+        "cost_table_item_column_header": "Straipsnis",
+        "more_items_modal": {
+          "clear_search": "Išvalyti paiešką",
+          "empty_results": "Nerasta rezultatų pagal '%{searchText}'. Patikrinkite rašybą arba naudokite kitą žodį ar kitą frazę.",
+          "number_items_shown": "%{shownNumber} iš %{totalNumber} prekių"
+        },
+        "number_items": {
+          "one": "%{count} straipsnis",
+          "other": "%{count} straipsniai"
+        },
+        "view_all_items": {
+          "one": "Peržiūrėti %{count} straipsnius",
+          "other": "Peržiūrėti visus %{count} straipsnius"
+        },
+        "price_after_discount_aria_text": "Nuolaidos kaina",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Siųsti į adresą",
+          "ship_to_address_instead_html": "%{link} vietoj to"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nėra parduotuvių, kuriose būtų tavo prekė",
+          "other": "Nėra parduotuvių, kuriose būtų tavo prekės"
+        },
+        "deposit_label": "Avansas",
+        "total_due_today_label": "Iš viso šiandien mokėtina suma"
       }
     }
   }
