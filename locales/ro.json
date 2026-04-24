@@ -1322,7 +1322,79 @@
         "delete_customer_mandate_modal_cancel": "Anulare",
         "credit_card_vaulting_sign_in_banner_title": "Salvează cardul tău de credit",
         "credit_card_vaulting_sign_in_banner_info": "Autentifică-te sau creează un cont pentru a-ți salva cardul de credit pentru cumpărături viitoare.",
-        "credit_card_vaulting_sign_in_banner_button_label": "Autentificare"
+        "credit_card_vaulting_sign_in_banner_button_label": "Autentificare",
+        "expiry_long": "(Expiră %{month}/%{year})",
+        "expiry_short": "(Expiră %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Salvează acest card de credit în contul meu pentru a plăti mai repede",
+        "delete_customer_mandate_modal_title": "Ștergeți acest card de plată?",
+        "delete_customer_mandate_modal_body": "Dacă elimini acest card, va trebui să-l adaugi din nou înainte de a-l folosi pentru plăți.",
+        "delete_customer_mandate_modal_confirm": "Șterge cardul",
+        "google": {
+          "connect": "Apasă pentru a-ți conecta contul Google Pay"
+        },
+        "mor_disclaimer_html": "Dacă faceți clic mai jos și finalizați comanda, sunteți de acord să achiziționați articolul/articolele de la Global-e ca comerciant înregistrat pentru această tranzacție, conform <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termenilor și condițiilor generale</a> și <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politicii de confidențialitate</a> a Global-e. Global-e este un furnizor internațional de servicii de îndeplinire pentru %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Dacă actualizezi metoda de plată, autorizezi plățile pentru fiecare achiziție recurentă sau amânată conform <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">politicii de anulare</a> a acestui magazin.",
+        "multibanco_label": "Multifuncțional",
+        "receiver_payment_experience_hint": "După plasarea comenzii, vei primi detaliile de plată. Efectuează plata în termen de %{due_days} zile la Multibanco sau online.",
+        "pending_payment": {
+          "due_notice": "Plata ta de %{amount_due} este scadentă la %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Efectuați plata la Multibanco sau online folosind datele de mai jos. %{contact_us} pentru întrebări sau pentru a actualiza detaliile de plată.",
+            "entity": "Unitate",
+            "amount": "Sumă datorată",
+            "buyer_action_info": "Plata ta în valoare de %{amount_due} este restantă."
+          }
+        },
+        "purchase_options_agreement_label": "Unul sau mai multe articole din coșul tău sunt o achiziție amânată, un abonament sau o achiziție recurentă. Continuând cu plata, ești de acord ca metoda ta de plată să fie taxată automat pentru prețul și frecvența menționate pe această pagină, până când expiră sau anulezi. La toate anulările se aplică %{cancellation_policy_label}.",
+        "update_payment_method": "Actualizare metodă de plată",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Totalul poate fi exclusiv de taxe, transport, costuri amânate și unele reduceri. Continuați către casă pentru suma datorată astăzi."
+        },
+        "purchase_options_agreement_label_html": "Înțeleg că unul sau mai multe articole din coșul meu de cumpărături sunt o achiziție amânată, un abonament sau o achiziție recurentă. Continuând, sunt de acord cu\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica de anulare</a>\nși îmi dau consimțământul ca metoda mea de plată să fie taxată pentru prețurile, frecvența și datele menționate pe această pagină, până când comanda mea este procesată sau anulez, dacă este permis.",
+        "payment_method_saved": "Metoda de plată salvată",
+        "card_vaulted_company_location": "Hartă salvată pentru această locație",
+        "order_covered_by_store_credit_notice": "Comanda este plătită cu creditul tău din magazin.",
+        "order_covered_by_redeemables_notice": "Comanda a fost plătită.",
+        "store_credit": {
+          "add_label": "Adăugare credit magazin",
+          "manage_label": "Gestionați creditul din magazin",
+          "buying_gift_card": "Cu un credit de magazin nu poți cumpăra un bon cadou",
+          "no_fixed_selling_plans": "Nu poți folosi creditul din magazin împreună cu opțiunile de cumpărare amânată"
+        },
+        "clear": "Cunoaștere",
+        "billing_must_match_shipping_notice": "Adresa de facturare a metodei tale de plată trebuie să corespundă cu adresa de livrare.",
+        "same_billing_address_checkbox_label": "Adresa de livrare și adresa de facturare sunt aceleași",
+        "location_billing_address_label": "Adresă de facturare a locației",
+        "location_shipping_address_label": "Adresă de livrare a locației",
+        "no_working_method_error": "Acest magazin nu poate accepta plăți în acest moment. Reîmprospătează pagina sau revino mai târziu.",
+        "brand_not_available": "Acest magazin nu acceptă {{brand}}. Folosiți un alt card pentru a plăti.",
+        "shipping_rate_updated": "Metodele de expediere disponibile au fost actualizate. Confirmă-ți alegerea înainte de a plăti.",
+        "billing_address_invalid_phone": "Actualizați numărul de telefon la adresa de facturare pentru {{label}} {{last_digits}} pentru a continua.",
+        "billing_address_invalid_phone_no_card": "Actualizați numărul de telefon de la adresa de facturare pentru a continua.",
+        "preview_not_available": {
+          "title": "Exemplu indisponibil",
+          "content": "Nu-ți face griji, această plată rapidă funcționează pentru clienții tăi.",
+          "button": "Bine"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Introduceți o dată de emitere valabilă",
+              "issue_number": "Introduceți un număr de eliberare valid"
+            },
+            "invalid": {
+              "verification_value": "Introduceți un cod CVV/CVC sau cod de siguranță valid"
+            }
+          }
+        },
+        "simulated_checkout": "Exemplul va apărea în curând",
+        "vaulting_agreement_label": "Salvează datele mele de plată la %{company} pentru o finalizare mai rapidă a comenzii.",
+        "business_customer_vaulting_payment_label": "Salvați această metodă de plată la finalizarea comenzii și autorizați %{company} să debiteze bani de pe acest card pentru achiziții viitoare la această locație. Toate persoanele de contact atribuite acestei locații pot folosi metoda de plată.",
+        "purchase_options_and_vaulting_agreement_label": "Unul sau mai multe articole din coș sunt o achiziție amânată sau prin abonament. Dacă continui cu plata, ești de acord că vom debita automat sumele de plată prin metoda ta de plată la prețul și frecvența afișate pe această pagină, până la expirare sau până când anulezi tu însuți. Pentru toate anulările se aplică %{cancellation_policy_label}.",
+        "use_different_credit_card_label": "Folosește un alt card",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Vizualizează toate cardurile salvate"
+        }
       }
     }
   }
