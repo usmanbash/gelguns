@@ -608,7 +608,65 @@
             "inventory_not_found": "No se encontró stock para estos productos.",
             "duplicated_stable_id": "Esta línea de productos tiene el mismo ID estable que otra línea.",
             "minimum_quantity_not_met": "Para algunos artículos no se cumple con la cantidad mínima permitida",
-            "maximum_quantity_exceeded": "Para algunos artículos no se cumple con la cantidad máxima permitida"
+            "maximum_quantity_exceeded": "Para algunos artículos no se cumple con la cantidad máxima permitida",
+            "quantity_increment_not_met": "Para algunos artículos no se cumplen los límites de pedido",
+            "quantity_rules_not_met": "Para algunos artículos no se cumplen los límites de pedido",
+            "bundle_requires_components": "Este paquete de productos no contiene componentes.",
+            "title_too_long": "El título de los productos es demasiado largo.",
+            "title_empty": "El título de los bienes está vacío.",
+            "mixed_currencies": "El pago contiene líneas de pedido con diferentes monedas.",
+            "combined_listing_parent_not_purchasable": "Los productos principales de listados combinados no se pueden comprar directamente."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "La persona de contacto dentro de la empresa no tiene acceso a la empresa.",
+            "contact_info_does_not_match_customer_account": "Los datos de contacto deben coincidir con la cuenta con la que has iniciado sesión.",
+            "phone_number_does_not_match_expected_pattern": "El número de teléfono proporcionado tiene un formato incorrecto.",
+            "email_required": "Cuando los productos se compran mediante una suscripción, se requiere un correo electrónico.",
+            "email_domain_is_invalid": "No se puede resolver este dominio especificado.",
+            "checkout_completion_target_is_missing": "Falta el objetivo para completar el pago.",
+            "invalid_customer_profile": "Se ha proporcionado un perfil de cliente no válido.",
+            "customer_profile_access_restricted": "El proceso de pago no tiene acceso al perfil del cliente.",
+            "checkout_completion_target_is_invalid_proc": "Objetivo de finalización de compra no válido.",
+            "company_location_required": "El cliente solo puede continuar si elige una ubicación comercial.",
+            "lost_access_to_company": "El cliente ha perdido el acceso a toda empresa.",
+            "company_purchase_permission_required": "El cliente no está autorizado para realizar pedidos comerciales.",
+            "personal_order_not_allowed": "No se permiten pedidos personales para esta tienda.",
+            "buyer_identity_presentment_currency_does_not_match": "Se ha producido un problema al procesar tu pedido. Inténtalo de nuevo en unos minutos."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Un carrito de compras solo puede contener una regla de entrega.",
+            "wrong_number_of_delivery_lines": "Proporcione una regla de entrega para cada grupo de productos.",
+            "external_delivery_promise_error": "No se pudo obtener la fecha de entrega prevista del proveedor externo.",
+            "options_instructions_invalid": "Las instrucciones proporcionadas tienen un patrón incorrecto.",
+            "destination_address_required": "Para continuar, necesitas una dirección de destino.",
+            "pickup_points_unavailable": "Los puntos de recogida no están disponibles actualmente.",
+            "local_pickup_delivery_line_detail_changed": "Para continuar, debe modificarse la estrategia actual de entrega para la recogida en el lugar.",
+            "local_pickup_no_delivery_strategy_available": "No hay estrategia de entrega disponible para recogida en el lugar.",
+            "origin_location_id_required": "Se requiere un ID de ubicación de origen cuando se solicita el método de entrega VENTA AL POR MENOR.",
+            "invalid_origin_location_id": "No se puede encontrar una ubicación para el ID de lugar de origen.",
+            "origin_location_id_not_allowed": "Ningún método de entrega solicitado admite un ID de ubicación de origen.",
+            "auto_fulfill_not_allowed": "Esta sesión no está autorizada para sobrescribir el comportamiento de cumplimiento.",
+            "auto_fulfill_required": "El cumplimiento automático es necesario cuando se solicita el método de entrega VENTA AL POR MENOR.",
+            "prefetch_shipping_rates_used": "Las tarifas de envío prepagadas nunca deben ser tarifas de devolución.",
+            "fulfillment_constraints_not_satisfied": "No se ha cumplido una o más restricciones de cumplimiento.",
+            "must_fulfill_from_constraint_not_satisfied": "La razón de esto es que los artículos no pueden ser gestionados desde las ubicaciones requeridas.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "La razón de esto es que los artículos no pueden ser gestionados desde la misma ubicación.",
+            "delivery_strategy_conditions_not_satisfied": "Hay estrategias de entrega disponibles para esta ubicación, pero no se cumplen las condiciones.",
+            "out_of_stock_at_origin_location": "No hay existencias en el lugar de origen.",
+            "invalid_signature": "Firma no válida para descuento.",
+            "selected_pickup_option_no_longer_available": "La opción de recogida que seleccionaste anteriormente ya no está disponible."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "No se permiten descuentos en tiendas B2B.",
+            "custom_discount_not_honoured": "El descuento personalizado introducido no se ha aplicado.",
+            "unsupported_expectation": "La regla de descuento introducida contenía una suposición que la política no pudo interpretar.",
+            "additional_requested_discount_code_discarded": "{{code}} es válido pero no aplicable. Verifique los términos para los descuentos.",
+            "allocations_mismatch": "Tu código de descuento ha sido cambiado. Revisa tu carrito y vuelve a intentarlo.",
+            "discount_title_too_long": "El título del descuento no debe tener más de 255 caracteres.",
+            "additional_requested_discount_discarded": "Tu descuento es válido pero no aplicable. Revisa los términos y condiciones para descuentos."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Los impuestos aplicables a tu pedido han cambiado. Revisa tu pedido e inténtalo de nuevo."
           }
         }
       }
