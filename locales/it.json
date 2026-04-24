@@ -666,7 +666,73 @@
             "tax_exemption_not_supported": "Nell'attuale sessione di trattative non sono previste esenzioni fiscali.",
             "delivery_tax_exemption_not_supported": "Le esenzioni fiscali per le norme di consegna attualmente non sono supportate.",
             "proposed_allocations_required": "Il campo 'assegnazioni suggerite' è mancante.",
-            "merchandise_terms_must_be_defined": "Definisci le condizioni per le merci."
+            "merchandise_terms_must_be_defined": "Definisci le condizioni per le merci.",
+            "delivery_terms_must_be_defined": "Definisci le condizioni per la consegna.",
+            "merchandise_discount_terms_must_be_defined": "Definisci le condizioni per lo sconto sulla merce.",
+            "delivery_discount_terms_must_be_defined": "Definisci le condizioni per lo sconto sulla consegna.",
+            "allocated_required": "Il campo 'assegnato' è mancante.",
+            "value_required": "Il campo 'valore' manca.",
+            "line_splits_not_supported": "Il campo 'righe merci' deve essere suddiviso in modo tale che per ogni riga vi sia un componente separato nella proposta del venditore."
+          },
+          "payment": {
+            "positive_amount_expected": "L'importo da pagare deve essere maggiore di 0.",
+            "total_amount_mismatch": "L'importo totale da pagare non corrisponde alla somma dei pagamenti.",
+            "subscription_terms_not_accepted": "Condizioni di abbonamento non accettate.",
+            "missing_session_id": "Informazioni sulla sessione della carta di credito mancanti.",
+            "gateway_not_supported": "Il sistema di pagamento non supporta la memorizzazione del metodo di pagamento.",
+            "credit_card_last_name_required": "'il cognome' non può essere vuoto.",
+            "credit_card_update_failed": "L'aggiornamento della carta di credito non è riuscito.",
+            "invalid_address_type": "Il tipo di indirizzo inserito non è valido per questo metodo di pagamento.",
+            "missing_retail_attributions": "Assegnazioni al dettaglio sono richieste per i pagamenti con carta di credito inseriti manualmente.",
+            "unexpected_retail_attributions": "Assegnazioni di vendita al dettaglio impreviste indicate per un pagamento con carta di credito.",
+            "invalid_card_source": "Questa sessione non è autorizzata a utilizzare questa fonte della mappa.",
+            "unauthorized_capture_method": "La configurazione del metodo per la registrazione dei pagamenti non è consentita.",
+            "saved_payment_methods_not_allowed": "'I metodi di pagamento salvati' non sono consentiti.",
+            "saved_payment_methods_not_enabled": "'I metodi di pagamento salvati' non sono abilitati per questo negozio.",
+            "store_credit_not_enabled": "Il credito negozio non è attivato per questo negozio.",
+            "store_credit_account_not_found": "Account credito negozio non trovato.",
+            "store_credit_account_mismatch": "Il conto del credito negozio non corrisponde all'identità dell'acquirente.",
+            "store_credit_mismatched_currency": "La valuta del conto del credito del negozio non corrisponde alla valuta del pagamento.",
+            "store_credit_insufficient_funds": "Non ci sono fondi sufficienti nel conto del credito del negozio.",
+            "store_credit_buying_gift_card": "Con il credito del negozio non è possibile acquistare una carta regalo.",
+            "gift_cards_not_allowed_for_b2b": "I buoni regalo non sono ammessi nei negozi B2B.",
+            "method_required": "Deve essere proposta una modalità di pagamento.",
+            "saved_payment_methods_cvv_verification_disabled": "Per il metodo di pagamento selezionato è richiesta la verifica CVV/CVC, ma non è attivata per questo negozio. Usa un altro metodo di pagamento."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Il negozio non accetta mance.",
+            "only_one_tip_line_allowed": "Più righe di pedaggio non sono supportate.",
+            "currency_change_reset": "Fooi è stato reimpostato a causa di una variazione valutaria.",
+            "tips_not_allowed_for_deferred_purchase_options": "Le mance non sono ancora supportate per le opzioni di acquisto differito."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Questo ordine concettuale non esiste nel negozio attuale.",
+            "staff_member_not_exist": "Questo dipendente non è conosciuto nel negozio attuale.",
+            "point_of_sale_device_not_exist": "Questo dispositivo di vendita non è disponibile nel negozio attuale.",
+            "unresolvable_target_merchandise_lines": "Le assegnazioni di vendita proposte non sono risolvibili nel contesto negoziale esistente."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La tua proposta di acquisto deve contenere non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Il campo 'Quantità' manca nelle righe di magazzino dell'acquirente.",
+            "changing_behavior_not_allowed": "Questo cliente non è autorizzato a modificare la funzionalità di magazzino.",
+            "only_one_inventory_behavior_allowed": "Al momento è consentita una sola funzione di disponibilità per ogni cassa."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "In questo pagamento non è consentito rifiutare i dazi doganali."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "In questo pagamento non è consentita l'assegnazione al dettaglio.",
+            "retail_attribution_required": "Per questo pagamento è richiesta l'assegnazione al dettaglio."
+          },
+          "captcha": {
+            "metadata_missing": "In questo pagamento è obbligatorio compilare un captcha.",
+            "metadata_mismatch": "Il fornitore captcha indicato e il tipo non corrispondono ai valori previsti.",
+            "token_missing": "Completa questo pagamento inserendo un token captcha.",
+            "job_enqueue_failed": "Il compito di convalida captcha non può essere messo in coda.",
+            "job_already_queued": "La convalida Captcha è già stata messa in coda per questo gettone.",
+            "token_expired": "Il token captcha inserito è scaduto. Esegui un nuovo captcha per continuare con il pagamento."
           }
         }
       }
