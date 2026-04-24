@@ -2369,8 +2369,116 @@
           "first_cycles": {
             "one": "První platba %{total_price}",
             "other": "Prvních %{count} plateb za %{total_price} za kus"
+          },
+          "following_cycles": ", poté %{total_price} každých %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "pes",
+            "other": "%{count} dní"
+          },
+          "week": {
+            "other": "%{count} týdnů"
+          },
+          "month": {
+            "other": "%{count} měsíců"
+          },
+          "year": {
+            "other": "%{count} let"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "První platba %{total_price_with_discount}, poté %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", poté %{count} platba ve výši %{total_price}",
+            "other": ", poté %{count} plateb, každá ve výši %{total_price}"
           }
         }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Aktualizovat mapu",
+        "delete_customer_mandate": {
+          "generic_error": "Došlo k problému při zpracování vaší žádosti.",
+          "success_message": "Vaše platební metoda byla odstraněna"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Obecné podmínky MoR (Obchodník zapsaný v evidenci)",
+        "privacy_policy": "Zásady ochrany soukromí registrovaného obchodníka"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produkt není k dispozici"
+        },
+        "products_not_available": {
+          "one": "Tento výrobek bude odstraněn z tvého nákupního košíku, protože není dostupný ve tvé zemi/regionu.",
+          "other": "Tyto produkty budou odstraněny z tvého nákupního košíku, protože nejsou dostupné ve tvé zemi/regionu."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Tento výrobek není dostupný ve vaší zemi/oblasti.",
+          "other": "Tyto výrobky nejsou ve vaší zemi/regionu dostupné."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Vaše země/oblast byla aktualizována. Zadejte doručovací adresu pro pokračování k pokladně."
+      },
+      "throttle": {
+        "line_to_check_out": "Stojíte ve frontě k pokladně",
+        "cart_summary_heading": "Váš nákupní košík",
+        "merchandise": {
+          "available": "Dostupné"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Část vašeho nákupního košíku je vyprodána a nelze ji při dokončení nákupu zakoupit.",
+          "sold_out": {
+            "heading": "Váš nákupní košík je vyprodán",
+            "storefront_body": "Vraťte se do obchodu a pokračujte v nakupování",
+            "no_storefront_body": "Položka, kterou jste chtěli koupit, bohužel již není k dispozici."
+          }
+        },
+        "title": "Fronta čekajících",
+        "time_to_checkout_title": "Čas k platbě - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Odhadnout dobu čekání",
+          "less_than_one": "Odhadovaná doba čekání: méně než minuta",
+          "one": "Odhadovaná doba čekání: {{count}} minut",
+          "other": "Odhadovaná doba čekání: {{count}} minut"
+        },
+        "last_checked": "(Naposledy zkontrolováno: {{time}})",
+        "footer": {
+          "heading": "Nemusíte tuto stránku obnovovat, bude se automaticky aktualizovat.",
+          "body": "Položky ve tvém nákupním košíku budou rezervovány až po dokončení objednávky."
+        },
+        "too_many_attempts": {
+          "description": "Zkuste to znovu za pár minut"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Při zpracování vaší žádosti došlo k problému. Kontaktujte prosím majitele obchodu."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Doručení není k dispozici pro %{count} položku",
+            "other": "Doručení není k dispozici pro %{count} položek"
+          },
+          "message": {
+            "one": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení.",
+            "other": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení."
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Místo bez adresy",
+        "header": "Pro tuto lokalitu není zadána doručovací adresa",
+        "message": "Kontaktujte nás, abyste mohli přidat adresu pro toto místo a dokončit platbu.",
+        "email_us_button_label": "Pošlete nám e-mail",
+        "alt_header": "Chybí doručovací adresa"
+      },
+      "order_errors": {
+        "creation_failure": "Při vytváření vaší objednávky došlo k problému. Zkuste to znovu nebo nás kontaktujte pro více informací.",
+        "network_failure": "Vaše objednávka nemůže být odeslána kvůli chybě sítě. Zkontrolujte své připojení a zkuste to znovu.",
+        "inventory_reservation_failure": "Některé položky již nejsou k dispozici."
       }
     }
   }
