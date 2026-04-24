@@ -168,28 +168,28 @@
       "nested_label": "{{ title }} per {{ parent_title }}",
       "view_full_details": "Visualizza tutti i dettagli",
       "shipping_policy_html": "<a href=\"{{ link }}\">Spese di spedizione</a> vengono calcolate al momento del pagamento.",
-      "choose_options": "Scegli opzioni",
+      "choose_options": "Scegliere opzioni",
       "choose_product_options": "Scegli opzioni per {{ product_name }}",
       "value_unavailable": "{{ option_value }} - Non disponibile",
       "variant_sold_out_or_unavailable": "Variante esaurita o non disponibile",
       "inventory_in_stock": "Disponibile",
-      "inventory_in_stock_show_count": "{{ quantity }} disponibile/i",
-      "inventory_low_stock": "Scorte ridotte",
-      "inventory_low_stock_show_count": "Scorte ridotte: ne restano {{ quantity }}",
-      "inventory_out_of_stock": "Esaurito",
+      "inventory_in_stock_show_count": "{{ quantity }} disponibili",
+      "inventory_low_stock": "Scorte basse",
+      "inventory_low_stock_show_count": "Scorte disponibili: solo {{ quantity }} rimaste",
+      "inventory_out_of_stock": "Non disponibile",
       "inventory_out_of_stock_continue_selling": "Disponibile",
-      "sku": "SKU",
+      "sku": "Codice articolo",
       "volume_pricing": {
-        "title": "Prezzi basati sui volumi",
-        "note": "Prezzi basati sui volumi disponibili",
+        "title": "Prezzi a volume",
+        "note": "Prezzi a volume disponibili",
         "minimum": "Più di {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "a {{ price }}/ciascuno"
+        "price_at_each_html": "{{ price }}/cad."
       },
       "product_variants": "Varianti di prodotto",
-      "taxes_included": "Imposte incluse.",
-      "duties_included": "Dazi inclusi.",
-      "duties_and_taxes_included": "Dazi e imposte inclusi.",
+      "taxes_included": "Tasse incluse.",
+      "duties_included": "Diritti doganali inclusi.",
+      "duties_and_taxes_included": "Dazi doganali e tasse incluse.",
       "inventory_out_of_stock_message": "Disponibile",
       "inventory_order_before": "per",
       "inventory_delivered": "ordinato,",
@@ -202,25 +202,25 @@
       }
     },
     "modal": {
-      "label": "Galleria contenuti multimediali"
+      "label": "Galleria multimediale"
     },
     "facets": {
-      "apply": "Applica",
-      "clear": "Cancella",
+      "apply": "Applicare",
+      "clear": "Conoscenza",
       "clear_all": "Rimuovi tutto",
-      "from": "Da",
-      "filter_and_sort": "Filtra e ordina",
-      "filter_by_label": "Filtra:",
-      "filter_button": "Filtra",
+      "from": "Furgone",
+      "filter_and_sort": "Filtrare e ordinare",
+      "filter_by_label": "Filtro:",
+      "filter_button": "Filtro",
       "filters_selected": {
-        "one": "{{ count }} selezionata",
-        "other": "{{ count }} selezionate",
+        "one": "{{ count }} selezionati",
+        "other": "{{ count }} selezionati",
         "many": "{{ count }} selezionate"
       },
       "max_price": "Il prezzo più alto è {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} su {{ count }} prodotto",
-        "other": "{{ product_count }} su {{ count }} prodotti",
+        "one": "{{ product_count }} sconto su {{ count }} prodotti",
+        "other": "{{ product_count }} sconto su {{ count }} prodotti",
         "many": "{{ product_count }} su {{ count }} prodotti"
       },
       "product_count_simple": {
@@ -228,20 +228,20 @@
         "other": "{{ count }} prodotti",
         "many": "{{ count }} prodotti"
       },
-      "reset": "Ripristina",
-      "sort_button": "Ordina",
+      "reset": "Reimpostare",
+      "sort_button": "Ordinare",
       "sort_by_label": "Ordina per:",
       "to": "A",
-      "clear_filter": "Rimuovi filtri",
+      "clear_filter": "Rimuovi filtro",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtri selezionati)",
       "show_more": "Mostra di più",
-      "show_less": "Mostra di meno",
-      "filter_and_operator_subtitle": "Seleziona tutte"
+      "show_less": "Mostra meno",
+      "filter_and_operator_subtitle": "Abbina tutto"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Nessun risultato per \"{{ terms }}\". Controlla l'ortografia o usa una parola o una frase diversa.",
+      "no_results": "Nessun risultato trovato per “{{ terms }}”. Controlla l'ortografia o usa un'altra parola o frase.",
       "page": "Pagina",
       "results_with_count": {
         "one": "{{ count }} risultato",
@@ -250,10 +250,10 @@
       },
       "title": "Risultati della ricerca",
       "products": "Prodotti",
-      "search_for": "Cerca \"{{ terms }}\"",
+      "search_for": "Cerca '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "{{ count }} risultato trovato per \"{{ terms }}\"",
-        "other": "{{ count }} risultati trovati per \"{{ terms }}\"",
+        "one": "{{ count }} risultato trovato per “{{ terms }}”",
+        "other": "{{ count }} risultati trovati per “{{ terms }}”",
         "many": "{{ count }} risultati trovati per \"{{ terms }}\""
       },
       "results_pages_with_count": {
@@ -269,7 +269,7 @@
       "suggestions": "Suggerimenti",
       "pages": "Pagine",
       "results_suggestions_with_count": {
-        "one": "{{ count }} suggerimento",
+        "one": "{{ count }} suggerimenti",
         "other": "{{ count }} suggerimenti",
         "many": "{{ count }} suggerimenti"
       }
@@ -280,12 +280,12 @@
     "contact": {
       "form": {
         "name": "Nome",
-        "email": "Indirizzo email",
+        "email": "E-mail",
         "phone": "Numero di telefono",
-        "comment": "Commenta",
-        "send": "Invia",
-        "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",
-        "error_heading": "Correggi gli errori seguenti:",
+        "comment": "Risposta",
+        "send": "Inviare",
+        "post_success": "Grazie per averci contattato. Ti risponderemo al più presto.",
+        "error_heading": "Adatta quanto segue:",
         "title": "Modulo di contatto"
       }
     },
@@ -407,40 +407,40 @@
     }
   },
   "localization": {
-    "country_label": "Paese/Area geografica",
+    "country_label": "Paese/regione",
     "language_label": "Lingua",
     "update_language": "Aggiorna lingua",
-    "update_country": "Aggiorna paese/area geografica",
+    "update_country": "Aggiorna paese/regione",
     "search": "Cerca",
-    "popular_countries_regions": "Paesi/aree geografiche popolari",
-    "country_results_count": "{{ count }} paesi/aree geografiche trovati"
+    "popular_countries_regions": "Paesi/regioni popolari",
+    "country_results_count": "{{ count }} paesi/regioni trovati"
   },
   "customer": {
     "account": {
       "title": "Account",
-      "details": "Dettagli account",
+      "details": "Dati dell'account",
       "view_addresses": "Visualizza indirizzi",
-      "return": "Ritorna ai dettagli dell'account"
+      "return": "Torna ai Dati dell'Account"
     },
     "account_fallback": "Account",
     "activate_account": {
-      "title": "Attiva l'account",
-      "subtext": "Crea una password per attivare il tuo account.",
+      "title": "Attivare l'account",
+      "subtext": "Crea la tua password per attivare il tuo account.",
       "password": "Password",
       "password_confirm": "Conferma password",
-      "submit": "Attiva l'account",
+      "submit": "Attivare l'account",
       "cancel": "Rifiuta invito"
     },
     "addresses": {
       "title": "Indirizzi",
-      "default": "Predefinito",
+      "default": "Standard",
       "add_new": "Aggiungi un nuovo indirizzo",
       "edit_address": "Modifica indirizzo",
       "first_name": "Nome",
       "last_name": "Cognome",
       "company": "Azienda",
-      "address1": "Indirizzo - campo 1",
-      "address2": "Indirizzo - campo 2",
+      "address1": "Indirizzo 1",
+      "address2": "Indirizzo 2",
       "city": "Città",
       "country": "Paese/Area geografica",
       "province": "Provincia",
