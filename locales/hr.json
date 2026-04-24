@@ -1000,7 +1000,65 @@
         "discount_already_applied": "Na ovu narudžbu primijenjen je popust. Ne možete dodati drugi popust.",
         "cart_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> ne vrijedi za artikle u tvojoj košarici",
         "discount_requires_customer_notice": "Unesite svoje podatke za dostavu kako biste primijenili kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong>",
-        "customer_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> trenutno nije dostupan za vas"
+        "customer_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> trenutno nije dostupan za vas",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> nije dostupan za tvoju adresu dostave",
+        "subtotal_label": "Međuzbroj",
+        "shipping_label": "Slanje",
+        "shipping_default_value": "Izračunato u sljedećem koraku",
+        "shipping_pending_message": "Još nije dostupno",
+        "taxes_label": "usput",
+        "payment_due_label": "Dospjela uplata",
+        "vat_label_html": "Uključujući %{amount} PDV-a",
+        "discount_and_gift_card_savings_notice": "Na %{discount_amount} popusta i %{gift_card_amount} vrijednosti poklon bona",
+        "discount_savings_notice": "Na %{discount_amount} popusta",
+        "gift_card_savings_notice": "Na vrijednost poklon bona od %{gift_card_amount}",
+        "cost_table_title": "Pregled troškova",
+        "quantity_label": "Broj",
+        "scroll_order_summary": "Pomaknite se za više artikala",
+        "order_total_updated_label": "Ažurirani ukupno",
+        "total_already_paid_label": "plaćeno",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} po komadu",
+            "one": "%{price} po %{count} artiklu",
+            "other": "%{price} po %{count} artiklima"
+          }
+        },
+        "estimated_taxes_label": "Procijenjeni porez",
+        "information_estimated_taxes_label": "Porezi (procijenjeno)",
+        "gift_card_ending": "Poklon kartica koja završava na %{last_characters}",
+        "estimated_tax_label": "Procijenjeni porez",
+        "multiple_shipping_lines_label": "Ukupni troškovi dostave",
+        "sale_price": "Ponudbena cijena",
+        "recurring_subtotal_label": "Povratni međuzbroj",
+        "recurring_total_label": "Povratni ukupno",
+        "recurring_total_tooltip": "Isključujući troškove dostave, PDV, carinske pristojbe ili eventualne popuste.",
+        "gift_card_subscriptions_notice": "Poklon bonovi se primjenjuju samo na tvoju prvu uplatu",
+        "confirmation_number_label": "Broj potvrde %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Ukupan iznos poreza bit će potvrđen putem e-pošte ili SMS-a nakon što izvršite narudžbu.",
+        "deferred_payment_info": {
+          "title": "Plaćanje od %{amount_due} dospijeva na %{due_at}",
+          "description_html": "%{contact_us} za pitanja o vašoj narudžbi.",
+          "paid_today": "Ukupno plaćeno danas",
+          "due_on_fulfillment_title": "Plaćanje od %{amount_due} dospijeva prilikom ispunjenja narudžbe.",
+          "due_on_receipt_title": "%{amount_due} je dospjelo na naplatu po primitku",
+          "paid_today_next": "Danas plaćeno"
+        },
+        "percent_off_shipping": "%{percent}% popusta na dostavu",
+        "payment_terms_totals": {
+          "due_today": "Ukupno dugujete danas",
+          "due_later": "Ukupno dugovanje na %{due_at}",
+          "due_later_checkout_to_draft": "Ukupno dugovanje kasnije",
+          "due_on_fulfillment": "Ukupno dugovanje pri ispunjenju narudžbe",
+          "due_on_receipt": "Ukupno za plaćanje pri primitku",
+          "due_today_next": "Danas dospjelo",
+          "due_on_fulfillment_next": "Plaćanje pri isporuci"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> se ne može koristiti s tvojim postojećim popustima.",
+        "maximum_discount_code_limit_reached": "Dosegnuli ste maksimalan broj kuponskih kodova. Uklonite postojeći kod da biste koristili <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Ukupna narudžba",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> trenutno ne radi. Kontaktirajte nas ako trebate pomoć.",
+        "due_on_fulfillment": "Dugovanje kod ispunjenja narudžbe"
       }
     }
   }
