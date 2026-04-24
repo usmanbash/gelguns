@@ -620,7 +620,65 @@
             "quantity_increment_not_met": "Dla niektórych artykułów nie spełniono limitów zamówienia",
             "quantity_rules_not_met": "Dla niektórych artykułów nie spełniono limitów zamówienia",
             "bundle_requires_components": "Ten zestaw towarów nie zawiera żadnych składników.",
-            "title_too_long": "Tytuł towarów jest zbyt długi."
+            "title_too_long": "Tytuł towarów jest zbyt długi.",
+            "title_empty": "Tytuł towarów jest pusty.",
+            "mixed_currencies": "Koszyk zawiera pozycje zamówienia w różnych walutach.",
+            "product_not_published_in_buyer_location": "Produkt nie jest opublikowany w lokalizacji kupującego.",
+            "combined_listing_parent_not_purchasable": "Główne produkty z połączonych ofert nie mogą być kupowane bezpośrednio."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Osoba kontaktowa w firmie nie ma dostępu do firmy.",
+            "customer_account_required": "Musisz się zalogować, aby kontynuować.",
+            "contact_info_does_not_match_customer_account": "Dane kontaktowe muszą odpowiadać kontu, na które się zalogowałeś.",
+            "phone_number_does_not_match_expected_pattern": "Podany numer telefonu ma nieprawidłowy wzór.",
+            "email_required": "Gdy towary zostały zakupione w ramach subskrypcji, wymagany jest e-mail.",
+            "email_domain_is_invalid": "Podana domena nie może zostać rozwiązana.",
+            "missing_contact_method": "Brakuje ważnej metody kontaktu.",
+            "checkout_completion_target_is_missing": "Brak celu dla zakończenia realizacji zamówienia.",
+            "customer_profile_access_restricted": "Kasa nie ma dostępu do profilu klienta.",
+            "checkout_completion_target_is_invalid_proc": "Nieprawidłowy cel zakończenia realizacji zamówienia.",
+            "company_location_required": "Klient może kontynuować tylko wtedy, gdy wybierze miejsce prowadzenia działalności.",
+            "lost_access_to_company": "Klient utracił dostęp do każdej firmy.",
+            "company_purchase_permission_required": "Klient nie jest upoważniony do składania zamówień firmowych.",
+            "personal_order_not_allowed": "Zamówienia indywidualne nie są dozwolone w tym sklepie.",
+            "buyer_identity_presentment_currency_does_not_match": "Wystąpił problem podczas przetwarzania twojego zamówienia. Spróbuj ponownie za kilka minut."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Koszyk może zawierać tylko jedną linię dostawy.",
+            "wrong_number_of_delivery_lines": "Podaj regułę dostawy dla każdej grupy towarów.",
+            "external_delivery_promise_error": "Nie można pobrać przewidywanej daty dostawy od zewnętrznego dostawcy.",
+            "options_instructions_invalid": "Podane instrukcje mają nieprawidłowy wzór.",
+            "destination_address_required": "Aby kontynuować, potrzebujesz adresu docelowego.",
+            "local_pickup_delivery_line_detail_changed": "Aby kontynuować, należy zmienić obecną strategię dostawy na odbiór osobisty.",
+            "local_pickup_no_delivery_strategy_available": "Brak dostępnej strategii dostawy dla odbioru na miejscu.",
+            "origin_location_id_required": "Wymagane jest podanie identyfikatora miejsca pochodzenia, gdy wybrana jest metoda dostawy DETALICZNA.",
+            "invalid_origin_location_id": "Nie można znaleźć lokalizacji dla identyfikatora miejsca pochodzenia.",
+            "origin_location_id_not_allowed": "Żadna z wybranych metod dostawy nie obsługuje identyfikatora miejsca pochodzenia.",
+            "auto_fulfill_not_allowed": "Ta sesja nie ma uprawnień do nadpisywania zachowań realizacji zamówień.",
+            "auto_fulfill_required": "Automatyczne realizowanie zamówień jest wymagane, gdy wybrana jest metoda dostawy DETALICZNA.",
+            "prefetch_shipping_rates_used": "Wcześniej ustalone stawki wysyłki nigdy nie mogą być stawkami zwrotnymi.",
+            "fulfillment_constraints_not_satisfied": "Nie spełniono jednego lub więcej ograniczeń realizacji.",
+            "must_fulfill_from_constraint_not_satisfied": "Powodem tego jest to, że artykuły nie mogą być obsługiwane z wymaganych miejsc.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Powodem tego jest fakt, że artykuły nie mogą być obsługiwane z tego samego miejsca.",
+            "delivery_strategy_conditions_not_satisfied": "Dla tej lokalizacji dostępne są strategie dostawy, ale warunki nie zostały spełnione.",
+            "out_of_stock_at_origin_location": "Brak zapasów w miejscu pochodzenia.",
+            "invalid_signature": "Nieprawidłowy podpis dla zniżki.",
+            "selected_pickup_option_no_longer_available": "Wybrana wcześniej opcja odbioru nie jest już dostępna."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Wprowadzony niestandardowy rabat nie został udzielony.",
+            "unsupported_expectation": "Wprowadzona zasada rabatowa zawierała założenie, którego polityka nie mogła zinterpretować.",
+            "additional_requested_discount_code_discarded": "{{code}} jest ważny, ale nie ma zastosowania. Sprawdź warunki dotyczące rabatów.",
+            "allocations_mismatch": "Twój kod rabatowy został zmieniony. Sprawdź swój koszyk i spróbuj ponownie.",
+            "discount_title_too_long": "Tytuł rabatu nie może być dłuższy niż 255 znaków.",
+            "additional_requested_discount_discarded": "Twoja zniżka jest ważna, ale nie można jej zastosować. Sprawdź warunki korzystania ze zniżek."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Podatki obowiązujące przy twoim zamówieniu uległy zmianie. Sprawdź swoje zamówienie i spróbuj ponownie.",
+            "unresolvable_tax_terms": "Proponowane warunki nie są wykonalne w świetle istniejącego kontekstu negocjacji.",
+            "delivery_price_is_abstract": "Odpowiednia cena za dostawę jest abstrakcyjna.",
+            "tax_inclusivity_mismatch": "Negocjuj ponownie z konkretną wartością dla totalTaxAndDutyAmount lub totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "W bieżącej sesji negocjacyjnej nie są wspierane żadne zwolnienia podatkowe."
           }
         }
       }

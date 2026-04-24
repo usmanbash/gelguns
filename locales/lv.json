@@ -1074,7 +1074,69 @@
         "credit_card_start_year": "Gada sākuma datums",
         "billing_address_not_supported_for_payment_method_error": "Šī maksāšanas metode nav pieejama tavai rēķina adresei un valūtai. Mēģini citu maksāšanas veidu.",
         "change_currency_section_description": "Izvēlieties valūtas opciju",
-        "no_real_orders_dev_store": "Šī veikals nevar pieņemt īstus pasūtījumus vai apstrādāt īstus maksājumus."
+        "no_real_orders_dev_store": "Šī veikals nevar pieņemt īstus pasūtījumus vai apstrādāt īstus maksājumus.",
+        "subscription_agreement_label_html": "Es saprotu, ka piekrītu abonementam. Tas tiks atjaunots par norādīto cenu un biežumu, līdz tas beigsies vai tiks\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atcelts</a>.",
+        "waiting_on_payment_methods": "Iegūstam pieejamās maksāšanas metodes...",
+        "apple_pay_payment_error": "Jūsu maksājumu nevarēja pabeigt. Lūdzu, mēģiniet vēlreiz vai izmantojiet citu maksāšanas veidu.",
+        "subscription_card_update_agreement_label": "Mainot maksāšanas veidu, tiks atjaunināta tava abonēšana un atkārtotie maksājumi nākotnē.",
+        "card_security_vault_notice": "Mums ir nepieciešami tavi dati nākotnes maksājumiem. Visas darījumu ir droši aizsargātas un šifrētas.",
+        "taxes_not_included": "Izņemot nodokļus",
+        "no_taxes_banner_content": "Nodokļi šai pasūtījumam netiek piemēroti. Jūs nevarat pievienot nodokļus, ja maksājums jau ir saņemts.",
+        "card_update_label": "Atjaunināt karti",
+        "paypal": {
+          "connect": "Noklikšķiniet, lai saistītu savu PayPal kontu"
+        },
+        "subscription_agreement_label": "Viens vai vairāki grozā esošie priekšmeti ir atlikta vai abonēšanas pirkums. Turpinot apmaksu, jūs piekrītat, ka mēs automātiski iekasēsim pirkuma summas, izmantojot jūsu maksājuma metodi par cenu un biežumu, kas norādīti šajā lapā, līdz abonements beidzas vai jūs to atcelsiet pats. Visām atcelšanām attiecas %{cancelled}.",
+        "subscription_agreement_cancelled": "atsaukšanas politika",
+        "card_expired": "Beidzies derīguma termiņš",
+        "card_verification_confirm": "Lai pārbaudītu, ievadiet savas kartes drošības kodu.",
+        "different_credit_card_label": "Izmantojiet citu kredītkarti",
+        "apple": {
+          "connect": "Noklikšķiniet, lai saistītu savu Apple Pay kontu",
+          "not_available": "Apple Pay nav pieejams šajā pārlūkprogrammā. Lai saistītu savu Apple Pay kontu, jāizmanto Safari pārlūkprogramma Apple ierīcē."
+        },
+        "account_connected": "Konts saistīts.",
+        "billing_address_associated_with_mandate": "Izmantojiet adresi, kas saistīta ar jūsu maksāšanas veidu",
+        "billing_address_associated_with_mandate_info": "Lai mainītu rēķina adresi, izdzēsiet savus kredītkartes datus un ievadiet tos atkārtoti",
+        "delete_customer_mandate_modal_cancel": "Atcelt",
+        "credit_card_vaulting_sign_in_banner_title": "Saglabāt kredītkarti",
+        "credit_card_vaulting_sign_in_banner_info": "Pierakstieties vai izveidojiet kontu, lai saglabātu savu kredītkarti nākotnes pirkumiem.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Pieslēgties",
+        "expiry_long": "(Beidzas %{month}/%{year})",
+        "expiry_short": "(Beidzas %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Saglabāt šo kredītkarti manā kontā, lai norēķinātos ātrāk",
+        "delete_customer_mandate_modal_title": "Vai dzēst šo maksājumu karti?",
+        "delete_customer_mandate_modal_body": "Ja noņemsiet šo karti, jums tā būs jāpiešķir atkārtoti, pirms to varēsiet izmantot maksājumiem.",
+        "delete_customer_mandate_modal_confirm": "Kartes dzēšana",
+        "google": {
+          "connect": "Noklikšķiniet, lai saistītu savu Google Pay kontu",
+          "error_authorizing": "Kļūda maksājuma apstiprināšanā"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "Noklikšķinot zemāk un pabeidzot pasūtījumu, jūs piekrītat iegādāties savu preci(-es) no Global-e kā reģistrēta tirgotāja šai transakcijai, saskaņā ar <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Vispārīgajiem noteikumiem</a> un <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Global-e Privātuma politiku</a>. Global-e ir starptautisks izpildes pakalpojumu sniedzējs %{shop_name}.",
+        "purchase_options_card_update_agreement_label_html": "Atjauninot maksājuma metodi, jūs autorizējat maksājumus par katru atkārtotu vai atliktu pirkumu saskaņā ar šīs veikala <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a>.",
+        "multibanco_label": "Multibanku",
+        "receiver_payment_experience_hint": "Pēc pasūtījuma veikšanas jūs saņemsiet maksājuma datus. Veiciet maksājumu Multibanco vai tiešsaistē %{due_days} dienu laikā.",
+        "pending_payment": {
+          "due_notice": "Jūsu maksājums %{amount_due} ir jāveic līdz %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Veiciet maksājumu Multibanco vai tiešsaistē, izmantojot zemāk norādītos datus. %{contact_us} jautājumiem vai maksājumu datu atjaunināšanai.",
+            "entity": "Vienība",
+            "reference": "Atsauce",
+            "amount": "Krāpšana",
+            "find_nearest_atm": "Atrast tuvāko naudas izņemšanas automātu",
+            "buyer_action_info": "Jūsu maksājums %{amount_due} ir gaidāms."
+          }
+        },
+        "purchase_options_agreement_label": "Viens vai vairāki priekšmeti jūsu iepirkumu grozā ir atlikts pirkums, abonements vai atkārtots pirkums. Turpinot maksājumu, jūs piekrītat, ka jūsu maksājuma metode tiks automātiski iekasēta par cenu un biežumu, kas norādīti šajā lapā, līdz tas beigsies vai jūs to atcelsiet. Visām atcelšanām attiecas %{cancellation_policy_label}.",
+        "update_payment_method": "Maksāšanas veida atjaunināšana",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abonements",
+          "order_contains_fixed_selling_plans": "Kopējā summa var būt bez nodokļiem, piegādes, atliktajām izmaksām un dažām atlaidēm. Turpiniet uz norēķinu lapu, lai redzētu šodien jāmaksā summu."
+        },
+        "purchase_options_agreement_label_html": "Es saprotu, ka viens vai vairāki priekšmeti manā iepirkumu grozā ir atlikta pirkuma, abonēšanas vai atkārtota pirkuma veids. Turpinot, es piekrītu\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atcelšanas politikai</a>\nun dodu atļauju iekasēt maksu no manas maksājumu metodes par cenām, biežumu un datumiem, kas norādīti šajā lapā, līdz mana pasūtījuma izpildei vai līdz es atceļu, ja tas ir atļauts.",
+        "payment_method_saved": "Maksāšanas veids saglabāts",
+        "card_vaulted_company_location": "Kartē saglabāts šai vietai"
       }
     }
   },
