@@ -2174,7 +2174,107 @@
         "page_title": "Pärast ostu",
         "title": "Pärast ostu",
         "escape_confirmation": "Oled oma tellimuse eest tasunud.",
-        "escape_action": "Tellimuse kinnitus vaatamine ›"
+        "escape_action": "Tellimuse kinnitus vaatamine ›",
+        "components": {
+          "close": "Sulge",
+          "expand": "Vaata merd",
+          "processing": "Töötlemine...",
+          "submit": "Esita"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Sinu ostukorv on uuendatud vastavalt sinu riigile saatmiseks.",
+        "cart_and_currency_updated_based_on_country": "Sinu ostukorv ja valuuta on kohandatud sihtriigile.",
+        "currency_updated_for_country": "Valuuta uuendatud %{country} jaoks"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} iga %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Esimene makse %{total_price}",
+            "other": "Esimesed %{count} makset hinnaga %{total_price} tüki kohta"
+          },
+          "following_cycles": ", seejärel %{total_price} iga %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "päev",
+            "other": "%{count} päeva"
+          },
+          "week": {
+            "one": "nädal",
+            "other": "%{count} nädalat"
+          },
+          "month": {
+            "one": "maa",
+            "other": "%{count} kuud"
+          },
+          "year": {
+            "one": "aasta",
+            "other": "%{count} aastat"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Esimene makse %{total_price_with_discount}, seejärel %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", seejärel %{count} makset summas %{total_price}",
+            "other": ", seejärel %{count} makset, igaüks summas %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Makseviisid",
+        "title": "Makseviisid",
+        "update_card_button_label": "Uuenda kaart",
+        "delete_customer_mandate": {
+          "generic_error": "Taotluse töötlemisel tekkis probleem.",
+          "success_message": "Sinu makseviis on eemaldatud"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "MoR-i (kaubandusettevõtja) üldtingimused",
+        "privacy_policy": "Registreeritud kaupmehe privaatsuspoliitika"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Toode pole saadaval",
+          "other": "Saadaval mitteolevad tooted"
+        },
+        "products_not_available": {
+          "one": "See toode eemaldatakse sinu ostukorvist, kuna see ei ole saadaval sinu riigis/regioonis.",
+          "other": "Need tooted eemaldatakse sinu ostukorvist, kuna need ei ole sinu riigis/regioonis saadaval."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "See toode ei ole teie riigis/regioonis saadaval.",
+          "other": "Need tooted ei ole sinu riigis/regioonis saadaval."
+        },
+        "unavailable_label": "Pole saadaval"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Teie riik/piirkond on uuendatud. Sisestage tarneaadress, et jätkata kassasse."
+      },
+      "throttle": {
+        "line_to_check_out": "Sa seisad kassajärjekorras",
+        "cart_summary_heading": "Sinu ostukorv",
+        "merchandise": {
+          "sold_out": "Läbi müüdud",
+          "available": "Saadaval"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Osa sinu ostukorvist on otsas ja seda ei saa kassas osta.",
+          "sold_out": {
+            "heading": "Sinu ostukorv on otsas",
+            "storefront_body": "Mine tagasi poodi, et jätkata ostlemist",
+            "no_storefront_body": "Kahjuks pole soovitud artikkel enam saadaval.",
+            "link": "Tagasi poodi"
+          }
+        },
+        "title": "Ootenimekiri",
+        "time_to_checkout_title": "Aeg maksmiseks - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Hinnanguline ooteaeg arvutamine",
+          "less_than_one": "Hinnanguline ooteaeg: vähem kui minut"
+        }
       }
     }
   },

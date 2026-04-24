@@ -2835,7 +2835,81 @@
       "empty": "no puede estar vacío",
       "invalid_email": "debe ser una dirección de correo electrónico válida",
       "discount_disabled": "Este descuento está bloqueado",
-      "discount_limit_reached": "Este descuento ha alcanzado el límite de uso"
+      "discount_limit_reached": "Este descuento ha alcanzado el límite de uso",
+      "discount_not_found": "No se puede encontrar un descuento válido que coincida con el código",
+      "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado el límite de uso",
+      "gift_card_already_applied": "El código ya se ha aplicado a tu carrito de compras",
+      "gift_card_code_invalid": "El código no es válido",
+      "gift_card_currency_mismatch": "Tu tarjeta de regalo está en %{gift_card_currency}. Ponte en contacto para que podamos reemitirla en %{checkout_currency}.",
+      "gift_card_depleted": "No queda saldo en esta tarjeta de regalo",
+      "gift_card_disabled": "El vale de regalo está bloqueado",
+      "gift_card_expired": "El vale de regalo ha expirado",
+      "invalid": "no es válido",
+      "bad_domain": "contiene un nombre de dominio no válido",
+      "taken": "ya usado",
+      "too_short": "es demasiado corto (el mínimo es %{count} caracteres)",
+      "too_long": "es demasiado largo (el máximo es %{count} caracteres)",
+      "password_mismatch": "debe ser idéntico a la contraseña proporcionada",
+      "full_name_required": "Introduce un nombre y un apellido",
+      "invalid_for_card_type": "no es válido",
+      "invalid_type": "lo siento, no aceptamos tarjetas de este tipo",
+      "invalid_format": "el tamaño no es válido",
+      "expired": "ha caducado",
+      "invalid_start_date_or_issue_number_for_debit": "se requiere una fecha de inicio válida o un número de emisión válido",
+      "invalid_expiry_year": "no es un año de caducidad válido",
+      "reset_password_html": "Esta dirección de correo electrónico ya está vinculada a una cuenta. Si esta cuenta es tuya, puedes <a href=\"/account/login#recover\">restablecer tu contraseña</a>",
+      "verify_email": "Hemos enviado un correo electrónico a %{customer_email}. Por favor, haz clic en el enlace adjunto para verificar tu dirección de correo electrónico.",
+      "blocked_address": "Esta ubicación no está soportada",
+      "product_not_available": "el producto no está publicado para este cliente.",
+      "shop_404": {
+        "title": "¡Crea un sitio web de comercio electrónico y vende tus productos en línea! Software de comercio electrónico de Shopify",
+        "heros": {
+          "store_unavailable": "Esta tienda no está disponible en este momento.",
+          "no_storefront": "Esta tienda aún no tiene sitio web."
+        },
+        "links": {
+          "start_free_trial": "Probar gratis"
+        },
+        "owner_ctas": {
+          "fix_domain": "Ve a %{domain_settings_link} y completa la configuración de tu nueva dirección web. Haz clic en 'Conectar dominio' y escribe: %{domain}.<br>Si no puedes acceder a tu tienda, intenta %{forgot_your_store_link}",
+          "fix_domain_link_text": "tus ajustes de dominio",
+          "add_storefront": "Puedes configurar tu sitio web añadiendo el canal de tienda online en %{admin_link}. Si no puedes acceder a tu tienda, intenta %{forgot_your_store_link}",
+          "admin_link_text": "centro de gestión"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Venta personal",
+            "caption": "Obtén las funciones que necesitas para gestionar tu tienda minorista, ya sea que estés comenzando o expandiéndote.",
+            "link_text": "Iniciar prueba gratuita"
+          },
+          "open_a_store": {
+            "header": "Abrir una nueva tienda Shopify",
+            "caption": "Comience una prueba gratuita de tres días y luego continúe durante tres meses por 1 USD al mes."
+          },
+          "editions": {
+            "header": "Ver ediciones de Shopify",
+            "caption": "Hay más de 100 actualizaciones de productos que te permitirán ser más productiva, creativa y eficaz en el mundo comercial de lo que jamás habías imaginado.",
+            "link_text": "Explorar las ediciones más recientes"
+          },
+          "store_owner": {
+            "caption": "¿No puedes acceder a tu tienda? Prueba la función %{forgot_your_store_link}. Si quieres reactivar tu tienda, contacta con %{shopify_support_link}.",
+            "shopify_support_link_text": "Soporte de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "no_account_found": "No se encontró ninguna cuenta con ese correo electrónico.",
+        "denylisted_reset_password": "No se puede abrir tu cuenta porque la contraseña actual no es segura. Recibirás un correo electrónico para restablecer tu contraseña.",
+        "signup_disabled": "La creación de cuentas de cliente está desactivada.",
+        "subscribe_error": "Error al suscribirse",
+        "unsubscribe_error": "Error al cerrar sesión"
+      },
+      "address": {
+        "updated": "Dirección actualizada.",
+        "error_updating": "Error al actualizar la dirección"
+      }
     }
   }
 }
