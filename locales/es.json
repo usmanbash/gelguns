@@ -1156,7 +1156,69 @@
         "estimated_delivery_time_range": "Entrega prevista %{min_time}–%{max_time}",
         "arrives_time": "Se entregará en %{time}",
         "arrives_time_range": "Se entregará entre %{min_time} y %{max_time}",
-        "estimated_time": "Esperado en %{time}"
+        "estimated_time": "Esperado en %{time}",
+        "estimated_time_range": "Se espera entre %{min_time} y %{max_time}",
+        "subscription_local_delivery": "Suscripción para entrega local",
+        "subscription_pickup": "Suscripción de recogida",
+        "delivery_today": "Entrega el mismo día a las %{time}",
+        "delivery_tomorrow": "Entrega al día siguiente a las %{time}",
+        "two_day_delivery": "Entrega en 2 días a las %{time}",
+        "delivery": "Entrega en %{time}",
+        "duties_and_taxes_title": "Derechos de aduana e impuestos",
+        "shipping_information_required_notice": "Se requieren datos de envío. {{link}}.",
+        "shipping_information_redirect_link": "Introduce tus datos aquí",
+        "loading_progressive_rates": "Buscar más tarifas...",
+        "no_other_methods_available": "No hay otros métodos disponibles",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagar contra reembolso",
+          "ddu_caption": "Pueden aplicarse costos adicionales",
+          "ddp_caption": "Sin costos adicionales en la entrega"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} en %{current}"
+        },
+        "shipping_used_as_billing_notice": "Esto también se usa como tu dirección de facturación para este pedido.",
+        "address_update": "Actualizar dirección",
+        "add_delivery_instructions": "Añadir instrucciones de entrega",
+        "address_more": "Más ofertas para esta dirección",
+        "address_confirm": "¿Estás segura de que quieres eliminar esta dirección de tu cuenta?",
+        "address_form": {
+          "generic_error": "Se ha producido un problema al guardar tu dirección. Inténtalo de nuevo.",
+          "one_time_address_subtitle": "Usar una dirección única para este pedido"
+        },
+        "different_shipping_method_summary": "Ingrese otra dirección de entrega para ver los métodos de envío disponibles",
+        "invalid_shipping_method_summary": "Introduzca una dirección de entrega válida para ver los métodos de envío disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Introduzca una dirección de entrega completa para ver los métodos de envío disponibles",
+          "incomplete_address_selected": "Seleccione una dirección de entrega completa para ver los métodos de envío disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Buscar dirección",
+          "rollup_title": "Lugar de recogida",
+          "rollup_accessibility_label": "Opciones para lugar de recogida"
+        },
+        "missing_shipping_address": "Falta la dirección de entrega",
+        "address_default": "Establecer como predeterminado",
+        "split_shipping_merchandise_quantity_label_additional": "+ nuez %{quantity}",
+        "pre_order_ships_later": "Se enviará más tarde",
+        "pre_order_ships_date": "Se enviará el %{date}",
+        "split_shipping_shipped_by_shop": "Enviado por %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Múltiples envíos",
+        "split_shipping_shipping_label": "Sabio",
+        "split_shipping_multiple_shipment_notice": "El pedido se entregará en varios envíos",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Tu pedido se entregará en %{quantity} envíos",
+        "split_shipping_option_fastest": "Más rápido",
+        "split_shipping_shipment_notice": "Recibirás tu pedido en %{quantity_shipments}",
+        "prime_not_available": {
+          "default": "La entrega Prime no está disponible para tu pedido. Tus opciones de envío han sido actualizadas."
+        },
+        "split_shipping_first_shipment_notice": "Recibirás tu primer pedido en %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Opciones para el método de envío",
+        "shipping_address_rollup_accessibility_label": "Opciones para enviar a la dirección",
+        "back": "Volver",
+        "invalid_shipping_method_summary_selected": "Seleccione otra dirección de entrega para ver los métodos de envío disponibles",
+        "third_party_address_timeout": "No se pueden cargar las direcciones. Inténtalo de nuevo o usa otra dirección.",
+        "third_party_address_error": "Se ha producido un error al cargar la selección de direcciones. Por favor, introduce tu dirección manualmente a continuación."
       }
     }
   }
