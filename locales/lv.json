@@ -1276,6 +1276,68 @@
         "gift_card_store_credit": {
           "add_label": "Pievienot dāvanu karti vai veikala kredītu",
           "manage_label": "Dāvanu kuponu vai veikala kredīta pārvaldība"
+        },
+        "saved_credit_card_cvv_verification": "Lai pārbaudītu, ievadiet savas kartes drošības kodu.",
+        "order_edit_banner_updated_order_label": "Atjaunināts pasūtījums",
+        "afterpay_label": "Pēcmaksājums",
+        "cashapppay_label": "Naudas lietotnes maksājums",
+        "card_nickname_label": "Segvārds (pēc izvēles)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Izņemts no atgriešanas",
+          "with_quantities": "{{delta}} izņemts no atgriešanas"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Izņemts no atgriešanas",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} izņemts no atgriešanas",
+        "proposed_gateway_unavailable": "Ierosinātā maksājumu vārteja nav pieejama",
+        "pay_in_installments_split_pay_short": "Četri maksājumi pa %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Maksāšanas veids nav pieejams izvēlētajai piegādes adresei. Lūdzu, izvēlieties citu maksāšanas veidu.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nav pieejams šim pasūtījumam. Izvēlieties citu maksājuma veidu.",
+        "paypal_disconnect": "Atvienošana",
+        "paypal_wallet_label": "PayPal-maciņš",
+        "payment_method_update_failed": "Maksāšanas metodes atjaunināšana neizdevās.",
+        "alternative_payment_currency_total_manual_payment_notice": "Piezīme: Konvertētais kopējais apjoms ir %{amount_due}.",
+        "gift_cards_unavailable": "Dāvanu karte vairs nav derīga šim pasūtījumam un tāpēc ir dzēsta",
+        "network_card_payment_options": "Izvēlēties kredītkartes uzņēmumu",
+        "payment_flexibility_terms_id_mismatch": "ID nosacījumi maksājumu elastībai nesakrīt",
+        "offsite_gateway_review_page_redirect_hint": "Pārbaudot pasūtījumu, tu tiks novirzīts uz %{gateway_label}, lai pabeigtu pirkumu.",
+        "przelewy24_label": "Przelewy24",
+        "twint_label": "TWINT",
+        "gift_card_checkbox_label": "Dāvanu kupona izmantošana",
+        "blik_label": "Mirgo",
+        "vipps_label": "Vipps",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP-kredītkarte",
+        "simulated_express_checkout": "Digitālās maki nav pieejami redaktora paraugā jūsu reģiona vai pārlūkprogrammas dēļ",
+        "offsite_gateway_redirect_hint_no_button_label": "Tu tiks novirzīts uz %{gateway_label}, lai pabeigtu savu pirkumu.",
+        "swish_label": "Plivināt",
+        "network_card_persistence_description": "Izvēlētais tīkls tiks saglabāts kopā ar jūsu maksāšanas veidu nākotnes darījumiem.",
+        "usdc_label": "ASV dolāra stabilā monēta (USDC)",
+        "payment_method_incompatible_with_payment_terms": "Maksāšanas veids nav saderīgs ar maksājumu nosacījumiem.",
+        "payment_option": {
+          "accessibility_label": "Izvēlieties maksāšanas veidu"
+        },
+        "billing_address_rollup_accessibility_label": "Rēķina adreses izvēles iespējas",
+        "payment_method_rollup_accessibility_label": "Maksāšanas veida izvēles iespējas",
+        "crypto_modal": {
+          "header": "Maksājiet %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Atjaunot",
+            "close": "aizvērt",
+            "sandbox_error": "Radās kļūda",
+            "web_component_error": "Radās problēma, ielādējot šo lapu"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Maksājumu konts",
+          "savings": "Krājkonts"
+        },
+        "bank_account_choose": "Izvēlieties kontu, lai droši pabeigtu savu pirkumu",
+        "bank_account_connect_another": "Pievienot citu bankas kontu",
+        "bank_account_connect": "Saistīt bankas kontu",
+        "bank_account_missing": "Bankas kontam jābūt saistītam",
+        "crypto_payment_method": {
+          "description": "Nodrošini savu maku. Tavs atlikums un adrese netiek kopīgoti.",
+          "tooltip": "Tava maka atlikums un adrese netiek kopīgoti, un var tikt noņemta tikai pieprasītā summa"
         }
       }
     }

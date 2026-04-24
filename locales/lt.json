@@ -2357,7 +2357,107 @@
           "shipping_credential_cr": "Identifikacijos numeris/RUT",
           "tax_credential_ec": "CI/RUC/IVA",
           "shipping_credential_ec": "CI/RUC/IVA",
-          "tax_credential_gt": "NIT/PNF"
+          "tax_credential_gt": "NIT/PNF",
+          "shipping_credential_gt": "NIT/PNF",
+          "tax_credential_my": "TIN/Registracijos numeris",
+          "shipping_credential_my": "TIN/Registracijos numeris",
+          "tax_credential_py": "CI/RUC/PIVM",
+          "shipping_credential_py": "CI/RUC/PIVM",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "NIF/PIB",
+          "shipping_credential_pt": "NIF/PIB",
+          "tax_credential_es": "DNI/NIF",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tw": "Nacionalinis asmens kodas/PVM",
+          "tax_credential_tr": "Turkijos Respublikos asmens kodas/PVM",
+          "shipping_credential_tr": "Turkijos Respublikos asmens kodas/PVM"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Jūs sumokėjote už savo užsakymą.",
+        "escape_action": "Peržiūrėti užsakymo patvirtinimą ›",
+        "components": {
+          "expand": "Peržiūrėti daugiau",
+          "processing": "Apdorojama..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Jūsų pirkinių krepšelis atnaujintas pagal jūsų šalį siuntimui.",
+        "cart_and_currency_updated_based_on_country": "Jūsų prekių krepšelis ir valiuta pritaikyti siuntimo šaliai.",
+        "currency_updated_for_country": "Valiuta atnaujinta %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Pirmasis mokėjimas %{total_price}",
+            "other": "Pirmos %{count} mokėjimai po %{total_price} už vienetą"
+          },
+          "following_cycles": ", tada %{total_price} kas %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} dienų"
+          },
+          "week": {
+            "other": "%{count} savaitės"
+          },
+          "month": {
+            "other": "%{count} mėnesių"
+          },
+          "year": {
+            "other": "%{count} metų"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Pirmas mokėjimas %{total_price_with_discount}, vėliau %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", po to %{count} mokėjimas už %{total_price}",
+            "other": ", po to %{count} mokėjimai, kiekvienas po %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Įvyko problema apdorojant jūsų užklausą.",
+          "success_message": "Jūsų mokėjimo būdas buvo pašalintas"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "MoR (Merchant of Record) bendrosios sąlygos",
+        "privacy_policy": "Registruoto prekybininko privatumo politika"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nėra prekės",
+          "other": "Nėra prieinamų produktų"
+        },
+        "products_not_available": {
+          "one": "Šis produktas bus pašalintas iš jūsų krepšelio, nes jis nėra prieinamas jūsų šalyje/regionuose.",
+          "other": "Šie produktai bus pašalinti iš jūsų krepšelio, nes jie nėra prieinami jūsų šalyje/regionoje."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Šis produktas nėra prieinamas jūsų šalyje/regiono.",
+          "other": "Šie produktai nėra prieinami jūsų šalyje/regionoje."
+        },
+        "unavailable_label": "Nėra prieinama"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Jūsų šalis/regionas atnaujintas. Įveskite pristatymo adresą, kad tęstumėte prie kasos."
+      },
+      "throttle": {
+        "line_to_check_out": "Jūs stovite eilėje atsiskaityti",
+        "cart_summary_heading": "Jūsų prekių krepšelis",
+        "merchandise": {
+          "available": "Prieinama"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Dalies tavo krepšelio prekių nebeliko ir jų negalima įsigyti atsiskaitymo metu.",
+          "sold_out": {
+            "heading": "Jūsų pirkinių krepšelis išparduotas",
+            "storefront_body": "Grįžkite į parduotuvę, kad tęstumėte apsipirkimą",
+            "no_storefront_body": "Deja, prekė, kurią norėjote įsigyti, nebėra prieinama."
+          }
         }
       }
     }
