@@ -2316,7 +2316,103 @@
         "all_products_in_cart_unavailable": {
           "one": "Ovaj proizvod nije dostupan u tvojoj zemlji/regiji.",
           "other": "Ovi proizvodi nisu dostupni u tvojoj zemlji/regiji."
+        },
+        "unavailable_label": "Nije dostupno"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Vaša zemlja/regija je ažurirana. Unesite adresu za dostavu kako biste nastavili na naplatu."
+      },
+      "throttle": {
+        "line_to_check_out": "Stojiš u redu za plaćanje",
+        "inventory": {
+          "partial_inventory_banner": "Dio vaše košarice je rasprodan i ne može se kupiti pri naplati.",
+          "sold_out": {
+            "heading": "Vaša košarica je rasprodana",
+            "storefront_body": "Vrati se u trgovinu da nastaviš s kupovinom",
+            "no_storefront_body": "Nažalost, proizvod koji ste željeli kupiti više nije dostupan."
+          }
+        },
+        "title": "Red čekanja",
+        "time_to_checkout_title": "Vrijeme je za plaćanje - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Izračunaj procijenjeno vrijeme čekanja",
+          "less_than_one": "Procijenjeno vrijeme čekanja: manje od minute",
+          "one": "Procijenjeno vrijeme čekanja: {{count}} minuta",
+          "other": "Procijenjeno vrijeme čekanja: {{count}} minuta"
+        },
+        "footer": {
+          "heading": "Ne morate osvježavati ovu stranicu, ona se automatski ažurira.",
+          "body": "Artikli u tvojoj košarici bit će rezervirani tek nakon što dovršiš naplatu."
+        },
+        "too_many_attempts": {
+          "message": "Previše pokušaja"
         }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Došlo je do problema pri obradi vašeg zahtjeva. Molimo kontaktirajte vlasnika trgovine."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Nema dostupne dostave za %{count} artikl",
+            "other": "Nema dostupne dostave za %{count} artikala"
+          },
+          "message": {
+            "one": "Ovaj će se artikl ukloniti iz tvoje košarice jer za tvoju adresu nisu dostupne metode dostave.",
+            "other": "Ovaj će se artikl ukloniti iz tvoje košarice jer za tvoju adresu nisu dostupne metode dostave."
+          },
+          "label": "Nema dostave"
+        }
+      },
+      "no_address_location": {
+        "header": "Nema adrese za dostavu za ovu lokaciju",
+        "message": "Kontaktirajte nas kako biste dodali adresu za ovu lokaciju, kako biste mogli dovršiti naplatu.",
+        "email_us_button_label": "Pošaljite nam e-mail"
+      },
+      "order_errors": {
+        "creation_failure": "Došlo je do problema prilikom izrade vaše narudžbe. Pokušajte ponovno ili nas kontaktirajte za više informacija.",
+        "network_failure": "Vaša narudžba ne može biti poslana zbog mrežne pogreške. Provjerite vezu i pokušajte ponovno."
+      },
+      "session_errors": {
+        "session_not_unique": "Došlo je do problema prilikom obrade vaše narudžbe. Osvježite ovu stranicu da se vratite u trgovinu.",
+        "session_already_finished": "Ova narudžba je već poslana. Možete se vratiti u trgovinu kako biste započeli novu narudžbu."
+      },
+      "pickup_point": {
+        "or": "od",
+        "search_button": "Pretraži",
+        "selector_tabs": "Izbor mjesta za preuzimanje",
+        "could_not_resolve_address": "Ne mogu pronaći adresu. Pokušajte ponovno ili upotrijebite drugu adresu",
+        "no_pickup_points_near_you": "Nema dostupnih mjesta za preuzimanje u blizini odabrane adrese",
+        "no_pickup_points_near_location": "Nema dostupnih mjesta za preuzimanje u blizini tvoje lokacije",
+        "no_pickup_points_found": "Nema pronađenih mjesta za preuzimanje",
+        "paginator": {
+          "header": {
+            "one": "Prikazuje %{first} - %{last} od %{count} rezultata",
+            "other": "Prikazuje %{first} - %{last} od %{count} bodova"
+          },
+          "selected_pickup_point_label": {
+            "other": "%{pickup_point_index} od %{count} lokacija"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} od %{count} točaka",
+            "other": "%{first} - %{last} od %{count} bodova"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} mjesta za preuzimanje u blizini tvoje lokacije",
+          "other": "%{count} mjesta za preuzimanje u blizini tvoje lokacije"
+        },
+        "waiting_on_pickup_point_location_notice": "Traženje mjesta za preuzimanje...",
+        "geolocation": {
+          "shared_location_button": "Koristi moju lokaciju",
+          "errors": {
+            "unsuported_by_browser": "Dohvaćanje geolokacije nije podržano u vašem pregledniku. Pokušajte ponovno ili upotrijebite drugi preglednik.",
+            "permission_not_allowed": "Dopusti dijeljenje svoje lokacije.",
+            "permission_denied": "Ne mogu dohvatiti lokaciju. Pokušajte ponovno."
+          }
+        },
+        "no_business_hours": "Nema dostupnih radnih vremena",
+        "open_twenty_four_hours": "Otvoreno 24/7"
       }
     }
   }
