@@ -1722,6 +1722,74 @@
         "shipping_method_not_available_generic": {
           "one": "Vaša narudžba ne može biti poslana na odabranu adresu. Provjerite je li adresa točna i pokušajte ponovno, ili odaberite drugu adresu.",
           "other": "Neki artikli u tvojoj košarici ne mogu biti poslani na unesenu adresu. Provjeri je li adresa točna i pokušaj ponovno ili odaberi drugu adresu."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Artikl koji ste dodali ne može se poslati na vašu lokaciju. Uklonite ovaj artikl da biste nastavili s plaćanjem ili kontaktirajte trgovinu.",
+          "other": "Jedan ili više artikala koje ste dodali ne mogu se poslati na vašu lokaciju. Uklonite artikle da biste nastavili s plaćanjem ili kontaktirajte trgovinu."
+        },
+        "payment_method_not_supported": "Ne možete koristiti ovu metodu plaćanja za %{country}. Upotrijebite drugu metodu plaćanja za slanje u ovu zemlju.",
+        "empty_state": "Unesite svoju adresu za dostavu kako biste vidjeli dostupne metode slanja.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "U košarici se nalaze artikli koji ne ispunjavaju zahtjeve za cijenu ili težinu potrebne za dostavu. Ažurirajte košaricu i pokušajte ponovno.",
+        "invalid_selected_address": "Odabrana adresa dostave nije valjana",
+        "invalid_selected_address_with_update_link": "Odabrana adresa dostave nije valjana. %{update_address_link} ili odaberite drugu adresu.",
+        "unavailable_selected_address": "Dostava nije dostupna za odabranu adresu",
+        "unavailable_selected_address_for_region": "Dostava nije dostupna za {{region}}. Odaberite drugu adresu za nastavak",
+        "unavailable_addresses_only_countries": "Vaša narudžba može biti poslana samo u {{countriesList}}. Dodajte novu adresu za nastavak.",
+        "unavailable_address_country": "Dostava nije moguća u zemlji koju ste odabrali. Unesite drugu adresu za nastavak."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Brza naplata",
+        "or": "OD",
+        "or_pay_another_way": "Ili platite na drugi način",
+        "or_check_out_another_way": "Ili platite na drugi način"
+      },
+      "processing": {
+        "redirecting_page_title": "Prosljeđivanje…",
+        "redirecting_title": "Prosljeđivanje…",
+        "redirecting_notice": "Bit ćete preusmjereni.",
+        "complete_your_purchase_title": "Dovršite kupnju",
+        "continue_to_payment_gateway_notice": "Nastavi na plaćanje kako bi dodao svoje podatke za plaćanje.",
+        "continue_to_payment_gateway_button_label": "Idi na plaćanje",
+        "complete_your_purchase_title_error": "Ispravi svoje podatke o plaćanju",
+        "continue_to_payment_gateway_notice_error": "Vaši podaci za plaćanje ne mogu biti potvrđeni.",
+        "continue_to_payment_gateway_button_label_error": "Ažuriraj podatke o plaćanju",
+        "page_title": "Narudžba se obrađuje",
+        "title": "Narudžba se obrađuje",
+        "your_order_has_been_received_title": "Hvala na vašoj narudžbi",
+        "you_will_receive_confirmation": "Trenutno primamo vrlo mnogo narudžbi. Uskoro biste trebali primiti potvrdu putem e-pošte ili SMS-a. Javite nam ako je ne dobijete unutar sat vremena.",
+        "wait": {
+          "short": "Vaša narudžba se obrađuje.",
+          "medium": {
+            "one": "Vaša narudžba se obrađuje. Procijenjeno vrijeme čekanja je %{count} minuta.",
+            "other": "Vaša narudžba se obrađuje. Procijenjeno vrijeme čekanja je %{count} minuta."
+          },
+          "long": "Dobit ćete e-mail čim vaša narudžba bude obrađena. Trenutno je veliki broj narudžbi.",
+          "no_auto_refresh_html": "%{link} ako ne budete automatski preusmjereni.",
+          "refresh_this_page": "Ponovno učitajte ovu stranicu"
+        },
+        "you_will_not_be_charged": "Još nisu naplaćeni nikakvi troškovi",
+        "action_required": "Potrebna akcija",
+        "redirecting_to_bank": "Preusmjeri na {{bank}}",
+        "modal_notice": "Stupamo u kontakt s {{paymentMethod}}"
+      },
+      "failed_payment": {
+        "page_title": "Plaćanje se ne može obraditi",
+        "title": "Plaćanje se ne može obraditi",
+        "payment_not_processed_title": "Vaša uplata ne može biti obrađena.",
+        "payment_not_processed_text": "Nisu naplaćeni nikakvi troškovi. Vratite se u svoju košaricu kako biste dovršili kupnju.",
+        "return_to_cart_button_label": "Povratak na košaricu"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Uplata na račun",
+        "cash_on_delivery_label": "Povrat",
+        "money_order_label": "Poštanska doznaka",
+        "debit_card_label": "Platna kartica",
+        "deferred_payment_label": "Odaberite kasnije način plaćanja",
+        "generic_payment_terms": "Uvjeti plaćanja za {{translatedName}} primjenjuju se. Vaša uplata dospijeva {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} na račun s pristupom ovoj lokaciji ili za dodavanje ili korištenje spremljenih načina plaćanja."
+          }
         }
       }
     }
