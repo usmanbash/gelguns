@@ -3748,7 +3748,93 @@
         "edit_accessibility_label": "Modifica numero d'ordine",
         "edit_modal_title": "Modifica numero d'ordine",
         "empty_state": "Nessun numero d'ordine",
-        "modal_po_number_input_label": "Numero d'ordine"
+        "modal_po_number_input_label": "Numero d'ordine",
+        "modal_po_number_input_max_length_error": "I numeri d'ordine possono contenere al massimo {{maxLength}} caratteri.",
+        "title": "Numero d'ordine di acquisto {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Si è verificato un problema durante la rimozione di questo indirizzo. Riprova o aggiorna la pagina."
+      },
+      "addresses_loading_issue": {
+        "description": "Errore di connessione. Controlla la tua connessione a internet e riprova."
+      },
+      "banner_title": {
+        "one": "C'è {{count}} errore",
+        "other": "Ci sono {{count}} errori"
+      },
+      "failed_address_creation": {
+        "description": "Si è verificato un problema durante la creazione del tuo indirizzo. Ricarica questa pagina o controlla la tua connessione a internet."
+      },
+      "failed_address_update": {
+        "description": "Si è verificato un problema durante l'aggiornamento del tuo indirizzo. Ricarica questa pagina o controlla la tua connessione a internet."
+      },
+      "no_access_to_locations": {
+        "description": "Non hai accesso alle posizioni"
+      },
+      "not_found": {
+        "title": "Si è verificato un problema durante il caricamento di questa pagina"
+      },
+      "order_not_found": {
+        "description": "Questo ordine non esiste o non sei autorizzato a visualizzarlo."
+      },
+      "profile_update_error": {
+        "description": "Si è verificato un problema durante l'aggiornamento del tuo profilo. Ricarica questa pagina o controlla la tua connessione a internet."
+      },
+      "load_orders_error": {
+        "description": "Riprova oppure torna più tardi."
+      },
+      "load_extension_error": {
+        "description": "Aggiorna questa pagina o riprova tra qualche minuto."
+      },
+      "already_upgraded": "Gli account cliente sono già stati aggiornati.",
+      "failed_to_upgrade": "L'aggiornamento delle impostazioni dell'account cliente non è riuscito.",
+      "logout_everywhere": {
+        "description": "Si è verificato un problema durante la disconnessione. Riprova."
+      },
+      "profile_name_update_error": {
+        "description": "Si è verificato un problema durante l'aggiornamento del tuo nome. Ricarica questa pagina o controlla la tua connessione a internet."
+      },
+      "load_address_form_error": {
+        "title": "Impossibile caricare il modulo di indirizzo",
+        "description": "Impossibile caricare il modulo di indirizzo."
+      },
+      "not_upgraded": "Gli account cliente non sono stati aggiornati.",
+      "failed_to_revert": "Il ripristino delle impostazioni dell'account cliente non è riuscito.",
+      "revert_window_expired": "Il periodo di recupero è terminato."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Dati metodo di pagamento",
+        "preauthorized_payments": "Pagamenti autorizzati in anticipo",
+        "close_payment_modal": "Chiudere",
+        "close_payment_modal_accessibility_label": "Modalità Dati metodo di pagamento chiudi",
+        "payment_details_loading": "Caricamento dati metodo di pagamento",
+        "pre_authorized_payments": "Pagamenti autorizzati in anticipo",
+        "total_amount_of_subscription_line_items_left": "e ancora {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} articoli in totale; {{totalItemsToDisplay}} articoli vengono visualizzati.",
+        "next_payment_due": "Prossimo pagamento dovuto il {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Modificare il metodo di pagamento che termina con {{lastDigits}}",
+        "credit_card_details_accessibility_label": "terminante con {{lastDigits}}",
+        "card_info_title": "Dati della mappa",
+        "payment_method_expired_on": "Scade il {{expiryDate}}",
+        "loading_shop_pay": "Carica con Shop Pay",
+        "invalid_payment_method_message": "Usa una nuova carta di credito per continuare a ricevere gli ordini futuri.",
+        "replace_payment_method": "Sostituire il metodo di pagamento",
+        "checkout_card_banner": "Puoi utilizzare questo metodo di pagamento solo per pagamenti autorizzati in anticipo. Non verrà mostrato al momento del pagamento se hai effettuato l'accesso a questo negozio.",
+        "replace_payment_method_button": "Sostituire"
+      },
+      "delete_payment_method_button": "Rimuovere",
+      "delete_payment_method_button_accessibility_label": "Rimuovere {{paymentMethodName}}",
+      "payment_delete": {
+        "title": "Rimuovi metodo di pagamento",
+        "description_without_replacement": "Questo metodo di pagamento non è più disponibile per acquisti futuri.",
+        "description_with_replacement": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo. Puoi anche sostituirlo con un altro metodo di pagamento per continuare a ricevere gli ordini in arrivo.",
+        "payment_method_selector_placeholder": "Seleziona un metodo di pagamento alternativo (facoltativo)",
+        "replace_method_with_new_method_description": "Il tuo {{currentPaymentMethodName}} verrà rimosso e sostituito con il tuo {{newPaymentMethodName}}.",
+        "error_when_deleting": "Ci scusiamo, si è verificato un problema e non possiamo rimuovere questo metodo di pagamento. Riprova più tardi o aggiorna la pagina.",
+        "delete_and_replace_button": "Rimuovere e sostituire"
       }
     }
   }
