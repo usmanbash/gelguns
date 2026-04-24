@@ -3135,6 +3135,88 @@
           "email_cant_be_blank": "E-post får inte vara tom"
         },
         "editable_email_help_text": "Din e-postadress används för registrering och beställningsuppdateringar."
+      },
+      "profile_update_confirmation_message": "Profil uppdaterad",
+      "people": {
+        "pagination": {
+          "load_more": "Ladda mer",
+          "load_more_accessibility_label": "Fler personer laddar",
+          "loading_accessibility_label": "Laddar personer"
+        }
+      },
+      "add_button": "Lägga till",
+      "verify_new_email_modal": {
+        "description": "Ange koden som skickades till {{email}}",
+        "one_time_password_label": "Kod med 6 siffror",
+        "verify_button_accessibility_label": "Verifiera engångslösenordet",
+        "email_resend_button_success_toast_message": "Verifieringskod skickad",
+        "email_resend_button_failure_banner_message": "Kan inte skicka verifieringskod"
+      },
+      "email_update_success_modal": {
+        "description": "E-postuppdateringen lyckades. Omdirigerar till inloggning."
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Formateringsalternativ",
+      "list_title": "Beställningar",
+      "order_list": {
+        "column_headers": {
+          "order": "Beställning",
+          "actions_accessibility_label": "Kampanjer",
+          "products_accessibility_label": "Produkten"
+        },
+        "delivered": "Bekymrad: {{date}}",
+        "empty_state_order_source_description": "Endast beställningar som görs via {{email}} visas här.",
+        "empty_state_subtitle": "Gå till butiken för att lägga en beställning.",
+        "empty_state_title": "Inga beställningar ännu",
+        "order_link": "Visa beställning {{name}}",
+        "order_number": "Beställning {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Navigeringsknappar för beställningar",
+          "next_accessibility_label": "Nästa beställningar",
+          "previous_accessibility_label": "Tidigare beställningar",
+          "load_more": "Ladda mer",
+          "load_more_accessibility_label": "Ladda fler beställningar"
+        },
+        "sort_hide_options_accessibility_label": "Dölj sorteringsalternativ för bekräftade beställningar.",
+        "sort_show_options_accessibility_label": "Visa sorteringsalternativ för bekräftade beställningar.",
+        "sort": {
+          "date": {
+            "newest": "Från nyast till äldst",
+            "oldest": "Från äldst till nyast"
+          },
+          "location": {
+            "descending": "Plats (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Beställningsnummer (från lägst till högst)",
+            "descending": "Beställningsnummer (högst till lägst)"
+          },
+          "order_total": {
+            "ascending": "Total beställning (stigande ordning)",
+            "descending": "Total beställning (hög till låg)"
+          }
+        },
+        "one_images_accessibility_label": "Beställning innehåller {{lineItemName1}}",
+        "two_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Ta bort filter eller justera dem för att se dina beställningar",
+        "estimated_shortform": "Uppskattat den {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "För sent",
+            "due": "Skyldigt den {{date}}",
+            "due_without_date": "Skyldig",
+            "due_on_fulfillment": "Att betala vid fullgörande",
+            "payment_not_due": "Ej ännu förfallen till betalning"
+          },
+          "gallery_view": {
+            "overdue": "Betalningen är försenad",
+            "due_today": "Betalning ska göras idag",
+            "due_without_date": "Betalning skyldig"
+          }
+        }
       }
     }
   }
