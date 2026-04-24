@@ -1532,7 +1532,71 @@
         "bank_account_type": {
           "checking": "λογαριασμός πληρωμών",
           "savings": "Λογαριασμός αποταμίευσης"
-        }
+        },
+        "bank_account_choose": "Επίλεξε έναν λογαριασμό για να ολοκληρώσεις με ασφάλεια την αγορά σου",
+        "bank_account_connect_another": "Σύνδεση άλλου τραπεζικού λογαριασμού",
+        "crypto_payment_method": {
+          "description": "Σύνδεσε το πορτοφόλι σου με ασφάλεια. Το υπόλοιπο και η διεύθυνσή σου δεν κοινοποιούνται.",
+          "tooltip": "Το υπόλοιπο του πορτοφολιού σου και η διεύθυνσή σου δεν κοινοποιούνται και μόνο το ζητούμενο ποσό μπορεί να αφαιρεθεί.",
+          "cashback_descriptor": {
+            "one": "Θα λάβετε την επιστροφή χρημάτων σας μετά από %{count} ημέρα",
+            "other": "Θα λάβετε το cashback σας μετά από %{count} ημέρες"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% επιστροφή χρημάτων",
+        "usdc_cashback_additional_info": "Πληρώστε με USDC στο Base και λάβετε πίσω %{incentive_percentage}% στο ψηφιακό σας πορτοφόλι εντός 30 ημερών.",
+        "usdc_cashback_terms": "Όροι και όρια που ισχύουν",
+        "separate_payments_label": "Τα αντικείμενά σας προέρχονται από περισσότερα από ένα καταστήματα. Πρέπει να ολοκληρώσετε την πληρωμή με %{separate_payments_link}.",
+        "payments": "Η πληρωμή",
+        "business_customer_with_bank_account_vaulting_payment_label": "Αποθήκευσε αυτήν την μέθοδο πληρωμής κατά την ολοκλήρωση της αγοράς και εξουσιοδότησε την %{company} να χρεώνει τον λογαριασμό σου για μελλοντικές αγορές που εγκρίνεις για αυτήν την τοποθεσία, μέχρι να ακυρώσεις. Όλα τα άτομα επικοινωνίας που έχουν ανατεθεί σε αυτήν την τοποθεσία μπορούν να χρησιμοποιούν αυτήν τη μέθοδο πληρωμής.",
+        "new_bank_account_disclaimer": "Με την ολοκλήρωση της παραγγελίας σου εξουσιοδοτείς το %{shop_name} να χρεώσει το αναγραφόμενο ποσό στον παρακάτω λογαριασμό την καθορισμένη ώρα μέσω ACH.",
+        "bank_account_disclaimer": "Η επεξεργασία των πληρωμών ACH μπορεί να διαρκέσει έως 4 εργάσιμες ημέρες.",
+        "bank_account_generic_error": "Δεν ήταν δυνατή η προσθήκη του τραπεζικού λογαριασμού. Παρακαλώ δοκιμάστε ξανά αργότερα.",
+        "discount_codes_removed_summary": {
+          "one": "Ο κωδικός έκπτωσης %{count} αφαιρέθηκε",
+          "other": "Έχουν αφαιρεθεί %{count} κωδικοί έκπτωσης"
+        },
+        "default": "Πρότυπο",
+        "continue_to_guest_checkout": "Ως επισκέπτης προς την ολοκλήρωση αγοράς",
+        "choose_new_payment_method": "Επιλέξτε μια νέα μέθοδο πληρωμής",
+        "discount_codes_modified_summary": {
+          "one": "Ο κωδικός έκπτωσης %{count} έχει αλλάξει",
+          "other": "Έχουν αλλάξει %{count} κωδικοί έκπτωσης"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} κωδικός έκπτωσης έχει αφαιρεθεί ή τροποποιηθεί",
+          "other": "%{count} κωδικοί έκπτωσης έχουν αφαιρεθεί ή τροποποιηθεί"
+        },
+        "multiple_primary_payment_not_allowed": "Μη έγκυροι τρόποι πληρωμής"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Ισχύει από %{month}/%{year}",
+        "express_payment_gateway_label": "Εξπρές",
+        "manual_payment_gateway_label": "Χειροκίνητο",
+        "billing_address_title": "Διεύθυνση τιμολογίου"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Εισάγετε έναν έγκυρο αριθμό τηλεφώνου",
+        "handle_email_invalid": "Εισάγετε μια έγκυρη διεύθυνση email",
+        "email_invalid": "Εισάγετε μια έγκυρη διεύθυνση email",
+        "email_or_phone_blank": "Εισαγάγετε διεύθυνση email ή αριθμό τηλεφώνου",
+        "email_or_phone_invalid": "Εισάγετε μια έγκυρη διεύθυνση email ή αριθμό κινητού τηλεφώνου",
+        "address_first_name_blank": "Εισάγετε ένα όνομα",
+        "address_last_name_blank": "Εισαγάγετε ένα επώνυμο",
+        "address_address1_blank": "Εισαγάγετε μια διεύθυνση",
+        "address_address2_blank": "Εισαγάγετε έναν αριθμό διαμερίσματος ή σουίτας, κ.λπ.",
+        "address_city_blank": "Εισάγετε μια πόλη",
+        "address_country_blank": "Επιλέξτε μια χώρα/περιοχή",
+        "address_country_not_supported": "Δεν αποστέλλουμε σε αυτήν τη χώρα/περιοχή. Εισάγετε μια νέα διεύθυνση παράδοσης και δοκιμάστε ξανά.",
+        "address_province_blank": "Επιλέξτε μια πολιτεία/περιφέρεια",
+        "address_company_blank": "Εισαγάγετε ένα όνομα εταιρείας",
+        "address_phone_blank": "Εισάγετε έναν έγκυρο αριθμό τηλεφώνου",
+        "address_zip_blank": "Εισάγετε έναν ταχυδρομικό κώδικα ή ZIP",
+        "address_zip_invalid_for_country": "Εισάγετε έναν έγκυρο ταχυδρομικό κώδικα ή ZIP για %{country}",
+        "address_zip_invalid_for_country_and_province": "Εισάγετε έναν έγκυρο ταχυδρομικό κώδικα ή ZIP για %{province}, %{country}",
+        "credit_card_name_blank": "Εισάγετε το όνομά σας όπως εμφανίζεται στην κάρτα σας",
+        "credit_card_name_invalid": "Εισάγετε το όνομά σας όπως εμφανίζεται στην κάρτα σας",
+        "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας"
       }
     }
   }
