@@ -4413,7 +4413,85 @@
       "closeNotification": "Затвори",
       "expandNotification": "Виж още",
       "closeModal": "Затвори",
-      "submit": "Подаване"
+      "submit": "Подаване",
+      "processing": "Обработка...",
+      "increase": "Увеличение на {{type}}",
+      "decrease": "Вземане на {{type}}",
+      "minimumReached": "Минимален ван достигнат {{value}}",
+      "maximumReached": "Максимумът на {{value}} е достигнат",
+      "mondayAbbreviation": "ма.",
+      "tuesdayAbbreviation": "ди.",
+      "wednesdayAbbreviation": "уо.",
+      "thursdayAbbreviation": "направи.",
+      "fridayAbbreviation": "г.",
+      "saturdayAbbreviation": "за.",
+      "sundayAbbreviation": "зо.",
+      "showNextMonth": "Показване следващия месец, {{month}} {{year}}",
+      "showPreviousMonth": "Показване на предходния месец, {{month}} {{year}}",
+      "rangeStart": "Започнете обхват",
+      "inRange": "В обсега",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} налични артикула",
+        "other": "{{count}} артикула налични"
+      },
+      "removeTag": "Премахване на етикет",
+      "month": {
+        "other": "месеци"
+      },
+      "mapClusterTitle": {
+        "one": "Клъстер от {{number}} маркиращи точки",
+        "other": "Клъстер от {{number}} маркери"
+      },
+      "dropzoneInvalidFileType": "Този тип файл не се поддържа",
+      "dropzoneDraggedOver": "Поставете файла за качване",
+      "clear": "Знание"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Настройване",
+      "hide_bar": "Скрий балкона",
+      "navigate_to_admin": "Навигиране към центъра за управление",
+      "previewing": "Вие разглеждате пример на:",
+      "saved_at": "Записано на {{date}} в {{time}}",
+      "viewing": "Вие разглеждате:",
+      "not_available": "Няма налични данни за профила",
+      "close_preview": "Затвори пример",
+      "actions_button": "Оферти"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Изход от всички акаунти",
+        "description": "Ако сте загубили устройство или се притеснявате за сигурността, излезте от всички места, за да гарантирате безопасността на акаунта си.",
+        "warning_message": "Ще бъдеш излязъл и от това устройство."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "На {{date}} в {{time}}",
+        "lessThanOneWeekAgo": "В {{weekday}} в {{time}}",
+        "lessThanOneWeekAway": "В {{weekday}} в {{time}}",
+        "lessThanOneYearAway": "На {{date}} в {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "преди {{count}} минути"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Изберете разширението с име '{{extensionName}}'",
+        "unselect": "Отмяна на избора на разширението с име '{{extensionName}}'",
+        "move_down": "Премести разширението на следващата позиция",
+        "remove": "Премахване на разширение",
+        "move_down_tooltip": "Премести на следващата позиция",
+        "move_up_tooltip": "Върни се на предишната позиция"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Не можете да отворите този линк в редактора. Линкът ще се отвори в нов прозорец ({{resolved_to_link}}). Натиснете OK, за да продължите."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Опитайте отново след няколко минути"
+      }
     }
   }
 }
