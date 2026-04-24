@@ -572,7 +572,67 @@
       },
       "address_management": {
         "confirm_address_deletion": "Are you sure you want to delete the address {{address}} ?"
+      },
+      "general": {
+        "page_title": "Proceed to payment",
+        "skip_to_content": "Go straight to the content",
+        "authenticate_purchase_button_label": "Validate payment",
+        "edit_link_label": "Change",
+        "print_policies_link_label": "Prints",
+        "cart": "Shopping cart",
+        "expand_notice_label": "See more",
+        "continue_to_shipping_method": "Continue shipping",
+        "continue_to_payment_method": "Go to payment",
+        "continue_to_review": "Check order",
+        "back_to_cart": "Back to shopping cart",
+        "back_to_contact_information": "Back to information",
+        "back_to_shipping_method": "Back to shipping",
+        "back_to_payment_method": "Back to payment",
+        "errors": {
+          "session_identifier_not_unique_error": "Something went wrong with your order. Please try to check out again.",
+          "line_item_limit_reached": "The maximum number of order lines has been reached.",
+          "only_empty_terms_accepted": "This policy only accepts empty conditions.",
+          "session_is_already_finished": "This checkout session has already been completed.",
+          "merchandise": {
+            "only_value_constraint": "Only exact values are allowed when entering goods.",
+            "bundle_products_not_supported_for_b2b": "You cannot add bundled items to B2B orders for this location.",
+            "gift_card_quantity_mismatch": "When you enter gift voucher codes, the quantities on the order line must match the number of gift voucher codes.",
+            "gift_card_not_supported": "Gift vouchers are not supported at this checkout.",
+            "gift_card_not_unique": "Gift card with code {{code}} appears multiple times in this checkout. Codes are formatted before comparison.",
+            "gift_card_used": "The gift card code {{code}} has already been assigned to a gift card. Codes are formatted before comparison.",
+            "gift_card_invalid": "The gift card code {{code}} is invalid.",
+            "gift_card_code_changed": "The gift card code {{proposed_code}} has been changed to {{formatted_code}} according to the formatting rules.",
+            "gift_card_with_attributes_not_supported": "Gift vouchers with customized features are not supported at this checkout.",
+            "gift_card_with_components_not_supported": "Gift vouchers with components are not supported at this checkout.",
+            "price_mismatch": "The previously suggested price for these goods was invalid and has been updated.",
+            "inventory_not_found": "No stock found for these goods.",
+            "duplicated_stable_id": "This product line has the same stable ID as another line.",
+            "minimum_quantity_not_met": "For some items, the minimum allowed quantity is not met",
+            "maximum_quantity_exceeded": "For some items, the maximum allowed number is not met",
+            "quantity_increment_not_met": "For some items, the order limits are not met",
+            "quantity_rules_not_met": "For some items, the order limits are not met",
+            "bundle_requires_components": "This bundle of goods contains no components.",
+            "title_too_long": "The title of the goods is too long.",
+            "title_empty": "The title of the goods is empty.",
+            "mixed_currencies": "The checkout contains order lines with different currencies.",
+            "product_not_published_in_buyer_location": "Product is not published at buyer's location.",
+            "combined_listing_parent_not_purchasable": "Main products of combined listings cannot be purchased directly."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Contact person within the company does not have access to the company.",
+            "customer_account_required": "You must log in to continue.",
+            "contact_info_does_not_match_customer_account": "The contact details must match the account with which you are logged in.",
+            "phone_number_does_not_match_expected_pattern": "The provided telephone number has an incorrect pattern.",
+            "email_required": "When the goods have been purchased in a subscription, an email is required.",
+            "missing_contact_method": "A valid contact method is missing.",
+            "checkout_completion_target_is_missing": "Goal for completion of the checkout is missing."
+          }
+        }
       }
+    },
+    "sentence": {
+      "two_words_connector": "and",
+      "last_word_connector": ", and"
     }
   }
 }
