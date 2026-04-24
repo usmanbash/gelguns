@@ -3538,10 +3538,78 @@
             "order_includes_guarantees_label": "Livrarea ta are {{deliveryAgreementsCount}} garanții",
             "order_includes_guarantees_description": "Shop Promise oferă o garanție pentru livrare rapidă și de încredere. Solicită Shop Cash dacă comanda ta este livrată după {{date}}.",
             "delivered_after_label": "Îngrijorat după {{date}}",
-            "delivered_after_description": "Comanda ta a întârziat, așa că poți revendica {{amount}} Shop Cash."
+            "delivered_after_description": "Comanda ta a întârziat, așa că poți revendica {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Această comandă a fost livrată cu întârziere, așa că ai revendicat {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Comanda ta a întârziat, așa că poți revendica {{amount}} Shop Cash.",
+            "learn_more_button_label": "Mai multe informații",
+            "claim_shop_cash_button_label": "Solicită rambursarea în numerar",
+            "view_balance_in_shop_button_label": "Vezi soldul în magazin",
+            "scan_to_claim_shop_cash_label": "Scanează pentru a revendica {{amount}} în Shop Cash"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Retrimitere bon cadou",
+          "other": "Retrimitere bonuri cadou"
+        },
+        "expected_by": "Așteptat cel târziu la {{date}}",
+        "was_expected_by": "Se așteaptă cel târziu la {{date}}"
+      },
+      "status_mark_as_delivered": "Marchează ca îngrijorat",
+      "manage": "Gestionare",
+      "manage_accessiblity_label": "Gestionați comanda {{orderId}}",
+      "fulfillment_status_title": "Starea de îndeplinire: {{status}}",
+      "list_title_pending_orders_accessibility_label": "Comenzi: în curs de procesare",
+      "switch_order_type_pending_orders_accessibility_label": "Schimbă tipul comenzii; acum vizualizezi comenzile în curs de procesare",
+      "switch_order_type_confirmed_orders_accessibility_label": "Schimbă tipul comenzii; vizualizezi comenzile confirmate",
+      "group_title_label": "Parte din: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Facturare și trimitere",
+      "card_ending_with": "se încheie la {{lastDigits}}",
+      "contact": "Persoană de contact",
+      "loading": "Se încarcă datele comenzii",
+      "loading_finished_accessibility_message": "Datele comenzii au fost încărcate",
+      "payment": {
+        "status_in_review": "Plată datorată după evaluare",
+        "status_unpaid": "Plată datorată la {{date}}",
+        "card_payment_details": "terminând cu {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Plătit cu plăți eșalonate Shop Pay",
+          "view_schedule": "Vizualizare planificare"
+        },
+        "gift_card_payment_details": "terminând cu {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Mandat poștal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Ramburs - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Credit magazin - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Date",
+          "payment_details": "Date de plată"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "ASISTENȚĂ:",
+          "source": "Folosește următorul format de ieșire (fără blocuri de cod, fără text suplimentar):"
+        },
+        "payment_type": {
+          "gift_card": "Bon cadou",
+          "money_order": "Ordin de plată poștală",
+          "cash_on_delivery": "Ramburs",
+          "bank_deposit": "Depunere bancară"
         }
-      }
+      },
+      "shipping": {
+        "address": "Adresă de livrare",
+        "address_map_marker": "Adresă de livrare",
+        "method": "Metoda de expediere",
+        "summary": "Trimitere",
+        "free_shipping_discount": "Transport gratuit",
+        "one_time": "Trimitere unică",
+        "subscription": "Expediere prin abonament"
+      },
+      "subtitle": "Confirmat: {{date}}",
+      "summary_list_title_accessibility_label": "Comandă articole"
     }
   }
 }
