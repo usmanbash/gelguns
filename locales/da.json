@@ -1121,7 +1121,101 @@
         "waiting_on_pickup_location_notice": "Henter tilgængelige afhentningssteder...",
         "no_rates_for_cart_or_destination_notice": "Der er ingen forsendelsesmetoder tilgængelige for din indkøbskurv eller adresse",
         "no_pickup_location_notice": "Mindst ét af dine produkter kan ikke afhentes",
-        "no_rates_for_country_notice": "Ingen forsendelsespriser fundet for denne adresse."
+        "no_rates_for_country_notice": "Ingen forsendelsespriser fundet for denne adresse.",
+        "estimated_delivery_date": {
+          "one": "%{count} hverdag"
+        },
+        "shipping_line_phone_label": "Mobiltelefonnummer (påkrævet)",
+        "shipping_line_phone": "Din bud kan dette nummer bruge til at kontakte dig.",
+        "other_method": {
+          "zero": "Ingen andre metoder tilgængelige",
+          "one": "%{count} anden metode tilgængelig fra"
+        },
+        "shipping_line_delivery_phone": "Der kan blive kontaktet dig med opdateringer om din levering.",
+        "optional_shipping_line_delivery_instructions_label": "Afleveringsvejledning (valgfrit)",
+        "shipping_line_delivery_phone_label": "Mobiltelefonnummer",
+        "shipping_line_delivery_instructions": "Indtast de nødvendige oplysninger såsom dørkoder og leveringsinstruktioner.",
+        "subscription_shipping": "Abonnement til forsendelse",
+        "one_time_purchase_shipping": "Engangsafsendelse",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "for %{count} levering(er)"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "hver %{count} dag"
+            },
+            "week": {
+              "other": "hver %{count} uge"
+            },
+            "month": {
+              "other": "hver %{count} måneder"
+            },
+            "year": {
+              "other": "hver %{count} år"
+            }
+          },
+          "initial_order_discounted": "Første forsendelsesomkostninger %{discounted_shipping_cost}, derefter %{frequency_description}",
+          "prepaid_initial_order_discounted": "Første forsendelsesomkostninger %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Første forsendelsesomkostninger %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Første forsendelsesomkostninger %{discounted_shipping_price} %{prepaid_delivery_frequency}, derefter %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Første forsendelsesomkostninger %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), derefter %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "efterfulgt af %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Første ordre inkluderet, efterfulgt af %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pr. levering), efterfulgt af %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Første bestilling gratis",
+            "other": "De første %{count} ordrer gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "For første bestilling"
+          },
+          "free_shipping_cycles": {
+            "one": "Gratis levering for yderligere %{count} levering",
+            "other": "Gratis levering for yderligere %{count} leverancer"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis levering for %{count} levering",
+            "other": "Gratis levering for %{count} leverancer"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Gratis levering for yderligere %{count}, derefter %{recurring_order_shipping_price}",
+            "other": "Gratis levering for yderligere %{count} leverancer, derefter %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Gratis levering for %{count} forsendelse, derefter %{recurring_order_shipping_price}",
+            "other": "Gratis levering for %{count} leveringer, derefter %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} ekstra levering for %{shipping_price}",
+            "other": "%{count} ekstra leveringer for %{shipping_price} pr. levering"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} ekstra leveringer for %{shipping_price} pr. levering"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Gratis levering i den første %{cycle}, derefter %{recurring_order_shipping_price}",
+            "other": "Gratis levering i den første %{cycle}, derefter %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} for yderligere %{count} levering",
+            "other": "%{shipping_price} for yderligere %{count} leverancer (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} for %{count} leverancer (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} for %{count} ekstra levering, derefter %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for yderligere %{count} leveringer (%{per_delivery_cost}), derefter %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} for %{count} levering, derefter %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} leveringer (%{per_delivery_cost}), derefter %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Forventet levering %{time}",
+        "estimated_delivery_time_range": "Forventet levering %{min_time}–%{max_time}",
+        "arrives_time": "Bliver leveret om %{time}"
       }
     }
   }
