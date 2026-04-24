@@ -3650,8 +3650,72 @@
           "four_products_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}",
           "five_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}",
           "six_products_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}, {{lineItemName6}} skaits {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}, {{lineItemName6}} skaits {{lineItemQuantity6}} un vēl vairāk"
-        }
+          "six_and_more_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}, {{lineItemName6}} skaits {{lineItemQuantity6}} un vēl vairāk",
+          "view_order_details": "Skatīt pasūtījuma datus",
+          "previous": "Iepriekšējais",
+          "next": "Nākamais"
+        },
+        "show_order_actions_accessibility_label": "Pasūtījuma {{name}} labākās akcijas parādīt",
+        "empty_state_title_for_pending_orders": "Nav nevienas pasūtījuma apstrādē",
+        "more_than_four_products_accessibility_label": "Pasūtījumā ir iekļauti {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} un vēl {{numberOfAdditionalProducts}} produkti",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produkti",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Pasūtījuma apskate produkta datiem",
+            "estimated_delivery": "Paredzams {{date}}",
+            "last_updated": "Pēdējoreiz atjaunināts {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Paredzamā piegāde {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Pasūtījumā ir iekļauti {{lineItemName1}}, {{lineItemName2}}, kā arī vēl {{numberOfAdditionalProducts}} produkti",
+        "filter_title": "Filtrs",
+        "filter": {
+          "clear_section": "Sadaļas dzēšana",
+          "clear_all": "Zināt visu",
+          "apply": "Pielietot",
+          "date": {
+            "start_date": "Sākuma datums",
+            "end_date": "Beigu datums",
+            "title": "Pasūtījuma datums",
+            "today": "Šodien",
+            "last_7_days": "Pēdējās 7 dienas",
+            "last_30_days": "Pēdējās 30 dienas",
+            "last_90_days": "Pēdējo 90 dienu laikā",
+            "last_365_days": "Pēdējo 12 mēnešu laikā",
+            "custom": "Pielāgots"
+          }
+        },
+        "no_order_banner": "Veiciet pasūtījumu, lai pārbaudītu paplašinājumu lapā Pasūtījuma statuss.",
+        "location_filter_picker": {
+          "all_location": "Visas vietas",
+          "current_location": "Pašreizējā atrašanās vieta",
+          "switch_view": "Skata maiņa"
+        },
+        "empty_state_with_location_title": "Nav pasūtījumu vietai {{locationName}}",
+        "view_order": "Skatīt pasūtījumu",
+        "view_order_accessibility_label": "Skatīt pasūtījumu {{orderName}}"
+      },
+      "order_status": {
+        "canceled_label": "Atcelts",
+        "canceled_title": "Jūsu pasūtījums ir atcelts",
+        "come_back": "Atgriezies šajā lapā, lai saņemtu informāciju par tavas sūtījuma statusu.",
+        "company_tracking_number": "{{company}} izsekošanas numurs:",
+        "confirmed_label": "Apstiprināts",
+        "confirmed_title": "Tava pasūtījuma apstiprinājums ir saņemts",
+        "delivered_label": "Noraizējies",
+        "estimated_delivery": "Paredzams {{date}}",
+        "in_review_label": "Lai novērtētu",
+        "in_review_title": "Tava pasūtījuma pārbaude notiek",
+        "no_tracking_number": "Šim sūtījumam nav izsekošanas numura.",
+        "on_its_way_label": "Ceļā",
+        "out_for_delivery_label": "Gatavs piegādei",
+        "resume_tracking": "Volgen atsākt",
+        "submitted_label": "Iesniegts",
+        "track_shipment": "Sūtījuma izsekošana",
+        "request_return": "Pieprasīt atgriešanu",
+        "attempted_delivery_label": "Piegādes mēģinājums"
       }
     }
   }
