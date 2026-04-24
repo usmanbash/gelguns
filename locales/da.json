@@ -1277,7 +1277,67 @@
         "split_shipping_first_shipment_notice": "Du modtager din første ordre om %{quantity_shipments}",
         "shipping_method_rollup_accessibility_label": "Forsendelsesmetodevalg",
         "shipping_address_rollup_accessibility_label": "Valgmuligheder for forsendelse til adresse",
-        "invalid_shipping_method_summary_selected": "Vælg en anden leveringsadresse for at se tilgængelige forsendelsesmetoder"
+        "invalid_shipping_method_summary_selected": "Vælg en anden leveringsadresse for at se tilgængelige forsendelsesmetoder",
+        "third_party_address_timeout": "Kan ikke indlæse adressen. Prøv igen eller brug en anden adresse.",
+        "third_party_address_error": "Der opstod en fejl under indlæsning af adressevalget. Indtast venligst din adresse manuelt nedenfor.",
+        "third_party_payment_timeout": "Kan ikke indlæse betalingsmetoder. Prøv igen eller brug en anden betalingsmåde.",
+        "third_party_payment_error": "Der opstod en fejl under indlæsning af betalingsvalget. Brug en anden betalingsmetode.",
+        "unbranded_description_same_day": "Sendes samme arbejdsdag",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Afsendes næste arbejdsdag",
+          "other": "Afsendes inden for %{count} arbejdsdage"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Sendes om %{count} uge(r)",
+          "other": "Sendes om %{count} uger"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Betaling",
+        "amazon_payments_login_hint": "Du bliver bedt om at logge ind hos Amazon.",
+        "amazon_payments_logout": "Log ud af Amazon Betaling",
+        "amazon_payments_failed_mfa_challenge": "Den valgte betalingsmetode kan ikke bruges. Vælg en anden metode eller kontakt din bank eller kortudsteder.",
+        "amazon_payments_abandoned_mfa_challenge": "Din betaling kunne ikke gennemføres. Prøv en anden betalingsmetode eller kontakt din bank eller kortudsteder.",
+        "amazon_payments_could_not_enqueue_authorize": "Der opstod et problem med at behandle din betaling. Prøv igen eller brug en anden betalingsmetode.",
+        "amount_left_to_pay_label": "Skyldigt beløb:",
+        "discount_button_action_label": "Indtast rabatkode",
+        "gift_card_code_label": "Gavekortkode",
+        "apply_gift_card_button_label": "Anvende",
+        "supported_card_brands_more_label": "og mere…",
+        "detected_card_brand": "Registreret korttype: {brand}",
+        "card_security_notice": "Alle transaktioner er sikret og krypteret.",
+        "name_on_card_label": "Navn på kort",
+        "name_on_card_placeholder": "Navn på kort",
+        "card_expiry_date_explanation": "Opdeling udløbsdato kort: måned, måned, år, år",
+        "card_verification_value_explanation": "Sikkerhedskode på 3 cifre, som normalt findes på bagsiden af dit kort. American Express har en kode på 4 cifre på forsiden.",
+        "card_verification_value_explanation_amex": "4-cifret sikkerhedskode på forsiden af dit kort",
+        "card_verification_value_explanation_other": "Sikkerhedskode på 3 cifre på bagsiden af dit kort",
+        "card_start_label": "Udstedelsesdato (MM / ÅÅ)",
+        "card_start_placeholder": "Udstedelsesdato (MM / ÅÅ)",
+        "card_issue_number_label": "Udgavenummer",
+        "card_issue_number_placeholder": "Udgavenummer",
+        "card_change_label": "Ændre",
+        "ends_with_label": "udløber den %{last_digits}",
+        "saved_by_payment_method": "Gemt med %{payment_method}",
+        "same_billing_address_label": "Samme som leveringsadresse",
+        "free_order_notice_html": "Din bestilling er <strong>gratis</strong>. Der kræves ingen betaling.",
+        "express_checkout_free_order": "Der opkræves ingen gebyrer for en gratis bestilling",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Din bestilling betales med dit gavekort.",
+          "other": "Din bestilling betales med dine gavekort."
+        },
+        "offsite_gateway_redirect_hint": "Du bliver omdirigeret til %{gateway_label} for at fuldføre dit køb.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} i alt %{total_shop_price}",
+        "billing_address_description": "Vælg den adresse, der svarer til dit kort eller din betalingsmetode.",
+        "billing_address_description_no_shipping_address": "Indtast den adresse, der svarer til dit kort eller din betalingsmetode.",
+        "no_js_credit_card_fields_redirect_hint": "Du bliver sendt videre, så du kan tilføje dine betalingsoplysninger.",
+        "card_fields_container_prefix": "I dette felt står:",
+        "card_fields_unavailable_html": {
+          "one": "Betaling med kreditkort eller betalingskort er i øjeblikket ikke tilgængelig.<br><a href=\"%{current_url}\">Opdater denne side</a> eller prøv igen senere.",
+          "other": "Betaling med kreditkort eller betalingskort er i øjeblikket ikke tilgængelig.<br><a href=\"%{current_url}\">Opdater denne side</a> eller prøv en anden betalingsmetode."
+        },
+        "card_fields_processing_error": "Der opstod et problem med behandlingen af betalingen. Opdater denne side eller tjek din internetforbindelse.",
+        "technical_error": "På grund af et teknisk problem kan betalinger i øjeblikket ikke behandles. Prøv igen om et par minutter."
       }
     }
   }
