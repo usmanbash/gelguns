@@ -3579,7 +3579,75 @@
         "title": "Maksumuistutukset Shop Pay -erämaksuista"
       },
       "order_details": "Tilaustiedot",
-      "login_to_view_all_order_details": "Kirjaudu sisään nähdäksesi kaikki tilauksen tiedot."
+      "login_to_view_all_order_details": "Kirjaudu sisään nähdäksesi kaikki tilauksen tiedot.",
+      "remaining_amount": "Jäljellä oleva",
+      "order_details_skeleton_accessibility_label": "Kirjaudu sisään nähdäksesi kaikki tilauksen tiedot.",
+      "tip": "Juomaraha",
+      "logged_in_account_no_permission_to_order": "Olet kirjautunut sisään käyttäjänä {{email}}. Tällä tilillä ei ole oikeuksia hallita tätä tilausta.",
+      "log_in_to_a_different_account": "Kirjaudu sisään toisella tilillä",
+      "duties": "Tullimaksut",
+      "ok_duties_tooltip": "Tämä tilaus lähetetään toisesta maasta, joten tilauksen kokonaissummaan on lisätty tullimaksuja.",
+      "error_duties_tooltip": "Tämä tilaus lähetetään toisesta maasta, joten toimituksen yhteydessä voidaan periä tullimaksuja ja veroja.",
+      "zero_duties_tooltip": "Tämä tilaus lähetetään toisesta maasta. Tullimaksuja ei peritä tämän arvoisista tilauksista.",
+      "group_title_label": "Osa: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Täydennyskustannukset",
+        "return_shipping_fee": "Palautuslähetys"
+      },
+      "vat_invoices": {
+        "title": "Btw-laskut"
+      },
+      "taxes_included": "Sisältäen {{amount}} arvonlisäveron",
+      "duties_and_taxes_included": "Kokonaissumma sisältää tullimaksut ja verot. Toimituksen yhteydessä ei peritä lisämaksuja.",
+      "grouped_view_components": {
+        "expand_line_items": "Näytetään {{count}} artikkelia",
+        "collapse_line_items": "Piilota {{count}} artikkelia",
+        "line_item_summary_list_accessibility_label": "Artikkelit paketissa {{productTitle}}"
+      },
+      "cash_rounding": "Käteismaksun pyöristäminen",
+      "adjusted_payment": "Mukautettu maksu",
+      "adjusted_total": "Mukautettu kokonaismäärä",
+      "login_card": {
+        "link_expired": "Linkki vanhentunut",
+        "resend_link_and_login": "Voit tarkastella tilauksesi tietoja kirjautumalla sisään tai lähettämällä uuden linkin sähköpostiosoitteeseen tai puhelinnumeroon, jota käytettiin kassalla.",
+        "resend_link_only": "Voit tarkastella tilauksesi tietoja lähettämällä uuden linkin sähköpostiosoitteeseen tai puhelinnumeroon, jonka käytit kassalla.",
+        "title": "Tilaustiedot näkymään"
+      },
+      "link_sent": "Linkki lähetetty",
+      "company_and_location": "Yritys ja sijainti",
+      "due_on_date": "Velkaa {{date}}",
+      "due_on_fulfillment": "Maksu toimituksen yhteydessä",
+      "due_on_receipt": "Maksa vastaanotettaessa",
+      "group_title_label_with_parent": "Vastaanottaja: {{groupTitle}}",
+      "payment_confirmation": {
+        "full_payment_received": "Kiitos! Maksusi {{amount}} on vastaanotettu ja tämä tilaus on nyt kokonaan maksettu.",
+        "dismiss_label": "Maksun vahvistuksen sulkeminen",
+        "payment_authorized": "Kiitos! Saldo päivitetään, kun maksu on vastaanotettu."
+      },
+      "marketing_pending_confirmation": "Napsauta sähköpostisi linkkiä vahvistaaksesi.",
+      "marketing_resend_email_success": "Linkki lähetetty",
+      "subtotal_label_with_quantity": {
+        "other": "Välisumma · {{count}} artikkelia"
+      },
+      "total_savings": "Kokonais­säästö",
+      "price_after_discount_accessibility_label": "Alennushinta",
+      "discount_order_stacking": {
+        "one": "Tilauksen alennus"
+      }
+    },
+    "addresses": {
+      "cancel_adding_address_accessibility_label": "Lisää osoite peruuta",
+      "cancel_deletion_button_accessibility_label": "Poista {{address}} peruuta",
+      "default_address": {
+        "title": "Vakiosoite",
+        "title_accessibility_label": "Vakiosoite: {{address}}"
+      },
+      "edit_button_accessibility_label": "muokkaa {{address}}",
+      "edit_section_accessibility_label": "muokkaa {{address}}",
+      "loading_accessibility_message": "Lataa osoitteet",
+      "loading_addresses_accessibility_message": "Lataa osoitteet",
+      "loading_billing_accessibility_message": "Lataa laskutusosoitteet",
+      "loading_finished_accessibility_message": "Uusi sivu osoitteineen on ladattu"
     }
   }
 }
