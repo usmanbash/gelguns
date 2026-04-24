@@ -2978,7 +2978,143 @@
       },
       "too_many_requests": {
         "title": "Pārāk daudz izrakstīšanās mēģinājumu",
-        "body": "Uzgaidi dažas minūtes un mēģini vēlreiz no sava iepirkumu groza."
+        "body": "Uzgaidi dažas minūtes un mēģini vēlreiz no sava iepirkumu groza.",
+        "return_to_cart": "Atpakaļ uz iepirkumu grozu",
+        "body_no_cart": "Uzgaidiet dažas minūtes un mēģiniet vēlreiz."
+      },
+      "address_management": {
+        "saved_with_store": "Saglabāts šajā veikalā"
+      }
+    },
+    "pagination": {
+      "previous": "Iepriekšējais",
+      "next": "Nākamais"
+    },
+    "links": {
+      "powered_by_shopify": "Darbināts ar Shopify",
+      "learn_more": "Vairāk informācijas"
+    },
+    "feed": {
+      "more": "Vairāk"
+    },
+    "attributes": {
+      "email": "e-pasts",
+      "password": "parole",
+      "password_confirmation": "paroles apstiprinājums",
+      "first_name": "vārds",
+      "last_name": "uzvārds",
+      "body": "galvenais teksts",
+      "signature": "Adrese"
+    },
+    "addresses": {
+      "zip_code": "Pasta indekss",
+      "postal_code": "Pasta indekss",
+      "postcode": "Pasta indekss",
+      "pincode": "Pasta indekss",
+      "region": "Reģions",
+      "prefecture": "Prefektūra",
+      "province": "Novads",
+      "state": "Valsts",
+      "state_and_territory": "Valsts/Teritorija",
+      "county": "Novads",
+      "emirate": "Emīrāts",
+      "governorate": "Valdība",
+      "confirm": "Vai tiešām vēlies dzēst šo adresi?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Izcelts",
+        "best_selling": "Vislabāk pārdotais",
+        "az": "Alfabētiski: A-Z",
+        "za": "Alfabētiski: no Z līdz A",
+        "price_ascending": "Cena: no zemākās uz augstāko",
+        "price_descending": "Cena: no augstākās uz zemāko",
+        "date_ascending": "Datums: no vecā uz jauno",
+        "date_descending": "Datums: no jauna uz vecu",
+        "most_relevant": "Visatbilstošākais"
+      }
+    },
+    "errors": {
+      "blank": "nedrīkst būt tukšs",
+      "credit_card_session_expired": "Kredītkartes autorizācija ir beigusies. Lūdzu, ievadi maksājuma datus vēlreiz. No tavas kartes nauda nav ieturēta.",
+      "empty": "nedrīkst būt tukšs",
+      "invalid_email": "jābūt derīgai e-pasta adresei",
+      "discount_disabled": "Šī atlaide ir bloķēta",
+      "discount_expired": "Šī atlaide vairs nav derīga",
+      "discount_limit_reached": "Šis atlaides piedāvājums ir sasniedzis lietošanas ierobežojumu",
+      "discount_not_found": "Nevar atrast derīgu atlaidi, kas atbilst kodam",
+      "customer_already_used_once_per_customer_discount_notice": "Šis atlaides piedāvājums ir sasniedzis lietošanas ierobežojumu",
+      "gift_card_already_applied": "Kods ir jau piemērots jūsu iepirkumu grozam",
+      "gift_card_code_invalid": "Kods nav derīgs",
+      "gift_card_currency_mismatch": "Jūsu dāvanu karte ir %{gift_card_currency}. Sazinieties ar mums, lai to varētu izsniegt atkārtoti %{checkout_currency}.",
+      "gift_card_depleted": "Šajā dāvanu kartē vairs nav atlikuma",
+      "gift_card_disabled": "Dāvanu karte ir bloķēta",
+      "gift_card_expired": "Dāvanu karte ir beigusies derīguma termiņš",
+      "invalid": "ir nederīgs",
+      "bad_domain": "satur nederīgu domēna vārdu",
+      "taken": "ir jau izmantots",
+      "contains_html_tags": "nedrīkst saturēt HTML tagus",
+      "too_short": "ir par īsu (minimums ir %{count} rakstzīmes)",
+      "too_long": "ir pārāk garš (maksimālais garums ir %{count} rakstzīmes)",
+      "password_mismatch": "jābūt pilnīgi tādam pašam kā norādītajai parolei",
+      "contains_spaces": "sākas vai beidzas ar atstarpēm.",
+      "invalid_for_country": "nav derīgs %{country}",
+      "invalid_for_country_and_province": "nav derīgs %{province} un %{country}",
+      "invalid_province_in_country": "nav derīga province %{country}",
+      "invalid_state_in_country": "nav derīgs stāvoklis %{country}",
+      "invalid_region_in_country": "nav derīga reģiona %{country}",
+      "less_than_or_equal_to": "būt mazākam vai vienādam ar %{count}",
+      "not_supported": "netiek atbalstīts",
+      "full_name_required": "Ievadiet vārdu un uzvārdu",
+      "invalid_for_card_type": "ir nederīgs",
+      "invalid_type": "atvainojiet, mēs nepieņemam šāda veida kartes",
+      "invalid_format": "formāts nav derīgs",
+      "expired": "ir beidzies",
+      "invalid_start_date_or_issue_number_for_debit": "derīga sākuma datuma vai derīga izdošanas numura prasība",
+      "invalid_expiry_year": "nav derīgs derīguma termiņš",
+      "reset_password_html": "Šis e-pasta adrese jau ir saistīta ar kontu. Ja šis konts pieder tev, tad tu vari <a href=\"/account/login#recover\">atjaunot savu paroli</a>",
+      "verify_email": "Mēs esam nosūtījuši e-pastu uz %{customer_email}. Lūdzu, noklikšķiniet uz pievienotās saites, lai pārbaudītu savu e-pasta adresi.",
+      "blocked_address": "Šī vieta netiek atbalstīta",
+      "product_not_available": "produkts nav publicēts šim klientam.",
+      "shop_404": {
+        "title": "Izveido e-komercijas vietni un pārdod savus produktus tiešsaistē! Shopify e-komercijas programmatūra",
+        "heros": {
+          "store_unavailable": "Šī veikala darbība šobrīd ir pārtraukta.",
+          "store_not_exist": "Šī veikala nav.",
+          "no_storefront": "Šim veikalam vēl nav mājaslapas."
+        },
+        "links": {
+          "explore_other_stores": "Izpētīt citus veikalus",
+          "start_free_trial": "Bezmaksas izmēģinājums"
+        },
+        "owner_ctas": {
+          "header": "Vai tu esi veikala īpašnieks?",
+          "fix_domain": "Dodieties uz %{domain_settings_link} un pabeidziet sava jaunā tīmekļa adreses iestatīšanu. Noklikšķiniet uz 'Savienot domēnu' un ierakstiet: %{domain}.<br>Ja nevarat piekļūt savai veikalam, mēģiniet %{forgot_your_store_link}",
+          "fix_domain_link_text": "jūsu domēna iestatījumi",
+          "forgot_your_store_link_text": "Vai aizmirsāt savu grozu?",
+          "add_storefront": "Tu vari iestatīt savu vietni, pievienojot interneta veikala kanālu %{admin_link}. Ja nevarat piekļūt savam veikalam, mēģiniet %{forgot_your_store_link}",
+          "admin_link_text": "pārvaldības centrs"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Personīgā pārdošana",
+            "caption": "Iegūsti funkcijas, kas tev vajadzīgas, lai vadītu savu mazumtirdzniecības veikalu, vai nu tikai sācies, vai paplašinies.",
+            "link_text": "Sākt bezmaksas izmēģinājumu"
+          },
+          "open_a_store": {
+            "header": "Atvērt jaunu Shopify veikalu",
+            "caption": "Sāciet bezmaksas trīs dienu izmēģinājumu un pēc tam turpiniet trīs mēnešus par 1 ASV dolāru mēnesī.",
+            "link_text": "Reģistrējies tagad"
+          },
+          "editions": {
+            "header": "Skatīt Shopify izdevumus",
+            "caption": "Ir vairāk nekā 100 produktu atjauninājumi, kas ļauj tev būt ražīgākam, radošākam un darbīgākam komerciālajā pasaulē, nekā tu jebkad esi uzskatījis par iespējamu.",
+            "link_text": "Izpētīt jaunākos izdevumus"
+          },
+          "store_owner": {
+            "header": "Vai tu esi veikala īpašnieks?"
+          }
+        }
       }
     }
   },
