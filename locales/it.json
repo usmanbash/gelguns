@@ -4053,6 +4053,94 @@
       "mapClusterTitle": {
         "one": "Cluster di {{number}} punti di riferimento",
         "other": "Cluster di {{number}} punti di riferimento"
+      },
+      "expandSheet": "Apri",
+      "qrCode": "Codice QR",
+      "dropzoneInvalidFileType": "Questo tipo di file non è supportato",
+      "dropzoneDraggedOver": "Posizionare il file per caricarlo",
+      "clipboardFailedToCopy": "Non copiato",
+      "clear": "Conoscenza"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Adattare",
+      "hide_bar": "Nascondi trave",
+      "navigate_to_admin": "Vai al centro di controllo",
+      "previewing": "Stai visualizzando un esempio di:",
+      "saved_at": "Salvato il {{date}} alle {{time}}",
+      "viewing": "Stai guardando:",
+      "not_available": "Nessun dato del profilo disponibile",
+      "close_preview": "Chiudi esempio"
+    },
+    "settings": {
+      "loading_accessibility_message": "Caricamento della pagina delle impostazioni",
+      "log_out_everywhere": {
+        "title": "Disconnettersi ovunque",
+        "description": "Se hai perso un dispositivo o se ti preoccupi per la sicurezza, esci da tutti i dispositivi per garantire la sicurezza del tuo account.",
+        "button": "Disconnetti da tutti i dispositivi",
+        "warning_message": "Verrai disconnesso anche da questo dispositivo."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Il {{date}} alle {{time}}",
+        "lessThanOneMinuteAgo": "Proprio adesso",
+        "lessThanOneWeekAgo": "Aperto {{weekday}} alle {{time}}",
+        "today": "Oggi alle {{time}}",
+        "tomorrow": "Domani alle {{time}}",
+        "lessThanOneWeekAway": "Aperto {{weekday}} alle {{time}}",
+        "lessThanOneYearAway": "Il {{date}} alle {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minuti fa"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Selezionare l'estensione chiamata '{{extensionName}}'",
+        "unselect": "Annulla selezione dell'estensione chiamata '{{extensionName}}'",
+        "move_up": "Spostare l'estensione alla posizione precedente",
+        "remove": "Rimuovi estensione",
+        "move_down_tooltip": "Sposta alla posizione successiva",
+        "move_up_tooltip": "Torna alla posizione precedente",
+        "remove_tooltip": "Rimuovere"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Non puoi aprire questo link all'interno dell'editor. Il link si aprirà in una nuova finestra ({{resolved_to_link}}). Clicca su OK per continuare."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Riprova tra qualche minuto"
+      }
+    },
+    "shop_ads": {
+      "subtitle": "Disponibile temporaneamente",
+      "previous_button": "Precedente",
+      "next_button": "Successivo"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "I clienti possono richiedere e gestire i resi autonomamente.",
+        "disabled": "I clienti devono contattare il commerciante per richiedere un reso."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Espandi la barra delle notifiche",
+      "collapse_label": "Comprimi la barra delle notifiche",
+      "close_label": "Chiudi barra delle notifiche"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Sostituire il metodo di pagamento",
+        "loading": "Caricamento metodi di pagamento",
+        "use_new_payment_method": "+ Usa un nuovo metodo di pagamento"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Più modi per accedere",
+        "alternate_divider": "DI",
+        "email_field_label": "Posta elettronica"
       }
     }
   }

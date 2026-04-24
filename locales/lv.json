@@ -501,8 +501,68 @@
         },
         "continue_cta_label": "Turpināt ar norēķiniem",
         "out_of_stock": {
-          "description": "Šie raksti vairs nav pieejami un ir izņemti no tava iepirkumu groza."
-        }
+          "description": "Šie raksti vairs nav pieejami un ir izņemti no tava iepirkumu groza.",
+          "items_unavailable": "Dažas preces vairs nav pieejamas un ir izņemtas no tava iepirkumu groza."
+        },
+        "unfulfillable_product": {
+          "title": "Piegāde nav pieejama",
+          "message": {
+            "one": "%{delivery_method} vairs nav pieejams šim precei.",
+            "other": "%{delivery_method} vairs nav pieejams šiem izstrādājumiem."
+          },
+          "default_message": {
+            "one": "Izvēlētā piegādes metode šim preces vienumam vairs nav pieejama.",
+            "other": "Izvēlētā piegādes metode vairs nav pieejama šiem izstrādājumiem."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Atjaunināt cenu un daudzumu",
+          "description": "Šo preču cenas un pieejamie daudzumi ir mainīti, un iepirkumu grozs ir atjaunināts."
+        },
+        "out_of_stock_in_context_label": "Šis produkts nav pieejams tavā valstī/reģionā."
+      },
+      "order_summary": {
+        "title": "Pasūtījuma pārskats",
+        "order_name_label": "Pasūtījums %{name}",
+        "shopping_cart_label": "Groza saturs",
+        "discount_title": "Atlaide",
+        "discount_label": "Atlaides kods",
+        "discount_placeholder": "Atlaides kods",
+        "gift_card_title": "Dāvanu karte",
+        "gift_card_label": "Dāvanu karte",
+        "gift_card_placeholder": "Dāvanu karte",
+        "gift_card_and_discount_title": "Kupona kods vai dāvanu karte",
+        "gift_card_and_discount_label": "Kupona kods vai dāvanu karte",
+        "gift_card_and_discount_placeholder": "Kupona kods vai dāvanu karte",
+        "add_discount_or_gift_card": "Pievienot atlaides kodu vai dāvanu karti",
+        "remove_gift_card_label": "Dāvanu kupona dzēšana",
+        "remove_discount_label": "Atcelt atlaidi",
+        "free_shipping_discount_label": "Bezmaksas piegāde",
+        "apply_discount_button_label": "Pielietot",
+        "applied_discount_message": "No kopējās cenas ir atskaitīta atlaide %{amount}.",
+        "discount_has_been_applied": "Atlaide ir piemērota",
+        "discount_has_been_removed": "Atlaide ir noņemta",
+        "gift_card_has_been_applied": "Dāvanu karte ir izmantota",
+        "gift_card_has_been_removed": "Dāvanu karte ir dzēsta",
+        "discount_already_applied": "Šai pasūtījumam ir piemērota atlaide. Tu nevari pievienot citu atlaidi.",
+        "cart_does_not_meet_discount_requirements_notice": "Kupona kods <strong style=\"text-transform:uppercase\">%{code}</strong> neattiecas uz precēm tavā iepirkumu grozā",
+        "discount_requires_customer_notice": "Ievadiet piegādes datus, lai piemērotu atlaides kodu <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Kortingscode <strong style=\"text-transform:uppercase\">%{code}</strong> pašlaik nav pieejams tev",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Kortinga kods <strong style=\"text-transform:uppercase\">%{code}</strong> nav pieejams jūsu piegādes adresei",
+        "customer_already_used_once_per_customer_discount_notice": "Atlaižu kods <strong style=\"text-transform:uppercase\">%{code}</strong> jau ir izmantots",
+        "subtotal_label": "Starpsumma",
+        "shipping_label": "Sūtīšana",
+        "tip_label": "Dzeramnauda",
+        "shipping_default_value": "Aprēķināts nākamajā solī",
+        "shipping_pending_message": "Vēl nav pieejams",
+        "shipping_policy_link": "Piegādes maksa",
+        "taxes_label": "starpcitu",
+        "total_label": "Kopā",
+        "total_outstanding_label": "Samaksājamā summa",
+        "partial_total_label": "Kopā",
+        "free_total_label": "Bezmaksas",
+        "free_shipping_total_label": "Bezmaksas",
+        "paid_label": "Apmaksāts"
       }
     }
   },
