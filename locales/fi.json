@@ -2906,7 +2906,71 @@
     "collections": {
       "sorting": {
         "manual": "Esillä",
-        "best_selling": "Parhaiten myyvät"
+        "best_selling": "Parhaiten myyvät",
+        "az": "Aakkosjärjestyksessä: A-Ö",
+        "za": "Aakkosjärjestyksessä: Z-A",
+        "price_ascending": "Hinta: matalasta korkeaan",
+        "price_descending": "Hinta: korkein ensin",
+        "date_ascending": "Päivämäärä: vanhasta uuteen",
+        "date_descending": "Päivämäärä: uusin ensin vanhin",
+        "most_relevant": "Merkityksellisin"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Luottokortin valtuutus on vanhentunut. Syötä maksutietosi uudelleen. Kortiltasi ei ole veloitettu rahaa.",
+      "invalid_email": "täytyy olla voimassa oleva sähköpostiosoite",
+      "discount_disabled": "Tämä alennus on estetty",
+      "discount_limit_reached": "Tämä alennus on saavuttanut käyttörajan",
+      "discount_not_found": "Ei löydy voimassa olevaa alennusta, joka vastaa koodia",
+      "customer_already_used_once_per_customer_discount_notice": "Tämä alennus on saavuttanut käyttörajan",
+      "gift_card_already_applied": "Koodi on jo lisätty ostoskoriisi",
+      "gift_card_code_invalid": "Koodi on virheellinen",
+      "gift_card_currency_mismatch": "Lahjakorttisi on %{gift_card_currency}. Ota yhteyttä, jotta voimme uudelleenmyöntää sen %{checkout_currency}.",
+      "gift_card_depleted": "Tällä lahjakortilla ei ole enää saldoa",
+      "gift_card_disabled": "Lahjakortti on estetty",
+      "invalid": "on virheellinen",
+      "taken": "on jo käytetty",
+      "contains_html_tags": "voi sisältää HTML-tageja",
+      "too_short": "on liian lyhyt (vähintään %{count} merkkiä)",
+      "too_long": "on liian pitkä (enimmäispituus on %{count} merkkiä)",
+      "password_mismatch": "on oltava täsmälleen sama kuin annettu salasana",
+      "contains_spaces": "alkaa tai päättyy välilyönteihin.",
+      "invalid_for_country": "ei ole voimassa %{country}",
+      "invalid_for_country_and_province": "ei ole voimassa alueella %{province} ja maassa %{country}",
+      "invalid_province_in_country": "ei ole kelvollinen maakunta %{country}",
+      "invalid_state_in_country": "ei ole kelvollinen osavaltio %{country}",
+      "invalid_region_in_country": "ei ole kelvollinen alue %{country}",
+      "less_than_or_equal_to": "moet olla enintään %{count}",
+      "not_supported": "ei tuettu",
+      "full_name_required": "Täytä etu- ja sukunimi",
+      "invalid_for_card_type": "on virheellinen",
+      "invalid_type": "anteeksi, emme hyväksy tämän tyyppisiä kortteja",
+      "invalid_format": "muoto on virheellinen",
+      "invalid_start_date_or_issue_number_for_debit": "voimassa oleva aloituspäivämäärä tai voimassa oleva myöntönumero vaaditaan",
+      "invalid_expiry_year": "ei ole voimassa oleva vanhenemispäivä",
+      "verify_email": "Olemme lähettäneet sähköpostin osoitteeseen %{customer_email}. Klikkaa liitteenä olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
+      "shop_404": {
+        "title": "Luo verkkokauppasivusto ja myy tuotteitasi verkossa! Shopify-verkkokauppaohjelmisto",
+        "heros": {
+          "store_unavailable": "Tämä kauppa ei ole tällä hetkellä käytettävissä.",
+          "no_storefront": "Tällä kaupalla ei ole vielä verkkosivua."
+        },
+        "links": {
+          "explore_other_stores": "Tutki muita kauppoja",
+          "start_free_trial": "Kokeile ilmaiseksi"
+        },
+        "owner_ctas": {
+          "fix_domain": "Siirry kohtaan %{domain_settings_link} ja viimeistele uuden verkkotunnuksesi asetus. Napsauta 'Yhdistä verkkotunnus' ja kirjoita: %{domain}.<br>Jos et pääse kauppaasi, kokeile %{forgot_your_store_link}",
+          "fix_domain_link_text": "verkkotunnuksen asetukset",
+          "forgot_your_store_link_text": "Unohditko ostoskorisi?",
+          "add_storefront": "Voit asettaa verkkosivustosi lisäämällä verkkokauppakanavan %{admin_link}. Jos et pääse kauppaasi, kokeile %{forgot_your_store_link}",
+          "admin_link_text": "hallintakeskus"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Henkilökohtainen myynti"
+          }
+        }
       }
     }
   }
