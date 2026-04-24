@@ -3806,6 +3806,74 @@
       "not_upgraded": "Kundkonton har inte uppgraderats.",
       "failed_to_revert": "Återställning av kundkontots inställningar misslyckades.",
       "revert_window_expired": "Återhämtningsperioden har löpt ut."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Betalningsmetoduppgifter",
+        "preauthorized_payments": "Förhandsauktoriserade betalningar",
+        "close_payment_modal_accessibility_label": "Modal Data betalningsmetod stäng",
+        "payment_method_not_found_error": "Kan inte hitta betalningsmetod",
+        "payment_details_loading": "Laddar betalningsmetoduppgifter",
+        "pre_authorized_payments": "Förhandsauktoriserade betalningar",
+        "total_amount_of_subscription_line_items_left": "en nog {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artiklar totalt; {{totalItemsToDisplay}} artiklar visas.",
+        "edit_payment_method_button_accessibility_label": "Redigera betalmetoden som slutar på {{lastDigits}}",
+        "credit_card_details_accessibility_label": "slutande på {{lastDigits}}",
+        "card_info_title": "Kartuppgifter",
+        "payment_method_expired_on": "Utgånget den {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay laddar",
+        "invalid_payment_method_message": "Använd ett nytt kreditkort för att fortsätta ta emot kommande beställningar.",
+        "replace_payment_method": "Betalningsmetod byta ut",
+        "checkout_card_banner": "Du kan endast använda denna betalningsmetod för förhandsauktoriserade betalningar. Den visas inte vid kassan om du är inloggad i denna butik.",
+        "default_checkbox": "Ställ in som standard",
+        "replace_payment_method_button": "Byta ut"
+      },
+      "delete_payment_method_button": "Ta bort",
+      "delete_payment_method_button_accessibility_label": "Ta bort {{paymentMethodName}}",
+      "payment_delete": {
+        "title": "Ta bort betalningsmetod",
+        "description_without_replacement": "Denna betalningsmetod är inte längre tillgänglig för framtida köp.",
+        "description_with_replacement": "Om du tar bort denna betalningsmetod påverkas förhandsauktoriserade betalningar. Du kan också byta ut den mot en annan betalningsmetod för att fortsätta ta emot kommande beställningar.",
+        "payment_method_selector_placeholder": "Välj en ersättande betalningsmetod (valfritt)",
+        "replace_method_with_new_method_description": "Din {{currentPaymentMethodName}} tas bort och ersätts med din {{newPaymentMethodName}}.",
+        "error_when_deleting": "Vi ber om ursäkt, något gick fel och vi kan inte ta bort denna betalningsmetod. Försök igen senare eller uppdatera sidan.",
+        "delete_and_replace_button": "Ta bort och ersätta",
+        "delete_and_replace_button_accessibility_label": "Ta bort {{currentPaymentMethodName}} och ersätt den med {{newPaymentMethodName}}.",
+        "deleted_successfully": "Betalningsmetoden har tagits bort.",
+        "payment_method_selector_no_alternative_payment": "Ingen ersättningsmetod",
+        "loading_available_payment_methods_accessibility_label": "Laddar tillgängliga betalningsmetoder",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Om du tar bort denna betalningsmetod påverkar det förhandsauktoriserade betalningar. Utestående belopp för befintliga beställningar debiteras fortfarande via denna betalningsmetod, om du inte väljer en annan betalningsmetod. Välj en annan betalningsmetod för att fortsätta ta emot kommande prenumerationsbeställningar utan avbrott.",
+          "with_pending_orders": "Att ta bort betalningsmetoden innebär att den tas bort från ditt konto och inte längre är tillgänglig för framtida köp. Utestående belopp för befintliga beställningar debiteras fortfarande via denna betalningsmetod, om du inte väljer en annan betalningsmetod.",
+          "with_subscriptions": "Om du tar bort denna betalningsmetod påverkas förhandsauktoriserade betalningar. Byt ut den mot en annan betalningsmetod för att fortsätta ta emot kommande beställningar."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Om du tar bort denna betalningsmetod påverkar det förhandsauktoriserade betalningar. Utestående belopp för befintliga beställningar debiteras fortfarande via denna betalningsmetod, men du kommer inte att få kommande prenumerationsbeställningar. Lägg till en annan betalningsmetod för att fortsätta ta emot prenumerationsbeställningar.",
+          "with_pending_orders": "Att ta bort betalningsmetoden innebär att den tas bort från ditt konto och inte längre är tillgänglig för framtida köp. Utestående belopp för befintliga beställningar debiteras fortfarande via denna betalningsmetod.",
+          "with_subscriptions": "Om du tar bort denna betalningsmetod påverkas förhandsauktoriserade betalningar. Lägg till en annan betalningsmetod för att fortsätta ta emot kommande beställningar."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Byt betalningsmetod",
+        "payment_method_updated_toast": "Betalningsmetod uppdaterad",
+        "future_purchases_notice": "Denna betalningsmetod sparas för framtida köp.",
+        "generic_error": "Ett problem uppstod vid uppdateringen. Försök igen."
+      },
+      "card_fields": {
+        "name_on_card_label": "Namn på kortet",
+        "name_on_card_placeholder": "Namn på kortet",
+        "card_expiry_label": "Utgångsdatum (MM/ÅÅ)",
+        "card_expiry_placeholder": "Utgångsdatum (MM/ÅÅ)",
+        "tooltip": {
+          "card_verification_value_explanation_other": "Säkerhetskod med 3 siffror på baksidan av ditt kort",
+          "card_verification_value_explanation": "Säkerhetskod med 3 siffror, vanligtvis placerad på baksidan av ditt kort. American Express har en kod med 4 siffror på framsidan.",
+          "card_security_notice": "Alla transaktioner är säkrade och krypterade."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ange ditt namn som det står på ditt kort",
+          "credit_card_verification_value_blank": "Ange CVV/CVC- eller säkerhetskoden på ditt kort"
+        }
+      }
     }
   }
 }
