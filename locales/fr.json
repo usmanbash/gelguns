@@ -1292,7 +1292,65 @@
         "shipping_method_first_shipment_group_title": {
           "one": "Première livraison",
           "other": "Premières livraisons"
+        },
+        "address_default": "Définir par défaut",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} articles",
+        "split_shipping_merchandise_quantity_label_additional": "+ encore %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Envoi %{number} sur %{total}",
+        "pre_order_ships_now": "Expédié maintenant",
+        "pre_order_ships_later": "Sera envoyé plus tard",
+        "pre_order_ships_date": "Expédié le %{date}",
+        "split_shipping_shipped_by_shop": "Envoyé par %{shop_name}",
+        "split_shipping_shipping_label": "Sage",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} envois",
+        "split_shipping_multiple_shipment_notice": "La commande sera livrée en plusieurs envois",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande sera livrée en %{quantity} envois",
+        "split_shipping_more_shipping_options": "Plus d'options d'expédition",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Quantité : %{quantity}",
+        "split_shipping_option_free": "Livraison gratuite",
+        "split_shipping_option_custom": "Personnalisé",
+        "default_description": "Expédié sous un jour ouvrable",
+        "split_shipping_shipment_notice": "Vous recevrez votre commande en %{quantity_shipments}",
+        "unbranded_default_description": "Prêt pour l'expédition",
+        "prime_not_available": {
+          "default": "La livraison Prime n'est pas disponible pour votre commande. Vos options d'expédition ont été mises à jour."
+        },
+        "split_shipping_first_shipment_notice": "Vous recevrez votre première commande dans %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Options pour le mode d'expédition",
+        "shipping_address_rollup_accessibility_label": "Options pour l'envoi à une adresse",
+        "invalid_shipping_method_summary_selected": "Sélectionnez une autre adresse de livraison pour voir les modes d'envoi disponibles",
+        "third_party_address_timeout": "Impossible de charger les adresses. Veuillez réessayer ou utiliser une autre adresse.",
+        "third_party_address_error": "Une erreur s'est produite lors du chargement de la sélection d'adresse. Veuillez saisir votre adresse ci-dessous manuellement.",
+        "third_party_payment_timeout": "Impossible de charger les méthodes de paiement. Veuillez réessayer ou utiliser une autre méthode de paiement.",
+        "third_party_payment_error": "Une erreur s'est produite lors du chargement de la sélection de paiement. Veuillez utiliser un autre mode de paiement.",
+        "choose_new_address": "Choisissez une nouvelle adresse",
+        "unbranded_description_same_day": "Expédié le même jour ouvrable",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Expédié le jour ouvrable suivant",
+          "other": "Expédié sous %{count} jours ouvrables"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Sera expédié dans %{count} semaine",
+          "other": "Expédié dans %{count} semaines"
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Paiement Amazon",
+        "amazon_payments_login_hint": "Il vous est demandé de vous connecter à Amazon.",
+        "amazon_payments_logout": "Déconnectez-vous d'Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "La méthode de paiement sélectionnée ne peut pas être utilisée. Veuillez choisir une autre méthode ou contacter votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_abandoned_mfa_challenge": "Votre paiement n'a pas pu être effectué. Essayez un autre mode de paiement ou contactez votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_could_not_enqueue_authorize": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "amount_left_to_pay_label": "Montant dû :",
+        "discount_button_action_label": "Ajouter un code de réduction",
+        "gift_card_code_label": "Code du bon cadeau",
+        "gift_card_balance_label": "Solde :",
+        "detected_card_brand": "Type de carte détecté : {brand}",
+        "card_pay_with": "Payer avec :",
+        "card_expiry_label": "Date d'expiration (MM/AA)",
+        "card_expiry_placeholder": "Date d'expiration (MM/AA)",
+        "card_expiry_date_explanation": "Disposition de la date d'expiration de la carte : mois, mois, année, année",
+        "card_verification_value_explanation": "Code de sécurité à 3 chiffres, généralement situé au verso de votre carte. American Express possède un code à 4 chiffres au recto."
       }
     }
   }
