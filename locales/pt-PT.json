@@ -1236,7 +1236,71 @@
           "add_address": "Adicionar morada",
           "generic_error": "Ocorreu um problema ao guardar o seu endereço. Por favor, tente novamente.",
           "one_time_address_subtitle": "Utilizar um único endereço para esta encomenda"
-        }
+        },
+        "different_shipping_method_summary": "Preencha um outro endereço de entrega para ver os métodos de envio disponíveis",
+        "invalid_shipping_method_summary": "Introduza um endereço de entrega válido para ver os métodos de envio disponíveis",
+        "method_summary": {
+          "incomplete_address_entered": "Introduza um endereço de entrega completo para ver os métodos de envio disponíveis",
+          "incomplete_address_selected": "Selecione um endereço de entrega completo para ver os métodos de envio disponíveis"
+        },
+        "local_pickup": {
+          "search_address": "Procurar endereço",
+          "rollup_title": "Alocação de memória livre",
+          "rollup_accessibility_label": "Opções para local de recolha"
+        },
+        "missing_shipping_address": "Endereço de entrega em falta",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Primeira remessa",
+          "other": "Primeiras remessas"
+        },
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artigos",
+        "split_shipping_merchandise_quantity_label_additional": "+ mais %{quantity}",
+        "pre_order_ships_now": "Enviado agora",
+        "pre_order_ships_later": "Será enviado mais tarde",
+        "pre_order_ships_date": "Será enviado em %{date}",
+        "split_shipping_multiple_shipment_label": "Múltiplas remessas",
+        "split_shipping_shipping_label": "Wijze",
+        "split_shipping_multiple_shipment_notice": "A encomenda será entregue em várias remessas",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "A sua encomenda será entregue em %{quantity} remessas",
+        "default_description": "Enviado dentro de um dia útil",
+        "split_shipping_shipment_notice": "Receberás a tua encomenda em %{quantity_shipments}",
+        "unbranded_default_description": "Pronto para envio",
+        "prime_not_available": {
+          "default": "A entrega Prime não está disponível para a sua encomenda. As suas opções de envio foram atualizadas."
+        },
+        "split_shipping_first_shipment_notice": "Receberás a tua primeira encomenda em %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Opções para método de envio",
+        "shipping_address_rollup_accessibility_label": "Opções para envio para o endereço",
+        "invalid_shipping_method_summary_selected": "Selecione outro endereço de entrega para ver os métodos de envio disponíveis",
+        "third_party_address_timeout": "Não foi possível carregar o endereço. Tente novamente ou utilize outro endereço.",
+        "third_party_address_error": "Ocorreu um erro ao carregar a seleção de endereço. Por favor, insira o seu endereço manualmente abaixo.",
+        "third_party_payment_timeout": "Não foi possível carregar os métodos de pagamento. Tente novamente ou utilize outro método de pagamento.",
+        "add_shipping_address": "Adicionar morada de entrega",
+        "unbranded_description_same_day": "É enviado no mesmo dia útil",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Será enviado no próximo dia útil",
+          "other": "Será enviado em %{count} dias úteis"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Será enviado dentro de %{count} semanas",
+          "other": "Será enviado dentro de %{count} semanas"
+        },
+        "add_new_delivery_address": "Adicionar um novo endereço de entrega",
+        "delivery_to": "Entrega para"
+      },
+      "payment": {
+        "amazon_payments_login_hint": "É solicitado que inicies sessão na Amazon.",
+        "amazon_payments_logout": "Terminar sessão do Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "O método de pagamento selecionado não pode ser utilizado. Selecione outro método ou contacte o seu banco ou emissor do cartão.",
+        "amazon_payments_abandoned_mfa_challenge": "O seu pagamento não pôde ser concluído. Tente outro método de pagamento ou contacte o seu banco ou emissor do cartão.",
+        "amazon_payments_could_not_enqueue_authorize": "Ocorreu um problema ao processar o seu pagamento. Tente novamente ou utilize outro método de pagamento.",
+        "amount_left_to_pay_label": "Montante devido:",
+        "discount_button_action_label": "Aplicar Código de Desconto",
+        "gift_card_code_label": "Código do vale-presente",
+        "supported_card_brands_more_label": "e mais…",
+        "detected_card_brand": "Tipo de cartão detetado: {brand}",
+        "card_security_notice": "Todas as transacções estão seguras e encriptadas.",
+        "card_expiry_label": "Data de validade (MM/AA)"
       }
     }
   }

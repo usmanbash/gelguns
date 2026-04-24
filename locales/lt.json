@@ -4155,6 +4155,74 @@
       "failed_to_upgrade": "Nepavyko atnaujinti kliento paskyros nustatymų.",
       "logout_everywhere": {
         "description": "Įvyko klaida atsijungiant. Bandykite dar kartą."
+      },
+      "profile_name_update_error": {
+        "description": "Įvyko problema atnaujinant jūsų vardą. Atnaujinkite šį puslapį arba patikrinkite savo interneto ryšį."
+      },
+      "load_address_form_error": {
+        "description": "Nepavyko įkelti kon formos."
+      },
+      "not_upgraded": "Kliento paskyros nebuvo atnaujintos.",
+      "revert_window_expired": "Atkūrimo laikotarpis pasibaigė."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Mokėjimo metodo duomenys",
+        "payment_method_expiring_on": "Baigiasi galiojimas {{expiryDate}}",
+        "preauthorized_payments": "Iš anksto autorizuoti mokėjimai",
+        "close_payment_modal_accessibility_label": "Modaal Duomenys mokėjimo būdas uždaryti",
+        "payment_method_not_found_error": "Negalima rasti mokėjimo metodo",
+        "payment_details_loading": "Kraunama mokėjimo būdo informacija",
+        "pre_authorized_payments": "Iš anksto autorizuoti mokėjimai",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Iš viso {{totalItems}} straipsnių; rodoma {{totalItemsToDisplay}} straipsnių.",
+        "next_payment_due": "Kitas mokėjimas turi būti atliktas {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Redaguoti mokėjimo būdą, kuris baigiasi {{lastDigits}}",
+        "credit_card_details_accessibility_label": "baigiantis {{lastDigits}}",
+        "billing_title": "Sąskaitos adresas",
+        "card_info_title": "Kortelės duomenys",
+        "payment_method_expired_on": "Pasibaigęs galiojimas {{expiryDate}}",
+        "loading_shop_pay": "Apmokėti per Shop Pay",
+        "invalid_payment_method": "Neteisingas mokėjimo būdas",
+        "invalid_payment_method_message": "Naudokite naują kreditinę kortelę, kad toliau gautumėte būsimus užsakymus.",
+        "replace_payment_method": "Mokėjimo metodo keitimas",
+        "checkout_card_banner": "Šiuo mokėjimo būdu galite naudotis tik iš anksto autorizuotiems mokėjimams. Jis nebus rodomas atsiskaitymo metu, jei būsite prisijungę prie šios parduotuvės.",
+        "default_checkbox": "Nustatyti kaip numatytąją reikšmę",
+        "default_checkbox_accessibility_label": "Nustatykite šį mokėjimo būdą kaip numatytąjį"
+      },
+      "delete_payment_method_button": "Pašalinti",
+      "delete_payment_method_button_accessibility_label": "Pašalinti {{paymentMethodName}}",
+      "back_button_accessibility_label": "Grįžti į {{paymentMethodStepTitle}}",
+      "payment_delete": {
+        "title": "Pašalinti mokėjimo būdą",
+        "description_without_replacement": "Šis mokėjimo būdas nebeprieinamas būsimoms pirkimo operacijoms.",
+        "description_with_replacement": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams. Taip pat galite jį pakeisti kitu mokėjimo būdu, kad toliau gautumėte būsimus užsakymus.",
+        "replace_method_with_new_method_description": "Jūsų {{currentPaymentMethodName}} bus pašalinta ir pakeista į jūsų {{newPaymentMethodName}}.",
+        "error_when_deleting": "Atsiprašome, įvyko klaida ir negalime pašalinti šio mokėjimo būdo. Pabandykite dar kartą vėliau arba atnaujinkite puslapį.",
+        "delete_and_replace_button": "Pašalinti ir pakeisti",
+        "delete_and_replace_button_accessibility_label": "Pašalinkite {{currentPaymentMethodName}} ir pakeiskite jį {{newPaymentMethodName}}.",
+        "deleted_successfully": "Mokėjimo būdas buvo pašalintas.",
+        "payment_method_selector_no_alternative_payment": "Nėra pakaitinio metodo",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams. Esami užsakymai vis tiek bus apmokestinti naudojant šį mokėjimo būdą, nebent pasirinktumėte kitą mokėjimo būdą. Pasirinkite kitą mokėjimo būdą, kad be pertraukų galėtumėte toliau gauti būsimus prenumeratos užsakymus.",
+          "with_pending_orders": "Mokėjimo metodo pašalinimas reiškia, kad jis bus ištrintas iš jūsų paskyros ir nebus prieinamas būsimoms pirkimo operacijoms. Esamos užsakymų sumos, kurios dar neapmokėtos, vis tiek bus nuskaičiuotos naudojant šį mokėjimo metodą, nebent pasirinktumėte kitą mokėjimo būdą.",
+          "with_subscriptions": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams. Pakeiskite jį kitu mokėjimo būdu, kad galėtumėte toliau gauti būsimus užsakymus."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams. Esamos užsakymų sumos vis tiek bus nuskaičiuotos per šį mokėjimo būdą, tačiau negausite būsimų prenumeratos užsakymų. Pridėkite kitą mokėjimo būdą, kad toliau gautumėte prenumeratos užsakymus.",
+          "with_pending_orders": "Mokėjimo metodo pašalinimas reiškia, kad jis bus ištrintas iš jūsų paskyros ir nebus prieinamas būsimoms pirkimo operacijoms. Esamų užsakymų neapmokėtos sumos vis tiek bus nuskaičiuotos naudojant šį mokėjimo metodą.",
+          "with_subscriptions": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams. Pridėkite kitą mokėjimo būdą, kad galėtumėte toliau gauti būsimus užsakymus."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Mokėjimo metodo keitimas",
+        "billing_address": "Sąskaitos adresas",
+        "billing_address_choose_from_list": "Pasirinkite iš sąrašo",
+        "future_purchases_notice": "Šis mokėjimo būdas bus išsaugotas būsimiesiems pirkimams.",
+        "generic_error": "Įvyko klaida atnaujinant. Bandykite dar kartą."
+      },
+      "card_fields": {
+        "name_on_card_label": "Vardas kortelėje",
+        "name_on_card_placeholder": "Vardas kortelėje"
       }
     }
   }
