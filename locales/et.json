@@ -3761,11 +3761,75 @@
               "may_be_eligible_label": "Shop Promise garanteerib kiire ja usaldusväärse kohaletoimetamise. Nõua Shop Cashi, kui su tellimus hilineb.",
               "may_be_eligible_not_authorized_label": "Võid olla õigustatud taotlema Shop Cashi, kuna see tellimus saabus hilinenult. Logi sisse, et vaadata üksikasju.",
               "redeemed_label": "Sa oled Shop Cash juba nõudnud, sest see tellimus saabus hilinenult.",
-              "expired_label": "See tellimus ei kuulu hilinenud kohaletoimetamise nõude alla, kuna 30-päevane garantii on aegunud."
-            }
+              "expired_label": "See tellimus ei kuulu hilinenud kohaletoimetamise nõude alla, kuna 30-päevane garantii on aegunud.",
+              "no_shop_cash_label": "See tellimus ei kuulu hilinenud kohaletoimetamise nõude alla, kuna see ei ole makstud Shop Payga.",
+              "no_longer_guaranteed_label": "Neid tooteid ei toetata enam kohaletoimetamise garantiiga.",
+              "claim_shop_cash_title": "Skaneeri {{amount}}, et lunastada Shop Cash",
+              "claim_shop_cash_description": "Saad kasutada Shop Cashi tulevaste ostude jaoks Shopi rakenduses."
+            },
+            "delivery_guarantee_label": "Tarnegarantii"
           }
-        }
-      }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Halda Amazonis"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Tarne garanteeritud poolt",
+            "external_promise_brand_label": "Kohaletoimetamine jaoks",
+            "not_delivered_by_label": "Mures pärast {{date}}",
+            "delivery_guarantee_expired_label": "Tagatud kohaletoimetamine aegunud",
+            "modal_accessibility_button_label": "Andmed kohaletoimetamise lubaduse kohta",
+            "download_shop_app_button_label": "Laadi alla pood jälgimiseks",
+            "track_with_shop_button_label": "Jälgi poes",
+            "claim_shop_cash_button_label": "Osta Cash claimen"
+          },
+          "details_modal": {
+            "title": "Tarnegarantii",
+            "active_delivery_guarantee_label": "Kohaletoimetamine {{date}}",
+            "expired_delivery_guarantee_description": "Selle tellimuse 30-päevane De Shop lubaduse garantii on aegunud.",
+            "expired_badge_label": "Aegunud",
+            "order_includes_guarantees_label": "Tarnega kaasneb {{deliveryAgreementsCount}} garantiid",
+            "order_includes_guarantees_description": "Shop Promise pakub garantiid kiireks ja usaldusväärseks kohaletoimetamiseks. Nõua Shop Cashi, kui sinu tellimus jõuab kohale pärast {{date}}.",
+            "delivered_after_label": "Mures pärast {{date}}",
+            "delivered_after_description": "Sinu tellimus saabus hilinenult, seega võid nõuda {{amount}} Shop Cashi.",
+            "claimed_shop_cash_description": "See tellimus saabus hilinenult, seega oled nõudnud {{amount}} Shop Cashi.",
+            "eligible_to_claim_shop_cash_description": "Sinu tellimus saabus hilinenult, seega võid nõuda {{amount}} Shop Cashi.",
+            "learn_more_button_label": "Rohkem teavet",
+            "claim_shop_cash_button_label": "Osta Cash claimen",
+            "view_balance_in_shop_button_label": "Vaata saldot poes",
+            "scan_to_claim_shop_cash_label": "Skaneeri {{amount}}, et lunastada Shop Cash"
+          }
+        },
+        "tracking_number": {
+          "one": "Jälgimisnumber",
+          "other": "Jälgimisnumbrid"
+        },
+        "gift_card_resend_button": {
+          "one": "Kingituskupongi uuesti saatmine",
+          "other": "Kinkekaartide uuesti saatmine"
+        },
+        "expected_by": "Oodatav hiljemalt {{date}}",
+        "was_expected_by": "Oodatav hiljemalt {{date}}"
+      },
+      "status_mark_as_delivered": "Märgista kui murelik",
+      "buy_again": "Osta uuesti",
+      "buy_again_accessibility_label": "Osta uuesti tellimuse {{orderId}} jaoks",
+      "manage": "Halda",
+      "manage_accessiblity_label": "Tellimuse {{orderId}} haldamine",
+      "fulfillment_status_title": "Täitmisseisund: {{status}}",
+      "list_title_with_pending_orders": "Tellimused:",
+      "list_title_confirmed_orders_accessibility_label": "Tellimused: kinnitatud",
+      "list_title_pending_orders_accessibility_label": "Tellimused: töös",
+      "switch_order_type_pending_orders_accessibility_label": "Tellimuse tüübi vahetamine; praegu vaatad töötlemisel olevaid tellimusi",
+      "switch_order_type_confirmed_orders_accessibility_label": "Tellimuse tüübi vahetamine; vaatate kinnitatud tellimusi",
+      "group_title_label": "Osa: {{groupTitle}}",
+      "group_title_label_with_parent": "Eelvaade: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Arve esitamine ja saatmine",
+      "billing_address": "Arve aadress",
+      "card_ending_with": "lõpeb {{lastDigits}}"
     }
   }
 }
