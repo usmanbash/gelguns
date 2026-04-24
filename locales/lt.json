@@ -3319,7 +3319,101 @@
       "create_account": "Sukurti paskyrą",
       "reset_account": "Paskyros atstatymas",
       "order": "Užsisakyti %{name}",
-      "not_found": "404 nerasta"
+      "not_found": "404 nerasta",
+      "checkpoint": "Kontrolinis taškas",
+      "search_results": {
+        "one": "Paieška: rasta %{count} rezultatų pagal '%{terms}'",
+        "other": "Paieška: rasta %{count} rezultatų pagal '%{terms}'"
+      }
+    },
+    "cart": {
+      "discounts_with_count": "Taikyta %{count} nuolaidų"
+    },
+    "challenge": {
+      "message": "Praneškite mums, kad nesate robotas, kad galėtumėte tęsti.",
+      "error": "Jūsų atsakymas nebuvo teisingas, bandykite dar kartą.",
+      "submit_button_text": "Siųsti"
+    },
+    "checkpoint": {
+      "message": "Įveskite captcha, kad tęstumėte",
+      "error": "captcha patvirtinimas nepavyko",
+      "submit_button_text": "Siųsti"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Ačiū, kad užsiregistravote mūsų naujienlaiškiui.",
+        "disclaimer": "Jūs galite bet kada atsisakyti prenumeratos.",
+        "unsubscribe": "Atsijungti"
+      },
+      "unsubscribed": {
+        "confirmation": "Jūs atsisakėte mūsų naujienlaiškio prenumeratos.",
+        "disclaimer": "Jūs negausite daugiau mūsų rinkodaros naujienų. Bet kada galite vėl užsiregistruoti.",
+        "preview": "Jūs matote pavyzdį, ką klientai pamatys, kai atsisakys prenumeratos."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Jūs suteikėte leidimą stebėti el. laiško atidarymą.</b>",
+          "visibility": "El. laiškų atidarymo procentai yra anonimiškai ataskaitoje. Matysime tik tai, ar atidarei el. laišką, kaip dalį bendro el. laiškų atidarymo procento.",
+          "opt_out_html": "Jei nenorite dalintis šia informacija, galite <a style='text-decoration:underline;' href='%{link}'>atsisakyti</a> el. pašto atidarymo sekimo.",
+          "preview_bar": "Jūs matote pavyzdį, ką klientai mato, kai jie sutinka gauti el. laiškus su atviru sekimu."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Jūs atsisakėte el. pašto atidarymo sekimo.</b>",
+          "visibility": "Mes nematome, ar atvėrei mūsų el. laiškus.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Sutikti</a> su atviru el. laiškų sekimu.",
+          "preview_bar": "Jūs matote pavyzdį, ką klientai mato, kai atsisako gauti el. laiškus apie atvirą sekimą."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Mes nebežymime, ar el. laiškai atidaromi.</b>",
+          "privacy_policy": "Po šio el. laiško išsiuntimo atnaujinome savo privatumo politiką ir nebesekame el. laiškų atidarymo."
+        },
+        "track": {
+          "status_html": "<b>El. pašto atidarymo stebėjimas yra pranešamas.</b>",
+          "visibility": "Matysime, ar atvėrei el. laišką, tik kaip bendros el. laiškų atidarymo procento dalį."
+        },
+        "updated_policy": {
+          "status_html": "<b>El. pašto atidarymo stebėjimas yra pranešamas.</b>",
+          "visibility": "Mes atnaujinome savo politiką ir dabar stebime atidarytus el. laiškus. El. laiškų atidarymo procentai yra anonimiškai pateikiami. Matysime tik tai, ar atidarei el. laišką, kaip bendros el. laiškų atidarymo procentų dalį.",
+          "opt_out_html": "Jei nebenorite dalintis šia informacija, galite <a style='text-decoration:underline;' href='%{link}'>atsisakyti prenumeratos</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "button": "Atsijungti"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Dažniausiai paruošiama per 1 valandą",
+        "two_hours": "Dažniausiai paruošiama per 2 valandas",
+        "four_hours": "Dažniausiai paruošiama per 4 valandas",
+        "twenty_four_hours": "Dažniausiai paruošiama per 24 valandas",
+        "two_to_four_days": "Dažniausiai paruošiama per 2–4 dienas",
+        "five_or_more_days": "Dažniausiai paruošiama per daugiau nei 5 dienas",
+        "zero_to_two_hours": "Dažniausiai paruošiama per 2 valandas",
+        "two_to_four_hours": "Dažniausiai paruošiama per 4 valandas",
+        "immediately": "Paruošta atsiimti dabar",
+        "next_day": "Pasiruošę atsiimti kitą dieną"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Sandėlyje",
+          "out_of_stock": "Nėra sandėlyje"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevancija",
+        "price_ascending": "Kaina: nuo žemiausios iki aukščiausios",
+        "price_descending": "Kaina: nuo didžiausios iki mažiausios"
+      },
+      "error": "Įvyko problema įkeliant paieškos rezultatus. Atnaujinkite puslapį arba bandykite dar kartą vėliau."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Šis straipsnis yra pasikartojantis arba atidėtas pirkimas. Jei tęsiu, sutinku su %{cancellationPolicyLink} ir taip pat suteikiu leidimą nurodytas kainas nuskaičiuoti iš mano mokėjimo būdo nurodytu dažnumu ir datomis, kol mano užsakymas bus įvykdytas arba kol aš, jei leidžiama, atšauksiu.",
+      "buyer_consent_cart": "Vienas ar daugiau prekių jūsų krepšelyje yra atidėti arba pasikartojantys pirkimai. Jei tęsiu, sutinku su %{cancellationPolicyLink} ir taip pat suteikiu leidimą nurodytas kainas nuskaičiuoti iš mano mokėjimo būdo nurodytu dažnumu ir datomis, kol mano užsakymas bus įvykdytas arba kol aš, jei leidžiama, atšauksiu."
     }
   }
 }
