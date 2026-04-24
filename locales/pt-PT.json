@@ -868,7 +868,89 @@
         "pick_up_in_zero_to_two_hours": "Pronto para levantar dentro de 2 horas",
         "pick_up_in_two_to_four_hours": "Pronto para levantar dentro de 4 horas",
         "free_total_label": "Grátis",
-        "shipping_address": "Endereço de entrega"
+        "shipping_address": "Endereço de entrega",
+        "pick_up_locations": "Locais de afetação",
+        "retail_method_definition": "Envios de retalho",
+        "none_method_definition": "Sem envios",
+        "subscription_pickup_information": "Este método de entrega aplica-se a todos os artigos desta encomenda e a todos os artigos futuros para esta subscrição.",
+        "ship_to_address": "Enviar para o endereço",
+        "pick_up_from_store": "Levantamento na loja",
+        "company_location_no_address_banner": "Encomendas enviadas para locais sem endereço são submetidas a verificação.",
+        "pickup_point_map_title": "Mapa com pontos de recolha"
+      },
+      "customer_account": {
+        "not_user_label": "Não és %{first_name}?",
+        "have_an_account_label": "Tens uma conta?",
+        "save_my_information_label": "Guardar esta informação para pagar mais rapidamente da próxima vez",
+        "invalid_address": "O endereço selecionado é inválido. %{update_address_link} ou selecione outro endereço.",
+        "incomplete_address": "O endereço selecionado está incompleto. %{update_address_link} ou selecione outro endereço.",
+        "invalid_shipping_method_summary": "Selecione um endereço de entrega válido para ver os métodos de envio disponíveis",
+        "saved_address_option_link": "Utilize um endereço guardado",
+        "saved_address_modal_title": "Usar o meu endereço guardado",
+        "saved_address_option_description": {
+          "one": "Tens {{count}} endereço guardado.",
+          "other": "Tens {{count}} endereços guardados."
+        }
+      },
+      "stock": {
+        "page_title": "Problema de stock",
+        "title": "Fora de stock",
+        "items_unavailable_notice": "Alguns artigos já não estão disponíveis.",
+        "reduced_with_quantity_label": "Apenas %{quantity_available} em stock",
+        "go_back_to_cart_button_label": "Voltar ao meu carrinho de compras",
+        "empty_cart_label": "O teu carrinho está vazio",
+        "quantity_update": {
+          "page_title": "Quantidade atualizada",
+          "title": "Quantidade atualizada",
+          "description": "As quantidades disponíveis destes artigos foram alteradas e o seu carrinho foi atualizado."
+        },
+        "unpurchasable_product": {
+          "title": "Produto não pode ser comprado",
+          "header": "Alguns artigos foram removidos do teu carrinho de compras",
+          "message": "Estes artigos não estão disponíveis para encomendas B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produto não pode ser comprado",
+          "header": "Alguns artigos foram removidos do teu carrinho de compras",
+          "message": "Estes artigos não estão disponíveis."
+        },
+        "unshippable_product": {
+          "title": "Entrega indisponível",
+          "header": {
+            "one": "Entrega não disponível para %{count} artigo",
+            "other": "Entrega não disponível para %{count} artigos"
+          },
+          "message": {
+            "one": "Este artigo será removido do seu carrinho porque não existem métodos de entrega disponíveis para o seu endereço.",
+            "other": "Este artigo será removido do seu carrinho porque não existem métodos de entrega disponíveis para o seu endereço."
+          }
+        },
+        "price_update": {
+          "description": "Os preços destes artigos foram alterados e atualizados no teu carrinho."
+        },
+        "item_label": {
+          "one": "{{count}} artigos",
+          "other": "{{count}} artigos"
+        },
+        "continue_cta_label": "Continuar para o pagamento",
+        "out_of_stock": {
+          "description": "Estes artigos já não estão disponíveis e foram removidos do teu carrinho.",
+          "items_unavailable": "Alguns artigos já não estão disponíveis e foram removidos do teu carrinho."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} já não está disponível para este artigo.",
+            "other": "%{delivery_method} já não está disponível para estes artigos."
+          },
+          "default_message": {
+            "one": "O método de entrega escolhido já não está disponível para este artigo.",
+            "other": "O método de entrega escolhido já não está disponível para estes artigos."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Atualizar preço e quantidade",
+          "description": "Os preços e as quantidades disponíveis destes artigos foram alterados e o carrinho foi atualizado."
+        }
       }
     }
   }

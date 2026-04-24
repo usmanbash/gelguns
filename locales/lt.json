@@ -3709,7 +3709,73 @@
         },
         "expected_by": "Tikimasi ne vėliau kaip {{date}}",
         "was_expected_by": "Laukiama ne vėliau kaip {{date}}"
-      }
+      },
+      "buy_again_accessibility_label": "Pirkti iš naujo už užsakymą {{orderId}}",
+      "manage": "Valdyti",
+      "manage_accessiblity_label": "Užsakymo {{orderId}} valdymas",
+      "list_title_confirmed_orders_accessibility_label": "Užsakymai: patvirtinta",
+      "list_title_pending_orders_accessibility_label": "Užsakymai: tvarkomi",
+      "switch_order_type_pending_orders_accessibility_label": "Keisti užsakymo tipą; dabar peržiūrite vykdomus užsakymus",
+      "switch_order_type_confirmed_orders_accessibility_label": "Užsakymo tipo keitimas; peržiūrite patvirtintus užsakymus",
+      "group_title_label": "Dalį sudaro: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Sąskaitų išrašymas ir siuntimas",
+      "billing_address": "Sąskaitos adresas",
+      "card_ending_with": "baigiasi {{lastDigits}}",
+      "contact": "Kontaktinis asmuo",
+      "hide_items": "Slėpti straipsnius",
+      "loading": "Užsakymo duomenys kraunami",
+      "loading_finished_accessibility_message": "Užsakymo duomenys įkelti",
+      "payment": {
+        "status_in_review": "Mokėjimas reikalingas po įvertinimo",
+        "status_unpaid": "Mokėjimas turi būti atliktas iki {{date}}",
+        "title": "Apmokėjimas",
+        "card_payment_details": "baigiantis {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Apmokėta naudojant Shop Pay dalimis mokėjimą",
+          "view_schedule": "Peržiūrėti planavimą"
+        },
+        "gift_card_payment_details": "baigiantis {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Pašto perlaida - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Grąžinimas - {{formattedTransactionAmount}}",
+          "bank_deposit": "Banko indėlis - {{formattedTransactionAmount}}",
+          "manual": "Rankinis - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Parduotuvės kreditas - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Duomenys",
+          "payment_details": "Mokėjimo duomenys"
+        },
+        "emv_details": {
+          "auth": "AUTENTIFIKAVIMAS:",
+          "aid": "AID:",
+          "source": "Versti į lietuvių kalbą.\nPirmenybę teikite tarptautiniu mastu pripažintiems skoliniams, jei jie yra įprasti gimtąja lietuvių kalba kalbančių žmonių tarpe; kitu atveju naudokite aiškiausią gimtąjį atitikmenį.\nVeiksmažodžiais pažymėtoms raginimo veikti etiketėms (pvz., Pirkti, Užsisakyti, Peržiūrėti) naudokite gimtąsias lietuvių kalbos veiksmažodžių formas; nelaikykite anglų kalbos veiksmažodžių, nebent jie būtų aiškiai nurodyti žodyne.\nŠaltinyje gali būti prekės ženklų pavadinimai, modelių numeriai, akronimai, ID arba jau lietuvių kalba esantis tekstas."
+        },
+        "payment_type": {
+          "gift_card": "Dovanų kuponas",
+          "money_order": "Pašto pervedimas",
+          "cash_on_delivery": "Grąžinti",
+          "bank_deposit": "Banko pavedimas",
+          "manual": "Rankinis"
+        }
+      },
+      "shipping": {
+        "method": "Pristatymo būdas",
+        "summary": "Siųsti",
+        "one_time": "Vienkartinis siuntimas",
+        "subscription": "Siuntimas pagal prenumeratą"
+      },
+      "show_items": "Rodyti straipsnius",
+      "subtitle": "Patvirtinta: {{date}}",
+      "summary_title": "Užsakymų apžvalga",
+      "total": "Iš viso",
+      "unit_price": "{{price}}/vnt",
+      "not_applicable": "n.v.t.",
+      "fully_refunded_label": "GRĄŽINTA",
+      "partially_refunded_label": "DALINAI GRĄŽINTA",
+      "refunded_amount": "Grąžinta"
     }
   }
 }
