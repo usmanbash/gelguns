@@ -2270,8 +2270,104 @@
         "inventory": {
           "partial_inventory_banner": "Uma parte do seu carrinho está esgotada e não pode ser adquirida no momento da finalização da compra.",
           "sold_out": {
-            "heading": "O teu carrinho está esgotado"
+            "heading": "O teu carrinho está esgotado",
+            "storefront_body": "Voltar à loja para continuar a comprar",
+            "no_storefront_body": "O artigo que queria comprar já não está disponível."
           }
+        },
+        "title": "Fila de espera",
+        "time_to_checkout_title": "Hora de pagar - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calcular o tempo de espera estimado",
+          "less_than_one": "Tempo de espera estimado: menos de um minuto"
+        },
+        "last_checked": "(Ultima verificação: {{time}})",
+        "footer": {
+          "heading": "Não precisa de atualizar esta página, ela será atualizada automaticamente.",
+          "body": "Os artigos no seu carrinho só serão reservados após concluir a finalização da compra."
+        },
+        "too_many_attempts": {
+          "description": "Tente novamente daqui a alguns minutos"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Ocorreu um problema ao processar o seu pedido. Por favor, contacte o proprietário da loja."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Entrega não disponível para %{count} artigo",
+            "other": "Entrega não disponível para %{count} artigos"
+          },
+          "message": {
+            "one": "Este artigo será removido do seu carrinho porque não existem métodos de entrega disponíveis para o seu endereço.",
+            "other": "Este artigo será removido do seu carrinho porque não existem métodos de entrega disponíveis para o seu endereço."
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Localização sem endereço",
+        "header": "Não há endereço de entrega para esta localização",
+        "message": "Contacte-nos para adicionar um endereço para esta localização, para que possa concluir a finalização da compra.",
+        "email_us_button_label": "Envie-nos um correio eletrónico",
+        "alt_header": "Endereço de entrega em falta"
+      },
+      "order_errors": {
+        "creation_failure": "Ocorreu um problema ao criar a sua encomenda. Tente novamente ou contacte-nos para mais informações.",
+        "network_failure": "A sua encomenda não pode ser submetida devido a um erro de rede. Verifique a sua ligação e tente novamente.",
+        "inventory_reservation_failure": "Alguns artigos já não estão disponíveis."
+      },
+      "session_errors": {
+        "session_not_unique": "Ocorreu um problema ao processar a sua encomenda. Atualize esta página para voltar à loja.",
+        "session_already_finished": "Esta encomenda já foi submetida. Pode voltar à loja para iniciar uma nova encomenda."
+      },
+      "pickup_point": {
+        "title": "Ponto de levantamento",
+        "or": "de",
+        "could_not_resolve_address": "Não é possível encontrar o endereço. Tente novamente ou utilize outro endereço",
+        "no_pickup_points_near_you": "Nenhum ponto de recolha encontrado perto do endereço selecionado",
+        "no_pickup_points_near_location": "Nenhum ponto de recolha encontrado perto da sua localização",
+        "paginator": {
+          "header": {
+            "one": "Mostra %{first} - %{last} de %{count} pontos",
+            "other": "Mostra %{first} - %{last} de %{count} pontos"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} de %{count} pontos"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} pontos de recolha perto da sua localização"
+        },
+        "change": "Alterar localização",
+        "waiting_on_pickup_point_location_notice": "A procurar pontos de recolha...",
+        "geolocation": {
+          "shared_location_button": "Usar a minha localização",
+          "errors": {
+            "unsuported_by_browser": "A obtenção da geolocalização não é suportada pelo seu navegador. Tente novamente ou utilize outro navegador.",
+            "permission_not_allowed": "Permita o compartilhamento da sua localização.",
+            "permission_denied": "Não é possível obter a localização. Tente novamente."
+          }
+        },
+        "no_business_hours": "Não existem horários de funcionamento disponíveis",
+        "open_twenty_four_hours": "Aberto 24 horas por dia, 7 dias por semana",
+        "pickup_unavailable_banner_title": {
+          "one": "Não existem pontos de recolha disponíveis para o teu artigo",
+          "other": "Não existem pontos de recolha disponíveis para os teus artigos"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Ocorreu um problema no momento do pagamento",
+          "message": "Atualize esta página ou tente novamente daqui a alguns minutos",
+          "action": {
+            "cta": "Recarregar página"
+          },
+          "request_id": "ID da solicitação: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Esta loja está protegida por uma palavra-passe",
+          "cart_completed": "Esta finalização de compra já foi concluída"
         }
       }
     }
