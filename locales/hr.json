@@ -1494,7 +1494,79 @@
         "payment_method_update_failed": "Ažuriranje načina plaćanja nije uspjelo.",
         "alternative_payment_currency_total_manual_payment_notice": "Napomena: Konvertirani ukupni iznos je %{amount_due}.",
         "gift_cards_unavailable": "Poklon bon se više ne može koristiti za ovu narudžbu i stoga je uklonjen",
-        "network_card_payment_options": "Odabir kreditne kartične tvrtke"
+        "network_card_payment_options": "Odabir kreditne kartične tvrtke",
+        "payment_flexibility_terms_id_mismatch": "ID uvjeti fleksibilnosti plaćanja se ne podudaraju",
+        "offsite_gateway_review_page_redirect_hint": "Nakon što provjerite narudžbu, bit ćete preusmjereni na %{gateway_label} kako biste dovršili kupnju.",
+        "gift_card_checkbox_label": "Iskoristi poklon bon",
+        "kcp_creditcard_label": "KCP-kreditna kartica",
+        "simulated_express_checkout": "Digitalni novčanici nisu dostupni u primjeru uređivača zbog tvoje regije ili preglednika",
+        "offsite_gateway_redirect_hint_no_button_label": "Bit ćete preusmjereni na %{gateway_label} kako biste dovršili svoju kupnju.",
+        "swish_label": "Šuštanje",
+        "network_card_persistence_description": "Odabrana mreža bit će spremljena s vašom metodom plaćanja za buduće transakcije.",
+        "payment_option": {
+          "accessibility_label": "Odaberite opciju plaćanja"
+        },
+        "billing_address_rollup_accessibility_label": "Opcije za adresu računa",
+        "payment_method_rollup_accessibility_label": "Opcije načina plaćanja",
+        "crypto_modal": {
+          "header": "Platite %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Obnovi",
+            "sandbox_error": "Nešto je pošlo po zlu"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Platni račun",
+          "savings": "Štedni račun"
+        },
+        "bank_account_choose": "Odaberite račun za sigurno dovršavanje vaše kupnje",
+        "bank_account_connect_another": "Poveži drugi bankovni račun",
+        "bank_account_connect": "Poveži bankovni račun",
+        "crypto_payment_method": {
+          "description": "Koppel novčanik sigurno. Vaš saldo i adresa neće biti dijeljeni.",
+          "tooltip": "Stanje tvog novčanika i tvoja adresa neće biti dijeljeni, a može se odbiti samo traženi iznos",
+          "cashback_descriptor": {
+            "one": "Dobit ćete svoj povrat novca nakon %{count} dana",
+            "other": "Dobit ćete svoj povrat novca nakon %{count} dana"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% povrat novca",
+        "usdc_cashback_additional_info": "Platite s USDC na Base i primite unutar 30 dana %{incentive_percentage}% natrag na svoj digitalni novčanik.",
+        "usdc_cashback_terms": "Uvjeti i ograničenja primjenjuju se",
+        "separate_payments_label": "Vaši artikli dolaze iz više trgovina. Morate platiti s %{separate_payments_link}.",
+        "separate_payments_text": "odvojena plaćanja",
+        "payments": "Plaćanje",
+        "business_customer_with_bank_account_vaulting_payment_label": "Spremi ovu metodu plaćanja prilikom naplate i ovlasti %{company} da tereći tvoj račun za buduće kupnje koje odobriš za ovu lokaciju, dok ne otkažeš. Svi kontakti dodijeljeni ovoj lokaciji smiju koristiti ovu metodu plaćanja.",
+        "new_bank_account_disclaimer": "Dovršetkom vaše narudžbe dajete ovlaštenje %{shop_name} da navedeni iznos na naznačeno vrijeme tereći s dolje navedene računa putem ACH-a.",
+        "bank_account_disclaimer": "Obrada ACH uplata može potrajati do 4 radna dana.",
+        "bank_account_vaulted_company_location": "Bankovni račun spremljen za ovu lokaciju",
+        "bank_account_generic_error": "Ne mogu dodati bankovni račun. Pokušajte ponovno kasnije.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} kupon za popust je uklonjen",
+          "other": "Uklonjeno je %{count} kuponskih kodova"
+        },
+        "default": "Standardno",
+        "continue_to_guest_checkout": "Kao gost na blagajnu",
+        "add_payment_method": "Dodaj način plaćanja",
+        "choose_new_payment_method": "Odaberite novu metodu plaćanja",
+        "add_new_payment_method": "Dodajte novu metodu plaćanja",
+        "discount_codes_modified_summary": {
+          "one": "%{count} kod za popust je promijenjen",
+          "other": "%{count} kuponskih kodova je promijenjeno"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} kupon za popust je uklonjen ili promijenjen",
+          "other": "%{count} kodova za popust je uklonjeno ili promijenjeno"
+        },
+        "multiple_primary_payment_not_allowed": "Nevažeće metode plaćanja"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Trenutno stanje %{amount}",
+        "credit_card_expires_on_notice": "Vrijedi do %{month}/%{year}",
+        "billing_address_title": "Adresa za račun"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Unesite važeći telefonski broj"
       }
     }
   }
