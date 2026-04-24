@@ -934,7 +934,73 @@
         "payment_due_label": "Plată datorată",
         "vat_label_html": "Inclusiv %{amount} TVA",
         "discount_and_gift_card_savings_notice": "Reducere de %{discount_amount} și %{gift_card_amount} valoare în card cadou",
-        "discount_savings_notice": "Reducere de %{discount_amount}"
+        "discount_savings_notice": "Reducere de %{discount_amount}",
+        "gift_card_savings_notice": "Valoare cadou de %{gift_card_amount}",
+        "cost_table_title": "Prezentare generală a costurilor",
+        "quantity_label": "Număr",
+        "product_change_label": "Modificare",
+        "product_image_label": "Imaginea produsului",
+        "scroll_order_summary": "Derulează pentru mai multe articole",
+        "expand_order_summary_short": "Afișare",
+        "order_total_updated_label": "Total actualizat",
+        "total_already_paid_label": "plătit",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} pe bucată",
+            "one": "%{price} pentru %{count} articole"
+          }
+        },
+        "pickup_label": "Ridicare din magazin",
+        "no_pickup_location": "Nu există locații disponibile pentru ridicare.",
+        "estimated_taxes_label": "Impozit estimat",
+        "information_estimated_taxes_label": "Impozite (estimate)",
+        "gift_card_ending": "Card cadou care se termină cu %{last_characters}",
+        "estimated_tax_label": "Impozit estimat",
+        "multiple_shipping_lines_label": "Cost total de expediere",
+        "sale_price": "Preț promoțional",
+        "recurring_total_label": "Total revenit",
+        "recurring_total_tooltip": "Exclusiv transport, TVA, taxe vamale sau eventuale reduceri.",
+        "gift_card_subscriptions_notice": "Voucherele cadou se aplică doar la prima ta plată",
+        "confirmation_number_label": "Număr de confirmare %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Suma totală a impozitului va fi confirmată prin e-mail sau mesaj text după ce ai plasat comanda ta.",
+        "deferred_payment_info": {
+          "title": "Plata de %{amount_due} este datorată la %{due_at}",
+          "description_html": "%{contact_us} pentru întrebări despre comanda ta.",
+          "due_on_fulfillment_title": "Plata în valoare de %{amount_due} este datorată la îndeplinirea comenzii.",
+          "due_on_receipt_title": "%{amount_due} este datorat la primire"
+        },
+        "percent_off_shipping": "%{percent}% reducere la transport",
+        "amount_off_shipping": "%{amount} reducere la transport",
+        "payment_terms_totals": {
+          "due_later_checkout_to_draft": "Total datorat mai târziu",
+          "due_on_fulfillment": "Total datorat la îndeplinirea comenzilor",
+          "due_on_receipt": "Total de plată la primire",
+          "due_today_next": "Astăzi datorat",
+          "due_on_fulfillment_next": "De plătit la îndeplinirea comenzii"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nu poate fi utilizat împreună cu reducerile tale existente.",
+        "maximum_discount_code_limit_reached": "Ai atins numărul maxim de coduri de reducere. Elimină un cod existent pentru a folosi <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Comandă totală",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> nu funcționează momentan. Contactează-ne dacă ai nevoie de ajutor.",
+        "due_on_fulfillment": "Datorat la îndeplinirea comenzilor",
+        "duties_label": "Drepturi vamale",
+        "duties_and_taxes_label": "Drepturi vamale și biruri",
+        "error_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așadar pot fi percepute taxe vamale și impozite la livrare.",
+        "may_be_charged_on_delivery": "Poate fi perceput la livrare",
+        "recurring_total_multiple_label": "Această comandă are costuri recurente pentru mai multe articole.",
+        "expand_component_information": {
+          "one": "Afișează %{count} articole"
+        },
+        "collapse_component_information": {
+          "one": "Ascunde %{count} articole"
+        },
+        "discount_discovery": {
+          "add_code": "Adăugare reducere",
+          "merchandise_quantity_label": {
+            "one": "%{count} articole",
+            "other": "%{count} articole"
+          }
+        }
       }
     }
   }
