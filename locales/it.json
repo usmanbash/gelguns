@@ -1648,7 +1648,71 @@
         "development_store_order_limit_reached": "Hai raggiunto il numero massimo di ordini per negozi di sviluppo con questo processore di pagamento. Usa un gateway di pagamento di prova per effettuare un altro ordine. Qui trovi maggiori informazioni su %{development_store_order_testing_docs_link}.",
         "development_store_with_order_limit": "Usa un gateway di pagamento di prova per effettuare un ordine di test. Qui trovi maggiori informazioni su %{development_store_order_testing_docs_link}.",
         "development_store_order_testing_docs_link": "testare gli ordini nei negozi di sviluppo",
-        "selected_payment_method": "Si è verificato un problema con il metodo di pagamento scelto e non sono stati addebitati costi. Riprova o utilizza un altro metodo di pagamento."
+        "selected_payment_method": "Si è verificato un problema con il metodo di pagamento scelto e non sono stati addebitati costi. Riprova o utilizza un altro metodo di pagamento.",
+        "payment_method_billing_address": "C'è un problema con l'indirizzo di fatturazione del metodo di pagamento selezionato. Controlla l'indirizzo e riprova oppure usa un altro metodo di pagamento.",
+        "amount_too_small": "L'importo minimo di pagamento deve essere superiore a 0,50 USD. Riprova con un importo maggiore.",
+        "payment_above_threshold": "L'importo del pagamento supera il limite consentito per questa zona. Riduci il totale e riprova.",
+        "risky": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova oppure usa un altro metodo di pagamento.",
+        "expired_buyer_action": "Pausa del metodo di pagamento. Riprova.",
+        "three_d_secure_failed_payment_method": "La tua carta non può essere verificata. Riprova oppure aggiungi un'altra carta.",
+        "name_mismatch": "Controlla i dati della tua carta. Il nome sulla tua carta e l'indirizzo di fatturazione non corrispondono.",
+        "shop_pay_wallet_not_available": "Shop Pay non è disponibile per questo pagamento.",
+        "market_manager_blocks_wallet_payments": "Questo metodo di pagamento non è supportato nel tuo paese.",
+        "paypal_over_capture": "L'importo totale del tuo ordine è stato aggiornato. Paga con {{walletName}} per completare il tuo ordine.",
+        "test_mode_enabled_only_test_cards": "La modalità di prova è attivata, è possibile aggiungere solo carte di credito di prova.",
+        "captcha_required": "Inserisci i dati di pagamento e risolvi il captcha per completare il tuo acquisto.",
+        "captcha_required_without_payment_information": "Completa il captcha per finalizzare il tuo acquisto.",
+        "shipping_company_required_error": "{{shopName}} richiede un nome aziendale per l'indirizzo di consegna.",
+        "payment_credential_delegation_error": "Si è verificato un problema durante l'elaborazione del tuo pagamento. Scegli un nuovo metodo di pagamento.",
+        "cancelled_payment": "Il tuo pagamento è stato annullato. Riprova o usa un altro metodo di pagamento.",
+        "installments_payment_method_incompatible": "Il metodo di pagamento selezionato non può essere utilizzato per i pagamenti a rate. Scegli un altro metodo di pagamento."
+      },
+      "shipping_errors": {
+        "shipping_method": "Le opzioni di spedizione per il tuo ordine sono state modificate. Controlla la tua selezione.",
+        "shipping_method_not_available": "Il tuo carrello è stato aggiornato e gli articoli che hai aggiunto non possono essere spediti al tuo indirizzo. Rimuovi gli articoli per completare il tuo ordine.",
+        "shipping_method_not_available_generic": {
+          "one": "Il tuo ordine non può essere spedito all'indirizzo selezionato. Controlla che l'indirizzo sia corretto e riprova, oppure scegli un altro indirizzo.",
+          "other": "Alcuni articoli nel tuo carrello non possono essere spediti all'indirizzo inserito. Verifica che l'indirizzo sia corretto e riprova oppure scegli un altro indirizzo."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "L'articolo che hai aggiunto non può essere spedito alla tua località. Rimuovi questo articolo per procedere al pagamento, oppure contatta il negozio.",
+          "other": "Uno o più articoli che hai aggiunto non possono essere spediti alla tua località. Rimuovi gli articoli per procedere al pagamento, oppure contatta il negozio."
+        },
+        "payment_method_not_supported": "Non puoi utilizzare questo metodo di pagamento per %{country}. Usa un altro metodo di pagamento per spedire in questo paese.",
+        "empty_state": "Inserisci il tuo indirizzo di consegna per vedere i metodi di spedizione disponibili.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Ci sono articoli nel carrello che non soddisfano i requisiti di prezzo o peso per poter essere spediti. Aggiorna il carrello e riprova.",
+        "invalid_selected_address": "L'indirizzo di consegna selezionato non è valido",
+        "invalid_selected_address_with_update_link": "L'indirizzo di consegna selezionato non è valido. %{update_address_link} o seleziona un altro indirizzo.",
+        "unavailable_selected_address_for_region": "La spedizione non è disponibile per {{region}}. Seleziona un altro indirizzo per continuare",
+        "unavailable_addresses_only_countries": "Il tuo ordine può essere spedito solo a {{countriesList}}. Aggiungi un nuovo indirizzo per continuare.",
+        "unavailable_address_country": "La spedizione non è possibile nel paese che hai selezionato. Inserisci un altro indirizzo per continuare"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Pagamento rapido",
+        "or": "DI",
+        "show_more_options": "Mostra più opzioni",
+        "hide_more_options": "Nascondi altre opzioni",
+        "or_pay_another_way": "O pagare in un altro modo",
+        "or_check_out_another_way": "O pagare in un altro modo",
+        "or_pay_with_credit_card": "O pagare con carta di credito"
+      },
+      "processing": {
+        "redirecting_page_title": "Reindirizzamento…",
+        "redirecting_title": "Reindirizzamento…",
+        "redirecting_notice": "Verrai reindirizzato.",
+        "continue_to_payment_gateway_notice": "Procedi al pagamento per aggiungere i tuoi dati di pagamento.",
+        "continue_to_payment_gateway_notice_error": "I tuoi dati di pagamento non possono essere verificati.",
+        "continue_to_payment_gateway_button_label_error": "Aggiorna i dati di pagamento",
+        "page_title": "Ordine in elaborazione",
+        "title": "Ordine in elaborazione",
+        "you_will_receive_confirmation": "Attualmente riceviamo moltissimi ordini. Dovresti ricevere a breve una conferma via e-mail o messaggio. Facci sapere se non la ricevi entro un'ora.",
+        "wait": {
+          "medium": {
+            "one": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuti.",
+            "other": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuti."
+          },
+          "long": "Riceverai un'e-mail non appena il tuo ordine sarà elaborato. Attualmente c'è un gran numero di ordini."
+        }
       }
     }
   }
