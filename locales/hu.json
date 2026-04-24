@@ -1176,9 +1176,95 @@
         "one_time_purchase_shipping": "Egyszeri küldés",
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
-            "one": "%{count} szállításra"
+            "one": "%{count} szállításra",
+            "other": "%{count} kiszállításhoz"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "minden nap",
+              "other": "minden %{count} naponta"
+            },
+            "week": {
+              "one": "minden hét",
+              "other": "minden %{count} hétben"
+            },
+            "month": {
+              "one": "minden hónapban",
+              "other": "minden %{count} hónapban"
+            },
+            "year": {
+              "one": "elk év",
+              "other": "minden %{count} évben"
+            }
+          },
+          "prepaid_shipping_price_label": "%{shipping_price} szállításonként x %{delivery_interval_count} szállítási időköz",
+          "initial_order_discounted": "Első szállítási költség %{discounted_shipping_cost}, utána %{frequency_description}",
+          "prepaid_initial_order_discounted": "Első szállítási költség %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Első szállítási díj %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Első szállítási díj %{discounted_shipping_price} %{prepaid_delivery_frequency}, utána %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Első szállítási díj %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), utána %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Tartalmazza",
+          "recurring_order_shipping_price": "követve %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Első rendelés benne foglaltatik, ezt követi a %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} szállításonként), ezt követi %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Első rendelés ingyenes",
+            "other": "Első %{count} rendelés ingyenes"
+          },
+          "free_for_first_n_order": {
+            "one": "Első rendeléshez",
+            "other": "Az első %{count} megrendelésre"
+          },
+          "subscription_free_with_frequency_label": "Ingyenes szállítás %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Ingyenes szállítás még %{count} extra kézbesítés esetén",
+            "other": "Ingyenes szállítás még %{count} további kézbesítésre"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Ingyenes szállítás %{count} kézbesítés esetén",
+            "other": "Ingyenes szállítás %{count} kiszállítás esetén"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Ingyenes szállítás még %{count} extra kézbesítésig, utána %{recurring_order_shipping_price}",
+            "other": "Ingyenes szállítás még %{count} további kézbesítésre, utána %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Ingyenes szállítás %{count} kiszállításig, utána %{recurring_order_shipping_price}",
+            "other": "Ingyenes szállítás %{count} kézbesítésig, utána %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} extra kiszállítás %{shipping_price} áron",
+            "other": "%{count} extra kiszállítás %{shipping_price} áron kiszállításonként"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} kiszállítás %{shipping_price} áron",
+            "other": "%{count} extra kiszállítás %{shipping_price} áron kiszállításonként"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Ingyenes szállítás az első %{cycle} alatt, utána %{recurring_order_shipping_price}",
+            "other": "Ingyenes szállítás az első %{cycle} alatt, utána %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} további %{count} szállítási díjért",
+            "other": "%{shipping_price} még %{count} további kézbesítésre (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{count} szállítás %{shipping_price} áron",
+            "other": "%{shipping_price} %{count} kiszállításra (%{per_delivery_cost} kiszállításonként)"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} további %{count} szállításra, utána %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} további %{count} kiszállításra (%{per_delivery_cost}), utána %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{count} szállítás %{shipping_price} áron, utána %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} kiszállításra (%{per_delivery_cost}), utána %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "estimated_delivery_time": "Várható kézbesítés %{time}",
+        "estimated_delivery_time_range": "Várható kézbesítés %{min_time}–%{max_time}",
+        "arrives_time": "Kiszállítás %{time} alatt",
+        "arrives_time_range": "Kiszállítás %{min_time}–%{max_time} között"
       }
     }
   }
