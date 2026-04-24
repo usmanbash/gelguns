@@ -3255,7 +3255,83 @@
     },
     "subscriptions": {
       "buyer_consent_product": "Αυτό το προϊόν είναι μια επαναλαμβανόμενη ή αναβληθείσα αγορά. Εάν συνεχίσω, συμφωνώ με το %{cancellationPolicyLink} και σας δίνω επίσης την άδεια να χρεώνετε τις αναγραφόμενες τιμές από τη μέθοδο πληρωμής μου, στη δηλωμένη συχνότητα και ημερομηνίες, μέχρι να ολοκληρωθεί η παραγγελία μου ή μέχρι να ακυρώσω, εφόσον επιτρέπεται.",
-      "buyer_consent_cart": "Ένα ή περισσότερα είδη στο καλάθι σου είναι αναβλητικές ή επαναλαμβανόμενες αγορές. Αν συνεχίσω, συμφωνώ με την %{cancellationPolicyLink} και σου δίνω επίσης άδεια να χρεώνεις τις αναγραφόμενες τιμές από τη μέθοδο πληρωμής μου, στη δηλωμένη συχνότητα και ημερομηνίες, μέχρι να ολοκληρωθεί η παραγγελία μου ή μέχρι να ακυρώσω, εφόσον επιτρέπεται."
+      "buyer_consent_cart": "Ένα ή περισσότερα είδη στο καλάθι σου είναι αναβλητικές ή επαναλαμβανόμενες αγορές. Αν συνεχίσω, συμφωνώ με την %{cancellationPolicyLink} και σου δίνω επίσης άδεια να χρεώνεις τις αναγραφόμενες τιμές από τη μέθοδο πληρωμής μου, στη δηλωμένη συχνότητα και ημερομηνίες, μέχρι να ολοκληρωθεί η παραγγελία μου ή μέχρι να ακυρώσω, εφόσον επιτρέπεται.",
+      "cancellation_policy": "πολιτική ακύρωσης"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Περισσότερες προσφορές",
+      "contact_email_subject": "Υπεύθυνος επικοινωνίας του ηλεκτρονικού καταστήματος {{shopName}}",
+      "contact_link": "Στοιχεία επικοινωνίας",
+      "delete_confirmation": {
+        "delete": "Αφαίρεση"
+      },
+      "dismiss_toast": "Κλείσιμο",
+      "document_title": "{{sectionName}} - {{shopName}} - λογαριασμός",
+      "navigation_accessibility_message": "Έχεις μεταβεί στο {{sectionName}}",
+      "shop_logo_accessibility_label": "{{shopName}}-λογότυπο",
+      "country_switcher_toast_message": "Η γη μεταφέρθηκε στο {{countryName}}",
+      "view_details": "Προβολή δεδομένων",
+      "company_location": "Τοποθεσία επιχείρησης",
+      "try_new_search": "Δοκιμάστε μια νέα αναζήτηση",
+      "skip_to_content": "Μετάβαση στο περιεχόμενο",
+      "loading_policy_content_accessibility_label": "Πολιτική φόρτωσης περιεχομένου",
+      "policy_load_error": "Δεν είναι δυνατή η φόρτωση του {{policyName}}",
+      "loading_section_accessibility_label": "φορτωμένο {{sectionName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Φόρτωση στοιχείων λογαριασμού",
+      "loading_finished_accessibility_message": "Τα στοιχεία του λογαριασμού έχουν φορτωθεί",
+      "profile_card": {
+        "cancel_accessibility_label": "Επεξεργασία προφίλ ακύρωση",
+        "email_help_text": "Η διεύθυνση email δεν μπορεί να επεξεργαστεί",
+        "last_name": "Επώνυμο",
+        "phone_number_help_text": "Ο αριθμός τηλεφώνου δεν μπορεί να επεξεργαστεί",
+        "no_name_provided_accessibility_label": "Δεν έχει προστεθεί όνομα",
+        "email": "Ηλεκτρονικό ταχυδρομείο",
+        "errors": {
+          "name_too_long": "{{fieldName}} είναι πολύ μακρύ (μέγιστο 255 χαρακτήρες)",
+          "name_cannot_contain_url": "Το {{fieldName}} δεν πρέπει να περιέχει URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} δεν επιτρέπεται να περιέχει HTML ετικέτες",
+          "email_cant_be_blank": "Το πεδίο του e-mail δεν μπορεί να είναι κενό",
+          "invalid_email_format": "Εισάγετε μια έγκυρη διεύθυνση email"
+        },
+        "editable_email_help_text": "Αυτή η διεύθυνση email χρησιμοποιείται για εγγραφή και ενημερώσεις παραγγελιών."
+      },
+      "profile_update_confirmation_message": "Προφίλ ενημερώθηκε",
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Περισσότεροι άνθρωποι φορτώνουν",
+          "loading_accessibility_label": "Φόρτωση ατόμων σε εξέλιξη"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Επαλήθευση e-mail",
+        "description": "Εισάγετε τον κωδικό που στάλθηκε στο {{email}}",
+        "one_time_password_label": "Κωδικός 6 ψηφίων",
+        "verify_button_accessibility_label": "Επαλήθευση κωδικού πρόσβασης μίας χρήσης",
+        "email_resend_button_success_toast_message": "Κωδικός επαλήθευσης αποστάλθηκε",
+        "email_resend_button_failure_banner_message": "Δεν ήταν δυνατή η αποστολή του κωδικού επαλήθευσης"
+      },
+      "email_update_success_modal": {
+        "title": "Επαλήθευση e-mail",
+        "description": "Η ενημέρωση του e-mail ήταν επιτυχής. Ανακατεύθυνση στη σελίδα σύνδεσης."
+      },
+      "email_update_confirmation_message": "Η διεύθυνση email ενημερώθηκε σε {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Επιλογές μορφοποίησης",
+      "order_list": {
+        "column_headers": {
+          "actions_accessibility_label": "Προσφορές"
+        },
+        "delivered": "Ανησυχώ: {{date}}",
+        "empty_state_order_source_description": "Εδώ εμφανίζονται μόνο οι παραγγελίες που έγιναν μέσω του {{email}}.",
+        "empty_state_subtitle": "Μεταβείτε στο κατάστημα για να κάνετε μια παραγγελία.",
+        "empty_state_title": "Δεν υπάρχουν παραγγελίες ακόμα",
+        "estimated_delivery": "Αναμένεται στις {{date}}"
+      }
     }
   }
 }
