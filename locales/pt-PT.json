@@ -3386,8 +3386,82 @@
         "gift_resend_success": {
           "one": "Vale-presente reenviado",
           "other": "Vales-presente reenviados"
-        }
-      }
+        },
+        "gift_resend_failure": {
+          "one": "Ocorreu um problema ao reenviar o seu vale-presente. Tente novamente ou contacte-nos.",
+          "other": "Ocorreu um problema ao reenviar os seus vales-presente. Tente novamente ou contacte-nos."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Gerir com a Amazon",
+            "new_window_disclaimer": "(aberto numa nova janela)"
+          }
+        },
+        "attempted_to_deliver_label": "Tentativa de entrega realizada",
+        "buy_with_prime_logo_accessibility_label": "Logótipo Amazon Comprar com Prime",
+        "delivered": "Preocupado em {{date}}",
+        "multiple_statuses_label": "Vários estados de encomenda",
+        "status_timestamp": "Atualizado em {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Entrega suportada por",
+            "modal_accessibility_button_label": "Compromisso de entrega dos dados"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Reclama o teu Dinheiro de Loja",
+            "no_shop_app_label": "{{appDownloadLink}} para reclamar o Shop Cash",
+            "download_shop_app_label": "Descarregar a aplicação"
+          },
+          "details_modal": {
+            "title": "Entrega suportada por",
+            "modal_accessiblity_label": "Compromisso de entrega dos dados",
+            "delivery_guaranteed_by_label": "Entrega garantida até {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "A Promessa da Loja garante entrega rápida e fiável. Reivindique Dinheiro da Loja se a sua encomenda for entregue com atraso.",
+              "may_be_eligible_not_authorized_label": "Poderá ter direito a reclamar o Dinheiro da Loja, porque esta encomenda chegou com atraso. Inicie sessão para ver os detalhes.",
+              "redeemed_label": "Já reclamaste o Dinheiro da Loja porque esta encomenda chegou atrasada.",
+              "expired_label": "Esta encomenda não é elegível para uma reclamação por entrega atrasada, pois o prazo de garantia de 30 dias expirou.",
+              "no_shop_cash_label": "Esta encomenda não é elegível para uma reclamação por entrega atrasada, pois não foi paga com Shop Pay.",
+              "no_longer_guaranteed_label": "Estes artigos já não são cobertos por uma garantia de entrega.",
+              "claim_shop_cash_title": "Digitalize para reclamar {{amount}} em Shop Cash",
+              "claim_shop_cash_description": "Podes usar o Dinheiro da Loja para compras futuras na aplicação Loja."
+            }
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Entregar para",
+            "not_delivered_by_label": "Preocupado após {{date}}",
+            "delivery_guarantee_expired_label": "Entrega garantida expirada",
+            "modal_accessibility_button_label": "Compromisso de entrega dos dados",
+            "download_shop_app_button_label": "Download Shop para rastreamento",
+            "track_with_shop_button_label": "Acompanhar com a Loja",
+            "claim_shop_cash_button_label": "Reivindicar Dinheiro da Loja"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Entrega para {{date}}",
+            "expired_delivery_guarantee_description": "A garantia Shop Promise de 30 dias para esta encomenda expirou.",
+            "order_includes_guarantees_label": "A sua entrega tem {{deliveryAgreementsCount}} garantias",
+            "order_includes_guarantees_description": "A Shop Promise oferece uma garantia de entrega rápida e fiável. Reivindique Shop Cash se a sua encomenda for entregue após {{date}}.",
+            "delivered_after_label": "Preocupado após {{date}}",
+            "delivered_after_description": "A tua encomenda chegou atrasada, por isso podes reclamar {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Esta encomenda foi entregue com atraso, por isso reclamaste {{amount}} de Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "A tua encomenda chegou atrasada, por isso podes reclamar {{amount}} Shop Cash.",
+            "learn_more_button_label": "Mais informações",
+            "claim_shop_cash_button_label": "Reivindicar Dinheiro da Loja",
+            "view_balance_in_shop_button_label": "Ver saldo na loja",
+            "scan_to_claim_shop_cash_label": "Digitalize para reclamar {{amount}} em Shop Cash"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Reenviar vale-presente",
+          "other": "Reenviar vales-presente"
+        },
+        "expected_by": "Esperado até {{date}}",
+        "was_expected_by": "Esperado até {{date}}"
+      },
+      "status_mark_as_delivered": "Marcar como preocupado",
+      "buy_again_accessibility_label": "Comprar novamente para a encomenda {{orderId}}"
     }
   }
 }
