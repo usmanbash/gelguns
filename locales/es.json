@@ -3214,9 +3214,79 @@
             "due": "Pago debido el {{date}}",
             "due_today": "El pago se debe realizar hoy",
             "due_without_date": "Pago debido",
-            "due_on_fulfillment": "Pago debido al cumplimiento"
+            "due_on_fulfillment": "Pago debido al cumplimiento",
+            "payment_not_due": "El pago aún no es debido"
           }
-        }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Actualmente ordenado por: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "El pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "El pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}, {{lineItemName4}} cantidad {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "El pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}, {{lineItemName4}} cantidad {{lineItemQuantity4}}, {{lineItemName5}} cantidad {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "El pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}, {{lineItemName4}} cantidad {{lineItemQuantity4}}, {{lineItemName5}} cantidad {{lineItemQuantity5}}, {{lineItemName6}} cantidad {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "El pedido contiene {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}, {{lineItemName4}} cantidad {{lineItemQuantity4}}, {{lineItemName5}} cantidad {{lineItemQuantity5}}, {{lineItemName6}} cantidad {{lineItemQuantity6}} y más"
+        },
+        "show_order_actions_accessibility_label": "Mostrar promociones para el pedido {{name}}",
+        "empty_state_title_for_pending_orders": "No hay pedidos en proceso",
+        "more_than_four_products_accessibility_label": "El pedido contiene {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} más {{numberOfAdditionalProducts}} productos adicionales",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} productos",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Ver pedido para detalles del producto",
+            "estimated_delivery": "Esperado para {{date}}",
+            "last_updated": "Última actualización el {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Entrega estimada el {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "El pedido contiene {{lineItemName1}}, {{lineItemName2}}, más {{numberOfAdditionalProducts}} productos adicionales",
+        "filter_title": "Filtro",
+        "filter": {
+          "date": {
+            "title": "Fecha de pedido",
+            "last_7_days": "Últimos 7 días"
+          }
+        },
+        "no_order_banner": "Realice un pedido para probar la extensión en la página Estado del pedido."
+      },
+      "order_status": {
+        "canceled_title": "Tu pedido ha sido cancelado",
+        "come_back": "Vuelve a esta página para actualizaciones sobre el estado de tu envío.",
+        "confirmed_title": "Tu pedido ha sido confirmado",
+        "delivered_label": "Preocupada",
+        "estimated_delivery": "Esperado para {{date}}",
+        "in_review_label": "Para revisión",
+        "in_review_title": "Tu pedido está siendo revisado",
+        "no_tracking_number": "No hay número de seguimiento para este envío.",
+        "out_for_delivery_label": "Listo para entrega",
+        "resume_tracking": "Seguir reanudando",
+        "track_shipment": "Seguir envío",
+        "preparing_for_shipping_label": "El envío está en preparación",
+        "ready_for_pickup_label": "Listo para recoger",
+        "ready_for_pickup_description": "Estos artículos están listos para recoger. Lleva la confirmación de pedido cuando vengas a recogerlo.",
+        "picked_up_label": "Recogido",
+        "submitted_description": "Revise el pedido y los datos de pago.",
+        "multiple_shipments_label": "Múltiples envíos",
+        "view_order_for_details": "Ver pedido para detalles del producto",
+        "confirmed_description_digital": "Recibirás un correo electrónico cuando tu pedido esté listo.",
+        "delivered_description_gift_card": {
+          "one": "El vale de regalo ha sido enviado por correo electrónico.",
+          "other": "Los vales de regalo han sido enviados por correo electrónico."
+        },
+        "gift_card_label": {
+          "one": "Vale de regalo",
+          "other": "Vales regalo"
+        },
+        "ready_for_pickup_location": "Tu pedido está listo para recoger en el lugar",
+        "confirmed_description_pickup": "Recibirás un correo electrónico cuando puedas recoger tu pedido.",
+        "confirmed_gift_card_additional_description": {
+          "one": "El vale de regalo se enviará en un correo electrónico separado.",
+          "other": "Cada vale de regalo se envía en un correo electrónico separado."
+        },
+        "confirmed_description_gift_card_text": "Recibirás un mensaje de texto cuando el pedido esté listo."
       }
     }
   }
