@@ -806,9 +806,77 @@
             "january": "sausis",
             "february": "vasaris",
             "march": "kovas",
-            "april": "balandis"
+            "april": "balandis",
+            "may": "mei",
+            "june": "juni",
+            "july": "juli",
+            "august": "rugpjūtis",
+            "september": "rugsėjis",
+            "october": "spalis",
+            "november": "lapkritis",
+            "december": "gruodis"
           }
-        }
+        },
+        "datepicker": {
+          "show_previous_month": "Rodyti praėjusį mėnesį, {{month}} {{year}}",
+          "show_next_month": "Rodyti kitą mėnesį, {{month}} {{year}}",
+          "range_start": "Pradėti pasiekti",
+          "in_range": "Pasiekiama",
+          "range_end": "Pabaiga pasiekta"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} en {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} en {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} iš {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} iš {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klasteris iš {{number}} žymėjimo taškų",
+            "other": "Klasteris iš {{number}} žymėjimo taškų"
+          }
+        },
+        "sheet": {
+          "expand": "Išskleisti"
+        },
+        "dropzone": {
+          "invalid_file_type": "Šis failo tipas nėra palaikomas",
+          "dragged_over": "Įkelti failą"
+        },
+        "remove_chip": "Pašalinti straipsnį"
+      },
+      "contact": {
+        "email_or_phone_label": "El. pašto adresas arba mobiliojo telefono numeris",
+        "email_or_phone_placeholder": "El. pašto adresas arba mobiliojo telefono numeris",
+        "stored_addresses_label": "Išsaugoti adresai",
+        "new_address_label": "Naudokite naują adresą",
+        "address2_label": "Pašto dėžutės numeris, enz.",
+        "optional_address2_label": "Pašto dėžutės numeris, enz. (pasirinktinai)",
+        "city_label": "Stadijas",
+        "country_label": "Šalis/regionas",
+        "country_code": "Žemės / regiono kodas",
+        "province_label": "Provincia",
+        "province_placeholder": "Provincia",
+        "county_label": "Provincia",
+        "county_placeholder": "Provincia",
+        "state_label": "Valstybė",
+        "state_placeholder": "Valstybė",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Vyriausybė",
+        "governorate_placeholder": "Vyriausybė",
+        "emirate_label": "Emiraat",
+        "emirate_placeholder": "Emiraat",
+        "state_and_territory_label": "Valstybė/Teritorija",
+        "state_and_territory_placeholder": "Valstybė/Teritorija",
+        "phone_tooltip": "Jei reikės su jumis susisiekti dėl jūsų užsakymo",
+        "pincode_label": "Pašto kodas",
+        "pincode_placeholder": "Pašto kodas",
+        "region_none": "Nepasirinkta"
       }
     }
   }
