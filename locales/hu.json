@@ -3644,7 +3644,75 @@
         "view_order_accessibility_label": "{{orderName}} rendelés megtekintése"
       },
       "order_status": {
-        "canceled_title": "A rendelésed törölve lett"
+        "canceled_title": "A rendelésed törölve lett",
+        "come_back": "Térj vissza erre az oldalra a küldeményed állapotfrissítéseiért.",
+        "company_tracking_number": "{{company}}-követési szám:",
+        "confirmed_label": "Megerősítve",
+        "confirmed_title": "A rendelésed megerősítve",
+        "delivered_label": "Aggódó",
+        "estimated_delivery": "Várható {{date}}-kor",
+        "in_review_label": "Értékeléshez",
+        "in_review_title": "A rendelésed feldolgozás alatt áll",
+        "no_tracking_number": "Ehhez a küldeményhez nincs nyomkövetési szám.",
+        "on_its_way_label": "Úton",
+        "out_for_delivery_label": "Kiszállításra kész",
+        "resume_tracking": "Folytatás következik",
+        "submitted_label": "Benyújtva",
+        "track_shipment": "Feladás követése",
+        "request_return": "Visszaküldési kérelem benyújtása",
+        "attempted_delivery_label": "Kézbesítési kísérlet",
+        "preparing_for_shipping_label": "A szállítás előkészítése folyamatban van",
+        "ready_for_pickup_label": "Kész az átvételre",
+        "ready_for_pickup_description": "Ezek a cikkek készen állnak az átvételre. Kérjük, hozd magaddal a rendelés visszaigazolását, amikor átveszed a rendelést.",
+        "picked_up_label": "Elvitték",
+        "submitted_description": "Ellenőrizze a rendelést és a fizetési adatokat.",
+        "multiple_shipments_label": "Több szállítmány",
+        "view_order_for_details": "Rendelés megtekintése termékadatokért",
+        "confirmed_description_digital": "E-mailt kapsz, amikor a rendelésed elkészült.",
+        "delivered_description_gift_card": {
+          "one": "Az ajándékutalvány e-mailben elküldve.",
+          "other": "Az ajándékutalványokat e-mailben küldtük el."
+        },
+        "gift_card_label": {
+          "one": "Ajándékutalvány",
+          "other": "Ajándékutalványok"
+        },
+        "ready_for_pickup_location": "A rendelésed átvehető a helyszínen",
+        "confirmed_description_pickup": "E-mailt kapsz, amikor átveheted a rendelésed.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Az ajándékutalvány külön e-mailben kerül elküldésre.",
+          "other": "Minden ajándékutalvány külön e-mailben kerül elküldésre."
+        },
+        "confirmed_description_gift_card_text": "Értesítést kapsz SMS-ben, amikor a rendelés elkészült.",
+        "delivered_description_gift_card_text": {
+          "one": "Az ajándékutalványt SMS-ben küldtük el.",
+          "other": "Az ajándékutalványokat SMS-ben küldtük el."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Az ajándékutalvány külön üzenetben kerül elküldésre.",
+          "other": "Minden ajándékkártya külön üzenetben kerül elküldésre."
+        },
+        "gift_resend_success": {
+          "one": "Ajándékutalvány újraküldve",
+          "other": "Ajándékutalványok újraküldve"
+        },
+        "gift_resend_failure": {
+          "one": "Probléma történt az ajándékutalvány újraküldése közben. Próbáld meg újra, vagy lépj kapcsolatba velünk.",
+          "other": "Probléma történt az ajándékkártyáid újraküldése közben. Próbáld meg újra, vagy lépj kapcsolatba velünk."
+        },
+        "attempted_to_deliver_label": "Kézbesítési kísérlet történt",
+        "there_was_a_problem_label": "Hiba történt",
+        "buy_with_prime_logo_accessibility_label": "Amazon Vásárlás Prímével-logó",
+        "delivered": "Aggodalomra ad okot {{date}}",
+        "complete_label": "Befejezett",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Kiszállítást támogatja",
+            "mixed_brands_label": "Kiszállítás garantált",
+            "not_delivered_by_label": "Nem kézbesítve {{date}}-ig",
+            "modal_accessibility_button_label": "Adatkézbesítési ígéret"
+          }
+        }
       }
     }
   }
