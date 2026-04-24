@@ -2635,7 +2635,95 @@
       },
       "local_pickup": {
         "location_information": {
-          "one": "Netoliese yra %{count} vieta su atsargomis"
+          "one": "Netoliese yra %{count} vieta su atsargomis",
+          "other": "Netoliese yra %{count} sandėlio vietų"
+        },
+        "toggle_location": "Keisti vietą",
+        "or": "IŠ",
+        "your_location": "jūsų vieta",
+        "search_button": "Ieškoti parduotuvių",
+        "no_stores_found": "Nerasta parduotuvių",
+        "could_not_resolve_address": "Negalima rasti jūsų adreso. Bandykite dar kartą arba naudokite kitą adresą",
+        "paginator": {
+          "accessibility_label": "Puslapiavimas vietoje atsiimant",
+          "label": {
+            "one": "%{first} - %{last} iš %{count} parduotuvės",
+            "other": "%{first} - %{last} iš %{count} parduotuvių"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Rodyti dar %{count} vietas",
+          "other": "Rodyti dar %{count} vietas"
+        },
+        "all_stores_far_away": {
+          "title": "Artimiausios vietos yra už daugiau nei %{distance} atstumo",
+          "description": "Pasirinkite vietą arba %{ship_to_address_link}",
+          "ship_to_address_link": "pristatymo adresas",
+          "change_location_link": "Pakeisk savo vietą",
+          "title_with_specific_location": "Artimiausia vieta su jūsų preke yra daugiau nei %{distance} nuo %{location}.",
+          "title_with_item": {
+            "one": "Artimiausia vieta su jūsų preke yra daugiau nei %{distance} nuo %{location}.",
+            "other": "Artimiausia vieta su jūsų prekėmis yra daugiau nei %{distance} nuo %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Anksčiau pasirinkta vieta nebėra prieinama",
+          "description": "Pasirinkite naują vietą arba %{ship_to_address_link}",
+          "ship_to_address_link": "Siųsti į adresą"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Siųskite savo prekes",
+          "search_elsewhere": "ieškok kitur",
+          "ship_items_or_search_elsewhere": "%{ship_items} iš %{search_elsewhere}"
+        },
+        "location_closest": "Artimiausia vieta su jūsų preke",
+        "toggle_multiple_locations": "Dar daugiau nei %{count} kitų vietų",
+        "location_information_far_away": {
+          "one": "Yra %{count} vieta su tavo preke",
+          "other": "Yra %{count} vietų su tavo preke"
+        },
+        "location_nearby": {
+          "one": "Netoliese yra %{count} vieta su tavo preke",
+          "other": "Netoliese yra %{count} vietų su tavo preke"
+        },
+        "location_nearby_short": {
+          "one": "%{count} vieta netoli su jūsų preke",
+          "other": "%{count} vietos netoli su jūsų preke"
+        },
+        "location_far_away": {
+          "one": "%{count} vieta su jūsų preke",
+          "other": "%{count} vietos su jūsų preke"
+        },
+        "toggle_more_locations": {
+          "one": "Dar %{count} kita vieta",
+          "other": "Dar %{count} kitų vietų"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nėra vietų su jūsų preke",
+          "other": "Nėra vietų su tavo prekėmis"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nėra vietų %{country} su jūsų preke",
+          "other": "Nėra vietų %{country} su tavo prekėmis"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Atsiimti visus prekes",
+        "items_for_pickup": "Prekės atsiėmimui",
+        "delivery_method": "Padalintas pristatymo būdas",
+        "delivery_method_menu": "Meniu suskirstytas pristatymo būdas",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} iš %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} iš %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nepavyksta gauti %{count} straipsnio(-ių)",
+              "other": "Nepavyksta gauti %{count} straipsnių"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} straipsnio negalima išsiųsti"
+            }
+          }
         }
       }
     }
