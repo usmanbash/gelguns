@@ -3803,7 +3803,69 @@
       "no_addresses_banner": "Nema dodanih adresa"
     },
     "address_form": {
-      "billing_address": "Koristiti kao adresu za račun"
+      "billing_address": "Koristiti kao adresu za račun",
+      "cancel": "Otkaži",
+      "cancel_accessibility_label": "Otkaži uređivanje adrese {{address}}",
+      "creation_success_notification": "Adresa dodana",
+      "default_address": "Ovo je moja standardna adresa",
+      "default_address_creation_success_notification": "Standardna adresa dodana",
+      "default_address_update_success_notification": "Osnovna adresa ažurirana",
+      "loading_add_form_accessibility_message": "Učitavanje obrasca za novu adresu",
+      "loading_edit_form_accessibility_message": "Učitavanje obrasca za uređivanje adrese",
+      "update_success_notification": "Adresa ažurirana",
+      "attention": "T.a.v.",
+      "attention_help_text": "Ime osobe ili odjela",
+      "loading_form_accessibility_message": "Obrazac za učitavanje adrese",
+      "attention_company": "Poduzeće/za pažnju:"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_section_accessibility_label": "Poduzeće"
+      },
+      "locations": {
+        "contact_email": "E-adresa",
+        "contact_permissions": "Ovlaštenja",
+        "contact_phone_number": "Telefonski broj",
+        "net_payment_terms_description": "{{name}}: plaćanja dospjela unutar {{numberOfDays}} dana",
+        "payment_details_title": "Podaci o plaćanju",
+        "permissions_label": "Tvoje ovlasti",
+        "permissions_title": "Ovlaštenja",
+        "shipping_address_required": "Dodajte adresu dostave na ovu lokaciju kako biste mogli naručivati.",
+        "tax_exemptions": "Porezne olakšice",
+        "multiple_tax_exemptions": "Još {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "hr",
+        "taxes_none": "Nema",
+        "tax_exemption_not_applicable": "nije primjenjivo",
+        "tax_exemptions_modal_button_accessibility_label": "Prikaži sve porezne izuzeće",
+        "pagination": {
+          "load_more_accessibility_label": "Učitaj još lokacija"
+        },
+        "own_role_contact_name": "Ti",
+        "staff_and_permissions_title": "Zaposlenici i ovlaštenja",
+        "deposit_percentage": "{{percentage}} depozit"
+      },
+      "location_selection": {
+        "description": "Ako već imate artikle u svojoj košarici, promjena lokacije može utjecati na cijene i količine u vašoj košarici.",
+        "list_loading_accessibility_message": "Učitavanje popisa lokacija",
+        "list_loading_address_accessibility_message": "Učitavanje adrese za {{locationName}}",
+        "loading_store_accessibility_message": "Na putu do trgovine",
+        "selection_cancel_button": "Otkaži",
+        "title": "Za koju lokaciju kupujete?",
+        "continue_to_store": "Nastavi na trgovinu",
+        "no_location_description": "Više nemate ovlasti za naručivanje za {{company}}. I dalje možete postavljati osobne narudžbe.",
+        "no_locations_found": "Nema pronađenih lokacija",
+        "search": "Traženje lokacija",
+        "clear_search": "Očisti pretragu",
+        "try_new_search": "Isprobajte novu pretragu",
+        "description_switch_later": "Uvijek možeš kasnije promijeniti"
+      },
+      "addresses": {
+        "add_billing_address_button": "Dodaj adresu za račun",
+        "add_billing_address_section_accessibility_label": "Dodaj adresu za račun",
+        "billing_address_card_title": "Adresa za račun",
+        "cancel_adding_billing_address_accessibility_label": "Dodaj adresu za račun otkaži",
+        "cancel_adding_shipping_address_accessibility_label": "Dodaj adresu za dostavu otkaži"
+      }
     }
   }
 }
