@@ -1146,7 +1146,67 @@
         "estimated_delivery_time": "Livrare estimată %{time}",
         "estimated_delivery_time_range": "Livrare estimată %{min_time}–%{max_time}",
         "arrives_time": "Livrat în %{time}",
-        "arrives_time_range": "Se livrează între %{min_time}–%{max_time}"
+        "arrives_time_range": "Se livrează între %{min_time}–%{max_time}",
+        "estimated_time": "Așteptat în %{time}",
+        "estimated_time_range": "Estimare %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Abonament livrare locală",
+        "subscription_pickup": "Abonament ridicare",
+        "delivery_today": "Livrare în aceeași zi până la %{time}",
+        "delivery_tomorrow": "Livrare a doua zi până la %{time}",
+        "two_day_delivery": "Livrare în 2 zile până la %{time}",
+        "delivery": "Livrare în %{time}",
+        "duties_and_taxes_title": "Drepturi vamale și biruri",
+        "shipping_information_required_notice": "Datele de expediere sunt necesare. {{link}}.",
+        "shipping_information_redirect_link": "Introduceți aici datele dumneavoastră",
+        "loading_progressive_rates": "Căutați mai multe tarife...",
+        "no_other_methods_available": "Nicio altă metodă disponibilă",
+        "duties_and_taxes_options": {
+          "ddu_title": "Plată la livrare",
+          "ddu_caption": "Pot apărea costuri suplimentare",
+          "ddp_title": "Nu plătiți",
+          "ddp_caption": "Fără costuri suplimentare la livrare"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} din %{current}"
+        },
+        "shipping_used_as_billing_notice": "Acesta este folosit și ca adresa ta de facturare pentru această comandă.",
+        "address_update": "Actualizare adresă",
+        "shipping_address_title": "Expediere către",
+        "add_delivery_instructions": "Adăugați instrucțiuni de livrare",
+        "edit": "Editare",
+        "delete": "Ștergere",
+        "address_edit": "Modifică adresa",
+        "address_delete": "Ștergere adresă",
+        "address_confirm": "Ești sigur că vrei să ștergi această adresă din contul tău?",
+        "address_form": {
+          "add_address": "Adăugare adresă",
+          "cancel": "Anulare",
+          "generic_error": "A apărut o problemă la salvarea adresei tale. Te rugăm să încerci din nou.",
+          "one_time_address_subtitle": "Folosiți o singură adresă pentru această comandă",
+          "edit": "Modifică adresa"
+        },
+        "different_shipping_method_summary": "Introduceți o altă adresă de livrare pentru a vedea metodele de expediere disponibile",
+        "invalid_shipping_method_summary": "Introduceți o adresă de livrare valabilă pentru a vedea metodele de expediere disponibile",
+        "method_summary": {
+          "incomplete_address_entered": "Introduceți o adresă completă de livrare pentru a vedea metodele de expediere disponibile",
+          "incomplete_address_selected": "Selectați o adresă completă de livrare pentru a vedea metodele de expediere disponibile"
+        },
+        "local_pickup": {
+          "search_address": "Căutare adresă",
+          "rollup_title": "Loc de descărcare",
+          "rollup_accessibility_label": "Opțiuni pentru locul de ridicare"
+        },
+        "missing_shipping_address": "Lipsă adresă de livrare",
+        "address_default": "Setează ca implicit",
+        "split_shipping_merchandise_quantity_label_additional": "+ fără %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Expediere %{number} din %{total}",
+        "pre_order_ships_later": "Va fi trimis mai târziu",
+        "pre_order_ships_date": "Se va expedia pe %{date}",
+        "split_shipping_shipped_by_shop": "Trimis de %{shop_name}",
+        "split_shipping_shipping_label": "Înțelept",
+        "split_shipping_multiple_shipment_notice": "Comanda va fi livrată în mai multe tranșe",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Comanda ta va fi livrată în %{quantity} tranșe",
+        "split_shipping_more_shipping_options": "Mai multe opțiuni de expediere"
       }
     }
   }
