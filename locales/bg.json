@@ -4196,7 +4196,77 @@
       "delete_payment_method_button_accessibility_label": "Премахване на {{paymentMethodName}}",
       "back_button_accessibility_label": "Върнете се към {{paymentMethodStepTitle}}",
       "payment_delete": {
-        "title": "Премахване на метод за плащане"
+        "title": "Премахване на метод за плащане",
+        "description_without_replacement": "Този метод на плащане вече не е наличен за бъдещи покупки.",
+        "description_with_replacement": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания. Можете също да го замените с друг метод на плащане, за да продължите да получавате предстоящите поръчки.",
+        "payment_method_selector_placeholder": "Изберете заместителен метод на плащане (по избор)",
+        "replace_method_with_new_method_description": "Твоят {{currentPaymentMethodName}} ще бъде премахнат и заменен с твоя {{newPaymentMethodName}}.",
+        "error_when_deleting": "Извиняваме се, възникна проблем и не можем да премахнем този метод на плащане. Моля, опитайте отново по-късно или обновете страницата.",
+        "delete_and_replace_button": "Премахване и замяна",
+        "delete_and_replace_button_accessibility_label": "Премахнете {{currentPaymentMethodName}} и го заменете с {{newPaymentMethodName}}.",
+        "deleted_successfully": "Платежният метод е премахнат.",
+        "payment_method_selector_no_alternative_payment": "Няма заместителна методика",
+        "loading_available_payment_methods_accessibility_label": "Зареждане на наличните методи за плащане",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания. Оставащите суми по съществуващи поръчки все още ще бъдат начислявани чрез този метод на плащане, освен ако не изберете друг метод на плащане. Изберете друг метод на плащане, за да продължите да получавате предстоящите абонаментни поръчки без прекъсване.",
+          "with_pending_orders": "Премахването на начина на плащане ще го изтрие от вашия акаунт и той няма да бъде наличен за бъдещи покупки. Оставащите суми по съществуващи поръчки все още ще бъдат начислявани чрез този начин на плащане, освен ако не изберете друг начин на плащане.",
+          "with_subscriptions": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания. Заменете го с друг метод на плащане, за да продължите да получавате предстоящите поръчки."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания. Откритите суми за съществуващи поръчки все още ще бъдат начислявани чрез този метод на плащане, но няма да получавате бъдещи абонаментни поръчки. Добавете друг метод на плащане, за да продължите да получавате абонаментни поръчки.",
+          "with_pending_orders": "Премахването на начина на плащане ще го изтрие от вашия акаунт и той няма да бъде наличен за бъдещи покупки. Открити суми по съществуващи поръчки все още ще бъдат начислявани чрез този начин на плащане.",
+          "with_subscriptions": "Ако изтриете този метод на плащане, това ще засегне предварително упълномощените плащания. Добавете друг метод на плащане, за да продължите да получавате предстоящи поръчки."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Промяна на начина на плащане",
+        "save_payment_method_button": "Запази",
+        "cancel_edit_payment_method_button": "Отказване",
+        "payment_method_updated_toast": "Методът на плащане е актуализиран",
+        "billing_address": "Адрес за фактура",
+        "billing_address_add_new": "Добавяне на ново",
+        "future_purchases_notice": "Този метод на плащане ще бъде запазен за бъдещи покупки.",
+        "generic_error": "Възникна проблем при обновяването. Моля, опитайте отново."
+      },
+      "card_fields": {
+        "name_on_card_label": "Име на карта",
+        "name_on_card_placeholder": "Име на карта",
+        "card_expiry_label": "Срок на валидност (ММ/ГГ)",
+        "card_expiry_placeholder": "Срок на валидност (ММ/ГГ)",
+        "card_verification_value_label": "Код за сигурност",
+        "card_verification_value_placeholder": "Код за сигурност",
+        "tooltip": {
+          "tooltip_accessibility_label": "Повече информация",
+          "card_verification_value_explanation_amex": "4-цифрен код за сигурност отпред на картата ти",
+          "card_verification_value_explanation_other": "Код за сигурност от 3 цифри на гърба на картата ти",
+          "card_verification_value_explanation": "Код за сигурност от 3 цифри, обикновено намиращ се на гърба на картата ви. American Express има код от 4 цифри на лицевата страна.",
+          "card_security_notice": "Всички транзакции са защитени и криптирани."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Въведете името си точно както е на картата ви",
+          "credit_card_expiry_invalid": "Въведете валидна дата на изтичане за картата",
+          "credit_card_verification_value_blank": "Въведете CVV/CVC или код за сигурност на вашата карта"
+        },
+        "unavailable": {
+          "text": "Плащанията с кредитна и дебитна карта в момента не са налични.",
+          "link_text": "Обнови тази страница"
+        }
+      },
+      "add_payment_method": {
+        "title": "Добавяне на метод за плащане",
+        "payment_method_added_confirmation": "Метод на плащане добавен",
+        "billing_address": {
+          "title": "Адрес за фактура",
+          "add_billing_address_button": "Добавяне на ново",
+          "choose_billing_address_from_list_button_accessibility_label": "Изберете адрес за фактура от списъка",
+          "missing_billing_address_error_message": "Въведете адрес за фактура",
+          "default_checkbox": "Задаване като стандартен метод на плащане"
+        },
+        "replace_mode_warning": "Ако изтриете този метод на плащане, това ще засегне абонаментите или предварителните поръчки. Заменете го с друг метод на плащане, за да продължите да получавате предстоящите поръчки.",
+        "add_new_button": "Добавяне на ново",
+        "subscription_contracts": {
+          "title": "Използване на метод за плащане за повтарящи се поръчки"
+        }
       }
     }
   }
