@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -537,6 +546,70 @@
       "send_on_label": "Envoyer le (facultatif)",
       "expanded": "Formulaire de destinataire de carte-cadeau agrandi",
       "collapsed": "Formulaire de destinataire de carte-cadeau réduit"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "fr",
+      "last_word_connector": ", et"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Passer à la caisse",
+        "skip_to_content": "Aller directement au contenu",
+        "breadcrumb": "Fil d'Ariane",
+        "complete_purchase_button_label": "Terminer la commande",
+        "authenticate_purchase_button_label": "Valider le paiement",
+        "continue_to_shipping_method": "Continuer à envoyer",
+        "continue_to_payment_method": "Aller au paiement",
+        "back_to_contact_information": "Retour à l'information",
+        "back_to_shipping_method": "Retour à l'expédition",
+        "choose_shipping_method": "Choisissez un mode d'expédition",
+        "choose_payment_method": "Choisissez un mode de paiement",
+        "contact_us_html": "Contactez-nous pour plus d'informations",
+        "autocomplete_single_item": "1 article disponible",
+        "autocomplete_multi_item": "{{number}} articles disponibles",
+        "forwarding_indicator": {
+          "new_window": "S'ouvre dans une nouvelle fenêtre.",
+          "external": "Ouvre un site web externe."
+        },
+        "tooltip_accessibility_label": "Plus d'informations",
+        "errors": {
+          "session_identifier_not_unique_error": "Une erreur s'est produite avec votre commande. Veuillez réessayer de régler.",
+          "line_item_limit_reached": "Le nombre maximal de lignes de commande a été atteint.",
+          "only_empty_terms_accepted": "Cette politique n'accepte que des conditions vides.",
+          "session_is_already_finished": "Cette session de paiement est déjà terminée.",
+          "merchandise": {
+            "only_value_constraint": "Lors de l'entrée des marchandises, seules des valeurs exactes sont autorisées.",
+            "merchandise_not_found": "Produit non trouvé.",
+            "merchandise_variant_not_found": "Variante de produit non trouvée.",
+            "merchandise_not_applicable": "La variante du produit ne peut pas être achetée.",
+            "bundle_products_not_supported_for_b2b": "Vous ne pouvez pas ajouter d’articles groupés aux commandes B2B pour ce lieu.",
+            "gift_card_quantity_mismatch": "Lorsque vous saisissez des codes de bons cadeaux, les quantités sur la ligne de commande doivent correspondre au nombre de codes de bons cadeaux.",
+            "gift_card_not_supported": "Les bons cadeaux ne sont pas acceptés lors de ce paiement.",
+            "gift_card_not_unique": "Le bon cadeau avec le code {{code}} apparaît plusieurs fois dans ce passage en caisse. Les codes sont générés avant la comparaison.",
+            "gift_card_used": "Le code de bon cadeau {{code}} est déjà attribué à un bon cadeau. Les codes sont générés avant la comparaison.",
+            "gift_card_invalid": "Le code de bon cadeau {{code}} est invalide.",
+            "gift_card_code_changed": "Le code de bon cadeau {{proposed_code}} a été modifié selon les règles de formatage en {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Ce passage en caisse ne prend pas en charge les bons cadeaux avec des caractéristiques personnalisées.",
+            "gift_card_with_components_not_supported": "Les bons cadeaux avec composants ne sont pas pris en charge lors de ce paiement.",
+            "selling_plan_mismatch": "L'abonnement a été mis à jour.",
+            "price_mismatch": "Le prix précédemment proposé pour ces marchandises était invalide et a été mis à jour.",
+            "inventory_not_found": "Aucun stock trouvé pour ces marchandises.",
+            "product_not_published": "Le produit n'est pas publié.",
+            "duplicated_stable_id": "Cette ligne de marchandises a le même identifiant stable qu'une autre ligne.",
+            "minimum_quantity_not_met": "Pour certains articles, le nombre minimum autorisé n'est pas respecté",
+            "maximum_quantity_exceeded": "Pour certains articles, le nombre maximal autorisé n'est pas atteint",
+            "quantity_increment_not_met": "Pour certains articles, les limites de commande ne sont pas respectées",
+            "quantity_rules_not_met": "Pour certains articles, les limites de commande ne sont pas respectées",
+            "bundle_requires_components": "Ce lot de marchandises ne contient aucun composant.",
+            "title_too_long": "Le titre des marchandises est trop long.",
+            "title_empty": "Le titre des marchandises est vide.",
+            "mixed_currencies": "Le passage en caisse contient des lignes de commande avec différentes devises.",
+            "product_not_published_in_buyer_location": "Le produit n'est pas publié à l'emplacement de l'acheteur."
+          }
+        }
+      }
     }
   }
 }
