@@ -2221,8 +2221,84 @@
           "change_delivery_method_link_label": "Změnit způsob doručení",
           "no_purchase_order_number": "(Žádné číslo objednávky)",
           "due_after_order_reviewed_html": "Dlužná částka po kontrole objednávky",
-          "review_title_free_order": "Zkontrolujte a dokončete objednávku"
+          "review_title_free_order": "Zkontrolujte a dokončete objednávku",
+          "payment_method_saved_company_location": "Uložit mapu pro toto místo",
+          "company_location": "Místo podnikání",
+          "change_company_location_link_label": "Změnit místo podnikání",
+          "pickup_items_at": {
+            "one": "%{count} položek k vyzvednutí u",
+            "other": "%{count} položek k vyzvednutí u"
+          },
+          "ship_items_to": {
+            "one": "Odeslat %{count} položek na",
+            "other": "odeslat %{count} položek do"
+          }
+        },
+        "block_title": "Zkontrolujte své údaje",
+        "review_and_confirm_title": "Zkontrolovat a potvrdit",
+        "account_more_actions": "Více akcí pro tento účet"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Pošlete mi e-mail s novinkami a nabídkami",
+        "unsubscribe": {
+          "title": "Byl jsi odhlášen",
+          "description": "Od nás již neobdržíte žádná připomenutí košíku."
+        },
+        "accept_sms_checkbox_label": "Pošli mi SMS se zprávami a nabídkami",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Zásady ochrany soukromí",
+            "terms_of_service": "Podmínky služby",
+            "description_html": "Registrací přes SMS souhlasíte s přijímáním automatizovaných marketingových zpráv, včetně připomenutí košíku, na zadané telefonní číslo. Souhlas není podmínkou nákupu. Odpovězte STOP pro odhlášení. Odpovězte HELP pro pomoc. Frekvence zpráv se může lišit. Mohou být účtovány poplatky za zprávy a data. Prohlédněte si naše %{privacy_policy_link} a %{terms_of_service_link}.",
+            "description_transactional_html": "Můžete obdržet SMS zprávy týkající se potvrzení objednávky a aktualizací odeslání. Odpovězte STOP pro odhlášení. Odpovězte HELP pro pomoc. Frekvence zpráv se může lišit. Mohou být účtovány poplatky za zprávy a data. Prohlédněte si naše %{privacy_policy_modal_link} a naše %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilní telefonní číslo",
+          "get_offers_by_text": "Dostávat nabídky prostřednictvím sms"
+        },
+        "post_accept_marketing_checkbox_label": "Jste přihlášeni k odběru e-mailů s novinkami a nabídkami",
+        "pending_accept_marketing_checkbox_label": "Podívej se do své e-mailové schránky a potvrď své přihlášení k odběru novinek a nabídek",
+        "accept_shop_pay_marketing_checkbox_label": "Přihlaste mě k odběru novinek a nabídek tohoto obchodu",
+        "disclaimer": {
+          "privacy_policy": "Zásady ochrany soukromí"
         }
+      },
+      "shop_policies": {
+        "refund_policy": "Zásady vracení peněz",
+        "privacy_policy": "Zásady ochrany soukromí",
+        "terms_of_service": "Všeobecné podmínky",
+        "legal_notice": "Právní oznámení",
+        "shipping_policy": "Odeslání",
+        "terms_of_sale": "Prodejní podmínky",
+        "purchase_options_policy": "Zásady nákupu možností",
+        "policy_label": "Urážka",
+        "policies_label": "Urážka",
+        "select_policy_label": "Vybrat zásadu",
+        "terms_and_policies": "Podmínky a zásady"
+      },
+      "notifications": {
+        "title": "Oznámení"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Částka k úhradě za objednávku %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} přidáno"
+          },
+          "subtracted": "%{count} odstraněno",
+          "returned": "%{count} vráceno",
+          "return_line_item_removed": "%{count} odstraněno z vrácení"
+        },
+        "additional_payment_requested": "Platba ve výši %{total_outstanding} je vyžadována",
+        "checkout_review_and_pay": "Vaše objednávka %{order_name} byla aktualizována. Prohlédněte si tyto změny a poté zaplaťte, abyste objednávku potvrdili.",
+        "order_updated_on": "Vaše objednávka byla aktualizována dne %{last_edited_at}.",
+        "order_review_and_pay": "Vaše objednávka byla aktualizována. Zkontrolujte ji a zaplaťte, abyste objednávku potvrdili.",
+        "pay_now": "Nyní zaplatit"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Na tvou kreditní kartu bude účtováno %{amount}",
+        "payment_total_label": "Celkové platby",
+        "change_currency_link": "Změnit na %{currency_name}",
+        "card_provider_fx_charges_warning": "Vydavatel vaší karty může účtovat poplatky za transakce v %{currency_code}."
       }
     }
   }
