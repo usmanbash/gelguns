@@ -3117,7 +3117,95 @@
         "confirmation": "Kiitos, että tilasit uutiskirjeemme.",
         "disclaimer": "Voit peruuttaa ilmoittautumisesi milloin tahansa.",
         "unsubscribe": "Kirjaudu ulos"
+      },
+      "unsubscribed": {
+        "disclaimer": "Et enää saa meiltä markkinointitiedotteita. Voit halutessasi ilmoittautua uudelleen milloin tahansa.",
+        "preview": "Näet esikatselun siitä, mitä asiakkaat näkevät, kun he peruvat tilauksensa."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Olet antanut luvan sähköpostin avausseurannan käyttöön.</b>",
+          "visibility": "Sähköpostin avaamisprosentit raportoidaan nimettömästi. Näemme vain, oletko avannut sähköpostin osana yhteenlaskettua sähköpostin avaamisprosenttia.",
+          "opt_out_html": "Voit <a style='text-decoration:underline;' href='%{link}'>peruuttaa sähköpostin avausseurannan</a>, jos et halua jakaa tätä tietoa.",
+          "preview_bar": "Näet esimerkin siitä, mitä asiakkaat näkevät, kun he antavat suostumuksensa vastaanottaa sähköposteja, joissa on avoimen seurannan tiedot."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Olet peruuttanut sähköpostin avausseurannan.</b>",
+          "visibility": "Emme näe, oletko avannut sähköpostimme.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Salli</a> sähköpostien avoin seuranta.",
+          "preview_bar": "Näet esimerkin siitä, mitä asiakkaat näkevät, kun he peruvat sähköpostien vastaanottamisen, joissa seurataan avauksia."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Emme enää seuraa, avataanko sähköposteja.</b>",
+          "privacy_policy": "Tämän sähköpostin lähettämisen jälkeen olemme päivittäneet tietosuojakäytäntömme emmekä enää seuraa sähköpostien avaamista."
+        },
+        "track": {
+          "status_html": "<b>Sähköpostin avaamisen seuranta raportoidaan.</b>",
+          "visibility": "Näemme sähköpostin avaamisen vain osana kokonaisavausprosenttia."
+        },
+        "updated_policy": {
+          "status_html": "<b>Sähköpostin avaamisen seuranta raportoidaan.</b>",
+          "visibility": "Olemme päivittäneet käytäntömme, ja seuraamme nyt avattuja sähköposteja. Sähköpostin avaamisprosentit raportoidaan nimettömästi. Näemme vain, oletko avannut sähköpostin osana kokonaisavausprosenttia.",
+          "opt_out_html": "Jos et halua enää jakaa tätä tietoa, voit <a style='text-decoration:underline;' href='%{link}'>peruuttaa tilauksesi</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Oletko varma, että haluat peruuttaa ilmoittautumisesi tekstiviestimarkkinoinnista?",
+        "button": "Kirjaudu ulos"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Valmis yleensä tunnissa",
+        "two_hours": "Valmis yleensä 2 tunnin kuluessa",
+        "four_hours": "Valmis yleensä 4 tunnin kuluessa",
+        "twenty_four_hours": "Yleensä valmista 24 tunnin kuluessa",
+        "two_to_four_days": "Valmis yleensä 2–4 päivän kuluessa",
+        "five_or_more_days": "Yleensä valmista yli viidessä päivässä",
+        "zero_to_two_hours": "Valmis yleensä 2 tunnin kuluessa",
+        "two_to_four_hours": "Valmis yleensä 4 tunnin kuluessa"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Ei varastossa"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Merkityksellisyys",
+        "price_ascending": "Hinta: matalasta korkeaan",
+        "price_descending": "Hinta: korkein ensin"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Tämä tuote on toistuva tai viivästetty ostos. Jatkamalla hyväksyn %{cancellationPolicyLink} ja annan myös luvan veloittaa ilmoitetut hinnat maksutavastani ilmoitetulla tiheydellä ja päivämäärinä, kunnes tilaukseni on käsitelty tai kunnes peruutan, jos se on sallittua.",
+      "buyer_consent_cart": "Yksi tai useampi ostoskorissasi oleva tuote on viivästetty tai toistuva ostos. Jatkamalla hyväksyn %{cancellationPolicyLink} ja annan luvan veloittaa ilmoitetut hinnat maksutavastani ilmoitetulla aikataululla ja päivämäärinä, kunnes tilaukseni on käsitelty tai kunnes peruutan, jos se on sallittua.",
+      "cancellation_policy": "irtisanomiskäytäntö"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "nav_accessibility_label": "Tilinavigaatio",
+        "open_menu_accessibility_label": "Tilinavigoinnin avaaminen",
+        "close_menu_accessibility_label": "Tilinavigoinnin sulkeminen",
+        "loading_message": "Tilinavigoinnin lataus"
+      },
+      "close_menu_accessibility_label": "Päävalikon sulkeminen",
+      "contact_email_subject": "Yhteyshenkilö verkkokaupassa {{shopName}}",
+      "dismiss_toast": "Sulje",
+      "document_title": "{{sectionName}} - {{shopName}} - tili",
+      "logout_overlay_label": "Kirjaudu ulos...",
+      "nav_label_accessibility_label": "Päänavigaatio",
+      "navigation_accessibility_message": "Olet siirtynyt kohtaan {{sectionName}}",
+      "open_menu_accessibility_label": "Päävalikon avaaminen",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "country_switcher_toast_message": "Maa vaihdettu {{countryName}}",
+      "switch_country": "Maan vaihtaminen",
+      "search": "Etsi"
     }
   }
 }
