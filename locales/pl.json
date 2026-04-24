@@ -1016,7 +1016,147 @@
         "recurring_subtotal_label": "Powracająca suma częściowa",
         "recurring_total_label": "Powracająca suma całkowita",
         "recurring_total_tooltip": "Ekskluzywnie wysyłka, podatek VAT, cła lub ewentualne zniżki.",
-        "gift_card_subscriptions_notice": "Bony podarunkowe są stosowane tylko przy pierwszej płatności"
+        "gift_card_subscriptions_notice": "Bony podarunkowe są stosowane tylko przy pierwszej płatności",
+        "confirmation_number_label": "Numer potwierdzenia %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Całkowita kwota podatku zostanie potwierdzona e-mailem lub wiadomością SMS po złożeniu zamówienia.",
+        "deferred_payment_info": {
+          "title": "Płatność w wysokości %{amount_due} jest należna do %{due_at}",
+          "description_html": "%{contact_us} w sprawie pytań dotyczących Twojego zamówienia.",
+          "paid_today": "Razem zapłacono dzisiaj",
+          "due_on_fulfillment_title": "Płatność w wysokości %{amount_due} jest należna przy realizacji zamówienia.",
+          "due_on_receipt_title": "%{amount_due} jest należne przy odbiorze"
+        },
+        "percent_off_shipping": "%{percent}% zniżki na wysyłkę",
+        "amount_off_shipping": "%{amount} zniżki na wysyłkę",
+        "payment_terms_totals": {
+          "due_today": "Razem do zapłaty dzisiaj",
+          "due_later": "Całkowita kwota do zapłaty na %{due_at}",
+          "due_later_checkout_to_draft": "Całkowita należność później",
+          "due_on_fulfillment": "Całkowita należność przy realizacji zamówienia",
+          "due_on_receipt": "Do zapłaty przy odbiorze całkowita kwota",
+          "total_paid": "Razem zapłacono",
+          "due_today_next": "Dziś do zapłaty",
+          "due_on_fulfillment_next": "Do zapłaty przy realizacji zamówienia"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nie może być użyty z Twoimi obecnymi rabatami.",
+        "maximum_discount_code_limit_reached": "Osiągnąłeś maksymalną liczbę kodów rabatowych. Usuń istniejący kod, aby użyć <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Całe zamówienie",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> obecnie nie działa. Skontaktuj się z nami, jeśli potrzebujesz pomocy.",
+        "due_on_fulfillment": "Zadłużony w realizacji zamówień",
+        "duties_label": "Cła graniczne",
+        "error_duties_tooltip": "To zamówienie jest wysyłane z innego kraju, dlatego przy dostawie mogą zostać naliczone cła i podatki.",
+        "may_be_charged_on_delivery": "Czy może zostać doliczona przy dostawie?",
+        "recurring_payments": "Płatności cykliczne",
+        "recurring_total_multiple_label": "To zamówienie zawiera powtarzające się opłaty za kilka artykułów.",
+        "deferred_total_due_date_label": "Całkowita należność na dzień {{date}}",
+        "custom_discount": "Dostosowany rabat",
+        "expand_component_information": {
+          "one": "Wyświetl %{count} artykułów",
+          "other": "Wyświetl %{count} artykułów"
+        },
+        "collapse_component_information": {
+          "one": "Ukryj %{count} artykułów",
+          "other": "Ukryj %{count} artykułów"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} artykułów",
+            "other": "%{count} artykułów"
+          },
+          "back_to_finalize_order": "Powrót do finalizacji zamówienia"
+        },
+        "alternative_payment_currency_total": "pobrano jako %{amount_due}",
+        "calculating": "Obliczanie...",
+        "group_title_label": "Część '%{group_title}'",
+        "discount_title_stacking": {
+          "one": "Obniżka",
+          "other": "Zniżki"
+        },
+        "discount_order_stacking": {
+          "other": "Zniżki na zamówienia"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} za sztukę"
+        },
+        "discount_not_found": "Nie można znaleźć ważnego rabatu odpowiadającego wprowadzonego kodowi",
+        "total_savings": "Całkowita oszczędność",
+        "return_restocking_fee_label": "Koszty zaopatrzenia w zioła",
+        "return_shipping_fee_label": "Zwrot towaru",
+        "enter_shipping_address": "Wprowadź adres dostawy",
+        "discount_code_applied": "Kod rabatowy zastosowany",
+        "discount_code_applied_with_code": "Kod rabatowy %{code} został zastosowany",
+        "gift_card_applied": "Bon podarunkowy zastosowany",
+        "duties_included_label": "Całkowita kwota zawiera podatki i cła. Brak dodatkowych opłat przy dostawie.",
+        "deferred_balance_info": {
+          "title": "Saldo w wysokości {{amount_due}} jest należne do {{due_at}}.",
+          "due_on_fulfillment_title": "Saldo w wysokości {{amount_due}} jest należne przy realizacji zamówienia"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kod rabatowy wymagany dla kwalifikującego się klienta",
+        "subtotal_label_with_quantity": {
+          "one": "Suma częściowa · %{count} artykuł",
+          "other": "Suma częściowa · %{count} artykułów"
+        },
+        "cost_table_item_column_header": "Artykuł",
+        "more_items_modal": {
+          "empty_results": "Nie znaleziono wyników dla '%{searchText}'. Sprawdź pisownię lub użyj innego słowa bądź wyrażenia.",
+          "number_items_shown": "%{shownNumber} z %{totalNumber} artykułów",
+          "search_item": "Szukaj"
+        },
+        "number_items": {
+          "one": "%{count} artykułów",
+          "other": "%{count} artykułów"
+        },
+        "view_all_items": {
+          "one": "Wyświetl %{count} artykułów",
+          "other": "Zobacz wszystkie %{count} artykuły"
+        },
+        "price_after_discount_aria_text": "Cena z rabatem",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Wysyłka na adres",
+          "ship_to_address_instead_html": "%{link} zamiast tego"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Brak sklepów z Twoim artykułem",
+          "other": "Brak sklepów z Twoimi artykułami"
+        },
+        "deposit_label": "Zaliczka",
+        "total_due_today_label": "Razem do zapłaty dzisiaj",
+        "total_due_later_label": "Całkowita należność później",
+        "discount_code_allocations_mismatch": "Twój kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> został zmieniony. Sprawdź swój koszyk i spróbuj ponownie.",
+        "deferred_total_due_date_label_next": "Zadłużony na dzień %{date}",
+        "total_due_label": "Razem do zapłaty",
+        "for_add_on": "Dla: %{group_title}",
+        "unconfirmed_label": "Niepotwierdzony",
+        "total_paid_label": "Razem zapłacono",
+        "from_shop_heading": "Sprzedawca: %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Rabaty na zamówienia obowiązują tylko na artykuły ze %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Bony podarunkowe obowiązują tylko na artykuły ze %{shop_name}",
+        "estimated_taxes_label_short": "Oszacowano",
+        "discount_code_removed": "Kod rabatowy %{code} został usunięty",
+        "discount_code_replaced": "Kod rabatowy %{old_code} został usunięty, a %{code} został zastosowany",
+        "discount_code_replaced_multiple": "Kilka kodów rabatowych zostało usuniętych, a %{code} został zastosowany",
+        "discount_applies_to_subscription_items_only": "Zniżka dotyczy wyłącznie artykułów subskrypcyjnych",
+        "estimated_taxes_finalization_tooltip_content_short": "Zaokrąglenie podatku po zapłacie",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Brak dostępnych sklepów w %{country} z Twoim produktem",
+          "other": "Brak dostępnych sklepów w %{country} z Twoimi artykułami"
+        },
+        "automatic_discount_tooltip": "Automatycznie zastosowane rabaty nie mogą być usunięte"
+      },
+      "shipping": {
+        "shipping_method_title": "Sposób wysyłki",
+        "waiting_on_pickup_location_notice": "Pobieranie dostępnych miejsc odbioru...",
+        "no_rates_for_cart_or_destination_notice": "Nie ma dostępnych metod wysyłki dla twojego koszyka lub adresu",
+        "no_pickup_location_notice": "Przynajmniej jeden z twoich produktów nie może zostać odebrany osobiście",
+        "free_rate_label": "Darmowy",
+        "cheapest_rate_label": "Najtaniej",
+        "estimated_delivery_date": {
+          "other": "%{count} dni roboczych"
+        },
+        "shipping_line_phone": "Twój kurier może użyć tego numeru, aby się z tobą skontaktować.",
+        "other_method": {
+          "zero": "Brak dostępnych innych metod"
+        }
       }
     }
   }
