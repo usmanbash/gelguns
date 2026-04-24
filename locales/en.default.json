@@ -971,7 +971,14 @@
         "unavailable_address_country": "Shipping is not possible to the country you have selected. Please provide a different address to continue"
       },
       "billing": {
-        "update_address_banner": "Update this address to see your delivery options."
+        "update_address_banner": "Update this address to see your delivery options.",
+        "billing_address_title": "Invoice to",
+        "same_as_shipping": "Same as delivery address",
+        "delete": "Remove",
+        "address_more": "More offers for this address",
+        "address_delete": "Remove address",
+        "address_confirm": "Are you sure you want to remove this address from your account?",
+        "billing_address_rollup_accessibility_label": "Options for charging"
       },
       "address_management": {
         "confirm_address_deletion": "Are you sure you want to delete the address {{address}} ?"
@@ -2270,7 +2277,72 @@
             "address": "The seller cannot deliver to the delivery address you have selected.",
             "postal_code": "This location is not supported",
             "wallet_is_unavailable": "You cannot use {{walletName}} with this address. Please select a different address or close {{walletName}} to complete the purchase."
-          }
+          },
+          "outdated": {
+            "shipping_method": "The shipping options for your order have changed. Please check your selection.",
+            "payment_terms": "The payment terms have changed. Check your order"
+          },
+          "invalid": {
+            "shipping_address": "Enter a valid delivery address",
+            "email": "Enter a valid email address",
+            "zone": "Enter a valid state/province",
+            "postal_code": "Enter a valid ZIP or postal code",
+            "reduction_code": "Enter a valid discount code or gift voucher",
+            "billing_must_match_shipping": "Must match the delivery address.",
+            "phone": "Enter a valid telephone number",
+            "billing_zone": "Enter a valid state/province for the billing address",
+            "billing_phone": "Enter a valid telephone number for the billing address",
+            "billing_zip": "Enter a valid ZIP or postal code for the billing address"
+          },
+          "missing": {
+            "address2": "Enter an apartment or suite number, and so on",
+            "city": "Enter a place",
+            "province": "Select a state/province",
+            "zip": "Enter a ZIP or postal code",
+            "phone": "Enter a telephone number",
+            "billing_first_name": "Enter a first name for the billing address",
+            "billing_address2": "Enter an apartment or suite number, etc. for the billing address",
+            "billing_city": "Enter a place for the billing address",
+            "billing_province": "Select a state/province for the billing address",
+            "billing_zip": "Select a ZIP or postal code for the billing address",
+            "contact_info": "Enter contact details"
+          },
+          "formatting": {
+            "name_contains_emojis": "Remove emoji from your name",
+            "postal_code_contains_emoji": "Remove emoji from your postal code"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Your delivery address is invalid. Please select another address or use a new address.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} is currently not available for your order. Please choose another checkout method to continue with the purchase."
+          },
+          "discount_code": "Cannot apply this discount code. Check your code and try again.",
+          "processing_error_checkout_as_guest": "There was a problem processing your payment. Please try again or {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "You will be redirected to {{walletName}} to complete your purchase",
+        "return_to_checkout": "Back to checkout",
+        "scrim": {
+          "and_return_to_checkout": "and back to the checkout"
+        },
+        "recovery_notice": "There is an error with your order details. Please update your information to complete the payment."
+      },
+      "markets": {
+        "invalid_market_manager_error": "First check your contact details before completing the payment"
+      },
+      "store_credit_errors": {
+        "generic_error": "There is a problem with your store credit. Please try again or reload the page."
+      },
+      "note": {
+        "length_exceeds_maximum": "Briefly shorten the remark to a maximum of 5000 characters."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "The gift voucher has already been applied to your order",
+          "insufficient_funds": "There is no money left on this gift voucher",
+          "expired": "This gift voucher has expired",
+          "not_available": "This gift voucher is no longer available",
+          "invalid": "Enter a valid gift voucher",
+          "generic": "The gift voucher cannot be added to the checkout",
+          "throttle_limit_exceeded": "You have reached the maximum number of attempts. Please try again later."
         }
       }
     },
