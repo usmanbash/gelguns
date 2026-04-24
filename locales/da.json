@@ -2404,7 +2404,89 @@
           "customer_account_required": "Kunde konto er påkrævet for at fuldføre betalingen",
           "not_authorized": "Betalingsbekræftelse mislykkedes. Bekræft dine loginoplysninger til appen.",
           "killswitch_enabled": "Betaling er midlertidigt ikke tilgængelig",
-          "policy_violation": "Kan ikke fuldføre betaling på grund af begrænsninger i politikindstillingerne"
+          "policy_violation": "Kan ikke fuldføre betaling på grund af begrænsninger i politikindstillingerne",
+          "unrecoverable_failure": "Kan ikke indlæse kassen. Prøv igen."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tilbage til indkøbskurv",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} for at opdatere mængderne",
+        "subscription_changed": "Et af dine abonnementer er ændret.",
+        "company_location_changed": "Din indkøbskurv er blevet ændret. Tjek din bestilling, inden du sender den.",
+        "individual_violations_title": {
+          "OtherViolations": "Bestillingsoplysninger",
+          "UnhandledViolations": "Bestillingsoplysninger"
+        },
+        "all_violations_content": "Ring til {{emailLink}} for at opdatere disse oplysninger og fuldføre din bestilling:",
+        "all_violations_email_link": "e-mail",
+        "editable_shipping_address_violations_message_title": "Tilføj disse oplysninger for at fuldføre din bestilling:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} for permanent at opdatere adressen for denne lokation.",
+        "company_location_changed_product_removed": "Din indkøbskurv er blevet ændret, fordi nogle varer ikke er tilgængelige på dette sted. Tjek din bestilling, før du sender den.",
+        "calculating_shipping": "Forsendelse beregnes stadig. Prøv igen om et par sekunder. Der er ikke opkrævet nogen gebyrer.",
+        "calculating_taxes": "Skatterne bliver stadig beregnet. Prøv igen om et par sekunder. Der er ikke opkrævet nogen gebyrer.",
+        "generic_processing_error": {
+          "title": "Der opstod et problem under behandlingen af din bestilling",
+          "body": "Der er ikke opkrævet nogen gebyrer. Prøv igen eller brug en anden betalingsmetode."
+        },
+        "contact_information": {
+          "header": "{{emailLink}} for at opdatere dine oplysninger"
+        },
+        "payment_method_not_available_with_payment_terms": "Den betalingsmetode, du har valgt, er ikke længere tilgængelig, fordi betalingen for denne ordre nu falder under {{paymentTerms}}-betingelser.",
+        "payment_method_not_available_with_fulfillment_terms": "Den betalingsmetode, du har valgt, er ikke længere tilgængelig, fordi betalingen for denne ordre nu skal gennemføres ved levering.",
+        "payment_method_not_available_with_fixed_terms": "Den betalingsmetode, du har valgt, er ikke længere tilgængelig, fordi betalingen for denne ordre skal foretages senere.",
+        "payment_method_not_available_with_review_requirement": "Den betalingsmetode, du har valgt, er ikke længere tilgængelig, fordi betalingen skal ske, når ordren er bekræftet."
+      },
+      "review_address_modal": {
+        "title": "Kontrollér adresse",
+        "subtitle": {
+          "one": "Denne ordre bliver sendt til den adresse, som {{merchant}} har angivet.",
+          "other": "Denne ordre bliver sendt til en adresse, som {{merchant}} har angivet. Vælg en leveringsadresse."
+        },
+        "subtitle_no_match": "Din adresse stemmer ikke overens med nogen af dine gemte adresser.",
+        "subtitle_must_use": "Din bestilling bliver sendt til denne adresse.",
+        "return_to_cart": "Tilbage til indkøbskurv"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Læs",
+          "link_label": "de Almindelige betingelser for {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Spørgsmål? Chat med os"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Der er %{count} lagerførte lokation i nærheden",
+          "other": "Der er %{count} lagre i nærheden"
+        },
+        "toggle_location": "Skift placering",
+        "or": "AF",
+        "your_location": "din placering",
+        "search_button": "Søg efter butikker",
+        "no_stores_found": "Ingen butikker fundet",
+        "could_not_resolve_address": "Kan ikke finde din adresse. Prøv igen eller brug en anden adresse",
+        "paginator": {
+          "accessibility_label": "Sideinddeling til afhentning på stedet"
+        },
+        "reveal_more_label": {
+          "one": "Vis %{count} flere steder"
+        },
+        "all_stores_far_away": {
+          "title": "De nærmeste lokationer ligger mere end %{distance} væk",
+          "description": "Vælg en placering eller %{ship_to_address_link}",
+          "ship_to_address_link": "leveringsadresse",
+          "change_location_link": "Skift din placering",
+          "title_with_specific_location": "Den nærmeste placering med din vare er mere end %{distance} fra %{location}.",
+          "title_with_item": {
+            "one": "Den nærmeste placering med din vare er mere end %{distance} fra %{location}.",
+            "other": "Den nærmeste placering med dine varer er mere end %{distance} fra %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Den tidligere valgte placering er ikke længere tilgængelig",
+          "description": "Vælg en ny placering eller %{ship_to_address_link}",
+          "ship_to_address_link": "Afsendelse til adresse"
         }
       }
     }
