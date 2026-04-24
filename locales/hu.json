@@ -3985,7 +3985,69 @@
       },
       "delete_confirmation_title": "Cím törlése?",
       "delete_confirmation_description": "Ennek nincs hatása a meglévő rendelésekre.",
-      "add_address_banner": "Adj hozzá címeket a fizetésnél való használathoz"
+      "add_address_banner": "Adj hozzá címeket a fizetésnél való használathoz",
+      "back_button_accessibility_label": "Vissza a {{address}} szerkesztéséhez",
+      "no_addresses_banner": "Nincsenek hozzáadott címek"
+    },
+    "address_form": {
+      "billing_address": "Számlázási címként használni",
+      "cancel_accessibility_label": "A {{address}} cím szerkesztésének megszakítása",
+      "default_address": "Ez az én alapértelmezett címem",
+      "loading_add_form_accessibility_message": "Új cím űrlap betöltése",
+      "loading_edit_form_accessibility_message": "Űrlap cím szerkesztése betöltése",
+      "loading_finished_accessibility_message": "A címűrlap betöltve",
+      "save_accessibility_label": "Cím mentése {{address}}",
+      "attention": "Tájékoztató",
+      "attention_help_text": "A személy vagy az osztály neve",
+      "loading_form_accessibility_message": "Űrlap cím betöltése",
+      "attention_company": "Cég/részére"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_section_accessibility_label": "Vállalat"
+      },
+      "locations": {
+        "contact_list_title": "Emberek",
+        "contact_permissions": "Engedélyek",
+        "location_picker_label": "Helynév",
+        "net_payment_terms_description": "{{name}}: fizetések esedékesek {{numberOfDays}} napon belül",
+        "payment_details_title": "Fizetési adatok",
+        "permissions_label": "Az engedélyeid",
+        "permissions_title": "Engedélyek",
+        "section_title": "Helyszín",
+        "shipping_address_required": "Adj hozzá egy kézbesítési címet ehhez a helyhez, hogy rendeléseket adhass le.",
+        "tax_details_title": "Adóadatok",
+        "tax_id": "Adóazonosító",
+        "tax_exemptions": "Adómentességek",
+        "multiple_tax_exemptions": "Még {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "hu",
+        "tax_exemption_not_applicable": "nem alkalmazható",
+        "tax_exemptions_modal_button_accessibility_label": "Összes adómentesség megjelenítése",
+        "pagination": {
+          "load_more": "Több betöltése",
+          "load_more_accessibility_label": "További helyszínek betöltése"
+        },
+        "staff_and_permissions_title": "Munkatársak és jogosultságok",
+        "location_picker_accessibility_label": "Helyszín neve: {{locationName}}",
+        "deposit_percentage": "{{percentage}} letét"
+      },
+      "location_selection": {
+        "description": "Ha már vannak cikkeid a kosaradban, a helyszín megváltoztatása befolyásolhatja a kosaradban lévő árakat és mennyiségeket.",
+        "list_accessibility_label": "Helyszínlista",
+        "list_item_without_address_accessibility_label": "{{name}}: nincs cím",
+        "list_loading_accessibility_message": "Helyszínlista betöltése",
+        "list_loading_address_accessibility_message": "Cím betöltése {{locationName}} számára",
+        "list_loading_finished_accessibility_message": "A helyszínlista betöltve",
+        "loading_store_accessibility_message": "Úton a bolt felé",
+        "selection_confirmation_button": "Helyszín kiválasztása",
+        "title": "Melyik helyszínre vásárolsz?",
+        "continue_to_store": "Tovább a boltba",
+        "no_location_title": "Csak személyes rendelések",
+        "no_location_description": "Már nem jogosult megrendeléseket leadni a {{company}} számára. Személyes megrendeléseket azonban még leadhat.",
+        "no_locations_found": "Nem találhatók helyszínek",
+        "search": "Helyszínek keresése",
+        "clear_search": "Keresési művelet törlése"
+      }
     }
   }
 }
