@@ -562,7 +562,65 @@
         "partial_total_label": "Kopā",
         "free_total_label": "Bezmaksas",
         "free_shipping_total_label": "Bezmaksas",
-        "paid_label": "Apmaksāts"
+        "paid_label": "Apmaksāts",
+        "payment_due_label": "Samaksājamā summa",
+        "vat_label_html": "Ieskaitot %{amount} PVN",
+        "discount_and_gift_card_savings_notice": "Na %{discount_amount} atlaidi un %{gift_card_amount} dāvanu kartes vērtībā",
+        "discount_savings_notice": "Na %{discount_amount} atlaide",
+        "gift_card_savings_notice": "Na %{gift_card_amount} dāvanu kartes vērtība",
+        "cost_table_title": "Izmaksu pārskats",
+        "description_label": "Apraksts",
+        "price_label": "Cena",
+        "quantity_label": "Skaits",
+        "product_change_label": "Mainīt",
+        "product_image_label": "Produkta attēls",
+        "scroll_order_summary": "Ritiniet uz leju, lai redzētu vairāk rakstu",
+        "expand_order_summary_short": "Attēlot",
+        "collapse_order_summary_short": "Slēpt",
+        "total_updated_label": "Atjauninātā kopējā cena:",
+        "order_total_updated_label": "Atjaunināts kopējais skaits",
+        "total_already_paid_label": "apmaksāts",
+        "unit_price": {
+          "accessible_separator": "par",
+          "per_item": {
+            "single": "%{price} par gabalu",
+            "one": "%{price} par %{count} vienību",
+            "other": "%{price} par %{count} vienībām"
+          }
+        },
+        "pickup_label": "Paņemt veikalā",
+        "no_pickup_location": "Nav pieejamu vietu pasūtījumu saņemšanai.",
+        "calculating_shipping": "Notiek aprēķināšana...",
+        "estimated_taxes_label": "Aptuvenā nodokļa summa",
+        "information_estimated_taxes_label": "Nodokļi (aptuveni)",
+        "gift_card_ending": "Dāvanu karte, kas beidzas ar %{last_characters}",
+        "estimated_tax_label": "Aptuvenā nodokļa summa",
+        "multiple_shipping_lines_label": "Kopējās piegādes izmaksas",
+        "applied_free_shipping_discount_label": "Pielietots",
+        "original_price": "Oriģinālā cena",
+        "sale_price": "Piedāvājuma cena",
+        "recurring_subtotal_label": "Atgrieztā starpsumma",
+        "recurring_total_label": "Atgrieztais kopskaits",
+        "recurring_total_tooltip": "Izņemot piegādes maksu, pievienotās vērtības nodokli, muitas nodevas vai iespējamos atlaides.",
+        "gift_card_subscriptions_notice": "Dāvanu kuponi tiek piemēroti tikai pirmajai maksājuma reizei",
+        "confirmation_number_label": "Apstiprinājuma numurs %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Kopējā nodokļa summa tiks apstiprināta pa e-pastu vai īsziņu pēc tam, kad būsi veicis pasūtījumu.",
+        "deferred_payment_info": {
+          "title": "Maksājums %{amount_due} ir jāveic līdz %{due_at}",
+          "description_html": "%{contact_us} jautājumiem par jūsu pasūtījumu.",
+          "paid_today": "Kopā samaksāts šodien",
+          "due_on_fulfillment_title": "Maksājums %{amount_due} ir jāveic, izpildot pasūtījumu.",
+          "due_on_receipt_title": "%{amount_due} ir jāmaksā saņemšanas brīdī",
+          "paid_today_next": "Šodien samaksāts"
+        },
+        "percent_off_shipping": "%{percent}% atlaide piegādei",
+        "amount_off_shipping": "%{amount} atlaide piegādei",
+        "payment_terms_totals": {
+          "due_today": "Kopējā šodienas parādsaistība",
+          "due_later": "Kopējā summa, kas jāmaksā līdz %{due_at}",
+          "due_later_checkout_to_draft": "Kopējā vēlākā samaksa",
+          "due_on_fulfillment": "Kopējā summa, kas jāmaksā pie izpildes"
+        }
       }
     }
   },
