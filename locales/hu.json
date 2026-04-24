@@ -40,94 +40,94 @@
     "continue_shopping": "Visszatérés a boltba",
     "pagination": {
       "label": "Oldalszámozás",
-      "page": "{{ number }}. oldal",
+      "page": "Oldal {{ number }}",
       "next": "Következő oldal",
       "previous": "Előző oldal"
     },
     "search": {
       "search": "Keresés",
-      "reset": "Keresőszó törlése"
+      "reset": "Keresőkifejezés törlése"
     },
     "cart": {
       "view": "Kosár megtekintése ({{ count }})",
-      "item_added": "Betettük a terméket a kosárba",
+      "item_added": "Termék hozzáadva a kosárhoz",
       "view_empty_cart": "Kosár megtekintése"
     },
     "share": {
-      "copy_to_clipboard": "Hivatkozás másolása",
+      "copy_to_clipboard": "Link másolása",
       "share_url": "Hivatkozás",
-      "success_message": "A vágólapra másoltuk a hivatkozást.",
-      "close": "Megosztás befejezése"
+      "success_message": "Link a vágólapra másolva",
+      "close": "Részletek bezárása"
     },
     "slider": {
-      "of": "/",
-      "next_slide": "Következő dia",
-      "previous_slide": "Előző dia",
+      "of": "van",
+      "next_slide": "Jobbra húzás",
+      "previous_slide": "Balra húzás",
       "name": "Csúszka"
     }
   },
   "newsletter": {
-    "label": "E-mail-cím",
-    "success": "Köszönjük a feliratkozást",
+    "label": "E-mail",
+    "success": "Köszönjük, hogy feliratkozott!",
     "button_label": "Feliratkozás"
   },
   "accessibility": {
     "skip_to_text": "Ugrás a tartalomhoz",
     "close": "Bezárás",
-    "unit_price_separator": "/",
-    "vendor": "Forgalmazó:",
+    "unit_price_separator": "perc",
+    "vendor": "Eladó:",
     "error": "Hiba",
-    "refresh_page": "Ha kiválasztasz egy lehetőséget, a teljes oldal frissül.",
+    "refresh_page": "Egy választás teljes oldalfrissítést eredményez.",
     "link_messages": {
-      "new_window": "Tartalom megnyitása új ablakban.",
-      "external": "Külső webhelyet nyit meg."
+      "new_window": "Megnyílik egy új ablakban.",
+      "external": "Megnyit külső weboldalt."
     },
-    "loading": "Betöltés folyamatban…",
-    "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
-    "total_reviews": "összes értékelés",
-    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag",
+    "loading": "Betöltés alatt...",
+    "skip_to_product_info": "Ugrás a termékinformációhoz",
+    "total_reviews": "összes értékelés száma",
+    "star_reviews_info": "{{ rating_value }} a(z) {{ rating_max }} csillagból",
     "collapsible_content_title": "Összecsukható tartalom",
     "complementary_products": "Kiegészítő termékek"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Továbbiak: {{ title }}",
+      "read_more_title": "Olvass tovább: {{ title }}",
       "comments": {
-        "one": "{{ count }} hozzászólás",
+        "one": "{{ count }} válasz",
         "other": "{{ count }} hozzászólás"
       },
-      "moderated": "Felhívjuk a figyelmedet, hogy a hozzászólásokat jóvá kell hagyni a közzétételük előtt.",
-      "comment_form_title": "Hozzászólás írása",
+      "moderated": "Figyelem: a megjegyzéseket jóvá kell hagyni, mielőtt közzéteszik őket.",
+      "comment_form_title": "Válasz küldése",
       "name": "Név",
-      "email": "E-mail-cím",
-      "message": "Hozzászólás",
-      "post": "Hozzászólás elküldése",
-      "back_to_blog": "Vissza a blogba",
-      "share": "Cikk megosztása",
-      "success": "Elküldtük a hozzászólásodat. Köszönjük!",
-      "success_moderated": "Elküldtük a hozzászólásodat. Blogunkat moderáljuk, ezért egy kis idő múlva tesszük csak közzé a hozzászólást."
+      "email": "E-mail",
+      "message": "Válasz",
+      "post": "Helyezzen el egy hozzászólást",
+      "back_to_blog": "Vissza a bloghoz",
+      "share": "Cikkek megosztása",
+      "success": "A hozzászólásod közzétéve! Köszönjük!",
+      "success_moderated": "A hozzászólásod közzétéve. Hamarosan megjelenik; a blogunk moderált."
     }
   },
   "onboarding": {
-    "product_title": "Példa terméknévre",
-    "collection_title": "Kollekció neve"
+    "product_title": "Példa termékcím",
+    "collection_title": "A kollekciód neve"
   },
   "products": {
     "product": {
-      "add_to_cart": "Hozzáadás a kosárhoz",
+      "add_to_cart": "Kosárhoz adás",
       "description": "Leírás",
-      "on_sale": "Akciós",
+      "on_sale": "Akció",
       "product_variants": "Termékváltozatok",
       "quantity": {
         "label": "Mennyiség",
-        "input_label": "{{ product }} mennyisége",
-        "increase": "{{ product }} mennyiségének növelése",
-        "decrease": "{{ product }} mennyiségének csökkentése",
-        "minimum_of": "Minimum: {{ quantity }}",
-        "maximum_of": "Maximum: {{ quantity }}",
-        "multiples_of": "Növekvés: {{ quantity }}",
-        "in_cart_html": "Kosárban lévő mennyiség: <span class=\"quantity-cart\">{{ quantity }}</span>",
+        "input_label": "Mennyiség {{ product }} esetén",
+        "increase": "Mennyiség növelése a {{ product }} esetében",
+        "decrease": "Mennyiség csökkentése a(z) {{ product }} esetében",
+        "minimum_of": "Minimum van {{ quantity }}",
+        "maximum_of": "Maximum van {{ quantity }}",
+        "multiples_of": "Lépések száma: {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> a kosárban",
         "note": "Mennyiségi szabályok megtekintése",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Max. {{ quantity }}",
@@ -188,7 +188,17 @@
       },
       "taxes_included": "Tartalmazza az adókat.",
       "duties_included": "Tartalmazza a vámokat.",
-      "duties_and_taxes_included": "Tartalmazza a vámokat és az adókat."
+      "duties_and_taxes_included": "Tartalmazza a vámokat és az adókat.",
+      "inventory_out_of_stock_message": "Raktáron",
+      "inventory_order_before": "előtt",
+      "inventory_delivered": "rendeld meg,",
+      "inventory_delivery_time": "holnap házhozszállítva",
+      "inventory_status": {
+        "in_stock_badge": "Raktáron",
+        "low_stock_badge": "Kevés készlet",
+        "out_of_stock_badge": "Nincs készleten",
+        "shipping_message": "14:00 óráig leadott rendelés esetén még aznap feladjuk"
+      }
     },
     "modal": {
       "label": "Médiatár"
