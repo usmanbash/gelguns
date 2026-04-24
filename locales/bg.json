@@ -10,84 +10,84 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Влизане в магазина с парола:",
-      "login_password_button": "Влизане с парола",
+      "login_form_heading": "Влезте в магазина с парола:",
+      "login_password_button": "Влезте с парола",
       "login_form_password_label": "Парола",
-      "login_form_password_placeholder": "Вашата парола",
-      "login_form_error": "Неправилна парола.",
-      "login_form_submit": "Въведете",
-      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"/admin\" class=\"link underlined-link\">Влезте тук</a>",
-      "powered_by_shopify_html": "Този магазин ще се поддържа от {{ shopify }}"
+      "login_form_password_placeholder": "Твоята парола",
+      "login_form_error": "Невалидна парола!",
+      "login_form_submit": "Въвеждане",
+      "admin_link_html": "Ти ли си собственикът на магазина? <a href=\"/admin\" class=\"link underlined-link\">Влез тук</a>",
+      "powered_by_shopify_html": "Този магазин се захранва от {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Споделяне чрез Facebook",
-        "share_on_twitter": "Споделяне в X",
-        "share_on_pinterest": "Отбелязване в Pinterest"
+        "share_on_facebook": "Сподели във Facebook",
+        "share_on_twitter": "Сподели в X",
+        "share_on_pinterest": "Закачване в Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
-        "facebook": "Facebook",
-        "pinterest": "Pinterest",
-        "instagram": "Instagram",
-        "tumblr": "Tumblr",
-        "snapchat": "Snapchat",
+        "twitter": "X (преди Twitter)",
+        "facebook": "Фейсбук",
+        "pinterest": "Пинтерест",
+        "instagram": "Инстаграм",
+        "tumblr": "Тъмблър",
+        "snapchat": "Снапчат",
         "youtube": "YouTube",
-        "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "vimeo": "Вимео",
+        "tiktok": "ТикТок"
       }
     },
-    "continue_shopping": "Продължете да пазарувате",
+    "continue_shopping": "Връщане към магазина",
     "pagination": {
-      "label": "Страниране",
+      "label": "Номериране на страници",
       "page": "Страница {{ number }}",
       "next": "Следваща страница",
       "previous": "Предишна страница"
     },
     "search": {
       "search": "Търсене",
-      "reset": "Изчисти думата за търсене"
+      "reset": "Изчистване на търсене"
     },
     "cart": {
-      "view": "Покажи количката ({{ count }})",
-      "item_added": "Артикулът е добавен в количката",
-      "view_empty_cart": "Покажи количката"
+      "view": "Преглед на количката ({{ count }})",
+      "item_added": "Артикул добавен в пазарската количка",
+      "view_empty_cart": "Преглед на количката"
     },
     "share": {
-      "copy_to_clipboard": "Копиране на връзката",
+      "copy_to_clipboard": "Копиране на връзка",
       "share_url": "Връзка",
       "success_message": "Връзката е копирана в клипборда",
-      "close": "Затваряне на споделянето"
+      "close": "Затваряне на раздела"
     },
     "slider": {
-      "of": "от",
-      "next_slide": "Плъзгане надясно",
-      "previous_slide": "Плъзгане наляво",
+      "of": "ван",
+      "next_slide": "Плъзнете надясно",
+      "previous_slide": "Плъзнете наляво",
       "name": "Плъзгач"
     }
   },
   "newsletter": {
     "label": "Имейл",
-    "success": "Благодарим, че се абонирахте",
+    "success": "Благодарим ви за абонамента",
     "button_label": "Абониране"
   },
   "accessibility": {
-    "skip_to_text": "Преминаване към съдържанието",
-    "close": "Затваряне",
-    "unit_price_separator": "за",
-    "vendor": "Доставчик:",
+    "skip_to_text": "Отидете директно към съдържанието",
+    "close": "Затвори",
+    "unit_price_separator": "на",
+    "vendor": "Продавач:",
     "error": "Грешка",
-    "refresh_page": "При задаване на избор се опреснява цялата страница.",
+    "refresh_page": "Изборът на селекция води до пълно презареждане на страницата.",
     "link_messages": {
       "new_window": "Отваря се в нов прозорец.",
-      "external": "Отваря външен уебсайт."
+      "external": "Отваряне на външен уебсайт."
     },
     "loading": "Зареждане...",
-    "skip_to_product_info": "Прескочи към информацията за продукта",
-    "total_reviews": "общ брой мнения",
+    "skip_to_product_info": "Отидете директно към информацията за продукта",
+    "total_reviews": "общ брой отзиви",
     "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди",
-    "collapsible_content_title": "Съдържание, което може да се свива",
-    "complementary_products": "Допълващи продукти"
+    "collapsible_content_title": "Сгъваемо съдържание",
+    "complementary_products": "Допълнителни продукти"
   },
   "blogs": {
     "article": {
@@ -4572,8 +4572,24 @@
         "subheading": "Въведете своя имейл адрес и ние ще ви изпратим код за потвърждение",
         "input_field_label": "Имейл адрес",
         "button": "Продължи",
-        "subheading_with_sign_in_options": "Вход или създаване на акаунт"
-      }
+        "subheading_with_sign_in_options": "Вход или създаване на акаунт",
+        "or": "на",
+        "consent_agreement": "Като продължите, вие се съгласявате с %{terms}"
+      },
+      "step_two": {
+        "page_title": "Въведете код - %{shop_name}",
+        "heading": "Въведете код",
+        "subheading": "Изпратено до %{email}",
+        "restart_link": "Вход с друг имейл адрес",
+        "input_field_label": "Код от 6 цифри",
+        "button": "Подаване"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Въведете правилния шестцифрен код"
+        }
+      },
+      "processing": "Обработка..."
     }
   }
 }
