@@ -716,9 +716,87 @@
             "optional_duties_not_permitted": "Σε αυτήν την ολοκλήρωση αγοράς δεν επιτρέπεται η άρνηση των τελωνειακών δασμών."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "Σε αυτήν την ολοκλήρωση αγοράς δεν επιτρέπεται η κατανομή λιανικής."
+            "retail_attribution_not_allowed": "Σε αυτήν την ολοκλήρωση αγοράς δεν επιτρέπεται η κατανομή λιανικής.",
+            "retail_attribution_required": "Αυτή η ολοκλήρωση αγοράς απαιτεί εκχώρηση λιανικής."
+          },
+          "captcha": {
+            "metadata_missing": "Σε αυτήν την ολοκλήρωση αγοράς η συμπλήρωση ενός captcha είναι υποχρεωτική.",
+            "metadata_mismatch": "Ο καθορισμένος πάροχος captcha και ο τύπος δεν συμφωνούν με τις αναμενόμενες τιμές.",
+            "token_missing": "Ολοκληρώστε αυτήν την ολοκλήρωση αγοράς εισάγοντας ένα διακριτικό captcha.",
+            "job_enqueue_failed": "Η εργασία επαλήθευσης captcha δεν μπορεί να τοποθετηθεί στην ουρά.",
+            "job_already_queued": "Η επικύρωση Captcha έχει ήδη τοποθετηθεί στη σειρά αναμονής για αυτό το διακριτικό.",
+            "token_expired": "Ο εισαχθείς κωδικός captcha έχει λήξει. Εκτελέστε ένα νέο captcha για να συνεχίσετε με την ολοκλήρωση αγοράς.",
+            "token_invalid": "Το δοθέν captcha-token ήταν άκυρο. Εκτελέστε ένα νέο captcha για να συνεχίσετε με την ολοκλήρωση αγοράς.",
+            "token_not_valid_for_session": "Δεν είναι δυνατή η χρήση του δοθέντος captcha σε αυτήν την ολοκλήρωση αγοράς."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Το ποσό που λαμβάνετε πρέπει να είναι στο νόμισμα του καταστήματος."
           }
-        }
+        },
+        "full_title": "{{pageTitle}} - {{shopName}} - ολοκλήρωση αγοράς",
+        "submit_for_review_button_label": "Υποβολή ελέγχου",
+        "submit_for_review_notice_label": "Η πληρωμή οφείλεται μόνο αφού ελεγχθεί η παραγγελία σας",
+        "continue_to_payment_plans_button_label": "Συνέχεια στα σχέδια πληρωμής",
+        "back_button_label": "Επιστροφή προϊόντος",
+        "autocomplete_zero_item": "Δεν υπάρχουν διαθέσιμα είδη",
+        "autocomplete_powered_by_google": "Δυνατότητα από {{brandName}}",
+        "processing": "Επεξεργασία...",
+        "stepper": {
+          "increase": "Αύξηση του {{type}}",
+          "decrease": "Αφαίρεση {{type}}",
+          "minimum_reached": "Ελάχιστο βαν {{value}} επιτευχθεί",
+          "maximum_reached": "Έχει επιτευχθεί το μέγιστο van {{value}}"
+        },
+        "remove_item": "Αφαίρεση %{label}",
+        "remove_tag": "Αφαίρεση ετικέτας",
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "μα.",
+            "tuesday": "ντι.",
+            "wednesday": "ω.",
+            "thursday": "κάνε.",
+            "friday": "ε.μ.",
+            "saturday": "ζα.",
+            "sunday": "ζω."
+          },
+          "months": {
+            "march": "Μάρτης",
+            "may": "μει",
+            "june": "τζούνι",
+            "august": "αύγουστος",
+            "november": "νοέμβριος"
+          }
+        },
+        "datepicker": {
+          "range_start": "Έναρξη περιοχής",
+          "in_range": "Εντός εμβέλειας",
+          "range_end": "Τέλος εμβέλειας"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} σε {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} σε {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} του {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} του {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Συστάδα από {{number}} σημεία σήμανσης",
+            "other": "Συστάδα από {{number}} σημεία σήμανσης"
+          }
+        },
+        "sheet": {
+          "expand": "Αναδίπλωση"
+        },
+        "dropzone": {
+          "invalid_file_type": "Αυτός ο τύπος αρχείου δεν υποστηρίζεται",
+          "dragged_over": "Αποθήκευση αρχείου για μεταφόρτωση"
+        },
+        "remove_chip": "Αφαίρεση είδους",
+        "finalize_order_accessibility_label": "Ολοκλήρωση παραγγελίας"
       }
     }
   }
