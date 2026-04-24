@@ -2972,7 +2972,93 @@
         "merchandise_line_transformers": {
           "run_error": "Se ha producido un error en tu carrito de compras."
         },
-        "gift_card_price_must_be_greater_than_zero": "No se puede añadir el producto combinado '%{name}' al carrito."
+        "gift_card_price_must_be_greater_than_zero": "No se puede añadir el producto combinado '%{name}' al carrito.",
+        "gift_card_recipient_validation_error": "El destinatario indicado del vale de regalo no es válido",
+        "buyer_cannot_purchase_for_company_locations": "No puedes realizar una compra para esta ubicación",
+        "only_one_added_to_cart": "Solo se ha añadido 1 artículo a tu carrito debido a la disponibilidad.",
+        "only_n_added_to_cart": "Solo se han añadido %{quantity} artículos a tu carrito debido a la disponibilidad.",
+        "maximum_available_quantity_reached": "La cantidad máxima de este artículo ya está en tu carrito.",
+        "cart_attributes_error": "Los atributos del carrito contienen datos no válidos.",
+        "merchandise_not_applicable": "El artículo no se puede comprar tal como está configurado.",
+        "not_found": "Carrito no encontrado"
+      },
+      "storefront": {
+        "invalid_password": "Contraseña incorrecta, inténtalo de nuevo."
+      },
+      "tags": {
+        "add_articles": "Limita la búsqueda a artículos con la etiqueta %{tag}",
+        "add_products": "Limita la búsqueda a productos con la etiqueta %{tag} correspondiente",
+        "remove_articles": "Amplíe la búsqueda a artículos que no estén etiquetados con %{tag}",
+        "remove_products": "Eliminar la etiqueta %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} añadido",
+          "increment_item": "%{delta} añadido",
+          "decrement_item": "%{delta} de %{total} eliminado",
+          "decrement_fulfilled_line_item": "%{delta} de %{total} devueltos",
+          "decrement_return_line_item": "%{delta} eliminado de la devolución"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Tu carrito de compras",
+      "order": "Pedir %{name}",
+      "not_found": "404 no encontrado",
+      "search_results": {
+        "one": "Buscar: %{count} resultado encontrado para '%{terms}'",
+        "other": "Buscar: %{count} resultados encontrados para '%{terms}'"
+      },
+      "blog_or_article_with_error": "Error - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Se han aplicado %{count} descuentos"
+    },
+    "challenge": {
+      "message": "Déjanos saber que no eres un robot para continuar.",
+      "error": "Tu respuesta no fue correcta, inténtalo de nuevo."
+    },
+    "checkpoint": {
+      "message": "Complete el captcha para continuar",
+      "error": "verificación captcha fallida"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gracias por suscribirte a nuestra lista de correo.",
+        "disclaimer": "Puedes darte de baja en cualquier momento que desees.",
+        "unsubscribe": "Cerrar sesión"
+      },
+      "unsubscribed": {
+        "confirmation": "Te has dado de baja de nuestra lista de correo.",
+        "disclaimer": "Ya no recibirás actualizaciones de marketing de nuestra parte. Puedes suscribirte nuevamente en cualquier momento.",
+        "preview": "Estás viendo un ejemplo de lo que los clientes verán cuando se den de baja."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Has dado permiso para el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "Los porcentajes de apertura de correos electrónicos se informan de forma anónima. Solo veremos si has abierto un correo electrónico como parte de un porcentaje agregado de aperturas de correos electrónicos.",
+          "opt_out_html": "Puedes <a style='text-decoration:underline;' href='%{link}'>darte de baja</a> del seguimiento de apertura de correos electrónicos si no deseas compartir esta información.",
+          "preview_bar": "Estás viendo un ejemplo de lo que los clientes ven cuando dan su consentimiento para recibir correos electrónicos con seguimiento abierto."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Has cancelado la recepción de seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "No podemos ver si has abierto nuestros correos electrónicos.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Dar permiso</a> para el seguimiento abierto de correos electrónicos.",
+          "preview_bar": "Estás viendo un ejemplo de lo que los clientes ven cuando se dan de baja para dejar de recibir correos electrónicos sobre seguimiento abierto."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ya no hacemos seguimiento de si se abren los correos electrónicos.</b>",
+          "privacy_policy": "Después de enviar este correo electrónico, hemos actualizado nuestra política de privacidad y ya no rastreamos la apertura de correos electrónicos."
+        },
+        "track": {
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Solo sabremos si has abierto el correo electrónico como parte del porcentaje total de aperturas de correos electrónicos."
+        },
+        "updated_policy": {
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Hemos actualizado nuestra política y ahora hacemos seguimiento de los correos electrónicos abiertos. Los porcentajes de apertura de correos se reportan de forma anónima. Solo veremos si has abierto un correo electrónico como parte del porcentaje total de aperturas.",
+          "opt_out_html": "Si ya no deseas compartir esta información, puedes <a style='text-decoration:underline;' href='%{link}'>darte de baja</a>."
+        }
       }
     }
   }
