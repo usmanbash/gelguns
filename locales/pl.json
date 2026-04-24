@@ -2337,6 +2337,112 @@
           "one": "Ten produkt nie jest dostępny w twoim kraju/regionie.",
           "other": "Te produkty nie są dostępne w twoim kraju/regionie."
         }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Twój kraj/region został zaktualizowany. Wprowadź adres dostawy, aby przejść do kasy."
+      },
+      "throttle": {
+        "line_to_check_out": "Stoisz w kolejce do zapłaty",
+        "merchandise": {
+          "available": "Dostępny"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Część twojego koszyka jest wyprzedana i nie można jej kupić przy kasie.",
+          "sold_out": {
+            "heading": "Twój koszyk jest pusty",
+            "no_storefront_body": "Niestety artykuł, który chciałeś kupić, nie jest już dostępny.",
+            "link": "Powrót do sklepu"
+          }
+        },
+        "title": "Kolejka oczekujących",
+        "time_to_checkout_title": "Czas na zapłatę - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Oblicz szacowany czas oczekiwania",
+          "less_than_one": "Szacowany czas oczekiwania: mniej niż minuta",
+          "one": "Szacowany czas oczekiwania: {{count}} minut",
+          "other": "Szacowany czas oczekiwania: {{count}} minut"
+        },
+        "footer": {
+          "heading": "Nie musisz odświeżać tej strony, zostanie ona zaktualizowana automatycznie.",
+          "body": "Przedmioty w twoim koszyku zostaną zarezerwowane dopiero po zakończeniu realizacji zamówienia."
+        },
+        "too_many_attempts": {
+          "message": "Zbyt wiele prób"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Wystąpił problem podczas przetwarzania twojego zgłoszenia. Skontaktuj się z właścicielem sklepu."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Brak dostępnej dostawy dla %{count} artykułu",
+            "other": "Brak dostępnej dostawy dla %{count} artykułów"
+          },
+          "message": {
+            "one": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie ma dostępnych metod dostawy.",
+            "other": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie ma dostępnych metod dostawy."
+          }
+        }
+      },
+      "no_address_location": {
+        "header": "Nie ma adresu dostawy dla tej lokalizacji",
+        "message": "Skontaktuj się z nami, aby dodać adres dla tej lokalizacji, dzięki czemu będziesz mógł dokończyć zamówienie.",
+        "alt_header": "Brak adresu dostawy"
+      },
+      "order_errors": {
+        "creation_failure": "Wystąpił problem podczas tworzenia Twojego zamówienia. Spróbuj ponownie lub skontaktuj się z nami, aby uzyskać więcej informacji.",
+        "network_failure": "Twoje zamówienie nie może zostać złożone z powodu błędu sieci. Sprawdź swoje połączenie i spróbuj ponownie.",
+        "inventory_reservation_failure": "Niektóre artykuły nie są już dostępne."
+      },
+      "session_errors": {
+        "session_not_unique": "Wystąpił problem podczas przetwarzania twojego zamówienia. Odśwież tę stronę, aby wrócić do sklepu.",
+        "session_already_finished": "To zamówienie zostało już złożone. Możesz wrócić do sklepu, aby rozpocząć nowe zamówienie."
+      },
+      "pickup_point": {
+        "or": "z",
+        "search_button": "Szukaj",
+        "selector_tabs": "Wybór punktu odbioru",
+        "could_not_resolve_address": "Nie można znaleźć twojego adresu. Spróbuj ponownie lub użyj innego adresu",
+        "no_pickup_points_near_location": "Nie znaleziono punktów odbioru w pobliżu twojej lokalizacji",
+        "paginator": {
+          "header": {
+            "one": "Pokazuje %{first} - %{last} z %{count} punktów",
+            "other": "Wyświetla %{first} - %{last} z %{count} punktów"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} z %{count} punktów"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} z %{count} punktów"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "other": "%{count} punktów odbioru w pobliżu Twojej lokalizacji"
+        },
+        "waiting_on_pickup_point_location_notice": "Szukam punktów odbioru...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Pobieranie lokalizacji geograficznej nie jest obsługiwane przez Twoją przeglądarkę. Spróbuj ponownie lub użyj innej przeglądarki.",
+            "permission_not_allowed": "Zezwól na udostępnianie swojej lokalizacji.",
+            "permission_denied": "Nie można pobrać twojej lokalizacji. Spróbuj ponownie."
+          }
+        },
+        "open_twenty_four_hours": "czynne całą dobę",
+        "pickup_unavailable_banner_title": {
+          "one": "Brak punktów odbioru dla Twojego artykułu",
+          "other": "Brak punktów odbioru dla Twoich artykułów"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Wystąpił problem podczas finalizacji zamówienia",
+          "message": "Odśwież tę stronę lub spróbuj ponownie za kilka minut",
+          "action": {
+            "cta": "Przeładuj stronę"
+          },
+          "request_id": "ID zgłoszenia: {{requestId}}"
+        }
       }
     }
   }
