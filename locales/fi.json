@@ -2411,7 +2411,101 @@
           "body": "Maksuja ei ole veloitettu. Yritä uudelleen tai käytä toista maksutapaa."
         },
         "contact_information": {
-          "header": "{{emailLink}} päivittääksesi tietosi"
+          "header": "{{emailLink}} päivittääksesi tietosi",
+          "email_link": "Ota meihin yhteyttä"
+        },
+        "payment_method_not_available_with_payment_terms": "Valitsemasi maksutapa ei ole enää käytettävissä, koska tämän tilauksen maksu kuuluu nyt {{paymentTerms}}-ehtojen piiriin.",
+        "payment_method_not_available_with_fulfillment_terms": "Valitsemasi maksutapa ei ole enää käytettävissä, koska tämän tilauksen maksu on nyt suoritettava toimituksen yhteydessä.",
+        "payment_method_not_available_with_fixed_terms": "Valitsemasi maksutapa ei ole enää käytettävissä, koska tämän tilauksen maksu on suoritettava myöhemmin.",
+        "payment_method_not_available_with_review_requirement": "Valitsemasi maksutapa ei ole enää käytettävissä, koska maksu on suoritettava tilauksen vahvistamisen yhteydessä.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "On {{count}} virhe:",
+            "other": "On {{count}} virhettä:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} virhe kohdassa {{section}}",
+            "other": "{{count}} virhettä kohdassa {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "one": "Tämä tilaus lähetetään osoitteeseen, jonka {{merchant}} on ilmoittanut.",
+          "other": "Tämä tilaus lähetetään osoitteeseen, jonka {{merchant}} on ilmoittanut. Valitse toimitusosoite."
+        },
+        "return_to_cart": "Takaisin ostoskoriin"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Lees",
+          "link_label": "{{partnerDisplayName}} yleiset ehdot"
+        }
+      },
+      "online_store_chat": {
+        "title": "Kysyttävää? Keskustele kanssamme chatissa"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Läheisyydessä on %{count} varastopaikka",
+          "other": "Läheisyydessä on %{count} varastopaikkaa"
+        },
+        "toggle_location": "Sijainnin vaihto",
+        "or": "OF",
+        "your_location": "sijaintisi",
+        "search_button": "Kulmien etsiminen",
+        "no_stores_found": "Ei kauppoja löytynyt",
+        "could_not_resolve_address": "Osoitetta ei löydy. Yritä uudelleen tai käytä toista osoitetta",
+        "paginator": {
+          "accessibility_label": "Paikalla noudettavien sivutus",
+          "label": {
+            "one": "%{first} - %{last} / %{count} kaupasta",
+            "other": "%{first} - %{last} %{count} kaupasta"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Näytä %{count} sijaintia lisää",
+          "other": "Näytä vielä %{count} sijaintia"
+        },
+        "all_stores_far_away": {
+          "title": "Lähimmät sijainnit ovat yli %{distance} päässä",
+          "description": "Valitse sijainti tai %{ship_to_address_link}",
+          "change_location_link": "Vaihda sijaintiasi",
+          "title_with_specific_location": "Lähin sijainti, jossa artikkelisi on saatavilla, sijaitsee yli %{distance} %{location} päästä.",
+          "title_with_item": {
+            "one": "Lähin sijainti, jossa artikkelisi on saatavilla, sijaitsee yli %{distance} %{location} päästä.",
+            "other": "Lähin sijainti, jossa tuotteesi ovat, sijaitsee yli %{distance} %{location} päästä."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Aiemmin valittu sijainti ei ole enää käytettävissä",
+          "description": "Valitse uusi sijainti tai %{ship_to_address_link}",
+          "ship_to_address_link": "Lähetä osoitteeseen"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Lähetä artikkelisi",
+          "ship_items_or_search_elsewhere": "%{ship_items} %{search_elsewhere} kohdalla"
+        },
+        "location_closest": "Lähin sijainti tuotteellesi",
+        "toggle_multiple_locations": "Yli %{count} muuta sijaintia",
+        "location_information_far_away": {
+          "one": "Paikassa on %{count} kappaletta artikkeliasi",
+          "other": "Paikassa on %{count} kappaletta artikkeliasi"
+        },
+        "location_nearby": {
+          "one": "Läheisyydessä on %{count} sijainti, jossa on artikkelisi",
+          "other": "Lähellä on %{count} paikkaa, joissa on artikkelisi"
+        },
+        "location_nearby_short": {
+          "one": "%{count} sijaintia lähelläsi tuotteellasi",
+          "other": "%{count} lähialueen sijaintia tuotteellesi"
+        },
+        "location_far_away": {
+          "one": "%{count} sijainti tuotteellesi",
+          "other": "%{count} sijaintia tuotteellasi"
+        },
+        "toggle_more_locations": {
+          "one": "Nog %{count} muuta sijaintia"
         }
       }
     }
