@@ -2890,8 +2890,86 @@
         "email_help_text": "Email address cannot be edited",
         "phone_number_help_text": "Phone number cannot be edited",
         "errors": {
-          "name_too_long": "{{fieldName}} is too long (maximum 255 characters)"
-        }
+          "name_too_long": "{{fieldName}} is too long (maximum 255 characters)",
+          "name_cannot_contain_url": "{{fieldName}} must not contain a URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} must not contain HTML tags",
+          "email_cant_be_blank": "Email must not be empty",
+          "invalid_email_format": "Enter a valid email address"
+        },
+        "editable_email_help_text": "This email address is used for registration and order updates."
+      },
+      "verify_new_email_modal": {
+        "title": "Verify e-mail",
+        "one_time_password_label": "Code of 6 digits",
+        "verify_button_accessibility_label": "Verify one-time password",
+        "email_resend_button_failure_banner_message": "Could not send verification code"
+      },
+      "email_update_success_modal": {
+        "title": "Verify e-mail",
+        "description": "Email update succeeded. Redirecting to sign in."
+      },
+      "email_update_confirmation_message": "Email address updated to {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Formatting options",
+      "order_list": {
+        "column_headers": {
+          "actions_accessibility_label": "Offers"
+        },
+        "delivered": "Delivered: {{date}}",
+        "empty_state_order_source_description": "Only orders placed via {{email}} are shown here.",
+        "empty_state_subtitle": "Go to the shop to place an order.",
+        "estimated_delivery": "Expected on {{date}}",
+        "items": {
+          "one": "{{count}} items"
+        },
+        "pagination": {
+          "nav_accessibility_label": "Navigation buttons for orders",
+          "previous": "Previous"
+        },
+        "sort_hide_options_accessibility_label": "Hide sorting options for confirmed orders.",
+        "sort_show_options_accessibility_label": "Show sorting options for confirmed orders.",
+        "sort": {
+          "date": {
+            "newest": "From newest to oldest",
+            "oldest": "From oldest to newest"
+          },
+          "order_total": {
+            "ascending": "Total order (low to high)",
+            "descending": "Total order (high to low)"
+          }
+        },
+        "one_images_accessibility_label": "Order contains {{lineItemName1}}",
+        "two_images_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Remove filters or adjust them to see your orders",
+        "estimated_shortform": "Estimated on {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Too late",
+            "due": "Due on {{date}}",
+            "due_without_date": "Owed",
+            "due_on_fulfillment": "To be paid upon fulfillment"
+          },
+          "gallery_view": {
+            "overdue": "Payment is overdue",
+            "due": "Payment due on {{date}}",
+            "due_today": "Payment is due today",
+            "due_on_fulfillment": "Payment due upon fulfillment",
+            "payment_not_due": "Payment is not yet due"
+          }
+        },
+        "carousel": {
+          "one_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}, {{lineItemName3}} quantity {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}, {{lineItemName3}} quantity {{lineItemQuantity3}}, {{lineItemName4}} quantity {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}, {{lineItemName3}} quantity {{lineItemQuantity3}}, {{lineItemName4}} quantity {{lineItemQuantity4}}, {{lineItemName5}} quantity {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}, {{lineItemName3}} quantity {{lineItemQuantity3}}, {{lineItemName4}} quantity {{lineItemQuantity4}}, {{lineItemName5}} quantity {{lineItemQuantity5}}, {{lineItemName6}} quantity {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Order contains {{lineItemName1}} quantity {{lineItemQuantity1}}, {{lineItemName2}} quantity {{lineItemQuantity2}}, {{lineItemName3}} quantity {{lineItemQuantity3}}, {{lineItemName4}} quantity {{lineItemQuantity4}}, {{lineItemName5}} quantity {{lineItemQuantity5}}, {{lineItemName6}} quantity {{lineItemQuantity6}} and more"
+        },
+        "show_order_actions_accessibility_label": "Show order promotions for order {{name}}"
       }
     }
   }
