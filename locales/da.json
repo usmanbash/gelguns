@@ -1771,7 +1771,71 @@
       },
       "processing": {
         "redirecting_page_title": "Videreføre…",
-        "redirecting_title": "Videreføre…"
+        "redirecting_title": "Videreføre…",
+        "redirecting_notice": "Du bliver videresendt.",
+        "complete_your_purchase_title": "Fuldfør dit køb",
+        "continue_to_payment_gateway_notice": "Fortsæt til betalingen for at tilføje dine betalingsoplysninger.",
+        "continue_to_payment_gateway_button_label": "Gå til betaling",
+        "continue_to_payment_gateway_notice_error": "Dine betalingsoplysninger kan ikke bekræftes.",
+        "continue_to_payment_gateway_button_label_error": "Opdater betalingsoplysninger",
+        "page_title": "Bestillingen behandles",
+        "title": "Bestillingen behandles",
+        "your_order_has_been_received_title": "Tak for din bestilling",
+        "you_will_receive_confirmation": "Vi modtager i øjeblikket mange ordrer. Du bør snart modtage en bekræftelse via e-mail eller sms. Giv os besked, hvis du ikke har modtaget den inden for en time.",
+        "wait": {
+          "short": "Din bestilling bliver behandlet.",
+          "medium": {
+            "one": "Din bestilling behandles. Den forventede ventetid er %{count} minut.",
+            "other": "Din bestilling behandles. Den forventede ventetid er %{count} minutter."
+          },
+          "long": "Du modtager en e-mail, så snart din bestilling er behandlet. Der er i øjeblikket et stort antal bestillinger.",
+          "no_auto_refresh_html": "%{link} hvis du ikke automatisk bliver videresendt.",
+          "refresh_this_page": "Genindlæs denne side"
+        },
+        "you_will_not_be_charged": "Der opkræves endnu ingen gebyrer",
+        "action_required": "Handling påkrævet",
+        "redirecting_to_bank": "Omdiriger til {{bank}}",
+        "modal_notice": "Vi kontakter {{paymentMethod}}",
+        "remote_shops_payments_processing": "Behandl betalingen"
+      },
+      "failed_payment": {
+        "page_title": "Betalingen kan ikke behandles",
+        "title": "Betalingen kan ikke behandles",
+        "payment_not_processed_title": "Din betaling kan ikke behandles.",
+        "payment_not_processed_text": "Der er ikke opkrævet nogen gebyrer. Gå tilbage til din indkøbskurv for at fuldføre dit køb.",
+        "return_to_cart_button_label": "Tilbage til indkøbskurv"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bankoplade",
+        "cash_on_delivery_label": "Tilbagebetaling",
+        "debit_card_label": "Betalingskort",
+        "deferred_payment_label": "Vælg senere en betalingsmetode",
+        "generic_payment_terms": "De {{translatedName}} betalingsbetingelser gælder. Din betaling forfalder den {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} på en konto med adgang til denne placering for at tilføje eller bruge gemte betalingsmetoder."
+          }
+        },
+        "direct_payment_terms": "De {{translatedName}}-betingelser gælder. Beløbet trækkes fra dit kort den {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Betalingen skal ske, så snart bestillingen er behandlet.",
+        "order_due_on_fulfillment_payment": "Pengene trækkes fra dit kort, så snart ordren er behandlet.",
+        "draft_order_payment_due_later_no_terms": "Betalingen skal ske, så snart bestillingen er bekræftet.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Pengene trækkes fra dit kort, så snart bestillingen er bekræftet.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}}-betingelser gælder, så snart bestillingen er bekræftet.",
+        "draft_order_payment_due_on_fulfillment": "Betalingen skal ske, så snart bestillingen er bekræftet og behandlet.",
+        "fixed_payment_label": "Betalingen forfalder den {{dueDate}}.",
+        "fixed_direct_payment_terms": "Denne vil blive opkrævet på dit kort den {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} skal betales i dag. For saldoen gælder {{translatedName}}-betingelser, og den skal være indfriet den {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} skal betales i dag. Restbeløbet forfalder, når din ordre er behandlet.",
+        "order_due_on_receipt_choose_later": "Betalingen skal ske ved modtagelsen.",
+        "draft_order_deposit_due_later": "{{depositAmount}} skal betales, når ordren er bekræftet. For saldoen gælder {{translatedName}}-betingelserne.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} skal betales, når ordren er bekræftet. Restbeløbet skal betales, når din ordre er behandlet.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} skal betales i dag. Restbeløbet forfalder senere.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} skal betales i dag. Restbeløbet skal være betalt den {{dueDate}}.",
+        "credit_or_debit_card_label": "Kredit-/betalingskort"
+      },
+      "thank_you": {
+        "confirmation_email_sent_text": "En bekræftelses-e-mail er sendt til %{email}"
       }
     }
   }
