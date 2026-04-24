@@ -714,8 +714,78 @@
             "missing_non_negotiable_terms": "Ditt köparförslag måste innehålla non-negotiable_terms."
           },
           "inventory": {
-            "missing_quantity_value": "Fältet 'Mängd' saknas i köparens lagerposter."
+            "missing_quantity_value": "Fältet 'Mängd' saknas i köparens lagerposter.",
+            "changing_behavior_not_allowed": "Denna kund har inte behörighet att ändra lagerfunktionaliteten.",
+            "only_one_inventory_behavior_allowed": "För närvarande tillåts endast en lagerfunktion per kassa."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Vid denna kassa är det inte tillåtet att vägra tullavgifter."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Vid denna kassa är detaljhandelsfördelning inte tillåten.",
+            "retail_attribution_required": "För denna kassa krävs detaljhandelsfördelning."
+          },
+          "captcha": {
+            "metadata_missing": "Vid denna kassa är det obligatoriskt att fylla i en captcha.",
+            "metadata_mismatch": "Den angivna captcha-leverantören och typen stämmer inte överens med de förväntade värdena.",
+            "token_missing": "Slutför denna utcheckning genom att ange en captcha-kod.",
+            "job_enqueue_failed": "Captcha-valideringsuppgiften kan inte läggas i kö.",
+            "job_already_queued": "Captcha-validering har redan placerats i kön för denna token.",
+            "token_expired": "Den angivna captcha-koden har gått ut. Vänligen genomför en ny captcha för att fortsätta till kassan.",
+            "token_invalid": "Den angivna captcha-koden var ogiltig. Utför en ny captcha för att fortsätta till kassan.",
+            "token_not_valid_for_session": "Kan inte använda den angivna captcha vid denna kassa."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Det mottagna beloppet måste vara i butikens valuta."
+          },
+          "checkout_source": {
+            "revoked": "Denna kassa är inte längre tillgänglig."
           }
+        },
+        "full_price": "Fullt pris:",
+        "title": "Kassa - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - kassa",
+        "loading_title": "Kassa - {{shopName}}",
+        "google_map_title": "Google-karta",
+        "submit_order_button_label": "Skicka in beställning",
+        "submit_for_review_button_label": "Skicka in kontroll",
+        "submit_for_review_notice_label": "Betalning ska endast göras när din beställning har kontrollerats",
+        "back_button_label": "Returnera",
+        "autocomplete_zero_item": "Inga artiklar tillgängliga",
+        "autocomplete_powered_by_google": "Möjliggjort av {{brandName}}",
+        "submit": "Indien",
+        "processing": "Bearbetar...",
+        "stepper": {
+          "increase": "Ökning av {{type}}",
+          "decrease": "Avhämtning av {{type}}",
+          "minimum_reached": "Minimum från {{value}} uppnått",
+          "maximum_reached": "Maximalt värde på {{value}} uppnått"
+        },
+        "remove_tag": "Ta bort tagg",
+        "dates": {
+          "weekdays": {
+            "monday": "måndag",
+            "tuesday": "tisdag",
+            "wednesday": "onsdag",
+            "thursday": "torsdag",
+            "friday": "fredag",
+            "saturday": "lördag",
+            "sunday": "söndag"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "gör.",
+            "friday": "vr.",
+            "saturday": "za.",
+            "sunday": "zo."
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Visa föregående månad, {{month}} {{year}}",
+          "show_next_month": "Visa nästa månad, {{month}} {{year}}",
+          "range_start": "Börja område"
         }
       }
     }

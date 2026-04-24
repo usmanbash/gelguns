@@ -2538,6 +2538,172 @@
         "toggle_more_locations": {
           "one": "Mai %{count} alte locații",
           "other": "Mai sunt %{count} alte locații"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nicio locație cu articolul tău",
+          "other": "Nicio locație cu articolele tale"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nicio locație în %{country} cu articolul tău",
+          "other": "Nicio locație în %{country} cu articolele tale"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Ridicați toate articolele",
+        "delivery_method": "Metodă de livrare divizată",
+        "delivery_method_menu": "Meniu metodă de livrare divizată",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} din %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} din %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nu se pot prelua %{count} articole",
+              "other": "Nu se pot prelua %{count} articole"
+            },
+            "cannot_be_shipped": {
+              "one": "Nu se pot trimite %{count} articole"
+            }
+          },
+          "remove_item": {
+            "one": "Șterge articolul"
+          },
+          "ship_separately": {
+            "one": "expediere separată",
+            "other": "expediere separată"
+          },
+          "pick_them_up_in_store": {
+            "one": "ridicare din magazin",
+            "other": "ridicare din magazin"
+          }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "Astfel, toate articolele vor fi setate din nou pentru expediere. Locurile tale de ridicare și de livrare trebuie să fie în aceeași țară."
+          },
+          "banner": "Metoda ta de livrare a fost actualizată"
+        }
+      },
+      "captcha": {
+        "title": "Parcurge CAPTCHA pentru a continua",
+        "errors": {
+          "not_solved": "Parcurge CAPTCHA pentru a continua"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Comanda ta nu a putut fi procesată deoarece codul tău de reducere nu mai este valabil. Verifică totalul comenzii și încearcă din nou."
+      },
+      "wallets": {
+        "return_to_store": "Înapoi la magazin",
+        "redirect_hint": "Vi se cere să vă autentificați la {{walletName}}.",
+        "logged_in": "Conectat cu {{email}}",
+        "payment_in_progress_title": "Plată în curs de procesare",
+        "payment_in_progress_body": "Plata este în curs de procesare. Comanda este aproape finalizată.",
+        "errors": {
+          "unavailable": {
+            "description": "{{walletName}} nu a fost disponibil. Folosiți o altă metodă de plată sau încercați din nou mai târziu.",
+            "instructions": "A apărut o problemă cu {{walletName}}. Întoarce-te la magazin și încearcă din nou sau plătește printr-o altă metodă.",
+            "unavailable_for_country": "{{walletName}} nu este disponibil în {{countryName}}. Selectează o altă metodă de plată pentru a finaliza achiziția ta"
+          },
+          "terminal": "A apărut o problemă cu {{walletName}}. Folosiți o altă metodă de plată.",
+          "detour": {
+            "price_change": "Prețurile pentru unele articole s-au modificat. Închide {{walletName}} pentru a verifica comanda și încearcă din nou.",
+            "queue": "Ești la coadă pentru finalizarea comenzii. Conectează-te la {{walletName}} pentru a continua.",
+            "currency_change": "Nu poți folosi o altă adresă cu {{walletName}}. Folosește adresa inițială sau încearcă o altă metodă de plată."
+          },
+          "unsupported": {
+            "address": "Vânzătorul nu poate livra la adresa de livrare pe care ai selectat-o.",
+            "wallet_is_unavailable": "Nu poți folosi {{walletName}} cu această adresă. Selectează o altă adresă sau închide {{walletName}} pentru a finaliza achiziția."
+          },
+          "outdated": {
+            "shipping_method": "Opțiunile de trimitere pentru comanda ta au fost schimbate. Verifică selecția ta.",
+            "payment_terms": "Condițiile de plată au fost modificate. Verifică comanda ta"
+          },
+          "invalid": {
+            "shipping_address": "Introduceți o adresă de livrare valabilă",
+            "billing_address": "Introduceți o adresă de facturare valabilă",
+            "shipping_option": "Alege o opțiune de livrare valabilă",
+            "email": "Introduceți o adresă de email valabilă",
+            "zone": "Introduceți un stat/provincie validă",
+            "postal_code": "Introduceți un cod poștal valid",
+            "reduction_code": "Introduceți un cod de reducere sau un bon cadou valid",
+            "billing_must_match_shipping": "Trebuie să fie de acord cu adresa de livrare.",
+            "phone": "Introduceți un număr de telefon valid",
+            "emirate": "Introduceți un emir valid",
+            "billing_zone": "Introduceți un stat/provincie valabil pentru adresa de facturare",
+            "billing_phone": "Introduceți un număr de telefon valabil pentru adresa de facturare",
+            "billing_zip": "Introduceți un cod poștal valid pentru adresa de facturare"
+          },
+          "missing": {
+            "first_name": "Introduceți un prenume",
+            "last_name": "Introduceți un nume de familie",
+            "address1": "Introduceți o adresă",
+            "address2": "Introduceți un număr de apartament sau de suită, etc.",
+            "city": "Introduceți un loc",
+            "province": "Selectați un stat/provincie",
+            "country": "Selectați o țară/regiune",
+            "zip": "Introduceți un cod poștal sau ZIP",
+            "phone": "Introduceți un număr de telefon",
+            "billing_first_name": "Introduceți un prenume pentru adresa de facturare",
+            "billing_address1": "Introduceți o adresă de facturare",
+            "billing_address2": "Introduceți un număr de apartament sau suită etc. pentru adresa de facturare",
+            "billing_city": "Introduceți un loc pentru adresa de facturare",
+            "billing_province": "Selectați un stat/provincie pentru adresa de facturare",
+            "billing_zip": "Selectați un cod poștal sau un cod ZIP pentru adresa de facturare",
+            "contact_info": "Introduceți datele de contact"
+          },
+          "formatting": {
+            "name_contains_emojis": "Elimină emoji-ul din numele tău",
+            "postal_code_contains_emoji": "Elimină emoji-ul din codul tău poștal",
+            "address_too_long": "Linia adresei este prea lungă"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Adresa de livrare este nevalidă. Selectați o altă adresă sau folosiți o adresă nouă.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} nu este momentan disponibil pentru comanda ta. Alege o altă metodă de plată pentru a continua achiziția."
+          },
+          "discount_code": "Nu se poate aplica acest cod de reducere. Verifică codul și încearcă din nou."
+        },
+        "redirection_notice": "Veți fi redirecționat către {{walletName}} pentru a finaliza achiziția dvs.",
+        "return_to_checkout": "Înapoi la finalizarea comenzii",
+        "scrim": {
+          "continue_purchase_in_window": "Continuă cu achiziția în fereastra {{walletName}}",
+          "and_return_to_checkout": "și înapoi la finalizarea comenzii",
+          "cancel": "Anulare"
+        },
+        "place_order": "Plasare comandă",
+        "recovery_notice": "A apărut o eroare la datele tale de comandă. Actualizează-ți datele pentru a finaliza plata."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Verifică mai întâi datele tale de contact înainte de a finaliza plata"
+      },
+      "store_credit_errors": {
+        "generic_error": "A apărut o problemă cu creditul tău din magazin. Încearcă din nou sau reîncarcă pagina."
+      },
+      "note": {
+        "length_exceeds_maximum": "Scurtează observația la maximum 5000 de caractere."
+      },
+      "billing": {
+        "billing_address_title": "Factură către",
+        "same_as_shipping": "La fel ca adresa de livrare",
+        "edit": "Editare",
+        "delete": "Ștergere",
+        "address_edit": "Modifică adresa",
+        "address_delete": "Ștergere adresă",
+        "address_confirm": "Ești sigur că vrei să ștergi această adresă din contul tău?",
+        "address_form": {
+          "add_address": "Adăugare adresă",
+          "cancel": "Anulare"
+        },
+        "billing_address_rollup_accessibility_label": "Opțiuni pentru facturare"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Cuponul cadou a fost deja aplicat la comanda ta",
+          "insufficient_funds": "Nu mai este niciun ban pe acest bon cadou",
+          "expired": "Acest bon cadou a expirat",
+          "not_available": "Acest bon cadou nu mai este disponibil",
+          "invalid": "Introduceți un bon cadou valabil",
+          "currency_mismatch": "Sunt acceptate doar bonurile cadou în %{shop_currency}",
+          "generic": "Cuponul cadou nu poate fi adăugat la finalizarea comenzii"
         }
       }
     }
