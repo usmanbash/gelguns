@@ -4169,7 +4169,103 @@
       "actions_button": "Tarjoukset"
     },
     "settings": {
-      "loading_accessibility_message": "Asetussivun lataus"
+      "loading_accessibility_message": "Asetussivun lataus",
+      "log_out_everywhere": {
+        "title": "Kirjaudu ulos kokonaan",
+        "description": "Jos olet kadottanut laitteen tai olet huolissasi turvallisuudesta, kirjaudu ulos kaikista laitteista varmistaaksesi tilisi turvallisuuden.",
+        "button": "Kirjaudu ulos kaikilta laitteilta",
+        "warning_message": "Sinut kirjataan myös ulos tästä laitteesta."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} klo {{time}}",
+        "lessThanOneWeekAgo": "Avoinna {{weekday}} klo {{time}}",
+        "tomorrow": "Huomenna aamulla {{time}}",
+        "lessThanOneWeekAway": "Avoinna {{weekday}} klo {{time}}",
+        "lessThanOneYearAway": "Op {{date}} klo {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minuuttia sitten"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Valitse laajennus nimeltä '{{extensionName}}'",
+        "unselect": "Peruuta valinta laajennuksesta nimeltä '{{extensionName}}'",
+        "move_down": "Siirrä laajennus seuraavaan asentoon",
+        "move_up": "Laajennus siirretään edelliseen asentoon",
+        "remove": "Laajennuksen poisto",
+        "move_down_tooltip": "Siirry seuraavaan kohtaan"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Et voi avata tätä linkkiä editorissa. Linkki avautuu uuteen ikkunaan ({{resolved_to_link}}). Jatka napsauttamalla OK."
+    },
+    "shop_ads": {
+      "title": "Muita tuotteita, joista saatat pitää",
+      "subtitle": "Väliaikaisesti saatavilla",
+      "button": "Tutustu Shopiin"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Asiakkaat voivat itse pyytää ja hallita palautuksia.",
+        "disabled": "Asiakkaiden tulee ottaa yhteyttä myyjään palautuksen pyytämiseksi."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Ilmoituspalkin laajentaminen",
+      "collapse_label": "Ilmoituspalkin sulkeminen",
+      "close_label": "Ilmoituspalkin sulkeminen"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Maksutavan vaihtaminen",
+        "loading": "Maksutapojen lataaminen",
+        "no_payment_methods_available": "Ei maksutapoja saatavilla",
+        "success": "Maksutapa päivitetty"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Lisää tapoja kirjautua sisään",
+        "alternate_divider": "OF",
+        "shop_login_button": "Kirjaudu sisään Shopilla",
+        "use_email_button": "Sähköpostiosoitetta käyttäen"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hei {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Etsi"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, avaa alivalikko",
+        "loading_menu": "Valikko ladattu"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "card_number": "Kaartin numero",
+        "title": "Maksutavan vaihtaminen",
+        "replace_with": "Korvattu",
+        "loading": "Maksutavan vaihtamisen valintaikkuna latautuu",
+        "success": "Maksutapa päivitetty",
+        "invalid_subscription_contract": "Ei voi löytää tilausta",
+        "expiry_date": "Vanhentuu {{expiryDate}}",
+        "edit_current_payment_method": "Nykyisen maksutavan muokkaus",
+        "edit_selected_payment_method": "Valitun maksutavan muokkaus"
+      }
+    },
+    "sign_in": {
+      "step_one": {
+        "page_title": "Kirjaudu sisään - %{shop_name}",
+        "subheading": "Syötä sähköpostiosoitteesi, niin lähetämme sinulle vahvistuskoodin",
+        "input_field_label": "Sähköpostiosoite"
+      },
+      "step_two": {
+        "page_title": "Syötä koodi - %{shop_name}"
+      }
     }
   }
 }
