@@ -51,92 +51,92 @@
     "cart": {
       "view": "Peržiūrėti krepšelį ({{ count }})",
       "item_added": "Prekė pridėta į pirkinių krepšelį",
-      "view_empty_cart": "Peržiūrėti krepšelį"
+      "view_empty_cart": "Peržiūrėti prekių krepšelį"
     },
     "share": {
-      "copy_to_clipboard": "Kopijuoti nuorodą",
+      "copy_to_clipboard": "Nuorodą kopijuoti",
       "share_url": "Nuoroda",
       "success_message": "Nuoroda nukopijuota į iškarpinę",
-      "close": "Uždaryti bendrinimą"
+      "close": "Uždaryti dalijimąsi"
     },
     "slider": {
-      "of": "iš",
-      "next_slide": "Slinkti dešinėn",
-      "previous_slide": "Slinkti kairėn",
+      "of": "furgonas",
+      "next_slide": "Stumti į dešinę",
+      "previous_slide": "Perkelti į kairę",
       "name": "Slankiklis"
     }
   },
   "newsletter": {
-    "label": "El. pašto adresas",
-    "success": "Dėkojame, kad prenumeruojate",
+    "label": "El. paštas",
+    "success": "Ačiū, kad užsiprenumeravote",
     "button_label": "Prenumeruoti"
   },
   "accessibility": {
-    "skip_to_text": "Eiti į turinį",
+    "skip_to_text": "Eiti tiesiai prie turinio",
     "close": "Uždaryti",
     "unit_price_separator": "per",
-    "vendor": "Tiekėjas:",
+    "vendor": "Pardavėjas:",
     "error": "Klaida",
-    "refresh_page": "Pasirenkant variantą persikrauna visas puslapis.",
+    "refresh_page": "Pasirinkus vieną variantą, puslapis bus visiškai atnaujintas.",
     "loading": "Įkeliama...",
     "link_messages": {
-      "new_window": "Atsidaro naujame lange.",
-      "external": "Atidaro išorinę svetainę."
+      "new_window": "Atidaroma naujame lange.",
+      "external": "Atidaryti išorinį tinklalapį."
     },
-    "skip_to_product_info": "Pereiti prie informacijos apie gaminį",
-    "total_reviews": "iš viso apžvalgų",
-    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių",
-    "collapsible_content_title": "Suskleidžiamas turinys",
+    "skip_to_product_info": "Eikite tiesiai į produkto informaciją",
+    "total_reviews": "viso atsiliepimų skaičius",
+    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždžių",
+    "collapsible_content_title": "Sulankstomas turinys",
     "complementary_products": "Papildomi produktai"
   },
   "blogs": {
     "article": {
       "blog": "Tinklaraštis",
-      "read_more_title": "Skaityti daugiau: „{{ title }}“",
-      "moderated": "Turėkite omenyje, kad prieš paskelbiant komentarus, jie turi būti patvirtinti.",
-      "comment_form_title": "Rašyti komentarą",
+      "read_more_title": "Skaitykite toliau: {{ title }}",
+      "moderated": "Dėmesio: pastabos turi būti patvirtintos prieš jas paskelbiant.",
+      "comment_form_title": "Palikti komentarą",
       "name": "Vardas",
-      "email": "El. pašto adresas",
-      "message": "Komentuoti",
-      "post": "Skelbti komentarą",
+      "email": "El. paštas",
+      "message": "Atsakymas",
+      "post": "Palikite komentarą",
       "back_to_blog": "Grįžti į tinklaraštį",
-      "share": "Bendrinti šį straipsnį",
-      "success": "Komentaras sėkmingai pateiktas! Dėkojame!",
-      "success_moderated": "Komentaras sėkmingai pateiktas. Paskelbsime jį netrukus, nes mūsų tinklaraštis prižiūrimas.",
+      "share": "Dalintis šiuo straipsniu",
+      "success": "Jūsų atsakymas paskelbtas! Ačiū!",
+      "success_moderated": "Jūsų atsakymas paskelbtas. Jį netrukus paskelbsime; mūsų tinklaraštis yra prižiūrimas.",
       "comments": {
-        "one": "{{ count }} komentaras",
-        "other": "{{ count }} komentarai (-ų)",
+        "one": "{{ count }} reakcija",
+        "other": "{{ count }} komentarai",
         "few": "{{ count }} komentarai (-ų)",
         "many": "{{ count }} komentarai (-ų)"
       }
     }
   },
   "onboarding": {
-    "product_title": "Pavyzdinio gaminio pavadinimas",
-    "collection_title": "Jūsų kolekcijos pavadinimas"
+    "product_title": "Pavyzdinis produkto pavadinimas",
+    "collection_title": "Tavo kolekcijos pavadinimas"
   },
   "products": {
     "product": {
-      "add_to_cart": "Įdėti į krepšelį",
+      "add_to_cart": "Įdėti į prekių krepšelį",
       "description": "Aprašymas",
-      "on_sale": "Išpardavimas",
+      "on_sale": "Pasiūlymas",
       "product_variants": "Gaminio variantai",
-      "share": "Bendrinti šį gaminį",
+      "share": "Pasidalinti šiuo produktu",
       "sold_out": "Išparduota",
-      "unavailable": "Nėra",
+      "unavailable": "Nėra prieinama",
       "vendor": "Tiekėjas",
       "video_exit_message": "{{ title }} atveria viso ekrano filmą tame pačiame lange.",
       "xr_button": "Peržiūra savo erdvėje",
       "xr_button_label": "Funkcija „Peržiūra savo erdvėje“ elementą įkelia į papildytos realybės langą",
       "quantity": {
         "label": "Kiekis",
-        "input_label": "{{ product }} kiekis",
-        "increase": "Padidinti {{ product }} kiekį",
-        "decrease": "Sumažinti {{ product }} kiekį",
-        "minimum_of": "Mažiausiai {{ quantity }}",
-        "maximum_of": "Daugiausiai {{ quantity }}",
-        "multiples_of": "Kiekis didėja kas {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> vnt. krepšelyje",
+        "input_label": "Kiekis už {{ product }}",
+        "increase": "Padidinti kiekį {{ product }}",
+        "decrease": "Sumažinti kiekį {{ product }}",
+        "minimum_of": "Minimalus kiekis nuo {{ quantity }}",
+        "maximum_of": "Maksimalus furgonas {{ quantity }}",
+        "multiples_of": "Žingsniai nuo {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> krepšelyje",
         "note": "Peržiūrėti kiekių taisykles",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maks. {{ quantity }}",
@@ -145,7 +145,7 @@
       "price": {
         "from_price_html": "Nuo {{ price }}",
         "regular_price": "Įprasta kaina",
-        "sale_price": "Išpardavimo kaina",
+        "sale_price": "Pasiūlymo kaina",
         "unit_price": "Vieneto kaina"
       },
       "pickup_availability": {
@@ -190,7 +190,17 @@
       },
       "taxes_included": "Mokesčiai įtraukti.",
       "duties_included": "Muito mokesčiai įtraukti.",
-      "duties_and_taxes_included": "Muito ir kiti mokesčiai įtraukti."
+      "duties_and_taxes_included": "Muito ir kiti mokesčiai įtraukti.",
+      "inventory_out_of_stock_message": "Sandėlyje",
+      "inventory_order_before": "už",
+      "inventory_delivered": "užsakyta,",
+      "inventory_delivery_time": "rytoj namuose",
+      "inventory_status": {
+        "in_stock_badge": "Sandėlyje",
+        "low_stock_badge": "Mažas atsargų kiekis",
+        "out_of_stock_badge": "Nėra sandėlyje",
+        "shipping_message": "Užsakyta iki 14:00, išsiunčiama tą pačią dieną"
+      }
     },
     "modal": {
       "label": "Medijų galerija"
