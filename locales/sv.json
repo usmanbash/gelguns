@@ -3282,7 +3282,85 @@
         "ready_for_pickup_label": "Klar för avhämtning",
         "ready_for_pickup_description": "Dessa varor är klara för avhämtning. Ta med beställningsbekräftelsen när du hämtar din beställning.",
         "picked_up_label": "Upphämtad",
-        "submitted_description": "Kontrollera beställningen och betalningsuppgifterna."
+        "submitted_description": "Kontrollera beställningen och betalningsuppgifterna.",
+        "last_updated": "Senast uppdaterad {{date}}",
+        "multiple_shipments_label": "Flera försändelser",
+        "view_order_for_details": "Visa beställning för produktuppgifter",
+        "confirmed_description_digital": "Du får ett e-postmeddelande när din beställning är klar.",
+        "delivered_description_gift_card": {
+          "one": "Presentkortet har skickats via e-post.",
+          "other": "Presentkorten har skickats via e-post."
+        },
+        "ready_for_pickup_location": "Din beställning är klar för avhämtning på platsen",
+        "confirmed_description_pickup": "Du får ett e-postmeddelande när du kan hämta din beställning.",
+        "confirmed_description_gift_card_text": "Du får ett sms när beställningen är klar.",
+        "delivered_description_gift_card_text": {
+          "one": "Presentkortet har skickats via sms.",
+          "other": "Presentkorten har skickats via sms."
+        },
+        "gift_resend_success": {
+          "one": "Presentkort skickat igen",
+          "other": "Presentkort skickat igen"
+        },
+        "gift_resend_failure": {
+          "one": "Det uppstod ett problem när presentkortet skulle skickas om. Försök igen eller kontakta oss.",
+          "other": "Det uppstod ett problem när dina presentkort skulle skickas om. Försök igen eller kontakta oss."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(öppnas i ett nytt fönster)"
+          }
+        },
+        "there_was_a_problem_label": "Ett problem har uppstått",
+        "buy_with_prime_logo_accessibility_label": "Amazon Köp med Prime-logotyp",
+        "delivered": "Oroad den {{date}}",
+        "complete_label": "Avslutad",
+        "multiple_statuses_label": "Flera beställningsstatusar",
+        "status_timestamp": "Uppdaterad den {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Leverans stödd av",
+            "mixed_brands_label": "Leverans garanterad",
+            "not_delivered_by_label": "Inte orolig fram till {{date}}",
+            "modal_accessibility_button_label": "Uppgifter om leveranslöfte"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Lös in din butikskassa",
+            "no_shop_app_label": "{{appDownloadLink}} för att hämta Shop Cash",
+            "download_shop_app_label": "Ladda ner butik"
+          },
+          "details_modal": {
+            "title": "Leverans stödd av",
+            "delivery_by_label": "Leverans före {{date}}",
+            "delivery_guaranteed_by_label": "Leverans garanterad före {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garanterar snabb, pålitlig leverans. Begär Shop Cash om din beställning levereras för sent.",
+              "may_be_eligible_not_authorized_label": "Du kan eventuellt ha rätt att kräva Shop Cash eftersom denna beställning har kommit för sent. Logga in för att se detaljerna.",
+              "redeemed_label": "Du har redan hämtat Shop Cash eftersom denna beställning anlände för sent.",
+              "expired_label": "Denna beställning är inte berättigad till ett krav på sen leverans eftersom garantin på 30 dagar har löpt ut.",
+              "no_shop_cash_label": "Denna beställning är inte berättigad till ett krav på försenad leverans eftersom den inte har betalats med Shop Pay.",
+              "no_longer_guaranteed_label": "Dessa artiklar omfattas inte längre av en leveransgaranti.",
+              "claim_shop_cash_title": "Skanna om {{amount}} för att hämta Shop Cash"
+            }
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Leverans garanterad av",
+            "external_promise_brand_label": "Leverera till",
+            "not_delivered_by_label": "Orolig efter {{date}}",
+            "delivery_guarantee_expired_label": "Garanterad leverans har gått ut",
+            "download_shop_app_button_label": "Ladda ner butik för spårning",
+            "track_with_shop_button_label": "Spåra med Butik",
+            "claim_shop_cash_button_label": "Köp Cash-kravet"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Leverans för {{date}}",
+            "expired_delivery_guarantee_description": "Shop Promise-garantin på 30 dagar för denna beställning har gått ut.",
+            "expired_badge_label": "Utgånget",
+            "order_includes_guarantees_label": "Din leverans har {{deliveryAgreementsCount}} garantier"
+          }
+        }
       }
     }
   }

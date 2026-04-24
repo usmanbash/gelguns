@@ -3364,7 +3364,85 @@
         }
       },
       "verify_new_email_modal": {
-        "title": "Overiť e-mail"
+        "title": "Overiť e-mail",
+        "description": "Zadajte kód, ktorý bol odoslaný na {{email}}",
+        "one_time_password_label": "Kód zo 6 číslic",
+        "email_resend_button": "Odoslať kód znova",
+        "email_resend_button_accessibility_label": "Odoslať overovací kód znova",
+        "email_resend_button_success_toast_message": "Overovací kód bol odoslaný",
+        "email_resend_button_failure_banner_message": "Nemôžem odoslať overovací kód"
+      },
+      "email_update_success_modal": {
+        "title": "Overiť e-mail",
+        "description": "Aktualizácia e-mailu bola úspešná. Presmerovanie na prihlásenie."
+      },
+      "email_update_confirmation_message": "E-mailová adresa aktualizovaná na {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Možnosti formátovania",
+      "order_list": {
+        "column_headers": {
+          "total": "Celkom"
+        },
+        "delivered": "Obavy: {{date}}",
+        "empty_state_order_source_description": "Zobrazia sa iba objednávky zadané cez {{email}}.",
+        "empty_state_subtitle": "Prejdite do obchodu a vytvorte objednávku.",
+        "empty_state_title": "Ešte žiadne objednávky",
+        "estimated_delivery": "Očakáva sa {{date}}",
+        "items": {
+          "other": "{{count}} položiek"
+        },
+        "pagination": {
+          "nav_accessibility_label": "Navigačné tlačidlá pre objednávky",
+          "next": "Ďalšie",
+          "previous": "Predchádzajúci",
+          "load_more": "Načítať viac",
+          "load_more_accessibility_label": "Načítať viac objednávok"
+        },
+        "sort_hide_options_accessibility_label": "Skryť možnosti triedenia pre potvrdené objednávky.",
+        "sort_show_options_accessibility_label": "Zobraziť možnosti triedenia pre potvrdené objednávky.",
+        "sort": {
+          "date": {
+            "oldest": "Od najstaršieho po najnovší"
+          },
+          "location": {
+            "ascending": "Lokalita (A-Z)",
+            "descending": "Umiestnenie (Z-A)"
+          },
+          "order_total": {
+            "ascending": "Celková objednávka (od najnižšej po najvyššiu)",
+            "descending": "Celková objednávka (od najvyššej po najnižšiu)"
+          }
+        },
+        "one_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}",
+        "two_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Odstráňte filtre alebo ich upravte, aby ste videli svoje objednávky",
+        "no_filtered_results_title": "Žiadne filtrované výsledky",
+        "estimated_shortform": "Odhadované k {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Príliš neskoro",
+            "due": "Dlžné k {{date}}",
+            "due_today": "Dnes splatné",
+            "due_without_date": "Dlžný",
+            "due_on_fulfillment": "Platiť pri doručení",
+            "pay_to_confirm": "Zaplaťte na potvrdenie",
+            "payment_not_due": "Ešte nezaplatené"
+          },
+          "gallery_view": {
+            "overdue": "Platba je oneskorená",
+            "due": "Platba splatná {{date}}",
+            "due_without_date": "Platba je splatná",
+            "due_on_fulfillment": "Platba splatná pri vybavení objednávky",
+            "pay_to_confirm": "Zaplaťte na potvrdenie"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Momentálne zoradené podľa: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}} počet {{lineItemQuantity1}}"
+        }
       }
     }
   }
