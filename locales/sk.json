@@ -2393,7 +2393,97 @@
         "line_to_check_out": "Ste v rade na zaplatenie",
         "cart_summary_heading": "Váš nákupný košík",
         "inventory": {
-          "partial_inventory_banner": "Časť tvojho košíka je vypredaná a nedá sa kúpiť pri pokladni."
+          "partial_inventory_banner": "Časť tvojho košíka je vypredaná a nedá sa kúpiť pri pokladni.",
+          "sold_out": {
+            "heading": "Váš nákupný košík je vypredaný",
+            "storefront_body": "Vráťte sa do obchodu a pokračujte v nakupovaní",
+            "no_storefront_body": "Tovar, ktorý ste chceli kúpiť, už bohužiaľ nie je dostupný.",
+            "link": "Späť do obchodu"
+          }
+        },
+        "title": "Čakacia doba",
+        "time_to_checkout_title": "Čas na zaplatenie - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Odhadnúť čas čakania",
+          "less_than_one": "Odhadovaná doba čakania: menej ako minúta",
+          "one": "Odhadovaný čas čakania: {{count}} minút",
+          "other": "Odhadovaný čas čakania: {{count}} minút"
+        },
+        "last_checked": "(Naposledy skontrolované: {{time}})",
+        "footer": {
+          "heading": "Nemusíte túto stránku obnovovať, bude sa automaticky aktualizovať.",
+          "body": "Položky vo vašom nákupnom košíku budú rezervované až po dokončení objednávky."
+        },
+        "too_many_attempts": {
+          "description": "Skúste to znova o pár minút"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Vyskytol sa problém pri spracovaní vašej žiadosti. Kontaktujte majiteľa obchodu."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Doručenie nie je dostupné pre %{count} položku",
+            "other": "Doručenie nie je dostupné pre %{count} položiek"
+          },
+          "message": {
+            "one": "Tento produkt bude odstránený z tvojho košíka, pretože pre tvoju adresu nie sú dostupné žiadne spôsoby doručenia.",
+            "other": "Tento produkt bude odstránený z tvojho košíka, pretože pre tvoju adresu nie sú dostupné žiadne spôsoby doručenia."
+          },
+          "label": "Žiadne doručenie"
+        }
+      },
+      "no_address_location": {
+        "header": "Pre túto lokalitu nie je zadaná doručovacia adresa",
+        "message": "Kontaktujte nás, aby sme mohli pridať adresu pre túto lokalitu, aby ste mohli dokončiť platbu.",
+        "email_us_button_label": "Pošlite nám e-mail",
+        "alt_header": "Chýba doručovacia adresa"
+      },
+      "order_errors": {
+        "creation_failure": "Vyskytol sa problém pri vytváraní vašej objednávky. Skúste to znova alebo nás kontaktujte pre viac informácií.",
+        "network_failure": "Vaša objednávka nemôže byť odoslaná kvôli chybe siete. Skontrolujte svoje pripojenie a skúste to znova."
+      },
+      "session_errors": {
+        "session_not_unique": "Pri spracovaní vašej objednávky došlo k problému. Obnovte túto stránku, aby ste sa vrátili do obchodu.",
+        "session_already_finished": "Táto objednávka už bola odoslaná. Môžete sa vrátiť do obchodu a začať novú objednávku."
+      },
+      "pickup_point": {
+        "title": "Miesto vyzdvihnutia",
+        "or": "z",
+        "search_button": "Hľadať",
+        "selector_tabs": "Výber miesta vyzdvihnutia",
+        "selector_tab_map": "Karta",
+        "could_not_resolve_address": "Nemôžeme nájsť vašu adresu. Skúste to znova alebo použite inú adresu",
+        "no_pickup_points_near_you": "V blízkosti vybranej adresy neboli nájdené žiadne miesta na vyzdvihnutie objednávky",
+        "no_pickup_points_near_location": "Nenašli sa žiadne miesta na vyzdvihnutie v blízkosti tvojej polohy",
+        "paginator": {
+          "next_accessibility_label": "Ďalšia stránka",
+          "header": {
+            "one": "Daruje %{first} - %{last} z %{count} bodov späť",
+            "other": "Zobrazuje %{first} - %{last} z %{count} bodov"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} z %{count} miest",
+            "other": "%{pickup_point_index} z %{count} miest"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} z %{count} bodov",
+            "other": "%{first} - %{last} z %{count} bodov"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} výdajných miest v blízkosti tvojej polohy",
+          "other": "%{count} výdajných miest v blízkosti tvojej polohy"
+        },
+        "change": "Zmeniť miesto",
+        "waiting_on_pickup_point_location_notice": "Hľadanie odberných miest...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Zisťovanie polohy nie je vo vašom prehliadači podporované. Skúste to znova alebo použite iný prehliadač.",
+            "permission_not_allowed": "Povoľte zdieľanie svojej polohy.",
+            "permission_denied": "Nie je možné získať polohu. Skúste to znova."
+          }
         }
       }
     }

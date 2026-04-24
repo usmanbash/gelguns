@@ -4324,7 +4324,97 @@
     },
     "date": {
       "humanize": {
-        "lessThanOneYearAgo": "Pe {{date}} la {{time}}"
+        "lessThanOneYearAgo": "Pe {{date}} la {{time}}",
+        "lessThanOneWeekAgo": "Pe {{weekday}} la {{time}}",
+        "tomorrow": "Mâine dimineață la {{time}}",
+        "lessThanOneWeekAway": "Pe {{weekday}} la {{time}}",
+        "lessThanOneYearAway": "Pe {{date}} la {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "acum {{count}} minute"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Selectați extensia numită '{{extensionName}}'",
+        "unselect": "Anulare selecție a extensiei numite '{{extensionName}}'",
+        "move_up": "Mută extensia la poziția anterioară",
+        "remove": "Eliminare extensie",
+        "move_down_tooltip": "Mută la poziția următoare",
+        "move_up_tooltip": "Mută în poziția anterioară",
+        "remove_tooltip": "Ștergere"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Nu poți deschide acest link în editor. Linkul se va deschide într-o fereastră nouă ({{resolved_to_link}}). Apasă OK pentru a continua."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Încearcă din nou peste câteva minute"
+      }
+    },
+    "shop_ads": {
+      "title": "Alte produse care ți-ar putea plăcea",
+      "subtitle": "Disponibil temporar",
+      "button": "Explorați pe Magazin",
+      "previous_button": "Anterior",
+      "next_button": "Următorul"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Clienții pot solicita și gestiona singuri retururile.",
+        "disabled": "Clienții trebuie să contacteze comerciantul pentru a solicita o returnare."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Preferințe pentru module cookie"
+    },
+    "announcement_bar": {
+      "expand_label": "Extinde bara de anunțuri",
+      "collapse_label": "Restrânge bara de anunțuri",
+      "close_label": "Închide bara de anunțuri"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "loading": "Încărcare metode de plată",
+        "no_payment_methods_available": "Nicio metodă de plată disponibilă",
+        "select_new_payment_method": "Selectați o nouă metodă de plată",
+        "save": "Salvează",
+        "success": "Metoda de plată actualizată",
+        "use_new_payment_method": "+ Folosește o nouă metodă de plată"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Autentificare sau creare cont",
+        "section_divider": "Mai multe moduri de a te conecta",
+        "alternate_divider": "ÎNCHIS",
+        "shop_login_button": "Autentificare cu Shop",
+        "use_email_button": "Folosește adresa de email"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Salut {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Căutare"
+      },
+      "aria_labels": {
+        "back_to_main_menu": "Înapoi la meniul principal din {{title}}",
+        "open_submenu": "{{title}}, deschide submeniul",
+        "loading_menu": "Meniu încărcat",
+        "sign_in_with_email": "Autentificare cu e-mail",
+        "sign_in": "Autentificare"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Înlocuirea metodei de plată",
+        "replace_with": "Înlocuit cu",
+        "add_new_payment_method": "Adăugare nouă",
+        "loading": "Se încarcă fereastra pentru schimbarea metodei de plată",
+        "success": "Metoda de plată actualizată",
+        "invalid_subscription_contract": "Nu se poate găsi abonamentul",
+        "expiry_date": "Expiră la {{expiryDate}}"
       }
     }
   }
