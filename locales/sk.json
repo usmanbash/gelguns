@@ -3943,8 +3943,84 @@
           "paid": {
             "description": "Vaša objednávka je úplne zaplatená.",
             "title_with_date": "Zaplatené dňa {{date}}"
-          }
+          },
+          "pay_now": "Zaplaťte teraz",
+          "pending": {
+            "banner_overdue": {
+              "one": "Vaša platba mešká o {{count}} deň",
+              "other": "Vaša platba mešká o {{count}} dní"
+            },
+            "banner_due": {
+              "one": "Vaša platba je splatná o {{count}} dní",
+              "other": "Vaša platba je splatná o {{count}} dní"
+            },
+            "title": "Platba je splatná",
+            "title_with_date": "Platba splatná {{date}}",
+            "description_overdue": "Vaša platba je oneskorená.",
+            "description_partially_paid": "Táto objednávka je čiastočne zaplatená. Máte zostávajúci zostatok.",
+            "description_authorized": "Suma bude účtovaná v deň splatnosti prostredníctvom vami zvolenej platobnej metódy. Môžete zaplatiť aj teraz.",
+            "title_due_on_receipt": "Platba ešte nie je splatná",
+            "description_due_on_receipt": "Dostanete faktúru, keď bude platba splatná.",
+            "title_due_on_fulfillment": "Platba je splatná pri vybavení objednávky.",
+            "description_due_on_fulfillment": "Platba je splatná, akonáhle sú všetky položky v tejto objednávke spracované.",
+            "description_waiting_for_manual_payment": "Platba za túto objednávku je spracovávaná. Zostatok bude aktualizovaný po prijatí platby.",
+            "description_due_on_receipt_partially_paid": "Táto objednávka je čiastočne zaplatená. Máte zostávajúci zostatok. Faktúru dostanete, keď bude platba splatná.",
+            "description_due_on_fulfillment_partially_paid": "Táto objednávka je čiastočne zaplatená. Máte zostávajúci zostatok. Platba je splatná, keď budú všetky položky v tejto objednávke vybavené.",
+            "description_due_on_fulfillment_partially_paid_next": "Táto objednávka je čiastočne zaplatená. Máte zostávajúci zostatok.",
+            "banner_due_today_for_single_fulfillment": "Platba vo výške {{amount}} je splatná dnes. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Platba splatná dnes za {{count}} plnení",
+            "banner_overdue_for_multiple_fulfillments": "Platba je splatná za {{count}} splnení objednávok",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Platba vo výške {{amount}} mešká o {{count}} deň. {{link}}",
+              "other": "Platba vo výške {{amount}} mešká o {{count}} dní. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Vrátené",
+            "title_with_date": "Vrátené {{date}}",
+            "description_full_refund": "Dostali ste plnú refundáciu za túto objednávku.",
+            "description_single_refund": "Dostali ste čiastočnú refundáciu za túto objednávku.",
+            "description_multiple_refunds": "Dostali ste čiastočné vrátenia peňazí za túto objednávku."
+          },
+          "canceled": {
+            "title": "Platba zrušená",
+            "description": "Neboli vám účtované žiadne poplatky."
+          },
+          "pay_now_accessibility_label": "Zaplaťte teraz za objednávku {{orderName}}",
+          "due_date": "Dlžné k {{date}}"
+        },
+        "subtitle": "Podané: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Zobraziť údaje",
+          "expand_events_accessibility_label": "Zobraziť údaje konceptu objednávky",
+          "hide_events_label": "Skryť údaje",
+          "hide_events_accessibility_label": "Skryť údaje konceptu objednávky"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Táto platobná metóda už nie je k dispozícii pre budúce nákupy na tomto mieste.",
+          "description_with_replacement": "Ak odstránite tento spôsob platby, bude to mať vplyv na predbežne autorizované platby pre túto lokalitu. Nahraďte ho iným spôsobom platby, aby ste naďalej prijímali nadchádzajúce objednávky."
+        },
+        "payment_details": {
+          "draft_label": "Konceptná objednávka {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Pridať číslo objednávky",
+        "add_modal_title": "Pridať číslo objednávky",
+        "close_modal_accessibility_label": "Zatvoriť modálne okno objednávky",
+        "discard": "Zamietnuť",
+        "discard_changes_modal_title": "Zrušiť zmeny?",
+        "edit_accessibility_label": "Upraviť číslo objednávky",
+        "edit_modal_title": "Upraviť číslo objednávky",
+        "modal_po_number_input_max_length_error": "Čísla objednávok môžu mať maximálne {{maxLength}} znakov.",
+        "title": "Číslo nákupnej objednávky {{poNumber}}"
+      }
+    },
+    "errors": {
+      "addresses_loading_issue": {
+        "description": "Chyba pripojenia. Skontrolujte svoje internetové pripojenie a skúste to znova."
       }
     }
   }
