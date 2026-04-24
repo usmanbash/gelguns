@@ -596,7 +596,65 @@
             "quantity_rules_not_met": "Joihinkin tuotteisiin ei sovelleta tilausrajoja",
             "bundle_requires_components": "Tämä tavarakimppu ei sisällä osia.",
             "title_too_long": "Tavaroiden otsikko on liian pitkä.",
-            "title_empty": "Tavaran otsikko on tyhjä."
+            "title_empty": "Tavaran otsikko on tyhjä.",
+            "mixed_currencies": "Kassalla on tilauksia eri valuutoissa.",
+            "combined_listing_parent_not_purchasable": "Yhdistettyjen ilmoitusten päätuotteita ei voi ostaa suoraan."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Yrityksen yhteyshenkilöllä ei ole pääsyä yritykseen.",
+            "customer_account_required": "Sinun täytyy kirjautua sisään jatkaaksesi.",
+            "contact_info_does_not_match_customer_account": "Yhteystietojen on vastattava tiliä, jolla olet kirjautunut sisään.",
+            "phone_number_does_not_match_expected_pattern": "Annettu puhelinnumero on väärässä muodossa.",
+            "email_required": "Kun tavarat on ostettu tilauksella, vaaditaan sähköposti.",
+            "email_domain_is_invalid": "Antamaasi verkkotunnusta ei voi ratkaista.",
+            "missing_contact_method": "Puuttuu kelvollinen yhteystapa.",
+            "checkout_completion_target_is_missing": "Tarkoitus maksun suorittamisen loppuun saattamiseksi puuttuu.",
+            "invalid_customer_profile": "Virheellinen asiakasprofiili on annettu.",
+            "customer_profile_access_restricted": "Kassalla ei ole pääsyä asiakasprofiiliin.",
+            "checkout_completion_target_is_invalid_proc": "Virheellinen kassalle siirtymisen päättymistarkoitus.",
+            "company_location_required": "Asiakas voi jatkaa vain, jos hän valitsee yrityksen sijainnin.",
+            "lost_access_to_company": "Asiakas on menettänyt pääsyn kaikkiin yrityksiin.",
+            "company_purchase_permission_required": "Asiakas ei ole valtuutettu tekemään yritystilausta.",
+            "personal_order_not_allowed": "Henkilökohtaiset tilaukset eivät ole sallittuja tässä kaupassa.",
+            "buyer_identity_presentment_currency_does_not_match": "Tilaustasi käsiteltäessä ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Ostoskori saa sisältää vain yhden toimitusrivin.",
+            "wrong_number_of_delivery_lines": "Anna toimitussääntö jokaiselle tavararyhmälle.",
+            "external_delivery_promise_error": "Toimituksen odotettua päivämäärää ei voitu noutaa ulkoiselta palveluntarjoajalta.",
+            "options_instructions_invalid": "Annetut ohjeet sisältävät virheellisen kaavan.",
+            "destination_address_required": "Jatkaaksesi tarvitset kohdeosoitteen.",
+            "local_pickup_delivery_line_detail_changed": "Jatkaaksesi nykyinen noutopalvelun toimitustapa on muutettava paikan päällä.",
+            "local_pickup_no_delivery_strategy_available": "Ei toimitusvaihtoehtoa noutoon paikan päällä.",
+            "origin_location_id_required": "Lähtöpaikan tunnus vaaditaan, kun toimitustavaksi pyydetään KIVIJALKA.",
+            "invalid_origin_location_id": "Ei voi löytää sijaintia alkuperäpaikan tunnukselle.",
+            "origin_location_id_not_allowed": "Pyydetyissä toimitustavoissa ei tueta lähtöpaikan tunnusta.",
+            "auto_fulfill_not_allowed": "Tällä istunnolla ei ole oikeutta ylikirjoittaa täyttökäyttäytymistä.",
+            "auto_fulfill_required": "Automaattinen täyttäminen vaaditaan, kun toimitustavaksi valitaan KIVIJALKAKAUPPA.",
+            "prefetch_shipping_rates_used": "Ennakkolaskutetut lähetyskulut eivät saa koskaan olla palautuskuluja.",
+            "fulfillment_constraints_not_satisfied": "Yksi tai useampi täyttörajoitus ei ole täyttynyt.",
+            "must_fulfill_from_constraint_not_satisfied": "Syynä tähän on se, että artikkeleita ei voida käsitellä vaadituista paikoista.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Syynä tähän on se, että artikkeleita ei voida käsitellä samasta paikasta.",
+            "delivery_strategy_conditions_not_satisfied": "Tälle paikalle on saatavilla toimitustapoja, mutta ehdot eivät täyty.",
+            "out_of_stock_at_origin_location": "Ei varastoa alkuperäpaikassa.",
+            "invalid_signature": "Virheellinen allekirjoitus alennusta varten.",
+            "selected_pickup_option_no_longer_available": "Aiemmin valittu noutovaihtoehto ei ole enää saatavilla."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Alennuksia ei sallita yritysmyymälöissä.",
+            "custom_discount_not_honoured": "Syötetty mukautettu alennus ei ole myönnetty.",
+            "unsupported_expectation": "Syötetty alennussääntö sisälsi oletuksen, jota käytäntö ei pystynyt tulkitsemaan.",
+            "additional_requested_discount_code_discarded": "{{code}} on voimassa, mutta ei sovellu. Tarkista alennusehdot.",
+            "allocations_mismatch": "Alennuskoodisi on muuttunut. Tarkista ostoskorisi ja yritä uudelleen.",
+            "discount_title_too_long": "Alennuksen otsikon pituus ei saa ylittää 255 merkkiä.",
+            "additional_requested_discount_discarded": "Alennuksesi on voimassa, mutta sitä ei voi käyttää. Tarkista alennusehdot."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Tilaukseesi sovellettavat verot ovat muuttuneet. Tarkista tilauksesi ja yritä uudelleen.",
+            "unresolvable_tax_terms": "Ehdotetut ehdot eivät nykyisen neuvottelutilanteen valossa ole toteuttamiskelpoisia.",
+            "delivery_price_is_abstract": "Kyseinen toimitushinta on abstrakti.",
+            "tax_inclusivity_mismatch": "Neuvottele uudelleen konkreettisesta arvosta totalTaxAndDutyAmount- tai totalAmountIncludedInTarget-kentälle.",
+            "tax_exemption_not_supported": "Nykyisessä neuvottelukierroksessa ei tueta verovapautuksia."
           }
         }
       }
