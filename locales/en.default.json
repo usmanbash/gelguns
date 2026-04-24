@@ -2427,7 +2427,85 @@
         "pound": "pound",
         "fluid_ounce": "fluid oz",
         "gallon": "girl",
-        "foot": "foot"
+        "foot": "foot",
+        "square_foot": "square feet",
+        "item": "article"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "This address is not supported for the current membership.",
+        "items_split_across_locations_unsupported": "Prime delivery is not available for your order. Your shipping options have been updated."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigate to webshop"
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "This item cannot be added to your shopping cart because it comes from a shop that uses a different currency.",
+          "max_remote_shops_exceeded": "This product cannot be added because your shopping cart already contains the maximum from other shops.",
+          "currency_mismatch_removal": "An item has been removed from your shopping cart because it comes from a shop that uses a different currency.",
+          "only_remote_merchandise_lines": "The checkout contains only external goods. A redirection to the external shop is needed to complete the payment."
+        }
+      },
+      "remote_merchandise_only": {
+        "remote_only_notice": "These items are sold and shipped by other shops. Go to the checkout of each shop to complete your purchase.",
+        "return_to_store_label": "Back to shop",
+        "checkout_on_shop_label": "Checkout at %{shop_name}",
+        "single_shop_transition": "You will be redirected to %{advertiser} to complete your purchase.",
+        "detail_item_label": {
+          "one": "{{count}} items"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "No %{policy_name} has been provided for this store. For more information, please contact %{shop_name} directly."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Scan the QR code again. If it still does not work, please inform our staff and try another payment method.",
+        "payment_link_expired_text": "Scan the QR code again."
+      },
+      "taxes": {
+        "tax_details": "Additional tax information",
+        "vat_number": {
+          "field": {
+            "label": "VAT identification number (optional)",
+            "tooltip": "Validates the VAT identification number and automatically applies the reverse charge to orders that qualify for it"
+          },
+          "vaulted": "Btw identification number: %{number}",
+          "badge": "Btw identification number: %{number}",
+          "domestic_order": "The reverse charge scheme applies only to cross-border orders within the EU. For local orders, VAT is charged as standard.",
+          "status": {
+            "invalid_format": {
+              "at": "An Austrian VAT identification number contains AT and 9 characters",
+              "be": "A VAT identification number from Belgium contains BE and 10 characters",
+              "bg": "A VAT identification number from Bulgaria contains BG and 9-10 characters",
+              "hr": "A VAT identification number from Croatia contains HR and 11 characters",
+              "cy": "A VAT identification number from Cyprus contains CY and 9 characters",
+              "cz": "A VAT identification number from the Czech Republic contains CY and 8-10 characters.",
+              "dk": "A VAT identification number from Denmark contains DK and 8 characters",
+              "ee": "A VAT identification number from Estonia contains EE and 9 characters",
+              "fi": "A VAT identification number from Finland contains FI and 8 characters",
+              "fr": "A VAT identification number from France contains FR and 11 characters",
+              "de": "A VAT identification number from Germany contains DE and 9 characters",
+              "gr": "A VAT identification number from Greece contains EL and 9 characters",
+              "hu": "A VAT identification number from Hungary contains HU and 8 characters",
+              "ie": "An Irish VAT identification number contains IE and 8-9 characters",
+              "it": "A VAT identification number from Italy contains IT and 11 characters",
+              "lv": "A VAT identification number from Latvia contains LV and 11 characters",
+              "lt": "A VAT identification number from Lithuania contains LT and 9-12 characters",
+              "lu": "A VAT identification number from Luxembourg contains LU and 8 characters",
+              "mt": "A VAT identification number from Malta contains MT and 8 characters",
+              "nl": "A VAT identification number from the Netherlands contains NL and 12 characters",
+              "pl": "A VAT identification number from Poland contains PL and 10 characters",
+              "pt": "A VAT identification number from Portugal contains PT and 9 characters",
+              "ro": "A VAT identification number from Romania contains RO and 10 characters",
+              "sk": "A VAT identification number from Slovakia contains SK and 10 characters",
+              "si": "A VAT identification number from Slovenia contains SI and 8 characters",
+              "es": "A VAT identification number from Spain contains ES and 9 characters",
+              "se": "A VAT identification number from Sweden contains SE and 12 characters"
+            }
+          }
+        }
       }
     },
     "sentence": {
