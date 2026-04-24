@@ -3313,9 +3313,87 @@
         },
         "updated_policy": {
           "status_html": "<b>Отчитане на отварянето на имейла.</b>",
-          "visibility": "Актуализирахме нашата политика и сега следим отворените имейли. Процентите на отворени имейли се докладват анонимно. Ще виждаме само дали сте отворили имейл, като част от общия процент на отворени имейли."
+          "visibility": "Актуализирахме нашата политика и сега следим отворените имейли. Процентите на отворени имейли се докладват анонимно. Ще виждаме само дали сте отворили имейл, като част от общия процент на отворени имейли.",
+          "opt_out_html": "Ако вече не желаете да споделяте тази информация, можете да се <a style='text-decoration:underline;' href='%{link}'>отпишете</a>."
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Сигурни ли сте, че искате да се отпишете от SMS маркетинга?"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Обикновено готово в рамките на 1 час",
+        "two_hours": "Обикновено готово в рамките на 2 часа",
+        "four_hours": "Обикновено готово в рамките на 4 часа",
+        "twenty_four_hours": "Обикновено готово в рамките на 24 часа",
+        "two_to_four_days": "Обикновено готово в рамките на 2-4 дни",
+        "five_or_more_days": "Обикновено готово след повече от 5 дни",
+        "zero_to_two_hours": "Обикновено готово в рамките на 2 часа",
+        "two_to_four_hours": "Обикновено готово в рамките на 4 часа",
+        "immediately": "Готово за вземане сега",
+        "next_day": "Готово за вземане на следващия ден"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Налично в наличност",
+          "out_of_stock": "Няма наличност"
+        }
+      },
+      "boolean": {
+        "false_label": "Неe"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Релевантност",
+        "price_ascending": "Цена: от ниска към висока",
+        "price_descending": "Цена: от висока към ниска"
+      },
+      "error": "Възникна проблем при зареждането на резултатите от търсенето. Обновете страницата или опитайте отново по-късно."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Този артикул е повтаряща се или отложена покупка. Ако продължа, се съгласявам с %{cancellationPolicyLink} и давам разрешение посочените цени да бъдат таксувани от моя метод на плащане, с посочената честота и дати, докато поръчката ми бъде обработена или докато, ако е разрешено, не отменя.",
+      "buyer_consent_cart": "Един или повече артикули в твоята количка са отложени или повтарящи се покупки. Ако продължа, се съгласявам с %{cancellationPolicyLink} и ти давам разрешение да таксуваш посочените цени от моя метод на плащане, с посочената честота и дати, докато поръчката ми бъде обработена или докато, ако е разрешено, не отменя.",
+      "cancellation_policy": "политика за отказ"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Скрий менюто на акаунта",
+        "show_accessibility_label": "Показване на менюто на акаунта",
+        "nav_accessibility_label": "Навигация в акаунта",
+        "open_menu_accessibility_label": "Отваряне на навигацията на акаунта",
+        "close_menu_accessibility_label": "Затвори навигацията на акаунта",
+        "loading_message": "Зареждане на навигацията в акаунта"
+      },
+      "action_menu_accessibility_label": "Още оферти",
+      "close_menu_accessibility_label": "Затвори главната навигация",
+      "contact_email_subject": "Лице за контакт на уебшопа {{shopName}}",
+      "contact_link": "Контактни данни",
+      "delete_confirmation": {
+        "cancel": "Отказване",
+        "delete": "Премахване"
+      },
+      "dismiss_toast": "Затвори",
+      "document_title": "{{sectionName}} - {{shopName}} - акаунт",
+      "logout_overlay_label": "Изход...",
+      "navigation_accessibility_message": "Навигирахте до {{sectionName}}",
+      "open_menu_accessibility_label": "Отваряне на главната навигация",
+      "shop_logo_accessibility_label": "{{shopName}}-лого",
+      "country_switcher_toast_message": "Земята е преминала към {{countryName}}",
+      "switch_country": "Превключване на земя",
+      "location_switcher_toast_message": "Местоположението е променено на {{locationName}}",
+      "view_details": "Преглед на данни",
+      "no_countries_found": "Не са намерени държави",
+      "no_locations_found": "Не са намерени локации",
+      "try_new_search": "Опитайте нова търсачка",
+      "skip_to_content": "Отидете директно към съдържанието",
+      "loading_policy_content_accessibility_label": "Политика за зареждане на съдържание",
+      "policy_load_error": "Не може да се зареди Kan {{policyName}}"
     }
   }
 }
