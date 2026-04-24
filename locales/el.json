@@ -1264,7 +1264,67 @@
         "split_shipping_first_shipment_notice": "Θα λάβετε την πρώτη σας παραγγελία σε %{quantity_shipments}",
         "shipping_method_rollup_accessibility_label": "Επιλογές μεθόδου αποστολής",
         "shipping_address_rollup_accessibility_label": "Επιλογές αποστολής στη διεύθυνση",
-        "back": "Επιστροφή"
+        "back": "Επιστροφή",
+        "invalid_shipping_method_summary_selected": "Επιλέξτε άλλη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής",
+        "third_party_address_timeout": "Δεν είναι δυνατή η φόρτωση της διεύθυνσης. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη διεύθυνση.",
+        "third_party_address_error": "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της επιλογής διεύθυνσης. Εισάγετε τη διεύθυνσή σας χειροκίνητα παρακάτω.",
+        "third_party_payment_timeout": "Δεν είναι δυνατή η φόρτωση των μεθόδων πληρωμής. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη μέθοδο πληρωμής.",
+        "third_party_payment_error": "Παρουσιάστηκε σφάλμα κατά τη φόρτωση της επιλογής πληρωμής. Χρησιμοποιήστε άλλη μέθοδο πληρωμής.",
+        "add_shipping_address": "Προσθήκη διεύθυνσης παράδοσης",
+        "choose_new_address": "Επιλέξτε μια νέα διεύθυνση",
+        "unbranded_description_with_fulfillment_days": {
+          "other": "Αποστέλλεται εντός %{count} εργάσιμων ημερών"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "other": "Θα αποσταλεί σε %{count} εβδομάδες"
+        }
+      },
+      "payment": {
+        "amazon_payments_login_hint": "Σας ζητείται να συνδεθείτε στο Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Η επιλεγμένη μέθοδος πληρωμής δεν μπορεί να χρησιμοποιηθεί. Επιλέξτε μια άλλη μέθοδο ή επικοινωνήστε με την τράπεζά σας ή τον εκδότη της κάρτας σας.",
+        "amazon_payments_abandoned_mfa_challenge": "Η πληρωμή σας δεν μπόρεσε να ολοκληρωθεί. Δοκιμάστε μια άλλη μέθοδο πληρωμής ή επικοινωνήστε με την τράπεζά σας ή τον εκδότη της κάρτας σας.",
+        "amazon_payments_could_not_enqueue_authorize": "Υπήρξε ένα πρόβλημα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη μέθοδο πληρωμής.",
+        "amount_left_to_pay_label": "Οφειλόμενο ποσό:",
+        "discount_button_action_label": "Εισαγάγετε τον Κωδικό Έκπτωσης",
+        "gift_card_code_label": "Κωδικός δωροεπιταγής",
+        "supported_card_brands_more_label": "και περισσότερα…",
+        "detected_card_brand": "Ανιχνευμένος τύπος κάρτας: {brand}",
+        "card_pay_with": "Πληρώστε με:",
+        "card_expiry_label": "Ημερομηνία λήξης (MM/ΕΕ)",
+        "card_expiry_placeholder": "Ημερομηνία λήξης (MM/ΕΕ)",
+        "card_expiry_date_explanation": "Διάταξη ημερομηνίας λήξης κάρτας: μήνας, μήνας, έτος, έτος",
+        "card_verification_value_explanation": "Κωδικός ασφαλείας 3 ψηφίων, συνήθως βρίσκεται στο πίσω μέρος της κάρτας σας. Η American Express έχει έναν κωδικό 4 ψηφίων στο μπροστινό μέρος.",
+        "card_verification_value_explanation_amex": "Κωδικός ασφαλείας 4 ψηφίων στην μπροστινή πλευρά της κάρτας σου",
+        "card_verification_value_explanation_other": "Κωδικός ασφαλείας 3 ψηφίων στο πίσω μέρος της κάρτας σου",
+        "ends_with_label": "λήγει στις %{last_digits}",
+        "saved_by_payment_method": "Αποθηκεύτηκε με %{payment_method}",
+        "pay_with_payment_method": "Πληρώστε με %{payment_method}",
+        "same_billing_address_label": "Ίδιο με τη διεύθυνση παράδοσης",
+        "different_billing_address_label": "Χρήση άλλης διεύθυνσης τιμολόγησης",
+        "express_checkout_free_order": "Δεν χρεώνονται έξοδα για μια δωρεάν παραγγελία",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Η παραγγελία σας θα πληρωθεί με το δωροκάρτα σας.",
+          "other": "Η παραγγελία σας θα πληρωθεί με τα δωροκάρτα σας."
+        },
+        "offsite_gateway_redirect_hint": "Θα ανακατευθυνθείς στο %{gateway_label} για να ολοκληρώσεις την αγορά σου.",
+        "billing_address_title": "Διεύθυνση τιμολογίου",
+        "billing_address_description": "Επιλέξτε τη διεύθυνση που αντιστοιχεί στην κάρτα ή τη μέθοδο πληρωμής σας.",
+        "billing_address_description_no_shipping_address": "Εισάγετε τη διεύθυνση που αντιστοιχεί στην κάρτα ή τη μέθοδο πληρωμής σας.",
+        "no_js_credit_card_fields_redirect_hint": "Θα ανακατευθυνθείς για να προσθέσεις τις πληροφορίες πληρωμής σου.",
+        "card_fields_container_prefix": "Σε αυτό το πεδίο βρίσκεται:",
+        "card_fields_unavailable_html": {
+          "one": "Η πληρωμή με πιστωτική κάρτα ή χρεωστική κάρτα δεν είναι διαθέσιμη αυτή τη στιγμή.<br><a href=\"%{current_url}\">Ανανέωσε αυτή τη σελίδα</a> ή δοκίμασε ξανά αργότερα.",
+          "other": "Η πληρωμή με πιστωτική κάρτα ή χρεωστική κάρτα δεν είναι προς το παρόν διαθέσιμη.<br><a href=\"%{current_url}\">Ανανέωσε αυτή τη σελίδα</a> ή δοκίμασε μια άλλη μέθοδο πληρωμής."
+        },
+        "card_fields_processing_error": "Υπήρξε ένα πρόβλημα κατά την επεξεργασία της πληρωμής. Ανανέωσε αυτή τη σελίδα ή έλεγξε τη σύνδεσή σου στο διαδίκτυο.",
+        "technical_error": "Λόγω τεχνικού προβλήματος, οι πληρωμές δεν μπορούν να επεξεργαστούν αυτή τη στιγμή. Παρακαλώ δοκιμάστε ξανά σε λίγα λεπτά.",
+        "no_method_error": "Αυτό το κατάστημα δεν μπορεί να δεχτεί πληρωμές αυτή τη στιγμή.",
+        "not_configured_error": "Αυτό το κατάστημα δεν μπορεί να δεχτεί πληρωμές αυτή τη στιγμή.",
+        "missing_credit_card_error": "Εισάγετε τα στοιχεία της κάρτας σας για να ολοκληρώσετε την πληρωμή",
+        "generic_incorrect_card_info": "Τα στοιχεία πληρωμής σας δεν μπορούν να επαληθευτούν. Ελέγξτε τα στοιχεία της κάρτας σας και δοκιμάστε ξανά.",
+        "sofort_label": "Άμεση πληρωμή",
+        "klarna_pay_now_label": "Πληρώστε τώρα με Klarna",
+        "klarna_pay_later_label": "Πληρωμή μετά την παράδοση με Klarna"
       }
     }
   }
