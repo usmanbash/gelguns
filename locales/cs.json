@@ -1567,8 +1567,74 @@
         "use_location_shipping_address_label": "Použít doručovací adresu místa",
         "purchase_options_agreement_label_wallets": "Pokud budete pokračovat v platbě, souhlasíte s budoucími platbami uvedenými na této stránce a s pravidly pro zrušení.",
         "gift_card_store_credit": {
-          "add_label": "Přidat dárkový poukaz nebo obchodní kredit"
-        }
+          "add_label": "Přidat dárkový poukaz nebo obchodní kredit",
+          "manage_label": "Správa dárkových poukazů nebo obchodního kreditu"
+        },
+        "saved_credit_card_cvv_verification": "Zadejte bezpečnostní kód své karty pro ověření.",
+        "afterpay_label": "Zaplať později",
+        "cashapppay_label": "Platba přes Cash App",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Odebráno z vrácení",
+          "with_quantities": "{{delta}} odstraněn z vrácení"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Odebráno z vrácení",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} odstraněno z vrácení",
+        "proposed_gateway_unavailable": "Navrhovaný platební brána není k dispozici",
+        "pay_in_installments_split_pay_short": "Čtyři platby po %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Platební metoda není k dispozici pro zvolenou doručovací adresu. Vyberte jiný způsob platby.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero není pro tuto objednávku k dispozici. Zvolte jiný způsob platby.",
+        "paypal_wallet_label": "Peněženka PayPal",
+        "payment_method_update_failed": "Aktualizace platební metody se nezdařila.",
+        "alternative_payment_currency_total_manual_payment_notice": "Poznámka: Převedený celkový součet je %{amount_due}.",
+        "gift_cards_unavailable": "Tento dárkový poukaz již nelze použít pro tuto objednávku a byl proto odstraněn",
+        "network_card_payment_options": "Vybrat společnost vydávající kreditní karty",
+        "payment_flexibility_terms_id_mismatch": "ID podmínky platební pružnosti neodpovídá",
+        "offsite_gateway_review_page_redirect_hint": "Po kontrole objednávky budete přesměrováni na %{gateway_label}, abyste dokončili nákup.",
+        "gift_card_checkbox_label": "Uplatnit dárkový poukaz",
+        "blik_label": "Mrknutí",
+        "kcp_creditcard_label": "KCP-kreditní karta",
+        "simulated_express_checkout": "Digitální peněženky nejsou v ukázce editoru k dispozici kvůli tvému regionu nebo prohlížeči",
+        "offsite_gateway_redirect_hint_no_button_label": "Budete přesměrováni na %{gateway_label}, abyste dokončili svůj nákup.",
+        "swish_label": "Švih",
+        "network_card_persistence_description": "Vybraná síť bude uložena s vaší platební metodou pro budoucí transakce.",
+        "payment_option": {
+          "accessibility_label": "Vyberte možnost platby"
+        },
+        "billing_address_rollup_accessibility_label": "Možnosti pro fakturační adresu",
+        "crypto_modal": {
+          "header": "Zaplaťte %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Obnovit",
+            "sandbox_error": "Něco se pokazilo",
+            "web_component_error": "Při načítání této stránky došlo k problému"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Platební účet",
+          "savings": "Spořicí účet"
+        },
+        "bank_account_choose": "Vyberte účet pro bezpečné dokončení nákupu",
+        "bank_account_connect_another": "Přidat jiný bankovní účet",
+        "bank_account_connect": "Propojit bankovní účet",
+        "bank_account_missing": "Bankovní účet musí být propojený",
+        "crypto_payment_method": {
+          "description": "Koppel je peněženku bezpečně. Váš zůstatek a adresa nebudou sdíleny.",
+          "tooltip": "Zůstatek ve tvé peněžence a tvoje adresa nebudou sdíleny a odečíst lze pouze požadovanou částku",
+          "cashback_descriptor": {
+            "one": "Obdržíte svůj cashback po %{count} dnech",
+            "other": "Obdržíte svůj cashback po %{count} dnech"
+          }
+        },
+        "usdc_cashback_additional_info": "Plaťte USDC na Base a do 30 dnů obdržíte %{incentive_percentage}% zpět do své digitální peněženky.",
+        "usdc_cashback_terms": "Podmínky a limity platí",
+        "discount_show_more_warnings": {
+          "one": "Zobrazit %{count} více",
+          "other": "Zobrazit %{count} více"
+        },
+        "separate_payments_label": "Vaše položky pocházejí z více než jednoho obchodu. Musíte zaplatit pomocí %{separate_payments_link}.",
+        "separate_payments_text": "samostatné platby",
+        "payments": "Platba",
+        "business_customer_with_bank_account_vaulting_payment_label": "Uložte tuto platební metodu při placení a povolte %{company} účtovat vám za budoucí nákupy, které pro toto místo schválíte, dokud to nezrušíte. Všichni kontaktní osoby přiřazené k tomuto místu mohou tuto platební metodu používat."
       }
     }
   }
