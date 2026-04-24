@@ -1418,7 +1418,67 @@
         "technical_error": "Dėl techninės problemos šiuo metu mokėjimai negali būti apdorojami. Bandykite dar kartą po kelių minučių.",
         "generic_incorrect_card_info": "Jūsų mokėjimo duomenys negali būti patikrinti. Patikrinkite savo kortelės duomenis ir bandykite dar kartą.",
         "sofort_label": "Iškart",
-        "paypal_label": "PayPal"
+        "paypal_label": "PayPal",
+        "ideal_label": "iDEAL | Wero",
+        "klarna_pay_now_label": "Mokėkite dabar su Klarna",
+        "klarna_pay_later_label": "Apmokėkite vėliau su Klarna",
+        "bancontact_label": "Bancontact",
+        "giropay_label": "Giropay",
+        "eps_label": "eps-pervedimas (eps-overdracht)",
+        "klarna_slice_it_label": "Finansai su Klarna",
+        "card_expiration_month_label": "Vertimo mėnuo",
+        "card_expiration_year_label": "Galiojimo metai",
+        "card_information_notice": "Visi sandoriai yra saugūs ir užšifruoti. Kredito kortelės duomenys niekada nėra saugomi.",
+        "credit_card_start_month": "Mėnesio pradžios data",
+        "credit_card_start_year": "Metų pradžios data",
+        "billing_address_not_supported_for_payment_method_error": "Šis mokėjimo būdas nėra prieinamas tavo sąskaitos adresui ir valiutai. Pabandyk kitą mokėjimo būdą.",
+        "change_currency_section_description": "Pasirinkite valiutos parinktį",
+        "no_real_orders_dev_store": "Ši parduotuvė negali priimti tikrų užsakymų ar apdoroti tikrų mokėjimų.",
+        "subscription_agreement_label_html": "Suprantu, kad sutinku su prenumerata. Ji bus atnaujinama nurodyta kaina ir dažnumu, kol pasibaigs arba bus\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atšaukta</a>.",
+        "waiting_on_payment_methods": "Gaunami galimi mokėjimo būdai...",
+        "apple_pay_payment_error": "Jūsų mokėjimas negalėjo būti įvykdytas. Bandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+        "subscription_card_update_agreement_label": "Pakeitus mokėjimo būdą, jūsų prenumerata ir pasikartojantys mokėjimai bus atnaujinti ateityje.",
+        "card_security_vault_notice": "Mums reikia tavo duomenų būsimoms mokėjimo operacijoms. Visos transakcijos yra saugios ir užšifruotos.",
+        "taxes_not_included": "Išskyrus mokesčius",
+        "no_taxes_banner_content": "Mokesčiai šiam užsakymui nėra pridedami. Negalite pridėti daugiau mokesčių, jei mokėjimas jau buvo gautas.",
+        "paypal": {
+          "connect": "Spustelėkite, kad susietumėte savo PayPal paskyrą"
+        },
+        "subscription_agreement_label": "Vienas ar daugiau prekių krepšelyje yra atidėtas arba prenumeratos pirkimas. Jei tęsiate apmokėjimą, sutinkate, kad mes automatiškai nuskaičiuosime pirkimo sumas per jūsų mokėjimo būdą pagal šioje puslapyje nurodytą kainą ir dažnumą, kol prenumerata pasibaigs arba ją atšauksite patys. Visoms atšaukimams taikomas %{cancelled}.",
+        "subscription_agreement_cancelled": "atsisakymo politika",
+        "card_expired": "Pasibaigęs",
+        "card_verification_confirm": "Įveskite savo kortelės saugos kodą patvirtinimui.",
+        "different_credit_card_label": "Naudokite kitą kreditinę kortelę",
+        "apple": {
+          "connect": "Spustelėkite, kad susietumėte savo Apple Pay paskyrą",
+          "not_available": "Apple Pay šiame naršyklėje nėra pasiekiamas. Norėdami susieti savo Apple Pay paskyrą, turite naudoti Safari naršyklę Apple įrenginyje."
+        },
+        "account_connected": "Paskyra susieta.",
+        "billing_address_associated_with_mandate": "Naudokite adresą, susietą su jūsų mokėjimo būdu",
+        "billing_address_associated_with_mandate_info": "Norėdami pakeisti sąskaitos adresą, ištrinkite savo kreditinės kortelės duomenis ir įveskite juos iš naujo",
+        "credit_card_vaulting_sign_in_banner_title": "Išsaugoti kreditinę kortelę",
+        "credit_card_vaulting_sign_in_banner_info": "Prisijunkite arba susikurkite paskyrą, kad išsaugotumėte savo kreditinę kortelę būsimoms pirkiniams.",
+        "expiry_long": "(Baigiasi %{month}/%{year})",
+        "expiry_short": "(Baigiasi %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Išsaugoti šią kreditinę kortelę mano paskyroje, kad atsiskaitymas būtų greitesnis",
+        "delete_customer_mandate_modal_title": "Ar tikrai norite pašalinti šią mokėjimo kortelę?",
+        "delete_customer_mandate_modal_body": "Jei pašalinsite šią kortelę, turėsite ją vėl pridėti prieš naudodami mokėjimams.",
+        "google": {
+          "connect": "Spustelėkite, kad susietumėte savo Google Pay paskyrą"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "Spustelėję žemiau ir užbaigę užsakymą, sutinkate įsigyti savo prekę(-es) iš Global-e kaip registruoto pardavėjo šiai transakcijai, pagal <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Bendrąsias sąlygas</a> ir <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privatumo politiką</a> Global-e. Global-e yra tarptautinis įvykdymo paslaugų teikėjas %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Atnaujinant mokėjimo būdą, jūs suteikiate leidimą mokėjimams už kiekvieną pasikartojantį arba atidėtą pirkimą pagal šios parduotuvės <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a>.",
+        "multibanco_label": "Multibanko",
+        "receiver_payment_experience_hint": "Pateikus užsakymą, gausite mokėjimo duomenis. Atlikite mokėjimą per %{due_days} dienas per Multibanco arba internetu.",
+        "pending_payment": {
+          "due_notice": "Jūsų mokėjimas %{amount_due} turi būti atliktas iki %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Atlikite mokėjimą per Multibanco arba internetu, naudodamiesi žemiau pateiktais duomenimis. %{contact_us} klausimams arba mokėjimo duomenų atnaujinimui.",
+            "entity": "Vienetas",
+            "buyer_action_info": "Jūsų mokėjimas už %{amount_due} yra neapmokėtas."
+          }
+        }
       }
     }
   }
