@@ -2298,7 +2298,79 @@
         "credit_card_will_be_charged_html": "Na tvou kreditní kartu bude účtováno %{amount}",
         "payment_total_label": "Celkové platby",
         "change_currency_link": "Změnit na %{currency_name}",
-        "card_provider_fx_charges_warning": "Vydavatel vaší karty může účtovat poplatky za transakce v %{currency_code}."
+        "card_provider_fx_charges_warning": "Vydavatel vaší karty může účtovat poplatky za transakce v %{currency_code}.",
+        "currency_not_supported_by_shop": "Měna, kterou jste vybrali, již není k dispozici. Všechny ceny jsou nyní v %{currency_code}."
+      },
+      "tips": {
+        "description": "Ukaž, že podporuješ tým %{shop_name}",
+        "custom_label": "Upravený spropitné",
+        "update_tip": "Aktualizovat zůstatek",
+        "message": "Děkujeme, opravdu si toho vážíme.",
+        "no_tip_label": "Žádný",
+        "not_available_with_spi": "Není k dispozici s platbami na splátky Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "koupit %{product_name}",
+          "one": "Koupit %{product_name} a ještě %{count} další položku",
+          "other": "Koupit %{product_name} a ještě %{count} dalších položek"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Doplňující informace",
+          "tax_credential_br": "IČO/DIČ",
+          "shipping_credential_br": "IČO/DIČ",
+          "shipping_credential_cn": "ID číslo obyvatele",
+          "tax_credential_it": "Daňové identifikační číslo (volitelné)",
+          "tax_email_it": "PEC (volitelně)",
+          "tax_credential_co": "Průkaz/DPH",
+          "tax_credential_type_co": "Typ průkazu",
+          "shipping_credential_co": "Průkaz/DPH",
+          "shipping_credential_type_co": "Typ průkazu",
+          "tax_credential_cr": "Identifikační číslo/RUT",
+          "shipping_credential_cr": "Identifikační číslo/RUT",
+          "tax_credential_ec": "CI/RUC/DPH",
+          "shipping_credential_ec": "CI/RUC/DPH",
+          "tax_credential_gt": "DIČ/DPH",
+          "shipping_credential_gt": "DIČ/DPH",
+          "tax_credential_id": "DIČ",
+          "shipping_credential_id": "DIČ",
+          "tax_credential_my": "DIČ/Registrační číslo",
+          "shipping_credential_my": "DIČ/Registrační číslo",
+          "tax_credential_type_mx": "Daňový režim",
+          "tax_credential_use_mx": "Použití CFDI",
+          "tax_credential_py": "CI/RUC/DPH",
+          "shipping_credential_py": "CI/RUC/DPH",
+          "tax_credential_pe": "DIČ/RČ/CE",
+          "shipping_credential_pe": "DIČ/RČ/CE",
+          "tax_credential_pt": "DIČ/DPH",
+          "shipping_credential_pt": "DIČ/DPH",
+          "tax_credential_es": "DIČ/ČÍSLO OPF",
+          "shipping_credential_es": "DIČ/ČÍSLO OPF",
+          "shipping_credential_tw": "Národní identifikační číslo/daň z přidané hodnoty",
+          "tax_credential_tr": "Číslo občanského průkazu Turecké republiky/DPH",
+          "shipping_credential_tr": "Číslo občanského průkazu Turecké republiky/DPH"
+        }
+      },
+      "post_purchase": {
+        "components": {
+          "processing": "Zpracovává se..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Váš nákupní košík byl aktualizován podle vaší země pro doručení.",
+        "cart_and_currency_updated_based_on_country": "Váš nákupní košík a měna byly přizpůsobeny zemi doručení.",
+        "currency_updated_for_country": "Měna aktualizována pro %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} při každém %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "První platba %{total_price}",
+            "other": "Prvních %{count} plateb za %{total_price} za kus"
+          }
+        }
       }
     }
   }
