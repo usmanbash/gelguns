@@ -2616,7 +2616,103 @@
           "search_elsewhere": "потърсете другаде",
           "ship_items_or_search_elsewhere": "%{ship_items} от %{search_elsewhere}"
         },
-        "location_closest": "Най-близко място с вашия артикул"
+        "location_closest": "Най-близко място с вашия артикул",
+        "toggle_multiple_locations": "Още повече от %{count} други локации",
+        "location_information_far_away": {
+          "one": "Има %{count} място с твоя артикул",
+          "other": "Има %{count} места с твоя артикул"
+        },
+        "location_nearby": {
+          "one": "В близост има %{count} място с твоя артикул",
+          "other": "В близост има %{count} места с твоя артикул"
+        },
+        "location_nearby_short": {
+          "one": "%{count} локации наблизо с вашия артикул",
+          "other": "%{count} локации наблизо с вашия артикул"
+        },
+        "location_far_away": {
+          "one": "%{count} локация с вашия артикул",
+          "other": "%{count} локации с вашия артикул"
+        },
+        "toggle_more_locations": {
+          "one": "Още %{count} локации",
+          "other": "Още %{count} други локации"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Няма локации с вашия артикул",
+          "other": "Няма локации с твоите артикули"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Няма локации в %{country} с вашия артикул",
+          "other": "Няма локации в %{country} с твоите артикули"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Вземете всички артикули",
+        "items_for_pickup": "Стоки за вземане",
+        "delivery_method": "Разделен метод на доставка",
+        "delivery_method_menu": "Меню за разделен метод на доставка",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} от %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} от %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Не може да се извлекат %{count} артикула",
+              "other": "Не може да се извлекат %{count} артикула"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} артикула не може да бъде изпратен"
+            }
+          },
+          "remove_item": {
+            "one": "Премахване на артикул",
+            "other": "Премахване на артикули"
+          },
+          "ship_separately": {
+            "one": "изпращане отделно",
+            "other": "изпращане отделно"
+          },
+          "pick_them_up_in_store": {
+            "one": "вземете от магазина",
+            "other": "вземете от магазина"
+          }
+        },
+        "items_for_shipping": "Артикули за изпращане",
+        "items_moved_to_shipping_toast": "Артикулите, които не могат да бъдат взети, са преместени към изпращане",
+        "cross_border": {
+          "modal": {
+            "content": "Това ще възстанови всички артикули за изпращане. Вашите места за вземане и доставка трябва да се намират в една и съща държава.",
+            "change_country": "Промяна на държава"
+          },
+          "banner": "Методът за доставка е актуализиран"
+        }
+      },
+      "captcha": {
+        "title": "Попълнете CAPTCHA, за да продължите",
+        "errors": {
+          "not_solved": "Попълнете CAPTCHA, за да продължите"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Вашата поръчка не можа да бъде обработена, защото вашият код за отстъпка вече не е наличен. Проверете общата сума на поръчката си и опитайте отново."
+      },
+      "wallets": {
+        "return_to_store": "Върни се в магазина",
+        "redirect_hint": "Ще бъдете помолени да влезете в {{walletName}}.",
+        "logged_in": "Свързани с {{email}}",
+        "shipping_line_label": "Доставка",
+        "payment_in_progress_title": "Плащане в процес на изпълнение",
+        "payment_in_progress_body": "Плащането се обработва. Поръчката е почти завършена.",
+        "call_to_action": "Платете с {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} не е наличен",
+            "description": "{{walletName}} не беше наличен. Използвайте друг метод на плащане или опитайте отново по-късно.",
+            "instructions": "Възникна проблем с {{walletName}}. Върнете се в магазина и опитайте отново или завършете поръчката по друг начин.",
+            "unavailable_for_country": "{{walletName}} не е наличен в {{countryName}}. Изберете друг метод на плащане, за да завършите покупката си"
+          },
+          "generic": "Възникна проблем с {{walletName}}. Опитайте отново или използвайте друг метод на плащане."
+        }
       }
     }
   }
