@@ -4058,9 +4058,103 @@
             "description_waiting_for_manual_payment": "Užsakymo apmokėjimas yra apdorojamas. Likutis bus atnaujintas, kai gausime jūsų mokėjimą.",
             "description_due_on_receipt_partially_paid": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį. Sąskaita bus išrašyta, kai mokėjimas taps privalomas.",
             "description_due_on_fulfillment_partially_paid": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį. Mokėjimas turi būti atliktas, kai visi šio užsakymo prekės bus apdorotos.",
-            "description_due_on_fulfillment_partially_paid_next": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį."
-          }
+            "description_due_on_fulfillment_partially_paid_next": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį.",
+            "banner_due_today_for_single_fulfillment": "Mokėjimas už {{amount}} turi būti atliktas šiandien. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Mokėjimas šiandien už {{count}} įvykdymus",
+            "banner_overdue_for_multiple_fulfillments": "Mokėtina už {{count}} įvykdymus",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Mokėjimas už {{amount}} vėluoja {{count}} dieną. {{link}}",
+              "other": "Mokėjimas už {{amount}} vėluoja {{count}} dienomis. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Grąžinta",
+            "title_with_date": "Grąžinta {{date}}",
+            "description_full_refund": "Jūs gavote visišką šios užsakymo sumos grąžinimą.",
+            "description_single_refund": "Jūs gavote dalinį grąžinimą už šį užsakymą.",
+            "description_multiple_refunds": "Jūs gavote dalinius grąžinimus už šį užsakymą."
+          },
+          "canceled": {
+            "description": "Jums nebuvo taikomi jokie mokesčiai."
+          },
+          "pay_now_accessibility_label": "Mokėkite dabar už užsakymą {{orderName}}",
+          "due_date": "Skola iki {{date}}"
+        },
+        "subtitle": "Pateikta: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Rodyti duomenis",
+          "expand_events_accessibility_label": "Rodyti duomenis apie užsakymo konceptą",
+          "hide_events_label": "Slėpti duomenis",
+          "hide_events_accessibility_label": "Slėpti duomenis apie užsakymo koncepciją"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Šis mokėjimo būdas nebeprieinamas būsimiems pirkimams šioje vietoje.",
+          "description_with_replacement": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos iš anksto autorizuotiems mokėjimams šioje vietoje. Pakeiskite jį kitu mokėjimo būdu, kad galėtumėte toliau gauti būsimus užsakymus."
+        },
+        "payment_details": {
+          "draft_label": "Užsakymo koncepcija {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Pridėti užsakymo numerį",
+        "add_modal_title": "Pridėti užsakymo numerį",
+        "close_modal_accessibility_label": "Užsakymo numerio modalas uždaryti",
+        "discard": "Atmesti",
+        "discard_changes_modal_title": "Atmesti pakeitimus?",
+        "edit_accessibility_label": "Redaguoti užsakymo numerį",
+        "edit_modal_title": "Redaguoti užsakymo numerį",
+        "empty_state": "Nėra užsakymo numerio",
+        "modal_po_number_input_label": "Užsakymo numeris",
+        "modal_po_number_input_max_length_error": "Užsakymo numeriai gali būti ne ilgesni nei {{maxLength}} simbolių.",
+        "title": "Pirkimo užsakymo numeris {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Įvyko klaida bandant pašalinti šį adresą. Pabandykite dar kartą arba atnaujinkite puslapį."
+      },
+      "addresses_loading_issue": {
+        "description": "Ryšio klaida. Patikrinkite savo interneto ryšį ir bandykite dar kartą."
+      },
+      "banner_title": {
+        "one": "Yra {{count}} klaida",
+        "other": "Yra {{count}} klaidos"
+      },
+      "failed_address_creation": {
+        "description": "Įvyko problema kuriant jūsų adresą. Atnaujinkite šį puslapį arba patikrinkite savo interneto ryšį."
+      },
+      "failed_address_update": {
+        "description": "Įvyko problema atnaujinant jūsų adresą. Atnaujinkite šį puslapį arba patikrinkite savo interneto ryšį."
+      },
+      "no_access_to_locations": {
+        "description": "Jūs neturite prieigos prie vietų"
+      },
+      "not_found": {
+        "title": "Įvyko problema įkeliant šį puslapį"
+      },
+      "order_not_found": {
+        "description": "Šis užsakymas neegzistuoja arba neturite teisės jo peržiūrėti."
+      },
+      "profile_update_error": {
+        "description": "Įvyko klaida atnaujinant tavo profilį. Atlik puslapio atnaujinimą arba patikrink interneto ryšį."
+      },
+      "retry_action_label": "Bandyti dar kartą",
+      "load_orders_error": {
+        "description": "Pabandykite dar kartą arba grįžkite vėliau.",
+        "retry_button": "Bandyti dar kartą"
+      },
+      "load_paypal_error": {
+        "description": "Įvyko problema įkeliant PayPal. Bandykite dar kartą."
+      },
+      "load_extension_error": {
+        "description": "Atnaujinkite šį puslapį arba bandykite dar kartą po kelių minučių.",
+        "refresh_button": "Atnaujinti puslapį"
+      },
+      "failed_to_upgrade": "Nepavyko atnaujinti kliento paskyros nustatymų.",
+      "logout_everywhere": {
+        "description": "Įvyko klaida atsijungiant. Bandykite dar kartą."
       }
     }
   }
