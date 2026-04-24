@@ -3661,7 +3661,81 @@
       "summary_totals_title_accessibility_label": "Celková objednávka",
       "total": "Celkom",
       "unit_price": "{{price}}/ks",
-      "location": "Poloha"
+      "location": "Poloha",
+      "not_applicable": "n.v.t.",
+      "fully_refunded_label": "VRÁTENÉ PENIAZE",
+      "partially_refunded_label": "ČIASTOČNE VRÁTENÉ",
+      "refunded_amount": "Vrátené",
+      "pagination": {
+        "load_more": "Načítať viac",
+        "load_more_accessibility_label": "Načítať viac položiek",
+        "loading_accessibility_label": "Načítavanie článkov"
+      },
+      "returns": {
+        "expand_events_label": "Zobraziť údaje",
+        "hide_events_label": "Skryť údaje",
+        "print_shipping_label": "Vytlačiť štítok na odoslanie",
+        "return_and_refund_modal_header": "Politika vrátenia peňazí",
+        "ineligible_return_message": "V tejto objednávke nie sú žiadne položky vhodné na vrátenie.",
+        "ineligible_return_message_when_returned": "V tejto objednávke už nie sú žiadne položky, ktoré by bolo možné vrátiť.",
+        "exchange_header": "Výmenné položky",
+        "exchange_subheader": "Výmenné položky budú pridané k objednávke hneď po dokončení vrátenia."
+      },
+      "request_return_failed": "Pri spracovaní tvojej žiadosti sa vyskytol problém. Skús to znova.",
+      "mobile_summary_toggle_button": {
+        "open": "Zobraziť prehľad objednávok",
+        "closed": "Skryť prehľad objednávky"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Zobraziť údaje",
+        "expand_events_accessibility_label": "Zobraziť údaje o doručení objednávky",
+        "hide_events_label": "Skryť údaje",
+        "hide_events_accessibility_label": "Skryť údaje o doručení objednávky"
+      },
+      "show_order_summary": "Zobraziť prehľad objednávok",
+      "hide_order_summary": "Skryť prehľad objednávky",
+      "marketing_description": "Dostávate marketingové e-maily. Môžete sa kedykoľvek odhlásiť.",
+      "marketing_checkbox_label": "Posielajte mi e-maily s novinkami a ponukami",
+      "marketing_checkmark_label": "Ste prihlásený na odber e-mailov s novinkami a ponukami",
+      "image_gallery": {
+        "product_name_and_quantity": "Množstvo {{productName}} {{quantity}}",
+        "next": "Zobraziť ďalšie položky",
+        "previous": "Zobraziť predchádzajúce články",
+        "load_more_items": {
+          "one": "Načítať {{count}} položiek",
+          "other": "Načítať {{count}} položiek"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Stiahnite si aplikáciu Shop na sledovanie balíka",
+        "track_order_with_shop": "Sledovať objednávku cez Shop",
+        "title_header": "Skenovať telefónom",
+        "real_time_delivery_updates": "Po odoslaní objednávky dostanete od Shopu aktuálne informácie o doručení v reálnom čase."
+      },
+      "shop_pay": {
+        "order_completed_with": "Objednávka dokončená s",
+        "learn_more": "Viac informácií"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} pridaných",
+        "removed": "Odstránené",
+        "removed_with_quantity": "{{quantity}} odstránených",
+        "returned_with_quantities": "{{delta}} z {{total}} vrátených",
+        "removed_with_quantities": "{{delta}} van {{total}} odstránených",
+        "return_line_item_removed": "Odstránené z vrátenia",
+        "return_line_item_removed_with_quantities": "{{delta}} odstránené z vrátenia"
+      },
+      "pickup": {
+        "pickup": "Vyzdvihnúť"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Zaplatené pomocou splátok Shop Pay",
+        "description": "Buďte informovaní o svojom platobnom pláne vďaka pripomienkam v aplikácii Shop.",
+        "payment_reminders_button": "Dostávať pripomienky platieb",
+        "desktop_qr_code_content": {
+          "title": "Skenovať spomienky"
+        }
+      }
     }
   }
 }
