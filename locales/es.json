@@ -1408,7 +1408,75 @@
         "markets_pro_disclaimer_terms_and_conditions": "condiciones generales",
         "markets_pro_disclaimer_privacy_policy": "política de privacidad",
         "markets_pro_disclaimer_terms_and_conditions_title": "Condiciones generales para comerciantes registrados",
-        "markets_pro_disclaimer_privacy_policy_title": "Política de privacidad para comerciantes registrados"
+        "markets_pro_disclaimer_privacy_policy_title": "Política de privacidad para comerciantes registrados",
+        "purchase_order_number": {
+          "title": "Número de pedido",
+          "label": "Número de pedido (opcional)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: Se cobrará %{amount_due}.",
+        "waiting_on_taxes_message": "Actualice la página si los impuestos no se calculan en unos segundos.",
+        "waiting_on_taxes_notice": "Calcular impuestos",
+        "order_edit_banner_multiple_items_returned": "{{amount}} devuelto",
+        "shop_pay_installments_label": "Pagos a plazos con Shop Pay",
+        "delete_credit_card_modal": {
+          "confirmation": "¿Estás seguro de que quieres eliminar {{brandName}} que termina en {{lastDigits}}?"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Añadido",
+          "other": "%{count} añadido"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} de {{quantity}} eliminado"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} devuelto",
+          "with_quantities": "{{delta}} de {{quantity}} devueltos"
+        },
+        "edit_credit_card_modal": {
+          "description": "Solo puedes cambiar la dirección de facturación de tu tarjeta.",
+          "fields": {
+            "name": "Nombre en la tarjeta"
+          }
+        },
+        "payment_method": "Método de pago",
+        "expired_payment_method": "El método de pago seleccionado ha caducado",
+        "subscription_heading": "Contrato de suscripción",
+        "use_location_billing_address_label": "Usar la dirección de facturación de la ubicación",
+        "use_location_shipping_address_label": "Usar la dirección de entrega de la ubicación",
+        "purchase_options_agreement_label_wallets": "Al continuar con el pago, aceptas los pagos futuros que se indican en esta página y la política de cancelación.",
+        "gift_card_store_credit": {
+          "add_label": "Agregar un vale de regalo o crédito en tienda",
+          "manage_label": "Gestionar vales de regalo o crédito en tienda"
+        },
+        "saved_credit_card_cvv_verification": "Introduce el código de seguridad de tu tarjeta para fines de verificación.",
+        "afterpay_label": "Paga después",
+        "cashapppay_label": "Pago con Cash App",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eliminado de devolución",
+          "with_quantities": "{{delta}} eliminado de la devolución"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Eliminado de devolución",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eliminado de la devolución",
+        "proposed_gateway_unavailable": "La pasarela de pago propuesta no está disponible",
+        "payment_method_not_available_for_shipping_address_error": "Método de pago no disponible para la dirección de entrega seleccionada. Elija otro método de pago.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero no está disponible para este pedido. Elija otro método de pago.",
+        "paypal_wallet_label": "Cartera PayPal",
+        "payment_method_update_failed": "La actualización del método de pago ha fallado.",
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: El total convertido es %{amount_due}.",
+        "gift_cards_unavailable": "Tu vale de regalo ya no puede usarse para este pedido y por eso ha sido eliminado",
+        "network_card_payment_options": "Elegir una compañía de tarjetas de crédito",
+        "payment_flexibility_terms_id_mismatch": "ID condiciones de flexibilidad de pago no coinciden",
+        "offsite_gateway_review_page_redirect_hint": "Después de revisar tu pedido, serás redirigido a %{gateway_label} para completar tu compra.",
+        "gift_card_checkbox_label": "Aplicar vale de regalo",
+        "blik_label": "Mirada",
+        "grabpay_label": "PagoRápido",
+        "kcp_creditcard_label": "tarjeta de crédito KCP",
+        "simulated_express_checkout": "Las carteras digitales no están disponibles en el ejemplo del editor debido a tu región o navegador",
+        "offsite_gateway_redirect_hint_no_button_label": "Serás redirigido a %{gateway_label} para completar tu compra.",
+        "swish_label": "Ondear",
+        "network_card_persistence_description": "La red seleccionada se guardará con tu método de pago para futuras transacciones.",
+        "payment_method_incompatible_with_payment_terms": "El método de pago es incompatible con los términos de pago.",
+        "billing_address_rollup_accessibility_label": "Opciones para la dirección de facturación"
       }
     }
   }
