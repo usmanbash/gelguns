@@ -1074,7 +1074,69 @@
         "credit_card_start_year": "Jaar alguskuupäev",
         "billing_address_not_supported_for_payment_method_error": "See makseviis ei ole saadaval sinu arveaadressi ja valuuta jaoks. Proovi mõnda teist makseviisi.",
         "change_currency_section_description": "Vali valuutavalik",
-        "no_real_orders_dev_store": "See pood ei saa vastu võtta päris tellimusi ega töödelda päris makseid."
+        "no_real_orders_dev_store": "See pood ei saa vastu võtta päris tellimusi ega töödelda päris makseid.",
+        "subscription_agreement_label_html": "Ma mõistan, et nõustun tellimusega. See uuendatakse märgitud hinnaga ja sagedusega, kuni see lõpeb või <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">tühistatakse</a>.",
+        "waiting_on_payment_methods": "Saadaval makseviiside laadimine...",
+        "apple_pay_payment_error": "Teie makset ei õnnestunud lõpule viia. Proovige uuesti või kasutage mõnda muud makseviisi.",
+        "subscription_card_update_agreement_label": "Muutes oma makseviisi, uuendatakse sinu tellimus ja korduvad maksed tulevikus.",
+        "card_security_vault_notice": "Meil on tulevaste maksete jaoks sinu andmed vaja. Kõik tehingud on turvalised ja krüpteeritud.",
+        "taxes_not_included": "Maksudeta",
+        "no_taxes_banner_content": "Makseid ei lisata sellele tellimusele. Maksusid ei saa enam lisada, kui makse on juba laekunud.",
+        "card_update_label": "Kaardi uuendamine",
+        "paypal": {
+          "connect": "Klõpsa, et ühendada oma PayPal konto"
+        },
+        "subscription_agreement_label": "Üks või mitu ostukorvis olevat eset on edasi lükatud või tellimuspõhine ost. Kui jätkad maksmist, nõustud, et võtame ostusummad automaatselt sinu makseviisi kaudu vastavalt sellel lehel toodud hinnale ja sagedusele, kuni tellimus lõpeb või sa selle ise lõpetad. Kõikide lõpetamiste puhul kehtib %{cancelled}.",
+        "subscription_agreement_cancelled": "tagastuspoliitika",
+        "card_expired": "Aegunud",
+        "card_verification_confirm": "Sisesta oma kaardi turvakood kontrollimiseks.",
+        "different_credit_card_label": "Kasuta teist krediitkaarti",
+        "apple": {
+          "connect": "Klõpsa, et ühendada oma Apple Pay konto",
+          "not_available": "Apple Pay ei ole selles brauseris saadaval. Oma Apple Pay konto sidumiseks pead kasutama Safarit Apple'i seadmes."
+        },
+        "account_connected": "Konto ühendatud.",
+        "billing_address_associated_with_mandate": "Kasutage aadressi, mis on seotud teie makseviisiga",
+        "billing_address_associated_with_mandate_info": "Arve aadressi muutmiseks eemalda oma krediitkaardi andmed ja sisesta need uuesti.",
+        "delete_customer_mandate_modal_cancel": "Tühista",
+        "credit_card_vaulting_sign_in_banner_title": "Salvesta krediitkaart",
+        "credit_card_vaulting_sign_in_banner_info": "Logi sisse või loo konto, et salvestada oma krediitkaart tulevaste ostude jaoks.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Logi sisse",
+        "expiry_long": "(Aegub %{month}/%{year})",
+        "expiry_short": "(Aegub %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Salvesta see krediitkaart minu kontole, et kiiremini maksta",
+        "delete_customer_mandate_modal_title": "Kas soovite selle maksekaardi eemaldada?",
+        "delete_customer_mandate_modal_body": "Kui eemaldate selle kaardi, peate selle uuesti lisama enne, kui saate kaardiga maksta.",
+        "delete_customer_mandate_modal_confirm": "Eemalda kaart",
+        "google": {
+          "connect": "Klõpsa, et ühendada oma Google Pay konto",
+          "error_authorizing": "Makse autoriseerimisel tekkis viga"
+        },
+        "klarna_label": "Klarna",
+        "mor_disclaimer_html": "Kui klõpsad allpool ja lõpetad tellimuse, nõustud ostma oma kauba(d) Global-e kaudu registreeritud kaupmehena selle tehingu jaoks vastavalt <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Üldtingimustele</a> ja Global-e <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privaatsuspoliitikale</a>. Global-e on rahvusvaheline täitmisteenuse pakkuja %{shop_name} jaoks.",
+        "purchase_options_card_update_agreement_label_html": "Kui uuendad makseviisi, annad loa makseteks iga korduva või edasi lükatud ostu puhul vastavalt selle poe <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a>-le.",
+        "multibanco_label": "Multibanco",
+        "receiver_payment_experience_hint": "Pärast tellimuse esitamist saad makseandmed. Tee makse Multibanco kaudu või veebis %{due_days} päeva jooksul.",
+        "pending_payment": {
+          "due_notice": "Sinu makse summas %{amount_due} on tasumisele kuuluv kuupäeval %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Tee oma makse Multibanco kaudu või veebis allolevate andmete abil. %{contact_us} küsimuste korral või makseandmete uuendamiseks.",
+            "entity": "Ühik",
+            "reference": "Viide",
+            "amount": "Summa",
+            "find_nearest_atm": "Leia lähim sularahaautomaat",
+            "buyer_action_info": "Sinu makse summas %{amount_due} on ootel."
+          }
+        },
+        "purchase_options_agreement_label": "Üks või mitu eset sinu ostukorvis on edasi lükatud ost, tellimus või korduv ost. Jätkates maksega, nõustud, et sinu makseviiselt võetakse automaatselt tasu sellel lehel märgitud hinna ja sageduse alusel, kuni see aegub või sa tühistad. Kõikide tühistamiste puhul kehtib %{cancellation_policy_label}.",
+        "update_payment_method": "Makseviisi uuendamine",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Tellimus",
+          "order_contains_fixed_selling_plans": "Kokku võib olla ilma maksude, saatmiskulude, edasilükatud tasude ja mõnede allahindlusteta. Jätka kassasse, et näha täna tasumisele kuuluvat summat."
+        },
+        "purchase_options_agreement_label_html": "Mõistan, et minu ostukorvis olevad üks või mitu eset on edasi lükatud ost, tellimus või korduv ost. Jätkates nõustun <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">tühistamispoliitikaga</a> ning annan loa oma makseviisi koormamiseks sellel lehel märgitud hindade, sageduse ja kuupäevade eest, kuni minu tellimus on täidetud või ma tühistan, kui see on lubatud.",
+        "payment_method_saved": "Makseviis salvestatud",
+        "card_vaulted_company_location": "Kaart salvestatud selle asukoha jaoks"
       }
     }
   },
