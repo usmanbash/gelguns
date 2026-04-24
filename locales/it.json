@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Accedi al negozio utilizzando la password:",
-      "login_password_button": "Accedi utilizzando la password",
+      "login_form_heading": "Entra nel negozio con la password:",
+      "login_password_button": "Accedi con la password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "La tua password",
       "login_form_error": "Password errata!",
-      "login_form_submit": "Accedi",
+      "login_form_submit": "Inserire",
       "admin_link_html": "Sei il proprietario del negozio? <a href=\"/admin\" class=\"link underlined-link\">Accedi qui</a>",
-      "powered_by_shopify_html": "Questo negozio sarà ospitato su {{ shopify }}"
+      "powered_by_shopify_html": "Questo negozio è gestito da {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Condividi su Facebook",
         "share_on_twitter": "Condividi su X",
-        "share_on_pinterest": "Aggiungi un pin su Pinterest"
+        "share_on_pinterest": "Fissa su Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (precedentemente Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,16 +37,16 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continua lo shopping",
+    "continue_shopping": "Torna al negozio",
     "pagination": {
-      "label": "Impaginazione",
+      "label": "Paginazione",
       "page": "Pagina {{ number }}",
       "next": "Pagina successiva",
       "previous": "Pagina precedente"
     },
     "search": {
       "search": "Cerca",
-      "reset": "Cancella termine ricerca"
+      "reset": "Cancella termine di ricerca"
     },
     "cart": {
       "view": "Visualizza carrello ({{ count }})",
@@ -55,32 +55,32 @@
     },
     "share": {
       "copy_to_clipboard": "Copia link",
-      "share_url": "Link",
-      "success_message": "Link copiato negli appunti",
+      "share_url": "Collegamento",
+      "success_message": "Collegamento copiato negli appunti",
       "close": "Chiudi condivisione"
     },
     "slider": {
-      "of": "su",
-      "next_slide": "Scorri verso destra",
-      "previous_slide": "Scorri verso sinistra",
-      "name": "Cursore"
+      "of": "da",
+      "next_slide": "Scorrere verso destra",
+      "previous_slide": "Scorrere a sinistra",
+      "name": "Regolatore a cursore"
     }
   },
   "newsletter": {
-    "label": "Indirizzo email",
-    "success": "Grazie per l'iscrizione",
+    "label": "E-mail",
+    "success": "Grazie per esserti iscritto",
     "button_label": "Iscriviti"
   },
   "accessibility": {
-    "skip_to_text": "Vai direttamente ai contenuti",
-    "close": "Chiudi",
+    "skip_to_text": "Vai subito al contenuto",
+    "close": "Chiudere",
     "unit_price_separator": "per",
-    "vendor": "Produttore:",
+    "vendor": "Venditore:",
     "error": "Errore",
-    "refresh_page": "Scegliendo una selezione si ottiene un aggiornamento completo della pagina.",
+    "refresh_page": "Scegliere una selezione comporta l'aggiornamento completo della pagina.",
     "link_messages": {
       "new_window": "Si apre in una nuova finestra.",
-      "external": "Apre un sito web esterno."
+      "external": "Apri sito web esterno."
     },
     "loading": "Caricamento in corso...",
     "skip_to_product_info": "Passa alle informazioni sul prodotto",
@@ -4140,8 +4140,56 @@
       "signed_out_state": {
         "section_divider": "Più modi per accedere",
         "alternate_divider": "DI",
-        "email_field_label": "Posta elettronica"
+        "email_field_label": "Posta elettronica",
+        "use_email_button": "Usa l'indirizzo e-mail"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Ciao {{first_name}},"
+      },
+      "location_picker": {
+        "sheet_title": "Località",
+        "search_field_placeholder": "Cerca"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, apri sottomenu",
+        "loading_menu": "Carica menu",
+        "sign_in_with_email": "Accedi con e-mail",
+        "sign_in": "Accesso"
       }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "card_number": "Numero della carta",
+        "title": "Sostituire il metodo di pagamento",
+        "replace_with": "Sostituito da",
+        "close_button": "Chiudere",
+        "loading": "Modalità per sostituire il metodo di pagamento in caricamento",
+        "expiry_date": "Scade il {{expiryDate}}",
+        "edit_current_payment_method": "Modifica metodo di pagamento attuale",
+        "edit_selected_payment_method": "Modifica metodo di pagamento selezionato"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "logo %{shop_name}",
+      "step_one": {
+        "heading": "Accesso",
+        "subheading": "Inserisci il tuo indirizzo e-mail e ti invieremo un codice di verifica",
+        "input_field_label": "Indirizzo e-mail",
+        "or": "di",
+        "consent_agreement": "Procedendo, accetti i %{terms}"
+      },
+      "step_two": {
+        "page_title": "Inserisci il codice - %{shop_name}",
+        "heading": "Inserire il codice",
+        "restart_link": "Accedi con un altro indirizzo e-mail"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Inserisci un indirizzo e-mail valido",
+          "invalid_code": "Inserisci il codice corretto di sei cifre"
+        }
+      },
+      "processing": "Elaborazione..."
     }
   }
 }
