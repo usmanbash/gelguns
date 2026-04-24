@@ -4111,7 +4111,85 @@
         },
         "unavailable": {
           "text": "Plata cu card de credit și card de debit nu este disponibilă în acest moment.",
-          "link_text": "Reîncarcă această pagină"
+          "link_text": "Reîncarcă această pagină",
+          "suffix": "sau încearcă din nou mai târziu."
+        }
+      },
+      "add_payment_method": {
+        "title": "Adăugare metodă de plată",
+        "billing_address": {
+          "add_billing_address_button": "Adăugare nouă",
+          "add_billing_address_button_accessibility_label": "Adăugare adresă nouă de facturare",
+          "missing_billing_address_error_message": "Introduceți o adresă de facturare",
+          "default_checkbox": "Setare ca metodă de plată implicită"
+        },
+        "replace_mode_warning": "Dacă elimini această metodă de plată, vor exista consecințe asupra abonamentelor sau comenzilor anticipate. Înlocuiește-o cu o altă metodă de plată pentru a continua să primești comenzile viitoare.",
+        "add_new_button": "Adăugare nouă",
+        "button_title": "Adăugare",
+        "subscription_contracts": {
+          "title": "Folosiți metoda de plată pentru comenzile recurente",
+          "product_details": "Date despre produs",
+          "load_more": "Încarcă mai mult",
+          "more_items": {
+            "one": "Nog {{count}} produs",
+            "other": "Nog {{count}} produse"
+          }
+        },
+        "contracts_update_failed": "Unele contracte de abonament nu au putut fi actualizate",
+        "subscription_contracts_updated": "{{succeeded}} din {{total}} abonamente actualizate",
+        "invalid_wallet_type_error": "Tip portofel digital nevalid",
+        "updating_contracts": {
+          "one": "Se actualizează {{count}} contracte de abonament...",
+          "other": "Se actualizează {{count}} contracte de abonament..."
+        },
+        "contracts_updated": {
+          "one": "Contractul de abonament {{count}} a fost actualizat",
+          "other": "{{count}} contracte de abonament au fost actualizate"
+        },
+        "missing_customer_error": "Ceva nu a mers bine. Încearcă din nou sau contactează asistența."
+      },
+      "card_update_consent": "Această metodă de plată va fi salvată pentru achizițiile viitoare.",
+      "credit_or_debit_card_title": "Card de credit sau card de debit",
+      "google_pay": {
+        "errors": {
+          "generic": "A apărut o problemă cu Google Pay. Încearcă din nou sau folosește o altă metodă de plată.",
+          "missing_billing_address": "Pentru Google Pay ai nevoie de o adresă de facturare. Adaugă una în contul tău."
+        },
+        "loading": "Încarcă Google Pay",
+        "iframe_title_accessibility_label": "Adăugați metoda de plată Google Pay",
+        "loading_accessibility_message": "Încarcă Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Încarcă Apple Pay",
+        "errors": {
+          "generic": "A apărut o problemă cu Apple Pay. Încearcă din nou sau folosește o altă metodă de plată.",
+          "not_available": "Apple Pay nu este disponibil pe acest dispozitiv.",
+          "missing_billing_address": "Pentru Apple Pay ai nevoie de o adresă de facturare. Adaugă una în contul tău."
+        }
+      },
+      "add_payment_method_banner": "Adăugați o metodă de plată pentru finalizarea mai rapidă a cumpărăturilor și servicii pentru autorizare prealabilă",
+      "edit_payment_method_button_accessibility_label": "Modifică {{paymentMethodName}} care se termină cu {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "editează {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Afișează avertismentul de fraudă pentru {{paymentMethodName}} care se termină cu {{lastDigits}}",
+      "default": "Standard",
+      "store_credit": {
+        "accesibility_label": "Credit magazin - {{formattedBalance}}",
+        "expirable_amounts_button": "Vizualizați sumele care vor expira",
+        "details_modal": {
+          "title": "Creditul magazinului care va expira",
+          "amount_label": "Sumă datorată",
+          "expirable_balance_info": "O parte din sold expiră la o dată viitoare.",
+          "expirable_amount_label": "Suma totală care va expira",
+          "expirable_amounts_info": "Sumele care au expirat anterior sunt aplicate primele la finalizarea cumpărăturilor.",
+          "expired_amounts_button": "Vizualizați sumele scadente",
+          "pagination": {
+            "load_more_label": "Încarcă mai mult",
+            "load_more_accessibility_label": "Mai multe sume care vor expira se încarcă"
+          },
+          "events": {
+            "adjustment": "Ajustare",
+            "order_payment": "Plata comenzii"
+          }
         }
       }
     }
