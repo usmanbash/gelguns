@@ -2732,7 +2732,91 @@
             "cannot_be_picked_up": {
               "one": "%{count} cikk nem tölthető be",
               "other": "%{count} cikk nem tölthető be"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} cikk nem küldhető el",
+              "other": "%{count} cikk nem küldhető el"
             }
+          },
+          "remove_item": {
+            "one": "Cikk törlése",
+            "other": "Cikkek eltávolítása"
+          },
+          "ship_separately": {
+            "one": "külön szállításban",
+            "other": "külön szállításban"
+          },
+          "pick_them_up_in_store": {
+            "one": "áru átvétele az üzletben",
+            "other": "áru átvétele az üzletben"
+          }
+        },
+        "items_for_shipping": "Cikkek szállításra",
+        "items_moved_to_shipping_toast": "Azok a cikkek, amelyeket nem lehetett átvenni, áthelyezésre kerültek a szállításhoz",
+        "cross_border": {
+          "modal": {
+            "content": "Ezáltal az összes cikk újra szállításra kerül beállításra. Az átvételi és szállítási helyszíneknek ugyanabban az országban kell lenniük."
+          },
+          "banner": "A kézbesítési módod frissítve lett"
+        }
+      },
+      "captcha": {
+        "title": "Menj végig a CAPTCHA-n a folytatáshoz",
+        "errors": {
+          "not_solved": "Menj végig a CAPTCHA-n a folytatáshoz"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "A rendelésed nem dolgozható fel, mert a kedvezménykód már nem elérhető. Ellenőrizd a rendelésed összegét, és próbáld meg újra."
+      },
+      "wallets": {
+        "return_to_store": "Vissza a boltba",
+        "redirect_hint": "Be kell jelentkezned a {{walletName}} fiókodba.",
+        "logged_in": "Kapcsolódva a {{email}} címhez",
+        "payment_in_progress_body": "A fizetés feldolgozás alatt áll. A rendelés majdnem kész.",
+        "call_to_action": "Fizessen a {{walletName}} segítségével",
+        "errors": {
+          "unavailable": {
+            "title": "A {{walletName}} nem elérhető",
+            "description": "A {{walletName}} nem volt elérhető. Használjon másik fizetési módot, vagy próbálja meg később újra.",
+            "instructions": "Probléma történt a {{walletName}} használata közben. Térjen vissza a boltba, és próbálja újra, vagy fizessen más módon.",
+            "unavailable_for_country": "A(z) {{walletName}} nem elérhető {{countryName}}-ban. Válassz egy másik fizetési módot a vásárlás befejezéséhez."
+          },
+          "generic": "Probléma történt a {{walletName}} használata közben. Próbáld újra, vagy válassz másik fizetési módot.",
+          "terminal": "Probléma merült fel a {{walletName}} használata közben. Kérjük, használjon másik fizetési módot.",
+          "detour": {
+            "stock_problems": "Néhány termék már nem elérhető. Zárd be a {{walletName}}-t, és próbáld újra.",
+            "price_change": "Néhány termék ára megváltozott. Zárd be a {{walletName}}-t a rendelésed ellenőrzéséhez, majd próbáld újra.",
+            "queue": "A pénztárnál állsz sorban. Zárd be a {{walletName}}-t a folytatáshoz.",
+            "currency_change": "Nem használhatsz másik címet a {{walletName}}-vel. Használd az eredeti címet, vagy próbálj ki egy másik fizetési módot."
+          },
+          "unsupported": {
+            "address": "A kereskedő nem tud szállítani a kiválasztott kézbesítési címre.",
+            "postal_code": "Ez a helyszín nem támogatott",
+            "wallet_is_unavailable": "Nem használhatod a {{walletName}}-t ezzel a címmel. Válassz egy másik címet, vagy zárd be a {{walletName}}-t a vásárlás befejezéséhez."
+          },
+          "outdated": {
+            "shipping_method": "A rendelésed szállítási lehetőségei megváltoztak. Ellenőrizd a választásodat.",
+            "payment_terms": "A fizetési feltételek megváltoztak. Ellenőrizd a rendelésedet"
+          },
+          "invalid": {
+            "shipping_address": "Adjon meg egy érvényes kézbesítési címet",
+            "billing_address": "Adjon meg egy érvényes számlázási címet",
+            "shipping_option": "Válasszon érvényes szállítási módot",
+            "email": "Adjon meg egy érvényes e-mail címet",
+            "zone": "Adjon meg egy érvényes államot/tartományt",
+            "postal_code": "Adjon meg egy érvényes irányítószámot vagy postai kódot",
+            "reduction_code": "Adjon meg egy érvényes kedvezménykódot vagy ajándékutalványt",
+            "billing_must_match_shipping": "Meg kell egyezni a kézbesítési címmel.",
+            "phone": "Adjon meg egy érvényes telefonszámot",
+            "emirate": "Adjon meg egy érvényes emirátust",
+            "billing_zone": "Adjon meg egy érvényes államot/tartományt a számlázási címhez",
+            "billing_phone": "Adjon meg egy érvényes telefonszámot a számlázási címhez",
+            "billing_zip": "Adjon meg egy érvényes irányítószámot vagy postai kódot a számlázási címhez"
+          },
+          "missing": {
+            "first_name": "Adjon meg egy keresztnevet",
+            "last_name": "Írjon be egy vezetéknevet"
           }
         }
       }
