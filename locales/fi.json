@@ -718,7 +718,71 @@
             "optional_duties_not_permitted": "Tässä kassalla tullimaksujen kieltäminen ei ole sallittua."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "Tässä kassalla vähittäismyyntijako ei ole sallittu."
+            "retail_attribution_not_allowed": "Tässä kassalla vähittäismyyntijako ei ole sallittu.",
+            "retail_attribution_required": "Tässä kassalla vaaditaan vähittäismyyntijako."
+          },
+          "captcha": {
+            "metadata_missing": "Tässä kassalla on pakollista täyttää varmistuskoodi.",
+            "metadata_mismatch": "Annettu captcha-palveluntarjoaja ja tyyppi eivät vastaa odotettuja arvoja.",
+            "token_missing": "Viimeistele tämä kassalle siirtyminen syöttämällä captcha-tunnus.",
+            "job_enqueue_failed": "Captcha-tarkistustehtävää ei voi laittaa jonoon.",
+            "job_already_queued": "Captcha-tarkistus on jo asetettu tämän tunnuksen jonoon.",
+            "token_expired": "Syötetty captcha-tunnus on vanhentunut. Suorita uusi captcha jatkaaksesi kassalle siirtymistä.",
+            "token_invalid": "Annettu captcha-tunnus oli virheellinen. Suorita uusi captcha jatkaaksesi kassalle siirtymistä.",
+            "token_not_valid_for_session": "Tätä annettua captchaa ei voi käyttää tässä kassalla."
+          },
+          "checkout_source": {
+            "revoked": "Tätä kassaa ei ole enää saatavilla."
+          }
+        },
+        "full_price": "Koko hinta:",
+        "full_title": "{{pageTitle}} - {{shopName}} - kassalle",
+        "google_map_title": "Google-kartta",
+        "submit_for_review_button_label": "Lähetä valvontaa varten",
+        "submit_for_review_notice_label": "Maksu on suoritettava vasta, kun tilauksesi on tarkistettu",
+        "continue_to_payment_plans_button_label": "Jatka maksusuunnitelmiin",
+        "back_button_label": "Palauttaminen",
+        "autocomplete_zero_item": "Ei artikkeleita saatavilla",
+        "autocomplete_powered_by_google": "Mahdollistettu {{brandName}} avulla",
+        "processing": "Käsitellään...",
+        "stepper": {
+          "increase": "{{type}} kasvu",
+          "decrease": "{{type}} nouto",
+          "minimum_reached": "Vähimmäisvakuutus {{value}} saavutettu",
+          "maximum_reached": "Maksimivan {{value}} saavutettu"
+        },
+        "dates": {
+          "weekdays": {
+            "monday": "maanantai",
+            "tuesday": "tiistai",
+            "wednesday": "keskiviikko",
+            "thursday": "torstai",
+            "friday": "perjantai",
+            "saturday": "lauantai",
+            "sunday": "sunnuntai"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "tehdä.",
+            "friday": "vr.",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "tammikuu",
+            "february": "helmikuu",
+            "march": "maaliskuu",
+            "april": "huhtikuu",
+            "may": "mei",
+            "june": "nuori",
+            "july": "heinäkuu",
+            "august": "elohopea",
+            "september": "syyskuu",
+            "october": "lokakuu",
+            "november": "marraskuu",
+            "december": "joulukuu"
           }
         }
       }
