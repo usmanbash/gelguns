@@ -2846,7 +2846,69 @@
       },
       "offsite_payment_failed": {
         "payment_not_processed_text": "Skenirajte QR-kod ponovno. Ako i dalje ne radi, obavijestite naše zaposlenike i pokušajte s drugom metodom plaćanja.",
-        "payment_link_expired_title": "Veza za plaćanje je istekla"
+        "payment_link_expired_title": "Veza za plaćanje je istekla",
+        "payment_link_expired_text": "Skenirajte QR kod ponovno.",
+        "title": "Neuspjela vanjska uplata"
+      },
+      "taxes": {
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifikacijski broj (opcionalno)",
+            "tooltip": "Provjerava PDV identifikacijski broj i automatski primjenjuje prijenos porezne obveze na narudžbe koje ispunjavaju uvjete za to"
+          },
+          "add": "Dodavanje PDV broja",
+          "vaulted": "Btw-identifikacijski broj: %{number}",
+          "badge": "Btw-identifikacijski broj: %{number}",
+          "domestic_order": "Pravila o prijenosu porezne obveze vrijede samo za prekogranične narudžbe unutar EU. Za lokalne narudžbe obračunava se standardni PDV.",
+          "status": {
+            "invalid_format": {
+              "at": "Porezni identifikacijski broj za Austriju sadrži AT i 9 znakova",
+              "be": "Porezni identifikacijski broj za PDV u Belgiji sadrži BE i 10 znakova",
+              "bg": "PDV identifikacijski broj iz Bugarske sadrži BG i 9-10 znakova",
+              "hr": "Porezni identifikacijski broj Hrvatske sadrži HR i 11 znakova",
+              "cy": "Porezni identifikacijski broj s Cipra sadrži CY i 9 znakova",
+              "cz": "Porezni identifikacijski broj Češke sadrži CY i 8-10 znakova.",
+              "dk": "Porezni identifikacijski broj Danske sadrži DK i 8 znakova",
+              "ee": "Porezni identifikacijski broj Estonije sadrži EE i 9 znakova",
+              "fi": "Porezni identifikacijski broj iz Finske sadrži FI i 8 znakova",
+              "fr": "Porezni identifikacijski broj Francuske sadrži FR i 11 znakova",
+              "de": "Njemački PDV identifikacijski broj sadrži DE i 9 znakova",
+              "gr": "PDV identifikacijski broj Grčke sadrži EL i 9 znakova",
+              "hu": "Porezni identifikacijski broj Mađarske sadrži HU i 8 znakova",
+              "ie": "Porezni identifikacijski broj Irske sadrži IE i 8-9 znakova",
+              "it": "Porezni identifikacijski broj Italije sadrži IT i 11 znakova",
+              "lv": "Porezni identifikacijski broj Latvije sadrži LV i 11 znakova",
+              "lt": "PDV identifikacijski broj Litve sadrži LT i 9-12 znakova",
+              "lu": "Porezni identifikacijski broj Luksemburga sadrži LU i 8 znakova",
+              "mt": "Porezni identifikacijski broj Malte sadrži MT i 8 znakova",
+              "nl": "Porezni identifikacijski broj Nizozemske sadrži NL i 12 znakova",
+              "pl": "PDV identifikacijski broj Poljske sadrži PL i 10 znakova",
+              "pt": "PDV identifikacijski broj Portugala sadrži PT i 9 znakova",
+              "ro": "Porezni identifikacijski broj (PDV) iz Rumunjske sadrži RO i 10 znakova",
+              "sk": "Porezni identifikacijski broj Slovačke sadrži SK i 10 znakova",
+              "si": "PDV identifikacijski broj Slovenije sadrži SI i 8 znakova",
+              "es": "Porezni identifikacijski broj Španjolske sadrži ES i 9 znakova",
+              "se": "Porezni identifikacijski broj Švedske sadrži SE i 12 znakova",
+              "gb": "Porezni identifikacijski broj za PDV u Ujedinjenom Kraljevstvu sadrži GB ili XI i 5-12 znakova"
+            },
+            "invalid_number": {
+              "at": "Unesite važeći austrijski PDV identifikacijski broj",
+              "be": "Unesite važeći belgijski identifikacijski broj PDV-a",
+              "bg": "Unesite važeći bugarski PDV identifikacijski broj",
+              "hr": "Unesite važeći hrvatski PDV identifikacijski broj",
+              "cy": "Unesite važeći ciparski PDV identifikacijski broj",
+              "cz": "Unesite važeći češki PDV identifikacijski broj",
+              "dk": "Unesite važeći danski PDV identifikacijski broj",
+              "ee": "Unesite važeći estonski PDV identifikacijski broj",
+              "fi": "Unesite važeći finski PDV identifikacijski broj",
+              "fr": "Unesite važeći francuski PDV identifikacijski broj",
+              "de": "Unesite važeći njemački PDV identifikacijski broj",
+              "gr": "Unesite važeći grčki PDV identifikacijski broj",
+              "hu": "Unesite važeći mađarski PDV identifikacijski broj",
+              "ie": "Unesite važeći irski PDV identifikacijski broj"
+            }
+          }
+        }
       }
     }
   }
