@@ -1620,7 +1620,67 @@
           "long": "Saad e-kirja, kui su tellimus on töödeldud. Hetkel on palju tellimusi.",
           "no_auto_refresh_html": "%{link}, kui sind ei suunata automaatselt edasi.",
           "refresh_this_page": "Laadi see leht uuesti"
-        }
+        },
+        "you_will_not_be_charged": "Kulusid veel ei arvestata",
+        "action_required": "Toiming nõutud",
+        "redirecting_to_bank": "Suuna ümber {{bank}} juurde",
+        "modal_notice": "Võtame ühendust {{paymentMethod}} kaudu",
+        "remote_shops_payments_processing": "Makse töötlemine",
+        "remote_checkout_count": "%{current} kuni %{total}"
+      },
+      "failed_payment": {
+        "page_title": "Makse ei saa töödelda",
+        "title": "Makse ei saa töödelda",
+        "payment_not_processed_title": "Teie makset ei õnnestunud töödelda.",
+        "payment_not_processed_text": "Kulusid ei ole arvele võetud. Naase oma ostukorvi, et ostu lõpetada.",
+        "return_to_cart_button_label": "Tagasi ostukorvi"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Krediitkaart",
+        "bank_deposit_label": "Pangasissemakse",
+        "cash_on_delivery_label": "Tagasimakse",
+        "money_order_label": "Postivahetus",
+        "debit_card_label": "Maksekaart",
+        "deferred_payment_label": "Vali hiljem makseviis",
+        "generic_payment_terms": "De {{translatedName}} maksetingimused kehtivad. Teie makse aegub {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} kontole, et lisada või kasutada selle asukoha juurdepääsuga kontot või salvestatud makseviise.",
+            "link": "Logi sisse"
+          }
+        },
+        "direct_payment_terms": "Kehtivad on {{translatedName}} tingimused. Raha võetakse sinu kaardilt maha kuupäeval {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Makse tuleb tasuda kohe, kui tellimus on töödeldud.",
+        "order_due_on_fulfillment_payment": "Raha võetakse sinu kaardilt maha kohe, kui tellimus on töödeldud.",
+        "draft_order_payment_due_later_no_terms": "Makse tuleb tasuda kohe, kui tellimus on kinnitatud.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Raha võetakse sinu kaardilt maha kohe, kui tellimus on kinnitatud.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}} tingimused kehtivad kohe, kui tellimus on kinnitatud.",
+        "draft_order_payment_due_on_fulfillment": "Makse tuleb tasuda kohe, kui tellimus on kinnitatud ja töödeldud.",
+        "fixed_payment_label": "Makse tuleb tasuda {{dueDate}}.",
+        "fixed_direct_payment_terms": "See võetakse sinu kaardilt arvele kuupäeval {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} tuleb täna tasuda. Saldo suhtes kehtivad {{translatedName}} tingimused ja see tuleb tasuda hiljemalt {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} tuleb täna tasuda. Jääk tuleb tasuda kohe, kui sinu tellimus on töödeldud.",
+        "order_due_on_receipt_choose_later": "Makse tuleb tasuda kättesaamisel.",
+        "draft_order_deposit_due_later": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Saldo osas kehtivad {{translatedName}} tingimused.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Jääk tuleb tasuda, kui sinu tellimus on töödeldud.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} tuleb täna tasuda. Jääk tuleb tasuda hiljem.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} tuleb täna tasuda. Jääk tuleb tasuda {{dueDate}}.",
+        "bank_account_label": "Pangakonto",
+        "credit_or_debit_card_label": "Krediit-/deebetkaart"
+      },
+      "thank_you": {
+        "title": "Täname sind ostu eest!",
+        "confirmation_email_sent_text": "Kinnitusmeil on saadetud aadressile %{email}",
+        "return_to_store_link_label": "Tagasi poodi",
+        "print_link_label": "Ostutšeki printimine",
+        "payment_information_title": "Makseandmed",
+        "shipping_information_title": "Saatmisandmed",
+        "page_title": "Aitäh, %{display_name}.",
+        "page_title_no_name": "Aitäh!",
+        "cancelled_page_title": "Tellimus tühistatud",
+        "customer_information_title": "Tellimuse andmed",
+        "contact_information_title": "Kontaktandmed",
+        "billing_address_title": "Arve aadress"
       }
     }
   },
