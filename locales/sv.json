@@ -2236,7 +2236,105 @@
       },
       "throttle": {
         "line_to_check_out": "Du står i kön för att betala",
-        "cart_summary_heading": "Din kundvagn"
+        "cart_summary_heading": "Din kundvagn",
+        "merchandise": {
+          "available": "Tillgänglig"
+        },
+        "inventory": {
+          "partial_inventory_banner": "En del av din kundvagn är slut i lager och kan inte köpas vid kassan.",
+          "sold_out": {
+            "heading": "Din kundvagn är slut i lager",
+            "no_storefront_body": "Den vara du ville köpa finns tyvärr inte längre tillgänglig."
+          }
+        },
+        "time_to_checkout_title": "Dags att betala - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Beräkna uppskattad väntetid",
+          "less_than_one": "Beräknad väntetid: mindre än en minut"
+        },
+        "footer": {
+          "heading": "Du behöver inte uppdatera denna sida, den uppdateras automatiskt.",
+          "body": "Artiklarna i din kundvagn reserveras först när du har slutfört köpet."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Det uppstod ett problem vid behandlingen av din förfrågan. Vänligen kontakta butikens ägare."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Den här varan tas bort från din kundvagn eftersom det inte finns några leveranssätt tillgängliga för din adress.",
+            "other": "Den här varan tas bort från din kundvagn eftersom det inte finns några leveranssätt tillgängliga för din adress."
+          }
+        }
+      },
+      "no_address_location": {
+        "header": "Det finns ingen leveransadress för denna plats",
+        "message": "Kontakta oss för att lägga till en adress för denna plats, så att du kan slutföra utcheckningen.",
+        "email_us_button_label": "Skicka oss ett e-postmeddelande",
+        "alt_header": "Leveransadress saknas"
+      },
+      "order_errors": {
+        "creation_failure": "Det uppstod ett problem när din beställning skulle skapas. Försök igen eller kontakta oss för mer information.",
+        "network_failure": "Din beställning kunde inte skickas på grund av ett nätverksfel. Kontrollera din anslutning och försök igen.",
+        "inventory_reservation_failure": "Vissa artiklar finns inte längre tillgängliga."
+      },
+      "session_errors": {
+        "session_not_unique": "Ett problem uppstod vid behandlingen av din beställning. Uppdatera denna sida för att återgå till butiken.",
+        "session_already_finished": "Denna beställning har redan skickats in. Du kan gå tillbaka till butiken för att starta en ny beställning."
+      },
+      "pickup_point": {
+        "title": "Utlämningsställe",
+        "or": "av",
+        "search_button": "Sök",
+        "selector_tabs": "Utlämningsställe-väljare",
+        "selector_tab_map": "Kort",
+        "could_not_resolve_address": "Kan inte hitta din adress. Försök igen eller använd en annan adress",
+        "no_pickup_points_near_you": "Inga upphämtningsställen hittades i närheten av den valda adressen",
+        "no_pickup_points_near_location": "Inga upphämtningsställen hittades i närheten av din plats",
+        "no_pickup_points_found": "Inga upphämtningsställen hittades",
+        "paginator": {
+          "header": {
+            "one": "Visar %{first} - %{last} av %{count} poäng",
+            "other": "Visar %{first} - %{last} av %{count} poäng"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} av %{count} punkt",
+            "other": "%{pickup_point_index} av %{count} punkter"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} av %{count} poäng",
+            "other": "%{first} - %{last} av %{count} poäng"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} upphämtningsställe nära din plats",
+          "other": "%{count} upphämtningsställen nära din plats"
+        },
+        "waiting_on_pickup_point_location_notice": "Söker upphämtningsställen...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Geolokalisering stöds inte av din webbläsare. Försök igen eller använd en annan webbläsare.",
+            "permission_not_allowed": "Tillåt platsdelning.",
+            "permission_denied": "Kan inte hämta din plats. Försök igen."
+          }
+        },
+        "no_business_hours": "Inga öppettider tillgängliga",
+        "open_twenty_four_hours": "öppet dygnet runt",
+        "pickup_unavailable_banner_title": {
+          "one": "Inga upphämtningsställen tillgängliga för din artikel",
+          "other": "Inga upphämtningsställen tillgängliga för dina artiklar"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Det uppstod ett problem vid kassan",
+          "message": "Uppdatera denna sida eller försök igen om några minuter",
+          "action": {
+            "cta": "Ladda om sidan"
+          },
+          "request_id": "Begäran-ID: {{requestId}}"
+        }
       }
     }
   }
