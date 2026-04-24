@@ -3594,7 +3594,85 @@
         "multiple_tax_exemptions": "Ancora {{taxExemptionsCount}}",
         "multiple_tax_exemptions_and": "it",
         "tax_exemptions_modal_close": "Chiudere",
-        "taxes_none": "Nessuno"
+        "taxes_none": "Nessuno",
+        "tax_exemption_not_applicable": "n.d.",
+        "tax_exemptions_modal_button_accessibility_label": "Mostra tutte le esenzioni fiscali",
+        "pagination": {
+          "load_more": "Carica di più"
+        },
+        "staff_and_permissions_title": "Dipendenti e autorizzazioni",
+        "location_picker_accessibility_label": "Nome località: {{locationName}}",
+        "deposit_percentage": "{{percentage}} deposito"
+      },
+      "location_selection": {
+        "description": "Se hai già articoli nel carrello, modificare la posizione potrebbe influire sui prezzi e sulle quantità nel carrello.",
+        "list_accessibility_label": "Elenco delle sedi",
+        "list_loading_accessibility_message": "Caricamento elenco delle sedi",
+        "list_loading_address_accessibility_message": "Caricamento indirizzo per {{locationName}}",
+        "loading_store_accessibility_message": "In viaggio verso il negozio",
+        "selection_confirmation_button": "Scegliere la posizione",
+        "title": "Per quale luogo stai acquistando?",
+        "continue_to_store": "Continua al negozio",
+        "no_location_description": "Non sei più autorizzato a effettuare ordini per {{company}}. Puoi comunque effettuare ordini personali.",
+        "clear_search": "Svuota ricerca",
+        "search_location_title": "Seleziona una posizione",
+        "description_switch_later": "Puoi sempre cambiare in seguito",
+        "title_choose_location": "Scegli una posizione"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Aggiungi indirizzo di consegna",
+        "add_shipping_address_section_accessibility_label": "Aggiungi indirizzo di consegna",
+        "cancel_adding_billing_address_accessibility_label": "Aggiungi indirizzo di fatturazione annulla",
+        "cancel_adding_shipping_address_accessibility_label": "Aggiungi indirizzo di consegna annulla",
+        "save_new_shipping_address_accessibility_label": "Salva indirizzo di consegna",
+        "shipping_address_card_title": "Indirizzo di consegna"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Nascondi tutti gli ordini in valutazione",
+          "show_all_accessibility_label": "Mostra tutti gli ordini in fase di valutazione",
+          "title": "In trattamento",
+          "pagination": {
+            "nav_accessibility_label": "Pulsanti di navigazione per ordini in valutazione"
+          },
+          "show_all_orders_in_review": "Mostra tutti gli ordini in fase di valutazione",
+          "show_less_orders_in_review": "Mostra meno ordini in valutazione",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Non hai ordini in corso",
+            "pending_orders": {
+              "one": "Hai {{count}} ordine in lavorazione",
+              "other": "Hai {{count}} ordini in lavorazione"
+            },
+            "more_than_pagination_length": "Hai più di {{count}} ordini in lavorazione"
+          },
+          "pending_orders_count_more_than_pagination_length": "più di {{count}}"
+        },
+        "order_list_column_headers_location": "Posizione",
+        "order_list_column_headers_contact": "Contatto",
+        "removed_company_contact_tooltip": "Rimosso dall'azienda"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confermato il {{date}} per l'ordine {{draftOrderName}}",
+        "loading": "Caricamento dati dell'ordine",
+        "loading_finished_accessibility_message": "Dati dell'ordine caricati",
+        "payment_status": {
+          "draft": {
+            "description": "I dati di pagamento vengono determinati una volta che l'ordine è stato confermato.",
+            "title": "Il pagamento non è ancora dovuto",
+            "in_review": {
+              "description": "I dati di pagamento vengono determinati una volta che l'ordine è stato confermato.",
+              "title": "Il pagamento non è ancora dovuto"
+            },
+            "submitted": {
+              "description": "Paga per confermare questo ordine.",
+              "title": "Pagare per confermare",
+              "deposit": {
+                "title": "Il pagamento è dovuto",
+                "due_later": "Per il saldo valgono le condizioni di {{translatedName}} ed è dovuto entro {{dueDate}}."
+              }
+            }
+          }
+        }
       }
     }
   }
