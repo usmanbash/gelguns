@@ -1498,7 +1498,73 @@
         "subscription_heading": "Contrato de assinatura",
         "use_order_billing_address_label": "Usar o endereço de faturação da encomenda",
         "use_location_billing_address_label": "Usar o endereço de faturação da localização",
-        "use_location_shipping_address_label": "Usar o endereço de entrega da localização"
+        "use_location_shipping_address_label": "Usar o endereço de entrega da localização",
+        "purchase_options_agreement_label_wallets": "Ao continuar com o pagamento, concorda com os pagamentos futuros indicados nesta página e com a política de cancelamento.",
+        "gift_card_store_credit": {
+          "add_label": "Adicionar um vale-presente ou crédito de loja",
+          "manage_label": "Gerir vales-presente ou crédito de loja"
+        },
+        "saved_credit_card_cvv_verification": "Introduza o código de segurança do seu cartão para fins de verificação.",
+        "afterpay_label": "Pague Depois",
+        "cashapppay_label": "Pagamento Cash App",
+        "card_nickname_label": "Apelido (opcional)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} removido da devolução"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} removido da devolução",
+        "proposed_gateway_unavailable": "A porta de pagamento sugerida não está disponível",
+        "pay_in_installments_split_pay_short": "Quatro pagamentos de %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Método de pagamento não disponível para o endereço de entrega escolhido. Escolha outro método de pagamento.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero não está disponível para esta encomenda. Escolha outro método de pagamento.",
+        "payment_method_update_failed": "A atualização do método de pagamento falhou.",
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: O total convertido é %{amount_due}.",
+        "gift_cards_unavailable": "O seu vale-presente já não pode ser utilizado para esta encomenda e foi por isso removido",
+        "network_card_payment_options": "Escolher uma empresa de cartões de crédito",
+        "payment_flexibility_terms_id_mismatch": "ID condições de flexibilidade de pagamento não correspondem",
+        "offsite_gateway_review_page_redirect_hint": "Depois de verificar a encomenda, serás redirecionado para %{gateway_label} para concluir a tua compra.",
+        "gift_card_checkbox_label": "Aplicar vale-presente",
+        "grabpay_label": "Pagar com Grab",
+        "kcp_creditcard_label": "KCP-cartãodecrédito",
+        "simulated_express_checkout": "As carteiras digitais não estão disponíveis no exemplo do editor devido à sua região ou navegador",
+        "offsite_gateway_redirect_hint_no_button_label": "Serás redirecionado para %{gateway_label} para concluir a tua compra.",
+        "swish_label": "Sussurrar",
+        "network_card_persistence_description": "A rede selecionada será guardada com o seu método de pagamento para futuras transações.",
+        "payment_method_incompatible_with_payment_terms": "O método de pagamento é incompatível com os termos de pagamento.",
+        "payment_option": {
+          "accessibility_label": "Escolha uma opção de pagamento"
+        },
+        "billing_address_rollup_accessibility_label": "Opções para morada de faturação",
+        "payment_method_rollup_accessibility_label": "Opções para método de pagamento",
+        "crypto_modal": {
+          "header": "Pague %{shop_name} %{total_price} USDC",
+          "error": {
+            "sandbox_error": "Algo correu mal"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Conta de pagamento",
+          "savings": "Conta poupança"
+        },
+        "bank_account_choose": "Escolha uma conta para concluir a sua compra com segurança",
+        "bank_account_connect_another": "Ligar outra conta bancária",
+        "bank_account_connect": "Ligar conta bancária",
+        "crypto_payment_method": {
+          "description": "Ligue a sua carteira com segurança. O seu saldo e endereço não serão partilhados.",
+          "tooltip": "O saldo da sua carteira e o seu endereço não são partilhados e apenas o montante solicitado pode ser deduzido",
+          "cashback_descriptor": {
+            "one": "Receberás o teu cashback após %{count} dias",
+            "other": "Receberás o teu cashback após %{count} dias"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% de reembolso",
+        "usdc_cashback_additional_info": "Pague com USDC na Base e receba %{incentive_percentage}% de volta na sua carteira digital dentro de 30 dias.",
+        "usdc_cashback_terms": "Termos e limites aplicáveis",
+        "separate_payments_label": "Os seus artigos provêm de mais de uma loja. Deve efetuar o pagamento com %{separate_payments_link}.",
+        "payments": "Pagamento",
+        "business_customer_with_bank_account_vaulting_payment_label": "Guarde este método de pagamento no checkout e autorize %{company} a cobrar a sua conta para futuras compras que aprovar para esta localização, até cancelar. Todos os contactos atribuídos a esta localização podem usar o método de pagamento.",
+        "new_bank_account_disclaimer": "Ao concluir a sua encomenda, autoriza %{shop_name} a debitar o montante indicado na data mencionada da conta abaixo através de ACH.",
+        "bank_account_disclaimer": "Pode demorar até 4 dias úteis a processar os pagamentos ACH.",
+        "bank_account_vaulted_company_location": "Conta bancária guardada para este local"
       }
     }
   }

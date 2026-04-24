@@ -4429,7 +4429,99 @@
       "showNextMonth": "Rodyti kitą mėnesį, {{month}} {{year}}",
       "showPreviousMonth": "Rodyti praėjusį mėnesį, {{month}} {{year}}",
       "rangeStart": "Pradėti pasiekti",
-      "inRange": "Pasiekiama"
+      "inRange": "Pasiekiama",
+      "rangeEnd": "Pabaiga pasiekta",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} prekė(-ių) prieinama",
+        "other": "{{count}} straipsnių prieinama"
+      },
+      "removeTag": "Pašalinti žymę",
+      "month": {
+        "other": "mėnesiai"
+      },
+      "mapClusterTitle": {
+        "one": "Klasteris iš {{number}} žymėjimo taškų",
+        "other": "Klasteris iš {{number}} žymėjimo taškų"
+      },
+      "expandSheet": "Išskleisti",
+      "dropzoneInvalidFileType": "Šis failo tipas nėra palaikomas",
+      "dropzoneDraggedOver": "Įkelti failą",
+      "clipboardFailedToCopy": "Ne nukopijuota",
+      "clear": "Žinios"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Slėpti balkoną",
+      "navigate_to_admin": "Eiti į valdymo centrą",
+      "previewing": "Jūs peržiūrite pavyzdį iš:",
+      "viewing": "Jūs žiūrite į:",
+      "not_available": "Profilio duomenys nėra prieinami",
+      "close_preview": "Uždaryti pavyzdį",
+      "actions_button": "Akcijos"
+    },
+    "settings": {
+      "loading_accessibility_message": "Įkeliama nustatymų puslapis",
+      "title": "Nustatymai",
+      "log_out_everywhere": {
+        "title": "Atsijungti iš visų paskyrų",
+        "description": "Jei prarandate įrenginį arba nerimaujate dėl saugumo, atsijunkite visur, kad užtikrintumėte savo paskyros saugumą.",
+        "button": "Atsijungti nuo visų įrenginių",
+        "warning_message": "Jūs taip pat būsite atsijungę šiame įrenginyje."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Atidaryta {{date}} nuo {{time}}",
+        "lessThanOneWeekAgo": "Atidaryta {{weekday}} nuo {{time}}",
+        "lessThanOneWeekAway": "Atidaryta {{weekday}} nuo {{time}}",
+        "lessThanOneYearAway": "Atidaryta {{date}} nuo {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "prieš {{count}} minutes",
+          "other": "prieš {{count}} minutes"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Pasirinkite plėtinį pavadinimu '{{extensionName}}'",
+        "unselect": "Atšaukti pasirinkimą plėtinyje pavadinimu '{{extensionName}}'",
+        "move_down": "Perkelti į kitą poziciją",
+        "move_up": "Išplėtimą perkelti į ankstesnę poziciją",
+        "move_up_tooltip": "Grįžti į ankstesnę poziciją"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Negalite atidaryti šios nuorodos redaktoriuje. Nuoroda bus atidaryta naujame lange ({{resolved_to_link}}). Spustelėkite Gerai, kad tęstumėte."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Pabandykite dar kartą po kelių minučių"
+      }
+    },
+    "shop_ads": {
+      "title": "Kiti produktai, kurie jums gali patikti",
+      "subtitle": "Laikinai prieinama",
+      "button": "Naršyti parduotuvėje"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Klientai gali patys prašyti ir tvarkyti prekių grąžinimus.",
+        "disabled": "Klientai turi susisiekti su pardavėju, kad pateiktų pretenziją dėl grąžinimo."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Slapukų nuostatos"
+    },
+    "announcement_bar": {
+      "expand_label": "Išskleisti pranešimų juostą",
+      "collapse_label": "Suskleisti pranešimų juostą",
+      "close_label": "Uždaryti pranešimų juostą"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Mokėjimo metodo keitimas",
+        "loading": "Mokėjimo būdų įkėlimas",
+        "no_payment_methods_available": "Nėra prieinamų mokėjimo būdų"
+      }
     }
   }
 }
