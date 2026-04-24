@@ -387,25 +387,25 @@
       "variant_total": "Visas variantas",
       "items_added": {
         "one": "Pridėta {{ quantity }} prekė",
-        "other": "Pridėtos {{ quantity }} prekės (-ių)",
+        "other": "Pridėta {{ quantity }} prekių",
         "few": "Pridėtos {{ quantity }} prekės (-ių)",
         "many": "Pridėtos {{ quantity }} prekės (-ių)"
       },
       "items_removed": {
-        "one": "Pašalinta {{ quantity }} prekė",
-        "other": "Pašalintos {{ quantity }} prekės (-ių)",
+        "one": "{{ quantity }} straipsnis pašalintas",
+        "other": "{{ quantity }} straipsnių pašalinta",
         "few": "Pašalintos {{ quantity }} prekės (-ių)",
         "many": "Pašalintos {{ quantity }} prekės (-ių)"
       },
-      "product_variants": "Gaminio variantai",
-      "total_items": "Prekių iš viso",
-      "remove_all_items_confirmation": "Pašalinti visas {{ quantity }} prekes (-ių) iš krepšelio?",
-      "remove_all": "Pašalinti viską",
+      "product_variants": "Produkto variantai",
+      "total_items": "Visas straipsnių skaičius",
+      "remove_all_items_confirmation": "Ištrinti visus {{ quantity }} prekes iš jūsų pirkinių krepšelio?",
+      "remove_all": "Ištrinti viską",
       "cancel": "Atšaukti",
-      "remove_all_single_item_confirmation": "Pašalinti 1 prekę iš krepšelio?",
-      "min_error": "Nustatytas mažiausias šios prekės kiekis: {{ min }}",
-      "max_error": "Nustatytas didžiausias šios prekės kiekis: {{ max }}",
-      "step_error": "Galima pridėti tik po {{ step }} vnt. šios prekės"
+      "remove_all_single_item_confirmation": "Pašalinti 1 prekę iš jūsų pirkinių krepšelio?",
+      "min_error": "Šiam straipsniui taikomas minimalus kiekis {{ min }}.",
+      "max_error": "Šiam straipsniui taikoma {{ max }} riba.",
+      "step_error": "Šį straipsnį galite pridėti tik po {{ step }} žingsnius"
     }
   },
   "localization": {
