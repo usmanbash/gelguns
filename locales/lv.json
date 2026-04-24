@@ -821,7 +821,85 @@
           "prepaid_initial_order_discounted_with_renewal": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency}, pēc tam %{shipping_price} %{billing_cycle}",
           "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Pirmās piegādes izmaksas %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), pēc tam %{shipping_price} %{billing_cycle}",
           "shipping_price_included": "Iekļauts",
-          "recurring_order_shipping_price": "pēc tam %{recurring_order_shipping_price}"
+          "recurring_order_shipping_price": "pēc tam %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Pirmā pasūtījuma piegāde iekļauta, pēc tam %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par piegādi), pēc tam %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Pirmā pasūtījuma piegāde bez maksas",
+            "other": "Pirmie %{count} pasūtījumi bez maksas"
+          },
+          "free_for_first_n_order": {
+            "one": "Pirmajam pasūtījumam",
+            "other": "Pirmajām %{count} pasūtījumiem"
+          },
+          "subscription_free_with_frequency_label": "Bezmaksas piegāde %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Bezmaksas piegāde vēl %{count} papildus piegādēm",
+            "other": "Bezmaksas piegāde vēl %{count} papildu piegādēm"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Bezmaksas piegāde %{count} piegādei",
+            "other": "Bezmaksas piegāde %{count} piegādēm"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Bezmaksas piegāde vēl %{count} papildu piegādēm, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde vēl %{count} papildu piegādēm, pēc tam %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Bezmaksas piegāde %{count} piegādei, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde %{count} piegādēm, pēc tam %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} papildu piegāde par %{shipping_price}",
+            "other": "%{count} papildu piegādes par %{shipping_price} katrai piegādei"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} piegāde par %{shipping_price}",
+            "other": "%{count} papildu piegādes par %{shipping_price} katrai piegādei"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Bezmaksas piegāde pirmajā %{cycle}, pēc tam %{recurring_order_shipping_price}",
+            "other": "Bezmaksas piegāde pirmajā %{cycle}, pēc tam %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} par vēl %{count} papildu piegādi",
+            "other": "%{shipping_price} vēl %{count} papildu piegādēm (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} par %{count} piegādi",
+            "other": "%{shipping_price} par %{count} piegādēm (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} par vēl %{count} papildu piegādi, pēc tam %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} vēl %{count} papildu piegādēm (%{per_delivery_cost}), pēc tam %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} par %{count} piegādi, pēc tam %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} par %{count} piegādēm (%{per_delivery_cost}), pēc tam %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Paredzamā piegāde %{time}",
+        "estimated_delivery_time_range": "Paredzamā piegāde %{min_time}–%{max_time}",
+        "arrives_time": "Tiks piegādāts %{time}",
+        "arrives_time_range": "Tiks piegādāts laikā no %{min_time} līdz %{max_time}",
+        "estimated_time": "Paredzams %{time}",
+        "estimated_time_range": "Paredzams %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Abonements vietējai piegādei",
+        "subscription_pickup": "Abonēšanas saņemšana",
+        "delivery_today": "Piegāde tajā pašā dienā līdz %{time}",
+        "delivery_tomorrow": "Piegāde nākamajā dienā līdz %{time}",
+        "two_day_delivery": "Piegāde 2 dienu laikā līdz %{time}",
+        "delivery": "Piegāde aptuveni %{time}",
+        "duties_and_taxes_title": "Muitas nodevas un nodokļi",
+        "shipping_information_required_notice": "Piegādes dati ir obligāti. {{link}}.",
+        "shipping_information_redirect_link": "Ievadiet šeit savus datus",
+        "loading_progressive_rates": "Meklēt vairāk tarifu...",
+        "no_other_methods_available": "Nav pieejamas citas metodes",
+        "duties_and_taxes_options": {
+          "ddu_title": "Maksāt pie piegādes",
+          "ddu_caption": "Var tikt piemērotas papildu izmaksas",
+          "ddp_title": "Tagad maksāt",
+          "ddp_caption": "Piegāde bez papildu maksas"
         }
       }
     }
