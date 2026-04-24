@@ -501,8 +501,68 @@
         },
         "continue_cta_label": "Jätka kassasse minekuga",
         "out_of_stock": {
-          "description": "Need tooted ei ole enam saadaval ja on eemaldatud sinu ostukorvist."
-        }
+          "description": "Need tooted ei ole enam saadaval ja on eemaldatud sinu ostukorvist.",
+          "items_unavailable": "Mõned tooted ei ole enam saadaval ja on sinu ostukorvist eemaldatud."
+        },
+        "unfulfillable_product": {
+          "title": "Kohaletoimetamine pole saadaval",
+          "message": {
+            "one": "%{delivery_method} ei ole selle toote puhul enam saadaval.",
+            "other": "%{delivery_method} ei ole nende artiklite jaoks enam saadaval."
+          },
+          "default_message": {
+            "one": "Valitud tarneviis ei ole selle toote jaoks enam saadaval.",
+            "other": "Valitud tarneviis ei ole nendele toodetele enam saadaval."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Uuenda hinda ja kogust",
+          "description": "Nende artiklite hinnad ja saadav kogus on muutunud ning ostukorv on uuendatud."
+        },
+        "out_of_stock_in_context_label": "See toode ei ole teie riigis/regioonis saadaval."
+      },
+      "order_summary": {
+        "title": "Tellimuste ülevaade",
+        "order_name_label": "Tellimus %{name}",
+        "shopping_cart_label": "Ostukorv",
+        "discount_title": "Soodustus",
+        "discount_label": "Sooduskood",
+        "discount_placeholder": "Sooduskood",
+        "gift_card_title": "Kingituskinkekaart",
+        "gift_card_label": "Kingituskinkekaart",
+        "gift_card_placeholder": "Kingituskinkekaart",
+        "gift_card_and_discount_title": "Sooduskood või kinkekaart",
+        "gift_card_and_discount_label": "Sooduskood või kinkekaart",
+        "gift_card_and_discount_placeholder": "Sooduskood või kinkekaart",
+        "add_discount_or_gift_card": "Sooduskoodi või kinkekaardi lisamine",
+        "remove_gift_card_label": "Kinkekaardi kustutamine",
+        "remove_discount_label": "Soodustuse eemaldamine",
+        "free_shipping_discount_label": "Tasuta saatmine",
+        "apply_discount_button_label": "Rakenda",
+        "applied_discount_message": "Kogusummast on maha arvatud %{amount} allahindlust.",
+        "discount_has_been_applied": "Soodustus on rakendatud",
+        "discount_has_been_removed": "Soodustus on eemaldatud",
+        "gift_card_has_been_applied": "Kinkekaart on rakendatud",
+        "gift_card_has_been_removed": "Kingituskaart on eemaldatud",
+        "discount_already_applied": "Sellele tellimusele on rakendatud allahindlus. Sa ei saa lisada teist allahindlust.",
+        "cart_does_not_meet_discount_requirements_notice": "Sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> ei kehti sinu ostukorvis olevate toodete puhul",
+        "discount_requires_customer_notice": "Sisesta oma saatmisteave, et rakendada sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> ei ole hetkel sinu jaoks saadaval",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> ei ole sinu tarneaadressile saadaval",
+        "customer_already_used_once_per_customer_discount_notice": "Sooduskood <strong style=\"text-transform:uppercase\">%{code}</strong> on juba kasutatud",
+        "subtotal_label": "Vahesumma",
+        "shipping_label": "Saatmine",
+        "tip_label": "Tippi",
+        "shipping_default_value": "Arvutatakse järgmises etapis",
+        "shipping_pending_message": "Veel pole saadaval",
+        "shipping_policy_link": "Saatmiskulud",
+        "taxes_label": "muide",
+        "total_label": "Kokku",
+        "total_outstanding_label": "Makstav summa",
+        "partial_total_label": "Kokku",
+        "free_total_label": "Tasuta",
+        "free_shipping_total_label": "Tasuta",
+        "paid_label": "Makstud"
       }
     }
   },
