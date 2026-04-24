@@ -3917,7 +3917,151 @@
       "loading_addresses_accessibility_message": "Įkelti adresus",
       "loading_billing_accessibility_message": "Įkeliami sąskaitų adresai",
       "loading_finished_accessibility_message": "Naujas puslapis su adresais įkeltas",
-      "loading_shipping_accessibility_message": "Pristatymo adresas įkrovimui"
+      "loading_shipping_accessibility_message": "Pristatymo adresas įkrovimui",
+      "delete_confirmation_description": "Tai neturi įtakos esamiems užsakymams.",
+      "edit_modal_title": {
+        "billing": "Redaguoti sąskaitos adresą"
+      },
+      "add_address_banner": "Pridėkite adresus, kad galėtumėte naudoti atsiskaitymo metu",
+      "billing_address_dropdown_placeholder": "Sąskaitos adresas",
+      "back_button": "Atgal"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Uždaryti pasiūlymus",
+      "billing_address": "Naudoti kaip sąskaitos adresą",
+      "default_address": "Tai mano numatytasis adresas",
+      "loading_add_form_accessibility_message": "Įkelti naujo adreso formą",
+      "loading_edit_form_accessibility_message": "Formos adreso redagavimas įkeliant",
+      "loading_finished_accessibility_message": "Formos adresas įkeltas",
+      "attention": "P.S.",
+      "attention_help_text": "Asmens arba skyriaus pavadinimas",
+      "loading_form_accessibility_message": "Formos adresas įkelti",
+      "attention_company": "Įmonė/dėl dėmesio"
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "El. pašto adresas",
+        "contact_permissions": "Įgaliojimai",
+        "location_picker_label": "Vietovės pavadinimas",
+        "net_payment_terms_description": "{{name}}: mokėjimas turi būti atliktas per {{numberOfDays}} dienas",
+        "payment_details_title": "Mokėjimo duomenys",
+        "permissions_label": "Jūsų įgaliojimai",
+        "permissions_title": "Įgaliojimai",
+        "shipping_address_required": "Pridėkite pristatymo adresą šiai vietai, kad galėtumėte pateikti užsakymus.",
+        "tax_details_title": "Mokesčių duomenys",
+        "tax_id": "Mokesčių ID",
+        "tax_exemptions": "Mokesčių atleidimai",
+        "multiple_tax_exemptions": "Dar {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "lt",
+        "taxes_none": "Žalias",
+        "tax_exemption_not_applicable": "n.v.t.",
+        "tax_exemptions_modal_button_accessibility_label": "Rodyti visas mokesčių atleidimus",
+        "own_role_contact_name": "Tu",
+        "staff_and_permissions_title": "Darbuotojai ir įgaliojimai",
+        "location_picker_accessibility_label": "Vietovės pavadinimas: {{locationName}}",
+        "deposit_percentage": "{{percentage}} depozito"
+      },
+      "location_selection": {
+        "description": "Jei jūsų krepšelyje jau yra prekių, vietos keitimas gali turėti įtakos kainoms ir kiekiams jūsų krepšelyje.",
+        "list_loading_accessibility_message": "Įkeliama vietų sąrašas",
+        "list_loading_address_accessibility_message": "Įkelti adresą {{locationName}}",
+        "loading_store_accessibility_message": "Kelyje į parduotuvę",
+        "title": "Kurioje vietoje norite pirkti?",
+        "continue_to_store": "Tęsti į parduotuvę",
+        "no_location_description": "Jūs nebeturite teisės pateikti užsakymų {{company}}. Tačiau galite pateikti asmeninius užsakymus.",
+        "no_locations_found": "Nerasta vietų",
+        "clear_search": "Išvalyti paieškos veiksmą",
+        "description_switch_later": "Vėliau visada galėsite pakeisti"
+      },
+      "addresses": {
+        "add_billing_address_button": "Pridėti sąskaitos adresą",
+        "add_billing_address_section_accessibility_label": "Pridėti sąskaitos adresą",
+        "billing_address_card_title": "Sąskaitos adresas",
+        "cancel_adding_billing_address_accessibility_label": "Pridėti sąskaitos adresą atšaukti",
+        "cancel_adding_shipping_address_accessibility_label": "Pridėti pristatymo adresą atšaukti",
+        "save_new_billing_address_accessibility_label": "Išsaugoti sąskaitos adresą"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Slėpti visas užsakymų peržiūras",
+          "show_all_accessibility_label": "Rodyti visas užsakymus peržiūroje",
+          "pagination": {
+            "nav_accessibility_label": "Navigacijos mygtukai užsakymams peržiūroje"
+          },
+          "show_all_orders_in_review": "Rodyti visas užsakymus peržiūroje",
+          "show_less_orders_in_review": "Rodyti mažiau užsakymų peržiūroje",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Jūs neturite vykdomų užsakymų",
+            "pending_orders": {
+              "one": "Jūs turite {{count}} užsakymą apdorojimui",
+              "other": "Jūs turite {{count}} užsakymus apdorojimui"
+            },
+            "more_than_pagination_length": "Jūs turite daugiau nei {{count}} užsakymus apdorojime"
+          },
+          "pending_orders_count_more_than_pagination_length": "daugiau nei {{count}}"
+        },
+        "order_list_column_headers_contact": "Kontaktai",
+        "removed_company_contact_tooltip": "Iš įmonės pašalinta"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Patvirtinta {{date}} užsakymui {{draftOrderName}}",
+        "loading": "Užsakymo duomenys kraunami",
+        "loading_finished_accessibility_message": "Užsakymo duomenys įkelti",
+        "payment_status": {
+          "draft": {
+            "description": "Mokėjimo duomenys nustatomi, kai užsakymas patvirtinamas.",
+            "title": "Mokėjimas dar nėra reikalingas",
+            "in_review": {
+              "description": "Mokėjimo duomenys nustatomi, kai užsakymas patvirtinamas.",
+              "title": "Mokėjimas dar nėra reikalingas"
+            },
+            "submitted": {
+              "description": "Apmokėkite, kad patvirtintumėte šį užsakymą.",
+              "title": "Mokėti patvirtinimui",
+              "deposit": {
+                "title": "Mokėjimas yra privalomas",
+                "due_later": "Sąskaitai taikomos {{translatedName}} sąlygos ir ji turi būti sumokėta iki {{dueDate}}.",
+                "due_on_fulfillment": "Sąskaita yra mokėtina, kai visi šios užsakymo prekės bus apdorotos.",
+                "due_on_receipt": "Jūs gausite sąskaitą už likusį balansą.",
+                "due_on_date": "Likutis turi būti sumokėtas iki {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likusiai sumai taikomos {{translatedName}} sąlygos.",
+              "due_on_fulfillment": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likusi suma yra mokėtina, kai užsakymas įvykdomas.",
+              "due_on_receipt": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likusi suma bus mokama vėliau.",
+              "due_on_date": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likusi suma turi būti sumokėta iki {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Jūsų užsakymas yra visiškai apmokėtas."
+          },
+          "pay_now": "Mokėkite dabar",
+          "pending": {
+            "banner_overdue": {
+              "one": "Jūsų mokėjimas vėluoja {{count}} dieną",
+              "other": "Jūsų mokėjimas vėluoja {{count}} dienomis"
+            },
+            "banner_due": {
+              "one": "Jūsų mokėjimas turi būti atliktas per {{count}} dieną",
+              "other": "Jūsų mokėjimas turi būti atliktas per {{count}} dienas"
+            },
+            "banner_due_today": "Jūsų mokėjimas turi būti atliktas šiandien",
+            "title_with_date": "Mokėjimas turi būti atliktas iki {{date}}",
+            "description_overdue": "Jūsų mokėjimas vėluoja.",
+            "description_partially_paid": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį.",
+            "description_authorized": "Suma bus nuskaičiuota pasirinkta mokėjimo priemone tą dieną, kai ji turi būti sumokėta. Taip pat galite sumokėti jau dabar.",
+            "title_due_on_receipt": "Mokėjimas dar nėra reikalingas",
+            "description_due_on_receipt": "Jūs gausite sąskaitą faktūrą, kai mokėjimas bus privalomas.",
+            "title_due_on_fulfillment": "Mokėjimas turi būti atliktas įvykdžius užsakymą.",
+            "description_due_on_fulfillment": "Mokėjimas turi būti atliktas, kai visi šios užsakymo prekės bus apdorotos.",
+            "description_waiting_for_manual_payment": "Užsakymo apmokėjimas yra apdorojamas. Likutis bus atnaujintas, kai gausime jūsų mokėjimą.",
+            "description_due_on_receipt_partially_paid": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį. Sąskaita bus išrašyta, kai mokėjimas taps privalomas.",
+            "description_due_on_fulfillment_partially_paid": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį. Mokėjimas turi būti atliktas, kai visi šio užsakymo prekės bus apdorotos.",
+            "description_due_on_fulfillment_partially_paid_next": "Šis užsakymas yra iš dalies apmokėtas. Jūs turite likutį."
+          }
+        }
+      }
     }
   }
 }
