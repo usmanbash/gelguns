@@ -799,6 +799,82 @@
               "verification_value": "Enter a valid CVV/CVC or security code"
             }
           }
+        },
+        "simulated_checkout": "Example appears soon",
+        "vaulting_agreement_label": "Save my payment details with %{company} for a faster checkout.",
+        "business_customer_vaulting_payment_label": "Save this payment method at checkout and authorize %{company} to charge money via this card for future purchases at this location. All contacts assigned to this location are allowed to use the payment method.",
+        "purchase_options_and_vaulting_agreement_label": "One or more items in the shopping cart are a deferred or subscription purchase. By proceeding with the payment, you agree that we will automatically charge the purchase amounts to your payment method at the price and frequency shown on this page, until it expires or you cancel it yourself. All cancellations are subject to the %{cancellation_policy_label}.",
+        "saved_credit_cards_modal": {
+          "view_all_label": "View all saved maps",
+          "done": "Ready"
+        },
+        "expired_cards_info": {
+          "one": "There is %{count} expired card. You can view and update it in your account.",
+          "other": "There are %{count} expired cards. You can view and edit them in your account."
+        },
+        "local_payment_method_receiver_notice": "After placing your order, you will receive the payment details. Make the payment within {{dueDays}} days at an ATM or online.",
+        "order_edit_banner_title": "Payment of {{amount_owed}} is required",
+        "order_edit_banner_subtitle": "Your order {{order_number}} has been updated. Review these changes and pay to confirm your order.",
+        "order_edit_banner_multiple_items_added": "{{amount}} added",
+        "order_edit_banner_multiple_items_removed": "{{amount}} removed",
+        "gift_card_wrapper": {
+          "heading": "Gift voucher",
+          "apply_gift_card_label": "Apply a gift voucher",
+          "payment_tag": "Gift voucher",
+          "apply_another_gift_card_label": "Apply another gift voucher",
+          "gift_card_label": "Gift voucher %{identifier}",
+          "add_label": "Add a gift voucher",
+          "manage_label": "Manage gift vouchers"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmation for custom onsite payments"
+        },
+        "markets_pro_disclaimer_label": "By placing your order, you agree to the purchase with Global-e as the registered merchant, subject to the %{markets_pro_terms} and %{privacy_policy} of Global-e, and you share your data with %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "general terms and conditions",
+        "markets_pro_disclaimer_privacy_policy": "privacy policy",
+        "markets_pro_disclaimer_terms_and_conditions_title": "General terms and conditions for merchants of record",
+        "markets_pro_disclaimer_privacy_policy_title": "Privacy policy for merchants of record",
+        "purchase_order_number": {
+          "title": "Order number",
+          "label": "Order number (optional)"
+        },
+        "alternative_payment_currency_total_notice": "Note: %{amount_due} will be debited.",
+        "waiting_on_taxes_message": "Refresh the page if the taxes are not calculated within a few seconds.",
+        "waiting_on_taxes_notice": "Calculate taxes",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returned",
+        "shop_pay_installments_label": "Shop Pay installment payments",
+        "delete_credit_card_modal": {
+          "title": "Remove card",
+          "confirmation": "Are you sure you want to delete {{brandName}} ending in {{lastDigits}}?",
+          "delete": "Remove"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} added"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} removed from {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returned",
+          "with_quantities": "{{delta}} returned from {{quantity}}"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Remove"
+        },
+        "edit_credit_card_modal": {
+          "done": "Ready",
+          "description": "You can only change the billing address of your card.",
+          "fields": {
+            "billing": "Billing to"
+          }
+        },
+        "expired_payment_method": "The chosen payment method has expired",
+        "use_order_billing_address_label": "Use the invoice address of the order",
+        "use_location_billing_address_label": "Use the invoice address of the location",
+        "use_location_shipping_address_label": "Use delivery address of location",
+        "purchase_options_agreement_label_wallets": "If you continue with the payment, you agree to the future payments listed on this page and to the cancellation policy.",
+        "gift_card_store_credit": {
+          "add_label": "Add a gift voucher or store credit"
         }
       },
       "shipping_errors": {
