@@ -666,7 +666,71 @@
           "tax": {
             "new_tax_must_be_accepted": "Os impostos aplicáveis à sua encomenda foram alterados. Verifique a sua encomenda e tente novamente.",
             "unresolvable_tax_terms": "As condições propostas não são viáveis tendo em conta o contexto negocial atual.",
-            "delivery_price_is_abstract": "O preço em questão para a entrega é abstrato."
+            "delivery_price_is_abstract": "O preço em questão para a entrega é abstrato.",
+            "tax_inclusivity_mismatch": "Negocie novamente com um valor concreto para totalTaxAndDutyAmount ou totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Na sessão de negociações atual, não são apoiadas isenções fiscais.",
+            "delivery_tax_exemption_not_supported": "As isenções fiscais para regras de entrega não são atualmente suportadas.",
+            "proposed_allocations_required": "O campo 'atribuições sugeridas' está em falta.",
+            "merchandise_terms_must_be_defined": "Defina condições para mercadorias.",
+            "delivery_terms_must_be_defined": "Defina condições para a entrega.",
+            "merchandise_discount_terms_must_be_defined": "Defina condições para desconto em mercadorias.",
+            "delivery_discount_terms_must_be_defined": "Defina condições para desconto na entrega.",
+            "allocated_required": "O campo 'atribuído' está em falta.",
+            "value_required": "O campo 'valor' está em falta.",
+            "line_splits_not_supported": "O campo 'linhas de mercadorias' deve ser dividido de forma que haja um componente separado na proposta do vendedor para cada linha."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Pagamentos manuais não são permitidos em lojas B2B.",
+            "positive_amount_expected": "O montante a pagar deve ser superior a 0.",
+            "total_amount_mismatch": "O montante total a pagar não corresponde à soma dos pagamentos.",
+            "missing_session_id": "Informação sobre a sessão do cartão de crédito em falta.",
+            "gateway_not_supported": "A porta de pagamento não suporta o armazenamento do método de pagamento.",
+            "credit_card_last_name_required": "'o apelido' não pode estar vazio.",
+            "credit_card_update_failed": "A atualização do cartão de crédito não foi bem-sucedida.",
+            "invalid_address_type": "O tipo de morada introduzido é inválido para este método de pagamento.",
+            "missing_retail_attributions": "São necessárias atribuições de retalho para pagamentos com cartão de crédito introduzidos manualmente.",
+            "unexpected_retail_attributions": "Atribuições de retalho inesperadas indicadas para um pagamento com cartão de crédito.",
+            "invalid_card_source": "Esta sessão não tem autorização para utilizar esta fonte de mapa.",
+            "wallet_content_missing": "Falta o conteúdo da carteira van.",
+            "unauthorized_capture_method": "A configuração do método para registar pagamentos não é permitida.",
+            "saved_payment_methods_not_allowed": "'Métodos de pagamento guardados' não são permitidos.",
+            "saved_payment_methods_not_enabled": "'Métodos de pagamento guardados' não estão ativados para esta loja.",
+            "store_credit_not_enabled": "O crédito da loja não está ativado para esta loja.",
+            "store_credit_account_not_found": "Conta de crédito da loja não encontrada.",
+            "store_credit_account_mismatch": "A conta de crédito da loja não corresponde à identidade do comprador.",
+            "store_credit_mismatched_currency": "A moeda da conta de crédito da loja não corresponde à moeda do pagamento.",
+            "store_credit_insufficient_funds": "Não há saldo suficiente na conta de crédito da loja.",
+            "store_credit_buying_gift_card": "Com crédito na loja não podes comprar um vale-presente.",
+            "gift_cards_not_allowed_for_b2b": "Os vales-presente não são permitidos em lojas B2B.",
+            "method_required": "Deve ser apresentada uma forma de pagamento.",
+            "saved_payment_methods_cvv_verification_disabled": "Para o método de pagamento selecionado, é necessária a verificação CVV/CVC, mas esta não está ativada nesta loja. Utilize outro método de pagamento."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Várias linhas de rodapé não são suportadas.",
+            "tips_not_allowed_for_b2b": "Não são permitidas gorjetas em lojas B2B.",
+            "currency_change_reset": "O Fooi foi reiniciado devido a uma alteração cambial.",
+            "tips_not_allowed_for_deferred_purchase_options": "Gorjetas ainda não são suportadas para opções de compra adiadas."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Esta encomenda conceptual não existe na loja atual.",
+            "staff_member_not_exist": "Este funcionário não é conhecido na loja atual.",
+            "location_not_exist": "Este local não existe na loja atual.",
+            "point_of_sale_device_not_exist": "Este ponto de venda não existe na loja atual.",
+            "unresolvable_target_merchandise_lines": "As atribuições de venda propostas não são solucionáveis no contexto negocial existente."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "A proposta do teu comprador deve conter non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "O campo 'Quantidade' está em falta nas regras de stock do comprador.",
+            "changing_behavior_not_allowed": "Este cliente não está autorizado a alterar a funcionalidade de stock.",
+            "only_one_inventory_behavior_allowed": "Neste momento, só é permitida uma função de stock por finalização de compra."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Nesta finalização de compra, a recusa dos direitos aduaneiros não é permitida."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Nesta finalização de compra, a atribuição a retalho não é permitida."
           }
         }
       }
