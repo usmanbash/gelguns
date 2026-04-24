@@ -2497,6 +2497,102 @@
           "legal_text": "Čitač",
           "link_label": "Opći uvjeti {{partnerDisplayName}}"
         }
+      },
+      "online_store_chat": {
+        "title": "Pitate se? Razgovarajte s nama putem chata"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "U blizini se nalazi %{count} lokacija s zalihama",
+          "other": "U blizini se nalazi %{count} lokacija s zalihama"
+        },
+        "or": "OD",
+        "cancel": "Otkaži",
+        "your_location": "tvoja lokacija",
+        "search_button": "Traži trgovine",
+        "no_stores_found": "Nema pronađenih trgovina",
+        "could_not_resolve_address": "Ne mogu pronaći adresu. Pokušajte ponovno ili upotrijebite drugu adresu",
+        "paginator": {
+          "accessibility_label": "Stranicenje za preuzimanje na licu mjesta",
+          "label": {
+            "one": "%{first} - %{last} od %{count} trgovina",
+            "other": "%{first} - %{last} od %{count} trgovina"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Prikaži još %{count} lokacija",
+          "other": "Prikaži još %{count} lokacija"
+        },
+        "all_stores_far_away": {
+          "title": "Najbliže lokacije nalaze se na udaljenosti većoj od %{distance}",
+          "description": "Odaberite lokaciju ili %{ship_to_address_link}",
+          "ship_to_address_link": "adresa dostave",
+          "change_location_link": "Promijeni svoju lokaciju",
+          "title_with_specific_location": "Najbliža lokacija s vašim artiklom nalazi se više od %{distance} od %{location}.",
+          "title_with_item": {
+            "one": "Najbliža lokacija s vašim artiklom nalazi se više od %{distance} od %{location}.",
+            "other": "Najbliža lokacija s vašim artiklima nalazi se više od %{distance} od %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Ranije odabrana lokacija više nije dostupna",
+          "description": "Odaberite novu lokaciju ili %{ship_to_address_link}",
+          "ship_to_address_link": "Slanje na adresu"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Pošalji svoje artikle",
+          "search_elsewhere": "potraži negdje drugdje",
+          "ship_items_or_search_elsewhere": "%{ship_items} od %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "Još više od %{count} drugih lokacija",
+        "location_information_far_away": {
+          "one": "Postoji %{count} lokacija s vašim artiklom",
+          "other": "Postoji %{count} lokacija s tvojim artiklom"
+        },
+        "location_nearby": {
+          "one": "U blizini se nalazi %{count} lokacija s vašim artiklom",
+          "other": "U blizini se nalazi %{count} lokacija s vašim artiklom"
+        },
+        "location_nearby_short": {
+          "one": "%{count} lokacija u blizini s vašim artiklom",
+          "other": "%{count} lokacija u blizini s vašim artiklom"
+        },
+        "location_far_away": {
+          "one": "%{count} lokacija s tvojim artiklom",
+          "other": "%{count} lokacija s tvojim artiklom"
+        },
+        "toggle_more_locations": {
+          "one": "Još %{count} lokacija",
+          "other": "Još %{count} lokacija"
+        },
+        "pickup_unavailable_banner_title": {
+          "other": "Nema lokacija s tvojim artiklima"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nema lokacija u %{country} s vašim artiklom",
+          "other": "Nema lokacija u %{country} s tvojim artiklima"
+        }
+      },
+      "split_delivery": {
+        "delivery_method": "Podijeljena metoda dostave",
+        "delivery_method_menu": "Izbornik podijeljene metode dostave",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} od %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} od %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nije moguće dohvatiti %{count} artikala",
+              "other": "Nije moguće dohvatiti %{count} artikala"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} artikl ne može biti poslan",
+              "other": "%{count} artikala ne može biti poslano"
+            }
+          },
+          "remove_item": {
+            "one": "Ukloni artikl"
+          }
+        }
       }
     }
   }
