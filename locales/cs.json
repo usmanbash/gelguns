@@ -2479,6 +2479,88 @@
         "creation_failure": "Při vytváření vaší objednávky došlo k problému. Zkuste to znovu nebo nás kontaktujte pro více informací.",
         "network_failure": "Vaše objednávka nemůže být odeslána kvůli chybě sítě. Zkontrolujte své připojení a zkuste to znovu.",
         "inventory_reservation_failure": "Některé položky již nejsou k dispozici."
+      },
+      "session_errors": {
+        "session_not_unique": "Při zpracování vaší objednávky došlo k problému. Obnovte tuto stránku, abyste se vrátili do obchodu.",
+        "session_already_finished": "Tato objednávka již byla odeslána. Můžete se vrátit do obchodu a zahájit novou objednávku."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Uzavřeno",
+        "title": "Místo vyzvednutí",
+        "or": "z",
+        "selector_tabs": "Výběr místa vyzvednutí",
+        "could_not_resolve_address": "Nelze najít vaši adresu. Zkuste to znovu nebo použijte jinou adresu.",
+        "no_pickup_points_near_you": "V blízkosti vybrané adresy nebyla nalezena žádná místa pro vyzvednutí",
+        "no_pickup_points_near_location": "V blízkosti tvé polohy nebyla nalezena žádná místa pro vyzvednutí",
+        "no_pickup_points_found": "Nebyly nalezeny žádné výdejní místa",
+        "paginator": {
+          "header": {
+            "one": "Zobrazuje %{first} - %{last} z %{count} bodů",
+            "other": "Zobrazuje %{first} - %{last} z %{count} bodů"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} z %{count} míst",
+            "other": "%{pickup_point_index} z %{count} míst"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} z %{count} bodů",
+            "other": "%{first} - %{last} z %{count} bodů"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} výdejních míst v blízkosti vaší polohy",
+          "other": "%{count} výdejních míst v blízkosti vaší polohy"
+        },
+        "change": "Změnit místo",
+        "waiting_on_pickup_point_location_notice": "Hledání výdejních míst...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Zjišťování polohy není ve vašem prohlížeči podporováno. Zkuste to znovu nebo použijte jiný prohlížeč.",
+            "permission_not_allowed": "Povolte sdílení vaší polohy.",
+            "permission_denied": "Nelze získat vaši polohu. Zkuste to znovu."
+          }
+        },
+        "no_business_hours": "Není k dispozici žádná otevírací doba",
+        "open_twenty_four_hours": "otevřeno nonstop",
+        "pickup_unavailable_banner_title": {
+          "one": "Pro tvůj výrobek nejsou k dispozici žádná místa pro vyzvednutí",
+          "other": "Pro tvé zboží nejsou k dispozici žádná místa pro vyzvednutí"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Při dokončování nákupu došlo k problému",
+          "message": "Obnovte tuto stránku nebo to zkuste za pár minut znovu",
+          "action": {
+            "cta": "Znovu načíst stránku"
+          },
+          "request_id": "ID žádosti: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Tento obchod je chráněn heslem",
+          "customer_account_required": "Pro dokončení nákupu je vyžadován zákaznický účet",
+          "cart_completed": "Tato platba již byla dokončena",
+          "invalid_cart": "Nákupní košík již není platný",
+          "not_authorized": "Ověření při placení selhalo. Ověřte své přihlašovací údaje pro aplikaci.",
+          "policy_violation": "Nelze dokončit pokladnu kvůli omezením nastavení zásad",
+          "unrecoverable_failure": "Nelze načíst pokladnu. Zkuste to znovu."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Zpět do nákupního košíku",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} pro aktualizaci množství",
+        "subscription_changed": "Jeden z tvých předplatných byl změněn.",
+        "company_location_changed": "Váš nákupní košík byl upraven. Zkontrolujte svou objednávku, než ji odešlete.",
+        "violations_title": "{{violation}} chybí nebo je neplatný",
+        "individual_violations_title": {
+          "OtherViolations": "Údaje o objednávce",
+          "UnhandledViolations": "Objednávací údaje"
+        },
+        "all_violations_content": "Klikněte na {{emailLink}} pro aktualizaci těchto údajů a dokončení vaší objednávky:",
+        "editable_shipping_address_violations_message_title": "Přidejte tyto informace pro dokončení vaší objednávky:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} pro trvalou aktualizaci adresy této lokality.",
+        "editable_shipping_address_violations_email_link": "Kontaktujte nás",
+        "company_location_changed_product_removed": "Váš nákupní košík byl upraven, protože některé produkty nejsou na tomto místě k dispozici. Zkontrolujte svou objednávku před jejím odesláním."
       }
     }
   }
