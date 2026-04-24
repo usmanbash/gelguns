@@ -3761,7 +3761,77 @@
         "hide_events_accessibility_label": "Скриване на данни за доставка на поръчката"
       },
       "show_order_summary": "Показване на обобщение на поръчката",
-      "company": "Фирма"
+      "company": "Фирма",
+      "marketing_section_title": "Новини и оферти",
+      "marketing_description": "Ще получавате маркетингови имейли. Можете да се отпишете по всяко време.",
+      "marketing_checkbox_label": "Изпращайте ми имейли с новини и оферти",
+      "marketing_checkmark_label": "Вие сте абонирани за получаване на имейли с новини и оферти",
+      "image_gallery": {
+        "product_name_and_quantity": "Количество {{quantity}} на {{productName}}",
+        "previous": "Показване на предишни статии",
+        "load_more_items": {
+          "one": "Зареждане на {{count}} артикула",
+          "other": "Зареждане на {{count}} артикула"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Изтеглете Shop, за да следите пакета",
+        "track_order_with_shop": "Проследяване на поръчка с Shop",
+        "title_header": "Сканиране с телефона ти",
+        "real_time_delivery_updates": "След като поръчката бъде изпратена, ще получавате актуализации за доставката в реално време от Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Поръчката е завършена с",
+        "learn_more": "Повече информация"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} добавени",
+        "removed": "Изтрито",
+        "removed_with_quantity": "{{quantity}} изтрито",
+        "updated_at": "Вашата поръчка е актуализирана на {{date}}",
+        "returned": "Върнато",
+        "returned_with_quantities": "{{delta}} от {{total}} върнати",
+        "removed_with_quantities": "{{delta}} от {{total}} изтрити",
+        "return_line_item_removed": "Премахнато от връщане",
+        "return_line_item_removed_with_quantities": "{{delta}} премахнато от връщане"
+      },
+      "pickup": {
+        "pickup": "Вземи от магазина",
+        "pickup_location": "Място за настаняване",
+        "pickup_point": "Място за вземане"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Платено с разсрочени плащания Shop Pay",
+        "description": "Бъдете информирани за графика на плащанията си с напомняния в приложението Shop.",
+        "desktop_qr_code_content": {
+          "title": "Сканиране на спомени",
+          "description": "Получавайте напомняния за вашите периодични плащания в Shop."
+        },
+        "title": "Напомняния за плащане за разсрочени плащания с Shop Pay"
+      },
+      "order_details": "Данни за поръчката",
+      "contact_information": "Контактни данни",
+      "login_to_view_all_order_details": "Влезте, за да видите всички данни за поръчката.",
+      "log_in": "Вход",
+      "paid_amount": "Платено",
+      "remaining_amount": "Оставащо",
+      "order_details_skeleton_accessibility_label": "Влезте, за да видите всички данни за поръчката.",
+      "tip": "Чаени пари",
+      "logged_in_account_no_permission_to_order": "Вие сте влезли като {{email}}. Този акаунт няма разрешение да управлява тази поръчка.",
+      "log_in_to_a_different_account": "Вход в друг акаунт",
+      "duties": "Митнически такси",
+      "ok_duties_tooltip": "Тази поръчка се изпраща от друга държава, затова към общата сума на поръчката са добавени митнически такси.",
+      "error_duties_tooltip": "Тази поръчка се изпраща от друга държава, затова при доставката може да бъдат начислени митнически такси и данъци.",
+      "zero_duties_tooltip": "Тази поръчка ще бъде изпратена от друга държава. Не се начисляват митнически такси за поръчки с тази стойност.",
+      "fees": {
+        "restocking_fee": "Разходи за зареждане с билки",
+        "return_shipping_fee": "Връщане на стока"
+      },
+      "vat_invoices": {
+        "title": "Фактури за Btw"
+      },
+      "taxes_included": "Включително {{amount}} ДДС",
+      "duties_and_taxes_included": "Общата сума включва митнически такси и данъци. Няма допълнителни плащания при доставка."
     }
   }
 }

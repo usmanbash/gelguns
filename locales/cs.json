@@ -3579,7 +3579,79 @@
           "other": "Dárkové poukazy znovu odeslány"
         },
         "gift_resend_failure": {
-          "one": "Při opětovném odesílání vašeho dárkového poukazu došlo k problému. Zkuste to znovu nebo nás kontaktujte."
+          "one": "Při opětovném odesílání vašeho dárkového poukazu došlo k problému. Zkuste to znovu nebo nás kontaktujte.",
+          "other": "Při opětovném odesílání vašich dárkových poukazů došlo k problému. Zkuste to znovu nebo nás kontaktujte."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Spravovat s Amazonem",
+            "new_window_disclaimer": "(otevře se v novém okně)"
+          }
+        },
+        "attempted_to_deliver_label": "Zkoušeli jsme doručit",
+        "buy_with_prime_logo_accessibility_label": "Logo Amazon Koupit s Prime",
+        "delivered": "Obavy k {{date}}",
+        "status_timestamp": "Aktualizováno dne {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Doručení podporováno společností",
+            "mixed_brands_label": "Doručení zaručeno",
+            "not_delivered_by_label": "Není zajištěno proti {{date}}",
+            "modal_accessibility_button_label": "Záruka doručení dat"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Nárok je obchodní hotovost",
+            "no_shop_app_label": "{{appDownloadLink}} pro získání Shop Cash",
+            "download_shop_app_label": "Stáhnout obchod"
+          },
+          "details_modal": {
+            "title": "Doručení podporováno společností",
+            "modal_accessiblity_label": "Údaje o závazku doručení",
+            "delivery_by_label": "Doručení do {{date}}",
+            "delivery_guaranteed_by_label": "Doručení zaručeno do {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise zaručuje rychlé a spolehlivé doručení. Nárokujte si Shop Cash, pokud bude vaše objednávka doručena pozdě.",
+              "may_be_eligible_not_authorized_label": "Možná máte nárok na uplatnění Shop Cash, protože tato objednávka dorazila pozdě. Přihlaste se, abyste si mohli prohlédnout podrobnosti.",
+              "redeemed_label": "Už jste si uplatnili Shop Cash, protože tato objednávka dorazila pozdě.",
+              "expired_label": "Tato objednávka není způsobilá pro reklamaci z důvodu pozdního doručení, protože 30denní záruka již vypršela.",
+              "no_shop_cash_label": "Tato objednávka není způsobilá k reklamaci z důvodu pozdního doručení, protože nebyla zaplacena pomocí Shop Pay.",
+              "no_longer_guaranteed_label": "Tyto položky již nejsou kryty zárukou doručení.",
+              "claim_shop_cash_title": "Naskenujte {{amount}} pro získání Shop Cash",
+              "claim_shop_cash_description": "Můžeš použít Shop Cash pro budoucí nákupy v aplikaci Shop."
+            },
+            "delivery_guarantee_label": "Záruka dodání"
+          }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Spravovat na Amazonu"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Doručení zaručeno společností",
+            "external_promise_brand_label": "Zajistit pro",
+            "not_delivered_by_label": "Znepokojen po {{date}}",
+            "delivery_guarantee_expired_label": "Zaručené doručení vypršelo",
+            "modal_accessibility_button_label": "Údaje o závazku doručení",
+            "download_shop_app_button_label": "Stáhnout obchod pro sledování",
+            "track_with_shop_button_label": "Sledovat s obchodem",
+            "claim_shop_cash_button_label": "Uplatnit nárok na hotovost z obchodu"
+          },
+          "details_modal": {
+            "title": "Záruka doručení",
+            "active_delivery_guarantee_label": "Doručení do {{date}}",
+            "expired_delivery_guarantee_description": "Záruka De Shop Promise na 30 dní pro tuto objednávku vypršela.",
+            "expired_badge_label": "Vypršelo",
+            "order_includes_guarantees_label": "Vaše doručení má {{deliveryAgreementsCount}} záruk",
+            "order_includes_guarantees_description": "Shop Promise nabízí záruku rychlého a spolehlivého doručení. Uplatněte Shop Cash, pokud bude vaše objednávka doručena po {{date}}.",
+            "delivered_after_label": "Znepokojen po {{date}}",
+            "delivered_after_description": "Tvoje objednávka dorazila pozdě, takže můžeš uplatnit {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Tato objednávka byla doručena pozdě, takže jste si nárokovali {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Tvoje objednávka dorazila pozdě, takže můžeš uplatnit {{amount}} Shop Cash.",
+            "learn_more_button_label": "Více informací",
+            "claim_shop_cash_button_label": "Uplatnit nárok na hotovost z obchodu",
+            "view_balance_in_shop_button_label": "Zobrazit zůstatek v obchodě",
+            "scan_to_claim_shop_cash_label": "Naskenujte {{amount}} pro získání Shop Cash"
+          }
         }
       }
     }
