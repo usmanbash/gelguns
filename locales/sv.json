@@ -2510,9 +2510,169 @@
         "payment_in_progress_body": "Betalningen behandlas. Beställningen är nästan klar.",
         "errors": {
           "unavailable": {
-            "title": "{{walletName}} är inte tillgänglig"
+            "title": "{{walletName}} är inte tillgänglig",
+            "description": "{{walletName}} var inte tillgänglig. Använd en annan betalningsmetod eller försök igen senare.",
+            "instructions": "Det uppstod ett problem med {{walletName}}. Gå tillbaka till butiken och försök igen eller betala på ett annat sätt.",
+            "unavailable_for_country": "{{walletName}} är inte tillgängligt i {{countryName}}. Välj en annan betalningsmetod för att slutföra ditt köp"
+          },
+          "terminal": "Ett problem har uppstått med {{walletName}}. Använd en annan betalningsmetod.",
+          "detour": {
+            "price_change": "Priserna på vissa artiklar har ändrats. Stäng {{walletName}} för att kontrollera din beställning och försök igen.",
+            "queue": "Du står i kön vid kassan. Stäng {{walletName}} för att fortsätta."
+          },
+          "unsupported": {
+            "address": "Handlaren kan inte leverera till den leveransadress du har valt.",
+            "postal_code": "Denna plats stöds inte",
+            "wallet_is_unavailable": "Du kan inte använda {{walletName}} med denna adress. Välj en annan adress eller stäng {{walletName}} för att slutföra köpet."
+          },
+          "outdated": {
+            "shipping_method": "Fraktsätten för din beställning har ändrats. Kontrollera ditt val.",
+            "payment_terms": "Betalningsvillkoren har ändrats. Kontrollera din beställning"
+          },
+          "invalid": {
+            "billing_address": "Ange en giltig fakturaadress",
+            "postal_code": "Ange en giltig postnummer eller postort",
+            "reduction_code": "Ange en giltig rabattkod eller presentkort",
+            "billing_must_match_shipping": "Ska stämma överens med leveransadress.",
+            "emirate": "Ange en giltig emirat",
+            "billing_zone": "Ange en giltig stat/provins för faktureringsadressen",
+            "billing_phone": "Ange ett giltigt telefonnummer för faktureringsadressen",
+            "billing_zip": "Ange en giltig postnummer för faktureringsadressen"
+          },
+          "missing": {
+            "address2": "Ange en lägenhets- eller svitnummer med mera",
+            "city": "Ange en plats",
+            "province": "Välj en stat/provins",
+            "country": "Välj ett land/område",
+            "zip": "Ange ett postnummer eller postort",
+            "phone": "Ange ett telefonnummer",
+            "billing_first_name": "Ange ett förnamn för faktureringsadressen",
+            "billing_address1": "Ange en fakturaadress",
+            "billing_address2": "Ange en lägenhets- eller svitnummer osv. för faktureringsadressen",
+            "billing_city": "Ange en plats för faktureringsadressen",
+            "billing_province": "Välj en stat/provins för faktureringsadressen",
+            "billing_zip": "Välj ett postnummer för faktureringsadressen",
+            "contact_info": "Ange kontaktuppgifter"
+          },
+          "formatting": {
+            "name_contains_emojis": "Ta bort emoji från ditt namn",
+            "postal_code_contains_emoji": "Ta bort emoji från din postnummer",
+            "first_name_too_long": "Förnamn innehåller för många bokstäver"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Din leveransadress är ogiltig. Välj en annan adress eller använd en ny adress.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} är för närvarande inte tillgänglig för din beställning. Välj en annan betalningsmetod för att fortsätta köpet."
+          },
+          "discount_code": "Kan inte använda denna rabattkod. Kontrollera din kod och försök igen.",
+          "processing_error_checkout_as_guest": "Det uppstod ett problem vid behandlingen av din betalning. Försök igen eller {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Du omdirigeras till {{walletName}} för att slutföra ditt köp",
+        "return_to_checkout": "Tillbaka till kassan",
+        "scrim": {
+          "continue_purchase_in_window": "Fortsätt med ditt köp i {{walletName}}-fönstret",
+          "and_return_to_checkout": "och tillbaka till kassan"
+        },
+        "place_order": "Lägg beställning",
+        "recovery_notice": "Ett fel har uppstått med dina beställningsuppgifter. Uppdatera dina uppgifter för att slutföra betalningen."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Kontrollera först dina kontaktuppgifter innan du slutför betalningen"
+      },
+      "store_credit_errors": {
+        "generic_error": "Det uppstod ett problem med ditt butikskredit. Försök igen eller ladda om sidan."
+      },
+      "note": {
+        "length_exceeds_maximum": "Skriv in kommentaren med högst 5000 tecken."
+      },
+      "billing": {
+        "billing_address_title": "Faktura till",
+        "same_as_shipping": "Samma som leveransadress",
+        "delete": "Ta bort",
+        "address_more": "Fler åtgärder för denna adress",
+        "address_delete": "Ta bort adress",
+        "address_confirm": "Är du säker på att du vill ta bort den här adressen från ditt konto?",
+        "billing_address_rollup_accessibility_label": "Alternativ för debitering"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Presentkortet har redan använts på din beställning",
+          "expired": "Detta presentkort har gått ut",
+          "currency_mismatch": "Endast presentkort i %{shop_currency} accepteras",
+          "generic": "Presentkortet kan inte läggas till i kassan",
+          "throttle_limit_exceeded": "Du har nått det högsta antalet försök. Försök igen senare.",
+          "no_longer_available": "Detta presentkort kan inte längre användas vid denna kassa"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Det uppstod ett problem vid inläsning av Shop Pay",
+          "try_again_later": "Kontrollera din anslutning eller stäng detta fönster och försök igen om några ögonblick.",
+          "checkout_has_expired": "Din utcheckning har gått ut. Stäng detta fönster och försök att betala igen hos {{shopName}}."
+        },
+        "return_to_store": "Tillbaka till {{shopName}}",
+        "return_to_store_simple": "Tillbaka till butik",
+        "title": "Shoppa med Pay-kassa"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Värdet på presentkortet måste vara högre än 0.",
+            "subtotal_limit_reached": "Det maximala antalet orderrader har uppnåtts.",
+            "gift_card_price_must_not_exceed_limit": "Priset på presentkortet får inte överstiga %{gift_card_limit}.",
+            "signature_mismatch": "Felaktig signatur på varor för regel %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "Inte kopierad"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Slutför ditt köp med din {{paymentMethod}}-kod",
+        "timer_message": "Du har fortfarande {{timeLeft}} kvar att betala",
+        "qr_code": {
+          "instructions": "Slutför ditt köp med din {{paymentMethod}}-kod"
+        },
+        "external": {
+          "instructions": "Bekräfta betalningen i din app för att slutföra köpet"
+        },
+        "close": "Avsluta utmaningen"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Det uppstod ett problem vid behandlingen av din beställning. Försök igen om några minuter."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Varuinstruktionen %{position} %{name} innehåller ett tomt stabilt-ID.",
+        "invalid_stable_id_target": "Varuinstruktionen %{position} %{name} hänvisar till stable-ID %{stable_id}, men det stable-ID:t finns inte i varuposterna.",
+        "duplicate_variant_id": "Varuinstruktionen %{position} %{name} innehåller ett dubbelt variant-ID %{variant_id}.",
+        "invalid_variant_id_target": "Varuinstruktionen %{name} hänvisar till variant-ID %{variant_id}, men den varianten finns inte i varuposterna.",
+        "invalid_price_override_target": "Instruktionen att skriva över priset på varorna för orderrad %{stable_id} är ogiltig eftersom det är en paketkomponent.",
+        "discount_not_supported": "Instruktionen för handlare om att tillämpa varurabatt stöder inte denna typ av rabatt."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Den här produkten kan inte skickas till %{location_name}.",
+          "some_products_other": "Dessa produkter kan inte skickas till %{location_name}.",
+          "all_products_one": "Den heta produkten i din kundvagn kan inte skickas till %{location_name}.",
+          "all_products_other": "Produkterna i din kundvagn kan inte skickas till %{location_name}."
+        },
+        "cart_updated": "Din kundvagn har uppdaterats.",
+        "change_address_only": "Ändra leveransadressen för att fortsätta.",
+        "change_address_or_remove": "Ändra leveransadressen eller %{remove_action}.",
+        "empty_cart_action": "töm kundvagnen och gå tillbaka till butiken",
+        "remove_items_action": {
+          "one": "ta bort den otillgängliga artikeln",
+          "other": "ta bort de artiklar som inte finns tillgängliga"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Du har inte längre behörighet att lägga B2B-beställningar. %{logout_url} för att istället lägga en personlig beställning.",
+        "lost_permissions_subtitle": "Du har inte längre behörighet att lägga B2B-beställningar. Logga ut för att lägga en personlig beställning."
+      },
+      "units": {
+        "ounce": "uns",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "tjej"
       }
     }
   }
