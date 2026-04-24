@@ -2829,6 +2829,84 @@
       "memberships": {
         "delivery_promise_unfulfillable": "Seda aadressi ei toetata praeguse liikmelisuse puhul.",
         "items_split_across_locations_unsupported": "Prime-kullerteenus ei ole sinu tellimuse jaoks saadaval. Sinu saatmisvalikud on uuendatud."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigeeri veebipoodi"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Lisateave %{context} kohta",
+        "additional_payment_methods": "Lisamakseviisid"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Seda eset ei saa lisada sinu ostukorvi, kuna see pärineb poest, mis kasutab teist valuutat.",
+          "max_remote_shops_exceeded": "Seda toodet ei saa lisada, kuna sinu ostukorv sisaldab juba maksimaalse koguse tooteid teistest poodidest.",
+          "currency_mismatch_removal": "Sinu ostukorvist eemaldati artikkel, kuna see pärineb poest, mis kasutab teist valuutat.",
+          "only_remote_merchandise_lines": "Ostukorv sisaldab ainult väliseid kaupu. Ostuprotsessi lõpetamiseks suunatakse teid välisesse poodi."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Teie ostu lõpetamine",
+        "remote_only_notice": "Neid tooteid müüvad ja saadavad teised poed. Ostude lõpetamiseks minge iga poe kassasse.",
+        "return_to_store_label": "Tagasi poodi",
+        "checkout_on_shop_label": "Makse %{shop_name} juures",
+        "single_shop_transition": "Sind suunatakse ostu lõpetamiseks %{advertiser} juurde.",
+        "detail_item_label": {
+          "one": "{{count}} artikkel",
+          "other": "{{count}} artiklit"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Selle poe jaoks ei ole %{policy_name} esitatud. Lisateabe saamiseks võtke otse ühendust %{shop_name}-ga."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Makse ebaõnnestus",
+        "payment_not_processed_text": "Skaneeri QR-kood uuesti. Kui see ikka ei tööta, anna sellest meie töötajatele teada ja proovi mõnda teist makseviisi.",
+        "payment_link_expired_title": "Makse link on aegunud",
+        "payment_link_expired_text": "Skaneeri QR-kood uuesti.",
+        "title": "Välise makse ebaõnnestus"
+      },
+      "taxes": {
+        "tax_details": "Täiendavad maksuteave",
+        "vat_number": {
+          "field": {
+            "label": "Btw-tuvastamisnumber (valikuline)",
+            "tooltip": "Kontrollib käibemaksukohustuslase numbri kehtivust ja rakendab automaatselt pöördmaksustamist tellimustele, mis selleks sobivad"
+          },
+          "add": "Lisa käibemaksukohustuslase number",
+          "vaulted": "Btw-tuvastusnumber: %{number}",
+          "badge": "Btw-tuvastusnumber: %{number}",
+          "domestic_order": "Käibemaksu edasilükkamise kord kehtib ainult ELi piires piiriülese tellimuse puhul. Kohalike tellimuste puhul arvestatakse tavapärane käibemaks.",
+          "status": {
+            "invalid_format": {
+              "at": "Austria käibemaksukohustuslase number sisaldab AT ja 9 märki",
+              "be": "Belgia käibemaksukohustuslase number sisaldab BE ja 10 märki",
+              "bg": "Bulgaaria käibemaksukohustuslase number sisaldab BG ja 9–10 märki",
+              "hr": "Horvaatia käibemaksukohustuslase number sisaldab HR ja 11 märki",
+              "cy": "Küprose käibemaksukohustuslase number sisaldab CY ja 9 märki",
+              "cz": "Tšehhi käibemaksukohustuslase number sisaldab CY-d ja 8–10 märki.",
+              "dk": "Taani käibemaksukohustuslase number sisaldab DK ja 8 märki",
+              "ee": "Eesti käibemaksukohustuslase number sisaldab EE ja 9 märki",
+              "fi": "Soome käibemaksukohustuslase number sisaldab FI ja 8 märki",
+              "fr": "Prantsusmaa käibemaksukohustuslase number sisaldab FR ja 11 märki",
+              "de": "Saksamaa käibemaksukohustuslase number sisaldab DE ja 9 märki",
+              "gr": "Kreeka käibemaksukohustuslase number sisaldab EL ja 9 märki",
+              "hu": "Ungari käibemaksukohustuslase number sisaldab HU ja 8 märki",
+              "ie": "Iirimaa käibemaksukohustuslase number sisaldab IE ja 8–9 märki",
+              "it": "Itaalia käibemaksukohustuslase number sisaldab IT ja 11 märki",
+              "lv": "Läti käibemaksukohustuslase number sisaldab LV-d ja 11 märki",
+              "lt": "Leedu käibemaksukohustuslase number sisaldab LT ja 9–12 märki",
+              "lu": "Luksemburgi käibemaksukohustuslase number sisaldab LU ja 8 märki",
+              "mt": "Malta käibemaksukohustuslase number sisaldab MT-d ja 8 märki",
+              "nl": "Hollandi käibemaksukohustuslase number sisaldab NL ja 12 märki",
+              "pl": "Poola käibemaksukohustuslase number sisaldab PL ja 10 märki",
+              "pt": "Portugali käibemaksukohustuslase number sisaldab PT ja 9 märki",
+              "ro": "Rumeenia käibemaksukohustuslase number sisaldab RO ja 10 märki"
+            }
+          }
+        }
       }
     }
   },
