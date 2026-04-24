@@ -3498,8 +3498,74 @@
       "paid_with_shop_pay_installments_card": {
         "paid_with_shop_pay_installments": "Betalat med Shop Pay-delbetalningar",
         "description": "Håll koll på ditt betalningsschema med påminnelser i Butiksappen.",
-        "payment_reminders_button": "Få betalningspåminnelsen"
+        "payment_reminders_button": "Få betalningspåminnelsen",
+        "desktop_qr_code_content": {
+          "title": "Skanna efter minnen",
+          "description": "Få påminnelser om dina delbetalningar hos Shop."
+        },
+        "title": "Betalningspåminnelse för Shop Pay delbetalningar"
+      },
+      "order_details": "Beställningsuppgifter",
+      "contact_information": "Kontaktuppgifter",
+      "login_to_view_all_order_details": "Logga in för att se alla beställningsuppgifter.",
+      "order_details_skeleton_accessibility_label": "Logga in för att se alla beställningsuppgifter.",
+      "logged_in_account_no_permission_to_order": "Du är inloggad som {{email}}. Detta konto har inte behörighet att hantera denna beställning.",
+      "ok_duties_tooltip": "Denna beställning skickas från ett annat land, så tullavgifter har lagts till det totala beställningsbeloppet.",
+      "error_duties_tooltip": "Denna beställning skickas från ett annat land, så tullavgifter och skatter kan tillkomma vid leverans.",
+      "zero_duties_tooltip": "Denna beställning skickas från ett annat land. Inga tullavgifter tas ut för beställningar med detta värde.",
+      "fees": {
+        "restocking_fee": "Påfyllningskostnader",
+        "return_shipping_fee": "Returförsändelse"
+      },
+      "vat_invoices": {
+        "title": "Momsfakturan"
+      },
+      "taxes_included": "Inklusive {{amount}} moms",
+      "duties_and_taxes_included": "Totalt är inklusive tullavgifter och skatter. Inga extra betalningar vid leverans.",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, mängd: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Artiklar i paket {{productTitle}}"
+      },
+      "cash_rounding": "Avrunda kontant betalning",
+      "adjusted_payment": "Anpassad betalning",
+      "adjusted_total": "Anpassat totalt",
+      "login_card": {
+        "link_expired": "Länk utgången",
+        "resend_link_and_login": "Du kan se dina beställningsuppgifter genom att logga in eller skicka en ny länk till den e-postadress eller det telefonnummer som användes vid kassan.",
+        "resend_link_only": "Du kan se dina beställningsuppgifter genom att skicka en ny länk till den e-postadress eller det telefonnummer du använde vid kassan.",
+        "title": "Visa beställningsuppgifter"
+      },
+      "link_sent": "Länk skickad",
+      "due_on_date": "Skyldigt den {{date}}",
+      "due_on_fulfillment": "Att betala vid fullgörande",
+      "due_on_receipt": "Att betala vid mottagandet",
+      "payment_confirmation": {
+        "payment_received": "Tack! Din betalning på {{amount}} har mottagits.",
+        "full_payment_received": "Tack! Din betalning på {{amount}} har mottagits och denna beställning är nu helt betald.",
+        "payment_authorized": "Tack! Saldot uppdateras när betalningen har mottagits."
+      },
+      "marketing_pending_confirmation": "Klicka på länken i ditt e-postmeddelande för att bekräfta.",
+      "marketing_resend_email": "Skicka e-post igen",
+      "marketing_resend_email_success": "Länk skickad",
+      "total_savings": "Total besparing",
+      "price_after_discount_accessibility_label": "Rabattpris",
+      "discount_order_stacking": {
+        "one": "Beställningsrabatt",
+        "other": "Beställningsrabatter"
       }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adress borttagen",
+      "cancel_adding_address_accessibility_label": "Lägg till adress avbryt",
+      "cancel_deletion_button_accessibility_label": "ta bort {{address}} avbryt",
+      "delete_button": "Ta bort",
+      "delete_button_accessibility_label": "Ta bort {{address}}",
+      "delete_confirmation_button": "Ta bort adress",
+      "delete_confirmation_button_accessibility_label": "Ta bort {{address}}",
+      "delete_confirmation_message": "Ta bort adress? Detta påverkar inte befintliga beställningar.",
+      "loading_accessibility_message": "Ladda adress",
+      "loading_addresses_accessibility_message": "Ladda adressen",
+      "loading_billing_accessibility_message": "Ladda faktureringsadresser"
     }
   }
 }
