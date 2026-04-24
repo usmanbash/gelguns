@@ -1788,7 +1788,73 @@
         "ready_for_delivery_description": "Mēs esam sagatavojuši pasūtījumu.",
         "order_status_confirmed_order_local": "Mēs sagatavojam tavu pasūtījumu piegādei.",
         "delivery_information_label": "Piegādes informācija:",
-        "gift_card_sent_confirmation": "Dāvanu kuponi nosūtīti"
+        "gift_card_sent_confirmation": "Dāvanu kuponi nosūtīti",
+        "out_for_delivery_local_title": "Jūsu pasūtījums ir gatavs piegādei",
+        "out_for_delivery_local_description_html": "Drīzumā saņemsi savu pasūtījumu.",
+        "delivered_local_title": "Tava pasūtījuma piegāde ir veiksmīgi saņemta",
+        "delivered_local_description_html": "Vai vēl neesi saņēmis savu pasūtījumu? %{let_us_know}.",
+        "let_us_know": "Lūdzu, paziņojiet mums",
+        "qr_code": {
+          "title": "Sekojiet līdzi savā tālrunī",
+          "send_link_to_phone": "Vai nosūtīt saiti uz savu tālruni?"
+        },
+        "gift_card_confirmation_by_text": "Ja jūs to neesat saņēmis, lūdzu, pieprasiet īsziņas atkārtotu nosūtīšanu vai sazinieties ar mums.",
+        "gift_card_confirmation_by_email": "Ja jūs to neesat saņēmis, lūdzu, pieprasiet e-pasta atkārtotu nosūtīšanu vai sazinieties ar mums.",
+        "gift_card_title": "Dāvanu kuponi",
+        "resend_gift_cards": "Dāvanu kuponu atkārtota nosūtīšana",
+        "attempted_delivery_local_title": "Gemiste piegāde",
+        "attempted_delivery_local_description_html": "Mēs diemžēl nevarējām piegādāt jūsu pasūtījumu. %{contact_us}, lai plānotu citu piegādi.",
+        "thank_you_title_payment": "Jūsu maksājums ir apstiprināts",
+        "thank_you_confirmed_order_with_email_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Jūs veicāt maksājumu par savu pasūtījumu %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skenēt ar savu tālruni"
+          },
+          "sms": {
+            "title": "Vai nosūtīt saiti uz savu tālruni?"
+          }
+        },
+        "estimated_delivery": "Pašreizējais piegādes laika novērtējums:",
+        "view_business_customer_account": "Skatīt kontu",
+        "company_location_title": "Atrašanās vieta",
+        "thank_you_title_review": "Jūsu pasūtījums ir iesniegts izvērtēšanai",
+        "thank_you_confirmed_order_with_draft": "Mēs tev paziņosim, ja mums būs nepieciešama papildu informācija vai kad tava pasūtījuma apstiprinājums būs saņemts.",
+        "breadcrumbs_submitted": "Iesniegts",
+        "breadcrumbs_in_review": "Lai novērtētu",
+        "breadcrumbs_confirmed": "Apstiprināts",
+        "missing_shipping_address_banner": {
+          "title": "Pasūtījumam nav piegādes adreses",
+          "text_html": "%{contact_us}, lai pievienotu savu adresi",
+          "contact_us": "Sazināties ar mums"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Vēršaties pie pārdevēja.",
+        "order_status_confirmed_with_installments_payment_confirm": "Drīzumā saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru un informāciju par maksājumu grafiku.",
+        "first_payment_complete": "Pirmā iemaksa veikta",
+        "in_store_purchase": "Pirkums veikalā",
+        "choose_payment_method_later": "Izvēlēties maksāšanas veidu vēlāk",
+        "purchase_order_number_title": "Pasūtījuma numurs %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Pasūtījums ir saņemts %{address}.",
+        "ready_for_delivery": "Gatavs piegādei",
+        "order_updates_subscribe_to_email_notifications_failed": "Mēs nevaram saglabāt šo e-pasta adresi atjauninājumiem. Mēģiniet vēlreiz vai izmantojiet citu e-pasta adresi.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Ievadītā e-pasta adrese jau pastāv.",
+        "subscriptions_management": {
+          "title": "Abonements",
+          "description": "Dodieties uz savu kontu, lai skatītu un pārvaldītu savus abonementus.",
+          "button_label": "Pārvaldīt manu abonementu"
+        },
+        "manage_order_label": "Pārvaldīt jūsu pasūtījumu",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Pēc dažām minūtēm saņemsi īsziņu ar savu dāvanu karti.",
+          "other": "Pēc dažām minūtēm saņemsi īsziņu ar savām dāvanu kartēm."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Pēc dažām minūtēm saņemsi īsziņu ar savu dāvanu karti."
+        }
       }
     }
   },
