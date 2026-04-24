@@ -3088,8 +3088,74 @@
         "missing_parameters": "ID sau număr de rând nevalid",
         "generic_error": "Coș de cumpărături gol",
         "too_many_line_items_error": "Coșul tău nu poate conține mai mult de %{max} articole.",
-        "link_expired": "Legătura a expirat"
+        "link_expired": "Legătura a expirat",
+        "link_no_longer_exists": "Legătura nu mai există.",
+        "stock_problems_html": "Unul sau mai multe articole nu mai sunt disponibile. Am pregătit un <a href='%{link}'>coș de cumpărături actualizat</a>.",
+        "changed": "Coșul de cumpărături a fost modificat",
+        "items_changed": "Unul sau mai multe articole au fost modificate.",
+        "product_sold_out": "Produsul '%{name}' este deja epuizat.",
+        "variant_requires_selling_plan": "Varianta poate fi achiziționată doar împreună cu un abonament de vânzare.",
+        "shipping_address_not_required": "Pentru acest cărucior nu este necesară livrarea",
+        "shipping_address_invalid": "A apărut o problemă la calcularea costurilor de expediere. Continuă cu finalizarea comenzii pentru a alege costurile de expediere înainte de a-ți încheia comanda.",
+        "selling_plan_not_applicable": "Nu se poate aplica abonamentul de vânzare pe variantă",
+        "selling_plan_not_available_for_company_locations": "Doar achizițiile unice sunt disponibile pentru comenzile B2B.",
+        "digital_product_not_available_for_company_locations": "Nu poți adăuga acest articol la o comandă B2B",
+        "less_than_minimum": "Acest articol are un minim de %{min}.",
+        "more_than_maximum": "Acest articol are un maxim de %{max}.",
+        "not_respect_step": "Poți adăuga acest articol doar în pași de %{step}.",
+        "bundle_requires_components": "Nu se poate adăuga produsul pachet '%{name}' în coșul de cumpărături.",
+        "gift_card_with_components_not_supported": "Nu se poate adăuga produsul pachet '%{name}' în coșul de cumpărături.",
+        "view_lines_limit_reached": "Regulile trebuie să fie mai mici sau egale cu %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "A apărut o eroare în coșul tău de cumpărături."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nu se poate adăuga produsul pachet '%{name}' în coșul de cumpărături.",
+        "cart_too_large": "Coșul de cumpărături este prea mare.",
+        "gift_card_recipient_validation_error": "Destinatarul specificat al bonului cadou este nevalid",
+        "buyer_cannot_purchase_for_company_locations": "Nu poți face o cumpărătură pentru această locație",
+        "only_one_added_to_cart": "A fost adăugat doar 1 articol în coșul tău din cauza disponibilității.",
+        "only_n_added_to_cart": "Au fost adăugate în coș doar %{quantity} articole din cauza disponibilității.",
+        "maximum_available_quantity_reached": "Cantitatea maximă a acestui articol este deja în coșul tău de cumpărături.",
+        "cart_attributes_error": "Atributele coșului conțin date nevalide.",
+        "merchandise_not_applicable": "Articolul nu poate fi cumpărat în configurația aleasă.",
+        "not_found": "Coșul de cumpărături nu a fost găsit"
+      },
+      "storefront": {
+        "invalid_password": "Parola incorectă, încearcă din nou."
+      },
+      "tags": {
+        "add_articles": "Limitează căutarea la articolele cu eticheta %{tag}",
+        "add_products": "Limitează căutarea la produse cu eticheta %{tag} corespunzătoare",
+        "remove_articles": "Extinde căutarea pentru articole care nu sunt etichetate cu %{tag}",
+        "remove_products": "Eliminare tag %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} adăugat",
+          "increment_item": "%{delta} adăugat",
+          "decrement_item": "%{delta} din %{total} șters",
+          "decrement_fulfilled_line_item": "%{delta} din %{total} returnate",
+          "decrement_return_line_item": "%{delta} eliminat din retur"
+        }
       }
+    },
+    "page_titles": {
+      "create_account": "Creează cont",
+      "reset_account": "Resetare cont",
+      "addresses": "Adresele",
+      "order": "Comandă %{name}",
+      "search": "Căutare",
+      "not_found": "404 nu a fost găsit",
+      "checkpoint": "Punct de control",
+      "search_results": {
+        "one": "Căutare: %{count} rezultat găsit pentru '%{terms}'",
+        "other": "Căutare: %{count} rezultate găsite pentru '%{terms}'"
+      },
+      "blog_or_article_with_error": "Eroare - %{title}"
+    },
+    "challenge": {
+      "message": "Anunță-ne că nu ești robot pentru a continua.",
+      "submit_button_text": "Trimitere"
     }
   }
 }
