@@ -4094,7 +4094,83 @@
       },
       "add_payment_method_banner": "Tilføj betalingsmetode for hurtigere betaling og tjenester til forudgående godkendelse",
       "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}}, der ender på {{lastDigits}}",
-      "expiration_warning_button_accessibility_label": "Vis advarsel om forfald for {{paymentMethodName}}, der slutter på {{lastDigits}}"
+      "expiration_warning_button_accessibility_label": "Vis advarsel om forfald for {{paymentMethodName}}, der slutter på {{lastDigits}}",
+      "no_payment_methods_banner": "Ingen betalingsmetoder tilføjet",
+      "store_credit": {
+        "label": "Butikskredit",
+        "accesibility_label": "Butikskredit - {{formattedBalance}}",
+        "expirable_amounts_button": "Se bedrag, der udløber",
+        "details_modal": {
+          "title": "Butikskredit, der udløber",
+          "amount_label": "Snyd",
+          "expirable_balance_info": "En del af saldoen udløber på en fremtidig dato.",
+          "expirable_amount_label": "Samlet beløb, der bortfalder",
+          "expirable_amounts_info": "Beløb, der tidligere er udløbet, anvendes først ved kassen.",
+          "expired_amounts_button": "Se forfaldne beløb",
+          "pagination": {
+            "load_more_label": "Indlæs mere",
+            "load_more_accessibility_label": "Flere beløb, der udløber, indlæses"
+          },
+          "events": {
+            "adjustment": "Tilpasning",
+            "order_payment": "Betaling af bestilling",
+            "order_refund": "Tilbagebetaling af bestilling",
+            "payment_failure": "Mislykket betaling",
+            "payment_returned": "Betaling tilbageført",
+            "order_cancellation": "Aflysning af bestilling",
+            "tax_finalization": "Afslutning af skat"
+          }
+        },
+        "expirable_amounts_label": "Forfaldne beløb"
+      },
+      "three_d_secure": {
+        "title": "3D Sikkerhed",
+        "verification_failed": "Din betaling kan ikke bekræftes. Prøv igen eller brug en anden betalingsmetode."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Tilføj PayPal-betalingsmetode",
+        "loading_accessibility_message": "PayPal indlæsning",
+        "errors": {
+          "generic": "Der opstod et problem med PayPal. Prøv igen eller brug en anden betalingsmetode."
+        }
+      },
+      "card_update_consent_subscriptions": "Denne betalingsmetode gemmes til fremtidige køb og kan bruges til ethvert tilbagevendende eller udsat køb.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Ved at tilføje en betalingsmetode kan du give tilladelse til, at der opkræves gebyrer på dit kort, indtil du annullerer, eller at der ved fremtidige køb, som du godkender, trækkes penge fra din bankkonto."
+      },
+      "replacement_payment_method_title": "Erstatningsbetalingsmetoder",
+      "bank_account": {
+        "iframe_title_accessibility_label": "Indstilling af bankkonto",
+        "generic_error": "Kan ikke tilføje bankkonto. Prøv igen senere."
+      },
+      "update_payment_method": {
+        "button_title": "Opdateringen",
+        "disclaimer": "Denne betalingsmetode gemmes til fremtidige køb og kan bruges til ethvert tilbagevendende eller udsat køb.",
+        "error_message": "Kan ikke opdatere betalingsmetode",
+        "loading_form_accessibility_message": "Formular til opdatering af betalingsmetode indlæses",
+        "loading_current_payment_method": "Nuværende betalingsmetode indlæses",
+        "loading_digital_wallets": "Indstillinger for digital pung indlæses",
+        "loading_card_fields": "Kreditkortfelterne indlæses",
+        "subscriptions_title": "Abonnementerne",
+        "subscriptions_list_accessibility_label": "Liste over abonnementsprodukter",
+        "pre_orders_list_accessibility_label": "Liste over produkter med igangværende ordre",
+        "resources_list_accessibility_label": "Abonnementsprodukter og produkter med en igangværende bestilling, der bruger denne betalingsmetode",
+        "resources_card_scroll": "Rul for flere artikler",
+        "resources_card_show_less": "Vis minder"
+      },
+      "link_expired": {
+        "message": "Dette link til at opdatere din betalingsmetode er udløbet.",
+        "return_home_button": "Tilbage til forsiden",
+        "update_message": "Dette link til at opdatere din betalingsmetode er udløbet.",
+        "add_message": "Dette link til at tilføje din betalingsmetode er udløbet."
+      },
+      "update_success": {
+        "title": "Betalingsmetode opdateret"
+      },
+      "or": "ELLER",
+      "add_success": {
+        "title": "Betalingsmetode tilføjet"
+      }
     }
   }
 }
