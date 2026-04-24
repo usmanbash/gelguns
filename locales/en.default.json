@@ -298,39 +298,39 @@
       "announcement": "Announcement",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} item",
+        "one": "{{ count }} items",
         "other": "{{ count }} items"
       }
     },
     "cart": {
-      "title": "Your cart",
-      "caption": "Cart items",
+      "title": "Your shopping cart",
+      "caption": "Items in shopping cart",
       "remove_title": "Remove {{ title }}",
       "estimated_total": "Estimated total",
       "new_estimated_total": "New estimated total",
-      "note": "Order special instructions",
-      "checkout": "Check out",
-      "empty": "Your cart is empty",
-      "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Duties and taxes included. Discounts and shipping calculated at checkout.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
-      "taxes_included_shipping_at_checkout_without_policy": "Taxes included. Discounts and shipping calculated at checkout.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Duties included. Taxes, discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Duties included. Taxes, discounts and shipping calculated at checkout.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes, discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxes, discounts and shipping calculated at checkout.",
+      "note": "Special instructions for order",
+      "checkout": "Checkout",
+      "empty": "Your shopping cart is empty",
+      "cart_error": "An error occurred while updating your shopping cart. Please try again.",
+      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your shopping cart.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Customs duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> are calculated at checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Customs duties and taxes included. Discounts and shipping are calculated at checkout.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> are calculated at checkout.",
+      "taxes_included_shipping_at_checkout_without_policy": "Taxes included. Discounts and shipping are calculated at checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Customs duties included. Taxes, discounts, and <a href=\"{{ link }}\">shipping</a> are calculated at checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Customs duties included. Taxes, discounts, and shipping will be calculated at checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes, discounts, and <a href=\"{{ link }}\">shipping</a> are calculated at checkout.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxes, discounts, and shipping are calculated at checkout.",
       "headings": {
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity",
+        "quantity": "Number",
         "image": "Product image"
       },
       "update": "Update",
       "login": {
-        "title": "Have an account?",
+        "title": "Do you have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
       },
       "free_shipping_success": "You've unlocked FREE shipping!",
@@ -343,7 +343,7 @@
     "featured_blog": {
       "view_all": "View all",
       "onboarding_title": "Blog post",
-      "onboarding_content": "Give your customers a summary of your blog post"
+      "onboarding_content": "Give your customers an overview of your blog post"
     },
     "featured_collection": {
       "view_all": "View all",
@@ -355,46 +355,46 @@
     "collection_template": {
       "empty": "No products found",
       "title": "Collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all</a>"
     },
     "video": {
-      "load_video": "Load video: {{ description }}"
+      "load_video": "Loading video: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Load slide",
+      "load_slide": "Day store",
       "previous_slideshow": "Previous slide",
       "next_slideshow": "Next slide",
       "pause_slideshow": "Pause slideshow",
       "play_slideshow": "Play slideshow",
       "carousel": "Carousel",
-      "slide": "Slide"
+      "slide": "Day"
     },
     "page": {
       "title": "Page title"
     },
     "quick_order_list": {
       "product_total": "Product subtotal",
-      "view_cart": "View cart",
-      "each": "{{ money }}/ea",
+      "view_cart": "View shopping cart",
+      "each": "{{ money }}/pc",
       "product": "Product",
       "variant": "Variant",
-      "variant_total": "Variant total",
+      "variant_total": "Total variant",
       "items_added": {
-        "one": "{{ quantity }} item added",
+        "one": "{{ quantity }} items added",
         "other": "{{ quantity }} items added"
       },
       "items_removed": {
-        "one": "{{ quantity }} item removed",
+        "one": "{{ quantity }} items removed",
         "other": "{{ quantity }} items removed"
       },
       "product_variants": "Product variants",
-      "total_items": "Total items",
-      "remove_all_single_item_confirmation": "Remove 1 item from your cart?",
-      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your cart?",
+      "total_items": "Total number of items",
+      "remove_all_single_item_confirmation": "Remove 1 item from your shopping cart?",
+      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your shopping cart?",
       "remove_all": "Remove all",
       "cancel": "Cancel",
-      "min_error": "This item has a minimum of {{ min }}",
-      "max_error": "This item has a maximum of {{ max }}",
+      "min_error": "A minimum of {{ min }} applies to this item.",
+      "max_error": "A maximum of {{ max }} applies to this item.",
       "step_error": "You can only add this item in increments of {{ step }}"
     }
   },
