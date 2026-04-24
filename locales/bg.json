@@ -2532,7 +2532,91 @@
           "UnhandledViolations": "Данни за поръчката"
         },
         "all_violations_content": "Обадете се на {{emailLink}} или ни пишете, за да актуализирате тези данни и да завършите поръчката си:",
-        "all_violations_email_link": "имейл"
+        "all_violations_email_link": "имейл",
+        "editable_shipping_address_violations_message_title": "Добавете тази информация, за да завършите поръчката си:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} за постоянно актуализиране на адреса за това място.",
+        "editable_shipping_address_violations_email_link": "Свържете се с нас",
+        "company_location_changed_product_removed": "Вашата количка е променена, защото някои продукти не са налични на това място. Проверете поръчката си, преди да я изпратите.",
+        "calculating_shipping": "Доставката все още се изчислява. Моля, опитайте отново след няколко секунди. Не са начислявани никакви такси.",
+        "calculating_taxes": "Таксите все още се изчисляват. Моля, опитайте отново след няколко секунди. Не са начислявани никакви такси.",
+        "generic_processing_error": {
+          "title": "Възникна проблем при обработката на вашата поръчка",
+          "body": "Не са начислени такси. Опитайте отново или използвайте друг метод на плащане."
+        },
+        "contact_information": {
+          "title": "Данните за контакт са невалидни",
+          "header": "{{emailLink}} за актуализиране на вашите данни",
+          "email_link": "Свържете се с нас"
+        },
+        "payment_method_not_available_with_payment_terms": "Методът на плащане, който сте избрали, вече не е наличен, тъй като плащането за тази поръчка сега попада под условията на {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Методът на плащане, който сте избрали, вече не е наличен, тъй като плащането за тази поръчка трябва да се извърши при изпълнението.",
+        "payment_method_not_available_with_fixed_terms": "Методът на плащане, който сте избрали, вече не е наличен, тъй като плащането за тази поръчка трябва да бъде извършено по-късно.",
+        "payment_method_not_available_with_review_requirement": "Методът на плащане, който сте избрали, вече не е наличен, тъй като плащането се дължи при потвърждаване на поръчката.",
+        "validation_errors_banner": {
+          "section_label": {
+            "contact": "Контакт"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Проверка на адреса",
+        "subtitle": {
+          "one": "Тази поръчка ще бъде изпратена до адреса, посочен от {{merchant}}.",
+          "other": "Тази поръчка ще бъде изпратена до адрес, посочен от {{merchant}}. Изберете адрес за доставка."
+        },
+        "subtitle_no_match": "Този адрес не съвпада с нито един от запазените ти адреси.",
+        "subtitle_must_use": "Вашата поръчка ще бъде изпратена на този адрес.",
+        "continue": "Продължете с този адрес",
+        "return_to_cart": "Върни се към количката"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Четения",
+          "link_label": "Общите условия на {{partnerDisplayName}}"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Има %{count} място с наличност наблизо",
+          "other": "Има %{count} налични локации наблизо"
+        },
+        "or": "ОТ",
+        "cancel": "Отказване",
+        "your_location": "твоето местоположение",
+        "search_button": "Търсене на магазини",
+        "no_stores_found": "Няма намерени магазини",
+        "could_not_resolve_address": "Не може да се намери адресът. Опитайте отново или използвайте друг адрес.",
+        "paginator": {
+          "accessibility_label": "Пагинация за вземане на място",
+          "label": {
+            "one": "%{first} - %{last} от %{count} магазин",
+            "other": "%{first} - %{last} от %{count} магазина"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Покажи още %{count} локации",
+          "other": "Показване на още %{count} локации"
+        },
+        "all_stores_far_away": {
+          "title": "Най-близките локации се намират на повече от %{distance} разстояние",
+          "ship_to_address_link": "адрес за доставка",
+          "change_location_link": "Промени местоположението си",
+          "title_with_specific_location": "Най-близкото място с вашия артикул се намира на повече от %{distance} от %{location}.",
+          "title_with_item": {
+            "one": "Най-близкото място с вашия артикул се намира на повече от %{distance} от %{location}.",
+            "other": "Най-близкото място с твоите артикули се намира на повече от %{distance} от %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Първоначално избраното местоположение вече не е налично",
+          "ship_to_address_link": "Изпращане до адрес"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Изпрати артикулите си",
+          "search_elsewhere": "потърсете другаде",
+          "ship_items_or_search_elsewhere": "%{ship_items} от %{search_elsewhere}"
+        },
+        "location_closest": "Най-близко място с вашия артикул"
       }
     }
   }

@@ -1202,7 +1202,69 @@
           }
         },
         "estimated_delivery_time": "Αναμενόμενη παράδοση %{time}",
-        "estimated_delivery_time_range": "Αναμενόμενη παράδοση %{min_time}–%{max_time}"
+        "estimated_delivery_time_range": "Αναμενόμενη παράδοση %{min_time}–%{max_time}",
+        "arrives_time": "Παραδίδεται σε %{time}",
+        "arrives_time_range": "Παράδοση μεταξύ %{min_time}–%{max_time}",
+        "estimated_time": "Αναμένεται σε %{time}",
+        "estimated_time_range": "Αναμένεται %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Συνδρομή τοπικής παράδοσης",
+        "subscription_pickup": "Εγγραφή παραλαβής",
+        "delivery_today": "Παράδοση την ίδια μέρα έως τις %{time}",
+        "delivery_tomorrow": "Παράδοση την επόμενη μέρα έως τις %{time}",
+        "two_day_delivery": "Παράδοση εντός 2 ημερών μέχρι %{time}",
+        "delivery": "Παράδοση σε %{time}",
+        "duties_and_taxes_title": "Τέλη εκτελωνισμού και φόροι",
+        "shipping_information_required_notice": "Απαιτούνται στοιχεία αποστολής. {{link}}.",
+        "shipping_information_redirect_link": "Εισάγετε εδώ τα στοιχεία σας",
+        "loading_progressive_rates": "Αναζήτηση περισσότερων τιμοκαταλόγων...",
+        "no_other_methods_available": "Δεν υπάρχουν άλλες διαθέσιμες μέθοδοι",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Ενδέχεται να ισχύουν επιπλέον χρεώσεις",
+          "ddp_caption": "Χωρίς επιπλέον χρεώσεις κατά την παράδοση"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} σε %{current}"
+        },
+        "shipping_used_as_billing_notice": "Αυτό χρησιμοποιείται επίσης ως η διεύθυνση τιμολόγησής σας για αυτήν την παραγγελία.",
+        "add_address": "Χρησιμοποιήστε άλλη διεύθυνση",
+        "delete": "Αφαίρεση",
+        "address_more": "Περισσότερες ενέργειες για αυτή τη διεύθυνση",
+        "address_delete": "Αφαίρεση διεύθυνσης",
+        "address_confirm": "Είσαι σίγουρος ότι θέλεις να αφαιρέσεις αυτή τη διεύθυνση από τον λογαριασμό σου;",
+        "address_form": {
+          "generic_error": "Παρουσιάστηκε πρόβλημα κατά την αποθήκευση της διεύθυνσής σου. Δοκίμασε ξανά.",
+          "one_time_address_subtitle": "Χρήση μιας μόνο διεύθυνσης για αυτήν την παραγγελία"
+        },
+        "different_shipping_method_summary": "Εισάγετε μια άλλη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής",
+        "invalid_shipping_method_summary": "Εισάγετε μια έγκυρη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής",
+        "method_summary": {
+          "incomplete_address_entered": "Εισάγετε μια πλήρη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής",
+          "incomplete_address_selected": "Επιλέξτε μια πλήρη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής"
+        },
+        "local_pickup": {
+          "rollup_title": "Τοποθεσία επιστροφής",
+          "rollup_accessibility_label": "Επιλογές για το σημείο παραλαβής"
+        },
+        "missing_shipping_address": "Λείπει η διεύθυνση παράδοσης",
+        "address_default": "Ορισμός ως προεπιλογή",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} αντικείμενα",
+        "split_shipping_merchandise_quantity_label_additional": "+ ακόμα %{quantity}",
+        "pre_order_ships_later": "Θα αποσταλεί αργότερα",
+        "pre_order_ships_date": "Αποστέλλεται στις %{date}",
+        "split_shipping_shipped_by_shop": "Απεσταλμένο από %{shop_name}",
+        "split_shipping_shipping_label": "Wijze",
+        "split_shipping_multiple_shipment_notice": "Η παραγγελία θα παραδοθεί σε πολλαπλές αποστολές",
+        "split_shipping_option_fastest": "Ταχύτερο",
+        "split_shipping_option_custom": "Προσαρμοσμένο",
+        "default_description": "Αποστέλλεται εντός μιας εργάσιμης ημέρας",
+        "split_shipping_shipment_notice": "Θα λάβετε την παραγγελία σας σε %{quantity_shipments}",
+        "prime_not_available": {
+          "default": "Η παράδοση Prime δεν είναι διαθέσιμη για την παραγγελία σου. Οι επιλογές αποστολής σου έχουν ενημερωθεί."
+        },
+        "split_shipping_first_shipment_notice": "Θα λάβετε την πρώτη σας παραγγελία σε %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Επιλογές μεθόδου αποστολής",
+        "shipping_address_rollup_accessibility_label": "Επιλογές αποστολής στη διεύθυνση",
+        "back": "Επιστροφή"
       }
     }
   }
