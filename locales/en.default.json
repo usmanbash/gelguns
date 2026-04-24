@@ -1906,7 +1906,79 @@
             "privacy_policy": "Privacy policy",
             "description_html": "By signing up via SMS, you agree to receive automated marketing messages, including cart reminders, at the provided phone number. Consent is not a condition of purchase. Reply STOP to unsubscribe. Reply HELP for help. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_link} and %{terms_of_service_link}.",
             "description_transactional_html": "You may receive text messages related to order confirmations and shipping updates. Reply STOP to unsubscribe. Reply HELP for assistance. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_modal_link} and our %{terms_of_service_modal_link}."
-          }
+          },
+          "get_offers_by_text": "Receive offers via text message"
+        },
+        "post_accept_marketing_checkbox_label": "You have signed up to receive emails with news and offers",
+        "pending_accept_marketing_checkbox_label": "Check your email to confirm your subscription for news and offers",
+        "accept_shop_pay_marketing_checkbox_label": "Sign me up for news and offers from this shop",
+        "disclaimer": {
+          "privacy_policy": "Privacy policy"
+        }
+      },
+      "shop_policies": {
+        "terms_of_service": "General terms and conditions",
+        "terms_of_sale": "Terms of Sale",
+        "purchase_options_policy": "Purchase Options Policy",
+        "policies_label": "Policy",
+        "terms_and_policies": "Terms and conditions"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Amount to be paid for order %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} added"
+          },
+          "subtracted": "%{count} removed",
+          "returned": "%{count} returned",
+          "return_line_item_removed": "%{count} removed from return"
+        },
+        "additional_payment_requested": "Payment of %{total_outstanding} is required",
+        "checkout_review_and_pay": "Your order %{order_name} has been updated. Review these changes and then pay to confirm your order.",
+        "order_review_and_pay": "Your order has been updated. Check and pay to confirm your order."
+      },
+      "change_currency": {
+        "payment_total_label": "Total payments",
+        "card_provider_fx_charges_warning": "Your card issuer may charge fees for %{currency_code} transactions."
+      },
+      "tips": {
+        "description": "Show that you support the %{shop_name} team",
+        "presets_description": "Choose a tip percentage",
+        "custom_label": "Adjusted tip",
+        "message": "Thank you, we truly appreciate it.",
+        "not_available_with_spi": "Not available with Shop Pay installment payments"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Buy %{product_name}",
+          "one": "Buy %{product_name} and %{count} other item(s)",
+          "other": "Buy %{product_name} and %{count} other items"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Personal customs code",
+          "tax_credential_it": "Tax Code (optional)",
+          "tax_credential_co": "ID/Tax Number",
+          "tax_credential_type_co": "Type ID",
+          "shipping_credential_co": "ID/Tax Number",
+          "shipping_credential_type_co": "Type ID",
+          "tax_credential_cr": "Identification number/National ID",
+          "shipping_credential_cr": "Identification number/National ID",
+          "tax_credential_ec": "CI/RUC/VAT",
+          "shipping_credential_ec": "CI/RUC/VAT",
+          "tax_credential_gt": "Tax ID/VAT",
+          "shipping_credential_gt": "Tax ID/VAT",
+          "tax_credential_id": "Taxpayer Identification Number",
+          "shipping_credential_id": "Taxpayer Identification Number",
+          "tax_credential_my": "Tax Identification Number/Registration Number",
+          "shipping_credential_my": "Tax Identification Number/Registration Number",
+          "shipping_credential_mx": "Request for Comments",
+          "tax_credential_mx": "Request for Comments",
+          "tax_credential_type_mx": "Tax Regime",
+          "tax_credential_use_mx": "Use of CFDI",
+          "tax_credential_py": "CI/RUC/VAT",
+          "shipping_credential_py": "CI/RUC/VAT"
         }
       }
     },
