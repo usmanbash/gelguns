@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,72 @@
       "send_on_label": "Küldés dátuma (nem kötelező)",
       "expanded": "Ajándékkártya címzettjének űrlapja kibontva",
       "collapsed": "Ajándékkártya címzettjének űrlapja összecsukva"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "hu",
+      "last_word_connector": ", hu"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Pénztár",
+        "breadcrumb": "Morzsa",
+        "complete_purchase_button_label": "Megrendelés befejezése",
+        "pay_now_button_label": "Fizetés most",
+        "authenticate_purchase_button_label": "Fizetés ellenőrzése",
+        "edit_link_label": "Módosítás",
+        "all_rights_reserved": "Minden jog fenntartva %{shop_name}",
+        "expand_notice_label": "Továbbiak megtekintése",
+        "continue_to_shipping_method": "Folytatás a küldéssel",
+        "continue_to_payment_method": "Fizetéshez lépés",
+        "continue_to_review": "Rendelés ellenőrzése",
+        "back_to_cart": "Vissza a bevásárlókosárhoz",
+        "back_to_contact_information": "Vissza az információkhoz",
+        "back_to_shipping_method": "Vissza a küldéshez",
+        "back_to_payment_method": "Vissza a fizetéshez",
+        "choose_shipping_method": "Válasszon szállítási módot",
+        "choose_payment_method": "Válasszon fizetési módot",
+        "choose_billing_address": "Válasszon számlázási címet",
+        "contact_us_html": "Lépjen kapcsolatba velünk további információért",
+        "autocomplete_single_item": "1 cikk elérhető",
+        "autocomplete_multi_item": "{{number}} cikk elérhető",
+        "autocomplete_selection": "{{number}} van a {{total}}",
+        "forwarding_indicator": {
+          "external": "Megnyit külső weboldalt.",
+          "external_and_new_window": "Külső weboldal megnyitása új ablakban."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Fizetés"
+        },
+        "tooltip_accessibility_label": "További információk",
+        "errors": {
+          "session_identifier_not_unique_error": "Valami hiba történt a rendeléseddel. Próbáld meg újra a fizetést.",
+          "line_item_limit_reached": "Elértük a maximális rendelési sorok számát.",
+          "only_empty_terms_accepted": "Ez a szabályzat csak üres feltételeket fogad el.",
+          "session_is_already_finished": "Ez a fizetési folyamat már befejeződött.",
+          "merchandise": {
+            "only_value_constraint": "Áruk bevitelekor csak pontos értékek megengedettek.",
+            "merchandise_not_found": "Termék nem található.",
+            "bundle_products_not_supported_for_b2b": "Nem adhatsz hozzá csomagolt termékeket B2B-rendelésekhez ezen a helyszínen.",
+            "gift_card_quantity_mismatch": "Amikor ajándékkártya-kódokat ad meg, a rendelési tételsorok mennyiségének meg kell egyeznie az ajándékkártya-kódok számával.",
+            "gift_card_not_supported": "Ezen a fizetésnél nem fogadunk el ajándékkártyákat.",
+            "gift_card_not_unique": "A {{code}} kóddal ellátott ajándékkártya többször is szerepel ezen a fizetésnél. A kódokat az összehasonlítás előtt dolgozzák fel.",
+            "gift_card_used": "A {{code}} ajándékkártyakód már egy ajándékkártyához van rendelve. A kódokat az összehasonlítás előtt állítják elő.",
+            "gift_card_invalid": "A {{code}} ajándékkártyakód érvénytelen.",
+            "gift_card_code_changed": "A {{proposed_code}} ajándékkártya-kód a formázási szabályok szerint {{formatted_code}} értékre változott.",
+            "gift_card_with_attributes_not_supported": "Ezen a fizetésnél nem támogatottak az egyedi jellemzőkkel rendelkező ajándékkártyák.",
+            "gift_card_with_components_not_supported": "Ezen a pénztárnál nem támogatottak az alkotóelemeket tartalmazó ajándékkártyák.",
+            "selling_plan_mismatch": "A előfizetés frissítve lett.",
+            "selling_plan_not_supported": "Előfizetések nem támogatottak.",
+            "selling_plan_not_supported_b2b": "B2B-fizetéshez nem támogatottak az előfizetések.",
+            "price_mismatch": "A korábban javasolt ár ezekre az árucikkekre érvénytelen volt, és frissítésre került.",
+            "inventory_not_found": "Nem található készlet ezekhez az árukhoz.",
+            "duplicated_stable_id": "Ez az árucikk-sor ugyanazzal a stabil azonosítóval rendelkezik, mint egy másik sor.",
+            "minimum_quantity_not_met": "Néhány termék esetében nem teljesül a minimálisan megengedett mennyiség."
+          }
+        }
+      }
     }
   }
 }
