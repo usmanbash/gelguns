@@ -295,96 +295,96 @@
   },
   "sections": {
     "header": {
-      "announcement": "Skelbimas",
+      "announcement": "Pranešimas",
       "menu": "Meniu",
       "cart_count": {
-        "one": "{{ count }} prekė",
-        "other": "{{ count }} prekės (-ių)",
+        "one": "{{ count }} straipsnis",
+        "other": "{{ count }} straipsniai",
         "few": "{{ count }} prekės (-ių)",
         "many": "{{ count }} prekės (-ių)"
       }
     },
     "cart": {
-      "title": "Jūsų krepšelis",
-      "caption": "Krepšelio turinys",
-      "remove_title": "Pašalinti {{ title }}",
-      "note": "Specialūs nurodymai dėl užsakymo",
-      "checkout": "Atsiskaityti",
-      "empty": "Jūsų krepšelis tuščias",
-      "cart_error": "Atnaujinant krepšelį įvyko klaida. Bandykite dar kartą.",
-      "cart_quantity_error_html": "Į krepšelį galite įdėti tik {{ quantity }}šios prekės vnt.",
+      "title": "Jūsų prekių krepšelis",
+      "caption": "Prekės krepšelyje",
+      "remove_title": "pašalinti {{ title }}",
+      "note": "Specialios užsakymo instrukcijos",
+      "checkout": "Atsiskaitymas",
+      "empty": "Jūsų pirkinių krepšelis tuščias",
+      "cart_error": "Įvyko klaida atnaujinant tavo prekių krepšelį. Bandyk dar kartą.",
+      "cart_quantity_error_html": "Į savo krepšelį galite įdėti tik {{ quantity }} šio prekės vienetų.",
       "update": "Atnaujinti",
       "headings": {
-        "product": "Gaminys",
+        "product": "Produktas",
         "price": "Kaina",
-        "total": "Visa suma",
+        "total": "Iš viso",
         "quantity": "Kiekis",
-        "image": "Gaminio nuotrauka"
+        "image": "Produkto vaizdas"
       },
       "login": {
-        "title": "Turite paskyrą?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prisijunkite</a> ir atsiskaitysite greičiau."
+        "title": "Ar turite paskyrą?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prisijunkite</a> greičiau atsiskaityti."
       },
-      "estimated_total": "Apskaičiuota bendra suma",
-      "new_estimated_total": "Nauja apskaičiuota bendra suma",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Muito ir kiti mokesčiai įtraukti. Nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Muito ir kiti mokesčiai įtraukti. Nuolaidos ir siuntimo išlaidos apskaičiuojamos atsiskaitant.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Mokesčiai įtraukti. Nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
-      "taxes_included_shipping_at_checkout_without_policy": "Mokesčiai įtraukti. Nuolaidos ir siuntimo išlaidos apskaičiuojamos atsiskaitant.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Muito mokesčiai įtraukti. Mokesčiai, nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Muito mokesčiai įtraukti. Mokesčiai, nuolaidos ir siuntimo išlaidos apskaičiuojamos atsiskaitant.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Mokesčiai, nuolaidos ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Mokesčiai, nuolaidos ir siuntimo išlaidos apskaičiuojamos atsiskaitant."
+      "estimated_total": "Apskaičiuota suma",
+      "new_estimated_total": "Naujas apskaičiuotas bendras kiekis",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Muitai ir mokesčiai įskaičiuoti. Nuolaidos ir <a href=\"{{ link }}\">pristatymas</a> bus apskaičiuoti atsiskaitymo metu.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Muitai ir mokesčiai įskaičiuoti. Nuolaidos ir pristatymas apskaičiuojami atsiskaitymo metu.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Mokesčiai įskaičiuoti. Nuolaidos ir <a href=\"{{ link }}\">pristatymas</a> apskaičiuojami atsiskaitymo metu.",
+      "taxes_included_shipping_at_checkout_without_policy": "Mokesčiai įskaičiuoti. Nuolaidos ir pristatymas apskaičiuojami atsiskaitymo metu.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Muitai įskaičiuoti. Mokesčiai, nuolaidos ir <a href=\"{{ link }}\">pristatymas</a> bus apskaičiuoti atsiskaitymo metu.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Muitai įskaičiuoti. Mokesčiai, nuolaidos ir siuntimas bus apskaičiuoti atsiskaitymo metu.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Mokesčiai, nuolaidos ir <a href=\"{{ link }}\">pristatymas</a> apskaičiuojami atsiskaitymo metu.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Mokesčiai, nuolaidos ir pristatymas bus apskaičiuoti atsiskaitymo metu."
     },
     "footer": {
       "payment": "Mokėjimo būdai"
     },
     "featured_blog": {
-      "view_all": "Žr. viską",
+      "view_all": "Peržiūrėti viską",
       "onboarding_title": "Tinklaraščio įrašas",
-      "onboarding_content": "Pateikite savo klientams savo tinklaraščio įrašo santrauką"
+      "onboarding_content": "Pateikite savo klientams apžvalgą apie savo tinklaraščio įrašą"
     },
     "featured_collection": {
-      "view_all": "Žr. viską",
-      "view_all_label": "Žr. visus kolekcijos „{{ collection_name }}“ gaminius"
+      "view_all": "Peržiūrėti viską",
+      "view_all_label": "Peržiūrėkite visus produktus kolekcijoje {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Žr. viską"
+      "view_all": "Peržiūrėti viską"
     },
     "collection_template": {
       "title": "Kolekcija",
-      "empty": "Nerasta jokių gaminių",
-      "use_fewer_filters_html": "Naudoti mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">pašalinti viską</a>"
+      "empty": "Nerasta produktų",
+      "use_fewer_filters_html": "Naudoti mažesnius filtrus arba <a class=\"{{ class }}\" href=\"{{ link }}\">pašalinti viską</a>"
     },
     "video": {
-      "load_video": "Įkelti vaizdo įrašą „{{ description }}“"
+      "load_video": "Vaizdo įrašas kraunamas: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Įkelti skaidrę",
-      "previous_slideshow": "Ankstesnė skaidrė",
-      "next_slideshow": "Kita skaidrė",
-      "pause_slideshow": "Pristabdyti skaidrių peržiūrą",
-      "play_slideshow": "Leisti skaidrių peržiūrą",
+      "load_slide": "Įkrauti dia",
+      "previous_slideshow": "Ankstesnis skaidrė",
+      "next_slideshow": "Kitas skaidrė",
+      "pause_slideshow": "Skaidrių demonstracijos pristabdymas",
+      "play_slideshow": "Rodyti skaidrių demonstraciją",
       "carousel": "Karuselė",
-      "slide": "Skaidrė"
+      "slide": "Diena"
     },
     "page": {
-      "title": "Puslapio pavadinimas"
+      "title": "Puslapiavimas"
     },
     "announcements": {
-      "previous_announcement": "Ankstesnis skelbimas",
-      "next_announcement": "Kitas skelbimas",
+      "previous_announcement": "Ankstesnis pranešimas",
+      "next_announcement": "Kitas pranešimas",
       "carousel": "Karuselė",
-      "announcement": "Skelbimas",
-      "announcement_bar": "Skelbimo juosta"
+      "announcement": "Pranešimas",
+      "announcement_bar": "Pranešimų juosta"
     },
     "quick_order_list": {
-      "product_total": "Gaminių tarpinė suma",
-      "view_cart": "Peržiūrėti krepšelį",
-      "each": "{{ money }}/vnt.",
-      "product": "Gaminys",
+      "product_total": "Produkto tarpinė suma",
+      "view_cart": "Peržiūrėti prekių krepšelį",
+      "each": "{{ money }}/mėn",
+      "product": "Produktas",
       "variant": "Variantas",
-      "variant_total": "Variantų bendra suma",
+      "variant_total": "Visas variantas",
       "items_added": {
         "one": "Pridėta {{ quantity }} prekė",
         "other": "Pridėtos {{ quantity }} prekės (-ių)",
