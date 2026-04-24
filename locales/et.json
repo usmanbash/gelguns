@@ -73,5 +73,85 @@
         }
       }
     }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Teade",
+      "menu": "Menüü",
+      "cart_count": {
+        "one": "{{ count }} artikkel",
+        "other": "{{ count }} artiklit"
+      }
+    },
+    "cart": {
+      "title": "Sinu ostukorv",
+      "caption": "Tooted ostukorvis",
+      "remove_title": "{{ title }} eemaldamine",
+      "note": "Erilised juhised tellimuse jaoks",
+      "checkout": "Maksma",
+      "empty": "Sinu ostukorv on tühi",
+      "cart_error": "Sinu ostukorvi uuendamisel tekkis viga. Palun proovi uuesti.",
+      "cart_quantity_error_html": "Saad lisada oma ostukorvi ainult {{ quantity }} seda artiklit.",
+      "headings": {
+        "product": "Toode",
+        "price": "Hind",
+        "total": "Kokku",
+        "quantity": "Kogus",
+        "image": "Toote pilt"
+      },
+      "update": "Uuenda",
+      "login": {
+        "title": "Kas sul on konto?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logi sisse</a> et kiiremini maksta."
+      },
+      "estimated_total": "Hinnanguline kogusumma",
+      "new_estimated_total": "Uus hinnanguline kogusumma",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Tollimaksud ja maksud on kaasas. Allahindlused ja <a href=\"{{ link }}\">tarne</a> arvutatakse kassas.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Tollimaksud ja maksud on kaasas arvestatud. Allahindlused ja saatmiskulud arvutatakse kassas.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Maksud on kaasas. Allahindlused ja <a href=\"{{ link }}\">tarne</a> arvutatakse kassas.",
+      "taxes_included_shipping_at_checkout_without_policy": "Maksud on kaasas. Soodustused ja saatmiskulud arvutatakse kassas.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tollimaksud kaasatud. Maksud, allahindlused ja <a href=\"{{ link }}\">tarne</a> arvutatakse kassas.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tollimaksud on kaasas arvestatud. Maksud, allahindlused ja saatmine arvutatakse kassas.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Maksud, allahindlused ja <a href=\"{{ link }}\">tarne</a> arvutatakse kassas.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Maksud, allahindlused ja saatmine arvutatakse kassas."
+    },
+    "footer": {
+      "payment": "Makseviisid"
+    },
+    "featured_blog": {
+      "view_all": "Vaata kõiki",
+      "onboarding_title": "Blogipostitus",
+      "onboarding_content": "Anna oma klientidele ülevaade oma blogipostitusest"
+    },
+    "featured_collection": {
+      "view_all": "Vaata kõiki",
+      "view_all_label": "Vaata kõiki tooteid kollektsioonis {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Vaata kõiki"
+    },
+    "collection_template": {
+      "title": "Kogu",
+      "empty": "Tooteid ei leitud",
+      "use_fewer_filters_html": "Minder filtreid kasutada või <a class=\"{{ class }}\" href=\"{{ link }}\">kõik eemaldada</a>"
+    },
+    "video": {
+      "load_video": "Video laadimine: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Dia pood",
+      "previous_slideshow": "Eelmine slaid",
+      "next_slideshow": "Järgmine slaid",
+      "pause_slideshow": "Diavoorituse pausile panemine",
+      "play_slideshow": "Esitluse käivitamine",
+      "carousel": "Karussell",
+      "slide": "Dia"
+    },
+    "page": {
+      "title": "Paginatsioonititel"
+    },
+    "announcements": {
+      "previous_announcement": "Eelmine teadaanne"
+    }
   }
 }
