@@ -2977,6 +2977,80 @@
         "navigation": {
           "store_logo_accessibility_label": "Áruház böngészése"
         }
+      },
+      "tooltip": {
+        "accessibility_label_context": "További információk a %{context} témában"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Ezt a terméket nem lehet a kosaradhoz adni, mert egy olyan boltból származik, amely más pénznemet használ.",
+          "max_remote_shops_exceeded": "Ezt a terméket nem lehet hozzáadni, mert a kosarad már elérte a más boltokból származó maximális mennyiséget.",
+          "currency_mismatch_removal": "Egy termék eltávolításra került a kosaradból, mert egy olyan boltból származik, amely más pénznemet használ.",
+          "only_remote_merchandise_lines": "A pénztár csak külső árucikkeket tartalmaz. A fizetés befejezéséhez átirányítás szükséges a külső boltba."
+        }
+      },
+      "remote_merchandise_only": {
+        "remote_only_notice": "Ezeket a termékeket más boltok értékesítik és szállítják. A vásárlás befejezéséhez lépj be minden bolt pénztárába külön-külön.",
+        "return_to_store_label": "Vissza a boltba",
+        "checkout_on_shop_label": "Fizetés a %{shop_name} oldalán",
+        "single_shop_transition": "Átirányítunk a %{advertiser}-hez, hogy befejezd a vásárlást.",
+        "detail_item_label": {
+          "one": "{{count}} cikk",
+          "other": "{{count}} cikk"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Ehhez a bolthoz nem áll rendelkezésre %{policy_name}. További információért közvetlenül lépjen kapcsolatba a %{shop_name}-vel."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Fizetés sikertelen",
+        "payment_not_processed_text": "Olvassa be újra a QR-kódot. Ha még mindig nem működik, jelezze munkatársainknak, és próbáljon ki egy másik fizetési módot.",
+        "payment_link_expired_title": "Fizetési hivatkozás lejárt",
+        "payment_link_expired_text": "Olvassa be újra a QR-kódot.",
+        "title": "Helyszínen kívüli fizetés sikertelen"
+      },
+      "taxes": {
+        "tax_details": "Kiegészítő adóadatok",
+        "vat_number": {
+          "field": {
+            "label": "Btw-azonosítószám (választható)",
+            "tooltip": "Érvényesíti az áfa-azonosító számot, és automatikusan alkalmazza az áthárítást az arra jogosult megrendeléseknél"
+          },
+          "add": "Egy áfa-szám hozzáadása",
+          "vaulted": "Btw-azonosítószám: %{number}",
+          "badge": "Btw-azonosítószám: %{number}",
+          "domestic_order": "Az átvitelre vonatkozó szabály csak az uniós határon átnyúló megrendelésekre érvényes. Helyi megrendelések esetén az általános forgalmi adót számítjuk fel.",
+          "status": {
+            "invalid_format": {
+              "at": "Az osztrák áfa-azonosító szám AT betűket és 9 karaktert tartalmaz",
+              "be": "Egy belga áfa-azonosító szám BE betűket és 10 karaktert tartalmaz",
+              "bg": "Egy bolgár áfa-azonosító szám BG betűket és 9-10 karaktert tartalmaz",
+              "hr": "Egy horvát áfa-azonosító szám HR betűket és 11 karaktert tartalmaz",
+              "cy": "Egy ciprusi áfa-azonosító szám CY betűket és 9 karaktert tartalmaz",
+              "cz": "Egy cseh áfa-azonosító szám CY betűket és 8-10 karaktert tartalmaz.",
+              "dk": "Egy dán áfa-azonosító szám DK betűket és 8 karaktert tartalmaz",
+              "ee": "Egy észt áfa-azonosító szám EE betűket és 9 karaktert tartalmaz",
+              "fi": "Egy finn áfa-azonosító szám FI betűket és 8 karaktert tartalmaz",
+              "fr": "Egy francia áfa-azonosító szám FR betűket és 11 karaktert tartalmaz",
+              "de": "Egy német adószám tartalmazza a DE betűket és 9 karaktert",
+              "gr": "Egy görög áfa-azonosító szám EL betűket és 9 karaktert tartalmaz",
+              "hu": "Egy magyar adószám tartalmazza a HU betűket és 8 karaktert",
+              "ie": "Az ír áfa-azonosító szám IE betűket és 8-9 karaktert tartalmaz",
+              "it": "Egy olasz adószám tartalmazza az IT betűket és 11 karaktert",
+              "lv": "Egy lettországi áfa-azonosító szám LV betűket és 11 karaktert tartalmaz",
+              "lt": "Egy litván áfa-azonosító szám LT betűket és 9-12 karaktert tartalmaz",
+              "lu": "Egy luxemburgi áfa-azonosító szám LU betűket és 8 karaktert tartalmaz",
+              "mt": "Egy máltai áfa-azonosító szám MT betűket és 8 karaktert tartalmaz",
+              "nl": "Egy holland áfa-azonosító szám NL betűket és 12 karaktert tartalmaz",
+              "pl": "Egy lengyel áfa-azonosító szám PL betűket és 10 karaktert tartalmaz",
+              "pt": "Egy portugál áfa-azonosító szám PT betűket és 9 karaktert tartalmaz",
+              "ro": "Egy romániai áfa-azonosító szám RO betűket és 10 karaktert tartalmaz",
+              "sk": "Egy szlovák áfa-azonosító szám SK betűket és 10 karaktert tartalmaz",
+              "si": "Egy szlovén áfa-azonosító szám SI betűket és 8 karaktert tartalmaz",
+              "es": "Egy spanyol áfa-azonosító szám ES betűket és 9 karaktert tartalmaz"
+            }
+          }
+        }
       }
     }
   }
