@@ -926,6 +926,70 @@
         "out_of_stock": {
           "description": "Nämä tuotteet eivät ole enää saatavilla ja ne on poistettu ostoskoristasi.",
           "items_unavailable": "Jotkin tuotteet eivät ole enää saatavilla ja ne on poistettu ostoskoristasi."
+        },
+        "unfulfillable_product": {
+          "title": "Toimitus ei ole saatavilla",
+          "message": {
+            "one": "%{delivery_method} ei ole enää saatavilla tälle tuotteelle."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Päivitä hinta ja määrä",
+          "description": "Näiden tuotteiden hinnat ja saatavilla olevat määrät ovat muuttuneet, ja ostoskori on päivitetty."
+        },
+        "out_of_stock_in_context_label": "Tätä tuotetta ei ole saatavilla maassasi/alueellasi."
+      },
+      "order_summary": {
+        "title": "Tilausyhteenveto",
+        "remove_gift_card_label": "Lahjakortin poisto",
+        "remove_discount_label": "Alennuksen poisto",
+        "apply_discount_button_label": "Soveltaa",
+        "applied_discount_message": "Kokonaishinnasta on vähennetty %{amount} alennus.",
+        "discount_has_been_applied": "Alennus on käytössä",
+        "discount_already_applied": "Tähän tilaukseen on jo myönnetty alennus. Et voi lisätä toista alennusta.",
+        "cart_does_not_meet_discount_requirements_notice": "Alennuskoodi <strong style=\"text-transform:uppercase\">%{code}</strong> ei koske ostoskorissasi olevia tuotteita",
+        "discount_requires_customer_notice": "Syötä toimitustietosi käyttääksesi alennuskoodia <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Alennuskoodi <strong style=\"text-transform:uppercase\">%{code}</strong> ei ole tällä hetkellä käytettävissäsi",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Alennuskoodi <strong style=\"text-transform:uppercase\">%{code}</strong> ei ole käytettävissä toimitusosoitteessasi",
+        "customer_already_used_once_per_customer_discount_notice": "Alennuskoodi <strong style=\"text-transform:uppercase\">%{code}</strong> on jo käytetty",
+        "tip_label": "Juomaraha",
+        "taxes_label": "muuten",
+        "total_label": "Täysi",
+        "partial_total_label": "Täysi",
+        "payment_due_label": "Maksettava summa",
+        "vat_label_html": "Sisältäen %{amount} arvonlisäveron",
+        "discount_and_gift_card_savings_notice": "Saa %{discount_amount} alennusta ja %{gift_card_amount} lahjakorttiarvoa",
+        "discount_savings_notice": "Säästä %{discount_amount}",
+        "gift_card_savings_notice": "Na %{gift_card_amount} lahjakorttiarvoa",
+        "cost_table_title": "Kustannusyhteenveto",
+        "scroll_order_summary": "Selaa nähdäksesi lisää artikkeleita",
+        "collapse_order_summary_short": "Piilottaa",
+        "order_total_updated_label": "Päivitetty kokonaismäärä",
+        "total_already_paid_label": "maksettu",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} kappaleelta",
+            "one": "%{price} per %{count} artikkeli",
+            "other": "%{price} per %{count} artikkelia"
+          }
+        },
+        "pickup_label": "Nouto myymälästä",
+        "no_pickup_location": "Noutopaikkoja ei ole saatavilla.",
+        "calculating_shipping": "Lasketaan...",
+        "estimated_taxes_label": "Arvioitu vero",
+        "information_estimated_taxes_label": "Verot (arvioitu)",
+        "gift_card_ending": "Lahjakortti, joka päättyy kohtaan %{last_characters}",
+        "multiple_shipping_lines_label": "Kokonaislähetyskulut",
+        "sale_price": "Tarjoushinta",
+        "recurring_total_label": "Toistuva yhteissumma",
+        "recurring_total_tooltip": "Ei sisällä toimituskuluja, arvonlisäveroa, tullimaksuja tai mahdollisia alennuksia.",
+        "gift_card_subscriptions_notice": "Lahjakortit käytetään vain ensimmäisessä maksussasi",
+        "estimated_taxes_finalization_tooltip_content": "Kokonaisveron määrä vahvistetaan sähköpostitse tai tekstiviestillä tilauksesi tekemisen jälkeen.",
+        "deferred_payment_info": {
+          "description_html": "%{contact_us} tilauksesi kysymyksiin.",
+          "paid_today": "Yhteensä maksettu tänään",
+          "due_on_fulfillment_title": "Maksu %{amount_due} erääntyy tilauksen täyttämisen yhteydessä.",
+          "due_on_receipt_title": "%{amount_due} on maksettava vastaanotettaessa"
         }
       }
     }
