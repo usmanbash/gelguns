@@ -2520,7 +2520,89 @@
             "city": "Introduce un lugar",
             "province": "Seleccione un estado/provincia",
             "country": "Seleccione un país/región",
-            "zip": "Introduzca un código postal o ZIP"
+            "zip": "Introduzca un código postal o ZIP",
+            "phone": "Introduce un número de teléfono",
+            "billing_first_name": "Introduzca un nombre para la dirección de facturación",
+            "billing_address1": "Introduzca una dirección de facturación",
+            "billing_address2": "Introduzca un número de apartamento o suite, etc., para la dirección de facturación",
+            "billing_city": "Introduzca un lugar para la dirección de facturación",
+            "billing_province": "Seleccione un estado/provincia para la dirección de facturación",
+            "billing_zip": "Seleccione un código postal para la dirección de facturación",
+            "contact_info": "Introduzca los datos de contacto"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eliminar emoji de tu nombre",
+            "postal_code_contains_emoji": "Eliminar emoji de tu código postal",
+            "first_name_too_long": "El nombre contiene demasiadas letras",
+            "last_name_too_long": "El apellido contiene demasiadas letras",
+            "address_too_long": "La línea de dirección es demasiado larga"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Tu dirección de entrega no es válida. Selecciona otra dirección o usa una dirección nueva.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} no está disponible actualmente para tu pedido. Elige otro método de pago para continuar con la compra."
+          },
+          "discount_code": "No se puede aplicar este código de descuento. Verifica tu código y vuelve a intentarlo.",
+          "processing_error_checkout_as_guest": "Ha ocurrido un problema al procesar tu pago. Inténtalo de nuevo o {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Serás redirigido a {{walletName}} para completar tu compra",
+        "return_to_checkout": "Volver a la caja",
+        "scrim": {
+          "continue_purchase_in_window": "Continúa con tu compra en la ventana de {{walletName}}",
+          "and_return_to_checkout": "y volver a la caja"
+        },
+        "place_order": "Realizar pedido",
+        "recovery_notice": "Se ha producido un error con los datos de tu pedido. Actualiza tus datos para completar el pago."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Revisa primero tus datos de contacto antes de completar el pago"
+      },
+      "store_credit_errors": {
+        "generic_error": "Ha ocurrido un problema con tu saldo de tienda. Intenta de nuevo o recarga la página."
+      },
+      "note": {
+        "length_exceeds_maximum": "Resuma el comentario a un máximo de 5000 caracteres."
+      },
+      "billing": {
+        "billing_address_title": "Factura para",
+        "same_as_shipping": "Igual que la dirección de entrega",
+        "address_more": "Más ofertas para esta dirección",
+        "address_confirm": "¿Estás segura de que quieres eliminar esta dirección de tu cuenta?",
+        "billing_address_rollup_accessibility_label": "Opciones para facturar"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "El vale de regalo ya se ha aplicado a tu pedido",
+          "insufficient_funds": "No queda saldo en esta tarjeta de regalo",
+          "expired": "Este vale de regalo ha caducado",
+          "not_available": "Este vale de regalo ya no está disponible",
+          "invalid": "Introduce un vale de regalo válido",
+          "currency_mismatch": "Solo se aceptan tarjetas de regalo en %{shop_currency}",
+          "generic": "El vale de regalo no se puede añadir al pago",
+          "throttle_limit_exceeded": "Has alcanzado el número máximo de intentos. Inténtalo de nuevo más tarde.",
+          "no_longer_available": "Este vale de regalo ya no se puede usar en esta caja"
+        }
+      },
+      "vaulted": {
+        "change_button": "Modificar"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Se ha producido un problema al cargar Shop Pay",
+          "try_again_later": "Verifica tu conexión o cierra esta ventana y vuelve a intentarlo en unos momentos.",
+          "checkout_has_expired": "Tu sesión de pago ha expirado. Cierra esta ventana y vuelve a intentar realizar el pago en {{shopName}}."
+        },
+        "return_to_store_simple": "Volver a la tienda",
+        "title": "Pago con Shop"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Opciones para la ubicación de la empresa"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "El precio del vale de regalo debe ser mayor que 0.",
+            "subtotal_limit_reached": "Se ha alcanzado el valor máximo para las líneas de pedido.",
+            "gift_card_price_must_not_exceed_limit": "El valor de la tarjeta de regalo no puede ser superior a %{gift_card_limit}."
           }
         }
       }
