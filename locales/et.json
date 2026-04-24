@@ -3621,8 +3621,72 @@
           "four_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}",
           "five_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}",
           "six_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}, {{lineItemName6}} kogus {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}, {{lineItemName6}} kogus {{lineItemQuantity6}} ja rohkem"
-        }
+          "six_and_more_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}, {{lineItemName6}} kogus {{lineItemQuantity6}} ja rohkem",
+          "view_order_details": "Tellimuse andmed vaatamiseks",
+          "previous": "Eelmine",
+          "next": "Järgmine"
+        },
+        "show_order_actions_accessibility_label": "Parimad tellimiskampaaniad tootele {{name}} kuvamiseks",
+        "empty_state_title_for_pending_orders": "Geen tellimused töötlemisel",
+        "more_than_four_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} ja veel {{numberOfAdditionalProducts}} toodet",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} toodet",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Tellimuse vaatamine tooteandmete jaoks",
+            "estimated_delivery": "Oodatav {{date}}",
+            "last_updated": "Viimati uuendatud {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Eeldatav kohaletoimetamine {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}}, {{lineItemName2}} ja veel {{numberOfAdditionalProducts}} toodet",
+        "filter_title": "Filtreeri",
+        "filter": {
+          "clear_section": "Sektsiooni kustutamine",
+          "clear_all": "Kõik teada",
+          "apply": "Rakenda",
+          "date": {
+            "start_date": "Alguskuupäev",
+            "end_date": "Lõppkuupäev",
+            "title": "Tellimuse kuupäev",
+            "today": "Täna",
+            "last_7_days": "Viimased 7 päeva",
+            "last_30_days": "Viimase 30 päeva jooksul",
+            "last_90_days": "Viimased 90 päeva",
+            "last_365_days": "Viimase 12 kuu jooksul",
+            "custom": "Kohandatud"
+          }
+        },
+        "no_order_banner": "Tee tellimus, et testida laiendust tellimuse staatuse lehel.",
+        "location_filter_picker": {
+          "all_location": "Kõik asukohad",
+          "current_location": "Praegune asukoht",
+          "switch_view": "Kuva vahetamine"
+        },
+        "empty_state_with_location_title": "Ühtegi tellimust aadressile {{locationName}} ei ole",
+        "view_order": "Tellimuse vaatamine",
+        "view_order_accessibility_label": "Tellimuse {{orderName}} vaatamine"
+      },
+      "order_status": {
+        "canceled_label": "Tühistatud",
+        "canceled_title": "Sinu tellimus on tühistatud",
+        "come_back": "Tule selle lehe juurde tagasi, et saada teavet oma saadetise staatuse kohta.",
+        "company_tracking_number": "{{company}}-jälgimisnumber:",
+        "confirmed_label": "Kinnitatud",
+        "confirmed_title": "Sinu tellimus on kinnitatud",
+        "delivered_label": "Murelik",
+        "estimated_delivery": "Oodatav {{date}}",
+        "in_review_label": "Hinnanguks",
+        "in_review_title": "Sinu tellimus on ülevaatamisel",
+        "no_tracking_number": "Selle saadetise jaoks puudub jälgimisnumber.",
+        "on_its_way_label": "Teel",
+        "out_for_delivery_label": "Valmis kohaletoimetamiseks",
+        "resume_tracking": "Jätka järgmisena",
+        "submitted_label": "Esitatud",
+        "track_shipment": "Saatmise jälgimine",
+        "request_return": "Tagastuse taotlemine",
+        "attempted_delivery_label": "Kättetoimetamise katse"
       }
     }
   }
