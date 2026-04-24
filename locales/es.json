@@ -3576,7 +3576,81 @@
         "payment_terms": "Condiciones de pago",
         "permissions_label": "Tus autorizaciones",
         "permissions_title": "Autorizaciones",
-        "section_title": "Ubicación"
+        "section_title": "Ubicación",
+        "shipping_address_required": "Agrega una dirección de entrega a esta ubicación para poder realizar pedidos.",
+        "tax_details_title": "Datos fiscales",
+        "tax_id": "ID fiscal",
+        "tax_exemptions": "Exenciones fiscales",
+        "multiple_tax_exemptions": "Quedan {{taxExemptionsCount}}",
+        "tax_exemption_not_applicable": "n.d.",
+        "tax_exemptions_modal_button_accessibility_label": "Mostrar todas las exenciones fiscales",
+        "pagination": {
+          "load_more_accessibility_label": "Cargar más ubicaciones"
+        },
+        "staff_and_permissions_title": "Empleados y autorizaciones",
+        "location_picker_accessibility_label": "Nombre de la ubicación: {{locationName}}",
+        "deposit_percentage": "{{percentage}} depósito"
+      },
+      "location_selection": {
+        "description": "Si ya tienes artículos en tu carrito, cambiar la ubicación podría afectar los precios y las cantidades en tu carrito.",
+        "list_accessibility_label": "Lista de ubicaciones",
+        "list_loading_accessibility_message": "Cargando lista de ubicaciones",
+        "list_loading_finished_accessibility_message": "Lista de ubicaciones cargada",
+        "loading_store_accessibility_message": "De camino a la tienda",
+        "selection_confirmation_button": "Elegir ubicación",
+        "title": "¿Para qué lugar compras?",
+        "no_location_description": "Ya no estás autorizado para realizar pedidos para {{company}}. Sin embargo, aún puedes hacer pedidos personales.",
+        "no_locations_found": "No se encontraron ubicaciones",
+        "search": "Buscar ubicaciones",
+        "try_new_search": "Prueba una nueva búsqueda",
+        "search_location_title": "Seleccione una ubicación",
+        "description_switch_later": "Siempre puedes cambiar más tarde",
+        "title_choose_location": "Elige una ubicación"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Agregar dirección de entrega",
+        "add_shipping_address_section_accessibility_label": "Agregar dirección de entrega",
+        "cancel_adding_billing_address_accessibility_label": "Agregar dirección de facturación cancelar",
+        "cancel_adding_shipping_address_accessibility_label": "Añadir dirección de entrega cancelar",
+        "save_new_shipping_address_accessibility_label": "Guardar dirección de entrega",
+        "shipping_address_card_title": "Dirección de entrega"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Ocultar todos los pedidos en revisión",
+          "show_all_accessibility_label": "Mostrar todos los pedidos en revisión",
+          "title": "En proceso",
+          "pagination": {
+            "nav_accessibility_label": "Botones de navegación para pedidos en revisión"
+          },
+          "show_all_orders_in_review": "Mostrar todos los pedidos en revisión",
+          "show_less_orders_in_review": "Mostrar menos pedidos en revisión",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "No tienes pedidos en proceso",
+            "pending_orders": {
+              "one": "Tienes {{count}} pedido en proceso",
+              "other": "Tienes {{count}} pedidos en proceso"
+            },
+            "more_than_pagination_length": "Tienes más de {{count}} pedidos en proceso"
+          },
+          "pending_orders_count_more_than_pagination_length": "más de {{count}}"
+        },
+        "order_list_column_headers_location": "Ubicación"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmado el {{date}} para el pedido {{draftOrderName}}",
+        "loading": "Cargando datos del pedido",
+        "loading_finished_accessibility_message": "Los datos del pedido han sido cargados",
+        "payment_status": {
+          "draft": {
+            "description": "Los datos de pago se determinarán una vez que el pedido haya sido confirmado.",
+            "title": "El pago aún no es debido",
+            "in_review": {
+              "description": "Los datos de pago se determinarán una vez que el pedido haya sido confirmado.",
+              "title": "El pago aún no es debido"
+            }
+          }
+        }
       }
     }
   }
