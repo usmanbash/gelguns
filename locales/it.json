@@ -2923,9 +2923,77 @@
         },
         "fulfillment_status": {
           "fulfilled": "Completato",
-          "complete": "Completo"
+          "complete": "Completo",
+          "partial": "Parzialmente",
+          "unfulfilled": "Aperto",
+          "restocked": "Scorta di erbe"
+        },
+        "transaction_status": {
+          "success": "Riuscito",
+          "pending": "In trattamento"
+        },
+        "cancel_reason": {
+          "customer": "Cliente ha modificato/annullato l'ordine",
+          "other": "Diverso",
+          "staff": "Errore del personale"
+        },
+        "cash_on_delivery": "Rimborsi"
+      },
+      "cart": {
+        "only_n_items_available": "Puoi aggiungere solo %{count} %{name} al tuo carrello.",
+        "too_many_items_in_cart": "Non puoi aggiungere altri %{name} al tuo carrello.",
+        "empty_update": "impossibile aggiornare il carrello vuoto",
+        "missing_parameters": "ID o numero di riga non valido",
+        "generic_error": "Carrello errato",
+        "too_many_line_items_error": "Il tuo carrello non può contenere più di %{max} articoli.",
+        "link_no_longer_exists": "Il collegamento non esiste più.",
+        "stock_problems_html": "Uno o più articoli non sono più disponibili. Abbiamo preparato un <a href='%{link}'>carrello aggiornato</a>.",
+        "items_changed": "Uno o più articoli sono stati modificati.",
+        "variant_not_found": "Impossibile trovare la variante",
+        "variant_requires_selling_plan": "La variante può essere acquistata solo con un abbonamento di vendita.",
+        "shipping_address_not_required": "Per questo carrello non è necessaria la spedizione",
+        "shipping_address_invalid": "Si è verificato un problema nel calcolo delle spese di spedizione. Procedi con il pagamento per scegliere le spese di spedizione prima di completare il tuo ordine.",
+        "selling_plan_not_applicable": "Impossibile applicare l'abbonamento di vendita alla variante",
+        "selling_plan_not_available_for_company_locations": "Sono disponibili solo acquisti una tantum per ordini B2B.",
+        "digital_product_not_available_for_company_locations": "Non puoi aggiungere questo articolo a un ordine B2B",
+        "product_not_available": "Prodotto non disponibile",
+        "bundle_requires_components": "Impossibile aggiungere il prodotto in bundle '%{name}' al carrello.",
+        "gift_card_with_components_not_supported": "Impossibile aggiungere il prodotto in bundle '%{name}' al carrello.",
+        "view_lines_limit_reached": "Le regole devono essere inferiori o uguali a %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Si è verificato un errore nel tuo carrello."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Impossibile aggiungere il prodotto in bundle '%{name}' al carrello.",
+        "gift_card_recipient_validation_error": "Il destinatario indicato del buono regalo non è valido",
+        "buyer_cannot_purchase_for_company_locations": "Non puoi effettuare acquisti per questa sede",
+        "only_one_added_to_cart": "È stato aggiunto al tuo carrello solo 1 articolo a causa della disponibilità.",
+        "only_n_added_to_cart": "Sono stati aggiunti al tuo carrello solo %{quantity} articoli a causa della disponibilità.",
+        "maximum_available_quantity_reached": "La quantità massima di questo articolo è già nel tuo carrello.",
+        "merchandise_not_applicable": "L'articolo non può essere acquistato così come configurato."
+      },
+      "storefront": {
+        "invalid_password": "Password errata, riprova."
+      },
+      "tags": {
+        "add_articles": "Limita la ricerca agli articoli con il tag %{tag}",
+        "add_products": "Limita la ricerca ai prodotti con il tag corrispondente %{tag}",
+        "remove_articles": "Estendi la ricerca agli articoli che non sono contrassegnati con %{tag}",
+        "remove_products": "Rimuovere il tag %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} aggiunto",
+          "increment_item": "%{delta} aggiunto",
+          "decrement_item": "%{delta} da %{total} di distanza",
+          "decrement_fulfilled_line_item": "%{delta} su %{total} restituiti",
+          "decrement_return_line_item": "%{delta} rimosso dal reso"
         }
       }
+    },
+    "page_titles": {
+      "create_account": "Crea un account",
+      "reset_account": "Reimposta account",
+      "order": "Ordina %{name}"
     }
   }
 }
