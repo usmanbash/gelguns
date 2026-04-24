@@ -3182,8 +3182,70 @@
         "generic_error": "Viga ostukorvis",
         "too_many_line_items_error": "Sinu ostukorv ei saa sisaldada rohkem kui %{max} eset.",
         "link_expired": "Link on aegunud",
-        "link_no_longer_exists": "Link ei ole enam olemas."
+        "link_no_longer_exists": "Link ei ole enam olemas.",
+        "stock_problems_html": "Üks või mitu toodet ei ole enam saadaval. Oleme valmis pannud <a href='%{link}'>uuendatud ostukorvi</a>.",
+        "changed": "Ostukorv muudetud",
+        "items_changed": "Üks või mitu artiklit on muudetud.",
+        "product_sold_out": "Toode '%{name}' on juba välja müüdud.",
+        "variant_not_found": "Ei leia varianti",
+        "variant_requires_selling_plan": "Variant on saadaval ainult müügilepingu alusel.",
+        "shipping_address_not_required": "Selle ostukorvi puhul pole saatmist vaja",
+        "shipping_address_invalid": "Saatmiskulude arvutamisel tekkis probleem. Jätka ostu vormistamist, et valida saatmiskulud enne tellimuse lõpetamist.",
+        "selling_plan_not_applicable": "Kan müügilepingut variandile rakendada",
+        "selling_plan_not_available_for_company_locations": "Ainult ühekordsed ostud on B2B tellimuste puhul saadaval.",
+        "digital_product_not_available_for_company_locations": "Sa ei saa seda artiklit B2B tellimusele lisada",
+        "product_not_available": "Toode ei ole saadaval",
+        "less_than_minimum": "Sellel artiklil on minimaalne kogus %{min}.",
+        "more_than_maximum": "Sellel artiklil on maksimaalne kogus %{max}.",
+        "not_respect_step": "Seda artiklit saab lisada ainult sammudes %{step}.",
+        "bundle_requires_components": "Ei saa komplekttoodet '%{name}' ostukorvi lisada.",
+        "gift_card_with_components_not_supported": "Ei saa komplekttoodet '%{name}' ostukorvi lisada.",
+        "view_lines_limit_reached": "Reeglid peavad olema väiksemad või võrdsed kui %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Sinu ostukorvis tekkis viga."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Ei saa komplekttoodet '%{name}' ostukorvi lisada.",
+        "cart_too_large": "Ostukorv on liiga suur.",
+        "gift_card_recipient_validation_error": "Määratud kinkekaardi saaja on kehtetu",
+        "invalid_input": "Parameeter %{parameter} on kehtetu.",
+        "buyer_cannot_purchase_for_company_locations": "Sellele asukohale ei saa ostu teha",
+        "only_one_added_to_cart": "Sinu ostukorvi lisati saadavuse tõttu ainult 1 artikkel.",
+        "only_n_added_to_cart": "Sinu ostukorvi on lisatud ainult %{quantity} eset saadavuse tõttu.",
+        "maximum_available_quantity_reached": "Selle toote maksimaalne kogus on juba sinu ostukorvis.",
+        "cart_attributes_error": "Ostukorvi atribuudid sisaldavad kehtetuid andmeid.",
+        "merchandise_not_applicable": "Üksust ei saa sellisena osta.",
+        "not_found": "Ostukorvi ei leitud"
+      },
+      "storefront": {
+        "invalid_password": "Parool on vale, palun proovi uuesti."
+      },
+      "tags": {
+        "add_articles": "Piira otsingut ainult artiklitele, millel on silt %{tag}",
+        "add_products": "Piira otsingut toodetele, millel on vastav silt %{tag}",
+        "remove_articles": "Laiendage otsingut artiklitele, mida ei ole märgitud %{tag}",
+        "remove_products": "Sildi %{tag} eemaldamine"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} lisatud",
+          "increment_item": "%{delta} lisatud",
+          "decrement_item": "%{delta} tagasi %{total} järel",
+          "decrement_fulfilled_line_item": "%{delta} tagasi %{total} tagastatud",
+          "decrement_return_line_item": "%{delta} eemaldatud tagastusest"
+        }
       }
+    },
+    "page_titles": {
+      "products": "Tooted",
+      "shopping_cart": "Sinu ostukorv",
+      "account": "Konto",
+      "create_account": "Loo konto",
+      "reset_account": "Konto lähtestamine",
+      "addresses": "Aadressid",
+      "order": "Telli %{name}",
+      "search": "Otsi",
+      "collections": "Kogumikud",
+      "not_found": "404 ei leitud"
     }
   },
   "sections": {
