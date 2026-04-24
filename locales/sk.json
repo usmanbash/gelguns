@@ -50,76 +50,76 @@
     },
     "cart": {
       "view": "Zobraziť košík ({{ count }})",
-      "item_added": "Položka sa pridala do vášho košíka",
-      "view_empty_cart": "Zobraziť košík"
+      "item_added": "Položka pridaná do košíka",
+      "view_empty_cart": "Zobraziť nákupný košík"
     },
     "share": {
-      "copy_to_clipboard": "Kopírovať prepojenie",
-      "share_url": "Prepojenie",
-      "success_message": "Prepojenie sa skopírovalo do schránky",
-      "close": "Ukončiť zdieľanie"
+      "copy_to_clipboard": "Kopírovať odkaz",
+      "share_url": "Odkaz",
+      "success_message": "Odkaz skopírovaný do schránky",
+      "close": "Zatvoriť zdieľanie"
     },
     "slider": {
-      "of": "z",
-      "next_slide": "Posunúť doprava",
+      "of": "dodávka",
+      "next_slide": "Posuňte doprava",
       "previous_slide": "Posunúť doľava",
-      "name": "Jazdec"
+      "name": "Posuvník"
     }
   },
   "newsletter": {
     "label": "E-mail",
-    "success": "Ďakujeme, že ste sa prihlásili na odber správ",
+    "success": "Ďakujeme za odber",
     "button_label": "Prihlásiť sa na odber"
   },
   "accessibility": {
-    "skip_to_text": "Prejsť na obsah",
+    "skip_to_text": "Ihneď na obsah",
     "close": "Zavrieť",
     "unit_price_separator": "za",
-    "vendor": "Dodávateľ:",
+    "vendor": "Predajca:",
     "error": "Chyba",
-    "refresh_page": "Výber bude mať za následok obnovenie celej stránky.",
-    "loading": "Načítava sa...",
+    "refresh_page": "Výber možnosti spôsobí úplné obnovenie stránky.",
+    "loading": "Načítavam...",
     "link_messages": {
-      "new_window": "Otvorí sa v novom okne.",
-      "external": "Otvorí externú webovú lokalitu."
+      "new_window": "Otvorené v novom okne.",
+      "external": "Otvoriť externú webovú stránku."
     },
-    "skip_to_product_info": "Prejsť na informácie o produkte",
+    "skip_to_product_info": "Prejdite priamo na informácie o produkte",
     "total_reviews": "celkový počet recenzií",
-    "star_reviews_info": "Počet hviezdičiek: {{ rating_value }}/{{ rating_max }}",
-    "collapsible_content_title": "Obsah s možnosťou zbalenia",
+    "star_reviews_info": "{{ rating_value }} z {{ rating_max }} hviezdičiek",
+    "collapsible_content_title": "Zložiteľný obsah",
     "complementary_products": "Doplnkové produkty"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Prečítajte si viac: {{ title }}",
-      "moderated": "Upozorňujeme, že komentáre musia byť pred publikovaním schválené.",
-      "comment_form_title": "Pridať komentár",
+      "read_more_title": "Čítajte ďalej: {{ title }}",
+      "moderated": "Pozor: komentáre musia byť schválené pred ich zverejnením.",
+      "comment_form_title": "Pridať odpoveď",
       "name": "Meno",
       "email": "E-mail",
-      "message": "Komentár",
-      "post": "Uverejniť komentár",
+      "message": "Reakcia",
+      "post": "Zanechajte komentár",
       "back_to_blog": "Späť na blog",
-      "share": "Zdieľať tento článok",
-      "success": "Váš komentár sa úspešne uverejnil. Ďakujeme.",
-      "success_moderated": "Váš komentár sa úspešne uverejnil. Publikujeme ho o chvíľu, keďže náš blog je moderovaný.",
+      "share": "Zdieľať tieto články",
+      "success": "Vaša reakcia bola zverejnená! Ďakujeme!",
+      "success_moderated": "Váš komentár bol zverejnený. Publikujeme ho čoskoro; náš blog je moderovaný.",
       "comments": {
-        "one": "{{ count }} komentár",
-        "other": "Počet komentárov: {{ count }}",
+        "one": "{{ count }} reakcií",
+        "other": "{{ count }} reakcií",
         "few": "Počet komentárov: {{ count }}",
         "many": "Počet komentárov: {{ count }}"
       }
     }
   },
   "onboarding": {
-    "product_title": "Vzorový názov produktu",
-    "collection_title": "Názov vašej kolekcie"
+    "product_title": "Príklad názvu produktu",
+    "collection_title": "Názov tvojej kolekcie"
   },
   "products": {
     "product": {
       "add_to_cart": "Pridať do košíka",
       "description": "Popis",
-      "on_sale": "Zľava",
+      "on_sale": "Ponuka",
       "product_variants": "Varianty produktu",
       "share": "Zdieľať tento produkt",
       "sold_out": "Vypredané",
@@ -129,23 +129,23 @@
       "xr_button": "Zobraziť vo vašom priestore",
       "xr_button_label": "Zobraziť vo vašom priestore, položka sa načíta do okna rozšírenej reality",
       "quantity": {
-        "label": "Množstvo",
-        "input_label": "Množstvo pre {{ product }}",
+        "label": "Počet",
+        "input_label": "Počet pre {{ product }}",
         "increase": "Zvýšiť množstvo pre {{ product }}",
         "decrease": "Znížiť množstvo pre {{ product }}",
-        "minimum_of": "Minimálne {{ quantity }} ks",
-        "maximum_of": "Maximálne {{ quantity }} ks",
-        "multiples_of": "Prírastky po {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> ks v košíku",
-        "note": "Zobrazenie pravidiel týkajúcich sa množstva",
+        "minimum_of": "Minimálny odber van {{ quantity }}",
+        "maximum_of": "Maximálny van {{ quantity }}",
+        "multiples_of": "Kroky {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> v košíku",
+        "note": "Zobraziť pravidlá množstva",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Max. {{ quantity }}",
-        "in_cart_aria_label": "Počet ({{ quantity }} v košíku)"
+        "in_cart_aria_label": "Počet ({{ quantity }} v košíku)"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
-        "regular_price": "Normálna cena",
-        "sale_price": "Cena po zľave",
+        "regular_price": "Bežná cena",
+        "sale_price": "Akciová cena",
         "unit_price": "Jednotková cena"
       },
       "pickup_availability": {
@@ -190,7 +190,17 @@
       },
       "taxes_included": "Vrátane daní.",
       "duties_included": "Vrátane ciel.",
-      "duties_and_taxes_included": "Vrátane ciel a daní."
+      "duties_and_taxes_included": "Vrátane ciel a daní.",
+      "inventory_out_of_stock_message": "Na sklade",
+      "inventory_order_before": "pre",
+      "inventory_delivered": "objednané,",
+      "inventory_delivery_time": "doručené zajtra",
+      "inventory_status": {
+        "in_stock_badge": "Na sklade",
+        "low_stock_badge": "Malý skladový zásobník",
+        "out_of_stock_badge": "Nedostupné na sklade",
+        "shipping_message": "Objednané do 14:00, odoslané v ten istý deň"
+      }
     },
     "modal": {
       "label": "Galéria médií"
