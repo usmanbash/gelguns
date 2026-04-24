@@ -4108,8 +4108,88 @@
         "payment_method_updated_toast": "Način plaćanja ažuriran",
         "billing_address": "Adresa za račun",
         "billing_address_choose_from_list": "Odaberite s popisa",
-        "future_purchases_notice": "Ovaj način plaćanja bit će spremljen za buduće kupnje."
-      }
+        "future_purchases_notice": "Ovaj način plaćanja bit će spremljen za buduće kupnje.",
+        "generic_error": "Došlo je do problema pri ažuriranju. Pokušajte ponovno."
+      },
+      "card_fields": {
+        "name_on_card_label": "Ime na karti",
+        "name_on_card_placeholder": "Ime na karti",
+        "card_expiry_label": "Datum isteka (MM/GG)",
+        "card_expiry_placeholder": "Datum isteka (MM/GG)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Više informacija",
+          "card_verification_value_explanation_amex": "Sigurnosni kod od 4 znamenke na prednjoj strani vaše kartice",
+          "card_verification_value_explanation_other": "Sigurnosni kod od 3 znamenke na stražnjoj strani vaše kartice",
+          "card_verification_value_explanation": "Sigurnosni kod od 3 znamenke, obično se nalazi na stražnjoj strani vaše kartice. American Express ima kod od 4 znamenke na prednjoj strani.",
+          "card_security_notice": "Sve transakcije su sigurne i šifrirane."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Unesite svoje ime onako kako je napisano na vašoj kartici",
+          "credit_card_expiry_invalid": "Unesite valjani datum isteka kartice",
+          "credit_card_verification_value_blank": "Unesite CVV/CVC ili sigurnosni kod vaše kartice"
+        },
+        "unavailable": {
+          "link_text": "Osvježi ovu stranicu"
+        }
+      },
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Način plaćanja dodan",
+        "billing_address": {
+          "title": "Adresa za račun",
+          "add_billing_address_button_accessibility_label": "Dodaj novu adresu za račun",
+          "choose_billing_address_from_list_button": "Odaberite s popisa",
+          "choose_billing_address_from_list_button_accessibility_label": "Odaberite adresu za račun s popisa",
+          "missing_billing_address_error_message": "Unesite adresu za račun",
+          "default_checkbox": "Postavi kao zadanu metodu plaćanja"
+        },
+        "replace_mode_warning": "Ako uklonite ovu metodu plaćanja, to će utjecati na pretplate ili prednarudžbe. Zamijenite je drugom metodom plaćanja kako biste nastavili primati nadolazeće narudžbe.",
+        "choose_from_list": "Odaberite s popisa",
+        "subscription_contracts": {
+          "title": "Koristite način plaćanja za ponovljene narudžbe",
+          "product_details": "Podaci o proizvodu",
+          "more_items": {
+            "one": "Nema {{count}} proizvoda",
+            "other": "Nog {{count}} proizvoda"
+          },
+          "product_count": {
+            "one": "{{count}} proizvod",
+            "other": "{{count}} proizvoda"
+          }
+        },
+        "contracts_update_failed": "Neki ugovori o pretplati nisu mogli biti ažurirani",
+        "subscription_contracts_updated": "{{succeeded}} od {{total}} pretplata ažurirano",
+        "invalid_wallet_type_error": "Nevažeća vrsta digitalnog novčanika",
+        "updating_contracts": {
+          "one": "Ugovor o pretplati {{count}} se ažurira...",
+          "other": "Ažurira se {{count}} ugovora o pretplati..."
+        },
+        "contracts_updated": {
+          "one": "Ugovor o pretplati {{count}} je ažuriran",
+          "other": "{{count}} ugovora o pretplati je ažurirano"
+        },
+        "missing_customer_error": "Nešto je pošlo po zlu. Pokušajte ponovno ili kontaktirajte podršku."
+      },
+      "expired": "Ova kartica je istekla",
+      "card_update_consent": "Ovaj način plaćanja bit će spremljen za buduće kupnje.",
+      "google_pay": {
+        "errors": {
+          "generic": "Došlo je do problema s Google Pay. Pokušajte ponovno ili upotrijebite drugi način plaćanja.",
+          "missing_billing_address": "Za Google Pay potreban vam je adresni račun. Dodajte ga u svoj račun."
+        },
+        "loading": "Google Pay naplata",
+        "iframe_title_accessibility_label": "Dodaj Google Pay kao način plaćanja",
+        "loading_accessibility_message": "Google Pay naplata"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay naplata",
+        "errors": {
+          "generic": "Došlo je do problema s Apple Payom. Pokušajte ponovno ili upotrijebite drugi način plaćanja.",
+          "missing_billing_address": "Za Apple Pay potreban vam je adresni račun. Dodajte ga u svoj račun."
+        }
+      },
+      "add_payment_method_banner": "Dodajte način plaćanja za bržu naplatu i usluge za prethodnu autorizaciju",
+      "edit_payment_method_button_accessibility_label": "Uredi {{paymentMethodName}} koji završava na {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Prikaz upozorenja o naplati za {{paymentMethodName}} koja završava na {{lastDigits}}"
     }
   }
 }
