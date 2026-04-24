@@ -653,6 +653,66 @@
             "additional_requested_discount_code_discarded": "{{code}} érvényes, de nem alkalmazható. Ellenőrizze a kedvezmények feltételeit.",
             "allocations_mismatch": "A kedvezménykódod megváltozott. Ellenőrizd a kosarad, és próbáld újra.",
             "additional_requested_discount_discarded": "Az engedményed érvényes, de nem alkalmazható. Ellenőrizd az engedmények feltételeit."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "A rendelésedre vonatkozó adók megváltoztak, ellenőrizd a rendelésed, és próbáld újra.",
+            "unresolvable_tax_terms": "A javasolt feltételek a meglévő tárgyalási helyzetre tekintettel nem megvalósíthatók.",
+            "delivery_price_is_abstract": "A vonatkozó szállítási díj elvont.",
+            "tax_inclusivity_mismatch": "Tárgyaljon újra egy konkrét értékkel a totalTaxAndDutyAmount vagy a totalAmountIncludedInTarget számára.",
+            "tax_exemption_not_supported": "A jelenlegi tárgyalási fordulóban nem támogatottak az adókedvezmények.",
+            "delivery_tax_exemption_not_supported": "A kézbesítési szabályokra vonatkozó adómentességek jelenleg nem támogatottak.",
+            "proposed_allocations_required": "A „javasolt hozzárendelések” mező hiányzik.",
+            "merchandise_terms_must_be_defined": "Határozza meg az áruk feltételeit.",
+            "delivery_terms_must_be_defined": "Határozza meg a kézbesítés feltételeit.",
+            "merchandise_discount_terms_must_be_defined": "Határozza meg az árengedmény feltételeit.",
+            "delivery_discount_terms_must_be_defined": "Határozza meg a házhozszállítási kedvezmény feltételeit.",
+            "allocated_required": "A „hozzárendelt” mező hiányzik.",
+            "value_required": "A 'érték' mező hiányzik.",
+            "line_splits_not_supported": "A „áru sorok” mezőt úgy kell felosztani, hogy minden sorhoz külön alkotóelem tartozzon az eladó javaslatában."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Kézi fizetések nem engedélyezettek a B2B üzletekben.",
+            "positive_amount_expected": "A fizetendő összegnek nagyobbnak kell lennie nullánál.",
+            "total_amount_mismatch": "A fizetendő teljes összeg nem egyezik meg a befizetések összegével.",
+            "subscription_terms_not_accepted": "Előfizetési feltételek nem elfogadva.",
+            "missing_session_id": "Hiányzik az információ a hitelkártyás munkamenetről.",
+            "credit_card_last_name_required": "'a vezetéknév' nem lehet üres.",
+            "credit_card_update_failed": "A hitelkártya frissítése nem sikerült.",
+            "invalid_address_type": "A megadott címtípus érvénytelen ehhez a fizetési módhoz.",
+            "missing_retail_attributions": "Kiskereskedelmi hozzárendelések szükségesek kézzel bevitt hitelkártyás fizetésekhez.",
+            "unexpected_retail_attributions": "Váratlan kiskereskedelmi hozzárendelések adva meg egy hitelkártyás fizetéshez.",
+            "invalid_card_source": "Ez a munkamenet nem jogosult ezen térképalap használatára.",
+            "wallet_content_missing": "A tartalom van, a pénztárca hiányzik.",
+            "unauthorized_capture_method": "A fizetések rögzítésének módjának beállítása nem engedélyezett.",
+            "saved_payment_methods_not_allowed": "'A mentett fizetési módok' nem engedélyezettek.",
+            "saved_payment_methods_not_enabled": "'A mentett fizetési módok' nincs engedélyezve ennél a boltnál.",
+            "store_credit_not_enabled": "A vásárlási jóváírás nincs engedélyezve ennél a boltban.",
+            "store_credit_account_not_found": "Nincs megtalálva a vásárlási egyenleg számla.",
+            "store_credit_account_mismatch": "A vásárló személyazonossága nem egyezik meg a vásárlási jóváírási számlával.",
+            "store_credit_mismatched_currency": "A vásárlási jóváírás számla pénzneme nem egyezik meg a fizetés pénznemével.",
+            "store_credit_insufficient_funds": "Nincs elegendő egyenleg a vásárlási jóváírás számlán.",
+            "store_credit_buying_gift_card": "Üzletihitel felhasználásával nem vásárolhatsz ajándékkártyát.",
+            "gift_cards_not_allowed_for_b2b": "Ajándékutalványok nem engedélyezettek a vállalkozások közötti üzletekben.",
+            "method_required": "Egy fizetési módot kell javasolni.",
+            "saved_payment_methods_cvv_verification_disabled": "A kiválasztott fizetési módhoz CVV/CVC ellenőrzés szükséges, de ez nincs engedélyezve ennél a boltnál. Használjon másik fizetési módot."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Az üzlet nem fogad el borravalót.",
+            "only_one_tip_line_allowed": "Több borravalószabály nem támogatott.",
+            "tips_not_allowed_for_b2b": "Borravaló nem megengedett a B2B üzletekben.",
+            "currency_change_reset": "A borravaló újra beállítva egy valutaváltás miatt.",
+            "tips_not_allowed_for_deferred_purchase_options": "A borravalók még nem támogatottak a halasztott vásárlási lehetőségek esetén."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ez a koncepciós rendelés nem létezik a jelenlegi boltban.",
+            "staff_member_not_exist": "Ez az alkalmazott nem ismert a jelenlegi boltban.",
+            "location_not_exist": "Ez a helyszín nem létezik a jelenlegi boltban.",
+            "point_of_sale_device_not_exist": "Ez az értékesítési pont eszköz nem létezik a jelenlegi boltban.",
+            "unresolvable_target_merchandise_lines": "A javasolt értékesítési hozzárendelések a meglévő tárgyalási környezetben nem oldhatók meg."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "A vevő ajánlatának tartalmaznia kell a non-negotiable_terms feltételeket.",
+            "invalid_signature": "Az aláírás a {{target_terms}} esetében érvénytelen."
           }
         }
       }

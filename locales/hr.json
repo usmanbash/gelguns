@@ -1289,6 +1289,68 @@
         },
         "shipping_used_as_billing_notice": "Ovo se također koristi kao adresa za račun za ovu narudžbu.",
         "address_update": "Ažuriranje adrese"
+      },
+      "payment": {
+        "missing_credit_card_error": "Unesite podatke o kartici za dovršetak plaćanja",
+        "generic_incorrect_card_info": "Podaci o plaćanju nisu mogli biti potvrđeni. Provjerite podatke o kartici i pokušajte ponovno.",
+        "sofort_label": "Odmah",
+        "klarna_pay_now_label": "Platite sada s Klarna",
+        "klarna_pay_later_label": "Plaćanje naknadno putem Klarne",
+        "eps_label": "eps-plaćanje (eps-prijenos)",
+        "klarna_slice_it_label": "Financije s Klarnom",
+        "card_expiration_month_label": "Mjesec vraćanja",
+        "card_expiration_year_label": "Godina valjanosti",
+        "card_information_notice": "Sve transakcije su sigurne i šifrirane. Podaci o kreditnoj kartici nikada se ne pohranjuju.",
+        "credit_card_start_month": "Datum početka mjeseca",
+        "credit_card_start_year": "Godina početka",
+        "billing_address_not_supported_for_payment_method_error": "Ovaj način plaćanja nije dostupan za tvoju adresu za fakturiranje i valutu. Pokušaj s drugim načinom plaćanja.",
+        "change_currency_section_description": "Odaberite opciju valute",
+        "no_real_orders_dev_store": "Ova trgovina ne može prihvatiti stvarne narudžbe niti obraditi stvarna plaćanja.",
+        "subscription_agreement_label_html": "Razumijem da pristajem na pretplatu. Ona će se obnavljati po navedenoj cijeni i učestalosti dok ne istekne ili se\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">otkaže</a>.",
+        "apple_pay_payment_error": "Vaša uplata nije mogla biti dovršena. Pokušajte ponovno ili upotrijebite drugi način plaćanja.",
+        "subscription_card_update_agreement_label": "Promjenom načina plaćanja, vaš će se pretplatnički plan i buduće ponavljajuće uplate ažurirati.",
+        "card_security_vault_notice": "Potrebni su nam vaši podaci za buduće uplate. Sve transakcije su sigurne i šifrirane.",
+        "taxes_not_included": "Ekskluzivno porezi",
+        "no_taxes_banner_content": "Porezi nisu uključeni u ovu narudžbu. Ne možete dodavati poreze ako je uplata već naplaćena.",
+        "card_update_label": "Ažuriraj kartu",
+        "paypal": {
+          "connect": "Kliknite da povežete svoj PayPal račun"
+        },
+        "subscription_agreement_label": "Jedan ili više artikala u košarici su odgođena ili pretplatnička kupnja. Ako nastavite s plaćanjem, slažete se da ćemo iznose kupnje automatski naplaćivati putem vaše metode plaćanja po cijeni i učestalosti navedenoj na ovoj stranici, sve dok pretplata ne istekne ili je sami ne otkažete. Za sva otkazivanja vrijedi %{cancelled}.",
+        "subscription_agreement_cancelled": "politika otkazivanja",
+        "card_verification_confirm": "Unesite sigurnosni kod sa svoje kartice radi provjere.",
+        "different_credit_card_label": "Koristite drugu kreditnu karticu",
+        "apple": {
+          "connect": "Kliknite da povežete svoj Apple Pay račun",
+          "not_available": "Apple Pay nije dostupan u ovom pregledniku. Za povezivanje svog Apple Pay računa, morate koristiti Safari na Apple uređaju."
+        },
+        "billing_address_associated_with_mandate": "Koristite adresu povezanu s vašom metodom plaćanja",
+        "billing_address_associated_with_mandate_info": "Da biste promijenili adresu za fakturiranje, uklonite podatke o kreditnoj kartici i unesite ih ponovno.",
+        "delete_customer_mandate_modal_cancel": "Otkaži",
+        "credit_card_vaulting_sign_in_banner_title": "Spremi kreditnu karticu",
+        "credit_card_vaulting_sign_in_banner_info": "Prijavite se ili napravite račun kako biste spremili svoju kreditnu karticu za buduće kupnje.",
+        "expiry_long": "(Isteklo %{month}/%{year})",
+        "expiry_short": "(Isteklo %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Spremi ovu kreditnu karticu na moj račun za bržu naplatu",
+        "delete_customer_mandate_modal_title": "Želite li ukloniti ovu platnu karticu?",
+        "delete_customer_mandate_modal_body": "Ako uklonite ovu karticu, morate je ponovno dodati prije nego što je koristite za plaćanja.",
+        "google": {
+          "connect": "Kliknite da povežete svoj Google Pay račun",
+          "error_authorizing": "Pogreška pri autorizaciji plaćanja"
+        },
+        "mor_disclaimer_html": "Klikom dolje i dovršetkom narudžbe slažete se da kupujete svoj(a) proizvod(e) od Global-e kao registriranog trgovca za ovu transakciju, u skladu s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Općim uvjetima</a> i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Pravilnikom o privatnosti</a> Global-e. Global-e je međunarodni pružatelj usluga ispunjavanja za %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Ažuriranjem načina plaćanja odobravate plaćanja za svaku ponovnu ili odgođenu kupnju u skladu s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> ove trgovine.",
+        "multibanco_label": "Multibanko",
+        "receiver_payment_experience_hint": "Nakon što naručite, primit ćete podatke za plaćanje. Izvršite uplatu u roku od %{due_days} dana putem Multibanca ili online.",
+        "pending_payment": {
+          "due_notice": "Vaša uplata od %{amount_due} dospijeva na %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Izvršite uplatu putem Multibanco ili online koristeći dolje navedene podatke. %{contact_us} za pitanja ili ažuriranje podataka o uplati.",
+            "entity": "Jedinica",
+            "buyer_action_info": "Vaša uplata od %{amount_due} je otvorena."
+          }
+        },
+        "purchase_options_agreement_label": "Jedan ili više artikala u tvojoj košarici su odgođena kupnja, pretplata ili ponovljena kupnja. Nastavkom s plaćanjem slažeš se da će tvoja metoda plaćanja biti automatski terećena za cijenu i učestalost navedenu na ovoj stranici, sve dok ne istekne ili otkažeš. Na sve otkazivanja primjenjuje se %{cancellation_policy_label}."
       }
     }
   }
