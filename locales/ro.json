@@ -2370,7 +2370,87 @@
       },
       "pickup_point": {
         "business_hours": "Ore de funcționare",
-        "or": "din"
+        "or": "din",
+        "search_button": "Căutare",
+        "selector_tabs": "Selector punct de ridicare",
+        "could_not_resolve_address": "Nu se poate găsi adresa. Încearcă din nou sau folosește o altă adresă",
+        "no_pickup_points_near_you": "Nu s-au găsit puncte de ridicare în apropierea adresei selectate",
+        "no_pickup_points_near_location": "Nu s-au găsit puncte de ridicare în apropierea locației tale",
+        "no_pickup_points_found": "Nu s-au găsit puncte de ridicare",
+        "paginator": {
+          "previous_accessibility_label": "Pagina anterioară",
+          "header": {
+            "one": "Afișează %{first} - %{last} din %{count} puncte",
+            "other": "Afișează %{first} - %{last} din %{count} puncte"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} din %{count} puncte"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} din %{count} puncte"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} puncte de ridicare în apropierea locației tale"
+        },
+        "waiting_on_pickup_point_location_notice": "Căutare puncte de ridicare...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Solicitarea locației nu este acceptată de browserul tău. Încearcă din nou sau folosește un alt browser.",
+            "permission_not_allowed": "Permite partajarea locației tale.",
+            "permission_denied": "Nu se poate prelua locația. Încearcă din nou."
+          }
+        },
+        "no_business_hours": "Nu sunt disponibile ore de funcționare",
+        "pickup_unavailable_banner_title": {
+          "one": "Nu există puncte de ridicare disponibile pentru articolul tău",
+          "other": "Nu există puncte de ridicare disponibile pentru articolele tale"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "A apărut o problemă la finalizarea comenzii",
+          "message": "Reîncarcă această pagină sau încearcă din nou peste câteva minute",
+          "action": {
+            "cta": "Reîncarcă pagina"
+          },
+          "request_id": "ID cerere: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Acest magazin este protejat cu o parolă",
+          "customer_account_required": "Este necesar un cont de client pentru a finaliza plata",
+          "cart_completed": "Această finalizare a comenzii a fost deja încheiată",
+          "invalid_cart": "Coșul de cumpărături nu mai este valabil",
+          "not_authorized": "Verificarea la casă a eșuat. Verifică-ți datele de autentificare pentru aplicație.",
+          "killswitch_enabled": "Finalizarea comenzii nu este disponibilă temporar",
+          "policy_violation": "Nu se poate finaliza plata din cauza restricțiilor configurării politicii",
+          "unrecoverable_failure": "Nu se poate încărca pagina de plată. Încearcă din nou"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Înapoi la coșul de cumpărături",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} pentru a actualiza cantitățile",
+        "subscription_changed": "Unul dintre abonamentele tale a fost modificat.",
+        "company_location_changed": "Coșul tău de cumpărături a fost modificat. Verifică comanda înainte de a o trimite.",
+        "violations_title": "{{violation}} lipsește sau este invalid",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adresă de livrare",
+          "OtherViolations": "Datele comenzii",
+          "UnhandledViolations": "Date comandă"
+        },
+        "all_violations_content": "Sunați la {{emailLink}} pentru a actualiza aceste date și a finaliza comanda dvs.:",
+        "all_violations_email_link": "poștă electronică",
+        "editable_shipping_address_violations_message_title": "Adaugă aceste informații pentru a finaliza comanda ta:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} pentru a actualiza permanent adresa acestei locații.",
+        "editable_shipping_address_violations_email_link": "Contactați-ne",
+        "company_location_changed_product_removed": "Coșul tău de cumpărături a fost modificat deoarece unele produse nu sunt disponibile în această locație. Verifică comanda înainte de a o trimite.",
+        "shipping_address_incomplete_title": "Adresa de livrare este incompletă",
+        "calculating_shipping": "Transportul va fi calculat în continuare. Vă rugăm să încercați din nou peste câteva secunde. Nu au fost percepute taxe.",
+        "calculating_taxes": "Taxele sunt încă în curs de calculare. Vă rugăm să încercați din nou peste câteva secunde. Nu au fost percepute costuri.",
+        "generic_processing_error": {
+          "title": "A apărut o problemă la procesarea comenzii tale",
+          "body": "Nu au fost percepute taxe. Încercați din nou sau folosiți o altă metodă de plată."
+        }
       }
     }
   }
