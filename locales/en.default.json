@@ -2587,6 +2587,72 @@
     "attributes": {
       "password_confirmation": "the password confirmation",
       "body": "main text"
+    },
+    "addresses": {
+      "zip_code": "Postal code",
+      "postcode": "Postal code",
+      "pincode": "Postal code",
+      "state": "Condition",
+      "state_and_territory": "State/Territory",
+      "county": "Province",
+      "governorate": "Government",
+      "confirm": "Are you sure you want to delete this address?"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alphabetically: A-Z",
+        "za": "Alphabetically: Z-A",
+        "price_ascending": "Price: low to high",
+        "price_descending": "Price: high to low",
+        "date_ascending": "Date: old to new",
+        "date_descending": "Date: new to old"
+      }
+    },
+    "errors": {
+      "blank": "cannot be empty",
+      "credit_card_session_expired": "Credit card authorization has expired. Please enter your payment details again. No money has been taken from your card.",
+      "empty": "cannot be empty",
+      "discount_disabled": "This discount is blocked",
+      "discount_expired": "This discount is no longer valid",
+      "discount_limit_reached": "This discount has reached the usage limit",
+      "discount_not_found": "Cannot find a valid discount that matches the code",
+      "customer_already_used_once_per_customer_discount_notice": "This discount has reached the usage limit",
+      "gift_card_already_applied": "Code has already been applied to your shopping cart",
+      "gift_card_currency_mismatch": "Your gift card is in %{gift_card_currency}. Please contact us so we can reissue it in %{checkout_currency}.",
+      "gift_card_depleted": "There is no balance left on this gift voucher",
+      "gift_card_disabled": "Gift voucher is blocked",
+      "gift_card_expired": "Gift voucher has expired",
+      "taken": "has already been used",
+      "too_short": "is too short (the minimum is %{count} characters)",
+      "too_long": "is too long (the maximum is %{count} characters)",
+      "password_mismatch": "must be identical to the given password",
+      "contains_spaces": "begins or ends with spaces.",
+      "full_name_required": "Enter a first and last name",
+      "invalid_for_card_type": "is invalid",
+      "invalid_format": "size is invalid",
+      "invalid_start_date_or_issue_number_for_debit": "valid start date or valid issue number required",
+      "reset_password_html": "This email address is already linked to an account. If this account is yours, you can <a href=\"/account/login#recover\">reset your password</a>",
+      "verify_email": "We have sent an email to %{customer_email}. Please click the attached link to verify your email address.",
+      "blocked_address": "This location is not supported",
+      "shop_404": {
+        "title": "Create an online shop and sell your goods on the internet! Online trade software from Shopify",
+        "heros": {
+          "store_unavailable": "This shop is currently not available.",
+          "store_not_exist": "This shop does not exist.",
+          "no_storefront": "This shop does not have a website yet."
+        },
+        "links": {
+          "explore_other_stores": "Explore other shops",
+          "start_free_trial": "Try for free"
+        },
+        "owner_ctas": {
+          "header": "Are you the shop owner?",
+          "fix_domain": "Go to %{domain_settings_link} and complete setting up your new web address. Click 'Connect domain' and type: %{domain}.<br>If you cannot access your store, try %{forgot_your_store_link}",
+          "forgot_your_store_link_text": "Forgot your basket?",
+          "add_storefront": "You can set up your website by adding the webshop channel in %{admin_link}. If you cannot access your store, try %{forgot_your_store_link}",
+          "admin_link_text": "management center"
+        }
+      }
     }
   }
 }

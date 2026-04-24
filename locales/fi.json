@@ -1124,7 +1124,93 @@
         "local_delivery": "Paikallinen kotiinkuljetus",
         "subscription_shipping": "Tilauksen lähettäminen",
         "shipping_method_one_time_purchase_group_title": "Kertaluonteinen osto",
-        "one_time_purchase_shipping": "Lähetä kerran"
+        "one_time_purchase_shipping": "Lähetä kerran",
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "joka %{count} päivä"
+            },
+            "week": {
+              "other": "joka %{count} viikko"
+            },
+            "month": {
+              "other": "joka %{count} kuukausi"
+            },
+            "year": {
+              "other": "joka %{count}. vuosi"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per toimitus",
+          "prepaid_shipping_price_label": "%{shipping_price} per toimitus x %{delivery_interval_count}",
+          "initial_order_discounted": "Ensimmäiset toimituskulut %{discounted_shipping_cost}, sen jälkeen %{frequency_description}",
+          "prepaid_initial_order_discounted": "Ensimmäiset toimituskulut %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Ensimmäiset toimituskulut %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Ensimmäiset toimituskulut %{discounted_shipping_price} %{prepaid_delivery_frequency}, sen jälkeen %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Ensimmäiset toimituskulut %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), sen jälkeen %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "seurattuna %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Ensimmäinen tilaus sisältyy hintaan, sen jälkeen %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per toimitus), jonka jälkeen %{recurring_order_shipping_price}",
+          "free_for_first_n_order": {
+            "one": "Ensimmäistä tilausta varten",
+            "other": "Ensimmäiset %{count} tilausta varten"
+          },
+          "free_shipping_cycles": {
+            "one": "Ilmainen toimitus vielä %{count} lisätoimitukselle",
+            "other": "Ilmainen toimitus vielä %{count} lisätoimitukselle"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Ilmainen toimitus %{count} toimitukselle",
+            "other": "Ilmainen toimitus %{count} toimitukselle"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Ilmainen toimitus vielä %{count} lisätoimitukselle, sen jälkeen %{recurring_order_shipping_price}",
+            "other": "Ilmainen toimitus vielä %{count} lisätoimitukselle, sen jälkeen %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Ilmainen toimitus %{count} toimitukselle, sen jälkeen %{recurring_order_shipping_price}",
+            "other": "Ilmainen toimitus %{count} toimitukselle, sen jälkeen %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} ylimääräinen toimitus %{shipping_price} hinnalla",
+            "other": "%{count} ylimääräistä toimitusta hintaan %{shipping_price} per toimitus"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} ylimääräistä toimitusta hintaan %{shipping_price} per toimitus"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Ilmainen toimitus ensimmäisen %{cycle} ajan, sen jälkeen %{recurring_order_shipping_price}",
+            "other": "Ilmainen toimitus ensimmäisen %{cycle} ajan, sen jälkeen %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} vielä %{count} lisätoimitukseen",
+            "other": "%{shipping_price} vielä %{count} lisätoimitukselle (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} toimitusta varten",
+            "other": "%{shipping_price} %{count} toimitukselle (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} vielä %{count} lisätoimitukseen, sen jälkeen %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} vielä %{count} lisätoimitukselle (%{per_delivery_cost}), sen jälkeen %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} toimituksesta, sen jälkeen %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} toimitukselle (%{per_delivery_cost}), sen jälkeen %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Odotettu toimitus %{time}",
+        "estimated_delivery_time_range": "Odotettu toimitusaika %{min_time}–%{max_time}",
+        "arrives_time": "Toimitetaan %{time} aikana",
+        "arrives_time_range": "Toimitetaan välillä %{min_time}–%{max_time}",
+        "estimated_time": "Odotettavissa %{time}",
+        "estimated_time_range": "Arvioitu %{min_time}–%{max_time}",
+        "subscription_local_delivery": "Paikallinen tilauskuljetus",
+        "delivery_today": "Toimitus samana päivänä klo %{time}",
+        "delivery_tomorrow": "Toimitus seuraavana päivänä klo %{time}",
+        "two_day_delivery": "Toimitus 2 päivän sisällä klo %{time}",
+        "delivery": "Toimitus noin %{time}",
+        "duties_and_taxes_title": "Tullimaksut ja verot",
+        "shipping_information_required_notice": "Toimitustiedot ovat pakollisia. {{link}}."
       }
     }
   }
