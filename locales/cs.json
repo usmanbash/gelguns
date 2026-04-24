@@ -3359,5 +3359,79 @@
       "buyer_consent_cart": "Jeden nebo více položek ve vašem košíku jsou odložené nebo opakované nákupy. Pokud budu pokračovat, souhlasím s %{cancellationPolicyLink} a zároveň vám dávám svolení strhávat uvedené ceny z mé platební metody v uvedených intervalech a termínech, dokud nebude moje objednávka vyřízena nebo dokud, pokud je to povoleno, neukončím odběr.",
       "cancellation_policy": "zásady ukončení smlouvy"
     }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Zkusit znovu"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Skrýt nabídku účtu",
+        "show_accessibility_label": "Zobrazit nabídku účtu",
+        "loading_message": "Načítání navigace účtu"
+      },
+      "action_menu_accessibility_label": "Více akcí",
+      "contact_email_subject": "Kontaktní osoba internetového obchodu {{shopName}}",
+      "delete_confirmation": {
+        "delete": "Odstranit"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - účet",
+      "loading_message": "Nabitý",
+      "logout_overlay_label": "Odhlásit se...",
+      "navigation_accessibility_message": "Přešli jste do {{sectionName}}",
+      "shop_logo_accessibility_label": "logo {{shopName}}",
+      "country_switcher_toast_message": "Země přepnuta na {{countryName}}",
+      "search": "Hledat",
+      "location_switcher_toast_message": "Místo změněno na {{locationName}}",
+      "switch_location": "Změna místa",
+      "view_details": "Zobrazit údaje",
+      "company_location": "Místo podnikání",
+      "try_new_search": "Vyzkoušejte nové hledání",
+      "skip_to_content": "Přejít přímo na obsah",
+      "loading_policy_content_accessibility_label": "Zásady načítání obsahu",
+      "policy_load_error": "Nelze načíst {{policyName}}",
+      "policy_try_again": "Zkuste to znovu",
+      "loading_section_accessibility_label": "{{sectionName}} naložený"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Načítání údajů o účtu",
+      "loading_finished_accessibility_message": "Údaje o účtu byly načteny",
+      "profile_card": {
+        "cancel_accessibility_label": "Upravit profil zrušit",
+        "email_help_text": "E-mailovou adresu nelze upravit",
+        "first_name": "Křestní jméno",
+        "phone_number_help_text": "Telefonní číslo nelze upravit",
+        "no_name_provided_accessibility_label": "Nebylo přidáno žádné jméno",
+        "errors": {
+          "name_too_long": "{{fieldName}} je příliš dlouhý (maximálně 255 znaků)",
+          "name_cannot_contain_url": "{{fieldName}} nesmí obsahovat URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} nesmí obsahovat HTML tagy",
+          "email_cant_be_blank": "E-mail nesmí být prázdný",
+          "invalid_email_format": "Zadejte platnou e-mailovou adresu"
+        },
+        "editable_email_help_text": "Tato e-mailová adresa se používá k přihlášení a aktualizacím objednávek."
+      },
+      "profile_update_confirmation_message": "Profil aktualizován",
+      "people": {
+        "pagination": {
+          "load_more": "Načíst více",
+          "load_more_accessibility_label": "Načíst více lidí",
+          "loading_accessibility_label": "Načítání lidí"
+        }
+      },
+      "verify_new_email_modal": {
+        "description": "Zadejte kód, který byl odeslán na {{email}}",
+        "one_time_password_label": "Kód o 6 číslicích",
+        "email_resend_button": "Odeslat kód znovu",
+        "email_resend_button_accessibility_label": "Znovu odeslat ověřovací kód",
+        "verify_button_accessibility_label": "Jednorázové heslo ověřit",
+        "cancel_button_accessibility_label": "Zrušit úpravu e-mailu",
+        "email_resend_button_failure_banner_message": "Nelze odeslat ověřovací kód"
+      },
+      "email_update_success_modal": {
+        "description": "Aktualizace e-mailu byla úspěšná. Přesměrování na přihlášení."
+      },
+      "email_update_confirmation_message": "E-mailová adresa byla aktualizována na {{email}}"
+    }
   }
 }
