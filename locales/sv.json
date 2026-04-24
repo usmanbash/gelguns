@@ -3565,7 +3565,77 @@
       "delete_confirmation_message": "Ta bort adress? Detta påverkar inte befintliga beställningar.",
       "loading_accessibility_message": "Ladda adress",
       "loading_addresses_accessibility_message": "Ladda adressen",
-      "loading_billing_accessibility_message": "Ladda faktureringsadresser"
+      "loading_billing_accessibility_message": "Ladda faktureringsadresser",
+      "loading_finished_accessibility_message": "Ny sida med adresser har laddats",
+      "loading_shipping_accessibility_message": "Ladda leveransadress",
+      "pagination": {
+        "load_more": "Ladda mer",
+        "load_more_accessibility_label": "Ladda fler adresser"
+      },
+      "title": "Adressen",
+      "delete_confirmation_title": "Ta bort adress?",
+      "delete_confirmation_description": "Detta påverkar inte befintliga beställningar.",
+      "add_address_banner": "Lägg till adresser för att använda vid kassan",
+      "add_button_text": "Lägga till",
+      "back_button_accessibility_label": "Tillbaka till redigering av adress {{address}}",
+      "no_addresses_banner": "Inga adresser tillagda"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Stäng förslag",
+      "default_address": "Det här är min standardadress",
+      "loading_add_form_accessibility_message": "Ladda formulär för ny adress",
+      "loading_edit_form_accessibility_message": "Ladda formulär för att redigera adress",
+      "loading_finished_accessibility_message": "Formulärets adress har laddats",
+      "attention": "Angående",
+      "attention_help_text": "Namnet på personen eller avdelningen",
+      "loading_form_accessibility_message": "Ladda formuläradress",
+      "attention_company": "Företag/att:"
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "E-postadress",
+        "contact_list_title": "Mens",
+        "net_payment_terms_description": "{{name}}: betalning ska ske inom {{numberOfDays}} dagar",
+        "shipping_address_required": "Lägg till en leveransadress till denna plats för att kunna göra beställningar.",
+        "tax_details_title": "Skatteuppgifter",
+        "multiple_tax_exemptions": "Nog {{taxExemptionsCount}}",
+        "taxes_none": "Grön",
+        "tax_exemption_not_applicable": "ej tillämpligt",
+        "tax_exemptions_modal_button_accessibility_label": "Visa alla skattebefrielser",
+        "pagination": {
+          "load_more": "Ladda mer",
+          "load_more_accessibility_label": "Ladda fler platser"
+        },
+        "staff_and_permissions_title": "Medarbetare och behörigheter"
+      },
+      "location_selection": {
+        "description": "Om du redan har varor i din kundvagn kan en ändring av platsen påverka priserna och mängderna i din kundvagn.",
+        "list_item_without_address_accessibility_label": "{{name}}: inget adress",
+        "list_loading_finished_accessibility_message": "Platslista är laddad",
+        "loading_store_accessibility_message": "På väg till affären",
+        "title": "För vilken plats köper du?",
+        "continue_to_store": "Fortsätt till butik",
+        "no_location_title": "Endast personliga beställningar",
+        "no_location_description": "Du har inte längre behörighet att lägga beställningar för {{company}}. Du kan fortfarande lägga personliga beställningar.",
+        "search": "Söka platser",
+        "try_new_search": "Prova en ny sökning"
+      },
+      "addresses": {
+        "cancel_adding_billing_address_accessibility_label": "Lägg till faktureringsadress avbryt",
+        "cancel_adding_shipping_address_accessibility_label": "Lägg till leveransadress avbryt"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Dölj allt",
+          "show_all": "Visa allt",
+          "hide_all_accessibility_label": "Dölj alla beställningar under granskning",
+          "show_all_accessibility_label": "Visa alla beställningar under granskning",
+          "title": "Under behandling",
+          "pagination": {
+            "nav_accessibility_label": "Navigeringsknappar för beställningar under granskning"
+          }
+        }
+      }
     }
   }
 }
