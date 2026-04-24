@@ -2024,7 +2024,79 @@
         "attempted_delivery_local_description_html": "Bohužiaľ sme nemohli doručiť vašu objednávku. %{contact_us} pre dohodnutie iného doručenia.",
         "thank_you_title_payment": "Vaša platba bola potvrdená",
         "thank_you_confirmed_order_with_email_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
-        "thank_you_confirmed_order_with_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}."
+        "thank_you_confirmed_order_with_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Uskutočnili ste platbu za vašu objednávku %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skenovať telefónom"
+          },
+          "sms": {
+            "title": "Alebo pošli odkaz do svojho telefónu"
+          }
+        },
+        "estimated_delivery": "Aktuálny odhad doručenia:",
+        "view_business_customer_account": "Zobraziť účet",
+        "company_location_title": "Poloha",
+        "thank_you_title_review": "Vaša objednávka bola odoslaná na posúdenie",
+        "thank_you_confirmed_order_with_draft": "Dáme ti vedieť, ak budeme potrebovať viac informácií alebo keď bude tvoja objednávka potvrdená.",
+        "breadcrumbs_submitted": "Podané",
+        "breadcrumbs_in_review": "Na hodnotenie",
+        "missing_shipping_address_banner": {
+          "title": "Objednávka nemá doručovaciu adresu",
+          "text_html": "%{contact_us} na pridanie tvojej adresy"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Obráťte sa na predajcu.",
+        "order_status_confirmed_with_installments_payment_confirm": "Čoskoro obdržíte potvrdzovací e-mail s vaším číslom objednávky a podrobnosťami o vašom splátkovom pláne.",
+        "first_payment_complete": "Prvá platba dokončená",
+        "choose_payment_method_later": "Vyberte spôsob platby neskôr",
+        "purchase_order_number_title": "Číslo objednávky %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Objednávka bola vyzdvihnutá na %{address}.",
+        "order_updates_subscribe_to_email_notifications_failed": "Túto e-mailovú adresu nemôžeme uložiť pre aktualizácie. Skúste to znova alebo použite inú e-mailovú adresu.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Zadaná e-mailová adresa už existuje.",
+        "subscriptions_management": {
+          "description": "Prejdite do svojho účtu, aby ste si mohli prezerať a spravovať svoje predplatné."
+        },
+        "manage_order_label": "Spravovať vašu objednávku",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "O niekoľko minút dostaneš SMS so svojím darčekovým poukazom.",
+          "other": "O niekoľko minút dostaneš SMS so svojimi darčekovými poukazmi."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "O niekoľko minút dostaneš SMS so svojím darčekovým poukazom.",
+          "other": "O niekoľko minút dostaneš SMS so svojimi darčekovými poukazmi."
+        },
+        "gift_card_email_title": {
+          "other": "Darčekové poukážky boli odoslané e-mailom"
+        },
+        "gift_card_text_title": {
+          "one": "Darčekový poukaz bol odoslaný cez SMS",
+          "other": "Darčekové poukážky boli odoslané prostredníctvom SMS"
+        },
+        "resend_gift_cards_by_email": "Odoslať e-mail znova",
+        "resend_gift_cards_by_text": "Odoslať SMS znova",
+        "gift_card_resent_confirmation": {
+          "one": "Darčeková poukážka bola znovu odoslaná.",
+          "other": "Darčekové poukážky boli znovu odoslané."
+        },
+        "gift_card_resend_failure": {
+          "one": "Vyskytol sa problém pri opätovnom odosielaní vášho darčekového poukazu. Skúste to znova alebo nás kontaktujte.",
+          "other": "Vyskytol sa problém pri opätovnom odosielaní vašich darčekových poukazov. Skúste to znova alebo nás kontaktujte."
+        },
+        "failed_pending_payment_page_title": "Vyskytol sa problém s vašou platbou",
+        "thank_you_title_payments_app_pending_default": "Platba sa spracováva",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Vašu objednávku sme prijali",
+        "thank_you_title_payments_app_failed_pending_payment": "Vaša platba nemôže byť spracovaná",
+        "thank_you_payments_app_failed_pending_payment": "Vaša objednávka ešte nebola zaplatená. Vráťte sa do svojho nákupného košíka, aby ste skontrolovali a zaplatili objednávku.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Čoskoro dostanete potvrdzovací e-mail. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Čoskoro dostanete potvrdzovací e-mail. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Čoskoro dostanete potvrdzujúcu SMS. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Po dokončení platby dostanete potvrdzovací e-mail. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Po dokončení platby dostanete potvrdzovací e-mail. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po dokončení platby dostanete potvrdzujúcu SMS. Svoj objednávku môžete sledovať cez aplikáciu Shop.",
+        "order_status_payments_app_failed_pending_payment": "Vaša objednávka ešte nebola zaplatená. Vráťte sa do svojho nákupného košíka, aby ste skontrolovali a zaplatili objednávku."
       }
     }
   }
