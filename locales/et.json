@@ -4509,7 +4509,79 @@
           "add_billing_address_button": "Lisa uus",
           "add_billing_address_button_accessibility_label": "Lisa uus arveldusaadress",
           "choose_billing_address_from_list_button": "Vali nimekirjast",
-          "choose_billing_address_from_list_button_accessibility_label": "Vali arve aadress nimekirjast"
+          "choose_billing_address_from_list_button_accessibility_label": "Vali arve aadress nimekirjast",
+          "missing_billing_address_error_message": "Sisesta arve aadress",
+          "default_checkbox": "Määra vaikimisi makseviisiks"
+        },
+        "replace_mode_warning": "Kui eemaldate selle makseviisi, mõjutab see tellimusi või ettetellimusi. Asendage see mõne teise makseviisiga, et jätkata tulevaste tellimuste saamist.",
+        "choose_from_list": "Vali nimekirjast",
+        "add_new_button": "Lisa uus",
+        "button_title": "Lisa",
+        "subscription_contracts": {
+          "title": "Maksemeetodi kasutamine korduvate tellimuste jaoks",
+          "product_details": "Tooteandmed",
+          "load_more": "Laadi rohkem",
+          "more_items": {
+            "one": "Veel {{count}} toodet",
+            "other": "Veel {{count}} toodet"
+          },
+          "product_count": {
+            "one": "{{count}} toodet",
+            "other": "{{count}} toodet"
+          }
+        },
+        "contracts_update_failed": "Mõned tellimuste lepingud ei saanud uuendatud",
+        "subscription_contracts_updated": "{{succeeded}} van {{total}} tellimust uuendatud",
+        "invalid_wallet_type_error": "Vigane digitaalne rahakott",
+        "updating_contracts": {
+          "one": "{{count}} tellimust lepingut uuendatakse...",
+          "other": "{{count}} tellimust lepingut uuendatakse..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} tellimuskokkulepe on uuendatud",
+          "other": "{{count}} tellimust on uuendatud"
+        },
+        "missing_customer_error": "Midagi läks valesti. Proovi uuesti või võta ühendust tugiteenusega."
+      },
+      "expires_soon": "See kaart aegub varsti",
+      "expired": "See kaart on aegunud",
+      "card_update_consent": "See makseviis salvestatakse tulevaste ostude jaoks.",
+      "digital_wallet_title": "Digitaalne rahakott",
+      "credit_or_debit_card_title": "Krediitkaart või deebetkaart",
+      "google_pay": {
+        "errors": {
+          "generic": "Google Pay kasutamisel tekkis probleem. Proovi uuesti või kasuta mõnda muud makseviisi.",
+          "missing_billing_address": "Google Pay kasutamiseks on sul vaja arveldusaadressi. Lisa see oma kontole."
+        },
+        "loading": "Google Pay laadimine",
+        "iframe_title_accessibility_label": "Google Pay makseviisi lisamine",
+        "loading_accessibility_message": "Google Pay laadimine"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay laadimine",
+        "errors": {
+          "generic": "Apple Pay kasutamisel tekkis probleem. Proovige uuesti või valige mõni muu makseviis.",
+          "not_available": "Apple Pay ei ole sellel seadmel saadaval.",
+          "missing_billing_address": "Apple Pay kasutamiseks on sul vaja arveldusaadressi. Lisa see oma kontole."
+        }
+      },
+      "add_payment_method_banner": "Makseviisi lisamine kiiremaks kassaks ja eelautoriseerimise teenusteks",
+      "edit_payment_method_button_accessibility_label": "Muuda {{paymentMethodName}}, mis lõpeb numbritega {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}} redigeerimine",
+      "expiration_warning_button_accessibility_label": "Kuvada hoiatus kehtetuks muutumise kohta makseviisile {{paymentMethodName}}, mis lõpeb numbritega {{lastDigits}}",
+      "no_payment_methods_banner": "Uued makseviisid lisatud",
+      "default": "Standard",
+      "store_credit": {
+        "label": "Ostukrediit",
+        "accesibility_label": "Ostukrediit - {{formattedBalance}}",
+        "expirable_amounts_button": "Vaata aegumisele kuuluvad summad",
+        "details_modal": {
+          "title": "Krediit, mis aegub",
+          "balance_label": "Saldo",
+          "expiration_date_label": "Vervaldatum",
+          "amount_label": "Summa",
+          "expirable_balance_info": "Osa saldost aegub tulevikus.",
+          "expirable_amount_label": "Kogusumma, mis aegub"
         }
       }
     }
