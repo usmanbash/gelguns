@@ -2411,7 +2411,107 @@
         "all_stores_far_away": {
           "title": "De närmaste platserna ligger mer än %{distance} bort",
           "ship_to_address_link": "leveransadress",
-          "title_with_specific_location": "Den närmaste platsen med din artikel ligger mer än %{distance} från %{location}."
+          "title_with_specific_location": "Den närmaste platsen med din artikel ligger mer än %{distance} från %{location}.",
+          "title_with_item": {
+            "one": "Den närmaste platsen med din artikel ligger mer än %{distance} från %{location}.",
+            "other": "Den närmaste platsen med dina artiklar ligger mer än %{distance} från %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Den plats du valde tidigare är inte längre tillgänglig",
+          "ship_to_address_link": "Skicka till adress"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Skicka dina artiklar",
+          "search_elsewhere": "sök någon annanstans",
+          "ship_items_or_search_elsewhere": "%{ship_items} av %{search_elsewhere}"
+        },
+        "location_closest": "Närmaste plats med din artikel",
+        "toggle_multiple_locations": "Fler än %{count} andra platser",
+        "location_information_far_away": {
+          "one": "Det finns %{count} plats med din artikel",
+          "other": "Det finns %{count} platser med din artikel"
+        },
+        "location_nearby": {
+          "one": "Det finns %{count} plats i närheten med din artikel",
+          "other": "Det finns %{count} platser i närheten med din artikel"
+        },
+        "location_nearby_short": {
+          "one": "%{count} plats i närheten med din artikel",
+          "other": "%{count} platser i närheten med din artikel"
+        },
+        "location_far_away": {
+          "one": "%{count} plats med din artikel",
+          "other": "%{count} platser med din artikel"
+        },
+        "toggle_more_locations": {
+          "one": "Minst %{count} annan plats",
+          "other": "Minst %{count} andra platser"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Inga platser med din artikel",
+          "other": "Inga platser med dina artiklar"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Inga platser i %{country} med din artikel",
+          "other": "Inga platser i %{country} med dina artiklar"
+        }
+      },
+      "split_delivery": {
+        "items_for_pickup": "Artiklar att hämta",
+        "delivery_method": "Uppdelad leveransmetod",
+        "delivery_method_menu": "Meny för uppdelad leveransmetod",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} av %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} av %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_shipped": {
+              "one": "%{count} artikel kan inte skickas",
+              "other": "%{count} artiklar kan inte skickas"
+            }
+          },
+          "remove_item": {
+            "other": "Ta bort artikeln"
+          },
+          "ship_separately": {
+            "one": "skicka separat",
+            "other": "skicka separat"
+          },
+          "pick_them_up_in_store": {
+            "one": "hämta i butiken",
+            "other": "hämta i butiken"
+          }
+        },
+        "items_for_shipping": "Artiklar för leverans",
+        "items_moved_to_shipping_toast": "Artiklar som inte kan hämtas har flyttats till leverans",
+        "cross_border": {
+          "modal": {
+            "heading": "Byta land?",
+            "content": "Detta återställer alla artiklar till leverans. Dina upphämtnings- och leveransplatser måste finnas i samma land.",
+            "change_country": "Byt land"
+          },
+          "banner": "Din leveransmetod har uppdaterats"
+        }
+      },
+      "captcha": {
+        "title": "Genomför CAPTCHA för att fortsätta",
+        "errors": {
+          "not_solved": "Genomför CAPTCHA för att fortsätta"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Din beställning kunde inte behandlas eftersom din rabattkod inte längre är tillgänglig. Kontrollera totalsumman för din beställning och försök igen."
+      },
+      "wallets": {
+        "redirect_hint": "Du ombeds logga in på {{walletName}}.",
+        "logged_in": "Ansluten med {{email}}",
+        "shipping_line_label": "Frakt",
+        "connect_shipping_methods": "{{method1}} en {{method2}}",
+        "payment_in_progress_body": "Betalningen behandlas. Beställningen är nästan klar.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} är inte tillgänglig"
+          }
         }
       }
     }
