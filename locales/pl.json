@@ -2098,7 +2098,79 @@
         "thank_you_payments_app_pending_payment_description_default_with_email": "Wkrótce otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Wkrótce otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Wkrótce otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone": "Wkrótce otrzymasz wiadomość SMS z potwierdzeniem i numerem zamówienia."
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Wkrótce otrzymasz wiadomość SMS z potwierdzeniem i numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Wkrótce otrzymasz wiadomość SMS z potwierdzeniem i numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Wkrótce otrzymasz wiadomość SMS z potwierdzeniem i numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Skontaktuj się z nami e-mailem lub telefonicznie w sprawie potwierdzenia zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Skontaktuj się z nami e-mailem lub telefonicznie w sprawie potwierdzenia zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Skontaktuj się z nami e-mailem lub telefonicznie w sprawie potwierdzenia zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po dokonaniu płatności otrzymasz e-mail potwierdzający z numerem zamówienia.",
+        "vat_invoices": {
+          "title": "Faktury Btw"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Twoja płatność jest przetwarzana. Otrzymasz wiadomość e-mail, gdy płatność zostanie potwierdzona.",
+        "verify_shop_account_title": "Zweryfikuj swoje konto Sklepu",
+        "verify_shop_account_message": "Twoje dane zostały zapisane w Sklepie. Zweryfikuj swoje konto, aby automatycznie korzystać z nich w milionach sklepów.",
+        "verify_shop_account_cta": "Zweryfikuj konto",
+        "verify_shop_account_confirmation": "Dane do zamówienia zostały zapisane",
+        "announcement": {
+          "collapse": "Złożyć"
+        },
+        "confirmed_items_count": "Potwierdzono %{confirmed_count} z %{total_count} artykułów",
+        "thank_you_confirmed_orders_with_email": "Wkrótce otrzymasz osobne maile potwierdzające z numerami zamówień",
+        "thank_you_confirmed_orders_with_phone": "Wkrótce otrzymasz osobne potwierdzające wiadomości SMS z numerami zamówień",
+        "thank_you_confirmed_orders_with_email_and_phone": "Wkrótce otrzymasz osobne maile potwierdzające z numerami zamówień",
+        "checkout_on_remote_shop_link_text": "Zapłać w %{remoteShopName}",
+        "confirmed_orders_title": "Twoje zamówienia zostały potwierdzone",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 artykuł nie został potwierdzony",
+          "other": "Są artykuły niepotwierdzone"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Nie naliczono za to żadnych opłat",
+          "other": "Nie naliczono za to żadnych opłat"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artykułów",
+          "other": "%{count} artykułów"
+        },
+        "thank_you_from_shop": "Sprzedawca: %{shop_name}",
+        "payment_method_not_charged": "Nie odpisane",
+        "items_fulfilled_by_store": {
+          "one": "Artykuły, które kupiłeś, pochodzą z %{remote_shop_name}.",
+          "other": "Artykuły, które kupiłeś, pochodzą z innych sklepów."
+        },
+        "checkout_on_another_store": "Zapłać w innym sklepie",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Wkrótce otrzymasz wiadomość potwierdzającą",
+          "multi_store": "Wkrótce otrzymasz osobny e-mail potwierdzający z każdego sklepu"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Wkrótce otrzymasz wiadomość potwierdzającą SMS-em",
+          "multi_store": "Wkrótce otrzymasz potwierdzającą wiadomość SMS z każdego sklepu"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Wkrótce otrzymasz wiadomość potwierdzającą",
+          "multi_store": "Wkrótce otrzymasz osobny e-mail potwierdzający z każdego sklepu"
+        },
+        "checkout_again": "Wykonaj ponownie realizację zamówienia",
+        "cashback_notice": "Otrzymasz zwrot gotówki po 30 dniach"
+      },
+      "review": {
+        "title": "Recenzja",
+        "review_title": "Zakończ swoje zamówienie",
+        "checkout_as_guest": "Rozliczenie jako gość",
+        "blocks": {
+          "billing_address_title": "Fakturowanie"
+        }
       }
     }
   }
