@@ -10,14 +10,14 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
+      "login_form_heading": "Enter store with password:",
+      "login_password_button": "Enter with password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
+      "login_form_error": "Password incorrect!",
       "login_form_submit": "Enter",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "admin_link_html": "Are you the shop owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
+      "powered_by_shopify_html": "This store is powered by {{ shopify }}"
     },
     "social": {
       "alt_text": {
@@ -26,7 +26,7 @@
         "share_on_pinterest": "Pin on Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (formerly Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,7 +37,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Return to shop",
     "pagination": {
       "label": "Pagination",
       "page": "Page {{ number }}",
@@ -50,83 +50,83 @@
     },
     "cart": {
       "view": "View cart ({{ count }})",
-      "view_empty_cart": "View cart",
-      "item_added": "Item added to your cart"
+      "view_empty_cart": "View shopping cart",
+      "item_added": "Item added to shopping cart"
     },
     "share": {
-      "close": "Close share",
+      "close": "Close shares",
       "copy_to_clipboard": "Copy link",
       "share_url": "Link",
       "success_message": "Link copied to clipboard"
     },
     "slider": {
-      "of": "of",
-      "next_slide": "Slide right",
-      "previous_slide": "Slide left",
+      "of": "from",
+      "next_slide": "Slide to the right",
+      "previous_slide": "Slide to the left",
       "name": "Slider"
     }
   },
   "newsletter": {
     "label": "Email",
-    "success": "Thanks for subscribing",
+    "success": "Thank you for subscribing",
     "button_label": "Subscribe"
   },
   "accessibility": {
-    "skip_to_text": "Skip to content",
-    "skip_to_product_info": "Skip to product information",
+    "skip_to_text": "Go straight to the content",
+    "skip_to_product_info": "Go directly to product information",
     "close": "Close",
-    "unit_price_separator": "per",
-    "vendor": "Vendor:",
+    "unit_price_separator": "by",
+    "vendor": "Seller:",
     "error": "Error",
-    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "refresh_page": "Choosing a selection results in the entire page refreshing.",
     "link_messages": {
       "new_window": "Opens in a new window.",
       "external": "Opens external website."
     },
     "loading": "Loading...",
-    "total_reviews": "total reviews",
+    "total_reviews": "total number of reviews",
     "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
-    "collapsible_content_title": "Collapsible content",
-    "complementary_products": "Complementary products"
+    "collapsible_content_title": "Foldable content",
+    "complementary_products": "Additional products"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "read_more_title": "Read more: {{ title }}",
       "comments": {
-        "one": "{{ count }} comment",
+        "one": "{{ count }} response",
         "other": "{{ count }} comments"
       },
-      "moderated": "Please note, comments need to be approved before they are published.",
-      "comment_form_title": "Leave a comment",
+      "moderated": "Note: comments must be approved before they are published.",
+      "comment_form_title": "Post a response",
       "name": "Name",
       "email": "Email",
-      "message": "Comment",
-      "post": "Post comment",
+      "message": "Response",
+      "post": "Post a comment",
       "back_to_blog": "Back to blog",
       "share": "Share this article",
-      "success": "Your comment was posted successfully! Thank you!",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated."
+      "success": "Your comment has been posted! Thank you!",
+      "success_moderated": "Your comment has been posted. We will publish it shortly; our blog is moderated."
     }
   },
   "onboarding": {
     "product_title": "Example product title",
-    "collection_title": "Your collection's name"
+    "collection_title": "The name of your collection"
   },
   "products": {
     "product": {
-      "inventory_out_of_stock_message": "In stock, order",
-      "inventory_order_before": "before",
+      "inventory_out_of_stock_message": "In stock",
+      "inventory_order_before": "front",
       "inventory_order_time": "2pm,",
-      "inventory_delivered": "delivered",
-      "inventory_delivery_time": "tomorrow",
+      "inventory_delivered": "ordered,",
+      "inventory_delivery_time": "delivered tomorrow",
       "inventory_status": {
         "in_stock_badge": "In stock",
         "low_stock_badge": "Low stock",
         "out_of_stock_badge": "Out of stock",
-        "shipping_message": "Ordered before 2pm, shipped the same day"
+        "shipping_message": "Ordered before 2 PM, shipped the same day"
       },
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to shopping cart",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
@@ -137,7 +137,7 @@
       "inventory_out_of_stock": "Out of stock",
       "inventory_out_of_stock_continue_selling": "In stock",
       "sku": "SKU",
-      "on_sale": "Sale",
+      "on_sale": "Offer",
       "product_variants": "Product variants",
       "media": {
         "gallery_viewer": "Gallery Viewer",
@@ -3757,8 +3757,31 @@
     },
     "intents": {
       "subscription_replace_payment_method": {
-        "replace_with": "Replaced by"
+        "replace_with": "Replaced by",
+        "loading": "Modal for changing payment method is loading",
+        "invalid_subscription_contract": "Cannot find subscription",
+        "expiry_date": "Expires on {{expiryDate}}"
       }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name} logo",
+      "step_one": {
+        "page_title": "Log in - %{shop_name}",
+        "heading": "Log in",
+        "subheading": "Enter your email address and we will send you a verification code",
+        "input_field_label": "Email address",
+        "subheading_with_sign_in_options": "Log in or create an account"
+      },
+      "step_two": {
+        "restart_link": "Log in with a different email address",
+        "input_field_label": "Code of 6 digits"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Enter the correct six-digit code"
+        }
+      },
+      "processing": "Processing..."
     }
   }
 }
