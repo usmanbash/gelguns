@@ -57,94 +57,94 @@
       "copy_to_clipboard": "Kopírovat odkaz",
       "share_url": "Odkaz",
       "success_message": "Odkaz zkopírován do schránky",
-      "close": "Zavřít okno pro sdílení"
+      "close": "Zavřít sdílení"
     },
     "slider": {
-      "of": "z",
-      "next_slide": "Snímek vpravo",
-      "previous_slide": "Snímek vlevo",
-      "name": "Posuvník"
+      "of": "dodávka",
+      "next_slide": "Posunout doprava",
+      "previous_slide": "Posunout doleva",
+      "name": "posuvník"
     }
   },
   "newsletter": {
     "label": "E-mail",
-    "success": "Děkujeme za přihlášení k odběru",
-    "button_label": "Přihlásit k odběru"
+    "success": "Děkujeme za odběr",
+    "button_label": "Odebírat"
   },
   "accessibility": {
-    "skip_to_text": "Přejít k obsahu",
+    "skip_to_text": "Přejít přímo na obsah",
     "close": "Zavřít",
     "unit_price_separator": "za",
-    "vendor": "Vendor:",
+    "vendor": "Prodávající:",
     "error": "Chyba",
-    "refresh_page": "Po volbě výběru se obnoví celá stránka.",
+    "refresh_page": "Výběr volby způsobí úplné obnovení stránky.",
     "loading": "Načítání...",
     "link_messages": {
-      "new_window": "Otevře se v novém okně.",
-      "external": "Otevře externí webovou stránku."
+      "new_window": "Otevřít v novém okně.",
+      "external": "Otevřít externí webovou stránku."
     },
-    "skip_to_product_info": "Přejít na informace o produktu",
+    "skip_to_product_info": "Přejít přímo na informace o produktu",
     "total_reviews": "celkový počet recenzí",
-    "star_reviews_info": "{{ rating_value }} z {{ rating_max }} hvězdiček",
-    "collapsible_content_title": "Sbalitelný obsah",
+    "star_reviews_info": "{{ rating_value }} z {{ rating_max }} hvězd",
+    "collapsible_content_title": "Sklopný obsah",
     "complementary_products": "Doplňkové produkty"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Přečtěte si více: {{ title }}",
-      "moderated": "Upozorňujeme, že komentáře musí být před zveřejněním schváleny.",
-      "comment_form_title": "Napište komentář",
-      "name": "Název",
+      "read_more_title": "Čtěte dále: {{ title }}",
+      "moderated": "Pozor: komentáře musí být schváleny před jejich zveřejněním.",
+      "comment_form_title": "Přidat reakci",
+      "name": "Jméno",
       "email": "E-mail",
-      "message": "Komentář",
-      "post": "Zveřejnit komentář",
+      "message": "Reakce",
+      "post": "Přidejte komentář",
       "back_to_blog": "Zpět na blog",
-      "share": "Nasdílet tento článek",
-      "success": "Váš komentář byl úspěšně publikován! Děkujeme!",
-      "success_moderated": "Váš komentář byl úspěšně publikován. Zveřejníme jej až za chvíli, protože náš blog je moderován.",
+      "share": "Sdílet tyto články",
+      "success": "Váš komentář byl zveřejněn! Děkujeme!",
+      "success_moderated": "Váš příspěvek byl zveřejněn. Publikujeme jej co nejdříve; náš blog je moderován.",
       "comments": {
-        "one": "{{ count }} komentář",
-        "other": "Počet komentářů: {{ count }}",
+        "one": "{{ count }} reakce",
+        "other": "{{ count }} reakcí",
         "few": "Počet komentářů: {{ count }}",
         "many": "Počet komentářů: {{ count }}"
       }
     }
   },
   "onboarding": {
-    "product_title": "Vzorový název produktu",
-    "collection_title": "Název vaší kolekce"
+    "product_title": "Ukázkový název produktu",
+    "collection_title": "Název tvé sbírky"
   },
   "products": {
     "product": {
-      "add_to_cart": "Přidat do košíku",
+      "add_to_cart": "Přidat do nákupního košíku",
       "description": "Popis",
-      "on_sale": "Sleva",
-      "share": "Sdílet tento produkt",
+      "on_sale": "Nabídka",
+      "share": "Sdílet tento výrobek",
       "sold_out": "Vyprodáno",
       "unavailable": "Není k dispozici",
-      "vendor": "Vendor",
-      "video_exit_message": "{{ title }} otevře ve stejném okně video na celé obrazovce.",
-      "xr_button": "Zobrazit ve vašem prostoru",
+      "vendor": "Prodavač",
+      "video_exit_message": "{{ title }} otevře video na celou obrazovku ve stejném okně.",
+      "xr_button": "Prohlédněte si ve svém prostoru",
       "xr_button_label": "Zobrazit ve vašem prostoru: Umožňuje načíst položku v okně rozšířené reality",
       "quantity": {
-        "label": "Množství",
-        "input_label": "Množství produktu {{ product }}",
-        "increase": "Zvýšit množství produktu {{ product }}",
-        "decrease": "Snížit množství produktu {{ product }}",
-        "minimum_of": "Minimum: {{ quantity }}",
-        "maximum_of": "Maximum: {{ quantity }}",
-        "multiples_of": "Přírůstky: {{ quantity }}",
+        "label": "Počet",
+        "input_label": "Počet pro {{ product }}",
+        "increase": "Zvýšit množství pro {{ product }}",
+        "decrease": "Snížit množství pro {{ product }}",
+        "minimum_of": "Minimální množství {{ quantity }}",
+        "maximum_of": "Maximální dodávka {{ quantity }}",
+        "multiples_of": "Kroky {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> v košíku",
         "note": "Zobrazit pravidla množství",
-        "min_of": "Minimum {{ quantity }}",
-        "max_of": "Maximum {{ quantity }}",
-        "in_cart_aria_label": "Množství ({{ quantity }} v košíku)"
+        "min_of": "Min. {{ quantity }}",
+        "max_of": "Max. {{ quantity }}",
+        "in_cart_aria_label": "Počet ({{ quantity }} v košíku)"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
         "regular_price": "Běžná cena",
-        "sale_price": "Výprodejová cena",
+        "sale_price": "Akční cena",
         "unit_price": "Jednotková cena"
       },
       "pickup_availability": {
@@ -193,8 +193,14 @@
       "duties_and_taxes_included": "Včetně cla a daní.",
       "inventory_out_of_stock_message": "Skladem",
       "inventory_order_before": "pro",
-      "inventory_delivered": "objednal,",
-      "inventory_delivery_time": "zítra doma"
+      "inventory_delivered": "objednáno,",
+      "inventory_delivery_time": "zítra doma",
+      "inventory_status": {
+        "in_stock_badge": "Skladem",
+        "low_stock_badge": "Malý skladový zásobník",
+        "out_of_stock_badge": "Není skladem",
+        "shipping_message": "Objednáno do 14:00, odesláno tentýž den"
+      }
     },
     "modal": {
       "label": "Galerie multimédií"
