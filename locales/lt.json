@@ -10,37 +10,37 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Apsilankyti parduotuvėje naudojant slaptažodį:",
-      "login_password_button": "Apsilankyti naudojant slaptažodį",
+      "login_form_heading": "Įeikite į parduotuvę su slaptažodžiu:",
+      "login_password_button": "Įeikite su slaptažodžiu",
       "login_form_password_label": "Slaptažodis",
       "login_form_password_placeholder": "Jūsų slaptažodis",
-      "login_form_error": "Slaptažodis neteisingas!",
+      "login_form_error": "Neteisingas slaptažodis!",
       "login_form_submit": "Įvesti",
       "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"/admin\" class=\"link underlined-link\">Prisijunkite čia</a>",
-      "powered_by_shopify_html": "Ši parduotuvė priklausys platformai „{{ shopify }}“"
+      "powered_by_shopify_html": "Šią parduotuvę valdo {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Bendrinti „Facebook“",
-        "share_on_twitter": "Bendrinti X",
-        "share_on_pinterest": "Skelbti „Pinterest“"
+        "share_on_facebook": "Dalintis Facebook'e",
+        "share_on_twitter": "Dalintis per X",
+        "share_on_pinterest": "Segti „Pinterest“ platformoje"
       },
       "links": {
-        "twitter": "X („Twitter“)",
-        "facebook": "„Facebook“",
-        "pinterest": "„Pinterest“",
-        "instagram": "„Instagram“",
-        "tumblr": "„Tumblr“",
-        "snapchat": "„Snapchat“",
-        "youtube": "„YouTube“",
-        "vimeo": "„Vimeo“",
-        "tiktok": "„TikTok“"
+        "twitter": "X (anksčiau Twitter)",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "instagram": "Instagramas",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Tęsti apsipirkimą",
+    "continue_shopping": "Grįžti į parduotuvę",
     "pagination": {
-      "label": "Puslapių numeravimas",
-      "page": "{{ number }} psl.",
+      "label": "Puslapiavimas",
+      "page": "Puslapis {{ number }}",
       "next": "Kitas puslapis",
       "previous": "Ankstesnis puslapis"
     },
@@ -50,7 +50,7 @@
     },
     "cart": {
       "view": "Peržiūrėti krepšelį ({{ count }})",
-      "item_added": "Prekė įdėta į jūsų krepšelį",
+      "item_added": "Prekė pridėta į pirkinių krepšelį",
       "view_empty_cart": "Peržiūrėti krepšelį"
     },
     "share": {
@@ -4520,8 +4520,62 @@
       "update_payment_instrument": {
         "title": "Mokėjimo metodo keitimas",
         "loading": "Mokėjimo būdų įkėlimas",
-        "no_payment_methods_available": "Nėra prieinamų mokėjimo būdų"
+        "no_payment_methods_available": "Nėra prieinamų mokėjimo būdų",
+        "use_new_payment_method": "+ Naudokite naują mokėjimo būdą"
       }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Prisijungti arba sukurti paskyrą",
+        "section_divider": "Daugiau būdų prisijungti",
+        "alternate_divider": "IŠ",
+        "shop_login_button": "Prisijungti su Shop",
+        "continue_with_google": "Tęsti su Google",
+        "continue_with_facebook": "Tęsti su Facebook",
+        "use_email_button": "Naudoti el. pašto adresą"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Sveiki, {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Ieškoti"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, atidaryti poskirtį",
+        "loading_menu": "Meniu įkeliama",
+        "sign_in_with_email": "Prisijungti el. paštu"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Mokėjimo metodo keitimas",
+        "replace_with": "Pakeisti į",
+        "loading": "Modalas mokėjimo metodo keitimui kraunamas",
+        "invalid_subscription_contract": "Prenumeratos rasti nepavyko",
+        "edit_current_payment_method": "Redaguoti esamą mokėjimo būdą",
+        "edit_selected_payment_method": "Redaguoti pasirinktą mokėjimo būdą"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logotipas",
+      "step_one": {
+        "subheading": "Įveskite savo el. pašto adresą ir mes atsiųsime jums patvirtinimo kodą",
+        "subheading_with_sign_in_options": "Prisijungti arba sukurti paskyrą",
+        "or": "iš",
+        "consent_agreement": "Norėdami tęsti, jūs sutinkate su %{terms}"
+      },
+      "step_two": {
+        "page_title": "Įveskite kodą - %{shop_name}",
+        "heading": "Įveskite kodą",
+        "restart_link": "Prisijungti su kitu el. pašto adresu"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Įveskite galiojantį el. pašto adresą",
+          "invalid_code": "Įveskite teisingą šešių skaitmenų kodą"
+        }
+      },
+      "processing": "Apdorojama..."
     }
   }
 }
