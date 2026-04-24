@@ -4128,9 +4128,165 @@
             "banner_due_today": "A fizetésed ma esedékes",
             "title": "Fizetendő összeg",
             "title_with_date": "Fizetés esedékes {{date}}-kor",
-            "description_overdue": "A fizetésed késedelmes."
-          }
+            "description_overdue": "A fizetésed késedelmes.",
+            "description_partially_paid": "Ez a rendelés részben ki van fizetve. Még van fennálló egyenleged.",
+            "description_authorized": "A díjat a választott fizetési módon a fizetendő napon terheljük meg. Már most is fizethetsz.",
+            "description_due_on_receipt": "Számlát kapsz, amikor a fizetés esedékes.",
+            "title_due_on_fulfillment": "A fizetés a rendelés teljesítésekor esedékes.",
+            "description_due_on_fulfillment": "A fizetés esedékes, amint az összes tétel ebben a rendelésben feldolgozásra került.",
+            "description_waiting_for_manual_payment": "Egy fizetés feldolgozás alatt áll ehhez a rendeléshez. A számlaegyenleg frissül, amint megkapjuk a fizetést.",
+            "description_due_on_receipt_partially_paid": "Ez a rendelés részben ki van fizetve. Még van fennálló egyenleged. Számlát kapsz, amikor a fizetés esedékessé válik.",
+            "description_due_on_fulfillment_partially_paid": "Ez a rendelés részben ki van fizetve. Még van fennálló egyenleged. A fizetés esedékes, amint az összes tétel ebben a rendelésben feldolgozásra került.",
+            "description_due_on_fulfillment_partially_paid_next": "Ez a rendelés részben ki van fizetve. Még van fennálló egyenleged.",
+            "banner_due_today_for_single_fulfillment": "A {{amount}} összegű fizetés ma esedékes. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Fizetés ma esedékes {{count}} teljesítésért",
+            "banner_overdue_for_multiple_fulfillments": "Fizetés esedékes {{count}} teljesítésért",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "A {{amount}} fizetése {{count}} nappal késik. {{link}}",
+              "other": "A {{amount}} fizetése {{count}} nappal késik. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Visszatérített",
+            "title_with_date": "Visszafizetve {{date}}",
+            "description_full_refund": "Teljes visszatérítést kaptál ezért a rendelésért.",
+            "description_single_refund": "Részleges visszatérítést kaptál ezért a rendelésért.",
+            "description_multiple_refunds": "Részleges visszatérítéseket kaptál erre a rendelésre."
+          },
+          "canceled": {
+            "title": "Fizetés megszakítva",
+            "description": "Nincsenek felszámított költségek."
+          },
+          "pay_now_accessibility_label": "Fizessen most a(z) {{orderName}} rendelésért",
+          "due_date": "Fizetendő {{date}}-kor"
+        },
+        "subtitle": "Beküldve: {{date}}",
+        "title": "Rendelés {{name}}",
+        "order_timeline": {
+          "expand_events_label": "Adatok megjelenítése",
+          "expand_events_accessibility_label": "Előzetes rendelés adatainak megjelenítése",
+          "hide_events_label": "Adatok elrejtése",
+          "hide_events_accessibility_label": "Előzetes rendelési adatok elrejtése"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ez a fizetési mód már nem elérhető a jövőbeni vásárlásokhoz ezen a helyszínen.",
+          "description_with_replacement": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előre engedélyezett fizetésekre ezen a helyszínen. Cseréld le egy másik fizetési módra, hogy továbbra is megkapd a közelgő megrendeléseket."
+        },
+        "payment_details": {
+          "order_label": "Rendelés {{name}}",
+          "draft_label": "Előzetes rendelés {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Rendelésszám hozzáadása",
+        "add_modal_title": "Rendelésszám hozzáadása",
+        "close_modal_accessibility_label": "Rendelésszám-ablak bezárása",
+        "discard": "Elutasítás",
+        "discard_changes_modal_title": "Módosítások elvetése?",
+        "empty_state": "Nincs rendelési szám",
+        "modal_po_number_input_label": "Rendelési szám",
+        "modal_po_number_input_max_length_error": "A rendelési számok legfeljebb {{maxLength}} karakter hosszúak lehetnek.",
+        "title": "Beszerzési rendelési szám {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Hiba történt a cím törlése közben. Próbálja meg újra, vagy frissítse az oldalt."
+      },
+      "addresses_loading_issue": {
+        "description": "Kapcsolódási hiba. Ellenőrizd az internetkapcsolatodat, és próbáld újra."
+      },
+      "banner_title": {
+        "one": "Van {{count}} hiba",
+        "other": "{{count}} hiba van"
+      },
+      "failed_address_creation": {
+        "description": "Hiba történt a címed létrehozásakor. Frissítsd ezt az oldalt, vagy ellenőrizd az internetkapcsolatodat."
+      },
+      "failed_address_update": {
+        "description": "Hiba történt a címed frissítése közben. Frissítsd ezt az oldalt, vagy ellenőrizd az internetkapcsolatodat."
+      },
+      "no_access_to_locations": {
+        "description": "Nincs hozzáférésed a helyszínekhez"
+      },
+      "not_found": {
+        "description": "Ellenőrizze az URL-címet, vagy próbálja meg néhány perc múlva újra.",
+        "title": "Hiba történt az oldal betöltése közben"
+      },
+      "order_not_found": {
+        "description": "Ez a rendelés nem létezik, vagy nincs jogosultságod a megtekintéséhez.",
+        "title": "Rendelés nem található"
+      },
+      "profile_update_error": {
+        "description": "Probléma történt a profilod frissítése közben. Frissítsd ezt az oldalt, vagy ellenőrizd az internetkapcsolatodat."
+      },
+      "retry_action_label": "Újra próbálkozás",
+      "load_orders_error": {
+        "title": "Nem lehet betölteni a rendeléseket",
+        "description": "Próbáld meg újra, vagy térj vissza később.",
+        "retry_button": "Újra próbálkozás"
+      },
+      "load_paypal_error": {
+        "description": "Hiba történt a PayPal betöltése közben. Kérjük, próbálja meg újra."
+      },
+      "load_extension_error": {
+        "description": "Frissítse ezt az oldalt, vagy próbálja meg néhány perc múlva újra."
+      },
+      "already_upgraded": "Az ügyfélfiókok már frissítve lettek.",
+      "failed_to_upgrade": "A vásárlói fiókbeállítások frissítése sikertelen volt.",
+      "logout_everywhere": {
+        "description": "Hiba történt a kijelentkezés során. Kérjük, próbálja meg újra."
+      },
+      "resend_link": {
+        "too_many_requests": "Túl sok kérés. Kérjük, próbálja meg később újra.",
+        "generic": "Kérelem sikertelen"
+      },
+      "profile_name_update_error": {
+        "description": "Probléma történt a neved frissítése közben. Frissítsd az oldalt, vagy ellenőrizd az internetkapcsolatodat."
+      },
+      "load_address_form_error": {
+        "title": "Nem lehet betölteni a címadatlapot",
+        "description": "Nem sikerült betölteni a címzési űrlapot."
+      },
+      "not_upgraded": "Az ügyfélfiókok nincsenek frissítve.",
+      "failed_to_revert": "A vevőfiók beállításainak helyreállítása sikertelen volt.",
+      "revert_window_expired": "A helyreállítási időszak lejárt."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Fizetési mód adatai",
+        "payment_method_expiring_on": "Lejár {{expiryDate}}",
+        "preauthorized_payments": "Előzetesen engedélyezett fizetések",
+        "close_payment_modal_accessibility_label": "Modaal Adatok fizetési mód bezárása",
+        "payment_details_loading": "Fizetési mód adatai betöltése",
+        "pre_authorized_payments": "Előzetesen engedélyezett fizetések",
+        "total_amount_of_subscription_line_items_left": "és még {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Összesen {{totalItems}} cikk; {{totalItemsToDisplay}} cikk jelenik meg.",
+        "next_payment_due": "Következő fizetés esedékes {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "A {{lastDigits}} végződésű fizetési mód szerkesztése",
+        "credit_card_details_accessibility_label": "lejár {{lastDigits}}-kor",
+        "card_info_title": "Térképadatok",
+        "payment_method_expired_on": "Lejár {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay betöltése",
+        "invalid_payment_method_message": "Használjon új hitelkártyát a további rendelések fogadásához.",
+        "checkout_card_banner": "Ezt a fizetési módot csak előre engedélyezett fizetésekhez használhatod. Nem jelenik meg a fizetésnél, ha be vagy jelentkezve ebbe a boltba.",
+        "default_checkbox": "Alapértelmezettként beállítani",
+        "default_checkbox_accessibility_label": "Állítsa be ezt a fizetési módot alapértelmezettként"
+      },
+      "delete_payment_method_button": "Eltávolítás",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} eltávolítása",
+      "back_button_accessibility_label": "Vissza a {{paymentMethodStepTitle}} oldalra",
+      "generic_card": "Térkép",
+      "payment_delete": {
+        "title": "Fizetési mód eltávolítása",
+        "description_without_replacement": "Ez a fizetési mód már nem elérhető a jövőbeni vásárlásokhoz.",
+        "description_with_replacement": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előzetesen engedélyezett fizetésekre. Ezt lecserélheted egy másik fizetési módra is, hogy továbbra is megkapd a közelgő megrendeléseket.",
+        "payment_method_selector_placeholder": "Válasszon egy másik fizetési módot (opcionális)",
+        "replace_method_with_new_method_description": "A(z) {{currentPaymentMethodName}} eltávolításra kerül, és helyette a(z) {{newPaymentMethodName}} lesz beállítva.",
+        "error_when_deleting": "Elnézést kérünk, valami hiba történt, és nem tudjuk eltávolítani ezt a fizetési módot. Kérjük, próbálja meg később újra, vagy frissítse az oldalt.",
+        "delete_and_replace_button": "Eltávolítás és csere"
       }
     }
   }
