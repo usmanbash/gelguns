@@ -1850,7 +1850,71 @@
         "redirecting_title": "Presmerovanie…",
         "redirecting_notice": "Budete presmerovaný.",
         "complete_your_purchase_title": "Dokončiť nákup",
-        "continue_to_payment_gateway_notice": "Prejdite k platbe a pridajte svoje platobné údaje."
+        "continue_to_payment_gateway_notice": "Prejdite k platbe a pridajte svoje platobné údaje.",
+        "continue_to_payment_gateway_button_label": "Prejsť na platbu",
+        "complete_your_purchase_title_error": "Opravte svoje platobné údaje",
+        "continue_to_payment_gateway_notice_error": "Vaše platobné údaje sa nedajú overiť.",
+        "your_order_has_been_received_title": "Ďakujeme za vašu objednávku",
+        "you_will_receive_confirmation": "Momentálne prijímame veľmi veľa objednávok. Čoskoro by ste mali dostať potvrdenie e-mailom alebo SMS. Dajte nám vedieť, ak ho neobdržíte do hodiny.",
+        "wait": {
+          "medium": {
+            "one": "Vaša objednávka sa spracováva. Odhadovaná doba čakania je %{count} minút.",
+            "other": "Vaša objednávka sa spracováva. Očakávaný čas čakania je %{count} minút."
+          },
+          "long": "Dostanete e-mail, akonáhle bude vaša objednávka spracovaná. Momentálne je veľké množstvo objednávok.",
+          "no_auto_refresh_html": "%{link} ak nebudete automaticky presmerovaný.",
+          "refresh_this_page": "Obnovte túto stránku"
+        },
+        "you_will_not_be_charged": "Zatiaľ neboli účtované žiadne poplatky",
+        "action_required": "Akcia vyžaduje",
+        "redirecting_to_bank": "Presmerovať na {{bank}}",
+        "modal_notice": "Spojíme sa s {{paymentMethod}}",
+        "remote_shops_payments_processing": "Spracovanie platby",
+        "remote_checkout_count": "%{current} z %{total}"
+      },
+      "failed_payment": {
+        "page_title": "Platba nemôže byť spracovaná",
+        "title": "Platba nemôže byť spracovaná",
+        "payment_not_processed_title": "Vaša platba nemôže byť spracovaná.",
+        "payment_not_processed_text": "Neboli účtované žiadne poplatky. Vráťte sa do svojho nákupného košíka, aby ste dokončili nákup.",
+        "return_to_cart_button_label": "Späť do košíka"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bankový prevod",
+        "cash_on_delivery_label": "Vrátenie peňazí",
+        "money_order_label": "Poštový poukaz",
+        "debit_card_label": "Platobná karta",
+        "deferred_payment_label": "Neskôr si vyberte spôsob platby",
+        "generic_payment_terms": "Platobné podmienky {{translatedName}} sú platné. Vaša platba je splatná do {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} do účtu s prístupom k tejto lokalite alebo na pridanie či použitie uložených platobných metód.",
+            "link": "Prihlásiť sa"
+          }
+        },
+        "direct_payment_terms": "Platné sú podmienky {{translatedName}}. Peniaze budú z vašej karty stiahnuté dňa {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Platba je splatná hneď, ako je objednávka spracovaná.",
+        "order_due_on_fulfillment_payment": "Peniaze budú z vašej karty stiahnuté hneď, ako bude objednávka spracovaná.",
+        "draft_order_payment_due_later_no_terms": "Platba je splatná hneď po potvrdení objednávky.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Peniaze budú z vašej karty stiahnuté hneď po potvrdení objednávky.",
+        "draft_order_payment_due_later_terms": "Podmienky {{translatedName}} platia od momentu potvrdenia objednávky.",
+        "draft_order_payment_due_on_fulfillment": "Platba je splatná hneď, ako je objednávka potvrdená a spracovaná.",
+        "fixed_payment_label": "Platba je splatná {{dueDate}}.",
+        "fixed_direct_payment_terms": "Táto suma bude na tvoju kartu účtovaná {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} musí byť zaplatená dnes. Na zostatok sa vzťahujú podmienky {{translatedName}} a musí byť splatený do {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} musí byť zaplatená dnes. Zostatok je splatný, keď bude vaša objednávka spracovaná.",
+        "order_due_on_receipt_choose_later": "Platba je splatná pri prevzatí.",
+        "draft_order_deposit_due_later": "{{depositAmount}} je splatná po potvrdení objednávky. Pre zostatok platia podmienky {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} je splatná po potvrdení objednávky. Zostatok je splatný, keď je vaša objednávka vybavená.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} musí byť zaplatená dnes. Zostatok bude splatný neskôr.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} musí byť zaplatená dnes. Zostatok musí byť zaplatený do {{dueDate}}.",
+        "credit_or_debit_card_label": "Kreditná/debetná karta"
+      },
+      "thank_you": {
+        "title": "Ďakujeme za váš nákup!",
+        "confirmation_email_sent_text": "Potvrdenie e-mailom bolo odoslané na %{email}",
+        "return_to_store_link_label": "Návrat do obchodu",
+        "print_link_label": "Vytlačiť doklad o kúpe"
       }
     }
   }

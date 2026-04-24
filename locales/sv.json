@@ -1322,7 +1322,151 @@
         },
         "subscription_agreement_label": "En eller flera artiklar i kundvagnen är ett uppskjutet köp eller ett abonnemangsköp. Om du fortsätter till betalningen godkänner du att vi automatiskt debiterar köpesummorna via din betalningsmetod till det pris och den frekvens som anges på denna sida, tills abonnemanget löper ut eller du själv säger upp det. För alla uppsägningar gäller %{cancelled}.",
         "subscription_agreement_cancelled": "uppsägningspolicy",
-        "card_expired": "Utgånget"
+        "card_expired": "Utgånget",
+        "card_verification_confirm": "Ange säkerhetskoden på ditt kort för verifieringsändamål.",
+        "different_credit_card_label": "Använd ett annat kreditkort",
+        "apple": {
+          "connect": "Klicka för att koppla ditt Apple Pay-konto",
+          "not_available": "Apple Pay är inte tillgängligt i denna webbläsare. För att koppla ditt Apple Pay-konto måste du använda Safari på en Apple-enhet."
+        },
+        "account_connected": "Konto kopplat.",
+        "billing_address_associated_with_mandate": "Använd adressen som är kopplad till din betalningsmetod",
+        "billing_address_associated_with_mandate_info": "För att ändra faktureringsadressen tar du bort dina kreditkortsuppgifter och anger dem på nytt",
+        "credit_card_vaulting_sign_in_banner_title": "Spara ditt kreditkort",
+        "credit_card_vaulting_sign_in_banner_info": "Logga in eller skapa ett konto för att spara ditt kreditkort för framtida köp.",
+        "expiry_long": "(Upphör %{month}/%{year})",
+        "expiry_short": "(Upphör %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Spara detta kreditkort på mitt konto för snabbare betalning",
+        "delete_customer_mandate_modal_body": "Om du tar bort detta kort måste du lägga till det igen innan du kan använda kortet för betalningar.",
+        "delete_customer_mandate_modal_confirm": "Ta bort kort",
+        "google": {
+          "connect": "Klicka för att koppla ditt Google Pay-konto",
+          "error_authorizing": "Fel vid auktorisering av betalningen"
+        },
+        "mor_disclaimer_html": "Genom att klicka nedan och slutföra din beställning godkänner du att köpa din(a) artikel(er) från Global-e som registrerad handlare för denna transaktion, enligt <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allmänna villkor</a> och <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Integritetspolicy</a> från Global-e. Global-e är en internationell leverantör av fullgörandetjänster för %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "När du uppdaterar betalningsmetoden godkänner du betalningar för varje återkommande eller uppskjuten köp enligt <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> för denna butik.",
+        "multibanco_label": "Multibank",
+        "receiver_payment_experience_hint": "Efter att du har lagt din beställning får du betalningsuppgifterna. Genomför betalningen inom %{due_days} dagar via Multibanco eller online.",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Genomför din betalning via Multibanco eller online med hjälp av nedanstående uppgifter. %{contact_us} för frågor eller för att uppdatera betalningsuppgifter.",
+            "amount": "Bedragare",
+            "buyer_action_info": "Din betalning på %{amount_due} är obetald."
+          }
+        },
+        "purchase_options_agreement_label": "En eller flera artiklar i din kundvagn är ett uppskjutet köp, abonnemang eller återkommande köp. Genom att fortsätta med din betalning godkänner du att din betalningsmetod automatiskt debiteras för priset och frekvensen som anges på denna sida, tills det upphör eller du avbokar. På alla avbokningar gäller %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Totalt kan vara exklusive skatter, frakt, uppskjutna avgifter och vissa rabatter. Fortsätt till kassan för det belopp som ska betalas idag."
+        },
+        "purchase_options_agreement_label_html": "Jag förstår att en eller flera artiklar i min kundvagn är ett uppskjutet köp, abonnemang eller återkommande köp. Genom att fortsätta godkänner jag\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbokningspolicyn</a>\noch ger tillstånd att min betalningsmetod debiteras för priserna, frekvensen och datumen som anges på denna sida, tills min beställning har hanterats eller jag avbokar, om det är tillåtet.",
+        "payment_method_saved": "Betalningsmetod sparad",
+        "card_vaulted_company_location": "Karta sparad för denna plats",
+        "order_covered_by_store_credit_notice": "Beställningen betalas med ditt butikskredit.",
+        "order_covered_by_redeemables_notice": "Beställningen är betald.",
+        "store_credit": {
+          "label": "Butikskredit",
+          "apply_label": "Använd butikskredit",
+          "add_label": "Lägga till butikskredit",
+          "manage_label": "Hantera butikskredit",
+          "buying_gift_card": "Med ett butikskredit kan du inte köpa ett presentkort",
+          "no_fixed_selling_plans": "Du kan inte använda butikskredit i kombination med uppskjutna köpval."
+        },
+        "clear": "Kunskap",
+        "billing_must_match_shipping_notice": "Faktureringsadressen för din betalningsmetod måste stämma överens med leveransadressen.",
+        "same_billing_address_checkbox_label": "Leveransadress och faktureringsadress är densamma",
+        "location_billing_address_label": "Faktureringsadress för platsen",
+        "location_shipping_address_label": "Leveransadress för platsen",
+        "no_working_method_error": "Den här butiken kan för närvarande inte ta emot betalningar. Uppdatera sidan eller återkom senare.",
+        "brand_not_available": "Den här butiken accepterar inte {{brand}}. Använd ett annat kort för att betala.",
+        "shipping_rate_updated": "Tillgängliga leveransmetoder har uppdaterats. Bekräfta ditt val innan du betalar.",
+        "billing_address_invalid_phone": "Uppdatera telefonnumret på faktureringsadressen för {{label}} {{last_digits}} för att fortsätta.",
+        "billing_address_invalid_phone_no_card": "Uppdatera telefonnumret på faktureringsadressen för att fortsätta.",
+        "preview_not_available": {
+          "title": "Exempel inte tillgängligt",
+          "content": "Ingen oro, denna snabba kassa fungerar för dina kunder.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Ange ett giltigt utgivningsdatum",
+              "issue_number": "Ange ett giltigt utgivningsnummer"
+            },
+            "invalid": {
+              "verification_value": "Ange en giltig CVV/CVC- eller säkerhetskod"
+            }
+          }
+        },
+        "simulated_checkout": "Exempel visas snart",
+        "vaulting_agreement_label": "Spara mina betalningsuppgifter hos %{company} för en snabbare utcheckning.",
+        "business_customer_vaulting_payment_label": "Spara denna betalningsmetod vid kassan och ge %{company} tillåtelse att dra pengar från detta kort för framtida köp på denna plats. Alla kontaktpersoner som är kopplade till denna plats får använda betalningsmetoden.",
+        "purchase_options_and_vaulting_agreement_label": "En eller flera artiklar i kundvagnen är ett uppskjutet köp eller ett abonnemang. Om du fortsätter till betalning godkänner du att vi automatiskt debiterar köpesummorna via din betalningsmetod till det pris och den frekvens som anges på denna sida, tills det upphör eller du själv säger upp det. För alla uppsägningar gäller %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "avbokningsregler",
+        "saved_credit_card_info": "Sista fyra siffrorna",
+        "expired_cards_info": {
+          "one": "Det finns %{count} utgången kort. Du kan visa och ändra det i ditt konto.",
+          "other": "Det finns %{count} utgångna kort. Du kan visa och ändra dem i ditt konto."
+        },
+        "local_payment_method_receiver_notice": "Efter att du har lagt din beställning får du betalningsuppgifterna. Genomför betalningen inom {{dueDays}} dagar vid en bankomat eller online.",
+        "order_edit_banner_title": "Betalning av {{amount_owed}} krävs",
+        "order_edit_banner_subtitle": "Din beställning {{order_number}} har uppdaterats. Granska ändringarna och betala för att bekräfta din beställning.",
+        "order_edit_banner_single_item_added": "Tillagt",
+        "order_edit_banner_multiple_items_added": "{{amount}} tillagt",
+        "order_edit_banner_single_item_removed": "Borttagen",
+        "order_edit_banner_multiple_items_removed": "{{amount}} borttaget",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Använd ett presentkort",
+          "apply_another_gift_card_label": "Använd ett annat presentkort",
+          "add_label": "Lägga till ett presentkort"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Fäste för anpassade betalningar på plats"
+        },
+        "markets_pro_disclaimer_label": "Genom att lägga din beställning godkänner du köpet hos Global-e som den registrerade handlaren, underkastat %{markets_pro_terms} och %{privacy_policy} från Global-e, och du delar dina uppgifter med %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "allmänna villkor",
+        "markets_pro_disclaimer_privacy_policy": "integritetspolicy",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Allmänna villkor för registrerade handlare",
+        "markets_pro_disclaimer_privacy_policy_title": "Sekretesspolicy för registrerade handlare",
+        "purchase_order_number": {
+          "title": "Beställningsnummer",
+          "label": "Beställningsnummer (valfritt)"
+        },
+        "alternative_payment_currency_total_notice": "Observera: %{amount_due} kommer att dras.",
+        "waiting_on_taxes_message": "Uppdatera sidan om skatterna inte beräknas inom några sekunder.",
+        "waiting_on_taxes_notice": "Beräkna belastningen",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returnerat",
+        "shop_pay_installments_label": "Shop Pay-delbetalningar",
+        "delete_credit_card_modal": {
+          "title": "Ta bort kort",
+          "confirmation": "Är du säker på att du vill ta bort {{brandName}} som slutar på {{lastDigits}}?",
+          "delete": "Ta bort"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Tillagt",
+          "other": "%{count} tillagt"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Borttagen",
+          "with_quantities": "{{delta}} av {{quantity}} borttagna"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returnerade",
+          "with_quantities": "{{delta}} av {{quantity}} returnerade"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Ta bort"
+        },
+        "edit_credit_card_modal": {
+          "description": "Du kan endast ändra faktureringsadressen för ditt kort.",
+          "fields": {
+            "default": "Ställ in som standard",
+            "expiry": "Förfallodatum",
+            "name": "Namn på kortet",
+            "billing": "Fakturera till"
+          }
+        },
+        "expired_payment_method": "Den valda betalningsmetoden har gått ut",
+        "subscription_heading": "Prenumerationsavtal"
       }
     }
   }
