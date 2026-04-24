@@ -4389,6 +4389,96 @@
       "autocompleteOptionsAvailable": {
         "one": "{{count}} položek k dispozici",
         "other": "{{count}} dostupných položek"
+      },
+      "removeItem": "{{label}} odstranit",
+      "month": {
+        "other": "měsíce"
+      },
+      "mapClusterTitle": {
+        "one": "Shluk u {{number}} značkovacího bodu",
+        "other": "Shluk s {{number}} značkovacími body"
+      },
+      "dropzoneInvalidFileType": "Tento typ souboru není podporován",
+      "dropzoneDraggedOver": "Uložit soubor k nahrání",
+      "clipboardFailedToCopy": "Není zkopírováno",
+      "clear": "vědění"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Upravit",
+      "navigate_to_admin": "Přejít do řídicího centra",
+      "previewing": "Prohlížíte si ukázku:",
+      "saved_at": "Uloženo dne {{date}} v {{time}}",
+      "viewing": "Díváte se na:",
+      "not_available": "Žádné údaje o profilu nejsou k dispozici",
+      "close_preview": "Příklad zavřít"
+    },
+    "settings": {
+      "loading_accessibility_message": "Načítání stránky nastavení",
+      "log_out_everywhere": {
+        "title": "Odhlásit se z overalu",
+        "description": "Pokud jste ztratili zařízení nebo máte obavy o bezpečnost, odhlaste se všude, abyste zajistili bezpečnost svého účtu.",
+        "warning_message": "Budete také odhlášeni z tohoto zařízení."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} v {{time}}",
+        "lessThanOneWeekAgo": "V {{weekday}} v {{time}}",
+        "yesterday": "Včera v {{time}}",
+        "today": "Dnes v {{time}}",
+        "tomorrow": "Zítra v {{time}}",
+        "lessThanOneWeekAway": "V {{weekday}} v {{time}}",
+        "lessThanOneYearAway": "Op {{date}} v {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "před {{count}} minutami",
+          "other": "před {{count}} minutami"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Vybrat rozšíření s názvem '{{extensionName}}'",
+        "unselect": "Zrušit výběr rozšíření nazvaného '{{extensionName}}'",
+        "move_up": "Rozšíření přesunout na předchozí pozici",
+        "remove": "Odebrat rozšíření",
+        "move_down_tooltip": "Přejít na další pozici",
+        "remove_tooltip": "Odstranit"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Tento odkaz nelze otevřít v editoru. Odkaz se otevře v novém okně ({{resolved_to_link}}). Klikněte na OK pro pokračování."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Zkuste to znovu za pár minut"
+      }
+    },
+    "shop_ads": {
+      "title": "Další výrobky, které by se vám mohly líbit",
+      "subtitle": "Dočasně k dispozici",
+      "button": "Prozkoumat na Shopu"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Zákazníci si mohou sami vyžádat a spravovat vrácení zboží.",
+        "disabled": "Zákazníci musí kontaktovat prodejce, aby požádali o vrácení zboží."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Předvolby souborů cookie"
+    },
+    "announcement_bar": {
+      "expand_label": "Rozbalit oznamovací lištu",
+      "collapse_label": "Sbalit oznamovací lištu",
+      "close_label": "Zavřít oznamovací lištu"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Způsob platby změnit",
+        "loading": "Načítání platebních metod",
+        "no_payment_methods_available": "Žádné dostupné způsoby platby",
+        "select_new_payment_method": "Vyberte novou platební metodu",
+        "use_new_payment_method": "+ Použijte novou platební metodu"
       }
     }
   }
