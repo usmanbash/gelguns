@@ -2747,11 +2747,95 @@
               "pl": "Ett momsregistreringsnummer från Polen innehåller PL och 10 tecken",
               "pt": "Ett momsregistreringsnummer från Portugal innehåller PT och 9 tecken",
               "ro": "Ett momsregistreringsnummer från Rumänien innehåller RO och 10 tecken",
-              "sk": "Ett momsregistreringsnummer från Slovakien innehåller SK och 10 tecken"
+              "sk": "Ett momsregistreringsnummer från Slovakien innehåller SK och 10 tecken",
+              "si": "Ett momsregistreringsnummer från Slovenien innehåller SI och 8 tecken",
+              "es": "Ett momsregistreringsnummer från Spanien innehåller ES och 9 tecken",
+              "se": "Ett momsregistreringsnummer från Sverige innehåller SE och 12 tecken",
+              "gb": "Ett momsregistreringsnummer från Storbritannien innehåller GB eller XI och 5-12 tecken"
+            },
+            "invalid_number": {
+              "gb": "Ange ett giltigt momsregistreringsnummer från Storbritannien"
+            },
+            "service_unavailable": "Valideringstjänst inte tillgänglig",
+            "service_error": "Valideringstjänst inte tillgänglig"
+          },
+          "accessibility": {
+            "status": {
+              "valid": "Btw-identifikationsnummer är giltigt",
+              "applied": "Momsundantag har tillämpats",
+              "domestic": "Momsundantag har inte tillämpats",
+              "invalid_number": "Momsundantaget misslyckades",
+              "service_unavailable": "Kan inte verifiera momsundantag",
+              "service_error": "Kan inte verifiera momsundantag"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Denna betalning krävs inte längre. Gå till beställningssidan för mer information.",
+        "paid": "Denna betalning har redan skickats in. Gå till beställningssidan för mer information."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "En tilläggsinteraktion krävs för att slutföra utcheckningen."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Kontrollera din beställning"
+        },
+        "shipping": {
+          "shipping_options": "Se alla leveransalternativ"
+        }
+      },
+      "too_many_requests": {
+        "title": "För många försök att slutföra köpet",
+        "body": "Vänta några minuter och försök igen från din kundvagn.",
+        "return_to_cart": "Tillbaka till kundvagnen"
+      },
+      "address_management": {
+        "saved_with_store": "Sparad i denna butik"
       }
+    },
+    "links": {
+      "powered_by_shopify": "Drivs av Shopify",
+      "learn_more": "Mer information"
+    },
+    "attributes": {
+      "password_confirmation": "lösenordsbekräftelsen",
+      "body": "huvudtext"
+    },
+    "addresses": {
+      "pincode": "Postnummer",
+      "region": "Regio",
+      "state_and_territory": "Stat/Område",
+      "county": "Provins",
+      "governorate": "Regering",
+      "confirm": "Är du säker på att du vill ta bort den här adressen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Utvalt",
+        "best_selling": "Bäst säljande",
+        "az": "Alfabetiskt: A-Ö",
+        "za": "Alfabetiskt: Z-A",
+        "price_ascending": "Pris: lågt till högt",
+        "price_descending": "Pris: högst till lägst",
+        "date_ascending": "Datum: gammalt till nytt",
+        "date_descending": "Datum: nytt till gammalt"
+      }
+    },
+    "errors": {
+      "blank": "får inte vara tom",
+      "credit_card_session_expired": "Kreditkortsauktorisationen har gått ut. Ange dina betalningsuppgifter igen. Inga pengar har dragits från ditt kort.",
+      "empty": "får inte vara tom",
+      "invalid_email": "måste vara en giltig e-postadress",
+      "discount_disabled": "Denna rabatt är blockerad",
+      "discount_expired": "Denna rabatt gäller inte längre",
+      "discount_limit_reached": "Denna rabatt har nått användningsgränsen",
+      "discount_not_found": "Kan ingen giltig rabatt hittas som stämmer överens med koden",
+      "customer_already_used_once_per_customer_discount_notice": "Denna rabatt har nått användningsgränsen",
+      "gift_card_already_applied": "Koden har tillämpats på din kundvagn"
     }
   }
 }
