@@ -2358,7 +2358,81 @@
           "shared_location_button": "Kasuta minu asukohta",
           "errors": {
             "unsuported_by_browser": "Geolokatsiooni pärimine ei ole sinu brauseri poolt toetatud. Proovi uuesti või kasuta teist brauserit.",
-            "permission_not_allowed": "Luba oma asukoha jagamine."
+            "permission_not_allowed": "Luba oma asukoha jagamine.",
+            "permission_denied": "Ei saa asukohta kätte. Proovi uuesti."
+          }
+        },
+        "no_business_hours": "Pole avamisaegu saadaval",
+        "open_twenty_four_hours": "24/7 avatud",
+        "address_label": "Aadress",
+        "pickup_unavailable_banner_title": {
+          "one": "Sinu toote jaoks pole kättesaamispunkte saadaval",
+          "other": "Sinu artiklitele pole kättesaamispunkte saadaval"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Checkout'i juures tekkis probleem",
+          "message": "Värskenda seda lehte või proovi mõne minuti pärast uuesti",
+          "action": {
+            "cta": "Lehekülg uuesti laadida"
+          },
+          "request_id": "Taotlus-ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "See pood on parooliga kaitstud",
+          "customer_account_required": "Kliendikonto on vajalik ostuprotsessi lõpetamiseks",
+          "cart_completed": "See ostuprotsess on juba lõpetatud",
+          "invalid_cart": "Ostukorv ei ole enam kehtiv",
+          "not_authorized": "Kassakontroll ebaõnnestus. Palun kontrolli oma rakenduse sisselogimisandmeid.",
+          "killswitch_enabled": "Kassasse minek on ajutiselt saadaval",
+          "policy_violation": "Ei saa kassasse minna poliitikaseadistuste piirangute tõttu",
+          "unrecoverable_failure": "Ei saa kassasse laadida. Proovi uuesti."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tagasi ostukorvi",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} koguste uuendamiseks",
+        "subscription_changed": "Üks sinu tellimustest on muudetud.",
+        "company_location_changed": "Sinu ostukorv on muudetud. Kontrolli oma tellimust enne selle esitamist.",
+        "violations_title": "{{violation}} puudub või on kehtetu",
+        "individual_violations_title": {
+          "DeliveryViolations": "Kohaletoimetamise aadress",
+          "PaymentViolations": "Arve aadress",
+          "OtherViolations": "Tellimuse andmed",
+          "UnhandledViolations": "Tellimuse andmed"
+        },
+        "all_violations_content": "Bel of {{emailLink}} on selleks, et andmeid uuendada ja tellimus lõpetada:",
+        "all_violations_email_link": "e-post",
+        "editable_shipping_address_violations_message_title": "Lisa see teave, et oma tellimus lõpetada:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} aadressi selle asukoha jaoks püsivalt uuendamiseks.",
+        "editable_shipping_address_violations_email_link": "Võtke meiega ühendust",
+        "company_location_changed_product_removed": "Sinu ostukorv on muudetud, kuna mõned tooted ei ole selles asukohas saadaval. Kontrolli oma tellimust enne selle esitamist.",
+        "shipping_address_incomplete_title": "Tarneaadress on puudulik",
+        "calculating_shipping": "Saatmiskulud arvutatakse veel. Palun proovige mõne sekundi pärast uuesti. Ühtegi tasu ei ole arvele võetud.",
+        "calculating_taxes": "Maksud arvutatakse veel. Proovige mõne sekundi pärast uuesti. Kulusid ei ole arvestatud.",
+        "generic_processing_error": {
+          "title": "Tellimuse töötlemisel tekkis probleem",
+          "body": "Kulusid ei ole arvele võetud. Proovi uuesti või kasuta mõnda teist makseviisi."
+        },
+        "contact_information": {
+          "title": "Kontaktandmed on vigased",
+          "header": "{{emailLink}} oma andmete uuendamiseks",
+          "email_link": "Võtke meiega ühendust"
+        },
+        "payment_method_not_available_with_payment_terms": "Valitud makseviis ei ole enam saadaval, kuna selle tellimuse makse kuulub nüüd {{paymentTerms}} tingimuste alla.",
+        "payment_method_not_available_with_fulfillment_terms": "Valitud makseviis ei ole enam saadaval, kuna selle tellimuse eest tuleb nüüd tasuda täitmise käigus.",
+        "payment_method_not_available_with_fixed_terms": "Valitud makseviis ei ole enam saadaval, kuna selle tellimuse eest tuleb makse sooritada hiljem.",
+        "payment_method_not_available_with_review_requirement": "Valitud makseviis ei ole enam saadaval, kuna makse tuleb tasuda tellimuse kinnitamisel.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Kohaletoimetamine",
+            "contact": "Võta ühendust",
+            "payment": "Makse",
+            "billing": "Arveldamine"
+          },
+          "heading": {
+            "one": "Esineb {{count}} viga:"
           }
         }
       }
