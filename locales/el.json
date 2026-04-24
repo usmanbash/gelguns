@@ -1052,7 +1052,77 @@
           "label": "%{price}/τεμ."
         },
         "updated_shipping_method": "Ενημερωμένη μέθοδος αποστολής: %{shipping_method}",
-        "discount_not_found": "Δεν βρέθηκε έγκυρη έκπτωση που να αντιστοιχεί στον κωδικό που εισήχθη"
+        "discount_not_found": "Δεν βρέθηκε έγκυρη έκπτωση που να αντιστοιχεί στον κωδικό που εισήχθη",
+        "total_savings": "Συνολική εξοικονόμηση",
+        "return_restocking_fee_label": "Κόστος προμήθειας βοτάνων",
+        "return_shipping_fee_label": "Επιστροφή αποστολής",
+        "enter_shipping_address": "Εισαγωγή διεύθυνσης παράδοσης",
+        "discount_code_applied": "Κωδικός έκπτωσης εφαρμόστηκε",
+        "discount_code_applied_with_code": "Ο κωδικός έκπτωσης %{code} έχει εφαρμοστεί",
+        "gift_card_applied": "Εφαρμογή δωροκάρτας",
+        "duties_included_label": "Το σύνολο περιλαμβάνει φόρους και τελωνειακά τέλη. Δεν υπάρχουν επιπλέον χρεώσεις κατά την παράδοση.",
+        "deferred_balance_info": {
+          "title": "Το υπόλοιπο των {{amount_due}} οφείλεται στις {{due_at}}.",
+          "due_on_fulfillment_title": "Το υπόλοιπο των {{amount_due}} οφείλεται κατά την εκπλήρωση της παραγγελίας"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> απαιτείται κωδικός έκπτωσης για επιλέξιμους πελάτες",
+        "subtotal_label_with_quantity": {
+          "one": "Υποσύνολο · %{count} άρθρο",
+          "other": "Υποσύνολο · %{count} άρθρα"
+        },
+        "cost_table_item_column_header": "Άρθρο",
+        "cost_table_value_column_header": "Αξία",
+        "more_items_modal": {
+          "clear_search": "Εκκαθάριση αναζήτησης",
+          "empty_results": "Δεν βρέθηκαν αποτελέσματα για '%{searchText}'. Ελέγξτε την ορθογραφία ή χρησιμοποιήστε άλλη λέξη ή φράση.",
+          "number_items_shown": "%{shownNumber} από %{totalNumber} άρθρα"
+        },
+        "number_items": {
+          "one": "%{count} άρθρα",
+          "other": "%{count} άρθρα"
+        },
+        "view_all_items": {
+          "one": "Προβολή %{count} άρθρων",
+          "other": "Προβολή όλων των %{count} άρθρων"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address_instead_html": "%{link} αντίθετα"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Δεν υπάρχουν καταστήματα διαθέσιμα με το προϊόν σου",
+          "other": "Δεν υπάρχουν καταστήματα διαθέσιμα με τα είδη σου"
+        },
+        "deposit_label": "Προκαταβολή",
+        "total_due_today_label": "Συνολικό οφειλόμενο σήμερα",
+        "total_due_later_label": "Συνολικό οφειλόμενο αργότερα",
+        "discount_code_allocations_mismatch": "Ο κωδικός έκπτωσής σου <strong style=\"text-transform:uppercase\">%{code}</strong> έχει αλλάξει. Έλεγξε το καλάθι σου και δοκίμασε ξανά.",
+        "deferred_total_due_date_label_next": "Οφειλόμενο στις %{date}",
+        "total_due_label": "Συνολικό οφειλόμενο ποσό",
+        "unconfirmed_label": "Δεν επιβεβαιώθηκε",
+        "total_paid_label": "Συνολικό πληρωτέο ποσό",
+        "order_discounts_apply_to_local_shop": "Οι εκπτώσεις παραγγελίας ισχύουν μόνο για προϊόντα του %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Τα δωροκουπόνια ισχύουν μόνο για είδη από το %{shop_name}",
+        "estimated_taxes_label_short": "Εκτιμήθηκε",
+        "discount_code_removed": "Ο κωδικός έκπτωσης %{code} έχει αφαιρεθεί",
+        "discount_code_replaced": "Ο κωδικός έκπτωσης %{old_code} αφαιρέθηκε και ο %{code} εφαρμόστηκε",
+        "discount_code_replaced_multiple": "Πολλοί κωδικοί έκπτωσης έχουν αφαιρεθεί και ο %{code} έχει εφαρμοστεί",
+        "discount_applies_to_subscription_items_only": "Η έκπτωση ισχύει μόνο για άρθρα συνδρομής",
+        "estimated_taxes_finalization_tooltip_content_short": "Στρογγυλοποίηση φόρου μετά την πληρωμή",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Δεν υπάρχουν διαθέσιμα καταστήματα στο %{country} με το προϊόν σου",
+          "other": "Δεν υπάρχουν διαθέσιμα καταστήματα στο %{country} με τα αντικείμενά σου"
+        },
+        "compare_at_sale": "Εκπτώσεις (%{sale_amount})",
+        "tax_line": {
+          "gst": "ΦΠΑ"
+        },
+        "automatic_discount_tooltip": "Οι αυτόματα εφαρμοζόμενες εκπτώσεις δεν μπορούν να αφαιρεθούν"
+      },
+      "shipping": {
+        "title": "Αποστολή",
+        "shipping_method_title": "Τρόπος αποστολής",
+        "waiting_on_rate_notice": "Ανάκτηση διαθέσιμων τιμών αποστολής...",
+        "waiting_on_pickup_location_notice": "Ανάκτηση διαθέσιμων σημείων παραλαβής..."
       }
     }
   }
