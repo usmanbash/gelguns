@@ -2148,7 +2148,83 @@
         "verify_shop_account_title": "Overte svoj účet Shop",
         "verify_shop_account_message": "Vaše informácie sú uložené v obchode Shop. Overte svoj účet, aby ste ich mohli automaticky používať v miliónoch obchodov.",
         "verify_shop_account_cta": "Overiť účet",
-        "verify_shop_account_confirmation": "Údaje o platbe uložené"
+        "verify_shop_account_confirmation": "Údaje o platbe uložené",
+        "company_location_section_title": "Spoločnosť a lokalita",
+        "confirmed_items_count": "%{confirmed_count} z %{total_count} položiek bolo potvrdených",
+        "thank_you_confirmed_orders_with_email": "Čoskoro dostanete samostatné potvrdzovacie e-maily s vašimi číslami objednávok",
+        "thank_you_confirmed_orders_with_phone": "Čoskoro dostanete samostatné potvrdzovacie SMS správy s vašimi číslami objednávok",
+        "thank_you_confirmed_orders_with_email_and_phone": "Čoskoro dostanete samostatné potvrdzovacie e-maily s vašimi číslami objednávok",
+        "track_your_order_link_text": "Sledovať vašu objednávku",
+        "checkout_on_remote_shop_link_text": "Zaplaťte v %{remoteShopName}",
+        "confirmed_orders_title": "Vaša objednávka bola potvrdená",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 položka nie je potvrdená"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Za toto neboli účtované žiadne poplatky",
+          "other": "Za toto neboli účtované žiadne poplatky"
+        },
+        "thank_you_item_label": {
+          "other": "%{count} článkov"
+        },
+        "thank_you_from_shop": "Van %{shop_name}",
+        "payment_method_not_charged": "Nie je odpisované",
+        "items_fulfilled_by_store": {
+          "one": "Predmety, ktoré ste kúpili, pochádzajú z %{remote_shop_name}.",
+          "other": "Predmety, ktoré ste kúpili, pochádzajú z iných obchodov."
+        },
+        "checkout_on_another_store": "Zaplaťte v inom obchode",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Čoskoro obdržíte potvrdzovací e-mail",
+          "multi_store": "Čoskoro obdržíte samostatný potvrdzovací e-mail od každého obchodu"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Čoskoro obdržíte potvrdzujúcu SMS správu",
+          "multi_store": "Čoskoro obdržíte potvrdzujúcu SMS od každého obchodu"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Čoskoro obdržíte potvrdzovací e-mail",
+          "multi_store": "Čoskoro obdržíte samostatný potvrdzovací e-mail od každého obchodu"
+        },
+        "checkout_again": "Znova vykonať platbu",
+        "cashback_notice": "Peniaze späť dostanete do 30 dní"
+      },
+      "review": {
+        "title": "Recenzie",
+        "review_title": "Dokonči svoju objednávku",
+        "checkout_as_guest": "Zaplaťte ako hosť",
+        "blocks": {
+          "shipping_address_title": "Odoslať do",
+          "shipping_method_title": "Spôsob doručenia",
+          "change_contact_method_link_label": "Zmeniť kontaktné informácie",
+          "change_shipping_address_link_label": "Zmeniť doručovaciu adresu",
+          "change_shipping_method_link_label": "Zmeniť spôsob doručenia",
+          "pick_up_in_store_shipping_method_html": "Vyzdvihnutie v obchode · %{location_name}",
+          "due_after_order_reviewed_html": "Splatné po overení objednávky",
+          "review_title_free_order": "Skontrolujte a dokončite objednávku",
+          "payment_method_saved_company_location": "Uložiť kartu pre túto lokalitu",
+          "company_location": "Miesto podnikania",
+          "change_company_location_link_label": "Zmeniť miesto podnikania",
+          "pickup_items_at": {
+            "one": "Vyzdvihnúť %{count} položiek na",
+            "other": "Vyzdvihnúť %{count} položiek pri"
+          },
+          "ship_items_to": {
+            "one": "odoslať %{count} položiek do",
+            "other": "odoslať %{count} položiek do"
+          }
+        },
+        "checkout_a_different_way": "Zaplaťte iným spôsobom",
+        "review_and_confirm_title": "Skontrolovať a potvrdiť",
+        "account_more_actions": "Viac akcií pre tento účet"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Pošlite mi e-mail s novinkami a ponukami",
+        "unsubscribe": {
+          "title": "Odhlásili ste sa",
+          "description": "Už od nás nedostávate pripomienky k nákupnému košíku."
+        },
+        "accept_sms_checkbox_label": "Pošlite mi SMS so správami a ponukami"
       }
     }
   }
