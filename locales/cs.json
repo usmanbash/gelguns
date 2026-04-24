@@ -4325,6 +4325,70 @@
       "bank_account": {
         "loading_accessibility_message": "Tlačítko pro bankovní účet se načítá",
         "generic_error": "Nelze přidat bankovní účet. Zkuste to prosím později znovu."
+      },
+      "update_payment_method": {
+        "title": "Aktualizovat způsob platby",
+        "disclaimer": "Tento způsob platby bude uložen pro budoucí nákupy a může být použit pro každou opakující se nebo odloženou platbu.",
+        "error_message": "Nelze aktualizovat platební metodu",
+        "loading_form_accessibility_message": "Formulář pro aktualizaci platební metody se načítá",
+        "loading_current_payment_method": "Aktuální způsob platby se načítá",
+        "loading_digital_wallets": "Možnosti pro digitální peněženku se načítají",
+        "loading_card_fields": "Pole kreditní karty se načítají",
+        "subscriptions_list_accessibility_label": "Seznam předplatných produktů",
+        "pre_orders_title": "Příští",
+        "pre_orders_list_accessibility_label": "Seznam produktů s probíhající objednávkou",
+        "resources_list_accessibility_label": "Produkty s předplatným a produkty s probíhající objednávkou, které používají tento způsob platby",
+        "resources_card_scroll": "Posuňte dolů pro více článků",
+        "loading_resources": "Načítání předplatných a nadcházejících objednávek"
+      },
+      "link_expired": {
+        "message": "Tento odkaz pro aktualizaci platební metody vypršel.",
+        "update_message": "Tento odkaz pro aktualizaci platební metody vypršel.",
+        "add_message": "Tento odkaz pro přidání platební metody vypršel."
+      },
+      "update_success": {
+        "title": "Platební metoda aktualizována",
+        "done_button": "Pokračovat v nakupování"
+      },
+      "expired_badge_label": "Vypršelo",
+      "additional_payment_methods": "Další způsoby platby",
+      "add_success": {
+        "title": "Platební metoda přidána",
+        "done_button": "Pokračovat v nakupování"
+      }
+    },
+    "payment_method_brands": {
+      "shoppay": "Platba v obchodě",
+      "googlepay": "Google Platba",
+      "discover": "Objevte",
+      "maestro": "Mistr",
+      "forbrugsforeningen": "Spotřebitelská asociace",
+      "hipercard": "Hiperkarta",
+      "storecredit": "Obchodní kredit",
+      "bogus": "Falešný"
+    },
+    "enable_javascript": "Povolte JavaScript ve svém nastavení prohlížeče nebo se přihlaste pomocí jiného prohlížeče, abyste mohli zobrazit svůj účet.",
+    "ui_components": {
+      "processing": "Zpracovává se...",
+      "increase": "Nárůst {{type}}",
+      "decrease": "Odběr {{type}}",
+      "minimumReached": "Minimální hodnota vany {{value}} dosažena",
+      "maximumReached": "Maximální hodnota vany {{value}} dosažena",
+      "may": "mei",
+      "june": "dětství",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "udělej.",
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zoo",
+      "rangeStart": "Začít oblast",
+      "inRange": "V dosahu",
+      "rangeEnd": "Konec dosahu",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} položek k dispozici",
+        "other": "{{count}} dostupných položek"
       }
     }
   }
