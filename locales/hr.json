@@ -722,7 +722,81 @@
             "draft_order_not_exist": "Ova konceptna narudžba ne postoji u trenutnoj trgovini.",
             "staff_member_not_exist": "Ovaj zaposlenik nije poznat u trenutnoj trgovini.",
             "location_not_exist": "Ova lokacija ne postoji u trenutnoj trgovini.",
-            "point_of_sale_device_not_exist": "Ovaj prodajni uređaj ne postoji u trenutnoj trgovini."
+            "point_of_sale_device_not_exist": "Ovaj prodajni uređaj ne postoji u trenutnoj trgovini.",
+            "unresolvable_target_merchandise_lines": "Predložene prodajne dodjele nisu rješive u postojećem kontekstu pregovora."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Prijedlog tvog kupca mora sadržavati non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Polje 'Količina' nedostaje u pravilima zaliha kupca.",
+            "changing_behavior_not_allowed": "Ovaj korisnik nema ovlasti za izmjenu funkcionalnosti zaliha.",
+            "only_one_inventory_behavior_allowed": "Trenutno je dopuštena samo jedna funkcija zaliha po naplati."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Ovim postupkom naplate odbijanje carinskih pristojbi nije dopušteno."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Kod ove naplate nije dopuštena maloprodajna dodjela.",
+            "retail_attribution_required": "Za ovu naplatu potrebna je maloprodajna dodjela."
+          },
+          "captcha": {
+            "metadata_missing": "Za ovu naplatu obavezno je ispuniti captcha.",
+            "metadata_mismatch": "Navedeni davatelj captcha usluge i tip ne odgovaraju očekivanim vrijednostima.",
+            "token_missing": "Dovršite ovu naplatu unosom captcha tokena.",
+            "job_enqueue_failed": "Zadatak provjere captcha ne može se staviti u red čekanja.",
+            "job_already_queued": "Captcha validacija je već stavljena u red čekanja za ovaj token.",
+            "token_expired": "Uneseni captcha token je istekao. Molimo izvršite novu captcha provjeru kako biste nastavili s naplatom.",
+            "token_invalid": "Uneseni captcha-token nije važeći. Molimo izvršite novu captcha provjeru kako biste nastavili s naplatom.",
+            "token_not_valid_for_session": "Nije moguće koristiti uneseni captcha kod ove naplate."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Primljeni iznos mora biti u valuti trgovine."
+          },
+          "checkout_source": {
+            "revoked": "Ova naplata više nije dostupna."
+          }
+        },
+        "title": "Blagajna - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - naplata",
+        "loading_title": "Blagajna - {{shopName}}",
+        "submit_order_button_label": "Podnošenje narudžbe",
+        "submit_for_review_button_label": "Podnijeti prigovor",
+        "submit_for_review_notice_label": "Plaćanje je potrebno tek nakon što je vaša narudžba provjerena",
+        "continue_to_payment_plans_button_label": "Nastavi na planove plaćanja",
+        "back_button_label": "Povrat robe",
+        "choose_delivery_strategy": "Odaberite način dostave",
+        "autocomplete_powered_by_google": "Omogućeno zahvaljujući {{brandName}}",
+        "submit": "Podnijeti zahtjev",
+        "stepper": {
+          "increase": "Povećanje {{type}}",
+          "decrease": "Preuzimanje {{type}}",
+          "minimum_reached": "Minimalno van {{value}} dosegnuto",
+          "maximum_reached": "Maksimalni van {{value}} dosegnut"
+        },
+        "remove_item": "ukloniti %{label}",
+        "remove_tag": "Ukloni oznaku",
+        "dates": {
+          "weekdays": {
+            "monday": "ponedjeljak",
+            "tuesday": "utorak",
+            "wednesday": "srijeda",
+            "thursday": "četvrtak",
+            "friday": "petak",
+            "saturday": "subota",
+            "sunday": "nedjelja"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "učiniti.",
+            "friday": "g.",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "siječanj"
           }
         }
       }
