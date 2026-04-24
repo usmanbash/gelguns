@@ -1978,8 +1978,110 @@
           "tax_credential_type_mx": "Tax Regime",
           "tax_credential_use_mx": "Use of CFDI",
           "tax_credential_py": "CI/RUC/VAT",
-          "shipping_credential_py": "CI/RUC/VAT"
+          "shipping_credential_py": "CI/RUC/VAT",
+          "tax_credential_pe": "ID number/Tax number/Foreign ID",
+          "shipping_credential_pe": "ID number/Tax number/Foreign ID",
+          "tax_credential_pt": "NIF/VAT",
+          "shipping_credential_pt": "NIF/VAT",
+          "tax_credential_es": "ID Number/Tax Identification Number",
+          "shipping_credential_es": "ID Number/Tax Identification Number",
+          "shipping_credential_tw": "National ID number/VAT",
+          "tax_credential_tr": "Republic of Turkey Identity Number/VAT",
+          "shipping_credential_tr": "Republic of Turkey Identity Number/VAT"
         }
+      },
+      "post_purchase": {
+        "page_title": "After purchase",
+        "title": "After purchase",
+        "escape_confirmation": "You have paid for your order.",
+        "components": {
+          "expand": "See more",
+          "processing": "Processing..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Your shopping cart has been updated based on your country for shipping.",
+        "cart_and_currency_updated_based_on_country": "Your shopping cart and currency have been adjusted to the country for shipping."
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "First %{count} payments for %{total_price} each"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "First payment %{total_price_with_discount} then %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", then %{count} payment of %{total_price}",
+            "other": ", then %{count} payments, each of %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Update map",
+        "delete_customer_mandate": {
+          "generic_error": "There has been a problem processing your request.",
+          "success_message": "Your payment method has been removed"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "General terms and conditions of MoR (Merchant of Record)",
+        "privacy_policy": "Privacy policy of registered merchant"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "This product is being removed from your shopping cart because it is not available in your country/region.",
+          "other": "These products are being removed from your shopping cart because they are not available in your country/region."
+        },
+        "unavailable_label": "Not available"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Your country/region has been updated. Enter the delivery address to proceed to the checkout."
+      },
+      "throttle": {
+        "line_to_check_out": "You are standing in line to pay",
+        "cart_summary_heading": "Your shopping cart",
+        "merchandise": {
+          "sold_out": "Sold out"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Part of your shopping cart is sold out and cannot be purchased at checkout.",
+          "sold_out": {
+            "heading": "Your shopping cart is sold out",
+            "storefront_body": "Go back to the shop to continue shopping",
+            "no_storefront_body": "The item you wanted to buy is unfortunately no longer available.",
+            "link": "Back to shop"
+          }
+        },
+        "time_to_checkout_title": "Time to checkout - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calculate estimated waiting time",
+          "less_than_one": "Estimated waiting time: less than a minute"
+        },
+        "footer": {
+          "heading": "You do not need to refresh this page, it will update automatically.",
+          "body": "Items in your shopping cart are only reserved once you have completed the checkout."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "There was a problem processing your request. Please contact the shop owner."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "This item will be removed from your shopping cart because there are no delivery methods available for your address.",
+            "other": "This item will be removed from your shopping cart because there are no delivery methods available for your address."
+          }
+        }
+      },
+      "no_address_location": {
+        "title": "Location without address",
+        "header": "There is no delivery address for this location",
+        "message": "Contact us to add an address for this location so you can complete the checkout.",
+        "alt_header": "Delivery address missing"
+      },
+      "order_errors": {
+        "creation_failure": "There was a problem creating your order. Please try again or contact us for more information."
       }
     },
     "sentence": {
