@@ -3569,8 +3569,78 @@
         "loading_accessibility_label": "Indlæser varen"
       },
       "returns": {
-        "expand_events_label": "Vis data"
-      }
+        "expand_events_label": "Vis data",
+        "hide_events_label": "Skjul data",
+        "print_shipping_label": "Udskriv forsendelseslabel",
+        "tracking_number": "Sporingsnummer:",
+        "ineligible_return_message": "Ingen varer i denne ordre er berettiget til returnering.",
+        "ineligible_return_message_when_returned": "Der er ikke flere varer i denne ordre, som kan returneres.",
+        "exchange_header": "Byttevarer",
+        "exchange_subheader": "Byttevarer tilføjes til ordren, så snart returneringen er fuldført."
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Vis bestillingsoversigt",
+        "closed": "Skjul bestillingsoversigt"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Vis data",
+        "expand_events_accessibility_label": "Vis leveringsoplysninger for bestilling",
+        "hide_events_label": "Skjul data",
+        "hide_events_accessibility_label": "Skjul leveringsoplysninger for bestilling"
+      },
+      "show_order_summary": "Vis bestillingsoversigt",
+      "hide_order_summary": "Skjul bestillingsoversigt",
+      "company": "Virksomhed",
+      "no_data_provided_accessibility_label": "{{fieldName}} er tom",
+      "marketing_description": "Du modtager markedsføringsmails. Du kan afmelde dig når som helst.",
+      "marketing_checkbox_label": "Send mig e-mails med nyheder og tilbud",
+      "marketing_checkmark_label": "Du er tilmeldt for at modtage e-mails med nyheder og tilbud",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}-mængde {{quantity}}",
+        "next": "Vis næste artikler",
+        "previous": "Vis tidligere artikler",
+        "load_more_items": {
+          "one": "Indlæs {{count}} flere artikler",
+          "other": "Indlæs {{count}} flere artikler"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download butik for at følge pakken",
+        "track_order_with_shop": "Følg bestilling med Shop",
+        "title_header": "Scanning med din telefon",
+        "real_time_delivery_updates": "Når ordren er afsendt, modtager du opdateringer om leveringen i realtid fra Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Bestilling fuldført med",
+        "learn_more": "Mere information"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} tilføjet",
+        "removed": "Slettet",
+        "removed_with_quantity": "{{quantity}} fjernet",
+        "updated_at": "Din ordre er opdateret den {{date}}",
+        "returned_with_quantities": "{{delta}} af {{total}} returneret",
+        "removed_with_quantities": "{{delta}} af {{total}} slettet",
+        "return_line_item_removed": "Fjernet fra retur",
+        "return_line_item_removed_with_quantities": "{{delta}} fjernet fra retur"
+      },
+      "pickup": {
+        "pickup_location": "Afhentningssted"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betalt med Shop Pay-afdragsbetalinger",
+        "description": "Hold styr på din betalingsplan med påmindelser i Butiksappen.",
+        "payment_reminders_button": "Få betalingspåmindelsen",
+        "desktop_qr_code_content": {
+          "title": "Scan dine minder",
+          "description": "Få påmindelser om dine afdrag hos Shop."
+        },
+        "title": "Betalingspåmindelsen for Shop Pay-afdragsbetalinger"
+      },
+      "order_details": "Bestillingsoplysninger",
+      "contact_information": "Kontaktoplysninger",
+      "login_to_view_all_order_details": "Log ind for at se alle bestillingsoplysninger.",
+      "order_details_skeleton_accessibility_label": "Log ind for at se alle bestillingsoplysninger."
     }
   }
 }
