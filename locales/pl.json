@@ -3236,7 +3236,95 @@
         "twenty_four_hours": "Zazwyczaj gotowe w ciągu 24 godzin",
         "two_to_four_days": "Zazwyczaj gotowe w ciągu 2-4 dni",
         "five_or_more_days": "Zazwyczaj gotowe w ciągu ponad 5 dni",
-        "zero_to_two_hours": "Zazwyczaj gotowe w ciągu 2 godzin"
+        "zero_to_two_hours": "Zazwyczaj gotowe w ciągu 2 godzin",
+        "two_to_four_hours": "Zazwyczaj gotowe w ciągu 4 godzin"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Dostępne w magazynie",
+          "out_of_stock": "Brak w magazynie"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Istotność",
+        "price_ascending": "Cena: od najniższej do najwyższej",
+        "price_descending": "Cena: od najwyższej do najniższej"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Ten artykuł to zakup cykliczny lub odroczony. Kontynuując, zgadzam się z %{cancellationPolicyLink} oraz wyrażam zgodę na pobieranie podanych cen z mojej metody płatności, zgodnie z podaną częstotliwością i datami, aż do zrealizowania mojego zamówienia lub do momentu, gdy, jeśli to dozwolone, je anuluję.",
+      "buyer_consent_cart": "Jeden lub więcej artykułów w Twoim koszyku to zakupy odroczone lub cykliczne. Kontynuując, zgadzam się z %{cancellationPolicyLink} oraz wyrażam zgodę na pobieranie podanych cen z mojej metody płatności, zgodnie z podaną częstotliwością i datami, aż do zrealizowania mojego zamówienia lub do momentu, gdy, jeśli to dozwolone, je anuluję.",
+      "cancellation_policy": "polityka wypowiedzenia umowy"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ukryj menu konta",
+        "show_accessibility_label": "Pokaż menu konta"
+      },
+      "action_menu_accessibility_label": "Więcej akcji",
+      "contact_email_subject": "Osoba kontaktowa sklepu internetowego {{shopName}}",
+      "dismiss_toast": "Zamknij",
+      "loading_message": "Załadowano",
+      "navigation_accessibility_message": "Przeszedłeś do {{sectionName}}",
+      "shop_logo_accessibility_label": "logo {{shopName}}",
+      "country_switcher_toast_message": "Ziemia przełączona na {{countryName}}",
+      "search": "Szukaj",
+      "location_switcher_toast_message": "Lokalizacja zmieniona na {{locationName}}",
+      "switch_location": "Zmień lokalizację",
+      "view_details": "Wyświetl dane",
+      "skip_to_content": "Przejdź od razu do treści",
+      "loading_policy_content_accessibility_label": "Zasady ładowania treści",
+      "policy_load_error": "Nie można załadować {{policyName}}",
+      "loading_section_accessibility_label": "załadowany {{sectionName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Ładowanie danych konta",
+      "loading_finished_accessibility_message": "Dane konta zostały załadowane",
+      "profile_card": {
+        "email_help_text": "Adres e-mail nie może być edytowany",
+        "phone_number_help_text": "Numer telefonu nie może zostać zmieniony",
+        "errors": {
+          "name_too_long": "{{fieldName}} to jest tekst (maksymalnie 255 znaków)",
+          "name_cannot_contain_url": "{{fieldName}} nie może zawierać URL",
+          "email_cant_be_blank": "E-mail nie może być pusty",
+          "invalid_email_format": "Wprowadź prawidłowy adres e-mail"
+        },
+        "editable_email_help_text": "Ten adres e-mail jest używany do rejestracji i aktualizacji zamówienia."
+      },
+      "profile_update_confirmation_message": "Profil zaktualizowany",
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Więcej osób ładuje",
+          "loading_accessibility_label": "Ładowanie osób trwa"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Weryfikacja e-maila",
+        "description": "Wprowadź kod wysłany na {{email}}",
+        "one_time_password_label": "Kod z 6 cyfr",
+        "verify_button_accessibility_label": "Jednorazowe hasło weryfikacji",
+        "cancel_button_accessibility_label": "Anuluj edycję e-maila",
+        "email_resend_button_success_toast_message": "Kod weryfikacyjny wysłany",
+        "email_resend_button_failure_banner_message": "Nie można wysłać kodu weryfikacyjnego"
+      },
+      "email_update_success_modal": {
+        "title": "Weryfikacja e-maila",
+        "description": "Aktualizacja e-maila powiodła się. Przekierowanie do logowania."
+      },
+      "email_update_confirmation_message": "Adres e-mail zaktualizowany na {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opcje formatowania",
+      "order_list": {
+        "column_headers": {
+          "total": "Razem"
+        }
       }
     }
   }

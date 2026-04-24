@@ -4471,7 +4471,75 @@
         "description_without_replacement": "Šī maksāšanas metode vairs nav pieejama turpmākiem pirkumiem.",
         "description_with_replacement": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš autorizētām maksājumiem. Jūs varat to aizstāt ar citu maksāšanas veidu, lai turpinātu saņemt gaidāmās pasūtījumus.",
         "payment_method_selector_placeholder": "Izvēlieties aizvietojošu maksāšanas veidu (pēc izvēles)",
-        "replace_method_with_new_method_description": "Tava {{currentPaymentMethodName}} tiks noņemta un aizstāta ar tavu {{newPaymentMethodName}}."
+        "replace_method_with_new_method_description": "Tava {{currentPaymentMethodName}} tiks noņemta un aizstāta ar tavu {{newPaymentMethodName}}.",
+        "error_when_deleting": "Atvainojiet, radās kļūda un mēs nevaram noņemt šo maksāšanas veidu. Lūdzu, mēģiniet vēlāk vai atsvaidziniet lapu.",
+        "delete_and_replace_button": "Noņemt un aizvietot",
+        "delete_and_replace_button_accessibility_label": "Noņemiet {{currentPaymentMethodName}} un aizstājiet to ar {{newPaymentMethodName}}.",
+        "deleted_successfully": "Maksāšanas veids ir dzēsts.",
+        "payment_method_selector_no_alternative_payment": "Nav aizvietojošas metodes",
+        "loading_available_payment_methods_accessibility_label": "Ielādēt pieejamās maksāšanas metodes",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš autorizētām maksājumiem. Atlikušās summas par esošajiem pasūtījumiem joprojām tiks iekasētas, izmantojot šo maksāšanas veidu, ja vien jūs neizvēlēsieties citu maksāšanas veidu. Izvēlieties citu maksāšanas veidu, lai nepārtraukti saņemtu gaidāmos abonementu pasūtījumus.",
+          "with_pending_orders": "Maksājuma veida dzēšana nozīmē, ka tas tiks noņemts no tava konta un vairs nebūs pieejams turpmākiem pirkumiem. Atvērtie maksājumi par esošajiem pasūtījumiem joprojām tiks iekasēti, izmantojot šo maksājuma veidu, ja vien neizvēlēsies citu maksājuma veidu.",
+          "with_subscriptions": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš atļautajām maksājumiem. Aizstājiet to ar citu maksāšanas veidu, lai turpinātu saņemt gaidāmās pasūtījumus."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš autorizētajiem maksājumiem. Esošo pasūtījumu atlikušās summas joprojām tiks iekasētas, izmantojot šo maksāšanas veidu, taču jūs nesaņemsiet gaidāmos abonementu pasūtījumus. Pievienojiet citu maksāšanas veidu, lai turpinātu saņemt abonementu pasūtījumus.",
+          "with_pending_orders": "Maksājuma veida dzēšana nozīmē, ka tas tiks noņemts no jūsu konta un vairs nebūs pieejams turpmākiem pirkumiem. Atlikušās summas par esošajiem pasūtījumiem joprojām tiks iekasētas, izmantojot šo maksājuma veidu.",
+          "with_subscriptions": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš atļautajām maksājumiem. Pievienojiet citu maksāšanas veidu, lai turpinātu saņemt gaidāmās pasūtījumus."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Maksāšanas veida maiņa",
+        "save_payment_method_button": "Saglabāt",
+        "cancel_edit_payment_method_button": "Atcelt",
+        "payment_method_updated_toast": "Maksāšanas veids atjaunināts",
+        "billing_address": "Rēķina adrese",
+        "billing_address_add_new": "Pievienot jaunu",
+        "billing_address_choose_from_list": "Izvēlēties no saraksta",
+        "future_purchases_notice": "Šī maksāšanas metode tiks saglabāta nākotnes pirkumiem.",
+        "generic_error": "Radās problēma ar atjaunināšanu. Mēģiniet vēlreiz."
+      },
+      "card_fields": {
+        "card_number_label": "Kartes numurs",
+        "card_number_placeholder": "Kartes numurs",
+        "name_on_card_label": "Vārds uz kartes",
+        "name_on_card_placeholder": "Vārds uz kartes",
+        "card_expiry_label": "Derīguma termiņš (MM/GG)",
+        "card_expiry_placeholder": "Derīguma termiņš (MM/GG)",
+        "card_verification_value_label": "Drošības kods",
+        "card_verification_value_placeholder": "Drošības kods",
+        "card_start_label": "Izdošanas datums (MM/GG)",
+        "card_start_placeholder": "Izdošanas datums (MM/GG)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Vairāk informācijas",
+          "card_verification_value_explanation_amex": "4 ciparu drošības kods kartes priekšpusē",
+          "card_verification_value_explanation_other": "Trīsciparu drošības kods kartes aizmugurē",
+          "card_verification_value_explanation": "Trīsciparu drošības kods, parasti atrodams kartes aizmugurē. American Express kods ir četrsciparu un atrodas kartes priekšpusē.",
+          "card_security_notice": "Visas darījumi ir aizsargāti un šifrēti."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ievadi savu vārdu tā, kā tas ir norādīts uz tavas kartes",
+          "credit_card_number_invalid": "Ievadiet derīgu kartes numuru",
+          "credit_card_expiry_invalid": "Ievadiet derīgu kartes derīguma termiņu",
+          "credit_card_verification_value_blank": "Ievadiet sava kartes CVV/CVC vai drošības kodu"
+        },
+        "unavailable": {
+          "text": "Maksājumi ar kredītkarti un debetkarti pašlaik nav pieejami.",
+          "link_text": "Atjaunot šo lapu",
+          "suffix": "vai mēģiniet vēlreiz vēlāk."
+        }
+      },
+      "add_payment_method": {
+        "title": "Maksāšanas veida pievienošana",
+        "payment_method_added_confirmation": "Maksāšanas veids pievienots",
+        "billing_address": {
+          "title": "Rēķina adrese",
+          "add_billing_address_button": "Pievienot jaunu",
+          "add_billing_address_button_accessibility_label": "Pievienot jaunu rēķina adresi",
+          "choose_billing_address_from_list_button": "Izvēlēties no saraksta",
+          "choose_billing_address_from_list_button_accessibility_label": "Izvēlieties rēķina adresi no saraksta"
+        }
       }
     }
   }
