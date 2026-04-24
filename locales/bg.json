@@ -4265,8 +4265,90 @@
         "replace_mode_warning": "Ако изтриете този метод на плащане, това ще засегне абонаментите или предварителните поръчки. Заменете го с друг метод на плащане, за да продължите да получавате предстоящите поръчки.",
         "add_new_button": "Добавяне на ново",
         "subscription_contracts": {
-          "title": "Използване на метод за плащане за повтарящи се поръчки"
+          "title": "Използване на метод за плащане за повтарящи се поръчки",
+          "product_details": "Данни за продукта",
+          "load_more": "Зареди още",
+          "more_items": {
+            "one": "Продукт Nog {{count}}",
+            "other": "Намерени са {{count}} продукта"
+          },
+          "product_count": {
+            "one": "{{count}} продукта"
+          }
+        },
+        "contracts_update_failed": "Някои абонаментни договори не можаха да бъдат актуализирани",
+        "subscription_contracts_updated": "{{succeeded}} от {{total}} абонаменти са актуализирани",
+        "invalid_wallet_type_error": "Невалиден тип дигитален портфейл",
+        "updating_contracts": {
+          "one": "{{count}} абонаментен договор се актуализира...",
+          "other": "{{count}} абонаментни договора се актуализират..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} абонаментен договор е актуализиран",
+          "other": "{{count}} абонаментни договора са актуализирани"
         }
+      },
+      "card_update_consent": "Този метод на плащане ще бъде запазен за бъдещи покупки.",
+      "digital_wallet_title": "Дигитален портфейл",
+      "google_pay": {
+        "errors": {
+          "generic": "Възникна проблем с Google Pay. Опитайте отново или използвайте друг метод на плащане.",
+          "missing_billing_address": "За Google Pay ви е необходим адрес за фактуриране. Добавете такъв във вашия акаунт."
+        },
+        "iframe_title_accessibility_label": "Добавяне на метод за плащане Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Зареждане с Apple Pay",
+        "errors": {
+          "generic": "Възникна проблем с Apple Pay. Опитайте отново или използвайте друг метод на плащане.",
+          "not_available": "Apple Pay не е наличен на това устройство.",
+          "missing_billing_address": "За Apple Pay ви е необходим адрес за фактуриране. Добавете такъв във вашия акаунт."
+        }
+      },
+      "add_payment_method_banner": "Добавяне на метод за плащане за по-бързо завършване на поръчката и услуги за предварително упълномощаване",
+      "edit_payment_method_button_accessibility_label": "Редактиране на {{paymentMethodName}}, завършващо на {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Показване на предупреждение за валидност за {{paymentMethodName}}, което завършва на {{lastDigits}}",
+      "no_payment_methods_banner": "Няма добавени методи за плащане",
+      "default": "Стандартен",
+      "store_credit": {
+        "label": "Кредит в магазина",
+        "accesibility_label": "Кредит в магазина - {{formattedBalance}}",
+        "expirable_amounts_button": "Преглед на суми, които ще изтекат",
+        "details_modal": {
+          "title": "Кредит в магазина, който ще изтече",
+          "expiration_date_label": "Срок на валидност",
+          "expirable_balance_info": "Част от салдото изтича на бъдеща дата.",
+          "expirable_amount_label": "Обща сума, която ще изтече",
+          "expirable_amounts_info": "Суми, които са изтекли по-рано, се прилагат първо при плащане.",
+          "expired_amounts_button": "Преглед на изтекли суми",
+          "pagination": {
+            "load_more_label": "Зареди още",
+            "load_more_accessibility_label": "Зареждане на повече суми, които ще изтекат"
+          },
+          "expirable_amounts_button": "Преглед",
+          "events": {
+            "adjustment": "Настройка",
+            "order_refund": "Възстановяване на поръчка",
+            "order_cancellation": "Отмяна на поръчка",
+            "tax_finalization": "Завършване на данъчното облагане"
+          }
+        },
+        "expirable_amounts_label": "Просрочени суми"
+      },
+      "three_d_secure": {
+        "title": "3D Секюрити",
+        "verification_failed": "Вашето плащане не може да бъде потвърдено. Моля, опитайте отново или използвайте друг метод на плащане."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Добавяне на метод за плащане PayPal",
+        "loading_accessibility_message": "PayPal зареждане",
+        "errors": {
+          "generic": "Възникна проблем с PayPal. Опитайте отново или използвайте друг метод на плащане."
+        }
+      },
+      "card_update_consent_subscriptions": "Този метод на плащане се запазва за бъдещи покупки и може да се използва за всяка повтаряща се или отложена покупка.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Чрез добавяне на метод за плащане можете да разрешите таксуване на вашата карта, докато не отмените, или да позволите при бъдещи покупки, които одобрите, да се извършват тегления от вашата банкова сметка."
       }
     }
   }
