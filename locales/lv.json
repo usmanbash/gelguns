@@ -4056,7 +4056,71 @@
         "gallery": "Galerija",
         "list": "Saraksts"
       },
-      "company_and_location": "Uzņēmums un atrašanās vieta"
+      "company_and_location": "Uzņēmums un atrašanās vieta",
+      "due_on_date": "Parādā uz {{date}}",
+      "due_on_fulfillment": "Maksājiet pie izpildes",
+      "due_on_receipt": "Samaksa pie saņemšanas",
+      "group_title_label_with_parent": "Priekš: {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Paldies! Jūsu maksājums {{amount}} ir saņemts.",
+        "full_payment_received": "Paldies! Jūsu maksājums {{amount}} ir saņemts, un šis pasūtījums tagad ir pilnībā apmaksāts.",
+        "dismiss_label": "Apmaksas apstiprinājuma aizvēršana",
+        "payment_authorized": "Paldies! Konta atlikums tiks atjaunināts, kad maksājums būs saņemts."
+      },
+      "marketing_pending_confirmation": "Noklikšķiniet uz saites savā e-pastā, lai apstiprinātu.",
+      "marketing_resend_email": "Atkārtoti nosūtīt e-pastu",
+      "marketing_resend_email_success": "Saite nosūtīta",
+      "subtotal_label_with_quantity": {
+        "one": "Starpsumma",
+        "other": "Starpsumma · {{count}} preces"
+      },
+      "total_savings": "Kopējā ietaupījuma summa",
+      "price_before_discount_accessibility_label": "Sākotnējā cena",
+      "price_after_discount_accessibility_label": "Atlaides cena",
+      "discount_order_stacking": {
+        "one": "Pasūtījuma atlaide",
+        "other": "Pasūtījumu atlaides"
+      }
+    },
+    "addresses": {
+      "add_button": "Pievienot adresi",
+      "address_deleted_notification": "Adrese dzēsta",
+      "cancel_adding_address_accessibility_label": "Pievienot adresi atcelt",
+      "cancel_deletion_button": "Atcelt",
+      "cancel_deletion_button_accessibility_label": "{{address}} dzēst atcelt",
+      "default_address": {
+        "title": "Standarta adrese",
+        "title_accessibility_label": "Standarta adrese: {{address}}"
+      },
+      "delete_button": "Noņemt",
+      "delete_button_accessibility_label": "Noņemt {{address}}",
+      "delete_confirmation_button": "Dzēst adresi",
+      "delete_confirmation_button_accessibility_label": "Noņemt {{address}}",
+      "delete_confirmation_message": "Dzēst adresi? Tas neietekmēs esošos pasūtījumus.",
+      "edit_button": "Rediģēt",
+      "edit_button_accessibility_label": "rediģēt {{address}}",
+      "edit_section_accessibility_label": "rediģēt {{address}}",
+      "loading_accessibility_message": "Ielādēt adreses",
+      "loading_addresses_accessibility_message": "Adreses ielādēt",
+      "loading_billing_accessibility_message": "Rēķinu adreses ielāde",
+      "loading_finished_accessibility_message": "Jauna lapa ar adresēm ir ielādēta",
+      "loading_shipping_accessibility_message": "Piegādes adrese uzlādei",
+      "pagination": {
+        "load_more": "Ielādēt vairāk",
+        "load_more_accessibility_label": "Ielādēt vairāk adreses"
+      },
+      "save_new_address_accessibility_label": "Saglabāt adresi",
+      "title": "Adreses",
+      "delete_confirmation_title": "Dzēst adresi?",
+      "delete_confirmation_description": "Tam nav ietekmes uz esošajiem pasūtījumiem.",
+      "edit_modal_title": {
+        "default": "Rediģēt adresi",
+        "billing": "Rēķina adreses rediģēšana",
+        "shipping": "Piegādes adreses rediģēšana"
+      },
+      "add_address_banner": "Pievienojiet adreses, lai izmantotu norēķinu laikā",
+      "billing_address_dropdown_placeholder": "Rēķina adrese",
+      "add_button_text": "Pievienot"
     }
   }
 }
