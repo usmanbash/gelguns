@@ -4046,7 +4046,91 @@
         "no_location_description": "Már nem jogosult megrendeléseket leadni a {{company}} számára. Személyes megrendeléseket azonban még leadhat.",
         "no_locations_found": "Nem találhatók helyszínek",
         "search": "Helyszínek keresése",
-        "clear_search": "Keresési művelet törlése"
+        "clear_search": "Keresési művelet törlése",
+        "try_new_search": "Próbáljon meg egy új keresést",
+        "search_location_title": "Válasszon helyszínt",
+        "description_switch_later": "Később bármikor válthatsz",
+        "title_choose_location": "Válasszon helyszínt"
+      },
+      "addresses": {
+        "cancel_adding_billing_address_accessibility_label": "Számlázási cím hozzáadása megszakítás",
+        "cancel_adding_shipping_address_accessibility_label": "Szállítási cím hozzáadása megszakítás",
+        "shipping_address_card_title": "Kézbesítési cím"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Mindet elrejtés",
+          "show_all": "Mindet megjelenít",
+          "hide_all_accessibility_label": "Az összes értékelés alatt álló rendelés elrejtése",
+          "show_all_accessibility_label": "Az összes értékelés alatt álló rendelés megjelenítése",
+          "title": "Feldolgozás alatt",
+          "pagination": {
+            "nav_accessibility_label": "Navigációs gombok a felülvizsgálat alatt álló rendelésekhez"
+          },
+          "show_all_orders_in_review": "Az összes értékelés alatt álló rendelés megjelenítése",
+          "show_less_orders_in_review": "Az összes rendelés értékelés alatt megjelenítése",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nincs folyamatban lévő rendelésed",
+            "pending_orders": {
+              "one": "{{count}} rendelésed van folyamatban",
+              "other": "{{count}} rendelésed van folyamatban"
+            },
+            "more_than_pagination_length": "Több mint {{count}} rendelésed van folyamatban"
+          },
+          "pending_orders_count_more_than_pagination_length": "több mint {{count}}"
+        },
+        "order_list_column_headers_location": "Helyszín",
+        "order_list_column_headers_contact": "Kapcsolat",
+        "removed_company_contact_tooltip": "A vállalatból eltávolítva"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Megerősítve {{date}}-kor a(z) {{draftOrderName}} rendeléshez",
+        "loading": "Megrendelési adatok betöltése",
+        "loading_finished_accessibility_message": "A rendelési adatok betöltve",
+        "payment_status": {
+          "draft": {
+            "description": "A fizetési adatok a rendelés megerősítése után kerülnek meghatározásra.",
+            "in_review": {
+              "description": "A fizetési adatok a rendelés megerősítése után kerülnek meghatározásra."
+            },
+            "submitted": {
+              "description": "Fizessen a rendelés megerősítéséhez.",
+              "title": "Fizetés a megerősítéshez",
+              "deposit": {
+                "due_later": "A {{translatedName}} feltételei érvényesek az egyenlegre, és az esedékes {{dueDate}}.",
+                "due_on_fulfillment": "A tartozás esedékes, amint az összes tétel ebben a rendelésben feldolgozásra került.",
+                "due_on_receipt": "Számlát kapsz a fennmaradó egyenlegről.",
+                "due_on_date": "A fennmaradó összeg esedékes {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} fizetend, ha a rendelés megerősítésre került. A fennmaradó összegre a {{translatedName}} feltételei vonatkoznak.",
+              "due_on_fulfillment": "{{depositAmount}} fizetendő a rendelés megerősítésekor. A fennmaradó összeg fizetendő, amikor a rendelésed teljesítve van.",
+              "due_on_receipt": "{{depositAmount}} fizetendő a rendelés megerősítésekor. A fennmaradó összeg később esedékes.",
+              "due_on_date": "A {{depositAmount}} fizetendő a rendelés megerősítésekor. A fennmaradó összeg {{dueDate}} esedékes."
+            }
+          },
+          "paid": {
+            "description": "A rendelésed teljes egészében ki van fizetve.",
+            "title": "Fizetett",
+            "title_with_date": "Fizetve {{date}}"
+          },
+          "pay_now": "Fizessen most",
+          "pending": {
+            "banner_overdue": {
+              "one": "A fizetésed {{count}} nappal késik",
+              "other": "A fizetésed {{count}} nappal késik"
+            },
+            "banner_due": {
+              "one": "A fizetés esedékes {{count}} napon belül",
+              "other": "A fizetés esedékes {{count}} napon belül"
+            },
+            "banner_due_today": "A fizetésed ma esedékes",
+            "title": "Fizetendő összeg",
+            "title_with_date": "Fizetés esedékes {{date}}-kor",
+            "description_overdue": "A fizetésed késedelmes."
+          }
+        }
       }
     }
   }

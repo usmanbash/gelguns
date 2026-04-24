@@ -250,25 +250,25 @@
       },
       "page": "Stranica",
       "products": "Proizvodi",
-      "search_for": "Tražite „{{ terms }}”",
+      "search_for": "Pretraži '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "Pronađen je {{ count }} rezultat za „{{ terms }}”",
-        "other": "Pronađeno je ovoliko rezultata: {{ count }} za „{{ terms }}”",
+        "one": "{{ count }} rezultat pronađen za “{{ terms }}”",
+        "other": "{{ count }} rezultata pronađeno za “{{ terms }}”",
         "few": "Pronađeno je ovoliko rezultata: {{ count }} za „{{ terms }}”"
       },
       "results_pages_with_count": {
         "one": "{{ count }} stranica",
-        "other": "Broj stranica: {{ count }}",
+        "other": "{{ count }} stranica",
         "few": "Broj stranica: {{ count }}"
       },
       "results_suggestions_with_count": {
-        "one": "Broj prijedloga: {{ count }}",
-        "other": "Broj prijedloga: {{ count }}",
+        "one": "{{ count }} prijedlog",
+        "other": "{{ count }} prijedloga",
         "few": "Broj prijedloga: {{ count }}"
       },
       "results_products_with_count": {
         "one": "{{ count }} proizvod",
-        "other": "Broj proizvoda: {{ count }}",
+        "other": "{{ count }} proizvoda",
         "few": "Broj proizvoda: {{ count }}"
       },
       "suggestions": "Prijedlozi",
@@ -280,13 +280,13 @@
     "contact": {
       "form": {
         "name": "Ime",
-        "email": "Adresa e-pošte",
-        "phone": "Broj telefona",
-        "comment": "Komentar",
+        "email": "E-pošta",
+        "phone": "Telefonski broj",
+        "comment": "Odgovor",
         "send": "Pošalji",
-        "post_success": "Hvala vam na javljanju. Odgovorit ćemo vam u najkraćem mogućem roku.",
+        "post_success": "Hvala što ste nas kontaktirali. Javit ćemo vam se što je prije moguće.",
         "error_heading": "Prilagodite sljedeće:",
-        "title": "Obrazac za kontakt"
+        "title": "Kontakt obrazac"
       }
     },
     "404": {
@@ -407,88 +407,88 @@
     }
   },
   "localization": {
-    "country_label": "Država/regija",
+    "country_label": "Zemlja/regija",
     "language_label": "Jezik",
     "update_language": "Ažuriraj jezik",
-    "update_country": "Ažuriraj državu/regiju",
-    "search": "Traži",
+    "update_country": "Ažuriranje zemlje/regije",
+    "search": "Pretraži",
     "popular_countries_regions": "Popularne zemlje/regije",
-    "country_results_count": "Pronađen je sljedeći broj zemalja/regija: {{ count }}"
+    "country_results_count": "Pronađeno je {{ count }} zemalja/regija"
   },
   "customer": {
     "account": {
       "title": "Račun",
-      "details": "Pojedinosti računa",
-      "view_addresses": "Prikaži adrese",
-      "return": "Povratak na pojedinosti o računu"
+      "details": "Podaci o računu",
+      "view_addresses": "Pogledajte adrese",
+      "return": "Natrag na Podatke o računu"
     },
     "account_fallback": "Račun",
     "log_in": "Prijava",
     "log_out": "Odjava",
     "activate_account": {
-      "title": "Aktiviraj račun",
-      "subtext": "Stvorite svoju lozinku kako biste aktivirali račun.",
+      "title": "Aktivirati račun",
+      "subtext": "Postavi lozinku da aktiviraš svoj račun.",
       "password": "Lozinka",
       "password_confirm": "Potvrdi lozinku",
-      "submit": "Aktiviraj račun",
-      "cancel": "Odbij pozivnicu"
+      "submit": "Aktivirati račun",
+      "cancel": "Odbiti pozivnicu"
     },
     "addresses": {
       "title": "Adrese",
-      "default": "Zadano",
-      "add_new": "Dodaj novu adresu",
+      "default": "Standardno",
+      "add_new": "Dodajte novu adresu",
       "edit_address": "Uredi adresu",
       "first_name": "Ime",
       "last_name": "Prezime",
-      "company": "Tvrtka",
+      "company": "Poduzeće",
       "address1": "Adresa 1",
       "address2": "Adresa 2",
-      "city": "Grad",
-      "country": "Država/regija",
-      "province": "Pokrajina",
+      "city": "Mjesto",
+      "country": "Zemlja/regija",
+      "province": "Pokrajine",
       "zip": "Poštanski broj",
-      "phone": "Telefon",
+      "phone": "Telefonski broj",
       "set_default": "Postavi kao zadanu adresu",
       "add": "Dodaj adresu",
-      "update": "Ažuriraj adresu",
-      "cancel": "Odustani",
+      "update": "Ažuriranje adrese",
+      "cancel": "Otkaži",
       "edit": "Uredi",
-      "delete": "Izbriši",
-      "delete_confirm": "Jeste li sigurni da želite izbrisati ovu adresu?"
+      "delete": "Ukloni",
+      "delete_confirm": "Jesi li siguran da želiš izbrisati ovu adresu?"
     },
     "login_page": {
-      "cancel": "Odustani",
+      "cancel": "Otkaži",
       "create_account": "Izradi račun",
-      "email": "Adresa e-pošte",
+      "email": "E-pošta",
       "forgot_password": "Zaboravili ste lozinku?",
       "guest_continue": "Nastavi",
       "guest_title": "Nastavi kao gost",
       "password": "Lozinka",
-      "title": "Prijava",
-      "sign_in": "Registracija",
-      "submit": "Pošalji",
-      "alternate_provider_separator": "ili"
+      "title": "Prijavni podaci",
+      "sign_in": "Prijava",
+      "submit": "Slanje",
+      "alternate_provider_separator": "od"
     },
     "orders": {
-      "title": "Povijest narudžbe",
+      "title": "Pregled narudžbe",
       "order_number": "Narudžba",
       "order_number_link": "Broj narudžbe {{ number }}",
       "date": "Datum",
       "payment_status": "Status plaćanja",
-      "fulfillment_status": "Status izvršenja",
+      "fulfillment_status": "Status ispunjenja",
       "total": "Ukupno",
-      "none": "Još niste ništa naručili."
+      "none": "Još niste napravili nijednu narudžbu."
     },
     "recover_password": {
-      "title": "Ponovno postavljanje lozinke",
-      "subtext": "Poslat ćemo vam poruku e-pošte za ponovno postavljanje lozinke",
-      "success": "Poslali smo vam poruku e-pošte s poveznicom za ažuriranje lozinke."
+      "title": "Ponovno postavi lozinku",
+      "subtext": "Poslat ćemo ti e-poštu za ponovno postavljanje lozinke",
+      "success": "Poslali smo ti e-poštu s poveznicom za ponovno postavljanje lozinke."
     },
     "register": {
       "title": "Izradi račun",
       "first_name": "Ime",
       "last_name": "Prezime",
-      "email": "Adresa e-pošte",
+      "email": "E-pošta",
       "password": "Lozinka",
       "submit": "Stvori"
     },
@@ -501,12 +501,12 @@
     },
     "order": {
       "title": "Narudžba {{ name }}",
-      "date_html": "Naručeno {{ date }}",
+      "date_html": "Objavljeno {{ date }}",
       "cancelled_html": "Narudžba otkazana {{ date }}",
       "cancelled_reason": "Razlog: {{ reason }}",
-      "billing_address": "Adresa za naplatu",
+      "billing_address": "Adresa za račun",
       "payment_status": "Status plaćanja",
-      "shipping_address": "Adresa za dostavu",
+      "shipping_address": "Adresa dostave",
       "fulfillment_status": "Status izvršenja",
       "discount": "Popust",
       "shipping": "Dostava",
