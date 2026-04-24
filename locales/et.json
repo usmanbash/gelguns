@@ -3047,7 +3047,75 @@
       "gift_card_already_applied": "Kood on juba sinu ostukorvis rakendatud",
       "gift_card_code_invalid": "Kood on kehtetu",
       "gift_card_currency_mismatch": "Sinu kinkekaart on %{gift_card_currency} valuutas. Võta meiega ühendust, et saaksime selle ümber vahetada %{checkout_currency} valuutasse.",
-      "gift_card_depleted": "Selle kinkekaardi saldos pole enam raha"
+      "gift_card_depleted": "Selle kinkekaardi saldos pole enam raha",
+      "gift_card_disabled": "Kingituskinkekaart on blokeeritud",
+      "gift_card_expired": "Kingituskinkekaart on aegunud",
+      "invalid": "on kehtetu",
+      "bad_domain": "sisaldab kehtetut domeeninime",
+      "taken": "on juba kasutusel",
+      "contains_html_tags": "võib sisaldada HTML-silte",
+      "too_short": "on liiga lühike (miinimum on %{count} tähemärki)",
+      "too_long": "on liiga pikk (maksimaalne pikkus on %{count} tähemärki)",
+      "password_mismatch": "peab olema täpselt sama mis sisestatud parool",
+      "contains_spaces": "algab või lõpeb tühikutega.",
+      "invalid_for_country": "ei kehti %{country} jaoks",
+      "invalid_for_country_and_province": "ei kehti %{province} ja %{country} jaoks",
+      "invalid_province_in_country": "on kehtiv provints %{country}",
+      "invalid_state_in_country": "on kehtiv seisund %{country}",
+      "invalid_region_in_country": "on kehtiv piirkond %{country}",
+      "less_than_or_equal_to": "moet olla väiksem või võrdne %{count}",
+      "not_supported": "ei toetata",
+      "full_name_required": "Sisestage ees- ja perekonnanimi",
+      "invalid_for_card_type": "on kehtetu",
+      "invalid_type": "vabandame, me ei aktsepteeri selle tüüpi kaarte",
+      "invalid_format": "vorming on kehtetu",
+      "expired": "on aegunud",
+      "invalid_start_date_or_issue_number_for_debit": "kehtiv alguskuupäev või kehtiv väljastamisnumber nõutud",
+      "invalid_expiry_year": "kas geen on kehtiv aegumisaasta",
+      "reset_password_html": "See e-posti aadress on juba kontoga seotud. Kui see konto kuulub sulle, siis saad <a href=\"/account/login#recover\">parooli lähtestada</a>",
+      "verify_email": "Oleme saatnud e-kirja aadressile %{customer_email}. Palun klõpsake lisatud lingil, et oma e-posti aadressi kontrollida.",
+      "blocked_address": "Seda asukohta ei toetata",
+      "product_not_available": "toode ei ole selle kliendi jaoks avaldatud.",
+      "shop_404": {
+        "title": "Loo e-kaubanduse veebisait ja müü oma tooteid veebis! Shopify e-kaubandustarkvara",
+        "heros": {
+          "store_unavailable": "See pood ei ole hetkel saadaval.",
+          "store_not_exist": "See pood ei eksisteeri.",
+          "no_storefront": "Sellel poel pole veel veebisaiti."
+        },
+        "links": {
+          "explore_other_stores": "Teisi poode avastama",
+          "start_free_trial": "Tasuta proovida"
+        },
+        "owner_ctas": {
+          "header": "Kas oled poeomanik?",
+          "fix_domain": "Mine aadressile %{domain_settings_link} ja lõpeta oma uue veebiaadressi seadistamine. Klõpsa 'Ühenda domeen' ja kirjuta: %{domain}.<br>Kui sa ei pääse oma poodi sisse, proovi %{forgot_your_store_link}",
+          "fix_domain_link_text": "domeeni seaded",
+          "forgot_your_store_link_text": "Kas unustasid oma ostukorvi?",
+          "add_storefront": "Saad oma veebisaidi seadistada, lisades veebipoe kanali %{admin_link}. Kui sa ei pääse oma poodi ligi, proovi %{forgot_your_store_link}",
+          "admin_link_text": "halduskeskus"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Isiklik müük",
+            "caption": "Hangi funktsioonid, mida vajad oma jaemüügipoe juhtimiseks, olgu sa alles alustamas või laienemas.",
+            "link_text": "Alusta tasuta prooviversiooni"
+          },
+          "open_a_store": {
+            "header": "Uue Shopify poe avamine",
+            "caption": "Alusta tasuta kolmapäevast prooviperioodi ja jätka seejärel kolm kuud hinnaga 1 USD kuus.",
+            "link_text": "Registreeru kohe"
+          },
+          "editions": {
+            "header": "Vaata Shopify Editionsi",
+            "caption": "On olemas üle 100 tooteuuenduse, mis aitavad sul olla ärimaailmas produktiivsem, loomingulisem ja otsustavam, kui sa kunagi oleksid osanud arvata.",
+            "link_text": "Uusimate väljaannete avastamine"
+          },
+          "store_owner": {
+            "header": "Kas oled poeomanik?"
+          }
+        }
+      }
     }
   },
   "sections": {
