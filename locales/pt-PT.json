@@ -1157,7 +1157,85 @@
           "initial_order_discounted": "Primeiros custos de envio %{discounted_shipping_cost}, depois %{frequency_description}",
           "prepaid_initial_order_discounted": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency}",
           "prepaid_initial_order_discounted_with_per_delivery_price": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
-          "prepaid_initial_order_discounted_with_renewal": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency}, depois %{shipping_price} %{billing_cycle}"
+          "prepaid_initial_order_discounted_with_renewal": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency}, depois %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), depois %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "seguido por %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Primeira encomenda incluída, seguida por %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} por entrega), seguido de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "other": "Primeiras %{count} encomendas grátis"
+          },
+          "free_shipping_cycles": {
+            "one": "Envio gratuito para mais %{count} entregas adicionais",
+            "other": "Envio gratuito para mais %{count} entregas adicionais"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Envio gratuito para %{count} entregas"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Envio gratuito para mais %{count} entregas, depois %{recurring_order_shipping_price}",
+            "other": "Envio gratuito para mais %{count} entregas, depois %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Envio gratuito para %{count} entregas, depois %{recurring_order_shipping_price}",
+            "other": "Envio gratuito para %{count} entregas, depois %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} entrega extra por %{shipping_price}",
+            "other": "%{count} entregas extra por %{shipping_price} por entrega"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} entregas extra por %{shipping_price} por entrega"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Envio gratuito no primeiro %{cycle}, depois %{recurring_order_shipping_price}",
+            "other": "Envio gratuito no primeiro %{cycle}, depois %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} para mais %{count} entregas adicionais",
+            "other": "%{shipping_price} para mais %{count} entregas adicionais (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} para mais %{count} entregas, depois %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} para mais %{count} entregas adicionais (%{per_delivery_cost}), depois %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "other": "%{shipping_price} para %{count} entregas (%{per_delivery_cost}), depois %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Entrega prevista %{time}",
+        "estimated_delivery_time_range": "Entrega prevista %{min_time}–%{max_time}",
+        "arrives_time": "Será entregue em %{time}",
+        "arrives_time_range": "Será entregue entre %{min_time}–%{max_time}",
+        "estimated_time": "Esperado em %{time}",
+        "estimated_time_range": "Esperado entre %{min_time} e %{max_time}",
+        "subscription_local_delivery": "Assinatura de entrega local",
+        "subscription_pickup": "Assinatura de levantamento",
+        "delivery_today": "Entrega no mesmo dia às %{time}",
+        "delivery_tomorrow": "Entrega no dia seguinte às %{time}",
+        "two_day_delivery": "Entrega em 2 dias às %{time}",
+        "delivery": "Entrega em %{time}",
+        "duties_and_taxes_title": "Direitos aduaneiros e impostos",
+        "shipping_information_required_notice": "Os dados de envio são obrigatórios. {{link}}.",
+        "shipping_information_redirect_link": "Introduza aqui os seus dados",
+        "loading_progressive_rates": "Procurar mais tarifas...",
+        "no_other_methods_available": "Nenhum outro método disponível",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Podem aplicar-se custos adicionais",
+          "ddp_caption": "Sem custos adicionais na entrega"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} em %{current}"
+        },
+        "address_update": "Atualizar morada",
+        "add_address": "Utilize um endereço diferente",
+        "delete": "Remover",
+        "address_delete": "Remover endereço",
+        "address_confirm": "Tem a certeza de que pretende remover este endereço da sua conta?",
+        "address_form": {
+          "add_address": "Adicionar morada",
+          "generic_error": "Ocorreu um problema ao guardar o seu endereço. Por favor, tente novamente.",
+          "one_time_address_subtitle": "Utilizar um único endereço para esta encomenda"
         }
       }
     }
