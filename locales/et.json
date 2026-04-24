@@ -248,7 +248,83 @@
         "autocomplete_zero_item": "Ühtegi artiklit pole saadaval",
         "autocomplete_powered_by_google": "Võimaldatud {{brandName}} poolt",
         "submit": "Esita",
-        "processing": "Töötlemine..."
+        "processing": "Töötlemine...",
+        "stepper": {
+          "increase": "{{type}} suurenemine",
+          "decrease": "{{type}} võtmine",
+          "minimum_reached": "Minimaalne vanus {{value}} saavutatud",
+          "maximum_reached": "Maksimaalne vanus {{value}} saavutatud"
+        },
+        "remove_item": "%{label} eemaldamine",
+        "remove_tag": "Silt eemaldada",
+        "dates": {
+          "weekdays": {
+            "monday": "esmaspäev",
+            "tuesday": "teisipäev",
+            "wednesday": "kolmapäev",
+            "thursday": "neljapäev",
+            "friday": "reede",
+            "saturday": "laupäev",
+            "sunday": "pühapäev"
+          },
+          "weekdays_abbreviation": {
+            "monday": "mina.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "tee.",
+            "friday": "virtuaalreaalsus",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "jaanuar",
+            "february": "veebruar",
+            "march": "märts",
+            "april": "aprill",
+            "may": "mei",
+            "june": "juuni",
+            "july": "juuli",
+            "august": "august",
+            "september": "september",
+            "october": "oktoober",
+            "november": "november",
+            "december": "detsember"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Eelmine kuu, {{month}} {{year}}",
+          "show_next_month": "Järgmine kuu kuvamine, {{month}} {{year}}",
+          "range_start": "Alusta ulatust",
+          "in_range": "Saadaval",
+          "range_end": "Lõplik sihtkoht"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} ja {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ja {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} {{lastWord}} kohta",
+            "twoWordConnector": "{{firstWord}} {{secondWord}} kohta"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klaster van {{number}} märgistuspunkt",
+            "other": "Klastriks {{number}} märgistuspunkti"
+          }
+        },
+        "sheet": {
+          "expand": "Laienda"
+        },
+        "confirm_order_button_label": "Tellimuse kinnitamine",
+        "qr_code": "QR-kood",
+        "dropzone": {
+          "add_file": "Lisa fail",
+          "invalid_file_type": "Seda failitüüpi ei toetata",
+          "dragged_over": "Faili üleslaadimiseks salvestamine"
+        },
+        "loading": "Laadimine..."
       }
     }
   },
