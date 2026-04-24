@@ -2054,7 +2054,79 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Μετά την πληρωμή, θα λάβετε ένα επιβεβαιωτικό email με τον αριθμό παραγγελίας.",
+        "vat_invoices": {
+          "title": "Τιμολόγια Btw"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Η πληρωμή σας επεξεργάζεται. Θα λάβετε ένα email όταν η πληρωμή σας επιβεβαιωθεί.",
+        "verify_shop_account_title": "Επαλήθευσε τον λογαριασμό σου στο Shop",
+        "verify_shop_account_message": "Οι πληροφορίες σου έχουν αποθηκευτεί στο Κατάστημα. Επικύρωσε τον λογαριασμό σου για να τις χρησιμοποιείς αυτόματα σε εκατομμύρια καταστήματα.",
+        "verify_shop_account_cta": "Επαλήθευση λογαριασμού σας",
+        "verify_shop_account_confirmation": "Τα στοιχεία πληρωμής αποθηκεύτηκαν",
+        "announcement": {
+          "expand": "Αναδίπλωση"
+        },
+        "confirmed_items_count": "%{confirmed_count} από τα %{total_count} άρθρα έχουν επιβεβαιωθεί",
+        "thank_you_confirmed_orders_with_email": "Σύντομα θα λάβεις ξεχωριστά μηνύματα επιβεβαίωσης με τους αριθμούς παραγγελίας σου",
+        "thank_you_confirmed_orders_with_phone": "Σύντομα θα λάβεις ξεχωριστά μηνύματα επιβεβαίωσης με τους αριθμούς παραγγελίας σου",
+        "thank_you_confirmed_orders_with_email_and_phone": "Σύντομα θα λάβεις ξεχωριστά μηνύματα επιβεβαίωσης με τους αριθμούς παραγγελίας σου",
+        "track_your_order_link_text": "Παρακολούθηση παραγγελίας σας",
+        "checkout_on_remote_shop_link_text": "Ολοκλήρωση αγοράς στο %{remoteShopName}",
+        "confirmed_orders_title": "Οι παραγγελίες σας έχουν επιβεβαιωθεί",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 άρθρο δεν έχει επιβεβαιωθεί",
+          "other": "Υπάρχουν μη επιβεβαιωμένα άρθρα"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Δεν έχουν χρεωθεί τέλη για αυτό",
+          "other": "Δεν έχουν χρεωθεί τέλη για αυτό"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} άρθρα",
+          "other": "%{count} άρθρα"
+        },
+        "payment_method_not_charged": "Δεν έχει αποσβεστεί",
+        "items_fulfilled_by_store": {
+          "one": "Τα αντικείμενα που αγοράσατε προέρχονται από %{remote_shop_name}.",
+          "other": "Τα είδη που αγοράσατε προέρχονται από άλλα καταστήματα."
+        },
+        "checkout_on_another_store": "Ολοκλήρωση αγοράς σε άλλο κατάστημα",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Σύντομα θα λάβετε ένα email επιβεβαίωσης",
+          "multi_store": "Σύντομα θα λάβετε ξεχωριστό email επιβεβαίωσης από κάθε κατάστημα"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Σύντομα θα λάβετε ένα επιβεβαιωτικό SMS",
+          "multi_store": "Σύντομα θα λάβεις ένα επιβεβαιωτικό SMS από κάθε κατάστημα"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Σύντομα θα λάβετε ένα email επιβεβαίωσης",
+          "multi_store": "Σύντομα θα λάβετε ξεχωριστό email επιβεβαίωσης από κάθε κατάστημα"
+        },
+        "checkout_again": "Εκτέλεση ολοκλήρωσης αγοράς ξανά",
+        "cashback_notice": "Λαμβάνετε την επιστροφή χρημάτων σας μετά από 30 ημέρες"
+      },
+      "review": {
+        "title": "Αξιολόγηση",
+        "review_title": "Ολοκλήρωσε την παραγγελία σου",
+        "checkout_as_guest": "Ολοκλήρωση αγοράς ως επισκέπτης",
+        "blocks": {
+          "billing_address_title": "Τιμολόγηση",
+          "payment_method_title": "Τρόπος πληρωμής",
+          "change_billing_address_link_label": "Αλλαγή διεύθυνσης τιμολογίου",
+          "change_shipping_address_link_label": "Αλλαγή διεύθυνσης παράδοσης",
+          "pick_up_in_store_shipping_method_html": "Παραλαβή στο κατάστημα · %{location_name}",
+          "purchase_order_number_title": "Αριθμός παραγγελίας",
+          "change_purchase_order_number_label": "Αλλαγή αριθμού παραγγελίας",
+          "no_address": "(Χωρίς διεύθυνση)",
+          "no_purchase_order_number": "(Χωρίς αριθμό παραγγελίας)",
+          "due_after_order_reviewed_html": "Οφείλεται μετά τον έλεγχο της παραγγελίας",
+          "review_title_free_order": "Ελέγξτε και ολοκληρώστε την παραγγελία",
+          "company_location": "Τοποθεσία επιχείρησης"
+        }
       }
     }
   }
