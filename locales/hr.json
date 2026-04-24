@@ -3592,7 +3592,77 @@
       "contact": "Kontakt osoba",
       "loading": "Učitavanje podataka o narudžbi",
       "payment": {
-        "status_in_review": "Plaćanje je obvezno nakon pregleda"
+        "status_in_review": "Plaćanje je obvezno nakon pregleda",
+        "status_unpaid": "Plaćanje dospijeva na {{date}}",
+        "card_payment_details": "završava na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Plaćeno putem Shop Pay obročnih uplata",
+          "view_schedule": "Pregled planiranja"
+        },
+        "gift_card_payment_details": "završava na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Poštanska doznaka - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Povrat - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankovni depozit - {{formattedTransactionAmount}}",
+          "manual": "Ručno - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Stanje na računu - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Podaci"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "Pomoć:",
+          "source": "Vratiti se"
+        },
+        "payment_type": {
+          "gift_card": "Poklon bon",
+          "store_credit": "Kredit u trgovini",
+          "money_order": "Poštanska doznaka",
+          "cash_on_delivery": "Povrat",
+          "bank_deposit": "Uplata na račun"
+        }
+      },
+      "shipping": {
+        "address": "Adresa dostave",
+        "address_map_marker": "Adresa dostave",
+        "method": "Metoda dostave",
+        "summary": "Slanje",
+        "subscription": "Slanje putem pretplate"
+      },
+      "subtitle": "Potvrđeno: {{date}}",
+      "subtotal": "Međuzbroj",
+      "summary_list_title_accessibility_label": "Naruči artikle",
+      "summary_title": "Pregled narudžbe",
+      "summary_totals_title_accessibility_label": "Ukupna narudžba",
+      "unit_price": "{{price}}/kom",
+      "not_applicable": "nije primjenjivo",
+      "fully_refunded_label": "POVRAT NOVCA",
+      "partially_refunded_label": "DIOVNO POVRATNO PLAĆENO",
+      "refunded_amount": "Povraćeno",
+      "compare_at_sale": "Rasprodaja ({{saleAmount}})",
+      "no_data": "Nema",
+      "pagination": {
+        "load_more_accessibility_label": "Učitaj još članaka",
+        "loading_accessibility_label": "Učitavanje artikala"
+      },
+      "returns": {
+        "expand_events_label": "Prikaži podatke",
+        "hide_events_label": "Sakrij podatke",
+        "print_shipping_label": "Ispiši naljepnicu za slanje",
+        "return_and_refund_modal_header": "Politika povrata novca",
+        "ineligible_return_message": "Nema artikala u ovoj narudžbi koji ispunjavaju uvjete za povrat.",
+        "ineligible_return_message_when_returned": "U ovoj narudžbi više nema artikala koji se mogu vratiti.",
+        "exchange_header": "Roba za zamjenu",
+        "exchange_subheader": "Zamjenski artikli bit će dodani narudžbi čim se povrat dovrši."
+      },
+      "request_return_failed": "Došlo je do problema pri obradi vašeg zahtjeva. Molimo pokušajte ponovno.",
+      "mobile_summary_toggle_button": {
+        "open": "Prikaz pregleda narudžbe",
+        "closed": "Sakrij pregled narudžbe"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Prikaži podatke"
       }
     }
   }
