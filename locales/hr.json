@@ -1350,7 +1350,77 @@
             "buyer_action_info": "Vaša uplata od %{amount_due} je otvorena."
           }
         },
-        "purchase_options_agreement_label": "Jedan ili više artikala u tvojoj košarici su odgođena kupnja, pretplata ili ponovljena kupnja. Nastavkom s plaćanjem slažeš se da će tvoja metoda plaćanja biti automatski terećena za cijenu i učestalost navedenu na ovoj stranici, sve dok ne istekne ili otkažeš. Na sve otkazivanja primjenjuje se %{cancellation_policy_label}."
+        "purchase_options_agreement_label": "Jedan ili više artikala u tvojoj košarici su odgođena kupnja, pretplata ili ponovljena kupnja. Nastavkom s plaćanjem slažeš se da će tvoja metoda plaćanja biti automatski terećena za cijenu i učestalost navedenu na ovoj stranici, sve dok ne istekne ili otkažeš. Na sve otkazivanja primjenjuje se %{cancellation_policy_label}.",
+        "update_payment_method": "Ažuriraj način plaćanja",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Ukupno je moguće bez poreza, dostave, odgođenih troškova i nekih popusta. Nastavite na blagajnu za iznos koji se plaća danas."
+        },
+        "purchase_options_agreement_label_html": "Razumijem da je jedan ili više artikala u mojoj košarici odgođena kupnja, pretplata ili ponovljena kupnja. Nastavkom pristajem na\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politiku otkazivanja</a>\ni dajem dopuštenje za terećenje moje metode plaćanja za cijene, učestalost i datume navedene na ovoj stranici, dok moja\nnarudžba ne bude obrađena ili dok ne otkažem, ako je to dopušteno.",
+        "payment_method_saved": "Način plaćanja spremljen",
+        "card_vaulted_company_location": "Karta spremljena za ovu lokaciju",
+        "order_covered_by_store_credit_notice": "Narudžba se plaća tvojim trgovinskim kreditom.",
+        "order_covered_by_redeemables_notice": "Narudžba je plaćena.",
+        "store_credit": {
+          "label": "Kredit u trgovini",
+          "apply_label": "Primijeni kredit trgovine",
+          "manage_label": "Upravljanje kreditom u trgovini",
+          "buying_gift_card": "S trgovinskim kreditom ne možete kupiti poklon bon.",
+          "no_fixed_selling_plans": "Ne možete koristiti trgovinski kredit u kombinaciji s odgođenim opcijama kupnje"
+        },
+        "clear": "Znanje",
+        "billing_must_match_shipping_notice": "Adresa za naplatu tvoje metode plaćanja mora se podudarati s adresom dostave.",
+        "same_billing_address_checkbox_label": "Adresa dostave i adresa za račun su iste",
+        "location_billing_address_label": "Adresa za fakturiranje lokacije",
+        "fact_billing_address_label": "Adresa za račun",
+        "location_shipping_address_label": "Adresa dostave lokacije",
+        "no_working_method_error": "Ova trgovina trenutno ne može prihvatiti uplate. Osvježite stranicu ili se vratite kasnije.",
+        "brand_not_available": "Ova trgovina ne prihvaća {{brand}}. Koristite drugu karticu za plaćanje.",
+        "shipping_rate_updated": "Dostupne metode dostave su ažurirane. Potvrdite svoj odabir prije plaćanja.",
+        "billing_address_invalid_phone": "Ažurirajte broj telefona na adresi za naplatu za {{label}} {{last_digits}} kako biste nastavili.",
+        "billing_address_invalid_phone_no_card": "Ažurirajte broj telefona na adresi za naplatu da biste nastavili.",
+        "preview_not_available": {
+          "title": "Primjer nije dostupan",
+          "content": "Ne brinite, ovaj brzi checkout radi za vaše kupce."
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Unesite valjani datum izdavanja",
+              "issue_number": "Unesite važeći broj računa"
+            },
+            "invalid": {
+              "verification_value": "Unesite valjani CVV/CVC ili sigurnosni kod"
+            }
+          }
+        },
+        "simulated_checkout": "Primjer uskoro dolazi",
+        "vaulting_agreement_label": "Spremi moje podatke za plaćanje kod %{company} za bržu naplatu.",
+        "business_customer_vaulting_payment_label": "Spremite ovu metodu plaćanja pri naplati i ovlastite %{company} da putem ove kartice tereći novac za buduće kupnje na ovoj lokaciji. Svi kontaktni korisnici dodijeljeni ovoj lokaciji smiju koristiti ovu metodu plaćanja.",
+        "purchase_options_and_vaulting_agreement_label": "Jedan ili više artikala u košarici su odgođena ili pretplatnička kupnja. Ako nastavite s plaćanjem, slažete se da ćemo iznose kupnje automatski naplaćivati putem vaše metode plaćanja po cijeni i učestalosti navedenoj na ovoj stranici, sve dok ne istekne ili dok sami ne otkažete. Za sva otkazivanja vrijedi %{cancellation_policy_label}.",
+        "use_different_credit_card_label": "Koristiti drugu karticu",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Pregledajte sve spremljene kartice",
+          "done": "Spremno",
+          "cancel": "Otkaži"
+        },
+        "expired_cards_info": {
+          "one": "Istekla je %{count} kartica. Možete ih pregledati i urediti u svom računu.",
+          "other": "Ima %{count} istečenih kartica. Možete ih pregledati i urediti u svom računu."
+        },
+        "local_payment_method_receiver_notice": "Nakon što izvršiš narudžbu, primit ćeš podatke za uplatu. Izvrši uplatu unutar {{dueDays}} dana na bankomatu ili putem interneta.",
+        "order_edit_banner_title": "Plaćanje iznosa od {{amount_owed}} je obavezno",
+        "order_edit_banner_subtitle": "Vaša narudžba {{order_number}} je ažurirana. Pregledajte ove promjene i platite kako biste potvrdili svoju narudžbu.",
+        "order_edit_banner_multiple_items_added": "{{amount}} dodano",
+        "order_edit_banner_single_item_removed": "Izbrisano",
+        "order_edit_banner_multiple_items_removed": "{{amount}} uklonjeno",
+        "gift_card_wrapper": {
+          "heading": "Poklon bon",
+          "apply_gift_card_label": "Primijeniti poklon bon",
+          "payment_tag": "Poklon bon",
+          "apply_another_gift_card_label": "Primijeniti drugi poklon bon",
+          "gift_card_label": "Poklon bon %{identifier}",
+          "add_label": "Dodavanje poklon bona"
+        }
       }
     }
   }
