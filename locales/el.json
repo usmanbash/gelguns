@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,70 @@
       "send_on_label": "Ημερομηνία αποστολής (προαιρετικά)",
       "expanded": "Η φόρμα παραλήπτη δωροκάρτας αναπτύχθηκε",
       "collapsed": "Η φόρμα παραλήπτη δωροκάρτας συμπτύχθηκε"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "el",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Ολοκλήρωση αγοράς",
+        "skip_to_content": "Μετάβαση στο περιεχόμενο",
+        "breadcrumb": "Ψίχουλο πλέγματος",
+        "authenticate_purchase_button_label": "Επικύρωση πληρωμής",
+        "edit_link_label": "Αλλαγή",
+        "all_rights_reserved": "Όλα τα δικαιώματα διατηρούνται %{shop_name}",
+        "cart": "Καλάθι αγορών",
+        "expand_notice_label": "Δείτε περισσότερα",
+        "continue_to_shipping_method": "Συνέχεια αποστολής",
+        "continue_to_payment_method": "Μετάβαση στην πληρωμή",
+        "back_to_cart": "Επιστροφή στο καλάθι αγορών",
+        "choose_shipping_method": "Επιλέξτε μέθοδο αποστολής",
+        "choose_payment_method": "Επιλέξτε μέθοδο πληρωμής",
+        "choose_billing_address": "Επιλέξτε μια διεύθυνση τιμολογίου",
+        "autocomplete_single_item": "1 διαθέσιμο άρθρο",
+        "autocomplete_multi_item": "{{number}} διαθέσιμα άρθρα",
+        "autocomplete_selection": "{{number}} από τα {{total}}",
+        "autocomplete_close": "Κλείσε προτάσεις",
+        "forwarding_indicator": {
+          "external": "Άνοιγμα εξωτερικής ιστοσελίδας.",
+          "external_and_new_window": "Ανοίγει εξωτερική ιστοσελίδα σε νέο παράθυρο."
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Κάτι πήγε στραβά με την παραγγελία σου. Δοκίμασε ξανά να ολοκληρώσεις την αγορά.",
+          "line_item_limit_reached": "Έχει επιτευχθεί ο μέγιστος αριθμός γραμμών παραγγελίας.",
+          "only_empty_terms_accepted": "Αυτή η πολιτική αποδέχεται μόνο κενές προϋποθέσεις.",
+          "session_is_already_finished": "Αυτή η συνεδρία ολοκλήρωσης αγοράς έχει ήδη ολοκληρωθεί.",
+          "merchandise": {
+            "only_value_constraint": "Κατά την εισαγωγή αγαθών επιτρέπονται μόνο ακριβείς τιμές.",
+            "merchandise_not_found": "Προϊόν δεν βρέθηκε.",
+            "merchandise_variant_not_found": "Δεν βρέθηκε παραλλαγή προϊόντος.",
+            "merchandise_not_applicable": "Η παραλλαγή προϊόντος δεν μπορεί να αγοραστεί.",
+            "bundle_products_not_supported_for_b2b": "Δεν μπορείτε να προσθέσετε δεσμευμένα είδη σε παραγγελίες B2B για αυτήν την τοποθεσία.",
+            "gift_card_quantity_mismatch": "Όταν εισάγετε κωδικούς δωροεπιταγών, οι ποσότητες στη γραμμή παραγγελίας πρέπει να συμφωνούν με τον αριθμό των κωδικών δωροεπιταγών.",
+            "gift_card_not_supported": "Σε αυτήν την ολοκλήρωση αγοράς δεν υποστηρίζονται δωροκάρτες.",
+            "gift_card_not_unique": "Το δωροκουπόνι με κωδικό {{code}} εμφανίζεται πολλές φορές σε αυτήν την ολοκλήρωση αγοράς. Οι κωδικοί δημιουργούνται πριν από τη σύγκριση.",
+            "gift_card_used": "Ο κωδικός δωροκάρτας {{code}} έχει ήδη ανατεθεί σε μια δωροκάρτα. Οι κωδικοί δημιουργούνται πριν από τη σύγκριση.",
+            "gift_card_code_changed": "Ο κωδικός δωροκάρτας {{proposed_code}} έχει αλλάξει σύμφωνα με τους κανόνες μορφοποίησης σε {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Σε αυτήν την ολοκλήρωση αγοράς δεν υποστηρίζονται δωροκάρτες με προσαρμοσμένα χαρακτηριστικά.",
+            "gift_card_with_components_not_supported": "Σε αυτήν την ολοκλήρωση αγοράς δεν υποστηρίζονται δωροκάρτες με συνιστώσες.",
+            "selling_plan_mismatch": "Η συνδρομή έχει ενημερωθεί.",
+            "selling_plan_not_supported_b2b": "Για το ταμείο B2B δεν υποστηρίζονται συνδρομές.",
+            "price_mismatch": "Η προηγουμένως προτεινόμενη τιμή για αυτά τα αγαθά ήταν άκυρη και έχει ενημερωθεί.",
+            "inventory_not_found": "Δεν βρέθηκε απόθεμα για αυτά τα είδη.",
+            "duplicated_stable_id": "Αυτή η σειρά προϊόντων έχει το ίδιο stable-ID με μια άλλη σειρά.",
+            "minimum_quantity_not_met": "Για ορισμένα είδη δεν πληρούται ο ελάχιστος επιτρεπτός αριθμός",
+            "maximum_quantity_exceeded": "Για ορισμένα είδη δεν πληρούται ο μέγιστος επιτρεπτός αριθμός",
+            "quantity_increment_not_met": "Για ορισμένα είδη δεν πληρούνται τα όρια παραγγελίας",
+            "quantity_rules_not_met": "Για ορισμένα είδη δεν πληρούνται τα όρια παραγγελίας",
+            "bundle_requires_components": "Αυτό το πακέτο προϊόντων δεν περιέχει εξαρτήματα.",
+            "title_too_long": "Ο τίτλος των αγαθών είναι πολύ μακρύς.",
+            "title_empty": "Ο τίτλος των αγαθών είναι κενός."
+          }
+        }
+      }
     }
   }
 }
