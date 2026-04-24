@@ -4228,6 +4228,94 @@
       },
       "month": {
         "other": "måneden"
+      },
+      "mapClusterTitle": {
+        "one": "Klynge af {{number}} markørpunkter",
+        "other": "Klynge af {{number}} markørpunkter"
+      },
+      "addFile": "Tilføj bestand",
+      "dropzoneInvalidFileType": "Din filtype understøttes ikke",
+      "dropzoneDraggedOver": "Opret lager til upload",
+      "clipboardFailedToCopy": "Ikke kopieret",
+      "clear": "Viden"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Skjule bjælke",
+      "navigate_to_admin": "Når du navigerer i kontrolcenteret",
+      "previewing": "Du ser et eksempel på:",
+      "viewing": "Du ser på:",
+      "not_available": "Ingen profiloplysninger tilgængelige",
+      "close_preview": "Eksempel lukker",
+      "actions_button": "Kampagner"
+    },
+    "settings": {
+      "loading_accessibility_message": "Indlæser indstillingssiden",
+      "log_out_everywhere": {
+        "description": "Hvis du har mistet en enhed eller er bekymret for sikkerheden, logger du ud overalt for at sikre din kontos tryghed.",
+        "warning_message": "Du bliver også logget ud på denne enhed."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} kl. {{time}}",
+        "lessThanOneWeekAgo": "Op {{weekday}} om {{time}}",
+        "tomorrow": "Morgen kl. {{time}}",
+        "lessThanOneWeekAway": "Op {{weekday}} om {{time}}",
+        "lessThanOneYearAway": "Op {{date}} kl. {{time}}"
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Vælg udvidelsen kaldet '{{extensionName}}'",
+        "unselect": "Fortryd valg af udvidelsen kaldet '{{extensionName}}'",
+        "move_down": "Flyt udvidelse til næste position",
+        "move_up": "Flyt udvidelse til den forrige position",
+        "remove": "Fjern udvidelse",
+        "move_down_tooltip": "Flyt til næste position",
+        "move_up_tooltip": "Flyt til forrige position"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Du kan ikke åbne dette link i editoren. Linket åbnes i et nyt vindue ({{resolved_to_link}}). Klik på OK for at fortsætte."
+    },
+    "shop_ads": {
+      "title": "Andre produkter, som du måske kan lide",
+      "subtitle": "Midlertidigt tilgængelig",
+      "button": "Udforsk i Butik"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunderne kan selv anmode om returneringer og administrere dem.",
+        "disabled": "Kunderne skal kontakte forhandleren for at anmode om en retur."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Cookieindstillinger"
+    },
+    "announcement_bar": {
+      "expand_label": "Udvid meddelelsesbjælken",
+      "collapse_label": "Sammenklapningsbjælke til meddelelser",
+      "close_label": "Luk meddelelsesbjælken"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Betalingsmetode udskifte",
+        "loading": "Betalingsmetoder indlæses",
+        "no_payment_methods_available": "Ingen betalingsmetoder tilgængelige",
+        "success": "Betalingsmetode opdateret"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Log ind eller opret konto",
+        "alternate_divider": "AF",
+        "email_field_label": "E-mail",
+        "orders_button": "Bestillingen",
+        "use_email_button": "Brug e-mailadresse"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hej {{first_name}},",
+        "orders_button": "Bestillingen"
       }
     }
   }
