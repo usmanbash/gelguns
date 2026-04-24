@@ -1310,7 +1310,67 @@
         "split_shipping_shipment_number": "Wysyłka %{number}",
         "split_shipping_option_fastest": "Najszybszy",
         "split_shipping_option_recommended": "Polecane",
-        "split_shipping_option_custom": "Dostosowany"
+        "split_shipping_option_custom": "Dostosowany",
+        "default_description": "Wysyłka w ciągu jednego dnia roboczego",
+        "split_shipping_shipment_notice": "Otrzymasz swoje zamówienie w %{quantity_shipments}",
+        "unbranded_default_description": "Gotowy do wysyłki",
+        "prime_not_available": {
+          "default": "Dostawa Prime nie jest dostępna dla twojego zamówienia. Twoje opcje wysyłki zostały zaktualizowane."
+        },
+        "split_shipping_first_shipment_notice": "Otrzymasz swoje pierwsze zamówienie za %{quantity_shipments}",
+        "shipping_address_rollup_accessibility_label": "Opcje wysyłki na adres",
+        "invalid_shipping_method_summary_selected": "Wybierz inny adres dostawy, aby zobaczyć dostępne metody wysyłki",
+        "third_party_address_timeout": "Nie można załadować adresu. Spróbuj ponownie lub użyj innego adresu.",
+        "third_party_address_error": "Wystąpił błąd podczas ładowania wyboru adresu. Wprowadź swój adres poniżej ręcznie.",
+        "third_party_payment_error": "Wystąpił błąd podczas ładowania wyboru płatności. Użyj innej metody płatności.",
+        "add_shipping_address": "Dodaj adres dostawy",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Zostanie wysłane następnego dnia roboczego"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Zostanie wysłane za %{count} tygodni",
+          "other": "Zostanie wysłane za %{count} tygodni"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Płatność",
+        "amazon_payments_login_hint": "Zostaniesz poproszony o zalogowanie się na Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Wybrana metoda płatności nie może zostać użyta. Wybierz inną metodę lub skontaktuj się ze swoim bankiem lub wystawcą karty.",
+        "amazon_payments_abandoned_mfa_challenge": "Twoja płatność nie mogła zostać zrealizowana. Spróbuj innej metody płatności lub skontaktuj się ze swoim bankiem lub wystawcą karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Wystąpił problem z przetworzeniem Twojej płatności. Spróbuj ponownie lub wybierz inną metodę płatności.",
+        "amount_left_to_pay_label": "Należna kwota:",
+        "discount_button_action_label": "Wprowadź kod rabatowy",
+        "gift_card_code_label": "Kod bonu podarunkowego",
+        "supported_card_brands_more_label": "i więcej…",
+        "detected_card_brand": "Wykryty typ karty: {brand}",
+        "card_security_notice": "Wszystkie transakcje są zabezpieczone i zaszyfrowane.",
+        "name_on_card_label": "Nazwa na karcie",
+        "name_on_card_placeholder": "Nazwa na karcie",
+        "card_expiry_label": "Data ważności (MM/RR)",
+        "card_expiry_placeholder": "Data ważności (MM/RR)",
+        "card_verification_value_label": "Kod zabezpieczający",
+        "card_verification_value_placeholder": "Kod zabezpieczający",
+        "card_expiry_date_explanation": "Układ daty ważności karty: miesiąc, miesiąc, rok, rok",
+        "card_verification_value_explanation": "Kod zabezpieczający składający się z 3 cyfr, zwykle znajduje się na odwrocie twojej karty. American Express ma kod 4-cyfrowy na przedniej stronie.",
+        "card_verification_value_explanation_amex": "Kod zabezpieczający z 4 cyfr na przedniej stronie twojej karty",
+        "card_verification_value_explanation_other": "Kod zabezpieczający z 3 cyfr na odwrocie twojej karty",
+        "ends_with_label": "kończy się na %{last_digits}",
+        "saved_by_payment_method": "Zapisano z %{payment_method}",
+        "pay_with_payment_method": "Zapłać %{payment_method}",
+        "same_billing_address_label": "Takie samo jak adres dostawy",
+        "different_billing_address_label": "Użyj innego adresu do faktury",
+        "free_order_notice_html": "Twoje zamówienie jest <strong>bezpłatne</strong>. Nie jest wymagana żadna płatność.",
+        "express_checkout_free_order": "Za darmowe zamówienie nie są pobierane żadne opłaty",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Twoje zamówienie zostanie opłacone za pomocą twojego bonu podarunkowego.",
+          "other": "Twoje zamówienie zostanie opłacone za pomocą twoich bonów podarunkowych."
+        },
+        "offsite_gateway_redirect_hint": "Zostaniesz przekierowany do %{gateway_label}, aby dokończyć zakup.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} łącznie %{total_shop_price}",
+        "billing_address_title": "Adres do faktury",
+        "billing_address_description": "Wybierz adres zgodny z twoją kartą lub metodą płatności.",
+        "billing_address_description_no_shipping_address": "Wprowadź adres zgodny z twoją kartą lub metodą płatności.",
+        "no_js_credit_card_fields_redirect_hint": "Zostaniesz przekierowany, aby dodać swoje dane płatności."
       }
     }
   }

@@ -3120,7 +3120,65 @@
     "collections": {
       "sorting": {
         "manual": "Išskirtinis",
-        "best_selling": "Geriausiai parduodami"
+        "best_selling": "Geriausiai parduodami",
+        "az": "Abėcėlės tvarka: A–Z",
+        "za": "Abėcėlės tvarka: Z-A",
+        "price_ascending": "Kaina: nuo žemiausios iki aukščiausios",
+        "price_descending": "Kaina: nuo didžiausios iki mažiausios",
+        "date_ascending": "Data: senas į naują",
+        "date_descending": "Data: nauja į sena",
+        "most_relevant": "Labiausiai aktualu"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Kredito kortelės autorizacija pasibaigė. Įveskite savo mokėjimo duomenis iš naujo. Nuo jūsų kortelės pinigai nebuvo nuskaičiuoti.",
+      "invalid_email": "turi būti galiojantis el. pašto adresas",
+      "discount_disabled": "Ši nuolaida yra užblokuota",
+      "discount_expired": "Ši nuolaida nebegalioja",
+      "discount_limit_reached": "Ši nuolaida pasiekė naudojimo ribą",
+      "discount_not_found": "Negalima rasti galiojančios nuolaidos, atitinkančios kodą",
+      "customer_already_used_once_per_customer_discount_notice": "Ši nuolaida pasiekė naudojimo ribą",
+      "gift_card_already_applied": "Kodas jau pritaikytas tavo pirkinių krepšelyje",
+      "gift_card_code_invalid": "Kodas yra neteisingas",
+      "gift_card_currency_mismatch": "Jūsų dovanų kuponas yra %{gift_card_currency}. Susisiekite su mumis, kad galėtume jį išduoti iš naujo %{checkout_currency}.",
+      "gift_card_depleted": "Šioje dovanų kortelėje nebeliko likučio",
+      "gift_card_disabled": "Dovanų kuponas užblokuotas",
+      "gift_card_expired": "Dovanų kuponas pasibaigė",
+      "invalid": "yra neteisingas",
+      "bad_domain": "turi neteisingą domeno vardą",
+      "taken": "yra naudojamas al",
+      "contains_html_tags": "negali turėti HTML žymų",
+      "too_short": "yra per trumpas (minimalus ilgis yra %{count} simbolių)",
+      "too_long": "yra per ilgas (maksimalus ilgis yra %{count} simbolių)",
+      "password_mismatch": "turi būti identiškas nurodytam slaptažodžiui",
+      "contains_spaces": "pradeda arba baigiasi tarpais.",
+      "invalid_for_country": "nėra galiojantis %{country}",
+      "invalid_for_country_and_province": "nėra galiojantis %{province} ir %{country}",
+      "invalid_province_in_country": "nėra galiojanti provincija %{country}",
+      "invalid_state_in_country": "nėra galiojančios būsenos %{country}",
+      "invalid_region_in_country": "nėra galiojanti sritis %{country}",
+      "less_than_or_equal_to": "turi būti mažesnis arba lygus %{count}",
+      "not_supported": "nepalaikoma",
+      "invalid_for_card_type": "yra neteisingas",
+      "invalid_type": "atsiprašome, mes nepriimame šio tipo kortelių",
+      "invalid_format": "formatas yra neteisingas",
+      "expired": "pasibaigė",
+      "invalid_start_date_or_issue_number_for_debit": "galiojanti pradžios data arba galiojantis išdavimo numeris būtinas",
+      "invalid_expiry_year": "nėra galiojimo metų",
+      "reset_password_html": "Šis el. pašto adresas jau yra susietas su paskyra. Jei ši paskyra yra tavo, tuomet gali <a href=\"/account/login#recover\">atstatyti savo slaptažodį</a>",
+      "verify_email": "Mes išsiuntėme el. laišką į %{customer_email}. Prašome spustelėti pridėtą nuorodą, kad patvirtintumėte savo el. pašto adresą.",
+      "blocked_address": "Ši vieta nėra palaikoma",
+      "product_not_available": "produktas nebuvo paskelbtas šiam klientui.",
+      "shop_404": {
+        "title": "Sukurkite el. prekybos svetainę ir parduokite savo produktus internetu! Shopify el. prekybos programinė įranga",
+        "heros": {
+          "store_unavailable": "Ši parduotuvė šiuo metu nėra pasiekiama.",
+          "no_storefront": "Ši parduotuvė dar neturi svetainės."
+        },
+        "links": {
+          "explore_other_stores": "Naršyti kitose parduotuvėse",
+          "start_free_trial": "Nemokamai išbandyti"
+        }
       }
     }
   }
