@@ -1399,7 +1399,79 @@
         },
         "purchase_options_agreement_label_html": "Jeg forstår, at en eller flere varer i min indkøbskurv er et udskudt køb, abonnement eller tilbagevendende køb. Ved at fortsætte accepterer jeg\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulleringspolitikken</a>\nog giver tilladelse til at opkræve min betalingsmetode for priserne, hyppigheden og datoerne, der er angivet på denne side, indtil min ordre er behandlet eller jeg annullerer, hvis det er tilladt.",
         "payment_method_saved": "Betalingsmetode gemt",
-        "card_vaulted_company_location": "Kort gememt for denne placering"
+        "card_vaulted_company_location": "Kort gememt for denne placering",
+        "order_covered_by_store_credit_notice": "Bestillingen betales med dit butikskredit.",
+        "order_covered_by_redeemables_notice": "Bestillingen er betalt.",
+        "store_credit": {
+          "label": "Butikskredit",
+          "apply_label": "Anvende butikskredit",
+          "add_label": "Tilføj butikskredit",
+          "manage_label": "Administrer butikskredit",
+          "buying_gift_card": "Med en butikskredit kan du ikke købe et gavekort",
+          "no_fixed_selling_plans": "Du kan ikke bruge butikskredit sammen med udskudte købsvalg"
+        },
+        "clear": "Viden",
+        "billing_must_match_shipping_notice": "Faktureringsadressen for din betalingsmetode skal stemme overens med leveringsadressen.",
+        "same_billing_address_checkbox_label": "Leveringsadresse og faktureringsadresse er den samme",
+        "location_billing_address_label": "Faktureringsadresse for stedet",
+        "location_shipping_address_label": "Leveringsadresse for sted",
+        "no_working_method_error": "Denne butik kan i øjeblikket ikke modtage betalinger. Opdater siden eller prøv igen senere.",
+        "shipping_rate_updated": "Tilgængelige forsendelsesmetoder er opdateret. Bekræft dit valg, inden du betaler.",
+        "billing_address_invalid_phone": "Opdater telefonnummeret på faktureringsadressen for {{label}} {{last_digits}} for at fortsætte.",
+        "billing_address_invalid_phone_no_card": "Opdater telefonnummeret ved faktureringsadressen for at fortsætte.",
+        "preview_not_available": {
+          "title": "Eksempel ikke tilgængeligt",
+          "content": "Bare rolig, denne hurtige kasse fungerer for dine kunder."
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Indtast en gyldig udstedelsesdato",
+              "issue_number": "Indtast et gyldigt udstedelsesnummer"
+            },
+            "invalid": {
+              "verification_value": "Indtast en gyldig CVV/CVC- eller sikkerhedskode"
+            }
+          }
+        },
+        "simulated_checkout": "Eksempel vises snart",
+        "vaulting_agreement_label": "Gem mine betalingsoplysninger hos %{company} for en hurtigere betaling.",
+        "business_customer_vaulting_payment_label": "Gem denne betalingsmetode ved kassen, og giv %{company} tilladelse til at trække penge via dette kort for fremtidige køb på dette sted. Alle kontaktpersoner, der er tilknyttet dette sted, må bruge betalingsmetoden.",
+        "purchase_options_and_vaulting_agreement_label": "En eller flere varer i indkøbskurven er et udskudt køb eller et abonnement. Hvis du fortsætter til betaling, accepterer du, at vi automatisk opkræver købsbeløbene via din betalingsmetode til den pris og hyppighed, der er angivet på denne side, indtil det udløber eller du opsiger det selv. For alle opsigelser gælder %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "afbestillingspolitik",
+        "saved_credit_card": "Din gemte kreditkort",
+        "saved_credit_cards_modal": {
+          "done": "Klar"
+        },
+        "expired_cards_info": {
+          "one": "Der er %{count} udløbet kort. Du kan se og redigere det i din konto.",
+          "other": "Der er %{count} udløbne kort. Du kan se og redigere dem i din konto."
+        },
+        "local_payment_method_receiver_notice": "Efter du har afgivet din bestilling, modtager du betalingsoplysningerne. Udfør betalingen inden for {{dueDays}} dage ved en pengeautomat eller online.",
+        "order_edit_banner_title": "Betaling af {{amount_owed}} er påkrævet",
+        "order_edit_banner_subtitle": "Din ordre {{order_number}} er opdateret. Gennemgå ændringerne og betal for at bekræfte din ordre.",
+        "order_edit_banner_multiple_items_added": "{{amount}} tilføjet",
+        "order_edit_banner_single_item_removed": "Slettet",
+        "order_edit_banner_multiple_items_removed": "{{amount}} fjernet",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Anvende et gavekort",
+          "apply_another_gift_card_label": "Anvende en anden gavekortkode",
+          "manage_label": "Administrer gavekortene"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Fastgørelse til tilpassede betalinger på stedet"
+        },
+        "markets_pro_disclaimer_label": "Ved at afgive din bestilling accepterer du købet hos Global-e som den registrerede forhandler, underlagt %{markets_pro_terms} og %{privacy_policy} fra Global-e, og du deler dine oplysninger med %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "almindelige betingelser",
+        "markets_pro_disclaimer_privacy_policy": "fortrolighedspolitik",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Almindelige betingelser for registrerede handlende",
+        "markets_pro_disclaimer_privacy_policy_title": "Fortrolighedspolitik for registrerede handlende",
+        "purchase_order_number": {
+          "title": "Bestillingsnummer",
+          "label": "Bestillingsnummer (valgfrit)"
+        },
+        "alternative_payment_currency_total_notice": "Bemærk: Der trækkes %{amount_due} fra.",
+        "waiting_on_taxes_message": "Opdater siden, hvis skatterne ikke beregnes inden for få sekunder."
       }
     }
   }
