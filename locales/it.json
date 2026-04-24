@@ -2016,6 +2016,154 @@
         "items_fulfilled_by_store": {
           "one": "Gli articoli che hai acquistato provengono da %{remote_shop_name}.",
           "other": "Gli articoli che hai acquistato provengono da altri negozi."
+        },
+        "checkout_on_another_store": "Pagare in un altro negozio",
+        "thank_you_confirmed_with_email_description": {
+          "multi_store": "Riceverai a breve una mail di conferma separata da ogni negozio"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Riceverai presto un messaggio di conferma via SMS",
+          "multi_store": "Riceverai presto un messaggio di conferma da ogni negozio"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Riceverai a breve una mail di conferma separata da ogni negozio"
+        },
+        "checkout_again": "Esegui nuovamente il pagamento",
+        "cashback_notice": "Riceverai il cashback dopo 30 giorni"
+      },
+      "review": {
+        "title": "Recensione",
+        "review_title": "Completa il tuo ordine",
+        "checkout_as_guest": "Pagare come ospite",
+        "blocks": {
+          "shipping_address_title": "Spedire a",
+          "change_link_label": "Modificare",
+          "change_contact_method_link_label": "Modifica informazioni di contatto",
+          "change_billing_address_link_label": "Modificare l'indirizzo di fatturazione",
+          "change_shipping_address_link_label": "Modificare l'indirizzo di consegna",
+          "change_shipping_method_link_label": "Modifica metodo di spedizione",
+          "change_payment_method_link_label": "Modificare il metodo di pagamento",
+          "purchase_order_number_title": "Numero d'ordine",
+          "change_purchase_order_number_label": "Modificare il numero d'ordine",
+          "change_delivery_method_link_label": "Modificare il metodo di consegna",
+          "no_address": "(Senza indirizzo)",
+          "no_purchase_order_number": "(Senza numero d'ordine)",
+          "due_after_order_reviewed_html": "Dovuto dopo che l'ordine è stato verificato",
+          "review_title_free_order": "Controlla e completa l'ordine",
+          "payment_method_saved_company_location": "Salva la mappa per questa posizione",
+          "company_location": "Sede aziendale",
+          "change_company_location_link_label": "Modificare la sede aziendale",
+          "pickup_items_at": {
+            "one": "%{count} articoli da ritirare presso",
+            "other": "Ritira %{count} articoli presso"
+          },
+          "ship_items_to": {
+            "one": "Invia %{count} articoli a",
+            "other": "Invia %{count} articoli a"
+          }
+        },
+        "block_title": "Controlla i tuoi dati",
+        "checkout_a_different_way": "Pagare in un altro modo",
+        "item_header": {
+          "change_value": "Modifica valore",
+          "value": "Valore"
+        },
+        "review_and_confirm_title": "Controllare e confermare"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Inviami un'e-mail con notizie e offerte",
+        "unsubscribe": {
+          "title": "Ti sei disconnessa",
+          "description": "Non riceverai più promemoria del carrello da parte nostra."
+        },
+        "accept_sms_checkbox_label": "Inviami un messaggio con notizie e offerte",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Condizioni di servizio",
+            "description_html": "Iscrivendoti tramite SMS, accetti di ricevere messaggi di marketing automatizzati, inclusi promemoria del carrello, al numero di telefono fornito. Il consenso non è una condizione per l'acquisto. Rispondi STOP per annullare l'iscrizione. Rispondi HELP per assistenza. La frequenza dei messaggi può variare. Possono essere applicati costi per messaggi e dati. Consulta la nostra %{privacy_policy_link} e i nostri %{terms_of_service_link}.",
+            "description_transactional_html": "Potresti ricevere SMS relativi a conferme d'ordine e aggiornamenti sulla spedizione. Rispondi con STOP per annullare l'iscrizione. Rispondi con HELP per assistenza. La frequenza dei messaggi può variare. Possono essere applicati costi per messaggi e dati. Consulta il nostro %{privacy_policy_modal_link} e i nostri %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Numero di telefono cellulare",
+          "get_offers_by_text": "Ricevi offerte via sms"
+        },
+        "post_accept_marketing_checkbox_label": "Sei iscritto per ricevere e-mail con notizie e offerte",
+        "pending_accept_marketing_checkbox_label": "Controlla la tua e-mail per confermare l'iscrizione a notizie e offerte",
+        "accept_shop_pay_marketing_checkbox_label": "Iscrivimi per ricevere notizie e offerte di questo negozio",
+        "disclaimer": {
+          "terms_of_service": "Condizioni di servizio"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politica di rimborso",
+        "terms_of_service": "Condizioni generali",
+        "legal_notice": "Avviso legale",
+        "shipping_policy": "Spedizione",
+        "terms_of_sale": "Condizioni di vendita",
+        "subscription_policy": "Cancellazioni",
+        "purchase_options_policy": "Politica delle opzioni di acquisto",
+        "contact_information": "Contatto",
+        "purchase_options_cancellation_policy": "Cancellazioni",
+        "policy_label": "Politica",
+        "policies_label": "Politica",
+        "select_policy_label": "Selezionare una politica",
+        "terms_and_policies": "Condizioni e politiche"
+      },
+      "notifications": {
+        "title": "Messaggi"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Aggiunto"
+          },
+          "removed": "Rimosso",
+          "returned": "%{count} restituiti",
+          "return_line_item_removed": "%{count} rimosso dal reso"
+        },
+        "additional_payment_requested": "Pagamento di %{total_outstanding} è richiesto",
+        "checkout_review_and_pay": "Il tuo ordine %{order_name} è stato aggiornato. Visualizza queste modifiche e poi paga per confermare il tuo ordine.",
+        "order_updated_on": "Il tuo ordine è stato aggiornato il %{last_edited_at}.",
+        "order_review_and_pay": "Il tuo ordine è stato aggiornato. Controlla e paga per confermare il tuo ordine."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "La tua carta di credito verrà addebitata di %{amount}",
+        "payment_total_label": "Pagamenti totali",
+        "change_currency_link": "Modifica in %{currency_name}",
+        "card_provider_fx_charges_warning": "Il tuo emittente della carta potrebbe addebitare costi per le transazioni in %{currency_code}.",
+        "currency_not_supported_by_shop": "La valuta da te selezionata non è più disponibile. Tutti i prezzi sono ora in %{currency_code}."
+      },
+      "tips": {
+        "description": "Mostra che sostieni il team di %{shop_name}",
+        "presets_description": "Scegli una percentuale di mancia",
+        "custom_label": "Mancia personalizzata",
+        "update_tip": "Aggiorna la mancia",
+        "message": "Grazie, lo apprezziamo davvero.",
+        "not_available_with_spi": "Non disponibile con i pagamenti rateali Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Acquistare %{product_name}",
+          "one": "Acquista %{product_name} e altri %{count} articoli",
+          "other": "Acquista %{product_name} e altri %{count} articoli"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_cn": "Numero identificativo del residente",
+          "tax_credential_co": "Carta d'identità/Fattura IVA",
+          "tax_credential_type_co": "Tipo Carta d'identità",
+          "shipping_credential_co": "Carta d'identità/Fattura IVA",
+          "shipping_credential_type_co": "Tipo Carta d'identità",
+          "tax_credential_cr": "Numero di identificazione/RUT",
+          "shipping_credential_cr": "Numero di identificazione/RUT",
+          "tax_credential_gt": "Partita IVA",
+          "shipping_credential_gt": "Partita IVA",
+          "tax_credential_my": "Codice fiscale/Numero di registrazione",
+          "shipping_credential_my": "Codice fiscale/Numero di registrazione",
+          "tax_credential_type_mx": "Regime Fiscale",
+          "tax_credential_use_mx": "Uso di CFDI",
+          "tax_credential_pt": "Partita IVA",
+          "shipping_credential_pt": "Partita IVA"
         }
       }
     }
