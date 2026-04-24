@@ -884,8 +884,78 @@
         },
         "unpurchasable_product": {
           "title": "Product cannot be purchased",
+          "header": "Some items have been removed from your shopping cart",
+          "message": "These items are not available for business-to-business orders."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Product cannot be purchased",
           "header": "Some items have been removed from your shopping cart"
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "This item will be removed from your shopping cart because there are no delivery methods available for your address.",
+            "other": "This item will be removed from your shopping cart because there are no delivery methods available for your address."
+          }
+        },
+        "price_update": {
+          "description": "The prices of these items have been changed and updated in your shopping cart."
+        },
+        "return_to_store_label": "Back to shop",
+        "item_label": {
+          "one": "{{count}} items"
+        },
+        "continue_cta_label": "Continue with checkout",
+        "out_of_stock": {
+          "description": "These items are no longer available and have been removed from your shopping cart.",
+          "items_unavailable": "Some items are no longer available and have been removed from your shopping cart."
+        },
+        "price_and_quantity_update": {
+          "title": "Update of price and quantity",
+          "description": "The prices and available quantities for these items have changed and the shopping cart has been updated."
         }
+      },
+      "order_summary": {
+        "title": "Order overview",
+        "gift_card_title": "Gift voucher",
+        "gift_card_label": "Gift voucher",
+        "gift_card_placeholder": "Gift voucher",
+        "gift_card_and_discount_title": "Discount code or gift voucher",
+        "gift_card_and_discount_label": "Discount code or gift voucher",
+        "gift_card_and_discount_placeholder": "Discount code or gift voucher",
+        "add_discount_or_gift_card": "Add a discount code or gift voucher",
+        "remove_gift_card_label": "Remove gift voucher",
+        "free_shipping_discount_label": "Free delivery",
+        "applied_discount_message": "A discount of %{amount} has been deducted from the total price.",
+        "discount_already_applied": "A discount has been applied to this order. You cannot add another discount.",
+        "cart_does_not_meet_discount_requirements_notice": "Discount code <strong style=\"text-transform:uppercase\">%{code}</strong> does not apply to the items in your shopping cart",
+        "discount_requires_customer_notice": "Enter your shipping details to apply the discount code <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Discount code <strong style=\"text-transform:uppercase\">%{code}</strong> is currently not available for you",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Discount code <strong style=\"text-transform:uppercase\">%{code}</strong> is not available for your delivery address",
+        "customer_already_used_once_per_customer_discount_notice": "The discount code <strong style=\"text-transform:uppercase\">%{code}</strong> has already been used",
+        "shipping_default_value": "Calculated at the next step",
+        "taxes_label": "VAT",
+        "total_outstanding_label": "Amount to be paid",
+        "payment_due_label": "Amount due",
+        "vat_label_html": "Including %{amount} VAT",
+        "discount_and_gift_card_savings_notice": "With a %{discount_amount} discount and %{gift_card_amount} in gift card value",
+        "discount_savings_notice": "With a %{discount_amount} discount",
+        "gift_card_savings_notice": "On %{gift_card_amount} in gift card value",
+        "cost_table_title": "Cost overview",
+        "quantity_label": "Number",
+        "expand_order_summary_short": "Display",
+        "total_already_paid_label": "paid",
+        "unit_price": {
+          "accessible_separator": "by",
+          "per_item": {
+            "one": "%{price} per %{count} items"
+          }
+        },
+        "pickup_label": "Pick up in the shop",
+        "calculating_shipping": "Calculating...",
+        "estimated_taxes_label": "Estimated tax",
+        "multiple_shipping_lines_label": "Total shipping costs",
+        "sale_price": "Offer price",
+        "recurring_subtotal_label": "Returning subtotal"
       }
     },
     "sentence": {
