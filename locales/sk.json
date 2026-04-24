@@ -1482,7 +1482,87 @@
         "location_shipping_address_label": "Doručovacia adresa miesta",
         "brand_not_available": "Tento obchod neprijíma {{brand}}. Použite inú kartu na zaplatenie.",
         "shipping_rate_updated": "Dostupné spôsoby doručenia boli aktualizované. Potvrďte svoju voľbu pred zaplatením.",
-        "billing_address_invalid_phone": "Aktualizujte telefónne číslo na fakturačnej adrese pre {{label}} {{last_digits}}, aby ste mohli pokračovať."
+        "billing_address_invalid_phone": "Aktualizujte telefónne číslo na fakturačnej adrese pre {{label}} {{last_digits}}, aby ste mohli pokračovať.",
+        "billing_address_invalid_phone_no_card": "Aktualizujte telefónne číslo na fakturačnej adrese, aby ste mohli pokračovať.",
+        "preview_not_available": {
+          "title": "Príklad nie je k dispozícii",
+          "content": "Žiadne obavy, tento rýchly pokladničný proces funguje pre vašich zákazníkov.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Zadajte platný dátum výdaja",
+              "issue_number": "Zadajte platné číslo výdaja"
+            },
+            "invalid": {
+              "verification_value": "Zadajte platný CVV/CVC alebo bezpečnostný kód"
+            }
+          }
+        },
+        "simulated_checkout": "Príklad sa čoskoro zobrazí",
+        "vaulting_agreement_label": "Uložte si svoje platobné údaje u %{company} pre rýchlejšie dokončenie nákupu.",
+        "business_customer_vaulting_payment_label": "Uložte túto platobnú metódu pri pokladni a oprávnite %{company} strhávať peniaze z tejto karty za budúce nákupy na tomto mieste. Všetky kontaktné osoby priradené k tomuto miestu môžu túto platobnú metódu používať.",
+        "purchase_options_and_vaulting_agreement_label": "Jeden alebo viac položiek v nákupnom košíku je odložený alebo predplatný nákup. Ak pokračujete v platbe, súhlasíte s tým, že automaticky účtujeme nákupné sumy cez vašu platobnú metódu za cenu a frekvenciu uvedenú na tejto stránke, až kým to nevyprší alebo to sami nezrušíte. Pre všetky zrušenia platí %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "zásady storna",
+        "saved_credit_card_info": "Posledné štyri číslice",
+        "expired_cards_info": {
+          "one": "Vypršala %{count} karta. Môžete si ju pozrieť a upraviť vo svojom účte.",
+          "other": "Je %{count} expirovaných kariet. Môžete si ich pozrieť a upraviť vo svojom účte."
+        },
+        "local_payment_method_receiver_notice": "Po odoslaní vašej objednávky obdržíte platobné údaje. Platbu vykonajte do {{dueDays}} dní na bankomate alebo online.",
+        "order_edit_banner_title": "Platba vo výške {{amount_owed}} je povinná",
+        "order_edit_banner_subtitle": "Vaša objednávka {{order_number}} bola aktualizovaná. Skontrolujte tieto zmeny a zaplaťte, aby ste potvrdili svoju objednávku.",
+        "order_edit_banner_multiple_items_added": "{{amount}} pridané",
+        "order_edit_banner_multiple_items_removed": "{{amount}} odstránené",
+        "gift_card_wrapper": {
+          "heading": "Darčeková poukážka",
+          "payment_tag": "Darčeková poukážka",
+          "apply_another_gift_card_label": "Použiť iný darčekový poukaz",
+          "gift_card_label": "Darčeková poukážka %{identifier}",
+          "add_label": "Pridať darčekovú poukážku",
+          "manage_label": "Správa darčekových poukážok"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Potvrdenie o prispôsobených platbách na mieste"
+        },
+        "markets_pro_disclaimer_label": "Tým, že zadáte objednávku, súhlasíte s nákupom u spoločnosti Global-e ako registrovaného predajcu, podliehajúcemu %{markets_pro_terms} a %{privacy_policy} spoločnosti Global-e, a zdieľate svoje údaje so %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "všeobecné podmienky",
+        "markets_pro_disclaimer_privacy_policy": "zásady ochrany osobných údajov",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Všeobecné obchodné podmienky pre obchodníkov záznamu",
+        "markets_pro_disclaimer_privacy_policy_title": "Zásady ochrany osobných údajov pre obchodníkov zodpovedných za záznamy",
+        "alternative_payment_currency_total_notice": "Poznámka: Bude stiahnutá suma %{amount_due}.",
+        "waiting_on_taxes_message": "Obnovte stránku, ak sa dane nevyčíslia do niekoľkých sekúnd.",
+        "waiting_on_taxes_notice": "Výpočet daní",
+        "order_edit_banner_multiple_items_returned": "{{amount}} vrátených",
+        "shop_pay_installments_label": "Nakúpte s platbou na splátky cez Pay-termijnbetalingen",
+        "add_credit_card_modal": {
+          "title": "Pridať kartu",
+          "save": "Uložiť"
+        },
+        "delete_credit_card_modal": {
+          "title": "Odstrániť kartu",
+          "confirmation": "Ste si istý, že chcete odstrániť {{brandName}} končiaci na {{lastDigits}}?"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} pridaných"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} van {{quantity}} odstránený"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} vrátených",
+          "with_quantities": "{{delta}} van {{quantity}} vrátených"
+        },
+        "edit_credit_card_modal": {
+          "title": "Upraviť kartu",
+          "description": "Môžete zmeniť iba fakturačnú adresu svojej karty.",
+          "fields": {
+            "default": "Nastaviť ako predvolené",
+            "expiry": "Dátum platnosti",
+            "security_code": "Bezpečnostný kód"
+          }
+        }
       }
     }
   }
