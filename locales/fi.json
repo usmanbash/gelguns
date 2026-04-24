@@ -1210,7 +1210,75 @@
         "two_day_delivery": "Toimitus 2 päivän sisällä klo %{time}",
         "delivery": "Toimitus noin %{time}",
         "duties_and_taxes_title": "Tullimaksut ja verot",
-        "shipping_information_required_notice": "Toimitustiedot ovat pakollisia. {{link}}."
+        "shipping_information_required_notice": "Toimitustiedot ovat pakollisia. {{link}}.",
+        "shipping_information_redirect_link": "Syötä tietosi tähän",
+        "loading_progressive_rates": "Etsi lisää hintoja...",
+        "no_other_methods_available": "Ei muita menetelmiä saatavilla",
+        "duties_and_taxes_options": {
+          "ddu_title": "Maksu toimituksen yhteydessä",
+          "ddu_caption": "Lisäkustannuksia saattaa tulla",
+          "ddp_caption": "Ei lisäkuluja toimituksesta"
+        },
+        "shipping_used_as_billing_notice": "Tätä käytetään myös laskutusosoitteena tälle tilaukselle.",
+        "shipping_address_title": "Lähetä kohteeseen",
+        "address_more": "Lisää toimia tälle osoitteelle",
+        "address_confirm": "Oletko varma, että haluat poistaa tämän osoitteen tililtäsi?",
+        "address_form": {
+          "generic_error": "Osoitteen tallentamisessa tapahtui virhe. Yritä uudelleen.",
+          "one_time_address_subtitle": "Käytä tätä osoitetta vain tätä tilausta varten"
+        },
+        "different_shipping_method_summary": "Täytä toinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat",
+        "invalid_shipping_method_summary": "Anna kelvollinen toimitusosoite nähdäksesi saatavilla olevat toimitustavat",
+        "method_summary": {
+          "incomplete_address_entered": "Anna täydellinen toimitusosoite nähdäksesi saatavilla olevat toimitustavat",
+          "incomplete_address_selected": "Valitse täydellinen toimitusosoite nähdäksesi saatavilla olevat toimitustavat"
+        },
+        "local_pickup": {
+          "search_address": "Etsi osoite",
+          "rollup_title": "Noutopaikka",
+          "rollup_accessibility_label": "Noutopaikan valinnat"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "other": "Palautukset"
+        },
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artikkelia",
+        "split_shipping_merchandise_quantity_label_additional": "+ ei yhtään %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Lähetys %{number} / %{total}",
+        "split_shipping_shipped_by_shop": "Lähettänyt %{shop_name}",
+        "split_shipping_shipping_label": "Wijze",
+        "split_shipping_multiple_shipment_notice": "Tilaus toimitetaan useammassa erässä",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Tilauksesi toimitetaan %{quantity} lähetyksessä",
+        "split_shipping_shipment_number": "Zending %{number}",
+        "default_description": "Lähetetään yhden työpäivän kuluessa",
+        "split_shipping_shipment_notice": "Saat tilauksesi %{quantity_shipments} erässä",
+        "unbranded_default_description": "Valmis lähetettäväksi",
+        "prime_not_available": {
+          "default": "Prime-toimitus ei ole saatavilla tilauksellesi. Lähetysvaihtoehtosi on päivitetty."
+        },
+        "split_shipping_first_shipment_notice": "Saat ensimmäisen tilauksesi %{quantity_shipments} aikana",
+        "shipping_address_rollup_accessibility_label": "Toimitusvaihtoehdot osoitteeseen",
+        "invalid_shipping_method_summary_selected": "Valitse toinen toimitusosoite nähdäksesi käytettävissä olevat toimitustavat",
+        "third_party_address_timeout": "Osoitetta ei voi ladata. Yritä uudelleen tai käytä toista osoitetta.",
+        "third_party_address_error": "Osoitteen valinnassa tapahtui virhe. Syötä osoitteesi alla käsin.",
+        "third_party_payment_timeout": "Maksutapoja ei voi ladata. Yritä uudelleen tai käytä toista maksutapaa.",
+        "third_party_payment_error": "Maksutavan valinnan latauksessa tapahtui virhe. Käytä toista maksutapaa.",
+        "add_shipping_address": "Toimitusosoitteen lisääminen",
+        "unbranded_description_same_day": "Lähetetään samana työpäivänä",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Lähetetään seuraavana työpäivänä"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Lähetetään yli %{count} viikon kuluttua",
+          "other": "Toimitetaan %{count} viikon kuluttua"
+        },
+        "delivery_to": "Toimitus osoitteeseen"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon-maksu",
+        "amazon_payments_login_hint": "Sinua pyydetään kirjautumaan Amazon-tilillesi.",
+        "amazon_payments_failed_mfa_challenge": "Valittua maksutapaa ei voi käyttää. Valitse toinen tapa tai ota yhteyttä pankkiisi tai kortin myöntäjään.",
+        "amazon_payments_abandoned_mfa_challenge": "Maksuasi ei voitu suorittaa loppuun. Kokeile toista maksutapaa tai ota yhteyttä pankkiisi tai kortin myöntäjään.",
+        "amazon_payments_could_not_enqueue_authorize": "Maksun käsittelyssä ilmeni ongelma. Yritä uudelleen tai käytä toista maksutapaa."
       }
     }
   }
