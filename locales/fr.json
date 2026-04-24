@@ -2464,7 +2464,89 @@
             "other": "Affiche %{first} - %{last} sur %{count} points"
           },
           "selected_pickup_point_label": {
-            "one": "%{pickup_point_index} sur %{count} point"
+            "one": "%{pickup_point_index} sur %{count} point",
+            "other": "%{pickup_point_index} sur %{count} points"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} sur %{count} point",
+            "other": "%{first} - %{last} sur %{count} points"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} point de retrait près de votre emplacement",
+          "other": "%{count} points de retrait près de votre emplacement"
+        },
+        "change": "Modifier l'emplacement",
+        "waiting_on_pickup_point_location_notice": "Recherche des points de retrait...",
+        "geolocation": {
+          "shared_location_button": "Utiliser ma position",
+          "errors": {
+            "unsuported_by_browser": "La géolocalisation n'est pas prise en charge par votre navigateur. Veuillez réessayer ou utiliser un autre navigateur.",
+            "permission_not_allowed": "Autorisez le partage de votre position.",
+            "permission_denied": "Impossible de récupérer votre emplacement. Veuillez réessayer."
+          }
+        },
+        "no_business_hours": "Aucun horaire d'ouverture disponible",
+        "open_twenty_four_hours": "Ouvert 24h/24 et 7j/7",
+        "pickup_unavailable_banner_title": {
+          "one": "Aucun point de retrait disponible pour votre article",
+          "other": "Aucun point de retrait disponible pour vos articles"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Un problème est survenu lors du passage à la caisse",
+          "message": "Rafraîchissez cette page ou réessayez dans quelques minutes.",
+          "action": {
+            "cta": "Recharger la page"
+          }
+        },
+        "embed_errors": {
+          "customer_account_required": "Un compte client est requis pour finaliser la commande",
+          "cart_completed": "Ce paiement est déjà terminé",
+          "invalid_cart": "Le panier n'est plus valide",
+          "not_authorized": "La vérification de la caisse a échoué. Veuillez vérifier vos identifiants de connexion pour l'application.",
+          "killswitch_enabled": "Le passage en caisse est temporairement indisponible",
+          "policy_violation": "Impossible de finaliser la commande en raison des restrictions de la configuration des règles",
+          "unrecoverable_failure": "Impossible de charger la caisse. Veuillez réessayer."
+        }
+      },
+      "notice_banner": {
+        "subscription_changed": "Un de vos abonnements a été modifié.",
+        "company_location_changed": "Votre panier a été modifié. Vérifiez votre commande avant de l'envoyer.",
+        "violations_title": "{{violation}} est manquant ou invalide",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adresse de livraison",
+          "OtherViolations": "Données de commande",
+          "UnhandledViolations": "Données de commande"
+        },
+        "all_violations_content": "Appelez {{emailLink}} pour mettre à jour ces informations et finaliser votre commande :",
+        "all_violations_email_link": "courriel",
+        "editable_shipping_address_violations_message_title": "Ajoutez ces informations pour finaliser votre commande :",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} pour mettre à jour l'adresse de ce lieu de façon permanente.",
+        "editable_shipping_address_violations_email_link": "Contactez-nous",
+        "company_location_changed_product_removed": "Votre panier a été modifié car certains produits ne sont pas disponibles à cet endroit. Vérifiez votre commande avant de l'envoyer.",
+        "shipping_address_incomplete_title": "L'adresse de livraison est incomplète",
+        "calculating_shipping": "L'expédition sera calculée ultérieurement. Veuillez réessayer dans quelques secondes. Aucun frais n'a été facturé.",
+        "calculating_taxes": "Les taxes sont encore en cours de calcul. Veuillez réessayer dans quelques secondes. Aucun frais n'a été facturé.",
+        "generic_processing_error": {
+          "body": "Aucun frais n'a été facturé. Veuillez réessayer ou utiliser un autre mode de paiement."
+        },
+        "contact_information": {
+          "title": "Les coordonnées sont invalides",
+          "header": "{{emailLink}} pour mettre à jour vos informations",
+          "email_link": "Contactez-nous"
+        },
+        "payment_method_not_available_with_payment_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est désormais soumis aux conditions {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Le mode de paiement que vous avez choisi n'est plus disponible car le paiement de cette commande doit désormais être effectué lors de la livraison.",
+        "payment_method_not_available_with_fixed_terms": "Le mode de paiement que vous avez choisi n'est plus disponible car le paiement de cette commande doit être effectué ultérieurement.",
+        "payment_method_not_available_with_review_requirement": "Le mode de paiement que vous avez choisi n'est plus disponible car le paiement est dû une fois la commande confirmée.",
+        "validation_errors_banner": {
+          "section_label": {
+            "contact": "Contactez-nous"
+          },
+          "heading": {
+            "one": "Il y a {{count}} erreur :"
           }
         }
       }
