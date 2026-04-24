@@ -1885,7 +1885,65 @@
         "delivered": "Bekymret",
         "delivered_title": "Din bestilling er leveret",
         "delivered_description_html": "Din ordre er leveret til den adresse, du har angivet. Hvis du ikke har modtaget den, eller hvis der er andre problemer, %{contact_us}.",
-        "contact_us": "Kontakt os"
+        "contact_us": "Kontakt os",
+        "contact_us_lowercase": "kontakt os",
+        "updated_time": "Opdateret for %{time_ago} siden",
+        "failure": "Ikke bekymret",
+        "failed_title": "Din bestilling kunne ikke leveres.",
+        "failed_contact_merchant": "Kontakt %{company} for at arrangere leveringen.",
+        "failed_contact_merchant_no_company": "Kontakt os for at arrangere leveringen.",
+        "non_shippable_title": "Bestillingen er fuldført",
+        "login_title": "Log ind for at se alle bestillingsoplysninger",
+        "login_description": "Du kan finde dit ordrenummer på fakturaen, som du modtog via e-mail.",
+        "login_description_phone": "Du finder dit ordrenummer på fakturaen, som du har modtaget via sms.",
+        "cancelled_title": "Din bestilling er annulleret",
+        "cancelled_description": "Din ordre er blevet annulleret den %{date}. Kontakt os, hvis du har spørgsmål.",
+        "order_number_label": "Bestillingsnummer",
+        "customer_validation_error": "Indtast en gyldig e-mailadresse eller ordrenummer.",
+        "unfulfilled_items_title": "Forsendelse forberedes",
+        "unfulfilled_items_description": "Vi forbereder i øjeblikket disse varer til afsendelse.",
+        "marker": {
+          "current": "Nuværende forsendelsessted"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Varerne i denne forsendelse",
+          "unfulfilled_table_title": "Varerne bliver gjort klar til afsendelse"
+        },
+        "order_updates_description_missing": "Du modtager ingen forsendelsesopdateringer.",
+        "order_updates_subscribe_to_email_notifications": "Modtag forsendelsesopdateringer via e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Modtag forsendelsesopdateringer via e-mail eller sms",
+        "order_updates_subscribe_to_phone_notifications": "Modtag dine forsendelsesopdateringer via sms",
+        "track_shipment": "Følg forsendelsen",
+        "order_status_confirmed_order_with_email_pick_up": "Du modtager en e-mail, når du kan hente din bestilling.",
+        "order_status_confirmed_order_with_phone_pick_up": "Du modtager en sms, når du kan hente din bestilling.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Du modtager en e-mail og en sms, når du kan hente din bestilling.",
+        "pick_up_in_store_marker": {
+          "current": "Nuværende forsendelsessted",
+          "shipping": "Afhentningssted"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Du modtager en e-mail, når du kan hente din bestilling.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Du modtager en sms, når du kan hente din bestilling.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du modtager en e-mail, når du kan hente din bestilling.",
+        "ready_for_pickup_title": "Bestillingen er klar til afhentning",
+        "ready_for_pickup_description": "Din bestilling kan afhentes. Medbring ordrebekræftelsen, når du henter bestillingen.",
+        "picked_up_title": "Bestillingen er afhentet",
+        "shop_phone_description": "Du modtager en sms med et link til Butiks-appen for at følge din bestilling.",
+        "ready_for_delivery_title": "Bestillingen er klar til levering",
+        "ready_for_delivery_description": "Vi har gjort ordren klar.",
+        "order_status_confirmed_order_local": "Vi gør din bestilling klar til levering.",
+        "gift_card_sent_confirmation": "Gavekort sendt",
+        "out_for_delivery_local_title": "Din bestilling er klar til levering",
+        "out_for_delivery_local_description_html": "Du modtager din bestilling snart.",
+        "delivered_local_title": "Din bestilling er leveret",
+        "delivered_local_description_html": "Har du ikke modtaget din ordre endnu? %{let_us_know}.",
+        "let_us_know": "Lad os vide det",
+        "qr_code": {
+          "title": "Følg op på din telefon"
+        },
+        "gift_card_confirmation_by_text": "Hvis du ikke har modtaget denne, bedes du få sms'en sendt igen eller kontakte os.",
+        "gift_card_confirmation_by_email": "Hvis du ikke har modtaget denne, bedes du få e-mailen sendt igen eller kontakte os.",
+        "resend_gift_cards": "Send gavekortet igen",
+        "attempted_delivery_local_title": "Mistet levering"
       }
     }
   }
