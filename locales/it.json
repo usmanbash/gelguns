@@ -1828,7 +1828,69 @@
         "order_updates_description_missing": "Non riceverai aggiornamenti sulla spedizione.",
         "order_updates_subscribe_to_email_notifications": "Ricevi aggiornamenti sulla spedizione via e-mail",
         "order_updates_subscribe_to_email_or_phone_notifications": "Ricevi aggiornamenti sulla spedizione via e-mail o sms",
-        "order_updates_subscribe_to_phone_notifications": "Ricevi aggiornamenti sulla spedizione via sms"
+        "order_updates_subscribe_to_phone_notifications": "Ricevi aggiornamenti sulla spedizione via sms",
+        "track_shipment": "Segui la spedizione",
+        "order_status_confirmed_order_with_email_pick_up": "Riceverai un'email quando potrai ritirare il tuo ordine.",
+        "order_status_confirmed_order_with_phone_pick_up": "Riceverai un messaggio quando potrai ritirare il tuo ordine.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Riceverai un'email e un messaggio quando potrai ritirare il tuo ordine.",
+        "pick_up_in_store_marker": {
+          "current": "Posizione di spedizione attuale",
+          "shipping": "Luogo di ritiro"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Riceverai un'email quando potrai ritirare il tuo ordine.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Riceverai un messaggio quando potrai ritirare il tuo ordine.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Riceverai un'email quando potrai ritirare il tuo ordine.",
+        "ready_for_pickup_title": "L'ordine è pronto per il ritiro",
+        "ready_for_pickup_description": "Il tuo ordine è pronto per il ritiro. Porta con te la conferma d'ordine quando vieni a ritirare.",
+        "picked_up_title": "L'ordine è stato ritirato",
+        "picked_up_description_html": "Il tuo ordine è stato ritirato a %{location_name} il %{date}.",
+        "shop_phone_description": "Riceverai un messaggio SMS con un collegamento all'app Negozio per seguire il tuo ordine.",
+        "ready_for_delivery_title": "L'ordine è pronto per la consegna",
+        "ready_for_delivery_description": "Abbiamo preparato l'ordine.",
+        "order_status_confirmed_order_local": "Prepariamo il tuo ordine per la consegna.",
+        "out_for_delivery_local_title": "Il tuo ordine è pronto per la consegna",
+        "out_for_delivery_local_description_html": "Riceverai il tuo ordine a breve.",
+        "delivered_local_description_html": "Non hai ancora ricevuto il tuo ordine? %{let_us_know}.",
+        "let_us_know": "Faccelo sapere",
+        "qr_code": {
+          "title": "Segui sul tuo telefono",
+          "send_link_to_phone": "Oppure invia un link al tuo telefono"
+        },
+        "gift_card_confirmation_by_text": "Se non l'hai ricevuto, chiedi di inviare nuovamente il messaggio o contattaci.",
+        "gift_card_confirmation_by_email": "Se non l'hai ricevuto, chiedi di rinviare l'email o contattaci.",
+        "resend_gift_cards": "Rinviare i buoni regalo",
+        "attempted_delivery_local_title": "Consegna mancata",
+        "attempted_delivery_local_description_html": "Purtroppo non siamo riusciti a consegnare il tuo ordine. %{contact_us} per programmare una nuova consegna.",
+        "thank_you_title_payment": "Il tuo pagamento è stato confermato",
+        "thank_you_confirmed_order_with_email_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scansiona con il tuo telefono"
+          },
+          "sms": {
+            "title": "Oppure invia un link al tuo telefono"
+          }
+        },
+        "estimated_delivery": "Stima attuale di consegna:",
+        "company_location_title": "Posizione",
+        "thank_you_title_review": "Il tuo ordine è stato inviato per la revisione",
+        "thank_you_confirmed_order_with_draft": "Ti faremo sapere se avremo bisogno di ulteriori informazioni o quando il tuo ordine sarà confermato.",
+        "breadcrumbs_in_review": "Per valutazione",
+        "missing_shipping_address_banner": {
+          "title": "L'ordine non ha un indirizzo di consegna"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Rivolgiti di nuovo al commesso.",
+        "order_status_confirmed_with_installments_payment_confirm": "Riceverai presto un'email di conferma con il numero dell'ordine e i dettagli del tuo piano di pagamento rateale.",
+        "choose_payment_method_later": "Scegliere il metodo di pagamento in seguito",
+        "purchase_order_number_title": "Numero d'ordine %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "L'ordine è stato ritirato a %{address}.",
+        "order_updates_subscribe_to_email_notifications_failed": "Non possiamo salvare questo indirizzo e-mail per gli aggiornamenti. Riprova oppure usa un altro indirizzo e-mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'indirizzo email che hai inserito esiste già."
       }
     }
   }
