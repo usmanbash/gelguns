@@ -221,47 +221,47 @@
         "other": "{{ product_count }} alennus {{ count }} tuotteesta"
       },
       "product_count_simple": {
-        "one": "{{ count }} tuote",
+        "one": "{{ count }} tuotetta",
         "other": "{{ count }} tuotetta"
       },
-      "reset": "Nollaa",
+      "reset": "Nollaa uudelleen",
       "sort_button": "Lajittele",
-      "sort_by_label": "Lajittelu:",
-      "to": "Asti",
-      "clear_filter": "Poista suodatin",
+      "sort_by_label": "Lajittele:",
+      "to": "Aan",
+      "clear_filter": "Suodatin poistetaan",
       "filter_selected_accessibility": "{{ type }} ({{ count }} suodatinta valittu)",
-      "show_more": "Näytä enemmän",
+      "show_more": "Näytä lisää",
       "show_less": "Näytä vähemmän",
-      "filter_and_operator_subtitle": "Sovella kaikkia"
+      "filter_and_operator_subtitle": "Kaikki sopimaan"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Ei tuloksia haulla \"{{ terms }}\". Tarkista oikeinkirjoitus tai kokeile toista sanaa tai ilmaisua.",
+      "no_results": "Ei tuloksia haulle “{{ terms }}”. Tarkista oikeinkirjoitus tai käytä toista sanaa tai lausetta.",
       "results_with_count": {
-        "one": "{{ count }} tulos",
+        "one": "{{ count }} tulosta",
         "other": "{{ count }} tulosta"
       },
       "title": "Hakutulokset",
       "page": "Sivu",
       "products": "Tuotteet",
-      "search_for": "Hae kohdetta \"{{ terms }}\"",
+      "search_for": "Etsi '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "{{ count }} tulos hakuehdolla \"{{ terms }}\"",
-        "other": "{{ count }} tulosta hakuehdolla \"{{ terms }}\""
+        "one": "{{ count }} tulosta löytyi hakusanalle “{{ terms }}”",
+        "other": "{{ count }} tulosta löytyi hakusanalla “{{ terms }}”"
       },
       "results_pages_with_count": {
-        "one": "{{ count }} sivu",
+        "one": "{{ count }} sivua",
         "other": "{{ count }} sivua"
       },
       "results_products_with_count": {
-        "one": "{{ count }} tuote",
+        "one": "{{ count }} tuotetta",
         "other": "{{ count }} tuotetta"
       },
-      "suggestions": "Ehdotukset",
+      "suggestions": "Ehdotuksia",
       "pages": "Sivut",
       "results_suggestions_with_count": {
-        "one": "{{ count }} ehdotus",
+        "one": "{{ count }} ehdotusta",
         "other": "{{ count }} ehdotusta"
       }
     },
@@ -273,10 +273,10 @@
         "name": "Nimi",
         "email": "Sähköposti",
         "phone": "Puhelinnumero",
-        "comment": "Kommentti",
-        "send": "Lähetä",
-        "post_success": "Kiitos, että otit yhteyttä. Palaamme asiaan mahdollisimman pian.",
-        "error_heading": "Mukauta seuraavat:",
+        "comment": "Vastaus",
+        "send": "Sturen",
+        "post_success": "Kiitos, että otit meihin yhteyttä. Kuulemme sinusta mahdollisimman pian.",
+        "error_heading": "Muokkaa seuraavaa:",
         "title": "Yhteydenottolomake"
       }
     },
@@ -399,29 +399,29 @@
     "language_label": "Kieli",
     "update_language": "Päivitä kieli",
     "update_country": "Päivitä maa/alue",
-    "search": "Hae",
+    "search": "Etsi",
     "popular_countries_regions": "Suositut maat/alueet",
-    "country_results_count": "{{ count }} maata/aluetta löytyi"
+    "country_results_count": "{{ count }} maata/aluetta löydetty"
   },
   "customer": {
     "account": {
       "title": "Tili",
-      "details": "Tilin tiedot",
-      "view_addresses": "Näytä osoitteet",
-      "return": "Palaa tilin tietoihin"
+      "details": "Tilitiedot",
+      "view_addresses": "Näytä osoite",
+      "return": "Takaisin tilitietoihin"
     },
     "account_fallback": "Tili",
     "activate_account": {
-      "title": "Aktivoi tili",
-      "subtext": "Aktivoi tili luomalla salasana.",
+      "title": "Tili aktivoidaan",
+      "subtext": "Luo salasana aktivoidaksesi tilisi.",
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",
-      "submit": "Aktivoi tili",
-      "cancel": "Hylkää kutsu"
+      "submit": "Tili aktivoidaan",
+      "cancel": "Kutsu hylätä"
     },
     "addresses": {
       "title": "Osoitteet",
-      "default": "Oletus",
+      "default": "Vakio",
       "add_new": "Lisää uusi osoite",
       "edit_address": "Muokkaa osoitetta",
       "first_name": "Etunimi",
@@ -429,18 +429,18 @@
       "company": "Yritys",
       "address1": "Osoite 1",
       "address2": "Osoite 2",
-      "city": "Paikkakunta",
+      "city": "Paikka",
       "country": "Maa/alue",
-      "province": "Provinssi",
+      "province": "Maakunta",
       "zip": "Postinumero",
-      "phone": "Puhelin",
+      "phone": "Puhelinnumero",
       "set_default": "Aseta oletusosoitteeksi",
       "add": "Lisää osoite",
       "update": "Päivitä osoite",
       "cancel": "Peruuta",
       "edit": "Muokkaa",
       "delete": "Poista",
-      "delete_confirm": "Haluatko varmasti poistaa tämän osoitteen?"
+      "delete_confirm": "Oletko varma, että haluat poistaa tämän osoitteen?"
     },
     "log_in": "Kirjaudu sisään",
     "log_out": "Kirjaudu ulos",
@@ -452,25 +452,25 @@
       "guest_continue": "Jatka",
       "guest_title": "Jatka vieraana",
       "password": "Salasana",
-      "title": "Kirjautuminen",
+      "title": "Kirjautumistiedot",
       "sign_in": "Kirjaudu sisään",
-      "submit": "Lähetä",
+      "submit": "Lähetys",
       "alternate_provider_separator": "tai"
     },
     "orders": {
-      "title": "Tilaushistoria",
+      "title": "Tilausyhteenveto",
       "order_number": "Tilaus",
       "order_number_link": "Tilausnumero {{ number }}",
       "date": "Päivämäärä",
       "payment_status": "Maksun tila",
-      "fulfillment_status": "Tilauksen täyttämisen tila",
-      "total": "Yhteensä",
+      "fulfillment_status": "Toimitustila",
+      "total": "Täysi",
       "none": "Et ole vielä tehnyt tilauksia."
     },
     "recover_password": {
-      "title": "Nollaa salasanasi",
-      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan nollaamiseksi",
-      "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
+      "title": "Salasanan nollaus",
+      "subtext": "Lähetämme sinulle sähköpostin, jotta voit asettaa salasanasi uudelleen",
+      "success": "Olemme lähettäneet sinulle sähköpostin, jossa on linkki salasanasi nollaamiseksi."
     },
     "register": {
       "title": "Luo tili",
@@ -481,29 +481,29 @@
       "submit": "Luo"
     },
     "reset_password": {
-      "title": "Nollaa tilin salasana",
-      "subtext": "Syötä uusi salasana",
+      "title": "Tilin salasana nollattava uudelleen",
+      "subtext": "Anna uusi salasana",
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",
-      "submit": "Nollaa salasana"
+      "submit": "Salasanan nollaus"
     },
     "order": {
       "title": "Tilaus {{ name }}",
-      "date_html": "Tehty {{ date }}",
+      "date_html": "Julkaistu {{ date }}",
       "cancelled_html": "Tilaus peruutettu {{ date }}",
       "cancelled_reason": "Syy: {{ reason }}",
       "billing_address": "Laskutusosoite",
       "payment_status": "Maksun tila",
       "shipping_address": "Toimitusosoite",
-      "fulfillment_status": "Tilauksen täyttämisen tila",
+      "fulfillment_status": "Toimitustila",
       "discount": "Alennus",
       "shipping": "Toimitus",
-      "tax": "Vero",
+      "tax": "Verotus",
       "product": "Tuote",
-      "sku": "SKU-koodi",
+      "sku": "Tuotenumero",
       "price": "Hinta",
       "quantity": "Määrä",
-      "total": "Yhteensä",
+      "total": "Täysi",
       "fulfilled_at_html": "Jaeltu {{ date }}",
       "track_shipment": "Seuraa lähetystä",
       "tracking_url": "Seurantalinkki",
