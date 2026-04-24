@@ -2804,9 +2804,177 @@
             "address2": "Įveskite buto arba apartamentų numerį ir pan.",
             "city": "Įveskite vietą",
             "province": "Pasirinkite valstiją/provinciją",
-            "country": "Pasirinkite šalį/regioną"
+            "country": "Pasirinkite šalį/regioną",
+            "zip": "Įveskite ZIP arba pašto kodą",
+            "billing_first_name": "Įveskite vardą sąskaitos faktūros adresui",
+            "billing_address1": "Įveskite sąskaitos faktūros adresą",
+            "billing_address2": "Įveskite buto arba apartamentų numerį ir pan. sąskaitos faktūros adresui",
+            "billing_city": "Įveskite sąskaitos faktūros adreso vietą",
+            "billing_province": "Pasirinkite valstiją/provinciją sąskaitos adresui",
+            "billing_zip": "Pasirinkite ZIP arba pašto kodą sąskaitos adresui",
+            "contact_info": "Įveskite kontaktinius duomenis"
+          },
+          "formatting": {
+            "name_contains_emojis": "Pašalinti emociją iš savo vardo",
+            "postal_code_contains_emoji": "Pašalinti emociją pagal pašto kodą",
+            "first_name_too_long": "Vardas turi per daug raidžių",
+            "last_name_too_long": "Pavardėje yra per daug raidžių"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Jūsų pristatymo adresas yra neteisingas. Pasirinkite kitą adresą arba naudokite naują adresą.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} šiuo metu nėra prieinamas tavo užsakymui. Pasirink kitą atsiskaitymo būdą, kad tęstum pirkimą."
+          },
+          "discount_code": "Šios nuolaidos kodo taikyti negalima. Patikrinkite savo kodą ir bandykite dar kartą.",
+          "processing_error_checkout_as_guest": "Įvyko problema apdorojant jūsų mokėjimą. Bandykite dar kartą arba {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Būsite nukreipti į {{walletName}}, kad užbaigtumėte savo pirkimą",
+        "return_to_checkout": "Grįžti į atsiskaitymą",
+        "scrim": {
+          "continue_purchase_in_window": "Tęskite pirkimą lange {{walletName}}",
+          "and_return_to_checkout": "ir grįžti į atsiskaitymą"
+        },
+        "recovery_notice": "Įvyko klaida su tavo užsakymo duomenimis. Atnaujink duomenis, kad užbaigtum mokėjimą."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Pirmiausia patikrinkite savo kontaktinius duomenis prieš užbaigdami mokėjimą"
+      },
+      "store_credit_errors": {
+        "generic_error": "Įvyko problema su tavo parduotuvės kreditu. Pabandyk dar kartą arba atnaujink puslapį."
+      },
+      "note": {
+        "length_exceeds_maximum": "Įveskite pastabą, neviršijančią 5000 simbolių."
+      },
+      "billing": {
+        "billing_address_title": "Sąskaita faktūra į",
+        "same_as_shipping": "Toks pat kaip pristatymo adresas",
+        "delete": "Pašalinti",
+        "address_more": "Daugiau veiksmų šiam adresui",
+        "address_confirm": "Ar tikrai norite pašalinti šį adresą iš savo paskyros?",
+        "billing_address_rollup_accessibility_label": "Apmokėjimo parinktys"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Dovanų kuponas jau pritaikytas tavo užsakymui",
+          "insufficient_funds": "Šioje dovanų kortelėje nebeliko pinigų",
+          "expired": "Ši dovanų kortelė yra pasibaigusi galiojimo laikui",
+          "not_available": "Ši dovanų kortelė nebėra prieinama",
+          "currency_mismatch": "Priimami tik dovanų kuponai %{shop_currency} valiuta",
+          "generic": "Dovanų kupono pridėti prie atsiskaitymo nepavyko",
+          "throttle_limit_exceeded": "Jūs pasiekėte maksimalų bandymų skaičių. Pabandykite dar kartą vėliau.",
+          "no_longer_available": "Šios dovanų kortelės nebeįmanoma panaudoti šioje atsiskaitymo vietoje"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Įvyko problema įkeliant Shop Pay",
+          "try_again_later": "Patikrinkite savo ryšį arba uždarykite šį langą ir bandykite dar kartą po kelių akimirkų.",
+          "checkout_has_expired": "Jūsų atsiskaitymo sesija pasibaigė. Uždarykite šį langą ir bandykite dar kartą atsiskaityti {{shopName}}."
+        },
+        "title": "Apmokėti per Shop Pay"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Įmonės vietos parinktys"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Dovanų kupono kaina turi būti didesnė nei 0.",
+            "subtotal_limit_reached": "Pasiektas maksimalus užsakymo eilučių skaičius.",
+            "gift_card_price_must_not_exceed_limit": "Dovanų kupono kaina negali viršyti %{gift_card_limit}.",
+            "signature_mismatch": "Neteisingas parašas prekėms už taisyklę %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "Ne nukopijuota"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Užbaikite savo pirkimą naudodami {{paymentMethod}} kodą",
+        "timer_message": "Jums liko {{timeLeft}} sumokėti",
+        "header": "Mokėkite su {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Užbaikite savo pirkimą naudodami {{paymentMethod}} kodą"
+        },
+        "external": {
+          "instructions": "Patvirtinkite mokėjimą savo programėlėje, kad užbaigtumėte šį pirkimą"
+        },
+        "close": "Užbaik iššūkį",
+        "open_app_text": "Atidaryti {{paymentMethod}} programėlę"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Įvyko problema apdorojant jūsų užsakymą. Bandykite dar kartą po kelių minučių."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "De goedereninstructie %{position} %{name} turi tuščią stable-ID.",
+        "invalid_stable_id_target": "Prekės instrukcija %{position} %{name} nurodo stable-ID %{stable_id}, tačiau šis stable-ID nėra prekių eilutėse.",
+        "duplicate_variant_id": "Prekės instrukcija %{position} %{name} turi dvigubą varianto ID %{variant_id}.",
+        "invalid_variant_id_target": "Prekių instrukcija %{name} nurodo variantą su ID %{variant_id}, tačiau šis variantas nėra prekių eilutėse.",
+        "invalid_price_override_target": "Nurodymas perrašyti prekių kainą užsakymo eilutėje %{stable_id} yra neteisingas, nes tai yra komplekto komponentas.",
+        "discount_not_supported": "Prekybininkų instrukcija, kaip taikyti prekių nuolaidą, nepalaiko tokio tipo nuolaidos."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Šis produktas nėra prieinamas siuntimui į %{location_name}.",
+          "some_products_other": "Šie produktai nėra prieinami siuntimui į %{location_name}.",
+          "all_products_one": "Prekė jūsų krepšelyje negalima siųsti į %{location_name}.",
+          "all_products_other": "Prekės jūsų krepšelyje negalimos siuntimui į %{location_name}."
+        },
+        "missing_country_fallback": "jūsų šalis",
+        "indeterminate_location_fallback": "jūsų vieta",
+        "cart_updated": "Jūsų prekių krepšelis atnaujintas.",
+        "change_address_only": "Pakeiskite pristatymo adresą, kad tęstumėte.",
+        "empty_cart_action": "išvalykite krepšelį ir grįžkite į parduotuvę",
+        "remove_items_action": {
+          "one": "pašalinkite nepasiekiamą prekę",
+          "other": "pašalinkite neprieinamus straipsnius"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Jūs nebeturite teisės pateikti B2B užsakymų. %{logout_url} norėdami vietoje to pateikti asmeninį užsakymą.",
+        "lost_permissions_subtitle": "Jūs nebeturite teisės pateikti B2B užsakymų. Atsijunkite, kad galėtumėte pateikti asmeninį užsakymą.",
+        "lost_permissions_title": "Nėra vietos leidimų"
+      },
+      "units": {
+        "ounce": "oz",
+        "pound": "lb",
+        "fluid_ounce": "fl uncija (fluid ounce)",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "gal",
+        "inch": "į",
+        "foot": "ft",
+        "yard": "yd",
+        "square_foot": "ft²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Šis adresas nėra palaikomas esamam narystės lygiui.",
+        "items_split_across_locations_unsupported": "Prime pristatymas nėra prieinamas jūsų užsakymui. Jūsų siuntimo parinktys atnaujintos."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Naršyti internetinėje parduotuvėje"
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Šio produkto negalima pridėti į jūsų krepšelį, nes jis yra iš parduotuvės, kuri naudoja kitą valiutą.",
+          "max_remote_shops_exceeded": "Šio produkto negalima pridėti, nes jūsų krepšelyje jau yra maksimalus kiekis iš kitų parduotuvių.",
+          "currency_mismatch_removal": "Iš jūsų pirkinių krepšelio buvo pašalintas prekę, nes ji yra iš parduotuvės, kuri naudoja kitą valiutą.",
+          "only_remote_merchandise_lines": "Krepšelyje yra tik išoriniai produktai. Norint užbaigti atsiskaitymą, būtina pereiti į išorinę parduotuvę."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Užbaigti pirkimą",
+        "remote_only_notice": "Šie prekės parduodamos ir siunčiamos kitų parduotuvių. Eikite į kiekvienos parduotuvės kasą, kad užbaigtumėte pirkimą.",
+        "checkout_on_shop_label": "Atsiskaitymas %{shop_name}",
+        "single_shop_transition": "Jūs būsite nukreiptas į %{advertiser}, kad užbaigtumėte savo pirkimą.",
+        "detail_item_label": {
+          "one": "{{count}} straipsnis",
+          "other": "{{count}} straipsniai"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Šiai parduotuvei nėra pateikta %{policy_name}. Dėl daugiau informacijos tiesiogiai susisiekite su %{shop_name}."
       }
     }
   }
