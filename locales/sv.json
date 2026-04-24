@@ -654,7 +654,67 @@
             "additional_requested_discount_discarded": "Din rabatt är giltig men kan inte användas. Kontrollera villkoren för rabatter."
           },
           "tax": {
-            "new_tax_must_be_accepted": "De skatter som gäller för din beställning har ändrats. Kontrollera din beställning och försök igen."
+            "new_tax_must_be_accepted": "De skatter som gäller för din beställning har ändrats. Kontrollera din beställning och försök igen.",
+            "unresolvable_tax_terms": "De föreslagna villkoren är med tanke på den befintliga förhandlingssituationen inte genomförbara.",
+            "delivery_price_is_abstract": "Den aktuella kostnaden för leverans är abstrakt.",
+            "tax_inclusivity_mismatch": "Förhandla om igen med ett konkret värde för totalTaxAndDutyAmount eller totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "I den nuvarande förhandlingssessionen stöds inga skattebefrielser.",
+            "delivery_tax_exemption_not_supported": "Skatteundantag för leveransregler stöds för närvarande inte.",
+            "proposed_allocations_required": "Fältet 'föreslagna tilldelningar' saknas.",
+            "merchandise_terms_must_be_defined": "Definiera villkor för varor.",
+            "delivery_terms_must_be_defined": "Definiera villkor för leverans.",
+            "merchandise_discount_terms_must_be_defined": "Definiera villkor för varurabatt.",
+            "delivery_discount_terms_must_be_defined": "Definiera villkor för leveransrabatt.",
+            "allocated_required": "Fältet 'tilldelad' saknas.",
+            "value_required": "Fältet 'värde' saknas.",
+            "line_splits_not_supported": "Fältet 'varuposter' måste delas upp så att varje post har en egen del i säljarens förslag."
+          },
+          "payment": {
+            "positive_amount_expected": "Det belopp som ska betalas måste vara större än 0.",
+            "total_amount_mismatch": "Det totala beloppet att betala stämmer inte överens med summan av betalningarna.",
+            "subscription_terms_not_accepted": "Prenumerationsvillkor inte accepterade.",
+            "missing_session_id": "Information om kreditkortssession saknas.",
+            "gateway_not_supported": "Betalningsgatewayen stöder inte att spara betalningsmetoden.",
+            "credit_card_last_name_required": "'efternamn' får inte vara tomt.",
+            "credit_card_update_failed": "Uppdateringen av kreditkortet misslyckades.",
+            "invalid_address_type": "Den angivna adressypen är ogiltig för denna betalningsmetod.",
+            "missing_retail_attributions": "Detaljhandelsanvisningar krävs för manuellt inmatade kreditkortsbetalningar.",
+            "unexpected_retail_attributions": "Oväntade detaljhandelsfördelningar angivna för en kreditkortsbetalning.",
+            "invalid_card_source": "Denna session har inte behörighet att använda denna kartkälla.",
+            "wallet_content_missing": "Innehåll i plånboken saknas.",
+            "payment_instrument_not_found": "Kan inte hitta betalningsmetod",
+            "unauthorized_capture_method": "Konfiguration av metoden för att registrera betalningar är inte tillåten.",
+            "saved_payment_methods_not_allowed": "'Sparade betalningsmetoder' är inte tillåtet.",
+            "saved_payment_methods_not_enabled": "'Sparade betalningsmetoder' är inte aktiverat för denna butik.",
+            "store_credit_not_enabled": "Butikskredit är inte aktiverat för denna butik.",
+            "store_credit_account_not_found": "Butikskreditkonto hittades inte.",
+            "store_credit_account_mismatch": "Butikskreditkontot stämmer inte överens med köparens identitet.",
+            "store_credit_mismatched_currency": "Valutan på butikskreditkontot stämmer inte överens med valutan vid kassan.",
+            "store_credit_insufficient_funds": "Det finns inte tillräckligt med saldo på butikskreditkontot.",
+            "store_credit_buying_gift_card": "Med butikskredit kan du inte köpa presentkort.",
+            "gift_cards_not_allowed_for_b2b": "Presentkort är inte tillåtna i B2B-butiker.",
+            "paypal_express_address_invalid": "PayPal har returnerat en ogiltig adress.",
+            "saved_payment_methods_cvv_verification_disabled": "För den valda betalningsmetoden krävs CVV/CVC-verifiering, men det är inte aktiverat för denna butik. Använd en annan betalningsmetod."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Butiken tar inte emot dricks.",
+            "only_one_tip_line_allowed": "Flera marknadsregler stöds inte.",
+            "tips_not_allowed_for_b2b": "Dricks är inte tillåtna i B2B-butiker.",
+            "currency_change_reset": "Dricks har återställts på grund av en valutaförändring.",
+            "tips_not_allowed_for_deferred_purchase_options": "Dricks stöds ännu inte för uppskjutna köpval."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Denna konceptbeställning finns inte i den nuvarande butiken.",
+            "staff_member_not_exist": "Denna medarbetare är inte känd i den nuvarande butiken.",
+            "location_not_exist": "Denna plats finns inte i den nuvarande butiken.",
+            "point_of_sale_device_not_exist": "Denna försäljningsenhet finns inte i den nuvarande butiken.",
+            "unresolvable_target_merchandise_lines": "De föreslagna försäljningsfördelningarna kan inte lösas inom den befintliga förhandlingsramen."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Ditt köparförslag måste innehålla non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Fältet 'Mängd' saknas i köparens lagerposter."
           }
         }
       }
