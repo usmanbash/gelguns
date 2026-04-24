@@ -430,7 +430,79 @@
         "have_an_account_label": "Kas sul on konto?",
         "sign_in_link_label": "Logi sisse",
         "sign_out_link_label": "Logi välja",
-        "save_my_information_label": "Selle teabe salvestamine, et edaspidi kiiremini maksta"
+        "save_my_information_label": "Selle teabe salvestamine, et edaspidi kiiremini maksta",
+        "invalid_address": "Valitud aadress on kehtetu. %{update_address_link} või vali mõni teine aadress.",
+        "incomplete_address": "Valitud aadress on puudulik. %{update_address_link} või vali mõni teine aadress.",
+        "rollup_label": "Konto",
+        "invalid_shipping_method_summary": "Vali kehtiv tarneaadress, et näha saadaolevaid saatmisviise",
+        "saved_address_option_link": "Kasuta salvestatud aadressi",
+        "saved_address_modal_title": "Kasuta minu salvestatud aadressi",
+        "saved_address_option_description": {
+          "one": "Sul on {{count}} salvestatud aadress.",
+          "other": "Sul on {{count}} salvestatud aadressi."
+        },
+        "rollup_accessibility_label": "Konto valikud"
+      },
+      "stock": {
+        "page_title": "Laoseisu probleem",
+        "title": "Laoühikus puudub",
+        "items_unavailable_notice": "Mõned artiklid ei ole enam saadaval.",
+        "product_column_header": "Tooted",
+        "quantity_column_header": "Kogus",
+        "price_column_header": "Hind",
+        "status_column_header": "Staatus",
+        "removed_from_cart_notice": "Eemaldatud ostukorvist",
+        "sold_out_label": "Läbi müüdud",
+        "reduced_label": "Vähendatud",
+        "reduced_with_quantity_label": "Saadaval ainult %{quantity_available}",
+        "remove_from_cart_button_label": "Eemalda ostukorvist",
+        "continue_shopping_button_label": "Jätka",
+        "go_back_to_cart_button_label": "Tagasi minu ostukorvi",
+        "remove": "Eemalda",
+        "empty_cart_label": "Sinu ostukorv on tühi",
+        "quantity_update": {
+          "page_title": "Kogus uuendatud",
+          "title": "Kogus uuendatud",
+          "description": "Nende artiklite saadav kogus on muutunud ja sinu ostukorv on uuendatud."
+        },
+        "unpurchasable_product": {
+          "title": "Toodet ei saa osta",
+          "header": "Mõned esemed on sinu ostukorvist eemaldatud",
+          "message": "Need artiklid ei ole saadaval B2B tellimusteks.",
+          "status_column_header": "Pole saadaval"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Toodet ei saa osta",
+          "header": "Mõned esemed on sinu ostukorvist eemaldatud",
+          "message": "Need artiklid ei ole saadaval.",
+          "status_column_header": "Pole saadaval"
+        },
+        "unshippable_product": {
+          "title": "Kättetoimetamine pole saadaval",
+          "header": {
+            "one": "Tarne pole saadaval %{count} tootele",
+            "other": "Tarne ei ole saadaval %{count} tootele"
+          },
+          "message": {
+            "one": "See artikkel eemaldatakse sinu ostukorvist, kuna sinu aadressile ei ole kohaletoimetamise meetodeid saadaval.",
+            "other": "See artikkel eemaldatakse sinu ostukorvist, kuna sinu aadressile ei ole kohaletoimetamise meetodeid saadaval."
+          },
+          "status_column_header": "Geen kohaletoimetamine"
+        },
+        "price_update": {
+          "title": "Hinnauuendus",
+          "description": "Nende toodete hinnad on muudetud ja uuendatud sinu ostukorvis.",
+          "updated_price": "Uuendatud hind"
+        },
+        "return_to_store_label": "Tagasi poodi",
+        "item_label": {
+          "one": "{{count}} artikkel",
+          "other": "{{count}} artiklit"
+        },
+        "continue_cta_label": "Jätka kassasse minekuga",
+        "out_of_stock": {
+          "description": "Need tooted ei ole enam saadaval ja on eemaldatud sinu ostukorvist."
+        }
       }
     }
   },
