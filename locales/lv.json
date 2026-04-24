@@ -2760,7 +2760,75 @@
         "header": "Maksājiet ar {{paymentMethod}}",
         "qr_code": {
           "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu"
+        },
+        "external": {
+          "instructions": "Apstiprini maksājumu savā lietotnē, lai pabeigtu šo pirkumu"
+        },
+        "close": "Pieņem izaicinājumu",
+        "open_app_text": "Atveriet {{paymentMethod}} lietotni"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Radās problēma, apstrādājot jūsu pasūtījumu. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Norādījumi preču novietošanai %{position} %{name} satur tukšu stabilo ID.",
+        "invalid_stable_id_target": "Preču norādījums %{position} %{name} atsaucas uz stable-ID %{stable_id}, taču šī stable-ID nav preču rindās.",
+        "duplicate_variant_id": "De goedereninstrukcija %{position} %{name} satur dubultu variantu ID %{variant_id}.",
+        "invalid_variant_id_target": "Preču norādījums %{name} atsaucas uz variantu-ID %{variant_id}, bet šis variants neatrodas preču rindās.",
+        "invalid_price_override_target": "Norādījums pārrakstīt preces cenu pasūtījuma rindai %{stable_id} ir nederīgs, jo tā ir komplekta sastāvdaļa.",
+        "discount_not_supported": "Norādījumi tirgotājiem par preču atlaides piemērošanu neatbalsta šāda veida atlaidi."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Šis produkts nav pieejams piegādei uz %{location_name}.",
+          "some_products_other": "Šie produkti nav pieejami piegādei uz %{location_name}.",
+          "all_products_one": "Produkts jūsu iepirkumu grozā nav pieejams piegādei uz %{location_name}.",
+          "all_products_other": "Preces jūsu iepirkumu grozā nav pieejamas piegādei uz %{location_name}."
+        },
+        "missing_country_fallback": "tava zeme",
+        "indeterminate_location_fallback": "tava atrašanās vieta",
+        "cart_updated": "Jūsu iepirkumu grozs ir atjaunināts.",
+        "change_address_only": "Mainiet piegādes adresi, lai turpinātu.",
+        "change_address_or_remove": "Mainīt piegādes adresi vai %{remove_action}.",
+        "empty_cart_action": "iztukšojiet iepirkumu grozu un atgriezieties veikalā",
+        "remove_items_action": {
+          "one": "noņem nepieejamo preci",
+          "other": "noņemt nepieejamos priekšmetus"
         }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Jums vairs nav tiesību veikt B2B pasūtījumus. %{logout_url}, lai tā vietā veiktu personīgu pasūtījumu.",
+        "log_out_link_text": "Izrakstīties",
+        "lost_permissions_subtitle": "Jums vairs nav tiesību veikt B2B pasūtījumus. Izrakstieties, lai veiktu personīgu pasūtījumu.",
+        "lost_permissions_title": "Nav atrašanās vietas atļauju"
+      },
+      "units": {
+        "milligram": "mg",
+        "gram": "g",
+        "kilogram": "kg",
+        "milliliter": "ml",
+        "centiliter": "kl",
+        "liter": "l",
+        "cubic_meter": "m³",
+        "millimeter": "mm",
+        "centimeter": "cm",
+        "meter": "m",
+        "square_meter": "m²",
+        "ounce": "ozols",
+        "pound": "mārciņa",
+        "fluid_ounce": "šķidruma unca",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "galva",
+        "inch": "iekšā",
+        "foot": "ft",
+        "yard": "yd",
+        "square_foot": "kv.m",
+        "item": "raksts"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Šī adrese nav atbalstīta pašreizējai dalībniecībai.",
+        "items_split_across_locations_unsupported": "Prime-piegāde nav pieejama tavai pasūtījumam. Tavi sūtīšanas varianti ir atjaunināti."
       }
     }
   },
