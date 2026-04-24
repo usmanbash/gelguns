@@ -900,7 +900,127 @@
           "ddu_caption": "Var tikt piemērotas papildu izmaksas",
           "ddp_title": "Tagad maksāt",
           "ddp_caption": "Piegāde bez papildu maksas"
-        }
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} un %{current}"
+        },
+        "shipping_used_as_billing_notice": "Tas tiek izmantots arī kā jūsu rēķina adrese šim pasūtījumam.",
+        "address_update": "Adresi atjaunināt",
+        "shipping_address_title": "Sūtīt uz",
+        "add_address": "Izmantojiet citu adresi",
+        "add_delivery_instructions": "Piegādes norādījumu pievienošana",
+        "edit": "Rediģēt",
+        "delete": "Noņemt",
+        "address_more": "Vairāk piedāvājumu šai adresei",
+        "address_edit": "Rediģēt adresi",
+        "address_delete": "Dzēst adresi",
+        "address_confirm": "Vai tiešām vēlies no sava konta dzēst šo adresi?",
+        "address_form": {
+          "add_address": "Pievienot adresi",
+          "save": "Saglabāt",
+          "cancel": "Atcelt",
+          "generic_error": "Radās problēma, saglabājot tavu adresi. Lūdzu, mēģini vēlreiz.",
+          "one_time_address_subtitle": "Izmantot vienu adresi šim pasūtījumam",
+          "edit": "Rediģēt adresi",
+          "update": "Saglabāt izmaiņas"
+        },
+        "different_shipping_method_summary": "Ievadiet citu piegādes adresi, lai skatītu pieejamās piegādes metodes",
+        "invalid_shipping_method_summary": "Ievadiet derīgu piegādes adresi, lai redzētu pieejamās piegādes metodes",
+        "method_summary": {
+          "incomplete_address_entered": "Ievadiet pilnu piegādes adresi, lai redzētu pieejamās piegādes metodes",
+          "incomplete_address_selected": "Izvēlieties pilnu piegādes adresi, lai redzētu pieejamās piegādes metodes"
+        },
+        "local_pickup": {
+          "search_address": "Meklēt adresi",
+          "rollup_title": "Izdalīšanas vieta",
+          "rollup_accessibility_label": "Izvēles saņemšanas vietai"
+        },
+        "missing_shipping_address": "Piegādes adrese nav norādīta",
+        "delivery_title": "Piegāde",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Pirmā sūtījuma piegāde",
+          "other": "Pirmās sūtījuma partijas"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Atkārtota sūtījuma piegāde",
+          "other": "Atkārtotas sūtīšanas"
+        },
+        "address_default": "Iestatīt kā noklusējumu",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} preces",
+        "split_shipping_merchandise_quantity_label_additional": "+ atlikums %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Sūtījums %{number} no %{total}",
+        "pre_order_ships_now": "Tagad tiek sūtīts",
+        "pre_order_ships_later": "Tiks nosūtīts vēlāk",
+        "pre_order_ships_date": "Tiks nosūtīts %{date}",
+        "split_shipping_shipped_by_shop": "Nosūtīts no %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Vairāki sūtījumi",
+        "split_shipping_shipping_label": "Gudrs",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} sūtījumi",
+        "split_shipping_multiple_shipment_notice": "Pasūtījums tiks piegādāts vairākās sūtījumos",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Jūsu pasūtījums tiks piegādāts %{quantity} sūtījumos",
+        "split_shipping_more_shipping_options": "Vairāk piegādes iespēju",
+        "split_shipping_shipment_number": "Nosūtīšana %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Skaits: %{quantity}",
+        "split_shipping_option_free": "Bezmaksas piegāde",
+        "split_shipping_option_lowest_price": "Zemākā cena",
+        "split_shipping_option_fastest": "Ātrākais",
+        "split_shipping_option_recommended": "Ieteicams",
+        "split_shipping_option_custom": "Pielāgots",
+        "default_description": "Tiks nosūtīts vienas darba dienas laikā",
+        "split_shipping_shipment_notice": "Jūs saņemsiet savu pasūtījumu %{quantity_shipments} piegādēs",
+        "unbranded_default_description": "Gatavs nosūtīšanai",
+        "prime_not_available": {
+          "default": "Prime-piegāde nav pieejama tavai pasūtījumam. Tavi sūtīšanas varianti ir atjaunināti."
+        },
+        "split_shipping_first_shipment_notice": "Tu saņemsi savu pirmo pasūtījumu pēc %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Sūtīšanas metodes izvēles iespējas",
+        "shipping_address_rollup_accessibility_label": "Izvēles iespējas sūtīšanai uz adresi",
+        "back": "Atpakaļ",
+        "invalid_shipping_method_summary_selected": "Izvēlieties citu piegādes adresi, lai skatītu pieejamās piegādes metodes",
+        "third_party_address_timeout": "Neizdevās ielādēt adresi. Mēģiniet vēlreiz vai izmantojiet citu adresi.",
+        "third_party_address_error": "Radās kļūda, ielādējot adreses izvēli. Lūdzu, ievadi savu adresi zemāk manuāli.",
+        "third_party_payment_timeout": "Neizdevās ielādēt maksāšanas veidus. Mēģiniet vēlreiz vai izmantojiet citu maksāšanas veidu.",
+        "third_party_payment_error": "Radās kļūda, ielādējot maksājuma izvēli. Lūdzu, izmantojiet citu maksāšanas veidu.",
+        "add_shipping_address": "Piegādes adreses pievienošana",
+        "choose_new_address": "Izvēlieties jaunu adresi",
+        "unbranded_description_same_day": "Tiks nosūtīts tajā pašā darba dienā",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Tiks nosūtīts nākamajā darba dienā",
+          "other": "Tiks nosūtīts %{count} darba dienu laikā"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Tiks nosūtīts pēc %{count} nedēļas",
+          "other": "Tiks nosūtīts pēc %{count} nedēļām"
+        },
+        "add_new_delivery_address": "Pievienot jaunu piegādes adresi",
+        "delivery_to": "Piegāde uz"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Maksājums",
+        "amazon_payments_login_hint": "Jūs tiekat aicināts pierakstīties Amazon vietnē.",
+        "amazon_payments_logout": "Izrakstīties no Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Izvēlēto maksāšanas veidu nevar izmantot. Lūdzu, izvēlieties citu veidu vai sazinieties ar savu banku vai kartes izdevēju.",
+        "amazon_payments_abandoned_mfa_challenge": "Jūsu maksājums nevarēja tikt pabeigts. Mēģiniet citu maksāšanas veidu vai sazinieties ar savu banku vai kartes izdevēju.",
+        "amazon_payments_could_not_enqueue_authorize": "Radās problēma, apstrādājot jūsu maksājumu. Lūdzu, mēģiniet vēlreiz vai izmantojiet citu maksāšanas veidu.",
+        "title": "Apmaksa",
+        "amount_left_to_pay_label": "Parādā summa:",
+        "discount_button_action_label": "Ievadiet atlaižu kodu",
+        "gift_card_code_label": "Dāvanu kupona kods",
+        "apply_gift_card_button_label": "Pielietot",
+        "gift_card_balance_label": "Saldo:",
+        "supported_card_brands_more_label": "un vēl vairāk…",
+        "detected_card_brand": "Atpazītais kartes veids: {brand}",
+        "card_number_label": "Kartes numurs",
+        "card_number_placeholder": "Kartes numurs",
+        "card_pay_with": "Maksājiet ar:",
+        "card_security_notice": "Visas darījumi ir aizsargāti un šifrēti.",
+        "name_on_card_label": "Vārds uz kartes",
+        "name_on_card_placeholder": "Vārds uz kartes",
+        "card_expiry_label": "Derīguma termiņš (MM/GG)",
+        "card_expiry_placeholder": "Derīguma termiņš (MM/GG)",
+        "card_verification_value_label": "Drošības kods",
+        "card_verification_value_placeholder": "Drošības kods",
+        "card_expiry_date_explanation": "Kartes derīguma termiņa sadalījums: mēnesis, mēnesis, gads, gads"
       }
     }
   },

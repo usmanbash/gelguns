@@ -2084,7 +2084,71 @@
         "thank_you_ready_for_picked_up": "Užsakymas atsiimtas %{address}.",
         "ready_for_delivery": "Paruošta pristatymui",
         "order_updates_subscribe_to_email_notifications_failed": "Negalime išsaugoti šio el. pašto adreso atnaujinimams. Bandykite dar kartą arba naudokite kitą el. pašto adresą.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "Įvestas el. pašto adresas jau egzistuoja."
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Įvestas el. pašto adresas jau egzistuoja.",
+        "subscriptions_management": {
+          "description": "Eikite į savo paskyrą, kad peržiūrėtumėte ir valdytumėte savo prenumeratas.",
+          "button_label": "Tvarkyti prenumeratą"
+        },
+        "manage_order_label": "Tvarkyti jūsų užsakymą",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Po kelių minučių gausite SMS su savo dovanų kuponu.",
+          "other": "Po kelių minučių gausite SMS su savo dovanų kuponais."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Po kelių minučių gausite SMS su savo dovanų kuponu.",
+          "other": "Po kelių minučių gausite SMS su savo dovanų kuponais."
+        },
+        "gift_card_email_title": {
+          "one": "Dovanų kuponas išsiųstas el. paštu",
+          "other": "Dovanų kuponai buvo išsiųsti el. paštu"
+        },
+        "gift_card_text_title": {
+          "one": "Dovanų kuponas išsiųstas SMS žinute",
+          "other": "Dovanų kuponai išsiųsti SMS žinute"
+        },
+        "resend_gift_cards_by_email": "Siųsti el. laišką dar kartą",
+        "resend_gift_cards_by_text": "Siųsti SMS dar kartą",
+        "gift_card_resent_confirmation": {
+          "one": "Dovanų kuponas buvo išsiųstas iš naujo.",
+          "other": "Dovanų kuponai buvo išsiųsti dar kartą."
+        },
+        "gift_card_resend_failure": {
+          "one": "Įvyko problema bandant išsiųsti tavo dovanų kuponą iš naujo. Pabandyk dar kartą arba susisiek su mumis.",
+          "other": "Įvyko problema bandant išsiųsti tavo dovanų kuponus iš naujo. Pabandyk dar kartą arba susisiek su mumis."
+        },
+        "failed_pending_payment_page_title": "Yra problema su jūsų mokėjimu",
+        "thank_you_title_payments_app_pending_default": "Mokėjimas apdorojamas",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Mes gavome jūsų užsakymą",
+        "thank_you_title_payments_app_failed_pending_payment": "Jūsų mokėjimo negalima apdoroti",
+        "thank_you_payments_app_failed_pending_payment": "Jūsų užsakymas dar neapmokėtas. Grįžkite į savo krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Netrukus gausite patvirtinimo el. laišką. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Netrukus gausite patvirtinimo el. laišką. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Netrukus gausite patvirtinimo SMS. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Baigus mokėjimą, gausite patvirtinimo SMS žinutę. Savo užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_failed_pending_payment": "Jūsų užsakymas dar neapmokėtas. Grįžkite į savo krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "thank_you_confirmed_order_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "thank_you_confirmed_order_with_draft_payment": "Mes pranešime, jei reikės daugiau informacijos arba kai užsakymas bus patvirtintas.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Mes pranešime, jei reikės daugiau informacijos arba kai užsakymas bus patvirtintas.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Užsakymas dar neapmokėtas. Grįžkite į prekių krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Užsakymas dar neapmokėtas. Grįžkite į prekių krepšelį, kad patikrintumėte ir apmokėtumėte užsakymą.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Netrukus gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Netrukus gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Netrukus gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Netrukus gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Netrukus gausite patvirtinimo SMS. Užsakymą galite sekti per Shop programėlę.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Netrukus gausite patvirtinimo SMS. Užsakymą galite sekti per Shop programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Susisiekite su mumis el. paštu arba telefonu dėl užsakymo patvirtinimo.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Baigus mokėjimą, gausite patvirtinimo el. laišką. Užsakymą galite sekti per „Shop“ programėlę."
       }
     }
   }
