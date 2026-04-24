@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -549,6 +558,72 @@
       "send_on_label": "Išsiuntimo data (pasirinktinai)",
       "expanded": "Išskleista dovanų kortelės gavėjo forma",
       "collapsed": "Suskleista dovanų kortelės gavėjo forma"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "lt",
+      "last_word_connector": ", lt"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Atsiskaitymas",
+        "skip_to_content": "Eiti tiesiai prie turinio",
+        "breadcrumb": "Duonos trupiniai",
+        "complete_purchase_button_label": "Užsakymo užbaigimas",
+        "pay_now_button_label": "Dabar mokėti",
+        "authenticate_purchase_button_label": "Patvirtinti mokėjimą",
+        "edit_link_label": "Keisti",
+        "cart": "Prekių krepšelis",
+        "expand_notice_label": "Peržiūrėti daugiau",
+        "continue_to_shipping_method": "Tęsti siuntimą",
+        "continue_to_payment_method": "Eiti į apmokėjimą",
+        "continue_to_review": "Užsakymo peržiūra",
+        "back_to_contact_information": "Grįžti į informaciją",
+        "back_to_shipping_method": "Grįžti į siuntimą",
+        "back_to_payment_method": "Grįžti prie apmokėjimo",
+        "choose_shipping_method": "Pasirinkite siuntimo būdą",
+        "choose_payment_method": "Pasirinkite mokėjimo būdą",
+        "choose_billing_address": "Pasirinkite sąskaitos adresą",
+        "contact_us_html": "Susisiekite su mumis dėl daugiau informacijos",
+        "autocomplete_single_item": "1 prekė prieinama",
+        "autocomplete_multi_item": "{{number}} straipsnių prieinama",
+        "autocomplete_close": "Uždaryti pasiūlymus",
+        "forwarding_indicator": {
+          "new_window": "Bus atidaryta naujame lange.",
+          "external": "Atidaryti išorinį tinklalapį.",
+          "external_and_new_window": "Atidaryti išorinį tinklalapį naujame lange."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Atsiskaitymas"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Įvyko klaida apdorojant jūsų užsakymą. Bandykite dar kartą atsiskaityti.",
+          "line_item_limit_reached": "Pasiektas maksimalus užsakymo eilučių skaičius.",
+          "only_empty_terms_accepted": "Ši politika priima tik tuščias sąlygas.",
+          "session_is_already_finished": "Ši atsiskaitymo sesija jau baigta.",
+          "merchandise": {
+            "only_value_constraint": "Įvedant prekes leidžiamos tik tikslios reikšmės.",
+            "merchandise_variant_not_found": "Produkto varianto nerasta.",
+            "merchandise_not_applicable": "Prekės variantas negali būti nupirktas.",
+            "bundle_products_not_supported_for_b2b": "Negalite pridėti sujungtų prekių prie B2B užsakymų šiai vietai.",
+            "gift_card_quantity_mismatch": "Kai įvedate dovanų kuponų kodus, užsakymo eilutės kiekiai turi atitikti dovanų kuponų kodų skaičių.",
+            "gift_card_not_supported": "Šiame atsiskaitymo lange dovanų kuponai nepalaikomi.",
+            "gift_card_not_unique": "Dovanų kuponas su kodu {{code}} pasirodo kelis kartus šiame atsiskaityme. Kodai yra suformuojami prieš palyginimą.",
+            "gift_card_used": "Dovanų kupono kodas {{code}} jau priskirtas dovanų kuponui. Kodai yra sugeneruojami prieš palyginimą.",
+            "gift_card_invalid": "Dovanų kupono kodas {{code}} yra neteisingas.",
+            "gift_card_code_changed": "Dovanų kupono kodas {{proposed_code}} pagal formatavimo taisykles pakeistas į {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Šiame atsiskaitymo lange nepalaikomos dovanų kortelės su pritaikytais parametrais.",
+            "gift_card_with_components_not_supported": "Šiame atsiskaitymo lange nepalaikomos dovanų kortelės su komponentais.",
+            "selling_plan_not_supported": "Prenumeratos nėra palaikomos.",
+            "selling_plan_not_supported_b2b": "B2B atsiskaitymui prenumeratos nėra palaikomos.",
+            "price_mismatch": "Anksčiau siūlyta šių prekių kaina buvo neteisinga ir buvo atnaujinta.",
+            "inventory_not_found": "Prekių sandėlyje nerasta.",
+            "product_not_published": "Produktas nėra paskelbtas.",
+            "duplicated_stable_id": "Ši prekių linija turi tą patį stable-ID kaip ir kita linija."
+          }
+        }
+      }
     }
   }
 }

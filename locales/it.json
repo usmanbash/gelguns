@@ -2993,7 +2993,99 @@
     "page_titles": {
       "create_account": "Crea un account",
       "reset_account": "Reimposta account",
-      "order": "Ordina %{name}"
+      "order": "Ordina %{name}",
+      "search": "Cerca",
+      "not_found": "404 non trovato",
+      "checkpoint": "Punto di controllo",
+      "search_results": {
+        "one": "Ricerca: %{count} risultato trovato per '%{terms}'",
+        "other": "Ricerca: %{count} risultati trovati per '%{terms}'"
+      },
+      "blog_or_article_with_error": "Errore - %{title}"
+    },
+    "challenge": {
+      "message": "Facci sapere che non sei un robot per continuare.",
+      "error": "La tua risposta non è corretta, riprova.",
+      "submit_button_text": "Spedire"
+    },
+    "checkpoint": {
+      "message": "Disattiva il captcha per continuare",
+      "error": "verifica captcha fallita",
+      "submit_button_text": "Spedire"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Grazie per esserti iscritto alla nostra lista di distribuzione.",
+        "disclaimer": "Puoi annullare l'iscrizione in qualsiasi momento desideri.",
+        "unsubscribe": "Disconnettersi"
+      },
+      "unsubscribed": {
+        "confirmation": "Ti sei cancellata dalla nostra lista di distribuzione.",
+        "disclaimer": "Non riceverai più aggiornamenti di marketing da parte nostra. Puoi iscriverti nuovamente in qualsiasi momento.",
+        "preview": "Stai visualizzando un esempio di ciò che i clienti vedranno quando si disiscrivono."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Hai dato il consenso al tracciamento dell'apertura delle email.</b>",
+          "visibility": "Le percentuali di apertura delle e-mail vengono riportate in forma anonima. Vedremo solo se hai aperto un'e-mail come parte di una percentuale aggregata di aperture delle e-mail.",
+          "opt_out_html": "Puoi <a style='text-decoration:underline;' href='%{link}'>disiscriverti</a> dal tracciamento apertura email se non desideri condividere queste informazioni.",
+          "preview_bar": "Stai visualizzando un esempio di ciò che i clienti vedono quando acconsentono a ricevere e-mail con tracciamento aperto."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Hai disattivato il monitoraggio dell'apertura delle e-mail.</b>",
+          "visibility": "Non vediamo se hai aperto le nostre e-mail.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Dare il consenso</a> per il tracciamento aperto delle email.",
+          "preview_bar": "Stai visualizzando un esempio di ciò che i clienti vedono quando si disiscrivono dalla ricezione di e-mail sul tracciamento aperto."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Non monitoriamo più se le e-mail vengono aperte.</b>",
+          "privacy_policy": "Dopo l'invio di questa e-mail, abbiamo aggiornato la nostra politica sulla privacy e non monitoriamo più l'apertura delle e-mail."
+        },
+        "track": {
+          "status_html": "<b>Il tracciamento dell'apertura delle e-mail viene segnalato.</b>",
+          "visibility": "Vedremo se hai aperto l'email solo come parte della percentuale totale di aperture delle email."
+        },
+        "updated_policy": {
+          "status_html": "<b>Il tracciamento dell'apertura delle e-mail viene segnalato.</b>",
+          "visibility": "Abbiamo aggiornato la nostra politica e ora monitoriamo le e-mail aperte. Le percentuali di apertura delle e-mail vengono riportate in forma anonima. Vedremo solo se hai aperto un'e-mail, come parte della percentuale totale di apertura delle e-mail.",
+          "opt_out_html": "Se non desideri più condividere queste informazioni, puoi <a style='text-decoration:underline;' href='%{link}'>disiscriverti</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Sei sicuro di voler annullare l'iscrizione al marketing via SMS?",
+        "button": "Disconnettersi"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Di solito pronto entro 1 ora",
+        "two_hours": "Di solito pronto entro 2 ore",
+        "four_hours": "Di solito pronto entro 4 ore",
+        "twenty_four_hours": "Di solito pronto entro 24 ore",
+        "two_to_four_days": "Di solito pronto entro 2-4 giorni",
+        "five_or_more_days": "Di solito pronto in più di 5 giorni",
+        "zero_to_two_hours": "Di solito pronto entro 2 ore",
+        "two_to_four_hours": "Di solito pronto entro 4 ore",
+        "immediately": "Pronto per il ritiro ora"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Non disponibile"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Rilevanza",
+        "price_ascending": "Prezzo: dal più basso al più alto",
+        "price_descending": "Prezzo: dal più alto al più basso"
+      },
+      "error": "Si è verificato un problema durante il caricamento dei risultati della ricerca. Ricarica la pagina o riprova più tardi."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Questo articolo è un acquisto ricorrente o differito. Procedendo, accetto la %{cancellationPolicyLink} e autorizzo anche a addebitare i prezzi indicati sul mio metodo di pagamento, con la frequenza e le date indicate, fino a quando il mio ordine non sarà completato o fino a quando non annullerò, se consentito."
     }
   }
 }
