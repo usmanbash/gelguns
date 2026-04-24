@@ -3955,7 +3955,91 @@
         "card_start_label": "Julkaisupäivä (KK/VV)",
         "card_start_placeholder": "Julkaisupäivä (KK/VV)",
         "tooltip": {
-          "card_verification_value_explanation_amex": "Korttisi etupuolella oleva nelinumeroinen turvakoodi"
+          "card_verification_value_explanation_amex": "Korttisi etupuolella oleva nelinumeroinen turvakoodi",
+          "card_verification_value_explanation_other": "Kolminumeroinen turvakoodi korttisi takapuolella",
+          "card_verification_value_explanation": "Kolminumeroinen turvakoodi, joka löytyy yleensä korttisi takapuolelta. American Expressillä on nelinumeroinen koodi kortin etupuolella.",
+          "card_security_notice": "Kaikki tapahtumat ovat suojattuja ja salattuja."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Syötä nimesi kuten se on kortissasi",
+          "credit_card_number_invalid": "Syötä kelvollinen korttinumero",
+          "credit_card_expiry_invalid": "Anna kortille voimassa oleva vanhentumispäivä",
+          "credit_card_verification_value_blank": "Syötä korttisi CVV/CVC- tai turvakoodi"
+        },
+        "unavailable": {
+          "text": "Luottokortilla ja pankkikortilla maksaminen ei ole tällä hetkellä käytettävissä.",
+          "link_text": "Päivitä tämä sivu"
+        }
+      },
+      "add_payment_method": {
+        "title": "Maksutavan lisääminen",
+        "billing_address": {
+          "missing_billing_address_error_message": "Anna laskutusosoite"
+        },
+        "replace_mode_warning": "Jos poistat tämän maksutavan, sillä on vaikutusta tilauksiin tai ennakkotilauksiin. Vaihda se toiseen maksutapaan, jotta voit jatkaa tulevien tilausten vastaanottamista.",
+        "subscription_contracts": {
+          "title": "Maksutavan käyttäminen toistuvissa tilauksissa",
+          "more_items": {
+            "one": "Nog {{count}} tuotetta",
+            "other": "Nog {{count}} tuotetta"
+          },
+          "product_count": {
+            "one": "{{count}} tuotetta"
+          }
+        },
+        "contracts_update_failed": "Joitakin tilaus­sopimuksia ei voitu päivittää",
+        "subscription_contracts_updated": "{{succeeded}} / {{total}} tilausta päivitetty",
+        "invalid_wallet_type_error": "Virheellinen digitaalisen lompakon tyyppi",
+        "updating_contracts": {
+          "one": "{{count}} tilaus sopimus päivitetään...",
+          "other": "{{count}} tilaus-sopimusta päivitetään..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} tilaus on päivitetty",
+          "other": "{{count}} tilaus sopimusta on päivitetty"
+        }
+      },
+      "credit_or_debit_card_title": "Luottokortti tai pankkikortti",
+      "google_pay": {
+        "errors": {
+          "generic": "Google Payn kanssa ilmeni ongelma. Yritä uudelleen tai käytä toista maksutapaa.",
+          "missing_billing_address": "Google Payta varten tarvitset laskutusosoitteen. Lisää se tilillesi."
+        },
+        "loading": "Google Payn lataaminen",
+        "iframe_title_accessibility_label": "Lisää Google Pay -maksutapa",
+        "loading_accessibility_message": "Google Payn lataaminen"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay -lataus",
+        "errors": {
+          "not_available": "Apple Pay ei ole käytettävissä tässä laitteessa.",
+          "missing_billing_address": "Apple Payta varten tarvitset laskutusosoitteen. Lisää se tilillesi."
+        }
+      },
+      "add_payment_method_banner": "Lisää maksutapa nopeampaa kassalle siirtymistä ja ennakkoon valtuutusta varten",
+      "edit_payment_method_button_accessibility_label": "Muokkaa {{paymentMethodName}}, joka päättyy numeroihin {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Muokkaa {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Näytä petosvaroitus maksutavalle {{paymentMethodName}}, joka päättyy numeroihin {{lastDigits}}",
+      "no_payment_methods_banner": "Maksutapoja lisätty",
+      "default": "Vakio",
+      "store_credit": {
+        "label": "Ostohyvitys",
+        "accesibility_label": "Ostohyvitys - {{formattedBalance}}",
+        "expirable_amounts_button": "Erääntyvät summat tarkasteltavaksi",
+        "details_modal": {
+          "title": "Kauppasaldo, joka vanhenee",
+          "expiration_date_label": "Voimassaolopäivä",
+          "expirable_balance_info": "Osa saldosta vanhenee tulevana ajankohtana.",
+          "expirable_amount_label": "Kokonaismäärä, joka erääntyy vanhentumaan",
+          "expirable_amounts_info": "Aiemmin vanhentuneet summat käytetään ensin kassalla.",
+          "expired_amounts_button": "Vanhentuneiden summien tarkastelu",
+          "pagination": {
+            "load_more_accessibility_label": "Lisää erääntyviä summia lataamassa"
+          },
+          "expirable_amounts_button": "Katso",
+          "events": {
+            "adjustment": "Muutos"
+          }
         }
       }
     }
