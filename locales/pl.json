@@ -1974,7 +1974,81 @@
         "order_status_confirmed_order_local": "Przygotowujemy twoje zamówienie do dostawy.",
         "gift_card_sent_confirmation": "Wysłano bony podarunkowe",
         "out_for_delivery_local_title": "Twoje zamówienie jest gotowe do dostarczenia",
-        "out_for_delivery_local_description_html": "Wkrótce otrzymasz swoje zamówienie."
+        "out_for_delivery_local_description_html": "Wkrótce otrzymasz swoje zamówienie.",
+        "delivered_local_description_html": "Nie otrzymałeś jeszcze swojego zamówienia? %{let_us_know}.",
+        "let_us_know": "Daj nam znać",
+        "qr_code": {
+          "title": "Śledź na swoim telefonie",
+          "send_link_to_phone": "Lub wyślij link na swój telefon"
+        },
+        "gift_card_confirmation_by_text": "Jeśli nie otrzymałeś tego, poproś o ponowne wysłanie wiadomości SMS lub skontaktuj się z nami.",
+        "gift_card_confirmation_by_email": "Jeśli nie otrzymałeś tego, poproś o ponowne wysłanie wiadomości e-mail lub skontaktuj się z nami.",
+        "gift_card_title": "Bony podarunkowe",
+        "resend_gift_cards": "Ponowne wysłanie bonów podarunkowych",
+        "attempted_delivery_local_title": "Nieudana dostawa",
+        "attempted_delivery_local_description_html": "Niestety nie udało nam się dostarczyć Twojego zamówienia. %{contact_us}, aby zaplanować inną dostawę.",
+        "thank_you_title_payment": "Twoja płatność została potwierdzona",
+        "thank_you_confirmed_order_with_email_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skanuj telefonem"
+          },
+          "sms": {
+            "title": "Lub wyślij link na swój telefon"
+          }
+        },
+        "estimated_delivery": "Aktualne szacowanie dostawy:",
+        "thank_you_title_review": "Twoje zamówienie zostało przesłane do oceny",
+        "thank_you_confirmed_order_with_draft": "Poinformujemy Cię, gdy będziemy potrzebować więcej informacji lub gdy Twoje zamówienie zostanie potwierdzone.",
+        "breadcrumbs_submitted": "Złożono",
+        "breadcrumbs_in_review": "Do oceny",
+        "breadcrumbs_confirmed": "Potwierdzono",
+        "missing_shipping_address_banner": {
+          "title": "Zamówienie nie ma adresu dostawy"
+        },
+        "order_status_confirmed_with_installments_payment_confirm": "Wkrótce otrzymasz e-mail potwierdzający z numerem zamówienia oraz szczegółami twojego harmonogramu płatności ratalnych.",
+        "first_payment_complete": "Pierwsza płatność zakończona",
+        "in_store_purchase": "Zakup w sklepie",
+        "choose_payment_method_later": "Wybierz metodę płatności później",
+        "thank_you_ready_for_picked_up": "Zamówienie zostało odebrane pod adresem %{address}.",
+        "ready_for_delivery": "Gotowe do dostarczenia",
+        "order_updates_subscribe_to_email_notifications_failed": "Nie możemy zapisać tego adresu e-mail do aktualizacji. Spróbuj ponownie lub użyj innego adresu e-mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Adres e-mail, który wpisałeś, już istnieje.",
+        "subscriptions_management": {
+          "description": "Przejdź dalej do swojego konta, aby przeglądać i zarządzać swoimi subskrypcjami.",
+          "button_label": "Zarządzaj swoim abonamentem"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Za kilka minut otrzymasz wiadomość SMS z bonem podarunkowym.",
+          "other": "Za kilka minut otrzymasz wiadomość SMS z twoimi bonami upominkowymi."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Za kilka minut otrzymasz wiadomość SMS z bonem podarunkowym.",
+          "other": "Za kilka minut otrzymasz wiadomość SMS z twoimi bonami upominkowymi."
+        },
+        "gift_card_email_title": {
+          "one": "Bon podarunkowy został wysłany e-mailem",
+          "other": "Bony podarunkowe zostały wysłane e-mailem"
+        },
+        "gift_card_text_title": {
+          "one": "Cadeaubon został wysłany przez sms",
+          "other": "Bony podarunkowe zostały wysłane SMS-em"
+        },
+        "resend_gift_cards_by_email": "Wyślij e-mail ponownie",
+        "resend_gift_cards_by_text": "Wyślij SMS ponownie",
+        "gift_card_resent_confirmation": {
+          "one": "Bon podarunkowy został ponownie wysłany.",
+          "other": "Bony podarunkowe zostały ponownie wysłane."
+        },
+        "gift_card_resend_failure": {
+          "one": "Wystąpił problem podczas ponownego wysyłania twojego bonu podarunkowego. Spróbuj ponownie lub skontaktuj się z nami.",
+          "other": "Wystąpił problem podczas ponownego wysyłania twoich bonów podarunkowych. Spróbuj ponownie lub skontaktuj się z nami."
+        }
       }
     }
   }

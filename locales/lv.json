@@ -2903,10 +2903,82 @@
               "nl": "Nīderlandes PVN identifikācijas numurs satur NL un 12 rakstzīmes",
               "pl": "Polijas PVN identifikācijas numurs satur PL un 10 rakstzīmes",
               "pt": "Portugāles PVN identifikācijas numurs satur PT un 9 rakstzīmes",
-              "ro": "Rumānijas PVN identifikācijas numurs satur RO un 10 rakstzīmes"
+              "ro": "Rumānijas PVN identifikācijas numurs satur RO un 10 rakstzīmes",
+              "sk": "Slovākijas PVN identifikācijas numurs satur SK un 10 rakstzīmes",
+              "si": "Slovēnijas PVN identifikācijas numurs satur SI un 8 rakstzīmes",
+              "es": "Spānijas PVN identifikācijas numurs satur ES un 9 rakstzīmes",
+              "se": "Zviedrijas PVN identifikācijas numurs satur SE un 12 zīmes",
+              "gb": "Lielbritānijas PVN identifikācijas numurs satur GB vai XI un 5–12 rakstzīmes"
+            },
+            "invalid_number": {
+              "at": "Ievadiet derīgu Austrijas PVN identifikācijas numuru",
+              "be": "Ievadiet derīgu Beļģijas PVN identifikācijas numuru",
+              "bg": "Ievadiet derīgu Bulgārijas PVN identifikācijas numuru",
+              "hr": "Ievadiet derīgu Horvātu PVN identifikācijas numuru",
+              "cy": "Ievadiet derīgu Kipras PVN identifikācijas numuru",
+              "cz": "Ievadiet derīgu Čehijas PVN identifikācijas numuru",
+              "dk": "Ievadiet derīgu Dāņu PVN identifikācijas numuru",
+              "ee": "Ievadiet derīgu Igaunijas PVN identifikācijas numuru",
+              "fi": "Ievadiet derīgu Somijas PVN identifikācijas numuru",
+              "fr": "Ievadiet derīgu Francijas PVN identifikācijas numuru",
+              "de": "Ievadiet derīgu Vācijas PVN identifikācijas numuru",
+              "gr": "Ievadiet derīgu Grieķijas PVN identifikācijas numuru",
+              "hu": "Ievadiet derīgu Ungārijas PVN identifikācijas numuru",
+              "ie": "Ievadiet derīgu Īrijas PVN identifikācijas numuru",
+              "it": "Ievadiet derīgu Itālijas PVN identifikācijas numuru",
+              "lv": "Ievadiet derīgu Latvijas PVN identifikācijas numuru",
+              "lt": "Ievadiet derīgu Lietuvas PVN identifikācijas numuru",
+              "lu": "Ievadiet derīgu Luksemburgas PVN identifikācijas numuru",
+              "mt": "Ievadiet derīgu Maltas PVN identifikācijas numuru",
+              "nl": "Ievadiet derīgu Nīderlandes PVN identifikācijas numuru",
+              "pl": "Ievadiet derīgu Polijas PVN identifikācijas numuru",
+              "pt": "Ievadiet derīgu Portugāles PVN identifikācijas numuru",
+              "ro": "Ievadiet derīgu Rumānijas PVN identifikācijas numuru",
+              "sk": "Ievadiet derīgu Slovākijas PVN identifikācijas numuru",
+              "si": "Ievadiet derīgu Slovēnijas PVN identifikācijas numuru",
+              "es": "Ievadiet derīgu Spānijas PVN identifikācijas numuru",
+              "se": "Ievadiet derīgu Zviedrijas PVN identifikācijas numuru",
+              "gb": "Ievadiet derīgu Lielbritānijas PVN identifikācijas numuru"
+            },
+            "service_unavailable": "Derīguma pārbaudes pakalpojums nav pieejams",
+            "service_error": "Derīguma pārbaudes pakalpojums nav pieejams"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "PVN identifikācijas numura pārbaude tiek veikta",
+              "valid": "Btw-identifikācijas numurs ir derīgs",
+              "applied": "PVN atvieglojums ir piemērots",
+              "domestic": "PVN atvieglojums nav piemērots",
+              "invalid_number": "PVN atbrīvojums neizdevās",
+              "service_unavailable": "Nevar pārbaudīt PVN atbrīvojumu",
+              "service_error": "Nevar pārbaudīt PVN atbrīvojumu"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Šī samaksa vairs nav nepieciešama. Lai iegūtu vairāk informācijas, dodieties uz pasūtījuma lapu.",
+        "paid": "Šī maksājuma pieprasījums jau ir iesniegts. Lai iegūtu vairāk informācijas, dodieties uz pasūtījuma lapu."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Lai pabeigtu norēķināšanos, ir nepieciešama paplašinājuma mijiedarbība."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Pārbaudi savu pasūtījumu"
+        },
+        "shipping": {
+          "shipping_options": "Skatīt visas piegādes iespējas"
+        },
+        "payment": {
+          "payment_options": "Skatīt visas maksāšanas iespējas"
+        }
+      },
+      "too_many_requests": {
+        "title": "Pārāk daudz izrakstīšanās mēģinājumu",
+        "body": "Uzgaidi dažas minūtes un mēģini vēlreiz no sava iepirkumu groza."
       }
     }
   },
