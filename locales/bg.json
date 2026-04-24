@@ -3831,7 +3831,75 @@
         "title": "Фактури за Btw"
       },
       "taxes_included": "Включително {{amount}} ДДС",
-      "duties_and_taxes_included": "Общата сума включва митнически такси и данъци. Няма допълнителни плащания при доставка."
+      "duties_and_taxes_included": "Общата сума включва митнически такси и данъци. Няма допълнителни плащания при доставка.",
+      "grouped_view_components": {
+        "line_item_summary_list_accessibility_label": "Артикули в пакет {{productTitle}}"
+      },
+      "cash_rounding": "Закръгляване на пари в брой",
+      "adjusted_payment": "Персонализирано плащане",
+      "adjusted_total": "Персонализиран общо",
+      "login_card": {
+        "log_in": "Вход",
+        "resend_link_and_login": "Можете да прегледате данните за поръчката си, като влезете в профила си или изпратите нова връзка на имейл адреса или телефонния номер, използвани при плащането.",
+        "resend_link_only": "Можеш да прегледаш данните за поръчката си, като изпратиш нова връзка на имейл адреса или телефонния номер, които си използвал при плащането.",
+        "resend_link": "Изпрати нов линк",
+        "title": "Преглед на данните за поръчката"
+      },
+      "company_and_location": "Фирма и местоположение",
+      "due_on_fulfillment": "Плащане при изпълнение",
+      "due_on_receipt": "Плащане при получаване",
+      "payment_confirmation": {
+        "payment_received": "Благодарим! Вашето плащане от {{amount}} е получено.",
+        "full_payment_received": "Благодарим ви! Вашето плащане от {{amount}} е получено и тази поръчка вече е напълно платена.",
+        "dismiss_label": "Затвори потвърждението за плащане",
+        "payment_authorized": "Благодарим ви! Салдото ще бъде актуализирано, когато плащането бъде получено."
+      },
+      "marketing_pending_confirmation": "Кликнете върху връзката в имейла си, за да потвърдите.",
+      "marketing_resend_email": "Изпрати имейла отново",
+      "total_savings": "Обща спестявания",
+      "price_after_discount_accessibility_label": "Намалена цена",
+      "discount_order_stacking": {
+        "one": "Отстъпка при поръчка",
+        "other": "Отстъпки при поръчка"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Адресът е премахнат",
+      "cancel_adding_address_accessibility_label": "Добавяне на адрес Отказ",
+      "cancel_deletion_button": "Отказване",
+      "cancel_deletion_button_accessibility_label": "премахване на {{address}} отказване",
+      "default_address": {
+        "title": "Стандартен адрес",
+        "title_accessibility_label": "Стандартен адрес: {{address}}"
+      },
+      "delete_button": "Премахване",
+      "delete_button_accessibility_label": "Премахване на {{address}}",
+      "delete_confirmation_button": "Премахване на адрес",
+      "delete_confirmation_button_accessibility_label": "Премахване на {{address}}",
+      "delete_confirmation_message": "Изтриване на адрес? Това няма да повлияе на съществуващи поръчки.",
+      "edit_button_accessibility_label": "редактиране на {{address}}",
+      "edit_section_accessibility_label": "редактиране на {{address}}",
+      "loading_accessibility_message": "Адрес на магазина",
+      "loading_addresses_accessibility_message": "Зареждане на адреса",
+      "loading_billing_accessibility_message": "Зареждане на адреси за фактуриране",
+      "loading_finished_accessibility_message": "Нова страница с адреси е заредена",
+      "loading_shipping_accessibility_message": "Зареждане на адрес за доставка",
+      "pagination": {
+        "load_more": "Зареди още"
+      },
+      "save_new_address_accessibility_label": "Запази адреса",
+      "title": "Адресът",
+      "delete_confirmation_title": "Да изтрия ли адреса?",
+      "edit_modal_title": {
+        "billing": "Редактиране на адрес за фактура"
+      },
+      "add_address_banner": "Добавете адреси за използване при плащане",
+      "billing_address_dropdown_placeholder": "Адрес за фактура",
+      "back_button_accessibility_label": "Върнете се към редактиране на адрес {{address}}",
+      "no_addresses_banner": "Няма добавени адреси"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Затвори предложенията"
     }
   }
 }

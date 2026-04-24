@@ -3652,8 +3652,78 @@
             "view_balance_in_shop_button_label": "Zobrazit zůstatek v obchodě",
             "scan_to_claim_shop_cash_label": "Naskenujte {{amount}} pro získání Shop Cash"
           }
+        },
+        "tracking_number": {
+          "one": "Sledovací číslo",
+          "other": "Sledovací čísla"
+        },
+        "gift_card_resend_button": {
+          "one": "Znovu odeslat dárkový poukaz",
+          "other": "Znovu odeslat dárkové poukazy"
+        },
+        "expected_by": "Očekává se nejpozději {{date}}",
+        "was_expected_by": "Očekává se nejpozději {{date}}"
+      },
+      "status_mark_as_delivered": "Označit jako obavy",
+      "buy_again_accessibility_label": "Koupit znovu pro objednávku {{orderId}}",
+      "manage_accessiblity_label": "Správa objednávky {{orderId}}",
+      "fulfillment_status_title": "Stav vyřízení: {{status}}",
+      "list_title_confirmed_orders_accessibility_label": "Objednávky: potvrzeno",
+      "list_title_pending_orders_accessibility_label": "Objednávky: ve zpracování",
+      "switch_order_type_pending_orders_accessibility_label": "Změnit typ objednávky; nyní prohlížíte objednávky ve zpracování",
+      "switch_order_type_confirmed_orders_accessibility_label": "Změnit typ objednávky; prohlížíte potvrzené objednávky",
+      "group_title_label": "Součást: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturovat a odeslat",
+      "card_ending_with": "končí na {{lastDigits}}",
+      "contact": "Kontaktní osoba",
+      "loading": "Načítání údajů o objednávce",
+      "loading_finished_accessibility_message": "Údaje o objednávce byly načteny",
+      "payment": {
+        "status_in_review": "Platba splatná po posouzení",
+        "status_unpaid": "Platba splatná k {{date}}",
+        "card_payment_details": "končící na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Zaplaceno pomocí splátek Shop Pay",
+          "view_schedule": "Zobrazit plánování"
+        },
+        "gift_card_payment_details": "končící na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Poštovní poukázka - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Dobírka - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankovní vklad - {{formattedTransactionAmount}}",
+          "manual": "Ruční - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Zůstatek v obchodě - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Údaje",
+          "payment_details": "Platební údaje"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "source": "Použijte následující formát výstupu (bez ohraničení kódem, bez dalších textů):"
+        },
+        "payment_type": {
+          "gift_card": "Dárkový poukaz",
+          "store_credit": "Obchodní kredit",
+          "cash_on_delivery": "Vrácení peněz",
+          "bank_deposit": "Vklad na účet"
         }
-      }
+      },
+      "shipping": {
+        "method": "Způsob doručení",
+        "summary": "Odeslat",
+        "one_time": "Jednorázové odeslání",
+        "subscription": "Odesílání na předplatné"
+      },
+      "subtitle": "Potvrzeno: {{date}}",
+      "summary_list_title_accessibility_label": "Objednat zboží",
+      "summary_title": "Přehled objednávky",
+      "summary_totals_title_accessibility_label": "Celková objednávka",
+      "unit_price": "{{price}}/ks",
+      "location": "Místo",
+      "not_applicable": "není relevantní"
     }
   }
 }
