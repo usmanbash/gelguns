@@ -3339,7 +3339,89 @@
       "search": "Chercher",
       "location_switcher_toast_message": "Emplacement changé en {{locationName}}",
       "switch_location": "Changer d'emplacement",
-      "view_details": "Afficher les données"
+      "view_details": "Afficher les données",
+      "company_location": "Emplacement de l'entreprise",
+      "try_new_search": "Essayez une nouvelle recherche",
+      "skip_to_content": "Aller directement au contenu",
+      "loading_policy_content_accessibility_label": "Politique de chargement du contenu",
+      "policy_load_error": "Impossible de charger {{policyName}}",
+      "policy_try_again": "Essayez de nouveau",
+      "loading_section_accessibility_label": "chargé {{sectionName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Chargement des données du compte",
+      "loading_finished_accessibility_message": "Les données du compte ont été chargées",
+      "profile_card": {
+        "cancel_accessibility_label": "Modifier le profil annuler",
+        "email_help_text": "L'adresse électronique ne peut pas être modifiée",
+        "last_name": "Nom de famille",
+        "email": "Courriel",
+        "errors": {
+          "name_too_long": "{{fieldName}} est trop long (maximum 255 caractères)",
+          "name_cannot_contain_url": "{{fieldName}} ne doit pas contenir d’URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} ne doit pas contenir de balises HTML",
+          "invalid_email_format": "Veuillez saisir une adresse courriel valide"
+        },
+        "editable_email_help_text": "Cette adresse courriel est utilisée pour l'inscription et les mises à jour de commande."
+      },
+      "people": {
+        "pagination": {
+          "loading_accessibility_label": "Chargement des personnes en cours"
+        }
+      },
+      "verify_new_email_modal": {
+        "description": "Entrez le code envoyé à {{email}}",
+        "one_time_password_label": "Code à 6 chiffres",
+        "verify_button_accessibility_label": "Vérification unique du mot de passe",
+        "email_resend_button_failure_banner_message": "Impossible d'envoyer le code de vérification"
+      },
+      "email_update_success_modal": {
+        "description": "La mise à jour de l'e-mail a réussi. Redirection vers l'inscription."
+      },
+      "email_update_confirmation_message": "Adresse e-mail mise à jour vers {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Options de mise en forme",
+      "order_list": {
+        "column_headers": {
+          "actions_accessibility_label": "Promotions"
+        },
+        "delivered": "Livré : {{date}}",
+        "empty_state_order_source_description": "Seules les commandes passées via {{email}} sont affichées ici.",
+        "empty_state_subtitle": "Allez au magasin pour passer une commande.",
+        "empty_state_title": "Pas encore de commandes",
+        "estimated_delivery": "Attendu le {{date}}",
+        "items": {
+          "one": "{{count}} articles",
+          "other": "{{count}} articles"
+        },
+        "order_link": "Voir la commande {{name}}",
+        "orders_title": "Confirmé",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation pour les commandes"
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort": {
+          "location": {
+            "ascending": "Emplacement (A-Z)",
+            "descending": "Emplacement (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (du plus bas au plus élevé)",
+            "descending": "Numéro de commande (du plus élevé au plus bas)"
+          },
+          "order_total": {
+            "ascending": "Commande totale (du plus bas au plus élevé)",
+            "descending": "Commande totale (du plus élevé au plus bas)"
+          }
+        },
+        "one_images_accessibility_label": "Commande contient {{lineItemName1}}",
+        "two_images_accessibility_label": "Commande contenant {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Commande contenant {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Commande contenant {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}"
+      }
     }
   }
 }

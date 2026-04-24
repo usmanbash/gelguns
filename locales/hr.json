@@ -2752,9 +2752,101 @@
           "merchandise": {
             "gift_card_price_must_be_greater_than_zero": "Vrijednost poklon bona mora biti veća od 0.",
             "subtotal_limit_reached": "Dosegnuta je maksimalna vrijednost za stavke narudžbe.",
-            "gift_card_price_must_not_exceed_limit": "Cijena poklon bona ne smije biti veća od %{gift_card_limit}."
+            "gift_card_price_must_not_exceed_limit": "Cijena poklon bona ne smije biti veća od %{gift_card_limit}.",
+            "signature_mismatch": "Pogrešan potpis za robu za red %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nije kopirano"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Dovršite svoju kupnju s vašim {{paymentMethod}} kodom",
+        "timer_message": "Imate još {{timeLeft}} za plaćanje",
+        "copy_text": "Kopiraj {{paymentMethod}} kod",
+        "header": "Platite s {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Dovršite svoju kupnju s vašim {{paymentMethod}} kodom"
+        },
+        "external": {
+          "instructions": "Potvrdite uplatu u svojoj aplikaciji kako biste dovršili ovu kupnju"
+        },
+        "close": "Prihvati izazov",
+        "open_app_text": "Otvori {{paymentMethod}} aplikaciju"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Došlo je do problema prilikom obrade vaše narudžbe. Molimo pokušajte ponovno za nekoliko minuta."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Uputa za robu %{position} %{name} sadrži prazni ID skladišta.",
+        "invalid_stable_id_target": "Uputa za robu %{position} %{name} odnosi se na stable-ID %{stable_id}, ali taj stable-ID nije prisutan u stavkama robe.",
+        "duplicate_variant_id": "Uputa za robu %{position} %{name} sadrži dvostruki ID varijante %{variant_id}.",
+        "invalid_variant_id_target": "Uputa za robu %{name} odnosi se na ID varijante %{variant_id}, ali ta varijanta nije prisutna u stavkama robe.",
+        "invalid_price_override_target": "Uputa za prepisivanje cijene robe za stavku narudžbe %{stable_id} nije valjana jer je to komponenta paketa.",
+        "discount_not_supported": "Upute za trgovce za primjenu popusta na robu ne podržavaju ovu vrstu popusta."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ovaj proizvod nije dostupan za dostavu u %{location_name}.",
+          "some_products_other": "Ovi proizvodi nisu dostupni za dostavu u %{location_name}.",
+          "all_products_one": "Proizvod u tvojoj košarici nije dostupan za dostavu u %{location_name}.",
+          "all_products_other": "Proizvodi u tvojoj košarici nisu dostupni za dostavu u %{location_name}."
+        },
+        "missing_country_fallback": "tvoja zemlja",
+        "indeterminate_location_fallback": "tvoja lokacija",
+        "change_address_only": "Promijenite adresu dostave da biste nastavili.",
+        "change_address_or_remove": "Promijenite adresu dostave ili %{remove_action}.",
+        "empty_cart_action": "ispraznite košaricu i vratite se u trgovinu",
+        "remove_items_action": {
+          "one": "ukloni nedostupni artikl",
+          "other": "ukloni nedostupne artikle"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Više nemate ovlasti za postavljanje B2B narudžbi. %{logout_url} da biste umjesto toga postavili osobnu narudžbu.",
+        "lost_permissions_subtitle": "Više nemate ovlasti za postavljanje B2B narudžbi. Odjavite se kako biste mogli napraviti osobnu narudžbu.",
+        "lost_permissions_title": "Nema dozvola za lokaciju"
+      },
+      "units": {
+        "liter": "l",
+        "inch": "u"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Ova adresa nije podržana za trenutno članstvo.",
+        "items_split_across_locations_unsupported": "Prime dostava nije dostupna za vašu narudžbu. Vaše opcije dostave su ažurirane."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigiraj do web trgovine"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Više informacija o %{context}"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Ovaj se artikl ne može dodati u vašu košaricu jer dolazi iz trgovine koja koristi drugu valutu.",
+          "max_remote_shops_exceeded": "Ovaj proizvod se ne može dodati jer tvoja košarica već sadrži maksimalan broj proizvoda iz drugih trgovina.",
+          "currency_mismatch_removal": "Iz košarice je uklonjen proizvod jer dolazi iz trgovine koja koristi drugu valutu.",
+          "only_remote_merchandise_lines": "Košarica sadrži samo vanjsku robu. Potrebno je preusmjeravanje na vanjsku trgovinu kako biste dovršili naplatu."
+        }
+      },
+      "remote_merchandise_only": {
+        "remote_only_notice": "Ove proizvode prodaju i šalju druge trgovine. Idite na blagajnu svake trgovine da dovršite svoju kupnju.",
+        "return_to_store_label": "Natrag u trgovinu",
+        "checkout_on_shop_label": "Plaćanje u %{shop_name}",
+        "single_shop_transition": "Bit ćete preusmjereni na %{advertiser} kako biste dovršili svoju kupnju.",
+        "detail_item_label": {
+          "one": "{{count}} artikl",
+          "other": "{{count}} artikala"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Nije dostavljen %{policy_name} za ovu trgovinu. Za više informacija izravno kontaktirajte %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Skenirajte QR-kod ponovno. Ako i dalje ne radi, obavijestite naše zaposlenike i pokušajte s drugom metodom plaćanja.",
+        "payment_link_expired_title": "Veza za plaćanje je istekla"
       }
     }
   }
