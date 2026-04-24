@@ -943,8 +943,76 @@
           "header": {
             "one": "Doručenie nie je dostupné pre %{count} položku",
             "other": "Doručenie nie je dostupné pre %{count} položiek"
+          },
+          "message": {
+            "one": "Tento produkt bude odstránený z tvojho košíka, pretože pre tvoju adresu nie sú dostupné žiadne spôsoby doručenia.",
+            "other": "Tento produkt bude odstránený z tvojho košíka, pretože pre tvoju adresu nie sú dostupné žiadne spôsoby doručenia."
+          },
+          "status_column_header": "Žiadne doručenie"
+        },
+        "price_update": {
+          "title": "Aktualizácia cien",
+          "description": "Ceny týchto položiek boli zmenené a aktualizované vo vašom nákupnom košíku."
+        },
+        "item_label": {
+          "other": "{{count}} položiek"
+        },
+        "continue_cta_label": "Pokračovať k pokladni",
+        "out_of_stock": {
+          "description": "Tieto položky už nie sú dostupné a boli odstránené z tvojho košíka.",
+          "items_unavailable": "Niektoré položky už nie sú dostupné a boli odstránené z tvojho košíka."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} už nie je k dispozícii pre tento artikel.",
+            "other": "%{delivery_method} už nie je k dispozícii pre tieto položky."
+          },
+          "default_message": {
+            "one": "Zvolený spôsob doručenia už nie je pre tento tovar dostupný.",
+            "other": "Zvolený spôsob doručenia už nie je pre tieto položky dostupný."
           }
-        }
+        },
+        "price_and_quantity_update": {
+          "title": "Aktualizovať cenu a množstvo",
+          "description": "Ceny a dostupné množstvá týchto položiek sa zmenili a nákupný košík bol aktualizovaný."
+        },
+        "out_of_stock_in_context_label": "Tento produkt nie je dostupný vo vašej krajine/regióne."
+      },
+      "order_summary": {
+        "title": "Prehľad objednávok",
+        "gift_card_title": "Darčeková poukážka",
+        "gift_card_label": "Darčeková poukážka",
+        "gift_card_placeholder": "Darčeková poukážka",
+        "gift_card_and_discount_title": "Zľavový kód alebo darčeková poukážka",
+        "gift_card_and_discount_label": "Zľavový kód alebo darčeková poukážka",
+        "gift_card_and_discount_placeholder": "Zľavový kód alebo darčeková poukážka",
+        "add_discount_or_gift_card": "Pridať zľavový kód alebo darčekovú poukážku",
+        "remove_gift_card_label": "Odstrániť darčekovú poukážku",
+        "remove_discount_label": "Odstrániť zľavu",
+        "applied_discount_message": "Z celkovej ceny bola odpočítaná zľava %{amount}.",
+        "discount_has_been_applied": "Zľava bola uplatnená",
+        "discount_has_been_removed": "Zľava bola odstránená",
+        "gift_card_has_been_applied": "Darčeková karta bola použitá",
+        "gift_card_has_been_removed": "Darčeková karta bola odstránená",
+        "discount_already_applied": "Na túto objednávku bola uplatnená zľava. Nemôžete pridať ďalšiu zľavu.",
+        "cart_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\">%{code}</strong> neplatí pre položky vo vašom nákupnom košíku",
+        "discount_requires_customer_notice": "Zadajte svoje doručovacie údaje na uplatnenie zľavového kódu <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\">%{code}</strong> momentálne nie je pre teba dostupný",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\">%{code}</strong> nie je k dispozícii pre tvoju doručovaciu adresu",
+        "shipping_label": "Doručenie",
+        "tip_label": "Fooi",
+        "shipping_default_value": "Vypočítané pri ďalšom kroku",
+        "shipping_pending_message": "Ešte nie je dostupné",
+        "shipping_policy_link": "Poštovné",
+        "taxes_label": "mimochodom",
+        "total_label": "Celkom",
+        "total_outstanding_label": "Suma na zaplatenie",
+        "partial_total_label": "Celkom",
+        "free_total_label": "Zdarma",
+        "free_shipping_total_label": "Zdarma",
+        "payment_due_label": "Dlžná platba",
+        "vat_label_html": "Vrátane %{amount} DPH",
+        "discount_and_gift_card_savings_notice": "Zľava %{discount_amount} a hodnota darčekovej karty %{gift_card_amount}"
       }
     }
   }

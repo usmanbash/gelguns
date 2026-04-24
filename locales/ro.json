@@ -1870,7 +1870,67 @@
         "attempted_delivery_description_html": "Încercarea de a livra comanda ta nu a reușit. Pentru a programa o nouă încercare de livrare, %{contact_us}.",
         "delivered": "Îngrijorat",
         "delivered_description_html": "Comanda ta a fost livrată la adresa pe care ai furnizat-o. Dacă nu ai primit-o sau dacă există alte probleme, %{contact_us}.",
-        "contact_us": "Contactați-ne"
+        "contact_us": "Contactați-ne",
+        "contact_us_lowercase": "contactați-ne",
+        "updated_time": "Actualizat acum %{time_ago}",
+        "failure": "Nu este îngrijorat",
+        "failed_title": "Comanda dumneavoastră nu a putut fi livrată.",
+        "failed_contact_merchant": "Contactați %{company} pentru a aranja livrarea.",
+        "failed_contact_merchant_no_company": "Contactați-ne pentru a stabili livrarea.",
+        "non_shippable_title": "Comanda a fost finalizată",
+        "login_title": "Autentifică-te pentru a vedea toate detaliile comenzii",
+        "login_description": "Poți găsi numărul comenzii în factura pe care ai primit-o prin e-mail.",
+        "login_description_phone": "Îți găsești numărul comenzii în factura pe care ai primit-o prin sms.",
+        "login_not_customer_html": "Nu găsești %{name}? Poți %{link}",
+        "login_reorder_link_text": {
+          "one": "cumpără și acest produs",
+          "other": "cumpără și aceste produse"
+        },
+        "customer_information_hidden_fields_message": "Autentifică-te pentru a vedea toate datele clientului.",
+        "cancelled_description": "Comanda ta a fost anulată pe %{date}. Contactează-ne dacă ai întrebări.",
+        "order_number_label": "Număr comandă",
+        "customer_validation_error": "Introduceți o adresă de email valabilă sau un număr de comandă.",
+        "customer_validation_error_phone": "Introduceți un număr valid de telefon sau de comandă.",
+        "login": "Autentificare",
+        "unfulfilled_items_title": "Expedierea este în curs de pregătire",
+        "unfulfilled_items_description": "În prezent pregătim aceste articole pentru expediere.",
+        "marker": {
+          "shipping": "Adresă de livrare"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articole în această expediere",
+          "product_image_label": "Imaginea produsului",
+          "quantity_label": "Număr"
+        },
+        "order_updates_description_missing": "Nu primești actualizări despre expediere.",
+        "order_updates_subscribe_to_email_notifications": "Primește actualizări despre expediere prin e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Primește actualizări despre expediere prin e-mail sau sms",
+        "order_updates_subscribe_to_phone_notifications": "Primește actualizări despre expediere prin sms",
+        "track_shipment": "Livrare prin poștă",
+        "order_status_confirmed_order_with_email_pick_up": "Vei primi un e-mail când îți poți ridica comanda.",
+        "order_status_confirmed_order_with_phone_pick_up": "Primești un mesaj text când poți ridica comanda ta.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Primești un e-mail și un mesaj text când poți ridica comanda ta.",
+        "pick_up_in_store_marker": {
+          "shipping": "Loc de descărcare"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Vei primi un e-mail când îți poți ridica comanda.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Primești un mesaj text când poți ridica comanda ta.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Vei primi un e-mail când îți poți ridica comanda.",
+        "ready_for_pickup_title": "Comanda este gata pentru ridicare",
+        "ready_for_pickup_description": "Comanda ta poate fi ridicată. Adu cu tine confirmarea comenzii când vii să ridici comanda.",
+        "picked_up_title": "Comanda a fost ridicată",
+        "shop_phone_description": "Primești un mesaj text cu un link către aplicația Magazin pentru a urmări comanda ta.",
+        "ready_for_delivery_title": "Comanda este gata pentru livrare",
+        "ready_for_delivery_description": "Am pregătit comanda.",
+        "order_status_confirmed_order_local": "Pregătim comanda ta pentru livrare.",
+        "gift_card_sent_confirmation": "Vouchere cadou trimise",
+        "out_for_delivery_local_title": "Comanda ta este gata pentru livrare",
+        "out_for_delivery_local_description_html": "Vei primi comanda ta în curând.",
+        "delivered_local_description_html": "Nu ai primit încă comanda? %{let_us_know}.",
+        "let_us_know": "Anunță-ne",
+        "qr_code": {
+          "title": "Urmărește pe telefonul tău"
+        }
       }
     }
   }
