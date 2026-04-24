@@ -3984,7 +3984,89 @@
         },
         "contracts_update_failed": "Alguns contratos de subscrição não puderam ser atualizados",
         "subscription_contracts_updated": "{{succeeded}} de {{total}} assinaturas atualizadas",
-        "invalid_wallet_type_error": "Tipo inválido de carteira digital"
+        "invalid_wallet_type_error": "Tipo inválido de carteira digital",
+        "updating_contracts": {
+          "one": "O contrato de subscrição {{count}} está a ser atualizado...",
+          "other": "{{count}} contratos de subscrição estão a ser atualizados..."
+        },
+        "contracts_updated": {
+          "one": "O contrato de subscrição {{count}} foi atualizado",
+          "other": "{{count}} contratos de subscrição foram atualizados"
+        },
+        "missing_customer_error": "Ocorreu um erro. Tente novamente ou contacte o apoio."
+      },
+      "expires_soon": "Este cartão expira em breve",
+      "expired": "Este cartão expirou",
+      "card_update_consent": "Este método de pagamento será guardado para compras futuras.",
+      "credit_or_debit_card_title": "Cartão de crédito ou cartão de débito",
+      "google_pay": {
+        "errors": {
+          "missing_billing_address": "Para o Google Pay, é necessário um endereço de faturação. Adicione um na sua conta."
+        },
+        "loading": "Carregar Google Pay",
+        "loading_accessibility_message": "Carregar Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Carregar Apple Pay",
+        "errors": {
+          "not_available": "Apple Pay não está disponível neste dispositivo.",
+          "missing_billing_address": "Para usar o Apple Pay, é necessário um endereço de faturação. Adicione um na sua conta."
+        }
+      },
+      "add_payment_method_banner": "Adicionar método de pagamento para um pagamento mais rápido e serviços de pré-autorização",
+      "expiration_warning_button_accessibility_label": "Mostrar aviso de retenção para {{paymentMethodName}} que termina em {{lastDigits}}",
+      "default": "Padrão",
+      "store_credit": {
+        "label": "Crédito na loja",
+        "accesibility_label": "Crédito da loja - {{formattedBalance}}",
+        "expirable_amounts_button": "Ver valores que vão expirar",
+        "details_modal": {
+          "title": "Crédito de loja que vai expirar",
+          "expirable_balance_info": "Uma parte do saldo caduca numa data futura.",
+          "expirable_amount_label": "Montante total que será anulado",
+          "expirable_amounts_info": "Valores que expiraram anteriormente são aplicados primeiro no momento do pagamento.",
+          "expired_amounts_button": "Ver valores vencidos",
+          "pagination": {
+            "load_more_accessibility_label": "Carregar mais valores que vão expirar"
+          },
+          "events": {
+            "order_payment": "Pagamento da encomenda",
+            "order_refund": "Reembolso da encomenda",
+            "payment_failure": "Pagamento falhado",
+            "payment_returned": "Pagamento reembolsado",
+            "order_cancellation": "Cancelamento da encomenda",
+            "tax_finalization": "Liquidação de impostos"
+          }
+        },
+        "expirable_amounts_label": "Montantes vencidos"
+      },
+      "three_d_secure": {
+        "title": "3D Seguro",
+        "verification_failed": "O seu pagamento não pode ser verificado. Tente novamente ou utilize outro método de pagamento."
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Carregar PayPal",
+        "errors": {
+          "generic": "Houve um problema com o PayPal. Tente novamente ou utilize outro método de pagamento."
+        }
+      },
+      "card_update_consent_subscriptions": "Este método de pagamento será guardado para compras futuras e pode ser utilizado para qualquer compra recorrente ou diferida.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Ao adicionar um método de pagamento, podes autorizar que sejam cobrados encargos no teu cartão até que canceles, ou que, nas compras futuras que aprovares, sejam feitas deduções da tua conta bancária."
+      },
+      "replacement_payment_method_title": "Métodos de pagamento alternativos",
+      "bank_account": {
+        "loading_accessibility_message": "Botão para conta bancária está a ser carregado",
+        "iframe_title_accessibility_label": "Configuração da conta bancária",
+        "generic_error": "Não foi possível adicionar a conta bancária. Por favor, tente novamente mais tarde."
+      },
+      "update_payment_method": {
+        "billing_address": "Morada de faturação",
+        "disclaimer": "Este método de pagamento será guardado para compras futuras e pode ser utilizado para qualquer compra recorrente ou diferida.",
+        "error_message": "Não é possível atualizar o método de pagamento",
+        "loading_form_accessibility_message": "Formulário para atualizar o método de pagamento está a ser carregado",
+        "loading_current_payment_method": "Método de pagamento atual está a ser carregado",
+        "loading_digital_wallets": "Opções para carteira digital estão a ser carregadas"
       }
     }
   }
