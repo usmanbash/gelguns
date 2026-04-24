@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -537,6 +546,72 @@
       "send_on_label": "Spedisci il giorno (opzionale)",
       "expanded": "Modulo destinatario del buono regalo espanso",
       "collapsed": "Modulo destinatario del buono regalo compresso"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "it",
+      "last_word_connector": ", it"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Cassa",
+        "skip_to_content": "Vai subito al contenuto",
+        "breadcrumb": "Briciola di pane",
+        "complete_purchase_button_label": "Completa l'ordine",
+        "authenticate_purchase_button_label": "Convalida pagamento",
+        "edit_link_label": "Modificare",
+        "print_policies_link_label": "Stampe",
+        "close_modal_label": "Chiudere",
+        "close_notice_label": "Chiudere",
+        "expand_notice_label": "Mostra di più",
+        "continue_to_shipping_method": "Continua a inviare",
+        "continue_to_review": "Controlla l'ordine",
+        "back_to_shipping_method": "Torna a spedire",
+        "back_to_payment_method": "Torna al pagamento",
+        "choose_shipping_method": "Scegli un metodo di spedizione",
+        "choose_billing_address": "Scegli un indirizzo di fatturazione",
+        "contact_us_html": "Contattaci per maggiori informazioni",
+        "autocomplete_close": "Chiudi suggerimenti",
+        "forwarding_indicator": {
+          "new_window": "Si apre in una nuova finestra.",
+          "external": "Apri sito web esterno.",
+          "external_and_new_window": "Apre il sito esterno in una nuova finestra."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pagamento"
+        },
+        "tooltip_accessibility_label": "Ulteriori informazioni",
+        "errors": {
+          "session_identifier_not_unique_error": "C'è stato un problema con il tuo ordine. Riprova a completare il pagamento.",
+          "line_item_limit_reached": "È stato raggiunto il numero massimo di righe ordine.",
+          "only_empty_terms_accepted": "Questa politica accetta solo condizioni vuote.",
+          "session_is_already_finished": "Questa sessione di pagamento è già stata completata.",
+          "merchandise": {
+            "only_value_constraint": "Durante l'immissione delle merci sono consentiti solo valori esatti.",
+            "merchandise_variant_not_found": "Variante del prodotto non trovata.",
+            "merchandise_not_applicable": "La variante del prodotto non può essere acquistata.",
+            "bundle_products_not_supported_for_b2b": "Non puoi aggiungere articoli raggruppati agli ordini B2B per questa sede.",
+            "gift_card_quantity_mismatch": "Quando inserisci i codici regalo, le quantità nella riga dell'ordine devono corrispondere al numero di codici regalo.",
+            "gift_card_not_supported": "In questo pagamento non sono supportati i buoni regalo.",
+            "gift_card_not_unique": "Buono regalo con codice {{code}} appare più volte in questo checkout. I codici vengono generati prima del confronto.",
+            "gift_card_used": "Il codice regalo {{code}} è già stato assegnato a un buono regalo. I codici vengono formattati prima del confronto.",
+            "gift_card_invalid": "Il codice regalo {{code}} non è valido.",
+            "gift_card_code_changed": "Il codice del buono regalo {{proposed_code}} è stato modificato in {{formatted_code}} secondo le regole di formattazione.",
+            "gift_card_with_attributes_not_supported": "In questo pagamento non sono supportati buoni regalo con caratteristiche personalizzate.",
+            "gift_card_with_components_not_supported": "In questo pagamento non sono supportati buoni regalo con componenti.",
+            "selling_plan_not_supported_b2b": "Per il pagamento B2B non sono supportati abbonamenti.",
+            "price_mismatch": "Il prezzo precedentemente proposto per questi beni non era valido ed è stato aggiornato.",
+            "inventory_not_found": "Nessuna scorta trovata per questi articoli.",
+            "product_not_published": "Il prodotto non è stato pubblicato.",
+            "duplicated_stable_id": "Questa linea di prodotti ha lo stesso ID stabile di un'altra linea.",
+            "minimum_quantity_not_met": "Per alcuni articoli non viene raggiunto il numero minimo consentito",
+            "maximum_quantity_exceeded": "Per alcuni articoli non viene raggiunto il numero massimo consentito",
+            "quantity_increment_not_met": "Per alcuni articoli non vengono rispettati i limiti di ordine",
+            "quantity_rules_not_met": "Per alcuni articoli non vengono rispettati i limiti di ordine"
+          }
+        }
+      }
     }
   }
 }
