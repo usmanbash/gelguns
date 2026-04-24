@@ -865,6 +865,76 @@
         "phone_rollup_accessibility_label": "Options téléphoniques",
         "phone_country_code_label": "Indicatif téléphonique du pays",
         "suburb_label": "Quartier extérieur"
+      },
+      "delivery_options": {
+        "ship": "Expédition",
+        "pick_up": "Retrait",
+        "pick_up_in_two_hours": "Généralement prêt en 2 heures",
+        "pick_up_in_four_hours": "Généralement prêt en 4 heures",
+        "pick_up_immediately": "Prêt à être retiré maintenant",
+        "pick_up_next_day": "Prêt à être retiré le lendemain",
+        "pick_up_in_one_hour": "Généralement prêt en moins d'une heure",
+        "pick_up_in_twenty_four_hours": "Généralement prêt sous 24 heures",
+        "pick_up_in_two_to_four_days": "Généralement prêt sous 2 à 4 jours",
+        "pick_up_in_five_or_more_days": "Généralement prêt en plus de 5 jours",
+        "pick_up_in_zero_to_two_hours": "Prêt à être retiré dans 2 heures",
+        "pick_up_in_two_to_four_hours": "Prêt à être retiré dans 4 heures",
+        "shipping_address": "Adresse de livraison",
+        "pick_up_locations": "Points de retrait",
+        "pickup_point_method_definition": "Envoyer au point de retrait",
+        "retail_method_definition": "Expéditions de détail",
+        "none_method_definition": "Pas d'expéditions",
+        "subscription_pickup_information": "Cette méthode de livraison s'applique à tous les articles de cette commande ainsi qu'à tous les articles futurs de cet abonnement.",
+        "ship_to_address": "Envoyer à l'adresse",
+        "pick_up_from_store": "Retrait en magasin",
+        "company_location_no_address_banner": "Les commandes envoyées à des lieux sans adresse sont soumises à vérification.",
+        "pickup_point_map_title": "Carte avec points de retrait"
+      },
+      "customer_account": {
+        "not_user_label": "Tu n'es pas %{first_name} ?",
+        "have_an_account_label": "As-tu un compte ?",
+        "sign_in_link_label": "Connexion",
+        "save_my_information_label": "Enregistrer ces informations pour régler plus rapidement à l'avenir",
+        "invalid_address": "L'adresse sélectionnée est invalide. %{update_address_link} ou choisissez une autre adresse.",
+        "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou choisissez une autre adresse.",
+        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "saved_address_option_link": "Utilisez une adresse enregistrée",
+        "saved_address_option_description": {
+          "one": "Vous avez {{count}} adresse enregistrée.",
+          "other": "Vous avez {{count}} adresses enregistrées."
+        },
+        "rollup_accessibility_label": "Options de compte"
+      },
+      "stock": {
+        "page_title": "Problème de stock",
+        "title": "Rupture de stock",
+        "quantity_column_header": "Nombre",
+        "reduced_with_quantity_label": "Seulement %{quantity_available} en stock",
+        "go_back_to_cart_button_label": "Retour à mon panier",
+        "remove": "Supprimer",
+        "quantity_update": {
+          "page_title": "Quantité mise à jour",
+          "title": "Quantité mise à jour",
+          "description": "Les quantités disponibles pour ces articles ont été modifiées et votre panier a été mis à jour."
+        },
+        "unpurchasable_product": {
+          "title": "Le produit ne peut pas être acheté",
+          "message": "Ces articles ne sont pas disponibles pour les commandes interentreprises.",
+          "status_column_header": "Non disponible"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Le produit ne peut pas être acheté",
+          "status_column_header": "Non disponible"
+        },
+        "unshippable_product": {
+          "header": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse."
+          }
+        }
       }
     }
   }
