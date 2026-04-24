@@ -3590,10 +3590,78 @@
             "order_includes_guarantees_description": "Shop Promise poskytuje záruku rýchleho a spoľahlivého doručenia. Uplatnite Shop Cash, ak bude vaša objednávka doručená po {{date}}.",
             "delivered_after_label": "Znepokojený po {{date}}",
             "delivered_after_description": "Tvoja objednávka prišla oneskorene, takže môžeš uplatniť {{amount}} Shop Cash.",
-            "claimed_shop_cash_description": "Táto objednávka bola doručená neskoro, takže si uplatnil(a) {{amount}} Shop Cash."
+            "claimed_shop_cash_description": "Táto objednávka bola doručená neskoro, takže si uplatnil(a) {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Tvoja objednávka prišla oneskorene, takže môžeš uplatniť {{amount}} Shop Cash.",
+            "learn_more_button_label": "Viac informácií",
+            "claim_shop_cash_button_label": "Uplatniť hotovostnú odmenu",
+            "view_balance_in_shop_button_label": "Zobraziť zostatok v obchode",
+            "scan_to_claim_shop_cash_label": "Naskenujte {{amount}}, aby ste si mohli uplatniť Shop Cash"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Znovu odoslať darčekový poukaz",
+          "other": "Znovu odoslať darčekové poukážky"
+        },
+        "expected_by": "Očakávajte najneskôr {{date}}",
+        "was_expected_by": "Očakáva sa najneskôr {{date}}"
+      },
+      "buy_again_accessibility_label": "Znova kúpiť pre objednávku {{orderId}}",
+      "list_title_pending_orders_accessibility_label": "Objednávky: v spracovaní",
+      "switch_order_type_pending_orders_accessibility_label": "Zmena typu objednávky; práve prezeráte objednávky v spracovaní",
+      "switch_order_type_confirmed_orders_accessibility_label": "Zmeniť typ objednávky; prezeráte si potvrdené objednávky",
+      "group_title_label": "Súčasť: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturácia a odoslanie",
+      "card_ending_with": "končí na {{lastDigits}}",
+      "contact": "Kontaktná osoba",
+      "loading": "Načítavam údaje o objednávke",
+      "loading_finished_accessibility_message": "Údaje o objednávke boli načítané",
+      "payment": {
+        "status_in_review": "Platba splatná po posúdení",
+        "status_unpaid": "Platba splatná {{date}}",
+        "card_payment_details": "končiaci na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Zaplatené pomocou splátok Shop Pay",
+          "view_schedule": "Zobraziť plánovanie"
+        },
+        "gift_card_payment_details": "končiaci na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Poštový poukaz - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Dobierka - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankový vklad - {{formattedTransactionAmount}}",
+          "manual": "Manuálne - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Zostatok v obchode - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Údaje"
+        },
+        "emv_details": {
+          "aid": "Identifikátor pomoci:",
+          "source": "Preložte do slovenčiny.\nUprednostnite medzinárodne uznávané prevzaté slová, ak sú bežné medzi rodenými hovorcami slovenčiny; inak použite najjasnejší domáci ekvivalent.\nPre výzvy na akciu s slovesami (napr. Nakupovať, Kúpiť, Objednať, Zobraziť) používajte domáce slovenské slovesné tvary; nepoužívajte anglické slovesá, pokiaľ nie sú výslovne zachované v glosári.\nZdroj môže obsahovať značky, modelové čísla, skratky, ID alebo text už v slovenčine.\nAk je zdrojový text už celý v slovenčine, vráťte prázdny reťazec ako preložený text."
+        },
+        "payment_type": {
+          "gift_card": "Darčeková poukážka",
+          "store_credit": "Zostatok v obchode",
+          "money_order": "Poštový poukaz",
+          "cash_on_delivery": "Vrátenie peňazí",
+          "bank_deposit": "Bankový prevod"
         }
-      }
+      },
+      "shipping": {
+        "method": "Spôsob doručenia",
+        "summary": "Odoslať",
+        "free": "Zdarma",
+        "one_time": "Jednorazové odoslanie",
+        "subscription": "Odosielanie na predplatné"
+      },
+      "subtitle": "Potvrdené: {{date}}",
+      "summary_list_title_accessibility_label": "Objednať položky",
+      "summary_title": "Prehľad objednávok",
+      "summary_totals_title_accessibility_label": "Celková objednávka",
+      "total": "Celkom",
+      "unit_price": "{{price}}/ks",
+      "location": "Poloha"
     }
   }
 }
