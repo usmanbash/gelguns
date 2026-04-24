@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -537,6 +546,72 @@
       "send_on_label": "Datum slanja (neobavezno)",
       "expanded": "Obrazac primatelja poklon-kartice je povećan",
       "collapsed": "Obrazac primatelja poklon-kartice je smanjen"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "hr",
+      "last_word_connector": ", hr"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Blagajna",
+        "error_page_title": "Pogreška",
+        "skip_to_content": "Odmah na sadržaj",
+        "breadcrumb": "Mrvica kruha",
+        "pay_now_button_label": "Plati sada",
+        "authenticate_purchase_button_label": "Potvrdi plaćanje",
+        "edit_link_label": "Promijeni",
+        "print_policies_link_label": "Ispisivanje",
+        "expand_notice_label": "Pogledaj više",
+        "continue_to_shipping_method": "Nastavi s slanjem",
+        "continue_to_payment_method": "Idi na plaćanje",
+        "continue_to_review": "Provjera narudžbe",
+        "back_to_cart": "Povratak na košaricu",
+        "back_to_shipping_method": "Natrag na slanje",
+        "choose_shipping_method": "Odaberite način dostave",
+        "choose_payment_method": "Odaberite način plaćanja",
+        "choose_billing_address": "Odaberite adresu za račun",
+        "contact_us_html": "Kontaktirajte nas za više informacija",
+        "autocomplete_single_item": "1 artikal dostupan",
+        "autocomplete_multi_item": "{{number}} dostupnih artikala",
+        "forwarding_indicator": {
+          "external": "Otvori vanjsku web-stranicu.",
+          "external_and_new_window": "Otvori vanjsku web stranicu u novom prozoru."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Blagajna"
+        },
+        "tooltip_accessibility_label": "Više informacija",
+        "errors": {
+          "session_identifier_not_unique_error": "Došlo je do pogreške s vašom narudžbom. Pokušajte ponovno izvršiti plaćanje.",
+          "line_item_limit_reached": "Dosegnut je maksimalni broj stavki narudžbe.",
+          "only_empty_terms_accepted": "Ova politika prihvaća samo prazne uvjete.",
+          "session_is_already_finished": "Ova sesija naplate je već završena.",
+          "merchandise": {
+            "only_value_constraint": "Pri unosu robe dopuštene su samo točne vrijednosti.",
+            "merchandise_not_found": "Proizvod nije pronađen.",
+            "merchandise_variant_not_found": "Varijanta proizvoda nije pronađena.",
+            "merchandise_not_applicable": "Varijanta proizvoda se ne može kupiti.",
+            "bundle_products_not_supported_for_b2b": "Ne možete dodavati pakirane artikle u B2B narudžbe za ovu lokaciju.",
+            "gift_card_quantity_mismatch": "Kada unosite kodove poklon bonova, količine na stavci narudžbe moraju odgovarati broju kodova poklon bonova.",
+            "gift_card_not_supported": "Ova naplata ne podržava poklon bonove.",
+            "gift_card_not_unique": "Poklon bon s kodom {{code}} pojavljuje se više puta u ovom postupku naplate. Kodovi se generiraju prije usporedbe.",
+            "gift_card_used": "Kod poklon bonova {{code}} već je dodijeljen poklon bonu. Kodovi se generiraju prije usporedbe.",
+            "gift_card_invalid": "Kod poklon bona {{code}} nije valjan.",
+            "gift_card_code_changed": "Kod poklon bona {{proposed_code}} prema pravilima oblikovanja promijenjen je u {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Ova naplata ne podržava poklon bonove s prilagođenim značajkama.",
+            "gift_card_with_components_not_supported": "Ova naplata ne podržava poklon bonove s komponentama.",
+            "selling_plan_mismatch": "Pretplata je ažurirana.",
+            "selling_plan_not_supported_b2b": "Za B2B naplatu nisu podržane pretplate.",
+            "price_mismatch": "Prethodno predložena cijena za ovu robu nije bila valjana i ažurirana je.",
+            "inventory_not_found": "Nema dostupnog zaliha za ovu robu.",
+            "product_not_published": "Proizvod nije objavljen.",
+            "duplicated_stable_id": "Ova linija proizvoda ima isti stable-ID kao i druga linija.",
+            "minimum_quantity_not_met": "Za neke artikle nije ispunjen minimalno dopušteni broj"
+          }
+        }
+      }
     }
   }
 }
