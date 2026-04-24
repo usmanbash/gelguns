@@ -3712,8 +3712,78 @@
       },
       "edit_summary": {
         "added_with_quantity": "{{quantity}} ajouté",
-        "removed_with_quantity": "{{quantity}} supprimé"
+        "removed_with_quantity": "{{quantity}} supprimé",
+        "returned_with_quantities": "{{delta}} sur {{total}} retournés",
+        "removed_with_quantities": "{{delta}} sur {{total}} supprimés",
+        "return_line_item_removed": "Retiré du retour",
+        "return_line_item_removed_with_quantities": "{{delta}} supprimé du retour"
+      },
+      "pickup": {
+        "pickup_location": "Lieu de retrait"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Payé avec les paiements échelonnés Shop Pay",
+        "description": "Restez informé de votre calendrier de paiement grâce aux rappels dans l'application Boutique.",
+        "desktop_qr_code_content": {
+          "title": "Scanner pour des souvenirs",
+          "description": "Recevez des rappels pour vos paiements échelonnés chez Shop."
+        },
+        "title": "Rappels de paiement pour les paiements échelonnés Shop Pay"
+      },
+      "order_details": "Données de commande",
+      "login_to_view_all_order_details": "Connectez-vous pour voir toutes les informations de commande.",
+      "log_in": "Connexion",
+      "paid_amount": "Payé",
+      "order_details_skeleton_accessibility_label": "Connectez-vous pour voir toutes les informations de commande.",
+      "logged_in_account_no_permission_to_order": "Vous êtes connecté en tant que {{email}}. Ce compte n'est pas autorisé à gérer cette commande.",
+      "duties": "Droits de douane",
+      "ok_duties_tooltip": "Cette commande est expédiée depuis un autre pays, donc des droits de douane ont été ajoutés au montant total de la commande.",
+      "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, il se peut donc que des droits de douane et des taxes soient appliqués à la livraison.",
+      "zero_duties_tooltip": "Cette commande est expédiée depuis un autre pays. Aucun droit de douane ne sera facturé pour les commandes de cette valeur.",
+      "group_title_label": "Fait partie de : {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Frais de réapprovisionnement des stocks",
+        "return_shipping_fee": "Retour de marchandise"
+      },
+      "vat_invoices": {
+        "title": "Factures TVA"
+      },
+      "taxes_included": "Inclus {{amount}} TVA",
+      "duties_and_taxes_included": "Le total comprend les droits de douane et les impôts. Aucun paiement supplémentaire à la livraison.",
+      "grouped_view_components": {
+        "expand_line_items": "Afficher {{count}} articles",
+        "collapse_line_items": "Masquer {{count}} articles",
+        "line_item_summary_accessibility_label": "{{productTitle}}, quantité : {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Articles en lot {{productTitle}}"
+      },
+      "cash_rounding": "Arrondir en espèces",
+      "adjusted_payment": "Paiement personnalisé",
+      "login_card": {
+        "log_in": "Connexion",
+        "resend_link_and_login": "Vous pouvez consulter les détails de votre commande en vous connectant ou en envoyant un nouveau lien à l'adresse courriel ou au numéro de téléphone utilisé lors du paiement.",
+        "resend_link_only": "Vous pouvez consulter les détails de votre commande en envoyant un nouveau lien à l'adresse courriel ou au numéro de téléphone que vous avez utilisé lors du paiement.",
+        "title": "Voir les détails de la commande"
+      },
+      "due_on_fulfillment": "À payer lors de l'exécution",
+      "due_on_receipt": "À payer à la réception",
+      "group_title_label_with_parent": "Pour : {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Merci ! Votre paiement de {{amount}} a été reçu.",
+        "full_payment_received": "Merci ! Votre paiement de {{amount}} a été reçu et cette commande est maintenant entièrement réglée.",
+        "dismiss_label": "Fermer la confirmation de paiement",
+        "payment_authorized": "Merci ! Le solde sera mis à jour dès réception du paiement."
+      },
+      "marketing_pending_confirmation": "Cliquez sur le lien dans votre courriel pour confirmer.",
+      "marketing_resend_email": "Renvoyer le courriel",
+      "total_savings": "Économie totale",
+      "price_before_discount_accessibility_label": "Prix d'origine",
+      "discount_order_stacking": {
+        "one": "Remise sur commande"
       }
+    },
+    "addresses": {
+      "cancel_adding_address_accessibility_label": "Ajouter une adresse annuler",
+      "cancel_deletion_button_accessibility_label": "supprimer {{address}} annuler"
     }
   }
 }

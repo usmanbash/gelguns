@@ -2468,9 +2468,97 @@
         "inventory": {
           "partial_inventory_banner": "A kosarad egy része elfogyott, és nem vásárolható meg a pénztárnál.",
           "sold_out": {
-            "heading": "A kosarad kiárusított"
+            "heading": "A kosarad kiárusított",
+            "storefront_body": "Térjen vissza a boltba a további vásárláshoz",
+            "no_storefront_body": "A cikk, amelyet meg szerettél volna vásárolni, sajnos már nem elérhető.",
+            "link": "Vissza a boltba"
           }
+        },
+        "time_to_checkout_title": "Fizetés ideje - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Becsült várakozási idő kiszámítása",
+          "less_than_one": "Becsült várakozási idő: kevesebb mint egy perc"
+        },
+        "footer": {
+          "heading": "Nem kell frissítened ezt az oldalt, automatikusan frissül.",
+          "body": "A kosaradban lévő termékek csak a fizetés befejezése után kerülnek lefoglalásra."
+        },
+        "too_many_attempts": {
+          "message": "Túl sok próbálkozás",
+          "description": "Próbálja meg újra néhány perc múlva"
         }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Probléma merült fel a kérés feldolgozása során. Kérjük, lépj kapcsolatba az üzlet tulajdonosával."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Nincs elérhető kiszállítás %{count} termékre",
+            "other": "Nincs kiszállítás elérhető %{count} termékre"
+          },
+          "message": {
+            "one": "Ezt a terméket eltávolítjuk a kosaradból, mert a címedre nincs elérhető kézbesítési mód.",
+            "other": "Ezt a terméket eltávolítjuk a kosaradból, mert a címedre nincs elérhető kézbesítési mód."
+          },
+          "label": "Nincs kiszállítás"
+        }
+      },
+      "no_address_location": {
+        "title": "Helyszín cím nélkül",
+        "header": "Ehhez a helyhez nincs kézbesítési cím megadva",
+        "message": "Lépjen kapcsolatba velünk, hogy hozzáadhasson egy címet ehhez a helyszínhez, így befejezheti a fizetést.",
+        "email_us_button_label": "Küldjön nekünk egy e-mailt",
+        "alt_header": "Szállítási cím hiányzik"
+      },
+      "order_errors": {
+        "creation_failure": "Hiba történt a rendelésed létrehozásakor. Próbáld meg újra, vagy lépj kapcsolatba velünk további információért.",
+        "network_failure": "A rendelés nem küldhető el hálózati hiba miatt. Ellenőrizd a kapcsolatodat, és próbáld újra.",
+        "inventory_reservation_failure": "Néhány cikk már nem elérhető."
+      },
+      "session_errors": {
+        "session_not_unique": "Hiba történt a rendelés feldolgozása közben. Frissítsd ezt az oldalt, hogy visszatérhess a boltba.",
+        "session_already_finished": "Ez a rendelés már be lett adva. Visszatérhetsz a boltba, hogy új rendelést indíts."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Zárt",
+        "business_hours": "Nyitvatartási idő",
+        "or": "ból, -ből",
+        "selector_tabs": "Átvételi pont választó",
+        "could_not_resolve_address": "Nem található a cím. Próbáld újra, vagy használj másik címet.",
+        "no_pickup_points_near_you": "Nem találhatók átvételi pontok a kiválasztott cím közelében",
+        "no_pickup_points_near_location": "Nem találhatók átvételi pontok a közeledben",
+        "no_pickup_points_found": "Nem találhatók átvételi pontok",
+        "paginator": {
+          "header": {
+            "one": "%{first} - %{last} megjelenítése a %{count} pontból",
+            "other": "Megjeleníti a %{count} pont %{first} - %{last} elemét"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} van %{count} pont",
+            "other": "%{pickup_point_index} van %{count} pont"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} van %{count} pont",
+            "other": "%{first} - %{last} van %{count} pont"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} átvételi pont a közeledben",
+          "other": "%{count} átvételi pont a közeledben"
+        },
+        "change": "Helyszín módosítása",
+        "waiting_on_pickup_point_location_notice": "Átvételi pontok keresése...",
+        "geolocation": {
+          "shared_location_button": "A helyzetem használata",
+          "errors": {
+            "unsuported_by_browser": "A helymeghatározás lekérése nem támogatott a böngésződ által. Próbáld újra, vagy használj másik böngészőt.",
+            "permission_not_allowed": "Engedélyezd a helyzeted megosztását.",
+            "permission_denied": "Nem sikerült lekérni a helyzetet. Próbáld újra."
+          }
+        },
+        "no_business_hours": "Nincs elérhető nyitvatartási időpont",
+        "open_twenty_four_hours": "24 órában nyitva"
       }
     }
   }
