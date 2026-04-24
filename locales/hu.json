@@ -1510,7 +1510,83 @@
           }
         },
         "simulated_checkout": "A példa hamarosan megjelenik",
-        "vaulting_agreement_label": "Mentse el fizetési adatait a %{company} oldalán a gyorsabb fizetés érdekében."
+        "vaulting_agreement_label": "Mentse el fizetési adatait a %{company} oldalán a gyorsabb fizetés érdekében.",
+        "business_customer_vaulting_payment_label": "Mentse el ezt a fizetési módot a pénztárnál, és engedélyezze a %{company} számára, hogy ezen a kártyán keresztül pénzt vonjon le a jövőbeni vásárlásokhoz ezen a helyszínen. Az összes, ehhez a helyszínhez rendelt kapcsolattartó használhatja a fizetési módot.",
+        "purchase_options_and_vaulting_agreement_label": "A kosárban lévő egy vagy több termék halasztott vagy előfizetéses vásárlás. Ha folytatod a fizetést, elfogadod, hogy a vásárlási összegeket automatikusan levonjuk a fizetési módodról a jelen oldalon feltüntetett ár és gyakoriság szerint, amíg az le nem jár, vagy te magad le nem mondod. Minden lemondásra a %{cancellation_policy_label} vonatkozik.",
+        "purchase_options_cancellation_policy_label": "lemondási feltételek",
+        "use_different_credit_card_label": "Egy másik kártya használata",
+        "saved_credit_card": "Mentett hitelkártyád",
+        "saved_credit_card_info": "Utolsó négy számjegy",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Az összes mentett térkép megtekintése"
+        },
+        "expired_cards_info": {
+          "one": "Van %{count} lejárt kártya. Megtekintheted és módosíthatod őket a fiókodban.",
+          "other": "%{count} lejárt kártya van. Megtekintheted és módosíthatod őket a fiókodban."
+        },
+        "local_payment_method_receiver_notice": "A rendelés leadása után megkapod a fizetési adatokat. A fizetést {{dueDays}} napon belül teljesítsd egy bankautomatánál vagy online.",
+        "order_edit_banner_title": "A {{amount_owed}} kifizetése szükséges",
+        "order_edit_banner_subtitle": "A {{order_number}} rendelésed frissítve lett. Ellenőrizd a változtatásokat, és fizess a rendelés megerősítéséhez.",
+        "order_edit_banner_multiple_items_added": "{{amount}} hozzáadva",
+        "gift_card_wrapper": {
+          "heading": "Ajándékutalvány",
+          "apply_gift_card_label": "Ajándékutalvány beváltása",
+          "payment_tag": "Ajándékutalvány",
+          "apply_another_gift_card_label": "Egy másik ajándékutalvány használata",
+          "gift_card_label": "Ajándékutalvány %{identifier}",
+          "add_label": "Ajándékutalvány hozzáadása",
+          "manage_label": "Ajándékutalványok kezelése"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Rögzítés egyedi helyszíni fizetésekhez"
+        },
+        "markets_pro_disclaimer_label": "A megrendelés leadásával elfogadod, hogy a vásárlás a Global-e, mint regisztrált kereskedő nevében történik, a Global-e %{markets_pro_terms} és %{privacy_policy} feltételeinek megfelelően, és megosztod az adataidat a %{shop_name}-pal.",
+        "markets_pro_disclaimer_terms_and_conditions": "általános feltételek",
+        "markets_pro_disclaimer_privacy_policy": "adatvédelmi szabályzat",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Általános szerződési feltételek a kereskedők számára",
+        "markets_pro_disclaimer_privacy_policy_title": "Adatvédelmi szabályzat a kereskedők számára",
+        "purchase_order_number": {
+          "title": "Rendelési szám",
+          "label": "Rendelési szám (opcionális)"
+        },
+        "alternative_payment_currency_total_notice": "Megjegyzés: %{amount_due} kerül levonásra.",
+        "waiting_on_taxes_message": "Frissítse az oldalt, ha az adók nem számolódnak ki néhány másodpercen belül.",
+        "waiting_on_taxes_notice": "Adók kiszámítása",
+        "order_edit_banner_multiple_items_returned": "{{amount}} visszaküldve",
+        "delete_credit_card_modal": {
+          "title": "Kártya eltávolítása",
+          "confirmation": "Biztosan törölni szeretnéd a {{brandName}}-t, amely {{lastDigits}}-re végződik?",
+          "delete": "Eltávolítás"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} hozzáadva"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} van {{quantity}} eltávolítva"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} visszaküldve",
+          "with_quantities": "{{delta}} van {{quantity}} visszaküldve"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Eltávolítás"
+        },
+        "edit_credit_card_modal": {
+          "title": "Térkép szerkesztése",
+          "fields": {
+            "default": "Alapértelmezettként beállítani",
+            "expiry": "Lejárati dátum",
+            "name": "Név a kártyán",
+            "billing": "Számlázás ide"
+          }
+        },
+        "use_order_billing_address_label": "A rendelés számlázási címének használata",
+        "use_location_billing_address_label": "A helyszín számlázási címének használata",
+        "use_location_shipping_address_label": "Szállítási címként a helyszín használata",
+        "purchase_options_agreement_label_wallets": "Ha folytatod a fizetést, elfogadod a jelen oldalon felsorolt jövőbeni fizetéseket és a lemondási szabályzatot.",
+        "gift_card_store_credit": {
+          "add_label": "Ajándékutalvány vagy vásárlási jóváírás hozzáadása"
+        }
       }
     }
   }
