@@ -3435,7 +3435,79 @@
         "exchange_header": "Artículos de intercambio",
         "exchange_subheader": "Los artículos de cambio se añadirán al pedido una vez que se haya completado la devolución."
       },
-      "request_return_failed": "Se ha producido un problema al procesar tu solicitud. Por favor, inténtalo de nuevo."
+      "request_return_failed": "Se ha producido un problema al procesar tu solicitud. Por favor, inténtalo de nuevo.",
+      "shipment_timeline": {
+        "expand_events_label": "Mostrar datos",
+        "expand_events_accessibility_label": "Mostrar datos de entrega del pedido",
+        "hide_events_label": "Ocultar datos",
+        "hide_events_accessibility_label": "Ocultar datos de entrega del pedido"
+      },
+      "show_order_summary": "Mostrar resumen del pedido",
+      "hide_order_summary": "Ocultar resumen del pedido",
+      "marketing_description": "Recibirás correos electrónicos de mercadotecnia. Puedes darte de baja en cualquier momento que desees.",
+      "marketing_checkbox_label": "Envíame correos electrónicos con noticias y ofertas",
+      "marketing_checkmark_label": "Te has suscrito para recibir correos electrónicos con noticias y ofertas",
+      "image_gallery": {
+        "product_name_and_quantity": "Cantidad de {{productName}} {{quantity}}",
+        "next": "Mostrar los siguientes artículos",
+        "load_more_items": {
+          "one": "Cargar {{count}} artículo más"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descargar Tienda para seguir el paquete",
+        "track_order_with_shop": "Seguir pedido con Shop",
+        "real_time_delivery_updates": "Después de que el pedido haya sido enviado, recibirás actualizaciones en tiempo real sobre la entrega de Shop."
+      },
+      "edit_summary": {
+        "added": "Añadido",
+        "added_with_quantity": "{{quantity}} añadido",
+        "removed_with_quantity": "{{quantity}} eliminado",
+        "returned_with_quantities": "{{delta}} de {{total}} devueltos",
+        "removed_with_quantities": "{{delta}} de {{total}} eliminado",
+        "return_line_item_removed": "Eliminado de devolución",
+        "return_line_item_removed_with_quantities": "{{delta}} eliminado de la devolución"
+      },
+      "pickup": {
+        "pickup": "Recoger",
+        "pickup_location": "Lugar de recogida",
+        "pickup_point": "Punto de recogida"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagado con pagos a plazos de Shop Pay",
+        "description": "Mantente al tanto de tu calendario de pagos con recordatorios en la aplicación de la tienda.",
+        "payment_reminders_button": "Recibir recordatorios de pago",
+        "desktop_qr_code_content": {
+          "title": "Escanear recuerdos",
+          "description": "Recibe recordatorios para tus pagos a plazos en la Tienda."
+        },
+        "title": "Recordatorios de pago para pagos a plazos con Shop Pay"
+      },
+      "order_details": "Datos del pedido",
+      "contact_information": "Datos de contacto",
+      "login_to_view_all_order_details": "Inicie sesión para ver todos los detalles del pedido.",
+      "order_details_skeleton_accessibility_label": "Inicie sesión para ver todos los detalles del pedido.",
+      "logged_in_account_no_permission_to_order": "Has iniciado sesión como {{email}}. Esta cuenta no está autorizada para gestionar este pedido.",
+      "log_in_to_a_different_account": "Iniciar sesión en otra cuenta",
+      "duties": "Derechos aduaneros",
+      "ok_duties_tooltip": "Este pedido se envía desde otro país, por lo que se han añadido derechos de aduana al importe total del pedido.",
+      "error_duties_tooltip": "Este pedido se envía desde otro país, por lo que pueden aplicarse derechos de aduana e impuestos al momento de la entrega.",
+      "zero_duties_tooltip": "Este pedido se envía desde otro país. No se cobrarán derechos de aduana en pedidos con este valor.",
+      "fees": {
+        "restocking_fee": "Costos de reposición",
+        "return_shipping_fee": "Devolución"
+      },
+      "vat_invoices": {
+        "title": "Facturas btw"
+      },
+      "taxes_included": "Incluye {{amount}} IVA",
+      "duties_and_taxes_included": "El total incluye derechos de aduana e impuestos. No hay pagos adicionales al momento de la entrega.",
+      "grouped_view_components": {
+        "line_item_summary_list_accessibility_label": "Artículos en paquete {{productTitle}}"
+      },
+      "cash_rounding": "Redondear dinero en efectivo",
+      "adjusted_payment": "Pago personalizado",
+      "adjusted_total": "Total ajustado"
     }
   }
 }
