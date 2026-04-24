@@ -1916,7 +1916,65 @@
         "out_for_delivery_description_html": "Twoje zamówienie jest w drodze i powinno dotrzeć dzisiaj. Jeśli nie zostanie dostarczone w ciągu najbliższych dwóch dni, %{contact_us}.",
         "attempted_delivery": "Próba doręczenia",
         "attempted_delivery_title": "Podjęto próbę dostarczenia Twojego zamówienia",
-        "attempted_delivery_description_html": "Próba dostarczenia Twojego zamówienia nie powiodła się. Aby umówić kolejną próbę dostawy, %{contact_us}."
+        "attempted_delivery_description_html": "Próba dostarczenia Twojego zamówienia nie powiodła się. Aby umówić kolejną próbę dostawy, %{contact_us}.",
+        "delivered": "Zmartwiony",
+        "delivered_description_html": "Twoje zamówienie zostało dostarczone na podany przez Ciebie adres. Jeśli go nie otrzymałeś lub wystąpiły inne problemy, %{contact_us}.",
+        "failure": "Nie martw się",
+        "failed_title": "Twoje zamówienie nie mogło zostać dostarczone.",
+        "failed_contact_merchant": "Skontaktuj się z %{company}, aby ustalić dostawę.",
+        "failed_contact_merchant_no_company": "Skontaktuj się z nami, aby ustalić dostawę.",
+        "non_shippable_title": "Zamówienie zostało zrealizowane",
+        "login_title": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia",
+        "login_description": "Numer zamówienia znajdziesz na fakturze, którą otrzymałeś e-mailem.",
+        "login_description_phone": "Numer zamówienia znajdziesz na fakturze, którą otrzymałeś przez sms.",
+        "login_not_customer_html": "Nie ma %{name}? Możesz %{link}",
+        "login_reorder_link_text": {
+          "one": "kup ten produkt również",
+          "other": "kup również te produkty"
+        },
+        "customer_information_hidden_fields_message": "Zaloguj się, aby zobaczyć wszystkie dane klienta.",
+        "cancelled_title": "Twoje zamówienie zostało anulowane",
+        "cancelled_description": "Twoje zamówienie zostało anulowane w dniu %{date}. Skontaktuj się z nami, jeśli masz pytania.",
+        "order_number_label": "Numer zamówienia",
+        "customer_validation_error": "Wprowadź prawidłowy adres e-mail lub numer zamówienia.",
+        "customer_validation_error_phone": "Wprowadź prawidłowy numer telefonu lub zamówienia.",
+        "unfulfilled_items_title": "Wysyłka jest przygotowywana",
+        "unfulfilled_items_description": "Obecnie przygotowujemy te artykuły do wysyłki.",
+        "marker": {
+          "current": "Aktualna lokalizacja wysyłki",
+          "shipping": "Adres dostawy"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Przedmioty w tej przesyłce",
+          "unfulfilled_table_title": "Artykuły są przygotowywane do wysyłki"
+        },
+        "order_updates_description_missing": "Nie otrzymujesz aktualizacji wysyłki.",
+        "order_updates_subscribe_to_email_notifications": "Otrzymuj aktualizacje wysyłki przez e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Otrzymuj aktualizacje wysyłki przez e-mail lub sms",
+        "order_updates_subscribe_to_phone_notifications": "Otrzymuj aktualizacje wysyłki przez SMS",
+        "order_updates_submit_subscription": "Złóż wniosek",
+        "track_shipment": "Wysyłka wolna",
+        "order_status_confirmed_order_with_email_pick_up": "Otrzymasz e-mail, gdy będziesz mógł odebrać swoje zamówienie.",
+        "order_status_confirmed_order_with_phone_pick_up": "Otrzymasz wiadomość SMS, gdy będziesz mógł odebrać swoje zamówienie.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Otrzymasz e-mail oraz wiadomość tekstową, gdy będziesz mógł odebrać swoje zamówienie.",
+        "pick_up_in_store_marker": {
+          "current": "Aktualna lokalizacja wysyłki",
+          "shipping": "Miejsce odbioru"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Otrzymasz e-mail, gdy będziesz mógł odebrać swoje zamówienie.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Otrzymasz wiadomość SMS, gdy będziesz mógł odebrać swoje zamówienie.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Otrzymasz e-mail, gdy będziesz mógł odebrać swoje zamówienie.",
+        "ready_for_pickup_title": "Zamówienie jest gotowe do odbioru",
+        "ready_for_pickup_description": "Twoje zamówienie jest gotowe do odbioru. Prosimy o zabranie potwierdzenia zamówienia podczas odbioru.",
+        "picked_up_title": "Zamówienie zostało odebrane",
+        "picked_up_description_html": "Twoje zamówienie zostało odebrane w %{location_name} w dniu %{date}.",
+        "shop_phone_description": "Otrzymasz wiadomość SMS z linkiem do aplikacji Sklep, aby śledzić swoje zamówienie.",
+        "ready_for_delivery_title": "Zamówienie jest gotowe do dostarczenia",
+        "ready_for_delivery_description": "Przygotowaliśmy zamówienie.",
+        "order_status_confirmed_order_local": "Przygotowujemy twoje zamówienie do dostawy.",
+        "gift_card_sent_confirmation": "Wysłano bony podarunkowe",
+        "out_for_delivery_local_title": "Twoje zamówienie jest gotowe do dostarczenia",
+        "out_for_delivery_local_description_html": "Wkrótce otrzymasz swoje zamówienie."
       }
     }
   }

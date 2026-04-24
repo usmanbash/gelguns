@@ -2829,6 +2829,84 @@
       "memberships": {
         "delivery_promise_unfulfillable": "Šī adrese nav atbalstīta pašreizējai dalībniecībai.",
         "items_split_across_locations_unsupported": "Prime-piegāde nav pieejama tavai pasūtījumam. Tavi sūtīšanas varianti ir atjaunināti."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Pārlūkot interneta veikalu"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Vairāk informācijas par %{context}",
+        "additional_payment_methods": "Papildu maksāšanas veidi"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Šo preci nevar pievienot jūsu iepirkumu grozam, jo tā nāk no veikala, kas izmanto citu valūtu.",
+          "max_remote_shops_exceeded": "Šo preci nevar pievienot, jo tavā iepirkumu grozā jau ir maksimālais daudzums no citām veikalām.",
+          "currency_mismatch_removal": "No tava iepirkumu groza ir izņemts prece, jo tā nāk no veikala, kas lieto citu valūtu.",
+          "only_remote_merchandise_lines": "Norēķinu grozā ir tikai ārējie preces. Lai pabeigtu norēķinus, ir nepieciešama pāradrese uz ārējo veikalu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Pabeigt pirkumu",
+        "remote_only_notice": "Šie izstrādājumi tiek pārdoti un nosūtīti no citām veikaliem. Lai pabeigtu pirkumu, dodieties uz katra veikala kases vietu.",
+        "return_to_store_label": "Atpakaļ uz veikalu",
+        "checkout_on_shop_label": "Apmaksāt pie %{shop_name}",
+        "single_shop_transition": "Jūs tiksiet novirzīts uz %{advertiser}, lai pabeigtu savu pirkumu.",
+        "detail_item_label": {
+          "one": "{{count}} prece",
+          "other": "{{count}} preces"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Šim veikalam nav pieejama %{policy_name}. Lai iegūtu vairāk informācijas, sazinieties tieši ar %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Maksājums neizdevās",
+        "payment_not_processed_text": "Nolasi QR kodu vēlreiz. Ja tas joprojām nedarbojas, lūdzu, informē mūsu darbiniekus un mēģini izmantot citu maksāšanas veidu.",
+        "payment_link_expired_title": "Maksāšanas saite ir beigusies",
+        "payment_link_expired_text": "Skenējiet QR kodu vēlreiz.",
+        "title": "Ārpusvietas maksājums neizdevās"
+      },
+      "taxes": {
+        "tax_details": "Papildu nodokļu dati",
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifikācijas numurs (pēc izvēles)",
+            "tooltip": "Pārbauda PVN identifikācijas numuru un automātiski piemēro pārcelšanu pasūtījumiem, kas atbilst šiem nosacījumiem"
+          },
+          "add": "Pievienot PVN numuru",
+          "vaulted": "Btw-identifikācijas numurs: %{number}",
+          "badge": "Btw-identifikācijas numurs: %{number}",
+          "domestic_order": "Pārvietošanas kārtība attiecas tikai uz starpvalstu pasūtījumiem ES robežās. Vietējiem pasūtījumiem tiek piemērots standarta pievienotās vērtības nodoklis.",
+          "status": {
+            "invalid_format": {
+              "at": "Austrijas PVN identifikācijas numurs satur AT un 9 rakstzīmes",
+              "be": "Beļģijas PVN identifikācijas numurs satur BE un 10 zīmes",
+              "bg": "Bulgarijas PVN identifikācijas numurs satur BG un 9–10 zīmes",
+              "hr": "Kroātijas PVN identifikācijas numurs satur HR un 11 rakstzīmes",
+              "cy": "Kipras PVN identifikācijas numurs satur CY un 9 rakstzīmes",
+              "cz": "Čehijas PVN identifikācijas numurs satur CY un 8-10 zīmes.",
+              "dk": "Dānijas PVN identifikācijas numurs satur DK un 8 rakstzīmes",
+              "ee": "Igaunijas PVN identifikācijas numurs satur EE un 9 rakstzīmes",
+              "fi": "Somijas PVN identifikācijas numurs satur FI un 8 rakstzīmes",
+              "fr": "Francijas PVN identifikācijas numurs satur FR un 11 rakstzīmes",
+              "de": "Vācijas PVN identifikācijas numurs satur DE un 9 zīmes",
+              "gr": "Grieķijas PVN identifikācijas numurs satur EL un 9 rakstzīmes",
+              "hu": "Ungārijas PVN identifikācijas numurs satur HU un 8 rakstzīmes",
+              "ie": "Īrijas PVN identifikācijas numurs satur IE un 8-9 zīmes",
+              "it": "Itālijas PVN identifikācijas numurs satur IT un 11 rakstzīmes",
+              "lv": "Latvijas PVN identifikācijas numurs satur LV un 11 zīmes",
+              "lt": "Lietuvas PVN identifikācijas numurs satur LT un 9–12 zīmes",
+              "lu": "Luksemburgas PVN identifikācijas numurs satur LU un 8 rakstzīmes",
+              "mt": "Maltas PVN identifikācijas numurs satur MT un 8 rakstzīmes",
+              "nl": "Nīderlandes PVN identifikācijas numurs satur NL un 12 rakstzīmes",
+              "pl": "Polijas PVN identifikācijas numurs satur PL un 10 rakstzīmes",
+              "pt": "Portugāles PVN identifikācijas numurs satur PT un 9 rakstzīmes",
+              "ro": "Rumānijas PVN identifikācijas numurs satur RO un 10 rakstzīmes"
+            }
+          }
+        }
       }
     }
   },
