@@ -1068,7 +1068,87 @@
         "discount_code_removed": "Il codice sconto %{code} è stato rimosso",
         "discount_code_replaced": "Il codice sconto %{old_code} è stato rimosso e %{code} è stato applicato",
         "discount_code_replaced_multiple": "Sono stati rimossi più codici sconto e %{code} è stato applicato",
-        "discount_applies_to_subscription_items_only": "Lo sconto si applica solo agli articoli in abbonamento"
+        "discount_applies_to_subscription_items_only": "Lo sconto si applica solo agli articoli in abbonamento",
+        "estimated_taxes_finalization_tooltip_content_short": "Arrotondamento fiscale dopo il pagamento",
+        "compare_at_sale": "Saldi (%{sale_amount})",
+        "tax_line": {
+          "gst": "IVA"
+        }
+      },
+      "shipping": {
+        "shipping_method_title": "Modalità di spedizione",
+        "waiting_on_rate_notice": "Recupero delle tariffe di spedizione disponibili...",
+        "waiting_on_pickup_location_notice": "Recupero delle sedi di ritiro disponibili...",
+        "no_rates_for_cart_or_destination_notice": "Non sono disponibili metodi di spedizione per il tuo carrello o indirizzo",
+        "no_pickup_location_notice": "Almeno uno dei tuoi prodotti non può essere ritirato",
+        "free_rate_label": "Gratuito",
+        "cheapest_rate_label": "Più economico",
+        "estimated_delivery_date_range": "%{minimum} fino a %{maximum} giorni lavorativi",
+        "shipping_line_phone_label": "Numero di cellulare (obbligatorio)",
+        "shipping_line_phone": "Il tuo corriere può utilizzare questo numero per contattarti.",
+        "other_method": {
+          "zero": "Nessun altro metodo disponibile",
+          "one": "%{count} altri metodi disponibili da"
+        },
+        "shipping_rate_discounted_amount": "Prima: %{original_amount}. Ora: %{amount}",
+        "shipping_line_delivery_phone": "Potresti essere contattato per aggiornamenti sulla tua consegna.",
+        "optional_shipping_line_delivery_instructions_label": "Istruzioni per la consegna (facoltative)",
+        "shipping_line_delivery_phone_label": "Numero di telefono cellulare",
+        "shipping_line_delivery_instructions": "Inserisci le informazioni richieste come codici porta e istruzioni di consegna.",
+        "subscription_shipping": "Abbonamento per la spedizione",
+        "shipping_method_one_time_purchase_group_title": "Acquisto unico",
+        "one_time_purchase_shipping": "Spedizione unica",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "per %{count} consegna(e)"
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per la consegna",
+          "prepaid_shipping_price_label": "%{shipping_price} per consegna x %{delivery_interval_count}",
+          "initial_order_discounted": "Prima spese di spedizione %{discounted_shipping_cost}, poi %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primi costi di spedizione %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primi costi di spedizione %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Prima spese di spedizione %{discounted_shipping_price} %{prepaid_delivery_frequency}, poi %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primi costi di spedizione %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), poi %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "seguito da %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Primo ordine incluso, seguito da %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per consegna), seguito da %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "other": "Prime %{count} ordini gratuiti"
+          },
+          "free_shipping_cycles": {
+            "one": "Spedizione gratuita per ancora %{count} consegne extra",
+            "other": "Spedizione gratuita per altre %{count} consegne extra"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Spedizione gratuita per %{count} consegne"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Spedizione gratuita per ancora %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per altre %{count} consegne, poi %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Spedizione gratuita per %{count} consegne, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per %{count} consegne, poi %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} consegna extra per %{shipping_price}",
+            "other": "%{count} consegne extra per %{shipping_price} a consegna"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} consegna per %{shipping_price}",
+            "other": "%{count} consegne extra per %{shipping_price} a consegna"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Spedizione gratuita per il primo %{cycle}, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per il primo %{cycle}, poi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} per %{count} consegne aggiuntive"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} per %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}"
+          }
+        }
       }
     }
   }

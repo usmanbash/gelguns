@@ -3572,8 +3572,76 @@
         "delivery_promise_v2": {
           "promise_line": {
             "external_promise_brand_label": "Livraison pour",
-            "not_delivered_by_label": "Inquiet après le {{date}}"
+            "not_delivered_by_label": "Inquiet après le {{date}}",
+            "delivery_guarantee_expired_label": "Livraison garantie expirée",
+            "modal_accessibility_button_label": "Données sur la promesse de livraison",
+            "download_shop_app_button_label": "Télécharger Boutique pour le suivi",
+            "track_with_shop_button_label": "Suivre avec Boutique",
+            "claim_shop_cash_button_label": "Réclamer de l'argent en boutique"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Livraison pour {{date}}",
+            "expired_delivery_guarantee_description": "La garantie Shop Promise de 30 jours pour cette commande a expiré.",
+            "order_includes_guarantees_label": "Votre livraison bénéficie de {{deliveryAgreementsCount}} garanties",
+            "order_includes_guarantees_description": "Shop Promise offre une garantie de livraison rapide et fiable. Réclamez Shop Cash si votre commande est livrée après le {{date}}.",
+            "delivered_after_label": "Inquiet après le {{date}}",
+            "delivered_after_description": "Votre commande est arrivée en retard, vous pouvez donc réclamer {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Cette commande a été livrée en retard, vous avez donc réclamé {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Votre commande est arrivée en retard, vous pouvez donc réclamer {{amount}} Shop Cash.",
+            "learn_more_button_label": "Plus d'informations",
+            "claim_shop_cash_button_label": "Réclamer de l'argent en boutique",
+            "view_balance_in_shop_button_label": "Voir le solde en boutique",
+            "scan_to_claim_shop_cash_label": "Scannez pour réclamer {{amount}} en Shop Cash"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Renvoyer le bon cadeau",
+          "other": "Renvoyer les bons cadeaux"
+        },
+        "expected_by": "Attendu au plus tard le {{date}}",
+        "was_expected_by": "Livraison prévue au plus tard le {{date}}"
+      },
+      "status_mark_as_delivered": "Marquer comme livré",
+      "fulfillment_status_title": "Statut d'exécution : {{status}}",
+      "list_title_with_pending_orders": "Commandes :",
+      "list_title_confirmed_orders_accessibility_label": "Commandes : confirmées",
+      "list_title_pending_orders_accessibility_label": "Commandes : en cours de traitement",
+      "switch_order_type_pending_orders_accessibility_label": "Changer le type de commande ; vous consultez maintenant les commandes en cours de traitement",
+      "switch_order_type_confirmed_orders_accessibility_label": "Changer le type de commande ; vous consultez vos commandes confirmées",
+      "group_title_label": "Fait partie de : {{groupTitle}}",
+      "group_title_label_with_parent": "Pour : {{groupTitle}}"
+    },
+    "order_details": {
+      "card_ending_with": "se termine par {{lastDigits}}",
+      "contact": "Personne de contact",
+      "loading": "Chargement des données de commande",
+      "loading_finished_accessibility_message": "Les données de commande ont été chargées",
+      "payment": {
+        "status_in_review": "Paiement dû après évaluation",
+        "card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Payé avec les paiements échelonnés Shop Pay",
+          "view_schedule": "Voir le planning"
+        },
+        "gift_card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Mandat postal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Remboursement - {{formattedTransactionAmount}}",
+          "bank_deposit": "Dépôt bancaire - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Crédit boutique - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Données",
+          "payment_details": "Données de paiement"
+        },
+        "emv_details": {
+          "auth": "AUTH :",
+          "aid": "AIDE :",
+          "source": "Nous vendons des rosiers ou des rosiers à racines nues"
+        },
+        "payment_type": {
+          "gift_card": "Bon cadeau",
+          "store_credit": "Crédit boutique"
         }
       }
     }
