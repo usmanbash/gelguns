@@ -2789,7 +2789,93 @@
         "banner_title": {
           "some_products_one": "Ten produkt nie jest dostępny do wysyłki do %{location_name}.",
           "some_products_other": "Te produkty nie są dostępne do wysyłki do %{location_name}.",
-          "all_products_one": "Produkt w Twoim koszyku nie jest dostępny do wysyłki do %{location_name}."
+          "all_products_one": "Produkt w Twoim koszyku nie jest dostępny do wysyłki do %{location_name}.",
+          "all_products_other": "Produkty w Twoim koszyku nie są dostępne do wysyłki do %{location_name}."
+        },
+        "missing_country_fallback": "twój kraj",
+        "indeterminate_location_fallback": "twoja lokalizacja",
+        "remove_items_action": {
+          "one": "usuń niedostępny artykuł",
+          "other": "usuń niedostępne artykuły"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Nie masz już uprawnień do składania zamówień B2B. %{logout_url}, aby zamiast tego złożyć zamówienie indywidualne.",
+        "lost_permissions_title": "Brak zezwoleń na lokalizację"
+      },
+      "units": {
+        "liter": "l",
+        "ounce": "uncja",
+        "pound": "funt",
+        "gallon": "galeria",
+        "inch": "w",
+        "square_foot": "stopy kwadratowe",
+        "item": "artykuł"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Ten adres nie jest obsługiwany dla obecnego członkostwa.",
+        "items_split_across_locations_unsupported": "Dostawa Prime nie jest dostępna dla twojego zamówienia. Twoje opcje wysyłki zostały zaktualizowane."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Przejdź do sklepu internetowego"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Więcej informacji o %{context}"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Ten artykuł nie może zostać dodany do twojego koszyka, ponieważ pochodzi ze sklepu używającego innej waluty.",
+          "max_remote_shops_exceeded": "Nie można dodać tego produktu, ponieważ twój koszyk już zawiera maksymalną ilość z innych sklepów.",
+          "currency_mismatch_removal": "Z koszyka usunięto artykuł, ponieważ pochodzi ze sklepu używającego innej waluty.",
+          "only_remote_merchandise_lines": "Koszyk zawiera wyłącznie towary zewnętrzne. Aby dokończyć zamówienie, konieczne jest przekierowanie do zewnętrznego sklepu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Dokończ swój zakup",
+        "remote_only_notice": "Te artykuły są sprzedawane i wysyłane przez inne sklepy. Przejdź do kasy każdego sklepu, aby sfinalizować zakup.",
+        "return_to_store_label": "Powrót do sklepu",
+        "checkout_on_shop_label": "Zapłać w %{shop_name}",
+        "single_shop_transition": "Zostaniesz przekierowany do %{advertiser}, aby dokończyć zakup.",
+        "detail_item_label": {
+          "one": "{{count}} artykułów",
+          "other": "{{count}} artykułów"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Nie podano %{policy_name} dla tego sklepu. W celu uzyskania więcej informacji skontaktuj się bezpośrednio z %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Płatność nie powiodła się",
+        "payment_not_processed_text": "Zeskanuj kod QR ponownie. Jeśli nadal nie działa, poinformuj o tym naszych pracowników i spróbuj innej metody płatności.",
+        "payment_link_expired_title": "Link płatności wygasł",
+        "payment_link_expired_text": "Zeskanuj kod QR ponownie.",
+        "title": "Płatność poza miejscem nie powiodła się"
+      },
+      "taxes": {
+        "tax_details": "Dodatkowe dane podatkowe",
+        "vat_number": {
+          "field": {
+            "label": "Numer identyfikacyjny Btw (opcjonalnie)",
+            "tooltip": "Sprawdza poprawność numeru identyfikacji podatkowej VAT i automatycznie stosuje odwrotne obciążenie do zamówień, które kwalifikują się do tego."
+          },
+          "add": "Dodaj numer VAT",
+          "vaulted": "Numer identyfikacyjny Btw: %{number}",
+          "badge": "Numer identyfikacyjny Btw: %{number}",
+          "domestic_order": "System odwrotnego obciążenia dotyczy wyłącznie zamówień transgranicznych w obrębie UE. W przypadku zamówień lokalnych standardowo naliczany jest podatek VAT.",
+          "status": {
+            "invalid_format": {
+              "at": "Numer identyfikacji podatkowej VAT z Austrii zawiera AT i 9 znaków",
+              "be": "Numer identyfikacji podatkowej VAT w Belgii zawiera BE i 10 znaków",
+              "bg": "Numer identyfikacji podatkowej VAT z Bułgarii zawiera BG oraz 9-10 znaków",
+              "hr": "Numer identyfikacji podatkowej VAT Chorwacji zawiera HR i 11 znaków",
+              "cy": "Numer identyfikacji podatkowej VAT na Cyprze zawiera CY i 9 znaków",
+              "cz": "Numer identyfikacji podatkowej VAT z Czech zawiera CY oraz 8-10 znaków.",
+              "dk": "Numer identyfikacji podatkowej VAT z Danii zawiera DK i 8 znaków",
+              "ee": "Numer identyfikacji podatkowej VAT z Estonii zawiera EE i 9 znaków"
+            }
+          }
         }
       }
     }
