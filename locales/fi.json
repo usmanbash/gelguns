@@ -2829,10 +2829,84 @@
               "at": "Anna kelvollinen itävaltalainen arvonlisäverotunniste",
               "be": "Anna kelvollinen belgialainen arvonlisäverotunniste",
               "bg": "Anna kelvollinen Bulgarian arvonlisäverotunniste",
-              "hr": "Anna kelvollinen kroatialainen arvonlisäverotunniste"
+              "hr": "Anna kelvollinen kroatialainen arvonlisäverotunniste",
+              "cy": "Syötä voimassa oleva Kyproksen arvonlisäverotunniste",
+              "cz": "Syötä kelvollinen tšekkiläinen arvonlisäverotunniste",
+              "dk": "Anna kelvollinen tanskalainen arvonlisäverotunniste",
+              "ee": "Anna voimassa oleva Viron arvonlisäverotunniste",
+              "fi": "Anna voimassa oleva suomalainen arvonlisäverotunniste",
+              "fr": "Anna kelvollinen ranskalainen arvonlisäverotunniste",
+              "de": "Anna kelvollinen saksalainen arvonlisäverotunniste",
+              "gr": "Anna kelvollinen kreikkalainen arvonlisäverotunniste",
+              "hu": "Syötä voimassa oleva Unkarin arvonlisäverotunniste",
+              "ie": "Syötä voimassa oleva Irlannin arvonlisäverotunniste",
+              "it": "Anna kelvollinen italialainen arvonlisäverotunniste",
+              "lv": "Syötä voimassa oleva Latvian arvonlisäverotunniste",
+              "lt": "Syötä voimassa oleva liettualainen arvonlisäverotunniste",
+              "lu": "Anna kelvollinen Luxemburgin arvonlisäverotunniste",
+              "mt": "Syötä kelvollinen maltalainen arvonlisäverotunniste",
+              "nl": "Syötä voimassa oleva hollantilainen arvonlisäverotunniste",
+              "pl": "Anna kelvollinen Puolan arvonlisäverotunniste",
+              "pt": "Anna kelvollinen portugalilainen arvonlisäverotunniste",
+              "ro": "Anna kelvollinen Romanian arvonlisäverotunniste",
+              "sk": "Anna kelvollinen slovakialainen arvonlisäverotunniste",
+              "si": "Syötä kelvollinen Slovenian arvonlisäverotunnus",
+              "es": "Syötä kelvollinen espanjalainen arvonlisäverotunniste",
+              "se": "Syötä voimassa oleva ruotsalainen arvonlisäverotunniste",
+              "gb": "Anna kelvollinen Yhdistyneen kuningaskunnan arvonlisäverotunniste"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Arvonlisäverotunnuksen voimassaolon tarkistus suoritetaan",
+              "valid": "Btw-tunnistenumero on voimassa",
+              "applied": "Arvonlisäverovapaus on sovellettu",
+              "domestic": "Arvonlisäverovapaus ei ole sovellettu",
+              "invalid_number": "Arvonlisäverovapaus epäonnistui",
+              "service_unavailable": "Kan arvonlisäverovapautta ei voi vahvistaa",
+              "service_error": "Kan arvonlisäverovapautta ei voi vahvistaa"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Tätä maksua ei enää vaadita. Siirry tilaus­sivulle saadaksesi lisätietoja.",
+        "paid": "Tämä maksu on jo lähetetty. Siirry tilaus­sivulle saadaksesi lisätietoja."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Ostoksen viimeistelyyn tarvitaan laajennusvuorovaikutus."
+        }
+      },
+      "too_many_requests": {
+        "body": "Odota muutama minuutti ja yritä uudelleen ostoskoristasi.",
+        "return_to_cart": "Takaisin ostoskoriin"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Toimii Shopifyn voimalla"
+    },
+    "feed": {
+      "more": "Meri"
+    },
+    "attributes": {
+      "password_confirmation": "salasanan vahvistus",
+      "body": "pääteksti"
+    },
+    "addresses": {
+      "pincode": "Postinumero",
+      "province": "Maakunta",
+      "state": "Valtio",
+      "state_and_territory": "Valtio/Alue",
+      "county": "Maakunta",
+      "emirate": "Emiraatit",
+      "governorate": "Hallitus",
+      "confirm": "Oletko varma, että haluat poistaa tämän osoitteen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Esillä",
+        "best_selling": "Parhaiten myyvät"
       }
     }
   }
