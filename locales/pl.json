@@ -542,32 +542,32 @@
     "issued": {
       "title": "To jest saldo bonu podarunkowego o wartości {{ value }} dla {{ shop }}",
       "subtext": "Bon podarunkowy Je",
-      "gift_card_code": "Kod karty prezentowej",
-      "shop_link": "Odwiedź sklep online",
-      "add_to_apple_wallet": "Dodaj do Apple Wallet",
-      "qr_image_alt": "Kod QR – zeskanuj, aby wykorzystać kartę prezentową",
-      "copy_code": "Kopiuj kod karty prezentowej",
-      "expired": "Utraciła ważność",
-      "copy_code_success": "Kod został skopiowany",
-      "how_to_use_gift_card": "Użyj kodu karty prezentowej online lub kodu QR w sklepie",
+      "gift_card_code": "Kod bonu podarunkowego",
+      "shop_link": "Odwiedź sklep internetowy",
+      "add_to_apple_wallet": "Dodaj do Portfela Apple",
+      "qr_image_alt": "Kod QR — zeskanuj, aby zrealizować bon podarunkowy",
+      "copy_code": "Skopiuj kod bonu podarunkowego",
+      "expired": "Wygasło",
+      "copy_code_success": "Kod skopiowany",
+      "how_to_use_gift_card": "Użyj kodu bonu podarunkowego online lub kodu QR w sklepie",
       "expiration_date": "Wygasa {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
       "checkbox": "Chcę to wysłać jako prezent",
-      "email_label": "E-mail odbiorcy",
-      "email": "E-mail",
+      "email_label": "Adres e-mail odbiorcy",
+      "email": "Adres e‑mail",
       "name_label": "Nazwa odbiorcy (opcjonalnie)",
-      "name": "Nazwisko",
-      "message_label": "Wiadomość (opcjonalna)",
-      "message": "Wiadomość",
-      "max_characters": "Maks. {{ max_chars }} znaki(-ów)",
+      "name": "Nazwa",
+      "message_label": "Raport (opcjonalnie)",
+      "message": "Raport",
+      "max_characters": "Maksymalnie {{ max_chars }} znaków",
       "email_label_optional_for_no_js_behavior": "Adres e-mail odbiorcy (opcjonalnie)",
       "send_on": "RRRR-MM-DD",
-      "send_on_label": "Wyślij dnia (opcjonalnie)",
-      "expanded": "Rozwinięty formularz odbiorcy karty prezentowej",
-      "collapsed": "Zwinięty formularz odbiorcy karty prezentowej"
+      "send_on_label": "Wysyłka w (opcjonalnie)",
+      "expanded": "Formularz dla odbiorcy bonu podarunkowego rozłożony",
+      "collapsed": "Formularz dla odbiorcy bonu podarunkowego zwinięty"
     }
   },
   "shopify": {
