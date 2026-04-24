@@ -1217,7 +1217,85 @@
             }
           },
           "initial_order_discounted": "Pirmosios siuntimo išlaidos %{discounted_shipping_cost}, vėliau %{frequency_description}",
-          "prepaid_initial_order_discounted": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency}"
+          "prepaid_initial_order_discounted": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency}, vėliau %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Pirmosios siuntimo išlaidos %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), vėliau %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Įskaičiuota",
+          "recurring_order_shipping_price": "sekė %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Pirmasis užsakymas įskaičiuotas, po to %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} už pristatymą), po to %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "other": "Pirmos %{count} užsakymų nemokamai"
+          },
+          "free_for_first_n_order": {
+            "one": "Pirmajam užsakymui",
+            "other": "Pirmiesiems %{count} užsakymams"
+          },
+          "subscription_free_with_frequency_label": "Nemokamas pristatymas %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Nemokamas pristatymas dar %{count} papildomam pristatymui",
+            "other": "Nemokamas pristatymas dar %{count} papildomiems pristatymams"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Nemokamas pristatymas už %{count} pristatymą",
+            "other": "Nemokamas pristatymas %{count} užsakymams"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Nemokamas pristatymas dar %{count} papildomam pristatymui, po to %{recurring_order_shipping_price}",
+            "other": "Nemokamas pristatymas dar %{count} papildomiems pristatymams, po to %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Nemokamas pristatymas %{count} užsakymui, vėliau %{recurring_order_shipping_price}",
+            "other": "Nemokamas pristatymas %{count} užsakymams, vėliau %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} papildomas pristatymas už %{shipping_price}",
+            "other": "%{count} papildomi pristatymai už %{shipping_price} už pristatymą"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} papildomi pristatymai už %{shipping_price} už pristatymą"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Nemokamas pristatymas pirmą %{cycle}, vėliau %{recurring_order_shipping_price}",
+            "other": "Nemokamas pristatymas pirmą %{cycle}, vėliau %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} už dar %{count} papildomą pristatymą",
+            "other": "%{shipping_price} už dar %{count} papildomus pristatymus (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{shipping_price} už %{count} pristatymus (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} už dar %{count} papildomą pristatymą, vėliau %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} už dar %{count} papildomus pristatymus (%{per_delivery_cost}), vėliau %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} už %{count} pristatymą, vėliau %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} už %{count} pristatymus (%{per_delivery_cost}), vėliau %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Laukiamas pristatymas %{time}",
+        "estimated_delivery_time_range": "Laukiamas pristatymas %{min_time}–%{max_time}",
+        "arrives_time": "Pristatoma per %{time}",
+        "arrives_time_range": "Pristatymas per %{min_time}–%{max_time}",
+        "estimated_time": "Laukiama %{time}",
+        "estimated_time_range": "Laukiamas laikas %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Prenumerata vietiniam pristatymui",
+        "delivery_today": "Pristatymas tą pačią dieną iki %{time}",
+        "delivery_tomorrow": "Pristatymas kitą dieną iki %{time}",
+        "two_day_delivery": "Pristatymas per 2 dienas iki %{time}",
+        "delivery": "Pristatymas per %{time}",
+        "duties_and_taxes_title": "Muitai ir mokesčiai",
+        "shipping_information_required_notice": "Pristatymo duomenys yra privalomi. {{link}}.",
+        "shipping_information_redirect_link": "Įveskite čia savo duomenis",
+        "loading_progressive_rates": "Ieškoti daugiau tarifų...",
+        "no_other_methods_available": "Nėra kitų prieinamų metodų",
+        "duties_and_taxes_options": {
+          "ddu_title": "Mokėti pristatymo metu",
+          "ddp_title": "Dabar mokėti",
+          "ddp_caption": "Nėra papildomų pristatymo mokesčių"
         }
       }
     }
