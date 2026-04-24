@@ -4171,6 +4171,64 @@
       "add_success": {
         "title": "Betalingsmetode tilføjet"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Butiksbetaling",
+      "applepay": "Apple Betaling",
+      "googlepay": "Google Betal",
+      "discover": "Opdag",
+      "dinersclub": "Diners Klub",
+      "hipercard": "Hiperkort",
+      "unionpay": "Union Betaling",
+      "storecredit": "Butikskredit",
+      "bogus": "Falsk"
+    },
+    "enable_javascript": "Slå JavaScript til i dine browserindstillinger, eller log ind med en anden browser for at se din konto.",
+    "ui_components": {
+      "expandNotification": "Se mere",
+      "submit": "Indsend",
+      "processing": "Behandler...",
+      "increase": "Stigning i {{type}}",
+      "decrease": "Afhentning af {{type}}",
+      "minimumReached": "Minimum på {{value}} nået",
+      "maximumReached": "Maksimum på {{value}} nået",
+      "january": "januar",
+      "february": "februar",
+      "march": "marts",
+      "april": "april",
+      "may": "maj",
+      "june": "juni",
+      "july": "juli",
+      "august": "august",
+      "september": "september",
+      "october": "oktober",
+      "november": "november",
+      "december": "december",
+      "monday": "mandag",
+      "tuesday": "tirsdag",
+      "wednesday": "onsdag",
+      "thursday": "torsdag",
+      "friday": "fredag",
+      "saturday": "lørdag",
+      "sunday": "søndag",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "gør.",
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "så.",
+      "showPreviousMonth": "Vis forrige måned, {{month}} {{year}}",
+      "rangeStart": "Begynd område",
+      "inRange": "Inden for rækkevidde",
+      "rangeEnd": "Endeligt område",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artikel tilgængelig",
+        "other": "{{count}} artikler tilgængelige"
+      },
+      "month": {
+        "other": "måneden"
+      }
     }
   }
 }
