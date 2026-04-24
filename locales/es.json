@@ -1824,7 +1824,67 @@
         "failed_contact_merchant_no_company": "Póngase en contacto con nosotros para organizar la entrega.",
         "non_shippable_title": "El pedido está completado",
         "login_title": "Inicie sesión para ver todos los detalles del pedido",
-        "login_description": "Puedes encontrar tu número de pedido en la factura que recibiste por correo electrónico."
+        "login_description": "Puedes encontrar tu número de pedido en la factura que recibiste por correo electrónico.",
+        "login_description_phone": "Encontrarás tu número de pedido en la factura que recibiste por mensaje de texto.",
+        "login_not_customer_html": "¿No %{name}? Puedes %{link}",
+        "login_reorder_link_text": {
+          "one": "también comprar este producto",
+          "other": "también comprar estos productos"
+        },
+        "customer_information_hidden_fields_message": "Inicie sesión para ver todos los datos del cliente.",
+        "cancelled_description": "Tu pedido fue cancelado el %{date}. Contáctanos si tienes alguna pregunta.",
+        "customer_validation_error": "Introduzca una dirección de correo electrónico o número de pedido válido.",
+        "customer_validation_error_phone": "Introduzca un número de teléfono o de pedido válido.",
+        "unfulfilled_items_title": "El envío está en preparación",
+        "unfulfilled_items_description": "Actualmente estamos preparando estos artículos para su envío.",
+        "marker": {
+          "current": "Ubicación de envío actual",
+          "shipping": "Dirección de entrega"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Los artículos se están preparando para el envío"
+        },
+        "order_updates_description_missing": "No recibirás actualizaciones de envío.",
+        "order_updates_subscribe_to_email_notifications": "Reciba actualizaciones de envío por correo electrónico",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Reciba actualizaciones de envío por correo electrónico o mensaje de texto",
+        "order_updates_subscribe_to_phone_notifications": "Recibe actualizaciones de envío por SMS",
+        "track_shipment": "Seguir envío",
+        "order_status_confirmed_order_with_email_pick_up": "Recibirás un correo electrónico cuando puedas recoger tu pedido.",
+        "order_status_confirmed_order_with_phone_pick_up": "Recibirás un mensaje de texto cuando puedas recoger tu pedido.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Recibirás un correo electrónico y un mensaje de texto cuando puedas recoger tu pedido.",
+        "pick_up_in_store_marker": {
+          "current": "Ubicación de envío actual",
+          "shipping": "Lugar de recogida"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Recibirás un correo electrónico cuando puedas recoger tu pedido.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Recibirás un mensaje de texto cuando puedas recoger tu pedido.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Recibirás un correo electrónico cuando puedas recoger tu pedido.",
+        "ready_for_pickup_title": "El pedido está listo para recoger",
+        "ready_for_pickup_description": "Tu pedido está listo para ser recogido. Por favor, lleva la confirmación de pedido cuando vengas a recogerlo.",
+        "picked_up_title": "El pedido ha sido recogido",
+        "picked_up_description_html": "Tu pedido fue recogido en %{location_name} el %{date}.",
+        "shop_phone_description": "Recibirás un mensaje de texto con un enlace a la aplicación de la tienda para seguir tu pedido.",
+        "ready_for_delivery_title": "El pedido está listo para ser entregado",
+        "ready_for_delivery_description": "Hemos preparado el pedido.",
+        "order_status_confirmed_order_local": "Preparamos tu pedido para la entrega.",
+        "gift_card_sent_confirmation": "Vales de regalo enviados",
+        "out_for_delivery_local_title": "Tu pedido está listo para ser entregado",
+        "out_for_delivery_local_description_html": "Recibirás tu pedido pronto.",
+        "delivered_local_title": "Tu pedido ha sido entregado",
+        "delivered_local_description_html": "¿Aún no has recibido tu pedido? %{let_us_know}.",
+        "let_us_know": "Háganoslo saber",
+        "qr_code": {
+          "title": "Sigue en tu teléfono"
+        },
+        "gift_card_confirmation_by_text": "Si no has recibido este mensaje, solicita que se envíe de nuevo o ponte en contacto con nosotros.",
+        "gift_card_confirmation_by_email": "Si no la has recibido, solicita que se reenvíe el correo electrónico o ponte en contacto con nosotros.",
+        "gift_card_title": "Vales regalo",
+        "resend_gift_cards": "Reenviar vales de regalo",
+        "attempted_delivery_local_title": "Entrega fallida",
+        "attempted_delivery_local_description_html": "Lamentablemente no pudimos entregar tu pedido. %{contact_us} para programar otra entrega.",
+        "thank_you_title_payment": "Tu pago ha sido confirmado",
+        "thank_you_confirmed_order_with_email_payment": "Has realizado un pago por tu pedido %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Has realizado un pago por tu pedido %{date}."
       }
     }
   }
