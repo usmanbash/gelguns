@@ -3378,7 +3378,79 @@
             "ascending": "Ukupna narudžba (od najniže do najviše)",
             "descending": "Ukupna narudžba (od najvećeg prema najmanjem)"
           }
-        }
+        },
+        "one_images_accessibility_label": "Narudžba sadrži {{lineItemName1}}",
+        "two_images_accessibility_label": "Narudžba sadrži {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Narudžba sadrži {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Narudžba sadrži {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Ukloni filtre ili ih prilagodi da vidiš svoje narudžbe",
+        "no_filtered_results_title": "Nema filtriranih rezultata",
+        "estimated_shortform": "Procijenjeno na {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Prekasno",
+            "due": "Dugovanje na dan {{date}}",
+            "due_today": "Danas dospjelo",
+            "due_without_date": "Dugovanje",
+            "due_on_fulfillment": "Plaćanje pri isporuci",
+            "pay_to_confirm": "Platiti za potvrdu",
+            "payment_not_due": "Još nije dospjelo za plaćanje"
+          },
+          "gallery_view": {
+            "overdue": "Plaćanje je prekasno",
+            "due": "Plaćanje dospijeva na {{date}}",
+            "due_today": "Plaćanje je danas dospjelo",
+            "due_without_date": "Plaćanje je obvezno",
+            "due_on_fulfillment": "Plaćanje se vrši prilikom ispunjenja narudžbe",
+            "pay_to_confirm": "Platiti za potvrdu",
+            "payment_not_due": "Plaćanje još nije potrebno"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Trenutno sortirano po: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količine {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količine {{lineItemQuantity1}}, {{lineItemName2}} količine {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količine {{lineItemQuantity1}}, {{lineItemName2}} količine {{lineItemQuantity2}}, {{lineItemName3}} količine {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količina {{lineItemQuantity1}}, {{lineItemName2}} količina {{lineItemQuantity2}}, {{lineItemName3}} količina {{lineItemQuantity3}}, {{lineItemName4}} količina {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količina {{lineItemQuantity1}}, {{lineItemName2}} količina {{lineItemQuantity2}}, {{lineItemName3}} količina {{lineItemQuantity3}}, {{lineItemName4}} količina {{lineItemQuantity4}}, {{lineItemName5}} količina {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količinu {{lineItemQuantity1}}, {{lineItemName2}} količinu {{lineItemQuantity2}}, {{lineItemName3}} količinu {{lineItemQuantity3}}, {{lineItemName4}} količinu {{lineItemQuantity4}}, {{lineItemName5}} količinu {{lineItemQuantity5}}, {{lineItemName6}} količinu {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Narudžba sadrži {{lineItemName1}} količine {{lineItemQuantity1}}, {{lineItemName2}} količine {{lineItemQuantity2}}, {{lineItemName3}} količine {{lineItemQuantity3}}, {{lineItemName4}} količine {{lineItemQuantity4}}, {{lineItemName5}} količine {{lineItemQuantity5}}, {{lineItemName6}} količine {{lineItemQuantity6}} i još više",
+          "view_order_details": "Pregled podataka o narudžbi",
+          "previous": "Prethodni"
+        },
+        "show_order_actions_accessibility_label": "Prikaz akcija za narudžbu {{name}}",
+        "empty_state_title_for_pending_orders": "Nema narudžbi u obradi",
+        "more_than_four_products_accessibility_label": "Narudžba sadrži {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus još {{numberOfAdditionalProducts}} proizvoda",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} proizvoda",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Pregled narudžbe za podatke o proizvodu",
+            "estimated_delivery": "Očekuje se {{date}}",
+            "last_updated": "Zadnje ažurirano {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Procijenjena dostava na {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Narudžba sadrži {{lineItemName1}}, {{lineItemName2}}, plus još {{numberOfAdditionalProducts}} proizvoda",
+        "filter": {
+          "clear_section": "Obriši odjeljak",
+          "clear_all": "Saznajte sve",
+          "date": {
+            "start_date": "Početni datum",
+            "last_365_days": "Prošlih 12 mjeseci"
+          }
+        },
+        "no_order_banner": "Napravite narudžbu kako biste testirali proširenje na stranici Status narudžbe.",
+        "location_filter_picker": {
+          "switch_view": "Promijeni prikaz"
+        },
+        "view_order": "Pregled narudžbe",
+        "view_order_accessibility_label": "Pogledajte narudžbu {{orderName}}"
+      },
+      "order_status": {
+        "come_back": "Vratite se na ovu stranicu za ažuriranja statusa vaše pošiljke.",
+        "company_tracking_number": "{{company}}-broj za praćenje:"
       }
     }
   }

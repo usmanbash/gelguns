@@ -3783,7 +3783,157 @@
     },
     "addresses": {
       "cancel_adding_address_accessibility_label": "Ajouter une adresse annuler",
-      "cancel_deletion_button_accessibility_label": "supprimer {{address}} annuler"
+      "cancel_deletion_button_accessibility_label": "supprimer {{address}} annuler",
+      "default_address": {
+        "title": "Adresse standard",
+        "title_accessibility_label": "Adresse standard : {{address}}"
+      },
+      "delete_confirmation_button": "Supprimer l'adresse",
+      "delete_confirmation_message": "Supprimer l'adresse ? Cela n'affectera pas les commandes en cours.",
+      "edit_button_accessibility_label": "modifier {{address}}",
+      "edit_section_accessibility_label": "modifier {{address}}",
+      "loading_accessibility_message": "Charger l'adresse",
+      "loading_addresses_accessibility_message": "Charger les adresses",
+      "loading_billing_accessibility_message": "Charger les adresses de facturation",
+      "loading_finished_accessibility_message": "Nouvelle page avec adresses chargée",
+      "loading_shipping_accessibility_message": "Charger l'adresse de livraison",
+      "pagination": {
+        "load_more_accessibility_label": "Charger plus d'adresses"
+      },
+      "delete_confirmation_title": "Supprimer l'adresse ?",
+      "delete_confirmation_description": "Cela n'a aucune incidence sur les commandes en cours.",
+      "edit_modal_title": {
+        "default": "Modifier l'adresse",
+        "billing": "Modifier l'adresse de facturation",
+        "shipping": "Modifier l'adresse de livraison"
+      },
+      "add_address_banner": "Ajoutez des adresses à utiliser lors du passage en caisse",
+      "back_button_accessibility_label": "Retour à la modification de l'adresse {{address}}"
+    },
+    "address_form": {
+      "default_address": "Ceci est mon adresse habituelle",
+      "default_address_creation_success_notification": "Adresse standard ajoutée",
+      "default_address_update_success_notification": "Adresse standard mise à jour",
+      "loading_add_form_accessibility_message": "Charger le formulaire de nouvelle adresse",
+      "loading_edit_form_accessibility_message": "Charger le formulaire de modification d'adresse",
+      "loading_finished_accessibility_message": "Le formulaire d'adresse est chargé",
+      "attention": "À l'attention de",
+      "attention_help_text": "Le nom de la personne ou du service",
+      "loading_form_accessibility_message": "Chargement du formulaire d'adresse",
+      "attention_company": "Entreprise/à l’attention de"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nom de l'entreprise"
+      },
+      "locations": {
+        "contact_email": "Adresse électronique",
+        "location_picker_label": "Nom du lieu",
+        "net_payment_terms_description": "{{name}} : paiements dus dans {{numberOfDays}} jours",
+        "payment_details_title": "Données de paiement",
+        "payment_terms": "Conditions de paiement",
+        "permissions_label": "Tes autorisations",
+        "shipping_address_required": "Ajoutez une adresse de livraison à cet endroit pour pouvoir passer des commandes.",
+        "multiple_tax_exemptions": "Encore {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "fr",
+        "taxes_none": "Aucun",
+        "tax_exemption_not_applicable": "sans objet",
+        "own_role_contact_name": "Toi",
+        "staff_and_permissions_title": "Employés et autorisations",
+        "location_picker_accessibility_label": "Nom du lieu : {{locationName}}",
+        "deposit_percentage": "dépôt de {{percentage}}"
+      },
+      "location_selection": {
+        "description": "Si vous avez déjà des articles dans votre panier, changer de lieu peut affecter les prix et les quantités dans votre panier.",
+        "list_item_without_address_accessibility_label": "{{name}} : pas d'adresse",
+        "list_loading_accessibility_message": "Chargement de la liste des emplacements",
+        "list_loading_address_accessibility_message": "Charger l'adresse pour {{locationName}}",
+        "list_loading_finished_accessibility_message": "La liste des emplacements est chargée",
+        "loading_store_accessibility_message": "En route vers le magasin",
+        "selection_confirmation_button": "Choisir un emplacement",
+        "title": "Pour quel emplacement achetez-vous ?",
+        "no_location_title": "Commandes uniquement personnelles",
+        "no_location_description": "Vous n'êtes plus autorisé à passer des commandes pour {{company}}. Vous pouvez toujours passer des commandes personnelles.",
+        "try_new_search": "Essayez une nouvelle recherche",
+        "search_location_title": "Sélectionnez un emplacement",
+        "description_switch_later": "Vous pouvez toujours changer plus tard",
+        "title_choose_location": "Choisissez un emplacement"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Ajouter une adresse de livraison",
+        "add_shipping_address_section_accessibility_label": "Ajouter une adresse de livraison",
+        "cancel_adding_billing_address_accessibility_label": "Ajouter une adresse de facturation annuler",
+        "cancel_adding_shipping_address_accessibility_label": "Ajouter une adresse de livraison annuler",
+        "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse de livraison",
+        "shipping_address_card_title": "Adresse de livraison"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Tout cacher",
+          "title": "En cours de traitement",
+          "pagination": {
+            "nav_accessibility_label": "Boutons de navigation pour les commandes en cours d'examen"
+          },
+          "show_all_orders_in_review": "Afficher toutes les commandes en cours d'examen",
+          "show_less_orders_in_review": "Afficher moins de commandes en cours d'examen",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Vous n'avez aucune commande en cours",
+            "pending_orders": {
+              "one": "Vous avez {{count}} commande en cours de traitement",
+              "other": "Vous avez {{count}} commandes en cours"
+            },
+            "more_than_pagination_length": "Vous avez plus de {{count}} commandes en cours de traitement"
+          },
+          "pending_orders_count_more_than_pagination_length": "plus de {{count}}"
+        },
+        "order_list_column_headers_contact": "Contactez-nous",
+        "removed_company_contact_tooltip": "Retiré de l'entreprise"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmé le {{date}} pour la commande {{draftOrderName}}",
+        "loading": "Chargement des données de commande",
+        "loading_finished_accessibility_message": "Les données de commande ont été chargées",
+        "payment_status": {
+          "draft": {
+            "description": "Les informations de paiement sont déterminées une fois la commande confirmée.",
+            "title": "Le paiement n'est pas encore dû",
+            "in_review": {
+              "description": "Les informations de paiement sont déterminées une fois la commande confirmée.",
+              "title": "Le paiement n'est pas encore dû"
+            },
+            "submitted": {
+              "description": "Payez pour confirmer cette commande.",
+              "deposit": {
+                "due_later": "Le solde est soumis aux conditions {{translatedName}} et est dû le {{dueDate}}.",
+                "due_on_fulfillment": "Le solde est dû dès que tous les articles de cette commande ont été traités."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} est dû une fois la commande confirmée. Le solde est soumis aux conditions {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} est dû lorsque la commande est confirmée. Le solde est dû lorsque votre commande est traitée.",
+              "due_on_receipt": "{{depositAmount}} est dû une fois la commande confirmée. Le solde est dû ultérieurement.",
+              "due_on_date": "{{depositAmount}} est dû lorsque la commande est confirmée. Le solde est dû le {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Votre commande est entièrement payée."
+          },
+          "title": "Statut de paiement",
+          "pending": {
+            "banner_overdue": {
+              "one": "Votre paiement a {{count}} jour de retard",
+              "other": "Votre paiement a {{count}} jours de retard"
+            },
+            "banner_due": {
+              "one": "Votre paiement est dû dans {{count}} jour(s)",
+              "other": "Votre paiement est dû dans {{count}} jours"
+            },
+            "description_overdue": "Votre paiement est en retard.",
+            "description_partially_paid": "Cette commande est partiellement payée. Il vous reste un solde à régler.",
+            "description_authorized": "Le montant sera débité à la date d'échéance via votre mode de paiement choisi. Vous pouvez également payer dès maintenant."
+          }
+        }
+      }
     }
   }
 }
