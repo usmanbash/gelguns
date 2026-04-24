@@ -4301,7 +4301,83 @@
           "missing_billing_address": "Norint naudotis Apple Pay, reikia sąskaitos adreso. Pridėkite jį savo paskyroje."
         }
       },
-      "add_payment_method_banner": "Pridėti mokėjimo būdą greitesniam atsiskaitymui ir paslaugoms išankstiniam autorizavimui"
+      "add_payment_method_banner": "Pridėti mokėjimo būdą greitesniam atsiskaitymui ir paslaugoms išankstiniam autorizavimui",
+      "edit_payment_method_button_accessibility_label": "Redaguoti {{paymentMethodName}}, kuris baigiasi {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Rodyti įspėjimą apie galiojimą {{paymentMethodName}}, kuris baigiasi {{lastDigits}}",
+      "default": "Standartinis",
+      "store_credit": {
+        "accesibility_label": "Parduotuvės kreditas - {{formattedBalance}}",
+        "expirable_amounts_button": "Peržiūrėti sumas, kurios baigsis galiojimas",
+        "details_modal": {
+          "title": "Parduotuvės kreditas, kuris pasibaigs",
+          "balance_label": "Balansas",
+          "expiration_date_label": "Galiojimo data",
+          "expirable_balance_info": "Dalies likučio galiojimas baigsis ateityje.",
+          "expirable_amount_label": "Bendroji suma, kuri bus panaikinta",
+          "expirable_amounts_info": "Ankstesnės sumos, kurios baigėsi, pirmiausia taikomos atsiskaitymo metu.",
+          "expired_amounts_button": "Peržiūrėti pasibaigusias sumas",
+          "pagination": {
+            "load_more_accessibility_label": "Daugiau sumų, kurios bus anuliuotos, įkeliama"
+          },
+          "events": {
+            "adjustment": "Pritaikymas",
+            "order_refund": "Užsakymo grąžinimas",
+            "payment_failure": "Nepavykęs mokėjimas"
+          }
+        },
+        "expirable_amounts_label": "Pasenę sumos"
+      },
+      "three_d_secure": {
+        "title": "3D Saugumas",
+        "verification_failed": "Jūsų mokėjimo negalima patvirtinti. Bandykite dar kartą arba naudokite kitą mokėjimo būdą."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Pridėti PayPal mokėjimo būdą",
+        "loading_accessibility_message": "PayPal įkrovimas",
+        "errors": {
+          "generic": "Įvyko problema su PayPal. Bandykite dar kartą arba pasirinkite kitą mokėjimo būdą."
+        }
+      },
+      "card_update_consent_subscriptions": "Šis mokėjimo būdas bus išsaugotas būsimoms pirkiniams ir gali būti naudojamas kiekvienam pasikartojančiam arba atidėtajam pirkiniui.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Pridėdami mokėjimo būdą, galite suteikti leidimą, kad jūsų kortele būtų imami mokesčiai tol, kol atšauksite, arba kad būsimų patvirtintų pirkinių atveju būtų nuskaitomos lėšos iš jūsų banko sąskaitos."
+      },
+      "replacement_payment_method_title": "Pakeičiamos mokėjimo priemonės",
+      "bank_account": {
+        "loading_accessibility_message": "Mygtukas banko sąskaitai kraunamas",
+        "iframe_title_accessibility_label": "Banko sąskaitos nustatymas"
+      },
+      "update_payment_method": {
+        "billing_address": "Sąskaitos adresas",
+        "disclaimer": "Šis mokėjimo būdas bus išsaugotas būsimoms pirkiniams ir gali būti naudojamas kiekvienam pasikartojančiam arba atidėtajam pirkiniui.",
+        "error_message": "Negalima atnaujinti mokėjimo metodo",
+        "loading_form_accessibility_message": "Mokėjimo metodo atnaujinimo forma kraunama",
+        "loading_current_payment_method": "Dabartinis mokėjimo būdas kraunamas",
+        "loading_digital_wallets": "Skaitmeninės piniginės parinktys kraunamos",
+        "loading_card_fields": "Kredito kortelės laukai kraunami",
+        "pre_orders_title": "Artėjantis",
+        "pre_orders_list_accessibility_label": "Produktų sąrašas su vykdomu užsakymu",
+        "resources_list_accessibility_label": "Prenumeratos produktai ir produktai su vykdomu užsakymu, kurie naudoja šį mokėjimo būdą",
+        "resources_card_scroll": "Slinkite žemyn, kad pamatytumėte daugiau prekių",
+        "loading_resources": "Prenumeratos ir būsimų užsakymų įkėlimas"
+      },
+      "link_expired": {
+        "message": "Ši nuoroda atnaujinti mokėjimo būdą pasibaigė.",
+        "update_message": "Ši nuoroda atnaujinti mokėjimo būdą pasibaigė.",
+        "add_message": "Ši nuoroda pridėti mokėjimo būdą pasibaigė."
+      },
+      "expired_badge_label": "Pasibaigęs",
+      "add_success": {
+        "title": "Mokėjimo būdas pridėtas"
+      }
+    },
+    "payment_method_brands": {
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "shoppay": "Mokėti pirkdami",
+      "applepay": "Apple Pay",
+      "googlepay": "Google Pay",
+      "paypal": "PayPal"
     }
   }
 }
