@@ -3427,7 +3427,79 @@
       },
       "show_items": "Visa artiklarna",
       "subtitle": "Bekräftat: {{date}}",
-      "summary_list_title_accessibility_label": "Beställa artiklar"
+      "summary_list_title_accessibility_label": "Beställa artiklar",
+      "summary_title": "Beställningsöversikt",
+      "summary_totals_title_accessibility_label": "Totalt beställning",
+      "taxes": "Belastningarna",
+      "title": "Beställning {{name}}",
+      "unit_price": "{{price}}/st",
+      "not_applicable": "ej tillämpligt",
+      "refunded_amount": "Återbetald",
+      "compare_at_sale": "Utförsäljning ({{saleAmount}})",
+      "no_data": "Grön",
+      "pagination": {
+        "load_more": "Ladda mer",
+        "load_more_accessibility_label": "Ladda fler artiklar"
+      },
+      "returns": {
+        "expand_events_label": "Visa uppgifter",
+        "hide_events_label": "Dölj uppgifter",
+        "ineligible_return_message": "Inga artiklar i denna beställning är berättigade till retur.",
+        "ineligible_return_message_when_returned": "Det finns inga fler artiklar i denna beställning som är berättigade till retur.",
+        "exchange_header": "Bytvaror",
+        "exchange_subheader": "Bytvaror läggs till beställningen när returen är slutförd."
+      },
+      "request_return_failed": "Ett problem uppstod vid behandlingen av din förfrågan. Försök igen.",
+      "mobile_summary_toggle_button": {
+        "open": "Visa beställningsöversikt",
+        "closed": "Dölj beställningsöversikt"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Visa uppgifter",
+        "expand_events_accessibility_label": "Visa leveransuppgifter för beställning",
+        "hide_events_label": "Dölj uppgifter",
+        "hide_events_accessibility_label": "Dölj leveransuppgifter för beställningen"
+      },
+      "show_order_summary": "Visa beställningsöversikt",
+      "hide_order_summary": "Dölj beställningsöversikt",
+      "no_data_provided_accessibility_label": "{{fieldName}} är tom",
+      "marketing_description": "Du får marknadsföringsmejl. Du kan när som helst avanmäla dig.",
+      "marketing_checkbox_label": "Skicka mig e-post med nyheter och erbjudanden",
+      "marketing_checkmark_label": "Du är anmäld för att ta emot e-post med nyheter och erbjudanden",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}-mängd {{quantity}}",
+        "next": "Visa följande artiklar",
+        "load_more_items": {
+          "one": "Ladda nog {{count}} artiklar",
+          "other": "Ladda nog {{count}} artiklar"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Ladda ner butik för att följa paketet",
+        "track_order_with_shop": "Följ beställningen med Shop",
+        "real_time_delivery_updates": "När beställningen har skickats får du leveransuppdateringar i realtid från Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Beställning slutförd med"
+      },
+      "edit_summary": {
+        "added": "Tillagt",
+        "added_with_quantity": "{{quantity}} tillagt",
+        "removed_with_quantity": "{{quantity}} borttaget",
+        "updated_at": "Din beställning uppdaterades den {{date}}",
+        "returned_with_quantities": "{{delta}} av {{total}} returnerade",
+        "removed_with_quantities": "{{delta}} av {{total}} borttagna",
+        "return_line_item_removed_with_quantities": "{{delta}} borttagen från retur"
+      },
+      "pickup": {
+        "pickup": "Hämtning",
+        "pickup_location": "Utlämningsställe"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betalat med Shop Pay-delbetalningar",
+        "description": "Håll koll på ditt betalningsschema med påminnelser i Butiksappen.",
+        "payment_reminders_button": "Få betalningspåminnelsen"
+      }
     }
   }
 }
