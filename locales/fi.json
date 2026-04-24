@@ -3358,7 +3358,85 @@
         "in_review_title": "Tilauksesi tarkistetaan",
         "out_for_delivery_label": "Valmis toimitettavaksi",
         "resume_tracking": "Jatka matkaa",
-        "track_shipment": "Seuraa Zendingiä"
+        "track_shipment": "Seuraa Zendingiä",
+        "request_return": "Palautuspyyntö",
+        "attempted_delivery_label": "Toimitusyritys",
+        "preparing_for_shipping_label": "Lähetys valmistellaan",
+        "ready_for_pickup_description": "Nämä tuotteet ovat valmiina noudettaviksi. Ota mukaan tilausvahvistus noudettaessa tilausta.",
+        "submitted_description": "Tarkista tilaus ja maksutiedot.",
+        "last_updated": "Viimeksi päivitetty {{date}}",
+        "view_order_for_details": "Tarkastele tilausta tuotetietoja varten",
+        "confirmed_description_digital": "Saat sähköpostin, kun tilauksesi on valmis.",
+        "delivered_description_gift_card": {
+          "one": "Lahjakortti on lähetetty sähköpostitse.",
+          "other": "Lahjakortit on lähetetty sähköpostitse."
+        },
+        "ready_for_pickup_location": "Tilauksesi on noudettavissa paikan päällä",
+        "confirmed_description_pickup": "Saat sähköpostin, kun voit noutaa tilauksesi.",
+        "confirmed_description_gift_card_text": "Saat tekstiviestin, kun tilaus on valmis.",
+        "delivered_description_gift_card_text": {
+          "one": "Lahjakortti on lähetetty tekstiviestillä.",
+          "other": "Lahjakortit on lähetetty tekstiviestillä."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "other": "Jokainen lahjakortti lähetetään erillisenä tekstiviestinä."
+        },
+        "gift_resend_failure": {
+          "one": "Lahjakortin uudelleenlähetyksessä ilmeni ongelma. Yritä uudelleen tai ota meihin yhteyttä.",
+          "other": "Lahjakorttien uudelleenlähetyksessä ilmeni ongelma. Yritä uudelleen tai ota meihin yhteyttä."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Hallinnoi Amazonilla",
+            "new_window_disclaimer": "(avautuu uuteen ikkunaan)"
+          }
+        },
+        "there_was_a_problem_label": "Tapahtui virhe",
+        "buy_with_prime_logo_accessibility_label": "Amazon Osta Primella -logo",
+        "delivered": "Toimitetaan {{date}}",
+        "multiple_statuses_label": "Useita tilausvaiheita",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Toimitus tuettu toimesta",
+            "not_delivered_by_label": "Ei toimiteta ennen {{date}}"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Lunasta kaupparahasi",
+            "no_shop_app_label": "{{appDownloadLink}} saadaksesi Shop Cashin",
+            "download_shop_app_label": "Lataa sovellus"
+          },
+          "details_modal": {
+            "title": "Toimitus tuettu toimesta",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise takaa nopean ja luotettavan toimituksen. Vaatikaa Shop Cash, jos tilauksenne toimitetaan myöhässä.",
+              "may_be_eligible_not_authorized_label": "Saatat olla oikeutettu lunastamaan Shop Cashia, koska tämä tilaus saapui myöhässä. Kirjaudu sisään nähdäksesi tiedot.",
+              "redeemed_label": "Olet jo lunastanut Kaupparahaa, koska tämä tilaus saapui myöhässä.",
+              "expired_label": "Tämä tilaus ei ole oikeutettu myöhästyneen toimituksen korvaukseen, koska 30 päivän takuu on päättynyt.",
+              "no_shop_cash_label": "Tämä tilaus ei ole oikeutettu myöhästyneen toimituksen korvaukseen, koska se ei ole maksettu Shop Paylla.",
+              "no_longer_guaranteed_label": "Näitä tuotteita ei enää tueta toimitustakuulla.",
+              "claim_shop_cash_title": "Skannaa saadaksesi {{amount}} Shop Cashia",
+              "claim_shop_cash_description": "Voit käyttää Shop Cashia tuleviin ostoihin Shop-sovelluksessa."
+            }
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Toimitus taattu toimesta",
+            "external_promise_brand_label": "Toimittaa varten",
+            "not_delivered_by_label": "Huolestunut {{date}} jälkeen",
+            "delivery_guarantee_expired_label": "Toimitus takuu on vanhentunut",
+            "download_shop_app_button_label": "Lataa Kauppa seurantaan",
+            "track_with_shop_button_label": "Seuraa kaupan kanssa",
+            "claim_shop_cash_button_label": "Osta Käteiskorvausclaim"
+          },
+          "details_modal": {
+            "expired_delivery_guarantee_description": "Tämän tilauksen 30 päivän Shop Promise -takuu on päättynyt.",
+            "order_includes_guarantees_label": "Toimituksellasi on {{deliveryAgreementsCount}} takuuta",
+            "order_includes_guarantees_description": "Shop Promise tarjoaa takuun nopeasta ja luotettavasta toimituksesta. Vaatikaa Shop Cash, jos tilauksenne toimitetaan {{date}} jälkeen.",
+            "delivered_after_label": "Huolestunut {{date}} jälkeen",
+            "delivered_after_description": "Tilauksesi saapui myöhässä, joten voit vaatia {{amount}} Shop Cashia."
+          }
+        }
       }
     }
   }
