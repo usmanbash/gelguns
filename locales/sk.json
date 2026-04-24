@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -549,6 +558,72 @@
       "send_on_label": "Dátum odoslania (voliteľné)",
       "expanded": "Rozbalený formulár pre príjemcu darčekového poukazu",
       "collapsed": "Zbalený formulár pre príjemcu darčekového poukazu"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "en",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Pokladňa",
+        "skip_to_content": "Ihneď na obsah",
+        "breadcrumb": "Navigačná cesta",
+        "pay_now_button_label": "Zaplaťte teraz",
+        "edit_link_label": "Zmeniť",
+        "all_rights_reserved": "Všetky práva vyhradené %{shop_name}",
+        "cart": "Nákupný košík",
+        "continue_to_shipping_method": "Pokračovať v odosielaní",
+        "continue_to_payment_method": "Prejsť na platbu",
+        "back_to_cart": "Späť do košíka",
+        "back_to_contact_information": "Späť na informácie",
+        "back_to_shipping_method": "Späť na odoslanie",
+        "back_to_payment_method": "Späť k platbe",
+        "choose_shipping_method": "Vyberte spôsob doručenia",
+        "choose_payment_method": "Vyberte spôsob platby",
+        "choose_billing_address": "Vyberte fakturačnú adresu",
+        "contact_us_html": "Kontaktujte nás pre viac informácií",
+        "autocomplete_single_item": "1 položka dostupná",
+        "autocomplete_multi_item": "{{number}} dostupných položiek",
+        "autocomplete_close": "Zatvoriť návrhy",
+        "forwarding_indicator": {
+          "external": "Otvoriť externú webovú stránku.",
+          "external_and_new_window": "Otvorí externú webovú stránku v novom okne."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pokladňa"
+        },
+        "tooltip_accessibility_label": "Viac informácií",
+        "errors": {
+          "session_identifier_not_unique_error": "Niečo sa pokazilo pri vašej objednávke. Skúste znova dokončiť platbu.",
+          "line_item_limit_reached": "Dosiahnutý bol maximálny počet položiek objednávky.",
+          "only_empty_terms_accepted": "Táto politika akceptuje iba prázdne podmienky.",
+          "session_is_already_finished": "Táto platobná relácia už bola dokončená.",
+          "merchandise": {
+            "only_value_constraint": "Pri zadávaní tovaru sú povolené iba presné hodnoty.",
+            "merchandise_not_found": "Produkt nebol nájdený.",
+            "merchandise_variant_not_found": "Variant produktu nebola nájdená.",
+            "merchandise_not_applicable": "Produktovú variantu nie je možné kúpiť.",
+            "bundle_products_not_supported_for_b2b": "Nemôžete pridať balíkové položky do B2B objednávok pre túto lokalitu.",
+            "gift_card_quantity_mismatch": "Keď zadávate kódy darčekových poukážok, musia sa počty na objednávke zhodovať s počtom darčekových kódov.",
+            "gift_card_not_supported": "Táto pokladňa nepodporuje darčekové poukážky.",
+            "gift_card_not_unique": "Darčeková poukážka s kódom {{code}} sa v tomto pokladničnom procese vyskytuje viackrát. Kódy sa vytvárajú pred porovnaním.",
+            "gift_card_used": "Kód darčekovej poukážky {{code}} je už priradený k darčekovej poukážke. Kódy sa vytvárajú pred porovnaním.",
+            "gift_card_invalid": "Kód darčekovej poukážky {{code}} je neplatný.",
+            "gift_card_code_changed": "Kód darčekovej poukážky {{proposed_code}} bol podľa pravidiel formátovania zmenený na {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "Táto pokladňa nepodporuje darčekové poukážky s upravenými vlastnosťami.",
+            "gift_card_with_components_not_supported": "Táto pokladňa nepodporuje darčekové poukážky s komponentmi.",
+            "selling_plan_mismatch": "Predplatné bolo aktualizované.",
+            "selling_plan_not_supported": "Predplatné nie je podporované.",
+            "selling_plan_not_supported_b2b": "Pre B2B pokladňu nie sú podporované žiadne predplatné.",
+            "price_mismatch": "Predtým navrhovaná cena za tieto tovary bola neplatná a bola aktualizovaná.",
+            "inventory_not_found": "Neboli nájdené žiadne zásoby týchto tovarov.",
+            "product_not_published": "Produkt nie je zverejnený.",
+            "duplicated_stable_id": "Táto produktová rada má rovnaké stabilné ID ako iná rada."
+          }
+        }
+      }
     }
   }
 }
