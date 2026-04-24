@@ -3555,7 +3555,79 @@
     "order_details": {
       "addresses_section_title": "Τιμολόγηση και αποστολή",
       "billing_address": "Διεύθυνση τιμολογίου",
-      "card_ending_with": "λήγει στις {{lastDigits}}"
+      "card_ending_with": "λήγει στις {{lastDigits}}",
+      "contact": "Επαφή",
+      "hide_items": "Απόκρυψη άρθρων",
+      "loading": "Φόρτωση στοιχείων παραγγελίας",
+      "loading_finished_accessibility_message": "Τα στοιχεία παραγγελίας έχουν φορτωθεί",
+      "payment": {
+        "status_in_review": "Πληρωμή οφείλεται μετά την αξιολόγηση",
+        "status_unpaid": "Πληρωμή οφειλόμενη στις {{date}}",
+        "shop_pay_installments": {
+          "view_schedule": "Προβολή προγραμματισμού"
+        },
+        "manual_payment_methods": {
+          "money_order": "Ταχυδρομική επιταγή - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Επιστροφή χρημάτων - {{formattedTransactionAmount}}",
+          "bank_deposit": "Κατάθεση Τράπεζας - {{formattedTransactionAmount}}",
+          "manual": "Χειροκίνητα - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_less": "Εμφάνιση περισσότερων",
+          "details": "Δεδομένα",
+          "payment_details": "Στοιχεία πληρωμής"
+        },
+        "emv_details": {
+          "auth": "ΣΥΓΓΡΑΦΕΑΣ:",
+          "aid": "Βοήθεια:",
+          "source": "Μεταφράστε στα Ελληνικά.\nΠροτιμήστε διεθνώς αναγνωρισμένα δάνεια όταν είναι κοινά μεταξύ των φυσικών ομιλητών της ελληνικής γλώσσας· διαφορετικά, χρησιμοποιήστε το πιο κατανοητό εγγενές ισοδύναμο.\nΓια ετικέτες δράσης με ρήματα (π.χ., Αγοράστε, Παραγγείλετε, Δείτε), χρησιμοποιήστε εγγενείς ελληνικές ρηματικές μορφές· μην κρατάτε αγγλικά ρήματα εκτός αν διατηρούνται ρητά από το γλωσσάριο.\nΤο κείμενο μπορεί να περιέχει ονόματα εμπορικών σημάτων, αριθμούς μοντέλων, ακρωνύμια, αναγνωριστικά ή κείμενο ήδη στα ελληνικά."
+        },
+        "payment_type": {
+          "money_order": "Ταχυδρομική επιταγή",
+          "cash_on_delivery": "Επιστροφή χρημάτων",
+          "bank_deposit": "Κατάθεση σε τράπεζα",
+          "manual": "Χειροκίνητο"
+        }
+      },
+      "shipping": {
+        "address": "Διεύθυνση παράδοσης",
+        "address_map_marker": "Διεύθυνση παράδοσης",
+        "one_time": "Αποστολή μόνο μία φορά",
+        "subscription": "Αποστολή με συνδρομή"
+      },
+      "show_items": "Εμφάνιση άρθρων",
+      "subtitle": "Επιβεβαιώθηκε: {{date}}",
+      "summary_list_title_accessibility_label": "Παραγγελία προϊόντων",
+      "summary_title": "Περίληψη παραγγελίας",
+      "summary_totals_title_accessibility_label": "Συνολική παραγγελία",
+      "unit_price": "{{price}}/τεμ",
+      "not_applicable": "δεν ισχύει",
+      "fully_refunded_label": "ΕΠΙΣΤΡΕΦΟΜΕΝΟ",
+      "partially_refunded_label": "ΜΕΡΙΚΩΣ ΕΠΙΣΤΡΕΦΟΜΕΝΟ",
+      "refunded_amount": "Επιστράφηκε",
+      "compare_at_sale": "Εκπτώσεις ({{saleAmount}})",
+      "pagination": {
+        "load_more_accessibility_label": "Φόρτωση περισσότερων άρθρων",
+        "loading_accessibility_label": "Φόρτωση άρθρων"
+      },
+      "returns": {
+        "expand_events_label": "Εμφάνιση δεδομένων",
+        "hide_events_label": "Απόκρυψη δεδομένων",
+        "tracking_number": "Αριθμός αποστολής:",
+        "return_and_refund_modal_header": "Πολιτική επιστροφών",
+        "ineligible_return_message": "Δεν υπάρχουν είδη σε αυτήν την παραγγελία που να πληρούν τις προϋποθέσεις για επιστροφή.",
+        "ineligible_return_message_when_returned": "Δεν υπάρχουν πλέον άρθρα σε αυτήν την παραγγελία που να πληρούν τις προϋποθέσεις για επιστροφή.",
+        "exchange_header": "Αντικείμενα επιστροφής",
+        "exchange_subheader": "Τα αντικείμενα ανταλλαγής προστίθενται στην παραγγελία μόλις ολοκληρωθεί η επιστροφή."
+      },
+      "request_return_failed": "Παρουσιάστηκε πρόβλημα κατά την επεξεργασία του αιτήματός σου. Δοκίμασε ξανά.",
+      "mobile_summary_toggle_button": {
+        "open": "Εμφάνιση επισκόπησης παραγγελίας",
+        "closed": "Απόκρυψη επισκόπησης παραγγελίας"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Εμφάνιση δεδομένων"
+      }
     }
   }
 }
