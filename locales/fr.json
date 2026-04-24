@@ -1838,7 +1838,71 @@
       "alternative_payment_method_banner": {
         "express_checkout": "Paiement rapide",
         "or": "DE",
-        "show_more_options": "Afficher plus d'options"
+        "show_more_options": "Afficher plus d'options",
+        "hide_more_options": "Masquer plus d'options",
+        "or_pay_another_way": "Ou payer d'une autre manière",
+        "or_check_out_another_way": "Ou régler d'une autre manière",
+        "or_pay_with_credit_card": "Ou payer par carte de crédit"
+      },
+      "processing": {
+        "redirecting_page_title": "Rediriger…",
+        "redirecting_title": "Rediriger…",
+        "redirecting_notice": "Vous êtes redirigé.",
+        "complete_your_purchase_title": "Terminer votre achat",
+        "continue_to_payment_gateway_notice": "Passez au paiement pour ajouter vos informations de paiement.",
+        "continue_to_payment_gateway_button_label": "Aller au paiement",
+        "complete_your_purchase_title_error": "Corrigez vos informations de paiement",
+        "continue_to_payment_gateway_notice_error": "Vos informations de paiement ne peuvent pas être vérifiées.",
+        "page_title": "Commande en cours de traitement",
+        "title": "Commande en cours de traitement",
+        "you_will_receive_confirmation": "Nous recevons actuellement un très grand nombre de commandes. Vous devriez bientôt recevoir une confirmation par courriel ou par texto. Faites-le nous savoir si vous ne l'avez pas reçue dans l'heure.",
+        "wait": {
+          "medium": {
+            "one": "Votre commande est en cours de traitement. Le délai d'attente estimé est de %{count} minute.",
+            "other": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minutes."
+          },
+          "long": "Vous recevrez un courriel dès que votre commande aura été traitée. Il y a actuellement un grand nombre de commandes.",
+          "no_auto_refresh_html": "%{link} si vous n'êtes pas redirigé automatiquement.",
+          "refresh_this_page": "Rechargez cette page"
+        },
+        "you_will_not_be_charged": "Aucun frais ne sont encore facturés",
+        "redirecting_to_bank": "Rediriger vers {{bank}}",
+        "modal_notice": "Nous prenons contact avec {{paymentMethod}}",
+        "remote_shops_payments_processing": "Traiter les paiements"
+      },
+      "failed_payment": {
+        "page_title": "Le paiement ne peut pas être traité",
+        "title": "Le paiement ne peut pas être traité",
+        "payment_not_processed_title": "Votre paiement ne peut pas être traité.",
+        "payment_not_processed_text": "Aucun frais n'a été facturé. Retournez à votre panier pour finaliser votre achat."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Virement bancaire",
+        "cash_on_delivery_label": "Remboursé",
+        "money_order_label": "Mandat postal",
+        "debit_card_label": "Carte de paiement",
+        "deferred_payment_label": "Choisissez plus tard un mode de paiement",
+        "generic_payment_terms": "Les conditions de paiement de {{translatedName}} s'appliquent. Votre paiement est dû le {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} à un compte avec accès à cet emplacement ou pour ajouter ou utiliser des méthodes de paiement enregistrées.",
+            "link": "Se connecter"
+          }
+        },
+        "direct_payment_terms": "Les conditions de {{translatedName}} s'appliquent. L'argent sera débité de votre carte le {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Le paiement est dû dès que la commande est traitée.",
+        "order_due_on_fulfillment_payment": "L'argent sera débité de votre carte dès que la commande aura été traitée.",
+        "draft_order_payment_due_later_no_terms": "Le paiement est dû dès que la commande est confirmée.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "L'argent sera débité de votre carte dès que la commande sera confirmée.",
+        "draft_order_payment_due_later_terms": "Les conditions de {{translatedName}} s'appliquent dès que la commande est confirmée.",
+        "draft_order_payment_due_on_fulfillment": "Le paiement est dû dès que la commande est confirmée et traitée.",
+        "fixed_payment_label": "Le paiement est dû le {{dueDate}}.",
+        "fixed_direct_payment_terms": "Celle-ci sera débitée de ta carte le {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} doit être payé aujourd'hui. Le solde est soumis aux conditions {{translatedName}} et doit être remboursé avant le {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} doit être payé aujourd'hui. Le solde est dû dès que votre commande est traitée.",
+        "order_due_on_receipt_choose_later": "Le paiement est dû à la réception.",
+        "draft_order_deposit_due_later": "{{depositAmount}} est dû une fois la commande confirmée. Le solde est soumis aux conditions {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} est dû une fois la commande confirmée. Le solde est dû dès que votre commande est traitée."
       }
     }
   }
