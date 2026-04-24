@@ -2185,6 +2185,94 @@
           "one": "Comprar %{product_name} e mais %{count} artigo(s)",
           "other": "Comprar %{product_name} e mais %{count} artigos"
         }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informação adicional",
+          "tax_credential_br": "NIF/NIPC",
+          "shipping_credential_br": "NIF/NIPC",
+          "shipping_credential_cn": "Número de identificação do residente",
+          "tax_credential_it": "Código Fiscal (opcional)",
+          "tax_credential_cl": "NIF",
+          "shipping_credential_cl": "NIF",
+          "tax_credential_type_co": "Tipo de Cédula",
+          "shipping_credential_type_co": "Tipo de Cédula",
+          "tax_credential_ec": "CI/NIF/IVA",
+          "shipping_credential_ec": "CI/NIF/IVA",
+          "tax_credential_gt": "NIF/IVA",
+          "shipping_credential_gt": "NIF/IVA",
+          "tax_credential_id": "NIF",
+          "shipping_credential_id": "NIF",
+          "tax_credential_my": "Número de Identificação Fiscal/Registo",
+          "shipping_credential_my": "Número de Identificação Fiscal/Registo",
+          "tax_credential_type_mx": "Regime Fiscal",
+          "tax_credential_py": "CI/NIF/IVA",
+          "shipping_credential_py": "CI/NIF/IVA",
+          "tax_credential_pe": "BI/NIF/CE",
+          "shipping_credential_pe": "BI/NIF/CE",
+          "tax_credential_es": "BI/NIF",
+          "shipping_credential_es": "BI/NIF",
+          "shipping_credential_tw": "Número de identificação nacional/número de contribuinte IVA",
+          "tax_credential_tr": "Número de Identificação da República da Turquia/NIF",
+          "shipping_credential_tr": "Número de Identificação da República da Turquia/NIF"
+        }
+      },
+      "post_purchase": {
+        "page_title": "Após a compra",
+        "title": "Após a compra",
+        "escape_confirmation": "Pagaste a tua encomenda.",
+        "escape_action": "Ver confirmação da encomenda ›",
+        "components": {
+          "processing": "A processar..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "O teu carrinho foi atualizado com base no teu país para envio.",
+        "cart_and_currency_updated_based_on_country": "O seu carrinho e a moeda foram ajustados ao país de envio."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} em cada %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Primeiros %{count} pagamentos por %{total_price} cada"
+          },
+          "following_cycles": ", depois %{total_price} a cada %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Primeiro pagamento %{total_price_with_discount} depois %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", depois %{count} pagamento de %{total_price}",
+            "other": ", depois %{count} pagamentos, cada um de %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Atualizar mapa",
+        "delete_customer_mandate": {
+          "success_message": "O seu método de pagamento foi removido"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Condições gerais da MoR (Comerciante Oficial)"
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Estes produtos não estão disponíveis no teu país/região."
+        },
+        "unavailable_label": "Não disponível"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "O seu país/região foi atualizado. Introduza o endereço de entrega para continuar para a finalização da compra."
+      },
+      "throttle": {
+        "line_to_check_out": "Estás na fila para pagar",
+        "cart_summary_heading": "O teu carrinho",
+        "inventory": {
+          "partial_inventory_banner": "Uma parte do seu carrinho está esgotada e não pode ser adquirida no momento da finalização da compra.",
+          "sold_out": {
+            "heading": "O teu carrinho está esgotado"
+          }
+        }
       }
     }
   }
