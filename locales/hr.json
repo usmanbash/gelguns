@@ -4323,6 +4323,94 @@
       "mapClusterTitle": {
         "one": "Skupina od {{number}} oznaka za označavanje",
         "other": "Skupina od {{number}} označenih točaka"
+      },
+      "expandSheet": "Razviti",
+      "dropzoneDraggedOver": "Postavite datoteku za prijenos",
+      "clipboardFailedToCopy": "Nije kopirano",
+      "clear": "Znanje"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Sakrij balk",
+      "navigate_to_admin": "Idi na upravljački centar",
+      "previewing": "Pregledavate primjer:",
+      "viewing": "Gledate:",
+      "not_available": "Nema dostupnih podataka o profilu",
+      "close_preview": "Zatvori primjer",
+      "actions_button": "Akcije"
+    },
+    "settings": {
+      "loading_accessibility_message": "Učitavanje stranice postavki",
+      "log_out_everywhere": {
+        "title": "Odjava s overal-a",
+        "description": "Ako ste izgubili uređaj ili se brinete za sigurnost, odjavite se svugdje kako biste osigurali sigurnost svog računa.",
+        "button": "Odjavite se sa svih uređaja",
+        "warning_message": "Također ćete biti odjavljeni s ovog uređaja."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "U {{date}} u {{time}}",
+        "lessThanOneMinuteAgo": "Upravo sada",
+        "lessThanOneWeekAgo": "Otvoreno {{weekday}} u {{time}}",
+        "lessThanOneWeekAway": "Otvoreno {{weekday}} u {{time}}",
+        "lessThanOneYearAway": "U {{date}} u {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "prije {{count}} minuta",
+          "other": "prije {{count}} minuta"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Odaberite proširenje pod nazivom '{{extensionName}}'",
+        "unselect": "Poništi odabir proširenja nazvanog '{{extensionName}}'",
+        "move_down": "Premjesti ekstenziju na sljedeću poziciju",
+        "move_up": "Premjesti proširenje na prethodnu poziciju",
+        "remove": "Ukloni proširenje",
+        "move_down_tooltip": "Premjesti na sljedeću poziciju",
+        "move_up_tooltip": "Vrati se na prethodnu poziciju"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Ne možete otvoriti ovaj link unutar uređivača. Link će se otvoriti u novom prozoru ({{resolved_to_link}}). Kliknite na U redu za nastavak."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Previše pokušaja"
+      }
+    },
+    "shop_ads": {
+      "title": "Drugi proizvodi koji bi vam se mogli svidjeti",
+      "subtitle": "Privremeno dostupno",
+      "button": "Istraži u trgovini",
+      "previous_button": "Prethodni"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "disabled": "Kupci se moraju obratiti trgovcu kako bi zatražili povrat."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Proširi traku s obavijestima",
+      "collapse_label": "Sakrij traku s obavijestima",
+      "close_label": "Zatvori traku s obavijestima"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Zamijenite način plaćanja",
+        "loading": "Učitavanje načina plaćanja",
+        "select_new_payment_method": "Odaberite novu metodu plaćanja",
+        "current_method": "Trenutni",
+        "cancel": "Otkaži",
+        "success": "Način plaćanja ažuriran",
+        "use_new_payment_method": "+ Koristite novu metodu plaćanja"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Prijava ili izrada računa",
+        "alternate_divider": "OD",
+        "email_field_label": "E-pošta"
       }
     }
   }
