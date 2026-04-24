@@ -1246,7 +1246,71 @@
             "one": "%{shipping_price} za %{count} dostawę, potem %{recurring_order_shipping_price}",
             "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost}), potem %{recurring_order_shipping_price}"
           }
-        }
+        },
+        "estimated_delivery_time": "Oczekiwana dostawa %{time}",
+        "estimated_delivery_time_range": "Oczekiwane dostarczenie %{min_time}–%{max_time}",
+        "arrives_time": "Dostarczone za %{time}",
+        "arrives_time_range": "Dostawa w terminie od %{min_time} do %{max_time}",
+        "estimated_time": "Oczekiwany %{time}",
+        "estimated_time_range": "Oczekiwany czas %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Subskrypcja lokalnej dostawy",
+        "subscription_pickup": "Odbiór subskrypcji",
+        "delivery_today": "Dostawa tego samego dnia do %{time}",
+        "delivery_tomorrow": "Dostawa następnego dnia do %{time}",
+        "two_day_delivery": "Dostawa w ciągu 2 dni do %{time}",
+        "delivery": "Dostawa za %{time}",
+        "shipping_information_required_notice": "Dane wysyłkowe są wymagane. {{link}}.",
+        "shipping_information_redirect_link": "Wprowadź tutaj swoje dane",
+        "loading_progressive_rates": "Szukaj więcej taryf...",
+        "no_other_methods_available": "Brak dostępnych innych metod",
+        "duties_and_taxes_options": {
+          "ddu_title": "Płatność przy odbiorze",
+          "ddp_caption": "Brak dodatkowych opłat przy dostawie"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} w %{current}"
+        },
+        "shipping_used_as_billing_notice": "To jest również używane jako twój adres do faktury dla tego zamówienia.",
+        "address_update": "Aktualizuj adres",
+        "shipping_address_title": "Wysyłka do",
+        "add_delivery_instructions": "Dodaj instrukcje dostawy",
+        "address_more": "Więcej działań dla tego adresu",
+        "address_form": {
+          "generic_error": "Wystąpił problem podczas zapisywania twojego adresu. Spróbuj ponownie.",
+          "one_time_address_subtitle": "Użyć jednorazowego adresu dla tego zamówienia"
+        },
+        "different_shipping_method_summary": "Wpisz inny adres dostawy, aby zobaczyć dostępne metody wysyłki",
+        "invalid_shipping_method_summary": "Wprowadź prawidłowy adres dostawy, aby zobaczyć dostępne metody wysyłki",
+        "method_summary": {
+          "incomplete_address_entered": "Wprowadź pełny adres dostawy, aby zobaczyć dostępne metody wysyłki",
+          "incomplete_address_selected": "Wybierz pełny adres dostawy, aby zobaczyć dostępne metody wysyłki"
+        },
+        "local_pickup": {
+          "search_address": "Szukaj adresu",
+          "rollup_title": "Miejsce odbioru",
+          "rollup_accessibility_label": "Opcje miejsca odbioru"
+        },
+        "missing_shipping_address": "Brak adresu dostawy",
+        "shipping_method_first_shipment_group_title": {
+          "other": "Pierwsze przesyłki"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Zwrot przesyłki",
+          "other": "Zwroty towarów"
+        },
+        "address_default": "Ustaw jako domyślne",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artykułów",
+        "split_shipping_merchandise_quantity_label_additional": "+ noga %{quantity}",
+        "pre_order_ships_now": "Wysyłane teraz",
+        "pre_order_ships_later": "Zostanie wysłane później",
+        "pre_order_ships_date": "Wysyłka %{date}",
+        "split_shipping_shipping_label": "Sposób",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} przesyłek",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Twoje zamówienie zostanie dostarczone w %{quantity} przesyłkach",
+        "split_shipping_shipment_number": "Wysyłka %{number}",
+        "split_shipping_option_fastest": "Najszybszy",
+        "split_shipping_option_recommended": "Polecane",
+        "split_shipping_option_custom": "Dostosowany"
       }
     }
   }

@@ -1853,8 +1853,66 @@
           "other": "Pēc dažām minūtēm saņemsi īsziņu ar savām dāvanu kartēm."
         },
         "gift_card_confirmation_by_email_typ": {
-          "one": "Pēc dažām minūtēm saņemsi īsziņu ar savu dāvanu karti."
-        }
+          "one": "Pēc dažām minūtēm saņemsi īsziņu ar savu dāvanu karti.",
+          "other": "Pēc dažām minūtēm saņemsi īsziņu ar savām dāvanu kartēm."
+        },
+        "gift_card_email_title": {
+          "one": "Dāvanu karte ir nosūtīta pa e-pastu",
+          "other": "Dāvanu kuponi ir nosūtīti pa e-pastu"
+        },
+        "gift_card_text_title": {
+          "one": "Dāvanu karte ir nosūtīta pa īsziņu",
+          "other": "Dāvanu kuponi ir nosūtīti pa īsziņu"
+        },
+        "resend_gift_cards_by_email": "Atkārtoti nosūtīt e-pastu",
+        "resend_gift_cards_by_text": "Nosūtīt īsziņu vēlreiz",
+        "gift_card_resent_confirmation": {
+          "one": "Dāvanu karte ir nosūtīta vēlreiz.",
+          "other": "Dāvanu kuponi ir nosūtīti atkārtoti."
+        },
+        "gift_card_resend_failure": {
+          "one": "Radās problēma, mēģinot atkārtoti nosūtīt jūsu dāvanu karti. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mums.",
+          "other": "Radās problēma, mēģinot atkārtoti nosūtīt jūsu dāvanu kartes. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mums."
+        },
+        "failed_pending_payment_page_title": "Ir radusies problēma ar jūsu maksājumu",
+        "thank_you_title_payments_app_pending_default": "Maksājums tiek apstrādāts",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Mēs esam saņēmuši tavu pasūtījumu",
+        "thank_you_title_payments_app_failed_pending_payment": "Jūsu maksājumu nevar apstrādāt",
+        "thank_you_payments_app_failed_pending_payment": "Jūsu pasūtījums vēl nav apmaksāts. Atgriezieties savā iepirkumu grozā, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot savam pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot savam pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Drīzumā saņemsi apstiprinājuma īsziņu. Tu vari sekot savam pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot līdzi savai pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot līdzi savai pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Pēc maksājuma veikšanas saņemsi apstiprinošu īsziņu. Tu vari sekot līdzi savai pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_failed_pending_payment": "Jūsu pasūtījums vēl nav apmaksāts. Atgriezieties savā iepirkumu grozā, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot Veikala lietotni.",
+        "thank_you_confirmed_order_with_missing_payment": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_confirmed_order_with_draft_payment": "Mēs tev paziņosim, ja mums būs nepieciešama papildu informācija vai kad pasūtījums būs apstiprināts.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Mēs tev paziņosim, ja mums būs nepieciešama papildu informācija vai kad pasūtījums būs apstiprināts.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Drīzumā saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Drīzumā saņemsiet apstiprinājuma īsziņu. Jūs varat sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Drīzumā saņemsiet apstiprinājuma īsziņu. Jūs varat sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Sazinieties ar mums pa e-pastu vai telefonu, lai saņemtu pasūtījuma apstiprinājumu.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Pēc maksājuma pabeigšanas saņemsi apstiprinājuma e-pastu. Tu vari sekot pasūtījumam, izmantojot Veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Pēc maksājuma pabeigšanas saņemsi īsziņu ar apstiprinājumu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pēc maksājuma pabeigšanas saņemsi īsziņu ar apstiprinājumu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
+        "order_status_payments_app_failed_pending_payment_payment": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
+        "order_status_confirmed_order_local_pick_up": "Mēs sagatavojam tavu pasūtījumu."
       }
     }
   },
