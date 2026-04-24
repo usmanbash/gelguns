@@ -2358,7 +2358,81 @@
           "shared_location_button": "Izmantot manu atrašanās vietu",
           "errors": {
             "unsuported_by_browser": "Tavas pārlūkprogrammas atbalsts ģeovietas noteikšanai nav pieejams. Mēģini vēlreiz vai izmanto citu pārlūkprogrammu.",
-            "permission_not_allowed": "Atļauj kopīgot savu atrašanās vietu."
+            "permission_not_allowed": "Atļauj kopīgot savu atrašanās vietu.",
+            "permission_denied": "Neizdodas iegūt atrašanās vietu. Mēģiniet vēlreiz."
+          }
+        },
+        "no_business_hours": "Nav pieejams darba laiks",
+        "open_twenty_four_hours": "Atvērts visu diennakti",
+        "address_label": "Adrese",
+        "pickup_unavailable_banner_title": {
+          "one": "Nav pieejamu izņemšanas punktu tavai precei",
+          "other": "Nav pieejamu izņemšanas punktu tavām precēm"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Radās problēma norēķinu laikā",
+          "message": "Atjaunojiet šo lapu vai mēģiniet vēlreiz pēc dažām minūtēm",
+          "action": {
+            "cta": "Lapa tiek ielādēta no jauna"
+          },
+          "request_id": "Pieprasījuma ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Šī veikala piekļuve ir aizsargāta ar paroli",
+          "customer_account_required": "Lai pabeigtu norēķināšanos, nepieciešams klienta konts",
+          "cart_completed": "Šī norēķinu procedūra jau ir pabeigta",
+          "invalid_cart": "Groza vairs nav derīga",
+          "not_authorized": "Norēķinu pārbaude neizdevās. Lūdzu, pārbaudiet savus pieteikšanās datus lietotnei.",
+          "killswitch_enabled": "Apmaksa pagaidām nav pieejama",
+          "policy_violation": "Nevar pabeigt norēķinus politikas iestatījumu ierobežojumu dēļ",
+          "unrecoverable_failure": "Neizdevās ielādēt izrakstīšanās lapu. Mēģiniet vēlreiz."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Atpakaļ uz iepirkumu grozu",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, lai atjauninātu daudzumus",
+        "subscription_changed": "Viens no tavām abonementiem ir mainīts.",
+        "company_location_changed": "Tava iepirkumu grozs ir mainīts. Pārbaudi savu pasūtījumu pirms tā nosūtīšanas.",
+        "violations_title": "{{violation}} trūkst vai ir nederīgs",
+        "individual_violations_title": {
+          "DeliveryViolations": "Piegādes adrese",
+          "PaymentViolations": "Rēķina adrese",
+          "OtherViolations": "Pasūtījuma dati",
+          "UnhandledViolations": "Pasūtījuma dati"
+        },
+        "all_violations_content": "Nospiediet uz {{emailLink}}, lai atjauninātu šos datus un pabeigtu savu pasūtījumu:",
+        "all_violations_email_link": "e-pasts",
+        "editable_shipping_address_violations_message_title": "Pievieno šo informāciju, lai pabeigtu savu pasūtījumu:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}}, lai pastāvīgi atjauninātu šīs vietas adresi.",
+        "editable_shipping_address_violations_email_link": "Sazinieties ar mums",
+        "company_location_changed_product_removed": "Tava iepirkumu groza saturs ir mainīts, jo daži produkti šajā vietā nav pieejami. Pārbaudi savu pasūtījumu pirms tā nosūtīšanas.",
+        "shipping_address_incomplete_title": "Piegādes adrese ir nepilnīga",
+        "calculating_shipping": "Piegādes maksa vēl tiek aprēķināta. Lūdzu, mēģiniet vēlreiz pēc dažām sekundēm. Nav iekasēti nekādi maksājumi.",
+        "calculating_taxes": "Nodokļi vēl tiek aprēķināti. Lūdzu, mēģiniet vēlreiz pēc dažām sekundēm. Nav iekasētas nekādas maksas.",
+        "generic_processing_error": {
+          "title": "Radās problēma, apstrādājot jūsu pasūtījumu",
+          "body": "Nav iekasēti nekādi maksājumi. Mēģiniet vēlreiz vai izmantojiet citu maksāšanas veidu."
+        },
+        "contact_information": {
+          "title": "Kontakta dati nav derīgi",
+          "header": "{{emailLink}}, lai atjauninātu savus datus",
+          "email_link": "Sazinieties ar mums"
+        },
+        "payment_method_not_available_with_payment_terms": "Izvēlētā maksājuma metode vairs nav pieejama, jo šī pasūtījuma apmaksa tagad notiek saskaņā ar {{paymentTerms}} nosacījumiem.",
+        "payment_method_not_available_with_fulfillment_terms": "Izvēlētā maksāšanas metode vairs nav pieejama, jo šīs pasūtījuma apmaksa tagad jāveic pie izpildes.",
+        "payment_method_not_available_with_fixed_terms": "Izvēlētā maksāšanas metode vairs nav pieejama, jo maksājums par šo pasūtījumu jāveic vēlāk.",
+        "payment_method_not_available_with_review_requirement": "Izvēlētā maksāšanas metode vairs nav pieejama, jo maksājums ir jāveic pēc pasūtījuma apstiprināšanas.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Piegāde",
+            "contact": "Sazināties",
+            "payment": "Apmaksa",
+            "billing": "Rēķinu izrakstīšana"
+          },
+          "heading": {
+            "one": "Ir {{count}} kļūda:"
           }
         }
       }
