@@ -3245,7 +3245,101 @@
       "order": "Telli %{name}",
       "search": "Otsi",
       "collections": "Kogumikud",
-      "not_found": "404 ei leitud"
+      "not_found": "404 ei leitud",
+      "challenge": "Väljakutse",
+      "checkpoint": "Kontrollpunkt",
+      "search_results": {
+        "one": "Otsing: leiti %{count} tulemus sõnale '%{terms}'",
+        "other": "Otsing: leiti %{count} tulemust märksõnale '%{terms}'"
+      },
+      "blog_or_article_with_error": "Viga - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Rakendatud on %{count} allahindlust"
+    },
+    "challenge": {
+      "message": "Palun kinnita, et sa ei ole robot, et jätkata.",
+      "error": "Sinu vastus ei olnud õige, proovi uuesti.",
+      "submit_button_text": "Saada teele"
+    },
+    "checkpoint": {
+      "message": "Lahenda captcha, et jätkata",
+      "error": "captcha-kontroll ebaõnnestus",
+      "submit_button_text": "Saada teele"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Täname, et liitusite meie meililistiga.",
+        "disclaimer": "Sa saad igal ajal end registreerimisest loobuda.",
+        "unsubscribe": "Logi välja"
+      },
+      "unsubscribed": {
+        "confirmation": "Sa oled meie meililistist loobunud.",
+        "disclaimer": "Sa ei saa meilt enam turundusuudiseid. Sa võid igal ajal uuesti registreeruda.",
+        "preview": "Sa näed näidist sellest, mida kliendid näevad, kui nad end välja logivad."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Oled andnud loa e-kirjade avamise jälgimiseks.</b>",
+          "visibility": "E-kirjade avamise protsendid kajastatakse anonüümselt. Me näeme ainult seda, kas oled e-kirja avanud, kui see on osa koondatud e-kirjade avamise protsendist.",
+          "opt_out_html": "Sa saad end <a style='text-decoration:underline;' href='%{link}'>e-kirjade avamise jälgimisest loobuda</a>, kui sa ei soovi seda teavet jagada.",
+          "preview_bar": "Sa näed näidist sellest, mida kliendid näevad, kui nad annavad loa saada e-kirju avatud jälgimise kohta."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Oled loobunud e-kirjade avamise jälgimisest.</b>",
+          "visibility": "Me ei näe, kas oled meie e-kirju avanud.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Nõusoleku andmine</a> e-kirjade avatud jälgimiseks.",
+          "preview_bar": "Sa näed näidet sellest, mida kliendid näevad, kui nad loobuvad e-kirjade saamisest, mis sisaldavad avamise jälgimist."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Me ei jälgi enam, kas e-kirju avatakse.</b>",
+          "privacy_policy": "Pärast selle e-kirja saatmist uuendasime oma privaatsuspoliitikat ning me ei jälgi enam e-kirjade avamist."
+        },
+        "track": {
+          "status_html": "<b>E-kirja avamise jälgimine on registreeritud.</b>",
+          "visibility": "Me näeme, kas oled e-kirja avanud, ainult kogu e-kirja avamismäära osana."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-kirja avamise jälgimine on registreeritud.</b>",
+          "visibility": "Oleme oma poliitikat uuendanud ja jälgime nüüd avatud e-kirju. E-kirjade avamise protsendid esitatakse anonüümselt. Me näeme ainult seda, kas oled e-kirja avanud, osana kogu e-kirjade avamise protsendist.",
+          "opt_out_html": "Kui sa ei soovi seda teavet enam jagada, siis saad end <a style='text-decoration:underline;' href='%{link}'>eemaldada</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Kas oled kindel, et soovid SMS-turundusest loobuda?",
+        "button": "Logi välja"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Enamasti valmis 1 tunni jooksul",
+        "two_hours": "Enamasti valmis 2 tunni jooksul",
+        "four_hours": "Enamasti valmis 4 tunni jooksul",
+        "twenty_four_hours": "Enamasti valmis 24 tunni jooksul",
+        "two_to_four_days": "Tavaliselt valmis 2–4 päeva jooksul",
+        "five_or_more_days": "Tavaliselt valmis rohkem kui 5 päevaga",
+        "zero_to_two_hours": "Enamasti valmis 2 tunni jooksul",
+        "two_to_four_hours": "Enamasti valmis 4 tunni jooksul",
+        "immediately": "Valmis kohe järele tulema",
+        "next_day": "Valmis järgmisel päeval järele võtma"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Laos olemas",
+          "out_of_stock": "Laoühikus puudub"
+        }
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Ei"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Asjakohasus"
+      }
     }
   },
   "sections": {
