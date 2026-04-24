@@ -713,6 +713,78 @@
           "non_negotiable": {
             "missing_non_negotiable_terms": "A vevő ajánlatának tartalmaznia kell a non-negotiable_terms feltételeket.",
             "invalid_signature": "Az aláírás a {{target_terms}} esetében érvénytelen."
+          },
+          "inventory": {
+            "missing_quantity_value": "A „Mennyiség” mező hiányzik a vevő készlet sorai közül.",
+            "changing_behavior_not_allowed": "Ez az ügyfél nem jogosult a készletkezelési funkciók módosítására.",
+            "only_one_inventory_behavior_allowed": "Jelenleg csak egy készletkezelési funkció engedélyezett egy fizetésnél."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Ezen a fizetésnél a vámok megtagadása nem engedélyezett."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Ezen a pénztárnál a kiskereskedelmi hozzárendelés nem engedélyezett.",
+            "retail_attribution_required": "Ehhez a pénztárhoz kiskereskedelmi hozzárendelés szükséges."
+          },
+          "captcha": {
+            "metadata_missing": "Ehhez a fizetéshez a captcha kitöltése kötelező.",
+            "metadata_mismatch": "A megadott captcha-szolgáltató és a típus nem egyezik a várt értékekkel.",
+            "token_missing": "Fejezze be ezt a fizetést egy captcha-jel beírásával.",
+            "job_enqueue_failed": "A captcha-ellenőrzési feladat nem helyezhető sorba.",
+            "job_already_queued": "A Captcha-ellenőrzés már sorba lett állítva ehhez a tokenhez.",
+            "token_expired": "A megadott captcha-jel érvénytelen. Végezzen el egy új captcha-ellenőrzést a fizetés folytatásához.",
+            "token_invalid": "A megadott captcha-jel érvénytelen volt. Kérjük, végezzen el egy új captcha-ellenőrzést a fizetés folytatásához.",
+            "token_not_valid_for_session": "Nem használható a megadott captcha ennél a fizetésnél."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "A kapott összegnek az üzlet pénznemében kell lennie."
+          },
+          "checkout_source": {
+            "revoked": "Ez a fizetési mód már nem elérhető."
+          }
+        },
+        "title": "Fizetés - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - fizetés",
+        "loading_title": "Fizetés - {{shopName}}",
+        "google_map_title": "Google-térkép",
+        "submit_order_button_label": "Megrendelés leadása",
+        "submit_for_review_button_label": "Ellenőrzés benyújtása",
+        "submit_for_review_notice_label": "A fizetés csak akkor esedékes, ha a rendelésed ellenőrizve lett",
+        "continue_to_payment_plans_button_label": "Tovább a fizetési ütemtervekhez",
+        "back_button_label": "Visszaküldés",
+        "choose_delivery_strategy": "Válasszon kézbesítési módot",
+        "autocomplete_zero_item": "Nincsenek elérhető cikkek",
+        "autocomplete_powered_by_google": "Lehetővé tette: {{brandName}}",
+        "processing": "Feldolgozás...",
+        "stepper": {
+          "increase": "{{type}} növekedése",
+          "decrease": "{{type}} átvétele",
+          "minimum_reached": "Minimum elérte a {{value}} értéket",
+          "maximum_reached": "Elérte a maximumot: {{value}}"
+        },
+        "dates": {
+          "weekdays": {
+            "monday": "hétfő",
+            "tuesday": "kedd",
+            "wednesday": "szerda",
+            "thursday": "csütörtök",
+            "friday": "péntek",
+            "saturday": "szombat",
+            "sunday": "vasárnap"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "csináld.",
+            "friday": "vr.",
+            "saturday": "za.",
+            "sunday": "stb."
+          },
+          "months": {
+            "january": "január",
+            "february": "február",
+            "march": "március"
           }
         }
       }
