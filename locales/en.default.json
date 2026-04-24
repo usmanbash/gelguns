@@ -555,7 +555,57 @@
       "shipping": {
         "address_form": {
           "max_address": "{{max_addresses}} address limit reached. Delete an address to add a new one."
-        }
+        },
+        "waiting_on_rate_notice": "Retrieving available shipping rates...",
+        "waiting_on_pickup_location_notice": "Retrieving available pickup locations...",
+        "no_pickup_location_notice": "At least one of your products cannot be picked up",
+        "estimated_delivery_date_range": "%{minimum} to %{maximum} working days",
+        "shipping_line_phone": "Your courier can use this number to get in touch with you.",
+        "other_method": {
+          "one": "%{count} other method available from",
+          "other": "%{count} other methods available from"
+        },
+        "shipping_line_delivery_phone": "You may be contacted with updates about your delivery.",
+        "shipping_line_delivery_instructions": "Enter the required information such as door codes and delivery instructions.",
+        "subscription_shipping": "Subscription for shipping",
+        "one_time_purchase_shipping": "Ship once",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "for %{count} delivery(ies)"
+          },
+          "initial_order_discounted": "First shipping costs %{discounted_shipping_cost}, then %{frequency_description}",
+          "prepaid_initial_order_discounted": "First shipping costs %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "First shipping costs %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "First shipping costs %{discounted_shipping_price} %{prepaid_delivery_frequency}, then %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "First shipping costs %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), then %{shipping_price} %{billing_cycle}",
+          "free_for_first_n_order": {
+            "other": "For the first %{count} orders"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Free shipping for %{count} more deliveries, then %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} extra delivery for %{shipping_price}",
+            "other": "%{count} extra deliveries for %{shipping_price} per delivery"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} extra deliveries for %{shipping_price} per delivery"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Free shipping the first %{cycle}, then %{recurring_order_shipping_price}",
+            "other": "Free shipping the first %{cycle}, then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} for %{count} more deliveries, then %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} for %{count} delivery, then %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Expected delivery %{time}",
+        "estimated_delivery_time_range": "Expected delivery %{min_time}–%{max_time}"
       },
       "payment": {
         "saved_addresses": "Saved addresses",
@@ -1023,7 +1073,35 @@
         "more_items_modal": {
           "clear_search": "Clear search action",
           "empty_results": "No results found for '%{searchText}'. Check the spelling or try a different word or phrase."
-        }
+        },
+        "number_items": {
+          "one": "%{count} items"
+        },
+        "view_all_items": {
+          "one": "View %{count} items"
+        },
+        "price_after_discount_aria_text": "Discount price",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Send to address"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "No shops available with your item",
+          "other": "No shops available with your items"
+        },
+        "discount_code_allocations_mismatch": "Your discount code <strong style=\"text-transform:uppercase\">%{code}</strong> has been changed. Check your shopping cart and try again.",
+        "deferred_total_due_date_label_next": "Due on %{date}",
+        "total_due_label": "Total owed",
+        "unconfirmed_label": "Not confirmed",
+        "from_other_stores_heading": "From other shops",
+        "order_discounts_apply_to_local_shop": "Order discounts apply only to items from %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Gift vouchers are only valid for items from %{shop_name}",
+        "discount_code_replaced": "Discount code %{old_code} has been removed and %{code} has been applied",
+        "discount_code_replaced_multiple": "Multiple discount codes have been removed and %{code} has been applied",
+        "from_multiple_stores_heading": "From multiple shops",
+        "pay_merchant_label": "Pay with %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "The discount applies only to subscription items",
+        "estimated_taxes_finalization_tooltip_content_short": "Tax rounding after payment",
+        "automatic_discount_tooltip": "Automatically applied discounts cannot be removed"
       }
     },
     "sentence": {
