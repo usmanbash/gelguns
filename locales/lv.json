@@ -73,5 +73,85 @@
         }
       }
     }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Paziņojums",
+      "menu": "Izvēlne",
+      "cart_count": {
+        "one": "{{ count }} prece",
+        "other": "{{ count }} preces"
+      }
+    },
+    "cart": {
+      "title": "Jūsu iepirkumu grozs",
+      "caption": "Preces grozā",
+      "remove_title": "Noņemt {{ title }}",
+      "note": "Īpašas norādes pasūtījumam",
+      "checkout": "Norēķināties",
+      "empty": "Jūsu iepirkumu grozs ir tukšs",
+      "cart_error": "Radās kļūda, atjauninot tavu iepirkumu grozu. Lūdzu, mēģini vēlreiz.",
+      "cart_quantity_error_html": "Tu vari pievienot savam iepirkumu grozam tikai {{ quantity }} no šī artikula.",
+      "headings": {
+        "product": "Produkts",
+        "price": "Cena",
+        "total": "Kopā",
+        "quantity": "Skaits",
+        "image": "Produkta attēls"
+      },
+      "update": "Atjaunināt",
+      "login": {
+        "title": "Vai tev ir konts?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Pieslēgties</a> lai ātrāk norēķinātos."
+      },
+      "estimated_total": "Aptuvenais kopējais daudzums",
+      "new_estimated_total": "Jauns kopējais novērtējums",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Muitas nodevas un nodokļi iekļauti cenā. Atlaides un <a href=\"{{ link }}\">piegāde</a> tiek aprēķinātas norēķinu laikā.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Muitas nodevas un nodokļi iekļauti cenā. Atlaides un piegādes izmaksas tiek aprēķinātas norēķinu laikā.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Iekļauti nodokļi. Atlaides un <a href=\"{{ link }}\">piegāde</a> tiek aprēķināta norēķinu laikā.",
+      "taxes_included_shipping_at_checkout_without_policy": "Nodokļi iekļauti. Atlaides un piegādes izmaksas tiek aprēķinātas norēķinu laikā.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Muitas nodokļi iekļauti. Nodokļi, atlaides un <a href=\"{{ link }}\">piegāde</a> tiks aprēķināti norēķinu laikā.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Muitas nodevas iekļautas. Nodokļi, atlaides un piegāde tiek aprēķināti norēķinu laikā.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Nodokļi, atlaides un <a href=\"{{ link }}\">piegāde</a> tiek aprēķināti norēķinu laikā.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Nodokļi, atlaides un piegāde tiek aprēķināti norēķinu laikā."
+    },
+    "footer": {
+      "payment": "Maksāšanas veidi"
+    },
+    "featured_blog": {
+      "view_all": "Skatīt visu",
+      "onboarding_title": "Emuāra ieraksts",
+      "onboarding_content": "Sniedz saviem klientiem pārskatu par savu emuāra ierakstu"
+    },
+    "featured_collection": {
+      "view_all": "Skatīt visu",
+      "view_all_label": "Skatīt visus produktus kolekcijā {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Skatīt visu"
+    },
+    "collection_template": {
+      "title": "Kolekcija",
+      "empty": "Nav atrasts neviens produkts",
+      "use_fewer_filters_html": "Izmantot mazāk filtru vai <a class=\"{{ class }}\" href=\"{{ link }}\">izdzēst visu</a>"
+    },
+    "video": {
+      "load_video": "Video ielāde: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Dia lādiņš",
+      "previous_slideshow": "Iepriekšējais slaids",
+      "next_slideshow": "Nākamais slaids",
+      "pause_slideshow": "Pārtraukt slaidrādi",
+      "play_slideshow": "Slaidrādes atskaņošana",
+      "carousel": "Karuselis",
+      "slide": "Diametrs"
+    },
+    "page": {
+      "title": "Lappušu virsraksts"
+    },
+    "announcements": {
+      "previous_announcement": "Iepriekšējais paziņojums"
+    }
   }
 }
