@@ -1872,7 +1872,67 @@
         "attempted_delivery_description_html": "Η προσπάθεια παράδοσης της παραγγελίας σας δεν ήταν επιτυχής. Για να κανονίσετε μια νέα προσπάθεια παράδοσης, %{contact_us}.",
         "delivered": "Ανησυχημένος",
         "delivered_title": "Η παραγγελία σας έχει παραδοθεί",
-        "delivered_description_html": "Η παραγγελία σας έχει παραδοθεί στη διεύθυνση που δώσατε. Αν δεν την έχετε παραλάβει ή αν υπάρχουν άλλα προβλήματα, %{contact_us}."
+        "delivered_description_html": "Η παραγγελία σας έχει παραδοθεί στη διεύθυνση που δώσατε. Αν δεν την έχετε παραλάβει ή αν υπάρχουν άλλα προβλήματα, %{contact_us}.",
+        "failure": "Δεν ανησυχείτε",
+        "failed_title": "Η παραγγελία σας δεν μπόρεσε να παραδοθεί.",
+        "failed_contact_merchant": "Επικοινωνήστε με την %{company} για να κανονίσετε την παράδοση.",
+        "failed_contact_merchant_no_company": "Επικοινωνήστε μαζί μας για να κανονίσουμε την παράδοση.",
+        "non_shippable_title": "Η παραγγελία ολοκληρώθηκε",
+        "login_title": "Συνδεθείτε για να δείτε όλα τα στοιχεία παραγγελίας",
+        "login_description": "Μπορείς να βρεις τον αριθμό παραγγελίας σου στο τιμολόγιο που έλαβες μέσω email.",
+        "login_description_phone": "Θα βρείτε τον αριθμό παραγγελίας σας στο τιμολόγιο που λάβατε μέσω SMS.",
+        "login_not_customer_html": "Δεν έχετε %{name}; Μπορείτε να %{link}",
+        "login_reorder_link_text": {
+          "one": "αγοράστε κι αυτό το προϊόν",
+          "other": "αγοράστε επίσης αυτά τα προϊόντα"
+        },
+        "customer_information_hidden_fields_message": "Συνδεθείτε για να δείτε όλα τα στοιχεία πελάτη.",
+        "customer_validation_error": "Εισάγετε μια έγκυρη διεύθυνση email ή αριθμό παραγγελίας.",
+        "customer_validation_error_phone": "Εισάγετε έναν έγκυρο αριθμό τηλεφώνου ή παραγγελίας.",
+        "unfulfilled_items_title": "Η αποστολή ετοιμάζεται",
+        "unfulfilled_items_description": "Αυτή τη στιγμή ετοιμάζουμε αυτά τα είδη για αποστολή.",
+        "marker": {
+          "shipping": "Διεύθυνση παράδοσης"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Τα είδη ετοιμάζονται για αποστολή"
+        },
+        "order_updates_description_missing": "Δεν λαμβάνεις ενημερώσεις αποστολής.",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Λάβετε ενημερώσεις αποστολής μέσω email ή sms",
+        "order_updates_subscribe_to_phone_notifications": "Λάβε ενημερώσεις αποστολής μέσω SMS",
+        "track_shipment": "Αποστολή Volg",
+        "order_status_confirmed_order_with_email_pick_up": "Θα λάβεις ένα email όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "order_status_confirmed_order_with_phone_pick_up": "Θα λάβεις ένα SMS όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Θα λάβεις ένα email και ένα SMS όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "pick_up_in_store_marker": {
+          "shipping": "Τοποθεσία επιστροφής"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Θα λάβεις ένα email όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Θα λάβεις ένα SMS όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Θα λάβεις ένα email όταν μπορείς να παραλάβεις την παραγγελία σου.",
+        "ready_for_pickup_title": "Η παραγγελία είναι έτοιμη για παραλαβή",
+        "ready_for_pickup_description": "Η παραγγελία σας είναι έτοιμη για παραλαβή. Παρακαλούμε να έχετε μαζί σας την επιβεβαίωση παραγγελίας όταν παραλαμβάνετε την παραγγελία.",
+        "picked_up_title": "Η παραγγελία έχει παραληφθεί",
+        "picked_up_description_html": "Η παραγγελία σας παραλήφθηκε στο %{location_name} στις %{date}.",
+        "shop_phone_description": "Θα λάβεις ένα SMS με έναν σύνδεσμο προς την εφαρμογή Κατάστημα για να παρακολουθήσεις την παραγγελία σου.",
+        "ready_for_delivery_title": "Η παραγγελία είναι έτοιμη για παράδοση",
+        "ready_for_delivery_description": "Έχουμε ετοιμάσει την παραγγελία.",
+        "order_status_confirmed_order_local": "Ετοιμάζουμε την παραγγελία σου για αποστολή.",
+        "gift_card_sent_confirmation": "Αποστολή δωροεπιταγών",
+        "out_for_delivery_local_title": "Η παραγγελία σας είναι έτοιμη για παράδοση",
+        "out_for_delivery_local_description_html": "Θα λάβετε την παραγγελία σας σύντομα.",
+        "delivered_local_title": "Η παραγγελία σας έχει παραδοθεί",
+        "delivered_local_description_html": "Δεν έχεις λάβει ακόμα την παραγγελία σου; %{let_us_know}.",
+        "qr_code": {
+          "title": "Παρακολούθησε στο τηλέφωνό σου",
+          "send_link_to_phone": "Ή στείλε έναν σύνδεσμο στο τηλέφωνό σου"
+        },
+        "gift_card_confirmation_by_text": "Αν δεν το έχετε λάβει, ζητήστε να σταλεί ξανά το SMS ή επικοινωνήστε μαζί μας.",
+        "gift_card_confirmation_by_email": "Αν δεν το έχετε λάβει, ζητήστε να σταλεί ξανά το email ή επικοινωνήστε μαζί μας.",
+        "gift_card_title": "Δωροεπιταγές",
+        "resend_gift_cards": "Αποστολή ξανά δωροεπιταγών",
+        "attempted_delivery_local_title": "Αποστολή με παράδοση στο σπίτι",
+        "attempted_delivery_local_description_html": "Δυστυχώς δεν καταφέραμε να παραδώσουμε την παραγγελία σου. %{contact_us} για να προγραμματίσουμε μια νέα παράδοση."
       }
     }
   }

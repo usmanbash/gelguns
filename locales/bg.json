@@ -3393,7 +3393,87 @@
       "try_new_search": "Опитайте нова търсачка",
       "skip_to_content": "Отидете директно към съдържанието",
       "loading_policy_content_accessibility_label": "Политика за зареждане на съдържание",
-      "policy_load_error": "Не може да се зареди Kan {{policyName}}"
+      "policy_load_error": "Не може да се зареди Kan {{policyName}}",
+      "loading_section_accessibility_label": "{{sectionName}} натоварен"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Зареждане на данни за акаунта",
+      "loading_finished_accessibility_message": "Данните за акаунта са заредени",
+      "profile_card": {
+        "cancel": "Отказване",
+        "cancel_accessibility_label": "Редактиране на профил Отказ",
+        "edit_accessibility_label": "Редактиране на профил",
+        "email_help_text": "Имейл адресът не може да бъде редактиран",
+        "first_name": "Име",
+        "phone_number_help_text": "Телефонният номер не може да бъде редактиран",
+        "save": "Запази",
+        "save_accessibility_label": "Запази профила",
+        "errors": {
+          "name_too_long": "{{fieldName}} е твърде дълго (максимум 255 знака)",
+          "name_cannot_contain_html_tags": "{{fieldName}} не трябва да съдържа HTML тагове",
+          "email_cant_be_blank": "Имейлът не може да бъде празен",
+          "invalid_email_format": "Въведете валиден имейл адрес"
+        },
+        "editable_email_help_text": "Този имейл адрес се използва за регистрация и актуализации на поръчки."
+      },
+      "people": {
+        "pagination": {
+          "load_more": "Зареди още",
+          "load_more_accessibility_label": "Повече хора зареждат"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Потвърждаване на имейл",
+        "description": "Въведете кода, изпратен на {{email}}",
+        "one_time_password_label": "Код от 6 цифри",
+        "email_resend_button": "Изпрати кода отново",
+        "email_resend_button_accessibility_label": "Изпрати отново кода за потвърждение",
+        "cancel_button": "Отказване",
+        "cancel_button_accessibility_label": "Отказване на редактиране на имейл",
+        "email_resend_button_success_toast_message": "Код за потвърждение изпратен",
+        "email_resend_button_failure_banner_message": "Не може да се изпрати код за потвърждение"
+      },
+      "email_update_success_modal": {
+        "title": "Потвърждаване на имейл",
+        "description": "Актуализацията на имейла е успешна. Пренасочване към регистрация."
+      },
+      "email_update_confirmation_message": "Имейл адресът е актуализиран на {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Опции за оформление",
+      "order_list": {
+        "column_headers": {
+          "total": "Общо",
+          "actions_accessibility_label": "Оферти"
+        },
+        "delivered": "Загрижен: {{date}}",
+        "empty_state_order_source_description": "Само поръчки, направени чрез {{email}}, се показват тук.",
+        "empty_state_subtitle": "Отидете в магазина, за да направите поръчка.",
+        "empty_state_title": "Все още няма поръчки",
+        "estimated_delivery": "Очаква се на {{date}}",
+        "items": {
+          "one": "{{count}} артикула"
+        },
+        "order_link": "Преглед на поръчка {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Навигационни бутони за поръчки",
+          "next": "Следващ",
+          "previous": "Предишен",
+          "load_more": "Зареди още"
+        },
+        "sort_hide_options_accessibility_label": "Скриване на опции за сортиране на потвърдени поръчки.",
+        "sort_show_options_accessibility_label": "Показване на опции за сортиране на потвърдени поръчки.",
+        "sort": {
+          "date": {
+            "newest": "От най-нови към най-стари",
+            "oldest": "От най-старо към най-ново"
+          },
+          "location": {
+            "ascending": "Местоположение (A-Я)",
+            "descending": "Местоположение (Я-А)"
+          }
+        }
+      }
     }
   }
 }
