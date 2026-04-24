@@ -2329,6 +2329,90 @@
       "session_errors": {
         "session_not_unique": "Tilaustasi käsiteltäessä ilmeni ongelma. Päivitä tämä sivu palataksesi kauppaan.",
         "session_already_finished": "Tämä tilaus on jo lähetetty. Voit palata kauppaan aloittaaksesi uuden tilauksen."
+      },
+      "pickup_point": {
+        "search_button": "Etsi",
+        "selector_tabs": "Noutopistevalitsin",
+        "could_not_resolve_address": "Osoitetta ei löydy. Yritä uudelleen tai käytä toista osoitetta",
+        "no_pickup_points_near_you": "Noutopisteitä ei löytynyt valitun osoitteen läheltä",
+        "no_pickup_points_near_location": "Noutopisteitä ei löytynyt sijaintisi läheltä",
+        "no_pickup_points_found": "Noutopisteitä ei löytynyt",
+        "paginator": {
+          "header": {
+            "one": "Antaa %{first} - %{last} %{count} pisteestä takaisin",
+            "other": "Näyttää pisteet %{first} - %{last} yhteensä %{count} pistettä"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} pisteestä %{count} pistettä",
+            "other": "%{pickup_point_index} / %{count} pisteestä"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} / %{count} pisteestä",
+            "other": "%{first} - %{last} %{count} pisteestä"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} noutopistettä lähellä sijaintiasi",
+          "other": "%{count} noutopistettä lähellä sijaintiasi"
+        },
+        "change": "Sijainnin vaihto",
+        "waiting_on_pickup_point_location_notice": "Noutopisteiden etsiminen...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Sijainnin hakeminen ei ole selaimessasi tuettu. Yritä uudelleen tai käytä toista selainta.",
+            "permission_denied": "Sijaintia ei voi hakea. Yritä uudelleen."
+          }
+        },
+        "no_business_hours": "Ei aukioloaikoja saatavilla",
+        "open_twenty_four_hours": "Avoinna ympäri vuorokauden",
+        "pickup_unavailable_banner_title": {
+          "one": "Noutopisteitä ei ole saatavilla tuotteellesi",
+          "other": "Noutopisteitä saatavilla tuotteillesi"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Ostotapahtumassa ilmeni ongelma",
+          "message": "Päivitä tämä sivu tai yritä uudelleen muutaman minuutin kuluttua",
+          "action": {
+            "cta": "Sivu ladataan uudelleen"
+          },
+          "request_id": "Hakemus-ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Tämä kauppa on suojattu salasanalla",
+          "customer_account_required": "Asiakastili vaaditaan kassalle siirtymisen viimeistelemiseksi",
+          "cart_completed": "Tämä maksutapahtuma on jo suoritettu loppuun",
+          "not_authorized": "Kassan vahvistus epäonnistui. Vahvista sovelluksen kirjautumistietosi.",
+          "killswitch_enabled": "Kassapalvelu ei ole tällä hetkellä käytettävissä",
+          "policy_violation": "Kan kassalle ei voi jatkaa politiikan asetusten rajoitusten vuoksi",
+          "unrecoverable_failure": "Kanavaa ei voi ladata. Yritä uudelleen"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Takaisin ostoskoriin",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} päivittääksesi määrät",
+        "subscription_changed": "Yksi tilauksistasi on muuttunut.",
+        "company_location_changed": "Ostoskoriisi on tehty muutoksia. Tarkista tilauksesi ennen sen lähettämistä.",
+        "individual_violations_title": {
+          "OtherViolations": "Tilaustiedot",
+          "UnhandledViolations": "Tilaustiedot"
+        },
+        "all_violations_content": "Klikkaa {{emailLink}} päivittääksesi nämä tiedot ja viimeistelläksesi tilauksesi:",
+        "all_violations_email_link": "sähköposti",
+        "editable_shipping_address_violations_message_title": "Lisää nämä tiedot viimeistelläksesi tilauksesi:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} päivittääksesi tämän paikan osoitteen pysyvästi.",
+        "editable_shipping_address_violations_email_link": "Ota meihin yhteyttä",
+        "company_location_changed_product_removed": "Ostoskoriisi on tehty muutoksia, koska jotkin tuotteet eivät ole saatavilla tässä paikassa. Tarkista tilauksesi ennen sen lähettämistä.",
+        "calculating_shipping": "Toimituskulut lasketaan vielä. Yritä uudelleen muutaman sekunnin kuluttua. Maksuja ei ole veloitettu.",
+        "calculating_taxes": "Verot lasketaan vielä. Yritä uudelleen muutaman sekunnin kuluttua. Maksuja ei ole veloitettu.",
+        "generic_processing_error": {
+          "title": "Tilaustasi käsiteltäessä ilmeni ongelma",
+          "body": "Maksuja ei ole veloitettu. Yritä uudelleen tai käytä toista maksutapaa."
+        },
+        "contact_information": {
+          "header": "{{emailLink}} päivittääksesi tietosi"
+        }
       }
     }
   }
