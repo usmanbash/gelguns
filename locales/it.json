@@ -3232,7 +3232,85 @@
           "next": "Successivo"
         },
         "show_order_actions_accessibility_label": "Mostra le promozioni per l'ordine {{name}}",
-        "empty_state_title_for_pending_orders": "Nessun ordine in lavorazione"
+        "empty_state_title_for_pending_orders": "Nessun ordine in lavorazione",
+        "more_than_four_products_accessibility_label": "L'ordine contiene {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} più altri {{numberOfAdditionalProducts}} prodotti",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} prodotti",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Visualizza ordine per dettagli prodotto",
+            "estimated_delivery": "Previsto per {{date}}",
+            "last_updated": "Ultimo aggiornamento il {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Consegna stimata il {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "L'ordine contiene {{lineItemName1}}, {{lineItemName2}}, più altri {{numberOfAdditionalProducts}} prodotti",
+        "filter": {
+          "clear_all": "Sapere tutto",
+          "apply": "Applicare",
+          "date": {
+            "end_date": "Data di scadenza",
+            "title": "Data dell'ordine",
+            "last_7_days": "Ultimi 7 giorni",
+            "custom": "Adattato"
+          }
+        },
+        "no_order_banner": "Effettua un ordine per testare l'estensione nella pagina Stato dell'ordine.",
+        "location_filter_picker": {
+          "current_location": "Posizione attuale",
+          "switch_view": "Cambia visualizzazione"
+        }
+      },
+      "order_status": {
+        "come_back": "Torna a questa pagina per aggiornamenti sullo stato della tua spedizione.",
+        "company_tracking_number": "Numero di tracciamento {{company}}:",
+        "confirmed_title": "Il tuo ordine è stato confermato",
+        "delivered_label": "Preoccupato",
+        "estimated_delivery": "Previsto per {{date}}",
+        "in_review_label": "Per valutazione",
+        "in_review_title": "Il tuo ordine è in fase di valutazione",
+        "no_tracking_number": "Non è disponibile un numero di tracciamento per questa spedizione.",
+        "on_its_way_label": "In viaggio",
+        "out_for_delivery_label": "Pronto per la consegna",
+        "resume_tracking": "Riprendi la sequenza",
+        "track_shipment": "Traccia spedizione",
+        "preparing_for_shipping_label": "La spedizione è in preparazione",
+        "ready_for_pickup_description": "Questi articoli sono pronti per il ritiro. Porta con te la conferma dell'ordine quando vieni a ritirare l'ordine.",
+        "submitted_description": "Controlla l'ordine e i dati di pagamento.",
+        "last_updated": "Ultimo aggiornamento il {{date}}",
+        "multiple_shipments_label": "Più spedizioni",
+        "view_order_for_details": "Visualizza ordine per dettagli prodotto",
+        "confirmed_description_digital": "Riceverai un'email quando il tuo ordine sarà pronto.",
+        "delivered_description_gift_card": {
+          "one": "Il buono regalo è stato inviato via e-mail.",
+          "other": "I buoni regalo sono stati inviati via e-mail."
+        },
+        "confirmed_description_pickup": "Riceverai un'email quando il tuo ordine sarà pronto per il ritiro.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Il buono regalo verrà inviato in una e-mail separata.",
+          "other": "Ogni buono regalo viene inviato in una e-mail separata."
+        },
+        "confirmed_description_gift_card_text": "Riceverai un messaggio quando l'ordine sarà pronto.",
+        "delivered_description_gift_card_text": {
+          "one": "Il buono regalo è stato inviato tramite sms.",
+          "other": "I buoni regalo sono stati inviati tramite sms."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Il buono regalo viene inviato tramite un messaggio di testo separato.",
+          "other": "Ogni buono regalo viene inviato in un messaggio di testo separato."
+        },
+        "gift_resend_failure": {
+          "one": "Si è verificato un problema durante il reinvio del tuo buono regalo. Riprova oppure contattaci.",
+          "other": "Si è verificato un problema durante il reinvio dei tuoi buoni regalo. Riprova oppure contattaci."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(apre in una nuova finestra)"
+          }
+        },
+        "attempted_to_deliver_label": "Tentato di consegnare",
+        "buy_with_prime_logo_accessibility_label": "Logo Acquista con Prime di Amazon"
       }
     }
   }
