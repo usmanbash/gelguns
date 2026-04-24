@@ -4256,8 +4256,68 @@
       "update_payment_method": {
         "disclaimer": "Táto platobná metóda sa uloží pre budúce nákupy a môže sa použiť pri každom opakovanom alebo odloženom nákupe.",
         "error_message": "Nie je možné aktualizovať spôsob platby",
-        "current": "Súčasný"
+        "current": "Súčasný",
+        "loading_form_accessibility_message": "Formulár na aktualizáciu platobnej metódy sa načítava",
+        "loading_current_payment_method": "Aktuálna platobná metóda sa načítava",
+        "loading_digital_wallets": "Možnosti digitálnej peňaženky sa načítavajú",
+        "loading_card_fields": "Polia kreditnej karty sa načítavajú",
+        "pre_orders_title": "Prichádzajúce",
+        "pre_orders_list_accessibility_label": "Zoznam produktov s prebiehajúcou objednávkou",
+        "resources_list_accessibility_label": "Produkty s predplatným a produkty s prebiehajúcou objednávkou, ktoré používajú tento spôsob platby",
+        "resources_card_scroll": "Posuňte sa nadol pre viac článkov",
+        "loading_resources": "Načítavanie predplatných a nadchádzajúcich objednávok"
+      },
+      "link_expired": {
+        "message": "Tento odkaz na aktualizáciu vašej platobnej metódy vypršal.",
+        "return_home_button": "Späť na domovskú stránku",
+        "update_message": "Tento odkaz na aktualizáciu vašej platobnej metódy vypršal.",
+        "add_message": "Tento odkaz na pridanie platobnej metódy vypršal."
+      },
+      "update_success": {
+        "title": "Spôsob platby aktualizovaný",
+        "done_button": "Pokračovať v nakupovaní"
+      },
+      "expired_badge_label": "Vypršané",
+      "or": "ALEBO",
+      "additional_payment_methods": "Doplnkové spôsoby platby",
+      "add_success": {
+        "title": "Platobná metóda pridaná",
+        "done_button": "Pokračovať v nakupovaní"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Nakúp cez Pay",
+      "discover": "Objavte",
+      "forbrugsforeningen": "Spotrebiteľská asociácia",
+      "hipercard": "Hiperkarta",
+      "unionpay": "Union Pay",
+      "storecredit": "Zostatok v obchode",
+      "bogus": "Falošný"
+    },
+    "enable_javascript": "Zapnite JavaScript vo svojich nastaveniach prehliadača alebo sa prihláste cez iný prehliadač, aby ste mohli zobraziť svoj účet.",
+    "ui_components": {
+      "increase": "Nárast {{type}}",
+      "decrease": "Odber {{type}}",
+      "minimumReached": "Minimálna hodnota van {{value}} dosiahnutá",
+      "maximumReached": "Maximálna kapacita vanu {{value}} dosiahnutá",
+      "may": "mei",
+      "august": "augustus",
+      "monday": "pondelok",
+      "tuesday": "utorok",
+      "wednesday": "streda",
+      "thursday": "štvrtok",
+      "friday": "piatok",
+      "saturday": "sobota",
+      "sunday": "nedeľa",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "urobiť.",
+      "fridayAbbreviation": "v. r.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "rangeStart": "Začať dosah",
+      "inRange": "V dosahu"
     }
   }
 }
