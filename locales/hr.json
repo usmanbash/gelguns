@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Uđite u trgovinu pomoću lozinke:",
-      "login_password_button": "Uđite pomoću lozinke",
+      "login_form_heading": "Uđite u trgovinu s lozinkom:",
+      "login_password_button": "Uđi s lozinkom",
       "login_form_password_label": "Lozinka",
-      "login_form_password_placeholder": "Vaša lozinka",
-      "login_form_error": "Pogrešna lozinka!",
-      "login_form_submit": "Unesi",
-      "admin_link_html": "Jeste li vlasnik/vlasnica trgovine? <a href=\"/admin\" class=\"link underlined-link\">Prijavite se ovdje</a>",
+      "login_form_password_placeholder": "Tvoja lozinka",
+      "login_form_error": "Lozinka nije točna!",
+      "login_form_submit": "Unos",
+      "admin_link_html": "Jeste li vlasnik trgovine? <a href=\"/admin\" class=\"link underlined-link\">Prijavite se ovdje</a>",
       "powered_by_shopify_html": "Ovu trgovinu pokreće {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Podijeli na Facebooku",
-        "share_on_twitter": "Podijeli na mreži X",
-        "share_on_pinterest": "Prikvači na Pinterest"
+        "share_on_twitter": "Dijeli na X",
+        "share_on_pinterest": "Zakači na Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (prije Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,32 +37,32 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Nastavite s kupovinom",
+    "continue_shopping": "Povratak u trgovinu",
     "pagination": {
-      "label": "Numeriranje stranica",
+      "label": "Straničenje",
       "page": "Stranica {{ number }}",
       "next": "Sljedeća stranica",
       "previous": "Prethodna stranica"
     },
     "search": {
-      "search": "Traži",
+      "search": "Pretraži",
       "reset": "Izbriši pojam za pretraživanje"
     },
     "cart": {
-      "view": "Prikaži košaricu ({{ count }})",
-      "item_added": "Artikl je dodan u vašu košaricu",
-      "view_empty_cart": "Prikaži košaricu"
+      "view": "Pogledaj košaricu ({{ count }})",
+      "item_added": "Artikl dodan u košaricu",
+      "view_empty_cart": "Pogledaj košaricu"
     },
     "share": {
       "copy_to_clipboard": "Kopiraj poveznicu",
       "share_url": "Poveznica",
-      "success_message": "Poveznica je kopirana u međuspremnik",
+      "success_message": "Veza kopirana u međuspremnik",
       "close": "Zatvori dijeljenje"
     },
     "slider": {
-      "of": "od",
-      "next_slide": "Klizno pomakni udesno",
-      "previous_slide": "Klizno pomakni ulijevo",
+      "of": "izvan",
+      "next_slide": "Pomaknite se desno",
+      "previous_slide": "Pomakni ulijevo",
       "name": "Kliznik"
     }
   },
@@ -4410,7 +4410,58 @@
       "signed_out_state": {
         "sheet_title": "Prijava ili izrada računa",
         "alternate_divider": "OD",
-        "email_field_label": "E-pošta"
+        "email_field_label": "E-pošta",
+        "shop_login_button": "Prijava u Shop",
+        "continue_with_google": "Nastavi s Googleom",
+        "continue_with_facebook": "Nastavi s Facebookom",
+        "use_email_button": "Koristi e-mail adresu"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Bok {{first_name}},"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Pretraži"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, otvori podizbornik",
+        "loading_menu": "Meni se učitava",
+        "sign_in_with_email": "Prijava putem e-pošte"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Zamijenite način plaćanja",
+        "replace_with": "Zamijeniti s",
+        "add_new_payment_method": "Dodaj novo",
+        "loading": "Modal za promjenu načina plaćanja se učitava",
+        "success": "Način plaćanja ažuriran",
+        "invalid_subscription_contract": "Ne mogu pronaći pretplatu",
+        "edit_current_payment_method": "Uredi trenutni način plaćanja",
+        "edit_selected_payment_method": "Uredi odabrani način plaćanja"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logo",
+      "step_one": {
+        "page_title": "Prijava - %{shop_name}",
+        "subheading": "Unesite svoju e-mail adresu i poslat ćemo vam verifikacijski kod",
+        "input_field_label": "E-adresa",
+        "button": "Nastavi",
+        "subheading_with_sign_in_options": "Prijava ili izrada računa",
+        "or": "od",
+        "consent_agreement": "Nastavkom pristajete na %{terms}"
+      },
+      "step_two": {
+        "page_title": "Unesite kod - %{shop_name}",
+        "heading": "Unesite kod",
+        "restart_link": "Prijava s drugom e-mail adresom",
+        "input_field_label": "Šifra od 6 znamenki",
+        "button": "Podnijeti zahtjev"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Unesite ispravan šesteroznamenkasti kod"
+        }
       }
     }
   }
