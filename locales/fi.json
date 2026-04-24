@@ -2763,6 +2763,76 @@
           "currency_mismatch_removal": "Yksi tuote on poistettu ostoskoristasi, koska se on peräisin kaupasta, joka käyttää eri valuuttaa.",
           "only_remote_merchandise_lines": "Ostoskori sisältää vain ulkopuolisia tavaroita. Maksun suorittamiseksi tarvitaan ohjaus ulkopuoliseen kauppaan."
         }
+      },
+      "remote_merchandise_only": {
+        "title": "Suorita ostoksesi loppuun",
+        "remote_only_notice": "Nämä tuotteet myyvät ja lähettävät muut kaupat. Siirry kunkin kaupan kassalle viimeistelläksesi ostoksesi.",
+        "return_to_store_label": "Takaisin kauppaan",
+        "checkout_on_shop_label": "Maksaminen %{shop_name}-verkkokaupassa",
+        "single_shop_transition": "Sinut ohjataan %{advertiser}-sivustolle viimeistelemään ostoksesi.",
+        "detail_item_label": {
+          "one": "{{count}} artikkelia",
+          "other": "{{count}} artikkelia"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Tälle kaupalle ei ole annettu %{policy_name}-käytäntöä. Lisätietoja saat ottamalla suoraan yhteyttä %{shop_name}:iin."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Skannaa QR-koodi uudelleen. Jos se ei vieläkään toimi, ilmoita siitä työntekijöillemme ja kokeile toista maksutapaa.",
+        "payment_link_expired_text": "Skannaa QR-koodi uudelleen.",
+        "title": "Maksu sivuston ulkopuolella epäonnistui"
+      },
+      "taxes": {
+        "tax_details": "Lisätietoja veroista",
+        "vat_number": {
+          "field": {
+            "label": "Btw-tunnistenumero (valinnainen)",
+            "tooltip": "Vahvistaa arvonlisäverotunnisteen ja soveltaa automaattisesti käännettyä verovelvollisuutta tilauksiin, jotka täyttävät ehdot sille"
+          },
+          "add": "Lisää arvonlisäverotunnus",
+          "vaulted": "Btw-tunnistenumero: %{number}",
+          "badge": "Btw-tunnistenumero: %{number}",
+          "domestic_order": "Siirtojärjestely koskee vain EU:n sisäisiä rajat ylittäviä tilauksia. Paikallisista tilauksista peritään normaalisti arvonlisävero.",
+          "status": {
+            "invalid_format": {
+              "at": "Itävallan arvonlisäverotunniste sisältää AT-kirjaimet ja 9 merkkiä",
+              "be": "Belgian arvonlisäverotunnus sisältää BE-kirjaimet ja 10 merkkiä",
+              "bg": "Bulgarian arvonlisäverotunnus sisältää BG-kirjaimet ja 9–10 merkkiä",
+              "hr": "Kroatian arvonlisäverotunnus sisältää HR-kirjaimet ja 11 merkkiä",
+              "cy": "Kyproksen arvonlisäverotunniste sisältää CY-kirjaimet ja 9 merkkiä",
+              "cz": "Tšekin alv-tunnus sisältää CY-kirjaimet ja 8–10 merkkiä.",
+              "dk": "Tanskan arvonlisäverotunnus sisältää DK-kirjaimet ja 8 merkkiä",
+              "ee": "Viron arvonlisäverotunnus sisältää EE-kirjaimet ja 9 merkkiä",
+              "fi": "Suomalainen arvonlisäverotunniste sisältää FI-kirjaimet ja 8 merkkiä",
+              "fr": "Ranskan arvonlisäverotunnus sisältää FR-kirjaimet ja 11 merkkiä",
+              "de": "Saksan arvonlisäverotunnus sisältää DE-kirjaimet ja 9 merkkiä",
+              "gr": "Kreikan arvonlisäverotunniste sisältää EL-kirjaimet ja 9 merkkiä",
+              "hu": "Unkarin arvonlisäverotunnus sisältää HU-kirjaimet ja 8 merkkiä",
+              "ie": "Irlannin arvonlisäverotunnus sisältää IE-kirjaimet ja 8–9 merkkiä",
+              "it": "Italian arvonlisäverotunnus sisältää IT-kirjaimet ja 11 merkkiä",
+              "lv": "Latvian arvonlisäverotunnus sisältää LV-kirjaimet ja 11 merkkiä",
+              "lt": "Liettuan arvonlisäverotunnus sisältää LT-kirjaimet ja 9–12 merkkiä",
+              "lu": "Luxemburgin arvonlisäverotunnus sisältää LU-kirjaimet ja 8 merkkiä",
+              "mt": "Maltan arvonlisäverotunnus sisältää MT-kirjaimet ja 8 merkkiä",
+              "nl": "Alankomaiden arvonlisäverotunnus sisältää NL-kirjaimet ja 12 merkkiä",
+              "pl": "Puolan arvonlisäverotunnus sisältää PL-kirjaimet ja 10 merkkiä",
+              "pt": "Portugalin arvonlisäverotunnus sisältää PT-kirjaimet ja 9 merkkiä",
+              "ro": "Romanian arvonlisäverotunnus sisältää RO-kirjaimet ja 10 merkkiä",
+              "sk": "Slovakian arvonlisäverotunnus sisältää SK-kirjaimet ja 10 merkkiä",
+              "si": "Slovenian arvonlisäverotunnus sisältää SI-kirjaimet ja 8 merkkiä",
+              "es": "Espanjan arvonlisäverotunnus sisältää ES-kirjaimet ja 9 merkkiä",
+              "se": "Ruotsin arvonlisäverotunnus sisältää SE-kirjaimet ja 12 merkkiä",
+              "gb": "Yhdistyneen kuningaskunnan arvonlisäverotunniste sisältää GB- tai XI-koodin ja 5–12 merkkiä"
+            },
+            "invalid_number": {
+              "at": "Anna kelvollinen itävaltalainen arvonlisäverotunniste",
+              "be": "Anna kelvollinen belgialainen arvonlisäverotunniste",
+              "bg": "Anna kelvollinen Bulgarian arvonlisäverotunniste",
+              "hr": "Anna kelvollinen kroatialainen arvonlisäverotunniste"
+            }
+          }
+        }
       }
     }
   }
