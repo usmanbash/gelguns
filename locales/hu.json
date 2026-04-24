@@ -3266,7 +3266,65 @@
           "voided": "Lejárt",
           "partially_refunded": "Részben visszatérített",
           "refunded": "Visszatérített"
-        }
+        },
+        "fulfillment_status": {
+          "fulfilled": "Lezárva",
+          "complete": "Teljes",
+          "partial": "Részben",
+          "unfulfilled": "Nyitva",
+          "restocked": "Fűtőanyagkészlet"
+        },
+        "transaction_status": {
+          "pending": "Feldolgozás alatt"
+        },
+        "cancel_reason": {
+          "declined": "Fizetés megtagadva",
+          "inventory": "Cikkek nem elérhetők",
+          "fraud": "Csalárd rendelés",
+          "customer": "A vásárló módosította/törölte a rendelést",
+          "other": "Anders",
+          "staff": "Hibás munkatársak"
+        },
+        "cash_on_delivery": "Visszatérítés"
+      },
+      "cart": {
+        "only_n_items_available": "Csak %{count} %{name} adható a kosaradhoz.",
+        "too_many_items_in_cart": "Nem adhatsz több %{name} terméket a kosaradhoz.",
+        "all_items_in_cart": "Az összes %{count} %{name} a kosaradban van.",
+        "empty_update": "nem lehet frissíteni a kosarat",
+        "missing_parameters": "érvénytelen azonosító vagy sorozatszám",
+        "generic_error": "Hibás kosár",
+        "too_many_line_items_error": "A kosarad nem tartalmazhat %{max} tételnél többet.",
+        "link_expired": "Link lejárt",
+        "link_no_longer_exists": "A hivatkozás már nem létezik.",
+        "stock_problems_html": "Egy vagy több termék már nem elérhető. Elkészítettünk egy <a href='%{link}'>frissített kosarat</a>.",
+        "changed": "Kosár módosítva",
+        "items_changed": "Egy vagy több cikk módosult.",
+        "product_sold_out": "A(z) '%{name}' termék már elfogyott.",
+        "variant_not_found": "Nem található ilyen változat",
+        "variant_requires_selling_plan": "A változat csak értékesítési előfizetéssel vásárolható meg.",
+        "shipping_address_not_required": "Ehhez a bevásárlókocsihoz nem szükséges szállítás",
+        "shipping_address_invalid": "Hiba történt a szállítási költségek kiszámítása során. Folytasd a fizetést, hogy kiválaszthasd a szállítási költséget, mielőtt befejeznéd a rendelést.",
+        "selling_plan_not_applicable": "Nem lehet eladási előfizetést alkalmazni a változatra",
+        "selling_plan_not_available_for_company_locations": "Csak egyszeri vásárlások érhetők el B2B megrendelések esetén.",
+        "digital_product_not_available_for_company_locations": "Ezt a cikket nem lehet B2B-rendeléshez hozzáadni",
+        "less_than_minimum": "Ez a cikk minimum %{min}-t tartalmaz.",
+        "more_than_maximum": "Ennek a cikknek a maximuma %{max}.",
+        "not_respect_step": "Ezt a terméket csak %{step} lépésenként adhatod hozzá.",
+        "bundle_requires_components": "Nem sikerült hozzáadni a '%{name}' csomagterméket a kosárhoz.",
+        "gift_card_with_components_not_supported": "Nem sikerült hozzáadni a '%{name}' csomagterméket a kosárhoz.",
+        "view_lines_limit_reached": "A szabályoknak kisebbnek vagy egyenlőnek kell lenniük, mint %{limit}",
+        "gift_card_price_must_be_greater_than_zero": "Nem sikerült hozzáadni a '%{name}' csomagterméket a kosárhoz.",
+        "cart_too_large": "A bevásárlókosár túl nagy.",
+        "gift_card_recipient_validation_error": "A megadott ajándékkártya címzettje érvénytelen",
+        "invalid_input": "A %{parameter} paraméter érvénytelen.",
+        "buyer_cannot_purchase_for_company_locations": "Nem vásárolhatsz ezen a helyszínen.",
+        "only_one_added_to_cart": "A rendelkezésre állás miatt csak 1 termék került a kosaradba.",
+        "only_n_added_to_cart": "Csak %{quantity} termék került a kosaradba elérhetőség miatt.",
+        "maximum_available_quantity_reached": "A termék maximális mennyisége már a kosaradban van.",
+        "cart_attributes_error": "A kosár attribútumai érvénytelen adatokat tartalmaznak.",
+        "merchandise_not_applicable": "A termék nem vásárolható meg a beállításokkal.",
+        "not_found": "Kosár nem található"
       }
     }
   }
