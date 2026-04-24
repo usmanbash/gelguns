@@ -1039,7 +1039,145 @@
         "estimated_taxes_finalization_tooltip_content": "A teljes adóösszeget e-mailben vagy sms-ben erősítjük meg, miután leadtad a rendelésedet.",
         "deferred_payment_info": {
           "title": "A %{amount_due} összegű fizetés esedékes %{due_at} dátumon.",
-          "description_html": "%{contact_us} a rendeléseddel kapcsolatos kérdések esetén."
+          "description_html": "%{contact_us} a rendeléseddel kapcsolatos kérdések esetén.",
+          "paid_today": "Összesen ma kifizetve",
+          "due_on_fulfillment_title": "A %{amount_due} fizetendő a rendelés teljesítésekor.",
+          "due_on_receipt_title": "%{amount_due} fizetendő átvételkor"
+        },
+        "payment_terms_totals": {
+          "due_today": "Összesen ma fizetendő",
+          "due_later": "Összesen fizetendő %{due_at}",
+          "due_later_checkout_to_draft": "Teljesen később esedékes",
+          "due_on_fulfillment": "Teljes összeg a teljesítéskor fizetendő",
+          "due_on_receipt": "Összesen fizetendő átvételkor",
+          "total_paid": "Összesen fizetve",
+          "due_on_fulfillment_next": "Fizetés a teljesítéskor"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nem használható a meglévő kedvezményeiddel együtt.",
+        "maximum_discount_code_limit_reached": "Elérted a maximális számú kedvezménykódot. Távolíts el egy meglévő kódot, hogy használhasd a <strong style=\"text-transform:uppercase\">%{code}</strong> kódot.",
+        "order_total_label": "Teljes rendelés",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> jelenleg nem működik. Kérjük, lépjen kapcsolatba velünk, ha segítségre van szüksége.",
+        "due_on_fulfillment": "Fizetendő a teljesítésnél",
+        "error_duties_tooltip": "Ez a rendelés egy másik országból kerül kiszállításra, ezért a kézbesítéskor vám- és adóköltségek merülhetnek fel.",
+        "may_be_charged_on_delivery": "Szállítási díj felszámítható",
+        "recurring_payments": "Ismétlődő fizetések",
+        "recurring_total_multiple_label": "Ez a rendelés több cikk esetében ismétlődő költségeket tartalmaz.",
+        "deferred_total_due_date_label": "Összesen fizetendő {{date}}-kor",
+        "expand_component_information": {
+          "one": "%{count} cikk megjelenítése",
+          "other": "%{count} cikk megjelenítése"
+        },
+        "collapse_component_information": {
+          "one": "%{count} cikk elrejtése",
+          "other": "%{count} cikk elrejtése"
+        },
+        "discount_discovery": {
+          "add_code": "Kedvezmény hozzáadása",
+          "merchandise_quantity_label": {
+            "one": "%{count} cikk",
+            "other": "%{count} cikk"
+          },
+          "back_to_finalize_order": "Vissza a rendelés befejezéséhez"
+        },
+        "alternative_payment_currency_total": "levonva %{amount_due} összegben",
+        "calculating": "Számítás alatt...",
+        "group_title_label": "A '%{group_title}' része",
+        "price_per_item": {
+          "accessibility_label": "%{price} darabonként"
+        },
+        "discount_not_found": "Nem található érvényes kedvezmény, amely megfelel a megadott kódnak",
+        "total_savings": "Teljes megtakarítás",
+        "return_restocking_fee_label": "Fűtőanyag-ellátási költségek",
+        "enter_shipping_address": "Szállítási cím megadása",
+        "discount_code_applied": "Kedvezménykód alkalmazva",
+        "discount_code_applied_with_code": "A %{code} kedvezménykód érvényesítve lett",
+        "gift_card_applied": "Ajándékutalvány alkalmazva",
+        "duties_included_label": "Az ár tartalmazza az adókat és a vámokat. A kiszállításkor nincs további költség.",
+        "deferred_balance_info": {
+          "title": "A {{amount_due}} összeg esedékes {{due_at}}.",
+          "due_on_fulfillment_title": "A {{amount_due}} összegű egyenleg fizetendő a rendelés teljesítésekor"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kuponkód szükséges az jogosult ügyfelek számára",
+        "subtotal_label_with_quantity": {
+          "other": "Részösszeg · %{count} cikk"
+        },
+        "cost_table_item_column_header": "Cikk",
+        "more_items_modal": {
+          "clear_search": "Keresési művelet törlése",
+          "empty_results": "Nincs találat a(z) '%{searchText}' kifejezésre. Ellenőrizze a helyesírást, vagy használjon másik szót vagy kifejezést.",
+          "number_items_shown": "%{shownNumber} van %{totalNumber} cikk"
+        },
+        "number_items": {
+          "one": "%{count} cikk",
+          "other": "%{count} cikk"
+        },
+        "view_all_items": {
+          "one": "%{count} cikk megtekintése",
+          "other": "Az összes %{count} cikk megtekintése"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Címre küldés",
+          "ship_to_address_instead_html": "%{link} helyett"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nincs elérhető üzlet a termékeddel",
+          "other": "Nincs elérhető bolt a termékeiddel"
+        },
+        "total_due_today_label": "Összesen ma fizetendő",
+        "total_due_later_label": "Teljesen később esedékes",
+        "discount_code_allocations_mismatch": "A kedvezménykódod <strong style=\"text-transform:uppercase\">%{code}</strong> megváltozott. Ellenőrizd a kosarad, és próbáld újra.",
+        "deferred_total_due_date_label_next": "Fizetendő %{date}",
+        "total_due_label": "Teljesen esedékes",
+        "total_price_label": "Teljes ár",
+        "for_add_on": "Címzett: %{group_title}",
+        "unconfirmed_label": "Nem megerősített",
+        "total_paid_label": "Összesen fizetve",
+        "from_shop_heading": "Van %{shop_name}",
+        "from_other_stores_heading": "Vannak más boltok",
+        "order_discounts_apply_to_local_shop": "A legjobb árengedmények csak a %{shop_name} termékeire érvényesek",
+        "gift_cards_apply_to_local_shop": "Az ajándékutalványok csak a %{shop_name} termékeire érvényesek",
+        "discount_code_removed": "A %{code} kedvezménykód törölve lett",
+        "discount_code_replaced": "A %{old_code} kedvezménykód törölve lett, és a %{code} kód érvényesítve.",
+        "discount_code_replaced_multiple": "Több kedvezménykód törölve lett, és a %{code} alkalmazva van",
+        "pay_merchant_label": "%{merchant_name} fizetés",
+        "discount_applies_to_subscription_items_only": "A kedvezmény csak előfizetéses termékekre érvényes",
+        "estimated_taxes_finalization_tooltip_content_short": "Adó kerekítése fizetés után",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nincsenek elérhető üzletek %{country} területén a te cikkeddel",
+          "other": "Nincsenek elérhető üzletek %{country} területén a te cikkeiddel"
+        },
+        "compare_at_sale": "Kiárusítás (%{sale_amount})",
+        "tax_line": {
+          "gst": "ÁFA"
+        },
+        "automatic_discount_tooltip": "Az automatikusan alkalmazott kedvezmények nem távolíthatók el"
+      },
+      "shipping": {
+        "waiting_on_rate_notice": "Elérhető szállítási díjak lekérése...",
+        "waiting_on_pickup_location_notice": "Elérhető átvételi helyek lekérése...",
+        "no_rates_for_cart_or_destination_notice": "Nincs elérhető szállítási mód a kosaradhoz vagy a címedhez",
+        "no_pickup_location_notice": "Legalább az egyik terméked nem vehető át személyesen",
+        "no_rates_for_country_notice": "Nem találhatók szállítási díjak ehhez a címhez.",
+        "no_rates_contact_notice": "Lépjen kapcsolatba velünk további információért",
+        "estimated_delivery_date_range": "%{minimum} és %{maximum} munkanap között",
+        "shipping_line_phone_label": "Mobiltelefonszám (kötelező)",
+        "shipping_line_phone": "A futár ezt a számot használhatja, hogy kapcsolatba lépjen veled.",
+        "other_method": {
+          "zero": "Nincsenek más elérhető módszerek",
+          "one": "%{count} másik módszer elérhető innen",
+          "other": "%{count} más módszer elérhető innen"
+        },
+        "shipping_rate_discounted_amount": "Régebben: %{original_amount}. Most: %{amount}",
+        "shipping_line_delivery_phone": "Lehetséges, hogy felveszik veled a kapcsolatot a szállítási frissítésekkel kapcsolatban.",
+        "optional_shipping_line_delivery_instructions_label": "Átadási utasítások (választható)",
+        "shipping_line_delivery_instructions": "Adja meg a szükséges adatokat, például az ajtókódokat és a kézbesítési utasításokat.",
+        "local_delivery": "Helyi kiszállítás",
+        "subscription_shipping": "Előfizetés a küldéshez",
+        "one_time_purchase_shipping": "Egyszeri küldés",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} szállításra"
+          }
         }
       }
     }
