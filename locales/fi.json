@@ -990,7 +990,141 @@
           "paid_today": "Yhteensä maksettu tänään",
           "due_on_fulfillment_title": "Maksu %{amount_due} erääntyy tilauksen täyttämisen yhteydessä.",
           "due_on_receipt_title": "%{amount_due} on maksettava vastaanotettaessa"
-        }
+        },
+        "percent_off_shipping": "%{percent}% alennus toimituskuluista",
+        "amount_off_shipping": "%{amount} alennus toimituskuluista",
+        "payment_terms_totals": {
+          "due_today": "Yhteensä maksettavaa tänään",
+          "due_later": "Yhteensä maksettavaa %{due_at} mennessä",
+          "due_later_checkout_to_draft": "Maksettava kokonaisuudessaan myöhemmin",
+          "due_on_fulfillment": "Yhteensä maksettava täyttämisen yhteydessä",
+          "due_on_receipt": "Maksettava kokonaisuudessaan vastaanotettaessa",
+          "due_today_next": "Maksettavana tänään",
+          "due_on_fulfillment_next": "Maksu toimituksen yhteydessä"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ei voi käyttää nykyisten alennustesi kanssa.",
+        "maximum_discount_code_limit_reached": "Olet saavuttanut enimmäismäärän alennuskoodeja. Poista olemassa oleva koodi käyttääksesi <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Kokonaismäärä tilauksessa",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ei tällä hetkellä toimi. Ota meihin yhteyttä, jos tarvitset apua.",
+        "due_on_fulfillment": "Velkaa täyttämisestä",
+        "duties_label": "Tullimaksut",
+        "duties_and_taxes_label": "Tullimaksut ja verot",
+        "error_duties_tooltip": "Tämä tilaus lähetetään toisesta maasta, joten toimituksen yhteydessä voidaan periä tullimaksuja ja veroja.",
+        "may_be_charged_on_delivery": "Toimituskulu voidaan veloittaa",
+        "recurring_payments": "Toistuvat maksut",
+        "recurring_total_multiple_label": "Tässä tilauksessa on toistuvia maksuja useista tuotteista.",
+        "deferred_total_due_date_label": "Yhteensä maksettavaa {{date}}",
+        "full_price": "Kokonaishinta: %{price}",
+        "custom_discount": "Mukautettu alennus",
+        "expand_component_information": {
+          "one": "Näytä %{count} artikkelia",
+          "other": "Näytä %{count} artikkelia"
+        },
+        "collapse_component_information": {
+          "one": "Piilota %{count} artikkelia",
+          "other": "Piilota %{count} artikkelia"
+        },
+        "discount_discovery": {
+          "add_code": "Alennuksen lisääminen",
+          "merchandise_quantity_label": {
+            "one": "%{count} artikkelia",
+            "other": "%{count} artikkelia"
+          }
+        },
+        "alternative_payment_currency_total": "vähennetty summasta %{amount_due}",
+        "group_title_label": "Osa '%{group_title}'-ryhmästä",
+        "discount_order_stacking": {
+          "other": "Tilausalennukset"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} per artikkeli",
+          "label": "%{price}/kpl."
+        },
+        "discount_not_found": "Ei löydy voimassa olevaa alennusta, joka vastaisi syötettyä koodia",
+        "total_savings": "Kokonais­säästö",
+        "return_restocking_fee_label": "Täydennyskustannukset",
+        "return_shipping_fee_label": "Palautuslähetys",
+        "enter_shipping_address": "Toimitusosoitteen syöttäminen",
+        "shipping_discount_title": "Toimitusalennus",
+        "discount_code_applied_with_code": "Alennuskoodi %{code} on käytetty",
+        "duties_included_label": "Kokonaissumma sisältää verot ja tullimaksut. Toimituksessa ei lisämaksuja.",
+        "deferred_balance_info": {
+          "title": "{{amount_due}} saldo erääntyy maksettavaksi {{due_at}}.",
+          "due_on_fulfillment_title": "Tilauksen täyttämisen yhteydessä on maksettava {{amount_due}} saldo."
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> alennuskoodi vaaditaan kelvollisilta asiakkailta",
+        "subtotal_label_with_quantity": {
+          "one": "Välisumma · %{count} artikkelia",
+          "other": "Välisumma · %{count} artikkelia"
+        },
+        "cost_table_item_column_header": "Artikkeli",
+        "more_items_modal": {
+          "clear_search": "Hakutoiminnon tyhjennys",
+          "empty_results": "Ei tuloksia haulle '%{searchText}'. Tarkista oikeinkirjoitus tai käytä toista sanaa tai lausetta.",
+          "number_items_shown": "%{shownNumber} / %{totalNumber} artikkelia",
+          "search_item": "Etsi"
+        },
+        "number_items": {
+          "one": "%{count} artikkelia",
+          "other": "%{count} artikkelia"
+        },
+        "view_all_items": {
+          "one": "Näytä %{count} artikkelia",
+          "other": "Näytä alle %{count} artikkelia"
+        },
+        "price_after_discount_aria_text": "Alennushinta",
+        "pickup_unavailable_banner_title": {
+          "one": "Ei myymälöitä, joissa olisi tämä artikkeli",
+          "other": "Ei kauppoja saatavilla tuotteillesi"
+        },
+        "deposit_label": "Ennakkomaksu",
+        "total_due_today_label": "Yhteensä maksettavaa tänään",
+        "total_due_later_label": "Maksettava kokonaisuudessaan myöhemmin",
+        "discount_code_allocations_mismatch": "Alennuskoodisi <strong style=\"text-transform:uppercase\">%{code}</strong> on muuttunut. Tarkista ostoskorisi ja yritä uudelleen.",
+        "deferred_total_due_date_label_next": "Velkaa %{date}",
+        "total_due_label": "Yhteensä maksettava",
+        "for_add_on": "Vastaanottajalle: %{group_title}",
+        "unconfirmed_label": "Ei vahvistettu",
+        "total_paid_label": "Maksettu yhteensä",
+        "from_shop_heading": "Myyjän %{shop_name} kautta",
+        "from_other_stores_heading": "Muiden kauppojen valikoimasta",
+        "order_discounts_apply_to_local_shop": "Tilauksista saa alennusta vain %{shop_name}-tuotteista",
+        "gift_cards_apply_to_local_shop": "Lahjakortit ovat voimassa vain %{shop_name} -tuotteisiin",
+        "discount_code_replaced": "Alennuskoodi %{old_code} on poistettu ja %{code} on otettu käyttöön",
+        "discount_code_replaced_multiple": "Useita alennuskoodeja on poistettu ja %{code} on käytetty",
+        "pay_merchant_label": "%{merchant_name} maksaa",
+        "discount_applies_to_subscription_items_only": "Alennus koskee vain tilausartikkeleita",
+        "estimated_taxes_finalization_tooltip_content_short": "Veron pyöristys maksun jälkeen",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Ei kauppoja saatavilla %{country} alueella tuotteellesi",
+          "other": "Ei kauppoja saatavilla %{country} alueella valitsemillasi tuotteilla"
+        },
+        "tax_line": {
+          "gst": "ALV"
+        },
+        "automatic_discount_tooltip": "Automaattisesti sovellettuja alennuksia ei voi poistaa"
+      },
+      "shipping": {
+        "waiting_on_rate_notice": "Saatavilla olevien toimitushintojen hakeminen...",
+        "waiting_on_pickup_location_notice": "Saatavilla olevien noutopaikkojen hakeminen...",
+        "no_rates_for_cart_or_destination_notice": "Ostoskoriisi tai osoitteeseesi ei ole saatavilla toimitustapoja",
+        "no_pickup_location_notice": "Vähintään yhtä tuotteistasi ei voi noutaa",
+        "no_rates_for_country_notice": "Lähetyskuluja ei löytynyt tälle osoitteelle.",
+        "no_rates_contact_notice": "Ota meihin yhteyttä saadaksesi lisätietoja",
+        "cheapest_rate_label": "Halvin",
+        "estimated_delivery_date_range": "%{minimum} - %{maximum} arkipäivää",
+        "shipping_line_phone": "Kuljettajasi voi käyttää tätä numeroa ottaakseen sinuun yhteyttä.",
+        "other_method": {
+          "zero": "Ei muita menetelmiä saatavilla",
+          "one": "%{count} muuta menetelmää saatavilla alkaen",
+          "other": "%{count} muuta menetelmää saatavilla alkaen"
+        },
+        "shipping_line_delivery_phone": "Sinuun saatetaan ottaa yhteyttä toimitustasi koskevien päivitysten vuoksi.",
+        "shipping_line_delivery_instructions": "Syötä vaaditut tiedot, kuten ovikoodit ja toimitusohjeet.",
+        "local_delivery": "Paikallinen kotiinkuljetus",
+        "subscription_shipping": "Tilauksen lähettäminen",
+        "shipping_method_one_time_purchase_group_title": "Kertaluonteinen osto",
+        "one_time_purchase_shipping": "Lähetä kerran"
       }
     }
   }
