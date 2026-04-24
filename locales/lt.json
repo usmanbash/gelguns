@@ -1908,7 +1908,65 @@
         "remote_shops_payments_processing": "Apdoroti mokėjimą"
       },
       "failed_payment": {
-        "payment_not_processed_title": "Jūsų mokėjimo negalima apdoroti."
+        "payment_not_processed_title": "Jūsų mokėjimo negalima apdoroti.",
+        "payment_not_processed_text": "Jokių mokesčių nebuvo taikyta. Grįžkite į savo krepšelį, kad užbaigtumėte pirkimą."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Banko pavedimas",
+        "cash_on_delivery_label": "Grąžinti",
+        "money_order_label": "Pašto pervedimas",
+        "debit_card_label": "Mokėjimo kortelė",
+        "deferred_payment_label": "Pasirinkite mokėjimo būdą vėliau",
+        "generic_payment_terms": "Galioja {{translatedName}} mokėjimo sąlygos. Jūsų mokėjimas turi būti atliktas iki {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} prie paskyros, kad pridėtumėte arba naudotumėte prieigą prie šios vietos ar išsaugotus mokėjimo būdus.",
+            "link": "Prisijungti"
+          }
+        },
+        "direct_payment_terms": "Galioja {{translatedName}} sąlygos. Pinigai bus nuskaičiuoti nuo jūsų kortelės {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Mokėjimas turi būti atliktas, kai užsakymas yra apdorotas.",
+        "order_due_on_fulfillment_payment": "Pinigai bus nuskaičiuoti nuo jūsų kortelės, kai užsakymas bus apdorotas.",
+        "draft_order_payment_due_later_no_terms": "Mokėjimas turi būti atliktas, kai užsakymas patvirtinamas.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Pinigai bus nuskaičiuoti nuo jūsų kortelės, kai užsakymas bus patvirtintas.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}} sąlygos taikomos nuo užsakymo patvirtinimo momento.",
+        "draft_order_payment_due_on_fulfillment": "Mokėjimas turi būti atliktas, kai užsakymas patvirtinamas ir apdorojamas.",
+        "fixed_payment_label": "Mokėjimas turi būti atliktas iki {{dueDate}}.",
+        "fixed_direct_payment_terms": "Ši suma bus nuskaičiuota nuo tavo kortelės {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} turi būti sumokėta šiandien. Likusiai sumai taikomos {{translatedName}} sąlygos ir ji turi būti grąžinta iki {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} turi būti sumokėta šiandien. Likusi suma turi būti sumokėta, kai užsakymas bus apdorotas.",
+        "order_due_on_receipt_choose_later": "Mokėjimas turi būti atliktas gavus prekę.",
+        "draft_order_deposit_due_later": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likusiai sumai taikomos {{translatedName}} sąlygos.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} yra mokėtina, kai užsakymas patvirtinamas. Likutis yra mokėtinas, kai užsakymas įvykdomas.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} turi būti sumokėta šiandien. Likusi suma bus mokama vėliau.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} turi būti sumokėta šiandien. Likusi suma turi būti sumokėta iki {{dueDate}}.",
+        "credit_or_debit_card_label": "Kredito / debeto kortelė"
+      },
+      "thank_you": {
+        "title": "Ačiū už jūsų pirkimą!",
+        "confirmation_email_sent_text": "Patvirtinimo el. laiškas išsiųstas į %{email}",
+        "return_to_store_link_label": "Grįžti į parduotuvę",
+        "print_link_label": "Spausdinti pirkimo įrodymą",
+        "payment_information_title": "Mokėjimo duomenys",
+        "shipping_information_title": "Siuntimo duomenys",
+        "page_title": "Ačiū, %{display_name}.",
+        "page_title_no_name": "Ačiū!",
+        "customer_information_title": "Užsakymo duomenys",
+        "billing_address_title": "Sąskaitos adresas",
+        "shipping_address_map_title": "„Google“ žemėlapis su pristatymo adreso žymekliu: %{address}",
+        "shipping_method_title": "Pristatymo būdas",
+        "estimated_arrival": "Numatoma pristatymo data:",
+        "re-order": "Užsakyti tuos pačius prekes dar kartą",
+        "thank_you_confirmed_order_with_email": "Netrukus gausite patvirtinimo el. laišką su savo užsakymo numeriu.",
+        "thank_you_confirmed_order_with_phone": "Netrukus gausite patvirtinimo SMS su savo užsakymo numeriu",
+        "thank_you_confirmed_order_with_email_and_phone": "Netrukus gausite patvirtinimo el. laišką su savo užsakymo numeriu.",
+        "thank_you_confirmed_order_with_missing": "Susisiekite su mumis el. paštu arba telefonu dėl savo užsakymo patvirtinimo.",
+        "order_status_confirmed_order_with_email": "Jūs gausite el. laišką, kai jūsų užsakymas bus paruoštas.",
+        "order_status_confirmed_order_with_phone": "Jūs gausite SMS, kai jūsų užsakymas bus paruoštas.",
+        "order_status_confirmed_order_with_email_and_phone": "Jūs gausite el. laišką, kai jūsų užsakymas bus paruoštas.",
+        "order_status_updates_with_email": "Jūs gausite el. paštu naujienas apie savo siuntą ir pristatymą.",
+        "order_status_updates_with_phone": "Jūs gausite SMS pranešimus apie savo siuntą ir pristatymą.",
+        "order_status_updates_with_email_and_phone": "Jūs gausite el. paštu naujienas apie savo siuntą ir pristatymą."
       }
     }
   }
