@@ -923,7 +923,71 @@
         "return_to_store_label": "Tillbaka till butik",
         "continue_cta_label": "Fortsätt till kassan",
         "out_of_stock": {
-          "description": "Dessa varor finns inte längre tillgängliga och har tagits bort från din kundvagn."
+          "description": "Dessa varor finns inte längre tillgängliga och har tagits bort från din kundvagn.",
+          "items_unavailable": "Vissa varor finns inte längre tillgängliga och har tagits bort från din kundvagn."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} är inte längre tillgängligt för denna artikel.",
+            "other": "%{delivery_method} är inte längre tillgängligt för dessa artiklar."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Uppdatera från pris och mängd",
+          "description": "Priserna och tillgängliga mängder för dessa artiklar har ändrats och kundvagnen har uppdaterats."
+        },
+        "out_of_stock_in_context_label": "Din produkt är inte tillgänglig i ditt land/region."
+      },
+      "order_summary": {
+        "title": "Beställningsöversikt",
+        "order_name_label": "Beställning %{name}",
+        "add_discount_or_gift_card": "Lägg till en rabattkod eller presentkort",
+        "remove_gift_card_label": "Ta bort presentkort",
+        "free_shipping_discount_label": "Fri frakt",
+        "applied_discount_message": "Det har dragits av %{amount} rabatt från totalpriset.",
+        "discount_has_been_applied": "Rabatt har tillämpats",
+        "discount_has_been_removed": "Rabatt är borttagen",
+        "gift_card_has_been_applied": "Presentkort har använts",
+        "gift_card_has_been_removed": "Presentkort har tagits bort",
+        "discount_already_applied": "En rabatt har tillämpats på denna beställning. Du kan inte lägga till någon annan rabatt.",
+        "cart_does_not_meet_discount_requirements_notice": "Rabattkod <strong style=\"text-transform:uppercase\">%{code}</strong> gäller inte för artiklarna i din kundvagn",
+        "discount_requires_customer_notice": "Ange dina leveransuppgifter för att använda rabattkoden <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Rabattkod <strong style=\"text-transform:uppercase\">%{code}</strong> är för närvarande inte tillgänglig för dig",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Rabattkod <strong style=\"text-transform:uppercase\">%{code}</strong> är inte tillgänglig för din leveransadress",
+        "taxes_label": "förresten",
+        "total_outstanding_label": "Att betala belopp",
+        "payment_due_label": "Skyldig betalning",
+        "vat_label_html": "Inklusive %{amount} moms",
+        "discount_and_gift_card_savings_notice": "Nu %{discount_amount} rabatt och %{gift_card_amount} i presentkortsvärde",
+        "discount_savings_notice": "Spara %{discount_amount}",
+        "gift_card_savings_notice": "Till ett värde av %{gift_card_amount} på presentkortet",
+        "cost_table_title": "Kostöversikt",
+        "quantity_label": "Antal",
+        "scroll_order_summary": "Bläddra för fler artiklar",
+        "collapse_order_summary_short": "Verbergen",
+        "order_total_updated_label": "Uppdaterat totalt",
+        "total_already_paid_label": "betald",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} per styck"
+          }
+        },
+        "no_pickup_location": "Det finns inga upphämtningsställen tillgängliga.",
+        "calculating_shipping": "Beräknar...",
+        "information_estimated_taxes_label": "Bördan (uppskattad)",
+        "gift_card_ending": "Presentkort som slutar på %{last_characters}",
+        "multiple_shipping_lines_label": "Totala fraktkostnader",
+        "applied_free_shipping_discount_label": "Tillämpat",
+        "original_price": "Ursprungligt pris",
+        "sale_price": "Erbjudandepris",
+        "recurring_total_tooltip": "Exklusive frakt, moms, tullavgifter eller eventuella rabatter.",
+        "gift_card_subscriptions_notice": "Presentkort tillämpas endast på din första betalning",
+        "confirmation_number_label": "Bekräftelsenummer %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Det totala skattebeloppet bekräftas via e-post eller sms efter att du har lagt din beställning.",
+        "deferred_payment_info": {
+          "title": "Betalning av %{amount_due} ska göras senast %{due_at}",
+          "description_html": "%{contact_us} för frågor om din beställning.",
+          "paid_today": "Totalt betalat idag"
         }
       }
     }
