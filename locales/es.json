@@ -1340,7 +1340,75 @@
           "order_contains_fixed_selling_plans": "El total puede no incluir impuestos, envío, cargos diferidos y algunos descuentos. Continúe al pago para ver el monto adeudado hoy."
         },
         "purchase_options_agreement_label_html": "Entiendo que uno o más artículos en mi carrito son una compra diferida, suscripción o compra recurrente. Al continuar, acepto la\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">política de cancelación</a>\ny doy permiso para que se cargue mi método de pago por los precios, la frecuencia y las fechas indicadas en esta página, hasta que mi\npedido sea procesado o cancele, si está permitido.",
-        "payment_method_saved": "Método de pago guardado"
+        "payment_method_saved": "Método de pago guardado",
+        "card_vaulted_company_location": "Tarjeta guardada para esta ubicación",
+        "order_covered_by_store_credit_notice": "El pedido se paga con tu saldo de tienda.",
+        "order_covered_by_redeemables_notice": "El pedido ha sido pagado.",
+        "store_credit": {
+          "label": "Crédito de tienda",
+          "apply_label": "Aplicar crédito de tienda",
+          "add_label": "Agregar crédito en la tienda",
+          "manage_label": "Gestionar saldo de tienda",
+          "buying_gift_card": "Con un saldo en la tienda no puedes comprar una tarjeta de regalo",
+          "no_fixed_selling_plans": "No puedes usar crédito de tienda junto con opciones de compra aplazada"
+        },
+        "clear": "Conocimiento",
+        "billing_must_match_shipping_notice": "La dirección de facturación de tu método de pago debe coincidir con la dirección de entrega.",
+        "same_billing_address_checkbox_label": "La dirección de entrega y la dirección de facturación son las mismas",
+        "location_billing_address_label": "Dirección de facturación de la ubicación",
+        "location_shipping_address_label": "Dirección de entrega del lugar",
+        "no_working_method_error": "Esta tienda no puede aceptar pagos en este momento. Actualice la página o vuelva más tarde.",
+        "brand_not_available": "Esta tienda no acepta {{brand}}. Utilice otra tarjeta para pagar.",
+        "shipping_rate_updated": "Los métodos de envío disponibles han sido actualizados. Confirma tu elección antes de pagar.",
+        "billing_address_invalid_phone": "Actualice el número de teléfono en la dirección de facturación para {{label}} {{last_digits}} para continuar.",
+        "billing_address_invalid_phone_no_card": "Actualice el número de teléfono en la dirección de facturación para continuar.",
+        "preview_not_available": {
+          "title": "Ejemplo no disponible",
+          "content": "No te preocupes, este pago rápido funciona para tus clientes.",
+          "button": "De acuerdo"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Introduzca una fecha de emisión válida",
+              "issue_number": "Introduzca un número de emisión válido"
+            },
+            "invalid": {
+              "verification_value": "Introduzca un CVV/CVC o código de seguridad válido"
+            }
+          }
+        },
+        "simulated_checkout": "Ejemplo aparecerá pronto",
+        "vaulting_agreement_label": "Guarda mis datos de pago en %{company} para un pago más rápido.",
+        "business_customer_vaulting_payment_label": "Guarde este método de pago en la caja y autorice a %{company} a cargar dinero en esta tarjeta para futuras compras en esta ubicación. Todas las personas de contacto asignadas a esta ubicación pueden usar el método de pago.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en el carrito son una compra diferida o por suscripción. Si continúas con el pago, aceptas que cobremos automáticamente los importes de la compra a través de tu método de pago según el precio y la frecuencia indicados en esta página, hasta que finalice o canceles tú mismo. Para todas las cancelaciones se aplica el %{cancellation_policy_label}.",
+        "expired_cards_info": {
+          "one": "Hay %{count} tarjeta caducada. Puedes verla y modificarla en tu cuenta.",
+          "other": "Hay %{count} tarjetas vencidas. Puedes verlas y modificarlas en tu cuenta."
+        },
+        "local_payment_method_receiver_notice": "Después de realizar tu pedido, recibirás los datos de pago. Realiza el pago dentro de {{dueDays}} días en un cajero automático o en línea.",
+        "order_edit_banner_title": "Pago de {{amount_owed}} es requerido",
+        "order_edit_banner_subtitle": "Tu pedido {{order_number}} ha sido actualizado. Revisa estos cambios y paga para confirmar tu pedido.",
+        "order_edit_banner_single_item_added": "Añadido",
+        "order_edit_banner_multiple_items_added": "{{amount}} añadido",
+        "order_edit_banner_multiple_items_removed": "{{amount}} eliminado",
+        "gift_card_wrapper": {
+          "heading": "Vale de regalo",
+          "apply_gift_card_label": "Aplicar un vale de regalo",
+          "payment_tag": "Vale de regalo",
+          "apply_another_gift_card_label": "Aplicar otro vale de regalo",
+          "gift_card_label": "Vale de regalo %{identifier}",
+          "add_label": "Añadir un vale de regalo",
+          "manage_label": "Gestionar vales de regalo"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmación para pagos personalizados en el lugar"
+        },
+        "markets_pro_disclaimer_label": "Al realizar tu pedido, aceptas la compra con Global-e como comerciante registrado, sujeto a los %{markets_pro_terms} y %{privacy_policy} de Global-e, y compartes tus datos con %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "condiciones generales",
+        "markets_pro_disclaimer_privacy_policy": "política de privacidad",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Condiciones generales para comerciantes registrados",
+        "markets_pro_disclaimer_privacy_policy_title": "Política de privacidad para comerciantes registrados"
       }
     }
   }
