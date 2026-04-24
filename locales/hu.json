@@ -3572,7 +3572,79 @@
             "descending": "Teljes rendelés (nagyól kicsiig)"
           }
         },
-        "one_images_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}} terméket"
+        "one_images_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}} terméket",
+        "two_images_accessibility_label": "A rendelés tartalmazza a(z) {{lineItemName1}} és a(z) {{lineItemName2}} termékeket",
+        "three_images_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} termékeket",
+        "four_images_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Távolítsa el a szűrőket vagy módosítsa azokat a megrendelései megtekintéséhez",
+        "no_filtered_results_title": "Nincsenek szűrt találatok",
+        "estimated_shortform": "Becsült {{date}}-kor",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Késve",
+            "due": "Fizetendő {{date}}-kor",
+            "due_without_date": "Tartozik",
+            "due_on_fulfillment": "Fizetés a teljesítéskor",
+            "pay_to_confirm": "Fizetés a megerősítéshez",
+            "paid": "Fizetett"
+          },
+          "gallery_view": {
+            "overdue": "A fizetés késedelmes",
+            "due": "Fizetés esedékes {{date}}-kor",
+            "due_without_date": "Fizetendő összeg",
+            "due_on_fulfillment": "Fizetés a teljesítéskor esedékes",
+            "pay_to_confirm": "Fizetés a megerősítéshez"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Jelenleg rendezve: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "A rendelés tartalmazza a(z) {{lineItemName1}} {{lineItemQuantity1}} darabszámot",
+          "two_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}, {{lineItemName5}} mennyiség {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}, {{lineItemName5}} mennyiség {{lineItemQuantity5}}, {{lineItemName6}} mennyiség {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "A rendelés tartalmazza a következőket: {{lineItemName1}} mennyiség {{lineItemQuantity1}}, {{lineItemName2}} mennyiség {{lineItemQuantity2}}, {{lineItemName3}} mennyiség {{lineItemQuantity3}}, {{lineItemName4}} mennyiség {{lineItemQuantity4}}, {{lineItemName5}} mennyiség {{lineItemQuantity5}}, {{lineItemName6}} mennyiség {{lineItemQuantity6}} és még többet",
+          "view_order_details": "Rendelési adatok megtekintése"
+        },
+        "show_order_actions_accessibility_label": "Megrendelési akciók megjelenítése a(z) {{name}} rendeléshez",
+        "empty_state_title_for_pending_orders": "Nincs feldolgozás alatt álló rendelés",
+        "more_than_four_products_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} termékeket, valamint további {{numberOfAdditionalProducts}} terméket.",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Rendelés megtekintése termékadatokért",
+            "estimated_delivery": "Várható {{date}}-kor"
+          },
+          "table_view": {
+            "estimated_delivery": "Várható kézbesítés {{date}}-kor"
+          }
+        },
+        "more_than_three_products_accessibility_label": "A rendelés tartalmazza a {{lineItemName1}}, a {{lineItemName2}} termékeket, valamint további {{numberOfAdditionalProducts}} terméket",
+        "filter_title": "Szűrő",
+        "filter": {
+          "clear_section": "Szakasz törlése",
+          "clear_all": "Mindent tudni",
+          "apply": "Alkalmazás",
+          "date": {
+            "end_date": "Befejezési dátum",
+            "title": "Rendelés dátuma",
+            "last_7_days": "Elmúlt 7 nap",
+            "last_30_days": "Elmúlt 30 nap",
+            "last_90_days": "Elmúlt 90 nap",
+            "last_365_days": "Elmúlt 12 hónap",
+            "custom": "Testreszabott"
+          }
+        },
+        "no_order_banner": "Hozzon létre egy rendelést, hogy tesztelje a bővítményt a Rendelés állapota oldalon.",
+        "location_filter_picker": {
+          "all_location": "Összes helyszín",
+          "current_location": "Jelenlegi helyzet"
+        },
+        "empty_state_with_location_title": "Nincsenek megrendelések a {{locationName}} számára",
+        "view_order_accessibility_label": "{{orderName}} rendelés megtekintése"
+      },
+      "order_status": {
+        "canceled_title": "A rendelésed törölve lett"
       }
     }
   }
