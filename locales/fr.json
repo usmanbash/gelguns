@@ -664,7 +664,73 @@
             "delivery_tax_exemption_not_supported": "Les exonérations fiscales pour les règles de livraison ne sont actuellement pas prises en charge.",
             "proposed_allocations_required": "Le champ « attributions suggérées » est manquant.",
             "merchandise_terms_must_be_defined": "Définissez les conditions pour les marchandises.",
-            "delivery_terms_must_be_defined": "Définissez les conditions de livraison."
+            "delivery_terms_must_be_defined": "Définissez les conditions de livraison.",
+            "merchandise_discount_terms_must_be_defined": "Définissez les conditions pour la remise sur marchandises.",
+            "delivery_discount_terms_must_be_defined": "Définissez les conditions pour la remise de livraison.",
+            "allocated_required": "Le champ « attribué » est manquant.",
+            "value_required": "Le champ « valeur » est manquant.",
+            "line_splits_not_supported": "Le champ « lignes de marchandises » doit être divisé de manière à ce qu'il y ait un composant distinct dans la proposition du vendeur pour chaque ligne."
+          },
+          "payment": {
+            "total_amount_mismatch": "Le montant total à payer ne correspond pas à la somme des paiements.",
+            "subscription_terms_not_accepted": "Conditions d'abonnement non acceptées.",
+            "missing_session_id": "Informations sur la session de carte de crédit manquantes.",
+            "gateway_not_supported": "La passerelle de paiement ne prend pas en charge l'enregistrement du mode de paiement.",
+            "credit_card_last_name_required": "'Nom de famille' ne peut pas être vide.",
+            "invalid_address_type": "Le type d'adresse saisi n'est pas valide pour ce mode de paiement.",
+            "missing_retail_attributions": "Les affectations de vente au détail sont requises pour les paiements par carte de crédit saisis manuellement.",
+            "unexpected_retail_attributions": "Affectations de vente au détail inattendues indiquées pour un paiement par carte de crédit.",
+            "invalid_card_source": "Cette session n'est pas autorisée à utiliser cette source de carte.",
+            "payment_instrument_not_found": "Impossible de trouver le mode de paiement",
+            "unauthorized_capture_method": "La configuration de la méthode d'enregistrement des paiements n'est pas autorisée.",
+            "saved_payment_methods_not_allowed": "'Méthodes de paiement enregistrées' ne sont pas autorisées.",
+            "saved_payment_methods_not_enabled": "« Méthodes de paiement enregistrées » n'est pas activé pour cette boutique.",
+            "store_credit_not_enabled": "Le crédit boutique n'est pas activé pour cette boutique.",
+            "store_credit_account_not_found": "Compte de crédit boutique introuvable.",
+            "store_credit_account_mismatch": "Le compte de crédit en boutique ne correspond pas à l'identité de l'acheteur.",
+            "store_credit_mismatched_currency": "La devise du compte de crédit en boutique ne correspond pas à la devise du passage en caisse.",
+            "store_credit_insufficient_funds": "Le solde du compte de crédit en boutique est insuffisant.",
+            "store_credit_buying_gift_card": "Vous ne pouvez pas acheter de bon cadeau avec un crédit en magasin.",
+            "gift_cards_not_allowed_for_b2b": "Les bons cadeaux ne sont pas autorisés dans les boutiques B2B.",
+            "method_required": "Une méthode de paiement doit être proposée.",
+            "paypal_express_address_invalid": "PayPal a renvoyé une adresse invalide.",
+            "saved_payment_methods_cvv_verification_disabled": "Pour le mode de paiement sélectionné, la vérification CVV/CVC est requise, mais elle n'est pas activée pour cette boutique. Veuillez utiliser un autre mode de paiement."
+          },
+          "tip": {
+            "not_accepted_by_shop": "La boutique n'accepte pas les pourboires.",
+            "only_one_tip_line_allowed": "Plusieurs règles de frais ne sont pas prises en charge.",
+            "tips_not_allowed_for_b2b": "Les pourboires ne sont pas autorisés dans les magasins B2B.",
+            "currency_change_reset": "Le pourboire a été réinitialisé en raison d'un changement de devise.",
+            "tips_not_allowed_for_deferred_purchase_options": "Les pourboires ne sont pas encore pris en charge pour les options d'achat différé."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Cette commande conceptuelle n'existe pas dans la boutique actuelle.",
+            "staff_member_not_exist": "Cet employé n'est pas connu dans le magasin actuel.",
+            "location_not_exist": "Ce lieu n'existe pas dans la boutique actuelle.",
+            "point_of_sale_device_not_exist": "Ce point de vente n'existe pas dans la boutique actuelle.",
+            "unresolvable_target_merchandise_lines": "Les attributions de vente proposées ne peuvent pas être résolues dans le cadre actuel des négociations."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La proposition de votre acheteur doit contenir non-negotiable_terms.",
+            "invalid_signature": "La signature pour {{target_terms}} est invalide."
+          },
+          "inventory": {
+            "missing_quantity_value": "Le champ « Quantité » est absent dans les lignes de stock de l'acheteur.",
+            "changing_behavior_not_allowed": "Ce client n'est pas autorisé à modifier la fonctionnalité de stock.",
+            "only_one_inventory_behavior_allowed": "À l'heure actuelle, une seule fonction de stock est autorisée par passage en caisse."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Dans cette caisse, le refus des droits de douane n'est pas autorisé."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "La répartition au détail n'est pas autorisée lors de ce passage en caisse.",
+            "retail_attribution_required": "Une attribution au détail est requise pour ce passage en caisse."
+          },
+          "captcha": {
+            "metadata_missing": "Pour ce passage en caisse, il est obligatoire de remplir un captcha.",
+            "metadata_mismatch": "Le fournisseur de captcha indiqué et le type ne correspondent pas aux valeurs attendues.",
+            "token_missing": "Complétez ce paiement en saisissant un jeton captcha.",
+            "job_enqueue_failed": "La tâche de validation captcha ne peut pas être mise en file d'attente."
           }
         }
       }
