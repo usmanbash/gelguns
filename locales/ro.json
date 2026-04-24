@@ -289,106 +289,106 @@
       "announcement": "Anunț",
       "menu": "Meniu",
       "cart_count": {
-        "one": "{{ count }} articol",
+        "one": "{{ count }} articole",
         "other": "{{ count }} articole",
         "few": "{{ count }} articole"
       }
     },
     "cart": {
-      "title": "Coșul dvs.",
-      "caption": "Articole din coș",
-      "remove_title": "Eliminați {{ title }}",
-      "note": "Instrucțiuni speciale legate de comandă",
-      "checkout": "Finalizați comanda",
-      "empty": "Coșul dvs. este gol",
-      "cart_error": "A apărut o eroare în timpul actualizării coșului. Încercați din nou.",
-      "cart_quantity_error_html": "Cantitatea maximă pe care o poți adăuga în coș din acest articol: {{ quantity }}.",
-      "update": "Actualizați",
+      "title": "Coșul tău de cumpărături",
+      "caption": "Articole în coșul de cumpărături",
+      "remove_title": "Ștergeți {{ title }}",
+      "note": "Instrucțiuni speciale pentru comandă",
+      "checkout": "Plată",
+      "empty": "Coșul tău de cumpărături este gol",
+      "cart_error": "A apărut o eroare la actualizarea coșului tău. Te rugăm să încerci din nou.",
+      "cart_quantity_error_html": "Poți adăuga în coș doar {{ quantity }} din acest articol.",
+      "update": "Actualizare",
       "headings": {
         "product": "Produs",
         "price": "Preț",
         "total": "Total",
-        "quantity": "Cantitate",
-        "image": "Imagine produs"
+        "quantity": "Număr",
+        "image": "Imaginea produsului"
       },
       "login": {
         "title": "Ai un cont?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Conectează-te</a> pentru a finaliza comanda mai rapid."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Autentifică-te</a> pentru a plăti mai rapid."
       },
       "estimated_total": "Total estimat",
-      "new_estimated_total": "Noul total estimat",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Taxe și taxe vamale incluse. Reducerile și <a href=\"{{ link }}\">transportul</a> sunt calculate la finalizarea comenzii.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Taxe și taxe vamale incluse. Reducerile și transportul sunt calculate la finalizarea comenzii.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Taxe incluse. Reducerile și <a href=\"{{ link }}\">transportul</a> sunt calculate la finalizarea comenzii.",
-      "taxes_included_shipping_at_checkout_without_policy": "Taxe incluse. Reducerile și transportul sunt calculate la finalizarea comenzii.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxe vamale incluse. Taxele, reducerile și <a href=\"{{ link }}\">transportul</a> sunt calculate la finalizarea comenzii.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Taxe vamale incluse. Taxele, reducerile și transportul sunt calculate la finalizarea comenzii.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxele, reducerile și <a href=\"{{ link }}\">transportul</a> sunt calculate la finalizarea comenzii.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxele, reducerile și transportul sunt calculate la finalizarea comenzii."
+      "new_estimated_total": "Nou total estimat",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Taxe vamale și impozite incluse. Reducerile și <a href=\"{{ link }}\">livrarea</a> sunt calculate la finalizarea comenzii.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Taxele vamale și impozitele sunt incluse. Reducerile și costurile de livrare vor fi calculate la finalizarea comenzii.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Taxele sunt incluse. Reducerile și <a href=\"{{ link }}\">livrarea</a> sunt calculate la finalizarea comenzii.",
+      "taxes_included_shipping_at_checkout_without_policy": "Taxele sunt incluse. Reducerile și costurile de livrare vor fi calculate la finalizarea comenzii.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxele vamale incluse. Taxele, reducerile și <a href=\"{{ link }}\">livrarea</a> sunt calculate la finalizarea comenzii.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Taxele vamale sunt incluse. Taxele, reducerile și costurile de livrare vor fi calculate la finalizarea comenzii.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxele, reducerile și <a href=\"{{ link }}\">livrarea</a> sunt calculate la finalizarea comenzii.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxele, reducerile și transportul vor fi calculate la finalizarea comenzii."
     },
     "footer": {
       "payment": "Metode de plată"
     },
     "featured_blog": {
-      "view_all": "Afișați tot",
+      "view_all": "Vezi totul",
       "onboarding_title": "Postare pe blog",
-      "onboarding_content": "Oferiți-le clienților un rezumat al postării de pe blog"
+      "onboarding_content": "Oferă clienților tăi o privire de ansamblu asupra postării tale de blog"
     },
     "featured_collection": {
-      "view_all": "Afișați tot",
-      "view_all_label": "Afișați toate produsele din colecția {{ collection_name }}"
+      "view_all": "Vezi totul",
+      "view_all_label": "Vezi toate produsele din colecția {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Afișați tot"
+      "view_all": "Vezi totul"
     },
     "collection_template": {
       "title": "Colecție",
-      "empty": "Nu s-au găsit produse",
-      "use_fewer_filters_html": "Folosește mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">elimină-le pe toate</a>"
+      "empty": "Nu au fost găsite produse",
+      "use_fewer_filters_html": "Folosiți filtrele Minder sau <a class=\"{{ class }}\" href=\"{{ link }}\">ștergeți tot</a>"
     },
     "video": {
-      "load_video": "Încarcă clipul video: {{ description }}"
+      "load_video": "Se încarcă videoclip: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Încarcă diapozitivul",
-      "previous_slideshow": "Diapozitivul anterior",
-      "next_slideshow": "Diapozitivul următor",
-      "pause_slideshow": "Întrerupe prezentarea de diapozitive",
-      "play_slideshow": "Redă prezentarea de diapozitive",
+      "load_slide": "Descarcă acum",
+      "previous_slideshow": "Dia anterioară",
+      "next_slideshow": "Următorul diapozitiv",
+      "pause_slideshow": "Pauză prezentare diapozitive",
+      "play_slideshow": "Redare prezentare diapozitive",
       "carousel": "Carusel",
-      "slide": "Diapozitiv"
+      "slide": "Zi"
     },
     "page": {
-      "title": "Titlul paginii"
+      "title": "Paginatitel"
     },
     "announcements": {
-      "previous_announcement": "Anunțul anterior",
-      "next_announcement": "Anunțul următor",
+      "previous_announcement": "Anunț anterior",
+      "next_announcement": "Următorul anunț",
       "carousel": "Carusel",
       "announcement": "Anunț",
-      "announcement_bar": "Bară cu anunțuri"
+      "announcement_bar": "Bară de anunțuri"
     },
     "quick_order_list": {
       "product_total": "Subtotal produs",
-      "view_cart": "Vezi coșul",
-      "each": "{{ money }}/buc.",
+      "view_cart": "Vezi coșul de cumpărături",
+      "each": "{{ money }}/buc",
       "product": "Produs",
       "variant": "Variantă",
-      "variant_total": "Total variantă",
+      "variant_total": "Variantă totală",
       "items_added": {
-        "one": "{{ quantity }} articol adăugat",
+        "one": "{{ quantity }} articole adăugate",
         "other": "{{ quantity }} articole adăugate",
         "few": "{{ quantity }} articole adăugate"
       },
       "items_removed": {
-        "one": "{{ quantity }} articol eliminat",
-        "other": "{{ quantity }} articole eliminate",
+        "one": "{{ quantity }} articole șterse",
+        "other": "{{ quantity }} articole șterse",
         "few": "{{ quantity }} articole eliminate"
       },
-      "product_variants": "Variante de produse",
-      "total_items": "Total articole",
-      "remove_all_items_confirmation": "Elimini toate cele {{ quantity }} articole din coș?",
-      "remove_all": "Elimină tot",
+      "product_variants": "Variante de produs",
+      "total_items": "Număr total de articole",
+      "remove_all_items_confirmation": "Ștergi toate cele {{ quantity }} articole din coșul tău?",
+      "remove_all": "Șterge tot",
       "cancel": "Anulează",
       "remove_all_single_item_confirmation": "Elimini 1 articol din coș?",
       "min_error": "Pentru acest articol, valoarea minimă este de {{ min }}",
