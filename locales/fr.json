@@ -2289,7 +2289,83 @@
       "localized_fields": {
         "additional_information": {
           "title": "Informations complémentaires",
-          "shipping_credential_cn": "Numéro d'identification du résident"
+          "shipping_credential_cn": "Numéro d'identification du résident",
+          "tax_credential_it": "Code fiscal (facultatif)",
+          "tax_email_it": "PEC (optionnel)",
+          "tax_credential_co": "Carte d'identité/TVA",
+          "tax_credential_type_co": "Type Carte d'identité",
+          "shipping_credential_co": "Carte d'identité/TVA",
+          "shipping_credential_type_co": "Type Carte d'identité",
+          "tax_credential_cr": "Numéro d'identification/RUT",
+          "shipping_credential_cr": "Numéro d'identification/RUT",
+          "tax_credential_ec": "CI/RUC/TVA",
+          "shipping_credential_ec": "CI/RUC/TVA",
+          "tax_credential_gt": "NIF/TVA",
+          "shipping_credential_gt": "NIF/TVA",
+          "tax_credential_my": "Numéro d'identification fiscale/enregistrement",
+          "shipping_credential_my": "Numéro d'identification fiscale/enregistrement",
+          "shipping_credential_mx": "CFR",
+          "tax_credential_mx": "CFR",
+          "tax_credential_type_mx": "Régime fiscal",
+          "tax_credential_use_mx": "Utilisation de CFDI",
+          "tax_credential_py": "CI/RUC/TVA",
+          "shipping_credential_py": "CI/RUC/TVA",
+          "tax_credential_pe": "NIF/RC/CE",
+          "shipping_credential_pe": "NIF/RC/CE",
+          "tax_credential_pt": "NIF/TVA",
+          "shipping_credential_pt": "NIF/TVA",
+          "tax_credential_es": "NIF/NIE",
+          "shipping_credential_es": "NIF/NIE",
+          "shipping_credential_tw": "Numéro d'identification national/TVA",
+          "tax_credential_tr": "Numéro d'identité de la République de Turquie/TVA",
+          "shipping_credential_tr": "Numéro d'identité de la République de Turquie/TVA"
+        }
+      },
+      "post_purchase": {
+        "page_title": "Après achat",
+        "title": "Après achat",
+        "escape_confirmation": "Vous avez payé votre commande.",
+        "escape_action": "Voir la confirmation de commande ›",
+        "components": {
+          "expand": "Voir plus",
+          "processing": "Traitement..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Votre panier a été mis à jour en fonction de votre pays pour la livraison.",
+        "cart_and_currency_updated_based_on_country": "Votre panier et la devise ont été adaptés au pays de livraison.",
+        "currency_updated_for_country": "Devise mise à jour pour %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} à chaque %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Premier paiement %{total_price}",
+            "other": "Premiers %{count} paiements de %{total_price} chacun"
+          },
+          "following_cycles": ", puis %{total_price} tous les %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} jours"
+          },
+          "week": {
+            "other": "%{count} semaines"
+          },
+          "month": {
+            "other": "%{count} mois"
+          },
+          "year": {
+            "one": "année",
+            "other": "%{count} ans"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Premier paiement %{total_price_with_discount} puis %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", puis %{count} paiement de %{total_price}",
+            "other": ", puis %{count} paiements, chacun de %{total_price}"
+          }
         }
       }
     }
