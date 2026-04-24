@@ -1796,7 +1796,67 @@
         "test_mode_live_card": "Tento obchod nemůže přijímat skutečné objednávky ani zpracovávat skutečné platby.",
         "transient_error": "Došlo k problému při zpracování vaší platby. Obnovte tuto stránku nebo zkontrolujte své připojení k internetu.",
         "missing_shipping_address": "Vaše platba nemohla být zpracována, protože chybí doručovací adresa. Přidejte doručovací adresu a zkuste to znovu.",
-        "invalid_shipping_address": "Platba nemohla být zpracována, protože jsme nemohli najít vaši doručovací adresu. Zkontrolujte prosím svou doručovací adresu a zkuste to znovu."
+        "invalid_shipping_address": "Platba nemohla být zpracována, protože jsme nemohli najít vaši doručovací adresu. Zkontrolujte prosím svou doručovací adresu a zkuste to znovu.",
+        "successful_offsite_with_gift_card_error": "Při zpracování vaší platby dárkovou poukázkou došlo k problému. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "development_store_order_limit_reached": "Dosáhli jste maximálního počtu objednávek v development store s tímto platebním procesorem. Použijte testovací platební bránu pro zadání další objednávky. Více informací najdete na %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Použijte testovací platební bránu k vytvoření testovací objednávky. Více informací najdete na %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testování objednávek v testovacích obchodech",
+        "method_not_available": "Požadovaný způsob platby není k dispozici. Vyberte jiný způsob platby a zkuste to znovu.",
+        "available_methods_updated": "Dostupné způsoby platby byly aktualizovány.",
+        "selected_payment_method": "Došlo k problému s vybraným způsobem platby a nebyly účtovány žádné poplatky. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "payment_method_billing_address": "Vyskytl se problém s fakturační adresou u vámi vybrané platební metody. Zkontrolujte adresu a zkuste to znovu, nebo použijte jinou platební metodu.",
+        "processing_error_checkout_as_guest": "Při zpracování platby došlo k problému. Zkuste to znovu s jinou platební metodou nebo {{checkout_as_guest_link}}.",
+        "amount_too_small": "Minimální částka k úhradě musí být vyšší než 0,50 USD. Zkuste to znovu s vyšší částkou.",
+        "payment_above_threshold": "Částka k úhradě je vyšší než povolený limit pro tuto oblast. Snižte celkovou částku a zkuste to znovu.",
+        "risky": "Při zpracování platby došlo k problému. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "expired_buyer_action": "Časový limit platební metody. Zkuste to znovu.",
+        "three_d_secure_failed_payment_method": "Vaše karta nemůže být ověřena. Zkuste to znovu nebo přidejte jinou kartu.",
+        "name_mismatch": "Zkontrolujte údaje na své kartě. Jméno na kartě a fakturační adresa se neshodují.",
+        "payment_method_not_applicable": "Tato platební metoda není použitelná. Použijte jiný způsob platby.",
+        "shop_pay_wallet_not_available": "Shop Pay není k dispozici pro tuto pokladnu.",
+        "market_manager_blocks_wallet_payments": "Tento způsob platby není ve vaší zemi podporován.",
+        "paypal_over_capture": "Celková částka vaší objednávky byla aktualizována. Zaplaťte pomocí {{walletName}}, abyste dokončili svou objednávku.",
+        "test_mode_enabled_only_test_cards": "Testovací režim je zapnutý, lze přidávat pouze testovací kreditní karty.",
+        "captcha_required": "Zadejte platební údaje a vyřešte captcha pro dokončení nákupu.",
+        "captcha_required_without_payment_information": "Vyřešte captcha pro dokončení nákupu.",
+        "shipping_company_required_error": "{{shopName}} vyžaduje název firmy pro doručovací adresu.",
+        "payment_credential_delegation_error": "Při zpracování vaší platby došlo k problému. Vyberte novou platební metodu.",
+        "cancelled_payment": "Vaše platba byla zrušena. Zkuste to znovu nebo použijte jiný způsob platby.",
+        "installments_payment_method_incompatible": "Vybraná platební metoda nelze použít pro platby na splátky. Zvolte jinou platební metodu."
+      },
+      "shipping_errors": {
+        "shipping_method": "Možnosti doručení vaší objednávky byly změněny. Zkontrolujte svůj výběr.",
+        "shipping_method_not_available": "Váš nákupní košík byl aktualizován a položky, které jste přidali, nelze doručit na vaši adresu. Odstraňte položky, abyste mohli dokončit objednávku.",
+        "shipping_method_not_available_generic": {
+          "one": "Vaši objednávku nelze doručit na vybranou adresu. Zkontrolujte, zda je adresa správná, a zkuste to znovu, nebo vyberte jinou adresu.",
+          "other": "Některé položky ve vašem nákupním košíku nelze doručit na zadanou adresu. Zkontrolujte, zda je adresa správná, a zkuste to znovu, nebo vyberte jinou adresu."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Položka, kterou jste přidali, nebude odeslána na vaši adresu. Odstraňte tuto položku, abyste mohli zaplatit, nebo kontaktujte obchod.",
+          "other": "Jeden nebo více přidaných výrobků nelze doručit na vaši adresu. Odstraňte tyto výrobky, abyste mohli zaplatit, nebo kontaktujte obchod."
+        },
+        "payment_method_not_supported": "Tuto platební metodu nelze použít pro %{country}. Použijte jinou platební metodu pro odeslání do této země.",
+        "empty_state": "Zadejte svou doručovací adresu pro zobrazení dostupných způsobů dopravy.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "V košíku jsou položky, které nesplňují požadavky na cenu nebo hmotnost pro způsobilost k odeslání. Aktualizujte košík a zkuste to znovu.",
+        "title": "Doručení není k dispozici",
+        "invalid_selected_address": "Vybraná doručovací adresa je neplatná",
+        "invalid_selected_address_with_update_link": "Vybraná doručovací adresa je neplatná. %{update_address_link} nebo vyberte jinou adresu.",
+        "unavailable_selected_address": "Doručení není k dispozici pro vybranou adresu",
+        "unavailable_selected_address_for_region": "Doručení není k dispozici pro {{region}}. Vyberte jinou adresu pro pokračování",
+        "unavailable_addresses_only_countries": "Vaše objednávka může být odeslána pouze do {{countriesList}}. Přidejte novou adresu pro pokračování.",
+        "unavailable_address_country": "Doručení není možné do země, kterou jste vybrali. Zadejte jinou adresu pro pokračování."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Rychlý nákup",
+        "or": "Z OF",
+        "or_pay_another_way": "Nebo zaplatit jiným způsobem",
+        "or_check_out_another_way": "Nebo zaplatit jiným způsobem",
+        "or_pay_with_credit_card": "Nebo zaplatit kreditní kartou"
+      },
+      "processing": {
+        "redirecting_page_title": "Přesměrování…",
+        "redirecting_title": "Přesměrování…",
+        "redirecting_notice": "Budete přesměrováni."
       }
     }
   }
