@@ -2064,7 +2064,85 @@
           "one": "Ostamasi tuotteet ovat peräisin kaupasta %{remote_shop_name}.",
           "other": "Ostamasi tuotteet ovat peräisin muista myymälöistä."
         },
-        "checkout_on_another_store": "Maksaminen toisessa kaupassa"
+        "checkout_on_another_store": "Maksaminen toisessa kaupassa",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Saat pian vahvistussähköpostin",
+          "multi_store": "Saat pian erillisen vahvistussähköpostin jokaiselta myymälältä"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Saat pian vahvistusviestin tekstiviestinä",
+          "multi_store": "Saat pian vahvistusviestin jokaiselta myymälältä"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Saat pian vahvistussähköpostin",
+          "multi_store": "Saat pian erillisen vahvistussähköpostin jokaiselta myymälältä"
+        },
+        "checkout_again": "Suorita kassatoimitus uudelleen",
+        "cashback_notice": "Saat käteispalautuksesi 30 päivän kuluttua"
+      },
+      "review": {
+        "review_title": "Viimeistele tilauksesi",
+        "checkout_as_guest": "Maksaminen vieraana",
+        "blocks": {
+          "contact_method_title": "Yhteystiedot",
+          "shipping_address_title": "Lähetä kohteeseen",
+          "change_contact_method_link_label": "Yhteystietojen muokkaus",
+          "change_billing_address_link_label": "Laskutusosoitteen muutos",
+          "change_shipping_address_link_label": "Toimitusosoitteen muutos",
+          "change_shipping_method_link_label": "Toimitustavan vaihtaminen",
+          "change_payment_method_link_label": "Maksutavan vaihtaminen",
+          "pick_up_in_store_shipping_method_html": "Nouto myymälästä · %{location_name}",
+          "purchase_order_number_title": "Tilausnumero",
+          "change_purchase_order_number_label": "Tilausnumeron muuttaminen",
+          "change_delivery_method_link_label": "Toimitustavan vaihtaminen",
+          "no_address": "(Geen osoite)",
+          "no_purchase_order_number": "(Geen tilausnumero)",
+          "due_after_order_reviewed_html": "Velkaa tilauksen tarkistamisen jälkeen",
+          "review_title_free_order": "Tarkista ja viimeistele tilaus",
+          "payment_method_saved_company_location": "Tallenna kartta tälle paikalle",
+          "change_company_location_link_label": "Toimipaikan sijainnin muuttaminen",
+          "pickup_items_at": {
+            "one": "%{count} artikkelia noudettavissa",
+            "other": "%{count} tuotteen nouto osoitteesta"
+          },
+          "ship_items_to": {
+            "one": "lähetä %{count} artikkelia osoitteeseen",
+            "other": "lähetä %{count} artikkelia osoitteeseen"
+          }
+        },
+        "block_title": "Tarkista tietosi",
+        "checkout_a_different_way": "Maksaminen toisella tavalla",
+        "item_header": {
+          "change_value": "Arvon muutos",
+          "section": "Osio"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Lähetä minulle sähköpostia uutisista ja tarjouksista",
+        "unsubscribe": {
+          "title": "Olet kirjautunut ulos",
+          "description": "Et enää saa meiltä muistutuksia ostoskoristasi."
+        },
+        "accept_sms_checkbox_label": "Lähetä minulle tekstiviesti uutisista ja tarjouksista",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Tietosuojakäytäntö",
+            "terms_of_service": "Palveluehdot",
+            "description_html": "Rekisteröitymällä tekstiviestitse hyväksyt vastaanottavasi automaattisia markkinointiviestejä, mukaan lukien ostoskorimuistutukset, ilmoittamaasi puhelinnumeroon. Suostumus ei ole ostoedellytys. Vastaa STOP peruuttaaksesi tilauksen. Vastaa HELP saadaksesi apua. Viestien lähetystiheys vaihtelee. Viesti- ja datamaksut voivat koskea. Tutustu %{privacy_policy_link} ja %{terms_of_service_link}.",
+            "description_transactional_html": "Saatat saada tekstiviestejä tilausvahvistuksista ja lähetyspäivityksistä. Vastaa STOP peruuttaaksesi tilauksen. Vastaa HELP saadaksesi apua. Viestien lähetystiheys vaihtelee. Viesti- ja datamaksut voivat koskea. Katso %{privacy_policy_modal_link} ja %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Tarjouksia tekstiviestillä vastaanottaminen"
+        },
+        "post_accept_marketing_checkbox_label": "Olet ilmoittautunut vastaanottamaan uutiskirjeitä ja tarjouksia sähköpostitse",
+        "pending_accept_marketing_checkbox_label": "Katso sähköpostisi vahvistaaksesi uutiskirjeen ja tarjousten tilauksen",
+        "accept_shop_pay_marketing_checkbox_label": "Ilmoittaudu uutiskirjeen ja tarjousten vastaanottajaksi tästä kaupasta",
+        "disclaimer": {
+          "terms_of_service": "Palveluehdot"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Palautusehdot",
+        "terms_of_service": "Yleiset ehdot"
       }
     }
   }

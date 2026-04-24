@@ -3423,7 +3423,91 @@
         "edit_modal_title": "Edit order number",
         "empty_state": "No order number",
         "modal_po_number_input_label": "Order number",
-        "modal_po_number_input_max_length_error": "Order numbers are a maximum of {{maxLength}} characters long."
+        "modal_po_number_input_max_length_error": "Order numbers are a maximum of {{maxLength}} characters long.",
+        "title": "Purchase order number {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "There was a problem removing this address. Please try again or refresh the page."
+      },
+      "failed_address_creation": {
+        "description": "There was a problem creating your address. Refresh this page or check your internet connection."
+      },
+      "failed_address_update": {
+        "description": "There was a problem updating your address. Refresh this page or check your internet connection."
+      },
+      "no_access_to_locations": {
+        "description": "You do not have access to locations"
+      },
+      "not_found": {
+        "description": "Check the web address or try again in a few minutes.",
+        "title": "There was a problem loading this page"
+      },
+      "order_not_found": {
+        "description": "This order does not exist or you are not authorized to view it."
+      },
+      "profile_update_error": {
+        "description": "There was a problem updating your profile. Refresh this page or check your internet connection."
+      },
+      "retry_action_label": "Try again",
+      "load_orders_error": {
+        "title": "Cannot load orders",
+        "description": "Try again or come back later.",
+        "retry_button": "Try again"
+      },
+      "load_paypal_error": {
+        "description": "There was a problem loading PayPal. Please try again."
+      },
+      "already_upgraded": "Customer accounts have already been upgraded.",
+      "failed_to_upgrade": "Upgrading the customer account settings has failed.",
+      "logout_everywhere": {
+        "description": "Something went wrong during the logout. Please try again."
+      },
+      "resend_link": {
+        "too_many_requests": "Too many requests. Please try again later.",
+        "generic": "Request failed"
+      },
+      "profile_name_update_error": {
+        "description": "There was a problem updating your name. Refresh this page or check your internet connection."
+      },
+      "load_address_form_error": {
+        "title": "Cannot load address form",
+        "description": "Could not load address form."
+      },
+      "not_upgraded": "Customer accounts have not been upgraded.",
+      "failed_to_revert": "Restoring the customer account settings has failed.",
+      "revert_window_expired": "The recovery period has passed."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "payment_method_expiring_on": "Expires on {{expiryDate}}",
+        "preauthorized_payments": "Pre-authorized payments",
+        "close_payment_modal_accessibility_label": "Modal Data payment method close",
+        "payment_method_not_found_error": "Cannot find payment method",
+        "total_amount_of_subscription_line_items_left": "and still {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} items in total; {{totalItemsToDisplay}} items are displayed.",
+        "next_payment_due": "Next payment due on {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Edit the payment method ending in {{lastDigits}}",
+        "billing_title": "Invoice address",
+        "card_info_title": "Map data",
+        "payment_method_expired_on": "Expires on {{expiryDate}}",
+        "loading_shop_pay": "Load Shop Pay",
+        "invalid_payment_method_message": "Use a new charge card to continue receiving upcoming orders.",
+        "checkout_card_banner": "You can only use this payment method for pre-authorized payments. It will not be shown at checkout if you are logged in to this shop."
+      },
+      "delete_payment_method_button": "Remove",
+      "delete_payment_method_button_accessibility_label": "Remove {{paymentMethodName}}",
+      "generic_card": "Map",
+      "payment_delete": {
+        "title": "Remove payment method",
+        "description_without_replacement": "This payment method is no longer available for future purchases.",
+        "description_with_replacement": "If you remove this payment method, it will affect pre-authorized payments. You can also replace it with another payment method to continue receiving upcoming orders.",
+        "replace_method_with_new_method_description": "Your {{currentPaymentMethodName}} will be removed and replaced with your {{newPaymentMethodName}}.",
+        "error_when_deleting": "Our apologies, something went wrong and we cannot remove this payment method. Please try again later or refresh the page.",
+        "delete_and_replace_button": "Remove and replace",
+        "delete_and_replace_button_accessibility_label": "Remove {{currentPaymentMethodName}} and replace it with {{newPaymentMethodName}}.",
+        "deleted_successfully": "The payment method has been removed."
       }
     }
   }
