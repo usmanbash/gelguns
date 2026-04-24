@@ -1337,8 +1337,72 @@
         "bank_account_missing": "Pangakonto peab olema seotud",
         "crypto_payment_method": {
           "description": "Ühenda oma rahakott turvaliselt. Sinu saldo ja aadressi ei jagata.",
-          "tooltip": "Sinu rahakoti saldo ja aadressi ei jagata ning ainult taotletud summa saab maha arvestada"
-        }
+          "tooltip": "Sinu rahakoti saldo ja aadressi ei jagata ning ainult taotletud summa saab maha arvestada",
+          "cashback_descriptor": {
+            "one": "Saad oma raha tagasi %{count} päeva pärast",
+            "other": "Saad oma cashbacki kätte pärast %{count} päeva"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% raha tagasi",
+        "usdc_cashback_additional_info": "Maksa USDC-ga Base'il ja saa 30 päeva jooksul tagasi %{incentive_percentage}% oma digitaalsesse rahakotti.",
+        "usdc_cashback_terms": "Kehtivad tingimused ja piirangud",
+        "discount_show_more_warnings": {
+          "one": "Kuva %{count} veel",
+          "other": "Kuva %{count} veel"
+        },
+        "separate_payments_label": "Teie esemed pärinevad rohkem kui ühest poest. Peate tasuma %{separate_payments_link}.",
+        "separate_payments_text": "eraldiseisvad maksed",
+        "payments": "Makse",
+        "business_customer_with_bank_account_vaulting_payment_label": "Salvesta see makseviis kassas ja volita %{company} sinu arvelt tulevaste ostude eest selle asukoha jaoks, mille sa heaks kiidad, tasuma kuni tühistamiseni. Kõik selle asukohaga seotud kontaktisikud võivad makseviisi kasutada.",
+        "new_bank_account_disclaimer": "Tellimuse lõpetamisega annad volituse %{shop_name}-le nimetatud summat allpool toodud kontolt ACH kaudu nimetatud ajal maha kanda.",
+        "bank_account_disclaimer": "ACH-maksete töötlemine võib võtta kuni 4 tööpäeva.",
+        "bank_account_vaulted_company_location": "Pangakonto salvestatud selle asukoha jaoks",
+        "bank_account_generic_error": "Kontot ei õnnestu lisada. Palun proovi hiljem uuesti.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} sooduskood eemaldati",
+          "other": "%{count} sooduskoodi on eemaldatud"
+        },
+        "default": "Standard",
+        "continue_to_guest_checkout": "Külalisena kassasse",
+        "add_payment_method": "Makseviisi lisamine",
+        "choose_new_payment_method": "Vali uus makseviis",
+        "add_new_payment_method": "Uue makseviisi lisamine",
+        "discount_codes_modified_summary": {
+          "one": "%{count} sooduskood on muudetud",
+          "other": "%{count} sooduskoodi on muudetud"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} sooduskood on eemaldatud või muudetud",
+          "other": "%{count} sooduskoodi on eemaldatud või muudetud"
+        },
+        "multiple_primary_payment_not_allowed": "Kehtetud makseviisid"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Praegune saldo %{amount}",
+        "credit_card_expires_on_notice": "Kehtib kuni %{month}/%{year}",
+        "express_payment_gateway_label": "Kiire",
+        "manual_payment_gateway_label": "Käsitsi",
+        "billing_address_title": "Arve aadress",
+        "free_label": "Tasuta"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Sisestage kehtiv telefoninumber",
+        "handle_email_invalid": "Sisestage kehtiv e-posti aadress",
+        "email_invalid": "Sisestage kehtiv e-posti aadress",
+        "email_or_phone_blank": "Sisesta e-posti aadress või telefoninumber",
+        "email_or_phone_invalid": "Sisestage kehtiv e-posti aadress või mobiiltelefoni number",
+        "address_first_name_blank": "Sisesta eesnimi",
+        "address_last_name_blank": "Sisestage perekonnanimi",
+        "address_address1_blank": "Sisesta aadress",
+        "address_address2_blank": "Sisestage korteri- või sviidi number jne.",
+        "address_city_blank": "Sisesta linn",
+        "address_country_blank": "Vali riik/regioon",
+        "address_country_not_supported": "Me ei saada saadetisi sellesse riiki/sihtkohta. Sisestage uus tarneaadress ja proovige uuesti.",
+        "address_province_blank": "Vali osariik/provints",
+        "address_company_blank": "Sisesta ettevõtte nimi",
+        "address_phone_blank": "Sisestage kehtiv telefoninumber",
+        "address_zip_blank": "Sisesta postiindeks või ZIP-kood",
+        "address_zip_invalid_for_country": "Sisestage kehtiv sihtnumber või postiindeks %{country} jaoks"
       }
     }
   },
