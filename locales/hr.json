@@ -3524,9 +3524,75 @@
           "details_modal": {
             "title": "Dostava podržana od strane",
             "modal_accessiblity_label": "Podaci o obećanju dostave",
-            "delivery_by_label": "Dostava do {{date}}"
+            "delivery_by_label": "Dostava do {{date}}",
+            "delivery_guaranteed_by_label": "Dostava zajamčena do {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise jamči brzu i pouzdanu dostavu. Potražite Shop Cash ako vaša narudžba kasni.",
+              "may_be_eligible_not_authorized_label": "Moguće je da imate pravo zatražiti Shop Cash jer je ova narudžba stigla prekasno. Prijavite se da biste vidjeli detalje.",
+              "redeemed_label": "Već ste iskoristili Shop Cash jer je ova narudžba stigla prekasno.",
+              "expired_label": "Ova narudžba nije podobna za zahtjev zbog kašnjenja u dostavi jer je jamstvo od 30 dana isteklo.",
+              "no_shop_cash_label": "Ova narudžba nije podobna za zahtjev zbog kašnjenja u dostavi jer nije plaćena putem Shop Pay.",
+              "no_longer_guaranteed_label": "Ovi artikli više nisu podržani jamstvom dostave.",
+              "claim_shop_cash_title": "Skenirajte za preuzimanje {{amount}} Shop Casha",
+              "claim_shop_cash_description": "Možete koristiti Shop Cash za buduće kupovine u aplikaciji Shop."
+            },
+            "delivery_guarantee_label": "Jamstvo isporuke"
           }
-        }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Upravljajte na Amazonu"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Dostava zajamčena od strane",
+            "external_promise_brand_label": "Brinuti se za",
+            "not_delivered_by_label": "Zabrinut nakon {{date}}",
+            "delivery_guarantee_expired_label": "Istekla je zajamčena dostava",
+            "modal_accessibility_button_label": "Podaci o obećanju dostave",
+            "download_shop_app_button_label": "Preuzmi trgovinu za praćenje",
+            "track_with_shop_button_label": "Prati u trgovini",
+            "claim_shop_cash_button_label": "Iskoristi povrat novca"
+          },
+          "details_modal": {
+            "title": "Jamstvo dostave",
+            "active_delivery_guarantee_label": "Dostava za {{date}}",
+            "expired_delivery_guarantee_description": "Jamstvo De Shop Promise od 30 dana za ovu narudžbu je isteklo.",
+            "order_includes_guarantees_label": "Vaša dostava ima {{deliveryAgreementsCount}} jamstava",
+            "order_includes_guarantees_description": "Shop Promise nudi jamstvo za brzu i pouzdanu dostavu. Iskoristi Shop Cash ako tvoja narudžba bude isporučena nakon {{date}}.",
+            "delivered_after_label": "Zabrinut nakon {{date}}",
+            "delivered_after_description": "Tvoja je narudžba stigla prekasno, pa možeš zatražiti {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Ova je narudžba isporučena prekasno, pa si zatražio/la {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Tvoja je narudžba stigla prekasno, pa možeš zatražiti {{amount}} Shop Cash.",
+            "learn_more_button_label": "Više informacija",
+            "claim_shop_cash_button_label": "Iskoristi povrat novca",
+            "view_balance_in_shop_button_label": "Pogledajte saldo u trgovini",
+            "scan_to_claim_shop_cash_label": "Skenirajte za preuzimanje {{amount}} Shop Casha"
+          }
+        },
+        "gift_card_resend_button": {
+          "one": "Ponovno poslati poklon bon",
+          "other": "Ponovno poslati poklon bonove"
+        },
+        "expected_by": "Očekivano najkasnije {{date}}",
+        "was_expected_by": "Očekuje se najkasnije do {{date}}"
+      },
+      "buy_again_accessibility_label": "Ponovno kupi za narudžbu {{orderId}}",
+      "manage": "Upravljaj",
+      "manage_accessiblity_label": "Upravljanje narudžbom {{orderId}}",
+      "fulfillment_status_title": "Status ispunjenja: {{status}}",
+      "list_title_pending_orders_accessibility_label": "Narudžbe: u obradi",
+      "switch_order_type_pending_orders_accessibility_label": "Promjena vrste narudžbe; trenutno pregledavate narudžbe u obradi",
+      "switch_order_type_confirmed_orders_accessibility_label": "Promjena vrste narudžbe; pregledavate potvrđene narudžbe",
+      "group_title_label": "Dio od: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturiranje i slanje",
+      "billing_address": "Adresa za račun",
+      "card_ending_with": "završava na {{lastDigits}}",
+      "contact": "Kontakt osoba",
+      "loading": "Učitavanje podataka o narudžbi",
+      "payment": {
+        "status_in_review": "Plaćanje je obvezno nakon pregleda"
       }
     }
   }
