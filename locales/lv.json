@@ -3112,9 +3112,77 @@
             "link_text": "Izpētīt jaunākos izdevumus"
           },
           "store_owner": {
-            "header": "Vai tu esi veikala īpašnieks?"
+            "header": "Vai tu esi veikala īpašnieks?",
+            "caption": "Vai nevarat piekļūt savam veikalam? Izmēģiniet funkciju %{forgot_your_store_link}. Ja vēlaties atkārtoti aktivizēt savu veikalu, sazinieties ar %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify atbalsts"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Kļūda atiestatot paroli",
+        "no_account_found": "Konts ar šo e-pasta adresi nav atrasts.",
+        "invalid_credentials": "Nepareizs e-pasts vai parole.",
+        "denylisted_reset_password": "Kontu nevar atvērt, jo pašreizējā parole nav droša. Jūs saņemsiet e-pastu, lai atiestatītu savu paroli.",
+        "signup_disabled": "Klientu kontu izveide ir atspējota.",
+        "subscribe_error": "Kļūda abonējot",
+        "unsubscribe_error": "Kļūda atteikšanās laikā"
+      },
+      "address": {
+        "updated": "Adrese atjaunināta.",
+        "error_updating": "Kļūda atjauninot adresi",
+        "created": "Adrese izveidota",
+        "error_creating": "Kļūda, veidojot adresi.",
+        "deleted": "Adrese dzēsta",
+        "error_deleting": "Kļūda, dzēšot adresi."
+      },
+      "order": {
+        "not_available": "Šis pasūtījums nav pieejams",
+        "financial_status": {
+          "authorized": "Pārbaudīts",
+          "pending": "Apstrādē",
+          "paid": "Apmaksāts",
+          "unpaid": "Neapmaksāts",
+          "voided": "Bezgals",
+          "partially_paid": "Daļēji apmaksāts",
+          "partially_refunded": "Daļēji atmaksāts",
+          "refunded": "Atmaksāts",
+          "expired": "Beidzies derīguma termiņš"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Izpildīts",
+          "complete": "Pilnīgs",
+          "partial": "Daļēji",
+          "unfulfilled": "Atvērts",
+          "restocked": "Zāļu krājums"
+        },
+        "transaction_status": {
+          "success": "Izdevās",
+          "pending": "Apstrādē",
+          "failure": "Neizdevās",
+          "error": "Kļūda"
+        },
+        "cancel_reason": {
+          "declined": "Maksājums noraidīts",
+          "inventory": "Preces nav pieejamas",
+          "fraud": "Krāpnieciska pasūtījuma veikšana",
+          "customer": "Klients mainīja/atcēla pasūtījumu",
+          "other": "Anders",
+          "staff": "Darbinieku kļūda"
+        },
+        "cash_on_delivery": "Nauda atpakaļ"
+      },
+      "cart": {
+        "only_n_items_available": "Tu vari pievienot savam iepirkumu grozam tikai %{count} %{name}.",
+        "too_many_items_in_cart": "Tu vairs nevari pievienot %{name} savam iepirkumu grozam.",
+        "all_items_in_cart": "Visi %{count} %{name} ir tavā iepirkumu grozā.",
+        "empty_update": "nevar atjaunināt grozu",
+        "missing_parameters": "nav derīga ID vai rindu numura",
+        "generic_error": "Kļūda iepirkumu grozā",
+        "too_many_line_items_error": "Jūsu iepirkumu grozā nevar būt vairāk par %{max} precēm.",
+        "link_expired": "Saite beigusies",
+        "link_no_longer_exists": "Saite vairs nepastāv."
       }
     }
   },

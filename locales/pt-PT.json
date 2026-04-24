@@ -1009,7 +1009,155 @@
         },
         "payment_terms_totals": {
           "due_today": "Total devido hoje",
-          "due_later": "Total devido em %{due_at}"
+          "due_later": "Total devido em %{due_at}",
+          "due_later_checkout_to_draft": "Total devido mais tarde",
+          "due_on_fulfillment": "Total devido no cumprimento",
+          "due_on_receipt": "Total a pagar na receção",
+          "due_today_next": "Devido hoje",
+          "due_on_fulfillment_next": "A pagar na expedição"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> não pode ser usado com os seus descontos existentes.",
+        "maximum_discount_code_limit_reached": "Atingiste o número máximo de códigos de desconto. Remove um código existente para usar <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Encomenda total",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> não está a funcionar neste momento. Contacte-nos se precisar de ajuda.",
+        "due_on_fulfillment": "Devido ao cumprimento",
+        "subscriptions": "Assinaturas",
+        "duties_label": "Direitos aduaneiros",
+        "duties_and_taxes_label": "Direitos aduaneiros e impostos",
+        "error_duties_tooltip": "Esta encomenda será enviada a partir de outro país, pelo que poderão ser cobrados direitos aduaneiros e impostos no momento da entrega.",
+        "may_be_charged_on_delivery": "Pode ser cobrado no momento da entrega",
+        "recurring_total_multiple_label": "Esta encomenda tem custos recorrentes para vários artigos.",
+        "deferred_total_due_date_label": "Total devido em {{date}}",
+        "expand_component_information": {
+          "one": "Mostrar %{count} artigos",
+          "other": "Mostrar %{count} artigos"
+        },
+        "collapse_component_information": {
+          "one": "Ocultar %{count} artigos",
+          "other": "Ocultar %{count} artigos"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} artigos",
+            "other": "%{count} artigos"
+          },
+          "back_to_finalize_order": "Voltar para finalizar a encomenda"
+        },
+        "alternative_payment_currency_total": "debitado como %{amount_due}",
+        "group_title_label": "Parte de '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Desconto na encomenda",
+          "other": "Descontos por encomenda"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} por artigo",
+          "label": "%{price}/un."
+        },
+        "discount_not_found": "Não foi possível encontrar um desconto válido que corresponda ao código introduzido",
+        "total_savings": "Poupança total",
+        "return_restocking_fee_label": "Custos de abastecimento de ervas",
+        "return_shipping_fee_label": "Devolução",
+        "enter_shipping_address": "Introduzir morada de entrega",
+        "shipping_discount_title": "Desconto de envio",
+        "discount_code_applied_with_code": "Código de desconto %{code} aplicado",
+        "gift_card_applied": "Vale-presente aplicado",
+        "duties_included_label": "O total inclui impostos e direitos aduaneiros. Não há custos adicionais na entrega.",
+        "deferred_balance_info": {
+          "title": "O saldo de {{amount_due}} é devido em {{due_at}}.",
+          "due_on_fulfillment_title": "O saldo de {{amount_due}} é devido no cumprimento da encomenda"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> código de desconto necessário para cliente elegível",
+        "subtotal_label_with_quantity": {
+          "one": "Subtotal · %{count} artigo",
+          "other": "Subtotal · %{count} artigos"
+        },
+        "cost_table_item_column_header": "Artigo",
+        "more_items_modal": {
+          "empty_results": "Nenhum resultado encontrado para '%{searchText}'. Verifique a ortografia ou utilize outra palavra ou frase.",
+          "number_items_shown": "%{shownNumber} de %{totalNumber} artigos"
+        },
+        "number_items": {
+          "one": "%{count} artigos",
+          "other": "%{count} artigos"
+        },
+        "view_all_items": {
+          "one": "Ver %{count} artigos",
+          "other": "Ver todos os %{count} artigos"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Enviar para o endereço"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nenhuma loja disponível com o teu artigo",
+          "other": "Não existem lojas disponíveis com os teus artigos"
+        },
+        "deposit_label": "Entrada",
+        "total_due_today_label": "Total devido hoje",
+        "total_due_later_label": "Total devido mais tarde",
+        "discount_code_allocations_mismatch": "O teu código de desconto <strong style=\"text-transform:uppercase\">%{code}</strong> foi alterado. Verifica o teu carrinho e tenta novamente.",
+        "deferred_total_due_date_label_next": "Devido em %{date}",
+        "total_due_label": "Total devido",
+        "from_shop_heading": "Carrinha %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Descontos por encomenda aplicam-se apenas a artigos de %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Os vales-presente são válidos apenas para artigos de %{shop_name}",
+        "estimated_taxes_label_short": "Estimado",
+        "discount_code_removed": "Código de desconto %{code} foi removido",
+        "discount_code_replaced": "O código de desconto %{old_code} foi removido e %{code} foi aplicado",
+        "discount_code_replaced_multiple": "Vários códigos de desconto foram removidos e %{code} foi aplicado",
+        "pay_merchant_label": "Pagar %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "O desconto aplica-se apenas a artigos de subscrição",
+        "estimated_taxes_finalization_tooltip_content_short": "Arredondamento do imposto após o pagamento",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nenhuma loja disponível em %{country} com o teu artigo",
+          "other": "Nenhuma loja disponível em %{country} com os teus artigos"
+        },
+        "compare_at_sale": "Promoção (%{sale_amount})",
+        "tax_line": {
+          "gst": "IVA"
+        },
+        "automatic_discount_tooltip": "Descontos aplicados automaticamente não podem ser removidos"
+      },
+      "shipping": {
+        "shipping_method_title": "Método de envio",
+        "waiting_on_rate_notice": "A obter tarifas de envio disponíveis...",
+        "waiting_on_pickup_location_notice": "A obter locais de recolha disponíveis...",
+        "no_pickup_location_notice": "Pelo menos um dos teus produtos não pode ser levantado",
+        "no_rates_for_country_notice": "Nenhuma tarifa de envio encontrada para este endereço.",
+        "no_rates_contact_notice": "Contacte-nos para mais informações",
+        "estimated_delivery_date_range": "%{minimum} a %{maximum} dias úteis",
+        "shipping_line_phone": "O seu estafeta pode usar este número para entrar em contacto consigo.",
+        "other_method": {
+          "zero": "Nenhum outro método disponível",
+          "one": "%{count} outro método disponível a partir de"
+        },
+        "shipping_rate_discounted_amount": "Antes: %{original_amount}. Agora: %{amount}",
+        "shipping_line_delivery_phone": "É possível que entrem em contacto contigo com atualizações sobre a tua entrega.",
+        "shipping_line_delivery_instructions": "Introduza as informações necessárias, como códigos de porta e instruções de entrega.",
+        "subscription_shipping": "Assinatura para envio",
+        "shipping_method_subscription_group_title": "Assinatura",
+        "one_time_purchase_shipping": "Enviar uma vez",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "para %{count} entrega(s)"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "todos os dias"
+            },
+            "week": {
+              "one": "toda a semana"
+            },
+            "month": {
+              "one": "todos os meses"
+            },
+            "year": {
+              "one": "todos os anos"
+            }
+          },
+          "initial_order_discounted": "Primeiros custos de envio %{discounted_shipping_cost}, depois %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primeiros custos de envio %{discounted_shipping_price} %{prepaid_delivery_frequency}, depois %{shipping_price} %{billing_cycle}"
         }
       }
     }
