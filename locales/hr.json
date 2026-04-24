@@ -4189,7 +4189,81 @@
       },
       "add_payment_method_banner": "Dodajte način plaćanja za bržu naplatu i usluge za prethodnu autorizaciju",
       "edit_payment_method_button_accessibility_label": "Uredi {{paymentMethodName}} koji završava na {{lastDigits}}",
-      "expiration_warning_button_accessibility_label": "Prikaz upozorenja o naplati za {{paymentMethodName}} koja završava na {{lastDigits}}"
+      "expiration_warning_button_accessibility_label": "Prikaz upozorenja o naplati za {{paymentMethodName}} koja završava na {{lastDigits}}",
+      "no_payment_methods_banner": "Nisu dodane metode plaćanja",
+      "default": "Standardno",
+      "store_credit": {
+        "label": "Kredit u trgovini",
+        "accesibility_label": "Stanje na računu - {{formattedBalance}}",
+        "expirable_amounts_button": "Pregledajte iznose koji će isteći",
+        "details_modal": {
+          "title": "Stanje na računu koje će isteći",
+          "balance_label": "Stanje računa",
+          "expiration_date_label": "Datum isteka",
+          "expirable_balance_info": "Dio stanja istječe na budući datum.",
+          "expirable_amount_label": "Ukupni iznos koji će isteći",
+          "expirable_amounts_info": "Iznosi koji su prije istekli primjenjuju se prvi pri naplati.",
+          "expired_amounts_button": "Pogledajte istekle iznose",
+          "pagination": {
+            "load_more_accessibility_label": "Učitavanje više iznosa koji istječu"
+          },
+          "expirable_amounts_button": "Pogledaj",
+          "events": {
+            "adjustment": "Prilagodba",
+            "order_refund": "Povrat narudžbe",
+            "payment_failure": "Neuspjela uplata",
+            "payment_returned": "Povrat plaćanja",
+            "order_cancellation": "Otkazivanje narudžbe",
+            "tax_finalization": "Završetak poreza"
+          }
+        },
+        "expirable_amounts_label": "Istekli iznosi"
+      },
+      "three_d_secure": {
+        "title": "3D Sigurno",
+        "verification_failed": "Vaša uplata nije mogla biti potvrđena. Pokušajte ponovno ili upotrijebite drugi način plaćanja."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Dodaj PayPal način plaćanja",
+        "loading_accessibility_message": "PayPal naplata",
+        "errors": {
+          "generic": "Došlo je do problema s PayPalom. Pokušajte ponovno ili upotrijebite drugi način plaćanja."
+        }
+      },
+      "card_update_consent_subscriptions": "Ovaj način plaćanja bit će spremljen za buduće kupnje i može se koristiti za svaku ponovnu ili odgođenu kupnju.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Dodavanjem načina plaćanja možete ovlastiti da se, dok ne otkažete, troškovi naplaćuju na vašu karticu ili da se pri budućim kupnjama koje odobrite terećenja vrše s vašeg bankovnog računa."
+      },
+      "replacement_payment_method_title": "Zamjenske metode plaćanja",
+      "bank_account": {
+        "loading_accessibility_message": "Gumb za bankovni račun se učitava",
+        "generic_error": "Ne mogu dodati bankovni račun. Pokušajte ponovno kasnije."
+      },
+      "update_payment_method": {
+        "title": "Ažuriraj način plaćanja",
+        "billing_address": "Adresa za račun",
+        "disclaimer": "Ovaj način plaćanja bit će spremljen za buduće kupnje i može se koristiti za svaku ponovnu ili odgođenu kupnju.",
+        "error_message": "Ne mogu ažurirati način plaćanja",
+        "current": "Trenutni",
+        "loading_form_accessibility_message": "Učitava se obrazac za ažuriranje načina plaćanja",
+        "loading_current_payment_method": "Trenutna metoda plaćanja se učitava",
+        "loading_digital_wallets": "Opcije za digitalni novčanik se učitavaju",
+        "loading_card_fields": "Polja za kreditnu karticu se učitavaju",
+        "subscriptions_list_accessibility_label": "Popis pretplatničkih proizvoda",
+        "pre_orders_list_accessibility_label": "Popis proizvoda s aktivnom narudžbom",
+        "resources_list_accessibility_label": "Proizvodi s pretplatom i proizvodi s aktivnom narudžbom koji koriste ovu metodu plaćanja",
+        "resources_card_scroll": "Pomaknite se za više artikala"
+      },
+      "link_expired": {
+        "message": "Ova poveznica za ažuriranje vaše metode plaćanja je istekla.",
+        "update_message": "Ova poveznica za ažuriranje vaše metode plaćanja je istekla.",
+        "add_message": "Ova poveznica za dodavanje načina plaćanja je istekla."
+      },
+      "update_success": {
+        "title": "Način plaćanja ažuriran",
+        "done_button": "Nastavi s kupnjom"
+      },
+      "or": "ILI"
     }
   }
 }
