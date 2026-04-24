@@ -3357,9 +3357,79 @@
           "apply": "Anvende",
           "date": {
             "title": "Bestillingsdato",
-            "last_7_days": "Sidste 7 dage"
+            "last_7_days": "Sidste 7 dage",
+            "last_30_days": "Sidste 30 dage",
+            "last_90_days": "Sidste 90 dage",
+            "last_365_days": "Sidste 12 måneder"
           }
-        }
+        },
+        "no_order_banner": "Opret en bestilling for at teste udvidelsen på siden Bestillingsstatus.",
+        "location_filter_picker": {
+          "all_location": "Alle steder",
+          "current_location": "Nuværende placering"
+        },
+        "view_order": "Se bestilling",
+        "view_order_accessibility_label": "Se bestilling {{orderName}}"
+      },
+      "order_status": {
+        "canceled_title": "Din bestilling er annulleret",
+        "come_back": "Kom tilbage til denne side for statusopdateringer om din forsendelse.",
+        "company_tracking_number": "{{company}}-sporingsnummer:",
+        "confirmed_title": "Din bestilling er bekræftet",
+        "delivered_label": "Bekymret",
+        "estimated_delivery": "Forventet den {{date}}",
+        "in_review_label": "Til vurdering",
+        "in_review_title": "Din bestilling bliver gennemgået",
+        "no_tracking_number": "Der er intet sporingsnummer for denne forsendelse.",
+        "on_its_way_label": "Undervejs",
+        "out_for_delivery_label": "Klar til levering",
+        "resume_tracking": "Fortsæt afspilning",
+        "submitted_label": "Indsendt",
+        "track_shipment": "Følge forsendelse",
+        "request_return": "Anmode om returnering",
+        "attempted_delivery_label": "Leveringsforsøg",
+        "preparing_for_shipping_label": "Forsendelse forberedes",
+        "ready_for_pickup_description": "Disse varer er klar til afhentning. Medbring ordrebekræftelsen, når du henter bestillingen.",
+        "submitted_description": "Kontrollér bestillingen og betalingsoplysningerne.",
+        "view_order_for_details": "Se bestilling for produktoplysninger",
+        "confirmed_description_digital": "Du får en e-mail, når din bestilling er klar.",
+        "delivered_description_gift_card": {
+          "one": "Gavekortet er sendt pr. e-mail.",
+          "other": "Gavekortene er sendt via e-mail."
+        },
+        "ready_for_pickup_location": "Din bestilling er klar til afhentning på stedet",
+        "confirmed_description_pickup": "Du får en e-mail, når du kan hente din bestilling.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Gavekortet sendes i en separat e-mail.",
+          "other": "Hver gavekort sendes i en separat e-mail."
+        },
+        "confirmed_description_gift_card_text": "Du modtager en sms, når bestillingen er klar.",
+        "delivered_description_gift_card_text": {
+          "one": "Gavekortet er sendt via sms.",
+          "other": "Gavekortene er sendt via sms."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Gavekortet sendes i en separat sms.",
+          "other": "Hver gavekort sendes i en separat sms."
+        },
+        "gift_resend_success": {
+          "one": "Gavekort genudsendt",
+          "other": "Gavekort genudsendt"
+        },
+        "gift_resend_failure": {
+          "one": "Der opstod et problem med at gensende dit gavekort. Prøv igen eller kontakt os.",
+          "other": "Der opstod et problem med at gensende dine gavekort. Prøv igen eller kontakt os."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(åbnes i et nyt vindue)"
+          }
+        },
+        "attempted_to_deliver_label": "Forsøgt leveret",
+        "there_was_a_problem_label": "Der er opstået et problem",
+        "buy_with_prime_logo_accessibility_label": "Amazon Køb med Prime-logo",
+        "delivered": "Leveret den {{date}}",
+        "multiple_statuses_label": "Flere bestillingsstatusser"
       }
     }
   }
