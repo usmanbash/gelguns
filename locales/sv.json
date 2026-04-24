@@ -2907,6 +2907,72 @@
         "signup_disabled": "Skapande av kundkonton är avstängt.",
         "subscribe_error": "Fel vid prenumeration",
         "unsubscribe_error": "Fel vid avanmälan"
+      },
+      "address": {
+        "updated": "Adress uppdaterad.",
+        "error_updating": "Fel vid uppdatering av adress",
+        "created": "Adress skapad",
+        "error_creating": "Fel vid skapande av adress.",
+        "deleted": "Adress borttagen",
+        "error_deleting": "Fel vid borttagning av adress."
+      },
+      "order": {
+        "not_available": "Denna beställning är inte tillgänglig",
+        "financial_status": {
+          "authorized": "Verifierad",
+          "pending": "Under behandling",
+          "voided": "Förfallen",
+          "expired": "Utgånget"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Avslutad",
+          "complete": "Fullständig",
+          "unfulfilled": "Öppenstående",
+          "restocked": "Reservlager"
+        },
+        "transaction_status": {
+          "success": "Godkänd",
+          "pending": "Under behandling",
+          "failure": "Misslyckat"
+        },
+        "cancel_reason": {
+          "inventory": "Artikeln finns inte tillgänglig",
+          "fraud": "Bedräglig beställning",
+          "customer": "Kund ändrade/avbröt beställning",
+          "other": "Anders",
+          "staff": "Felaktiga medarbetare"
+        },
+        "cash_on_delivery": "Återbetalning"
+      },
+      "cart": {
+        "only_n_items_available": "Du kan bara lägga till %{count} %{name} i din kundvagn.",
+        "too_many_items_in_cart": "Du kan inte lägga till fler %{name} i din kundvagn.",
+        "all_items_in_cart": "Alla %{count} %{name} finns i din kundvagn.",
+        "empty_update": "kan inte uppdatera kundvagnen",
+        "missing_parameters": "ogiltigt ID eller regelnr",
+        "generic_error": "Fel i kundvagnen",
+        "too_many_line_items_error": "Din kundvagn kan inte innehålla fler än %{max} artiklar.",
+        "link_expired": "Länk utgången",
+        "link_no_longer_exists": "Länken finns inte längre.",
+        "stock_problems_html": "En eller flera artiklar är inte längre tillgängliga. Vi har förberett en <a href='%{link}'>uppdaterad kundvagn</a>.",
+        "changed": "Varukorg ändrad",
+        "product_sold_out": "Produkten '%{name}' är redan slutsåld.",
+        "variant_requires_selling_plan": "Variant kan endast köpas med ett försäljningsabonnemang.",
+        "shipping_address_not_required": "Denna kundvagn kräver ingen leverans",
+        "shipping_address_invalid": "Det uppstod ett problem vid beräkningen av dina fraktkostnader. Fortsätt till kassan för att välja fraktkostnader innan du slutför din beställning.",
+        "selling_plan_not_applicable": "Kan inte tillämpa försäljningsabonnemang på variant",
+        "selling_plan_not_available_for_company_locations": "Endast engångsköp är tillgängliga för B2B-beställningar.",
+        "digital_product_not_available_for_company_locations": "Du kan inte lägga till denna artikel i en B2B-beställning",
+        "less_than_minimum": "Denna artikel har ett minimum på %{min}.",
+        "more_than_maximum": "Denna artikel har en maxgräns på %{max}.",
+        "not_respect_step": "Du kan bara lägga till den här artikeln i steg om %{step}.",
+        "bundle_requires_components": "Kan inte lägga till paketprodukten '%{name}' i kundvagnen.",
+        "gift_card_with_components_not_supported": "Kan inte lägga till paketprodukten '%{name}' i kundvagnen.",
+        "view_lines_limit_reached": "Regler måste vara mindre än eller lika med %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Det har uppstått ett fel i din kundvagn."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Kan inte lägga till paketprodukten '%{name}' i kundvagnen."
       }
     }
   }
