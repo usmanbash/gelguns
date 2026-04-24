@@ -3662,8 +3662,78 @@
         "closed": "Sakrij pregled narudžbe"
       },
       "shipment_timeline": {
-        "expand_events_label": "Prikaži podatke"
-      }
+        "expand_events_label": "Prikaži podatke",
+        "expand_events_accessibility_label": "Prikaz podataka o dostavi narudžbe",
+        "hide_events_label": "Sakrij podatke",
+        "hide_events_accessibility_label": "Sakrij podatke o dostavi narudžbe"
+      },
+      "show_order_summary": "Prikaz pregleda narudžbe",
+      "hide_order_summary": "Sakrij pregled narudžbe",
+      "company": "Poduzeće",
+      "no_data_provided_accessibility_label": "{{fieldName}} je prazan",
+      "marketing_description": "Dobivat ćete marketinške e-poruke. Možete se odjaviti u bilo kojem trenutku.",
+      "marketing_checkbox_label": "Pošaljite mi e-mailove s vijestima i ponudama",
+      "marketing_checkmark_label": "Prijavljeni ste za primanje e-mailova s vijestima i ponudama",
+      "image_gallery": {
+        "product_name_and_quantity": "Količina {{productName}} {{quantity}}",
+        "previous": "Prikaži prethodne članke",
+        "load_more_items": {
+          "one": "Učitaj još {{count}} artikala",
+          "other": "Učitaj još {{count}} artikala"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Preuzmite trgovinu za praćenje paketa",
+        "track_order_with_shop": "Praćenje narudžbe s Shopom",
+        "real_time_delivery_updates": "Nakon što je narudžba poslana, dobit ćeš ažuriranja o dostavi u stvarnom vremenu od Shopa."
+      },
+      "shop_pay": {
+        "order_completed_with": "Narudžba dovršena s",
+        "learn_more": "Više informacija"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} dodano",
+        "removed": "Izbrisano",
+        "removed_with_quantity": "{{quantity}} uklonjeno",
+        "updated_at": "Vaša je narudžba ažurirana {{date}}",
+        "returned_with_quantities": "{{delta}} od {{total}} vraćeno",
+        "removed_with_quantities": "{{delta}} od {{total}} udaljeno",
+        "return_line_item_removed_with_quantities": "{{delta}} uklonjen iz povrata"
+      },
+      "pickup": {
+        "pickup_location": "Mjesto preuzimanja"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Plaćeno putem Shop Pay obročnih uplata",
+        "description": "Ostanite informirani o svom rasporedu plaćanja uz podsjetnike u aplikaciji Trgovina.",
+        "payment_reminders_button": "Primanje podsjetnika za plaćanje",
+        "desktop_qr_code_content": {
+          "title": "Skeniraj podsjetnike",
+          "description": "Dobivanje podsjetnika za vaše obročne uplate u Shopu."
+        },
+        "title": "Podsjetnici za plaćanje za Shop Pay obročne uplate"
+      },
+      "order_details": "Podaci o narudžbi",
+      "contact_information": "Kontakt podaci",
+      "login_to_view_all_order_details": "Prijavite se da biste vidjeli sve podatke o narudžbi.",
+      "remaining_amount": "Preostalo",
+      "order_details_skeleton_accessibility_label": "Prijavite se da biste vidjeli sve podatke o narudžbi.",
+      "logged_in_account_no_permission_to_order": "Prijavljeni ste kao {{email}}. Ovaj račun nema ovlasti za upravljanje ovom narudžbom.",
+      "log_in_to_a_different_account": "Prijava na drugi račun",
+      "duties": "Carinske pristojbe",
+      "ok_duties_tooltip": "Ova narudžba se šalje iz druge zemlje, stoga su na ukupni iznos narudžbe dodane carinske pristojbe.",
+      "error_duties_tooltip": "Ova narudžba šalje se iz druge zemlje, stoga se pri dostavi mogu naplatiti carine i porezi.",
+      "zero_duties_tooltip": "Ova narudžba šalje se iz druge zemlje. Za narudžbe ove vrijednosti ne naplaćuju se carinske pristojbe.",
+      "group_title_label": "Dio od: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Troškovi opskrbe biljem",
+        "return_shipping_fee": "Povrat robe"
+      },
+      "vat_invoices": {
+        "title": "Btw-računi"
+      },
+      "taxes_included": "Uključujući {{amount}} PDV-a",
+      "duties_and_taxes_included": "Ukupno uključuje carinske pristojbe i poreze. Nema dodatnih uplata prilikom dostave."
     }
   }
 }
