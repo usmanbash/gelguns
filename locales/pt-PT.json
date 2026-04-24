@@ -2032,7 +2032,79 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda."
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Após o pagamento, receberá um e-mail de confirmação com o número da encomenda.",
+        "vat_invoices": {
+          "title": "Faturas Btw"
+        },
+        "verify_shop_account_title": "Verifique a sua conta da Loja",
+        "verify_shop_account_message": "As suas informações estão guardadas na Loja. Verifique a sua conta para as usar automaticamente em milhões de lojas.",
+        "verify_shop_account_confirmation": "Dados de pagamento guardados",
+        "announcement": {
+          "expand": "Desdobrar",
+          "collapse": "Recolher"
+        },
+        "confirmed_items_count": "%{confirmed_count} de %{total_count} artigos estão confirmados",
+        "thank_you_confirmed_orders_with_email": "Receberá em breve e-mails de confirmação separados com os seus números de encomenda",
+        "thank_you_confirmed_orders_with_phone": "Receberás em breve mensagens de confirmação separadas com os teus números de encomenda",
+        "thank_you_confirmed_orders_with_email_and_phone": "Receberá em breve e-mails de confirmação separados com os seus números de encomenda",
+        "track_your_order_link_text": "Acompanhar a sua encomenda",
+        "checkout_on_remote_shop_link_text": "Finalizar compra em %{remoteShopName}",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 artigo não está confirmado",
+          "other": "Existem artigos não confirmados"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Não foram cobrados custos por isto",
+          "other": "Não foram cobrados custos por isto"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artigos",
+          "other": "%{count} artigos"
+        },
+        "thank_you_from_shop": "Carrinha %{shop_name}",
+        "payment_method_not_charged": "Não amortizado",
+        "items_fulfilled_by_store": {
+          "one": "Os artigos que comprou são provenientes de %{remote_shop_name}.",
+          "other": "Os artigos que comprou provêm de outras lojas."
+        },
+        "checkout_on_another_store": "Pagar numa outra loja",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Receberá em breve um e-mail de confirmação",
+          "multi_store": "Receberá em breve um e-mail de confirmação separado de cada loja"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Receberá em breve uma mensagem de confirmação por SMS",
+          "multi_store": "Receberás em breve uma mensagem de confirmação de cada loja"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Receberá em breve um e-mail de confirmação",
+          "multi_store": "Receberá em breve um e-mail de confirmação separado de cada loja"
+        },
+        "checkout_again": "Executar novamente a finalização da compra",
+        "cashback_notice": "Recebes o teu cashback após 30 dias"
+      },
+      "review": {
+        "title": "Crítica",
+        "review_title": "Conclua a sua encomenda",
+        "checkout_as_guest": "Pagar como convidado",
+        "blocks": {
+          "shipping_address_title": "Enviar para",
+          "change_contact_method_link_label": "Alterar informações de contacto",
+          "change_billing_address_link_label": "Alterar morada de faturação",
+          "change_shipping_address_link_label": "Alterar morada de entrega",
+          "change_shipping_method_link_label": "Alterar método de envio",
+          "pick_up_in_store_shipping_method_html": "Levantamento na loja · %{location_name}",
+          "purchase_order_number_title": "Número de encomenda",
+          "change_purchase_order_number_label": "Alterar número de encomenda",
+          "no_address": "(Sem endereço)",
+          "no_purchase_order_number": "(Sem número de encomenda)",
+          "due_after_order_reviewed_html": "Devido após verificação da encomenda",
+          "review_title_free_order": "Verifique e conclua a encomenda"
+        }
       }
     }
   }
