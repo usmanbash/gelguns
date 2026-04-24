@@ -1264,7 +1264,67 @@
         "estimated_delivery_time": "Várható kézbesítés %{time}",
         "estimated_delivery_time_range": "Várható kézbesítés %{min_time}–%{max_time}",
         "arrives_time": "Kiszállítás %{time} alatt",
-        "arrives_time_range": "Kiszállítás %{min_time}–%{max_time} között"
+        "arrives_time_range": "Kiszállítás %{min_time}–%{max_time} között",
+        "estimated_time": "Várható %{time}",
+        "estimated_time_range": "Várható %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Helyi kézbesítés előfizetés",
+        "subscription_pickup": "Előfizetés átvétele",
+        "delivery_today": "Aznapi kiszállítás %{time}-kor",
+        "delivery_tomorrow": "Kiszállítás a következő napon %{time}-kor",
+        "two_day_delivery": "Kiszállítás %{time} belül 2 napon belül",
+        "delivery": "Kiszállítás %{time} alatt",
+        "shipping_information_required_notice": "Szállítási adatok megadása kötelező. {{link}}.",
+        "shipping_information_redirect_link": "Írd be ide az adataidat",
+        "loading_progressive_rates": "További díjszabások keresése...",
+        "no_other_methods_available": "Nincsenek más elérhető módszerek",
+        "duties_and_taxes_options": {
+          "ddu_title": "Fizetés kézbesítéskor",
+          "ddu_caption": "További költségek felmerülhetnek",
+          "ddp_title": "Fizetés most",
+          "ddp_caption": "Nincs további költség a kiszállításnál"
+        },
+        "shipping_used_as_billing_notice": "Ezt használjuk a számlázási címként ehhez a megrendeléshez is.",
+        "shipping_address_title": "Küldés ide",
+        "add_address": "Használjon másik címet",
+        "add_delivery_instructions": "Kézbesítési utasítások hozzáadása",
+        "delete": "Eltávolítás",
+        "address_more": "További akciók erre a címre",
+        "address_confirm": "Biztosan törölni szeretnéd ezt a címet a fiókodból?",
+        "address_form": {
+          "generic_error": "Hiba történt a címed mentése közben. Kérjük, próbáld meg újra.",
+          "one_time_address_subtitle": "Csak egyetlen címet használjon ehhez a megrendeléshez",
+          "update": "Változtatások mentése"
+        },
+        "different_shipping_method_summary": "Adjon meg egy másik kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez",
+        "invalid_shipping_method_summary": "Adjon meg egy érvényes kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez",
+        "method_summary": {
+          "incomplete_address_entered": "Adjon meg egy teljes kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez",
+          "incomplete_address_selected": "Válasszon ki egy teljes kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez"
+        },
+        "local_pickup": {
+          "rollup_title": "Átvételi hely",
+          "rollup_accessibility_label": "Átvételi helyszín választási lehetőségek"
+        },
+        "missing_shipping_address": "Szállítási cím hiányzik",
+        "delivery_title": "Kézbesítés",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Visszatérő küldemény",
+          "other": "Ismétlődő küldemények"
+        },
+        "address_default": "Alapértelmezettként beállítani",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} cikkek",
+        "split_shipping_merchandise_quantity_label_additional": "+ még %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Szállítás %{number} / %{total}",
+        "pre_order_ships_now": "Most szállítjuk",
+        "pre_order_ships_later": "Később kerül feladásra",
+        "pre_order_ships_date": "Feladás %{date}-kor",
+        "split_shipping_shipped_by_shop": "Feladva a %{shop_name} által",
+        "split_shipping_multiple_shipment_label": "Több szállítmány",
+        "split_shipping_shipping_label": "Mód",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} küldemények",
+        "split_shipping_multiple_shipment_notice": "A rendelés több részletben kerül kiszállításra",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "A rendelésed %{quantity} szállítmányban érkezik meg",
+        "split_shipping_more_shipping_options": "További szállítási lehetőségek"
       }
     }
   }
