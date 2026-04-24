@@ -2674,7 +2674,93 @@
           "processing_error_checkout_as_guest": "Makse töötlemisel tekkis probleem. Proovi uuesti või {{checkout_as_guest_link}}."
         },
         "redirection_notice": "Sind suunatakse {{walletName}} juurde, et oma ost lõpetada",
-        "return_to_checkout": "Tagasi kassasse"
+        "return_to_checkout": "Tagasi kassasse",
+        "scrim": {
+          "continue_purchase_in_window": "Jätka oma ostuga {{walletName}} aknas",
+          "and_return_to_checkout": "ja tagasi kassasse",
+          "cancel": "Tühista"
+        },
+        "place_order": "Esita tellimus",
+        "recovery_notice": "Tellimuse andmetega tekkis viga. Palun uuenda oma andmeid, et makse lõpetada."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Kontrolli esmalt oma kontaktandmed üle enne makse lõpetamist"
+      },
+      "store_credit_errors": {
+        "generic_error": "Sinu poe krediidiga tekkis probleem. Proovi uuesti või värskenda lehte."
+      },
+      "note": {
+        "length_exceeds_maximum": "Lühenda kommentaar maksimaalselt 5000 tähemärgini."
+      },
+      "billing": {
+        "billing_address_title": "Arve saajale",
+        "same_as_shipping": "Sama mis tarneaadress",
+        "add_address": "Kasuta teist aadressi",
+        "edit": "Muuda",
+        "delete": "Eemalda",
+        "address_more": "Rohkem kampaaniaid sellele aadressile",
+        "address_edit": "Aadressi redigeerimine",
+        "address_delete": "Aadressi kustutamine",
+        "address_confirm": "Kas oled kindel, et soovid selle aadressi oma kontolt eemaldada?",
+        "address_form": {
+          "add_address": "Lisa aadress",
+          "save": "Salvesta",
+          "cancel": "Tühista"
+        },
+        "billing_address_rollup_accessibility_label": "Arveldusvalikud"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Kingituskinkekaart on juba sinu tellimusele rakendatud",
+          "insufficient_funds": "Selle kinkekaardi saldos pole enam raha",
+          "expired": "See kinkekaart on aegunud",
+          "not_available": "See kinkekaart ei ole enam saadaval",
+          "invalid": "Sisesta kehtiv kinkekaart",
+          "currency_mismatch": "Ainult kinkekaardid %{shop_currency} aktsepteeritakse",
+          "generic": "Kingituskupongi ei saa kassasse lisada",
+          "throttle_limit_exceeded": "Oled saavutanud maksimaalse katsete arvu. Proovi hiljem uuesti.",
+          "no_longer_available": "Seda kinkekaarti ei saa sellel kassas enam kasutada"
+        }
+      },
+      "vaulted": {
+        "change_button": "Muuda"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Shop Pay laadimisel tekkis probleem",
+          "try_again_later": "Kontrolli oma ühendust või sulge see aken ja proovi mõne hetke pärast uuesti.",
+          "checkout_has_expired": "Je ostukorvi aeg on lõppenud. Sulge see aken ja proovi {{shopName}} juures uuesti maksta."
+        },
+        "return_to_store": "Tagasi {{shopName}} juurde",
+        "return_to_store_simple": "Tagasi poodi",
+        "title": "Osta Pay-kassast"
+      },
+      "company_location": {
+        "location_title": "Ettevõtte asukoht",
+        "location_rollup_accessibility_label": "Ettevõtte asukoha valikud"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Kingituskupongi hind peab olema suurem kui 0.",
+            "subtotal_limit_reached": "Tellimuse rearealide maksimaalne väärtus on saavutatud.",
+            "gift_card_price_must_not_exceed_limit": "Kinkekaardi hind ei tohi olla kõrgem kui %{gift_card_limit}.",
+            "signature_mismatch": "Vale allkiri kaupadele reegli %{stable_id} jaoks."
+          }
+        }
+      },
+      "clipboard": {
+        "copied": "Kopeeritud",
+        "failed_to_copy": "Ei ole kopeeritud"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Viimistle oma ost {{paymentMethod}}-koodiga",
+        "timer_message": "Sul on veel {{timeLeft}} aega maksmiseks",
+        "copy_text": "{{paymentMethod}}-koodi kopeerimine",
+        "header": "Makse {{paymentMethod}} kaudu",
+        "qr_code": {
+          "instructions": "Viimistle oma ost {{paymentMethod}}-koodiga"
+        }
       }
     }
   },
