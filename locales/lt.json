@@ -483,29 +483,29 @@
     },
     "order": {
       "title": "Užsakymas {{ name }}",
-      "date_html": "Pateiktas {{ date }}",
+      "date_html": "Paskelbta {{ date }}",
       "cancelled_html": "Užsakymas atšauktas {{ date }}",
-      "cancelled_reason": "Priežastis: {{ reason }}",
-      "billing_address": "Sąskaitos pateikimo adresas",
+      "cancelled_reason": "Reden: {{ reason }}",
+      "billing_address": "Sąskaitos adresas",
       "payment_status": "Mokėjimo būsena",
       "shipping_address": "Pristatymo adresas",
       "fulfillment_status": "Įvykdymo būsena",
       "discount": "Nuolaida",
       "shipping": "Siuntimas",
       "tax": "Mokesčiai",
-      "product": "Gaminys",
-      "sku": "SKU kodas",
+      "product": "Produktas",
+      "sku": "Prekės kodas",
       "price": "Kaina",
       "quantity": "Kiekis",
-      "total": "Visa suma",
-      "fulfilled_at_html": "Įvykdyta {{ date }}",
-      "track_shipment": "Stebėti siuntą",
-      "tracking_url": "Sekimo nuoroda",
+      "total": "Iš viso",
+      "fulfilled_at_html": "Voldaan {{ date }}",
+      "track_shipment": "Volgo siuntimas",
+      "tracking_url": "Volglinkas",
       "tracking_company": "Vežėjas",
       "tracking_number": "Sekimo numeris",
       "subtotal": "Tarpinė suma",
-      "total_duties": "Muito mokesčiai",
-      "total_refunded": "Kompensuota"
+      "total_duties": "Muitai",
+      "total_refunded": "Grąžinta"
     },
     "orders": {
       "title": "Užsakymų apžvalga",
@@ -523,51 +523,51 @@
       "success": "Mes išsiuntėme tau el. laišką su nuoroda, kad galėtum atstatyti savo slaptažodį."
     },
     "register": {
-      "title": "Kurti paskyrą",
+      "title": "Sukurti paskyrą",
       "first_name": "Vardas",
       "last_name": "Pavardė",
-      "email": "El. pašto adresas",
+      "email": "El. paštas",
       "password": "Slaptažodis",
-      "submit": "Kurti"
+      "submit": "Sukurti"
     },
     "reset_password": {
-      "title": "Nustatyti paskyros slaptažodį iš naujo",
+      "title": "Paskyros slaptažodžio atstatymas",
       "subtext": "Įveskite naują slaptažodį",
       "password": "Slaptažodis",
       "password_confirm": "Patvirtinti slaptažodį",
-      "submit": "Nustatyti slaptažodį iš naujo"
+      "submit": "Slaptažodžio atkūrimas"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Štai jūsų {{ value }} vertės parduotuvės {{ shop }} dovanų kortelė!",
-      "subtext": "Jūsų dovanų kortelė",
-      "gift_card_code": "Dovanų kortelės kodas",
+      "title": "Tai yra dovanų kupono likutis, kurio vertė {{ value }} {{ shop }}",
+      "subtext": "Dovanų kuponas",
+      "gift_card_code": "Dovanų kupono kodas",
       "shop_link": "Apsilankyti internetinėje parduotuvėje",
-      "add_to_apple_wallet": "Pridėti prie „Apple Wallet“",
-      "qr_image_alt": "QR kodas — nuskaitykite ir panaudokite dovanų kortelę",
-      "copy_code": "Kopijuoti dovanų kortelės kodą",
-      "expired": "Nebegalioja",
-      "copy_code_success": "Kodą pavyko nukopijuoti",
-      "how_to_use_gift_card": "Panaudokite dovanų kortelės kodą internetinėje parduotuvėje arba QR kodą fizinėje parduotuvėje",
-      "expiration_date": "Baigs galioti {{ expires_on }}"
+      "add_to_apple_wallet": "Pridėti prie Apple Piniginės",
+      "qr_image_alt": "QR kodas — nuskaitykite, kad išpirktumėte dovanų kuponą",
+      "copy_code": "Dovanų kupono kodą nukopijuoti",
+      "expired": "Pasibaigęs",
+      "copy_code_success": "Kodas nukopijuotas",
+      "how_to_use_gift_card": "Naudokite dovanų kupono kodą internete arba QR kodą parduotuvėje",
+      "expiration_date": "Baigiasi galiojimas {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
-      "checkbox": "Noriu siųsti kaip dovaną",
+      "checkbox": "Noriu tai siųsti kaip dovaną",
       "email_label": "Gavėjo el. pašto adresas",
       "email": "El. pašto adresas",
-      "name_label": "Gavėjo vardas (pasirinktinai)",
+      "name_label": "Vardas gavėjui (pasirinktinai)",
       "name": "Vardas",
-      "message_label": "Žinutė (pasirinktinai)",
-      "message": "Žinutė",
-      "max_characters": "Daugiausia {{ max_chars }} simbolių",
+      "message_label": "Pranešimas (pasirinktinai)",
+      "message": "Pranešimas",
+      "max_characters": "Maksimaliai {{ max_chars }} simbolių",
       "email_label_optional_for_no_js_behavior": "Gavėjo el. pašto adresas (pasirinktinai)",
-      "send_on": "MMMM-MM-DD",
-      "send_on_label": "Išsiuntimo data (pasirinktinai)",
-      "expanded": "Išskleista dovanų kortelės gavėjo forma",
-      "collapsed": "Suskleista dovanų kortelės gavėjo forma"
+      "send_on": "JJJJ-MM-DD",
+      "send_on_label": "Siuntimas (pasirinktinai)",
+      "expanded": "Išskleistas dovanų kupono gavėjo forma",
+      "collapsed": "Forma dovanų kupono gavėjui sutraukta"
     }
   },
   "shopify": {
