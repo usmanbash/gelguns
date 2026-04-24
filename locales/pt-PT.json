@@ -3735,8 +3735,86 @@
           "pending_tab_accessibility_label": {
             "no_pending_orders": "Não tens encomendas em processamento",
             "pending_orders": {
-              "one": "Tens {{count}} encomenda em processamento"
+              "one": "Tens {{count}} encomenda em processamento",
+              "other": "Tens {{count}} encomendas em processamento"
+            },
+            "more_than_pagination_length": "Tens mais de {{count}} encomendas em processamento"
+          },
+          "pending_orders_count_more_than_pagination_length": "mais de {{count}}"
+        }
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmado em {{date}} para a encomenda {{draftOrderName}}",
+        "loading": "A carregar dados da encomenda",
+        "loading_finished_accessibility_message": "Dados da encomenda carregados",
+        "payment_status": {
+          "draft": {
+            "description": "Os dados de pagamento são determinados assim que a encomenda é confirmada.",
+            "title": "O pagamento ainda não é devido",
+            "in_review": {
+              "description": "Os dados de pagamento são determinados assim que a encomenda é confirmada.",
+              "title": "O pagamento ainda não é devido"
+            },
+            "submitted": {
+              "description": "Pague para confirmar esta encomenda.",
+              "title": "Pagar para confirmar",
+              "deposit": {
+                "title": "Pagamento devido",
+                "due_later": "Para o saldo aplicam-se os termos {{translatedName}} e é devido em {{dueDate}}.",
+                "due_on_fulfillment": "O saldo é devido assim que todos os artigos desta encomenda forem processados.",
+                "due_on_receipt": "Receberá uma fatura pelo saldo restante.",
+                "due_on_date": "O saldo é devido em {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} é devido quando a encomenda for confirmada. Para o saldo, aplicam-se os termos e condições do {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} é devido quando a encomenda for confirmada. O saldo é devido quando a sua encomenda for processada.",
+              "due_on_receipt": "{{depositAmount}} é devido quando a encomenda é confirmada. O saldo é devido posteriormente.",
+              "due_on_date": "{{depositAmount}} é devido quando a encomenda for confirmada. O saldo é devido em {{dueDate}}."
             }
+          },
+          "paid": {
+            "description": "A sua encomenda está totalmente paga.",
+            "title_with_date": "Pago em {{date}}"
+          },
+          "pay_now": "Pague agora",
+          "pending": {
+            "banner_overdue": {
+              "one": "O seu pagamento está {{count}} dia(s) em atraso",
+              "other": "O seu pagamento está {{count}} dias em atraso"
+            },
+            "banner_due": {
+              "one": "O seu pagamento é devido em {{count}} dia(s)",
+              "other": "O seu pagamento é devido dentro de {{count}} dias"
+            },
+            "banner_due_today": "O seu pagamento é devido hoje",
+            "description_overdue": "O seu pagamento está atrasado.",
+            "description_partially_paid": "Esta encomenda está parcialmente paga. Tem um saldo em aberto.",
+            "description_authorized": "O montante será cobrado na data em que for devido, através do método de pagamento escolhido. Também pode pagar já.",
+            "title_due_on_receipt": "O pagamento ainda não é devido",
+            "description_due_on_receipt": "Receberá uma fatura quando o pagamento for devido.",
+            "title_due_on_fulfillment": "O pagamento é devido no momento da execução da encomenda.",
+            "description_due_on_fulfillment": "O pagamento é devido assim que todos os artigos desta encomenda forem processados.",
+            "description_waiting_for_manual_payment": "Um pagamento para esta encomenda está a ser processado. O saldo será atualizado assim que recebermos o pagamento.",
+            "description_due_on_receipt_partially_paid": "Esta encomenda está parcialmente paga. Tem um saldo em aberto. Receberá uma fatura quando o pagamento for devido.",
+            "description_due_on_fulfillment_partially_paid": "Esta encomenda está parcialmente paga. Tem um saldo em aberto. O pagamento é devido assim que todos os artigos desta encomenda forem processados.",
+            "description_due_on_fulfillment_partially_paid_next": "Esta encomenda está parcialmente paga. Tem um saldo em aberto.",
+            "banner_due_today_for_single_fulfillment": "Pagamento de {{amount}} é devido hoje. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Pagamento devido hoje para {{count}} execuções",
+            "banner_overdue_for_multiple_fulfillments": "Pagamento devido por {{count}} execuções",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Pagamento de {{amount}} está {{count}} dia(s) atrasado(s). {{link}}",
+              "other": "Pagamento de {{amount}} está {{count}} dias atrasado. {{link}}"
+            }
+          },
+          "refund": {
+            "title_with_date": "Reembolsado em {{date}}",
+            "description_full_refund": "Recebeste um reembolso total por esta encomenda.",
+            "description_single_refund": "Recebeste um reembolso parcial para esta encomenda.",
+            "description_multiple_refunds": "Recebeste reembolsos parciais para esta encomenda."
+          },
+          "canceled": {
+            "description": "Não foram cobrados quaisquer custos."
           }
         }
       }
