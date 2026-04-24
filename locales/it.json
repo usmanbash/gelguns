@@ -2623,7 +2623,93 @@
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Questo prodotto non è disponibile per la spedizione a %{location_name}."
+          "some_products_one": "Questo prodotto non è disponibile per la spedizione a %{location_name}.",
+          "some_products_other": "Questi prodotti non sono disponibili per la spedizione a %{location_name}.",
+          "all_products_one": "Il prodotto nel tuo carrello non è disponibile per la spedizione a %{location_name}.",
+          "all_products_other": "I prodotti nel tuo carrello non sono disponibili per la spedizione a %{location_name}."
+        },
+        "missing_country_fallback": "tuo paese",
+        "indeterminate_location_fallback": "la tua posizione",
+        "change_address_only": "Modifica l'indirizzo di consegna per continuare.",
+        "change_address_or_remove": "Modifica l'indirizzo di consegna o %{remove_action}.",
+        "remove_items_action": {
+          "one": "rimuovi l'articolo non disponibile",
+          "other": "rimuovi gli articoli non disponibili"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Non sei più autorizzato a effettuare ordini B2B. %{logout_url} per effettuare invece un ordine personale.",
+        "log_out_link_text": "Disconnettersi",
+        "lost_permissions_subtitle": "Non sei più autorizzato a effettuare ordini B2B. Disconnettiti per effettuare un ordine personale.",
+        "lost_permissions_title": "Nessuna autorizzazione per la posizione"
+      },
+      "units": {
+        "gallon": "ragazza",
+        "foot": "piede",
+        "square_foot": "piedi²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Questo indirizzo non è supportato per l'iscrizione attuale.",
+        "items_split_across_locations_unsupported": "La consegna Prime non è disponibile per il tuo ordine. Le tue opzioni di spedizione sono state aggiornate."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigare verso il negozio online"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Ulteriori informazioni su %{context}"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Questo articolo non può essere aggiunto al tuo carrello perché proviene da un negozio che utilizza una valuta diversa.",
+          "max_remote_shops_exceeded": "Questo prodotto non può essere aggiunto perché il tuo carrello ha già raggiunto il massimo da altri negozi.",
+          "currency_mismatch_removal": "Un articolo è stato rimosso dal tuo carrello perché proviene da un negozio che utilizza una valuta diversa.",
+          "only_remote_merchandise_lines": "Il carrello contiene solo prodotti esterni. È necessario un reindirizzamento al negozio esterno per completare il pagamento."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Completa il tuo acquisto",
+        "remote_only_notice": "Questi articoli sono venduti e spediti da altri negozi. Vai alla cassa di ogni negozio per completare il tuo acquisto.",
+        "return_to_store_label": "Torna al negozio",
+        "checkout_on_shop_label": "Pagamento presso %{shop_name}",
+        "single_shop_transition": "Verrai reindirizzato a %{advertiser} per completare il tuo acquisto.",
+        "detail_item_label": {
+          "one": "{{count}} articoli"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Non è stata fornita alcuna %{policy_name} per questo negozio. Per maggiori informazioni, contatta direttamente %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Scansiona di nuovo il codice QR. Se continua a non funzionare, informa i nostri collaboratori e prova un altro metodo di pagamento.",
+        "payment_link_expired_text": "Scansiona di nuovo il codice QR."
+      },
+      "taxes": {
+        "tax_details": "Dati fiscali aggiuntivi",
+        "vat_number": {
+          "field": {
+            "label": "Numero identificativo btw (opzionale)",
+            "tooltip": "Convalida il numero di identificazione IVA e applica automaticamente il meccanismo di inversione contabile agli ordini che ne hanno diritto"
+          },
+          "add": "Aggiungere un numero di partita IVA",
+          "vaulted": "Numero di identificazione Btw: %{number}",
+          "badge": "Numero di identificazione Btw: %{number}",
+          "domestic_order": "Il regime di inversione contabile si applica solo agli ordini transfrontalieri all'interno dell'UE. Per gli ordini locali viene addebitata l'IVA standard.",
+          "status": {
+            "invalid_format": {
+              "at": "Un numero di identificazione IVA austriaco contiene AT e 9 caratteri",
+              "be": "Un numero di identificazione IVA del Belgio contiene BE e 10 caratteri",
+              "bg": "Un numero di identificazione IVA della Bulgaria contiene BG e 9-10 caratteri",
+              "hr": "Un numero di identificazione IVA della Croazia contiene HR e 11 caratteri",
+              "cy": "Un numero di identificazione IVA di Cipro contiene CY e 9 caratteri",
+              "cz": "Un numero di identificazione IVA della Repubblica Ceca contiene CY e da 8 a 10 caratteri.",
+              "dk": "Un numero di identificazione IVA della Danimarca contiene DK e 8 caratteri",
+              "ee": "Un numero di identificazione IVA dell'Estonia contiene EE e 9 caratteri",
+              "fi": "Un numero di identificazione IVA della Finlandia contiene FI e 8 caratteri",
+              "fr": "Un numero di identificazione IVA francese contiene FR e 11 caratteri"
+            }
+          }
         }
       }
     }
