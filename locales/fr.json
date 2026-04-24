@@ -3100,9 +3100,83 @@
         "ctas": {
           "sell_in_person": {
             "header": "Vente personnelle",
-            "caption": "Obtenez les fonctions dont vous avez besoin pour gérer votre boutique de détail, que vous débutiez ou que vous étendiez."
+            "caption": "Obtenez les fonctions dont vous avez besoin pour gérer votre boutique de détail, que vous débutiez ou que vous étendiez.",
+            "link_text": "Commencer un essai gratuit"
+          },
+          "open_a_store": {
+            "header": "Ouvrir une nouvelle boutique Shopify",
+            "caption": "Commencez un essai gratuit de trois jours, puis continuez pendant trois mois pour 1 USD par mois.",
+            "link_text": "Inscris-toi maintenant"
+          },
+          "editions": {
+            "header": "Voir les Éditions Shopify",
+            "caption": "Il existe plus de 100 mises à jour de produits qui vous permettent d'être plus productif, créatif et efficace dans le monde commercial que vous n'auriez jamais cru possible.",
+            "link_text": "Explorer les dernières éditions"
+          },
+          "store_owner": {
+            "header": "Es-tu le propriétaire du magasin ?",
+            "caption": "Vous ne pouvez pas accéder à votre boutique ? Essayez la fonction %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
+            "shopify_support_link_text": "Assistance Shopify"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "no_account_found": "Aucun compte trouvé avec cette adresse électronique.",
+        "invalid_credentials": "Adresse e-mail ou mot de passe incorrect.",
+        "denylisted_reset_password": "Votre compte ne peut pas être ouvert car le mot de passe actuel n'est pas sûr. Vous recevrez un courriel pour réinitialiser votre mot de passe.",
+        "signup_disabled": "La création de comptes clients est désactivée.",
+        "subscribe_error": "Erreur lors de l'abonnement",
+        "unsubscribe_error": "Erreur lors de la déconnexion"
+      },
+      "address": {
+        "updated": "Adresse mise à jour.",
+        "created": "Adresse créée",
+        "deleted": "Adresse supprimée"
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Vérifié",
+          "pending": "En cours de traitement",
+          "paid": "Payé",
+          "unpaid": "Non payé",
+          "voided": "Périmé",
+          "partially_paid": "Partiellement payé",
+          "partially_refunded": "Partiellement remboursé",
+          "refunded": "Remboursé"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Terminé",
+          "complete": "Complet",
+          "partial": "Partiellement",
+          "unfulfilled": "Ouvert",
+          "restocked": "Stock d'herbe"
+        },
+        "transaction_status": {
+          "success": "Réussi",
+          "pending": "En cours de traitement",
+          "failure": "Échoué"
+        },
+        "cancel_reason": {
+          "inventory": "Articles non disponibles",
+          "other": "Autrement",
+          "staff": "Employés incorrects"
+        },
+        "cash_on_delivery": "Remboursé"
+      },
+      "cart": {
+        "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} à votre panier.",
+        "too_many_items_in_cart": "Vous ne pouvez plus ajouter de %{name} à votre panier.",
+        "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
+        "empty_update": "impossible de mettre à jour le panier vide",
+        "missing_parameters": "identifiant ou numéro de ligne non valide",
+        "generic_error": "Panier erroné",
+        "too_many_line_items_error": "Votre panier ne peut contenir plus de %{max} articles.",
+        "link_expired": "Lien expiré",
+        "stock_problems_html": "Un ou plusieurs articles ne sont plus disponibles. Nous avons préparé un <a href='%{link}'>panier mis à jour</a>.",
+        "changed": "Panier modifié",
+        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock."
       }
     }
   }
