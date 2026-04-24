@@ -3338,8 +3338,16 @@
     },
     "search": {
       "sorting": {
-        "relevance": "Atbilstība"
-      }
+        "relevance": "Atbilstība",
+        "price_ascending": "Cena: no zemākās uz augstāko",
+        "price_descending": "Cena: no augstākās uz zemāko"
+      },
+      "error": "Radās problēma, ielādējot meklēšanas rezultātus. Atjaunojiet lapu vai mēģiniet vēlāk vēlreiz."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Šis ir atkārtots vai atlikts pirkums. Turpinot, es piekrītu %{cancellationPolicyLink} un arī dodu atļauju norēķināties ar norādītajām cenām no manas maksājumu metodes norādītajā biežumā un datumos, līdz mana pasūtījuma izpildei vai līdz es, ja tas ir atļauts, atceltu pasūtījumu.",
+      "buyer_consent_cart": "Viens vai vairāki priekšmeti tavā iepirkumu grozā ir atlikti vai atkārtoti pirkumi. Turpinot, es piekrītu %{cancellationPolicyLink} un arī dodu atļauju iekasēt norādītās cenas no manas maksājumu metodes norādītajā biežumā un datumos, līdz mana pasūtījuma izpildei vai līdz brīdim, kad es, ja tas ir atļauts, atceltu.",
+      "cancellation_policy": "atsaukšanas politika"
     }
   },
   "sections": {
@@ -3449,6 +3457,64 @@
       "min_error": "Šim rakstam ir noteikts minimums {{ min }}.",
       "max_error": "Šim rakstam ir maksimālais daudzums {{ max }}.",
       "step_error": "Jūs varat šo preci pievienot tikai {{ step }} soļu intervālos"
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Mēģināt vēlreiz"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Paslēpt konta izvēlni",
+        "show_accessibility_label": "Rādīt konta izvēlni",
+        "nav_accessibility_label": "Kontu navigācija",
+        "open_menu_accessibility_label": "Kontu navigācijas atvēršana",
+        "close_menu_accessibility_label": "Kontu navigācijas aizvēršana",
+        "loading_message": "Kontu navigācijas ielāde"
+      },
+      "action_menu_accessibility_label": "Vairāk akciju",
+      "close_menu_accessibility_label": "Galvenās izvēlnes aizvēršana",
+      "contact_email_subject": "Kontakpersona interneta veikalā {{shopName}}",
+      "contact_link": "Kontakti",
+      "delete_confirmation": {
+        "cancel": "Atcelt",
+        "delete": "Noņemt"
+      },
+      "dismiss_toast": "Aizvērt",
+      "document_title": "{{sectionName}} - {{shopName}} - konts",
+      "loading_message": "Ielādēšana",
+      "log_out_link": "Izrakstīties",
+      "logout_overlay_label": "Izrakstīšanās...",
+      "nav_label_accessibility_label": "Galvenā navigācija",
+      "navigation_accessibility_message": "Jūs esat pārgājis uz {{sectionName}}",
+      "open_menu_accessibility_label": "Galvenās izvēlnes atvēršana",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "settings_link": "Iestatījumi",
+      "country_switcher_toast_message": "Zeme pārslēgta uz {{countryName}}",
+      "switch_country": "Pāriet uz zemi",
+      "search": "Meklēt",
+      "location_switcher_toast_message": "Vieta mainīta uz {{locationName}}",
+      "switch_location": "Vietas maiņa",
+      "view_details": "Skatīt datus",
+      "company_location": "Uzņēmuma atrašanās vieta",
+      "no_countries_found": "Nav atrasta neviena valsts",
+      "no_locations_found": "Nav atrasta neviena vieta",
+      "try_new_search": "Mēģiniet jaunu meklēšanu",
+      "skip_to_content": "Uzreiz pie satura",
+      "loading_policy_content_accessibility_label": "Saturs tiek ielādēts",
+      "policy_load_error": "Kan {{policyName}} nevar ielādēt",
+      "policy_try_again": "Mēģiniet vēlreiz",
+      "loading_section_accessibility_label": "{{sectionName}} ielādēt"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kontu dati tiek ielādēti",
+      "loading_finished_accessibility_message": "Kontu dati ir ielādēti",
+      "profile_card": {
+        "cancel": "Atcelt",
+        "cancel_accessibility_label": "Rediģēt profilu atcelt",
+        "edit": "Rediģēt",
+        "edit_accessibility_label": "Rediģēt profilu"
+      }
     }
   }
 }
