@@ -4029,7 +4029,77 @@
       "july": "julio",
       "august": "agosto",
       "september": "septiembre",
-      "october": "octubre"
+      "october": "octubre",
+      "november": "noviembre",
+      "december": "diciembre",
+      "monday": "lunes",
+      "tuesday": "martes",
+      "wednesday": "miércoles",
+      "thursday": "jueves",
+      "friday": "viernes",
+      "saturday": "sábado",
+      "sunday": "domingo",
+      "mondayAbbreviation": "lun.",
+      "tuesdayAbbreviation": "mar.",
+      "wednesdayAbbreviation": "mié.",
+      "thursdayAbbreviation": "hacer.",
+      "fridayAbbreviation": "vie.",
+      "saturdayAbbreviation": "sáb.",
+      "sundayAbbreviation": "así.",
+      "showNextMonth": "Mostrar el próximo mes, {{month}} {{year}}",
+      "showPreviousMonth": "Mostrar mes anterior, {{month}} {{year}}",
+      "rangeStart": "Comenzar alcance",
+      "inRange": "Alcance",
+      "rangeEnd": "Fin del alcance",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artículos disponibles"
+      },
+      "mapClusterTitle": {
+        "one": "Clúster del punto de referencia {{number}}",
+        "other": "Clúster de {{number}} puntos de referencia"
+      },
+      "expandSheet": "Desplegar",
+      "dropzoneInvalidFileType": "Este tipo de archivo no es compatible",
+      "dropzoneDraggedOver": "Colocar archivo para subir",
+      "clipboardFailedToCopy": "No copiado",
+      "clear": "Conocimiento"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Ajustar",
+      "navigate_to_admin": "Navegar al centro de administración",
+      "previewing": "Estás viendo un ejemplo de:",
+      "not_available": "No hay datos de perfil disponibles",
+      "close_preview": "Cerrar ejemplo",
+      "actions_button": "Promociones"
+    },
+    "settings": {
+      "title": "Configuraciones",
+      "log_out_everywhere": {
+        "title": "Cerrar sesión en todas partes",
+        "description": "Si has perdido un dispositivo o te preocupa la seguridad, cierra sesión en todas partes para garantizar la seguridad de tu cuenta."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} a las {{time}}",
+        "lessThanOneMinuteAgo": "Justo ahora",
+        "lessThanOneWeekAgo": "Abierto {{weekday}} a las {{time}}",
+        "yesterday": "Ayer a las {{time}}",
+        "today": "Hoy a las {{time}}",
+        "tomorrow": "Mañana a las {{time}}",
+        "lessThanOneWeekAway": "Abierto {{weekday}} a las {{time}}",
+        "lessThanOneYearAway": "Op {{date}} a las {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "hace {{count}} minutos",
+          "other": "hace {{count}} minutos"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Seleccionar la extensión llamada '{{extensionName}}'",
+        "unselect": "Deshacer la selección de la extensión llamada '{{extensionName}}'"
+      }
     }
   }
 }
