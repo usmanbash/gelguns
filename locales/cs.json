@@ -534,40 +534,40 @@
       "tracking_company": "Přepravce",
       "tracking_number": "Sledovací číslo",
       "subtotal": "Mezisoučet",
-      "total_duties": "Cla",
-      "total_refunded": "Vrácená částka"
+      "total_duties": "Celní poplatky",
+      "total_refunded": "Vráceno"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Zůstatek vaší dárkové karty pro obchod {{ shop }} je: {{ value }}!",
-      "subtext": "Vaše dárková karta",
-      "gift_card_code": "Kód dárkové karty",
-      "shop_link": "Navštívit online obchod",
+      "title": "Toto je zůstatek dárkové karty v hodnotě {{ value }} pro {{ shop }}",
+      "subtext": "Je dárkový poukaz",
+      "gift_card_code": "Kód dárkového poukazu",
+      "shop_link": "Navštívit internetový obchod",
       "add_to_apple_wallet": "Přidat do Apple Peněženky",
-      "qr_image_alt": "QR kód: po naskenování můžete uplatnit svou dárkovou kartu",
-      "copy_code": "Zkopírovat kód dárkové karty",
-      "expired": "Platnost vypršela",
-      "copy_code_success": "Kód byl úspěšně zkopírován",
-      "how_to_use_gift_card": "Použijte kód dárkové karty online nebo QR kód na prodejně",
-      "expiration_date": "Platnost skončí {{ expires_on }}"
+      "qr_image_alt": "QR kód — naskenujte pro uplatnění dárkového poukazu",
+      "copy_code": "Zkopírovat kód dárkového poukazu",
+      "expired": "Vypršelo",
+      "copy_code_success": "Kód zkopírován",
+      "how_to_use_gift_card": "Použijte kód dárkového poukazu online nebo QR kód v obchodě",
+      "expiration_date": "Vyprší {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
-      "checkbox": "Chci zboží poslat jako dárek",
-      "email_label": "E-mail příjemce",
-      "email": "E-mail",
+      "checkbox": "Chci to poslat jako dárek",
+      "email_label": "E-mailová adresa příjemce",
+      "email": "E‑mailová adresa",
       "name_label": "Jméno příjemce (volitelné)",
       "name": "Jméno",
-      "message_label": "Zpráva (volitelné)",
+      "message_label": "Zpráva (volitelně)",
       "message": "Zpráva",
-      "max_characters": "Maximální počet znaků: {{ max_chars }}",
-      "email_label_optional_for_no_js_behavior": "E-mail příjemce (volitelné)",
+      "max_characters": "Maximálně {{ max_chars }} znaků",
+      "email_label_optional_for_no_js_behavior": "E-mailová adresa příjemce (volitelné)",
       "send_on": "RRRR-MM-DD",
-      "send_on_label": "Datum odeslání (volitelné)",
-      "expanded": "Formulář pro příjemce dárkové karty se rozbalil.",
-      "collapsed": "Formulář pro příjemce dárkové karty se sbalil."
+      "send_on_label": "Odeslat dne (volitelné)",
+      "expanded": "Formulář pro příjemce dárkového poukazu rozbalený",
+      "collapsed": "Formulář pro příjemce dárkového poukazu sbalený"
     }
   },
   "shopify": {
