@@ -554,7 +554,9 @@
     "checkout": {
       "shipping": {
         "address_form": {
-          "max_address": "{{max_addresses}} address limit reached. Delete an address to add a new one."
+          "max_address": "{{max_addresses}} address limit reached. Delete an address to add a new one.",
+          "generic_error": "There was a problem saving your address. Please try again.",
+          "one_time_address_subtitle": "Use a single address for this order"
         },
         "waiting_on_rate_notice": "Retrieving available shipping rates...",
         "waiting_on_pickup_location_notice": "Retrieving available pickup locations...",
@@ -605,7 +607,65 @@
           }
         },
         "estimated_delivery_time": "Expected delivery %{time}",
-        "estimated_delivery_time_range": "Expected delivery %{min_time}–%{max_time}"
+        "estimated_delivery_time_range": "Expected delivery %{min_time}–%{max_time}",
+        "arrives_time": "Delivered in %{time}",
+        "arrives_time_range": "Delivered between %{min_time}–%{max_time}",
+        "estimated_time": "Expected in %{time}",
+        "estimated_time_range": "Expected %{min_time}-%{max_time}",
+        "delivery_today": "Same-day delivery by %{time}",
+        "delivery_tomorrow": "Next day delivery by %{time}",
+        "two_day_delivery": "Delivery within 2 days by %{time}",
+        "delivery": "Delivery in %{time}",
+        "duties_and_taxes_title": "Customs duties and taxes",
+        "shipping_information_redirect_link": "Enter your details here",
+        "loading_progressive_rates": "Search for more rates...",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Additional charges may apply",
+          "ddp_caption": "No extra charges for delivery"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} in %{current}"
+        },
+        "shipping_used_as_billing_notice": "This is also used as your billing address for this order.",
+        "shipping_address_title": "Shipping to",
+        "delete": "Remove",
+        "address_more": "More offers for this address",
+        "address_delete": "Remove address",
+        "address_confirm": "Are you sure you want to remove this address from your account?",
+        "different_shipping_method_summary": "Enter a different delivery address to see available shipping methods",
+        "invalid_shipping_method_summary": "Enter a valid delivery address to see the available shipping methods",
+        "method_summary": {
+          "incomplete_address_entered": "Enter a complete delivery address to see the available shipping methods",
+          "incomplete_address_selected": "Select a complete delivery address to see the available shipping methods"
+        },
+        "local_pickup": {
+          "search_address": "Find address",
+          "rollup_accessibility_label": "Options for pickup location"
+        },
+        "missing_shipping_address": "Delivery address missing",
+        "split_shipping_merchandise_quantity_label_additional": "+ plus %{quantity}",
+        "pre_order_ships_later": "Will be sent later",
+        "pre_order_ships_date": "Ships on %{date}",
+        "split_shipping_shipped_by_shop": "Sent by %{shop_name}",
+        "split_shipping_shipping_label": "Way",
+        "split_shipping_multiple_shipment_notice": "The order will be delivered in several shipments",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Your order will be delivered in %{quantity} shipments",
+        "split_shipping_option_free": "Free delivery",
+        "split_shipping_option_custom": "Adjusted",
+        "default_description": "Will be shipped within one working day",
+        "split_shipping_shipment_notice": "You will receive your order in %{quantity_shipments}",
+        "unbranded_default_description": "Ready for dispatch",
+        "prime_not_available": {
+          "default": "Prime delivery is not available for your order. Your shipping options have been updated."
+        },
+        "split_shipping_first_shipment_notice": "You will receive your first order in %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Options for shipping method",
+        "shipping_address_rollup_accessibility_label": "Options for sending to address",
+        "invalid_shipping_method_summary_selected": "Select another delivery address to view available shipping methods",
+        "third_party_address_timeout": "Cannot load addresses. Please try again or use a different address.",
+        "third_party_address_error": "An error occurred while loading the address selection. Please enter your address manually below.",
+        "third_party_payment_timeout": "Cannot load payment methods. Please try again or use a different payment method.",
+        "third_party_payment_error": "An error occurred while loading the payment selection. Please use a different payment method."
       },
       "payment": {
         "saved_addresses": "Saved addresses",
