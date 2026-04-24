@@ -2673,7 +2673,95 @@
       "shop_pay_external": {
         "errors": {
           "problem_loading": "Tapahtui virhe Shop Payn lataamisessa",
-          "try_again_later": "Tarkista yhteytesi tai sulje tämä ikkuna ja yritä hetken kuluttua uudelleen."
+          "try_again_later": "Tarkista yhteytesi tai sulje tämä ikkuna ja yritä hetken kuluttua uudelleen.",
+          "checkout_has_expired": "Kassasi istunto on vanhentunut. Sulje tämä ikkuna ja yritä uudelleen maksamista {{shopName}}-verkkokaupassa."
+        },
+        "return_to_store": "Takaisin {{shopName}}",
+        "return_to_store_simple": "Takaisin kauppaan",
+        "title": "Shop Pay-kassa"
+      },
+      "company_location": {
+        "location_title": "Yrityksen sijainti",
+        "location_rollup_accessibility_label": "Toimipaikkavaihtoehdot"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Lahjakortin hinta on oltava suurempi kuin 0.",
+            "subtotal_limit_reached": "Tilausrivien enimmäismäärä on saavutettu.",
+            "gift_card_price_must_not_exceed_limit": "Lahjakortin hinta ei saa ylittää %{gift_card_limit}.",
+            "signature_mismatch": "Väärä allekirjoitus tavaroille säännölle %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Ei kopioitu"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Viimeistele ostoksesi {{paymentMethod}}-koodillasi",
+        "timer_message": "Sinulla on vielä {{timeLeft}} aikaa maksaa",
+        "header": "Maksa {{paymentMethod}}-menetelmällä",
+        "qr_code": {
+          "instructions": "Viimeistele ostoksesi {{paymentMethod}}-koodillasi"
+        },
+        "external": {
+          "instructions": "Vahvista maksu sovelluksessasi tämän ostoksen viimeistelemiseksi"
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Tilaustasi käsiteltäessä ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Tuotteen ohje %{position} %{name} sisältää tyhjän stable-ID:n.",
+        "invalid_stable_id_target": "Tavaraohje %{position} %{name} viittaa stable-ID:hen %{stable_id}, mutta kyseistä stable-ID:tä ei löydy tavaraluetteloista.",
+        "duplicate_variant_id": "Tuotteen ohje %{position} %{name} sisältää kaksoisvariantti-ID:n %{variant_id}.",
+        "invalid_variant_id_target": "Tavaraohje %{name} viittaa variantti-ID:hen %{variant_id}, mutta kyseistä varianttia ei löydy tavaraluetteloista.",
+        "invalid_price_override_target": "Ohje korvata tilausriville %{stable_id} kuuluvien tavaroiden hinta on virheellinen, koska kyseessä on pakettikomponentti.",
+        "discount_not_supported": "Myyjille suunnattu ohje tavaralaskun alennuksen soveltamisesta ei tue tämän tyyppistä alennusta."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tätä tuotetta ei voi lähettää osoitteeseen %{location_name}.",
+          "some_products_other": "Näitä tuotteita ei voi lähettää osoitteeseen %{location_name}.",
+          "all_products_one": "Tuotetta ostoskorissasi ei ole saatavilla toimitettavaksi osoitteeseen %{location_name}.",
+          "all_products_other": "Ostoskoriisi lisätyt tuotteet eivät ole saatavilla toimitettavaksi osoitteeseen %{location_name}."
+        },
+        "cart_updated": "Ostoskori on päivitetty.",
+        "change_address_only": "Vaihda toimitusosoite jatkaaksesi.",
+        "remove_items_action": {
+          "one": "poista ei saatavilla oleva tuote",
+          "other": "poista ei saatavilla olevat tuotteet"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sinulla ei enää ole oikeutta tehdä B2B-tilauksia. %{logout_url} tehdäksesi sen sijaan henkilökohtaisen tilauksen.",
+        "lost_permissions_subtitle": "Sinulla ei ole enää oikeutta tehdä B2B-tilauksia. Kirjaudu ulos tehdäksesi henkilökohtaisen tilauksen.",
+        "lost_permissions_title": "Geen sijaintiluvat"
+      },
+      "units": {
+        "ounce": "unssi",
+        "pound": "pauna",
+        "fluid_ounce": "nestetilavuusunssi",
+        "inch": "sisään",
+        "foot": "jalkaa",
+        "yard": "ydin",
+        "square_foot": "neliöjalkaa",
+        "item": "artikkeli"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Tätä osoitetta ei tueta nykyisellä jäsenyydellä.",
+        "items_split_across_locations_unsupported": "Prime-toimitus ei ole saatavilla tilauksellesi. Lähetysvaihtoehtosi on päivitetty."
+      },
+      "tooltip": {
+        "accessibility_label_context": "Lisätietoja %{context}",
+        "additional_payment_methods": "Lisämaksutavat"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Tätä tuotetta ei voi lisätä ostoskoriisi, koska se on peräisin kaupasta, joka käyttää eri valuuttaa.",
+          "max_remote_shops_exceeded": "Tätä tuotetta ei voi lisätä, koska ostoskorissasi on jo enimmäismäärä tuotteita muista kaupoista.",
+          "currency_mismatch_removal": "Yksi tuote on poistettu ostoskoristasi, koska se on peräisin kaupasta, joka käyttää eri valuuttaa.",
+          "only_remote_merchandise_lines": "Ostoskori sisältää vain ulkopuolisia tavaroita. Maksun suorittamiseksi tarvitaan ohjaus ulkopuoliseen kauppaan."
         }
       }
     }
