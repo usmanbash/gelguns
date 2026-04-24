@@ -3130,7 +3130,89 @@
         "selling_plan_not_applicable": "Ne može se primijeniti prodajna pretplata na varijantu",
         "selling_plan_not_available_for_company_locations": "Dostupne su samo jednokratne kupnje za B2B narudžbe.",
         "digital_product_not_available_for_company_locations": "Ne možete dodati ovaj artikl u B2B narudžbu",
-        "less_than_minimum": "Ovaj artikal ima minimalno %{min}."
+        "less_than_minimum": "Ovaj artikal ima minimalno %{min}.",
+        "more_than_maximum": "Ovaj artikal ima maksimalno %{max}.",
+        "not_respect_step": "Ovaj artikl možete dodati samo u koracima od %{step}.",
+        "bundle_requires_components": "Ne mogu dodati paketni proizvod '%{name}' u košaricu.",
+        "gift_card_with_components_not_supported": "Ne mogu dodati paketni proizvod '%{name}' u košaricu.",
+        "view_lines_limit_reached": "Pravila moraju biti manja ili jednaka %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Došlo je do pogreške u tvojoj košarici."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Ne mogu dodati paketni proizvod '%{name}' u košaricu.",
+        "gift_card_recipient_validation_error": "Uneseni primatelj poklon bona nije valjan",
+        "buyer_cannot_purchase_for_company_locations": "Ne možete izvršiti kupnju za ovu lokaciju",
+        "only_one_added_to_cart": "U vašu je košaricu dodan samo 1 artikl zbog dostupnosti.",
+        "only_n_added_to_cart": "U tvoju je košaricu dodano samo %{quantity} artikala zbog dostupnosti.",
+        "maximum_available_quantity_reached": "Maksimalna količina ovog artikla već je u tvojoj košarici.",
+        "cart_attributes_error": "Atributi košarice sadrže nevažeće podatke.",
+        "merchandise_not_applicable": "Artikl se ne može kupiti u konfiguraciji kakva je postavljena."
+      },
+      "storefront": {
+        "invalid_password": "Lozinka nije točna, pokušajte ponovno."
+      },
+      "tags": {
+        "add_articles": "Ograniči pretraživanje na artikle s oznakom %{tag}",
+        "add_products": "Ograniči pretraživanje na proizvode s odgovarajućim tagom %{tag}",
+        "remove_articles": "Proširite pretraživanje na artikle koji nisu označeni s %{tag}",
+        "remove_products": "Ukloni oznaku %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} dodano",
+          "increment_item": "%{delta} dodano",
+          "decrement_item": "%{delta} udaljeno od %{total}",
+          "decrement_fulfilled_line_item": "%{delta} od %{total} vraćeno",
+          "decrement_return_line_item": "%{delta} uklonjeno iz povrata"
+        }
+      }
+    },
+    "page_titles": {
+      "create_account": "Izradi račun",
+      "reset_account": "Resetiranje računa",
+      "order": "Naruči %{name}",
+      "search": "Pretraži",
+      "not_found": "404 nije pronađeno",
+      "search_results": {
+        "one": "Pretraživanje: pronađeno je %{count} rezultat za '%{terms}'",
+        "other": "Pretraživanje: pronađeno je %{count} rezultata za '%{terms}'"
+      },
+      "blog_or_article_with_error": "Pogreška - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Primijenjeno je %{count} popusta"
+    },
+    "challenge": {
+      "message": "Obavijestite nas da niste robot kako biste nastavili.",
+      "error": "Tvoj odgovor nije bio točan, pokušaj ponovno.",
+      "submit_button_text": "Slanje"
+    },
+    "checkpoint": {
+      "message": "Riješite captcha da nastavite dalje",
+      "error": "provjera captcha nije uspjela",
+      "submit_button_text": "Slanje"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Hvala što ste se prijavili na našu mailing listu.",
+        "disclaimer": "Možete se odjaviti u bilo kojem trenutku.",
+        "unsubscribe": "Odjava"
+      },
+      "unsubscribed": {
+        "confirmation": "Odjavili ste se s naše mailing liste.",
+        "disclaimer": "Vi više ne primate marketinške novosti od nas. U bilo kojem trenutku se možete ponovno prijaviti.",
+        "preview": "Pregledavate primjer onoga što će kupci vidjeti kada se odjave."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Dali ste dopuštenje za praćenje otvaranja e-pošte.</b>",
+          "visibility": "Postotci otvaranja e-pošte prijavljuju se anonimno. Vidjet ćemo samo jeste li otvorili e-poštu kao dio agregiranog postotka otvaranja e-pošte.",
+          "opt_out_html": "Možete se <a style='text-decoration:underline;' href='%{link}'>odjaviti</a> s praćenja otvaranja e-pošte ako ne želite dijeliti ove informacije.",
+          "preview_bar": "Pregledavate primjer onoga što kupci vide kada daju dozvolu za primanje e-mailova o otvorenom praćenju."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Odjavili ste se s praćenja otvaranja e-pošte.</b>"
+        }
       }
     }
   }
