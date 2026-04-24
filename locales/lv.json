@@ -3513,7 +3513,75 @@
         "cancel": "Atcelt",
         "cancel_accessibility_label": "Rediģēt profilu atcelt",
         "edit": "Rediģēt",
-        "edit_accessibility_label": "Rediģēt profilu"
+        "edit_accessibility_label": "Rediģēt profilu",
+        "email_help_text": "E-pasta adresi nevar rediģēt",
+        "first_name": "Vārds",
+        "last_name": "Uzvārds",
+        "phone_number_help_text": "Telefona numuru nevar rediģēt",
+        "save": "Saglabāt",
+        "save_accessibility_label": "Saglabāt profilu",
+        "title": "Profils",
+        "no_name_provided_accessibility_label": "Nav pievienots nosaukums",
+        "email": "E-pasts",
+        "errors": {
+          "name_too_long": "{{fieldName}} ir pārāk garš (līdz 255 rakstzīmēm)",
+          "name_cannot_contain_url": "{{fieldName}} nedrīkst saturēt URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} nedrīkst saturēt HTML tagus",
+          "email_cant_be_blank": "E-pasts nedrīkst būt tukšs",
+          "invalid_email_format": "Ievadiet derīgu e-pasta adresi"
+        },
+        "editable_email_help_text": "Šī e-pasta adrese tiek izmantota reģistrācijai un pasūtījumu atjauninājumiem."
+      },
+      "profile_update_confirmation_message": "Profils atjaunināts",
+      "title": "Profils",
+      "people": {
+        "pagination": {
+          "load_more": "Ielādēt vairāk",
+          "load_more_accessibility_label": "Vairāk cilvēku ielādējas",
+          "loading_accessibility_label": "Notiek cilvēku ielāde"
+        }
+      },
+      "add_button": "Pievienot",
+      "verify_new_email_modal": {
+        "title": "E-pasta pārbaude",
+        "description": "Ievadiet kodu, kas nosūtīts uz {{email}}",
+        "one_time_password_label": "6 ciparu kods",
+        "email_resend_button": "Nosūtīt kodu vēlreiz",
+        "email_resend_button_accessibility_label": "Verifikācijas kodu nosūtīt vēlreiz",
+        "verify_button": "Pārbaudīt",
+        "verify_button_accessibility_label": "Vienreizējas paroles pārbaude",
+        "cancel_button": "Atcelt",
+        "cancel_button_accessibility_label": "Atcelt e-pasta rediģēšanu",
+        "email_resend_button_success_toast_message": "Verifikācijas kods nosūtīts",
+        "email_resend_button_failure_banner_message": "Nevar nosūtīt verifikācijas kodu"
+      },
+      "email_update_success_modal": {
+        "title": "E-pasta pārbaude",
+        "description": "E-pasts ir veiksmīgi atjaunināts. Novirzīšana uz pieteikšanos."
+      },
+      "email_update_confirmation_message": "E-pasta adrese atjaunināta uz {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Noformējuma iespējas",
+      "list_title": "Pasūtījumi",
+      "order_list": {
+        "column_headers": {
+          "total": "Kopā",
+          "order": "Pasūtījums",
+          "actions_accessibility_label": "Akcijas",
+          "products_accessibility_label": "Preces"
+        },
+        "delivered": "Noraizējies: {{date}}",
+        "empty_state_order_source_description": "Tikai pasūtījumi, kas veikti, izmantojot {{email}}, tiek rādīti šeit.",
+        "empty_state_subtitle": "Dodieties uz veikalu, lai veiktu pasūtījumu.",
+        "empty_state_title": "Nav vēl pasūtījumu",
+        "estimated_delivery": "Paredzams {{date}}",
+        "items": {
+          "one": "{{count}} prece",
+          "other": "{{count}} preces"
+        },
+        "order_link": "Pasūtījuma {{name}} apskate",
+        "order_number": "Pasūtījums {{name}}"
       }
     }
   }
