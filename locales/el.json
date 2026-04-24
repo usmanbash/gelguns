@@ -3763,7 +3763,71 @@
       "default_address": "Αυτή είναι η προεπιλεγμένη διεύθυνσή μου",
       "default_address_creation_success_notification": "Προεπιλεγμένη διεύθυνση προστέθηκε",
       "loading_add_form_accessibility_message": "Φόρμα φόρτωσης νέας διεύθυνσης",
-      "loading_edit_form_accessibility_message": "Φόρτωση επεξεργασίας διεύθυνσης φόρμας"
+      "loading_edit_form_accessibility_message": "Φόρτωση επεξεργασίας διεύθυνσης φόρμας",
+      "loading_finished_accessibility_message": "Η φόρμα διεύθυνσης έχει φορτωθεί",
+      "update_success_notification": "Διεύθυνση ενημερώθηκε",
+      "attention": "T.a.v.",
+      "attention_company": "Εταιρεία/προς την προσοχή του"
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "Διεύθυνση email",
+        "contact_list_title": "Άνθρωποι",
+        "contact_permissions": "Εξουσιοδοτήσεις",
+        "contact_phone_number": "Τηλέφωνο",
+        "net_payment_terms_description": "{{name}}: πληρωμές οφειλόμενες εντός {{numberOfDays}} ημερών",
+        "payment_details_title": "Στοιχεία πληρωμής",
+        "permissions_label": "Οι εξουσιοδοτήσεις σου",
+        "permissions_title": "Εξουσιοδοτήσεις",
+        "shipping_address_required": "Προσθέστε μια διεύθυνση παράδοσης σε αυτήν την τοποθεσία για να μπορείτε να κάνετε παραγγελίες.",
+        "tax_details_title": "Φορολογικά στοιχεία",
+        "tax_id": "ΑΦΜ",
+        "tax_exemptions": "Απαλλαγές από φόρους",
+        "multiple_tax_exemptions": "Nog {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "el",
+        "tax_exemption_not_applicable": "δεν ισχύει",
+        "tax_exemptions_modal_button_accessibility_label": "Εμφάνιση όλων των απαλλαγών από φόρους",
+        "own_role_contact_name": "Εσύ",
+        "staff_and_permissions_title": "Υπάλληλοι και εξουσιοδοτήσεις"
+      },
+      "location_selection": {
+        "description": "Εάν έχετε ήδη προϊόντα στο καλάθι σας, η αλλαγή της τοποθεσίας ενδέχεται να επηρεάσει τις τιμές και τις ποσότητες στο καλάθι σας.",
+        "list_item_without_address_accessibility_label": "{{name}}: χωρίς διεύθυνση",
+        "list_loading_address_accessibility_message": "Φόρτωση διεύθυνσης για {{locationName}}",
+        "list_loading_finished_accessibility_message": "Η λίστα τοποθεσιών έχει φορτωθεί",
+        "loading_store_accessibility_message": "Καθ' οδόν για το κατάστημα",
+        "title": "Για ποια τοποθεσία αγοράζεις;",
+        "no_location_description": "Δεν έχετε πλέον δικαίωμα να κάνετε παραγγελίες για {{company}}. Μπορείτε όμως να κάνετε προσωπικές παραγγελίες.",
+        "search": "Αναζήτηση τοποθεσιών",
+        "clear_search": "Εκκαθάριση αναζήτησης",
+        "try_new_search": "Δοκιμάστε μια νέα αναζήτηση",
+        "description_switch_later": "Μπορείς να αλλάξεις αργότερα όποτε θέλεις",
+        "title_choose_location": "Επιλέξτε μια τοποθεσία"
+      },
+      "addresses": {
+        "add_billing_address_button": "Προσθήκη διεύθυνσης τιμολογίου",
+        "add_billing_address_section_accessibility_label": "Προσθήκη διεύθυνσης τιμολογίου",
+        "add_shipping_address_button": "Προσθήκη διεύθυνσης παράδοσης",
+        "add_shipping_address_section_accessibility_label": "Προσθήκη διεύθυνσης παράδοσης",
+        "billing_address_card_title": "Διεύθυνση τιμολογίου",
+        "cancel_adding_billing_address_accessibility_label": "Προσθήκη διεύθυνσης τιμολογίου ακύρωση",
+        "cancel_adding_shipping_address_accessibility_label": "Προσθήκη διεύθυνσης παράδοσης ακύρωση",
+        "save_new_billing_address_accessibility_label": "Αποθήκευση διεύθυνσης τιμολογίου",
+        "save_new_shipping_address_accessibility_label": "Αποθήκευση διεύθυνσης παράδοσης",
+        "shipping_address_card_title": "Διεύθυνση παράδοσης"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Απόκρυψη όλων των παραγγελιών σε αξιολόγηση",
+          "show_all_accessibility_label": "Εμφάνιση όλων των παραγγελιών σε αξιολόγηση",
+          "title": "Σε επεξεργασία",
+          "pagination": {
+            "nav_accessibility_label": "Κουμπιά πλοήγησης για παραγγελίες υπό αξιολόγηση"
+          },
+          "show_all_orders_in_review": "Εμφάνιση όλων των παραγγελιών σε αξιολόγηση",
+          "show_less_orders_in_review": "Εμφάνιση λιγότερων παραγγελιών σε αξιολόγηση"
+        }
+      }
     }
   }
 }
