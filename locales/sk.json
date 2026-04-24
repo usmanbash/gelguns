@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Prejdite do obchodu s použitím hesla:",
-      "login_password_button": "Prejsť s použitím hesla",
+      "login_form_heading": "Vstúpte do obchodu pomocou hesla:",
+      "login_password_button": "Prihláste sa pomocou hesla",
       "login_form_password_label": "Heslo",
       "login_form_password_placeholder": "Vaše heslo",
       "login_form_error": "Nesprávne heslo!",
-      "login_form_submit": "Prejsť",
-      "admin_link_html": "Ste vlastníkom obchodu? <a href=\"/admin\" class=\"link underlined-link\">Prihláste sa tu</a>",
-      "powered_by_shopify_html": "Tento obchod bude používať technológiu {{ shopify }}"
+      "login_form_submit": "Zadať",
+      "admin_link_html": "Ste majiteľom obchodu? <a href=\"/admin\" class=\"link underlined-link\">Prihláste sa tu</a>",
+      "powered_by_shopify_html": "Tento obchod je poháňaný {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Zdielať na Facebooku",
+        "share_on_facebook": "Zdieľať na Facebooku",
         "share_on_twitter": "Zdieľať na X",
-        "share_on_pinterest": "Pripnúť na Pintereste"
+        "share_on_pinterest": "Pripnúť na Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (predtým Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,16 +37,16 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Pokračovať v nákupe",
+    "continue_shopping": "Návrat do obchodu",
     "pagination": {
       "label": "Stránkovanie",
       "page": "Stránka {{ number }}",
-      "next": "Nasledujúca stránka",
+      "next": "Ďalšia stránka",
       "previous": "Predchádzajúca stránka"
     },
     "search": {
-      "search": "Vyhľadať",
-      "reset": "Vymazať hľadaný výraz"
+      "search": "Hľadať",
+      "reset": "Vymazať vyhľadávací výraz"
     },
     "cart": {
       "view": "Zobraziť košík ({{ count }})",
@@ -4409,6 +4409,68 @@
         "current_method": "Súčasný",
         "success": "Spôsob platby aktualizovaný",
         "use_new_payment_method": "+ Použite novú platobnú metódu"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Prihlásiť sa alebo vytvoriť účet",
+        "section_divider": "Viac spôsobov prihlásenia",
+        "alternate_divider": "ZAPNUTÉ",
+        "shop_login_button": "Prihlásiť sa cez Shop",
+        "continue_with_google": "Pokračovať s Google",
+        "continue_with_facebook": "Pokračovať cez Facebook",
+        "use_email_button": "Použiť e-mailovú adresu"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Ahoj {{first_name}},",
+        "greeting_without_name": "Účet"
+      },
+      "location_picker": {
+        "sheet_title": "Lokality",
+        "search_field_placeholder": "Hľadať"
+      },
+      "aria_labels": {
+        "close_menu": "Zavrieť menu",
+        "back_to_main_menu": "Späť do hlavného menu z {{title}}",
+        "open_submenu": "{{title}}, otvorené podmenu",
+        "loading_menu": "Menu načítavať",
+        "account": "Účet",
+        "sign_in_with_email": "Prihlásiť sa e-mailom"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Zmeniť spôsob platby",
+        "replace_with": "Nahradiť za",
+        "add_new_payment_method": "Pridať nové",
+        "loading": "Modálne okno na zmenu platobnej metódy sa načítava",
+        "success": "Spôsob platby aktualizovaný",
+        "invalid_subscription_contract": "Nie je možné nájsť predplatné",
+        "expiry_date": "Platí do {{expiryDate}}",
+        "edit_current_payment_method": "Upraviť aktuálnu platobnú metódu",
+        "edit_selected_payment_method": "Upraviť vybraný spôsob platby"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logo",
+      "step_one": {
+        "page_title": "Prihlásiť sa - %{shop_name}",
+        "input_field_label": "E-mailová adresa",
+        "subheading_with_sign_in_options": "Prihlásiť sa alebo vytvoriť účet",
+        "or": "z",
+        "consent_agreement": "Pokračovaním súhlasíte s %{terms}"
+      },
+      "step_two": {
+        "page_title": "Zadajte kód - %{shop_name}",
+        "heading": "Zadajte kód",
+        "subheading": "Odoslané na %{email}",
+        "restart_link": "Prihlásiť sa s inou e-mailovou adresou",
+        "input_field_label": "Kód zo 6 číslic"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Zadajte správny šesťciferný kód"
+        }
       }
     }
   }
