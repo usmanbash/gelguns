@@ -3317,7 +3317,81 @@
       "email_update_confirmation_message": "Adresa de email actualizată la {{email}}"
     },
     "orders": {
-      "list_layout_accessibility_label": "Opțiuni de formatare"
+      "list_layout_accessibility_label": "Opțiuni de formatare",
+      "order_list": {
+        "delivered": "Livrat: {{date}}",
+        "empty_state_order_source_description": "Doar comenzile plasate prin {{email}} sunt afișate aici.",
+        "empty_state_subtitle": "Mergi la magazin pentru a plasa o comandă.",
+        "estimated_delivery": "Așteptat pe {{date}}",
+        "items": {
+          "one": "{{count}} articole"
+        },
+        "order_link": "Vizualizează comanda {{name}}",
+        "order_number": "Comandă {{name}}",
+        "orders_title": "Confirmat",
+        "pagination": {
+          "nav_accessibility_label": "Buton de navigare pentru comenzi",
+          "next": "Următorul",
+          "next_accessibility_label": "Următoarele comenzi",
+          "previous": "Anterior",
+          "previous_accessibility_label": "Comenzi anterioare",
+          "load_more": "Încarcă mai mult"
+        },
+        "sort_title": "Sortare",
+        "sort": {
+          "date": {
+            "oldest": "De la cel mai vechi la cel mai nou"
+          },
+          "location": {
+            "ascending": "Locație (A-Ș)"
+          },
+          "order_number": {
+            "ascending": "Număr comandă (de la cel mai mic la cel mai mare)",
+            "descending": "Număr comandă (de la cel mai mare la cel mai mic)"
+          },
+          "order_total": {
+            "ascending": "Comandă totală (de la mic la mare)",
+            "descending": "Comandă totală (de la mare la mic)"
+          }
+        },
+        "one_images_accessibility_label": "Comanda conține {{lineItemName1}}",
+        "two_images_accessibility_label": "Comanda conține {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Comanda conține {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Comanda conține {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Elimină filtrele sau ajustează-le pentru a vedea comenzile tale",
+        "estimated_shortform": "Estimare pentru {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Prea târziu",
+            "due": "Datorat la {{date}}",
+            "due_today": "Astăzi datorat",
+            "due_without_date": "Datorat",
+            "due_on_fulfillment": "De plătit la îndeplinirea comenzii",
+            "pay_to_confirm": "Plătiți pentru a confirma",
+            "payment_not_due": "Nu este încă datorat",
+            "paid": "Plătit"
+          },
+          "gallery_view": {
+            "overdue": "Plata este întârziată",
+            "due": "Plată datorată la {{date}}",
+            "due_today": "Plata este datorată astăzi",
+            "due_without_date": "Plată datorată",
+            "due_on_fulfillment": "Plată datorată la îndeplinirea comenzii",
+            "pay_to_confirm": "Plătiți pentru a confirma",
+            "payment_not_due": "Plata nu este încă datorată"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Momentan sortat după: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Comanda conține {{lineItemName1}} în cantitate de {{lineItemQuantity1}}, {{lineItemName2}} în cantitate de {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Comanda conține {{lineItemName1}} în cantitate de {{lineItemQuantity1}}, {{lineItemName2}} în cantitate de {{lineItemQuantity2}}, {{lineItemName3}} în cantitate de {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}, {{lineItemName5}} cantitate {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}, {{lineItemName5}} cantitate {{lineItemQuantity5}}, {{lineItemName6}} cantitate {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Comanda conține {{lineItemName1}} în cantitate de {{lineItemQuantity1}}, {{lineItemName2}} în cantitate de {{lineItemQuantity2}}, {{lineItemName3}} în cantitate de {{lineItemQuantity3}}, {{lineItemName4}} în cantitate de {{lineItemQuantity4}}, {{lineItemName5}} în cantitate de {{lineItemQuantity5}}, {{lineItemName6}} în cantitate de {{lineItemQuantity6}} și altele"
+        }
+      }
     }
   }
 }
