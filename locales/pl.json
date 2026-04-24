@@ -3825,7 +3825,87 @@
             "nav_accessibility_label": "Przyciski nawigacyjne dla zamówień w ocenie"
           },
           "show_all_orders_in_review": "Wyświetl wszystkie zamówienia w ocenie",
-          "show_less_orders_in_review": "Wyświetl mniej zamówień w ocenie"
+          "show_less_orders_in_review": "Wyświetl mniej zamówień w ocenie",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nie masz żadnych zamówień w realizacji",
+            "pending_orders": {
+              "one": "Masz {{count}} zamówienie w realizacji",
+              "other": "Masz {{count}} zamówień w realizacji"
+            },
+            "more_than_pagination_length": "Masz więcej niż {{count}} zamówień w realizacji"
+          },
+          "pending_orders_count_more_than_pagination_length": "więcej niż {{count}}"
+        }
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Potwierdzono {{date}} dla zamówienia {{draftOrderName}}",
+        "loading": "Ładowanie danych zamówienia",
+        "loading_finished_accessibility_message": "Dane zamówienia zostały załadowane",
+        "payment_status": {
+          "draft": {
+            "description": "Dane do płatności zostaną ustalone po potwierdzeniu zamówienia.",
+            "title": "Płatność nie jest jeszcze wymagana",
+            "in_review": {
+              "description": "Dane do płatności zostaną ustalone po potwierdzeniu zamówienia.",
+              "title": "Płatność nie jest jeszcze wymagana"
+            },
+            "submitted": {
+              "description": "Zapłać, aby potwierdzić to zamówienie.",
+              "deposit": {
+                "title": "Płatność jest należna",
+                "due_later": "Saldo podlega warunkom {{translatedName}} i jest należne do {{dueDate}}.",
+                "due_on_fulfillment": "Saldo jest należne, gdy wszystkie artykuły w tym zamówieniu zostaną zrealizowane.",
+                "due_on_receipt": "Otrzymasz fakturę za pozostałą kwotę.",
+                "due_on_date": "Saldo jest należne do {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} jest należne po potwierdzeniu zamówienia. Na saldo mają zastosowanie warunki {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} jest należne po potwierdzeniu zamówienia. Saldo jest należne po zrealizowaniu zamówienia.",
+              "due_on_receipt": "{{depositAmount}} jest należne po potwierdzeniu zamówienia. Saldo jest należne później.",
+              "due_on_date": "{{depositAmount}} jest należne po potwierdzeniu zamówienia. Saldo jest należne do {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Twoje zamówienie zostało całkowicie opłacone.",
+            "title": "Opłacono",
+            "title_with_date": "Zapłacono {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Twoja płatność jest {{count}} dni spóźniona",
+              "other": "Twoja płatność jest {{count}} dni spóźniona"
+            },
+            "banner_due": {
+              "one": "Twoja płatność jest należna za {{count}} dni",
+              "other": "Twoja płatność jest należna za {{count}} dni"
+            },
+            "banner_due_today": "Twoja płatność jest należna dzisiaj",
+            "title": "Płatność należna",
+            "title_with_date": "Płatność należna do {{date}}",
+            "description_overdue": "Twoja płatność jest spóźniona.",
+            "description_partially_paid": "To zamówienie zostało częściowo opłacone. Masz pozostałe saldo.",
+            "description_authorized": "Kwota zostanie pobrana w dniu, w którym jest należna, za pomocą wybranej metody płatności. Możesz też zapłacić już teraz.",
+            "title_due_on_receipt": "Płatność nie jest jeszcze wymagana",
+            "description_due_on_receipt": "Otrzymasz fakturę, gdy płatność będzie należna.",
+            "title_due_on_fulfillment": "Płatność jest należna przy realizacji zamówienia.",
+            "description_due_on_fulfillment": "Płatność jest należna, gdy wszystkie artykuły w tym zamówieniu zostaną zrealizowane.",
+            "description_waiting_for_manual_payment": "Płatność za to zamówienie jest w trakcie realizacji. Stan konta zostanie zaktualizowany po otrzymaniu płatności.",
+            "description_due_on_receipt_partially_paid": "To zamówienie zostało częściowo opłacone. Pozostała do zapłaty kwota. Otrzymasz fakturę, gdy płatność będzie wymagalna.",
+            "description_due_on_fulfillment_partially_paid": "To zamówienie zostało częściowo opłacone. Pozostała do zapłaty kwota. Płatność jest należna, gdy wszystkie artykuły w tym zamówieniu zostaną zrealizowane.",
+            "description_due_on_fulfillment_partially_paid_next": "To zamówienie zostało częściowo opłacone. Masz pozostałe saldo.",
+            "banner_due_today_for_single_fulfillment": "Płatność w wysokości {{amount}} jest wymagana dzisiaj. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Płatność wymagana dzisiaj za {{count}} realizacji",
+            "banner_overdue_for_multiple_fulfillments": "Płatność należna za {{count}} realizacji",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Płatność w wysokości {{amount}} jest opóźniona o {{count}} dni. {{link}}",
+              "other": "Płatność w wysokości {{amount}} jest opóźniona o {{count}} dni. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Zwrócono pieniądze",
+            "title_with_date": "Zwrot dokonany w dniu {{date}}"
+          }
         }
       }
     }

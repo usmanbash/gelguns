@@ -2706,7 +2706,91 @@
       "merchant_instruction_errors": {
         "empty_stable_id": "A instrução de mercadoria %{position} %{name} contém um ID de stock vazio.",
         "invalid_stable_id_target": "A instrução de mercadoria %{position} %{name} refere-se ao stable-ID %{stable_id}, mas esse stable-ID não se encontra nas linhas de mercadoria.",
-        "duplicate_variant_id": "A instrução de mercadoria %{position} %{name} contém um ID de variante duplicado %{variant_id}."
+        "duplicate_variant_id": "A instrução de mercadoria %{position} %{name} contém um ID de variante duplicado %{variant_id}.",
+        "invalid_variant_id_target": "A instrução de mercadoria %{name} refere-se ao ID da variante %{variant_id}, mas essa variante não se encontra nas linhas de mercadoria.",
+        "invalid_price_override_target": "A instrução para sobrescrever o preço dos bens para a linha de encomenda %{stable_id} é inválida porque é um componente de pacote.",
+        "discount_not_supported": "A instrução para comerciantes sobre a aplicação de desconto em mercadorias não suporta este tipo de desconto."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Este produto não está disponível para envio para %{location_name}.",
+          "some_products_other": "Estes produtos não estão disponíveis para envio para %{location_name}.",
+          "all_products_one": "O produto no seu carrinho não está disponível para envio para %{location_name}.",
+          "all_products_other": "Os produtos no seu carrinho não estão disponíveis para envio para %{location_name}."
+        },
+        "missing_country_fallback": "o teu país",
+        "indeterminate_location_fallback": "a tua localização",
+        "cart_updated": "O teu carrinho foi atualizado.",
+        "empty_cart_action": "esvazie o carrinho e volte à loja",
+        "remove_items_action": {
+          "one": "remova o artigo indisponível",
+          "other": "remover os artigos indisponíveis"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Já não tem autorização para fazer encomendas B2B. %{logout_url} para fazer uma encomenda pessoal em vez disso.",
+        "lost_permissions_subtitle": "Já não tem autorização para fazer encomendas B2B. Termine a sessão para fazer uma encomenda pessoal.",
+        "lost_permissions_title": "Sem permissões de localização"
+      },
+      "units": {
+        "liter": "l",
+        "fluid_ounce": "fl oz",
+        "gallon": "rapariga",
+        "inch": "em",
+        "foot": "pé",
+        "item": "artigo"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Este endereço não é suportado para a subscrição atual.",
+        "items_split_across_locations_unsupported": "A entrega Prime não está disponível para a sua encomenda. As suas opções de envio foram atualizadas."
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Este artigo não pode ser adicionado ao seu carrinho porque provém de uma loja que utiliza uma moeda diferente.",
+          "max_remote_shops_exceeded": "Este produto não pode ser adicionado porque o seu carrinho já contém o máximo permitido de outras lojas.",
+          "currency_mismatch_removal": "Foi removido um artigo do seu carrinho porque provém de uma loja que utiliza uma moeda diferente.",
+          "only_remote_merchandise_lines": "O carrinho contém apenas artigos externos. É necessário redirecionar para a loja externa para concluir a compra."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Concluir a sua compra",
+        "remote_only_notice": "Estes artigos são vendidos e enviados por outras lojas. Dirija-se à caixa de cada loja para concluir a sua compra.",
+        "checkout_on_shop_label": "Finalizar compra em %{shop_name}",
+        "single_shop_transition": "Serás redirecionado para %{advertiser} para concluir a tua compra.",
+        "detail_item_label": {
+          "one": "{{count}} artigos",
+          "other": "{{count}} artigos"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Não foi fornecida nenhuma %{policy_name} para esta loja. Para mais informações, contacte diretamente %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Pagamento falhou",
+        "payment_not_processed_text": "Digitalize novamente o código QR. Se ainda não funcionar, informe os nossos colaboradores e experimente outro método de pagamento.",
+        "payment_link_expired_text": "Digitalize o código QR novamente.",
+        "title": "Pagamento fora do local falhou"
+      },
+      "taxes": {
+        "tax_details": "Informações fiscais adicionais",
+        "vat_number": {
+          "field": {
+            "label": "Número de identificação Btw (opcional)",
+            "tooltip": "Valida o número de identificação de IVA e aplica automaticamente a inversão do sujeito passivo nas encomendas que se qualificam para tal"
+          },
+          "add": "Adicionar um número de IVA",
+          "vaulted": "Número de identificação Btw: %{number}",
+          "badge": "Número de identificação Btw: %{number}",
+          "domestic_order": "O regime de diferimento aplica-se apenas a encomendas transfronteiriças dentro da UE. Para encomendas locais, o IVA é cobrado por defeito.",
+          "status": {
+            "invalid_format": {
+              "at": "Um número de identificação de IVA da Áustria contém AT e 9 caracteres",
+              "be": "Um número de identificação de IVA da Bélgica contém BE e 10 caracteres",
+              "bg": "Um número de identificação para efeitos de IVA da Bulgária contém BG e 9-10 caracteres",
+              "hr": "Um número de identificação de IVA da Croácia contém HR e 11 caracteres"
+            }
+          }
+        }
       }
     }
   }
