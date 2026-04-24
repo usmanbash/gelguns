@@ -4303,7 +4303,93 @@
       "saturdayAbbreviation": "sam.",
       "sundayAbbreviation": "ainsi.",
       "showNextMonth": "Afficher le mois prochain, {{month}} {{year}}",
-      "rangeStart": "Début de la portée"
+      "rangeStart": "Début de la portée",
+      "inRange": "À portée de main",
+      "rangeEnd": "Fin de la portée",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} articles disponibles",
+        "other": "{{count}} articles disponibles"
+      },
+      "removeTag": "Supprimer l’étiquette",
+      "mapClusterTitle": {
+        "one": "Groupe de {{number}} points de repère",
+        "other": "Groupe de {{number}} points de repère"
+      },
+      "expandSheet": "Déplier",
+      "qrCode": "Code QR",
+      "dropzoneInvalidFileType": "Ce type de fichier n'est pas pris en charge",
+      "dropzoneDraggedOver": "Déposer le fichier pour le téléverser",
+      "clipboardFailedToCopy": "Pas copié",
+      "clear": "Savoir"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Modifier",
+      "hide_bar": "Cacher la poutre",
+      "navigate_to_admin": "Aller au centre de gestion",
+      "previewing": "Vous regardez un exemple de :",
+      "viewing": "Vous regardez :",
+      "not_available": "Aucune donnée de profil disponible",
+      "close_preview": "Fermer l'exemple",
+      "actions_button": "Promotions"
+    },
+    "settings": {
+      "loading_accessibility_message": "Chargement de la page des réglages",
+      "log_out_everywhere": {
+        "title": "Se déconnecter partout",
+        "description": "Si vous avez perdu un appareil ou si vous vous inquiétez pour la sécurité, déconnectez-vous partout pour garantir la sûreté de votre compte.",
+        "warning_message": "Vous serez également déconnecté de cet appareil."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Le {{date}} à {{time}}",
+        "lessThanOneWeekAgo": "Le {{weekday}} à {{time}}",
+        "today": "Aujourd'hui à {{time}}",
+        "lessThanOneWeekAway": "Le {{weekday}} à {{time}}",
+        "lessThanOneYearAway": "Le {{date}} à {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "il y a {{count}} minute(s)",
+          "other": "il y a {{count}} minutes"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Sélectionner l'extension nommée '{{extensionName}}'",
+        "unselect": "Annuler la sélection de l'extension nommée '{{extensionName}}'",
+        "move_down": "Déplacer l'extension vers la position suivante",
+        "move_up": "Déplacer l'extension vers la position précédente",
+        "remove": "Supprimer l'extension",
+        "move_down_tooltip": "Déplacer à la position suivante",
+        "move_up_tooltip": "Revenir à la position précédente"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Vous ne pouvez pas ouvrir ce lien dans l’éditeur. Le lien s’ouvrira dans une nouvelle fenêtre ({{resolved_to_link}}). Cliquez sur OK pour continuer."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Trop de tentatives",
+        "description": "Réessayez dans quelques minutes"
+      }
+    },
+    "shop_ads": {
+      "title": "Autres produits qui pourraient vous plaire",
+      "subtitle": "Disponible temporairement",
+      "button": "Explorer sur la boutique"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Les clients peuvent eux-mêmes demander et gérer les retours.",
+        "disabled": "Les clients doivent contacter le commerçant pour demander un retour."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Préférences de cookies"
+    },
+    "announcement_bar": {
+      "expand_label": "Déplier la barre d'annonces",
+      "collapse_label": "Réduire la barre d'annonce"
     }
   }
 }
