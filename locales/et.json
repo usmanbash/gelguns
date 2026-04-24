@@ -4214,7 +4214,83 @@
           "pending_orders_count_more_than_pagination_length": "rohkem kui {{count}}"
         },
         "order_list_column_headers_location": "Asukoht",
-        "order_list_column_headers_contact": "Võta ühendust"
+        "order_list_column_headers_contact": "Võta ühendust",
+        "removed_company_contact_tooltip": "Võõras ettevõte eemaldatud",
+        "order_list_column_headers_status": "Staatus"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Kinnitatud {{date}} tellimuse {{draftOrderName}} jaoks",
+        "loading": "Tellimuse andmete laadimine",
+        "loading_finished_accessibility_message": "Tellimuse andmed on laaditud",
+        "payment_status": {
+          "draft": {
+            "description": "Makseandmed määratakse, kui tellimus on kinnitatud.",
+            "title": "Makse ei ole veel võlgnenud",
+            "in_review": {
+              "description": "Makseandmed määratakse, kui tellimus on kinnitatud.",
+              "title": "Makse ei ole veel võlgnenud"
+            },
+            "submitted": {
+              "description": "Makske, et see tellimus kinnitada.",
+              "title": "Makse kinnitamiseks",
+              "deposit": {
+                "title": "Makse on võlgnenud",
+                "due_later": "Saldo suhtes kehtivad {{translatedName}} tingimused ja see tuleb tasuda {{dueDate}}.",
+                "due_on_fulfillment": "Saldo tuleb tasuda kohe, kui kõik selle tellimuse artiklid on töödeldud.",
+                "due_on_receipt": "Saad arve ülejäänud saldo eest.",
+                "due_on_date": "Saldo tuleb tasuda {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Saldo osas kehtivad {{translatedName}} tingimused.",
+              "due_on_fulfillment": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Jääk tuleb tasuda, kui tellimus on täidetud.",
+              "due_on_receipt": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Jääk tuleb tasuda hiljem.",
+              "due_on_date": "{{depositAmount}} tuleb tasuda, kui tellimus on kinnitatud. Jääk tuleb tasuda {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Sinu tellimus on täielikult tasutud.",
+            "title": "Makstud",
+            "title_with_date": "Makstud {{date}}"
+          },
+          "pay_now": "Maksma nüüd",
+          "title": "Makse staatus",
+          "pending": {
+            "banner_overdue": {
+              "one": "Sinu makse on {{count}} päeva hilinenud",
+              "other": "Sinu makse on {{count}} päeva hilinenud"
+            },
+            "banner_due": {
+              "one": "Sinu makse on võlgnenud {{count}} päeva jooksul",
+              "other": "Sinu makse on võlgnetav {{count}} päeva pärast"
+            },
+            "banner_due_today": "Sinu makse on täna tasumisele kuuluv",
+            "title": "Makse võlgnetav",
+            "title_with_date": "Makse tähtaeg on {{date}}",
+            "description_overdue": "Sinu makse on hilinenud.",
+            "description_partially_paid": "See tellimus on osaliselt tasutud. Sul on järelejäänud saldo.",
+            "description_authorized": "Summa võetakse arvele sellel kuupäeval, mil see on tasumisele kuuluv, kasutades sinu valitud makseviisi. Sa võid ka juba praegu maksta.",
+            "title_due_on_receipt": "Makse ei ole veel võlgnenud",
+            "description_due_on_receipt": "Saad arve, kui makse on tasumisele kuuluv.",
+            "title_due_on_fulfillment": "Makse tuleb tasuda tellimuse täitmisel.",
+            "description_due_on_fulfillment": "Makse tuleb tasuda kohe, kui kõik selle tellimuse artiklid on töödeldud.",
+            "description_waiting_for_manual_payment": "Selle tellimuse makse on töös. Saldo uuendatakse, kui makse on laekunud.",
+            "description_due_on_receipt_partially_paid": "See tellimus on osaliselt tasutud. Sul on järelejäänud saldo. Sa saad arve, kui makse on tasumisele kuuluv.",
+            "description_due_on_fulfillment_partially_paid": "See tellimus on osaliselt tasutud. Sul on järelejäänud saldo. Maksmine tuleb teha, kui kõik selle tellimuse artiklid on töödeldud.",
+            "description_due_on_fulfillment_partially_paid_next": "See tellimus on osaliselt tasutud. Sul on järelejäänud saldo.",
+            "banner_due_today_for_single_fulfillment": "Makse summas {{amount}} on täna tasumisele kuuluv. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Täna tasumisele kuuluv summa {{count}} täitmise eest",
+            "banner_overdue_for_multiple_fulfillments": "Makse võlgnetav {{count}} täitmise eest",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Makse summas {{amount}} on {{count}} päeva hilinenud. {{link}}",
+              "other": "Makse summas {{amount}} on {{count}} päeva hilinenud. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Tagastatud",
+            "title_with_date": "Tagastatud {{date}}"
+          }
+        }
       }
     }
   }
