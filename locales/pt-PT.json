@@ -4131,7 +4131,103 @@
     "profile_preview_bar": {
       "customize_button": "Ajustar",
       "hide_bar": "Ocultar viga",
-      "navigate_to_admin": "Navegar para o centro de gestão"
+      "navigate_to_admin": "Navegar para o centro de gestão",
+      "previewing": "Está a ver um exemplo de:",
+      "saved_at": "Guardado em {{date}} às {{time}}",
+      "viewing": "Está a ver:",
+      "not_available": "Nenhum dado de perfil disponível",
+      "close_preview": "Fechar exemplo",
+      "actions_button": "Promoções"
+    },
+    "settings": {
+      "loading_accessibility_message": "A carregar a página de definições",
+      "log_out_everywhere": {
+        "title": "Terminar sessão em todo o lado",
+        "description": "Se perdeu um dispositivo ou está preocupado com a segurança, termine sessão em todos os locais para garantir a segurança da sua conta.",
+        "warning_message": "Também serás desconectado deste dispositivo."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} às {{time}}",
+        "lessThanOneWeekAgo": "Em {{weekday}} às {{time}}",
+        "yesterday": "Ontem às {{time}}",
+        "today": "Hoje às {{time}}",
+        "tomorrow": "Amanhã às {{time}}",
+        "lessThanOneWeekAway": "Em {{weekday}} às {{time}}",
+        "lessThanOneYearAway": "Op {{date}} às {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "há {{count}} minutos",
+          "other": "há {{count}} minutos"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Selecionar a extensão chamada '{{extensionName}}'",
+        "unselect": "Anular a seleção da extensão chamada '{{extensionName}}'"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Não podes abrir este link dentro do editor. O link será aberto numa nova janela ({{resolved_to_link}}). Clica em OK para continuar."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Tente novamente daqui a alguns minutos"
+      }
+    },
+    "shop_ads": {
+      "title": "Outros produtos que talvez goste",
+      "subtitle": "Disponível temporariamente",
+      "button": "Explorar na Loja"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Os clientes podem solicitar e gerir devoluções por conta própria.",
+        "disabled": "Os clientes devem contactar o comerciante para solicitar uma devolução."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Expandir barra de anúncios",
+      "collapse_label": "Recolher barra de anúncios",
+      "close_label": "Fechar barra de anúncios"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "loading": "Carregar métodos de pagamento",
+        "no_payment_methods_available": "Nenhum método de pagamento disponível",
+        "select_new_payment_method": "Selecione um novo método de pagamento"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "alternate_divider": "DE",
+        "email_field_label": "Correio eletrónico",
+        "shop_login_button": "Iniciar sessão com Shop",
+        "continue_with_google": "Continuar com o Google",
+        "continue_with_facebook": "Continuar com o Facebook",
+        "use_email_button": "Usar endereço de correio eletrónico"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Olá {{first_name}},"
+      },
+      "location_picker": {
+        "sheet_title": "Locais",
+        "search_field_placeholder": "Pesquisar"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, abrir submenu",
+        "loading_menu": "Carregar menu"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Substituir método de pagamento",
+        "replace_with": "Substituído por",
+        "loading": "Modal para substituir o método de pagamento está a ser carregado",
+        "invalid_subscription_contract": "Não foi possível encontrar a assinatura",
+        "expiry_date": "Expira em {{expiryDate}}"
+      }
     }
   }
 }
