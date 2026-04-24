@@ -3648,9 +3648,89 @@
             "in_review": {
               "description": "Los datos de pago se determinarán una vez que el pedido haya sido confirmado.",
               "title": "El pago aún no es debido"
+            },
+            "submitted": {
+              "description": "Pague para confirmar este pedido.",
+              "deposit": {
+                "title": "El pago es debido",
+                "due_later": "Para el saldo se aplican las condiciones de {{translatedName}} y es exigible en {{dueDate}}.",
+                "due_on_fulfillment": "El saldo se debe una vez que todos los artículos de este pedido hayan sido procesados.",
+                "due_on_receipt": "Recibirás una factura por el saldo restante.",
+                "due_on_date": "El saldo se debe pagar el {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "Se debe pagar {{depositAmount}} cuando se confirme el pedido. Para el saldo, se aplican las condiciones de {{translatedName}}.",
+              "due_on_fulfillment": "Se debe pagar {{depositAmount}} cuando se confirme el pedido. El saldo se debe pagar cuando tu pedido haya sido procesado.",
+              "due_on_receipt": "Se debe pagar {{depositAmount}} cuando se confirme el pedido. El saldo se debe pagar más adelante.",
+              "due_on_date": "Se debe pagar {{depositAmount}} cuando se confirme el pedido. El saldo se debe pagar el {{dueDate}}."
             }
-          }
+          },
+          "paid": {
+            "description": "Tu pedido está completamente pagado."
+          },
+          "pay_now": "Paga ahora",
+          "title": "Estado de pago",
+          "pending": {
+            "banner_overdue": {
+              "one": "Tu pago tiene {{count}} día(s) de retraso",
+              "other": "Tu pago tiene un retraso de {{count}} días"
+            },
+            "banner_due": {
+              "one": "Tu pago vence en {{count}} día(s)",
+              "other": "Tu pago vence en {{count}} días"
+            },
+            "banner_due_today": "Tu pago vence hoy",
+            "title": "Pago debido",
+            "title_with_date": "Pago debido el {{date}}",
+            "description_overdue": "Tu pago está atrasado.",
+            "description_partially_paid": "Este pedido está parcialmente pagado. Tienes un saldo pendiente.",
+            "description_authorized": "El importe se cargará en la fecha en que sea debido mediante el método de pago que hayas elegido. También puedes pagar ahora mismo.",
+            "title_due_on_receipt": "El pago aún no es debido",
+            "description_due_on_receipt": "Recibirás una factura cuando el pago sea debido.",
+            "title_due_on_fulfillment": "El pago se debe al momento de cumplir con el pedido.",
+            "description_due_on_fulfillment": "El pago se debe una vez que todos los artículos de este pedido hayan sido procesados.",
+            "description_waiting_for_manual_payment": "Un pago para este pedido está en proceso. El saldo se actualizará cuando recibamos el pago.",
+            "description_due_on_receipt_partially_paid": "Este pedido está parcialmente pagado. Tienes un saldo pendiente. Recibirás una factura cuando el pago sea debido.",
+            "description_due_on_fulfillment_partially_paid": "Este pedido está parcialmente pagado. Tienes un saldo pendiente. El pago se debe realizar una vez que todos los artículos de este pedido hayan sido procesados.",
+            "description_due_on_fulfillment_partially_paid_next": "Este pedido está parcialmente pagado. Tienes un saldo pendiente.",
+            "banner_due_today_for_multiple_fulfillments": "Pago debido hoy por {{count}} cumplimientos",
+            "banner_overdue_for_multiple_fulfillments": "Pago debido por {{count}} cumplimientos",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "El pago de {{amount}} tiene un retraso de {{count}} día. {{link}}",
+              "other": "El pago de {{amount}} tiene un retraso de {{count}} días. {{link}}"
+            }
+          },
+          "refund": {
+            "description_full_refund": "Has recibido un reembolso completo por este pedido.",
+            "description_single_refund": "Has recibido un reembolso parcial por este pedido.",
+            "description_multiple_refunds": "Has recibido reembolsos parciales por este pedido."
+          },
+          "canceled": {
+            "description": "No se te ha cobrado ningún costo."
+          },
+          "pay_now_accessibility_label": "Paga ahora por el pedido {{orderName}}",
+          "due_date": "Adeudado el {{date}}"
+        },
+        "subtitle": "Enviado: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Mostrar datos",
+          "expand_events_accessibility_label": "Mostrar datos del pedido provisional",
+          "hide_events_label": "Ocultar datos",
+          "hide_events_accessibility_label": "Ocultar datos del pedido provisional"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Este método de pago ya no está disponible para futuras compras en esta ubicación.",
+          "description_with_replacement": "Si eliminas este método de pago, afectará los pagos previamente autorizados para esta ubicación. Sustitúyelo por otro método de pago para seguir recibiendo pedidos futuros."
+        },
+        "payment_details": {
+          "draft_label": "Pedido conceptual {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Agregar número de pedido"
       }
     }
   }
