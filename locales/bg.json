@@ -4492,6 +4492,88 @@
       "too_many_attempts": {
         "description": "Опитайте отново след няколко минути"
       }
+    },
+    "shop_ads": {
+      "title": "Други продукти, които може да харесате",
+      "subtitle": "Временно наличен",
+      "button": "Разгледайте в Магазин",
+      "previous_button": "Предишен",
+      "next_button": "Следващ"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "disabled": "Клиентите трябва да се свържат с търговеца, за да поискат връщане."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Предпочитания за бисквитки"
+    },
+    "announcement_bar": {
+      "expand_label": "Разгъване на лентата за известия",
+      "collapse_label": "Свиване на лентата за известия",
+      "close_label": "Затвори лентата за известия"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Смяна на метода на плащане",
+        "loading": "Зареждане на методи за плащане",
+        "no_payment_methods_available": "Няма налични методи за плащане",
+        "select_new_payment_method": "Изберете нов метод на плащане",
+        "current_method": "Текущо",
+        "cancel": "Отказване",
+        "save": "Запази",
+        "success": "Методът на плащане е актуализиран",
+        "use_new_payment_method": "+ Използвайте нов метод на плащане"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Вход или създаване на акаунт",
+        "section_divider": "Още начини за влизане",
+        "alternate_divider": "ОТ",
+        "shop_login_button": "Вход с Shop",
+        "continue_with_facebook": "Продължете с Facebook",
+        "use_email_button": "Използване на имейл адрес"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Здравей, {{first_name}},"
+      },
+      "location_picker": {
+        "sheet_title": "Локации"
+      },
+      "aria_labels": {
+        "close_menu": "Затвори менюто",
+        "back_to_main_menu": "Върни се към главното меню от {{title}}",
+        "open_submenu": "{{title}}, отвори подменю",
+        "loading_menu": "Меню заредено",
+        "sign_in": "Вход"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "card_number": "Номер на карта",
+        "title": "Смяна на метода на плащане",
+        "replace_with": "Заменено с",
+        "add_new_payment_method": "Добавяне на ново",
+        "save_button": "Запази",
+        "close_button": "Затвори",
+        "loading": "Зарежда се модален прозорец за смяна на начина на плащане",
+        "success": "Методът на плащане е актуализиран",
+        "invalid_subscription_contract": "Не може да се намери абонаментът",
+        "edit_current_payment_method": "Редактиране на текущия метод на плащане",
+        "edit_selected_payment_method": "Редактиране на избрания метод на плащане"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "лого на %{shop_name}",
+      "step_one": {
+        "page_title": "Вход - %{shop_name}",
+        "heading": "Вход",
+        "subheading": "Въведете своя имейл адрес и ние ще ви изпратим код за потвърждение",
+        "input_field_label": "Имейл адрес",
+        "button": "Продължи",
+        "subheading_with_sign_in_options": "Вход или създаване на акаунт"
+      }
     }
   }
 }
