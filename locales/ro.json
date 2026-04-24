@@ -1000,7 +1000,77 @@
             "one": "%{count} articole",
             "other": "%{count} articole"
           }
+        },
+        "alternative_payment_currency_total": "debitat ca %{amount_due}",
+        "group_title_label": "Parte din '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Reducere la comandă",
+          "other": "Reduceri la comenzi"
+        },
+        "updated_shipping_method": "Metodă de livrare actualizată: %{shipping_method}",
+        "discount_not_found": "Nu se poate găsi o reducere valabilă care să corespundă codului introdus",
+        "return_restocking_fee_label": "Costuri de aprovizionare cu ierburi",
+        "return_shipping_fee_label": "Returnare colet",
+        "enter_shipping_address": "Introduceți adresa de livrare",
+        "discount_code_applied": "Cod de reducere aplicat",
+        "gift_card_applied": "Bon cadou aplicat",
+        "duties_included_label": "Totalul include impozitele și taxele vamale. Nu există costuri suplimentare la livrare.",
+        "deferred_balance_info": {
+          "title": "Soldul de {{amount_due}} este datorat la {{due_at}}.",
+          "due_on_fulfillment_title": "Soldul de {{amount_due}} este datorat la finalizarea comenzii"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> cod de reducere necesar pentru clientul eligibil",
+        "product_image_quantity_label": "Număr",
+        "more_items_modal": {
+          "clear_search": "Șterge căutarea",
+          "empty_results": "Nu au fost găsite rezultate pentru '%{searchText}'. Verifică ortografia sau folosește un alt cuvânt ori o altă expresie.",
+          "search_item": "Căutare"
+        },
+        "number_items": {
+          "one": "%{count} articole"
+        },
+        "view_all_items": {
+          "one": "Vizualizează %{count} articole"
+        },
+        "price_before_discount_aria_text": "Prețul inițial",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Trimite către adresă"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nu există magazine disponibile cu articolul tău",
+          "other": "Nu există magazine disponibile cu articolele tale"
+        },
+        "deposit_label": "Avans",
+        "total_due_later_label": "Total datorat mai târziu",
+        "discount_code_allocations_mismatch": "Codul tău de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> a fost modificat. Verifică coșul de cumpărături și încearcă din nou.",
+        "deferred_total_due_date_label_next": "Datorat la %{date}",
+        "from_shop_heading": "Vinde la %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Reduceri la comandă valabile doar pentru articolele de la %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Voucherele cadou sunt valabile doar pentru articolele de la %{shop_name}",
+        "estimated_taxes_label_short": "Estimativ",
+        "discount_code_replaced": "Codul de reducere %{old_code} a fost eliminat și %{code} a fost aplicat",
+        "discount_code_replaced_multiple": "Mai multe coduri de reducere au fost eliminate și %{code} a fost aplicat",
+        "from_multiple_stores_heading": "Din mai multe magazine",
+        "pay_merchant_label": "Plătiți %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Reducerea se aplică doar pentru articolele cu abonament",
+        "estimated_taxes_finalization_tooltip_content_short": "Rotunjirea impozitului după plată",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nu există magazine disponibile în %{country} cu articolul tău",
+          "other": "Nu există magazine disponibile în %{country} cu articolele tale"
+        },
+        "compare_at_sale": "Reducere (%{sale_amount})",
+        "tax_line": {
+          "gst": "TVA"
         }
+      },
+      "shipping": {
+        "title": "Expediere",
+        "shipping_method_title": "Metoda de expediere",
+        "waiting_on_rate_notice": "Se încarcă tarifele de expediere disponibile...",
+        "waiting_on_pickup_location_notice": "Se încarcă locațiile disponibile pentru ridicare...",
+        "no_rates_for_cart_or_destination_notice": "Nu există metode de expediere disponibile pentru coșul tău de cumpărături sau adresa ta",
+        "no_pickup_location_notice": "Cel puțin unul dintre produsele tale nu poate fi ridicat",
+        "no_rates_for_country_notice": "Nu s-au găsit tarife de expediere pentru această adresă."
       }
     }
   }
