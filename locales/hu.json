@@ -2306,7 +2306,77 @@
           "get_offers_by_text": "Ajánlatok fogadása sms-ben"
         },
         "post_accept_marketing_checkbox_label": "Feliratkoztál, hogy híreket és ajánlatokat tartalmazó e-maileket kapj.",
-        "pending_accept_marketing_checkbox_label": "Nézd meg az e-mailedet, hogy megerősítsd a hírlevelekre és ajánlatokra való feliratkozásodat"
+        "pending_accept_marketing_checkbox_label": "Nézd meg az e-mailedet, hogy megerősítsd a hírlevelekre és ajánlatokra való feliratkozásodat",
+        "accept_shop_pay_marketing_checkbox_label": "Iratkozzon fel ennek az üzletnek a híreire és ajánlataira"
+      },
+      "shop_policies": {
+        "terms_of_service": "Általános feltételek",
+        "terms_of_sale": "Eladási feltételek",
+        "purchase_options_policy": "Vásárlási lehetőségek szabályzata",
+        "contact_information": "Kapcsolat",
+        "cookie_preferences": "Sütik",
+        "policy_label": "Irányelv",
+        "policies_label": "Irányelv",
+        "select_policy_label": "Egy irányelv kiválasztása",
+        "terms_and_policies": "Feltételek és szabályzat"
+      },
+      "notifications": {
+        "title": "Értesítés"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Fizetendő összeg a(z) %{order_name} rendeléshez",
+        "changes_summary": {
+          "subtracted": "%{count} törölve",
+          "returned": "%{count} visszaküldve",
+          "return_line_item_removed": "%{count} eltávolítva a visszaküldések közül"
+        },
+        "additional_payment_requested": "A %{total_outstanding} kifizetése szükséges",
+        "checkout_review_and_pay": "A %{order_name} rendelésed frissítve lett. Tekintsd meg ezeket a változtatásokat, majd fizess a rendelés megerősítéséhez.",
+        "order_updated_on": "A rendelésed frissítve lett %{last_edited_at}.",
+        "order_review_and_pay": "A rendelésed frissítve lett. Ellenőrizd és fizesd ki a rendelést a megerősítéshez.",
+        "pay_now": "Fizetés most"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "A hitelkártyáját %{amount} összeggel terheljük meg",
+        "payment_total_label": "Összes kifizetés",
+        "change_currency_link": "Módosítás %{currency_name}-ben",
+        "card_provider_fx_charges_warning": "A kártyakibocsátó esetleg díjat számít fel a %{currency_code} tranzakciókért.",
+        "currency_not_supported_by_shop": "Az általad kiválasztott valuta már nem elérhető. Minden ár most %{currency_code}-ban van megadva."
+      },
+      "tips": {
+        "description": "Mutasd meg, hogy támogatod a %{shop_name} csapatát",
+        "presets_description": "Válasszon borravaló százalékot",
+        "custom_label": "Módosított borravaló",
+        "update_tip": "Borravaló frissítése",
+        "message": "Köszönjük, igazán értékeljük.",
+        "not_available_with_spi": "Nem elérhető Shop Pay részletfizetéssel"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "%{product_name} vásárlása",
+          "one": "%{product_name} és még %{count} másik termék vásárlása",
+          "other": "%{product_name} és még %{count} másik termék vásárlása"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Kiegészítő információk",
+          "shipping_credential_kr": "Személyes vámtarifaszám",
+          "shipping_credential_cn": "Lakos azonosító száma",
+          "tax_credential_it": "Adóazonosító jel (opcionális)",
+          "tax_email_it": "PEC (választható)",
+          "tax_credential_co": "Cédula/ÁFA",
+          "tax_credential_type_co": "Cédula típusa",
+          "shipping_credential_co": "Cédula/ÁFA",
+          "shipping_credential_type_co": "Cédula típusa",
+          "tax_credential_cr": "Azonosító szám/RUT",
+          "shipping_credential_cr": "Azonosító szám/RUT",
+          "tax_credential_ec": "CI/RUC/ÁFA",
+          "shipping_credential_ec": "CI/RUC/ÁFA",
+          "tax_credential_gt": "NIT/ÁFA",
+          "shipping_credential_gt": "NIT/ÁFA",
+          "tax_credential_id": "Adóazonosító szám"
+        }
       }
     }
   }
