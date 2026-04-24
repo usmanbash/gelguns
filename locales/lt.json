@@ -3258,8 +3258,68 @@
         "only_n_items_available": "Į savo krepšelį galite pridėti tik %{count} %{name}.",
         "too_many_items_in_cart": "Jūs negalite pridėti daugiau %{name} į savo pirkinių krepšelį.",
         "all_items_in_cart": "Visi %{count} %{name} yra tavo pirkinių krepšelyje.",
-        "empty_update": "negali atnaujinti pirkinių krepšelio"
+        "empty_update": "negali atnaujinti pirkinių krepšelio",
+        "missing_parameters": "neteisingas ID arba eilutės numeris",
+        "generic_error": "Klaida krepšelyje",
+        "too_many_line_items_error": "Jūsų pirkinių krepšelyje negali būti daugiau nei %{max} prekių.",
+        "link_expired": "Nuoroda pasibaigė",
+        "link_no_longer_exists": "Nuoroda nebeegzistuoja.",
+        "stock_problems_html": "Vienas ar daugiau prekių nebeprieinamos. Paruošėme <a href='%{link}'>atnaujintą krepšelį</a>.",
+        "changed": "Prekių krepšelis pakeistas",
+        "items_changed": "Vienas ar daugiau prekių buvo pakeista.",
+        "product_sold_out": "Produktas '%{name}' jau išparduotas.",
+        "variant_not_found": "Negaliu rasti varianto",
+        "variant_requires_selling_plan": "Variantą galima įsigyti tik su pardavimo prenumerata.",
+        "shipping_address_not_required": "Šiam pirkinių krepšeliui pristatymas nereikalingas",
+        "shipping_address_invalid": "Įvyko problema apskaičiuojant jūsų siuntimo išlaidas. Tęskite atsiskaitymą, kad pasirinktumėte siuntimo išlaidas prieš užbaigdami užsakymą.",
+        "selling_plan_not_applicable": "Negalima taikyti pardavimo prenumeratos variantui",
+        "selling_plan_not_available_for_company_locations": "B2B užsakymams galima atlikti tik vienkartinius pirkimus.",
+        "digital_product_not_available_for_company_locations": "Jūs negalite pridėti šio prekės prie B2B užsakymo",
+        "product_not_available": "Prekė nėra prieinama",
+        "less_than_minimum": "Šiam straipsniui taikomas minimalus kiekis %{min}.",
+        "more_than_maximum": "Šis straipsnis turi maksimalų kiekį %{max}.",
+        "not_respect_step": "Šį prekę galite pridėti tik %{step} žingsniais.",
+        "bundle_requires_components": "Nepavyko pridėti komplekto '%{name}' prie pirkinių krepšelio.",
+        "gift_card_with_components_not_supported": "Nepavyko pridėti komplekto '%{name}' prie pirkinių krepšelio.",
+        "view_lines_limit_reached": "Taisyklės turi būti mažesnės arba lygios %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Įvyko klaida tavo prekių krepšelyje."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nepavyko pridėti komplekto '%{name}' prie pirkinių krepšelio.",
+        "cart_too_large": "Prekybos krepšelis per didelis.",
+        "gift_card_recipient_validation_error": "Nurodytas dovanų kupono gavėjas yra neteisingas",
+        "invalid_input": "Parametras %{parameter} yra neteisingas.",
+        "buyer_cannot_purchase_for_company_locations": "Negalite atlikti pirkimo šiai vietai",
+        "only_one_added_to_cart": "Dėl prieinamumo į jūsų krepšelį pridėtas tik 1 prekės vienetas.",
+        "only_n_added_to_cart": "Dėl prieinamumo į jūsų krepšelį pridėta tik %{quantity} prekės.",
+        "maximum_available_quantity_reached": "Maksimalus šio prekės kiekis jau yra tavo krepšelyje.",
+        "cart_attributes_error": "Prekės krepšelio atributai turi neteisingus duomenis.",
+        "merchandise_not_applicable": "Prekės negalima įsigyti tokia, kokia sukonfigūruota.",
+        "not_found": "Prekių krepšelis nerastas"
+      },
+      "tags": {
+        "add_articles": "Apribokite paiešką iki straipsnių su žyma %{tag}",
+        "add_products": "Apribokite paiešką tik produktais, turinčiais atitinkamą žymę %{tag}",
+        "remove_articles": "Išplėskite paiešką į straipsnius, kurie nėra pažymėti %{tag}",
+        "remove_products": "Pašalinti žymę %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} pridėta",
+          "increment_item": "%{delta} pridėta",
+          "decrement_item": "%{delta} iš %{total} pašalinta",
+          "decrement_fulfilled_line_item": "%{delta} iš %{total} grąžinta",
+          "decrement_return_line_item": "%{delta} pašalinta iš grąžinimo"
+        }
       }
+    },
+    "page_titles": {
+      "products": "Produktai",
+      "shopping_cart": "Jūsų prekių krepšelis",
+      "create_account": "Sukurti paskyrą",
+      "reset_account": "Paskyros atstatymas",
+      "order": "Užsisakyti %{name}",
+      "not_found": "404 nerasta"
     }
   }
 }
