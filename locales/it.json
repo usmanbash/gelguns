@@ -2845,7 +2845,87 @@
       "invalid": "non valido",
       "taken": "è già usato",
       "too_short": "è troppo corto (il minimo è %{count} caratteri)",
-      "too_long": "è troppo lungo (il massimo è %{count} caratteri)"
+      "too_long": "è troppo lungo (il massimo è %{count} caratteri)",
+      "password_mismatch": "deve essere identico alla password inserita",
+      "contains_spaces": "inizia o finisce con spazi.",
+      "invalid_for_country": "non è valido per %{country}",
+      "invalid_for_country_and_province": "non è valido per %{province} e %{country}",
+      "invalid_province_in_country": "non è una provincia valida in %{country}",
+      "invalid_state_in_country": "non è uno stato valido in %{country}",
+      "invalid_region_in_country": "non è una regione valida in %{country}",
+      "less_than_or_equal_to": "deve essere minore o uguale a %{count}",
+      "full_name_required": "Inserisci un nome e un cognome",
+      "invalid_for_card_type": "non valido",
+      "invalid_type": "ci dispiace, non accettiamo carte di questo tipo",
+      "invalid_start_date_or_issue_number_for_debit": "data di inizio valida o numero di emissione valido richiesti",
+      "invalid_expiry_year": "non è un anno di scadenza valido",
+      "reset_password_html": "Questo indirizzo email è già associato a un account. Se questo account è tuo, puoi <a href=\"/account/login#recover\">reimpostare la tua password</a>",
+      "verify_email": "Abbiamo inviato un'email a %{customer_email}. Per favore, clicca sul link allegato per verificare il tuo indirizzo email.",
+      "product_not_available": "il prodotto non è stato pubblicato per questo cliente.",
+      "shop_404": {
+        "title": "Crea un sito web di commercio elettronico e vendi i tuoi prodotti online! Software per commercio elettronico di Shopify",
+        "heros": {
+          "store_unavailable": "Questo negozio non è al momento disponibile."
+        },
+        "links": {
+          "start_free_trial": "Prova gratuita"
+        },
+        "owner_ctas": {
+          "fix_domain": "Vai a %{domain_settings_link} e completa la configurazione del tuo nuovo indirizzo web. Clicca su 'Collega dominio' e digita: %{domain}.<br>Se non riesci ad accedere al tuo negozio, prova %{forgot_your_store_link}",
+          "fix_domain_link_text": "le impostazioni del dominio",
+          "forgot_your_store_link_text": "Hai dimenticato il tuo negozio?",
+          "add_storefront": "Puoi configurare il tuo sito web aggiungendo il canale webshop in %{admin_link}. Se non riesci ad accedere al tuo negozio, prova %{forgot_your_store_link}",
+          "admin_link_text": "centro di gestione"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vendita personale",
+            "caption": "Ottieni le funzionalità di cui hai bisogno per gestire il tuo negozio al dettaglio, sia che tu stia iniziando ora o espandendo."
+          },
+          "open_a_store": {
+            "header": "Aprire un nuovo negozio Shopify",
+            "caption": "Inizia una prova gratuita di tre giorni e poi continua per tre mesi a 1 USD al mese."
+          },
+          "editions": {
+            "header": "Visualizza le Edizioni Shopify",
+            "caption": "Ci sono più di 100 aggiornamenti di prodotto che ti permetteranno di essere più produttivo, creativo e deciso nel mondo commerciale di quanto avresti mai immaginato.",
+            "link_text": "Esplora le ultime edizioni"
+          },
+          "store_owner": {
+            "caption": "Non riesci ad accedere al tuo negozio? Prova la funzione %{forgot_your_store_link}. Se vuoi riattivare il tuo negozio, contatta %{shopify_support_link}."
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Errore durante il ripristino della password",
+        "no_account_found": "Nessun account trovato con quell'indirizzo e-mail.",
+        "invalid_credentials": "E-mail o password errati.",
+        "denylisted_reset_password": "Il tuo account non può essere aperto perché la password attuale non è sicura. Riceverai un'email per reimpostare la tua password.",
+        "signup_disabled": "La creazione di account cliente è disattivata.",
+        "subscribe_error": "Errore durante l'iscrizione",
+        "unsubscribe_error": "Errore durante la disconnessione"
+      },
+      "address": {
+        "updated": "Indirizzo aggiornato.",
+        "created": "Indirizzo creato",
+        "error_creating": "Errore nella creazione dell'indirizzo.",
+        "deleted": "Indirizzo rimosso",
+        "error_deleting": "Errore durante la rimozione dell'indirizzo."
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Verificato",
+          "pending": "In trattamento",
+          "unpaid": "Non retribuito",
+          "voided": "Scaduto"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Completato",
+          "complete": "Completo"
+        }
+      }
     }
   }
 }
