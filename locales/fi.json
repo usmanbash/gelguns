@@ -1332,7 +1332,71 @@
         "klarna_slice_it_label": "Rahoitus Klarna-palvelulla",
         "card_expiration_month_label": "Värimaalausmestari",
         "card_expiration_year_label": "Verivaljaat",
-        "card_information_notice": "Kaikki tapahtumat ovat suojattuja ja salattuja. Luottokorttitietoja ei koskaan tallenneta."
+        "card_information_notice": "Kaikki tapahtumat ovat suojattuja ja salattuja. Luottokorttitietoja ei koskaan tallenneta.",
+        "credit_card_start_month": "Kuukauden alkamispäivä",
+        "credit_card_start_year": "Vuoden alkamispäivä",
+        "no_real_orders_dev_store": "Tämä kauppa ei voi vastaanottaa aitoja tilauksia tai käsitellä aitoja maksuja.",
+        "subscription_agreement_label_html": "Ymmärrän, että hyväksyn tilauksen. Se uusitaan ilmoitettuun hintaan ja taajuuteen, kunnes se päättyy tai <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">peruutetaan</a>.",
+        "waiting_on_payment_methods": "Saatavilla olevien maksutapojen hakeminen...",
+        "apple_pay_payment_error": "Maksuasi ei voitu suorittaa loppuun. Yritä uudelleen tai käytä toista maksutapaa.",
+        "subscription_card_update_agreement_label": "Muuttamalla maksutapaasi tilauksesi ja toistuvat maksut päivitetään tulevaisuudessa.",
+        "card_security_vault_notice": "Tarvitsemme tietosi tulevia maksuja varten. Kaikki tapahtumat ovat suojattuja ja salattuja.",
+        "taxes_not_included": "Verot pois lukien",
+        "no_taxes_banner_content": "Verot eivät sisälly tähän tilaukseen. Et voi lisätä veroja, kun maksu on jo peritty.",
+        "card_update_label": "Päivitä kartta",
+        "paypal": {
+          "connect": "Napsauta yhdistääksesi PayPal-tilisi"
+        },
+        "subscription_agreement_label": "Yksi tai useampi ostoskorin tuote on viivästetty tai tilausostos. Jatkamalla maksua hyväksyt, että veloitamme ostosummat automaattisesti maksutapasi kautta tässä sivulla ilmoitetulla hinnalla ja tiheydellä, kunnes tilaus päättyy tai peruutat sen itse. Kaikkiin peruutuksiin sovelletaan %{cancelled}.",
+        "subscription_agreement_cancelled": "irtisanomiskäytäntö",
+        "card_verification_confirm": "Syötä korttisi turvakoodi varmennusta varten.",
+        "apple": {
+          "connect": "Napsauta yhdistääksesi Apple Pay -tilisi",
+          "not_available": "Apple Pay ei ole käytettävissä tässä selaimessa. Liittääksesi Apple Pay -tilisi, sinun tulee käyttää Safaria Apple-laitteella."
+        },
+        "billing_address_associated_with_mandate": "Käytä osoitetta, joka on liitetty maksutapaasi",
+        "billing_address_associated_with_mandate_info": "Laskutusosoitteen muuttamiseksi poista luottokorttitietosi ja syötä ne uudelleen",
+        "expiry_long": "(Vanhtuu %{month}/%{year})",
+        "expiry_short": "(Vanhtuu %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Tallenna tämä luottokortti tililleni, jotta voin maksaa nopeammin",
+        "delete_customer_mandate_modal_body": "Jos poistat tämän kortin, sinun on lisättävä se uudelleen ennen kuin voit käyttää korttia maksuihin.",
+        "delete_customer_mandate_modal_confirm": "Kortin poisto",
+        "google": {
+          "connect": "Napsauta yhdistääksesi Google Pay -tilisi",
+          "error_authorizing": "Virhe maksun valtuutuksessa"
+        },
+        "mor_disclaimer_html": "Kun napsautat alla ja viimeistelet tilauksesi, hyväksyt ostavasi tuotteesi Global-e:ltä rekisteröitynä kauppiaana tätä tapahtumaa varten, Global-e:n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">yleisten ehtojen</a> ja <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">tietosuojakäytännön</a> mukaisesti. Global-e on kansainvälinen täyttöpalveluntarjoaja %{shop_name}ille.",
+        "purchase_options_card_update_agreement_label_html": "Kun päivität maksutavan, valtuutat maksut jokaista toistuvaa tai viivästettyä ostosta varten tämän kaupan <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">peruutusehdon</a> mukaisesti.",
+        "multibanco_label": "Monipankki",
+        "receiver_payment_experience_hint": "Tilauksen tekemisen jälkeen saat maksutiedot. Suorita maksu Multibancossa tai verkossa %{due_days} päivän kuluessa.",
+        "pending_payment": {
+          "due_notice": "Maksusi %{amount_due} erääntyy %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Suorita maksusi Multibancossa tai verkossa alla olevien tietojen avulla. %{contact_us} kysymyksiä varten tai maksutietojen päivittämiseksi.",
+            "find_nearest_atm": "Lähimmän pankkiautomaatin löytäminen",
+            "buyer_action_info": "Maksusi, joka on %{amount_due}, on avoinna."
+          }
+        },
+        "purchase_options_agreement_label": "Yksi tai useampi ostoskorissasi oleva tuote on viivästetty osto, tilaus tai toistuva osto. Jatkamalla maksua hyväksyt, että maksutapasi veloitetaan automaattisesti tällä sivulla ilmoitetun hinnan ja maksutiheyden mukaisesti, kunnes se päättyy tai peruutat sen. Kaikkiin peruutuksiin sovelletaan %{cancellation_policy_label}.",
+        "update_payment_method": "Maksutavan päivittäminen",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Kokonaissumma voi olla ilman veroja, toimituskuluja, lykkättyjä maksuja ja joitakin alennuksia. Jatka kassalle nähdäksesi tämän päivän maksettavan summan."
+        },
+        "purchase_options_agreement_label_html": "Ymmärrän, että yksi tai useampi ostoskorissani oleva tuote on viivästetty osto, tilaus tai toistuva osto. Jatkamalla hyväksyn <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">peruutusehdot</a> ja annan luvan veloittaa maksutapaani tämän sivun hinnoista, toistuvuudesta ja päivämääristä, kunnes tilaukseni on käsitelty tai peruutan sen, jos se on sallittua.",
+        "card_vaulted_company_location": "Kortti tallennettu tätä paikkaa varten",
+        "order_covered_by_store_credit_notice": "Tilaus maksetaan kauppakrediitilläsi.",
+        "order_covered_by_redeemables_notice": "Tilaus on maksettu.",
+        "store_credit": {
+          "label": "Ostohyvitys",
+          "apply_label": "Käytä kauppasaldoa",
+          "add_label": "Lisää kauppapisteitä",
+          "manage_label": "Kauppasaldon hallinta",
+          "buying_gift_card": "Lahjakortilla ei voi ostaa lahjakorttia",
+          "no_fixed_selling_plans": "Et voi käyttää kauppaluottoa yhdessä lykkättyjen osto-optioiden kanssa"
+        },
+        "clear": "Tieto",
+        "same_billing_address_checkbox_label": "Toimitusosoite ja laskutusosoite ovat samat",
+        "location_billing_address_label": "Laskutusosoite sijainnista"
       }
     }
   }
