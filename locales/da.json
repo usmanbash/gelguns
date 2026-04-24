@@ -1539,7 +1539,77 @@
         "offsite_gateway_redirect_hint_no_button_label": "Du bliver omdirigeret til %{gateway_label} for at fuldføre dit køb.",
         "swish_label": "Svirp",
         "network_card_persistence_description": "Det valgte netværk gemmes sammen med din betalingsmetode til fremtidige transaktioner.",
-        "payment_method_incompatible_with_payment_terms": "Betalingsmetode er ikke forenelig med betalingsbetingelser."
+        "payment_method_incompatible_with_payment_terms": "Betalingsmetode er ikke forenelig med betalingsbetingelser.",
+        "payment_method_rollup_accessibility_label": "Betalingsmuligheder",
+        "crypto_modal": {
+          "header": "Betal %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Forny",
+            "close": "lukke",
+            "sandbox_error": "Der gik noget galt",
+            "web_component_error": "Der opstod et problem under indlæsning af denne side"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Betalingskonto",
+          "savings": "Sparekonto"
+        },
+        "bank_account_choose": "Vælg en konto for sikkert at fuldføre dit køb",
+        "bank_account_connect_another": "Tilføj en anden bankkonto",
+        "bank_account_connect": "Koble bankkonto",
+        "bank_account_missing": "Bankkonto skal være tilknyttet",
+        "crypto_payment_method": {
+          "description": "Forbind din wallet sikkert. Din saldo og adresse deles ikke.",
+          "tooltip": "Saldoet på din pung og din adresse deles ikke, og kun det anmodede beløb kan trækkes.",
+          "cashback_descriptor": {
+            "one": "Du modtager din cashback efter %{count} dage",
+            "other": "Du modtager din cashback efter %{count} dage"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% cashback",
+        "usdc_cashback_additional_info": "Betal med USDC på Base og modtag inden for 30 dage %{incentive_percentage}% tilbage i din digitale tegnebog.",
+        "separate_payments_label": "Dine varer kommer fra mere end én butik. Du skal betale med %{separate_payments_link}.",
+        "payments": "Betalingen",
+        "business_customer_with_bank_account_vaulting_payment_label": "Gem denne betalingsmetode ved kassen og giv %{company} tilladelse til at opkræve din konto for fremtidige køb, som du godkender for denne lokation, indtil du annullerer. Alle kontaktpersoner, der er tilknyttet denne lokation, må bruge betalingsmetoden.",
+        "new_bank_account_disclaimer": "Ved at fuldføre din bestilling giver du %{shop_name} tilladelse til at trække det angivne beløb fra den nedenstående konto på det angivne tidspunkt via ACH.",
+        "bank_account_disclaimer": "Det kan tage op til 4 arbejdsdage, før ACH-betalinger er behandlet.",
+        "bank_account_vaulted_company_location": "Bankkonto gemt for denne placering",
+        "bank_account_generic_error": "Kan ikke tilføje bankkonto. Prøv igen senere.",
+        "discount_codes_removed_summary": {
+          "other": "%{count} rabatkoder er blevet fjernet"
+        },
+        "continue_to_guest_checkout": "Som gæst til kassen",
+        "discount_codes_modified_summary": {
+          "one": "%{count} rabatkode er ændret",
+          "other": "%{count} rabatkoder er blevet ændret"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} rabatkode er fjernet eller ændret",
+          "other": "%{count} rabatkoder er blevet fjernet eller ændret"
+        }
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Udløber %{month}/%{year}",
+        "manual_payment_gateway_label": "Manuelt"
+      },
+      "field_errors": {
+        "handle_email_invalid": "Indtast en gyldig e-mailadresse",
+        "email_invalid": "Indtast en gyldig e-mailadresse",
+        "email_or_phone_blank": "Indtast e-mailadresse eller telefonnummer",
+        "email_or_phone_invalid": "Indtast en gyldig e-mailadresse eller et mobiltelefonnummer",
+        "address_first_name_blank": "Indtast et fornavn",
+        "address_last_name_blank": "Indtast et efternavn",
+        "address_address1_blank": "Indtast en adresse",
+        "address_address2_blank": "Indtast et lejligheds- eller suite-nummer osv.",
+        "address_city_blank": "Indtast en by",
+        "address_country_blank": "Vælg et land/område",
+        "address_country_not_supported": "Vi sender ikke til dette land/dette område. Indtast en ny leveringsadresse og prøv igen.",
+        "address_province_blank": "Vælg en stat/provins",
+        "address_company_blank": "Indtast et firmanavn",
+        "address_zip_blank": "Indtast et postnummer eller en postkode",
+        "address_zip_invalid_for_country": "Indtast en gyldig ZIP- eller postnummer for %{country}",
+        "address_zip_invalid_for_country_and_province": "Indtast en gyldig ZIP- eller postnummer for %{province}, %{country}",
+        "credit_card_name_blank": "Indtast dit navn, som det står på dit kort"
       }
     }
   }
