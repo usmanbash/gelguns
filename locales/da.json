@@ -3429,8 +3429,78 @@
         "there_was_a_problem_label": "Der er opstået et problem",
         "buy_with_prime_logo_accessibility_label": "Amazon Køb med Prime-logo",
         "delivered": "Leveret den {{date}}",
-        "multiple_statuses_label": "Flere bestillingsstatusser"
-      }
+        "multiple_statuses_label": "Flere bestillingsstatusser",
+        "status_timestamp": "Opdateret den {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Levering understøttet af",
+            "mixed_brands_label": "Levering garanteret",
+            "not_delivered_by_label": "Ikke bekymret før {{date}}",
+            "modal_accessibility_button_label": "Data leveringsløfte"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Indløs din Shop Cash",
+            "download_shop_app_label": "Hent butikappen"
+          },
+          "details_modal": {
+            "title": "Levering understøttet af",
+            "modal_accessiblity_label": "Oplysninger om leveringsløfte",
+            "delivery_by_label": "Levering inden {{date}}",
+            "delivery_guaranteed_by_label": "Levering garanteret inden {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garanterer hurtig, pålidelig levering. Kræv Shop Cash, hvis din bestilling bliver leveret for sent.",
+              "may_be_eligible_not_authorized_label": "Du kan muligvis være berettiget til at kræve Shop Cash, fordi denne ordre er ankommet for sent. Log ind for at se detaljerne.",
+              "redeemed_label": "Du har allerede gjort krav på Shop Cash, fordi denne ordre er ankommet for sent.",
+              "expired_label": "Denne ordre er ikke berettiget til et krav om forsinket levering, da garantien på 30 dage er udløbet.",
+              "no_shop_cash_label": "Denne ordre er ikke berettiget til en klage over forsinket levering, fordi den ikke er betalt med Shop Pay.",
+              "no_longer_guaranteed_label": "Disse varer er ikke længere dækket af en leveringsgaranti.",
+              "claim_shop_cash_title": "Scan for at gøre krav på {{amount}} Shop Cash",
+              "claim_shop_cash_description": "Du kan bruge Shop Cash til fremtidige køb i Shop-appen."
+            },
+            "delivery_guarantee_label": "Leveringsgaranti"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Levering garanteret af",
+            "external_promise_brand_label": "Levere til",
+            "not_delivered_by_label": "Bekymret efter {{date}}",
+            "delivery_guarantee_expired_label": "Garanteret levering udløbet",
+            "modal_accessibility_button_label": "Oplysninger om leveringsløfte",
+            "download_shop_app_button_label": "Download butik til sporing",
+            "track_with_shop_button_label": "Spor med Butik",
+            "claim_shop_cash_button_label": "Indløs kontantbonus"
+          },
+          "details_modal": {
+            "title": "Leveringsgaranti",
+            "active_delivery_guarantee_label": "Levering inden {{date}}",
+            "expired_delivery_guarantee_description": "Shop-løftet om 30 dages garanti for denne bestilling er udløbet.",
+            "order_includes_guarantees_label": "Din levering har {{deliveryAgreementsCount}} garantier",
+            "order_includes_guarantees_description": "Shop Promise tilbyder en garanti for hurtig, pålidelig levering. Kræv Shop Cash, hvis din ordre leveres efter {{date}}.",
+            "delivered_after_label": "Bekymret efter {{date}}",
+            "delivered_after_description": "Din ordre er kommet for sent, så du kan kræve {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Denne ordre blev leveret for sent, så du har krævet {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Din ordre er kommet for sent, så du kan kræve {{amount}} Shop Cash.",
+            "learn_more_button_label": "Mere information",
+            "claim_shop_cash_button_label": "Indløs kontantbonus",
+            "view_balance_in_shop_button_label": "Se saldo i butik",
+            "scan_to_claim_shop_cash_label": "Scan for at gøre krav på {{amount}} Shop Cash"
+          }
+        },
+        "tracking_number": {
+          "one": "Sporingsnummer",
+          "other": "Sporingsnumre"
+        },
+        "gift_card_resend_button": {
+          "other": "Send gavekortet igen"
+        },
+        "was_expected_by": "Forventes senest {{date}}"
+      },
+      "status_mark_as_delivered": "Marker som bekymret",
+      "manage_accessiblity_label": "Administrer bestilling {{orderId}}",
+      "fulfillment_status_title": "Fuldførelsesstatus: {{status}}",
+      "list_title_with_pending_orders": "Bestillingen:",
+      "list_title_confirmed_orders_accessibility_label": "Bestillingen: bekræftet"
     }
   }
 }
