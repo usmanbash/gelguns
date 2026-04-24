@@ -2760,7 +2760,75 @@
         "header": "Makse {{paymentMethod}} kaudu",
         "qr_code": {
           "instructions": "Viimistle oma ost {{paymentMethod}}-koodiga"
+        },
+        "external": {
+          "instructions": "Kinnita makse oma rakenduses, et see ost lõpetada"
+        },
+        "close": "Võta väljakutse vastu",
+        "open_app_text": "Ava {{paymentMethod}} rakendus"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Tellimuse töötlemisel tekkis probleem. Palun proovi mõne minuti pärast uuesti."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Kauba juhend %{position} %{name} sisaldab tühja stable-ID-d.",
+        "invalid_stable_id_target": "Kaubajuhend %{position} %{name} viitab stable-ID-le %{stable_id}, kuid seda stable-ID-d ei leidu kaubareal.",
+        "duplicate_variant_id": "Toote juhendis %{position} %{name} on topeltvariant-ID %{variant_id}.",
+        "invalid_variant_id_target": "Kauba juhend %{name} viitab variandi-ID-le %{variant_id}, kuid seda varianti ei leidu kaubarealides.",
+        "invalid_price_override_target": "Juhis kauba hinna muutmiseks tellimuse rea %{stable_id} jaoks on kehtetu, kuna see on komplekti komponent.",
+        "discount_not_supported": "Kaupmeeste juhend kaupade allahindluse rakendamiseks ei toeta seda tüüpi allahindlust."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "See toode ei ole saadaval saatmiseks aadressile %{location_name}.",
+          "some_products_other": "Need tooted ei ole saadaval saatmiseks aadressile %{location_name}.",
+          "all_products_one": "Toode sinu ostukorvis ei ole saadaval saatmiseks aadressile %{location_name}.",
+          "all_products_other": "Tooted sinu ostukorvis ei ole saadaval saatmiseks aadressile %{location_name}."
+        },
+        "missing_country_fallback": "sinu riik",
+        "indeterminate_location_fallback": "sinu asukoht",
+        "cart_updated": "Sinu ostukorv on uuendatud.",
+        "change_address_only": "Muuda tarneaadressi, et jätkata.",
+        "change_address_or_remove": "Muuda tarneaadressi või %{remove_action}.",
+        "empty_cart_action": "tühjenda ostukorv ja naase poodi",
+        "remove_items_action": {
+          "one": "eemalda mitte saadaval olev artikkel",
+          "other": "eemalda mitte saadaval olevad artiklid"
         }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sul ei ole enam õigust esitada B2B-tellimusi. %{logout_url}, et selle asemel esitada isiklik tellimus.",
+        "log_out_link_text": "Logi välja",
+        "lost_permissions_subtitle": "Sul ei ole enam õigust esitada B2B tellimusi. Logi välja, et esitada isiklik tellimus.",
+        "lost_permissions_title": "Geen asukohaluba"
+      },
+      "units": {
+        "milligram": "mg",
+        "gram": "g",
+        "kilogram": "kg",
+        "milliliter": "ml",
+        "centiliter": "kl",
+        "liter": "l",
+        "cubic_meter": "m³",
+        "millimeter": "mm",
+        "centimeter": "cm",
+        "meter": "m",
+        "square_meter": "m²",
+        "ounce": "oz",
+        "pound": "nael",
+        "fluid_ounce": "fl unts",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "gal",
+        "inch": "sisse",
+        "foot": "ft",
+        "yard": "yd",
+        "square_foot": "ft²",
+        "item": "artikkel"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Seda aadressi ei toetata praeguse liikmelisuse puhul.",
+        "items_split_across_locations_unsupported": "Prime-kullerteenus ei ole sinu tellimuse jaoks saadaval. Sinu saatmisvalikud on uuendatud."
       }
     }
   },
