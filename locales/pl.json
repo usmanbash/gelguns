@@ -3323,7 +3323,79 @@
       "list_layout_accessibility_label": "Opcje formatowania",
       "order_list": {
         "column_headers": {
-          "total": "Razem"
+          "total": "Razem",
+          "actions_accessibility_label": "Akcje"
+        },
+        "delivered": "Dostarczono: {{date}}",
+        "empty_state_order_source_description": "Wyświetlane są tutaj tylko zamówienia złożone za pośrednictwem {{email}}.",
+        "empty_state_title": "Brak zamówień",
+        "estimated_delivery": "Oczekiwane na {{date}}",
+        "items": {
+          "one": "{{count}} artykułów",
+          "other": "{{count}} artykułów"
+        },
+        "orders_title": "Potwierdzono",
+        "pagination": {
+          "nav_accessibility_label": "Przyciski nawigacyjne do zamówień",
+          "next": "Następny",
+          "previous": "Poprzedni",
+          "load_more_accessibility_label": "Wczytaj więcej zamówień"
+        },
+        "sort_show_options_accessibility_label": "Wyświetl opcje sortowania dla potwierdzonych zamówień.",
+        "sort": {
+          "date": {
+            "oldest": "Od najstarszego do najnowszego"
+          },
+          "location": {
+            "ascending": "Lokalizacja (A-Ż)"
+          },
+          "order_number": {
+            "ascending": "Numer zamówienia (od najniższego do najwyższego)",
+            "descending": "Numer zamówienia (od najwyższego do najniższego)"
+          },
+          "order_total": {
+            "ascending": "Całkowite zamówienie (od najniższego do najwyższego)",
+            "descending": "Całkowite zamówienie (od największego do najmniejszego)"
+          }
+        },
+        "one_images_accessibility_label": "Zamówienie zawiera {{lineItemName1}}",
+        "two_images_accessibility_label": "Zamówienie zawiera {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Zamówienie zawiera {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Zamówienie zawiera {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Usuń filtry lub dostosuj je, aby zobaczyć swoje zamówienia",
+        "no_filtered_results_title": "Brak przefiltrowanych wyników",
+        "estimated_shortform": "Oszacowano na {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Za późno",
+            "due": "Należne na dzień {{date}}",
+            "due_today": "Dziś do zapłaty",
+            "due_without_date": "Zadłużony",
+            "due_on_fulfillment": "Do zapłaty przy realizacji zamówienia",
+            "payment_not_due": "Jeszcze nie należne",
+            "paid": "Opłacono"
+          },
+          "gallery_view": {
+            "overdue": "Płatność jest spóźniona",
+            "due": "Płatność należna do {{date}}",
+            "due_today": "Płatność jest wymagana dzisiaj",
+            "due_without_date": "Płatność należna",
+            "due_on_fulfillment": "Płatność należna przy realizacji zamówienia",
+            "payment_not_due": "Płatność nie jest jeszcze wymagana"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Obecnie sortowane według: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}, {{lineItemName2}} w ilości {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}, {{lineItemName2}} w ilości {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}, {{lineItemName2}} w ilości {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} ilość {{lineItemQuantity1}}, {{lineItemName2}} ilość {{lineItemQuantity2}}, {{lineItemName3}} ilość {{lineItemQuantity3}}, {{lineItemName4}} ilość {{lineItemQuantity4}}, {{lineItemName5}} ilość {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}, {{lineItemName2}} w ilości {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości {{lineItemQuantity4}}, {{lineItemName5}} w ilości {{lineItemQuantity5}}, {{lineItemName6}} w ilości {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Zamówienie zawiera {{lineItemName1}} w ilości {{lineItemQuantity1}}, {{lineItemName2}} w ilości {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości {{lineItemQuantity4}}, {{lineItemName5}} w ilości {{lineItemQuantity5}}, {{lineItemName6}} w ilości {{lineItemQuantity6}} i więcej",
+          "view_order_details": "Wyświetl dane zamówienia",
+          "previous": "Poprzedni",
+          "next": "Następny"
         }
       }
     }

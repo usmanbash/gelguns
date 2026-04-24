@@ -2103,7 +2103,87 @@
           "no_address": "(Sem endereço)",
           "no_purchase_order_number": "(Sem número de encomenda)",
           "due_after_order_reviewed_html": "Devido após verificação da encomenda",
-          "review_title_free_order": "Verifique e conclua a encomenda"
+          "review_title_free_order": "Verifique e conclua a encomenda",
+          "payment_method_saved_company_location": "Guardar mapa para esta localização",
+          "company_location": "Localização da empresa",
+          "change_company_location_link_label": "Alterar local da empresa",
+          "pickup_items_at": {
+            "one": "Levantar %{count} artigo(s) em",
+            "other": "Levantar %{count} artigos em"
+          },
+          "ship_items_to": {
+            "one": "Enviar %{count} artigos para",
+            "other": "Enviar %{count} artigos para"
+          }
+        },
+        "block_title": "Verifique os seus dados",
+        "checkout_a_different_way": "Pagar de outra forma",
+        "review_and_confirm_title": "Verificar e confirmar"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Envie-me um correio eletrónico com novidades e ofertas",
+        "unsubscribe": {
+          "title": "Desligaste-te",
+          "description": "Já não receberá mais lembretes de carrinho de compras da nossa parte."
+        },
+        "accept_sms_checkbox_label": "Envia-me uma mensagem de texto com notícias e ofertas",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Política de Privacidade",
+            "description_html": "Ao inscrever-se via SMS, concorda em receber mensagens de marketing automatizadas, incluindo lembretes de carrinho, no número de telefone fornecido. O consentimento não é uma condição para compra. Responda STOP para cancelar a inscrição. Responda HELP para obter ajuda. A frequência das mensagens pode variar. Podem ser aplicados custos de mensagens e dados. Consulte a nossa %{privacy_policy_link} e os nossos %{terms_of_service_link}.",
+            "description_transactional_html": "Pode receber mensagens SMS relacionadas com confirmações de encomendas e atualizações de envio. Responda com STOP para cancelar a subscrição. Responda com HELP para obter ajuda. A frequência das mensagens pode variar. Podem ser aplicados custos de mensagens e dados. Consulte a nossa %{privacy_policy_modal_link} e os nossos %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Receber ofertas por SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Estás inscrito para receber e-mails com novidades e ofertas",
+        "pending_accept_marketing_checkbox_label": "Verifica o teu e-mail para confirmares a tua inscrição em notícias e ofertas",
+        "disclaimer": {
+          "privacy_policy": "Política de Privacidade"
+        }
+      },
+      "shop_policies": {
+        "privacy_policy": "Política de Privacidade",
+        "terms_of_service": "Condições gerais",
+        "terms_of_sale": "Condições de venda",
+        "policies_label": "Política",
+        "select_policy_label": "Selecionar uma política",
+        "terms_and_policies": "Termos e condições"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Montante a pagar pela encomenda %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Adicionado"
+          },
+          "removed": "Removido",
+          "subtracted": "%{count} removidos",
+          "return_line_item_removed": "%{count} removidos da devolução"
+        },
+        "additional_payment_requested": "Pagamento de %{total_outstanding} é obrigatório",
+        "checkout_review_and_pay": "A sua encomenda %{order_name} foi atualizada. Veja estas alterações e, em seguida, pague para confirmar a sua encomenda.",
+        "order_review_and_pay": "A sua encomenda foi atualizada. Verifique e pague para confirmar a sua encomenda."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "O seu cartão de crédito será cobrado em %{amount}",
+        "payment_total_label": "Pagamentos totais",
+        "change_currency_link": "Alterar para %{currency_name}",
+        "card_provider_fx_charges_warning": "O seu emissor de cartão pode cobrar taxas por transações em %{currency_code}.",
+        "currency_not_supported_by_shop": "A moeda que selecionaste já não está disponível. Todos os preços estão agora em %{currency_code}."
+      },
+      "tips": {
+        "title": "Adicionar despesa",
+        "description": "Mostre que apoia a equipa do %{shop_name}",
+        "presets_description": "Escolha uma percentagem de gorjeta",
+        "add_tip": "Adicionar despesa",
+        "update_tip": "Atualizar formulário",
+        "message": "Obrigado, agradecemos mesmo.",
+        "no_tip_label": "Nenhum",
+        "not_available_with_spi": "Não disponível com pagamentos a prazo Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Comprar %{product_name} e mais %{count} artigo(s)",
+          "other": "Comprar %{product_name} e mais %{count} artigos"
         }
       }
     }
