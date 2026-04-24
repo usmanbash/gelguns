@@ -1468,7 +1468,73 @@
         "subscription_heading": "Contract de abonament",
         "use_order_billing_address_label": "Folosește adresa de facturare a comenzii",
         "use_location_billing_address_label": "Folosește adresa de facturare a locației",
-        "use_location_shipping_address_label": "Folosește adresa de livrare a locației"
+        "use_location_shipping_address_label": "Folosește adresa de livrare a locației",
+        "purchase_options_agreement_label_wallets": "Dacă continui cu plata, ești de acord cu plățile viitoare menționate pe această pagină și cu politica de anulare.",
+        "gift_card_store_credit": {
+          "add_label": "Adăugarea unui bon cadou sau a unui credit în magazin",
+          "manage_label": "Gestionați bonurile cadou sau creditul din magazin"
+        },
+        "saved_credit_card_cvv_verification": "Introduceți codul de securitate al cardului pentru scopuri de verificare.",
+        "afterpay_label": "Plată în rate",
+        "cashapppay_label": "Plată Cash App",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eliminat din retur",
+          "with_quantities": "{{delta}} eliminat din retur"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Eliminat din retur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eliminat din retur",
+        "pay_in_installments_split_pay_short": "Patru plăți de %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Metoda de plată nu este disponibilă pentru adresa de livrare aleasă. Vă rugăm să alegeți o altă metodă de plată.",
+        "paypal_disconnect": "Deconectare",
+        "paypal_wallet_label": "portofel PayPal",
+        "payment_method_update_failed": "Actualizarea metodei de plată a eșuat.",
+        "alternative_payment_currency_total_manual_payment_notice": "Notă: Totalul convertit este %{amount_due}.",
+        "gift_cards_unavailable": "Cuponul cadou nu mai poate fi folosit pentru această comandă și a fost, prin urmare, șters",
+        "network_card_payment_options": "Alegerea unei companii de carduri de credit",
+        "payment_flexibility_terms_id_mismatch": "ID condiții flexibilitate plată nu corespunde",
+        "offsite_gateway_review_page_redirect_hint": "După ce ai verificat comanda, vei fi redirecționat către %{gateway_label} pentru a finaliza achiziția ta.",
+        "gift_card_checkbox_label": "Aplică bonul cadou",
+        "blik_label": "Privire rapidă",
+        "grabpay_label": "PlatăRapidă",
+        "kcp_creditcard_label": "KCP-card de credit",
+        "simulated_express_checkout": "Portofelele digitale nu sunt disponibile în exemplul editorului din cauza regiunii sau a browserului tău",
+        "offsite_gateway_redirect_hint_no_button_label": "Veți fi redirecționat către %{gateway_label} pentru a finaliza achiziția.",
+        "swish_label": "Zăngănit",
+        "network_card_persistence_description": "Rețeaua selectată va fi salvată împreună cu metoda ta de plată pentru tranzacții viitoare.",
+        "billing_address_rollup_accessibility_label": "Opțiuni pentru adresa de facturare",
+        "payment_method_rollup_accessibility_label": "Opțiuni pentru metoda de plată",
+        "crypto_modal": {
+          "header": "Plătește %{shop_name} %{total_price} USDC",
+          "error": {
+            "refresh": "Reînnoiește",
+            "close": "închide",
+            "sandbox_error": "Ceva nu a mers bine",
+            "web_component_error": "A apărut o problemă la încărcarea acestei pagini"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Cont de plată",
+          "savings": "Cont de economii"
+        },
+        "bank_account_choose": "Alege un cont pentru a finaliza cumpărăturile în siguranță",
+        "bank_account_connect_another": "Conectează un alt cont bancar",
+        "bank_account_connect": "Conectare cont bancar",
+        "bank_account_missing": "Contul bancar trebuie să fie conectat",
+        "crypto_payment_method": {
+          "description": "Conectează-ți portofelul în siguranță. Soldul și adresa ta nu vor fi partajate.",
+          "tooltip": "Soldul portofelului tău și adresa ta nu sunt împărtășite și poate fi scăzută doar suma solicitată",
+          "cashback_descriptor": {
+            "one": "Primești cashback-ul după %{count} zile",
+            "other": "Primești cashback-ul după %{count} zile"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% rambursare în numerar",
+        "usdc_cashback_additional_info": "Plătește cu USDC pe Base și primește înapoi în portofelul tău digital %{incentive_percentage}% în termen de 30 de zile.",
+        "usdc_cashback_terms": "Termeni și limite aplicabile",
+        "discount_show_more_warnings": {
+          "one": "Afișează %{count} mai multe",
+          "other": "Afișează %{count} mai multe"
+        }
       }
     }
   }
