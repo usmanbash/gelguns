@@ -2721,8 +2721,90 @@
               "other": "Nepavyksta gauti %{count} straipsnių"
             },
             "cannot_be_shipped": {
-              "one": "%{count} straipsnio negalima išsiųsti"
+              "one": "%{count} straipsnio negalima išsiųsti",
+              "other": "%{count} straipsnių negalima išsiųsti"
             }
+          },
+          "remove_item": {
+            "one": "Pašalinti straipsnį",
+            "other": "Pašalinti straipsnius"
+          },
+          "ship_separately": {
+            "one": "išskyrus siuntimą",
+            "other": "išskyrus siuntimą"
+          },
+          "pick_them_up_in_store": {
+            "one": "atsiimti parduotuvėje",
+            "other": "atsiimti parduotuvėje"
+          }
+        },
+        "items_for_shipping": "Prekės siuntimui",
+        "items_moved_to_shipping_toast": "Prekės, kurių negalima atsiimti, perkeltos į siuntimą",
+        "cross_border": {
+          "modal": {
+            "heading": "Keisti šalį?",
+            "content": "Dėl to visi straipsniai vėl bus nustatyti siuntimui. Jūsų atsiėmimo ir siuntimo vietos turi būti toje pačioje šalyje.",
+            "change_country": "Keisti šalį"
+          }
+        }
+      },
+      "captcha": {
+        "title": "Įveskite CAPTCHA, kad tęstumėte",
+        "errors": {
+          "not_solved": "Įveskite CAPTCHA, kad tęstumėte"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Jūsų užsakymo negalima apdoroti, nes jūsų nuolaidos kodas nebėra galiojantis. Patikrinkite užsakymo sumą ir bandykite dar kartą."
+      },
+      "wallets": {
+        "redirect_hint": "Jūsų prašoma prisijungti prie {{walletName}}.",
+        "payment_in_progress_body": "Mokėjimas apdorojamas. Užsakymas beveik baigtas.",
+        "call_to_action": "Apmokėkite su {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nėra pasiekiamas",
+            "description": "{{walletName}} nebuvo pasiekiamas. Naudokite kitą mokėjimo būdą arba bandykite dar kartą vėliau.",
+            "instructions": "Įvyko problema su {{walletName}}. Grįžkite į parduotuvę ir bandykite dar kartą arba atsiskaitykite kitu būdu.",
+            "unavailable_for_country": "{{walletName}} nėra pasiekiama {{countryName}}. Pasirinkite kitą mokėjimo būdą, kad užbaigtumėte pirkimą"
+          },
+          "generic": "Įvyko problema su {{walletName}}. Bandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+          "terminal": "Įvyko problema su {{walletName}}. Naudokite kitą mokėjimo būdą.",
+          "detour": {
+            "stock_problems": "Kai kurie straipsniai nebeprieinami. Uždarykite {{walletName}} ir bandykite dar kartą.",
+            "price_change": "Kai kurių prekių kainos pasikeitė. Uždarykite {{walletName}}, kad patikrintumėte savo užsakymą ir bandykite dar kartą.",
+            "queue": "Jūs stovite eilėje prie kasos. Uždarykite {{walletName}}, kad tęstumėte.",
+            "currency_change": "Negalite naudoti kito adreso su {{walletName}}. Naudokite pradinį adresą arba išbandykite kitą mokėjimo būdą."
+          },
+          "unsupported": {
+            "address": "Pardavėjas negali pristatyti į pasirinktą pristatymo adresą.",
+            "postal_code": "Ši vieta nėra palaikoma",
+            "wallet_is_unavailable": "Negalite naudoti {{walletName}} su šiuo adresu. Pasirinkite kitą adresą arba uždarykite {{walletName}}, kad užbaigtumėte pirkimą."
+          },
+          "outdated": {
+            "shipping_method": "Jūsų užsakymo siuntimo parinktys pasikeitė. Patikrinkite savo pasirinkimą.",
+            "payment_terms": "Mokėjimo sąlygos pasikeitė. Patikrinkite savo užsakymą"
+          },
+          "invalid": {
+            "shipping_address": "Įveskite galiojantį pristatymo adresą",
+            "billing_address": "Įveskite galiojantį sąskaitos faktūros adresą",
+            "shipping_option": "Pasirinkite galimą pristatymo parinktį",
+            "email": "Įveskite galiojantį el. pašto adresą",
+            "zone": "Įveskite galiojančią valstiją/provinciją",
+            "postal_code": "Įveskite galiojantį pašto kodą arba ZIP kodą",
+            "reduction_code": "Įveskite galiojantį nuolaidos kodą arba dovanų kuponą",
+            "billing_must_match_shipping": "Turi sutarti su pristatymo adresu.",
+            "phone": "Įveskite galiojantį telefono numerį",
+            "emirate": "Įveskite galiojantį emyratą",
+            "billing_zone": "Įveskite galiojančią valstiją/provinciją sąskaitos faktūros adresui",
+            "billing_phone": "Įveskite galiojantį telefono numerį sąskaitos adresui",
+            "billing_zip": "Įveskite galiojantį pašto arba sąskaitos adresą kodą"
+          },
+          "missing": {
+            "address2": "Įveskite buto arba apartamentų numerį ir pan.",
+            "city": "Įveskite vietą",
+            "province": "Pasirinkite valstiją/provinciją",
+            "country": "Pasirinkite šalį/regioną"
           }
         }
       }
