@@ -1473,10 +1473,86 @@
         "card_fields": {
           "errors": {
             "required": {
-              "issue_date": "Veuillez saisir une date de délivrance valide"
+              "issue_date": "Veuillez saisir une date de délivrance valide",
+              "issue_number": "Entrez un numéro de sortie valide"
+            },
+            "invalid": {
+              "verification_value": "Veuillez saisir un CVV/CVC ou code de sécurité valide"
             }
           }
-        }
+        },
+        "simulated_checkout": "Exemple apparaîtra bientôt",
+        "vaulting_agreement_label": "Enregistrez mes informations de paiement chez %{company} pour un passage en caisse plus rapide.",
+        "business_customer_vaulting_payment_label": "Enregistrez ce mode de paiement lors du passage en caisse et autorisez %{company} à débiter cette carte pour des achats futurs à cet emplacement. Toutes les personnes de contact assignées à cet emplacement sont autorisées à utiliser ce mode de paiement.",
+        "purchase_options_and_vaulting_agreement_label": "Un ou plusieurs articles dans le panier sont un achat différé ou un abonnement. En poursuivant le paiement, vous acceptez que nous débitons automatiquement les montants d'achat via votre méthode de paiement selon le prix et la fréquence indiqués sur cette page, jusqu'à expiration ou résiliation de votre part. Pour toutes les résiliations, la %{cancellation_policy_label} s'applique.",
+        "purchase_options_cancellation_policy_label": "politique d'annulation",
+        "saved_credit_card_info": "Derniers quatre chiffres",
+        "saved_credit_cards_modal": {
+          "done": "Prêt"
+        },
+        "expired_cards_info": {
+          "one": "Il y a %{count} carte expirée. Vous pouvez la consulter et la modifier dans votre compte.",
+          "other": "Il y a %{count} cartes expirées. Vous pouvez les consulter et les modifier dans votre compte."
+        },
+        "local_payment_method_receiver_notice": "Après avoir passé votre commande, vous recevrez les informations de paiement. Effectuez le paiement dans les {{dueDays}} jours via un distributeur automatique ou en ligne.",
+        "order_edit_banner_title": "Paiement de {{amount_owed}} requis",
+        "order_edit_banner_subtitle": "Votre commande {{order_number}} a été mise à jour. Vérifiez ces modifications et payez pour confirmer votre commande.",
+        "order_edit_banner_multiple_items_added": "{{amount}} ajouté",
+        "order_edit_banner_multiple_items_removed": "{{amount}} supprimé",
+        "gift_card_wrapper": {
+          "heading": "Bon cadeau",
+          "apply_gift_card_label": "Appliquer un bon cadeau",
+          "payment_tag": "Bon cadeau",
+          "apply_another_gift_card_label": "Appliquer un autre bon cadeau",
+          "gift_card_label": "Bon cadeau %{identifier}",
+          "add_label": "Ajouter un bon cadeau",
+          "manage_label": "Gérer les bons cadeaux"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmation pour paiements personnalisés sur place"
+        },
+        "markets_pro_disclaimer_label": "En passant votre commande, vous acceptez l'achat auprès de Global-e en tant que commerçant enregistré, soumis aux %{markets_pro_terms} et %{privacy_policy} de Global-e, et vous partagez vos données avec %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "conditions générales",
+        "markets_pro_disclaimer_privacy_policy": "politique de confidentialité",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Conditions générales pour les commerçants enregistrés",
+        "markets_pro_disclaimer_privacy_policy_title": "Politique de confidentialité pour les commerçants enregistrés",
+        "purchase_order_number": {
+          "title": "Numéro de commande",
+          "label": "Numéro de commande (facultatif)"
+        },
+        "alternative_payment_currency_total_notice": "Remarque : un montant de %{amount_due} sera débité.",
+        "waiting_on_taxes_message": "Actualisez la page si les taxes ne sont pas calculées dans quelques secondes.",
+        "waiting_on_taxes_notice": "Calculer les impôts",
+        "order_edit_banner_single_item_returned": "Retourné",
+        "order_edit_banner_multiple_items_returned": "{{amount}} retourné",
+        "shop_pay_installments_label": "Paiements échelonnés Shop Pay",
+        "add_credit_card_modal": {
+          "title": "Ajouter une carte"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Êtes-vous sûr de vouloir supprimer {{brandName}} se terminant par {{lastDigits}} ?"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} ajouté"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Supprimé",
+          "with_quantities": "{{delta}} il y a {{quantity}} supprimé(s)"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} retourné",
+          "with_quantities": "{{delta}} sur {{quantity}} retournés"
+        },
+        "edit_credit_card_modal": {
+          "done": "Prêt",
+          "description": "Vous pouvez uniquement modifier l'adresse de facturation de votre carte.",
+          "fields": {
+            "expiry": "Date d'expiration"
+          }
+        },
+        "payment_method": "Méthode de paiement",
+        "expired_payment_method": "La méthode de paiement sélectionnée a expiré",
+        "subscription_heading": "Contrat d'abonnement"
       }
     }
   }
