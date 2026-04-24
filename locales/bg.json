@@ -94,74 +94,74 @@
       "blog": "Блог",
       "read_more_title": "Прочетете още: {{ title }}",
       "comments": {
-        "one": "{{ count }} коментар",
-        "other": "{{ count }} коментара"
+        "one": "{{ count }} отговор",
+        "other": "{{ count }} коментари"
       },
-      "moderated": "Имайте предвид, че коментарите трябва да бъдат одобрени, преди да се публикуват.",
-      "comment_form_title": "Оставяне на коментар",
+      "moderated": "Внимание: коментарите трябва да бъдат одобрени преди да бъдат публикувани.",
+      "comment_form_title": "Публикуване на отговор",
       "name": "Име",
       "email": "Имейл",
-      "message": "Коментар",
-      "post": "Публикуване на коментар",
-      "back_to_blog": "Назад към блога",
-      "share": "Споделяне на тази статия",
-      "success": "Коментарът ви е публикуван успешно. Благодарим.",
-      "success_moderated": "Коментарът ви е изпратен успешно. Ще бъде публикуван след малко, тъй като блогът има модератор."
+      "message": "Отговор",
+      "post": "Публикувайте коментар",
+      "back_to_blog": "Обратно към блога",
+      "share": "Сподели тази статия",
+      "success": "Вашият отговор е публикуван! Благодарим ви!",
+      "success_moderated": "Вашият отговор е публикуван. Ще го публикуваме скоро; нашият блог се модерира."
     }
   },
   "onboarding": {
-    "collection_title": "Име на вашата колекция",
-    "product_title": "Примерно название на продукт"
+    "collection_title": "Името на твоята колекция",
+    "product_title": "Примерно заглавие на продукта"
   },
   "products": {
     "product": {
-      "add_to_cart": "Добавяне към количката",
+      "add_to_cart": "Добави в количката",
       "description": "Описание",
-      "on_sale": "Разпродажба",
+      "on_sale": "Оферта",
       "quantity": {
-        "label": "Количество",
+        "label": "Брой",
         "input_label": "Количество за {{ product }}",
-        "increase": "Увеличаване на количеството за {{ product }}",
-        "decrease": "Намаляване на количеството за {{ product }}",
-        "minimum_of": "Минимум: {{ quantity }}",
-        "maximum_of": "Максимум: {{ quantity }}",
-        "multiples_of": "Стъпки от {{ quantity }}",
+        "increase": "Увеличете количеството за {{ product }}",
+        "decrease": "Намалете количеството за {{ product }}",
+        "minimum_of": "Минимален ван {{ quantity }}",
+        "maximum_of": "Максимален ван {{ quantity }}",
+        "multiples_of": "Стъпки на {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> в количката",
-        "note": "Преглед на правилата за количества",
+        "note": "Преглед на правилата за количество",
         "min_of": "Мин. {{ quantity }}",
         "max_of": "Макс. {{ quantity }}",
         "in_cart_aria_label": "Количество ({{ quantity }} в количката)"
       },
       "price": {
         "from_price_html": "От {{ price }}",
-        "regular_price": "Обичайна цена",
-        "sale_price": "Цена при разпродажба",
+        "regular_price": "Нормална цена",
+        "sale_price": "Промоционална цена",
         "unit_price": "Единична цена"
       },
-      "share": "Споделяне на този продукт",
-      "unavailable": "Неналично",
-      "vendor": "Доставчик",
+      "share": "Сподели този продукт",
+      "unavailable": "Няма наличност",
+      "vendor": "Продавач",
       "video_exit_message": "{{ title }} отваря видео на цял екран в същия прозорец.",
-      "xr_button": "Преглед във вашето пространство",
-      "xr_button_label": "При „Преглед във вашето пространство“ елементът се зарежда в прозорец с обогатена реалност.",
+      "xr_button": "Вижте в пространството си",
+      "xr_button_label": "Вижте в своята среда, заредете артикул в прозореца за добавена реалност",
       "sold_out": "Изчерпано",
       "pickup_availability": {
-        "view_store_info": "Вижте информация за магазина",
-        "check_other_stores": "Проверка за наличност в други магазини",
-        "pick_up_available": "Възможност за взимане",
-        "pick_up_available_at_html": "Възможност за взимане от <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "В момента няма възможност за взимане от <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "Не може да се зареди възможността за взимане",
-        "refresh": "Обнови"
+        "view_store_info": "Преглед на данни за магазина",
+        "check_other_stores": "Проверете наличността в други магазини",
+        "pick_up_available": "Вземане на място е възможно",
+        "pick_up_available_at_html": "Вземане на място е налично в <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "В момента не е възможно вземане от <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Не може да се зареди наличността за вземане на място",
+        "refresh": "Обновяване"
       },
       "media": {
-        "open_media": "Отваряне на мултимедия {{ index }} в модален елемент",
-        "play_model": "Възпроизвеждане с 3D Viewer",
-        "play_video": "Възпроизвеждане на видеоклип",
-        "gallery_viewer": "Визуализатор на галерията",
-        "load_image": "Зареждане на изображение {{ index }} във визуализатора на галерията",
-        "load_model": "Зареждане на 3D модел {{ index }} във визуализатора на галерията",
-        "load_video": "Пускане на видео {{ index }} във визуализатора на галерията",
+        "open_media": "Медия {{ index }} отваряне в модален прозорец",
+        "play_model": "3D-прегледвач възпроизвеждане",
+        "play_video": "Възпроизвеждане на видео",
+        "gallery_viewer": "Изглед на галерията",
+        "load_image": "Зареждане на изображение {{ index }} в изглед на галерия",
+        "load_model": "3D модел {{ index }} зареден в изглед на галерия",
+        "load_video": "Възпроизвеждане на видео {{ index }} в изглед на галерия",
         "image_available": "Изображение {{ index }} вече е налично във визуализатора на галерията"
       },
       "nested_label": "{{ title }} за {{ parent_title }}",
@@ -188,7 +188,17 @@
       "product_variants": "Варианти на продукта",
       "taxes_included": "С включени данъци.",
       "duties_included": "С включено мито.",
-      "duties_and_taxes_included": "С включено мито и данъци."
+      "duties_and_taxes_included": "С включено мито и данъци.",
+      "inventory_out_of_stock_message": "Налично в наличност",
+      "inventory_order_before": "за",
+      "inventory_delivered": "поръчано,",
+      "inventory_delivery_time": "утре вкъщи",
+      "inventory_status": {
+        "in_stock_badge": "Налично в наличност",
+        "low_stock_badge": "Малко наличност",
+        "out_of_stock_badge": "Няма наличност",
+        "shipping_message": "Поръчайте преди 14:00, изпращаме същия ден"
+      }
     },
     "modal": {
       "label": "Мултимедийна галерия"
