@@ -2472,7 +2472,101 @@
         },
         "subtitle_no_match": "Αυτή η διεύθυνση δεν ταιριάζει με καμία από τις αποθηκευμένες διευθύνσεις σου.",
         "subtitle_must_use": "Η παραγγελία σας θα αποσταλεί σε αυτή τη διεύθυνση.",
-        "continue": "Συνέχεια με αυτή τη διεύθυνση"
+        "continue": "Συνέχεια με αυτή τη διεύθυνση",
+        "use_saved_address": "Χρήση άλλης διεύθυνσης",
+        "return_to_cart": "Επιστροφή στο καλάθι αγορών"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Διαβάστε",
+          "link_label": "οι Γενικοί Όροι και Προϋποθέσεις της {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Ερωτήσεις; Συνομιλήστε μαζί μας μέσω chat"
+      },
+      "local_pickup": {
+        "or": "ΤΟΥ",
+        "your_location": "η τοποθεσία σου",
+        "search_button": "Αναζήτηση καταστημάτων",
+        "could_not_resolve_address": "Δεν μπορεί να βρεθεί η διεύθυνσή σας. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη διεύθυνση",
+        "paginator": {
+          "accessibility_label": "Σελιδοποίηση για παραλαβή επί τόπου",
+          "label": {
+            "one": "%{first} - %{last} από %{count} καταστήματα"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Εμφάνιση Nog %{count} τοποθεσίας ακόμα",
+          "other": "Εμφάνιση ακόμα %{count} τοποθεσιών"
+        },
+        "all_stores_far_away": {
+          "title": "Οι πλησιέστερες τοποθεσίες βρίσκονται σε απόσταση μεγαλύτερη από %{distance}",
+          "description": "Επιλέξτε μια τοποθεσία ή %{ship_to_address_link}",
+          "ship_to_address_link": "διεύθυνση παράδοσης",
+          "change_location_link": "Αλλαγή τοποθεσίας",
+          "title_with_specific_location": "Η πλησιέστερη τοποθεσία με το αντικείμενό σας βρίσκεται σε απόσταση μεγαλύτερη από %{distance} από %{location}.",
+          "title_with_item": {
+            "one": "Η πλησιέστερη τοποθεσία με το αντικείμενό σας βρίσκεται σε απόσταση μεγαλύτερη από %{distance} από %{location}.",
+            "other": "Η πλησιέστερη τοποθεσία με τα αντικείμενά σου βρίσκεται σε απόσταση μεγαλύτερη από %{distance} από %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Η τοποθεσία που επιλέξατε νωρίτερα δεν είναι πλέον διαθέσιμη",
+          "description": "Επιλέξτε μια νέα τοποθεσία ή %{ship_to_address_link}",
+          "ship_to_address_link": "Αποστολή στη διεύθυνση"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Αποστολή των αντικειμένων σου",
+          "search_elsewhere": "ψάξε αλλού",
+          "ship_items_or_search_elsewhere": "%{ship_items} από %{search_elsewhere}"
+        },
+        "location_closest": "Κοντινότερη τοποθεσία με το αντικείμενό σου",
+        "toggle_multiple_locations": "Άλλες %{count} τοποθεσίες ακόμα",
+        "location_information_far_away": {
+          "one": "Υπάρχει %{count} τοποθεσία με το άρθρο σου",
+          "other": "Υπάρχουν %{count} τοποθεσίες με το άρθρο σου"
+        },
+        "location_nearby": {
+          "one": "Υπάρχει %{count} τοποθεσία κοντά με το προϊόν σου",
+          "other": "Υπάρχουν %{count} τοποθεσίες κοντά με το άρθρο σου"
+        },
+        "location_nearby_short": {
+          "one": "%{count} τοποθεσία κοντά με το άρθρο σου",
+          "other": "%{count} τοποθεσίες κοντά με το προϊόν σου"
+        },
+        "location_far_away": {
+          "one": "%{count} τοποθεσία με το άρθρο σου",
+          "other": "%{count} τοποθεσίες με το άρθρο σου"
+        },
+        "toggle_more_locations": {
+          "one": "Άλλες %{count} τοποθεσίες",
+          "other": "Άλλες %{count} τοποθεσίες"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Δεν υπάρχουν τοποθεσίες με το άρθρο σας",
+          "other": "Δεν υπάρχουν τοποθεσίες με τα άρθρα σας"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Δεν υπάρχουν τοποθεσίες στο %{country} με το άρθρο σου",
+          "other": "Δεν υπάρχουν τοποθεσίες στο %{country} με τα άρθρα σου"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Παραλαβή όλων των ειδών",
+        "items_for_pickup": "Αντικείμενα για παραλαβή",
+        "delivery_method": "Διαχωρισμένη μέθοδος παράδοσης",
+        "delivery_method_menu": "Μενού διαχωρισμένης μεθόδου παράδοσης",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} από %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} από %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Δεν είναι δυνατή η ανάκτηση %{count} άρθρων",
+              "other": "Δεν είναι δυνατή η ανάκτηση %{count} άρθρων"
+            }
+          }
+        }
       }
     }
   }
