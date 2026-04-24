@@ -3007,7 +3007,85 @@
       "gift_card_expired": "Bon podarunkowy wygasł",
       "invalid": "jest nieprawidłowy",
       "taken": "jest już używany",
-      "too_short": "jest za krótki (minimum to %{count} znaków)"
+      "too_short": "jest za krótki (minimum to %{count} znaków)",
+      "too_long": "jest za długi (maksymalnie %{count} znaków)",
+      "password_mismatch": "musi być identyczne z podanym hasłem",
+      "invalid_for_country": "nie jest ważne dla %{country}",
+      "invalid_for_country_and_province": "nie jest ważne dla %{province} i %{country}",
+      "invalid_province_in_country": "nie jest prawidłowym województwem w %{country}",
+      "invalid_state_in_country": "nie jest prawidłowym stanem w %{country}",
+      "invalid_region_in_country": "nie jest prawidłowym regionem w %{country}",
+      "less_than_or_equal_to": "musi być mniejsze lub równe %{count}",
+      "not_supported": "nie jest obsługiwany",
+      "full_name_required": "Wpisz imię i nazwisko",
+      "invalid_for_card_type": "jest nieprawidłowy",
+      "expired": "wygasł",
+      "invalid_start_date_or_issue_number_for_debit": "wymagana ważna data rozpoczęcia lub ważny numer wydania",
+      "reset_password_html": "Ten adres e-mail jest już powiązany z kontem. Jeśli to konto należy do Ciebie, możesz <a href=\"/account/login#recover\">zresetować swoje hasło</a>",
+      "verify_email": "Wysłaliśmy e-mail na adres %{customer_email}. Proszę kliknąć w załączony link, aby potwierdzić swój adres e-mail.",
+      "shop_404": {
+        "title": "Stwórz stronę internetową do handlu elektronicznego i sprzedawaj swoje produkty w sieci! Oprogramowanie do handlu elektronicznego od Shopify",
+        "heros": {
+          "store_unavailable": "Ten sklep jest chwilowo niedostępny."
+        },
+        "links": {
+          "explore_other_stores": "Odkryj inne sklepy",
+          "start_free_trial": "Wypróbuj za darmo"
+        },
+        "owner_ctas": {
+          "fix_domain": "Przejdź do %{domain_settings_link} i dokończ ustawianie nowego adresu internetowego. Kliknij „Połącz domenę” i wpisz: %{domain}.<br>Jeśli nie możesz wejść do swojego sklepu, spróbuj %{forgot_your_store_link}",
+          "fix_domain_link_text": "ustawienia domeny",
+          "forgot_your_store_link_text": "Zapomniałeś swojego koszyka?",
+          "add_storefront": "Możesz skonfigurować swoją stronę internetową, dodając kanał sklepu internetowego w %{admin_link}. Jeśli nie możesz uzyskać dostępu do swojego sklepu, spróbuj %{forgot_your_store_link}",
+          "admin_link_text": "centrum zarządzania"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Uzyskaj funkcje potrzebne do prowadzenia sklepu detalicznego, niezależnie od tego, czy dopiero zaczynasz, czy rozwijasz działalność.",
+            "link_text": "Rozpocznij bezpłatną wersję próbną"
+          },
+          "open_a_store": {
+            "header": "Otwarcie nowego sklepu Shopify",
+            "caption": "Rozpocznij darmowy, trzydniowy okres próbny, a następnie kontynuuj przez trzy miesiące za 1 USD miesięcznie."
+          },
+          "editions": {
+            "header": "Przeglądaj wydania Shopify",
+            "caption": "Istnieje ponad 100 aktualizacji produktów, które pozwolą ci być bardziej wydajnym, twórczym i skutecznym w świecie handlu, niż kiedykolwiek uważałeś za możliwe.",
+            "link_text": "Odkryj najnowsze wydania"
+          },
+          "store_owner": {
+            "caption": "Nie możesz wejść do swojego sklepu? Wypróbuj funkcję %{forgot_your_store_link}. Jeśli chcesz ponownie aktywować swój sklep, skontaktuj się z %{shopify_support_link}.",
+            "shopify_support_link_text": "Wsparcie Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Błąd podczas resetowania hasła",
+        "no_account_found": "Nie znaleziono konta z tym adresem e-mail.",
+        "invalid_credentials": "Nieprawidłowy adres e-mail lub hasło.",
+        "denylisted_reset_password": "Twoje konto nie może zostać otwarte, ponieważ obecne hasło nie jest bezpieczne. Otrzymasz wiadomość e-mail z instrukcjami, jak ustawić nowe hasło.",
+        "signup_disabled": "Tworzenie kont klientów zostało wyłączone.",
+        "subscribe_error": "Błąd podczas subskrypcji",
+        "unsubscribe_error": "Błąd podczas wylogowywania"
+      },
+      "address": {
+        "updated": "Adres zaktualizowany.",
+        "error_updating": "Błąd podczas aktualizacji adresu",
+        "created": "Adres utworzony",
+        "error_creating": "Błąd podczas tworzenia adresu.",
+        "deleted": "Adres usunięty",
+        "error_deleting": "Błąd podczas usuwania adresu."
+      },
+      "order": {
+        "not_available": "To zamówienie nie jest dostępne",
+        "financial_status": {
+          "authorized": "Zweryfikowano",
+          "pending": "W trakcie realizacji",
+          "paid": "Opłacono"
+        }
+      }
     }
   }
 }
