@@ -1324,7 +1324,65 @@
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} küldemények",
         "split_shipping_multiple_shipment_notice": "A rendelés több részletben kerül kiszállításra",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "A rendelésed %{quantity} szállítmányban érkezik meg",
-        "split_shipping_more_shipping_options": "További szállítási lehetőségek"
+        "split_shipping_more_shipping_options": "További szállítási lehetőségek",
+        "split_shipping_shipment_number": "Küldemény %{number}",
+        "split_shipping_option_custom": "Testreszabott",
+        "default_description": "Egy munkanapon belül feladva",
+        "split_shipping_shipment_notice": "Megkapod a rendelésedet %{quantity_shipments} részletben",
+        "unbranded_default_description": "Kész a feladásra",
+        "prime_not_available": {
+          "default": "A Prime-szállítás nem elérhető a rendelésedhez. A szállítási lehetőségeid frissültek."
+        },
+        "split_shipping_first_shipment_notice": "Megkapod az első rendelésedet %{quantity_shipments} alatt",
+        "shipping_method_rollup_accessibility_label": "Szállítási módok választéka",
+        "shipping_address_rollup_accessibility_label": "Szállítási lehetőségek címre",
+        "invalid_shipping_method_summary_selected": "Válasszon másik kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez",
+        "third_party_address_timeout": "Nem sikerült betölteni a címet. Próbálja meg újra, vagy használjon másik címet.",
+        "third_party_address_error": "Hiba történt a címválasztó betöltése közben. Kérjük, add meg címedet alább kézzel.",
+        "third_party_payment_timeout": "Nem sikerült betölteni a fizetési módokat. Próbálja újra, vagy használjon másik fizetési módot.",
+        "third_party_payment_error": "Hiba történt a fizetési mód kiválasztásakor. Kérjük, használjon másik fizetési lehetőséget.",
+        "choose_new_address": "Válasszon új címet",
+        "unbranded_description_same_day": "Ugyanazon a munkanapon feladva",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "A következő munkanapon feladva",
+          "other": "%{count} munkanapon belül szállítjuk"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "%{count} hét múlva szállítjuk",
+          "other": "%{count} héten belül szállítjuk"
+        },
+        "add_new_delivery_address": "Új kézbesítési cím hozzáadása",
+        "delivery_to": "Kiszállítás ideje"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Fizetés",
+        "amazon_payments_login_hint": "Kérjük, jelentkezz be az Amazon fiókodba.",
+        "amazon_payments_logout": "Kijelentkezés az Amazon Pay szolgáltatásból",
+        "amazon_payments_failed_mfa_challenge": "A kiválasztott fizetési mód nem használható. Válasszon másik módot, vagy lépjen kapcsolatba bankjával vagy kártyakibocsátójával.",
+        "amazon_payments_abandoned_mfa_challenge": "A fizetés nem sikerült. Próbálj meg egy másik fizetési módot, vagy vedd fel a kapcsolatot a bankoddal vagy a kártyakibocsátóval.",
+        "amazon_payments_could_not_enqueue_authorize": "Probléma történt a fizetés feldolgozása során. Próbáld meg újra, vagy használj másik fizetési módot.",
+        "amount_left_to_pay_label": "Fizetendő összeg:",
+        "discount_button_action_label": "Írd be a kedvezménykódot",
+        "gift_card_code_label": "Ajándékutalvány kód",
+        "apply_gift_card_button_label": "Alkalmazás",
+        "supported_card_brands_more_label": "és még több…",
+        "detected_card_brand": "Felismerett kártyatípus: {brand}",
+        "card_pay_with": "Fizessen ezzel:",
+        "name_on_card_label": "Név a kártyán",
+        "name_on_card_placeholder": "Név a kártyán",
+        "card_expiry_label": "Lejárati dátum (HH/ÉÉ)",
+        "card_expiry_placeholder": "Lejárati dátum (HH/ÉÉ)",
+        "card_expiry_date_explanation": "Kártya lejárati dátumának elrendezése: hónap, hónap, év, év",
+        "card_verification_value_explanation": "3 számjegyű biztonsági kód, amely általában a kártya hátoldalán található. Az American Express esetében a 4 számjegyű kód a kártya előoldalán van.",
+        "card_verification_value_explanation_amex": "4 számjegyű biztonsági kód a kártyád előoldalán",
+        "card_verification_value_explanation_other": "3 jegyű biztonsági kód a kártyád hátoldalán",
+        "card_start_label": "Kiadás dátuma (HH / ÉÉ)",
+        "card_start_placeholder": "Kiadás dátuma (HH / ÉÉ)",
+        "card_issue_number_label": "Kiadási szám",
+        "card_issue_number_placeholder": "Kiadási szám",
+        "ends_with_label": "lejárata: %{last_digits}",
+        "saved_by_payment_method": "Elmentve a %{payment_method} segítségével",
+        "pay_with_payment_method": "Fizessen %{payment_method} segítségével"
       }
     }
   }
