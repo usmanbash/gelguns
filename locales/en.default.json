@@ -825,7 +825,67 @@
         "postcode_placeholder": "Postal code",
         "pincode_label": "Postal code",
         "pincode_placeholder": "Postal code",
-        "different_shipping_address_label": "Send to another address"
+        "different_shipping_address_label": "Send to another address",
+        "different_shipping_address_text": "Use a single address for this order",
+        "change_company_location_link_label": "Change business location",
+        "shipping_used_as_billing_notice": "We also use this as the billing address for this order.",
+        "company_attention_label": "Company/attn.",
+        "optional_company_attention_label": "Company/attn. (optional)",
+        "optional_zip_code_label": "Postal code (optional)",
+        "optional_postcode_label": "Postal code (optional)",
+        "optional_pincode_label": "Pin code (optional)",
+        "phone_rollup_accessibility_label": "Telephone options",
+        "phone_country_code_label": "Country code of telephone number",
+        "storefront_link": "website of the merchant",
+        "suburb_label": "Outskirts"
+      },
+      "delivery_options": {
+        "ship": "Shipping",
+        "pick_up_in_two_hours": "Usually ready within 2 hours",
+        "pick_up_in_four_hours": "Usually ready within 4 hours",
+        "pick_up_next_day": "Ready to pick up the next day",
+        "pick_up_in_one_hour": "Usually ready within 1 hour",
+        "pick_up_in_twenty_four_hours": "Usually ready within 24 hours",
+        "pick_up_in_two_to_four_days": "Usually ready within 2-4 days",
+        "pick_up_in_five_or_more_days": "Usually ready in more than 5 days",
+        "shipping_address": "Delivery address",
+        "pickup_point_method_definition": "Shipping to pickup point",
+        "retail_method_definition": "Shipments from retail",
+        "none_method_definition": "No shipments",
+        "subscription_pickup_information": "This delivery method applies to all items in this order and to all future items for this subscription.",
+        "ship_to_address": "Send to address",
+        "pick_up_from_store": "Pick up in the shop",
+        "company_location_no_address_banner": "Orders shipped to locations without an address are submitted for review.",
+        "pickup_point_map_title": "Map with pickup points"
+      },
+      "customer_account": {
+        "not_user_label": "Are you not %{first_name}?",
+        "have_an_account_label": "Do you have an account?",
+        "sign_in_link_label": "Log in",
+        "sign_out_link_label": "Log out",
+        "save_my_information_label": "Save this information to check out faster next time",
+        "invalid_address": "The selected address is invalid. %{update_address_link} or select a different address.",
+        "incomplete_address": "The selected address is incomplete. %{update_address_link} or select a different address.",
+        "invalid_shipping_method_summary": "Select a valid delivery address to see the available shipping methods"
+      },
+      "stock": {
+        "page_title": "Stock problem",
+        "quantity_column_header": "Number",
+        "status_column_header": "Condition",
+        "removed_from_cart_notice": "Removed from shopping cart",
+        "reduced_with_quantity_label": "Only %{quantity_available} in stock",
+        "remove_from_cart_button_label": "Remove from shopping cart",
+        "go_back_to_cart_button_label": "Back to my shopping cart",
+        "empty_cart_label": "Your shopping cart is empty",
+        "quantity_update": {
+          "page_title": "Quantity updated",
+          "title": "Quantity updated",
+          "description": "The available quantities for these items have changed and your shopping cart has been updated."
+        },
+        "unpurchasable_product": {
+          "title": "Product cannot be purchased",
+          "header": "Some items have been removed from your shopping cart"
+        }
       }
     },
     "sentence": {
