@@ -4169,7 +4169,83 @@
       },
       "delete_payment_method_button": "Odstranit",
       "delete_payment_method_button_accessibility_label": "Odebrat {{paymentMethodName}}",
-      "back_button_accessibility_label": "Zpět na {{paymentMethodStepTitle}}"
+      "back_button_accessibility_label": "Zpět na {{paymentMethodStepTitle}}",
+      "generic_card": "Mapa",
+      "payment_delete": {
+        "title": "Odstranit způsob platby",
+        "description_without_replacement": "Tento způsob platby již není k dispozici pro budoucí nákupy.",
+        "description_with_replacement": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předem autorizované platby. Můžete ji také nahradit jinou platební metodou, abyste nadále dostávali nadcházející objednávky.",
+        "payment_method_selector_placeholder": "Vyberte náhradní způsob platby (volitelné)",
+        "replace_method_with_new_method_description": "Je {{currentPaymentMethodName}} odstraněna a nahrazena tvým {{newPaymentMethodName}}.",
+        "error_when_deleting": "Omlouváme se, došlo k chybě a tuto platební metodu nelze odstranit. Zkuste to prosím později znovu nebo obnovte stránku.",
+        "delete_and_replace_button_accessibility_label": "Odstraňte {{currentPaymentMethodName}} a nahraďte jej {{newPaymentMethodName}}.",
+        "deleted_successfully": "Platební metoda byla odstraněna.",
+        "loading_available_payment_methods_accessibility_label": "Načítání dostupných platebních metod",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předem autorizované platby. Nevyřízené částky za stávající objednávky budou stále účtovány prostřednictvím této platební metody, pokud nevyberete jinou platební metodu. Vyberte jinou platební metodu, abyste mohli bez přerušení nadále přijímat nadcházející objednávky předplatného.",
+          "with_pending_orders": "Odstranění platební metody zajistí, že bude odebrána z vašeho účtu a nebude již k dispozici pro budoucí nákupy. Nezaplacené částky za stávající objednávky budou stále účtovány touto platební metodou, pokud nevyberete jiný způsob platby.",
+          "with_subscriptions": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předem autorizované platby. Nahraďte ji jinou platební metodou, abyste nadále mohli přijímat nadcházející objednávky."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předem autorizované platby. Neuhrazené částky za stávající objednávky budou stále účtovány touto platební metodou, ale nebudete dostávat nadcházející objednávky předplatného. Přidejte jinou platební metodu, abyste nadále dostávali objednávky předplatného.",
+          "with_pending_orders": "Odstranění platební metody zajistí, že bude odebrána z vašeho účtu a nebude již k dispozici pro budoucí nákupy. Neuhrazené částky za stávající objednávky budou stále účtovány touto platební metodou.",
+          "with_subscriptions": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předem autorizované platby. Přidejte jinou platební metodu, abyste mohli nadále přijímat nadcházející objednávky."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Změnit způsob platby",
+        "payment_method_updated_toast": "Platební metoda aktualizována",
+        "billing_address_add_new": "Přidat nové",
+        "billing_address_choose_from_list": "Vybrat ze seznamu",
+        "future_purchases_notice": "Tento způsob platby bude uložen pro budoucí nákupy."
+      },
+      "card_fields": {
+        "card_expiry_label": "Datum platnosti (MM/RR)",
+        "card_expiry_placeholder": "Datum platnosti (MM/RR)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Více informací",
+          "card_verification_value_explanation_amex": "Čtyřmístný bezpečnostní kód na přední straně vaší karty",
+          "card_verification_value_explanation_other": "Bezpečnostní kód o 3 číslicích na zadní straně vaší karty",
+          "card_verification_value_explanation": "Bezpečnostní kód ze 3 číslic, který se obvykle nachází na zadní straně vaší karty. American Express má kód ze 4 číslic na přední straně.",
+          "card_security_notice": "Všechny transakce jsou zabezpečené a zašifrované."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Zadej své jméno tak, jak je uvedeno na tvé kartě",
+          "credit_card_expiry_invalid": "Zadejte platné datum vypršení platnosti karty",
+          "credit_card_verification_value_blank": "Zadejte CVV/CVC nebo bezpečnostní kód své karty"
+        },
+        "unavailable": {
+          "text": "Platba kreditní a debetní kartou momentálně není k dispozici.",
+          "suffix": "nebo zkuste to později znovu."
+        }
+      },
+      "add_payment_method": {
+        "title": "Přidat způsob platby",
+        "payment_method_added_confirmation": "Platební metoda přidána",
+        "billing_address": {
+          "add_billing_address_button": "Přidat nové",
+          "choose_billing_address_from_list_button": "Vybrat ze seznamu",
+          "choose_billing_address_from_list_button_accessibility_label": "Vyberte fakturační adresu ze seznamu",
+          "missing_billing_address_error_message": "Zadejte fakturační adresu",
+          "default_checkbox": "Nastavit jako výchozí způsob platby"
+        },
+        "replace_mode_warning": "Pokud tuto platební metodu odstraníte, bude to mít dopad na předplatné nebo předobjednávky. Nahraďte ji jinou platební metodou, abyste mohli nadále přijímat nadcházející objednávky.",
+        "choose_from_list": "Vybrat ze seznamu",
+        "add_new_button": "Přidat nové",
+        "subscription_contracts": {
+          "product_details": "Údaje o produktu",
+          "load_more": "Načíst více",
+          "more_items": {
+            "one": "Produkt č. {{count}}",
+            "other": "Nog {{count}} produktů"
+          },
+          "product_count": {
+            "other": "{{count}} produktů"
+          }
+        },
+        "contracts_update_failed": "Některé smlouvy o předplatném nebylo možné aktualizovat",
+        "subscription_contracts_updated": "{{succeeded}} z {{total}} předplatných aktualizováno"
+      }
     }
   }
 }
