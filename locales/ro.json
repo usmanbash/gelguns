@@ -4261,7 +4261,71 @@
       "minimumReached": "Valoarea minimă a furgonului a atins {{value}}",
       "maximumReached": "Valoarea maximă de {{value}} atinsă",
       "january": "ianuarie",
-      "february": "februarie"
+      "february": "februarie",
+      "march": "martie",
+      "april": "aprilie",
+      "may": "mei",
+      "june": "iunie",
+      "july": "iulie",
+      "august": "august",
+      "september": "septembrie",
+      "october": "octombrie",
+      "november": "noiembrie",
+      "december": "decembrie",
+      "monday": "luni",
+      "tuesday": "marți",
+      "wednesday": "miercuri",
+      "thursday": "joi",
+      "friday": "vineri",
+      "saturday": "sâmbătă",
+      "sunday": "duminică",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "fă.",
+      "fridayAbbreviation": "aprox.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "showPreviousMonth": "Afișează luna trecută, {{month}} {{year}}",
+      "rangeStart": "Începe intervalul",
+      "inRange": "La îndemână",
+      "rangeEnd": "Sfârșitul zonei de acoperire",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} articole disponibile"
+      },
+      "removeItem": "Eliminare {{label}}",
+      "mapClusterTitle": {
+        "one": "Cluster de {{number}} puncte de marcare",
+        "other": "Cluster de {{number}} puncte de marcare"
+      },
+      "expandSheet": "Desfășurare",
+      "addFile": "Adăugare fișier",
+      "dropzoneInvalidFileType": "Acest tip de fișier nu este acceptat",
+      "dropzoneDraggedOver": "Așezați fișierul pentru a-l încărca",
+      "clipboardFailedToCopy": "Nu a fost copiat",
+      "clear": "Cunoaștere"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Ajustare",
+      "hide_bar": "Ascunde coloană",
+      "navigate_to_admin": "Navigare către centrul de administrare",
+      "previewing": "Vizualizezi un exemplu din:",
+      "viewing": "Te uiți la:",
+      "not_available": "Nu există date de profil disponibile",
+      "close_preview": "Exemplu închidere"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Deconectare peste tot",
+        "description": "Dacă ți-ai pierdut un dispozitiv sau dacă îți faci griji pentru siguranța ta, deconectează-te de peste tot pentru a garanta siguranța contului tău.",
+        "button": "Deconectare de pe toate dispozitivele",
+        "warning_message": "De asemenea, vei fi delogat de pe acest dispozitiv."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Pe {{date}} la {{time}}"
+      }
     }
   }
 }

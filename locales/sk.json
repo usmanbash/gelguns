@@ -2299,7 +2299,101 @@
           "title": "Doplňujúce informácie",
           "tax_credential_br": "IČO/DIČ",
           "shipping_credential_br": "IČO/DIČ",
-          "shipping_credential_kr": "Osobný colný kód"
+          "shipping_credential_kr": "Osobný colný kód",
+          "shipping_credential_cn": "ID číslo obyvateľa",
+          "tax_credential_it": "Daňové identifikačné číslo (voliteľné)",
+          "tax_credential_co": "Cédula/DPH",
+          "tax_credential_type_co": "Typ preukazu",
+          "shipping_credential_co": "Cédula/DPH",
+          "shipping_credential_type_co": "Typ preukazu",
+          "tax_credential_ec": "DIČ/IČ DPH",
+          "shipping_credential_ec": "DIČ/IČ DPH",
+          "tax_credential_gt": "NIT/DIČ",
+          "shipping_credential_gt": "NIT/DIČ",
+          "tax_credential_id": "DIČ",
+          "shipping_credential_id": "DIČ",
+          "tax_credential_my": "DIČ/Registračné číslo",
+          "shipping_credential_my": "DIČ/Registračné číslo",
+          "tax_credential_type_mx": "Daňový režim",
+          "tax_credential_use_mx": "Použitie CFDI",
+          "tax_credential_py": "DIČ/IČ DPH",
+          "shipping_credential_py": "DIČ/IČ DPH",
+          "tax_credential_pt": "IČ DPH",
+          "shipping_credential_pt": "IČ DPH",
+          "shipping_credential_tw": "Národné ID číslo/DPH",
+          "tax_credential_tr": "Turecké republikové identifikačné číslo/DPH",
+          "shipping_credential_tr": "Turecké republikové identifikačné číslo/DPH"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Zaplatili ste za svoju objednávku."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Váš nákupný košík bol aktualizovaný podľa vašej krajiny pre doručenie.",
+        "cart_and_currency_updated_based_on_country": "Váš nákupný košík a mena boli prispôsobené krajine doručenia."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} pri každom %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Prvé %{count} platby za %{total_price} za kus"
+          },
+          "following_cycles": ", potom %{total_price} každých %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "pes",
+            "other": "%{count} dní"
+          },
+          "week": {
+            "other": "%{count} týždňov"
+          },
+          "month": {
+            "other": "%{count} mesiacov"
+          },
+          "year": {
+            "other": "%{count} rokov"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", potom %{count} platba %{total_price}",
+            "other": ", potom %{count} platieb, každá v hodnote %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Vyskytol sa problém pri spracovaní vašej žiadosti.",
+          "success_message": "Vaša platobná metóda bola odstránená"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Všeobecné obchodné podmienky MoR (Merchant of Record)",
+        "privacy_policy": "Zásady ochrany osobných údajov registrovaného predajcu"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produkt nie je k dispozícii"
+        },
+        "products_not_available": {
+          "one": "Tento produkt bol odstránený z tvojho košíka, pretože nie je dostupný vo tvojej krajine/regióne.",
+          "other": "Tieto produkty boli odstránené z tvojho košíka, pretože nie sú dostupné vo tvojej krajine/regióne."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Tento produkt nie je dostupný vo vašej krajine/regióne.",
+          "other": "Tieto produkty nie sú dostupné vo vašej krajine/regióne."
+        },
+        "unavailable_label": "Nie je k dispozícii"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Krajina/región bol aktualizovaný. Zadajte doručovaciu adresu, aby ste mohli pokračovať k pokladni."
+      },
+      "throttle": {
+        "line_to_check_out": "Ste v rade na zaplatenie",
+        "cart_summary_heading": "Váš nákupný košík",
+        "inventory": {
+          "partial_inventory_banner": "Časť tvojho košíka je vypredaná a nedá sa kúpiť pri pokladni."
         }
       }
     }
