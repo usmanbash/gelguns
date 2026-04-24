@@ -4542,5 +4542,21 @@
         }
       }
     }
+  },
+  "recipient": {
+    "form": {
+      "email_label": "Saņēmēja e-pasta adrese",
+      "email": "E-pasta adrese",
+      "name_label": "Saņēmēja vārds (pēc izvēles)",
+      "name": "Vārds",
+      "message_label": "Ziņojums (pēc izvēles)",
+      "message": "Ziņojums",
+      "max_characters": "Maksimāli {{ max_chars }} rakstzīmes",
+      "email_label_optional_for_no_js_behavior": "Saņēmēja e-pasta adrese (pēc izvēles)",
+      "send_on": "GGGG-MM-DD",
+      "send_on_label": "Nosūtīšana (pēc izvēles)",
+      "expanded": "Veidlapa dāvanu kupona saņēmējam izlocīta",
+      "collapsed": "Veidlapas saņēmējam dāvanu karte salocīta"
+    }
   }
 }
