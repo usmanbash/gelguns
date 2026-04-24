@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "et",
+      "last_word_connector": ", et"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Kassa",
+        "error_page_title": "Viga",
+        "skip_to_content": "Mine sisule",
+        "breadcrumb": "Leivapurustatud",
+        "continue_button_label": "Jätka",
+        "complete_purchase_button_label": "Tellimus lõpetada",
+        "pay_now_button_label": "Nüüd maksa",
+        "authenticate_purchase_button_label": "Kinnita makse",
+        "edit_link_label": "Muuda",
+        "all_rights_reserved": "Kõik õigused kaitstud %{shop_name}",
+        "print_policies_link_label": "Trükkimine",
+        "cart": "Ostukorv",
+        "close_modal_label": "Sulge",
+        "close_notice_label": "Sulge",
+        "expand_notice_label": "Vaata merd",
+        "continue_to_shipping_method": "Jätka saatmist",
+        "continue_to_payment_method": "Makse juurde",
+        "continue_to_review": "Tellimuse ülevaatamine",
+        "back_to_cart": "Tagasi ostukorvi",
+        "back_to_contact_information": "Tagasi teabe juurde",
+        "back_to_shipping_method": "Tagasi saatmise juurde",
+        "back_to_payment_method": "Tagasi maksmise juurde",
+        "choose_shipping_method": "Vali saatmisviis",
+        "choose_payment_method": "Vali makseviis",
+        "choose_billing_address": "Vali arveldusaadress",
+        "contact_us_html": "Võtke meiega ühendust lisainfo saamiseks",
+        "autocomplete_title": "Soovitused",
+        "autocomplete_single_item": "1 artikkel saadaval",
+        "autocomplete_multi_item": "{{number}} artiklit saadaval",
+        "autocomplete_selection": "{{number}} / {{total}}",
+        "autocomplete_close": "Sulge soovitused",
+        "forwarding_indicator": {
+          "new_window": "Avatakse uues aknas.",
+          "external": "Ava väline veebisait.",
+          "external_and_new_window": "Avab välise veebisaidi uues aknas."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kassa"
+        },
+        "tooltip_accessibility_label": "Rohkem teavet",
+        "errors": {
+          "session_identifier_not_unique_error": "Tellimusega läks midagi valesti. Palun proovi uuesti maksta.",
+          "line_item_limit_reached": "Maksimaalne tellimuse ridade arv on saavutatud.",
+          "only_empty_terms_accepted": "See poliitika aktsepteerib ainult tühje tingimusi.",
+          "session_is_already_finished": "See kassasessioon on juba lõpetatud.",
+          "merchandise": {
+            "only_value_constraint": "Kauba sisestamisel on lubatud ainult täpsed väärtused.",
+            "merchandise_not_found": "Toodet ei leitud.",
+            "merchandise_variant_not_found": "Tootevarianti ei leitud.",
+            "merchandise_not_applicable": "Tootevarianti ei saa osta.",
+            "bundle_products_not_supported_for_b2b": "Sellele asukohale ei saa B2B-tellimustele lisada komplekteeritud tooteid.",
+            "gift_card_quantity_mismatch": "Kui sisestate kinkekaartide koode, peavad tellimuse rea kogused vastama kinkekaartide koodide arvule.",
+            "gift_card_not_supported": "Selles kassas ei toetata kinkekaarte.",
+            "gift_card_not_unique": "Kingituskaart koodiga {{code}} esineb selles kassas mitu korda. Koode vormindatakse enne võrdlust."
+          }
+        }
+      }
+    }
+  }
+}
