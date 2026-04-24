@@ -3864,7 +3864,89 @@
         "add_billing_address_section_accessibility_label": "Dodaj adresu za račun",
         "billing_address_card_title": "Adresa za račun",
         "cancel_adding_billing_address_accessibility_label": "Dodaj adresu za račun otkaži",
-        "cancel_adding_shipping_address_accessibility_label": "Dodaj adresu za dostavu otkaži"
+        "cancel_adding_shipping_address_accessibility_label": "Dodaj adresu za dostavu otkaži",
+        "save_new_billing_address_accessibility_label": "Spremi adresu za fakturu",
+        "shipping_address_card_title": "Adresa dostave"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Sakrij sve narudžbe u pregledu",
+          "show_all_accessibility_label": "Prikaži sve narudžbe na pregledu",
+          "title": "U obradi",
+          "pagination": {
+            "nav_accessibility_label": "Navigacijske tipke za narudžbe u pregledu"
+          },
+          "show_all_orders_in_review": "Prikaži sve narudžbe na pregledu",
+          "show_less_orders_in_review": "Prikaži manje narudžbi na pregledu",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nemate narudžbi u obradi",
+            "pending_orders": {
+              "one": "Imate {{count}} narudžbu u obradi",
+              "other": "Imate {{count}} narudžbi u obradi"
+            },
+            "more_than_pagination_length": "Imate više od {{count}} narudžbi u obradi"
+          },
+          "pending_orders_count_more_than_pagination_length": "više od {{count}}"
+        }
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Potvrđeno {{date}} za narudžbu {{draftOrderName}}",
+        "loading": "Učitavanje podataka o narudžbi",
+        "payment_status": {
+          "draft": {
+            "description": "Podaci o plaćanju bit će određeni nakon potvrde narudžbe.",
+            "title": "Plaćanje još nije potrebno",
+            "in_review": {
+              "description": "Podaci o plaćanju bit će određeni nakon potvrde narudžbe.",
+              "title": "Plaćanje još nije potrebno"
+            },
+            "submitted": {
+              "description": "Platite da potvrdite ovu narudžbu.",
+              "title": "Platiti za potvrdu",
+              "deposit": {
+                "title": "Plaćanje je obvezno",
+                "due_later": "Za saldo vrijede uvjeti {{translatedName}} i dospijeva na {{dueDate}}.",
+                "due_on_fulfillment": "Stanje je dugovano čim su svi artikli u ovoj narudžbi obrađeni.",
+                "due_on_date": "Stanje je dospjelo na {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} je dugovan nakon što je narudžba potvrđena. Za saldo vrijede uvjeti {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} je dugovan kada je narudžba potvrđena. Preostali iznos je dugovan kada je vaša narudžba obrađena.",
+              "due_on_receipt": "{{depositAmount}} je dugovan nakon što je narudžba potvrđena. Preostali iznos je dugovan kasnije.",
+              "due_on_date": "{{depositAmount}} je dugovan nakon potvrde narudžbe. Preostali iznos dospijeva na {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Vaša je narudžba u potpunosti plaćena."
+          },
+          "pay_now": "Plati sada",
+          "pending": {
+            "banner_overdue": {
+              "one": "Vaša uplata je {{count}} dan zakašnjela",
+              "other": "Vaša uplata kasni {{count}} dana"
+            },
+            "banner_due": {
+              "one": "Vaša uplata dospijeva za {{count}} dana",
+              "other": "Vaša uplata dospijeva za {{count}} dana"
+            },
+            "banner_due_today": "Vaša uplata dospjela je danas",
+            "title": "Plaćanje je obvezno",
+            "title_with_date": "Plaćanje dospijeva na {{date}}",
+            "description_overdue": "Vaša uplata je zakašnjela.",
+            "description_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
+            "description_authorized": "Iznos će biti terećen na dan dospijeća putem odabrane metode plaćanja. Možete platiti i odmah.",
+            "title_due_on_receipt": "Plaćanje još nije potrebno",
+            "description_due_on_receipt": "Dobit ćete račun kada je uplata dospjela.",
+            "title_due_on_fulfillment": "Plaćanje je obvezno prilikom izvršenja narudžbe.",
+            "description_due_on_fulfillment": "Plaćanje je obvezno čim su svi artikli u ovoj narudžbi obrađeni.",
+            "description_waiting_for_manual_payment": "Plaćanje za ovu narudžbu je u obradi. Stanje će biti ažurirano kada primimo uplatu.",
+            "description_due_on_receipt_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo. Račun ćete dobiti kada uplata bude dospjela.",
+            "description_due_on_fulfillment_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo. Plaćanje je potrebno čim se svi artikli u ovoj narudžbi obrade.",
+            "description_due_on_fulfillment_partially_paid_next": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
+            "banner_due_today_for_single_fulfillment": "Plaćanje od {{amount}} dospijeva danas. {{link}}"
+          }
+        }
       }
     }
   }
