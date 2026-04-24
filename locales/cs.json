@@ -2821,8 +2821,92 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Dárkový poukaz byl již použit na vaši objednávku",
-          "insufficient_funds": "Na této dárkové poukázce již není žádný zůstatek"
+          "insufficient_funds": "Na této dárkové poukázce již není žádný zůstatek",
+          "expired": "Tento dárkový poukaz vypršel",
+          "not_available": "Tento dárkový poukaz již není k dispozici",
+          "invalid": "Zadejte platný dárkový poukaz",
+          "currency_mismatch": "Jsou přijímány pouze dárkové poukázky v %{shop_currency}",
+          "generic": "Dárkový poukaz nelze přidat k pokladně",
+          "throttle_limit_exceeded": "Dosáhli jste maximálního počtu pokusů. Zkuste to později znovu.",
+          "no_longer_available": "Tento dárkový poukaz již nelze použít při tomto placení"
         }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "try_again_later": "Zkontrolujte své připojení nebo zavřete toto okno a zkuste to za chvíli znovu.",
+          "checkout_has_expired": "Platnost pokladny vypršela. Zavřete toto okno a zkuste znovu dokončit nákup u {{shopName}}."
+        },
+        "return_to_store": "Zpět na {{shopName}}"
+      },
+      "company_location": {
+        "location_title": "Místo podnikání",
+        "location_rollup_accessibility_label": "Možnosti pro místo podnikání"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Cena dárkového poukazu musí být vyšší než 0.",
+            "subtotal_limit_reached": "Byla dosažena maximální hodnota pro položky objednávky.",
+            "gift_card_price_must_not_exceed_limit": "Cena dárkové karty nesmí být vyšší než %{gift_card_limit}.",
+            "signature_mismatch": "Špatný podpis zboží pro řádek %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Není zkopírováno"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Dokončete svůj nákup pomocí kódu {{paymentMethod}}",
+        "timer_message": "Máte ještě {{timeLeft}} na zaplacení",
+        "copy_text": "Zkopírovat {{paymentMethod}} kód",
+        "header": "Zaplaťte pomocí {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Dokončete svůj nákup pomocí kódu {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Potvrďte platbu ve své aplikaci, abyste dokončili tento nákup"
+        },
+        "close": "Uzavřete výzvu",
+        "open_app_text": "Otevřete aplikaci {{paymentMethod}}"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Při zpracování vaší objednávky došlo k problému. Zkuste to prosím znovu za pár minut."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Instrukce k položce %{position} %{name} obsahuje prázdné ID skladu.",
+        "invalid_stable_id_target": "Instrukce k položce %{position} %{name} odkazuje na stable-ID %{stable_id}, ale toto stable-ID se v položkách zboží nenachází.",
+        "duplicate_variant_id": "Instrukce k položce %{position} %{name} obsahuje duplicitní ID varianty %{variant_id}.",
+        "invalid_variant_id_target": "Instrukce k položce %{name} odkazuje na variantu s ID %{variant_id}, ale tato varianta se nenachází v položkách zboží.",
+        "invalid_price_override_target": "Instrukce k přepsání ceny zboží pro objednávkový řádek %{stable_id} je neplatná, protože se jedná o součást balíčku.",
+        "discount_not_supported": "Instrukce pro obchodníky k použití slevy na zboží tento typ slevy nepodporuje."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tento produkt není k dispozici pro zaslání do %{location_name}.",
+          "some_products_other": "Tyto produkty nejsou k dispozici pro zaslání do %{location_name}.",
+          "all_products_one": "Produkt ve vašem košíku není k dispozici pro odeslání do %{location_name}.",
+          "all_products_other": "Produkty ve vašem košíku nejsou k dispozici pro odeslání do %{location_name}."
+        },
+        "missing_country_fallback": "tvá země",
+        "indeterminate_location_fallback": "tvoje poloha",
+        "cart_updated": "Váš nákupní košík byl aktualizován.",
+        "change_address_only": "Změňte doručovací adresu, abyste mohli pokračovat.",
+        "change_address_or_remove": "Změňte doručovací adresu nebo %{remove_action}.",
+        "empty_cart_action": "vyprázdněte nákupní košík a vraťte se do obchodu",
+        "remove_items_action": {
+          "one": "odstraňte nedostupný předmět"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Už nemáte oprávnění zadávat B2B objednávky. %{logout_url} pro zadání osobní objednávky.",
+        "lost_permissions_subtitle": "Už nemáte oprávnění zadávat B2B objednávky. Odhlaste se, chcete-li zadat osobní objednávku.",
+        "lost_permissions_title": "Žádná oprávnění k poloze"
+      },
+      "units": {
+        "pound": "libra",
+        "inch": "v",
+        "foot": "stopa",
+        "square_foot": "stopa čtvereční"
       }
     }
   }

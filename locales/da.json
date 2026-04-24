@@ -2216,7 +2216,101 @@
       "localized_fields": {
         "additional_information": {
           "shipping_credential_cn": "ID-nummer for indbygger",
-          "tax_credential_it": "Skatteidentifikationsnummer (valgfrit)"
+          "tax_credential_it": "Skatteidentifikationsnummer (valgfrit)",
+          "tax_email_it": "PEC (valgfrit)",
+          "tax_credential_co": "Cédula/MOMS",
+          "tax_credential_type_co": "Type ID-kort",
+          "shipping_credential_co": "Cédula/MOMS",
+          "shipping_credential_type_co": "Type ID-kort",
+          "tax_credential_ec": "CI/RUC/MOMS",
+          "shipping_credential_ec": "CI/RUC/MOMS",
+          "tax_credential_my": "CVR-/Registreringsnummer",
+          "shipping_credential_my": "CVR-/Registreringsnummer",
+          "tax_credential_type_mx": "Skatteordning",
+          "tax_credential_use_mx": "Brug af CFDI",
+          "tax_credential_py": "CI/RUC/MOMS",
+          "shipping_credential_py": "CI/RUC/MOMS",
+          "shipping_credential_tw": "Nationalt ID-nummer/moms",
+          "tax_credential_tr": "Republikken Tyrkiets Identitetsnummer/Moms",
+          "shipping_credential_tr": "Republikken Tyrkiets Identitetsnummer/Moms"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Du har betalt for din bestilling.",
+        "escape_action": "Se bestillingsbekræftelse ›",
+        "components": {
+          "expand": "Se mere",
+          "processing": "Behandler...",
+          "submit": "Indsend"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Din indkøbskurv er opdateret baseret på dit land for forsendelse.",
+        "cart_and_currency_updated_based_on_country": "Din indkøbskurv og valuta er tilpasset til forsendelseslandet.",
+        "currency_updated_for_country": "Valuta opdateret for %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} ved hver %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Første betaling %{total_price}",
+            "other": "Første %{count} betalinger til %{total_price} pr. stk."
+          },
+          "following_cycles": ", derefter %{total_price} hver %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} dag(e)"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Første betaling %{total_price_with_discount} derefter %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", derefter %{count} betaling af %{total_price}",
+            "other": ", derefter %{count} betalinger, hver på %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "success_message": "Din betalingsmetode er fjernet"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Almindelige betingelser for MoR (Handelsansvarlig)",
+        "privacy_policy": "Fortrolighedspolitik for registreret forhandler"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Dit produkt fjernes fra din indkøbskurv, fordi det ikke er tilgængeligt i dit land/område.",
+          "other": "Disse produkter fjernes fra din indkøbskurv, fordi de ikke er tilgængelige i dit land/område."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dit produkt er ikke tilgængeligt i dit land/område."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Dit land/område er opdateret. Indtast leveringsadressen for at fortsætte til kassen."
+      },
+      "throttle": {
+        "line_to_check_out": "Du står i kø for at betale",
+        "merchandise": {
+          "available": "Tilgængelig"
+        },
+        "inventory": {
+          "partial_inventory_banner": "En del af din indkøbskurv er udsolgt og kan ikke købes ved kassen.",
+          "sold_out": {
+            "storefront_body": "Gå tilbage til butikken for at fortsætte med at handle",
+            "no_storefront_body": "Den vare, du ønskede at købe, er desværre ikke længere tilgængelig."
+          }
+        },
+        "title": "Venteliste",
+        "time_to_checkout_title": "Tid til betaling - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Beregn anslået ventetid",
+          "less_than_one": "Anslået ventetid: mindre end et minut",
+          "one": "Anslået ventetid: {{count}} minut",
+          "other": "Anslået ventetid: {{count}} minutter"
         }
       }
     }
