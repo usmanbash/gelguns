@@ -1070,7 +1070,83 @@
         "waiting_on_pickup_location_notice": "Se încarcă locațiile disponibile pentru ridicare...",
         "no_rates_for_cart_or_destination_notice": "Nu există metode de expediere disponibile pentru coșul tău de cumpărături sau adresa ta",
         "no_pickup_location_notice": "Cel puțin unul dintre produsele tale nu poate fi ridicat",
-        "no_rates_for_country_notice": "Nu s-au găsit tarife de expediere pentru această adresă."
+        "no_rates_for_country_notice": "Nu s-au găsit tarife de expediere pentru această adresă.",
+        "no_rates_contact_notice": "Contactați-ne pentru mai multe informații",
+        "estimated_delivery_date_range": "%{minimum} până la %{maximum} zile lucrătoare",
+        "shipping_line_phone_label": "Număr de telefon mobil (obligatoriu)",
+        "shipping_line_phone": "Curierul tău poate folosi acest număr pentru a lua legătura cu tine.",
+        "other_method": {
+          "zero": "Nicio altă metodă disponibilă",
+          "one": "%{count} altă metodă disponibilă începând de la",
+          "other": "%{count} alte metode disponibile de la"
+        },
+        "shipping_rate_discounted_amount": "Fost: %{original_amount}. Acum: %{amount}",
+        "shipping_line_delivery_phone": "Este posibil să fii contactat cu actualizări despre livrarea ta.",
+        "optional_shipping_line_delivery_instructions_label": "Instrucțiuni de predare (opțional)",
+        "shipping_line_delivery_phone_label": "Număr de telefon mobil",
+        "shipping_line_delivery_instructions": "Introduceți informațiile necesare, cum ar fi codurile de acces și instrucțiunile de livrare.",
+        "subscription_shipping": "Abonament pentru trimitere",
+        "one_time_purchase_shipping": "Trimitere unică",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pentru %{count} livrare(i)"
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per livrare",
+          "prepaid_shipping_price_label": "%{shipping_price} per livrare x %{delivery_interval_count}",
+          "initial_order_discounted": "Primele costuri de expediere %{discounted_shipping_cost}, apoi %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primele costuri de expediere %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primele costuri de livrare %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primele costuri de livrare %{discounted_shipping_price} %{prepaid_delivery_frequency}, apoi %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primele costuri de livrare %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), apoi %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inclus",
+          "recurring_order_shipping_price": "urmărit de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Prima comandă inclusă, urmată de %{recurring_order_shipping_price}",
+          "subscription_free_with_frequency_label": "Transport gratuit %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Transport gratuit pentru încă %{count} livrări suplimentare",
+            "other": "Transport gratuit pentru încă %{count} livrări suplimentare"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Transport gratuit pentru %{count} livrări",
+            "other": "Transport gratuit pentru %{count} livrări"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Transport gratuit pentru încă %{count} livrări suplimentare, apoi %{recurring_order_shipping_price}",
+            "other": "Transport gratuit pentru încă %{count} livrări suplimentare, apoi %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Transport gratuit pentru %{count} livrări, apoi %{recurring_order_shipping_price}",
+            "other": "Transport gratuit pentru %{count} livrări, apoi %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} livrări suplimentare pentru %{shipping_price}",
+            "other": "%{count} livrări suplimentare pentru %{shipping_price} per livrare"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} livrări pentru %{shipping_price}",
+            "other": "%{count} livrări suplimentare pentru %{shipping_price} per livrare"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Transport gratuit pentru prima %{cycle}, apoi %{recurring_order_shipping_price}",
+            "other": "Transport gratuit pentru prima %{cycle}, apoi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} pentru încă %{count} livrări suplimentare",
+            "other": "%{shipping_price} pentru încă %{count} livrări suplimentare (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} pentru încă %{count} livrări suplimentare, apoi %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} pentru încă %{count} livrări suplimentare (%{per_delivery_cost}), apoi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} pentru %{count} livrare, apoi %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} pentru %{count} livrări (%{per_delivery_cost}), apoi %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Livrare estimată %{time}",
+        "estimated_delivery_time_range": "Livrare estimată %{min_time}–%{max_time}",
+        "arrives_time": "Livrat în %{time}",
+        "arrives_time_range": "Se livrează între %{min_time}–%{max_time}"
       }
     }
   }
