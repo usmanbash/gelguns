@@ -3849,7 +3849,75 @@
       },
       "order_details": "Užsakymo duomenys",
       "login_to_view_all_order_details": "Prisijunkite, kad peržiūrėtumėte visą užsakymo informaciją.",
-      "paid_amount": "Apmokėta"
+      "paid_amount": "Apmokėta",
+      "remaining_amount": "Likutis",
+      "order_details_skeleton_accessibility_label": "Prisijunkite, kad peržiūrėtumėte visą užsakymo informaciją.",
+      "logged_in_account_no_permission_to_order": "Jūs esate prisijungę kaip {{email}}. Ši paskyra neturi teisės valdyti šio užsakymo.",
+      "log_in_to_a_different_account": "Prisijungti prie kitos paskyros",
+      "duties": "Muitai",
+      "ok_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies, todėl prie užsakymo bendros sumos pridėti muito mokesčiai.",
+      "error_duties_tooltip": "Šis užsakymas bus išsiųstas iš kitos šalies, todėl pristatymo metu gali būti taikomi muito mokesčiai ir kitos mokesčių prievolės.",
+      "zero_duties_tooltip": "Šis užsakymas bus išsiųstas iš kitos šalies. Užsakymams, kurių vertė tokia, muito mokesčiai nebus taikomi.",
+      "group_title_label": "Dalį sudaro: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Žolės tiekimo išlaidos",
+        "return_shipping_fee": "Grąžinimas"
+      },
+      "vat_invoices": {
+        "title": "Btw sąskaitos faktūros"
+      },
+      "taxes_included": "Įskaičiuota {{amount}} PVM",
+      "duties_and_taxes_included": "Bendra suma įskaičiuoja muito mokesčius ir mokesčius. Pristatymo metu papildomų mokėjimų nėra.",
+      "grouped_view_components": {
+        "expand_line_items": "Rodyti {{count}} straipsnius",
+        "collapse_line_items": "Slėpti {{count}} straipsnius",
+        "line_item_summary_list_accessibility_label": "Straipsniai rinkinyje {{productTitle}}"
+      },
+      "cash_rounding": "Užbaigti grynųjų pinigų operaciją",
+      "adjusted_payment": "Individualizuotas mokėjimas",
+      "adjusted_total": "Pritaikyta suma",
+      "login_card": {
+        "link_expired": "Nuoroda pasibaigė",
+        "resend_link_and_login": "Galite peržiūrėti savo užsakymo duomenis prisijungę arba išsiųsdami naują nuorodą į el. pašto adresą arba telefono numerį, naudotą atsiskaitymo metu.",
+        "resend_link_only": "Galite peržiūrėti savo užsakymo duomenis, išsiųsdami naują nuorodą į el. pašto adresą arba telefono numerį, kurį naudojote atsiskaitymo metu.",
+        "title": "Peržiūrėti užsakymo duomenis"
+      },
+      "due_on_date": "Skola iki {{date}}",
+      "due_on_fulfillment": "Mokėti vykdant užsakymą",
+      "due_on_receipt": "Mokėti gavus prekę",
+      "payment_confirmation": {
+        "payment_received": "Ačiū! Jūsų mokėjimas {{amount}} gautas.",
+        "full_payment_received": "Ačiū! Jūsų {{amount}} mokėjimas gautas ir šis užsakymas dabar visiškai apmokėtas.",
+        "dismiss_label": "Užsakymo patvirtinimo uždarymas",
+        "payment_authorized": "Ačiū! Balansas bus atnaujintas, kai bus gautas mokėjimas."
+      },
+      "marketing_pending_confirmation": "Spustelėkite nuorodą savo el. laiške, kad patvirtintumėte.",
+      "marketing_resend_email": "Siųsti el. laišką dar kartą",
+      "subtotal_label_with_quantity": {
+        "other": "Suma · {{count}} prekės"
+      },
+      "total_savings": "Bendra taupymas",
+      "price_after_discount_accessibility_label": "Nuolaidos kaina",
+      "discount_order_stacking": {
+        "other": "Užsakymų nuolaidos"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adresas pašalintas",
+      "cancel_adding_address_accessibility_label": "Pridėti adresą atšaukti",
+      "cancel_deletion_button_accessibility_label": "{{address}} pašalinti atšaukti",
+      "default_address": {
+        "title_accessibility_label": "Standartinis adresas: {{address}}"
+      },
+      "delete_button": "Pašalinti",
+      "delete_button_accessibility_label": "pašalinti {{address}}",
+      "delete_confirmation_button_accessibility_label": "pašalinti {{address}}",
+      "delete_confirmation_message": "Ištrinti adresą? Tai neturės įtakos esamiems užsakymams.",
+      "loading_accessibility_message": "Įkelti adresą",
+      "loading_addresses_accessibility_message": "Įkelti adresus",
+      "loading_billing_accessibility_message": "Įkeliami sąskaitų adresai",
+      "loading_finished_accessibility_message": "Naujas puslapis su adresais įkeltas",
+      "loading_shipping_accessibility_message": "Pristatymo adresas įkrovimui"
     }
   }
 }
