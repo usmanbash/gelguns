@@ -3112,9 +3112,77 @@
             "link_text": "Uusimate väljaannete avastamine"
           },
           "store_owner": {
-            "header": "Kas oled poeomanik?"
+            "header": "Kas oled poeomanik?",
+            "caption": "Kas sa ei pääse oma poodi sisse? Proovi funktsiooni %{forgot_your_store_link}. Kui soovid oma poodi uuesti aktiveerida, võta ühendust %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify tugi"
           }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Viga parooli lähtestamisel",
+        "no_account_found": "Selle e-posti aadressiga kontot ei leitud.",
+        "invalid_credentials": "Vale e-posti aadress või parool.",
+        "denylisted_reset_password": "Teie kontot ei saa avada, kuna praegune parool ei ole turvaline. Saate e-kirja, et oma parooli uuesti määrata.",
+        "signup_disabled": "Kasutajakontode loomine on keelatud.",
+        "subscribe_error": "Telli viga",
+        "unsubscribe_error": "Viga väljalogimisel"
+      },
+      "address": {
+        "updated": "Aadress uuendatud.",
+        "error_updating": "Viga aadressi uuendamisel",
+        "created": "Aadress loodud",
+        "error_creating": "Aadressi loomisel tekkis viga.",
+        "deleted": "Aadress eemaldatud",
+        "error_deleting": "Viga aadressi kustutamisel."
+      },
+      "order": {
+        "not_available": "See tellimus ei ole saadaval",
+        "financial_status": {
+          "authorized": "Kontrollitud",
+          "pending": "Käsitlemisel",
+          "paid": "Makstud",
+          "unpaid": "Mitte makstud",
+          "voided": "Aegunud",
+          "partially_paid": "Osaliselt tasutud",
+          "partially_refunded": "Osaliselt tagastatud",
+          "refunded": "Tagastatud",
+          "expired": "Aegunud"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Lõpetatud",
+          "complete": "Compleet",
+          "partial": "Osaliselt",
+          "unfulfilled": "Avatud",
+          "restocked": "Taimede varu"
+        },
+        "transaction_status": {
+          "success": "Õnnestus",
+          "pending": "Käsitlemisel",
+          "failure": "Ebaõnnestus",
+          "error": "Viga"
+        },
+        "cancel_reason": {
+          "declined": "Makse keeldutud",
+          "inventory": "Artiklid pole saadaval",
+          "fraud": "Petturlik tellimus",
+          "customer": "Klient muutis/tühistas tellimuse",
+          "other": "Anders",
+          "staff": "Vale töötajad"
+        },
+        "cash_on_delivery": "Tagasimakse"
+      },
+      "cart": {
+        "only_n_items_available": "Saad lisada oma ostukorvi vaid %{count} %{name}.",
+        "too_many_items_in_cart": "Sa ei saa enam ühtegi %{name} oma ostukorvi lisada.",
+        "all_items_in_cart": "Kõik %{count} %{name} on sinu ostukorvis.",
+        "empty_update": "ei saa ostukorvi uuendada",
+        "missing_parameters": "geen kehtiv ID või reanumber",
+        "generic_error": "Viga ostukorvis",
+        "too_many_line_items_error": "Sinu ostukorv ei saa sisaldada rohkem kui %{max} eset.",
+        "link_expired": "Link on aegunud",
+        "link_no_longer_exists": "Link ei ole enam olemas."
       }
     }
   },
