@@ -2972,7 +2972,91 @@
         "merchandise_line_transformers": {
           "run_error": "Det har uppstått ett fel i din kundvagn."
         },
-        "gift_card_price_must_be_greater_than_zero": "Kan inte lägga till paketprodukten '%{name}' i kundvagnen."
+        "gift_card_price_must_be_greater_than_zero": "Kan inte lägga till paketprodukten '%{name}' i kundvagnen.",
+        "gift_card_recipient_validation_error": "Den angivna mottagaren av presentkortet är ogiltig",
+        "invalid_input": "Parametern %{parameter} är ogiltig.",
+        "buyer_cannot_purchase_for_company_locations": "Du kan inte göra något köp för denna plats",
+        "only_one_added_to_cart": "Det har endast lagts till 1 artikel i din kundvagn på grund av tillgänglighet.",
+        "only_n_added_to_cart": "Endast %{quantity} artiklar har lagts till i din kundvagn på grund av tillgänglighet.",
+        "maximum_available_quantity_reached": "Den maximala mängden av denna vara finns redan i din kundvagn.",
+        "cart_attributes_error": "Varukorgsattributen innehåller ogiltiga uppgifter.",
+        "merchandise_not_applicable": "Föremålet kan inte köpas i den konfigurationen.",
+        "not_found": "Kundvagn hittades inte"
+      },
+      "storefront": {
+        "invalid_password": "Lösenord felaktigt, försök igen."
+      },
+      "tags": {
+        "add_articles": "Begränsa sökningen till artiklar med taggen %{tag}",
+        "add_products": "Begränsa sökningen till produkter med motsvarande tagg %{tag}",
+        "remove_articles": "Utöka sökningen till artiklar som inte är taggade med %{tag}",
+        "remove_products": "Ta bort taggen %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} tillagt",
+          "increment_item": "%{delta} tillagt",
+          "decrement_item": "%{delta} av %{total} borttagna",
+          "decrement_fulfilled_line_item": "%{delta} av %{total} returnerade",
+          "decrement_return_line_item": "%{delta} borttagen från retur"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Produkten",
+      "shopping_cart": "Din kundvagn",
+      "reset_account": "Återställning av konto",
+      "addresses": "Adressen",
+      "order": "Beställ %{name}",
+      "collections": "Samlingar",
+      "checkpoint": "Kontrollpunkt",
+      "search_results": {
+        "one": "Sökning: %{count} resultat hittades för '%{terms}'",
+        "other": "Sökning: %{count} resultat hittades för '%{terms}'"
+      }
+    },
+    "cart": {
+      "discounts_with_count": "Det har tillämpats %{count} rabatter"
+    },
+    "challenge": {
+      "error": "Ditt svar var inte rätt, försök igen."
+    },
+    "checkpoint": {
+      "message": "Lös captchan för att fortsätta",
+      "error": "captcha-verifiering misslyckades"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Tack för att du anmält dig till vår brevlådelista.",
+        "disclaimer": "Du kan avregistrera dig när som helst.",
+        "unsubscribe": "Logga ut"
+      },
+      "unsubscribed": {
+        "confirmation": "Du har avregistrerat dig från vår utskickslista.",
+        "disclaimer": "Du kommer inte längre att få marknadsföringsuppdateringar från oss. Du kan när som helst anmäla dig igen.",
+        "preview": "Du ser ett exempel på vad kunderna kommer att se när de avregistrerar sig."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Du har gett tillstånd för e-postöppningsspårning.</b>",
+          "visibility": "E-postöppningsprocenten rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av en samlad e-postöppningsprocent.",
+          "opt_out_html": "Du kan <a style='text-decoration:underline;' href='%{link}'>avregistrera dig</a> från e-postöppningsspårning om du inte vill dela denna information.",
+          "preview_bar": "Du ser ett exempel på vad kunder får se när de ger tillstånd att ta emot e-post om öppen spårning."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Du har avregistrerat dig från e-postöppningsspårning.</b>",
+          "visibility": "Vi kan inte se om du har öppnat våra e-postmeddelanden.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Ge samtycke</a> till öppen spårning av e-post.",
+          "preview_bar": "Du ser ett exempel på vad kunder får se när de avregistrerar sig från att ta emot e-post om öppen spårning."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Vi följer inte längre om e-postmeddelanden öppnas.</b>",
+          "privacy_policy": "Efter att detta e-postmeddelande skickats har vi uppdaterat vår sekretesspolicy och spårar inte längre öppnandet av e-post."
+        },
+        "track": {
+          "status_html": "<b>E-postöppning spåras och rapporteras.</b>",
+          "visibility": "Vi kommer endast att se om du har öppnat e-posten som en del av den totala öppningsfrekvensen för e-post."
+        }
       }
     }
   }
