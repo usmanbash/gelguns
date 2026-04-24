@@ -2043,8 +2043,78 @@
       "marketing": {
         "accept_marketing_checkbox_label": "Saada mulle e-kiri uudiste ja pakkumistega",
         "unsubscribe": {
-          "title": "Oled välja logitud"
+          "title": "Oled välja logitud",
+          "description": "Sa ei saa meilt enam ostukorvi meeldetuletusi."
+        },
+        "accept_sms_checkbox_label": "Saada mulle SMS uudiste ja pakkumistega",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privaatsuspoliitika",
+            "terms_of_service": "Teenustingimused",
+            "description_html": "Kui registreerud SMS-i teel, nõustud automaatsete turundussõnumite, sealhulgas ostukorvi meeldetuletuste, vastuvõtmisega antud telefoninumbrile. Nõusolek ei ole ostutingimus. Vasta STOP, et loobuda. Vasta HELP abi saamiseks. Sõnumite sagedus võib varieeruda. Sõnumi- ja andmekulud võivad kehtida. Vaata meie %{privacy_policy_link} ja meie %{terms_of_service_link}.",
+            "description_transactional_html": "Võid saada SMS-teateid seoses tellimuse kinnituste ja saatmise uuendustega. Vasta STOP, et loobuda. Vasta HELP, et saada abi. Sõnumite sagedus võib varieeruda. Sõnumi- ja andmekulud võivad kehtida. Vaata meie %{privacy_policy_modal_link} ja meie %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobiiltelefoni number",
+          "get_offers_by_text": "Pakkumised saada SMS-iga"
+        },
+        "post_accept_marketing_checkbox_label": "Oled registreerunud uudiskirjade ja pakkumiste saamiseks e-posti teel",
+        "pending_accept_marketing_checkbox_label": "Vaata oma e-posti, et kinnitada oma registreerimine uudiskirja ja pakkumiste saamiseks",
+        "accept_shop_pay_marketing_checkbox_label": "Registreeru selle poe uudiskirja ja pakkumiste saamiseks",
+        "disclaimer": {
+          "privacy_policy": "Privaatsuspoliitika",
+          "terms_of_service": "Teenustingimused"
         }
+      },
+      "shop_policies": {
+        "refund_policy": "Tagasimaksepoliitika",
+        "privacy_policy": "Privaatsuspoliitika",
+        "terms_of_service": "Üldtingimused",
+        "legal_notice": "Seaduslik teade",
+        "shipping_policy": "Saatmine",
+        "terms_of_sale": "Müügitingimused",
+        "subscription_policy": "Tühistamised",
+        "purchase_options_policy": "Ostuvalikute poliitika",
+        "contact_information": "Võta ühendust",
+        "purchase_options_cancellation_policy": "Tühistamised",
+        "cookie_preferences": "Küpsised",
+        "policy_label": "Poliitika",
+        "policies_label": "Poliitika",
+        "select_policy_label": "Vali poliitika",
+        "terms_and_policies": "Tingimused ja poliitika"
+      },
+      "notifications": {
+        "title": "Teated"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Teie tasumisele kuuluv summa tellimuse %{order_name} eest",
+        "changes_summary": {
+          "added": {
+            "one": "Lisatud",
+            "other": "%{count} lisatud"
+          },
+          "removed": "Kustutatud",
+          "subtracted": "%{count} eemaldatud",
+          "returned": "%{count} tagastatud",
+          "return_line_item_removed": "%{count} eemaldatud tagastusest"
+        },
+        "additional_payment_requested": "Maksmine summas %{total_outstanding} on kohustuslik",
+        "checkout_review_and_pay": "Sinu tellimus %{order_name} on uuendatud. Vaata neid muudatusi üle ja maksa seejärel, et oma tellimus kinnitada.",
+        "order_updated_on": "Sinu tellimus uuendati %{last_edited_at}.",
+        "order_review_and_pay": "Sinu tellimus on uuendatud. Kontrolli ja maksa, et tellimus kinnitada.",
+        "pay_now": "Nüüd maksa"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Sinu krediitkaardilt võetakse %{amount} tasu",
+        "payment_total_label": "Kokku maksed",
+        "change_currency_link": "Muuda %{currency_name}",
+        "card_provider_fx_charges_warning": "Teie kaardiväljastaja võib võtta tasu %{currency_code} tehingute eest.",
+        "currency_not_supported_by_shop": "Sinu valitud valuuta ei ole enam saadaval. Kõik hinnad on nüüd %{currency_code}."
+      },
+      "tips": {
+        "title": "Jäta jootraha juurde",
+        "description": "Näita, et toetad %{shop_name} meeskonda",
+        "presets_description": "Vali tippi protsent",
+        "custom_label": "Kohandatud jootraha"
       }
     }
   },
