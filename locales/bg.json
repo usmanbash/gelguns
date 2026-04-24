@@ -2006,7 +2006,129 @@
         "gift_card_confirmation_by_email": "Ако не сте го получили, поискайте изпращане на имейла отново или се свържете с нас.",
         "gift_card_title": "Подаръчни ваучери",
         "resend_gift_cards": "Препращане на подаръчни ваучери",
-        "attempted_delivery_local_title": "Неполучена доставка"
+        "attempted_delivery_local_title": "Неполучена доставка",
+        "attempted_delivery_local_description_html": "За съжаление не успяхме да доставим вашата поръчка. %{contact_us}, за да насрочим друга доставка.",
+        "thank_you_title_payment": "Вашето плащане е потвърдено",
+        "thank_you_confirmed_order_with_email_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Вие направихте плащане за вашата поръчка %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Сканиране с телефона ти"
+          },
+          "sms": {
+            "title": "Или изпратете линк на телефона си"
+          }
+        },
+        "estimated_delivery": "Текуща прогноза за доставка:",
+        "view_business_customer_account": "Преглед на акаунт",
+        "thank_you_title_review": "Вашата поръчка е подадена за преглед",
+        "thank_you_confirmed_order_with_draft": "Ще те уведомим, ако имаме нужда от допълнителна информация или когато поръчката ти бъде потвърдена.",
+        "breadcrumbs_submitted": "Подадено",
+        "breadcrumbs_in_review": "За оценка",
+        "missing_shipping_address_banner": {
+          "title": "Поръчката няма адрес за доставка",
+          "text_html": "%{contact_us} за да добавите вашия адрес"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Обърнете се отново към продавача.",
+        "order_status_confirmed_with_installments_payment_confirm": "В скоро време ще получите имейл за потвърждение с номера на поръчката и подробностите за графика на вашите вноски.",
+        "first_payment_complete": "Първо плащане завършено",
+        "choose_payment_method_later": "Изберете метод на плащане по-късно",
+        "purchase_order_number_title": "Номер на поръчка %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Поръчката е взета на %{address}.",
+        "ready_for_delivery": "Готово за доставка",
+        "order_updates_subscribe_to_email_notifications_failed": "Не можем да запазим този имейл адрес за актуализации. Опитайте отново или използвайте друг имейл адрес.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Въведеният от вас имейл адрес вече съществува.",
+        "subscriptions_management": {
+          "description": "Продължете към вашия акаунт, за да прегледате и управлявате абонаментите си.",
+          "button_label": "Управление на абонамента ви"
+        },
+        "manage_order_label": "Управление на вашата поръчка",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "След няколко минути ще получите SMS с вашия подаръчен ваучер.",
+          "other": "След няколко минути ще получите SMS с вашите подаръчни ваучери."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "След няколко минути ще получите SMS с вашия подаръчен ваучер.",
+          "other": "След няколко минути ще получите SMS с вашите подаръчни ваучери."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon е изпратен по имейл",
+          "other": "Подаръчните ваучери са изпратени по имейл"
+        },
+        "gift_card_text_title": {
+          "one": "Cadeaubon е изпратен чрез SMS",
+          "other": "Подаръчните ваучери са изпратени чрез SMS"
+        },
+        "resend_gift_cards_by_email": "Изпрати имейла отново",
+        "resend_gift_cards_by_text": "Изпрати SMS отново",
+        "gift_card_resent_confirmation": {
+          "one": "Подаръчният ваучер е изпратен отново.",
+          "other": "Подаръчните ваучери бяха изпратени отново."
+        },
+        "gift_card_resend_failure": {
+          "one": "Възникна проблем при повторното изпращане на вашия подаръчен ваучер. Моля, опитайте отново или се свържете с нас.",
+          "other": "Възникна проблем при повторното изпращане на твоите подаръчни ваучери. Опитай отново или се свържи с нас."
+        },
+        "failed_pending_payment_page_title": "Възникна проблем с плащането ви",
+        "thank_you_title_payments_app_pending_default": "Плащането се обработва",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Получихме вашата поръчка",
+        "thank_you_title_payments_app_failed_pending_payment": "Вашето плащане не може да бъде обработено",
+        "thank_you_payments_app_failed_pending_payment": "Вашата поръчка все още не е платена. Върнете се в количката, за да прегледате и платите поръчката си.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката си чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката си чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Много скоро ще получите SMS за потвърждение. Можете да следите поръчката си чрез приложението Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката си чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката си чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "След завършване на плащането ще получите SMS за потвърждение. Можете да следите поръчката си чрез приложението Магазин.",
+        "order_status_payments_app_failed_pending_payment": "Вашата поръчка все още не е платена. Върнете се в количката, за да прегледате и платите поръчката си.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "thank_you_confirmed_order_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_confirmed_order_with_draft_payment": "Ще те уведомим, ако имаме нужда от допълнителна информация или когато поръчката бъде потвърдена.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Ще те уведомим, ако имаме нужда от допълнителна информация или когато поръчката бъде потвърдена.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Поръчката все още не е платена. Върнете се в количката, за да проверите и платите поръчката.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Поръчката все още не е платена. Върнете се в количката, за да проверите и платите поръчката.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "В скоро време ще получите имейл за потвърждение. Можете да следите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Скоро ще получите SMS за потвърждение. Можете да следите поръчката чрез приложението Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Скоро ще получите SMS за потвърждение. Можете да следите поръчката чрез приложението Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "След завършване на плащането ще получите имейл за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "След завършване на плащането ще получите SMS за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "След завършване на плащането ще получите SMS за потвърждение. Можете да проследите поръчката чрез приложението Магазин.",
+        "order_status_payments_app_failed_pending_payment_payment": "Поръчката все още не е платена. Върнете се в количката, за да проверите и платите поръчката.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Поръчката все още не е платена. Върнете се в количката, за да проверите и платите поръчката.",
+        "order_status_confirmed_order_local_pick_up": "Подготвяме вашата поръчка.",
+        "order_status_confirmed_order_local_payment": "Подготвяме вашата поръчка.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "В скоро време ще получите имейл за потвърждение с номера на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "В скоро време ще получите SMS с потвърждение и номер на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "В скоро време ще получите SMS с потвърждение и номер на поръчката.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "В скоро време ще получите SMS с потвърждение и номер на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Свържете се с нас по имейл или телефон за потвърждение на поръчката.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "При плащане ще получите имейл за потвърждение с номера на поръчката."
       }
     }
   }
