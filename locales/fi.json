@@ -3890,7 +3890,73 @@
       },
       "load_address_form_error": {
         "title": "Osoitelomaketta ei voi ladata",
-        "description": "Lomaketta ei voitu ladata."
+        "description": "Lomaketta ei voitu ladata.",
+        "refresh_button": "Sivun päivitys"
+      },
+      "failed_to_revert": "Asiakas tilin asetusten palauttaminen epäonnistui.",
+      "revert_window_expired": "Palautumisaika on kulunut umpeen."
+    },
+    "payment_methods": {
+      "add_payment_method_button": "Maksutavan lisääminen",
+      "payment_details": {
+        "payment_method_expiring_on": "Vanhenee {{expiryDate}}",
+        "preauthorized_payments": "Ennakkoon valtuutetut maksut",
+        "close_payment_modal_accessibility_label": "Modaalitiedot maksutavasta sulje",
+        "payment_method_not_found_error": "Kan maksutapaa ei löydy",
+        "payment_details_loading": "Maksutavan tiedot latautuvat",
+        "pre_authorized_payments": "Ennakkoon valtuutetut maksut",
+        "total_amount_of_subscription_line_items_left": "ei enää {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Yhteensä {{totalItems}} artikkelia; {{totalItemsToDisplay}} artikkelia näytetään.",
+        "next_payment_due": "Seuraava maksu erääntyy {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Muokkaa maksutapaa, joka päättyy numeroihin {{lastDigits}}",
+        "credit_card_details_accessibility_label": "päättyen numeroihin {{lastDigits}}",
+        "card_info_title": "Korttitiedot",
+        "payment_method_expired_on": "Vanhentuu {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay -lataus",
+        "invalid_payment_method_message": "Käytä uutta luottokorttia saadaksesi tulevat tilaukset jatkossakin.",
+        "replace_payment_method": "Maksutavan vaihtaminen",
+        "checkout_card_banner": "Voit käyttää tätä maksutapaa vain ennakkoon valtuutettuihin maksuihin. Se ei näy kassalla, kun olet kirjautunut sisään tähän kauppaan.",
+        "replace_payment_method_button": "Korvaa"
+      },
+      "back_button_accessibility_label": "Takaisin kohtaan {{paymentMethodStepTitle}}",
+      "generic_card": "Kartta",
+      "payment_delete": {
+        "title": "Maksutavan poistaminen",
+        "description_without_replacement": "Tämä maksutapa ei ole enää käytettävissä tulevia ostoksia varten.",
+        "description_with_replacement": "Jos poistat tämän maksutavan, sillä on vaikutusta ennakkoon valtuutettuihin maksuihin. Voit myös korvata sen toisella maksutavalla, jotta saat tulevat tilaukset jatkossakin.",
+        "replace_method_with_new_method_description": "Je {{currentPaymentMethodName}} poistetaan ja korvataan {{newPaymentMethodName}}:lläsi.",
+        "error_when_deleting": "Pahoittelemme, tapahtui virhe, emmekä voi poistaa tätä maksutapaa. Yritä myöhemmin uudelleen tai päivitä sivu.",
+        "delete_and_replace_button_accessibility_label": "Poista {{currentPaymentMethodName}} ja korvaa se {{newPaymentMethodName}}.",
+        "deleted_successfully": "Maksutapa on poistettu.",
+        "payment_method_selector_no_alternative_payment": "Geen korvaava menetelmä",
+        "loading_available_payment_methods_accessibility_label": "Ladataan käytettävissä olevia maksutapoja",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Jos poistat tämän maksutavan, sillä on vaikutuksia ennakkoon valtuutettuihin maksuihin. Avoimet summat olemassa olevista tilauksista veloitetaan edelleen tällä maksutavalla, ellei toista maksutapaa valita. Valitse toinen maksutapa, jotta voit jatkaa tulevien tilausmaksujen vastaanottamista keskeytyksettä.",
+          "with_pending_orders": "Maksutavan poistaminen poistaa sen tililtäsi, eikä sitä voi käyttää tulevissa ostoksissa. Avoimet summat olemassa olevista tilauksista veloitetaan edelleen tällä maksutavalla, ellei toista maksutapaa valita.",
+          "with_subscriptions": "Jos poistat tämän maksutavan, sillä on vaikutusta ennakkoon valtuutettuihin maksuihin. Korvaa se toisella maksutavalla, jotta voit jatkaa tulevien tilausten vastaanottamista."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Jos poistat tämän maksutavan, sillä on vaikutusta ennakkoon valtuutettuihin maksuihin. Avoimet summat olemassa olevista tilauksista veloitetaan edelleen tällä maksutavalla, mutta et saa tulevia tilausmaksuja. Lisää toinen maksutapa, jotta voit jatkaa tilausmaksujen vastaanottamista.",
+          "with_pending_orders": "Maksutavan poistaminen poistaa sen tililtäsi, eikä sitä voi käyttää tulevissa ostoksissa. Avoimet maksut olemassa olevista tilauksista veloitetaan kuitenkin edelleen tällä maksutavalla.",
+          "with_subscriptions": "Jos poistat tämän maksutavan, sillä on vaikutusta ennakkoon valtuutettuihin maksuihin. Lisää toinen maksutapa, jotta voit jatkaa tulevien tilausten vastaanottamista."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Maksutavan vaihtaminen",
+        "generic_error": "Päivityksessä ilmeni ongelma. Yritä uudelleen."
+      },
+      "card_fields": {
+        "card_number_label": "Kaartin numero",
+        "card_number_placeholder": "Kaartin numero",
+        "name_on_card_label": "Kasvo kartalla",
+        "name_on_card_placeholder": "Kasvo kartalla",
+        "card_expiry_label": "Voimassaolopäivä (KK/VV)",
+        "card_expiry_placeholder": "Voimassaolopäivä (KK/VV)",
+        "card_start_label": "Julkaisupäivä (KK/VV)",
+        "card_start_placeholder": "Julkaisupäivä (KK/VV)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Korttisi etupuolella oleva nelinumeroinen turvakoodi"
+        }
       }
     }
   }
