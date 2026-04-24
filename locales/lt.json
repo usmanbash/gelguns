@@ -3035,10 +3035,92 @@
               "dk": "Įveskite galiojantį Danijos PVM identifikacijos numerį",
               "ee": "Įveskite galiojantį Estijos PVM identifikacijos numerį",
               "fi": "Įveskite galiojantį Suomijos PVM identifikacijos numerį",
-              "fr": "Įveskite galiojantį Prancūzijos PVM identifikacijos numerį"
+              "fr": "Įveskite galiojantį Prancūzijos PVM identifikacijos numerį",
+              "de": "Įveskite galiojantį Vokietijos PVM identifikacijos numerį",
+              "gr": "Įveskite galiojantį Graikijos PVM identifikacijos numerį",
+              "hu": "Įveskite galiojantį Vengrijos PVM identifikacijos numerį",
+              "ie": "Įveskite galiojantį Airijos PVM identifikacijos numerį",
+              "it": "Įveskite galiojantį Italijos PVM identifikacijos numerį",
+              "lv": "Įveskite galiojantį Latvijos PVM identifikacijos numerį",
+              "lt": "Įveskite galiojantį Lietuvos PVM identifikacijos numerį",
+              "lu": "Įveskite galiojantį Liuksemburgo PVM identifikacijos numerį",
+              "mt": "Įveskite galiojantį Maltos PVM identifikacijos numerį",
+              "nl": "Įveskite galiojantį Nyderlandų PVM identifikacijos numerį",
+              "pl": "Įveskite galiojantį Lenkijos PVM identifikacijos numerį",
+              "pt": "Įveskite galiojantį Portugalijos PVM identifikacijos numerį",
+              "ro": "Įveskite galiojantį Rumunijos PVM identifikacijos numerį",
+              "sk": "Įveskite galiojantį Slovakijos PVM identifikacijos numerį",
+              "si": "Įveskite galiojantį Slovėnijos PVM identifikacijos numerį",
+              "es": "Įveskite galiojantį Ispanijos PVM identifikacijos numerį",
+              "se": "Įveskite galiojantį Švedijos PVM identifikacijos numerį",
+              "gb": "Įveskite galiojantį JK PVM identifikacijos numerį"
+            },
+            "service_unavailable": "Validavimo paslauga neprieinama",
+            "service_error": "Validavimo paslauga neprieinama"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "PVM identifikacijos numerio patikra vykdoma",
+              "valid": "Btw identifikacijos numeris galioja",
+              "applied": "Btw atleidimas taikomas",
+              "domestic": "Btw atleidimas nebuvo taikytas",
+              "invalid_number": "Btw atleidimas nepavyko",
+              "service_unavailable": "Negalima patvirtinti PVM atleidimo",
+              "service_error": "Negalima patvirtinti PVM atleidimo"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Šis mokėjimas nebereikalingas. Daugiau informacijos rasite užsakymo puslapyje.",
+        "paid": "Šis mokėjimas jau buvo pateiktas. Daugiau informacijos rasite užsakymo puslapyje."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Norint užbaigti atsiskaitymą, reikia papildomo sąveikos veiksmo."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Patikrinkite savo užsakymą"
+        },
+        "shipping": {
+          "shipping_options": "Peržiūrėti visas siuntimo parinktis"
+        },
+        "payment": {
+          "payment_options": "Peržiūrėti visas mokėjimo galimybes"
+        }
+      },
+      "too_many_requests": {
+        "title": "Per daug atsiskaitymo bandymų",
+        "body": "Palaukite kelias minutes ir bandykite dar kartą iš savo pirkinių krepšelio."
+      },
+      "address_management": {
+        "saved_with_store": "Išsaugota šiame parduotuvėje"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Veikia su Shopify",
+      "learn_more": "Daugiau informacijos"
+    },
+    "attributes": {
+      "email": "el. paštas",
+      "password_confirmation": "slaptažodžio patvirtinimas"
+    },
+    "addresses": {
+      "pincode": "Pašto kodas",
+      "region": "Regio",
+      "province": "Provincia",
+      "state": "Valstybė",
+      "state_and_territory": "Valstybė/Teritorija",
+      "county": "Provincia",
+      "emirate": "Emiraat",
+      "governorate": "Vyriausybė"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Išskirtinis",
+        "best_selling": "Geriausiai parduodami"
       }
     }
   }
