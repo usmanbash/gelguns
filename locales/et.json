@@ -3338,8 +3338,16 @@
     },
     "search": {
       "sorting": {
-        "relevance": "Asjakohasus"
-      }
+        "relevance": "Asjakohasus",
+        "price_ascending": "Hind: madalast kõrgeni",
+        "price_descending": "Hind: kõrgeimast madalaimani"
+      },
+      "error": "Otsingutulemite laadimisel tekkis probleem. Värskenda lehte või proovi hiljem uuesti."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "See artikkel on korduv või edasi lükatud ost. Kui ma jätkan, nõustun %{cancellationPolicyLink} ja annan sulle loa nimetatud summad minu makseviisilt maha arvata nimetatud sageduse ja kuupäevade alusel, kuni minu tellimus on täidetud või kuni ma, kui see on lubatud, tellimuse tühistan.",
+      "buyer_consent_cart": "Üks või mitu eset sinu ostukorvis on edasi lükatud või korduvad ostud. Kui ma jätkan, nõustun %{cancellationPolicyLink} ja annan loa nimetatud summad minu makseviisilt maha arvata nimetatud sageduse ja kuupäevade alusel, kuni minu tellimus on täidetud või kuni ma, kui see on lubatud, tellimuse lõpetan.",
+      "cancellation_policy": "tagastuspoliitika"
     }
   },
   "sections": {
@@ -3420,6 +3428,64 @@
     },
     "announcements": {
       "previous_announcement": "Eelmine teadaanne"
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Proovi uuesti"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Peida kontomenüü",
+        "show_accessibility_label": "Kuva kontomenüü",
+        "nav_accessibility_label": "Konto navigeerimine",
+        "open_menu_accessibility_label": "Akunavigatsiooni avamine",
+        "close_menu_accessibility_label": "Konto navigeerimise sulgemine",
+        "loading_message": "Konto navigeerimine laadimine"
+      },
+      "action_menu_accessibility_label": "Veel kampaaniaid",
+      "close_menu_accessibility_label": "Sulge põhimenüü",
+      "contact_email_subject": "Veebipoe {{shopName}} kontaktisik",
+      "contact_link": "Kontaktandmed",
+      "delete_confirmation": {
+        "cancel": "Tühista",
+        "delete": "Eemalda"
+      },
+      "dismiss_toast": "Sulge",
+      "document_title": "{{sectionName}} - {{shopName}} - konto",
+      "loading_message": "Laadi",
+      "log_out_link": "Logi välja",
+      "logout_overlay_label": "Logi välja...",
+      "nav_label_accessibility_label": "Peamenüü",
+      "navigation_accessibility_message": "Oled navigeerinud jaotisse {{sectionName}}",
+      "open_menu_accessibility_label": "Peamenüü avamine",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "settings_link": "Seaded",
+      "country_switcher_toast_message": "Leht on ümber lülitatud riigile {{countryName}}",
+      "switch_country": "Maale lülitamine",
+      "search": "Otsi",
+      "location_switcher_toast_message": "Asukoht muudetud {{locationName}}",
+      "switch_location": "Asukoha vahetamine",
+      "view_details": "Andmete vaatamine",
+      "company_location": "Ettevõtte asukoht",
+      "no_countries_found": "Geenid ei leitud",
+      "no_locations_found": "Geenide asukohad leitud",
+      "try_new_search": "Proovi uut otsingut",
+      "skip_to_content": "Mine sisule",
+      "loading_policy_content_accessibility_label": "Sisu laadimise poliitika",
+      "policy_load_error": "Kan {{policyName}} laadida",
+      "policy_try_again": "Proovi uuesti",
+      "loading_section_accessibility_label": "{{sectionName}} laadimine"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kontoandmete laadimine",
+      "loading_finished_accessibility_message": "Kontoandmed on laaditud",
+      "profile_card": {
+        "cancel": "Tühista",
+        "cancel_accessibility_label": "Profiili redigeerimise tühistamine",
+        "edit": "Muuda",
+        "edit_accessibility_label": "Profiili redigeerimine"
+      }
     }
   }
 }
