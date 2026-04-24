@@ -942,7 +942,65 @@
         "gift_card_and_discount_placeholder": "Código de descuento o vale regalo",
         "add_discount_or_gift_card": "Agregar un código de descuento o un vale de regalo",
         "remove_gift_card_label": "Eliminar vale de regalo",
-        "applied_discount_message": "Se ha descontado %{amount} del precio total."
+        "applied_discount_message": "Se ha descontado %{amount} del precio total.",
+        "discount_has_been_applied": "Descuento aplicado",
+        "discount_has_been_removed": "Descuento eliminado",
+        "gift_card_has_been_applied": "Tarjeta de regalo aplicada",
+        "gift_card_has_been_removed": "La tarjeta de regalo ha sido eliminada",
+        "discount_already_applied": "Se ha aplicado un descuento a este pedido. No puedes añadir otro descuento.",
+        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> no es válido para los artículos en tu carrito de compras",
+        "discount_requires_customer_notice": "Introduce tus datos de envío para aplicar el código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "shipping_information_does_not_meet_discount_requirements_notice": "El código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> no está disponible para tu dirección de entrega",
+        "customer_already_used_once_per_customer_discount_notice": "El código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> ya ha sido utilizado",
+        "shipping_pending_message": "Aún no disponible",
+        "taxes_label": "por cierto",
+        "total_outstanding_label": "Cantidad a pagar",
+        "payment_due_label": "Pago adeudado",
+        "vat_label_html": "Incluye %{amount} IVA",
+        "discount_and_gift_card_savings_notice": "Con un %{discount_amount} de descuento y %{gift_card_amount} en valor de tarjeta de regalo",
+        "discount_savings_notice": "Con un %{discount_amount} de descuento",
+        "gift_card_savings_notice": "Después de %{gift_card_amount} de valor de tarjeta de regalo",
+        "product_change_label": "Modificar",
+        "scroll_order_summary": "Desplácese para ver más artículos",
+        "total_already_paid_label": "pagado",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} por unidad"
+          }
+        },
+        "pickup_label": "Recoger en la tienda",
+        "no_pickup_location": "No hay ubicaciones disponibles para recoger.",
+        "calculating_shipping": "Calculando...",
+        "estimated_taxes_label": "Impuesto estimado",
+        "information_estimated_taxes_label": "Impuestos (estimados)",
+        "multiple_shipping_lines_label": "Costos totales de envío",
+        "recurring_total_tooltip": "Excluyendo envío, IVA, derechos aduaneros o posibles descuentos.",
+        "gift_card_subscriptions_notice": "Los vales de regalo solo se aplican en tu primer pago",
+        "confirmation_number_label": "Número de confirmación %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "El importe total de impuestos se confirmará por correo electrónico o mensaje de texto después de que hayas realizado tu pedido.",
+        "deferred_payment_info": {
+          "title": "Pago de %{amount_due} vence el %{due_at}",
+          "description_html": "%{contact_us} para preguntas sobre tu pedido.",
+          "due_on_fulfillment_title": "El pago de %{amount_due} es debido al completar el pedido.",
+          "due_on_receipt_title": "Se debe pagar %{amount_due} al recibir"
+        },
+        "percent_off_shipping": "%{percent}% de descuento en el envío",
+        "payment_terms_totals": {
+          "due_today": "Total adeudado hoy",
+          "due_later": "Total adeudado el %{due_at}",
+          "due_later_checkout_to_draft": "Total adeudado más tarde",
+          "due_on_fulfillment": "Total adeudado en el cumplimiento",
+          "due_on_receipt": "Total a pagar al recibir",
+          "due_today_next": "Hoy adeudado",
+          "due_on_fulfillment_next": "Pagar al recibir el pedido"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> no se puede usar con tus descuentos existentes.",
+        "maximum_discount_code_limit_reached": "Has alcanzado el número máximo de códigos de descuento. Elimina un código existente para usar <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Pedido total",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> no funciona en este momento. Contáctanos si necesitas ayuda.",
+        "due_on_fulfillment": "Adeudado en cumplimiento",
+        "duties_label": "Derechos aduaneros",
+        "duties_and_taxes_label": "Derechos de aduana e impuestos"
       }
     }
   }
