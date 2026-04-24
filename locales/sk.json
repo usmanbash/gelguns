@@ -4174,7 +4174,89 @@
         },
         "contracts_update_failed": "Niektoré zmluvy o predplatnom sa nedali aktualizovať",
         "subscription_contracts_updated": "{{succeeded}} z {{total}} predplatných aktualizovaných",
-        "invalid_wallet_type_error": "Neplatný typ digitálnej peňaženky"
+        "invalid_wallet_type_error": "Neplatný typ digitálnej peňaženky",
+        "updating_contracts": {
+          "one": "{{count}} zmluva o predplatnom sa aktualizuje...",
+          "other": "{{count}} zmlúv o predplatnom sa aktualizuje..."
+        },
+        "contracts_updated": {
+          "one": "Zmluva o predplatnom {{count}} bola aktualizovaná",
+          "other": "{{count}} zmlúv o predplatnom boli aktualizované"
+        },
+        "missing_customer_error": "Niečo sa pokazilo. Skúste to znova alebo kontaktujte podporu."
+      },
+      "expires_soon": "Táto karta čoskoro vyprší",
+      "expired": "Táto karta vypršala",
+      "card_update_consent": "Táto platobná metóda bude uložená pre budúce nákupy.",
+      "google_pay": {
+        "errors": {
+          "generic": "Vyskytol sa problém s Google Pay. Skúste to znova alebo použite inú platobnú metódu.",
+          "missing_billing_address": "Pre Google Pay potrebujete fakturačnú adresu. Pridajte ju vo svojom účte."
+        },
+        "loading": "Google Pay nabitý",
+        "iframe_title_accessibility_label": "Pridať platobnú metódu Google Pay",
+        "loading_accessibility_message": "Google Pay nabitý"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay nabitý",
+        "errors": {
+          "generic": "Vyskytol sa problém s Apple Pay. Skúste to znova alebo použite inú platobnú metódu.",
+          "not_available": "Apple Pay nie je na tomto zariadení dostupný.",
+          "missing_billing_address": "Pre Apple Pay potrebujete fakturačnú adresu. Pridajte ju vo svojom účte."
+        }
+      },
+      "add_payment_method_banner": "Pridajte platobnú metódu pre rýchlejšie dokončenie nákupu a služby predbežného schvaľovania",
+      "edit_payment_method_button_accessibility_label": "Upraviť {{paymentMethodName}}, ktorý končí na {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "upraviť {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Zobraziť upozornenie na spracovanie pre {{paymentMethodName}}, ktoré končí na {{lastDigits}}",
+      "no_payment_methods_banner": "Žiadne platobné metódy nepridané",
+      "default": "Štandard",
+      "store_credit": {
+        "label": "Zostatok v obchode",
+        "accesibility_label": "Zostatok v obchode - {{formattedBalance}}",
+        "expirable_amounts_button": "Zobraziť sumy, ktoré vypršia",
+        "details_modal": {
+          "title": "Zostatok v obchode, ktorý vyprší",
+          "expiration_date_label": "Dátum platnosti",
+          "expirable_balance_info": "Časť zostatku vyprší k budúcemu dátumu.",
+          "expirable_amount_label": "Celková suma, ktorá bude zrušená",
+          "expirable_amounts_info": "Suma, ktorá už predtým vypršala, sa pri pokladni použije ako prvá.",
+          "expired_amounts_button": "Zobraziť nevyplatené sumy",
+          "pagination": {
+            "load_more_accessibility_label": "Načítať viac sum, ktoré vypršia"
+          },
+          "event_label": "Udalosť",
+          "events": {
+            "order_refund": "Vrátenie objednávky",
+            "payment_returned": "Platba vrátená späť",
+            "tax_finalization": "Zaokrúhlenie dane"
+          }
+        },
+        "expirable_amounts_label": "Neplatné sumy"
+      },
+      "three_d_secure": {
+        "verification_failed": "Vaša platba nemôže byť overená. Skúste to znova alebo použite inú platobnú metódu."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Pridať platobnú metódu PayPal",
+        "loading_accessibility_message": "PayPal načítava",
+        "errors": {
+          "generic": "Vyskytol sa problém s PayPalom. Skúste to znova alebo použite inú platobnú metódu."
+        }
+      },
+      "card_update_consent_subscriptions": "Táto platobná metóda sa uloží pre budúce nákupy a môže sa použiť pri každom opakovanom alebo odloženom nákupe.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Pridaním platobnej metódy môžete autorizovať, že až do zrušenia budú na vašu kartu účtované poplatky alebo že pri budúcich nákupoch, ktoré schválite, budú z vášho bankového účtu odpočítané platby."
+      },
+      "replacement_payment_method_title": "Náhradné spôsoby platby",
+      "bank_account": {
+        "loading_accessibility_message": "Tlačidlo pre bankový účet sa načítava",
+        "generic_error": "Nie je možné pridať bankový účet. Skúste to neskôr znova."
+      },
+      "update_payment_method": {
+        "disclaimer": "Táto platobná metóda sa uloží pre budúce nákupy a môže sa použiť pri každom opakovanom alebo odloženom nákupe.",
+        "error_message": "Nie je možné aktualizovať spôsob platby",
+        "current": "Súčasný"
       }
     }
   }
