@@ -4065,7 +4065,85 @@
         },
         "field_errors": {
           "credit_card_name_invalid": "Εισάγετε το όνομά σας όπως εμφανίζεται στην κάρτα σας",
-          "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας"
+          "credit_card_number_invalid": "Εισάγετε έναν έγκυρο αριθμό κάρτας",
+          "credit_card_expiry_invalid": "Εισαγάγετε μια έγκυρη ημερομηνία λήξης για την κάρτα",
+          "credit_card_verification_value_blank": "Εισάγετε τον κωδικό CVV/CVC ή τον κωδικό ασφαλείας της κάρτας σας"
+        },
+        "unavailable": {
+          "text": "Η πληρωμή με πιστωτική ή χρεωστική κάρτα δεν είναι διαθέσιμη αυτή τη στιγμή.",
+          "link_text": "Ανανέωσε αυτή τη σελίδα",
+          "suffix": "ή δοκιμάστε ξανά αργότερα."
+        }
+      },
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Προστέθηκε μέθοδος πληρωμής",
+        "billing_address": {
+          "title": "Διεύθυνση τιμολογίου",
+          "add_billing_address_button": "Προσθήκη νέου",
+          "add_billing_address_button_accessibility_label": "Προσθήκη νέας διεύθυνσης τιμολόγησης",
+          "choose_billing_address_from_list_button": "Επιλογή από τη λίστα",
+          "choose_billing_address_from_list_button_accessibility_label": "Επιλέξτε μια διεύθυνση τιμολογίου από τη λίστα",
+          "missing_billing_address_error_message": "Καταχωρίστε μια διεύθυνση τιμολόγησης",
+          "default_checkbox": "Ορισμός ως προεπιλεγμένη μέθοδος πληρωμής"
+        },
+        "replace_mode_warning": "Αν αφαιρέσετε αυτήν την μέθοδο πληρωμής, θα επηρεαστούν οι συνδρομές ή οι προπαραγγελίες. Αντικαταστήστε την με μια άλλη μέθοδο πληρωμής για να συνεχίσετε να λαμβάνετε τις επερχόμενες παραγγελίες.",
+        "choose_from_list": "Επιλογή από τη λίστα",
+        "add_new_button": "Προσθήκη νέου",
+        "subscription_contracts": {
+          "product_details": "Στοιχεία προϊόντος",
+          "more_items": {
+            "one": "Προϊόν Nog {{count}}",
+            "other": "Nog {{count}} προϊόντα"
+          }
+        },
+        "contracts_update_failed": "Ορισμένα συμβόλαια συνδρομής δεν μπόρεσαν να ενημερωθούν",
+        "subscription_contracts_updated": "{{succeeded}} από {{total}} συνδρομές ενημερώθηκαν",
+        "invalid_wallet_type_error": "Μη έγκυρος τύπος ψηφιακού πορτοφολιού",
+        "updating_contracts": {
+          "one": "Το συμβόλαιο συνδρομής {{count}} ενημερώνεται...",
+          "other": "{{count}} συμβόλαια συνδρομής ενημερώνονται..."
+        },
+        "contracts_updated": {
+          "one": "Το συμβόλαιο συνδρομής {{count}} έχει ενημερωθεί",
+          "other": "{{count}} συμβόλαια συνδρομής έχουν ενημερωθεί"
+        },
+        "missing_customer_error": "Κάτι πήγε στραβά. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη."
+      },
+      "expired": "Αυτή η κάρτα έχει λήξει",
+      "card_update_consent": "Αυτή η μέθοδος πληρωμής θα αποθηκευτεί για μελλοντικές αγορές.",
+      "google_pay": {
+        "errors": {
+          "generic": "Υπήρξε ένα πρόβλημα με το Google Pay. Δοκιμάστε ξανά ή χρησιμοποιήστε άλλη μέθοδο πληρωμής.",
+          "missing_billing_address": "Για το Google Pay χρειάζεσαι μια διεύθυνση τιμολόγησης. Πρόσθεσέ την στον λογαριασμό σου."
+        },
+        "loading": "Φόρτιση Google Pay",
+        "loading_accessibility_message": "Φόρτιση Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Φόρτιση Apple Pay",
+        "errors": {
+          "generic": "Υπήρξε ένα πρόβλημα με το Apple Pay. Δοκιμάστε ξανά ή χρησιμοποιήστε μια άλλη μέθοδο πληρωμής.",
+          "not_available": "Το Apple Pay δεν είναι διαθέσιμο σε αυτή τη συσκευή.",
+          "missing_billing_address": "Για το Apple Pay χρειάζεσαι μια διεύθυνση τιμολόγησης. Πρόσθεσέ την στον λογαριασμό σου."
+        }
+      },
+      "add_payment_method_banner": "Προσθήκη μεθόδου πληρωμής για ταχύτερο ταμείο και υπηρεσίες για προέγκριση",
+      "edit_payment_method_button_accessibility_label": "Επεξεργασία {{paymentMethodName}} που τελειώνει σε {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Εμφάνιση προειδοποίησης εξαπάτησης για {{paymentMethodName}} που λήγει σε {{lastDigits}}",
+      "no_payment_methods_banner": "Δεν έχουν προστεθεί μέθοδοι πληρωμής",
+      "default": "Πρότυπο",
+      "store_credit": {
+        "accesibility_label": "Πιστωτικό υπόλοιπο - {{formattedBalance}}",
+        "expirable_amounts_button": "Προβολή ποσών που πρόκειται να λήξουν",
+        "details_modal": {
+          "title": "Πιστωτικό υπόλοιπο καταστήματος που πρόκειται να λήξει",
+          "expirable_balance_info": "Ένα μέρος του υπολοίπου λήγει σε μελλοντική ημερομηνία.",
+          "expirable_amount_label": "Συνολικό ποσό που θα λήξει",
+          "expirable_amounts_info": "Ποσά που έχουν λήξει νωρίτερα εφαρμόζονται πρώτα κατά την ολοκλήρωση αγοράς.",
+          "expired_amounts_button": "Προβολή ληξιπρόθεσμων ποσών",
+          "pagination": {
+            "load_more_accessibility_label": "Φόρτωση περισσότερων ποσών που πρόκειται να λήξουν"
+          }
         }
       }
     }
