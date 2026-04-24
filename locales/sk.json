@@ -1304,7 +1304,67 @@
         "local_pickup": {
           "search_address": "Hľadať adresu"
         },
-        "missing_shipping_address": "Chýba doručovacia adresa"
+        "missing_shipping_address": "Chýba doručovacia adresa",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Opakujúca sa zásielka",
+          "other": "Opakujúce sa zásielky"
+        },
+        "address_default": "Nastaviť ako predvolené",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} položiek",
+        "split_shipping_merchandise_quantity_label_additional": "+ nog %{quantity}",
+        "split_shipping_merchandise_shipment_number": "Zásielka %{number} z %{total}",
+        "pre_order_ships_now": "Odosiela sa teraz",
+        "pre_order_ships_later": "Bude odoslané neskôr",
+        "pre_order_ships_date": "Odoslané %{date}",
+        "split_shipping_shipped_by_shop": "Odoslané cez %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Viacero zásielok",
+        "split_shipping_shipping_label": "Múdrosť",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} zásielok",
+        "split_shipping_multiple_shipment_notice": "Objednávka bude doručená v niekoľkých zásielkach",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Vaša objednávka bude doručená v %{quantity} zásielkach",
+        "split_shipping_more_shipping_options": "Viac možností doručenia",
+        "split_shipping_shipment_number": "Zásielka %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Počet: %{quantity}",
+        "split_shipping_option_fastest": "Najrýchlejší",
+        "split_shipping_option_recommended": "Odporúčané",
+        "split_shipping_option_custom": "Prispôsobené",
+        "default_description": "Odoslané do jedného pracovného dňa",
+        "split_shipping_shipment_notice": "Dostanete svoju objednávku v %{quantity_shipments}",
+        "unbranded_default_description": "Pripravené na odoslanie",
+        "prime_not_available": {
+          "default": "Prime doručenie nie je pre tvoju objednávku dostupné. Tvoje možnosti doručenia boli aktualizované."
+        },
+        "split_shipping_first_shipment_notice": "Dostanete svoju prvú objednávku za %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Možnosti spôsobu doručenia",
+        "shipping_address_rollup_accessibility_label": "Možnosti doručenia na adresu",
+        "invalid_shipping_method_summary_selected": "Vyberte inú doručovaciu adresu na zobrazenie dostupných spôsobov dopravy",
+        "third_party_address_timeout": "Nie je možné načítať adresu. Skúste to znova alebo použite inú adresu.",
+        "third_party_address_error": "Pri načítavaní výberu adresy došlo k chybe. Zadajte svoju adresu nižšie manuálne.",
+        "third_party_payment_timeout": "Nie je možné načítať platobné metódy. Skúste to znova alebo použite inú platobnú metódu.",
+        "third_party_payment_error": "Pri načítavaní výberu platby došlo k chybe. Použite inú platobnú metódu.",
+        "add_shipping_address": "Pridať doručovaciu adresu",
+        "choose_new_address": "Vyberte novú adresu",
+        "unbranded_description_same_day": "Bude odoslané v ten istý pracovný deň",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Bude odoslané nasledujúci pracovný deň",
+          "other": "Bude odoslané do %{count} pracovných dní"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Bude odoslané o %{count} týždeň",
+          "other": "Bude odoslané o %{count} týždňov"
+        }
+      },
+      "payment": {
+        "amazon_payments_login_hint": "Ste vyzvaný na prihlásenie do Amazonu.",
+        "amazon_payments_logout": "Odhlásiť sa z Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Vybratý spôsob platby nie je možné použiť. Vyberte iný spôsob alebo kontaktujte svoju banku či vydavateľa karty.",
+        "amazon_payments_abandoned_mfa_challenge": "Vaša platba sa nedala dokončiť. Skúste inú platobnú metódu alebo kontaktujte svoju banku či vydavateľa karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Vyskytol sa problém s spracovaním vašej platby. Skúste to znova alebo použite inú platobnú metódu.",
+        "amount_left_to_pay_label": "Dlžná suma:",
+        "gift_card_code_label": "Kód darčekovej poukážky",
+        "supported_card_brands_more_label": "a viac…",
+        "detected_card_brand": "Zistený typ karty: {brand}",
+        "card_pay_with": "Plaťte pomocou:"
       }
     }
   }
