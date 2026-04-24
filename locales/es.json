@@ -1648,7 +1648,65 @@
         "cannot_verify": "No se pueden verificar los datos de tu pago. Revisa los datos de tu tarjeta y vuelve a intentarlo.",
         "invalid_number": "Introduzca un número de tarjeta válido",
         "invalid_expiry_date": "Introduzca una fecha de vencimiento válida",
-        "invalid_cvc": "Introduzca un código de seguridad válido"
+        "invalid_cvc": "Introduzca un código de seguridad válido",
+        "expired_card": "Tu tarjeta ha caducado. Usa otro método de pago.",
+        "card_declined": "Tu tarjeta ha sido rechazada. Intenta de nuevo o utiliza otro método de pago.",
+        "processing_error": "Se ha producido un problema al procesar tu pago. Inténtalo de nuevo o utiliza otro método de pago.",
+        "call_issuer": "Tu tarjeta ha sido rechazada. Usa otro método de pago o contacta con tu banco para más información.",
+        "test_mode_live_card": "Esta tienda no puede aceptar pedidos reales ni procesar pagos reales.",
+        "transient_error": "Se ha producido un problema al procesar tu pago. Actualiza esta página o verifica tu conexión a internet.",
+        "missing_shipping_address": "No se pudo procesar tu pago porque falta la dirección de entrega. Añade una dirección de entrega y vuelve a intentarlo.",
+        "invalid_shipping_address": "No se pudo procesar tu pago porque no pudimos encontrar tu dirección de entrega. Verifica tu dirección de entrega e inténtalo de nuevo.",
+        "successful_offsite_with_gift_card_error": "Se ha producido un problema al procesar tu pago con tarjeta de regalo. Intenta de nuevo o utiliza otro método de pago.",
+        "development_store_order_limit_reached": "Has alcanzado el número máximo de pedidos en la tienda de desarrollo con este procesador de pagos. Usa una pasarela de pago de prueba para realizar otro pedido. Aquí encontrarás más información sobre %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Utiliza una pasarela de pago de prueba para realizar un pedido de prueba. Aquí encontrarás más información sobre %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "probar pedidos en tiendas de desarrollo",
+        "method_not_available": "El método de pago solicitado no está disponible. Elija otro método de pago y vuelva a intentarlo.",
+        "available_methods_updated": "Los métodos de pago disponibles han sido actualizados.",
+        "selected_payment_method": "Hubo un problema con el método de pago seleccionado y no se ha cobrado ningún importe. Inténtalo de nuevo o utiliza otro método de pago.",
+        "payment_method_billing_address": "Hay un problema con la dirección de facturación de tu método de pago seleccionado. Verifica la dirección e inténtalo de nuevo o usa otro método de pago.",
+        "processing_error_checkout_as_guest": "Ha ocurrido un problema al procesar el pago. Inténtalo de nuevo con otro método de pago o {{checkout_as_guest_link}}.",
+        "amount_too_small": "El importe mínimo de pago debe ser superior a 0,50 USD. Inténtelo de nuevo con una cantidad mayor.",
+        "payment_above_threshold": "El importe del pago es superior al límite permitido para esta región. Reduzca el total e intente de nuevo",
+        "risky": "Se ha producido un problema al procesar el pago. Inténtalo de nuevo o utiliza otro método de pago.",
+        "expired_buyer_action": "Tiempo de espera del método de pago. Inténtalo de nuevo.",
+        "three_d_secure_failed_payment_method": "No se puede verificar su tarjeta. Intente de nuevo o agregue otra tarjeta.",
+        "name_mismatch": "Verifica los datos de tu tarjeta. El nombre en tu tarjeta y la dirección de facturación no coinciden.",
+        "payment_method_not_applicable": "Este método de pago no es aplicable. Utilice otro método de pago.",
+        "shop_pay_wallet_not_available": "Shop Pay no está disponible para esta compra.",
+        "market_manager_blocks_wallet_payments": "Este método de pago no está disponible en tu país.",
+        "paypal_over_capture": "El importe total de tu pedido ha sido actualizado. Paga con {{walletName}} para completar tu pedido.",
+        "captcha_required": "Introduce los datos de pago y resuelve el captcha para completar tu compra.",
+        "captcha_required_without_payment_information": "Completa el captcha para finalizar tu compra.",
+        "shipping_company_required_error": "{{shopName}} requiere un nombre de empresa para la dirección de entrega.",
+        "payment_credential_delegation_error": "Se ha producido un problema al procesar tu pago. Elige un nuevo método de pago.",
+        "cancelled_payment": "Tu pago ha sido cancelado. Intenta de nuevo o utiliza otro método de pago.",
+        "currency": {
+          "no_longer_supported": "La moneda de la tienda ya no es compatible."
+        },
+        "installments_payment_method_incompatible": "El método de pago seleccionado no se puede usar para pagos a plazos. Elija otro método de pago."
+      },
+      "shipping_errors": {
+        "shipping_method": "Las opciones de envío para tu pedido han cambiado. Revisa tu selección.",
+        "shipping_method_not_available": "Tu carrito ha sido actualizado y los artículos que has añadido no pueden ser enviados a tu dirección. Elimina los artículos para completar tu pedido.",
+        "shipping_method_not_available_generic": {
+          "one": "No se puede enviar su pedido a la dirección seleccionada. Verifique que la dirección sea correcta e intente de nuevo, o seleccione otra dirección.",
+          "other": "Algunos artículos en tu carrito no pueden enviarse a la dirección ingresada. Verifica que la dirección sea correcta e inténtalo de nuevo o selecciona otra dirección."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "El artículo que has añadido no se envía a tu ubicación. Elimina este artículo para proceder al pago o contacta con la tienda.",
+          "other": "Uno o más artículos que has añadido no pueden ser enviados a tu ubicación. Elimina los artículos para proceder al pago, o contacta con la tienda."
+        },
+        "payment_method_not_supported": "No puedes usar este método de pago para %{country}. Usa otro método de pago para enviar a este país.",
+        "empty_state": "Introduce tu dirección de entrega para ver los métodos de envío disponibles.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Hay artículos en el carrito que no cumplen con los requisitos de precio o peso para ser elegibles para el envío. Actualice el carrito e intente de nuevo.",
+        "title": "Envío no disponible",
+        "invalid_selected_address": "La dirección de entrega seleccionada no es válida",
+        "invalid_selected_address_with_update_link": "La dirección de entrega seleccionada no es válida. %{update_address_link} o seleccione otra dirección.",
+        "unavailable_selected_address": "Envío no disponible para la dirección seleccionada",
+        "unavailable_selected_address_for_region": "El envío no está disponible para {{region}}. Seleccione otra dirección para continuar",
+        "unavailable_addresses_only_countries": "Tu pedido solo puede enviarse a {{countriesList}}. Añade una nueva dirección para continuar.",
+        "unavailable_address_country": "No es posible realizar envíos al país que has seleccionado. Por favor, proporciona otra dirección para continuar."
       }
     }
   }
