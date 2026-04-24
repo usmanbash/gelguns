@@ -876,7 +876,75 @@
         "different_shipping_address_text": "Použiť jednu adresu pre túto objednávku",
         "change_company_location_link_label": "Zmeniť miesto podnikania",
         "change_location_link_label": "Zmeniť miesto",
-        "ship_to_company": "Odoslať do {{companyName}}"
+        "ship_to_company": "Odoslať do {{companyName}}",
+        "shipping_used_as_billing_notice": "Toto používame aj ako fakturačnú adresu pre túto objednávku.",
+        "company_attention_label": "Spoločnosť/na pozornosť",
+        "optional_company_attention_label": "Spoločnosť/na pozornosť (voliteľné)",
+        "optional_postal_code_label": "PSČ (voliteľné)",
+        "optional_postcode_label": "PSČ (voliteľné)",
+        "phone_country_code_label": "Kód krajiny telefónneho čísla",
+        "storefront_link": "webová stránka predajcu",
+        "suburb_label": "Okraj mesta"
+      },
+      "delivery_options": {
+        "pick_up_immediately": "Pripravené na vyzdvihnutie teraz",
+        "pick_up_next_day": "Pripravené na vyzdvihnutie nasledujúci deň",
+        "pick_up_in_two_to_four_days": "Zvyčajne pripravené do 2-4 dní",
+        "pick_up_in_five_or_more_days": "Zvyčajne pripravené za viac ako 5 dní",
+        "pick_up_in_zero_to_two_hours": "Pripravené na vyzdvihnutie o 2 hodiny",
+        "pick_up_in_two_to_four_hours": "Pripravené na vyzdvihnutie o 4 hodiny",
+        "free_total_label": "Zdarma",
+        "pickup_point_method_definition": "Odoslať na výdajné miesto",
+        "retail_method_definition": "Doručenie z maloobchodu",
+        "none_method_definition": "Žiadne zásielky",
+        "subscription_pickup_information": "Táto metóda doručenia platí pre všetky položky v tejto objednávke a pre všetky budúce položky v rámci tohto predplatného.",
+        "company_location_no_address_banner": "Objednávky odoslané na miesta bez adresy budú predložené na kontrolu.",
+        "pickup_point_map_title": "Mapa s miestami na vyzdvihnutie"
+      },
+      "customer_account": {
+        "have_an_account_label": "Máte účet?",
+        "save_my_information_label": "Uložiť tieto informácie pre rýchlejšie platenie nabudúce",
+        "incomplete_address": "Vybraná adresa je neúplná. %{update_address_link} alebo vyberte inú adresu.",
+        "rollup_label": "Účet",
+        "invalid_shipping_method_summary": "Vyberte platnú doručovaciu adresu, aby ste videli dostupné spôsoby doručenia",
+        "saved_address_option_link": "Použiť uloženú adresu",
+        "saved_address_modal_title": "Použiť moju uloženú adresu",
+        "saved_address_option_description": {
+          "other": "Máte {{count}} uložených adries."
+        },
+        "rollup_accessibility_label": "Možnosti účtu"
+      },
+      "stock": {
+        "page_title": "Problém s dostupnosťou zásob",
+        "title": "Nedostupné na sklade",
+        "quantity_column_header": "Počet",
+        "reduced_label": "Znížený",
+        "reduced_with_quantity_label": "Iba %{quantity_available} na sklade",
+        "go_back_to_cart_button_label": "Späť do môjho košíka",
+        "empty_cart_label": "Váš nákupný košík je prázdny",
+        "quantity_update": {
+          "page_title": "Množstvo aktualizované",
+          "title": "Množstvo aktualizované",
+          "description": "Dostupné množstvá týchto položiek sa zmenili a váš nákupný košík bol aktualizovaný."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt nie je možné kúpiť",
+          "header": "Niektoré položky boli odstránené z tvojho košíka",
+          "message": "Tieto položky nie sú dostupné pre B2B objednávky.",
+          "status_column_header": "Nie je k dispozícii"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt nie je možné kúpiť",
+          "header": "Niektoré položky boli odstránené z tvojho košíka",
+          "status_column_header": "Nie je k dispozícii"
+        },
+        "unshippable_product": {
+          "title": "Doručenie nie je k dispozícii",
+          "header": {
+            "one": "Doručenie nie je dostupné pre %{count} položku",
+            "other": "Doručenie nie je dostupné pre %{count} položiek"
+          }
+        }
       }
     }
   }
