@@ -286,109 +286,109 @@
   },
   "sections": {
     "header": {
-      "announcement": "Objava",
+      "announcement": "Najava",
       "menu": "Izbornik",
       "cart_count": {
-        "one": "{{ count }} artikl",
-        "other": "Broj artikala: {{ count }}",
+        "one": "{{ count }} artikala",
+        "other": "{{ count }} artikala",
         "few": "Broj artikala: {{ count }}"
       }
     },
     "cart": {
       "title": "Vaša košarica",
-      "caption": "Artikli u kokšarici",
+      "caption": "Artikli u košarici",
       "remove_title": "Ukloni {{ title }}",
-      "note": "Ostale posebne upute",
-      "checkout": "Završi kupnju",
-      "empty": "Vaša je košarica prazna",
-      "cart_error": "Došlo je do pogreške prilikom ažuriranja košarice. Pokušajte ponovno.",
-      "cart_quantity_error_html": "U svoju košaricu možete dodati {{ quantity }} kom ovog artikla.",
+      "note": "Posebne upute za narudžbu",
+      "checkout": "Plaćanje",
+      "empty": "Vaša košarica je prazna",
+      "cart_error": "Došlo je do pogreške prilikom ažuriranja tvoje košarice. Pokušaj ponovno.",
+      "cart_quantity_error_html": "U svoju košaricu možete dodati samo {{ quantity }} ovog artikla.",
       "update": "Ažuriraj",
       "headings": {
         "product": "Proizvod",
         "price": "Cijena",
         "total": "Ukupno",
-        "quantity": "Količina",
+        "quantity": "Broj",
         "image": "Slika proizvoda"
       },
       "login": {
-        "title": "Imate li račun?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se</a> za bržu provjeru."
+        "title": "Imaš li račun?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se</a> za brže plaćanje."
       },
-      "estimated_total": "Procijenjen ukupni iznos",
-      "new_estimated_total": "Novi procijenjeni ukupni iznos",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Carina i porezi su uključeni. Popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Carina i porezi su uključeni. Popusti i poštarina obračunavaju se prilikom plaćanja.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Porezi su uključeni. Popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
-      "taxes_included_shipping_at_checkout_without_policy": "Porezi su uključeni. Popusti i poštarina obračunavaju se prilikom plaćanja.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Carina je uključena. Porezi, popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Carina je uključena. Porezi, popusti i poštarina obračunavaju se prilikom plaćanja.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Porezi, popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Porezi, popusti i poštarina obračunavaju se prilikom plaćanja."
+      "estimated_total": "Procijenjeni ukupno",
+      "new_estimated_total": "Novo procijenjeni ukupno",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Carine i porezi uključeni. Popusti i <a href=\"{{ link }}\">dostava</a> obračunavaju se pri naplati.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Carine i porezi uključeni. Popusti i troškovi dostave obračunavaju se pri naplati.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Porezi uključeni. Popusti i <a href=\"{{ link }}\">dostava</a> se obračunavaju pri naplati.",
+      "taxes_included_shipping_at_checkout_without_policy": "Porezi uključeni. Popusti i dostava obračunavaju se pri naplati.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Carinske pristojbe uključene. Porezi, popusti i <a href=\"{{ link }}\">dostava</a> obračunavaju se pri naplati.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Carinske pristojbe uključene. Porezi, popusti i dostava obračunavaju se pri naplati.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Porezi, popusti i <a href=\"{{ link }}\">dostava</a> obračunavaju se pri naplati.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Porezi, popusti i dostava obračunavaju se pri naplati."
     },
     "footer": {
       "payment": "Načini plaćanja"
     },
     "featured_blog": {
       "view_all": "Prikaži sve",
-      "onboarding_title": "Objava na blogu",
-      "onboarding_content": "Omogućite kupcima sažeti prikaz vaše objave na blogu"
+      "onboarding_title": "Blog zapis",
+      "onboarding_content": "Dajte svojim kupcima pregled vašeg blog posta"
     },
     "featured_collection": {
       "view_all": "Prikaži sve",
-      "view_all_label": "Prikaži sve proizvode iz kolekcije {{ collection_name }}"
+      "view_all_label": "Pogledajte sve proizvode u kolekciji {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Prikaži sve"
     },
     "collection_template": {
-      "title": "Kolekcija",
-      "empty": "Nije pronađen nijedan proizvod",
-      "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloni sve</a>"
+      "title": "Zbirka",
+      "empty": "Nema pronađenih proizvoda",
+      "use_fewer_filters_html": "Koristiti manje filtere ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloniti sve</a>"
     },
     "video": {
-      "load_video": "Učitaj videozapis: {{ description }}"
+      "load_video": "Učitavanje videa: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Učitaj slajd",
+      "load_slide": "Dijaloška trgovina",
       "previous_slideshow": "Prethodni slajd",
       "next_slideshow": "Sljedeći slajd",
-      "pause_slideshow": "Pauziraj prezentaciju",
-      "play_slideshow": "Reproduciraj prezentaciju",
-      "carousel": "Vrtuljak",
-      "slide": "Slajd"
+      "pause_slideshow": "Zaustavi prikaz slajdova",
+      "play_slideshow": "Pokreni prikaz slajdova",
+      "carousel": "Vrtiljak",
+      "slide": "Dan"
     },
     "page": {
       "title": "Naslov stranice"
     },
     "announcements": {
-      "previous_announcement": "Prethodna objava",
-      "next_announcement": "Sljedeća objava",
-      "carousel": "Vrtuljak",
-      "announcement": "Objava",
-      "announcement_bar": "Traka za objave"
+      "previous_announcement": "Prethodna najava",
+      "next_announcement": "Sljedeća najava",
+      "carousel": "Vrtiljak",
+      "announcement": "Najava",
+      "announcement_bar": "Traka za obavijesti"
     },
     "quick_order_list": {
-      "product_total": "Podzbroj proizvoda",
-      "view_cart": "Prikaži košaricu",
-      "each": "Jedinična cijena: {{ money }}",
+      "product_total": "Ukupno proizvoda",
+      "view_cart": "Pogledaj košaricu",
+      "each": "{{ money }}/kom",
       "product": "Proizvod",
       "variant": "Varijanta",
-      "variant_total": "Ukupno za varijantu",
+      "variant_total": "Ukupna varijanta",
       "items_added": {
-        "one": "Broj dodanih artikala: {{ quantity }}",
-        "other": "Broj dodanih artikala: {{ quantity }}",
+        "one": "{{ quantity }} artikala dodano",
+        "other": "{{ quantity }} artikala dodano",
         "few": "Broj dodanih artikala: {{ quantity }}"
       },
       "items_removed": {
-        "one": "Broj uklonjenih artikala: {{ quantity }}",
-        "other": "Broj uklonjenih artikala: {{ quantity }}",
+        "one": "{{ quantity }} artikala uklonjeno",
+        "other": "{{ quantity }} artikala uklonjeno",
         "few": "Broj uklonjenih artikala: {{ quantity }}"
       },
       "product_variants": "Varijante proizvoda",
-      "total_items": "Ukupni broj artikala",
-      "remove_all_items_confirmation": "Želite li ukloniti sve artikle ({{ quantity }}) iz svoje košarice?",
-      "remove_all": "Ukloni sve",
+      "total_items": "Ukupan broj članaka",
+      "remove_all_items_confirmation": "Želite li ukloniti svih {{ quantity }} artikala iz vaše košarice?",
+      "remove_all": "Izbriši sve",
       "cancel": "Odustani",
       "remove_all_single_item_confirmation": "Želite li ukloniti 1 artikl iz košarice?",
       "min_error": "Minimum za ovaj artikl iznosi {{ min }}",
