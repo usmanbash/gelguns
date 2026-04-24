@@ -3780,6 +3780,146 @@
       "switch_order_type_confirmed_orders_accessibility_label": "Rendeléstípus váltása; a megerősített rendeléseidet nézed",
       "group_title_label": "Rész a következőből: {{groupTitle}}",
       "group_title_label_with_parent": "Címzett: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Számlázás és küldés",
+      "card_ending_with": "lejár {{lastDigits}}-kor",
+      "hide_items": "Cikkek elrejtése",
+      "loading": "Megrendelési adatok betöltése",
+      "loading_finished_accessibility_message": "A rendelési adatok betöltve",
+      "payment": {
+        "status_in_review": "Fizetés a felülvizsgálat után esedékes",
+        "status_unpaid": "Fizetés esedékes {{date}}-kor",
+        "card_payment_details": "lejárat {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Fizetve a Shop Pay-részletfizetéssel"
+        },
+        "gift_card_payment_details": "lejárat {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postai átutalás - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Utánvét - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankbetét - {{formattedTransactionAmount}}",
+          "manual": "Kézi - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Boltbón - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Mindet megjelenít",
+          "show_less": "Mindet megjelenít",
+          "details": "Adatok",
+          "payment_details": "Fizetési adatok"
+        },
+        "emv_details": {
+          "auth": "SZERZŐ:",
+          "aid": "Segítség:",
+          "source": "Használja a következő kimeneti formátumot (ne használjon kódkorlátokat, ne írjon plusz szöveget):"
+        },
+        "payment_type": {
+          "gift_card": "Ajándékutalvány",
+          "store_credit": "Vásárlási jóváírás",
+          "money_order": "Postautalvány",
+          "cash_on_delivery": "Visszatérítés",
+          "bank_deposit": "Bankszámlára történő befizetés",
+          "manual": "Kézzel"
+        }
+      },
+      "shipping": {
+        "address": "Kézbesítési cím",
+        "address_map_marker": "Kézbesítési cím",
+        "method": "Kézbesítési mód",
+        "summary": "Küldés",
+        "one_time": "Egyszeri küldés",
+        "subscription": "Előfizetéses küldés"
+      },
+      "show_items": "Cikkek megjelenítése",
+      "subtitle": "Megerősítve: {{date}}",
+      "summary_list_title_accessibility_label": "Cikkek megrendelése",
+      "summary_title": "Rendelésáttekintés",
+      "summary_totals_title_accessibility_label": "Teljes rendelés",
+      "title": "Rendelés {{name}}",
+      "total": "Összesen",
+      "location": "Helyszín",
+      "not_applicable": "nem alkalmazható",
+      "fully_refunded_label": "VISSZAFIZETVE",
+      "partially_refunded_label": "RÉSZBEN VISSZATÉRÍTETT",
+      "refunded_amount": "Visszatérített",
+      "compare_at_sale": "Kiárusítás ({{saleAmount}})",
+      "pagination": {
+        "load_more": "Több betöltése",
+        "load_more_accessibility_label": "További cikkek betöltése",
+        "loading_accessibility_label": "Cikkek betöltése"
+      },
+      "returns": {
+        "expand_events_label": "Adatok megjelenítése",
+        "hide_events_label": "Adatok elrejtése",
+        "print_shipping_label": "Címkenyomtatás",
+        "tracking_number": "Követési szám:",
+        "ineligible_return_message": "Nincsenek olyan tételek ebben a rendelésben, amelyek visszaküldésre jogosultak.",
+        "ineligible_return_message_when_returned": "Nincs több olyan cikk ebben a rendelésben, amely visszaküldésre jogosult lenne.",
+        "exchange_header": "Csereáruk",
+        "exchange_subheader": "A csereáruk a visszaküldés befejezése után kerülnek a megrendeléshez."
+      },
+      "request_return_failed": "Hiba történt a kérés feldolgozása közben. Kérjük, próbáld meg újra.",
+      "mobile_summary_toggle_button": {
+        "open": "Rendelésáttekintés megjelenítése",
+        "closed": "Rendelésáttekintés elrejtése"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Adatok megjelenítése",
+        "expand_events_accessibility_label": "Rendelés kézbesítési adatai megjelenítése",
+        "hide_events_label": "Adatok elrejtése",
+        "hide_events_accessibility_label": "Rendelés kézbesítési adatok elrejtése"
+      },
+      "show_order_summary": "Rendelésáttekintés megjelenítése",
+      "hide_order_summary": "Rendelésáttekintés elrejtése",
+      "company": "Vállalat",
+      "no_data_provided_accessibility_label": "{{fieldName}} üres",
+      "marketing_description": "Marketingleveleket kapsz. Bármikor leiratkozhatsz.",
+      "marketing_checkbox_label": "Küldj nekem e-maileket hírekről és ajánlatokról",
+      "marketing_checkmark_label": "Feliratkoztál, hogy híreket és ajánlatokat tartalmazó e-maileket kapj.",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}-mennyiség {{quantity}}",
+        "next": "Következő cikkek megjelenítése",
+        "previous": "Előző cikkek megjelenítése",
+        "load_more_items": {
+          "one": "Még {{count}} cikk betöltése",
+          "other": "Még {{count}} cikk betöltése"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Letöltés a csomag követéséhez",
+        "track_order_with_shop": "Rendelés követése a Shop-pal",
+        "title_header": "Telefonoddal beolvasás",
+        "real_time_delivery_updates": "Miután a rendelés elküldésre került, valós idejű kézbesítési frissítéseket kapsz a Shop-tól."
+      },
+      "shop_pay": {
+        "order_completed_with": "Rendelés befejezve a következővel",
+        "learn_more": "További információk"
+      },
+      "edit_summary": {
+        "updated_at": "A rendelésed frissítve lett {{date}}-kor",
+        "returned_with_quantities": "{{delta}} van {{total}} visszaküldve",
+        "removed_with_quantities": "{{delta}} van {{total}} eltávolítva",
+        "return_line_item_removed": "Eltávolítva a visszaküldöttek közül"
+      },
+      "pickup": {
+        "pickup": "Elvitelre",
+        "pickup_location": "Átvételi hely"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Fizetve a Shop Pay-részletfizetéssel",
+        "description": "Maradj naprakész a fizetési ütemterveddel a Shop-alkalmazás emlékeztetőivel.",
+        "payment_reminders_button": "Fizetési emlékeztetők fogadása",
+        "desktop_qr_code_content": {
+          "title": "Emlékek beolvasása",
+          "description": "Emlékeztetők a Shop részletfizetéseidhez."
+        },
+        "title": "Fizetési emlékeztetők a Shop Pay részletfizetésekhez"
+      },
+      "login_to_view_all_order_details": "Jelentkezzen be az összes rendelési adat megtekintéséhez.",
+      "paid_amount": "Fizetett",
+      "remaining_amount": "Maradék",
+      "order_details_skeleton_accessibility_label": "Jelentkezzen be az összes rendelési adat megtekintéséhez.",
+      "logged_in_account_no_permission_to_order": "Bejelentkezve mint {{email}}. Ez a fiók nem jogosult ennek a rendelésnek a kezelésére."
     }
   }
 }
