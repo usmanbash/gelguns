@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Siirry kauppaan käyttämällä salasanaa:",
-      "login_password_button": "Siirry sisään käyttämällä salasanaa",
+      "login_form_heading": "Kirjaudu sisään kauppaan salasanalla:",
+      "login_password_button": "Kirjaudu sisään salasanalla",
       "login_form_password_label": "Salasana",
       "login_form_password_placeholder": "Salasanasi",
-      "login_form_error": "Väärä salasana!",
-      "login_form_submit": "Lähetä",
+      "login_form_error": "Salasana väärin!",
+      "login_form_submit": "Syötä",
       "admin_link_html": "Oletko kaupan omistaja? <a href=\"/admin\" class=\"link underlined-link\">Kirjaudu sisään tästä</a>",
-      "powered_by_shopify_html": "Tämän kaupan alustana on {{ shopify }}"
+      "powered_by_shopify_html": "Tätä kauppaa pyörittää {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Jaa Facebookissa",
-        "share_on_twitter": "Jaa X:ssä",
-        "share_on_pinterest": "Pinnaa Pinterestissä"
+        "share_on_twitter": "Jaa X:llä",
+        "share_on_pinterest": "Kiinnitä Pinterestiin"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (entinen Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,80 +37,80 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Jatka ostoksia",
+    "continue_shopping": "Palaa kauppaan",
     "pagination": {
-      "label": "Sivunumerointi",
+      "label": "Sivutus",
       "page": "Sivu {{ number }}",
       "next": "Seuraava sivu",
       "previous": "Edellinen sivu"
     },
     "search": {
-      "search": "Hae",
-      "reset": "Tyhjennä hakutermi"
+      "search": "Etsi",
+      "reset": "Hakusanan poisto"
     },
     "cart": {
       "view": "Näytä ostoskori ({{ count }})",
-      "item_added": "Tuote lisätty ostoskoriisi",
-      "view_empty_cart": "Katso ostoskori"
+      "item_added": "Tuote lisätty ostoskoriin",
+      "view_empty_cart": "Näytä ostoskori"
     },
     "share": {
       "copy_to_clipboard": "Kopioi linkki",
       "share_url": "Linkki",
       "success_message": "Linkki kopioitu leikepöydälle",
-      "close": "Sulje jako"
+      "close": "Sulje jakaminen"
     },
     "slider": {
-      "of": "/",
-      "next_slide": "Liu'uta oikealle",
-      "previous_slide": "Liu'uta vasemmalle",
+      "of": "vanha",
+      "next_slide": "Siirrä oikealle",
+      "previous_slide": "Siirry vasemmalle",
       "name": "Liukusäädin"
     }
   },
   "newsletter": {
     "label": "Sähköposti",
-    "success": "Kiitos tilauksesta",
+    "success": "Kiitos tilauksestasi",
     "button_label": "Tilaa"
   },
   "accessibility": {
-    "skip_to_text": "Ohita ja siirry sisältöön",
+    "skip_to_text": "Siirry suoraan sisältöön",
     "close": "Sulje",
-    "unit_price_separator": "kohti",
+    "unit_price_separator": "per",
     "vendor": "Myyjä:",
     "error": "Virhe",
-    "refresh_page": "Vaihtoehdon valinta päivittää koko sivun.",
+    "refresh_page": "Valinnan tekeminen johtaa sivun kokonaan uudelleenlataamiseen.",
     "link_messages": {
-      "new_window": "Avaa uuden ikkunan.",
-      "external": "Avaa ulkoisen verkkosivuston."
+      "new_window": "Avaa uuteen ikkunaan.",
+      "external": "Avaa ulkoinen verkkosivu."
     },
     "loading": "Ladataan...",
-    "skip_to_product_info": "Siirry tuotetietoihin",
-    "total_reviews": "arvosteluja yhteensä",
-    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} tähteä",
-    "collapsible_content_title": "Pienenettävä sisältö",
-    "complementary_products": "Täydentävät tuotteet"
+    "skip_to_product_info": "Siirry suoraan tuotetietoihin",
+    "total_reviews": "kokonaisarvostelujen määrä",
+    "star_reviews_info": "{{ rating_value }} / {{ rating_max }} tähdestä",
+    "collapsible_content_title": "Taitettava sisältö",
+    "complementary_products": "Lisätuotteet"
   },
   "blogs": {
     "article": {
       "blog": "Blogi",
       "read_more_title": "Lue lisää: {{ title }}",
       "comments": {
-        "one": "{{ count }} kommentti",
+        "one": "{{ count }} vastaus",
         "other": "{{ count }} kommenttia"
       },
-      "moderated": "Huomaa, että kommenttien täytyy olla hyväksytty ennen niiden julkaisemista.",
-      "comment_form_title": "Kirjoita kommentti",
+      "moderated": "Huomio: kommentit on hyväksyttävä ennen niiden julkaisemista.",
+      "comment_form_title": "Jätä vastaus",
       "name": "Nimi",
       "email": "Sähköposti",
-      "message": "Kommentti",
-      "post": "Julkaise kommentti",
+      "message": "Vastaus",
+      "post": "Jätä vastaus",
       "back_to_blog": "Takaisin blogiin",
-      "share": "Jaa tämä artikkeli",
-      "success": "Kommenttisi julkaiseminen onnistui! Kiitos!",
-      "success_moderated": "Kommenttisi julkaiseminen onnistui. Julkaisemme sen jonkin ajan kuluttua, kun blogimme on tarkastettu."
+      "share": "Jaa nämä artikkelit",
+      "success": "Vastauksesi on lähetetty! Kiitos!",
+      "success_moderated": "Vastauksesi on julkaistu. Julkaisemme sen pian; blogiamme valvotaan."
     }
   },
   "onboarding": {
-    "product_title": "Tuotteen esimerkkinimi",
+    "product_title": "Esimerkkituotteen nimi",
     "collection_title": "Kokoelmasi nimi"
   },
   "products": {
@@ -188,7 +188,15 @@
       "product_variants": "Tuoteversiot",
       "taxes_included": "Sisältää verot.",
       "duties_included": "Sisältää tullit.",
-      "duties_and_taxes_included": "Sisältää tullit ja verot."
+      "duties_and_taxes_included": "Sisältää tullit ja verot.",
+      "inventory_out_of_stock_message": "Varastossa",
+      "inventory_order_before": "edessä",
+      "inventory_delivered": "tilattu,",
+      "inventory_delivery_time": "huomenna kotona",
+      "inventory_status": {
+        "in_stock_badge": "Varastossa",
+        "low_stock_badge": "Vähän varastossa"
+      }
     },
     "modal": {
       "label": "Mediagalleria"
@@ -4264,8 +4272,18 @@
         "input_field_label": "Sähköpostiosoite"
       },
       "step_two": {
-        "page_title": "Syötä koodi - %{shop_name}"
-      }
+        "page_title": "Syötä koodi - %{shop_name}",
+        "heading": "Syötä koodi",
+        "subheading": "Lähetetty osoitteeseen %{email}",
+        "restart_link": "Kirjaudu sisään toisella sähköpostiosoitteella",
+        "input_field_label": "6 numeron koodi"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Syötä oikea kuusinumeroinen koodi"
+        }
+      },
+      "processing": "Käsitellään..."
     }
   }
 }
