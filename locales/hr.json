@@ -1134,7 +1134,81 @@
         "deposit_label": "Predujam",
         "total_due_today_label": "Ukupno dugujete danas",
         "total_due_later_label": "Ukupno dugovanje kasnije",
-        "discount_code_allocations_mismatch": "Vaš kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> je promijenjen. Provjerite svoju košaricu i pokušajte ponovno."
+        "discount_code_allocations_mismatch": "Vaš kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> je promijenjen. Provjerite svoju košaricu i pokušajte ponovno.",
+        "deferred_total_due_date_label_next": "Dug je na dan %{date}",
+        "total_due_label": "Ukupno dugovanje",
+        "unconfirmed_label": "Nije potvrđeno",
+        "from_shop_heading": "Van %{shop_name}",
+        "from_other_stores_heading": "Iz drugih trgovina",
+        "order_discounts_apply_to_local_shop": "Popusti na narudžbe vrijede samo za artikle iz %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Poklon bonovi vrijede samo za artikle iz %{shop_name}",
+        "discount_code_removed": "Kod za popust %{code} je uklonjen",
+        "discount_code_replaced": "Kod za popust %{old_code} je uklonjen, a %{code} je primijenjen",
+        "discount_code_replaced_multiple": "Više kodova za popust je uklonjeno i %{code} je primijenjen",
+        "pay_merchant_label": "%{merchant_name} plaćanje",
+        "discount_applies_to_subscription_items_only": "Popust vrijedi samo za pretplatničke artikle",
+        "estimated_taxes_finalization_tooltip_content_short": "Zaokruživanje poreza nakon plaćanja",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nema dostupnih trgovina u %{country} s vašim artiklom",
+          "other": "Nema dostupnih trgovina u %{country} s tvojim artiklima"
+        },
+        "compare_at_sale": "Rasprodaja (%{sale_amount})",
+        "tax_line": {
+          "gst": "PDV"
+        },
+        "automatic_discount_tooltip": "Automatski primijenjeni popusti ne mogu se ukloniti"
+      },
+      "shipping": {
+        "title": "Slanje",
+        "waiting_on_rate_notice": "Dohvaćanje dostupnih cijena dostave...",
+        "waiting_on_pickup_location_notice": "Dohvaćanje dostupnih lokacija za preuzimanje...",
+        "no_rates_for_cart_or_destination_notice": "Nema dostupnih načina dostave za tvoju košaricu ili adresu",
+        "no_pickup_location_notice": "Najmanje jedan od tvojih proizvoda ne može se preuzeti osobno",
+        "no_rates_for_country_notice": "Nisu pronađene cijene dostave za ovu adresu.",
+        "no_rates_contact_notice": "Kontaktirajte nas za više informacija",
+        "estimated_delivery_date": {
+          "other": "%{count} radnih dana"
+        },
+        "estimated_delivery_date_range": "%{minimum} do %{maximum} radnih dana",
+        "shipping_line_phone_label": "Mobilni broj telefona (obavezno)",
+        "shipping_line_phone": "Dostavljač može koristiti ovaj broj za kontakt s tobom.",
+        "other_method": {
+          "zero": "Nema dostupnih drugih metoda",
+          "one": "%{count} druga metoda dostupna od",
+          "other": "%{count} drugih metoda dostupno od"
+        },
+        "shipping_line_delivery_phone": "Moguće je da će te kontaktirati s informacijama o tvojoj dostavi.",
+        "optional_shipping_line_delivery_instructions_label": "Upute za dostavu (opcionalno)",
+        "shipping_line_delivery_phone_label": "Mobilni broj telefona",
+        "shipping_line_delivery_instructions": "Unesite potrebne informacije poput kodova za vrata i uputa za dostavu.",
+        "local_delivery": "Dostava na kućnu adresu",
+        "subscription_shipping": "Pretplata za slanje",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "za %{count} dostavu(e)",
+            "other": "za %{count} dostava"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "svakih %{count} dana"
+            },
+            "week": {
+              "other": "svakih %{count} tjedana"
+            },
+            "month": {
+              "other": "svakih %{count} mjeseci"
+            },
+            "year": {
+              "other": "svake %{count} godine"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} po dostavi",
+          "prepaid_shipping_price_label": "%{shipping_price} po dostavi x %{delivery_interval_count}",
+          "initial_order_discounted": "Prvi troškovi dostave %{discounted_shipping_cost}, zatim %{frequency_description}",
+          "prepaid_initial_order_discounted": "Prvi troškovi dostave %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Prvi troškovi dostave %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Prvi troškovi dostave %{discounted_shipping_price} %{prepaid_delivery_frequency}, zatim %{shipping_price} %{billing_cycle}"
+        }
       }
     }
   }
