@@ -2602,9 +2602,99 @@
           "merchandise": {
             "gift_card_price_must_be_greater_than_zero": "El precio del vale de regalo debe ser mayor que 0.",
             "subtotal_limit_reached": "Se ha alcanzado el valor máximo para las líneas de pedido.",
-            "gift_card_price_must_not_exceed_limit": "El valor de la tarjeta de regalo no puede ser superior a %{gift_card_limit}."
+            "gift_card_price_must_not_exceed_limit": "El valor de la tarjeta de regalo no puede ser superior a %{gift_card_limit}.",
+            "signature_mismatch": "Firma incorrecta de mercancías para la regla %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "No copiado"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Completa tu compra con tu código {{paymentMethod}}",
+        "timer_message": "Te quedan {{timeLeft}} para pagar",
+        "copy_text": "Copiar código {{paymentMethod}}",
+        "header": "Paga con {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Completa tu compra con tu código {{paymentMethod}}"
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Se ha producido un problema al procesar tu pedido. Inténtalo de nuevo en unos minutos."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "La instrucción de mercancías %{position} %{name} contiene un ID de almacén vacío.",
+        "invalid_stable_id_target": "La instrucción de mercancías %{position} %{name} hace referencia al ID estable %{stable_id}, pero ese ID estable no se encuentra en las líneas de mercancías.",
+        "duplicate_variant_id": "La instrucción de mercancía %{position} %{name} contiene un ID de variante doble %{variant_id}.",
+        "invalid_variant_id_target": "La instrucción de mercancía %{name} se refiere a la variante con ID %{variant_id}, pero esa variante no se encuentra en las líneas de mercancía.",
+        "invalid_price_override_target": "La instrucción para sobrescribir el precio de los bienes para la línea de pedido %{stable_id} no es válida porque es un componente de paquete.",
+        "discount_not_supported": "La instrucción para comerciantes sobre la aplicación de descuentos en productos no admite este tipo de descuento."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Este producto no está disponible para envío a %{location_name}.",
+          "some_products_other": "Estos productos no están disponibles para envío a %{location_name}.",
+          "all_products_one": "El producto en tu carrito no está disponible para envío a %{location_name}.",
+          "all_products_other": "Los productos en tu carrito no están disponibles para envío a %{location_name}."
+        },
+        "cart_updated": "Tu carrito ha sido actualizado.",
+        "change_address_only": "Cambie la dirección de entrega para continuar.",
+        "change_address_or_remove": "Cambie la dirección de entrega o %{remove_action}.",
+        "empty_cart_action": "vacía el carrito y vuelve a la tienda",
+        "remove_items_action": {
+          "one": "eliminar el artículo no disponible",
+          "other": "eliminar los artículos no disponibles"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Ya no estás autorizado para realizar pedidos B2B. %{logout_url} para hacer un pedido personal en su lugar.",
+        "lost_permissions_subtitle": "Ya no tienes autorización para realizar pedidos B2B. Cierra sesión para hacer un pedido personal.",
+        "lost_permissions_title": "Sin permisos de ubicación"
+      },
+      "units": {
+        "liter": "l",
+        "ounce": "onza",
+        "pound": "libra",
+        "fluid_ounce": "onzas fluidas",
+        "gallon": "chica",
+        "inch": "en",
+        "foot": "pie",
+        "square_foot": "pie²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Esta dirección no está soportada para la membresía actual.",
+        "items_split_across_locations_unsupported": "La entrega Prime no está disponible para tu pedido. Tus opciones de envío han sido actualizadas."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navegar a la tienda en línea"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Métodos de pago adicionales"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Este artículo no se puede añadir a tu carrito porque proviene de una tienda que utiliza una moneda diferente.",
+          "max_remote_shops_exceeded": "Este producto no se puede añadir porque tu carrito ya contiene el máximo permitido de otras tiendas.",
+          "currency_mismatch_removal": "Se ha eliminado un artículo de tu carrito porque proviene de una tienda que utiliza una moneda diferente.",
+          "only_remote_merchandise_lines": "El pago contiene solo productos externos. Es necesario redirigirse a la tienda externa para completar la compra."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Completa tu compra",
+        "remote_only_notice": "Estos artículos son vendidos y enviados por otras tiendas. Ve a la caja de cada tienda para completar tu compra.",
+        "single_shop_transition": "Serás redirigido a %{advertiser} para completar tu compra.",
+        "detail_item_label": {
+          "one": "{{count}} artículos"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "No se ha proporcionado %{policy_name} para esta tienda. Para más información, contacte directamente con %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Escanee el código QR nuevamente. Si aún no funciona, informe a nuestro personal y pruebe otro método de pago.",
+        "payment_link_expired_title": "Enlace de pago caducado"
       }
     }
   }
