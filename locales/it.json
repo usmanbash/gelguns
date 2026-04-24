@@ -2350,7 +2350,105 @@
           "header": "{{emailLink}} per aggiornare i tuoi dati",
           "email_link": "Contattaci"
         },
-        "payment_method_not_available_with_payment_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine ora rientra nelle condizioni {{paymentTerms}}."
+        "payment_method_not_available_with_payment_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine ora rientra nelle condizioni {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine deve ora essere effettuato al momento della consegna.",
+        "payment_method_not_available_with_fixed_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine deve essere effettuato in un secondo momento.",
+        "payment_method_not_available_with_review_requirement": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento è dovuto al momento della conferma dell'ordine.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "C'è {{count}} errore:"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Controlla l'indirizzo",
+        "subtitle": {
+          "one": "Questo ordine sarà spedito all'indirizzo fornito da {{merchant}}.",
+          "other": "Questo ordine verrà spedito a un indirizzo fornito da {{merchant}}. Seleziona un indirizzo di consegna."
+        },
+        "use_saved_address": "Usare un altro indirizzo"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Leggi",
+          "link_label": "le Condizioni generali di {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Domande? Chatta con noi"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "C'è %{count} punto vendita con disponibilità nelle vicinanze",
+          "other": "Ci sono %{count} sedi con disponibilità nelle vicinanze"
+        },
+        "toggle_location": "Modifica posizione",
+        "or": "DI",
+        "your_location": "la tua posizione",
+        "could_not_resolve_address": "Impossibile trovare l'indirizzo. Riprova oppure usa un altro indirizzo",
+        "paginator": {
+          "accessibility_label": "Paginazione per il ritiro sul posto"
+        },
+        "reveal_more_label": {
+          "one": "Mostra ancora %{count} località",
+          "other": "Mostra ancora %{count} sedi"
+        },
+        "all_stores_far_away": {
+          "title": "Le località più vicine si trovano a più di %{distance} di distanza",
+          "description": "Seleziona una località o %{ship_to_address_link}",
+          "ship_to_address_link": "indirizzo di consegna",
+          "change_location_link": "Modifica la tua posizione",
+          "title_with_specific_location": "La posizione più vicina con il tuo articolo si trova a più di %{distance} da %{location}.",
+          "title_with_item": {
+            "one": "La posizione più vicina con il tuo articolo si trova a più di %{distance} da %{location}.",
+            "other": "La posizione più vicina con i tuoi articoli si trova a più di %{distance} da %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "ship_to_address_link": "Spedire all'indirizzo"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Spedisci i tuoi articoli",
+          "ship_items_or_search_elsewhere": "%{ship_items} di %{search_elsewhere}"
+        },
+        "location_closest": "Luogo più vicino con il tuo articolo",
+        "toggle_multiple_locations": "Ancora più di %{count} altre località",
+        "location_nearby": {
+          "one": "C'è %{count} punto vendita nelle vicinanze con il tuo articolo",
+          "other": "Ci sono %{count} punti vendita nelle vicinanze con il tuo articolo"
+        },
+        "location_nearby_short": {
+          "one": "%{count} località nelle vicinanze con il tuo articolo",
+          "other": "%{count} sedi nelle vicinanze con il tuo articolo"
+        },
+        "location_far_away": {
+          "one": "%{count} località con il tuo articolo"
+        },
+        "toggle_more_locations": {
+          "one": "Ancora %{count} altra località",
+          "other": "Ancora %{count} altre sedi"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nessun luogo con il tuo articolo",
+          "other": "Nessun luogo con i tuoi articoli"
+        },
+        "title": "Posizione"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Ritiro di tutti gli articoli",
+        "items_for_pickup": "Articoli da ritirare",
+        "delivery_method": "Metodo di consegna diviso",
+        "delivery_method_menu": "Menu metodo di consegna diviso",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} di %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} di %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Impossibile recuperare %{count} articoli",
+              "other": "Impossibile recuperare %{count} articoli"
+            }
+          }
+        }
       }
     }
   }
