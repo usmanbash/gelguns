@@ -2651,7 +2651,85 @@
           "forgot_your_store_link_text": "Forgot your basket?",
           "add_storefront": "You can set up your website by adding the webshop channel in %{admin_link}. If you cannot access your store, try %{forgot_your_store_link}",
           "admin_link_text": "management center"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Personal sale",
+            "caption": "Get the features you need to run your retail shop, whether you are just starting out or growing."
+          },
+          "open_a_store": {
+            "header": "Opening a new Shopify shop",
+            "caption": "Start a free trial of three days and then continue for three months for 1 USD per month."
+          },
+          "editions": {
+            "header": "View Shopify Editions",
+            "caption": "There are more than 100 product updates that allow you to be more productive, creative, and effective in the business world than you ever thought possible.",
+            "link_text": "Explore newest editions"
+          },
+          "store_owner": {
+            "header": "Are you the shop owner?",
+            "caption": "Can't access your store? Try the %{forgot_your_store_link} feature. If you want to reactivate your store, please contact %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify Assistance"
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error resetting the password",
+        "no_account_found": "No account found with that email address.",
+        "denylisted_reset_password": "Your account cannot be opened because the current password is not secure. You will receive an email to reset your password.",
+        "signup_disabled": "Creating customer accounts is disabled.",
+        "subscribe_error": "Error subscribing",
+        "unsubscribe_error": "Error during logout"
+      },
+      "address": {
+        "updated": "Address updated.",
+        "created": "Address created",
+        "deleted": "Address removed",
+        "error_deleting": "Error removing address."
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Verified",
+          "pending": "In progress",
+          "voided": "Expired",
+          "refunded": "Reimbursed"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Completed",
+          "partial": "Partly",
+          "unfulfilled": "Outstanding",
+          "restocked": "Herb stock"
+        },
+        "transaction_status": {
+          "success": "Succeeded",
+          "pending": "In progress",
+          "failure": "Failed"
+        },
+        "cancel_reason": {
+          "declined": "Payment refused",
+          "inventory": "Items not available",
+          "other": "Otherwise",
+          "staff": "Wrong employees"
+        },
+        "cash_on_delivery": "Cash on delivery"
+      },
+      "cart": {
+        "only_n_items_available": "You can only add %{count} %{name} to your shopping cart.",
+        "too_many_items_in_cart": "You can no longer add %{name} to your shopping cart.",
+        "all_items_in_cart": "All %{count} %{name} are in your shopping cart.",
+        "empty_update": "cannot update empty shopping cart",
+        "missing_parameters": "no valid ID or line number",
+        "generic_error": "Error shopping cart",
+        "too_many_line_items_error": "Your shopping cart cannot contain more than %{max} items.",
+        "stock_problems_html": "One or more items are no longer available. We have prepared an <a href='%{link}'>updated shopping cart</a>.",
+        "changed": "Shopping cart changed",
+        "items_changed": "One or more items have been changed.",
+        "variant_requires_selling_plan": "Variant can only be purchased with a sales subscription.",
+        "shipping_address_not_required": "No shipping is needed for this shopping cart",
+        "shipping_address_invalid": "There was a problem calculating your shipping costs. Continue to checkout to choose shipping costs before completing your order.",
+        "selling_plan_not_applicable": "Cannot apply sales subscription to variant"
       }
     }
   }
