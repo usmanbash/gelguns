@@ -504,46 +504,46 @@
       "price": "Hinta",
       "quantity": "Määrä",
       "total": "Täysi",
-      "fulfilled_at_html": "Jaeltu {{ date }}",
-      "track_shipment": "Seuraa lähetystä",
-      "tracking_url": "Seurantalinkki",
-      "tracking_company": "Kuljetuspalvelu",
+      "fulfilled_at_html": "Maksettu {{ date }}",
+      "track_shipment": "Volg lähetys",
+      "tracking_url": "Volglink",
+      "tracking_company": "Kuljetusliike",
       "tracking_number": "Seurantanumero",
       "subtotal": "Välisumma",
-      "total_duties": "Tullit",
-      "total_refunded": "Maksu palautettu"
+      "total_duties": "Tullimaksut",
+      "total_refunded": "Maksettu takaisin"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Tässä on lahjakorttisi saldo ({{ value }}) kauppaan {{ shop }}!",
+      "title": "Tämä on lahjakortin saldo, jonka arvo on {{ value }} {{ shop }}-kauppaan.",
       "subtext": "Lahjakorttisi",
-      "gift_card_code": "Lahjakortin koodi",
-      "shop_link": "Vieraile verkkokaupassa",
-      "add_to_apple_wallet": "Lisää Apple Walletiin",
-      "qr_image_alt": "QR-koodi – lunasta lahjakortti skannaamalla",
-      "copy_code": "Kopioi lahjakortin koodi",
+      "gift_card_code": "Lahjakorttikoodi",
+      "shop_link": "Verkkokauppaan vierailu",
+      "add_to_apple_wallet": "Lisää Apple-lompakkoon",
+      "qr_image_alt": "QR-koodi — skannaa lunastaaksesi lahjakortin",
+      "copy_code": "Lahjakorttikoodin kopiointi",
       "expired": "Vanhentunut",
-      "copy_code_success": "Koodin kopioiminen onnistui",
-      "how_to_use_gift_card": "Käytä lahjakortin koodia verkossa tai QR-koodia kaupassa",
-      "expiration_date": "Voimassa {{ expires_on }} asti"
+      "copy_code_success": "Koodi kopioitu",
+      "how_to_use_gift_card": "Käytä lahjakorttikoodia verkossa tai QR-koodia myymälässä",
+      "expiration_date": "Vanhenee {{ expires_on }}"
     }
   },
   "recipient": {
     "form": {
       "checkbox": "Haluan lähettää tämän lahjaksi",
       "email_label": "Vastaanottajan sähköpostiosoite",
-      "email": "Sähköposti",
-      "name_label": "Vastaanottajan sähköpostiosoite (valinnainen)",
+      "email": "Sähköpostiosoite",
+      "name_label": "Nimi vastaanottajalle (valinnainen)",
       "name": "Nimi",
-      "message_label": "Viesti (valinnainen)",
-      "message": "Viesti",
-      "max_characters": "enintään {{ max_chars }} merkkiä",
+      "message_label": "Ilmoitus (valinnainen)",
+      "message": "Ilmoitus",
+      "max_characters": "Enintään {{ max_chars }} merkkiä",
       "email_label_optional_for_no_js_behavior": "Vastaanottajan sähköpostiosoite (valinnainen)",
       "send_on": "VVVV-KK-PP",
-      "send_on_label": "Lähetä (valinnainen)",
-      "expanded": "Lahjakortin saajalomake laajennettuna",
-      "collapsed": "Lahjakortin saajalomake pienennettynä"
+      "send_on_label": "Lähetys ajankohtana (valinnainen)",
+      "expanded": "Lahjakortin vastaanottajan lomake avattuna",
+      "collapsed": "Lahjakortin vastaanottajan lomake suljettuna"
     }
   },
   "shopify": {
