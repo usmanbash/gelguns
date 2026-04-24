@@ -4288,9 +4288,97 @@
           },
           "refund": {
             "title": "Tagastatud",
-            "title_with_date": "Tagastatud {{date}}"
-          }
+            "title_with_date": "Tagastatud {{date}}",
+            "description_full_refund": "Oled selle tellimuse eest saanud täieliku tagasimakse.",
+            "description_single_refund": "Oled selle tellimuse eest saanud osalise tagasimakse.",
+            "description_multiple_refunds": "Oled selle tellimuse eest saanud osalist tagasimakset."
+          },
+          "canceled": {
+            "title": "Makse tühistatud",
+            "description": "Sinu kontolt ei ole mingeid tasusid võetud."
+          },
+          "pay_now_accessibility_label": "Makske nüüd tellimuse {{orderName}} eest",
+          "due_date": "Võlgnetav kuupäeval {{date}}",
+          "total_balance": "Kogusaldo"
+        },
+        "subtitle": "Esitatud: {{date}}",
+        "title": "Tellimus {{name}}",
+        "order_timeline": {
+          "expand_events_label": "Andmete kuvamine",
+          "expand_events_accessibility_label": "Näita kontseptsioonitellimuse andmeid",
+          "hide_events_label": "Peida andmed",
+          "hide_events_accessibility_label": "Peida kontseptsioonitellimuse andmed"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "See makseviis ei ole sellel asukohal tulevaste ostude jaoks enam saadaval.",
+          "description_with_replacement": "Kui eemaldate selle makseviisi, mõjutab see selle asukoha eelnevalt autoriseeritud makseid. Asendage see mõne teise makseviisiga, et jätkata tulevaste tellimuste saamist."
+        },
+        "payment_details": {
+          "order_label": "Tellimus {{name}}",
+          "draft_label": "Kontseptsioonitellimus {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Tellimuse numbri lisamine",
+        "add_modal_title": "Tellimuse numbri lisamine",
+        "cancel": "Tühista",
+        "close_modal_accessibility_label": "Tellimuse numbri modaal sulgeda",
+        "discard": "Tühista",
+        "discard_changes_modal_title": "Kas soovite muudatused tagasi lükata?",
+        "edit_accessibility_label": "Tellimuse numbri muutmine",
+        "edit_modal_title": "Tellimuse numbri muutmine",
+        "empty_state": "Geen tellimisnumber",
+        "modal_po_number_input_label": "Tellimuse number",
+        "modal_po_number_input_max_length_error": "Tellimuse numbrid võivad olla kuni {{maxLength}} tähemärki pikad.",
+        "save": "Salvesta",
+        "title": "Ostutellimuse number {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Selle aadressi kustutamisel tekkis probleem. Proovi uuesti või värskenda lehte."
+      },
+      "addresses_loading_issue": {
+        "description": "Ühenduse viga. Kontrolli oma internetiühendust ja proovi uuesti."
+      },
+      "banner_title": {
+        "one": "Esineb {{count}} viga",
+        "other": "On {{count}} viga"
+      },
+      "failed_address_creation": {
+        "description": "Teie aadressi loomisel tekkis probleem. Värskendage seda lehte või kontrollige oma internetiühendust."
+      },
+      "failed_address_update": {
+        "description": "Sinu aadressi uuendamisel tekkis probleem. Värskenda seda lehte või kontrolli oma internetiühendust."
+      },
+      "no_access_to_locations": {
+        "description": "Sul puudub ligipääs asukohtadele"
+      },
+      "not_found": {
+        "description": "Kontrollige URL-i või proovige mõne minuti pärast uuesti.",
+        "title": "Selle lehe laadimisel tekkis probleem"
+      },
+      "order_not_found": {
+        "description": "See tellimus ei eksisteeri või sul puudub õigus seda vaadata.",
+        "title": "Tellimust ei leitud"
+      },
+      "profile_update_error": {
+        "description": "Sinu profiili värskimisel tekkis probleem. Värskenda seda lehte või kontrolli oma internetiühendust."
+      },
+      "retry_action_label": "Proovi uuesti",
+      "load_orders_error": {
+        "title": "Ei saa tellimusi laadida",
+        "description": "Proovi uuesti või tule hiljem tagasi.",
+        "retry_button": "Proovi uuesti"
+      },
+      "load_paypal_error": {
+        "description": "PayPali laadimisel tekkis probleem. Palun proovi uuesti."
+      },
+      "load_extension_error": {
+        "title": "Viga",
+        "description": "Värskenda seda lehte või proovi mõne minuti pärast uuesti."
       }
     }
   }
