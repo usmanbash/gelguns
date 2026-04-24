@@ -3250,8 +3250,74 @@
       "contact_email_subject": "Persoană de contact a magazinului online {{shopName}}",
       "contact_link": "Date de contact",
       "delete_confirmation": {
-        "cancel": "Anulare"
-      }
+        "cancel": "Anulare",
+        "delete": "Ștergere"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - cont",
+      "loading_message": "Încărcat",
+      "log_out_link": "Deconectare",
+      "logout_overlay_label": "Deconectare...",
+      "navigation_accessibility_message": "Ai navigat către {{sectionName}}",
+      "shop_logo_accessibility_label": "Logo {{shopName}}",
+      "country_switcher_toast_message": "Țara a fost schimbată în {{countryName}}",
+      "switch_country": "Schimbă țara",
+      "search": "Căutare",
+      "location_switcher_toast_message": "Locație schimbată în {{locationName}}",
+      "switch_location": "Schimbare de locație",
+      "view_details": "Vizualizare date",
+      "company_location": "Locație firmă",
+      "no_countries_found": "Nu au fost găsite țări",
+      "no_locations_found": "Nu au fost găsite locații",
+      "try_new_search": "Încearcă o nouă căutare",
+      "skip_to_content": "Mergi direct la conținut",
+      "loading_policy_content_accessibility_label": "Politica de încărcare a conținutului",
+      "policy_load_error": "Nu se poate încărca Kan {{policyName}}",
+      "loading_section_accessibility_label": "{{sectionName}} încărcat"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Se încarcă datele contului",
+      "loading_finished_accessibility_message": "Datele contului au fost încărcate",
+      "profile_card": {
+        "cancel": "Anulare",
+        "edit": "Editare",
+        "edit_accessibility_label": "Modifică profilul",
+        "email_help_text": "Adresa de email nu poate fi modificată",
+        "errors": {
+          "name_too_long": "{{fieldName}} este prea lung (maxim 255 de caractere)",
+          "name_cannot_contain_url": "{{fieldName}} nu poate conține URL-uri",
+          "name_cannot_contain_html_tags": "{{fieldName}} nu poate conține etichete HTML",
+          "email_cant_be_blank": "E-mailul nu poate fi gol",
+          "invalid_email_format": "Introduceți o adresă de email valabilă"
+        },
+        "editable_email_help_text": "Această adresă de email este folosită pentru înscriere și actualizări privind comanda."
+      },
+      "people": {
+        "pagination": {
+          "load_more": "Încarcă mai mult",
+          "load_more_accessibility_label": "Mai mulți oameni încarcă",
+          "loading_accessibility_label": "Se încarcă persoane"
+        }
+      },
+      "add_button": "Adăugare",
+      "verify_new_email_modal": {
+        "title": "Verificare e-mail",
+        "description": "Introduceți codul trimis către {{email}}",
+        "one_time_password_label": "Cod de 6 cifre",
+        "email_resend_button_accessibility_label": "Retrimitere cod de verificare",
+        "verify_button": "Verificare",
+        "verify_button_accessibility_label": "Verificare parolă unică",
+        "cancel_button": "Anulare",
+        "cancel_button_accessibility_label": "Anulare editare e-mail",
+        "email_resend_button_failure_banner_message": "Nu se poate trimite codul de verificare"
+      },
+      "email_update_success_modal": {
+        "title": "Verificare e-mail",
+        "description": "Actualizarea e-mailului a reușit. Redirecționare către autentificare."
+      },
+      "email_update_confirmation_message": "Adresa de email actualizată la {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opțiuni de formatare"
     }
   }
 }
