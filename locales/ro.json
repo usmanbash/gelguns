@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -537,6 +546,72 @@
       "send_on_label": "Trimite pe (opțional)",
       "expanded": "Formularul pentru destinatarul cardului cadou este extins",
       "collapsed": "Formularul pentru destinatarul cardului cadou este restrâns"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "ro",
+      "last_word_connector": ", ro"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Finalizare comandă",
+        "skip_to_content": "Mergi direct la conținut",
+        "breadcrumb": "Firimitură de pâine",
+        "complete_purchase_button_label": "Finalizare comandă",
+        "pay_now_button_label": "Nu plătiți",
+        "authenticate_purchase_button_label": "Validează plata",
+        "edit_link_label": "Modificare",
+        "print_policies_link_label": "Tipărire",
+        "cart": "Coș de cumpărături",
+        "expand_notice_label": "Vezi mai mult",
+        "continue_to_shipping_method": "Continuă trimiterea",
+        "continue_to_payment_method": "Mergi la plată",
+        "continue_to_review": "Verificare comandă",
+        "back_to_cart": "Înapoi la coșul de cumpărături",
+        "back_to_contact_information": "Înapoi la informații",
+        "back_to_shipping_method": "Înapoi la trimitere",
+        "back_to_payment_method": "Înapoi la plată",
+        "contact_us_html": "Contactați-ne pentru mai multe informații",
+        "forwarding_indicator": {
+          "new_window": "Se va deschide într-o fereastră nouă.",
+          "external": "Deschide site-ul extern."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Finalizare comandă"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "A intervenit o problemă la comanda ta. Încearcă să finalizezi plata din nou.",
+          "line_item_limit_reached": "Numărul maxim de rânduri de comandă a fost atins.",
+          "only_empty_terms_accepted": "Această politică acceptă doar condiții goale.",
+          "session_is_already_finished": "Această sesiune de plată a fost deja încheiată.",
+          "merchandise": {
+            "only_value_constraint": "La introducerea mărfurilor sunt permise doar valori exacte.",
+            "merchandise_variant_not_found": "Varianta produsului nu a fost găsită.",
+            "merchandise_not_applicable": "Varianta produsului nu poate fi cumpărată.",
+            "bundle_products_not_supported_for_b2b": "Nu poți adăuga articole grupate la comenzile B2B pentru această locație.",
+            "gift_card_quantity_mismatch": "Când introduceți coduri de bonuri cadou, cantitățile de pe linia comenzii trebuie să corespundă cu numărul de coduri de bonuri cadou.",
+            "gift_card_not_supported": "La această plată nu se acceptă bonuri cadou.",
+            "gift_card_not_unique": "Voucher cadou cu codul {{code}} apare de mai multe ori în acest proces de plată. Codurile sunt generate înainte de comparație.",
+            "gift_card_used": "Codul cadou {{code}} a fost deja atribuit unui voucher cadou. Codurile sunt generate înainte de comparație.",
+            "gift_card_invalid": "Codul voucherului {{code}} este invalid.",
+            "gift_card_code_changed": "Codul voucherului {{proposed_code}} a fost modificat conform regulilor de formatare în {{formatted_code}}.",
+            "gift_card_with_attributes_not_supported": "La această plată nu sunt acceptate bonurile cadou cu caracteristici personalizate.",
+            "gift_card_with_components_not_supported": "La această plată nu se acceptă bonuri cadou cu componente.",
+            "selling_plan_not_supported_b2b": "Pentru finalizarea cumpărăturilor B2B nu sunt acceptate abonamente.",
+            "price_mismatch": "Prețul propus anterior pentru aceste bunuri a fost nevalid și a fost actualizat.",
+            "inventory_not_found": "Nu a fost găsit stoc pentru aceste mărfuri.",
+            "duplicated_stable_id": "Această linie de mărfuri are același ID stabil ca o altă linie.",
+            "minimum_quantity_not_met": "Pentru unele articole nu se atinge numărul minim permis",
+            "maximum_quantity_exceeded": "Pentru unele articole nu se atinge numărul maxim permis",
+            "quantity_increment_not_met": "Pentru unele articole nu sunt respectate limitele de comandă",
+            "quantity_rules_not_met": "Pentru unele articole nu sunt respectate limitele de comandă",
+            "bundle_requires_components": "Acest pachet de bunuri nu conține componente.",
+            "title_too_long": "Titlul bunurilor este prea lung.",
+            "title_empty": "Titlul bunurilor este gol."
+          }
+        }
+      }
     }
   }
 }
