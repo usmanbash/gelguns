@@ -3123,7 +3123,153 @@
       "full_name_required": "Vyplňte jméno a příjmení",
       "invalid_for_card_type": "je neplatný",
       "invalid_type": "promiňte, nepřijímáme karty tohoto typu",
-      "invalid_format": "formát je neplatný"
+      "invalid_format": "formát je neplatný",
+      "expired": "vypršela",
+      "invalid_start_date_or_issue_number_for_debit": "platné datum zahájení nebo platné číslo vydání je vyžadováno",
+      "invalid_expiry_year": "není platný rok expirace",
+      "reset_password_html": "Tato e-mailová adresa je již spojena s účtem. Pokud je tento účet váš, můžete <a href=\"/account/login#recover\">obnovit své heslo</a>",
+      "verify_email": "Poslali jsme e-mail na %{customer_email}. Klikněte prosím na přiložený odkaz pro ověření vaší e-mailové adresy.",
+      "blocked_address": "Toto místo není podporováno",
+      "product_not_available": "produkt nebyl pro tohoto zákazníka zveřejněn.",
+      "shop_404": {
+        "title": "Vytvořte si internetový obchod a prodávejte své výrobky online! Software pro elektronické obchodování od Shopify",
+        "heros": {
+          "store_unavailable": "Tento obchod je momentálně nedostupný.",
+          "no_storefront": "Tento obchod zatím nemá webové stránky."
+        },
+        "links": {
+          "start_free_trial": "Vyzkoušet zdarma"
+        },
+        "owner_ctas": {
+          "header": "Jsi majitelem obchodu?",
+          "fix_domain": "Přejděte na %{domain_settings_link} a dokončete nastavení své nové webové adresy. Klikněte na 'Připojit doménu' a zadejte: %{domain}.<br>Pokud se nemůžete dostat do svého obchodu, zkuste %{forgot_your_store_link}",
+          "forgot_your_store_link_text": "Zapomněli jste košík?",
+          "add_storefront": "Můžete nastavit svůj web přidáním kanálu e-shopu v %{admin_link}. Pokud se nemůžete dostat do svého obchodu, zkuste %{forgot_your_store_link}",
+          "admin_link_text": "správní centrum"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Osobní prodej",
+            "caption": "Získejte funkce, které potřebujete k provozování svého maloobchodního obchodu, ať už právě začínáte, nebo rozšiřujete.",
+            "link_text": "Spustit bezplatnou zkušební verzi"
+          },
+          "open_a_store": {
+            "header": "Otevřít nový obchod Shopify",
+            "caption": "Začněte třídenní bezplatnou zkušební verzi a poté pokračujte tři měsíce za 1 USD měsíčně.",
+            "link_text": "Zaregistrujte se nyní"
+          },
+          "editions": {
+            "header": "Prohlédnout si vydání Shopify",
+            "caption": "Existuje více než 100 aktualizací produktů, díky nimž můžete být v obchodním světě produktivnější, tvořivější a účinnější, než jste si kdy dokázali představit.",
+            "link_text": "Prozkoumat nejnovější vydání"
+          },
+          "store_owner": {
+            "header": "Jsi majitelem obchodu?",
+            "caption": "Nemůžete se dostat do svého obchodu? Vyzkoušejte funkci %{forgot_your_store_link}. Pokud chcete svůj obchod znovu aktivovat, kontaktujte %{shopify_support_link}.",
+            "shopify_support_link_text": "Podpora Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Chyba při obnově hesla",
+        "no_account_found": "Nebyl nalezen žádný účet s touto e-mailovou adresou.",
+        "denylisted_reset_password": "Účet nelze otevřít, protože současné heslo není bezpečné. Obdržíte e-mail pro obnovení hesla.",
+        "signup_disabled": "Vytváření zákaznických účtů je zakázáno.",
+        "subscribe_error": "Chyba při odběru",
+        "unsubscribe_error": "Chyba při odhlašování"
+      },
+      "address": {
+        "updated": "Adresa aktualizována.",
+        "created": "Adresa vytvořena",
+        "deleted": "Adresa odstraněna",
+        "error_deleting": "Chyba při odstraňování adresy."
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Ověřeno",
+          "pending": "Ve zpracování",
+          "unpaid": "Neplacený",
+          "voided": "Propadlý",
+          "partially_refunded": "Částečně proplaceno",
+          "expired": "Vypršelo"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Vyřízeno",
+          "complete": "Kompletní",
+          "partial": "Částečně",
+          "unfulfilled": "Otevřeno",
+          "restocked": "Zásoba bylin"
+        },
+        "transaction_status": {
+          "success": "Úspěšně dokončeno",
+          "pending": "Ve zpracování",
+          "failure": "Nezdařilo se"
+        },
+        "cancel_reason": {
+          "inventory": "Položky nejsou k dispozici",
+          "other": "Anders",
+          "staff": "Chybní zaměstnanci"
+        },
+        "cash_on_delivery": "Vrácení peněz"
+      },
+      "cart": {
+        "only_n_items_available": "Do košíku můžete přidat pouze %{count} %{name}.",
+        "too_many_items_in_cart": "Nemůžete do košíku přidat více než %{name}.",
+        "all_items_in_cart": "Všechny %{count} %{name} jsou ve tvém nákupním košíku.",
+        "empty_update": "nelze aktualizovat prázdný nákupní košík",
+        "missing_parameters": "neplatné ID nebo číslo řádku",
+        "generic_error": "Chybný nákupní košík",
+        "too_many_line_items_error": "Váš košík nemůže obsahovat více než %{max} položek.",
+        "link_expired": "Odkaz vypršel",
+        "stock_problems_html": "Jeden nebo více produktů již není k dispozici. Připravili jsme <a href='%{link}'>aktualizovaný košík</a>.",
+        "changed": "Košík změněn",
+        "items_changed": "Jeden nebo více článků bylo změněno.",
+        "product_sold_out": "Produkt '%{name}' je již vyprodán.",
+        "variant_not_found": "Nelze najít variantu",
+        "variant_requires_selling_plan": "Variant lze zakoupit pouze s prodejním předplatným.",
+        "shipping_address_not_required": "U tohoto nákupního vozíku není potřeba doprava",
+        "shipping_address_invalid": "Při výpočtu poštovného došlo k problému. Pokračujte v placení, abyste mohli vybrat poštovné před dokončením objednávky.",
+        "selling_plan_not_applicable": "Nelze použít prodejní předplatné na variantu",
+        "selling_plan_not_available_for_company_locations": "Pro objednávky B2B jsou k dispozici pouze jednorázové nákupy.",
+        "digital_product_not_available_for_company_locations": "Tento článek nelze přidat k objednávce pro podniky (B2B)",
+        "less_than_minimum": "Tento článek má minimálně %{min}.",
+        "more_than_maximum": "Tento článek má maximum %{max}.",
+        "not_respect_step": "Tento článek můžete přidávat pouze po %{step}.",
+        "bundle_requires_components": "Nelze přidat balíček '%{name}' do košíku.",
+        "gift_card_with_components_not_supported": "Nelze přidat balíček '%{name}' do košíku.",
+        "view_lines_limit_reached": "Pravidla musí být menší nebo rovna %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Ve tvém nákupním košíku došlo k chybě."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nelze přidat balíček '%{name}' do košíku.",
+        "gift_card_recipient_validation_error": "Zadaný příjemce dárkového poukazu je neplatný",
+        "buyer_cannot_purchase_for_company_locations": "Nemůžete zde provést nákup pro tuto lokalitu",
+        "only_one_added_to_cart": "Do vašeho nákupního košíku byl přidán pouze 1 kus z důvodu dostupnosti.",
+        "only_n_added_to_cart": "Do tvého košíku bylo přidáno pouze %{quantity} položek kvůli dostupnosti.",
+        "maximum_available_quantity_reached": "Maximální množství tohoto zboží už máte v košíku.",
+        "merchandise_not_applicable": "Položku nelze koupit v takovémto nastavení.",
+        "not_found": "Košík nebyl nalezen"
+      },
+      "tags": {
+        "add_articles": "Omezte hledání na články s tagem %{tag}",
+        "add_products": "Omezte vyhledávání na produkty s odpovídajícím štítkem %{tag}",
+        "remove_articles": "Rozšiřte hledání o položky, které nejsou označeny štítkem %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} přidáno",
+          "increment_item": "%{delta} přidáno",
+          "decrement_item": "%{delta} z %{total} odstraněno",
+          "decrement_fulfilled_line_item": "%{delta} z %{total} vráceno",
+          "decrement_return_line_item": "%{delta} odstraněno z vrácení"
+        }
+      }
+    },
+    "page_titles": {
+      "reset_account": "Obnovení účtu",
+      "order": "Objednat %{name}"
     }
   }
 }
