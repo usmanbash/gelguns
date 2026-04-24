@@ -2529,7 +2529,101 @@
           "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di consegna non è valido. Seleziona un altro indirizzo o usa un nuovo indirizzo.",
           "unavailable_terminal": {
             "instructions": "{{walletName}} non è attualmente disponibile per il tuo ordine. Scegli un altro metodo di pagamento per procedere con l'acquisto."
+          },
+          "processing_error_checkout_as_guest": "Si è verificato un problema durante l'elaborazione del tuo pagamento. Riprova oppure {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Verrai reindirizzato a {{walletName}} per completare il tuo acquisto",
+        "return_to_checkout": "Torna al pagamento",
+        "scrim": {
+          "continue_purchase_in_window": "Continua con il tuo acquisto nella finestra {{walletName}}",
+          "and_return_to_checkout": "e torna al pagamento"
+        },
+        "place_order": "Effettuare un ordine",
+        "recovery_notice": "Si è verificato un errore con i dati del tuo ordine. Aggiorna i tuoi dati per completare il pagamento."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Controlla prima i tuoi dati di contatto prima di completare il pagamento"
+      },
+      "store_credit_errors": {
+        "generic_error": "Si è verificato un problema con il tuo credito negozio. Riprova o ricarica la pagina."
+      },
+      "note": {
+        "length_exceeds_maximum": "Riduci la nota a un massimo di 5000 caratteri."
+      },
+      "billing": {
+        "billing_address_title": "Fattura a",
+        "same_as_shipping": "Uguale all'indirizzo di consegna",
+        "add_address": "Usare un altro indirizzo",
+        "delete": "Rimuovere",
+        "address_more": "Altre offerte per questo indirizzo",
+        "address_delete": "Rimuovi indirizzo",
+        "address_confirm": "Sei sicura di voler rimuovere questo indirizzo dal tuo account?",
+        "billing_address_rollup_accessibility_label": "Opzioni per la fatturazione"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "insufficient_funds": "Non ci sono più soldi su questo buono regalo",
+          "not_available": "Questa carta regalo non è più disponibile",
+          "currency_mismatch": "Sono accettati solo buoni regalo in %{shop_currency}",
+          "generic": "Il buono regalo non può essere aggiunto al pagamento",
+          "throttle_limit_exceeded": "Hai raggiunto il numero massimo di tentativi. Riprova più tardi.",
+          "no_longer_available": "Questo buono regalo non può più essere utilizzato in questa cassa"
+        }
+      },
+      "vaulted": {
+        "change_button": "Modificare"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "try_again_later": "Controlla la tua connessione o chiudi questa finestra e riprova tra qualche istante.",
+          "checkout_has_expired": "Il tuo checkout è scaduto. Chiudi questa finestra e prova a completare l'acquisto su {{shopName}}."
+        },
+        "return_to_store": "Torna a {{shopName}}",
+        "return_to_store_simple": "Torna al negozio",
+        "title": "Pagamento con Shop Pay"
+      },
+      "company_location": {
+        "location_title": "Sede aziendale",
+        "location_rollup_accessibility_label": "Opzioni per la sede aziendale"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Il prezzo del buono regalo deve essere superiore a 0.",
+            "subtotal_limit_reached": "È stato raggiunto il valore massimo per le righe dell'ordine.",
+            "gift_card_price_must_not_exceed_limit": "Il valore della carta regalo non può superare %{gift_card_limit}.",
+            "signature_mismatch": "Firma errata per la merce della riga %{stable_id}."
           }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Non copiato"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Completa il tuo acquisto con il codice {{paymentMethod}}",
+        "timer_message": "Hai ancora {{timeLeft}} per pagare",
+        "copy_text": "Copia codice {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Completa il tuo acquisto con il codice {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Conferma il pagamento sulla tua app per completare questo acquisto"
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Si è verificato un problema durante l'elaborazione del tuo ordine. Riprova tra qualche minuto."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "L'istruzione della merce %{position} %{name} contiene un ID stabile vuoto.",
+        "invalid_stable_id_target": "L'istruzione della merce %{position} %{name} fa riferimento all'ID stabile %{stable_id}, ma tale ID stabile non si trova nelle righe della merce.",
+        "duplicate_variant_id": "L'istruzione per la merce %{position} %{name} contiene un doppio ID variante %{variant_id}.",
+        "invalid_variant_id_target": "L'istruzione della merce %{name} fa riferimento all'ID variante %{variant_id}, ma quella variante non si trova nelle righe della merce.",
+        "invalid_price_override_target": "L'istruzione per sovrascrivere il prezzo dei beni per la riga d'ordine %{stable_id} non è valida perché si tratta di un componente del pacchetto.",
+        "discount_not_supported": "Le istruzioni per i commercianti sull'applicazione dello sconto sui prodotti non supportano questo tipo di sconto."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Questo prodotto non è disponibile per la spedizione a %{location_name}."
         }
       }
     }
