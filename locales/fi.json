@@ -852,7 +852,81 @@
       "delivery_options": {
         "ship": "Lähetys",
         "pick_up": "Nouto",
-        "pick_up_in_two_hours": "Valmis yleensä 2 tunnin kuluessa"
+        "pick_up_in_two_hours": "Valmis yleensä 2 tunnin kuluessa",
+        "pick_up_in_four_hours": "Valmis yleensä 4 tunnin kuluessa",
+        "pick_up_next_day": "Valmis noudettavaksi seuraavana päivänä",
+        "pick_up_in_one_hour": "Valmis yleensä tunnissa",
+        "pick_up_in_twenty_four_hours": "Yleensä valmista 24 tunnin kuluessa",
+        "pick_up_in_two_to_four_days": "Valmis yleensä 2–4 päivän kuluessa",
+        "pick_up_in_five_or_more_days": "Yleensä valmista yli viidessä päivässä",
+        "pick_up_in_zero_to_two_hours": "Valmis noudettavaksi kahden tunnin kuluttua",
+        "pick_up_in_two_to_four_hours": "Valmis noudettavaksi 4 tunnin kuluttua",
+        "pick_up_locations": "Noutopaikat",
+        "pickup_point_method_definition": "Toimitus noutopisteeseen",
+        "retail_method_definition": "Vähittäismyynnin lähetykset",
+        "none_method_definition": "Ei toimituksia",
+        "subscription_pickup_information": "Tämä toimitustapa koskee kaikkia tämän tilauksen tuotteita sekä kaikkia tulevia tuotteita tässä tilauksessa.",
+        "ship_to_address": "Lähetä osoitteeseen",
+        "pick_up_from_store": "Nouto myymälästä",
+        "company_location_no_address_banner": "Tilaukset, jotka lähetetään osoitteettomiin paikkoihin, lähetetään tarkistettaviksi.",
+        "pickup_point_map_title": "Noutopisteiden kartta"
+      },
+      "customer_account": {
+        "not_user_label": "Et ole %{first_name}?",
+        "save_my_information_label": "Tallenna nämä tiedot, jotta voit jatkossa maksaa nopeammin",
+        "invalid_address": "Valittu osoite on virheellinen. %{update_address_link} tai valitse toinen osoite.",
+        "invalid_shipping_method_summary": "Valitse kelvollinen toimitusosoite nähdäksesi saatavilla olevat toimitustavat",
+        "saved_address_option_description": {
+          "one": "Sinulla on {{count}} tallennettua osoitetta."
+        },
+        "rollup_accessibility_label": "Tilitiedot"
+      },
+      "stock": {
+        "page_title": "Varasto-ongelma",
+        "title": "Ei varastossa",
+        "items_unavailable_notice": "Jotkut tuotteet eivät ole enää saatavilla.",
+        "reduced_label": "Vähentynyt",
+        "reduced_with_quantity_label": "Vain %{quantity_available} varastossa",
+        "go_back_to_cart_button_label": "Takaisin ostoskoriini",
+        "empty_cart_label": "Ostoskori on tyhjä",
+        "quantity_update": {
+          "description": "Näiden tuotteiden saatavilla olevat määrät ovat muuttuneet, ja ostoskorisi on päivitetty."
+        },
+        "unpurchasable_product": {
+          "title": "Tuotetta ei voi ostaa",
+          "header": "Jotkin tuotteet on poistettu ostoskoristasi",
+          "message": "Nämä tuotteet eivät ole saatavilla yritysasiakkaiden tilauksiin."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Tuotetta ei voi ostaa",
+          "header": "Jotkin tuotteet on poistettu ostoskoristasi",
+          "message": "Näitä tuotteita ei ole saatavilla."
+        },
+        "unshippable_product": {
+          "title": "Geen toimitus saatavilla",
+          "header": {
+            "one": "Toimitusta ei ole saatavilla %{count} tuotteelle",
+            "other": "Toimitusta ei ole saatavilla %{count} tuotteelle"
+          },
+          "message": {
+            "other": "Tämä tuote poistetaan ostoskoristasi, koska osoitteeseesi ei ole saatavilla toimitustapoja."
+          },
+          "status_column_header": "Geen bezorging"
+        },
+        "price_update": {
+          "title": "Hinnapäivitys",
+          "description": "Näiden tuotteiden hinnat on muutettu ja päivitetty ostoskoriisi."
+        },
+        "return_to_store_label": "Takaisin kauppaan",
+        "item_label": {
+          "one": "{{count}} artikkelia",
+          "other": "{{count}} artikkelia"
+        },
+        "continue_cta_label": "Jatka kassalle",
+        "out_of_stock": {
+          "description": "Nämä tuotteet eivät ole enää saatavilla ja ne on poistettu ostoskoristasi.",
+          "items_unavailable": "Jotkin tuotteet eivät ole enää saatavilla ja ne on poistettu ostoskoristasi."
+        }
       }
     }
   }
