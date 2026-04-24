@@ -3745,7 +3745,71 @@
       "address_deleted_notification": "Adresă ștearsă",
       "cancel_adding_address_accessibility_label": "Adăugare adresă anulare",
       "cancel_deletion_button": "Anulare",
-      "cancel_deletion_button_accessibility_label": "șterge {{address}} anulează"
+      "cancel_deletion_button_accessibility_label": "șterge {{address}} anulează",
+      "default_address": {
+        "title": "Adresă standard",
+        "title_accessibility_label": "Adresă standard: {{address}}"
+      },
+      "delete_button": "Ștergere",
+      "delete_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_button": "Ștergere adresă",
+      "delete_confirmation_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_message": "Ștergerea adresei? Acest lucru nu afectează comenzile existente.",
+      "edit_button": "Editare",
+      "edit_button_accessibility_label": "editează {{address}}",
+      "edit_section_accessibility_label": "editează {{address}}",
+      "loading_accessibility_message": "Încărcare adresă",
+      "loading_addresses_accessibility_message": "Încarcă adresele",
+      "loading_billing_accessibility_message": "Se încarcă adresele de facturare",
+      "loading_finished_accessibility_message": "O pagină nouă cu adrese a fost încărcată",
+      "loading_shipping_accessibility_message": "Încarcă adresa de livrare",
+      "pagination": {
+        "load_more": "Încarcă mai mult"
+      },
+      "title": "Adresele",
+      "delete_confirmation_title": "Ștergeți adresa?",
+      "delete_confirmation_description": "Acest lucru nu afectează comenzile existente.",
+      "edit_modal_title": {
+        "default": "Modifică adresa",
+        "billing": "Modifică adresa de facturare",
+        "shipping": "Modifică adresa de livrare"
+      },
+      "add_address_banner": "Adăugați adrese pentru a le folosi la finalizarea cumpărăturilor",
+      "add_button_text": "Adăugare",
+      "add_button_accessibility_label": "Adăugare adresă",
+      "no_addresses_banner": "Nici o adresă adăugată"
+    },
+    "address_form": {
+      "cancel": "Anulare",
+      "default_address": "Aceasta este adresa mea standard",
+      "default_address_creation_success_notification": "Adresă standard adăugată",
+      "default_address_update_success_notification": "Adresă standard actualizată",
+      "loading_add_form_accessibility_message": "Se încarcă formularul pentru adresă nouă",
+      "loading_edit_form_accessibility_message": "Formular adresă editare încărcare",
+      "loading_finished_accessibility_message": "Formularul de adresă a fost încărcat",
+      "section_title_accessibility_label": "Adăugare adresă",
+      "attention": "Referitor la",
+      "attention_help_text": "Numele persoanei sau al departamentului",
+      "loading_form_accessibility_message": "Formular încărcare adresă",
+      "attention_company": "Firmă/către atenția domnului/doamnei"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Numele firmei",
+        "company_card_section_accessibility_label": "Întreprindere"
+      },
+      "locations": {
+        "contact_email": "Adresă de email",
+        "contact_list_title": "Oameni",
+        "contact_permissions": "Împuterniciri",
+        "location_picker_label": "Numele locației",
+        "net_payment_terms_description": "{{name}}: plata datorată în termen de {{numberOfDays}} zile",
+        "payment_details_title": "Date de plată",
+        "permissions_title": "Împuterniciri",
+        "shipping_address_required": "Adaugă o adresă de livrare la această locație pentru a putea plasa comenzi.",
+        "tax_details_title": "Date fiscale",
+        "tax_id": "ID fiscal"
+      }
     }
   }
 }
