@@ -2674,7 +2674,93 @@
           "processing_error_checkout_as_guest": "Radās problēma, apstrādājot jūsu maksājumu. Mēģiniet vēlreiz vai {{checkout_as_guest_link}}."
         },
         "redirection_notice": "Jūs tiksiet novirzīts uz {{walletName}}, lai pabeigtu savu pirkumu",
-        "return_to_checkout": "Atpakaļ uz norēķinu lapu"
+        "return_to_checkout": "Atpakaļ uz norēķinu lapu",
+        "scrim": {
+          "continue_purchase_in_window": "Turpiniet pirkumu {{walletName}} logā",
+          "and_return_to_checkout": "un atpakaļ uz norēķinu lapu",
+          "cancel": "Atcelt"
+        },
+        "place_order": "Veikt pasūtījumu",
+        "recovery_notice": "Radās kļūda ar taviem pasūtījuma datiem. Lūdzu, atjaunini datus, lai pabeigtu maksājumu."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Pārbaudi savus kontaktdatus pirms maksājuma pabeigšanas"
+      },
+      "store_credit_errors": {
+        "generic_error": "Radusies problēma ar tavu veikala kredītu. Mēģini vēlreiz vai pārlādē lapu."
+      },
+      "note": {
+        "length_exceeds_maximum": "Ierakstiet piezīmi līdz 5000 zīmēm."
+      },
+      "billing": {
+        "billing_address_title": "Rēķins uz",
+        "same_as_shipping": "Tāds pats kā piegādes adrese",
+        "add_address": "Izmantot citu adresi",
+        "edit": "Rediģēt",
+        "delete": "Noņemt",
+        "address_more": "Vairāk piedāvājumu šai adresei",
+        "address_edit": "Rediģēt adresi",
+        "address_delete": "Dzēst adresi",
+        "address_confirm": "Vai tiešām vēlies no sava konta dzēst šo adresi?",
+        "address_form": {
+          "add_address": "Pievienot adresi",
+          "save": "Saglabāt",
+          "cancel": "Atcelt"
+        },
+        "billing_address_rollup_accessibility_label": "Iespējas norēķinu veikšanai"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Dāvanu karte jau ir piemērota tavai pasūtījumam",
+          "insufficient_funds": "Šajā dāvanu kartē vairs nav naudas",
+          "expired": "Šī dāvanu karte ir beigusies derīguma termiņš",
+          "not_available": "Šī dāvanu karte vairs nav pieejama",
+          "invalid": "Ievadiet derīgu dāvanu karti",
+          "currency_mismatch": "Tiek pieņemtas tikai dāvanu kartes %{shop_currency} valūtā",
+          "generic": "Dāvanu karte nav iespējama pievienot norēķinu procesam",
+          "throttle_limit_exceeded": "Jūs esat sasniedzis maksimālo mēģinājumu skaitu. Mēģiniet vēlāk vēlreiz.",
+          "no_longer_available": "Šo dāvanu karti vairs nav iespējams izmantot šajā norēķinu vietā"
+        }
+      },
+      "vaulted": {
+        "change_button": "Mainīt"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Radās problēma, ielādējot Shop Pay",
+          "try_again_later": "Pārbaudiet savu savienojumu vai aizveriet šo logu un mēģiniet vēlreiz pēc brīža.",
+          "checkout_has_expired": "Jūsu norēķinu sesija ir beigusies. Aizveriet šo logu un mēģiniet vēlreiz norēķināties {{shopName}}."
+        },
+        "return_to_store": "Atpakaļ uz {{shopName}}",
+        "return_to_store_simple": "Atpakaļ uz veikalu",
+        "title": "Shop Pay-noformēšana"
+      },
+      "company_location": {
+        "location_title": "Uzņēmuma atrašanās vieta",
+        "location_rollup_accessibility_label": "Iespējas uzņēmuma atrašanās vietai"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Dāvanu kartes cena jābūt lielākai par 0.",
+            "subtotal_limit_reached": "Ir sasniegts maksimālais pasūtījuma rindu skaits.",
+            "gift_card_price_must_not_exceed_limit": "Dāvanu kartes cena nedrīkst pārsniegt %{gift_card_limit}.",
+            "signature_mismatch": "Nepareizas paraksta preces priekš kārtas %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "copied": "Nokopēts",
+        "failed_to_copy": "Nav nokopēts"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu",
+        "timer_message": "Tev vēl ir {{timeLeft}}, lai samaksātu",
+        "copy_text": "Kopēt {{paymentMethod}} kodu",
+        "header": "Maksājiet ar {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Pabeidziet savu pirkumu ar savu {{paymentMethod}} kodu"
+        }
       }
     }
   },
