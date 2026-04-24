@@ -3594,9 +3594,81 @@
         "expirable_amounts_button": "View amounts that will expire",
         "details_modal": {
           "title": "Store credit that will expire",
-          "expirable_balance_info": "A part of the balance expires on a future date."
+          "expirable_balance_info": "A part of the balance expires on a future date.",
+          "expirable_amount_label": "Total amount that will expire",
+          "expirable_amounts_info": "Amounts that expired earlier will be applied first at checkout.",
+          "expired_amounts_button": "View overdue amounts",
+          "pagination": {
+            "load_more_accessibility_label": "Load more amounts that will expire"
+          },
+          "events": {
+            "order_payment": "Payment of order",
+            "order_refund": "Refund of order",
+            "payment_failure": "Failed payment",
+            "payment_returned": "Payment refunded",
+            "order_cancellation": "Cancellation of order",
+            "tax_finalization": "Completion of tax"
+          }
+        },
+        "expirable_amounts_label": "Expired amounts"
+      },
+      "three_d_secure": {
+        "title": "Three-Dimensional Security",
+        "verification_failed": "Your payment cannot be verified. Please try again or use another payment method."
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Load PayPal",
+        "errors": {
+          "generic": "There was a problem with PayPal. Please try again or use another payment method."
         }
+      },
+      "card_update_consent_subscriptions": "This payment method is saved for future purchases and can be used for any recurring or deferred purchase.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "By adding a payment method, you can authorize charges to be made to your card until you cancel, or that withdrawals from your bank account take place for future purchases you approve."
+      },
+      "replacement_payment_method_title": "Alternative payment methods",
+      "bank_account": {
+        "loading_accessibility_message": "Button for bank account is loading",
+        "iframe_title_accessibility_label": "Bank account setting",
+        "generic_error": "Cannot add bank account. Please try again later."
+      },
+      "update_payment_method": {
+        "billing_address": "Invoice address",
+        "disclaimer": "This payment method is saved for future purchases and can be used for any recurring or deferred purchase.",
+        "error_message": "Cannot update payment method",
+        "loading_form_accessibility_message": "Form for updating payment method is loading",
+        "loading_current_payment_method": "Current payment method is loading",
+        "loading_digital_wallets": "Options for digital wallet are loading",
+        "loading_card_fields": "Credit card fields are loading",
+        "subscriptions_list_accessibility_label": "List of subscription products",
+        "pre_orders_list_accessibility_label": "List of products with ongoing order",
+        "resources_list_accessibility_label": "Subscription products and products with an ongoing order that use this payment method"
+      },
+      "link_expired": {
+        "return_home_button": "Back to homepage"
       }
+    },
+    "payment_method_brands": {
+      "visa": "Show",
+      "shoppay": "Buy with Shop Pay",
+      "elo": "Noble",
+      "visaelectron": "Show Electron",
+      "maestro": "Master",
+      "forbrugsforeningen": "The Consumer Association",
+      "dankort": "Thank you card",
+      "hipercard": "Hypercard",
+      "laser": "Beam of light",
+      "bogus": "Fake"
+    },
+    "enable_javascript": "Enable JavaScript in your browser settings or log in with a different browser to view your account.",
+    "ui_components": {
+      "expandNotification": "See more",
+      "processing": "Processing...",
+      "increase": "Increase of {{type}}",
+      "decrease": "Purchase of {{type}}",
+      "mondayAbbreviation": "Mon.",
+      "tuesdayAbbreviation": "Tue.",
+      "wednesdayAbbreviation": "week."
     }
   }
 }
