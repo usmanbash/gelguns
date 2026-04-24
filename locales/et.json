@@ -1136,7 +1136,75 @@
         },
         "purchase_options_agreement_label_html": "Mõistan, et minu ostukorvis olevad üks või mitu eset on edasi lükatud ost, tellimus või korduv ost. Jätkates nõustun <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">tühistamispoliitikaga</a> ning annan loa oma makseviisi koormamiseks sellel lehel märgitud hindade, sageduse ja kuupäevade eest, kuni minu tellimus on täidetud või ma tühistan, kui see on lubatud.",
         "payment_method_saved": "Makseviis salvestatud",
-        "card_vaulted_company_location": "Kaart salvestatud selle asukoha jaoks"
+        "card_vaulted_company_location": "Kaart salvestatud selle asukoha jaoks",
+        "order_covered_by_store_credit_notice": "Tellimus tasutakse sinu poepunktidega.",
+        "order_covered_by_redeemables_notice": "Tellimus on tasutud.",
+        "store_credit": {
+          "label": "Ostukrediit",
+          "apply_label": "Kasutage poe krediiti",
+          "add_label": "Lisage poe krediiti",
+          "manage_label": "Ostukrediidi haldamine",
+          "buying_gift_card": "Kauplusekrediidiga ei saa kinkekaarti osta",
+          "no_fixed_selling_plans": "Sa ei saa kasutada poe krediiti koos edasi lükatud ostuvõimalustega."
+        },
+        "clear": "Teadmised",
+        "billing_must_match_shipping_notice": "Sinu makseviisi arveaadress peab vastama tarneaadressile.",
+        "same_billing_address_checkbox_label": "Kohaletoimetamise aadress ja arve aadress on samad",
+        "location_billing_address_label": "Asukoha arveldusaadress",
+        "fact_billing_address_label": "Arve aadress",
+        "location_shipping_address_label": "Kohaletoimetamise aadress asukohas",
+        "no_working_method_error": "See pood ei saa hetkel makseid vastu võtta. Värskenda lehte või tule hiljem tagasi.",
+        "brand_not_available": "See pood ei aktsepteeri {{brand}}. Palun kasuta maksmiseks mõnda teist kaarti.",
+        "shipping_rate_updated": "Saadavalolevad saatmisviisid on uuendatud. Kinnita oma valik enne maksmist.",
+        "billing_address_invalid_phone": "Uuenda telefoninumbrit arve aadressil {{label}} {{last_digits}}, et jätkata.",
+        "billing_address_invalid_phone_no_card": "Uuenda arve aadressi telefoninumbrit, et jätkata.",
+        "preview_not_available": {
+          "title": "Näidis pole saadaval",
+          "content": "Ära muretse, see kiire kassasüsteem töötab su klientide jaoks.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Sisestage kehtiv väljastamiskuupäev",
+              "issue_number": "Sisestage kehtiv väljastamisnumber"
+            },
+            "invalid": {
+              "verification_value": "Sisestage kehtiv CVV/CVC või turvakood"
+            }
+          }
+        },
+        "simulated_checkout": "Näidis ilmub varsti",
+        "vaulting_agreement_label": "Salvesta minu makseandmed %{company} juures kiiremaks ostuprotsessiks.",
+        "business_customer_vaulting_payment_label": "Salvesta see makseviis kassas ja anna %{company} luba selle kaardi kaudu sellelt asukohalt tulevaste ostude eest raha kanda. Kõik selle asukohaga seotud kontaktisikud võivad makseviisi kasutada.",
+        "purchase_options_and_vaulting_agreement_label": "Üks või mitu ostukorvis olevat eset on edasi lükatud või tellimuspõhine ost. Kui jätkad maksmist, nõustud, et võtame ostusummad automaatselt sinu makseviisi kaudu vastavalt sellel lehel toodud hinnale ja sagedusele, kuni see lõpeb või sa selle ise lõpetad. Kõigi lõpetamiste puhul kehtib %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "tühistamispoliitika",
+        "use_different_credit_card_label": "Kasuta teist kaarti",
+        "saved_credit_card": "Sinu salvestatud krediitkaart",
+        "saved_credit_card_info": "Viimased neli numbrit",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Kõiki salvestatud kaarte vaata",
+          "done": "Valmis",
+          "cancel": "Tühista"
+        },
+        "expired_cards_info": {
+          "one": "Sul on %{count} aegunud kaart. Sa saad seda oma kontos vaadata ja muuta.",
+          "other": "On %{count} aegunud kaarti. Sa saad neid oma kontos vaadata ja muuta."
+        },
+        "local_payment_method_receiver_notice": "Pärast tellimuse esitamist saad makseandmed. Tee makse {{dueDays}} päeva jooksul pangaautomaadis või veebis.",
+        "order_edit_banner_title": "Maksmine summas {{amount_owed}} on kohustuslik",
+        "order_edit_banner_subtitle": "Sinu tellimus {{order_number}} on uuendatud. Kontrolli neid muudatusi ja tasu, et tellimus kinnitada.",
+        "order_edit_banner_single_item_added": "Lisatud",
+        "order_edit_banner_multiple_items_added": "{{amount}} lisatud",
+        "order_edit_banner_single_item_removed": "Kustutatud",
+        "order_edit_banner_multiple_items_removed": "{{amount}} eemaldatud",
+        "gift_card_wrapper": {
+          "heading": "Kingituskinkekaart",
+          "apply_gift_card_label": "Kinkekaardi kasutamine",
+          "payment_tag": "Kingituskinkekaart",
+          "apply_another_gift_card_label": "Teise kinkekaardi kasutamine",
+          "gift_card_label": "Kingituskinkekaart %{identifier}"
+        }
       }
     }
   },
