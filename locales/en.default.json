@@ -727,7 +727,79 @@
         "credit_card_start_year": "Year start date",
         "billing_address_not_supported_for_payment_method_error": "This payment method is not available for your billing address and currency. Please try another payment method.",
         "no_real_orders_dev_store": "This shop cannot accept real orders or process real payments.",
-        "subscription_agreement_label_html": "I understand that I agree to a subscription. It will be renewed at the stated price and frequency until it expires or is <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">canceled</a>."
+        "subscription_agreement_label_html": "I understand that I agree to a subscription. It will be renewed at the stated price and frequency until it expires or is <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">canceled</a>.",
+        "waiting_on_payment_methods": "Retrieving available payment methods...",
+        "apple_pay_payment_error": "Your payment could not be completed. Please try again or use another payment method.",
+        "subscription_card_update_agreement_label": "By changing your payment method, your subscription and recurring payments will be updated for the future.",
+        "taxes_not_included": "Exclusive of taxes",
+        "no_taxes_banner_content": "Taxes are not charged on this order. You cannot add taxes once the payment has been collected.",
+        "paypal": {
+          "connect": "Click to link your PayPal account"
+        },
+        "subscription_agreement_label": "One or more items in the shopping cart are a deferred or subscription purchase. By proceeding with the payment, you agree that we will automatically charge the purchase amounts via your payment method at the price and frequency shown on this page, until the subscription expires or you cancel it yourself. All cancellations are subject to the %{cancelled}.",
+        "card_verification_confirm": "Enter the security code of your card for verification purposes.",
+        "different_credit_card_label": "Use a different charge card",
+        "apple": {
+          "connect": "Click to link your Apple Pay account",
+          "not_available": "Apple Pay is not available in this browser. To link your Apple Pay account, you must use Safari on an Apple device."
+        },
+        "account_connected": "Account linked.",
+        "billing_address_associated_with_mandate": "Use the address linked to your payment method",
+        "billing_address_associated_with_mandate_info": "To change the billing address, delete your credit card details and enter them again",
+        "expiry_short": "(Expires %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Save this credit card on my account to check out faster",
+        "delete_customer_mandate_modal_body": "If you remove this card, you must add it again before using the card for payments.",
+        "google": {
+          "connect": "Click to link your Google Pay account",
+          "error_authorizing": "Error authorizing the payment"
+        },
+        "mor_disclaimer_html": "By clicking below and completing your order, you agree to purchase your item(s) from Global-e as the registered merchant for this transaction, according to the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terms and Conditions</a> and the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacy Policy</a> of Global-e. Global-e is an international fulfillment service provider for %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "By updating the payment method, you authorize payments for every recurring or deferred purchase according to the <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> of this store.",
+        "multibanco_label": "Multibank",
+        "receiver_payment_experience_hint": "After placing your order, you will receive the payment details. Make the payment within %{due_days} days via Multibanco or online.",
+        "pending_payment": {
+          "multibanco": {
+            "instruction_html": "Make your payment at Multibanco or online using the details below. %{contact_us} for questions or to update payment information.",
+            "entity": "Unit",
+            "find_nearest_atm": "Find nearest cash machine",
+            "buyer_action_info": "Your payment of %{amount_due} is pending."
+          }
+        },
+        "purchase_options_agreement_label": "One or more items in your cart are a deferred purchase, subscription, or recurring purchase. By proceeding with your payment, you agree that your payment method will be automatically charged the price and frequency listed on this page, until it expires or you cancel. All cancellations are subject to the %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "The total may be exclusive of taxes, shipping, deferred charges, and some discounts. Proceed to the checkout for the amount due today."
+        },
+        "purchase_options_agreement_label_html": "I understand that one or more items in my cart are a deferred purchase, subscription, or recurring purchase. By continuing, I agree to the\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancellation policy</a>\nand authorize my payment method to be charged for the prices, frequency, and dates listed on this page until my order is fulfilled or I cancel, if allowed.",
+        "card_vaulted_company_location": "Map saved for this location",
+        "order_covered_by_store_credit_notice": "The order is paid with your store credit.",
+        "order_covered_by_redeemables_notice": "The order is paid.",
+        "store_credit": {
+          "buying_gift_card": "You cannot buy a gift voucher with store credit",
+          "no_fixed_selling_plans": "You cannot use store credit in combination with deferred purchase options"
+        },
+        "clear": "Knowledge",
+        "billing_must_match_shipping_notice": "The billing address of your payment method must match the delivery address.",
+        "same_billing_address_checkbox_label": "Delivery address and billing address are the same",
+        "location_billing_address_label": "Invoice address of location",
+        "fact_billing_address_label": "Invoice address",
+        "location_shipping_address_label": "Delivery address of location",
+        "no_working_method_error": "This shop cannot accept payments at the moment. Refresh the page or come back later.",
+        "brand_not_available": "This store does not accept {{brand}}. Please use a different card to pay.",
+        "shipping_rate_updated": "Available shipping methods have been updated. Confirm your choice before you check out.",
+        "billing_address_invalid_phone": "Update the phone number for the billing address of {{label}} {{last_digits}} to continue.",
+        "billing_address_invalid_phone_no_card": "Update the telephone number at the billing address to continue.",
+        "preview_not_available": {
+          "title": "Example not available",
+          "content": "No worries, this swift checkout works for your customers.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Enter a valid CVV/CVC or security code"
+            }
+          }
+        }
       },
       "shipping_errors": {
         "must_use_address_banner": {
