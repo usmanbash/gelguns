@@ -1393,8 +1393,82 @@
         "purchase_options_and_vaulting_agreement_label": "Unul sau mai multe articole din coș sunt o achiziție amânată sau prin abonament. Dacă continui cu plata, ești de acord că vom debita automat sumele de plată prin metoda ta de plată la prețul și frecvența afișate pe această pagină, până la expirare sau până când anulezi tu însuți. Pentru toate anulările se aplică %{cancellation_policy_label}.",
         "use_different_credit_card_label": "Folosește un alt card",
         "saved_credit_cards_modal": {
-          "view_all_label": "Vizualizează toate cardurile salvate"
-        }
+          "view_all_label": "Vizualizează toate cardurile salvate",
+          "cancel": "Anulare"
+        },
+        "expired_cards_info": {
+          "one": "Există %{count} card expirat. Îl poți vizualiza și modifica în contul tău.",
+          "other": "Există %{count} carduri expirate. Le poți vizualiza și modifica în contul tău."
+        },
+        "local_payment_method_receiver_notice": "După plasarea comenzii, vei primi detaliile de plată. Efectuează plata în termen de {{dueDays}} zile la un bancomat sau online.",
+        "order_edit_banner_title": "Plata sumei de {{amount_owed}} este necesară",
+        "order_edit_banner_subtitle": "Comanda ta {{order_number}} a fost actualizată. Verifică aceste modificări și plătește pentru a confirma comanda.",
+        "order_edit_banner_multiple_items_added": "{{amount}} adăugat",
+        "order_edit_banner_single_item_removed": "Șters",
+        "order_edit_banner_multiple_items_removed": "{{amount}} eliminat",
+        "gift_card_wrapper": {
+          "heading": "Bon cadou",
+          "apply_gift_card_label": "Aplică un bon cadou",
+          "payment_tag": "Bon cadou",
+          "apply_another_gift_card_label": "Aplică un alt bon cadou",
+          "gift_card_label": "Voucher cadou %{identifier}",
+          "add_label": "Adăugarea unui bon cadou",
+          "manage_label": "Gestionați voucherele cadou"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Fixare pentru plăți personalizate la fața locului"
+        },
+        "markets_pro_disclaimer_label": "Plasând comanda, ești de acord cu achiziția de la Global-e în calitate de comerciant înregistrat, supus %{markets_pro_terms} și %{privacy_policy} ale Global-e, și îți împărtășești datele cu %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "condiții generale",
+        "markets_pro_disclaimer_privacy_policy": "politica de confidențialitate",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Condiții generale pentru comercianții înregistrati",
+        "markets_pro_disclaimer_privacy_policy_title": "Politica de confidențialitate pentru comercianții înregistrati",
+        "purchase_order_number": {
+          "title": "Număr comandă",
+          "label": "Număr comandă (opțional)"
+        },
+        "alternative_payment_currency_total_notice": "Notă: Se va debita suma de %{amount_due}.",
+        "waiting_on_taxes_message": "Reîncarcă pagina dacă taxele nu sunt calculate în câteva secunde.",
+        "waiting_on_taxes_notice": "Calcularea impozitelor",
+        "order_edit_banner_single_item_returned": "Returnat",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returnat",
+        "shop_pay_installments_label": "Plăți în rate Shop Pay",
+        "add_credit_card_modal": {
+          "title": "Adăugare hartă",
+          "cancel": "Anulare"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Ești sigur că vrei să ștergi {{brandName}} care se termină cu {{lastDigits}}?",
+          "cancel": "Anulare",
+          "delete": "Ștergere"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} adăugat"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Șters",
+          "with_quantities": "{{delta}} din {{quantity}} șters"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returnate",
+          "with_quantities": "{{delta}} din {{quantity}} returnate"
+        },
+        "saved_credit_card_actions": {
+          "edit": "Editare",
+          "delete": "Ștergere"
+        },
+        "edit_credit_card_modal": {
+          "title": "Editează harta",
+          "cancel": "Anulare",
+          "description": "Poți schimba doar adresa de facturare a cardului tău.",
+          "fields": {
+            "name": "Nume pe card"
+          }
+        },
+        "subscription_heading": "Contract de abonament",
+        "use_order_billing_address_label": "Folosește adresa de facturare a comenzii",
+        "use_location_billing_address_label": "Folosește adresa de facturare a locației",
+        "use_location_shipping_address_label": "Folosește adresa de livrare a locației"
       }
     }
   }
