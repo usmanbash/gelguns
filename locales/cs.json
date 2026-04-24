@@ -2744,8 +2744,84 @@
           "detour": {
             "stock_problems": "Některé položky již nejsou dostupné. Zavřete {{walletName}} a zkuste to znovu.",
             "price_change": "Ceny některých položek se změnily. Zavřete {{walletName}}, zkontrolujte svou objednávku a zkuste to znovu.",
-            "queue": "Stojíte ve frontě u pokladny. Zavřete {{walletName}}, abyste mohli pokračovat."
-          }
+            "queue": "Stojíte ve frontě u pokladny. Zavřete {{walletName}}, abyste mohli pokračovat.",
+            "currency_change": "Nelze použít jinou adresu s {{walletName}}. Použijte původní adresu nebo vyzkoušejte jinou platební metodu."
+          },
+          "unsupported": {
+            "address": "Obchodník nemůže doručit na adresu, kterou jste vybrali.",
+            "postal_code": "Toto místo není podporováno",
+            "wallet_is_unavailable": "Nelze použít {{walletName}} s touto adresou. Vyberte jinou adresu nebo zavřete {{walletName}}, abyste dokončili nákup."
+          },
+          "outdated": {
+            "shipping_method": "Možnosti doručení vaší objednávky byly změněny. Zkontrolujte svůj výběr.",
+            "payment_terms": "Platební podmínky byly změněny. Zkontrolujte svou objednávku"
+          },
+          "invalid": {
+            "shipping_address": "Zadejte platnou doručovací adresu",
+            "shipping_option": "Vyberte platnou možnost doručení",
+            "email": "Zadejte platnou e-mailovou adresu",
+            "zone": "Zadejte platný stát/kraj",
+            "postal_code": "Zadejte platné PSČ nebo poštovní směrovací číslo",
+            "reduction_code": "Zadejte platný slevový kód nebo dárkový poukaz",
+            "billing_must_match_shipping": "Musí odpovídat doručovací adrese.",
+            "phone": "Zadejte platné telefonní číslo",
+            "billing_zone": "Zadejte platný stát/kraj pro fakturační adresu",
+            "billing_phone": "Zadejte platné telefonní číslo pro fakturační adresu",
+            "billing_zip": "Zadejte platné PSČ nebo poštovní směrovací číslo pro fakturační adresu"
+          },
+          "missing": {
+            "first_name": "Zadejte křestní jméno",
+            "address2": "Zadejte číslo bytu nebo apartmá, a tak dále",
+            "city": "Zadejte místo",
+            "province": "Vyberte stát/provincie",
+            "zip": "Zadejte PSČ nebo poštovní směrovací číslo",
+            "billing_first_name": "Zadejte křestní jméno pro fakturační adresu",
+            "billing_address2": "Zadejte číslo bytu nebo apartmá a další údaje pro fakturační adresu",
+            "billing_city": "Zadejte místo pro fakturační adresu",
+            "billing_province": "Vyberte stát/kraj pro fakturační adresu",
+            "billing_zip": "Vyberte PSČ nebo poštovní směrovací číslo pro fakturační adresu"
+          },
+          "formatting": {
+            "name_contains_emojis": "Odstranit emoji z tvého jména",
+            "postal_code_contains_emoji": "Odebrat emoji z tvého poštovního směrovacího čísla",
+            "first_name_too_long": "Křestní jméno obsahuje příliš mnoho písmen",
+            "last_name_too_long": "Příjmení obsahuje příliš mnoho písmen"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Dodací adresa je neplatná. Vyberte jinou adresu nebo použijte novou adresu.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} momentálně není k dispozici pro vaši objednávku. Vyberte jinou metodu platby, abyste mohli pokračovat v nákupu."
+          },
+          "discount_code": "Nelze použít tento slevový kód. Zkontrolujte svůj kód a zkuste to znovu.",
+          "processing_error_checkout_as_guest": "Při zpracování vaší platby došlo k problému. Zkuste to znovu nebo {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Budete přesměrováni do {{walletName}}, abyste dokončili svůj nákup",
+        "return_to_checkout": "Zpět k pokladně",
+        "scrim": {
+          "and_return_to_checkout": "a zpět k pokladně"
+        },
+        "recovery_notice": "Došlo k chybě ve vašich objednávkových údajích. Aktualizujte své údaje pro dokončení platby."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Než dokončíte platbu, zkontrolujte nejprve své kontaktní údaje"
+      },
+      "store_credit_errors": {
+        "generic_error": "Došlo k problému s tvým obchodním kreditem. Zkus to znovu nebo obnov stránku."
+      },
+      "note": {
+        "length_exceeds_maximum": "Zkraťte poznámku na maximálně 5000 znaků."
+      },
+      "billing": {
+        "billing_address_title": "Faktura na",
+        "same_as_shipping": "Stejné jako doručovací adresa",
+        "delete": "Odstranit",
+        "address_more": "Více akcí pro tuto adresu",
+        "address_confirm": "Jsi si jistý, že chceš tuto adresu ze svého účtu odstranit?",
+        "billing_address_rollup_accessibility_label": "Možnosti účtování"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Dárkový poukaz byl již použit na vaši objednávku",
+          "insufficient_funds": "Na této dárkové poukázce již není žádný zůstatek"
         }
       }
     }
