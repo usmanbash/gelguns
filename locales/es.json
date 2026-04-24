@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Entrar a la tienda usando contraseña:",
-      "login_password_button": "Entrar usando contraseña",
+      "login_form_heading": "Entra a la tienda con contraseña:",
+      "login_password_button": "Entrar con contraseña",
       "login_form_password_label": "Contraseña",
       "login_form_password_placeholder": "Tu contraseña",
-      "login_form_error": "Contraseña incorrecta",
-      "login_form_submit": "Ingresar",
-      "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"/admin\" class=\"link underlined-link\">Inicia sesión aquí</a>",
-      "powered_by_shopify_html": "Esta tienda contará con tecnología Shopify {{ shopify }}"
+      "login_form_error": "¡Contraseña incorrecta!",
+      "login_form_submit": "Introducir",
+      "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"link underlined-link\">Inicia sesión aquí</a>",
+      "powered_by_shopify_html": "Esta tienda es impulsada por {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Compartir en Facebook",
         "share_on_twitter": "Compartir en X",
-        "share_on_pinterest": "Guardar en Pinterest"
+        "share_on_pinterest": "Fijar en Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (anteriormente Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,15 +37,15 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Seguir comprando",
+    "continue_shopping": "Volver a la tienda",
     "pagination": {
       "label": "Paginación",
       "page": "Página {{ number }}",
       "next": "Página siguiente",
-      "previous": "Pagina anterior"
+      "previous": "Página anterior"
     },
     "search": {
-      "search": "Búsqueda",
+      "search": "Buscar",
       "reset": "Borrar término de búsqueda"
     },
     "cart": {
@@ -4098,8 +4098,85 @@
     "active_inspector": {
       "extension": {
         "select": "Seleccionar la extensión llamada '{{extensionName}}'",
-        "unselect": "Deshacer la selección de la extensión llamada '{{extensionName}}'"
+        "unselect": "Deshacer la selección de la extensión llamada '{{extensionName}}'",
+        "move_down": "Mover la extensión a la siguiente posición",
+        "move_up": "Mover la extensión a la posición anterior",
+        "remove": "Quitar extensión",
+        "move_down_tooltip": "Mover a la siguiente posición"
       }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "No puedes abrir este enlace dentro del editor. El enlace se abrirá en una nueva ventana ({{resolved_to_link}}). Haz clic en OK para continuar."
+    },
+    "shop_ads": {
+      "title": "Otros productos que quizás te gusten",
+      "subtitle": "Disponible temporalmente",
+      "button": "Explorar en la tienda"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Los clientes pueden solicitar y gestionar devoluciones por sí mismos."
+      }
+    },
+    "announcement_bar": {
+      "expand_label": "Desplegar barra de anuncios"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Cambiar método de pago",
+        "loading": "Cargando métodos de pago",
+        "no_payment_methods_available": "No hay métodos de pago disponibles",
+        "select_new_payment_method": "Seleccione un nuevo método de pago",
+        "success": "Método de pago actualizado",
+        "use_new_payment_method": "+ Usar nuevo método de pago"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Iniciar sesión o crear una cuenta",
+        "alternate_divider": "DE",
+        "use_email_button": "Usar dirección de correo electrónico"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hola {{first_name}},"
+      },
+      "location_picker": {
+        "sheet_title": "Ubicaciones",
+        "search_field_placeholder": "Buscar"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, abrir submenú"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Cambiar método de pago",
+        "replace_with": "Reemplazado por",
+        "add_new_payment_method": "Añadir nuevo",
+        "loading": "Se está cargando el modo para cambiar el método de pago",
+        "success": "Método de pago actualizado",
+        "invalid_subscription_contract": "No se puede encontrar la suscripción",
+        "edit_current_payment_method": "Editar método de pago actual",
+        "edit_selected_payment_method": "Editar método de pago seleccionado"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "logotipo de %{shop_name}",
+      "step_one": {
+        "subheading": "Introduce tu dirección de correo electrónico y te enviaremos un código de verificación",
+        "subheading_with_sign_in_options": "Iniciar sesión o crear una cuenta",
+        "consent_agreement": "Al continuar, aceptas los %{terms}"
+      },
+      "step_two": {
+        "restart_link": "Iniciar sesión con otra dirección de correo electrónico",
+        "input_field_label": "Código de 6 dígitos"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Introduzca el código correcto de seis dígitos"
+        }
+      },
+      "processing": "Procesando..."
     }
   }
 }
