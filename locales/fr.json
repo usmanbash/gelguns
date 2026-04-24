@@ -1350,7 +1350,65 @@
         "card_expiry_label": "Date d'expiration (MM/AA)",
         "card_expiry_placeholder": "Date d'expiration (MM/AA)",
         "card_expiry_date_explanation": "Disposition de la date d'expiration de la carte : mois, mois, année, année",
-        "card_verification_value_explanation": "Code de sécurité à 3 chiffres, généralement situé au verso de votre carte. American Express possède un code à 4 chiffres au recto."
+        "card_verification_value_explanation": "Code de sécurité à 3 chiffres, généralement situé au verso de votre carte. American Express possède un code à 4 chiffres au recto.",
+        "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+        "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au verso de votre carte",
+        "card_start_label": "Date de délivrance (MM / AA)",
+        "card_start_placeholder": "Date de délivrance (MM / AA)",
+        "card_issue_number_label": "Numéro de délivrance",
+        "card_issue_number_placeholder": "Numéro de délivrance",
+        "ends_with_label": "se termine par %{last_digits}",
+        "saved_by_payment_method": "Enregistré avec %{payment_method}",
+        "same_billing_address_label": "Identique à l'adresse de livraison",
+        "different_billing_address_label": "Utiliser une autre adresse de facturation",
+        "free_order_notice_html": "Votre commande est <strong>gratuite</strong>. Aucun paiement n'est requis.",
+        "express_checkout_free_order": "Aucun frais ne sera facturé pour une commande gratuite",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Votre commande est réglée avec votre bon cadeau.",
+          "other": "Votre commande est payée avec vos bons cadeaux."
+        },
+        "offsite_gateway_redirect_hint": "Vous allez être redirigé vers %{gateway_label} pour finaliser votre achat.",
+        "billing_address_description": "Sélectionnez l'adresse qui correspond à votre carte ou mode de paiement.",
+        "billing_address_description_no_shipping_address": "Saisissez l'adresse correspondant à votre carte ou mode de paiement.",
+        "no_js_credit_card_fields_redirect_hint": "Vous allez être redirigé pour ajouter vos informations de paiement.",
+        "card_fields_container_prefix": "Dans ce champ se trouve :",
+        "card_fields_unavailable_html": {
+          "one": "Le paiement par carte de crédit ou carte bancaire n'est actuellement pas disponible.<br><a href=\"%{current_url}\">Actualisez cette page</a> ou réessayez plus tard.",
+          "other": "Le paiement par carte de crédit ou carte bancaire n'est actuellement pas disponible.<br><a href=\"%{current_url}\">Actualisez cette page</a> ou essayez un autre mode de paiement."
+        },
+        "card_fields_processing_error": "Un problème est survenu lors du traitement du paiement. Actualisez cette page ou vérifiez votre connexion internet.",
+        "technical_error": "En raison d'un problème technique, les paiements ne peuvent pas être traités pour le moment. Veuillez réessayer dans quelques minutes.",
+        "no_method_error": "Cette boutique ne peut actuellement pas accepter les paiements.",
+        "not_configured_error": "Cette boutique ne peut actuellement pas accepter les paiements.",
+        "missing_credit_card_error": "Saisissez les informations de votre carte pour finaliser le paiement",
+        "generic_incorrect_card_info": "Vos informations de paiement ne peuvent pas être vérifiées. Vérifiez les données de votre carte et réessayez.",
+        "sofort_label": "Immédiatement",
+        "klarna_pay_later_label": "Payer après coup avec Klarna",
+        "eps_label": "virement eps (transfert eps)",
+        "klarna_slice_it_label": "Finances avec Klarna",
+        "card_expiration_month_label": "Mois de traitement",
+        "card_expiration_year_label": "Année de péremption",
+        "card_information_notice": "Toutes les transactions sont sécurisées et chiffrées. Les données de carte de crédit ne sont jamais conservées.",
+        "credit_card_start_month": "Date de début du mois",
+        "credit_card_start_year": "Date de début de l'année",
+        "billing_address_not_supported_for_payment_method_error": "Cette méthode de paiement n'est pas disponible pour votre adresse de facturation et votre devise. Veuillez essayer une autre méthode de paiement.",
+        "no_real_orders_dev_store": "Cette boutique ne peut pas accepter de vraies commandes ni traiter de vrais paiements.",
+        "subscription_agreement_label_html": "Je comprends que je consens à un abonnement. Il sera renouvelé au prix et à la fréquence indiqués jusqu'à son expiration ou son\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulation</a>.",
+        "waiting_on_payment_methods": "Récupération des méthodes de paiement disponibles...",
+        "apple_pay_payment_error": "Votre paiement n'a pas pu être effectué. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "subscription_card_update_agreement_label": "En modifiant votre mode de paiement, votre abonnement et vos paiements récurrents seront mis à jour pour l'avenir.",
+        "card_security_vault_notice": "Nous avons besoin de vos informations pour les paiements futurs. Toutes les transactions sont sécurisées et chiffrées.",
+        "taxes_not_included": "Hors taxes",
+        "no_taxes_banner_content": "Les taxes ne sont pas appliquées à cette commande. Vous ne pouvez plus ajouter de taxes une fois le paiement encaissé.",
+        "paypal": {
+          "connect": "Cliquez pour lier votre compte PayPal"
+        },
+        "subscription_agreement_label": "Un ou plusieurs articles dans le panier sont un achat différé ou un abonnement. En poursuivant le paiement, vous acceptez que nous débitons automatiquement les montants d'achat via votre méthode de paiement selon le prix et la fréquence indiqués sur cette page, jusqu'à ce que l'abonnement prenne fin ou que vous le résiliez vous-même. Pour toute résiliation, le %{cancelled} s'applique.",
+        "card_verification_confirm": "Saisissez le code de sécurité de votre carte à des fins de vérification.",
+        "different_credit_card_label": "Utilisez une autre carte de crédit",
+        "apple": {
+          "connect": "Cliquez pour lier votre compte Apple Pay"
+        }
       }
     }
   }
