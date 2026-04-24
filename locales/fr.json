@@ -119,7 +119,7 @@
       "add_to_cart": "Ajouter au panier",
       "description": "Description",
       "on_sale": "Offre",
-      "product_variants": "Variantes de produits",
+      "product_variants": "Variantes de produit",
       "quantity": {
         "label": "Nombre",
         "input_label": "Quantité pour {{ product }}",
@@ -162,34 +162,34 @@
         "play_video": "Lire la vidéo",
         "gallery_viewer": "Affichage en galerie",
         "load_image": "Charger l'image {{ index }} en mode galerie",
-        "load_model": "Charger le modèle 3D {{ index }} dans la galerie",
-        "load_video": "Lire la vidéo {{ index }} dans la galerie",
-        "image_available": "L'image {{ index }} est maintenant disponible dans la galerie"
+        "load_model": "Modèle 3D {{ index }} chargé en vue galerie",
+        "load_video": "Lire la vidéo {{ index }} en mode galerie",
+        "image_available": "Image {{ index }} est maintenant disponible en vue galerie"
       },
       "nested_label": "{{ title }} pour {{ parent_title }}",
-      "view_full_details": "Afficher tous les détails",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "view_full_details": "Voir tous les détails",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de livraison</a> sont calculés lors du paiement.",
       "choose_options": "Choisir des options",
-      "choose_product_options": "Choisir des options pour {{ product_name }}",
-      "value_unavailable": "{{ option_value }} – indisponible",
-      "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
+      "choose_product_options": "Choisir les options pour {{ product_name }}",
+      "value_unavailable": "{{ option_value }} - Indisponible",
+      "variant_sold_out_or_unavailable": "Variante épuisée ou non disponible",
       "inventory_in_stock": "En stock",
-      "inventory_in_stock_show_count": "{{ quantity }} en stock",
-      "inventory_low_stock": "Stock bas",
-      "inventory_low_stock_show_count": "Stock bas : {{ quantity }} restant(s)",
-      "sku": "SKU",
-      "inventory_out_of_stock": "En rupture de stock",
+      "inventory_in_stock_show_count": "{{ quantity }} en stock",
+      "inventory_low_stock": "Stock faible",
+      "inventory_low_stock_show_count": "Stock bas : il ne reste plus que {{ quantity }}",
+      "sku": "UGS",
+      "inventory_out_of_stock": "Rupture de stock",
       "inventory_out_of_stock_continue_selling": "En stock",
       "volume_pricing": {
-        "title": "Tarification basée sur le volume",
-        "note": "La tarification basée sur le volume est disponible",
-        "minimum": "{{ quantity }} ou plus",
+        "title": "Tarification dégressive",
+        "note": "Tarification dégressive disponible",
+        "minimum": "Plus de {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "à {{ price }}/pièce"
+        "price_at_each_html": "{{ price }}/pièce"
       },
-      "taxes_included": "Taxes incluses.",
-      "duties_included": "Frais de douane inclus.",
-      "duties_and_taxes_included": "Frais de douane et taxes inclus.",
+      "taxes_included": "Taxes comprises.",
+      "duties_included": "Droits de douane inclus.",
+      "duties_and_taxes_included": "Droits de douane et taxes inclus.",
       "inventory_out_of_stock_message": "En stock",
       "inventory_order_before": "avant",
       "inventory_delivered": "commandé,",
@@ -202,63 +202,63 @@
       }
     },
     "modal": {
-      "label": "Galerie de supports multimédias"
+      "label": "Médiathèque"
     },
     "facets": {
       "apply": "Appliquer",
-      "clear": "Effacer",
+      "clear": "Savoir",
       "clear_all": "Tout supprimer",
       "from": "De",
       "filter_and_sort": "Filtrer et trier",
-      "filter_by_label": "Filtre :",
+      "filter_by_label": "Filtrer :",
       "filter_button": "Filtrer",
       "filters_selected": {
-        "one": "{{ count }} sélectionné",
-        "other": "{{ count }} sélectionnés",
+        "one": "{{ count }} sélectionné(s)",
+        "other": "{{ count }} sélectionné(s)",
         "many": "{{ count }} sélectionnés"
       },
-      "max_price": "Le prix le plus élevé est de {{ price }}",
+      "max_price": "Le prix le plus élevé est {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} produit sur {{ count }}",
-        "other": "{{ product_count }} produits sur {{ count }}",
+        "one": "{{ product_count }} de réduction sur {{ count }} produits",
+        "other": "{{ product_count }} de réduction sur {{ count }} produits",
         "many": "{{ product_count }} produits sur {{ count }}"
       },
       "product_count_simple": {
-        "one": "{{ count }} produit",
-        "other": "{{ count }} produits",
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits",
         "many": "{{ count }} produits"
       },
       "reset": "Réinitialiser",
       "sort_button": "Trier",
-      "sort_by_label": "Trier par :",
-      "to": "Destination",
+      "sort_by_label": "Trier par :",
+      "to": "À",
       "clear_filter": "Supprimer le filtre",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filtres sélectionnés)",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filtres sélectionnés)",
       "show_more": "Afficher plus",
       "show_less": "Afficher moins",
-      "filter_and_operator_subtitle": "Tout associer"
+      "filter_and_operator_subtitle": "Tout assortir"
     }
   },
   "templates": {
     "search": {
-      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l’orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
-        "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats",
+        "one": "{{ count }} résultat",
+        "other": "{{ count }} résultats",
         "many": "{{ count }} résultats"
       },
-      "title": "Résultats de la recherche",
+      "title": "Résultats de recherche",
       "page": "Page",
       "products": "Produits",
-      "search_for": "Rechercher « {{ terms }} »",
+      "search_for": "Rechercher '{{ terms }}'",
       "results_with_count_and_term": {
-        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
-        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
+        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
+        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
         "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
       },
       "results_pages_with_count": {
-        "one": "Page {{ count }}",
-        "other": "Pages {{ count }}",
+        "one": "{{ count }} page",
+        "other": "{{ count }} pages",
         "many": "Pages {{ count }}"
       },
       "results_suggestions_with_count": {
@@ -267,8 +267,8 @@
         "many": "{{ count }} suggestions"
       },
       "results_products_with_count": {
-        "one": "Produit {{ count }}",
-        "other": "Produits {{ count }}",
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits",
         "many": "Produits {{ count }}"
       },
       "suggestions": "Suggestions",
@@ -280,12 +280,12 @@
     "contact": {
       "form": {
         "name": "Nom",
-        "email": "E-mail",
+        "email": "Courriel",
         "phone": "Numéro de téléphone",
-        "comment": "Commentaire",
+        "comment": "Réaction",
         "send": "Envoyer",
-        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
-        "error_heading": "Veuillez ajuster les éléments suivants :",
+        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
+        "error_heading": "Modifiez ce qui suit :",
         "title": "Formulaire de contact"
       }
     },
