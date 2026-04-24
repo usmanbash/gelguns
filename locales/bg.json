@@ -3958,7 +3958,91 @@
         "title": "За коя локация купуваш?",
         "continue_to_store": "Продължете към магазина",
         "no_location_description": "Вече нямате право да правите поръчки за {{company}}. Все още можете да правите лични поръчки.",
-        "no_locations_found": "Не са намерени локации"
+        "no_locations_found": "Не са намерени локации",
+        "search": "Търсене на локации",
+        "clear_search": "Изчистване на търсенето",
+        "try_new_search": "Опитайте нова търсачка",
+        "selection_continue_button": "Продължи",
+        "description_switch_later": "Можеш винаги да смениш по-късно",
+        "title_choose_location": "Изберете местоположение"
+      },
+      "addresses": {
+        "add_billing_address_button": "Добавяне на адрес за фактура",
+        "add_billing_address_section_accessibility_label": "Добавяне на адрес за фактура",
+        "billing_address_card_title": "Адрес за фактура",
+        "cancel_adding_billing_address_accessibility_label": "Добавяне на адрес за фактура отказ",
+        "cancel_adding_shipping_address_accessibility_label": "Добавяне на адрес за доставка Отказ",
+        "save_new_billing_address_accessibility_label": "Запази адрес за фактура",
+        "save_new_shipping_address_accessibility_label": "Запази адрес за доставка"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Скрий всичко",
+          "show_all": "Покажи всичко",
+          "hide_all_accessibility_label": "Скрий всички поръчки в преглед",
+          "show_all_accessibility_label": "Показване на всички поръчки в преглед",
+          "title": "В процес на обработка",
+          "pagination": {
+            "nav_accessibility_label": "Бутони за навигация за поръчки в преглед"
+          },
+          "show_all_orders_in_review": "Показване на всички поръчки в преглед",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Нямате поръчки в обработка",
+            "pending_orders": {
+              "one": "Имаш {{count}} поръчка в обработка",
+              "other": "Имаш {{count}} поръчки в обработка"
+            },
+            "more_than_pagination_length": "Имате повече от {{count}} поръчки в обработка"
+          },
+          "pending_orders_count_more_than_pagination_length": "повече от {{count}}"
+        }
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Потвърдено на {{date}} за поръчка {{draftOrderName}}",
+        "loading": "Зареждане на данни за поръчката",
+        "loading_finished_accessibility_message": "Данните за поръчката са заредени",
+        "payment_status": {
+          "draft": {
+            "description": "Платежните данни се определят, след като поръчката бъде потвърдена.",
+            "title": "Плащането все още не е дължимо",
+            "in_review": {
+              "description": "Платежните данни се определят, след като поръчката бъде потвърдена.",
+              "title": "Плащането все още не е дължимо"
+            },
+            "submitted": {
+              "description": "Платете, за да потвърдите тази поръчка.",
+              "deposit": {
+                "title": "Плащането е дължимо",
+                "due_later": "За салдото важат условията на {{translatedName}} и то е дължимо на {{dueDate}}.",
+                "due_on_fulfillment": "Салдото се дължи веднага щом всички артикули в тази поръчка бъдат обработени.",
+                "due_on_receipt": "Ще получите фактура за оставащото салдо.",
+                "due_on_date": "Салдото е дължимо на {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} се дължи, когато поръчката е потвърдена. За остатъка важат условията на {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} се дължи, когато поръчката е потвърдена. Остатъкът се дължи, когато поръчката е обработена.",
+              "due_on_receipt": "{{depositAmount}} се дължи, когато поръчката е потвърдена. Остатъкът се дължи по-късно.",
+              "due_on_date": "{{depositAmount}} се дължи след потвърждаване на поръчката. Остатъкът се дължи на {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Вашата поръчка е напълно платена.",
+            "title_with_date": "Платено на {{date}}"
+          },
+          "pay_now": "Плати сега",
+          "title": "Статус на плащането",
+          "pending": {
+            "banner_overdue": {
+              "one": "Вашето плащане е с {{count}} дни закъснение",
+              "other": "Вашето плащане закъсня с {{count}} дни"
+            },
+            "banner_due": {
+              "one": "Вашето плащане е дължимо след {{count}} дни",
+              "other": "Вашето плащане е дължимо след {{count}} дни"
+            }
+          }
+        }
       }
     }
   }
