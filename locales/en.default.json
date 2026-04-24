@@ -1825,7 +1825,89 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "After payment, you will receive a confirmation email with the order number.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "After payment, you will receive a confirmation email with the order number.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "After payment, you will receive a confirmation email with the order number.",
-        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Your payment is being processed. You will receive an email when your payment is confirmed."
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Your payment is being processed. You will receive an email when your payment is confirmed.",
+        "verify_shop_account_message": "Your information is saved with Shop. Verify your account to use it automatically at millions of stores.",
+        "announcement": {
+          "expand": "Unfold"
+        },
+        "confirmed_items_count": "%{confirmed_count} of the %{total_count} items have been confirmed",
+        "thank_you_confirmed_orders_with_email": "You will soon receive separate confirmation emails with your order numbers",
+        "thank_you_confirmed_orders_with_phone": "You will soon receive separate confirmation text messages with your order numbers",
+        "thank_you_confirmed_orders_with_email_and_phone": "You will soon receive separate confirmation emails with your order numbers",
+        "checkout_on_remote_shop_link_text": "Checkout at %{remoteShopName}",
+        "confirmed_orders_title": "Your orders have been confirmed",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "There are items not confirmed"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "No charges have been applied for this",
+          "other": "No charges have been applied for this"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} items"
+        },
+        "payment_method_not_charged": "Not written off",
+        "items_fulfilled_by_store": {
+          "one": "Items you have purchased come from %{remote_shop_name}.",
+          "other": "Items you have purchased come from other shops."
+        },
+        "thank_you_from_other_store": "From another shop",
+        "checkout_on_another_store": "Pay at another shop",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "You will soon receive a confirmation email",
+          "multi_store": "You will soon receive a separate confirmation email from each shop"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "You will soon receive a confirmation text message",
+          "multi_store": "You will soon receive a confirmation text message from each shop"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "You will soon receive a confirmation email",
+          "multi_store": "You will soon receive a separate confirmation email from each shop"
+        },
+        "checkout_again": "Perform checkout again",
+        "cashback_notice": "You will receive your cashback after 30 days"
+      },
+      "review": {
+        "checkout_as_guest": "Checkout as guest",
+        "blocks": {
+          "shipping_address_title": "Shipping to",
+          "change_shipping_address_link_label": "Change delivery address",
+          "purchase_order_number_title": "Order number",
+          "change_purchase_order_number_label": "Change order number",
+          "no_purchase_order_number": "(No order number)",
+          "due_after_order_reviewed_html": "Owed after order has been checked",
+          "review_title_free_order": "Check and complete the order",
+          "company_location": "Business location",
+          "change_company_location_link_label": "Change business location",
+          "pickup_items_at": {
+            "one": "pick up %{count} items at",
+            "other": "Pick up %{count} items at"
+          },
+          "ship_items_to": {
+            "one": "Send %{count} items to",
+            "other": "Send %{count} items to"
+          }
+        },
+        "block_title": "Check your details",
+        "checkout_a_different_way": "Pay in a different way",
+        "review_and_confirm_title": "Check and confirm",
+        "account_more_actions": "More promotions for this account"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Send me an email with news and offers",
+        "unsubscribe": {
+          "title": "You have logged out",
+          "description": "You will no longer receive shopping cart reminders from us."
+        },
+        "accept_sms_checkbox_label": "Send me a text message with news and offers",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privacy policy",
+            "description_html": "By signing up via SMS, you agree to receive automated marketing messages, including cart reminders, at the provided phone number. Consent is not a condition of purchase. Reply STOP to unsubscribe. Reply HELP for help. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_link} and %{terms_of_service_link}.",
+            "description_transactional_html": "You may receive text messages related to order confirmations and shipping updates. Reply STOP to unsubscribe. Reply HELP for assistance. Message frequency varies. Message and data rates may apply. See our %{privacy_policy_modal_link} and our %{terms_of_service_modal_link}."
+          }
+        }
       }
     },
     "sentence": {
