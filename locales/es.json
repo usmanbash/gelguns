@@ -3059,6 +3059,86 @@
           "visibility": "Hemos actualizado nuestra política y ahora hacemos seguimiento de los correos electrónicos abiertos. Los porcentajes de apertura de correos se reportan de forma anónima. Solo veremos si has abierto un correo electrónico como parte del porcentaje total de aperturas.",
           "opt_out_html": "Si ya no deseas compartir esta información, puedes <a style='text-decoration:underline;' href='%{link}'>darte de baja</a>."
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "¿Estás segura de que quieres darte de baja del marketing por mensajes de texto?",
+        "button": "Cerrar sesión"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Generalmente listo en 1 hora",
+        "two_hours": "Generalmente listo en 2 horas",
+        "four_hours": "Generalmente listo en 4 horas",
+        "twenty_four_hours": "Generalmente listo en 24 horas",
+        "two_to_four_days": "Generalmente listo en 2-4 días",
+        "five_or_more_days": "Generalmente listo en más de 5 días",
+        "zero_to_two_hours": "Generalmente listo en 2 horas",
+        "two_to_four_hours": "Generalmente listo en 4 horas",
+        "immediately": "Listo para recoger ahora",
+        "next_day": "Listo para recoger al día siguiente"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En stock",
+          "out_of_stock": "No disponible"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Precio: de menor a mayor",
+        "price_descending": "Precio: de mayor a menor"
+      },
+      "error": "Se ha producido un problema al cargar los resultados de búsqueda. Actualice la página o inténtelo de nuevo más tarde."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Si continúo, acepto la %{cancellationPolicyLink} y también te doy permiso para cargar los precios indicados en mi método de pago, con la frecuencia y fechas indicadas, hasta que mi pedido sea procesado o hasta que yo, si está permitido, cancele.",
+      "buyer_consent_cart": "Uno o más artículos en tu carrito son compras diferidas o recurrentes. Si continúo, acepto la %{cancellationPolicyLink} y también te doy permiso para cargar los precios indicados a mi método de pago, con la frecuencia y fechas indicadas, hasta que mi pedido se haya completado o hasta que yo, si está permitido, cancele."
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Intentar de nuevo"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ocultar menú de cuenta",
+        "show_accessibility_label": "Mostrar menú de cuenta",
+        "open_menu_accessibility_label": "Abrir navegación de cuenta",
+        "close_menu_accessibility_label": "Cerrar navegación de cuenta",
+        "loading_message": "Cargando navegación de la cuenta"
+      },
+      "action_menu_accessibility_label": "Más ofertas",
+      "close_menu_accessibility_label": "Cerrar navegación principal",
+      "contact_email_subject": "Persona de contacto de la tienda en línea {{shopName}}",
+      "contact_link": "Datos de contacto",
+      "dismiss_toast": "Cerrar",
+      "document_title": "{{sectionName}} - {{shopName}} - cuenta",
+      "logout_overlay_label": "Cerrar sesión...",
+      "navigation_accessibility_message": "Has navegado a {{sectionName}}",
+      "shop_logo_accessibility_label": "logotipo de {{shopName}}",
+      "settings_link": "Configuraciones",
+      "country_switcher_toast_message": "Tierra cambiada a {{countryName}}",
+      "switch_country": "Cambiar de país",
+      "location_switcher_toast_message": "Ubicación cambiada a {{locationName}}",
+      "switch_location": "Cambiar de ubicación",
+      "view_details": "Ver datos",
+      "no_locations_found": "No se encontraron ubicaciones",
+      "try_new_search": "Prueba una nueva búsqueda",
+      "loading_policy_content_accessibility_label": "Política de carga de contenido",
+      "policy_load_error": "No se puede cargar {{policyName}}",
+      "policy_try_again": "Inténtalo de nuevo",
+      "loading_section_accessibility_label": "cargado {{sectionName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Cargando datos de la cuenta",
+      "loading_finished_accessibility_message": "Datos de la cuenta cargados",
+      "profile_card": {
+        "cancel_accessibility_label": "Editar perfil cancelar",
+        "email_help_text": "No se puede editar la dirección de correo electrónico"
       }
     }
   }
