@@ -1626,7 +1626,69 @@
             "other": "Peniaze späť dostanete po %{count} dňoch"
           }
         },
-        "usdc_cashback_title": "%{incentive_percentage}% cashback"
+        "usdc_cashback_title": "%{incentive_percentage}% cashback",
+        "usdc_cashback_additional_info": "Plaťte USDC na Base a do 30 dní získajte %{incentive_percentage}% späť vo svojej digitálnej peňaženke.",
+        "usdc_cashback_terms": "Podmienky a limity platné",
+        "discount_show_more_warnings": {
+          "one": "Zobraziť %{count} viac",
+          "other": "Zobraziť %{count} viac"
+        },
+        "separate_payments_label": "Vaše položky pochádzajú z viacerých obchodov. Musíte zaplatiť pomocou %{separate_payments_link}.",
+        "payments": "Platba",
+        "business_customer_with_bank_account_vaulting_payment_label": "Uložte túto platobnú metódu pri platbe a oprávnite %{company} naúčtovať vám účet za budúce nákupy, ktoré schválite pre túto lokalitu, až do zrušenia. Všetky kontaktné osoby priradené k tejto lokalite môžu používať túto platobnú metódu.",
+        "new_bank_account_disclaimer": "Dokončením objednávky oprávňujete %{shop_name} stiahnuť uvedenú sumu z nižšie uvedeného účtu v uvedenom čase prostredníctvom ACH.",
+        "bank_account_disclaimer": "Spracovanie ACH platieb môže trvať až 4 pracovné dni.",
+        "bank_account_vaulted_company_location": "Bankový účet uložený pre túto lokalitu",
+        "bank_account_generic_error": "Nie je možné pridať bankový účet. Skúste to neskôr znova.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} zľavový kód bol odstránený",
+          "other": "%{count} zľavových kódov bolo odstránených"
+        },
+        "default": "Štandard",
+        "continue_to_guest_checkout": "Ako hosť prejsť k pokladni",
+        "choose_new_payment_method": "Vyberte novú platobnú metódu",
+        "add_new_payment_method": "Pridať novú platobnú metódu",
+        "discount_codes_modified_summary": {
+          "one": "%{count} zľavový kód bol zmenený",
+          "other": "%{count} zľavových kódov bolo zmenených"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} zľavový kód bol odstránený alebo zmenený",
+          "other": "%{count} zľavových kódov bolo odstránených alebo zmenených"
+        }
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Platné od %{month}/%{year}",
+        "express_payment_gateway_label": "Expresný",
+        "free_label": "Zdarma"
+      },
+      "field_errors": {
+        "handle_email_invalid": "Zadajte platnú e-mailovú adresu",
+        "email_invalid": "Zadajte platnú e-mailovú adresu",
+        "email_or_phone_blank": "Zadajte e-mailovú adresu alebo telefónne číslo",
+        "email_or_phone_invalid": "Zadajte platnú e-mailovú adresu alebo mobilné telefónne číslo",
+        "address_first_name_blank": "Zadajte krstné meno",
+        "address_address2_blank": "Zadajte číslo bytu alebo suity atď.",
+        "address_country_blank": "Vyberte krajinu/región",
+        "address_country_not_supported": "Neposielame do tejto krajiny/totoho regiónu. Zadajte novú doručovaciu adresu a skúste to znova.",
+        "address_province_blank": "Vyberte štát/provinciu",
+        "address_company_blank": "Zadajte názov firmy",
+        "address_zip_blank": "Zadajte PSČ alebo poštové smerovacie číslo",
+        "address_zip_invalid_for_country": "Zadajte platný PSČ alebo poštové smerovacie číslo pre %{country}",
+        "address_zip_invalid_for_country_and_province": "Zadajte platný PSČ alebo poštové smerovacie číslo pre %{province}, %{country}",
+        "credit_card_name_blank": "Zadajte svoje meno tak, ako je uvedené na vašej karte",
+        "credit_card_name_invalid": "Zadajte svoje meno tak, ako je uvedené na vašej karte",
+        "credit_card_expiry_invalid": "Zadajte platný dátum expirácie",
+        "credit_card_month_invalid": "Zadajte platný mesiac vypršania platnosti",
+        "credit_card_year_invalid": "Zadajte platný rok expirácie",
+        "credit_card_start_month_invalid": "Zadajte platný počiatočný mesiac pre kartu",
+        "credit_card_start_year_invalid": "Zadajte platný počiatočný rok pre kartu",
+        "credit_card_verification_value_blank": "Zadajte CVV/CVC alebo bezpečnostný kód vašej karty",
+        "delivery_line_detail_changed": "Niektoré údaje o doručení sa mohli zmeniť. Skontrolujte svoju metódu doručenia a skúste to znova.",
+        "reduction_code_gift_card_unusable": "Nemôžete použiť darčekovú poukážku na nákup inej darčekovej poukážky",
+        "shipping_line_phone_blank": "Zadajte telefónne číslo na použitie tejto metódy doručenia",
+        "gift_card_already_applied": "Tento darčekový poukaz bol už použitý na tvoju objednávku",
+        "gift_card_disabled": "Táto darčeková poukážka už nie je k dispozícii"
       }
     }
   }

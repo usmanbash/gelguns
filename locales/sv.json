@@ -1052,7 +1052,79 @@
           "one": "Visa %{count} artiklar"
         },
         "price_before_discount_aria_text": "Ursprungligt pris",
-        "price_after_discount_aria_text": "Rabattpris"
+        "price_after_discount_aria_text": "Rabattpris",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Skicka till adress"
+        },
+        "deposit_label": "Handpenning",
+        "total_due_today_label": "Totalt att betala idag",
+        "total_due_later_label": "Totalt förfaller senare",
+        "discount_code_allocations_mismatch": "Din rabattkod <strong style=\"text-transform:uppercase\">%{code}</strong> har ändrats. Kontrollera din kundvagn och försök igen.",
+        "deferred_total_due_date_label_next": "Förfaller den %{date}",
+        "total_due_label": "Totalt skyldig",
+        "total_price_label": "Totalt pris",
+        "unconfirmed_label": "Ej bekräftad",
+        "total_paid_label": "Totalt betalt",
+        "order_discounts_apply_to_local_shop": "Beställningsrabatter gäller endast för artiklar från %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Presentkort gäller endast för artiklar från %{shop_name}",
+        "estimated_taxes_label_short": "Uppskattat",
+        "pay_merchant_label": "Betala med %{merchant_name}",
+        "discount_applies_to_subscription_items_only": "Rabatten gäller endast för prenumerationsartiklar",
+        "estimated_taxes_finalization_tooltip_content_short": "Skatteavrundning efter betalning",
+        "compare_at_sale": "Utförsäljning (%{sale_amount})",
+        "tax_line": {
+          "gst": "MOMS"
+        }
+      },
+      "shipping": {
+        "shipping_method_title": "Fraktsätt",
+        "waiting_on_rate_notice": "Hämtar tillgängliga fraktpriser...",
+        "waiting_on_pickup_location_notice": "Hämtar tillgängliga upphämtningsplatser...",
+        "no_rates_for_cart_or_destination_notice": "Det finns inga leveransmetoder tillgängliga för din kundvagn eller adress",
+        "no_pickup_location_notice": "Minst en av dina produkter kan inte hämtas upp",
+        "no_rates_for_country_notice": "Inga fraktpriser hittades för denna adress.",
+        "no_rates_contact_notice": "Kontakta oss för mer information",
+        "cheapest_rate_label": "Billigast",
+        "shipping_line_phone_label": "Mobiltelefonnummer (obligatoriskt)",
+        "shipping_line_phone": "Din budbärare kan använda detta nummer för att kontakta dig.",
+        "other_method": {
+          "zero": "Inga andra metoder tillgängliga",
+          "one": "%{count} annan metod tillgänglig från",
+          "other": "%{count} andra metoder tillgängliga från"
+        },
+        "shipping_rate_discounted_amount": "Före: %{original_amount}. Nu: %{amount}",
+        "shipping_line_delivery_phone": "Det kan hända att du blir kontaktad med uppdateringar om din leverans.",
+        "optional_shipping_line_delivery_instructions_label": "Lämningsanvisningar (valfritt)",
+        "shipping_line_delivery_phone_label": "Mobiltelefonnummer",
+        "shipping_line_delivery_instructions": "Ange den nödvändiga informationen såsom dörrkoder och leveransinstruktioner.",
+        "local_delivery": "Lokal utkörning",
+        "subscription_shipping": "Prenumeration för utskick",
+        "one_time_purchase_shipping": "Skicka en gång",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "för %{count} leverans(er)"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "other": "varje %{count} dag"
+            },
+            "week": {
+              "other": "varje %{count} veckor"
+            },
+            "month": {
+              "other": "varje %{count} månader"
+            },
+            "year": {
+              "other": "varje %{count} år"
+            }
+          },
+          "initial_order_discounted": "Första fraktkostnaden %{discounted_shipping_cost}, därefter %{frequency_description}",
+          "prepaid_initial_order_discounted": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency}, därefter %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), därefter %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inkluderat"
+        }
       }
     }
   }
