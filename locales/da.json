@@ -2826,10 +2826,82 @@
               "ie": "Et momsregistreringsnummer fra Irland indeholder IE og 8-9 tegn",
               "it": "Et momsregistreringsnummer fra Italien indeholder IT og 11 tegn",
               "lv": "Et momsregistreringsnummer fra Letland indeholder LV og 11 tegn",
-              "lt": "Et momsregistreringsnummer fra Litauen indeholder LT og 9-12 tegn"
+              "lt": "Et momsregistreringsnummer fra Litauen indeholder LT og 9-12 tegn",
+              "lu": "Et momsregistreringsnummer fra Luxembourg indeholder LU og 8 tegn",
+              "mt": "Et momsregistreringsnummer fra Malta indeholder MT og 8 tegn",
+              "nl": "Et momsregistreringsnummer fra Nederland indeholder NL og 12 tegn",
+              "pl": "Et momsregistreringsnummer fra Polen indeholder PL og 10 tegn",
+              "pt": "Et momsregistreringsnummer fra Portugal indeholder PT og 9 tegn",
+              "ro": "Et momsregistreringsnummer fra Rumænien indeholder RO og 10 tegn",
+              "sk": "Et momsregistreringsnummer fra Slovakiet indeholder SK og 10 tegn",
+              "si": "Et momsregistreringsnummer fra Slovenien indeholder SI og 8 tegn",
+              "es": "Et momsregistreringsnummer fra Spanien indeholder ES og 9 tegn",
+              "se": "Et momsregistreringsnummer fra Sverige indeholder SE og 12 tegn",
+              "gb": "Et momsregistreringsnummer fra Storbritannien indeholder GB eller XI og 5-12 tegn"
+            },
+            "invalid_number": {
+              "at": "Indtast et gyldigt østrigsk momsregistreringsnummer",
+              "be": "Indtast et gyldigt belgisk momsregistreringsnummer",
+              "bg": "Indtast et gyldigt bulgarsk momsregistreringsnummer",
+              "hr": "Indtast et gyldigt kroatisk momsregistreringsnummer",
+              "cy": "Indtast et gyldigt cypriotisk momsregistreringsnummer",
+              "cz": "Indtast et gyldigt tjekkisk momsregistreringsnummer",
+              "dk": "Indtast et gyldigt dansk momsregistreringsnummer",
+              "ee": "Indtast et gyldigt estisk momsregistreringsnummer",
+              "fi": "Indtast et gyldigt finsk momsregistreringsnummer",
+              "gr": "Indtast et gyldigt græsk momsregistreringsnummer",
+              "hu": "Indtast et gyldigt ungarsk momsregistreringsnummer",
+              "lv": "Indtast et gyldigt lettisk momsregistreringsnummer",
+              "lt": "Indtast et gyldigt litauisk momsregistreringsnummer",
+              "lu": "Indtast et gyldigt luxembourgsk momsregistreringsnummer",
+              "mt": "Indtast et gyldigt maltesisk momsregistreringsnummer",
+              "pl": "Indtast et gyldigt polsk momsregistreringsnummer",
+              "ro": "Indtast et gyldigt rumænsk momsregistreringsnummer",
+              "sk": "Indtast et gyldigt slovakisk momsregistreringsnummer",
+              "si": "Indtast et gyldigt slovensk momsregistreringsnummer",
+              "se": "Indtast et gyldigt svensk momsregistreringsnummer",
+              "gb": "Indtast et gyldigt momsregistreringsnummer fra Storbritannien"
+            },
+            "service_unavailable": "Valideringstjeneste ikke tilgængelig",
+            "service_error": "Valideringstjeneste ikke tilgængelig"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Validering af momsregistreringsnummer udføres",
+              "valid": "Btw-identifikationsnummer er gyldigt",
+              "applied": "Momsfritagelse er anvendt",
+              "domestic": "Momsfritagelse er ikke anvendt",
+              "invalid_number": "Momsfritagelse mislykkedes",
+              "service_unavailable": "Kan ikke bekræfte momsundtagelse",
+              "service_error": "Kan ikke bekræfte momsundtagelse"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Denne betaling er ikke længere nødvendig. Gå til bestillingssiden for mere information.",
+        "paid": "Denne betaling er allerede indsendt. Gå til bestillingssiden for mere information."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Der kræves en udvidelsesinteraktion for at fuldføre kassen."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Kontrollér din bestilling"
+        },
+        "shipping": {
+          "shipping_options": "Se alle forsendelsesmuligheder"
+        }
+      },
+      "too_many_requests": {
+        "title": "For mange forsøg på betaling",
+        "body": "Vent et par minutter, og prøv igen fra din indkøbskurv.",
+        "return_to_cart": "Tilbage til indkøbskurv"
+      },
+      "address_management": {
+        "saved_with_store": "Gemt hos denne butik"
       }
     }
   }

@@ -3548,7 +3548,81 @@
       },
       "order_status": {
         "canceled_label": "Отменено",
-        "canceled_title": "Вашата поръчка е анулирана"
+        "canceled_title": "Вашата поръчка е анулирана",
+        "come_back": "Върнете се на тази страница за актуализации на статуса на вашата пратка.",
+        "company_tracking_number": "{{company}}-номер за проследяване:",
+        "confirmed_title": "Вашата поръчка е потвърдена",
+        "delivered_label": "Загрижен",
+        "estimated_delivery": "Очаква се на {{date}}",
+        "in_review_label": "За оценка",
+        "in_review_title": "Вашата поръчка се преглежда",
+        "no_tracking_number": "Няма номер за проследяване за тази пратка.",
+        "on_its_way_label": "По пътя",
+        "out_for_delivery_label": "Готово за доставка",
+        "submitted_label": "Подадено",
+        "track_shipment": "Проследяване на пратка",
+        "request_return": "Заяви връщане",
+        "preparing_for_shipping_label": "Подготовка за изпращане",
+        "ready_for_pickup_label": "Готово за вземане",
+        "ready_for_pickup_description": "Тези артикули са готови за вземане. Вземете потвърждението за поръчката, когато вземате поръчката.",
+        "picked_up_label": "Взето",
+        "submitted_description": "Проверете поръчката и данните за плащане.",
+        "last_updated": "Последна актуализация на {{date}}",
+        "view_order_for_details": "Преглед на поръчката за продуктови данни",
+        "delivered_description_gift_card": {
+          "one": "Cadeaubon е изпратен по имейл.",
+          "other": "Подаръчните ваучери са изпратени по имейл."
+        },
+        "gift_card_label": {
+          "one": "Подаръчен ваучер",
+          "other": "Подаръчни ваучери"
+        },
+        "ready_for_pickup_location": "Поръчката ви е готова за вземане на място",
+        "confirmed_description_pickup": "Ще получите имейл, когато поръчката ви е готова за вземане.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Подаръчният ваучер ще бъде изпратен в отделен имейл.",
+          "other": "Всяка подаръчна карта се изпраща в отделен имейл."
+        },
+        "confirmed_description_gift_card_text": "Ще получите SMS, когато поръчката е готова.",
+        "delivered_description_gift_card_text": {
+          "one": "Подаръчният ваучер е изпратен чрез SMS.",
+          "other": "Подаръчните ваучери са изпратени чрез SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Подаръчният ваучер се изпраща в отделно SMS съобщение.",
+          "other": "Всяка подаръчна карта се изпраща в отделно SMS съобщение."
+        },
+        "gift_resend_success": {
+          "one": "Подаръчен ваучер изпратен отново",
+          "other": "Подаръчни ваучери изпратени отново"
+        },
+        "gift_resend_failure": {
+          "one": "Възникна проблем при повторното изпращане на вашия подаръчен ваучер. Моля, опитайте отново или се свържете с нас.",
+          "other": "Възникна проблем при повторното изпращане на твоите подаръчни ваучери. Опитай отново или се свържи с нас."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Управление с Amazon"
+          }
+        },
+        "attempted_to_deliver_label": "Опит за доставка",
+        "buy_with_prime_logo_accessibility_label": "Amazon Купи с Prime-лого",
+        "delivered": "Доставено на {{date}}",
+        "complete_label": "Завършено",
+        "multiple_statuses_label": "Няколко статуса на поръчката",
+        "status_timestamp": "Актуализирано на {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Доставка, поддържана от",
+            "mixed_brands_label": "Доставка гарантирана",
+            "modal_accessibility_button_label": "Обещание за доставка на данни"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Искане на Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} за да получите Shop Cash",
+            "download_shop_app_label": "Изтегляне на магазина"
+          }
+        }
       }
     }
   }
