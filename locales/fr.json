@@ -3253,7 +3253,93 @@
         "confirmation": "Vous vous êtes désabonné de notre liste de diffusion.",
         "disclaimer": "Vous ne recevrez plus de mises à jour publicitaires de notre part. Vous pouvez vous réinscrire à tout moment.",
         "preview": "Vous regardez un aperçu de ce que les clients verront lorsqu'ils se désabonneront."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vous avez donné votre consentement pour le suivi d'ouverture des courriels.</b>",
+          "visibility": "Les pourcentages d'ouverture des courriels sont rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un courriel dans le cadre d'un pourcentage d'ouverture de courriels agrégé.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager ces informations.",
+          "preview_bar": "Vous regardez un exemple de ce que les clients voient lorsqu'ils donnent leur accord pour recevoir des courriels concernant le suivi ouvert."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vous vous êtes désinscrit du suivi d'ouverture des courriels.</b>",
+          "visibility": "Nous ne voyons pas si vous avez ouvert nos courriels.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Donner la permission</a> pour le suivi ouvert des e-mails.",
+          "preview_bar": "Vous voyez un exemple de ce que les clients voient lorsqu'ils se désabonnent de la réception d'e-mails concernant le suivi ouvert."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nous ne suivons plus si les courriels sont ouverts.</b>",
+          "privacy_policy": "Après l'envoi de ce courriel, nous avons mis à jour notre politique de confidentialité et ne suivons plus l'ouverture des courriels."
+        },
+        "track": {
+          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
+          "visibility": "Nous ne saurons que si vous avez ouvert l’e-mail que dans le cadre du pourcentage total d’ouverture des courriels."
+        },
+        "updated_policy": {
+          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
+          "visibility": "Nous avons mis à jour notre politique et suivons désormais les courriels ouverts. Les pourcentages d'ouverture des courriels sont rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un courriel, dans le cadre du pourcentage total d'ouverture des courriels.",
+          "opt_out_html": "Si vous ne souhaitez plus partager ces informations, vous pouvez vous <a style='text-decoration:underline;' href='%{link}'>désinscrire</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Êtes-vous sûr de vouloir vous désinscrire du marketing par SMS ?",
+        "button": "Se désinscrire"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Généralement prêt en moins d'une heure",
+        "two_hours": "Généralement prêt en 2 heures",
+        "four_hours": "Généralement prêt en 4 heures",
+        "twenty_four_hours": "Généralement prêt sous 24 heures",
+        "two_to_four_days": "Généralement prêt sous 2 à 4 jours",
+        "five_or_more_days": "Généralement prêt en plus de 5 jours",
+        "zero_to_two_hours": "Généralement prêt en 2 heures",
+        "two_to_four_hours": "Généralement prêt en 4 heures",
+        "immediately": "Prêt à être retiré maintenant",
+        "next_day": "Prêt à être retiré le lendemain"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Rupture de stock"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Prix : du plus bas au plus élevé",
+        "price_descending": "Prix : du plus élevé au plus bas"
+      },
+      "error": "Un problème est survenu lors du chargement des résultats de recherche. Rafraîchissez la page ou réessayez plus tard."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Cet article est un achat récurrent ou différé. En continuant, j'accepte la %{cancellationPolicyLink} et je vous autorise également à débiter les prix indiqués de mon mode de paiement, à la fréquence et aux dates indiquées, jusqu'à ce que ma commande soit traitée ou jusqu'à ce que j'annule, si cela est autorisé.",
+      "buyer_consent_cart": "Un ou plusieurs articles dans votre panier sont des achats différés ou récurrents. En continuant, j'accepte la %{cancellationPolicyLink} et je vous autorise également à débiter les prix indiqués de mon mode de paiement, à la fréquence et aux dates indiquées, jusqu'à ce que ma commande soit traitée ou jusqu'à ce que j'annule, si cela est permis."
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "loading_message": "Chargement de la navigation du compte"
+      },
+      "action_menu_accessibility_label": "Plus d'offres",
+      "close_menu_accessibility_label": "Fermer la navigation principale",
+      "contact_email_subject": "Personne de contact de la boutique en ligne {{shopName}}",
+      "dismiss_toast": "Fermer",
+      "document_title": "{{sectionName}} - {{shopName}} - compte",
+      "loading_message": "Chargement",
+      "logout_overlay_label": "Déconnexion...",
+      "nav_label_accessibility_label": "Navigation principale",
+      "navigation_accessibility_message": "Vous avez navigué vers {{sectionName}}",
+      "open_menu_accessibility_label": "Ouvrir la navigation principale",
+      "country_switcher_toast_message": "Le pays a été changé pour {{countryName}}",
+      "switch_country": "Changer de pays",
+      "search": "Chercher",
+      "location_switcher_toast_message": "Emplacement changé en {{locationName}}",
+      "switch_location": "Changer d'emplacement",
+      "view_details": "Afficher les données"
     }
   }
 }
