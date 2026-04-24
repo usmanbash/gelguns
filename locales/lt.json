@@ -1550,7 +1550,77 @@
         "markets_pro_disclaimer_label": "Pateikdami užsakymą, jūs sutinkate su pirkimu iš Global-e kaip registruoto prekybininko, laikantis %{markets_pro_terms} ir %{privacy_policy} iš Global-e, ir dalijatės savo duomenimis su %{shop_name}.",
         "markets_pro_disclaimer_terms_and_conditions": "bendrosios sąlygos",
         "markets_pro_disclaimer_privacy_policy": "privatumo politika",
-        "markets_pro_disclaimer_terms_and_conditions_title": "Bendrosios sąlygos prekybininkams, įrašytiems į sąrašą"
+        "markets_pro_disclaimer_terms_and_conditions_title": "Bendrosios sąlygos prekybininkams, įrašytiems į sąrašą",
+        "markets_pro_disclaimer_privacy_policy_title": "Privatumo politika prekybininkams, kurie yra įrašyti kaip atsakingi už sandorius",
+        "purchase_order_number": {
+          "title": "Užsakymo numeris",
+          "label": "Užsakymo numeris (pasirinktinai)"
+        },
+        "alternative_payment_currency_total_notice": "Pastaba: Bus nuskaičiuota %{amount_due}.",
+        "waiting_on_taxes_message": "Atnaujinkite puslapį, jei mokesčiai nebus apskaičiuoti per kelias sekundes.",
+        "waiting_on_taxes_notice": "Mokesčių skaičiavimas",
+        "order_edit_banner_multiple_items_returned": "{{amount}} grąžinta",
+        "shop_pay_installments_label": "Pirkti su Pay-termijnbetalingen",
+        "delete_credit_card_modal": {
+          "title": "Pašalinti kortelę",
+          "confirmation": "Ar tikrai norite pašalinti {{brandName}}, kurio pabaiga yra {{lastDigits}}?",
+          "delete": "Pašalinti"
+        },
+        "order_edit_banner_items_added": {
+          "other": "Pridėta %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Ištrinta",
+          "with_quantities": "{{delta}} iš {{quantity}} pašalinta"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} grąžinta",
+          "with_quantities": "{{delta}} iš {{quantity}} grąžinta"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Pašalinti"
+        },
+        "edit_credit_card_modal": {
+          "done": "Paruošta",
+          "description": "Galite pakeisti tik savo kortelės sąskaitos faktūros adresą.",
+          "fields": {
+            "default": "Nustatyti kaip numatytąją reikšmę",
+            "expiry": "Galiojimo data",
+            "security_code": "Saugumo kodas",
+            "name": "Vardas kortelėje",
+            "billing": "Sąskaitos išrašymas gavėjui"
+          }
+        },
+        "expired_payment_method": "Pasirinktas mokėjimo būdas pasibaigė galiojimo laikui",
+        "subscription_heading": "Prenumeratos sutartis",
+        "use_order_billing_address_label": "Naudoti užsakymo sąskaitos adresą",
+        "use_location_billing_address_label": "Naudoti vietos sąskaitos faktūros adresą",
+        "use_location_shipping_address_label": "Naudoti pristatymo adresą iš vietos",
+        "purchase_options_agreement_label_wallets": "Jei tęsite mokėjimą, sutinkate su būsimais mokėjimais, nurodytais šiame puslapyje, ir su atšaukimo politika.",
+        "gift_card_store_credit": {
+          "add_label": "Pridėti dovanų kuponą arba parduotuvės kreditą",
+          "manage_label": "Dovanų kuponų arba parduotuvės kredito valdymas"
+        },
+        "saved_credit_card_cvv_verification": "Įveskite savo kortelės saugos kodą patvirtinimui.",
+        "afterpay_label": "Mokėkite vėliau",
+        "cashapppay_label": "Cash App Mokėjimas",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Pašalinta iš grąžinimų",
+          "with_quantities": "{{delta}} pašalintas iš grąžinimo"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Pašalinta iš grąžinimų",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} pašalinta iš grąžinimo",
+        "proposed_gateway_unavailable": "Siūlomas mokėjimo šliuzas nėra pasiekiamas",
+        "pay_in_installments_split_pay_short": "Keturi mokėjimai po %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Mokėjimo būdas nepasiekiamas pasirinktu pristatymo adresu. Pasirinkite kitą mokėjimo būdą.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nėra prieinamas šiam užsakymui. Pasirinkite kitą mokėjimo būdą.",
+        "paypal_wallet_label": "PayPal piniginė",
+        "payment_method_update_failed": "Mokėjimo metodo atnaujinimas nepavyko.",
+        "alternative_payment_currency_total_manual_payment_notice": "Pastaba: Konvertuota suma yra %{amount_due}.",
+        "gift_cards_unavailable": "Dovanų kuponas negali būti naudojamas šiam užsakymui ir todėl buvo pašalintas",
+        "network_card_payment_options": "Pasirinkti kredito kortelių bendrovę",
+        "payment_flexibility_terms_id_mismatch": "ID sąlygos mokėjimo lankstumui nesutampa",
+        "offsite_gateway_review_page_redirect_hint": "Patikrinus užsakymą, būsite nukreipti į %{gateway_label}, kad užbaigtumėte pirkimą."
       }
     }
   }
