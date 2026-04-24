@@ -3640,7 +3640,73 @@
       "order_details": "Bestillingsoplysninger",
       "contact_information": "Kontaktoplysninger",
       "login_to_view_all_order_details": "Log ind for at se alle bestillingsoplysninger.",
-      "order_details_skeleton_accessibility_label": "Log ind for at se alle bestillingsoplysninger."
+      "order_details_skeleton_accessibility_label": "Log ind for at se alle bestillingsoplysninger.",
+      "tip": "Drikkepenge",
+      "duties": "Toldrettigheder",
+      "ok_duties_tooltip": "Denne ordre sendes fra et andet land, så der er lagt toldafgifter til det samlede ordrebeløb.",
+      "error_duties_tooltip": "Denne ordre sendes fra et andet land, så der kan blive opkrævet told og afgifter ved levering.",
+      "zero_duties_tooltip": "Denne ordre sendes fra et andet land. Der opkræves ikke toldafgifter på ordrer med denne værdi.",
+      "group_title_label": "Del af: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Genopfyldningsomkostninger",
+        "return_shipping_fee": "Returnering"
+      },
+      "vat_invoices": {
+        "title": "Momsfakturaen"
+      },
+      "taxes_included": "Inklusive {{amount}} moms",
+      "duties_and_taxes_included": "Det samlede beløb inkluderer told og afgifter. Ingen ekstra betaling ved levering.",
+      "grouped_view_components": {
+        "expand_line_items": "Viser {{count}} artikler",
+        "collapse_line_items": "Skjul {{count}} artikler",
+        "line_item_summary_accessibility_label": "{{productTitle}}, mængde: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Varer i bundt {{productTitle}}"
+      },
+      "cash_rounding": "Kontantbeløb afrundes",
+      "adjusted_payment": "Tilpasset betaling",
+      "adjusted_total": "Tilpasset samlet",
+      "login_card": {
+        "link_expired": "Link udløbet",
+        "resend_link_and_login": "Du kan se dine bestillingsoplysninger ved at logge ind eller sende et nyt link til den e-mailadresse eller det telefonnummer, der blev brugt ved kassen.",
+        "resend_link_only": "Du kan se dine bestillingsoplysninger ved at sende et nyt link til den e-mailadresse eller det telefonnummer, du brugte ved kassen.",
+        "resend_link": "Send ny forbindelse",
+        "title": "Se bestillingsoplysninger"
+      },
+      "link_sent": "Link sendt",
+      "company_and_location": "Virksomhed og beliggenhed",
+      "due_on_date": "Skyldigt den {{date}}",
+      "due_on_fulfillment": "At betale ved opfyldelse",
+      "due_on_receipt": "Betales ved modtagelse",
+      "group_title_label_with_parent": "Til: {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Tak! Din betaling på {{amount}} er modtaget.",
+        "full_payment_received": "Tak! Din betaling på {{amount}} er modtaget, og denne ordre er nu fuldt betalt.",
+        "dismiss_label": "Luk betalingsbekræftelse"
+      },
+      "marketing_pending_confirmation": "Klik på linket i din e-mail for at bekræfte.",
+      "marketing_resend_email": "Send e-mail igen",
+      "marketing_resend_email_success": "Link sendt",
+      "subtotal_label_with_quantity": {
+        "one": "Delsum"
+      },
+      "price_after_discount_accessibility_label": "Rabatpris",
+      "discount_order_stacking": {
+        "one": "Bestillingsrabat",
+        "other": "Bestillingsrabat"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adresse fjernet",
+      "cancel_adding_address_accessibility_label": "Tilføj adresse annuller",
+      "cancel_deletion_button_accessibility_label": "Fjern {{address}} annullér",
+      "delete_button": "Fjern",
+      "delete_button_accessibility_label": "Fjern {{address}}",
+      "delete_confirmation_button": "Fjern adresse",
+      "delete_confirmation_button_accessibility_label": "Fjern {{address}}",
+      "delete_confirmation_message": "Adresse slette? Dette påvirker ikke eksisterende ordrer.",
+      "loading_accessibility_message": "Indlæs adresse",
+      "loading_addresses_accessibility_message": "Indlæs adressen",
+      "loading_billing_accessibility_message": "Indlæser faktureringsadresser"
     }
   }
 }
