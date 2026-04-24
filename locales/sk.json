@@ -2484,6 +2484,94 @@
             "permission_not_allowed": "Povoľte zdieľanie svojej polohy.",
             "permission_denied": "Nie je možné získať polohu. Skúste to znova."
           }
+        },
+        "no_business_hours": "Nie sú dostupné otváracie hodiny",
+        "open_twenty_four_hours": "24/7 otvorené",
+        "pickup_unavailable_banner_title": {
+          "one": "Pre tvoj tovar nie sú k dispozícii žiadne miesta na vyzdvihnutie",
+          "other": "Pre tvoje položky nie sú k dispozícii žiadne miesta na vyzdvihnutie"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Vyskytol sa problém pri pokladni",
+          "message": "Obnovte túto stránku alebo to skúste o pár minút znova",
+          "action": {
+            "cta": "Znova načítať stránku"
+          }
+        },
+        "embed_errors": {
+          "customer_account_required": "Pre dokončenie objednávky je potrebný zákaznícky účet",
+          "invalid_cart": "Nákupný košík už nie je platný",
+          "not_authorized": "Overenie pri pokladni zlyhalo. Overte svoje prihlasovacie údaje pre aplikáciu.",
+          "policy_violation": "Nie je možné dokončiť pokladňu kvôli obmedzeniam konfigurácie politiky",
+          "unrecoverable_failure": "Nedá sa načítať pokladňa. Skúste to znova."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Späť do košíka",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} na aktualizáciu množstiev",
+        "subscription_changed": "Jeden z tvojich predplatných bol zmenený.",
+        "company_location_changed": "Váš nákupný košík bol upravený. Skontrolujte svoju objednávku pred odoslaním.",
+        "violations_title": "{{violation}} chýba alebo je neplatný",
+        "individual_violations_title": {
+          "OtherViolations": "Údaje o objednávke",
+          "UnhandledViolations": "Údaje o objednávke"
+        },
+        "all_violations_content": "Zavolajte na {{emailLink}}, aby ste aktualizovali tieto údaje a dokončili svoju objednávku:",
+        "editable_shipping_address_violations_message_title": "Pridajte tieto informácie na dokončenie vašej objednávky:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} na trvalú aktualizáciu adresy pre túto lokalitu.",
+        "editable_shipping_address_violations_email_link": "Kontaktujte nás",
+        "company_location_changed_product_removed": "Váš nákupný košík bol upravený, pretože niektoré produkty nie sú na tejto lokalite dostupné. Skontrolujte svoju objednávku pred jej odoslaním.",
+        "shipping_address_incomplete_title": "Dodacia adresa je neúplná",
+        "calculating_shipping": "Doprava sa ešte počíta. Skúste to znova o niekoľko sekúnd. Neboli účtované žiadne poplatky.",
+        "calculating_taxes": "Dane sa ešte počítajú. Skúste to znova o niekoľko sekúnd. Neboli účtované žiadne poplatky.",
+        "generic_processing_error": {
+          "title": "Pri spracovaní tvojej objednávky sa vyskytol problém",
+          "body": "Neboli účtované žiadne poplatky. Skúste to znova alebo použite inú platobnú metódu."
+        },
+        "contact_information": {
+          "header": "{{emailLink}} na aktualizáciu vašich údajov",
+          "email_link": "Kontaktujte nás"
+        },
+        "payment_method_not_available_with_payment_terms": "Spôsob platby, ktorý ste vybrali, už nie je k dispozícii, pretože platba za túto objednávku teraz spadá pod podmienky {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Platobná metóda, ktorú ste vybrali, už nie je dostupná, pretože platba za túto objednávku musí byť teraz vykonaná pri plnení.",
+        "payment_method_not_available_with_fixed_terms": "Platobná metóda, ktorú ste vybrali, už nie je k dispozícii, pretože platba za túto objednávku musí byť vykonaná neskôr.",
+        "payment_method_not_available_with_review_requirement": "Platobná metóda, ktorú ste vybrali, už nie je dostupná, pretože platba je splatná po potvrdení objednávky.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "Je {{count}} chyba:",
+            "other": "Je {{count}} chýb:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} chyba v {{section}}",
+            "other": "{{count}} chýb v {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Skontrolovať adresu",
+        "subtitle": {
+          "one": "Táto objednávka bude odoslaná na adresu, ktorú uviedol {{merchant}}.",
+          "other": "Táto objednávka bude odoslaná na adresu, ktorú zadal {{merchant}}. Vyberte doručovaciu adresu."
+        },
+        "subtitle_no_match": "Táto adresa nezodpovedá žiadnej z tvojich uložených adries.",
+        "subtitle_must_use": "Vaša objednávka bude odoslaná na túto adresu.",
+        "continue": "Pokračovať s touto adresou",
+        "return_to_cart": "Späť do košíka"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Čítať",
+          "link_label": "všeobecné obchodné podmienky {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Otázky? Chatovať s nami"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "V blízkosti je %{count} miesto s dostupným skladom"
         }
       }
     }

@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Accesați magazinul folosind parola:",
-      "login_password_button": "Accesați folosind parola",
+      "login_form_heading": "Intrați în magazin cu parola:",
+      "login_password_button": "Intră cu parola",
       "login_form_password_label": "Parolă",
-      "login_form_password_placeholder": "Parola dvs.",
+      "login_form_password_placeholder": "Parola ta",
       "login_form_error": "Parolă incorectă!",
-      "login_form_submit": "Accesați",
-      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"/admin\" class=\"link underlined-link\">Conectați-vă aici</a>",
-      "powered_by_shopify_html": "Acest magazin va fi pe platforma {{ shopify }}"
+      "login_form_submit": "Introducere",
+      "admin_link_html": "Ești proprietarul magazinului? <a href=\"/admin\" class=\"link underlined-link\">Conectează-te aici</a>",
+      "powered_by_shopify_html": "Acest magazin este alimentat de {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Distribuiți pe Facebook",
-        "share_on_twitter": "Partajează pe X",
-        "share_on_pinterest": "Postați un Pin pe Pinterest"
+        "share_on_facebook": "Distribuie pe Facebook",
+        "share_on_twitter": "Distribuie pe X",
+        "share_on_pinterest": "Fixează pe Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (fost Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,56 +37,56 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continuați cumpărăturile",
+    "continue_shopping": "Întoarcere la magazin",
     "pagination": {
       "label": "Paginare",
       "page": "Pagina {{ number }}",
       "next": "Pagina următoare",
-      "previous": "Pagina precedentă"
+      "previous": "Pagina anterioară"
     },
     "search": {
-      "search": "Căutați",
-      "reset": "Golește termenul de căutare"
+      "search": "Căutare",
+      "reset": "Șterge termenul de căutare"
     },
     "cart": {
-      "view": "Vezi coșul ({{ count }})",
-      "item_added": "Articolul a fost adăugat în coș",
-      "view_empty_cart": "Vezi coșul"
+      "view": "Vezi coșul de cumpărături ({{ count }})",
+      "item_added": "Articol adăugat în coșul de cumpărături",
+      "view_empty_cart": "Vezi coșul de cumpărături"
     },
     "share": {
-      "copy_to_clipboard": "Copiați linkul",
-      "share_url": "Link",
-      "success_message": "Linkul a fost copiat în clipboard",
-      "close": "Închide partajarea"
+      "copy_to_clipboard": "Copiază linkul",
+      "share_url": "Legătură",
+      "success_message": "Link copiat în clipboard",
+      "close": "Închide distribuirea"
     },
     "slider": {
-      "of": "din",
-      "next_slide": "Glisare la dreapta",
-      "previous_slide": "Glisare la stânga",
-      "name": "Glisor"
+      "of": "furgonetă",
+      "next_slide": "Glisați spre dreapta",
+      "previous_slide": "Glisați spre stânga",
+      "name": "Regulator glisant"
     }
   },
   "newsletter": {
     "label": "E-mail",
-    "success": "Vă mulțumim că v-ați abonat",
-    "button_label": "Abonați-vă"
+    "success": "Mulțumim pentru abonare",
+    "button_label": "Abonare"
   },
   "accessibility": {
-    "skip_to_text": "Salt la conținut",
-    "close": "Închideți",
+    "skip_to_text": "Mergi direct la conținut",
+    "close": "Închide",
     "unit_price_separator": "pe",
     "vendor": "Vânzător:",
     "error": "Eroare",
-    "refresh_page": "Alegerea unei selecții are ca rezultat o reîmprospătare completă a paginii.",
+    "refresh_page": "Selectarea unei opțiuni va reîncărca complet pagina.",
     "loading": "Se încarcă...",
     "link_messages": {
       "new_window": "Se deschide într-o fereastră nouă.",
       "external": "Deschide site-ul extern."
     },
-    "skip_to_product_info": "Salt la informațiile despre produs",
-    "total_reviews": "total recenzii",
+    "skip_to_product_info": "Mergi direct la informațiile despre produs",
+    "total_reviews": "număr total de recenzii",
     "star_reviews_info": "{{ rating_value }} din {{ rating_max }} stele",
-    "collapsible_content_title": "Conținut care poate fi restrâns",
+    "collapsible_content_title": "Conținut pliabil",
     "complementary_products": "Produse complementare"
   },
   "blogs": {
@@ -4414,7 +4414,34 @@
         "loading": "Se încarcă fereastra pentru schimbarea metodei de plată",
         "success": "Metoda de plată actualizată",
         "invalid_subscription_contract": "Nu se poate găsi abonamentul",
-        "expiry_date": "Expiră la {{expiryDate}}"
+        "expiry_date": "Expiră la {{expiryDate}}",
+        "edit_current_payment_method": "Modifică metoda de plată curentă",
+        "edit_selected_payment_method": "Modifică metoda de plată selectată"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logo",
+      "step_one": {
+        "page_title": "Autentificare - %{shop_name}",
+        "heading": "Autentificare",
+        "subheading": "Introduceți adresa dvs. de e-mail și vă vom trimite un cod de verificare",
+        "input_field_label": "Adresă de email",
+        "subheading_with_sign_in_options": "Autentificare sau creare cont",
+        "or": "din",
+        "consent_agreement": "Continuând, ești de acord cu %{terms}"
+      },
+      "step_two": {
+        "page_title": "Introduceți codul - %{shop_name}",
+        "heading": "Introduceți codul",
+        "subheading": "Trimis către %{email}",
+        "restart_link": "Autentificare cu o altă adresă de e-mail",
+        "input_field_label": "Cod de 6 cifre"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Introduceți o adresă de email valabilă",
+          "invalid_code": "Introduceți codul corect format din șase cifre"
+        }
       }
     }
   }
