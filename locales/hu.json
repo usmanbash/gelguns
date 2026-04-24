@@ -1440,7 +1440,77 @@
           "connect": "Kattints az Apple Pay-fiókod összekapcsolásához",
           "not_available": "Az Apple Pay nem érhető el ebben a böngészőben. Az Apple Pay-fiókod összekapcsolásához Safari böngészőt kell használnod egy Apple-készüléken."
         },
-        "account_connected": "Fiók összekapcsolva."
+        "account_connected": "Fiók összekapcsolva.",
+        "billing_address_associated_with_mandate": "A fizetési módhoz kapcsolt címet használni",
+        "billing_address_associated_with_mandate_info": "A számlázási cím módosításához töröld a hitelkártyaadataidat, majd add meg újra azokat.",
+        "credit_card_vaulting_sign_in_banner_info": "Jelentkezz be vagy hozz létre egy fiókot, hogy elmentsd a bankkártyádat a jövőbeni vásárlásokhoz.",
+        "expiry_long": "(Lejár %{month}/%{year})",
+        "expiry_short": "(Lejár %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Mentse ezt a hitelkártyát a fiókomban a gyorsabb fizetés érdekében",
+        "delete_customer_mandate_modal_title": "Ezt a fizetőkártyát törölni?",
+        "delete_customer_mandate_modal_body": "Ha eltávolítod ezt a kártyát, újra hozzá kell adnod, mielőtt fizetésre használnád.",
+        "google": {
+          "connect": "Kattints a Google Pay-fiókod összekapcsolásához",
+          "error_authorizing": "Hiba a fizetés engedélyezésekor"
+        },
+        "mor_disclaimer_html": "Ha az alábbi gombra kattintasz és befejezed a rendelésed, elfogadod, hogy a termék(ek)et a Global-e-től vásárold meg, mint regisztrált kereskedőt ezen tranzakció során, a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Általános feltételek</a> és a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Adatvédelmi szabályzat</a> szerint. A Global-e egy nemzetközi teljesítési szolgáltató a %{shop_name} számára.",
+        "purchase_options_card_update_agreement_label_html": "Ha frissíted a fizetési módot, engedélyezed a fizetéseket minden ismétlődő vagy elhalasztott vásárlás esetén a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> szerint, amely erre az üzletre vonatkozik.",
+        "multibanco_label": "Multibank",
+        "receiver_payment_experience_hint": "A rendelés leadása után megkapod a fizetési adatokat. A fizetést %{due_days} napon belül teljesítsd Multibanco-nál vagy online.",
+        "pending_payment": {
+          "due_notice": "A %{amount_due} összegű fizetés esedékes %{due_date}-kor.",
+          "multibanco": {
+            "instruction_html": "Fizesse be a Multibanco-nál vagy online az alábbi adatok segítségével. %{contact_us} kérdések esetén vagy a fizetési adatok frissítéséhez.",
+            "entity": "Egység",
+            "find_nearest_atm": "Legközelebbi pénzkiadó automata keresése",
+            "buyer_action_info": "A %{amount_due} összegű fizetésed függőben van."
+          }
+        },
+        "purchase_options_agreement_label": "Egy vagy több tétel a kosaradban halasztott vásárlás, előfizetés vagy ismétlődő vásárlás. A fizetés folytatásával elfogadod, hogy a fizetési módodat automatikusan megterheljük az ezen az oldalon feltüntetett ár és gyakoriság szerint, amíg az le nem jár vagy te le nem mondod. Minden lemondásra a %{cancellation_policy_label} vonatkozik.",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Az összeg adók, szállítási díjak, halasztott költségek és egyes kedvezmények nélkül értendő. Folytassa a pénztárhoz a mai fizetendő összeg megtekintéséhez."
+        },
+        "purchase_options_agreement_label_html": "Értem, hogy a kosaramban lévő egy vagy több termék halasztott vásárlás, előfizetés vagy ismétlődő vásárlás. A folytatással elfogadom a\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">lemondási feltételeket</a>,\nés hozzájárulok, hogy a fizetési módomat megterheljék az ezen az oldalon feltüntetett árak, gyakoriság és dátumok szerint, amíg a megrendelésem teljesül vagy le nem mondom, ha ez engedélyezett.",
+        "payment_method_saved": "Fizetési mód elmentve",
+        "card_vaulted_company_location": "Helyhez mentett térkép",
+        "order_covered_by_store_credit_notice": "A rendelés a vásárlási egyenlegedből kerül kifizetésre.",
+        "order_covered_by_redeemables_notice": "A rendelés kifizetésre került.",
+        "store_credit": {
+          "label": "Vásárlási jóváírás",
+          "apply_label": "Vásárlási jóváírás felhasználása",
+          "add_label": "Vásárlási jóváírás hozzáadása",
+          "manage_label": "Egyenleg kezelése",
+          "buying_gift_card": "Üzletbeli jóváírással nem vásárolhatsz ajándékkártyát",
+          "no_fixed_selling_plans": "Nem használhatsz boltihitel-egyenleget halasztott vásárlási lehetőségekkel együtt."
+        },
+        "clear": "Tudás",
+        "billing_must_match_shipping_notice": "A fizetési módod számlázási címe meg kell, hogy egyezzen a szállítási címmel.",
+        "same_billing_address_checkbox_label": "A kézbesítési cím és a számlázási cím megegyezik",
+        "location_billing_address_label": "Számlázási cím helyszínről",
+        "location_shipping_address_label": "Szállítási cím helyszínről",
+        "no_working_method_error": "Ez az üzlet jelenleg nem tud fizetéseket elfogadni. Frissítse az oldalt, vagy térjen vissza később.",
+        "brand_not_available": "Ez az üzlet nem fogadja el a {{brand}}-et. Fizetéshez használjon másik kártyát.",
+        "shipping_rate_updated": "A rendelkezésre álló szállítási módok frissítve lettek. Erősítsd meg a választásodat a fizetés előtt.",
+        "billing_address_invalid_phone": "Frissítse a telefonszámot a számlázási címen a {{label}} {{last_digits}} esetében a folytatáshoz.",
+        "billing_address_invalid_phone_no_card": "Frissítse a telefonszámot a számlázási címen a folytatáshoz.",
+        "preview_not_available": {
+          "title": "Példa nem elérhető",
+          "content": "Ne aggódj, ez a gyors fizetés működik a vásárlóid számára.",
+          "button": "Rendben"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Adjon meg egy érvényes kiadási dátumot",
+              "issue_number": "Adjon meg egy érvényes kiadási számot"
+            },
+            "invalid": {
+              "verification_value": "Adjon meg egy érvényes CVV/CVC vagy biztonsági kódot"
+            }
+          }
+        },
+        "simulated_checkout": "A példa hamarosan megjelenik",
+        "vaulting_agreement_label": "Mentse el fizetési adatait a %{company} oldalán a gyorsabb fizetés érdekében."
       }
     }
   }
