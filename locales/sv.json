@@ -4084,7 +4084,101 @@
     "date": {
       "humanize": {
         "lessThanOneYearAgo": "Op {{date}} kl. {{time}}",
-        "lessThanOneWeekAgo": "Op {{weekday}} klockan {{time}}"
+        "lessThanOneWeekAgo": "Op {{weekday}} klockan {{time}}",
+        "yesterday": "Igår kl {{time}}",
+        "today": "Idag klockan {{time}}",
+        "tomorrow": "I morgon klockan {{time}}",
+        "lessThanOneWeekAway": "Op {{weekday}} klockan {{time}}",
+        "lessThanOneYearAway": "Op {{date}} kl. {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minuter sedan"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Välja tillägget som heter '{{extensionName}}'",
+        "unselect": "Ångra val av tillägget som heter '{{extensionName}}'",
+        "move_down": "Flytta förlängningen till nästa position",
+        "move_up": "Flytta förlängningen till föregående position",
+        "move_down_tooltip": "Flytta till nästa position",
+        "move_up_tooltip": "Flytta till föregående position"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Du kan inte öppna den här länken i redigeraren. Länken öppnas i ett nytt fönster ({{resolved_to_link}}). Klicka på OK för att fortsätta."
+    },
+    "shop_ads": {
+      "title": "Andra produkter som du kanske tycker om",
+      "subtitle": "Tillfälligt tillgänglig",
+      "button": "Utforska på Butik"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunderna kan själva begära och hantera returer.",
+        "disabled": "Kunderna måste kontakta handlaren för att begära en retur."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Kakpreferenser"
+    },
+    "announcement_bar": {
+      "expand_label": "Vik ut meddelandefältet",
+      "collapse_label": "Fäll ihop meddelandefältet",
+      "close_label": "Stäng meddelandefältet"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Betalningsmetod byta ut",
+        "loading": "Ladda betalningsmetoder",
+        "success": "Betalningsmetod uppdaterad"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "alternate_divider": "AV",
+        "orders_button": "Beställningar",
+        "use_email_button": "Använd e-postadress"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hej {{first_name}},",
+        "orders_button": "Beställningar"
+      },
+      "aria_labels": {
+        "close_menu": "Meny stängs",
+        "open_submenu": "{{title}}, öppna undermeny",
+        "loading_menu": "Meny laddas"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Betalningsmetod byta ut",
+        "replace_with": "Ersatt av",
+        "add_new_payment_method": "Lägg till ny",
+        "loading": "Modal för att byta betalningsmetod laddas",
+        "invalid_subscription_contract": "Kan inte hitta abonnemanget",
+        "expiry_date": "Förvalt till {{expiryDate}}",
+        "edit_current_payment_method": "Redigera nuvarande betalningsmetod"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logotyp",
+      "step_one": {
+        "page_title": "Logga in - %{shop_name}",
+        "input_field_label": "E-postadress",
+        "or": "av",
+        "consent_agreement": "Genom att fortsätta godkänner du %{terms}"
+      },
+      "step_two": {
+        "page_title": "Ange kod - %{shop_name}",
+        "subheading": "Skickat till %{email}",
+        "input_field_label": "Kod med 6 siffror",
+        "button": "Indien"
+      },
+      "error": {
+        "invalid": {
+          "invalid_code": "Ange rätt kod med sex siffror"
+        }
       }
     }
   }

@@ -4021,6 +4021,86 @@
     "errors": {
       "addresses_loading_issue": {
         "description": "Chyba pripojenia. Skontrolujte svoje internetové pripojenie a skúste to znova."
+      },
+      "banner_title": {
+        "one": "Je {{count}} chyba",
+        "other": "Je {{count}} chýb"
+      },
+      "failed_address_creation": {
+        "description": "Vyskytol sa problém pri vytváraní tvojej adresy. Obnov túto stránku alebo skontroluj svoje internetové pripojenie."
+      },
+      "failed_address_update": {
+        "description": "Vyskytol sa problém pri aktualizácii tvojej adresy. Obnov túto stránku alebo skontroluj svoje internetové pripojenie."
+      },
+      "no_access_to_locations": {
+        "description": "Nemáte prístup k lokalitám"
+      },
+      "not_found": {
+        "description": "Skontrolujte URL alebo to skúste znova o niekoľko minút.",
+        "title": "Vyskytol sa problém pri načítavaní tejto stránky"
+      },
+      "order_not_found": {
+        "description": "Táto objednávka neexistuje alebo nemáte oprávnenie ju zobraziť.",
+        "title": "Objednávka nebola nájdená"
+      },
+      "profile_update_error": {
+        "description": "Vyskytol sa problém pri aktualizácii tvojho profilu. Obnov túto stránku alebo skontroluj svoje internetové pripojenie."
+      },
+      "load_orders_error": {
+        "title": "Nie je možné načítať objednávky"
+      },
+      "load_paypal_error": {
+        "description": "Vyskytol sa problém pri načítavaní PayPalu. Skúste to znova."
+      },
+      "already_upgraded": "Účty zákazníkov už boli aktualizované.",
+      "failed_to_upgrade": "Aktualizácia nastavení zákazníckeho účtu zlyhala.",
+      "resend_link": {
+        "too_many_requests": "Príliš veľa požiadaviek. Skúste to znova neskôr.",
+        "generic": "Žiadosť zlyhala"
+      },
+      "profile_name_update_error": {
+        "description": "Vyskytol sa problém pri aktualizácii tvojho mena. Obnov túto stránku alebo skontroluj svoje internetové pripojenie."
+      },
+      "load_address_form_error": {
+        "title": "Nie je možné načítať formulár adresy",
+        "description": "Formulár adresy sa nedá načítať.",
+        "refresh_button": "Obnoviť stránku"
+      },
+      "not_upgraded": "Účty zákazníkov neboli aktualizované.",
+      "failed_to_revert": "Obnovenie nastavení zákazníckeho účtu zlyhalo.",
+      "revert_window_expired": "Obdobie na reklamáciu uplynulo."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Údaje o platobnej metóde",
+        "payment_method_expiring_on": "Platnosť do {{expiryDate}}",
+        "preauthorized_payments": "Predautorizované platby",
+        "close_payment_modal_accessibility_label": "Modálne údaje platobnej metódy zatvoriť",
+        "payment_method_not_found_error": "Nemôžem nájsť spôsob platby",
+        "payment_details_loading": "Načítavam údaje o platobnej metóde",
+        "pre_authorized_payments": "Predautorizované platby",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} položiek celkom; {{totalItemsToDisplay}} položiek sa zobrazuje.",
+        "next_payment_due": "Ďalšia platba splatná {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Upraviť platobnú metódu končiacu na {{lastDigits}}",
+        "credit_card_details_accessibility_label": "končiaci na {{lastDigits}}",
+        "card_info_title": "Údaje o karte",
+        "payment_method_expired_on": "Expirované dňa {{expiryDate}}",
+        "loading_shop_pay": "Zaplaťte cez Shop Pay",
+        "invalid_payment_method": "Neplatná platobná metóda",
+        "invalid_payment_method_message": "Použite novú kreditnú kartu, aby ste mohli naďalej prijímať nadchádzajúce objednávky.",
+        "replace_payment_method": "Zmeniť spôsob platby",
+        "checkout_card_banner": "Túto platobnú metódu môžete použiť iba na predom autorizované platby. Pri prihlásení v tomto obchode sa nezobrazí pri pokladni.",
+        "default_checkbox": "Nastaviť ako predvolené",
+        "default_checkbox_accessibility_label": "Nastavte túto platobnú metódu ako predvolenú"
+      },
+      "delete_payment_method_button_accessibility_label": "Odstrániť {{paymentMethodName}}",
+      "back_button_accessibility_label": "Späť na {{paymentMethodStepTitle}}",
+      "payment_delete": {
+        "title": "Odstrániť spôsob platby",
+        "description_without_replacement": "Táto platobná metóda už nie je dostupná pre budúce nákupy.",
+        "description_with_replacement": "Ak odstránite tento spôsob platby, bude to mať vplyv na predbežne autorizované platby. Môžete ho tiež nahradiť iným spôsobom platby, aby ste naďalej dostávali nadchádzajúce objednávky.",
+        "replace_method_with_new_method_description": "Je {{currentPaymentMethodName}} bude odstránená a nahradená tvojou {{newPaymentMethodName}}.",
+        "error_when_deleting": "Ospravedlňujeme sa, niečo sa pokazilo a túto platobnú metódu nemôžeme odstrániť. Skúste to neskôr znova alebo obnovte stránku."
       }
     }
   }
