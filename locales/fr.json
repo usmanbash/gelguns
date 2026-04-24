@@ -2546,9 +2546,101 @@
             "contact": "Contactez-nous"
           },
           "heading": {
-            "one": "Il y a {{count}} erreur :"
+            "one": "Il y a {{count}} erreur :",
+            "other": "Il y a {{count}} erreurs :"
           }
         }
+      },
+      "review_address_modal": {
+        "title": "Vérifier l'adresse",
+        "subtitle": {
+          "one": "Cette commande sera envoyée à l'adresse indiquée par {{merchant}}.",
+          "other": "Cette commande sera envoyée à une adresse fournie par {{merchant}}. Sélectionnez une adresse de livraison."
+        },
+        "subtitle_no_match": "Cette adresse ne correspond à aucune de vos adresses enregistrées.",
+        "subtitle_must_use": "Votre commande sera envoyée à cette adresse."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Lire",
+          "link_label": "les Conditions générales de {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Des questions ? Discutez avec nous"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Il y a %{count} emplacement avec du stock à proximité",
+          "other": "Il y a %{count} emplacements avec du stock à proximité"
+        },
+        "toggle_location": "Modifier l'emplacement",
+        "or": "DE",
+        "your_location": "ton emplacement",
+        "search_button": "Chercher des magasins",
+        "no_stores_found": "Aucun magasin trouvé",
+        "could_not_resolve_address": "Impossible de trouver l'adresse. Veuillez réessayer ou utiliser une autre adresse.",
+        "paginator": {
+          "accessibility_label": "Pagination pour retrait sur place",
+          "label": {
+            "one": "%{first} - %{last} sur %{count} magasin",
+            "other": "%{first} - %{last} sur %{count} magasins"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Afficher encore %{count} emplacement",
+          "other": "Afficher encore %{count} emplacements"
+        },
+        "all_stores_far_away": {
+          "title": "Les emplacements les plus proches se trouvent à plus de %{distance} de distance",
+          "description": "Sélectionnez un lieu ou %{ship_to_address_link}",
+          "ship_to_address_link": "adresse de livraison",
+          "change_location_link": "Modifie ta localisation",
+          "title_with_specific_location": "Le point de vente le plus proche avec votre article se trouve à plus de %{distance} de %{location}.",
+          "title_with_item": {
+            "one": "Le point de vente le plus proche avec votre article se trouve à plus de %{distance} de %{location}.",
+            "other": "Le point de vente le plus proche avec vos articles se trouve à plus de %{distance} de %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "L'emplacement que vous avez sélectionné précédemment n'est plus disponible",
+          "description": "Sélectionnez un nouvel emplacement ou %{ship_to_address_link}",
+          "ship_to_address_link": "Envoyer à l'adresse"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Envoyez vos articles",
+          "search_elsewhere": "cherche ailleurs",
+          "ship_items_or_search_elsewhere": "%{ship_items} de %{search_elsewhere}"
+        },
+        "toggle_multiple_locations": "Encore plus de %{count} autres emplacements",
+        "location_information_far_away": {
+          "one": "Il y a %{count} emplacement avec votre article",
+          "other": "Il y a %{count} emplacements avec votre article"
+        },
+        "location_nearby": {
+          "one": "Il y a %{count} emplacement à proximité avec votre article",
+          "other": "Il y a %{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_short": {
+          "one": "%{count} emplacement à proximité avec votre article",
+          "other": "%{count} emplacements à proximité avec votre article"
+        },
+        "toggle_more_locations": {
+          "one": "Nog %{count} autre emplacement",
+          "other": "Nog %{count} autres emplacements"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Aucun lieu avec votre article",
+          "other": "Aucun lieu avec vos articles"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Aucun emplacement en %{country} avec votre article",
+          "other": "Aucun emplacement en %{country} avec vos articles"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Retirer tous les articles",
+        "items_for_pickup": "Articles à retirer"
       }
     }
   }
