@@ -878,7 +878,91 @@
         "pick_up_in_two_to_four_days": "Zazwyczaj gotowe w ciągu 2-4 dni",
         "pick_up_in_five_or_more_days": "Zazwyczaj gotowe w ciągu ponad 5 dni",
         "free_total_label": "Darmowy",
-        "shipping_address": "Adres dostawy"
+        "shipping_address": "Adres dostawy",
+        "pick_up_locations": "Miejsca odbioru",
+        "pickup_point_method_definition": "Wysyłka do punktu odbioru",
+        "retail_method_definition": "Wysyłki detaliczne",
+        "none_method_definition": "Brak wysyłek",
+        "subscription_pickup_information": "Ta metoda dostawy dotyczy wszystkich artykułów w tym zamówieniu oraz wszystkich przyszłych artykułów w ramach tej subskrypcji.",
+        "ship_to_address": "Wysyłka na adres",
+        "company_location_no_address_banner": "Zamówienia wysyłane na miejsca bez adresu są przekazywane do kontroli."
+      },
+      "customer_account": {
+        "not_user_label": "Czy nie jesteś %{first_name}?",
+        "have_an_account_label": "Masz konto?",
+        "save_my_information_label": "Zapisz te informacje, aby przy kolejnych zakupach szybciej dokonać płatności",
+        "invalid_shipping_method_summary": "Wybierz prawidłowy adres dostawy, aby zobaczyć dostępne metody wysyłki",
+        "saved_address_option_description": {
+          "other": "Masz {{count}} zapisanych adresów."
+        }
+      },
+      "stock": {
+        "page_title": "Problem z zapasami",
+        "title": "Brak w magazynie",
+        "items_unavailable_notice": "Niektóre artykuły nie są już dostępne.",
+        "reduced_label": "Zmniejszony",
+        "reduced_with_quantity_label": "Pozostało tylko %{quantity_available} w magazynie",
+        "go_back_to_cart_button_label": "Powrót do mojego koszyka",
+        "quantity_update": {
+          "page_title": "Zaktualizowana ilość",
+          "title": "Zaktualizowana ilość",
+          "description": "Dostępne ilości tych artykułów zostały zmienione, a twój koszyk został zaktualizowany."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt nie może zostać zakupiony",
+          "header": "Niektóre artykuły zostały usunięte z twojego koszyka",
+          "message": "Te artykuły nie są dostępne dla zamówień B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt nie może zostać zakupiony",
+          "header": "Niektóre artykuły zostały usunięte z twojego koszyka",
+          "message": "Te artykuły nie są dostępne."
+        },
+        "unshippable_product": {
+          "title": "Brak dostępnej dostawy",
+          "header": {
+            "one": "Brak dostępnej dostawy dla %{count} artykułu",
+            "other": "Brak dostępnej dostawy dla %{count} artykułów"
+          },
+          "message": {
+            "one": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie ma dostępnych metod dostawy.",
+            "other": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie ma dostępnych metod dostawy."
+          }
+        },
+        "price_update": {
+          "title": "Aktualizacja cen",
+          "description": "Ceny tych artykułów zostały zmienione i zaktualizowane w twoim koszyku.",
+          "updated_price": "Zaktualizowana cena"
+        },
+        "return_to_store_label": "Powrót do sklepu",
+        "item_label": {
+          "one": "{{count}} artykułów",
+          "other": "{{count}} artykułów"
+        },
+        "continue_cta_label": "Kontynuuj do kasy",
+        "out_of_stock": {
+          "description": "Te artykuły nie są już dostępne i zostały usunięte z twojego koszyka.",
+          "items_unavailable": "Niektóre artykuły nie są już dostępne i zostały usunięte z twojego koszyka."
+        },
+        "unfulfillable_product": {
+          "title": "Dostawa niedostępna",
+          "message": {
+            "one": "%{delivery_method} nie jest już dostępny dla tego artykułu.",
+            "other": "%{delivery_method} nie jest już dostępna dla tych artykułów."
+          },
+          "default_message": {
+            "one": "Wybrana metoda dostawy nie jest już dostępna dla tego artykułu.",
+            "other": "Wybrana metoda dostawy nie jest już dostępna dla tych artykułów."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Aktualizuj cenę i ilość",
+          "description": "Ceny i dostępne ilości tych artykułów zostały zmienione, a koszyk został zaktualizowany."
+        },
+        "out_of_stock_in_context_label": "Ten produkt nie jest dostępny w twoim kraju/regionie."
+      },
+      "order_summary": {
+        "shopping_cart_label": "Koszyk zakupowy"
       }
     }
   }
