@@ -678,7 +678,73 @@
             "unresolvable_tax_terms": "Proponowane warunki nie są wykonalne w świetle istniejącego kontekstu negocjacji.",
             "delivery_price_is_abstract": "Odpowiednia cena za dostawę jest abstrakcyjna.",
             "tax_inclusivity_mismatch": "Negocjuj ponownie z konkretną wartością dla totalTaxAndDutyAmount lub totalAmountIncludedInTarget.",
-            "tax_exemption_not_supported": "W bieżącej sesji negocjacyjnej nie są wspierane żadne zwolnienia podatkowe."
+            "tax_exemption_not_supported": "W bieżącej sesji negocjacyjnej nie są wspierane żadne zwolnienia podatkowe.",
+            "delivery_tax_exemption_not_supported": "Zwolnienia podatkowe dla zasad dostarczania nie są obecnie obsługiwane.",
+            "proposed_allocations_required": "Pole „sugerowane przydziały” jest nieobecne.",
+            "merchandise_terms_must_be_defined": "Zdefiniuj warunki dla towarów.",
+            "delivery_terms_must_be_defined": "Zdefiniuj warunki dostawy.",
+            "merchandise_discount_terms_must_be_defined": "Zdefiniuj warunki rabatu na towary.",
+            "delivery_discount_terms_must_be_defined": "Zdefiniuj warunki rabatu na dostawę.",
+            "allocated_required": "Pole „przypisane” jest puste.",
+            "value_required": "Pole „wartość” jest puste.",
+            "line_splits_not_supported": "Pole „pozycje towarów” musi być podzielone w taki sposób, aby dla każdej pozycji w ofercie sprzedawcy istniał osobny element."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ręczne płatności nie są dozwolone w sklepach B2B.",
+            "total_amount_mismatch": "Całkowita kwota do zapłaty nie zgadza się z sumą płatności.",
+            "gateway_not_supported": "Brama płatności nie obsługuje zapisywania metody płatności.",
+            "credit_card_last_name_required": "'achternaam' nie może być puste.",
+            "invalid_address_type": "Wprowadzony typ adresu jest nieprawidłowy dla tej metody płatności.",
+            "missing_retail_attributions": "Przypisania sprzedaży detalicznej są wymagane dla ręcznie wprowadzanych płatności kartą kredytową.",
+            "unexpected_retail_attributions": "Nieoczekiwane przydziały detaliczne podane dla płatności kartą kredytową.",
+            "invalid_card_source": "Ta sesja nie ma uprawnień do korzystania z tego źródła mapy.",
+            "wallet_content_missing": "Brakuje portfela zawartości.",
+            "payment_instrument_not_found": "Nie można znaleźć metody płatności",
+            "unauthorized_capture_method": "Konfiguracja metody rejestrowania płatności jest niedozwolona.",
+            "saved_payment_methods_not_allowed": "'Zapisane metody płatności' są niedozwolone.",
+            "saved_payment_methods_not_enabled": "'Zapisane metody płatności' nie są włączone dla tego sklepu.",
+            "store_credit_not_enabled": "Saldo sklepu nie jest włączone dla tego sklepu.",
+            "store_credit_account_not_found": "Konto kredytu sklepowego nie zostało znalezione.",
+            "store_credit_account_mismatch": "Konto z kredytem kątowym nie odpowiada tożsamości nabywcy.",
+            "store_credit_mismatched_currency": "Waluta konta z kredytem sklepowym nie odpowiada walucie kasy.",
+            "store_credit_insufficient_funds": "Na koncie środków sklepowych jest niewystarczająca ilość środków.",
+            "store_credit_buying_gift_card": "Za pomocą środków na koncie sklepowym nie można kupić bonu podarunkowego.",
+            "gift_cards_not_allowed_for_b2b": "Bony podarunkowe nie są dozwolone w sklepach B2B.",
+            "saved_payment_methods_cvv_verification_disabled": "Dla wybranej metody płatności wymagana jest weryfikacja CVV/CVC, ale nie jest ona włączona w tym sklepie. Użyj innej metody płatności."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Wiele reguł opłat nie jest obsługiwanych.",
+            "currency_change_reset": "Fooi została zresetowana z powodu zmiany waluty.",
+            "tips_not_allowed_for_deferred_purchase_options": "Napiwki nie są jeszcze obsługiwane dla odroczonych opcji zakupu."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "To zamówienie koncepcyjne nie istnieje w obecnym sklepie.",
+            "staff_member_not_exist": "Ten pracownik nie jest znany w obecnym sklepie.",
+            "point_of_sale_device_not_exist": "To urządzenie sprzedażowe nie istnieje w obecnym sklepie.",
+            "unresolvable_target_merchandise_lines": "Proponowane przydziały sprzedaży nie są możliwe do rozwiązania w istniejącym kontekście negocjacji."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Propozycja twojego nabywcy musi zawierać non-negotiable_terms."
+          },
+          "inventory": {
+            "missing_quantity_value": "Pole „Ilość” jest nieobecne w wierszach zapasów kupującego.",
+            "changing_behavior_not_allowed": "Ten klient nie jest upoważniony do zmiany funkcji zapasów.",
+            "only_one_inventory_behavior_allowed": "W tej chwili do jednego zamówienia można przypisać tylko jedną funkcję magazynową."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Przy tym kasowaniu odmowa zapłaty ceł nie jest dozwolona."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Przy tym kasowaniu przypisanie do sprzedaży detalicznej nie jest dozwolone.",
+            "retail_attribution_required": "Do tego zamówienia wymagana jest przydział detaliczny."
+          },
+          "captcha": {
+            "metadata_missing": "W tym kasie wymagane jest wypełnienie captcha.",
+            "metadata_mismatch": "Podany dostawca captcha i typ nie odpowiadają oczekiwanym wartościom.",
+            "token_missing": "Dokończ tę kasę, wpisując token captcha.",
+            "job_enqueue_failed": "Zadanie weryfikacji captcha nie może zostać umieszczone w kolejce.",
+            "job_already_queued": "Weryfikacja Captcha została już umieszczona w kolejce dla tego tokena.",
+            "token_expired": "Wprowadzony token captcha wygasł. Wykonaj nową captcha, aby kontynuować realizację zamówienia."
           }
         }
       }

@@ -1136,7 +1136,75 @@
         },
         "purchase_options_agreement_label_html": "Es saprotu, ka viens vai vairāki priekšmeti manā iepirkumu grozā ir atlikta pirkuma, abonēšanas vai atkārtota pirkuma veids. Turpinot, es piekrītu\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">atcelšanas politikai</a>\nun dodu atļauju iekasēt maksu no manas maksājumu metodes par cenām, biežumu un datumiem, kas norādīti šajā lapā, līdz mana pasūtījuma izpildei vai līdz es atceļu, ja tas ir atļauts.",
         "payment_method_saved": "Maksāšanas veids saglabāts",
-        "card_vaulted_company_location": "Kartē saglabāts šai vietai"
+        "card_vaulted_company_location": "Kartē saglabāts šai vietai",
+        "order_covered_by_store_credit_notice": "Pasūtījums tiek apmaksāts ar tavu veikala kredītu.",
+        "order_covered_by_redeemables_notice": "Pasūtījums ir apmaksāts.",
+        "store_credit": {
+          "label": "Veikala kredīts",
+          "apply_label": "Pielietot veikala kredītu",
+          "add_label": "Pievienot veikala kredītu",
+          "manage_label": "Pārvaldīt veikala kredītu",
+          "buying_gift_card": "Ar veikala kredītu nevar iegādāties dāvanu karti",
+          "no_fixed_selling_plans": "Jūs nevarat izmantot veikala kredītu kopā ar atliktās pirkšanas iespējām"
+        },
+        "clear": "Zināšanas",
+        "billing_must_match_shipping_notice": "Tavas maksāšanas metodes rēķina adrese ir jāatbilst piegādes adresei.",
+        "same_billing_address_checkbox_label": "Piegādes adrese un rēķina adrese ir vienāda",
+        "location_billing_address_label": "Rēķina adrese no vietas",
+        "fact_billing_address_label": "Rēķina adrese",
+        "location_shipping_address_label": "Piegādes adrese no vietas",
+        "no_working_method_error": "Šī veikala šobrīd nav iespējams veikt maksājumus. Atjaunojiet lapu vai atgriezieties vēlāk.",
+        "brand_not_available": "Šī veikals nepieņem {{brand}}. Lūdzu, izmantojiet citu karti maksāšanai.",
+        "shipping_rate_updated": "Pieejamās piegādes metodes ir atjauninātas. Apstiprini savu izvēli pirms norēķināšanās.",
+        "billing_address_invalid_phone": "Atjauniniet tālruņa numuru rēķina adresē priekš {{label}} {{last_digits}}, lai turpinātu.",
+        "billing_address_invalid_phone_no_card": "Lūdzu, atjauniniet tālruņa numuru rēķina adresē, lai turpinātu.",
+        "preview_not_available": {
+          "title": "Piemērs nav pieejams",
+          "content": "Neraizējies, šī ātrā norēķinu sistēma darbojas taviem klientiem.",
+          "button": "Labi"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Ievadiet derīgu izdošanas datumu",
+              "issue_number": "Ievadiet derīgu izdošanas numuru"
+            },
+            "invalid": {
+              "verification_value": "Ievadiet derīgu CVV/CVC vai drošības kodu"
+            }
+          }
+        },
+        "simulated_checkout": "Piemērs drīzumā parādīsies",
+        "vaulting_agreement_label": "Saglabājiet savus maksājumu datus pie %{company} ātrākai norēķinu veikšanai.",
+        "business_customer_vaulting_payment_label": "Pievienojiet šo maksājuma veidu norēķinos un pilnvarojiet %{company} no šīs kartes iekasēt naudu par nākotnes pirkumiem šajā vietā. Visi kontaktpersonas, kas piešķirtas šai vietai, drīkst izmantot šo maksājuma veidu.",
+        "purchase_options_and_vaulting_agreement_label": "Viens vai vairāki grozā esošie priekšmeti ir atlikta vai abonēšanas pirkums. Turpinot apmaksu, jūs piekrītat, ka mēs automātiski iekasēsim pirkuma summas, izmantojot jūsu maksājuma metodi, par cenu un biežumu, kas norādīti šajā lapā, līdz tas beidzas vai jūs to atcelsiet pats. Visām atcelšanām attiecas %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "atcelšanas politika",
+        "use_different_credit_card_label": "Izmantot citu karti",
+        "saved_credit_card": "Jūsu saglabātā kredītkarte",
+        "saved_credit_card_info": "Pēdējie četri cipari",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Skatīt visas saglabātās kartes",
+          "done": "Gatavs",
+          "cancel": "Atcelt"
+        },
+        "expired_cards_info": {
+          "one": "Ir %{count} beidzies derīguma termiņš kartei. Tu vari to apskatīt un rediģēt savā kontā.",
+          "other": "Ir %{count} beigušās derīguma termiņa kartes. Tu vari tās apskatīt un pielāgot savā kontā."
+        },
+        "local_payment_method_receiver_notice": "Pēc pasūtījuma veikšanas saņemsi maksājuma datus. Veic maksājumu {{dueDays}} dienu laikā bankomātā vai tiešsaistē.",
+        "order_edit_banner_title": "Maksājums {{amount_owed}} ir nepieciešams",
+        "order_edit_banner_subtitle": "Tava pasūtījuma {{order_number}} statuss ir atjaunināts. Pārskati šīs izmaiņas un apmaksā, lai apstiprinātu savu pasūtījumu.",
+        "order_edit_banner_single_item_added": "Pievienots",
+        "order_edit_banner_multiple_items_added": "{{amount}} pievienots",
+        "order_edit_banner_single_item_removed": "Dzēsts",
+        "order_edit_banner_multiple_items_removed": "{{amount}} izdzēsts",
+        "gift_card_wrapper": {
+          "heading": "Dāvanu karte",
+          "apply_gift_card_label": "Dāvanu kupona izmantošana",
+          "payment_tag": "Dāvanu karte",
+          "apply_another_gift_card_label": "Pielietot citu dāvanu karti",
+          "gift_card_label": "Dāvanu karte %{identifier}"
+        }
       }
     }
   },
