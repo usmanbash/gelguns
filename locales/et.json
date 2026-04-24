@@ -3686,7 +3686,85 @@
         "submitted_label": "Esitatud",
         "track_shipment": "Saatmise jälgimine",
         "request_return": "Tagastuse taotlemine",
-        "attempted_delivery_label": "Kättetoimetamise katse"
+        "attempted_delivery_label": "Kättetoimetamise katse",
+        "preparing_for_shipping_label": "Saatmine on ette valmistamisel",
+        "ready_for_pickup_label": "Valmis järeletulekuks",
+        "ready_for_pickup_description": "Need esemed on valmis järeletulemiseks. Võta tellimuse kinnitus kaasa, kui tellimust järele tuled.",
+        "picked_up_label": "Võetud vastu",
+        "submitted_description": "Kontrolli tellimust ja makseandmeid.",
+        "last_updated": "Viimati uuendatud {{date}}",
+        "multiple_shipments_label": "Mitmed saadetised",
+        "view_order_for_details": "Tellimuse vaatamine tooteandmete jaoks",
+        "confirmed_description_digital": "Saad e-kirja, kui su tellimus on valmis.",
+        "delivered_description_gift_card": {
+          "one": "Cadeaubon on saadetud e-posti teel.",
+          "other": "Kingituskupongid on saadetud e-posti teel."
+        },
+        "gift_card_label": {
+          "one": "Kingituskinkekaart",
+          "other": "Kinkekaardid"
+        },
+        "ready_for_pickup_location": "Sinu tellimus on valmis asukohast järele võtmiseks",
+        "confirmed_description_pickup": "Saad e-kirja, kui saad oma tellimuse järele tulla.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Kingituskinkekaart saadetakse eraldi e-kirjaga.",
+          "other": "Iga kinkekaart saadetakse eraldi e-kirjaga."
+        },
+        "confirmed_description_gift_card_text": "Saad SMS-i, kui tellimus on valmis.",
+        "delivered_description_gift_card_text": {
+          "one": "Kingituskinkekaart on saadetud SMS-iga.",
+          "other": "Kingituskupongid on saadetud SMS-iga."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Kingituskinkekaart saadetakse eraldi SMS-iga.",
+          "other": "Iga kinkekaart saadetakse eraldi SMS-iga."
+        },
+        "gift_resend_success": {
+          "one": "Kingituskinkekaart uuesti saadetud",
+          "other": "Kingituskupongid uuesti saadetud"
+        },
+        "gift_resend_failure": {
+          "one": "Sinu kinkekaardi uuesti saatmisel tekkis probleem. Proovi uuesti või võta meiega ühendust.",
+          "other": "Sinu kinkekaartide uuesti saatmisel tekkis probleem. Proovi uuesti või võta meiega ühendust."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Halda Amazonis",
+            "new_window_disclaimer": "(avab uues aknas)"
+          }
+        },
+        "attempted_to_deliver_label": "Proovitud kohale toimetada",
+        "there_was_a_problem_label": "Tekkis probleem",
+        "buy_with_prime_logo_accessibility_label": "Amazon Osta Prime'iga -logo",
+        "delivered": "Murelik {{date}}",
+        "complete_label": "Valmis",
+        "multiple_statuses_label": "Mitmed tellimuse olekud",
+        "status_timestamp": "Uuendatud {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Kohaletoimetamine toetatud poolt",
+            "mixed_brands_label": "Tarne garanteeritud",
+            "not_delivered_by_label": "Ei kohaleta enne {{date}}",
+            "modal_accessibility_button_label": "Andmete kohaletoimetamise lubadus"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Nõua oma Shop Cash tagasi",
+            "no_shop_app_label": "{{appDownloadLink}} kaudu Shop Cashi nõudmiseks",
+            "download_shop_app_label": "Osta alla laadima"
+          },
+          "details_modal": {
+            "title": "Kohaletoimetamine toetatud poolt",
+            "modal_accessiblity_label": "Andmed kohaletoimetamise lubaduse kohta",
+            "delivery_by_label": "Kohaletoimetamine hiljemalt {{date}}",
+            "delivery_guaranteed_by_label": "Kohaletoimetamine garanteeritud kuni {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garanteerib kiire ja usaldusväärse kohaletoimetamise. Nõua Shop Cashi, kui su tellimus hilineb.",
+              "may_be_eligible_not_authorized_label": "Võid olla õigustatud taotlema Shop Cashi, kuna see tellimus saabus hilinenult. Logi sisse, et vaadata üksikasju.",
+              "redeemed_label": "Sa oled Shop Cash juba nõudnud, sest see tellimus saabus hilinenult.",
+              "expired_label": "See tellimus ei kuulu hilinenud kohaletoimetamise nõude alla, kuna 30-päevane garantii on aegunud."
+            }
+          }
+        }
       }
     }
   }
