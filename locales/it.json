@@ -995,8 +995,80 @@
         "amount_off_shipping": "%{amount} di sconto sulla spedizione",
         "payment_terms_totals": {
           "due_later": "Totale dovuto il %{due_at}",
-          "due_on_fulfillment": "Totale dovuto al momento dell'evasione dell'ordine"
-        }
+          "due_on_fulfillment": "Totale dovuto al momento dell'evasione dell'ordine",
+          "due_on_receipt": "Totale da pagare alla consegna",
+          "due_today_next": "Oggi dovuto",
+          "due_on_fulfillment_next": "Da pagare al momento della consegna"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> non può essere utilizzato con i tuoi sconti esistenti.",
+        "maximum_discount_code_limit_reached": "Hai raggiunto il numero massimo di codici sconto. Rimuovi un codice esistente per usare <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Ordine totale",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> non funziona al momento. Contattaci se hai bisogno di assistenza.",
+        "due_on_fulfillment": "Dovuto al servizio di evasione ordini",
+        "duties_label": "Dazi doganali",
+        "duties_and_taxes_label": "Dazi doganali e imposte",
+        "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere addebitati dazi doganali e imposte al momento della consegna.",
+        "may_be_charged_on_delivery": "Può essere addebitato alla consegna",
+        "recurring_total_multiple_label": "Questo ordine prevede costi ricorrenti per più articoli.",
+        "deferred_total_due_date_label": "Totale dovuto al {{date}}",
+        "expand_component_information": {
+          "one": "Mostra %{count} articoli"
+        },
+        "collapse_component_information": {
+          "one": "Nascondi %{count} articoli"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} articoli"
+          },
+          "back_to_finalize_order": "Torna a completare l'ordine"
+        },
+        "alternative_payment_currency_total": "addebitato come %{amount_due}",
+        "calculating": "Calcolando...",
+        "group_title_label": "Parte di '%{group_title}'",
+        "discount_order_stacking": {
+          "other": "Sconti sugli ordini"
+        },
+        "price_per_item": {
+          "label": "%{price}/cad."
+        },
+        "updated_shipping_method": "Metodo di spedizione aggiornato: %{shipping_method}",
+        "total_savings": "Risparmio totale",
+        "return_restocking_fee_label": "Costi di approvvigionamento delle erbe",
+        "return_shipping_fee_label": "Reso",
+        "enter_shipping_address": "Inserisci indirizzo di consegna",
+        "discount_code_applied_with_code": "Codice sconto %{code} applicato",
+        "duties_included_label": "Il totale include tasse e dazi doganali. Nessun costo aggiuntivo alla consegna.",
+        "deferred_balance_info": {
+          "title": "Il saldo di {{amount_due}} è dovuto il {{due_at}}.",
+          "due_on_fulfillment_title": "Il saldo di {{amount_due}} è dovuto al completamento dell'ordine"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto richiesto per il cliente idoneo",
+        "more_items_modal": {
+          "empty_results": "Nessun risultato trovato per '%{searchText}'. Controlla l'ortografia o usa un'altra parola o frase.",
+          "search_item": "Cerca"
+        },
+        "number_items": {
+          "one": "%{count} articoli"
+        },
+        "view_all_items": {
+          "one": "Visualizza %{count} articoli",
+          "other": "Visualizza tutti gli %{count} articoli"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Spedire all'indirizzo",
+          "ship_to_address_instead_html": "%{link} invece"
+        },
+        "discount_code_allocations_mismatch": "Il tuo codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> è stato modificato. Controlla il carrello e riprova.",
+        "deferred_total_due_date_label_next": "Dovuto il %{date}",
+        "unconfirmed_label": "Non confermato",
+        "order_discounts_apply_to_local_shop": "Gli sconti sugli ordini valgono solo per gli articoli di %{shop_name}",
+        "gift_cards_apply_to_local_shop": "I buoni regalo sono validi solo per gli articoli di %{shop_name}",
+        "estimated_taxes_label_short": "Stimato",
+        "discount_code_removed": "Il codice sconto %{code} è stato rimosso",
+        "discount_code_replaced": "Il codice sconto %{old_code} è stato rimosso e %{code} è stato applicato",
+        "discount_code_replaced_multiple": "Sono stati rimossi più codici sconto e %{code} è stato applicato",
+        "discount_applies_to_subscription_items_only": "Lo sconto si applica solo agli articoli in abbonamento"
       }
     }
   }

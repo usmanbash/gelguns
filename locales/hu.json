@@ -2172,7 +2172,65 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "A fizetés befejezése után megerősítő sms-t kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "A fizetés befejezése után megerősítő sms-t kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_failed_pending_payment_payment": "A rendelés még nincs kifizetve. Térjen vissza a kosárhoz a rendelés ellenőrzéséhez és kifizetéséhez.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "A rendelés még nincs kifizetve. Térjen vissza a kosárhoz a rendelés ellenőrzéséhez és kifizetéséhez.",
+        "order_status_confirmed_order_local_pick_up": "Előkészítjük a rendelésedet.",
+        "order_status_confirmed_order_local_payment": "Előkészítjük a rendelésedet.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Hamarosan kapsz egy üzenetet a visszaigazolással és a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Hamarosan kapsz egy üzenetet a visszaigazolással és a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Hamarosan kapsz egy üzenetet a visszaigazolással és a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Fizetés után kapsz egy visszaigazoló e-mailt a rendelési számmal.",
+        "vat_invoices": {
+          "title": "Btw-számlák"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "A fizetésed feldolgozás alatt áll. E-mailt kapsz, amikor a fizetésed megerősítésre került.",
+        "verify_shop_account_title": "Ellenőrizd a Shop-fiókodat",
+        "verify_shop_account_message": "Az adataid elmentve a Shopnál. Erősítsd meg a fiókodat, hogy automatikusan használhasd ezeket a milliónyi boltban.",
+        "verify_shop_account_cta": "Fiók megerősítése",
+        "verify_shop_account_confirmation": "Fizetési adatok elmentve",
+        "company_location_section_title": "Vállalat és helyszín",
+        "confirmed_items_count": "%{confirmed_count} a %{total_count} cikkből megerősítve van",
+        "thank_you_confirmed_orders_with_email": "Hamarosan külön megerősítő e-maileket kapsz a rendelési számaiddal",
+        "thank_you_confirmed_orders_with_phone": "Hamarosan külön megerősítő sms-eket kapsz a rendelési számaiddal",
+        "thank_you_confirmed_orders_with_email_and_phone": "Hamarosan külön megerősítő e-maileket kapsz a rendelési számaiddal",
+        "track_your_order_link_text": "Rendelésed nyomon követése",
+        "checkout_on_remote_shop_link_text": "Fizetés a %{remoteShopName} webáruházban",
+        "confirmed_orders_title": "A megrendeléseid megerősítve lettek",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Vannak cikkek, amelyek nincsenek megerősítve"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Ehhez nem számoltak fel költséget",
+          "other": "Ehhez nem számoltak fel költséget"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} cikk",
+          "other": "%{count} cikk"
+        },
+        "thank_you_from_shop": "Van %{shop_name}"
       }
     }
   }
