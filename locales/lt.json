@@ -1364,7 +1364,61 @@
         "delivery_to": "Pristatymas į"
       },
       "payment": {
-        "amazon_payments_label": "Amazon Pay"
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Jūsų prašoma prisijungti prie Amazon.",
+        "amazon_payments_logout": "Atsijunkite iš Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Pasirinkta mokėjimo priemonė negalima naudoti. Pasirinkite kitą metodą arba susisiekite su savo banku ar kortelės išdavėju.",
+        "amazon_payments_abandoned_mfa_challenge": "Jūsų mokėjimo nepavyko užbaigti. Pabandykite kitą mokėjimo būdą arba susisiekite su savo banku ar kortelės išdavėju.",
+        "amazon_payments_could_not_enqueue_authorize": "Įvyko problema apdorojant jūsų mokėjimą. Bandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+        "title": "Apmokėjimas",
+        "amount_left_to_pay_label": "Suma, kurią reikia sumokėti:",
+        "discount_button_action_label": "Įveskite nuolaidos kodą",
+        "gift_card_code_label": "Dovanų kupono kodas",
+        "gift_card_balance_label": "Balansas:",
+        "supported_card_brands_more_label": "ir daugiau…",
+        "detected_card_brand": "Nustatytas kortelės tipas: {brand}",
+        "card_pay_with": "Mokėkite su:",
+        "card_security_notice": "Visi sandoriai yra apsaugoti ir užšifruoti.",
+        "name_on_card_label": "Vardas kortelėje",
+        "name_on_card_placeholder": "Vardas kortelėje",
+        "card_expiry_label": "Galiojimo data (MM/YY)",
+        "card_expiry_placeholder": "Galiojimo data (MM/YY)",
+        "card_verification_value_label": "Saugumo kodas",
+        "card_verification_value_placeholder": "Saugumo kodas",
+        "card_expiry_date_explanation": "Kortelės galiojimo datos išdėstymas: mėnuo, mėnuo, metai, metai",
+        "card_verification_value_explanation": "3 skaitmenų saugos kodas, paprastai randamas kortelės nugarėlėje. American Express turi 4 skaitmenų kodą kortelės priekyje.",
+        "card_verification_value_explanation_amex": "4 skaitmenų saugos kodas kortelės priekinėje pusėje",
+        "card_verification_value_explanation_other": "3 skaitmenų saugos kodas kortelės nugarėlėje",
+        "card_start_label": "Išdavimo data (MM / JJ)",
+        "card_start_placeholder": "Išdavimo data (MM / JJ)",
+        "card_issue_number_label": "Išleidimo numeris",
+        "card_issue_number_placeholder": "Išleidimo numeris",
+        "card_change_label": "Keisti",
+        "ends_with_label": "baigiasi %{last_digits}",
+        "pay_with_payment_method": "Apmokėkite su %{payment_method}",
+        "same_billing_address_label": "Toks pat kaip pristatymo adresas",
+        "different_billing_address_label": "Naudoti kitą sąskaitos adresą",
+        "free_order_notice_html": "Jūsų užsakymas yra <strong>nemokamas</strong>. Mokėjimas nereikalingas.",
+        "express_checkout_free_order": "Už nemokamą užsakymą nėra taikomi jokie mokesčiai",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Jūsų užsakymas bus apmokėtas dovanų kuponu.",
+          "other": "Jūsų užsakymas bus apmokėtas naudojant dovanų kuponus."
+        },
+        "offsite_gateway_redirect_hint": "Jūs būsite nukreipti į %{gateway_label}, kad užbaigtumėte savo pirkimą.",
+        "billing_address_title": "Sąskaitos adresas",
+        "billing_address_description": "Pasirinkite adresą, kuris atitinka jūsų kortelę arba mokėjimo būdą.",
+        "billing_address_description_no_shipping_address": "Įveskite adresą, kuris atitinka jūsų kortelę arba mokėjimo būdą.",
+        "no_js_credit_card_fields_redirect_hint": "Būsite nukreipti, kad galėtumėte pridėti savo mokėjimo informaciją.",
+        "card_fields_container_prefix": "Šiame lauke yra:",
+        "card_fields_unavailable_html": {
+          "one": "Mokėjimas kreditine kortele arba banko kortele šiuo metu nėra galimas.<br><a href=\"%{current_url}\">Atnaujinkite šį puslapį</a> arba bandykite dar kartą vėliau.",
+          "other": "Mokėjimas kreditine kortele arba banko kortele šiuo metu nėra galimas.<br><a href=\"%{current_url}\">Atnaujinkite šį puslapį</a> arba išbandykite kitą mokėjimo būdą."
+        },
+        "card_fields_processing_error": "Įvyko problema apdorojant mokėjimą. Atnaujinkite šį puslapį arba patikrinkite savo interneto ryšį.",
+        "technical_error": "Dėl techninės problemos šiuo metu mokėjimai negali būti apdorojami. Bandykite dar kartą po kelių minučių.",
+        "generic_incorrect_card_info": "Jūsų mokėjimo duomenys negali būti patikrinti. Patikrinkite savo kortelės duomenis ir bandykite dar kartą.",
+        "sofort_label": "Iškart",
+        "paypal_label": "PayPal"
       }
     }
   }
