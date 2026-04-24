@@ -848,7 +848,73 @@
         "optional_postcode_label": "Ταχυδρομικός Κώδικας (προαιρετικό)",
         "optional_pincode_label": "Κωδικός PIN (προαιρετικό)",
         "email_rollup_accessibility_label": "Επιλογές ηλεκτρονικού ταχυδρομείου",
-        "phone_country_code_label": "Κωδικός χώρας τηλεφώνου"
+        "phone_country_code_label": "Κωδικός χώρας τηλεφώνου",
+        "storefront_link": "ιστότοπος του εμπόρου",
+        "suburb_label": "Περιοχή εκτός πόλης"
+      },
+      "delivery_options": {
+        "pick_up_in_two_hours": "Συνήθως έτοιμο μέσα σε 2 ώρες",
+        "pick_up_in_four_hours": "Συνήθως έτοιμο μέσα σε 4 ώρες",
+        "pick_up_immediately": "Έτοιμο για παραλαβή τώρα",
+        "pick_up_next_day": "Έτοιμο για παραλαβή την επόμενη μέρα",
+        "pick_up_in_one_hour": "Συνήθως έτοιμο μέσα σε 1 ώρα",
+        "pick_up_in_twenty_four_hours": "Συνήθως έτοιμο μέσα σε 24 ώρες",
+        "pick_up_in_two_to_four_days": "Συνήθως έτοιμο μέσα σε 2-4 ημέρες",
+        "pick_up_in_five_or_more_days": "Συνήθως έτοιμο σε περισσότερες από 5 ημέρες",
+        "pick_up_in_zero_to_two_hours": "Έτοιμο για παραλαβή σε 2 ώρες",
+        "pick_up_in_two_to_four_hours": "Έτοιμο για παραλαβή σε 4 ώρες",
+        "shipping_address": "Διεύθυνση παράδοσης",
+        "pick_up_locations": "Τοποθεσίες επιστροφής",
+        "retail_method_definition": "Αποστολές λιανικής",
+        "none_method_definition": "Καμία αποστολή",
+        "subscription_pickup_information": "Αυτή η μέθοδος παράδοσης ισχύει για όλα τα είδη σε αυτήν την παραγγελία και για όλα τα μελλοντικά είδη για αυτήν τη συνδρομή.",
+        "pick_up_from_store": "Παραλαβή από το κατάστημα",
+        "company_location_no_address_banner": "Οι παραγγελίες που αποστέλλονται σε τοποθεσίες χωρίς διεύθυνση υποβάλλονται για έλεγχο.",
+        "pickup_point_map_title": "Χάρτης με σημεία παραλαβής"
+      },
+      "customer_account": {
+        "not_user_label": "Δεν είσαι %{first_name};",
+        "have_an_account_label": "Έχεις λογαριασμό;",
+        "save_my_information_label": "Αποθήκευσε αυτές τις πληροφορίες για να ολοκληρώνεις τις αγορές πιο γρήγορα στο μέλλον",
+        "invalid_address": "Η επιλεγμένη διεύθυνση δεν είναι έγκυρη. %{update_address_link} ή επιλέξτε μια άλλη διεύθυνση.",
+        "incomplete_address": "Η επιλεγμένη διεύθυνση είναι ελλιπής. %{update_address_link} ή επιλέξτε μια άλλη διεύθυνση.",
+        "invalid_shipping_method_summary": "Επιλέξτε μια έγκυρη διεύθυνση παράδοσης για να δείτε τις διαθέσιμες μεθόδους αποστολής",
+        "saved_address_option_link": "Χρησιμοποιήστε μια αποθηκευμένη διεύθυνση",
+        "saved_address_modal_title": "Χρησιμοποίησε τη διεύθυνση που έχω αποθηκεύσει",
+        "saved_address_option_description": {
+          "one": "Έχεις {{count}} αποθηκευμένες διευθύνσεις.",
+          "other": "Έχεις {{count}} αποθηκευμένες διευθύνσεις."
+        }
+      },
+      "stock": {
+        "page_title": "Πρόβλημα αποθέματος",
+        "title": "Μη διαθέσιμο σε απόθεμα",
+        "items_unavailable_notice": "Ορισμένα είδη δεν είναι πλέον διαθέσιμα.",
+        "removed_from_cart_notice": "Αφαιρέθηκε από το καλάθι αγορών",
+        "sold_out_label": "Εξαντλημένο",
+        "reduced_label": "Μειωμένο",
+        "reduced_with_quantity_label": "Μόνο %{quantity_available} διαθέσιμα σε απόθεμα",
+        "remove_from_cart_button_label": "Αφαίρεση από το καλάθι αγορών",
+        "remove": "Αφαίρεση",
+        "empty_cart_label": "Το καλάθι αγορών σας είναι άδειο",
+        "quantity_update": {
+          "page_title": "Ποσότητα ενημερώθηκε",
+          "title": "Ποσότητα ενημερώθηκε",
+          "description": "Οι διαθέσιμες ποσότητες για αυτά τα είδη έχουν αλλάξει και το καλάθι αγορών σας έχει ενημερωθεί."
+        },
+        "unpurchasable_product": {
+          "title": "Το προϊόν δεν μπορεί να αγοραστεί",
+          "header": "Ορισμένα είδη αφαιρέθηκαν από το καλάθι σου",
+          "message": "Αυτά τα είδη δεν είναι διαθέσιμα για παραγγελίες B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Το προϊόν δεν μπορεί να αγοραστεί",
+          "header": "Ορισμένα είδη αφαιρέθηκαν από το καλάθι σου",
+          "message": "Αυτά τα είδη δεν είναι διαθέσιμα."
+        },
+        "unshippable_product": {
+          "title": "Δεν διατίθεται παράδοση"
+        }
       }
     }
   }
