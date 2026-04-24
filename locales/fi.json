@@ -1939,8 +1939,70 @@
         "thank_you_ready_for_picked_up": "Tilaus on noudettu osoitteesta %{address}.",
         "order_updates_subscribe_to_email_notifications_email_already_exists": "Syöttämäsi sähköpostiosoite on jo olemassa.",
         "subscriptions_management": {
-          "description": "Siirry tilillesi katsomaan ja hallinnoimaan tilauksiasi."
-        }
+          "description": "Siirry tilillesi katsomaan ja hallinnoimaan tilauksiasi.",
+          "button_label": "Tilauksesi hallinta"
+        },
+        "manage_order_label": "Tilauksesi hallinta",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Parin minuutin kuluttua saat tekstiviestin, jossa on lahjakorttisi.",
+          "other": "Parin minuutin kuluttua saat tekstiviestin lahjakorteistasi."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Parin minuutin kuluttua saat tekstiviestin, jossa on lahjakorttisi.",
+          "other": "Parin minuutin kuluttua saat tekstiviestin lahjakorteistasi."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon on lähetetty sähköpostitse",
+          "other": "Lahjakortit on lähetetty sähköpostitse"
+        },
+        "gift_card_text_title": {
+          "one": "Lahjakortti on lähetetty tekstiviestinä",
+          "other": "Lahjakortit on lähetetty tekstiviestillä"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Lahjakortti on lähetetty uudelleen.",
+          "other": "Lahjakortit on lähetetty uudelleen."
+        },
+        "gift_card_resend_failure": {
+          "one": "Lahjakortin uudelleenlähetyksessä ilmeni ongelma. Yritä uudelleen tai ota meihin yhteyttä.",
+          "other": "Lahjakorttien uudelleenlähetyksessä ilmeni ongelma. Yritä uudelleen tai ota meihin yhteyttä."
+        },
+        "thank_you_title_payments_app_pending_default": "Maksu käsitellään",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Olemme vastaanottaneet tilauksesi",
+        "thank_you_title_payments_app_failed_pending_payment": "Maksuasi ei voida käsitellä",
+        "thank_you_payments_app_failed_pending_payment": "Tilauksesi ei ole vielä maksettu. Palaa ostoskoriisi tarkistaaksesi ja maksaaksesi tilauksesi.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Saat pian vahvistusviestin tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Maksun suorittamisen jälkeen saat vahvistussanoman tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_failed_pending_payment": "Tilauksesi ei ole vielä maksettu. Palaa ostoskoriisi tarkistaaksesi ja maksaaksesi tilauksesi.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "thank_you_confirmed_order_with_missing_payment": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "thank_you_confirmed_order_with_draft_payment": "Ilmoitamme sinulle, kun tarvitsemme lisätietoja tai kun tilaus on vahvistettu.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Ilmoitamme sinulle, kun tarvitsemme lisätietoja tai kun tilaus on vahvistettu.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Tilausta ei ole vielä maksettu. Palaa takaisin ostoskoriin tarkistaaksesi tilauksen ja maksaaksesi sen.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Tilausta ei ole vielä maksettu. Palaa takaisin ostoskoriin tarkistaaksesi tilauksen ja maksaaksesi sen.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Saat pian vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Saat pian vahvistusviestin tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Saat pian vahvistusviestin tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Ota meihin yhteyttä sähköpostitse tai puhelimitse tilausvahvistusta varten.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Maksun suorittamisen jälkeen saat vahvistussähköpostin. Voit seurata tilaustasi Kauppa-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Maksun suorittamisen jälkeen saat vahvistussanoman tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Maksun suorittamisen jälkeen saat vahvistussanoman tekstiviestinä. Voit seurata tilaustasi Shop-sovelluksen kautta.",
+        "order_status_payments_app_failed_pending_payment_payment": "Tilausta ei ole vielä maksettu. Palaa takaisin ostoskoriin tarkistaaksesi tilauksen ja maksaaksesi sen."
       }
     }
   }
