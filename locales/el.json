@@ -2125,8 +2125,86 @@
           "no_purchase_order_number": "(Χωρίς αριθμό παραγγελίας)",
           "due_after_order_reviewed_html": "Οφείλεται μετά τον έλεγχο της παραγγελίας",
           "review_title_free_order": "Ελέγξτε και ολοκληρώστε την παραγγελία",
-          "company_location": "Τοποθεσία επιχείρησης"
+          "company_location": "Τοποθεσία επιχείρησης",
+          "change_company_location_link_label": "Αλλαγή τοποθεσίας επιχείρησης",
+          "pickup_items_at": {
+            "one": "Παραλαβή %{count} αντικειμένων από",
+            "other": "Παραλαβή %{count} αντικειμένων από"
+          },
+          "ship_items_to": {
+            "one": "Αποστολή %{count} άρθρων σε",
+            "other": "Αποστολή %{count} αντικειμένων σε"
+          }
+        },
+        "block_title": "Ελέγξτε τα στοιχεία σας",
+        "checkout_a_different_way": "Πληρωμή με άλλο τρόπο",
+        "item_header": {
+          "change_value": "Αλλαγή αξίας",
+          "value": "Αξία"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Στείλε μου ένα email με νέα και προσφορές",
+        "unsubscribe": {
+          "title": "Έχεις αποσυνδεθεί",
+          "description": "Δεν θα λαμβάνεις πλέον υπενθυμίσεις για το καλάθι αγορών από εμάς."
+        },
+        "accept_sms_checkbox_label": "Στείλε μου ένα SMS με νέα και προσφορές",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Πολιτική Απορρήτου",
+            "terms_of_service": "Όροι υπηρεσίας",
+            "description_html": "Με την εγγραφή μέσω sms, συμφωνείτε να λαμβάνετε αυτοματοποιημένα διαφημιστικά μηνύματα, συμπεριλαμβανομένων υπενθυμίσεων καλαθιού, στον δηλωμένο αριθμό τηλεφώνου. Η συγκατάθεση δεν αποτελεί προϋπόθεση αγοράς. Απαντήστε STOP για διαγραφή. Απαντήστε HELP για βοήθεια. Η συχνότητα των μηνυμάτων ποικίλλει. Ενδέχεται να ισχύουν χρεώσεις μηνυμάτων και δεδομένων. Δείτε την %{privacy_policy_link} και τους %{terms_of_service_link} μας.",
+            "description_transactional_html": "Ενδέχεται να λαμβάνετε μηνύματα SMS σχετικά με επιβεβαιώσεις παραγγελιών και ενημερώσεις αποστολής. Απαντήστε με STOP για να διαγραφείτε. Απαντήστε με HELP για βοήθεια. Η συχνότητα των μηνυμάτων ποικίλλει. Ενδέχεται να ισχύουν χρεώσεις μηνυμάτων και δεδομένων. Δείτε την %{privacy_policy_modal_link} και τους %{terms_of_service_modal_link} μας."
+          },
+          "mobile_phone_number": "Κινητό τηλέφωνο",
+          "get_offers_by_text": "Λήψη προσφορών μέσω SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Έχετε εγγραφεί για να λαμβάνετε ενημερωτικά δελτία και προσφορές μέσω email",
+        "pending_accept_marketing_checkbox_label": "Ελέγξτε το email σας για να επιβεβαιώσετε την εγγραφή σας για νέα και προσφορές",
+        "accept_shop_pay_marketing_checkbox_label": "Εγγραφείτε για νέα και προσφορές από αυτό το κατάστημα",
+        "disclaimer": {
+          "privacy_policy": "Πολιτική Απορρήτου",
+          "terms_of_service": "Όροι υπηρεσίας"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Πολιτική επιστροφών",
+        "privacy_policy": "Πολιτική Απορρήτου",
+        "terms_of_service": "Γενικοί όροι και προϋποθέσεις",
+        "terms_of_sale": "Όροι πώλησης",
+        "contact_information": "Επικοινωνία",
+        "cookie_preferences": "Μπισκότα",
+        "policies_label": "Πολιτική",
+        "select_policy_label": "Επιλογή πολιτικής",
+        "terms_and_policies": "Όροι και πολιτική"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Ποσό προς πληρωμή για την παραγγελία %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} προστέθηκαν"
+          },
+          "removed": "Διαγραμμένο",
+          "subtracted": "%{count} αφαιρέθηκαν",
+          "returned": "%{count} επιστράφηκαν",
+          "return_line_item_removed": "%{count} αφαιρέθηκαν από την επιστροφή"
+        },
+        "additional_payment_requested": "Η πληρωμή του %{total_outstanding} είναι απαραίτητη",
+        "checkout_review_and_pay": "Η παραγγελία σας %{order_name} έχει ενημερωθεί. Δείτε αυτές τις αλλαγές και στη συνέχεια πληρώστε για να επιβεβαιώσετε την παραγγελία σας.",
+        "order_review_and_pay": "Η παραγγελία σας έχει ενημερωθεί. Ελέγξτε και πληρώστε για να επιβεβαιώσετε την παραγγελία σας."
+      },
+      "change_currency": {
+        "payment_total_label": "Συνολικές πληρωμές",
+        "card_provider_fx_charges_warning": "Ο εκδότης της κάρτας σας ενδέχεται να χρεώνει τέλη για συναλλαγές σε %{currency_code}.",
+        "currency_not_supported_by_shop": "Το νόμισμα που επιλέξατε δεν είναι πλέον διαθέσιμο. Όλες οι τιμές είναι τώρα σε %{currency_code}."
+      },
+      "tips": {
+        "title": "Προσθήκη τροφής",
+        "description": "Δείξε ότι υποστηρίζεις την ομάδα του %{shop_name}",
+        "add_tip": "Προσθήκη τροφής",
+        "update_tip": "Ενημέρωση τροφής",
+        "message": "Ευχαριστούμε, το εκτιμούμε πραγματικά."
       }
     }
   }
