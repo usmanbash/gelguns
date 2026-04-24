@@ -1012,7 +1012,65 @@
         "free_shipping_total_label": "Zdarma",
         "payment_due_label": "Dlžná platba",
         "vat_label_html": "Vrátane %{amount} DPH",
-        "discount_and_gift_card_savings_notice": "Zľava %{discount_amount} a hodnota darčekovej karty %{gift_card_amount}"
+        "discount_and_gift_card_savings_notice": "Zľava %{discount_amount} a hodnota darčekovej karty %{gift_card_amount}",
+        "discount_savings_notice": "Na %{discount_amount} zľava",
+        "gift_card_savings_notice": "Na hodnotu darčekovej karty %{gift_card_amount}",
+        "cost_table_title": "Prehľad nákladov",
+        "quantity_label": "Počet",
+        "scroll_order_summary": "Posuňte sa nadol pre viac článkov",
+        "order_total_updated_label": "Aktualizovaný celkový súčet",
+        "total_already_paid_label": "zaplatené",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} za kus",
+            "one": "%{price} za %{count} kus",
+            "other": "%{price} za %{count} položiek"
+          }
+        },
+        "no_pickup_location": "Nie sú k dispozícii žiadne miesta na vyzdvihnutie.",
+        "estimated_taxes_label": "Odhadovaná daň",
+        "information_estimated_taxes_label": "Odhadované dane",
+        "gift_card_ending": "Darčeková karta končiaca na %{last_characters}",
+        "multiple_shipping_lines_label": "Celkové náklady na dopravu",
+        "sale_price": "Akciová cena",
+        "recurring_subtotal_label": "Opakujúci sa medzisúčet",
+        "recurring_total_label": "Opakujúci sa celkový súčet",
+        "recurring_total_tooltip": "Okrem poštovného, DPH, colných poplatkov alebo prípadných zliav.",
+        "gift_card_subscriptions_notice": "Darčekové poukážky sa uplatnia iba pri tvojej prvej platbe",
+        "confirmation_number_label": "Potvrzovacie číslo %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Celková suma dane bude potvrdená e-mailom alebo SMS po odoslaní vašej objednávky.",
+        "deferred_payment_info": {
+          "title": "Platba vo výške %{amount_due} je splatná do %{due_at}",
+          "description_html": "%{contact_us} pre otázky týkajúce sa vašej objednávky.",
+          "paid_today": "Celkom zaplatené dnes",
+          "due_on_fulfillment_title": "Platba vo výške %{amount_due} je splatná pri vybavení objednávky.",
+          "due_on_receipt_title": "%{amount_due} je splatných pri prevzatí",
+          "paid_today_next": "Dnes zaplatené"
+        },
+        "percent_off_shipping": "%{percent}% zľava na dopravu",
+        "amount_off_shipping": "%{amount} zľava na dopravu",
+        "payment_terms_totals": {
+          "due_later": "Celková suma splatná do %{due_at}",
+          "due_on_fulfillment": "Celková suma splatná pri plnení objednávky",
+          "due_on_receipt": "Celková suma na zaplatenie pri prevzatí",
+          "total_paid": "Celkom zaplatené",
+          "due_today_next": "Dnes splatné",
+          "due_on_fulfillment_next": "Platiť pri doručení"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nie je možné použiť spolu s tvojimi existujúcimi zľavami.",
+        "maximum_discount_code_limit_reached": "Dosiahli ste maximálny počet zľavových kódov. Odstráňte existujúci kód, aby ste mohli použiť <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Celková objednávka",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> momentálne nefunguje. Kontaktujte nás, ak potrebujete pomoc.",
+        "due_on_fulfillment": "Dlžné pri plnení objednávok",
+        "duties_label": "Colné poplatky",
+        "duties_and_taxes_label": "Colné poplatky a dane",
+        "error_duties_tooltip": "Táto objednávka bude odoslaná z inej krajiny, preto môžu byť pri doručení účtované colné poplatky a dane.",
+        "may_be_charged_on_delivery": "Môže byť účtované pri doručení",
+        "recurring_payments": "Opakujúce sa platby",
+        "recurring_total_multiple_label": "Táto objednávka obsahuje opakujúce sa poplatky za viacero položiek.",
+        "deferred_total_due_date_label": "Celková suma splatná k {{date}}",
+        "full_price": "Celková cena: %{price}",
+        "custom_discount": "Prispôsobená zľava"
       }
     }
   }
