@@ -1730,7 +1730,65 @@
         "contact_us_html": "Vaja abi? %{contact_us}",
         "updated_time": "Uuendatud %{time_ago} tagasi",
         "failure": "Ei kohaletoimetatud",
-        "failed_title": "Teie tellimust ei saanud kohale toimetada."
+        "failed_title": "Teie tellimust ei saanud kohale toimetada.",
+        "failed_contact_merchant": "Võtke ühendust %{company}’ga, et tarnet korraldada.",
+        "failed_contact_merchant_no_company": "Võtke meiega ühendust, et tarnet korraldada.",
+        "non_shippable_title": "Tellimus on lõpetatud",
+        "login_title": "Logi sisse, et vaadata kõiki tellimuse andmeid",
+        "login_description": "Sa leiad oma tellimuse numbri arvelt, mille saatsime sulle e-posti teel.",
+        "login_description_phone": "Leiad oma tellimuse numbri arvelt, mille said sms-iga.",
+        "login_not_customer_html": "Ei ole %{name}? Saad %{link}",
+        "login_reorder_link_text": {
+          "one": "Kas soovite seda toodet osta?",
+          "other": "osta ka neid tooteid"
+        },
+        "customer_information_hidden_fields_message": "Logi sisse, et vaadata kõiki kliendiandmeid.",
+        "cancelled_title": "Sinu tellimus on tühistatud",
+        "cancelled_description": "Sinu tellimus tühistati %{date}. Võta meiega ühendust, kui sul on küsimusi.",
+        "order_number_label": "Tellimuse number",
+        "customer_validation_error": "Sisestage kehtiv e-posti aadress või tellimuse number.",
+        "customer_validation_error_phone": "Sisestage kehtiv telefoninumber või tellimuse number.",
+        "login": "Logi sisse",
+        "unfulfilled_items_title": "Saatmine on ette valmistamisel",
+        "unfulfilled_items_description": "Praegu valmistame neid artikleid saatmiseks ette.",
+        "marker": {
+          "current": "Praegune saatmiskoht",
+          "shipping": "Kohaletoimetamise aadress"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Selles saadetises olevad artiklid",
+          "unfulfilled_table_title": "Artiklid valmistatakse saatmiseks ette",
+          "product_image_label": "Toote pilt",
+          "description_label": "Kirjeldus",
+          "quantity_label": "Kogus"
+        },
+        "order_updates_description_missing": "Sa ei saa saatmise uuendusi.",
+        "order_updates_subscribe_to_email_notifications": "Saate saatmise uuendusi e-posti teel",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Saate e-posti või SMS-i teel saatmise uuendusi",
+        "order_updates_subscribe_to_phone_notifications": "Saa oma saatmisuuendused SMS-iga",
+        "order_updates_submit_subscription": "Esita",
+        "track_shipment": "Volg saatmine",
+        "order_status_confirmed_order_with_email_pick_up": "Saad e-kirja, kui saad oma tellimuse järele tulla.",
+        "order_status_confirmed_order_with_phone_pick_up": "Saad SMS-i, kui saad oma tellimuse järele tulla.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Saad e-kirja ja SMS-i, kui saad oma tellimuse järele tulla.",
+        "pick_up_in_store_marker": {
+          "current": "Praegune saatmiskoht",
+          "shipping": "Tagastuskoht"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Saad e-kirja, kui saad oma tellimuse järele tulla.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Saad SMS-i, kui saad oma tellimuse järele tulla.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Saad e-kirja, kui saad oma tellimuse järele tulla.",
+        "ready_for_pickup_title": "Tellimus on valmis järeletulekuks",
+        "ready_for_pickup_description": "Sinu tellimus on valmis järeletulekuks. Võta tellimiskinnitus kaasa, kui tellimust järele tuled.",
+        "picked_up_title": "Tellimus on kätte saadud",
+        "picked_up_description_html": "Sinu tellimus on vastu võetud aadressil %{location_name} kuupäeval %{date}.",
+        "other_options": "Teised valikud",
+        "shop_phone_description": "Saad SMS-i lingiga Shopi rakendusse, et oma tellimust jälgida.",
+        "ready_for_delivery_title": "Tellimus on valmis kohaletoimetamiseks",
+        "ready_for_delivery_description": "Oleme tellimuse valmis teinud.",
+        "order_status_confirmed_order_local": "Me valmistame su tellimuse kohaletoimetamiseks ette.",
+        "delivery_information_label": "Tarneinfo:",
+        "gift_card_sent_confirmation": "Kingituskupongid saadetud"
       }
     }
   },
