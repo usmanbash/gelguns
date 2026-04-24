@@ -3489,8 +3489,76 @@
       "list_layout_accessibility_label": "Formatavimo parinktys",
       "order_list": {
         "column_headers": {
-          "total": "Iš viso"
-        }
+          "total": "Iš viso",
+          "actions_accessibility_label": "Akcijos",
+          "products_accessibility_label": "Produktai"
+        },
+        "delivered": "Susirūpinęs: {{date}}",
+        "empty_state_order_source_description": "Tik užsakymai, pateikti per {{email}}, bus rodomi čia.",
+        "empty_state_subtitle": "Eikite į parduotuvę pateikti užsakymą.",
+        "empty_state_title": "Dar nėra užsakymų",
+        "estimated_delivery": "Laukiama {{date}}",
+        "items": {
+          "one": "{{count}} straipsnis",
+          "other": "{{count}} straipsniai"
+        },
+        "pagination": {
+          "nav_accessibility_label": "Navigacijos mygtukai užsakymams",
+          "next_accessibility_label": "Kitos užsakytos prekės"
+        },
+        "sort_show_options_accessibility_label": "Rodyti rūšiavimo parinktis patvirtintiems užsakymams.",
+        "sort": {
+          "date": {
+            "newest": "Nuo naujausio iki seniausio",
+            "oldest": "Nuo seniausio iki naujausio"
+          },
+          "location": {
+            "ascending": "Vieta (A–Ž)"
+          }
+        },
+        "one_images_accessibility_label": "Užsakymas apima {{lineItemName1}}",
+        "two_images_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Pašalinkite filtrus arba pritaikykite juos, kad matytumėte savo užsakymus",
+        "no_filtered_results_title": "Nėra filtruotų rezultatų",
+        "estimated_shortform": "Įvertinta {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Per vėlu",
+            "due": "Skola iki {{date}}",
+            "due_today": "Šiandien mokėtina",
+            "due_without_date": "Skola",
+            "due_on_fulfillment": "Mokėti vykdant užsakymą",
+            "pay_to_confirm": "Mokėti patvirtinimui",
+            "payment_not_due": "Dar nesumokėta",
+            "paid": "Apmokėta"
+          },
+          "gallery_view": {
+            "overdue": "Mokėjimas vėluoja",
+            "due": "Mokėjimas turi būti atliktas iki {{date}}",
+            "due_today": "Mokėjimas turi būti atliktas šiandien",
+            "due_without_date": "Mokėtina suma",
+            "due_on_fulfillment": "Mokėjimas už įvykdymą",
+            "pay_to_confirm": "Mokėti patvirtinimui",
+            "payment_not_due": "Mokėjimas dar nėra reikalingas"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Šiuo metu rūšiuojama pagal: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}, {{lineItemName2}} kiekį {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekis {{lineItemQuantity1}}, {{lineItemName2}} kiekis {{lineItemQuantity2}}, {{lineItemName3}} kiekis {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}, {{lineItemName2}} kiekį {{lineItemQuantity2}}, {{lineItemName3}} kiekį {{lineItemQuantity3}}, {{lineItemName4}} kiekį {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}, {{lineItemName2}} kiekį {{lineItemQuantity2}}, {{lineItemName3}} kiekį {{lineItemQuantity3}}, {{lineItemName4}} kiekį {{lineItemQuantity4}}, {{lineItemName5}} kiekį {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}, {{lineItemName2}} kiekį {{lineItemQuantity2}}, {{lineItemName3}} kiekį {{lineItemQuantity3}}, {{lineItemName4}} kiekį {{lineItemQuantity4}}, {{lineItemName5}} kiekį {{lineItemQuantity5}}, {{lineItemName6}} kiekį {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Užsakymas apima {{lineItemName1}} kiekį {{lineItemQuantity1}}, {{lineItemName2}} kiekį {{lineItemQuantity2}}, {{lineItemName3}} kiekį {{lineItemQuantity3}}, {{lineItemName4}} kiekį {{lineItemQuantity4}}, {{lineItemName5}} kiekį {{lineItemQuantity5}}, {{lineItemName6}} kiekį {{lineItemQuantity6}} ir daugiau",
+          "view_order_details": "Peržiūrėti užsakymo duomenis"
+        },
+        "show_order_actions_accessibility_label": "Rodyti užsakymo {{name}} geriausias akcijas",
+        "empty_state_title_for_pending_orders": "Nėra užsakymų apdorojimui",
+        "more_than_four_products_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} ir dar {{numberOfAdditionalProducts}} produktus",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktai"
       }
     }
   }
