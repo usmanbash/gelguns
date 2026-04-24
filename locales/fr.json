@@ -2800,7 +2800,97 @@
           "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de nouveau de régler votre commande chez {{shopName}}."
         },
         "return_to_store": "Retour à {{shopName}}",
-        "return_to_store_simple": "Retour au magasin"
+        "return_to_store_simple": "Retour au magasin",
+        "title": "Paiement Shop"
+      },
+      "company_location": {
+        "location_title": "Emplacement de l'entreprise",
+        "location_rollup_accessibility_label": "Options pour le lieu d'implantation de l'entreprise"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Le prix du bon cadeau doit être supérieur à 0.",
+            "subtotal_limit_reached": "La valeur maximale pour les lignes de commande a été atteinte.",
+            "gift_card_price_must_not_exceed_limit": "Le prix de la carte cadeau ne doit pas dépasser %{gift_card_limit}.",
+            "signature_mismatch": "Signature incorrecte des marchandises pour la règle %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Pas copié"
+      },
+      "payment_challenge_modal": {
+        "timer_message": "Il vous reste {{timeLeft}} pour payer",
+        "close": "Relevez le défi"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Un problème est survenu lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "L'instruction de marchandise %{position} %{name} contient un ID de stock vide.",
+        "invalid_stable_id_target": "L'instruction de marchandise %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne se trouve pas dans les lignes de marchandises.",
+        "duplicate_variant_id": "L'instruction de produit %{position} %{name} contient un ID de variante double %{variant_id}.",
+        "invalid_variant_id_target": "L'instruction de marchandise %{name} fait référence à l'ID de variante %{variant_id}, mais cette variante ne se trouve pas dans les lignes de marchandises.",
+        "invalid_price_override_target": "L'instruction pour écraser le prix des marchandises de la ligne de commande %{stable_id} est invalide car il s'agit d'un composant de lot.",
+        "discount_not_supported": "Les instructions pour les commerçants concernant l'application de la remise sur les marchandises ne prennent pas en charge ce type de réduction."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Ce produit n'est pas disponible pour la livraison à %{location_name}.",
+          "some_products_other": "Ces produits ne sont pas disponibles pour la livraison à %{location_name}.",
+          "all_products_one": "Le produit dans votre panier n'est pas disponible pour la livraison à %{location_name}.",
+          "all_products_other": "Les produits dans votre panier ne sont pas disponibles pour la livraison à %{location_name}."
+        },
+        "missing_country_fallback": "ton pays",
+        "indeterminate_location_fallback": "ton emplacement",
+        "change_address_only": "Modifiez l'adresse de livraison pour continuer.",
+        "change_address_or_remove": "Modifiez l'adresse de livraison ou %{remove_action}.",
+        "empty_cart_action": "vide le panier et retourne à la boutique",
+        "remove_items_action": {
+          "one": "supprimez l'article non disponible",
+          "other": "supprimez les articles non disponibles"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Vous n'êtes plus autorisé à passer des commandes B2B. %{logout_url} pour passer une commande personnelle à la place.",
+        "lost_permissions_subtitle": "Vous n'êtes plus autorisé à passer des commandes B2B. Déconnectez-vous pour passer une commande personnelle.",
+        "lost_permissions_title": "Aucune autorisation de localisation"
+      },
+      "units": {
+        "liter": "l",
+        "ounce": "once",
+        "fluid_ounce": "fl oz",
+        "gallon": "fille",
+        "inch": "dans"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Cette adresse n'est pas prise en charge pour l'adhésion actuelle.",
+        "items_split_across_locations_unsupported": "La livraison Prime n'est pas disponible pour votre commande. Vos options d'expédition ont été mises à jour."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Naviguer vers la boutique en ligne"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Plus d'informations sur %{context}",
+        "additional_payment_methods": "Méthodes de paiement supplémentaires"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Cet article ne peut pas être ajouté à votre panier car il provient d'une boutique qui utilise une autre monnaie.",
+          "max_remote_shops_exceeded": "Ce produit ne peut pas être ajouté car votre panier contient déjà le maximum provenant d'autres boutiques.",
+          "currency_mismatch_removal": "Un article a été retiré de votre panier car il provient d'une boutique utilisant une autre monnaie.",
+          "only_remote_merchandise_lines": "Le passage en caisse contient uniquement des marchandises externes. Il est nécessaire de rediriger vers la boutique externe pour finaliser le paiement."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Terminer votre achat",
+        "remote_only_notice": "Ces articles sont vendus et expédiés par d'autres boutiques. Rendez-vous à la caisse de chaque boutique pour finaliser votre achat.",
+        "return_to_store_label": "Retour au magasin",
+        "checkout_on_shop_label": "Payer chez %{shop_name}",
+        "single_shop_transition": "Vous allez être redirigé vers %{advertiser} pour finaliser votre achat."
       }
     }
   }
