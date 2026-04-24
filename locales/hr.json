@@ -2412,7 +2412,91 @@
           }
         },
         "no_business_hours": "Nema dostupnih radnih vremena",
-        "open_twenty_four_hours": "Otvoreno 24/7"
+        "open_twenty_four_hours": "Otvoreno 24/7",
+        "pickup_unavailable_banner_title": {
+          "one": "Nema dostupnih mjesta za preuzimanje za tvoj artikl",
+          "other": "Nema dostupnih mjesta za preuzimanje za tvoje artikle"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Došlo je do problema prilikom naplate",
+          "message": "Osvježi ovu stranicu ili pokušaj ponovno za nekoliko minuta",
+          "action": {
+            "cta": "Ponovno učitaj stranicu"
+          }
+        },
+        "embed_errors": {
+          "storefront_password_required": "Ova trgovina je zaštićena lozinkom",
+          "customer_account_required": "Za dovršetak kupnje potrebno je korisnički račun",
+          "cart_completed": "Ova kupnja je već dovršena",
+          "invalid_cart": "Košarica više nije valjana",
+          "not_authorized": "Provjera naplate nije uspjela. Provjerite svoje podatke za prijavu u aplikaciju.",
+          "killswitch_enabled": "Blagajna trenutno nije dostupna",
+          "policy_violation": "Nije moguće dovršiti naplatu zbog ograničenja u konfiguraciji pravila",
+          "unrecoverable_failure": "Nije moguće učitati košaricu. Pokušajte ponovno"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Povratak na košaricu",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} za ažuriranje količina",
+        "subscription_changed": "Jedna od tvojih pretplata je promijenjena.",
+        "company_location_changed": "Vaša je košarica ažurirana. Provjerite svoju narudžbu prije nego što je pošaljete.",
+        "violations_title": "{{violation}} nedostaje ili nije valjan",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adresa dostave",
+          "PaymentViolations": "Adresa za račun"
+        },
+        "all_violations_content": "Nazovi {{emailLink}} ili nas kontaktiraj kako bi ažurirao ove podatke i dovršio svoju narudžbu:",
+        "all_violations_email_link": "e-pošta",
+        "editable_shipping_address_violations_message_title": "Dodajte ove informacije kako biste dovršili svoju narudžbu:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} za trajnu promjenu adrese za ovu lokaciju.",
+        "editable_shipping_address_violations_email_link": "Kontaktirajte nas",
+        "company_location_changed_product_removed": "Vaša je košarica prilagođena jer neki proizvodi nisu dostupni na ovoj lokaciji. Provjerite svoju narudžbu prije nego što je pošaljete.",
+        "calculating_shipping": "Dostava se još obračunava. Pokušajte ponovno za nekoliko sekundi. Nisu naplaćeni nikakvi troškovi.",
+        "calculating_taxes": "Porezi se još obračunavaju. Pokušajte ponovno za nekoliko sekundi. Nisu naplaćeni nikakvi troškovi.",
+        "generic_processing_error": {
+          "title": "Došlo je do problema prilikom obrade vaše narudžbe",
+          "body": "Nisu naplaćeni nikakvi troškovi. Pokušajte ponovno ili upotrijebite drugi način plaćanja."
+        },
+        "contact_information": {
+          "title": "Kontaktni podaci nisu valjani",
+          "header": "{{emailLink}} za ažuriranje vaših podataka",
+          "email_link": "Kontaktirajte nas"
+        },
+        "payment_method_not_available_with_payment_terms": "Odabrani način plaćanja više nije dostupan jer se plaćanje za ovu narudžbu sada podliježe {{paymentTerms}} uvjetima.",
+        "payment_method_not_available_with_fulfillment_terms": "Odabrani način plaćanja više nije dostupan jer se plaćanje za ovu narudžbu sada mora izvršiti prilikom isporuke.",
+        "payment_method_not_available_with_fixed_terms": "Odabrani način plaćanja više nije dostupan jer uplata za ovu narudžbu mora biti izvršena kasnije.",
+        "payment_method_not_available_with_review_requirement": "Odabrani način plaćanja više nije dostupan jer je plaćanje obvezno nakon potvrde narudžbe.",
+        "validation_errors_banner": {
+          "section_label": {
+            "billing": "Fakturiranje"
+          },
+          "heading": {
+            "one": "Pogreška je {{count}}:",
+            "other": "Postoji {{count}} pogrešaka:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} pogreška u {{section}}",
+            "other": "{{count}} pogrešaka u {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "one": "Ova narudžba bit će poslana na adresu koju je {{merchant}} naveo.",
+          "other": "Ova narudžba bit će poslana na adresu koju je {{merchant}} naveo. Odaberite adresu za dostavu."
+        },
+        "subtitle_no_match": "Ova adresa se ne podudara ni s jednom od tvojih spremljenih adresa.",
+        "subtitle_must_use": "Vaša narudžba bit će poslana na ovu adresu.",
+        "use_saved_address": "Koristiti drugu adresu",
+        "return_to_cart": "Povratak na košaricu"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Čitač",
+          "link_label": "Opći uvjeti {{partnerDisplayName}}"
+        }
       }
     }
   }
