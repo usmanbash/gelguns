@@ -3668,7 +3668,97 @@
       "decrease": "Purchase of {{type}}",
       "mondayAbbreviation": "Mon.",
       "tuesdayAbbreviation": "Tue.",
-      "wednesdayAbbreviation": "week."
+      "wednesdayAbbreviation": "week.",
+      "thursdayAbbreviation": "do.",
+      "fridayAbbreviation": "Fri.",
+      "saturdayAbbreviation": "Sat.",
+      "sundayAbbreviation": "thus.",
+      "showPreviousMonth": "Display last month, {{month}} {{year}}",
+      "rangeStart": "Start range",
+      "inRange": "Within reach",
+      "rangeEnd": "End of range",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} items available"
+      },
+      "mapClusterTitle": {
+        "one": "Cluster of {{number}} landmarks",
+        "other": "Cluster of {{number}} marking points"
+      },
+      "expandSheet": "Unfold",
+      "dropzoneInvalidFileType": "This file type is not supported",
+      "dropzoneDraggedOver": "Place file down to upload",
+      "clipboardFailedToCopy": "Not copied",
+      "clear": "Knowledge"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Adjust",
+      "hide_bar": "Hide beam",
+      "navigate_to_admin": "Navigate to management center",
+      "previewing": "You are viewing a sample of:",
+      "saved_at": "Saved on {{date}} at {{time}}",
+      "viewing": "You are looking at:",
+      "not_available": "No profile data available",
+      "close_preview": "Close example",
+      "actions_button": "Offers"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Log out everywhere",
+        "description": "If you have lost a device or if you are worried about safety, log out everywhere to ensure the safety of your account.",
+        "button": "Log out on all devices",
+        "warning_message": "You will also be logged out on this device."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "On {{date}} at {{time}}",
+        "lessThanOneWeekAgo": "On {{weekday}} at {{time}}",
+        "lessThanOneWeekAway": "On {{weekday}} at {{time}}",
+        "lessThanOneYearAway": "On {{date}} at {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minutes ago"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Select the extension named '{{extensionName}}'",
+        "unselect": "Undo selection of the extension named '{{extensionName}}'"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "You cannot open this link within the editor. The link will open in a new window ({{resolved_to_link}}). Click OK to continue."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Try again in a few minutes"
+      }
+    },
+    "shop_ads": {
+      "title": "Other products you might like",
+      "subtitle": "Temporarily available",
+      "button": "Browse on Shop"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Log in or create an account",
+        "shop_login_button": "Log in with Shop",
+        "use_email_button": "Use email address"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hi {{first_name}},"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, open submenu",
+        "loading_menu": "Load menu",
+        "sign_in_with_email": "Log in with e-mail",
+        "sign_in": "Log in"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "replace_with": "Replaced by"
+      }
     }
   }
 }
