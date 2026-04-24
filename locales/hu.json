@@ -2645,6 +2645,96 @@
       },
       "online_store_chat": {
         "title": "Kérdése van? Csevegjen velünk"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "A közelben %{count} raktárkészlettel rendelkező hely található",
+          "other": "A közelben %{count} raktárkészlettel rendelkező hely található"
+        },
+        "toggle_location": "Helyszín módosítása",
+        "or": "OF",
+        "your_location": "a te helyed",
+        "search_button": "Sarokkeresés",
+        "no_stores_found": "Nem találhatók boltok",
+        "could_not_resolve_address": "Nem található a cím. Próbáld újra, vagy használj másik címet.",
+        "paginator": {
+          "accessibility_label": "Oldalszámozás helyszíni átvételhez",
+          "label": {
+            "one": "%{first} - %{last} van %{count} bolt",
+            "other": "%{first} - %{last} között %{count} üzlet található"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Még %{count} helyszín megjelenítése",
+          "other": "Még %{count} helyszín megjelenítése"
+        },
+        "all_stores_far_away": {
+          "title": "A legközelebbi helyszínek több mint %{distance} távolságra találhatók",
+          "description": "Válasszon egy helyszínt vagy %{ship_to_address_link}",
+          "ship_to_address_link": "kézbesítési cím",
+          "change_location_link": "Változtasd meg a helyzetedet",
+          "title_with_specific_location": "A legközelebbi helyszín a cikkeddel több mint %{distance}-re van %{location}-tól.",
+          "title_with_item": {
+            "one": "A legközelebbi helyszín a cikkeddel több mint %{distance}-re van %{location}-tól.",
+            "other": "A legközelebbi helyszín a cikkeiddel több mint %{distance}-re van %{location}-tól."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Az Ön korábban kiválasztott helyszíne már nem elérhető",
+          "description": "Válasszon egy új helyszínt vagy %{ship_to_address_link}",
+          "ship_to_address_link": "Címre küldés"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Küldd el a cikkeidet",
+          "search_elsewhere": "keres máshol",
+          "ship_items_or_search_elsewhere": "%{ship_items} %{search_elsewhere} közül"
+        },
+        "location_closest": "A legközelebbi helyszín a cikkeddel",
+        "toggle_multiple_locations": "Még több mint %{count} más helyszín",
+        "location_information_far_away": {
+          "one": "Van %{count} helyszín a cikkeddel",
+          "other": "%{count} helyszín található a cikkeddel"
+        },
+        "location_nearby": {
+          "one": "A közeledben %{count} helyen elérhető a terméked",
+          "other": "A közeledben %{count} helyen elérhető a terméked"
+        },
+        "location_nearby_short": {
+          "one": "%{count} helyszín a közelben a cikkeddel",
+          "other": "%{count} helyszín a közelben a cikkeddel"
+        },
+        "location_far_away": {
+          "one": "%{count} helyszín a cikkeddel",
+          "other": "%{count} helyszín az Ön cikkével"
+        },
+        "toggle_more_locations": {
+          "one": "Még %{count} másik helyszín",
+          "other": "Még %{count} más helyszín"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nincs helyszín a cikkeddel",
+          "other": "Nincsenek helyszínek a cikkeiddel"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nincsenek helyszínek %{country} területén a cikkeddel",
+          "other": "Nincsenek helyszínek %{country} területén a cikkeiddel"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Minden cikk átvétele személyesen",
+        "items_for_pickup": "Átvételre váró cikkek",
+        "delivery_method": "Megosztott kézbesítési mód",
+        "delivery_method_menu": "Szétválasztott kézbesítési mód menü",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} a %{ship_separately_link} közül",
+          "remove_items_or_pickup": "%{remove_items_link} a %{pickup_in_store_link} közül",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} cikk nem tölthető be",
+              "other": "%{count} cikk nem tölthető be"
+            }
+          }
+        }
       }
     }
   }
