@@ -2014,7 +2014,79 @@
           "send_link_to_phone": "Ou envoie un lien vers ton téléphone"
         },
         "gift_card_confirmation_by_text": "Si vous ne l'avez pas reçu, demandez à renvoyer le SMS ou contactez-nous.",
-        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, demandez à ce que le courriel soit renvoyé ou contactez-nous."
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, demandez à ce que le courriel soit renvoyé ou contactez-nous.",
+        "gift_card_title": "Bons cadeaux",
+        "resend_gift_cards": "Renvoyer les bons cadeaux",
+        "attempted_delivery_local_description_html": "Nous n'avons malheureusement pas pu livrer votre commande. %{contact_us} pour planifier une autre livraison.",
+        "thank_you_confirmed_order_with_email_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scanner avec ton téléphone"
+          },
+          "sms": {
+            "title": "Ou envoie un lien vers ton téléphone"
+          }
+        },
+        "estimated_delivery": "Estimation actuelle de la livraison :",
+        "thank_you_title_review": "Votre commande a été soumise pour examen",
+        "thank_you_confirmed_order_with_draft": "Nous te ferons savoir si nous avons besoin de plus d'informations ou lorsque ta commande sera confirmée.",
+        "breadcrumbs_in_review": "Pour examen",
+        "missing_shipping_address_banner": {
+          "title": "La commande n'a pas d'adresse de livraison"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Adressez-vous de nouveau au vendeur.",
+        "order_status_confirmed_with_installments_payment_confirm": "Vous recevrez bientôt un courriel de confirmation avec votre numéro de commande et les détails de votre échéancier de paiement.",
+        "first_payment_complete": "Premier paiement effectué",
+        "choose_payment_method_later": "Choisir le mode de paiement plus tard",
+        "purchase_order_number_title": "Numéro de commande %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "La commande a été récupérée à %{address}.",
+        "ready_for_delivery": "Prêt pour la livraison",
+        "order_updates_subscribe_to_email_notifications_failed": "Nous ne pouvons pas enregistrer cette adresse courriel pour les mises à jour. Veuillez réessayer ou utiliser une autre adresse courriel.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'adresse électronique que vous avez saisie existe déjà.",
+        "subscriptions_management": {
+          "description": "Continuez vers votre compte pour consulter et gérer vos abonnements.",
+          "button_label": "Gérer mon abonnement"
+        },
+        "manage_order_label": "Gérer votre commande",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Dans quelques minutes, vous recevrez un texto avec votre bon cadeau.",
+          "other": "Dans quelques minutes, vous recevrez un texto avec vos bons cadeaux."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Dans quelques minutes, vous recevrez un texto avec votre bon cadeau.",
+          "other": "Dans quelques minutes, vous recevrez un texto avec vos bons cadeaux."
+        },
+        "gift_card_email_title": {
+          "one": "Le bon cadeau a été envoyé par courriel",
+          "other": "Les bons cadeaux ont été envoyés par courriel"
+        },
+        "gift_card_text_title": {
+          "one": "Le bon cadeau a été envoyé par SMS",
+          "other": "Les bons cadeaux ont été envoyés par SMS"
+        },
+        "resend_gift_cards_by_email": "Renvoyer le courriel",
+        "gift_card_resent_confirmation": {
+          "one": "Le bon cadeau a été renvoyé.",
+          "other": "Les bons cadeaux ont été renvoyés."
+        },
+        "gift_card_resend_failure": {
+          "one": "Un problème est survenu lors de la réexpédition de votre bon cadeau. Veuillez réessayer ou contacter notre service.",
+          "other": "Un problème est survenu lors de la réexpédition de vos bons cadeaux. Veuillez réessayer ou contacter notre service."
+        },
+        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
+        "thank_you_title_payments_app_pending_default": "Le paiement est en cours de traitement",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Nous avons reçu votre commande",
+        "thank_you_title_payments_app_failed_pending_payment": "Votre paiement ne peut pas être traité",
+        "thank_you_payments_app_failed_pending_payment": "Votre commande n'a pas encore été réglée. Retournez à votre panier pour vérifier et payer votre commande.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un courriel de confirmation. Vous pouvez suivre votre commande via l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un courriel de confirmation. Vous pouvez suivre votre commande via l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un texto de confirmation. Vous pouvez suivre votre commande via l'application Boutique.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Une fois le paiement effectué, vous recevrez un courriel de confirmation. Vous pouvez suivre votre commande via l'application Boutique."
       }
     }
   }
