@@ -2052,7 +2052,79 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "În curând vei primi un e-mail de confirmare cu numărul comenzii.",
         "thank_you_payments_app_pending_payment_description_default_with_email": "În curând vei primi un e-mail de confirmare cu numărul comenzii.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "În curând vei primi un e-mail de confirmare cu numărul comenzii.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "În curând vei primi un e-mail de confirmare cu numărul comenzii."
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "În curând vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "În curând vei primi un mesaj text cu confirmarea și numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "În curând vei primi un mesaj text cu confirmarea și numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "În curând vei primi un mesaj text cu confirmarea și numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Contactați-ne prin e-mail sau telefonic pentru confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Contactați-ne prin e-mail sau telefonic pentru confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Contactați-ne prin e-mail sau telefonic pentru confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "După plată, vei primi un e-mail de confirmare cu numărul comenzii.",
+        "vat_invoices": {
+          "title": "Facturi Btw"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Plata ta este în curs de procesare. Vei primi un e-mail când plata ta va fi confirmată.",
+        "verify_shop_account_title": "Verifică-ți contul de magazin",
+        "verify_shop_account_message": "Informațiile tale sunt salvate la Magazin. Verifică-ți contul pentru a le folosi automat la milioane de magazine.",
+        "verify_shop_account_confirmation": "Datele de plată au fost salvate",
+        "announcement": {
+          "expand": "Desfășurare",
+          "collapse": "Strângeți"
+        },
+        "thank_you_confirmed_orders_with_email": "În curând vei primi e-mailuri separate de confirmare cu numerele tale de comandă",
+        "thank_you_confirmed_orders_with_phone": "În curând vei primi mesaje separate de confirmare cu numerele tale de comandă",
+        "thank_you_confirmed_orders_with_email_and_phone": "În curând vei primi e-mailuri separate de confirmare cu numerele tale de comandă",
+        "track_your_order_link_text": "Urmărește comanda ta",
+        "confirmed_orders_title": "Comenzile tale au fost confirmate",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Există articole neconfirmate"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Nu s-au perceput costuri pentru aceasta",
+          "other": "Nu s-au perceput costuri pentru aceasta"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} articole"
+        },
+        "thank_you_from_shop": "Vinde la %{shop_name}",
+        "payment_method_not_charged": "Nedobândit",
+        "items_fulfilled_by_store": {
+          "one": "Articolele pe care le-ai cumpărat provin de la %{remote_shop_name}.",
+          "other": "Articolele pe care le-ai cumpărat provin din alte magazine."
+        },
+        "thank_you_from_other_store": "Dintr-un alt magazin",
+        "checkout_on_another_store": "Plată la un alt magazin",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "În curând vei primi un e-mail de confirmare",
+          "multi_store": "În curând vei primi un e-mail de confirmare separat de la fiecare magazin"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "În curând vei primi un mesaj de confirmare prin SMS",
+          "multi_store": "În curând vei primi un mesaj de confirmare de la fiecare magazin"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "În curând vei primi un e-mail de confirmare",
+          "multi_store": "În curând vei primi un e-mail de confirmare separat de la fiecare magazin"
+        },
+        "checkout_again": "Efectuați din nou plata",
+        "cashback_notice": "Primești cashback-ul după 30 de zile"
+      },
+      "review": {
+        "review_title": "Finalizează comanda ta",
+        "checkout_as_guest": "Plată ca oaspete",
+        "blocks": {
+          "contact_method_title": "Contactează-ne",
+          "shipping_address_title": "Expediere către",
+          "shipping_method_title": "Metoda de expediere"
+        }
       }
     }
   }
