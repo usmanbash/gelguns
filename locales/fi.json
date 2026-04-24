@@ -784,7 +784,75 @@
             "november": "marraskuu",
             "december": "joulukuu"
           }
-        }
+        },
+        "datepicker": {
+          "range_start": "Aloita alue",
+          "in_range": "Lähellä oleva",
+          "range_end": "Loppualue"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} en {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} {{lastWord}} of",
+            "twoWordConnector": "{{firstWord}} {{secondWord}}:sta"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Ryhmä, jossa on {{number}} merkintäpistettä",
+            "other": "Ryhmä, jossa on {{number}} merkintäpistettä"
+          }
+        },
+        "dropzone": {
+          "add_file": "Tiedosto lisättäväksi",
+          "dragged_over": "Tiedoston tallentaminen lataamista varten"
+        },
+        "loading": "Ladataan...",
+        "remove_chip": "Poista artikkeli",
+        "finalize_order_accessibility_label": "Tilauksen vahvistaminen"
+      },
+      "contact": {
+        "title": "Tietoa",
+        "email_or_phone_label": "Sähköpostiosoite tai matkapuhelinnumero",
+        "email_or_phone_placeholder": "Sähköpostiosoite tai matkapuhelinnumero",
+        "address2_label": "Postilokero, ym.",
+        "optional_address2_label": "Postilokero, ym. (valinnainen)",
+        "province_label": "Maakunta",
+        "province_placeholder": "Maakunta",
+        "county_label": "Maakunta",
+        "county_placeholder": "Maakunta",
+        "state_label": "Valtio",
+        "state_placeholder": "Valtio",
+        "governorate_label": "Hallitus",
+        "governorate_placeholder": "Hallitus",
+        "emirate_label": "Emiraatit",
+        "emirate_placeholder": "Emiraatit",
+        "state_and_territory_label": "Valtio/Alue",
+        "state_and_territory_placeholder": "Valtio/Alue",
+        "phone_tooltip": "Jos meidän täytyy ottaa sinuun yhteyttä tilauksesi vuoksi",
+        "pincode_label": "Postinumero",
+        "pincode_placeholder": "Postinumero",
+        "region_none": "Ei valittu",
+        "different_shipping_address_text": "Käytä tätä osoitetta vain tätä tilausta varten",
+        "change_company_location_link_label": "Toimipaikan sijainnin muuttaminen",
+        "change_location_link_label": "Sijainnin vaihto",
+        "ship_to_company": "Lähetä osoitteeseen {{companyName}}",
+        "shipping_used_as_billing_notice": "Käytämme tätä myös laskutusosoitteena tälle tilaukselle.",
+        "company_attention_label": "Yritys/osoite:",
+        "optional_company_attention_label": "Yritys/huomio (valinnainen)",
+        "optional_postal_code_label": "Postinumero (valinnainen)",
+        "optional_postcode_label": "Postinumero (valinnainen)",
+        "phone_rollup_accessibility_label": "Puhelinvaihtoehdot",
+        "phone_country_code_label": "Puhelinnumeron maatunnus",
+        "storefront_link": "kauppiaan verkkosivusto",
+        "suburb_label": "Ulkoseutu"
+      },
+      "delivery_options": {
+        "ship": "Lähetys",
+        "pick_up": "Nouto",
+        "pick_up_in_two_hours": "Valmis yleensä 2 tunnin kuluessa"
       }
     }
   }
