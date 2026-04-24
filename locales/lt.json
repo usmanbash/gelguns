@@ -1620,7 +1620,75 @@
         "gift_cards_unavailable": "Dovanų kuponas negali būti naudojamas šiam užsakymui ir todėl buvo pašalintas",
         "network_card_payment_options": "Pasirinkti kredito kortelių bendrovę",
         "payment_flexibility_terms_id_mismatch": "ID sąlygos mokėjimo lankstumui nesutampa",
-        "offsite_gateway_review_page_redirect_hint": "Patikrinus užsakymą, būsite nukreipti į %{gateway_label}, kad užbaigtumėte pirkimą."
+        "offsite_gateway_review_page_redirect_hint": "Patikrinus užsakymą, būsite nukreipti į %{gateway_label}, kad užbaigtumėte pirkimą.",
+        "przelewy24_label": "Przelewy24",
+        "gift_card_checkbox_label": "Pritaikyti dovanų kuponą",
+        "blik_label": "Mirksėti",
+        "vipps_label": "Vipps",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP-kreditinė kortelė",
+        "simulated_express_checkout": "Skaitmeninės piniginės nėra prieinamos redaktoriaus pavyzdyje dėl jūsų regiono arba naršyklės",
+        "offsite_gateway_redirect_hint_no_button_label": "Jūs būsite nukreipti į %{gateway_label}, kad užbaigtumėte savo pirkimą.",
+        "swish_label": "Švilpimas",
+        "network_card_persistence_description": "Pasirinktas tinklas bus išsaugotas su jūsų mokėjimo metodu būsimoms operacijoms.",
+        "payment_method_incompatible_with_payment_terms": "Mokėjimo būdas nesuderinamas su mokėjimo sąlygomis.",
+        "billing_address_rollup_accessibility_label": "Sąskaitos adreso parinktys",
+        "payment_method_rollup_accessibility_label": "Mokėjimo būdo parinktys",
+        "crypto_modal": {
+          "header": "Apmokėkite %{shop_name} %{total_price} USDC",
+          "error": {
+            "sandbox_error": "Įvyko klaida",
+            "web_component_error": "Įvyko problema įkeliant šį puslapį"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Mokėjimo sąskaita",
+          "savings": "Taupomoji sąskaita"
+        },
+        "bank_account_choose": "Pasirinkite sąskaitą, kad saugiai užbaigtumėte pirkimą",
+        "bank_account_connect_another": "Pridėti kitą banko sąskaitą",
+        "bank_account_connect": "Sąskaitos susiejimas",
+        "bank_account_missing": "Banko sąskaita turi būti susieta",
+        "crypto_payment_method": {
+          "description": "Saugiai prijunkite savo piniginę. Jūsų likutis ir adresas nebus dalijami.",
+          "tooltip": "Jūsų piniginės likutis ir adresas nėra dalijami, ir gali būti nuskaičiuota tik prašoma suma",
+          "cashback_descriptor": {
+            "one": "Jūs gausite savo pinigų grąžinimą po %{count} dienų",
+            "other": "Jūs gausite savo pinigų grąžinimą po %{count} dienų"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% pinigų grąžinimas",
+        "usdc_cashback_additional_info": "Mokėkite su USDC Base platformoje ir per 30 dienų gaukite %{incentive_percentage}% atgal į savo skaitmeninę piniginę.",
+        "separate_payments_label": "Jūsų prekės yra iš daugiau nei vienos parduotuvės. Turite atsiskaityti su %{separate_payments_link}.",
+        "separate_payments_text": "atskirų mokėjimų",
+        "payments": "Mokėjimas",
+        "business_customer_with_bank_account_vaulting_payment_label": "Išsaugokite šį mokėjimo būdą atsiskaitymo metu ir suteikite %{company} leidimą apmokestinti jūsų sąskaitą už būsimus pirkinius, kuriuos patvirtinsite šiai vietai, kol atšauksite leidimą. Visi kontaktai, priskirti šiai vietai, gali naudoti šį mokėjimo būdą.",
+        "new_bank_account_disclaimer": "Užbaigdami užsakymą suteikiate %{shop_name} leidimą nurodytą sumą nurodytu laiku nuskaičiuoti iš žemiau pateiktos sąskaitos per ACH.",
+        "bank_account_disclaimer": "Gali užtrukti iki 4 darbo dienų, kol ACH mokėjimai bus apdoroti.",
+        "bank_account_vaulted_company_location": "Banko sąskaita išsaugota šiai vietai",
+        "discount_codes_removed_summary": {
+          "other": "%{count} nuolaidų kodai buvo pašalinti"
+        },
+        "default": "Standartinis",
+        "continue_to_guest_checkout": "Kaip svečias pereiti prie atsiskaitymo",
+        "discount_codes_modified_summary": {
+          "one": "%{count} nuolaidos kodas pakeistas"
+        }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Dabartinė likutis %{amount}",
+        "credit_card_expires_on_notice": "Galiojimas baigiasi %{month}/%{year}",
+        "express_payment_gateway_label": "Išreikšti",
+        "manual_payment_gateway_label": "Rankinis",
+        "billing_address_title": "Sąskaitos adresas"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Įveskite galiojantį telefono numerį",
+        "handle_email_invalid": "Įveskite galiojantį el. pašto adresą",
+        "email_invalid": "Įveskite galiojantį el. pašto adresą",
+        "email_or_phone_invalid": "Įveskite galiojantį el. pašto adresą arba mobiliojo telefono numerį",
+        "address_address2_blank": "Įveskite buto arba apartamentų numerį ir pan.",
+        "address_country_blank": "Pasirinkite šalį/regioną"
       }
     }
   }

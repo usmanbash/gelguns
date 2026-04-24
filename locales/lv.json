@@ -430,7 +430,79 @@
         "have_an_account_label": "Vai tev ir konts?",
         "sign_in_link_label": "Pieslēgties",
         "sign_out_link_label": "Izrakstīties",
-        "save_my_information_label": "Saglabāt šo informāciju, lai nākamreiz norēķinātos ātrāk"
+        "save_my_information_label": "Saglabāt šo informāciju, lai nākamreiz norēķinātos ātrāk",
+        "invalid_address": "Izvēlētā adrese nav derīga. %{update_address_link} vai izvēlieties citu adresi.",
+        "incomplete_address": "Izvēlētā adrese ir nepilnīga. %{update_address_link} vai izvēlieties citu adresi.",
+        "rollup_label": "Konts",
+        "invalid_shipping_method_summary": "Izvēlieties derīgu piegādes adresi, lai redzētu pieejamās piegādes metodes",
+        "saved_address_option_link": "Izmantojiet saglabātu adresi",
+        "saved_address_modal_title": "Izmanto manu saglabāto adresi",
+        "saved_address_option_description": {
+          "one": "Tev ir {{count}} saglabāta adrese.",
+          "other": "Tev ir {{count}} saglabātas adreses."
+        },
+        "rollup_accessibility_label": "Kontu iespējas"
+      },
+      "stock": {
+        "page_title": "Krājumu problēma",
+        "title": "Nav noliktavā",
+        "items_unavailable_notice": "Dažas preces vairs nav pieejamas.",
+        "product_column_header": "Preces",
+        "quantity_column_header": "Skaits",
+        "price_column_header": "Cena",
+        "status_column_header": "Statuss",
+        "removed_from_cart_notice": "Noņemts no iepirkumu groza",
+        "sold_out_label": "Izpārdots",
+        "reduced_label": "Samazināts",
+        "reduced_with_quantity_label": "Pieejami tikai %{quantity_available} gab. krājumā",
+        "remove_from_cart_button_label": "Noņemt no iepirkumu groza",
+        "continue_shopping_button_label": "Turpināt",
+        "go_back_to_cart_button_label": "Atpakaļ uz manu iepirkumu grozu",
+        "remove": "Noņemt",
+        "empty_cart_label": "Jūsu iepirkumu grozs ir tukšs",
+        "quantity_update": {
+          "page_title": "Atjauninātais daudzums",
+          "title": "Atjauninātais daudzums",
+          "description": "Pieejamie daudzumi šiem priekšmetiem ir mainīti, un jūsu iepirkumu grozs ir atjaunināts."
+        },
+        "unpurchasable_product": {
+          "title": "Produktu nevar iegādāties",
+          "header": "Daži priekšmeti ir izņemti no tava iepirkumu groza",
+          "message": "Šie raksti nav pieejami B2B pasūtījumiem.",
+          "status_column_header": "Nav pieejams"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produktu nevar iegādāties",
+          "header": "Daži priekšmeti ir izņemti no tava iepirkumu groza",
+          "message": "Šie raksti nav pieejami.",
+          "status_column_header": "Nav pieejams"
+        },
+        "unshippable_product": {
+          "title": "Piegāde nav pieejama",
+          "header": {
+            "one": "Nav pieejama piegāde %{count} precei",
+            "other": "Nav pieejama piegāde %{count} preču vienībām"
+          },
+          "message": {
+            "one": "Šis raksts tiks izņemts no tava iepirkumu groza, jo pie tava adreses nav pieejamas piegādes metodes.",
+            "other": "Šis raksts tiks izņemts no tava iepirkumu groza, jo pie tava adreses nav pieejamas piegādes metodes."
+          },
+          "status_column_header": "Nav piegādes"
+        },
+        "price_update": {
+          "title": "Cenu atjauninājums",
+          "description": "Šo preču cenas ir mainītas un atjauninātas tavā iepirkumu grozā.",
+          "updated_price": "Atjauninātā cena"
+        },
+        "return_to_store_label": "Atpakaļ uz veikalu",
+        "item_label": {
+          "one": "{{count}} prece",
+          "other": "{{count}} preces"
+        },
+        "continue_cta_label": "Turpināt ar norēķiniem",
+        "out_of_stock": {
+          "description": "Šie raksti vairs nav pieejami un ir izņemti no tava iepirkumu groza."
+        }
       }
     }
   },
