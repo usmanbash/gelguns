@@ -3965,7 +3965,71 @@
       "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o aplazada.",
       "add_payment_method_dropdown": {
         "bank_account_consent": "Al agregar un método de pago, puedes autorizar que se cobren cargos en tu tarjeta hasta que canceles, o que en futuras compras que apruebes se realicen débitos de tu cuenta bancaria."
+      },
+      "replacement_payment_method_title": "Métodos de pago alternativos",
+      "bank_account": {
+        "loading_accessibility_message": "Botón para cuenta bancaria se está cargando",
+        "generic_error": "No se puede añadir la cuenta bancaria. Inténtalo de nuevo más tarde."
+      },
+      "update_payment_method": {
+        "title": "Actualizar método de pago",
+        "disclaimer": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o aplazada.",
+        "error_message": "No se puede actualizar el método de pago",
+        "loading_form_accessibility_message": "Formulario para actualizar el método de pago se está cargando",
+        "loading_current_payment_method": "Método de pago actual se está cargando",
+        "loading_digital_wallets": "Opciones para billetera digital se están cargando",
+        "loading_card_fields": "Campos de tarjeta de crédito se están cargando",
+        "pre_orders_title": "Próximo",
+        "pre_orders_list_accessibility_label": "Lista de productos con pedido en curso",
+        "resources_list_accessibility_label": "Productos de suscripción y productos con un pedido en curso que utilizan este método de pago",
+        "resources_card_scroll": "Desplácese para ver más artículos",
+        "loading_resources": "Cargando suscripciones y pedidos próximos"
+      },
+      "link_expired": {
+        "message": "Este enlace para actualizar tu método de pago ha expirado.",
+        "return_home_button": "Volver a la página principal",
+        "update_message": "Este enlace para actualizar tu método de pago ha expirado.",
+        "add_message": "Este enlace para añadir tu método de pago ha expirado."
+      },
+      "update_success": {
+        "title": "Método de pago actualizado",
+        "done_button": "Continuar comprando"
+      },
+      "additional_payment_methods": "Métodos de pago adicionales",
+      "add_success": {
+        "title": "Método de pago añadido",
+        "done_button": "Continuar comprando"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Pago en tienda",
+      "applepay": "Pago con Apple",
+      "googlepay": "Google Paga",
+      "discover": "Descubrir",
+      "dinersclub": "Club de Comensales",
+      "visaelectron": "Visa Electrón",
+      "forbrugsforeningen": "Asociación de Consumo",
+      "unionpay": "Pago Unión",
+      "laser": "Láser",
+      "storecredit": "Crédito de tienda",
+      "bogus": "Falso"
+    },
+    "enable_javascript": "Activa JavaScript en la configuración de tu navegador o inicia sesión con otro navegador para ver tu cuenta.",
+    "ui_components": {
+      "increase": "Aumento de {{type}}",
+      "decrease": "Consumo de {{type}}",
+      "minimumReached": "Furgoneta mínima alcanzada {{value}}",
+      "maximumReached": "Máximo alcanzado en {{value}}",
+      "january": "enero",
+      "february": "febrero",
+      "march": "marzo",
+      "april": "abril",
+      "may": "mayo",
+      "june": "junio",
+      "july": "julio",
+      "august": "agosto",
+      "september": "septiembre",
+      "october": "octubre"
     }
   }
 }
