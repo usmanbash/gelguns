@@ -3708,7 +3708,91 @@
         "no_locations_found": "Geen paikkoja löytynyt",
         "search": "Paikkojen etsiminen",
         "clear_search": "Tyhjennä hakutoiminto",
-        "try_new_search": "Kokeile uutta hakua"
+        "try_new_search": "Kokeile uutta hakua",
+        "description_switch_later": "Voit vaihtaa myöhemmin aina tarvittaessa"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Toimitusosoitteen lisääminen",
+        "add_shipping_address_section_accessibility_label": "Toimitusosoitteen lisääminen",
+        "cancel_adding_billing_address_accessibility_label": "Lisää laskutusosoite peruuta",
+        "cancel_adding_shipping_address_accessibility_label": "Toimitusosoitteen lisääminen peruuta",
+        "save_new_billing_address_accessibility_label": "Laskutusosoitteen tallennus",
+        "save_new_shipping_address_accessibility_label": "Toimitusosoitteen tallennus"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Piilota kaikki arvioitavat tilaukset",
+          "show_all_accessibility_label": "Näytä kaikki tilaukset arvioitavana",
+          "title": "Käsittelyssä",
+          "pagination": {
+            "nav_accessibility_label": "Navigointipainikkeet arvioitavissa oleville tilauksille"
+          },
+          "show_all_orders_in_review": "Näytä kaikki tilaukset arvioitavana",
+          "show_less_orders_in_review": "Näytä vähemmän tilauksia tarkastelussa",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Sinulla ei ole käsiteltäviä tilauksia",
+            "pending_orders": {
+              "one": "Sinulla on {{count}} tilausta käsittelyssä",
+              "other": "Sinulla on {{count}} käsiteltävää tilausta"
+            },
+            "more_than_pagination_length": "Sinulla on yli {{count}} tilausta käsittelyssä"
+          },
+          "pending_orders_count_more_than_pagination_length": "yli {{count}}"
+        },
+        "order_list_column_headers_location": "Sijainti",
+        "order_list_column_headers_contact": "Yhteystiedot"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Vahvistettu {{date}} tilaukselle {{draftOrderName}}",
+        "loading": "Tilaustiedot latautuvat",
+        "payment_status": {
+          "draft": {
+            "description": "Maksutiedot määritellään, kun tilaus on vahvistettu.",
+            "in_review": {
+              "description": "Maksutiedot määritellään, kun tilaus on vahvistettu."
+            },
+            "submitted": {
+              "description": "Maksa vahvistaaksesi tämän tilauksen.",
+              "title": "Maksaminen vahvistusta varten",
+              "deposit": {
+                "title": "Maksu on suoritettava",
+                "due_later": "Saldolle sovelletaan {{translatedName}}-ehtoja, ja se erääntyy maksettavaksi {{dueDate}}.",
+                "due_on_fulfillment": "Saldo on maksettava heti, kun kaikki tämän tilauksen tuotteet on käsitelty.",
+                "due_on_date": "Saldo erääntyy maksettavaksi {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Saldoon sovelletaan {{translatedName}}-ehtoja.",
+              "due_on_fulfillment": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Jäännössumma on maksettava, kun tilauksesi on käsitelty.",
+              "due_on_receipt": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Jäännössumma maksetaan myöhemmin.",
+              "due_on_date": "{{depositAmount}} on maksettava, kun tilaus on vahvistettu. Jäännössumma erääntyy maksettavaksi {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Tilauksesi on kokonaan maksettu."
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Maksusi on {{count}} päivää myöhässä"
+            },
+            "banner_due": {
+              "one": "Maksusi erääntyy maksettavaksi {{count}} päivän kuluttua",
+              "other": "Maksusi erääntyy maksettavaksi {{count}} päivän kuluttua"
+            },
+            "title": "Maksu erääntynyt",
+            "title_with_date": "Maksu erääntyy {{date}}",
+            "description_partially_paid": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo.",
+            "description_authorized": "Summa veloitetaan eräpäivänä valitsemallasi maksutavalla. Voit myös maksaa jo nyt.",
+            "title_due_on_fulfillment": "Maksu erääntyy tilauksen täyttämisen yhteydessä.",
+            "description_due_on_fulfillment": "Maksu erääntyy heti, kun kaikki tämän tilauksen tuotteet on käsitelty.",
+            "description_waiting_for_manual_payment": "Tämän tilauksen maksu on käsittelyssä. Saldo päivitetään, kun maksu on vastaanotettu.",
+            "description_due_on_receipt_partially_paid": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo. Saat laskun, kun maksu erääntyy.",
+            "description_due_on_fulfillment_partially_paid": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo. Maksu erääntyy heti, kun kaikki tämän tilauksen tuotteet on käsitelty.",
+            "description_due_on_fulfillment_partially_paid_next": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo.",
+            "banner_due_today_for_multiple_fulfillments": "Maksu erääntyy tänään {{count}} täyttöä varten",
+            "banner_overdue_for_multiple_fulfillments": "Maksu erääntyy {{count}} täyttämisestä"
+          }
+        }
       }
     }
   }
