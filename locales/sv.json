@@ -1814,7 +1814,65 @@
         "attempted_delivery_title": "Ett försök gjordes att leverera din beställning",
         "attempted_delivery_description_html": "Försöket att leverera din beställning misslyckades. För att ordna en ny leveransförsök, %{contact_us}.",
         "delivered": "Orolig",
-        "delivered_title": "Din beställning har levererats"
+        "delivered_title": "Din beställning har levererats",
+        "delivered_description_html": "Din beställning har levererats till den adress du angav. Om du inte har mottagit den, eller om det finns andra problem, %{contact_us}.",
+        "updated_time": "Uppdaterad för %{time_ago} sedan",
+        "failure": "Inte oroad",
+        "failed_title": "Din beställning kunde inte levereras.",
+        "failed_contact_merchant": "Kontakta %{company} för att ordna leveransen.",
+        "failed_contact_merchant_no_company": "Kontakta oss för att ordna leveransen.",
+        "non_shippable_title": "Beställningen är slutförd",
+        "login_title": "Logga in för att se alla beställningsuppgifter",
+        "login_description": "Du kan hitta ditt beställningsnummer i fakturan som du fick via e-post.",
+        "login_description_phone": "Du hittar ditt beställningsnummer på fakturan som du har fått via sms.",
+        "login_reorder_link_text": {
+          "other": "köp även dessa produkter"
+        },
+        "customer_information_hidden_fields_message": "Logga in för att se all kundinformation.",
+        "cancelled_title": "Din beställning har avbrutits",
+        "cancelled_description": "Din beställning har avbrutits den %{date}. Kontakta oss om du har några frågor.",
+        "order_number_label": "Beställningsnummer",
+        "customer_validation_error": "Ange en giltig e-postadress eller beställningsnummer.",
+        "customer_validation_error_phone": "Ange ett giltigt telefon- eller beställningsnummer.",
+        "unfulfilled_items_title": "Leverans förbereds",
+        "marker": {
+          "current": "Aktuell leveransplats"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Artiklar i denna försändelse",
+          "unfulfilled_table_title": "Artiklarna förbereds för utskick",
+          "quantity_label": "Antal"
+        },
+        "order_updates_description_missing": "Du får inga leveransuppdateringar.",
+        "order_updates_subscribe_to_email_notifications": "Ta emot leveransuppdateringar via e-post",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ta emot leveransuppdateringar via e-post eller sms",
+        "order_updates_subscribe_to_phone_notifications": "Få dina leveransuppdateringar via sms",
+        "order_updates_submit_subscription": "Indien",
+        "track_shipment": "Följ leveransen",
+        "order_status_confirmed_order_with_email_pick_up": "Du får ett e-postmeddelande när du kan hämta din beställning.",
+        "order_status_confirmed_order_with_phone_pick_up": "Du får ett sms när du kan hämta din beställning.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Du får ett e-postmeddelande och ett sms när du kan hämta din beställning.",
+        "pick_up_in_store_marker": {
+          "current": "Aktuell leveransplats",
+          "shipping": "Utlämningsställe"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Du får ett e-postmeddelande när du kan hämta din beställning.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Du får ett sms när du kan hämta din beställning.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Du får ett e-postmeddelande när du kan hämta din beställning.",
+        "ready_for_pickup_title": "Beställningen är klar för avhämtning",
+        "ready_for_pickup_description": "Din beställning kan hämtas. Ta med beställningsbekräftelsen när du hämtar din beställning.",
+        "picked_up_title": "Beställningen har hämtats upp",
+        "picked_up_description_html": "Din beställning hämtades på %{location_name} den %{date}.",
+        "other_options": "Andra valmöjligheter",
+        "shop_phone_description": "Du får ett sms med en länk till Butiksappen för att följa din beställning.",
+        "ready_for_delivery_title": "Beställningen är klar för leverans",
+        "ready_for_delivery_description": "Vi har förberett beställningen.",
+        "order_status_confirmed_order_local": "Vi förbereder din beställning för leverans.",
+        "out_for_delivery_local_title": "Din beställning är klar för leverans",
+        "out_for_delivery_local_description_html": "Du kommer snart att få din beställning.",
+        "delivered_local_title": "Din beställning har levererats",
+        "delivered_local_description_html": "Har du inte fått din beställning än? %{let_us_know}.",
+        "let_us_know": "Låt oss veta det"
       }
     }
   }
