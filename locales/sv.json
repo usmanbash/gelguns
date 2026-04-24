@@ -3056,7 +3056,85 @@
         "track": {
           "status_html": "<b>E-postöppning spåras och rapporteras.</b>",
           "visibility": "Vi kommer endast att se om du har öppnat e-posten som en del av den totala öppningsfrekvensen för e-post."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-postöppning spåras och rapporteras.</b>",
+          "visibility": "Vi har uppdaterat vår policy och följer nu öppnade e-postmeddelanden. Procentandelen öppnade e-postmeddelanden rapporteras anonymt. Vi kommer endast att se om du har öppnat ett e-postmeddelande som en del av den totala öppningsprocenten för e-post.",
+          "opt_out_html": "Om du inte längre vill dela denna information kan du <a style='text-decoration:underline;' href='%{link}'>avregistrera dig</a>."
         }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Är du säker på att du vill avanmäla dig från sms-marknadsföring?",
+        "button": "Logga ut"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Vanligtvis klart inom 1 timme",
+        "two_hours": "Vanligtvis klart inom 2 timmar",
+        "four_hours": "Vanligtvis klart inom 4 timmar",
+        "twenty_four_hours": "Vanligtvis klart inom 24 timmar",
+        "two_to_four_days": "Vanligtvis klart inom 2-4 dagar",
+        "five_or_more_days": "Vanligtvis klart inom mer än 5 dagar",
+        "zero_to_two_hours": "Vanligtvis klart inom 2 timmar",
+        "two_to_four_hours": "Vanligtvis klart inom 4 timmar",
+        "immediately": "Klar att hämtas nu",
+        "next_day": "Klar att hämtas nästa dag"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Pris: lågt till högt",
+        "price_descending": "Pris: högst till lägst"
+      },
+      "error": "Ett problem uppstod vid hämtning av sökresultaten. Uppdatera sidan eller försök igen senare."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Den här artikeln är ett återkommande eller uppskjutet köp. Om jag fortsätter godkänner jag %{cancellationPolicyLink} och ger dig också tillåtelse att debitera de angivna priserna från min betalningsmetod, med angiven frekvens och datum, tills min beställning är slutförd eller tills jag, om det är tillåtet, säger upp.",
+      "buyer_consent_cart": "En eller flera artiklar i din kundvagn är uppskjutna eller återkommande köp. Om jag fortsätter godkänner jag %{cancellationPolicyLink} och ger dig också tillåtelse att debitera de angivna priserna från min betalningsmetod, med angiven frekvens och datum, tills min beställning är slutförd eller tills jag, om tillåtet, säger upp.",
+      "cancellation_policy": "uppsägningspolicy"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Dölj kontomenyn"
+      },
+      "action_menu_accessibility_label": "Fler erbjudanden",
+      "close_menu_accessibility_label": "Stäng huvudmenyn",
+      "contact_email_subject": "Kontaktperson för webbshoppen {{shopName}}",
+      "contact_link": "Kontaktuppgifter",
+      "delete_confirmation": {
+        "delete": "Ta bort"
+      },
+      "dismiss_toast": "Stäng",
+      "document_title": "{{sectionName}} - {{shopName}} - konto",
+      "loading_message": "Laddad",
+      "logout_overlay_label": "Logga ut...",
+      "nav_label_accessibility_label": "Huvudmeny",
+      "navigation_accessibility_message": "Du har navigerat till {{sectionName}}",
+      "open_menu_accessibility_label": "Öppna huvudmenyn",
+      "country_switcher_toast_message": "Land har bytts till {{countryName}}",
+      "switch_country": "Byta land",
+      "location_switcher_toast_message": "Plats ändrad till {{locationName}}",
+      "try_new_search": "Prova en ny sökning",
+      "skip_to_content": "Hoppa direkt till innehållet",
+      "loading_policy_content_accessibility_label": "Policy för innehållsladdning",
+      "policy_load_error": "Kan inte ladda {{policyName}}",
+      "loading_section_accessibility_label": "{{sectionName}} butik"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Laddar kontouppgifter",
+      "loading_finished_accessibility_message": "Kontouppgifter har laddats",
+      "profile_card": {
+        "cancel_accessibility_label": "Redigera profil avbryt",
+        "email_help_text": "E-postadress kan inte redigeras",
+        "phone_number_help_text": "Telefonnummer kan inte redigeras",
+        "errors": {
+          "name_cannot_contain_url": "{{fieldName}} får inte innehålla någon URL",
+          "email_cant_be_blank": "E-post får inte vara tom"
+        },
+        "editable_email_help_text": "Din e-postadress används för registrering och beställningsuppdateringar."
       }
     }
   }
