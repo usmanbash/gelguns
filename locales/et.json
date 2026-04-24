@@ -751,7 +751,77 @@
           "hst": "HST",
           "gst": "Käibemaks",
           "pst": "PST",
-          "rst": "RST"
+          "rst": "RST",
+          "qst": "QST",
+          "vpt": "VPT"
+        },
+        "automatic_discount_tooltip": "Automaatselt rakendatud allahindlusi ei saa eemaldada"
+      },
+      "shipping": {
+        "title": "Saatmine",
+        "shipping_method_title": "Saatmisviis",
+        "waiting_on_rate_notice": "Saadavalolevate saatmistasude päring...",
+        "waiting_on_pickup_location_notice": "Saadavalolevate kogumiskohtade laadimine...",
+        "no_rates_for_cart_or_destination_notice": "Sinu ostukorvi või aadressi jaoks pole saadaval ühtegi saatmisviisi",
+        "no_pickup_location_notice": "Vähemalt ühte sinu toodetest ei saa järele tulla",
+        "no_rates_for_country_notice": "Sellele aadressile ei leitud saatmistasusid.",
+        "no_rates_contact_notice": "Võtke meiega ühendust lisainfo saamiseks",
+        "free_rate_label": "Tasuta",
+        "cheapest_rate_label": "Kõige odavam",
+        "estimated_delivery_date": {
+          "one": "%{count} tööpäev",
+          "other": "%{count} tööpäeva"
+        },
+        "estimated_delivery_date_range": "%{minimum} kuni %{maximum} tööpäeva jooksul",
+        "shipping_line_phone_label": "Mobiiltelefoni number (nõutav)",
+        "shipping_line_phone": "Sinu kuller saab selle numbri abil sinuga ühendust võtta.",
+        "other_method": {
+          "zero": "Muud meetodid pole saadaval",
+          "one": "%{count} muud meetodit saadaval alates",
+          "other": "%{count} muud meetodid saadaval alates"
+        },
+        "shipping_rate_discounted_amount": "Oli: %{original_amount}. Nüüd: %{amount}",
+        "shipping_line_delivery_phone": "Võib-olla võetakse sinuga ühendust, et anda värskendusi sinu kohaletoimetamise kohta.",
+        "optional_shipping_line_delivery_instructions_label": "Tarnejuhised (valikuline)",
+        "shipping_line_delivery_phone_label": "Mobiiltelefoni number",
+        "shipping_line_delivery_instructions": "Sisestage nõutud teave, näiteks uksekoodid ja kohaletoimetamise juhised.",
+        "local_delivery": "Kohalik kohaletoimetamine",
+        "subscription_shipping": "Tellimus saatmiseks",
+        "shipping_method_one_time_purchase_group_title": "Ühekordne ost",
+        "shipping_method_subscription_group_title": "Tellimus",
+        "one_time_purchase_shipping": "Ühekordne saatmine",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "voor %{count} kohaletoimetamine(d)",
+            "other": "voor %{count} kohaletoimetamist"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "iga päev",
+              "other": "iga %{count} päeva"
+            },
+            "week": {
+              "one": "iga nädal",
+              "other": "iga %{count} nädalat"
+            },
+            "month": {
+              "one": "iga kuu",
+              "other": "iga %{count} kuud"
+            },
+            "year": {
+              "one": "igal aastal",
+              "other": "iga %{count} aasta järel"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} kohaletoimetamise kohta",
+          "prepaid_shipping_price_label": "%{shipping_price} iga kohaletoimetamise kohta x %{delivery_interval_count}",
+          "initial_order_discounted": "Esimene saatmiskulu %{discounted_shipping_cost}, seejärel %{frequency_description}",
+          "prepaid_initial_order_discounted": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency}, seejärel %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Esimene saatmiskulu %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), seejärel %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Kaasa arvatud",
+          "recurring_order_shipping_price": "tulenevalt %{recurring_order_shipping_price}"
         }
       }
     }
