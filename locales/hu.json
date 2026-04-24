@@ -1585,8 +1585,134 @@
         "use_location_shipping_address_label": "Szállítási címként a helyszín használata",
         "purchase_options_agreement_label_wallets": "Ha folytatod a fizetést, elfogadod a jelen oldalon felsorolt jövőbeni fizetéseket és a lemondási szabályzatot.",
         "gift_card_store_credit": {
-          "add_label": "Ajándékutalvány vagy vásárlási jóváírás hozzáadása"
+          "add_label": "Ajándékutalvány vagy vásárlási jóváírás hozzáadása",
+          "manage_label": "Ajándékutalványok vagy vásárlási jóváírás kezelése"
+        },
+        "saved_credit_card_cvv_verification": "A kártyád biztonsági kódját írd be az ellenőrzéshez.",
+        "order_edit_banner_updated_order_label": "Frissített rendelés",
+        "afterpay_label": "Utólagos fizetés",
+        "cashapppay_label": "Cash App fizetés",
+        "card_nickname_label": "Becenév (opcionális)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eltávolítva a visszaküldöttek közül"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Eltávolítva a visszaküldöttek közül",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eltávolítva a visszaküldések közül",
+        "pay_in_installments_split_pay_short": "Négy részletben fizetendő %{amount} összegben",
+        "payment_method_not_available_for_shipping_address_error": "A választott kézbesítési címhez nem elérhető fizetési mód. Válasszon másik fizetési módot.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | A Wero nem elérhető ehhez a rendeléshez. Válasszon másik fizetési módot.",
+        "payment_method_update_failed": "A fizetési mód frissítése sikertelen volt.",
+        "alternative_payment_currency_total_manual_payment_notice": "Megjegyzés: Az átváltott összeg %{amount_due}.",
+        "gift_cards_unavailable": "Az ajándékutalvány már nem használható fel ehhez a rendeléshez, ezért eltávolításra került.",
+        "network_card_payment_options": "Egy hitelkártya-társaság kiválasztása",
+        "payment_flexibility_terms_id_mismatch": "Az ID feltételek a fizetési rugalmassággal nem egyeznek meg",
+        "offsite_gateway_review_page_redirect_hint": "Miután ellenőrizted a rendelést, átirányítunk a %{gateway_label} oldalra a vásárlás befejezéséhez.",
+        "gift_card_checkbox_label": "Ajándékutalvány beváltása",
+        "blik_label": "Villám",
+        "grabpay_label": "FogdFizetés",
+        "simulated_express_checkout": "A digitális pénztárcák nem érhetők el a szerkesztő példájában a régiód vagy böngésződ miatt",
+        "offsite_gateway_redirect_hint_no_button_label": "Átirányítunk a %{gateway_label} oldalra, hogy befejezd a vásárlást.",
+        "swish_label": "Suhogás",
+        "network_card_persistence_description": "A kiválasztott hálózat a fizetési módoddal együtt elmentésre kerül a jövőbeni műveletekhez.",
+        "payment_method_incompatible_with_payment_terms": "A fizetési mód nem kompatibilis a fizetési feltételekkel.",
+        "payment_option": {
+          "accessibility_label": "Válasszon fizetési módot"
+        },
+        "billing_address_rollup_accessibility_label": "Számlázási cím beállításai",
+        "payment_method_rollup_accessibility_label": "Fizetési módok választéka",
+        "crypto_modal": {
+          "header": "Fizessen %{shop_name} %{total_price} USDC-vel",
+          "error": {
+            "sandbox_error": "Valami hiba történt",
+            "web_component_error": "Hiba történt az oldal betöltése közben"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Fizetési számla"
+        },
+        "bank_account_choose": "Válassz egy számlát a vásárlás biztonságos befejezéséhez",
+        "bank_account_connect_another": "Másik bankszámla összekapcsolása",
+        "bank_account_connect": "Bankszámla összekapcsolása",
+        "bank_account_missing": "A bankszámlának kapcsolódnia kell",
+        "crypto_payment_method": {
+          "description": "Csatlakoztasd biztonságosan a tárcádat. Az egyenleged és a címed nem kerül megosztásra.",
+          "tooltip": "A pénztárcád egyenlege és a címed nem kerül megosztásra, és csak a kért összeg vonható le.",
+          "cashback_descriptor": {
+            "one": "A cashbackedet %{count} nap után kapod meg",
+            "other": "A cashbackedet %{count} nap után kapod meg"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% visszatérítés",
+        "usdc_cashback_additional_info": "Fizessen USDC-vel a Base-en, és kapjon %{incentive_percentage}% vissza digitális pénztárcájába 30 napon belül.",
+        "usdc_cashback_terms": "Alkalmazandó feltételek és korlátok",
+        "discount_show_more_warnings": {
+          "one": "%{count} további megjelenítése",
+          "other": "%{count} további megjelenítése"
+        },
+        "separate_payments_label": "A cikkeid több mint egy üzletből származnak. Fizetned kell %{separate_payments_link}.",
+        "separate_payments_text": "külön fizetések",
+        "payments": "Fizetés",
+        "business_customer_with_bank_account_vaulting_payment_label": "Mentse el ezt a fizetési módot a fizetésnél, és engedélyezze a %{company} számára, hogy a jövőbeni, ezen a helyszínen jóváhagyott vásárlásaiért terhelje a számláját, amíg vissza nem vonja az engedélyt. Az összes, ehhez a helyszínhez rendelt kapcsolattartó használhatja a fizetési módot.",
+        "new_bank_account_disclaimer": "A megrendelés befejezésével felhatalmazod a %{shop_name}-t, hogy a megadott időpontban az alábbi számláról az ACH-n keresztül levonja a megjelölt összeget.",
+        "bank_account_vaulted_company_location": "Bankszámla elmentve ehhez a helyhez",
+        "bank_account_generic_error": "Nem sikerült hozzáadni a bankszámlát. Kérjük, próbálja meg később újra.",
+        "discount_codes_removed_summary": {
+          "one": "%{count} kedvezménykód törölve volt",
+          "other": "%{count} kuponkód törölve"
+        },
+        "continue_to_guest_checkout": "Vendégként a pénztárhoz",
+        "choose_new_payment_method": "Válasszon új fizetési módot",
+        "discount_codes_modified_summary": {
+          "other": "%{count} kuponkód módosítva"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} kedvezménykód törölve vagy módosítva",
+          "other": "%{count} kuponkód törölve vagy módosítva lett"
         }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Jelenlegi egyenleg %{amount}",
+        "credit_card_expires_on_notice": "Érvényes %{month}/%{year}",
+        "express_payment_gateway_label": "Gyors",
+        "manual_payment_gateway_label": "Kézzel"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Adjon meg egy érvényes telefonszámot",
+        "handle_email_invalid": "Adjon meg egy érvényes e-mail címet",
+        "email_invalid": "Adjon meg egy érvényes e-mail címet",
+        "email_or_phone_blank": "E-mail-cím vagy telefonszám megadása",
+        "email_or_phone_invalid": "Adjon meg egy érvényes e-mail címet vagy mobiltelefonszámot",
+        "address_first_name_blank": "Adjon meg egy keresztnevet",
+        "address_last_name_blank": "Írjon be egy vezetéknevet",
+        "address_address1_blank": "Adjon meg egy címet",
+        "address_address2_blank": "Adjon meg egy lakás- vagy lakosztályszámot stb.",
+        "address_city_blank": "Írjon be egy várost",
+        "address_country_blank": "Válasszon országot/régiót",
+        "address_country_not_supported": "Nem szállítunk erre az országba/régióba. Adjon meg egy új kézbesítési címet, és próbálja újra.",
+        "address_province_blank": "Válasszon egy államot/tartományt",
+        "address_company_blank": "Adjon meg egy cégnevet",
+        "address_phone_blank": "Adjon meg egy érvényes telefonszámot",
+        "address_zip_blank": "Adjon meg egy irányítószámot vagy postai kódot",
+        "address_zip_invalid_for_country": "Adjon meg egy érvényes irányítószámot vagy postai kódot %{country} számára",
+        "address_zip_invalid_for_country_and_province": "Adjon meg egy érvényes irányítószámot vagy postai kódot a(z) %{province}, %{country} területre",
+        "credit_card_name_blank": "Add meg a neved úgy, ahogy az a kártyádon szerepel",
+        "credit_card_name_invalid": "Add meg a neved úgy, ahogy az a kártyádon szerepel",
+        "credit_card_number_invalid": "Adjon meg egy érvényes kártyaszámot",
+        "credit_card_expiry_invalid": "Adjon meg egy érvényes lejárati dátumot",
+        "credit_card_month_invalid": "Adjon meg egy érvényes lejárati hónapot",
+        "credit_card_year_invalid": "Adjon meg egy érvényes lejárati évet",
+        "credit_card_start_invalid": "Adjon meg egy érvényes kezdő dátumot a kártyához",
+        "credit_card_start_month_invalid": "Adjon meg egy érvényes kezdőhónapot a kártyához",
+        "credit_card_start_year_invalid": "Adjon meg egy érvényes kezdőévet a térképhez",
+        "credit_card_verification_value_blank": "Írd be a kártyád CVV/CVC- vagy biztonsági kódját",
+        "delivery_line_detail_changed": "Néhány kézbesítési adat megváltozhatott. Ellenőrizd a szállítási módodat, és próbáld újra.",
+        "reduction_code_code_not_found": "Adjon meg egy érvényes kedvezménykódot vagy ajándékutalványt",
+        "reduction_code_discount_not_found": "Adjon meg egy érvényes kedvezménykódot",
+        "reduction_code_gift_card_code_invalid": "Adjon meg egy érvényes ajándékutalványt",
+        "reduction_code_gift_card_unusable": "Nem használhatsz ajándékutalványt másik ajándékutalvány vásárlására.",
+        "shipping_line_phone_blank": "Adjon meg egy telefonszámot ennek a kézbesítési módnak a használatához",
+        "shipping_line_phone_invalid": "Adjon meg egy érvényes telefonszámot",
+        "gift_card_already_applied": "Ez az ajándékutalvány már érvényesítve lett a rendeléseden."
       }
     }
   }

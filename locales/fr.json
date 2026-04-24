@@ -2955,11 +2955,87 @@
               "cz": "Veuillez saisir un numéro d'identification TVA tchèque valide",
               "dk": "Veuillez saisir un numéro d'identification TVA danois valide",
               "ee": "Veuillez saisir un numéro d'identification TVA estonien valide",
-              "fi": "Veuillez saisir un numéro d'identification TVA finlandais valide"
+              "fi": "Veuillez saisir un numéro d'identification TVA finlandais valide",
+              "fr": "Veuillez saisir un numéro d'identification TVA français valide",
+              "de": "Veuillez saisir un numéro d'identification TVA allemand valide",
+              "gr": "Veuillez saisir un numéro d'identification TVA grec valide",
+              "hu": "Veuillez saisir un numéro d'identification TVA hongrois valide",
+              "ie": "Veuillez saisir un numéro d'identification TVA irlandais valide",
+              "it": "Veuillez saisir un numéro d'identification TVA italien valide",
+              "lv": "Veuillez saisir un numéro d'identification TVA letton valide",
+              "lt": "Veuillez saisir un numéro d'identification TVA lituanien valide",
+              "lu": "Veuillez saisir un numéro d'identification TVA luxembourgeois valide",
+              "mt": "Veuillez saisir un numéro d'identification TVA maltais valide",
+              "nl": "Veuillez saisir un numéro d'identification TVA néerlandais valide",
+              "pl": "Veuillez saisir un numéro d'identification TVA polonais valide",
+              "pt": "Veuillez saisir un numéro d'identification TVA portugais valide",
+              "ro": "Veuillez saisir un numéro d'identification TVA roumain valide",
+              "sk": "Veuillez saisir un numéro d'identification TVA slovaque valide",
+              "si": "Veuillez saisir un numéro d'identification TVA slovène valide",
+              "es": "Veuillez saisir un numéro d'identification TVA espagnol valide",
+              "se": "Veuillez saisir un numéro d'identification TVA suédois valide",
+              "gb": "Veuillez saisir un numéro d'identification TVA britannique valide"
+            },
+            "service_unavailable": "Service de validation non disponible",
+            "service_error": "Service de validation non disponible"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "La validation du numéro d'identification TVA est en cours",
+              "valid": "Le numéro d'identification TVA est valide",
+              "applied": "Exonération de TVA appliquée",
+              "domestic": "Exonération de TVA non appliquée",
+              "invalid_number": "L'exonération de TVA a échoué",
+              "service_unavailable": "Impossible de vérifier l'exonération de TVA",
+              "service_error": "Impossible de vérifier l'exonération de TVA"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Ce paiement n'est plus nécessaire. Rendez-vous sur la page de commande pour plus d'informations.",
+        "paid": "Ce paiement a déjà été soumis. Rendez-vous sur la page de commande pour plus d'informations."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Une interaction d'extension est nécessaire pour finaliser le passage en caisse."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Vérifiez votre commande"
+        },
+        "shipping": {
+          "shipping_options": "Voir toutes les options d'expédition"
+        }
+      },
+      "too_many_requests": {
+        "title": "Trop de tentatives de paiement",
+        "body": "Attendez quelques minutes et réessayez depuis votre panier.",
+        "return_to_cart": "Retour au panier",
+        "body_no_cart": "Attendez quelques minutes et réessayez."
+      },
+      "address_management": {
+        "saved_with_store": "Enregistré dans ce magasin"
       }
+    },
+    "links": {
+      "powered_by_shopify": "Propulsé par Shopify",
+      "learn_more": "Plus d'informations"
+    },
+    "attributes": {
+      "email": "courriel",
+      "password_confirmation": "la confirmation du mot de passe",
+      "first_name": "prénom",
+      "last_name": "nom de famille",
+      "body": "texte principal"
+    },
+    "addresses": {
+      "zip_code": "Code postal",
+      "pincode": "Code postal",
+      "state_and_territory": "État/Territoire",
+      "county": "Province",
+      "governorate": "Gouvernement"
     }
   }
 }
