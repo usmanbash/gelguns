@@ -299,42 +299,42 @@
       "menu": "Ponuka",
       "cart_count": {
         "one": "{{ count }} položka",
-        "other": "Počet položiek: {{ count }}",
+        "other": "{{ count }} článkov",
         "few": "Počet položiek: {{ count }}",
         "many": "Počet položiek: {{ count }}"
       }
     },
     "cart": {
-      "title": "Váš košík",
+      "title": "Váš nákupný košík",
       "caption": "Položky v košíku",
-      "remove_title": "Odstrániť {{ title }}",
-      "note": "Špeciálne pokyny k objednávke",
-      "checkout": "Platba",
-      "empty": "Váš košík je prázdny",
-      "cart_error": "Pri aktualizácii košíka sa vyskytla chyba. Skúste to znova.",
-      "cart_quantity_error_html": "Do košíka môžete túto položku pridať len v počte {{ quantity }}.",
+      "remove_title": "odstrániť {{ title }}",
+      "note": "Špeciálne pokyny pre objednávku",
+      "checkout": "Zaplatenie",
+      "empty": "Váš nákupný košík je prázdny",
+      "cart_error": "Pri aktualizácii vášho košíka sa vyskytla chyba. Skúste to znova.",
+      "cart_quantity_error_html": "Do svojho košíka môžete pridať iba {{ quantity }} tohto produktu.",
       "update": "Aktualizovať",
       "headings": {
         "product": "Produkt",
         "price": "Cena",
-        "total": "Celkove",
-        "quantity": "Množstvo",
+        "total": "Celkom",
+        "quantity": "Počet",
         "image": "Obrázok produktu"
       },
       "login": {
-        "title": "Máte konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prihláste sa</a> a prejdite pokladňou rýchlejšie."
+        "title": "Máte účet?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prihlásiť sa</a> pre rýchlejšie platenie."
       },
-      "estimated_total": "Odhadovaná celková suma",
-      "new_estimated_total": "Nová odhadovaná celková suma",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Vrátane ciel a daní. Zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri platbe.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Vrátane ciel a daní. Zľavy a doprava sa vypočítajú pri platbe.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Vrátane daní. Zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri platbe.",
-      "taxes_included_shipping_at_checkout_without_policy": "Vrátane daní. Zľavy a doprava sa vypočítajú pri platbe.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Vrátane ciel. Dane, zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri platbe.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Vrátane ciel. Dane, zľavy a doprava sa vypočítajú pri platbe.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Dane, zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri platbe.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Dane, zľavy a doprava sa vypočítajú pri platbe."
+      "estimated_total": "Odhadovaný celkový súčet",
+      "new_estimated_total": "Nový odhadovaný celok",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Colné poplatky a dane sú zahrnuté. Zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítavajú pri pokladni.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Colné poplatky a dane sú zahrnuté. Zľavy a doprava sa vypočítajú pri pokladni.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Dane zahrnuté. Zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítavajú pri pokladni.",
+      "taxes_included_shipping_at_checkout_without_policy": "Dane sú zahrnuté. Zľavy a doprava sa vypočítajú pri pokladni.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Colné poplatky zahrnuté. Dane, zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri pokladni.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Colné poplatky zahrnuté. Dane, zľavy a doprava sa vypočítajú pri pokladni.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Dane, zľavy a <a href=\"{{ link }}\">doprava</a> sa vypočítajú pri pokladni.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Dane, zľavy a doprava sa vypočítajú pri pokladni."
     },
     "footer": {
       "payment": "Spôsoby platby"
@@ -342,11 +342,11 @@
     "featured_blog": {
       "view_all": "Zobraziť všetko",
       "onboarding_title": "Blogový príspevok",
-      "onboarding_content": "Poskytnite svojim zákazníkom súhrn blogového príspevku"
+      "onboarding_content": "Dajte svojim zákazníkom prehľad o vašom blogovom príspevku"
     },
     "featured_collection": {
       "view_all": "Zobraziť všetko",
-      "view_all_label": "Pozrite si všetky produkty z kolekcie {{ collection_name }}"
+      "view_all_label": "Prezrite si všetky produkty v kolekcii {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Zobraziť všetko"
@@ -354,56 +354,56 @@
     "collection_template": {
       "title": "Kolekcia",
       "empty": "Nenašli sa žiadne produkty",
-      "use_fewer_filters_html": "Použite menej filtrov alebo <a class=\"{{ class }}\" href=\"{{ link }}\">všetky odstráňte</a>"
+      "use_fewer_filters_html": "Použiť menej filtrov alebo <a class=\"{{ class }}\" href=\"{{ link }}\">všetko odstrániť</a>"
     },
     "video": {
-      "load_video": "Načítať video: {{ description }}"
+      "load_video": "Video načítané: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Načítať snímku",
-      "previous_slideshow": "Predchádzajúca snímka",
-      "next_slideshow": "Nasledujúca snímka",
-      "pause_slideshow": "Pozastaviť prezentáciu",
-      "play_slideshow": "Prehrať prezentáciu",
-      "carousel": "Karusel",
-      "slide": "Snímka"
+      "load_slide": "Dia nabíjačka",
+      "previous_slideshow": "Predchádzajúci snímok",
+      "next_slideshow": "Ďalší snímok",
+      "pause_slideshow": "Pozastaviť prezentáciu diapozitívov",
+      "play_slideshow": "Prehrať prezentáciu diapozitívov",
+      "carousel": "Kolotoč",
+      "slide": "Deň"
     },
     "page": {
-      "title": "Názov stránky"
+      "title": "Stránkovač"
     },
     "announcements": {
       "previous_announcement": "Predchádzajúce oznámenie",
-      "next_announcement": "Nasledujúce oznámenie",
-      "carousel": "Karusel",
+      "next_announcement": "Ďalšie oznámenie",
+      "carousel": "Kolotoč",
       "announcement": "Oznámenie",
-      "announcement_bar": "Panel s oznámeniami"
+      "announcement_bar": "Oznamovací panel"
     },
     "quick_order_list": {
-      "product_total": "Medzisúčet produktov",
-      "view_cart": "Zobraziť košík",
-      "each": "{{ money }}/kus",
+      "product_total": "Medzisúčet produktu",
+      "view_cart": "Zobraziť nákupný košík",
+      "each": "{{ money }}/ks",
       "product": "Produkt",
-      "variant": "Variant",
-      "variant_total": "Celková suma variantov",
+      "variant": "Varianta",
+      "variant_total": "Celková varianta",
       "items_added": {
-        "one": "Pridala sa {{ quantity }} položka",
-        "other": "Pridané položky: {{ quantity }}",
+        "one": "{{ quantity }} položiek pridaných",
+        "other": "{{ quantity }} pridaných položiek",
         "few": "Pridané položky: {{ quantity }}",
         "many": "Pridané položky: {{ quantity }}"
       },
       "items_removed": {
-        "one": "Odobrala sa {{ quantity }} položka",
-        "other": "Odobrané položky: {{ quantity }}",
+        "one": "{{ quantity }} položiek odstránených",
+        "other": "{{ quantity }} položiek odstránených",
         "few": "Odobrané položky: {{ quantity }}",
         "many": "Odobrané položky: {{ quantity }}"
       },
       "product_variants": "Varianty produktu",
       "total_items": "Celkový počet položiek",
-      "remove_all_items_confirmation": "Chcete z košíka odobrať všetky položky ({{ quantity }})?",
-      "remove_all": "Odobrať všetky",
+      "remove_all_items_confirmation": "Odstrániť všetky {{ quantity }} položky z tvojho nákupného košíka?",
+      "remove_all": "Vymazať všetko",
       "cancel": "Zrušiť",
-      "remove_all_single_item_confirmation": "Chcete z košíka odobrať 1 položku?",
-      "min_error": "Minimálne množstvo tejto položky je {{ min }}",
+      "remove_all_single_item_confirmation": "Odstrániť 1 položku z tvojho košíka?",
+      "min_error": "Pre tento článok platí minimálny odber {{ min }}.",
       "max_error": "Maximálne množstvo tejto položky je {{ max }}",
       "step_error": "Túto položku môžete pridať iba v prírastkoch po {{ step }}"
     }
