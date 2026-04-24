@@ -3790,9 +3790,107 @@
             "description_due_on_fulfillment_partially_paid": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo. Maksu erääntyy heti, kun kaikki tämän tilauksen tuotteet on käsitelty.",
             "description_due_on_fulfillment_partially_paid_next": "Tämä tilaus on osittain maksettu. Sinulla on jäljellä oleva saldo.",
             "banner_due_today_for_multiple_fulfillments": "Maksu erääntyy tänään {{count}} täyttöä varten",
-            "banner_overdue_for_multiple_fulfillments": "Maksu erääntyy {{count}} täyttämisestä"
-          }
+            "banner_overdue_for_multiple_fulfillments": "Maksu erääntyy {{count}} täyttämisestä",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Maksu {{amount}} on myöhässä {{count}} päivää. {{link}}",
+              "other": "Maksu {{amount}} on myöhässä {{count}} päivää. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Maksettu takaisin",
+            "title_with_date": "Maksettu takaisin {{date}}",
+            "description_full_refund": "Olet saanut täyden hyvityksen tästä tilauksesta.",
+            "description_single_refund": "Olet saanut osittaisen hyvityksen tästä tilauksesta.",
+            "description_multiple_refunds": "Olet saanut osittaisia hyvityksiä tästä tilauksesta."
+          },
+          "canceled": {
+            "title": "Maksu peruutettu",
+            "description": "Sinulta ei ole veloitettu mitään."
+          },
+          "pay_now_accessibility_label": "Maksa nyt tilauksesta {{orderName}}",
+          "due_date": "Velkaa {{date}}",
+          "total_balance": "Kokonaisjäämä"
+        },
+        "subtitle": "Lähetetty: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Näytä tiedot",
+          "expand_events_accessibility_label": "Näytä luonnostilauksen tiedot",
+          "hide_events_label": "Piilota tiedot",
+          "hide_events_accessibility_label": "Piilota luonnostilauksen tiedot"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Tämä maksutapa ei ole enää käytettävissä tulevissa ostoksissa tässä paikassa.",
+          "description_with_replacement": "Jos poistat tämän maksutavan, sillä on vaikutusta etukäteen valtuutettuihin maksuihin tässä paikassa. Korvaa se toisella maksutavalla, jotta voit jatkaa tulevien tilausten vastaanottamista."
+        },
+        "payment_details": {
+          "draft_label": "Konseptitilaus {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Lisää tilausnumero",
+        "add_modal_title": "Lisää tilausnumero",
+        "close_modal_accessibility_label": "Tilauksenumero-ikkuna sulje",
+        "edit_accessibility_label": "Tilausnumeron muokkaus",
+        "edit_modal_title": "Tilausnumeron muokkaus",
+        "empty_state": "Geen tilausnumero",
+        "modal_po_number_input_label": "Tilausnumero",
+        "modal_po_number_input_max_length_error": "Tilausnumerot voivat olla enintään {{maxLength}} merkkiä pitkiä.",
+        "title": "Ostotilauksen numero {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Osoitteen poistamisessa tapahtui virhe. Yritä uudelleen tai päivitä sivu."
+      },
+      "addresses_loading_issue": {
+        "description": "Yhteysvirhe. Tarkista internet-yhteytesi ja yritä uudelleen."
+      },
+      "banner_title": {
+        "one": "On {{count}} virhe",
+        "other": "On {{count}} virhettä"
+      },
+      "failed_address_creation": {
+        "description": "Osoitteen luomisessa ilmeni ongelma. Päivitä tämä sivu tai tarkista internetyhteytesi."
+      },
+      "failed_address_update": {
+        "description": "Osoitteen päivittämisessä ilmeni ongelma. Päivitä tämä sivu tai tarkista internet-yhteytesi."
+      },
+      "no_access_to_locations": {
+        "description": "Sinulla ei ole pääsyä sijainteihin"
+      },
+      "order_not_found": {
+        "description": "Tätä tilausta ei ole olemassa tai sinulla ei ole oikeutta tarkastella sitä."
+      },
+      "profile_update_error": {
+        "description": "Profiilisi päivittämisessä ilmeni ongelma. Päivitä tämä sivu tai tarkista internet-yhteytesi."
+      },
+      "load_orders_error": {
+        "title": "Ei voi ladata tilauksia",
+        "description": "Yritä uudelleen tai palaa myöhemmin."
+      },
+      "load_paypal_error": {
+        "description": "PayPalin lataamisessa tapahtui virhe. Yritä uudelleen."
+      },
+      "load_extension_error": {
+        "description": "Päivitä tämä sivu tai yritä uudelleen muutaman minuutin kuluttua.",
+        "refresh_button": "Sivun päivitys"
+      },
+      "failed_to_upgrade": "Asiakas tilin asetusten päivittäminen epäonnistui.",
+      "logout_everywhere": {
+        "description": "Kirjautumisesta ulos yritettäessä tapahtui virhe. Yritä uudelleen."
+      },
+      "resend_link": {
+        "too_many_requests": "Liikaa pyyntöjä. Yritä uudelleen myöhemmin.",
+        "generic": "Hakemus epäonnistui"
+      },
+      "profile_name_update_error": {
+        "description": "Nimen päivittämisessä ilmeni ongelma. Päivitä tämä sivu tai tarkista internet-yhteytesi."
+      },
+      "load_address_form_error": {
+        "title": "Osoitelomaketta ei voi ladata",
+        "description": "Lomaketta ei voitu ladata."
       }
     }
   }
