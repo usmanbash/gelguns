@@ -4378,7 +4378,71 @@
       },
       "load_extension_error": {
         "title": "Viga",
-        "description": "Värskenda seda lehte või proovi mõne minuti pärast uuesti."
+        "description": "Värskenda seda lehte või proovi mõne minuti pärast uuesti.",
+        "refresh_button": "Lehekülg uuendatud"
+      },
+      "already_upgraded": "Kliendikontod on juba uuendatud.",
+      "failed_to_upgrade": "Kliendi konto seadete uuendamine ebaõnnestus.",
+      "logout_everywhere": {
+        "description": "Midagi läks välja logimisel valesti. Palun proovi uuesti."
+      },
+      "resend_link": {
+        "too_many_requests": "Liiga palju taotlusi. Proovige hiljem uuesti.",
+        "generic": "Taotlus ebaõnnestus"
+      },
+      "profile_name_update_error": {
+        "description": "Sinu nime värskendamisel tekkis probleem. Värskenda seda lehte või kontrolli oma internetiühendust."
+      },
+      "load_address_form_error": {
+        "title": "Ei saa aadressivormi laadida",
+        "description": "Võimalik, et aadressivorm ei laadinud.",
+        "refresh_button": "Lehekülje värskendamine"
+      },
+      "not_upgraded": "Kliendikontod ei ole uuendatud.",
+      "failed_to_revert": "Kliendi konto seadete taastamine ebaõnnestus.",
+      "revert_window_expired": "Taastumisaeg on möödunud."
+    },
+    "payment_methods": {
+      "title": "Makseviisid",
+      "add_payment_method_button": "Makseviisi lisamine",
+      "payment_details": {
+        "title": "Makseviisi andmed",
+        "payment_method_expiring_on": "Aegub {{expiryDate}}",
+        "preauthorized_payments": "Eelnevalt autoriseeritud maksed",
+        "close_payment_modal": "Sulge",
+        "close_payment_modal_accessibility_label": "Modaal Andmed makseviis sulgeda",
+        "payment_method_not_found_error": "Ei leia makseviisi Kan",
+        "payment_details_loading": "Makseviisi andmete laadimine",
+        "pre_authorized_payments": "Eelnevalt autoriseeritud maksed",
+        "total_amount_of_subscription_line_items_left": "ja veel {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Kokku {{totalItems}} artiklit; kuvatakse {{totalItemsToDisplay}} artiklit.",
+        "next_payment_due": "Järgmine makse tuleb tasuda {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Muuda",
+        "edit_payment_method_button_accessibility_label": "Makseviisi, mis lõpeb numbritega {{lastDigits}}, redigeerimine",
+        "credit_card_details_accessibility_label": "lõpp {{lastDigits}} peal",
+        "billing_title": "Arve aadress",
+        "card_info_title": "Kaardiandmed",
+        "payment_method_expired_on": "Aegub {{expiryDate}}",
+        "loading_shop_pay": "Osta Payga laaditud",
+        "invalid_payment_method": "Kehtetu makseviis",
+        "invalid_payment_method_message": "Kasuta uut krediitkaarti, et jätkata tulevaste tellimuste saamist.",
+        "replace_payment_method": "Makseviisi vahetamine",
+        "checkout_card_banner": "Seda makseviisi saab kasutada ainult eelnevalt autoriseeritud maksete puhul. See ei kuvata kassas, kui oled selles poes sisse logitud.",
+        "default_checkbox": "Määra vaikeseadeks",
+        "default_checkbox_accessibility_label": "Määra see makseviis vaikimisi",
+        "replace_payment_method_button": "Asendama"
+      },
+      "delete_payment_method_button": "Eemalda",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} eemaldamine",
+      "back_button": "Tagasi",
+      "back_button_accessibility_label": "Tagasi {{paymentMethodStepTitle}} juurde",
+      "generic_card": "Kaart",
+      "payment_delete": {
+        "title": "Makseviisi eemaldamine",
+        "description_without_replacement": "See makseviis ei ole tulevaste ostude jaoks enam saadaval.",
+        "description_with_replacement": "Kui eemaldate selle makseviisi, mõjutab see eelnevalt autoriseeritud makseid. Saate selle asendada ka teise makseviisiga, et jätkata tulevaste tellimuste saamist.",
+        "payment_method_selector_placeholder": "Vali asendav makseviis (valikuline)",
+        "replace_method_with_new_method_description": "Sinu {{currentPaymentMethodName}} eemaldatakse ja asendatakse sinu {{newPaymentMethodName}}-ga."
       }
     }
   }
