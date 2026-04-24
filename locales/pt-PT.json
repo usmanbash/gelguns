@@ -286,57 +286,57 @@
   },
   "sections": {
     "header": {
-      "announcement": "Comunicado",
+      "announcement": "Anúncio",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} item",
-        "other": "{{ count }} itens",
+        "one": "{{ count }} artigos",
+        "other": "{{ count }} artigos",
         "many": "{{ count }} itens"
       }
     },
     "cart": {
-      "title": "O seu carrinho",
-      "caption": "Itens do carrinho",
-      "remove_title": "Eliminar {{ title }}",
-      "note": "Instruções especiais da encomenda",
-      "checkout": "Finalizar a compra",
-      "empty": "O seu carrinho está vazio",
-      "cart_error": "Ocorreu um erro ao atualizar o seu carrinho. Tente novamente.",
-      "cart_quantity_error_html": "É possível adicionar apenas {{ quantity }} unidade(s) deste item ao carrinho.",
+      "title": "O teu carrinho",
+      "caption": "Artigos no carrinho",
+      "remove_title": "remover {{ title }}",
+      "note": "Instruções especiais para encomenda",
+      "checkout": "Finalizar compra",
+      "empty": "O teu carrinho está vazio",
+      "cart_error": "Ocorreu um erro ao atualizar o seu carrinho. Por favor, tente novamente.",
+      "cart_quantity_error_html": "Só podes adicionar {{ quantity }} deste artigo ao teu carrinho.",
       "headings": {
         "product": "Produto",
         "price": "Preço",
         "total": "Total",
         "quantity": "Quantidade",
-        "image": "Imagem de produto"
+        "image": "Imagem do produto"
       },
       "update": "Atualizar",
       "login": {
-        "title": "Tem uma conta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicie sessão</a> para finalizar a compra mais rápido."
+        "title": "Tens uma conta?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Iniciar sessão</a> para pagar mais rapidamente."
       },
       "estimated_total": "Total estimado",
       "new_estimated_total": "Novo total estimado",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Encargos e impostos incluídos. Descontos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Encargos e impostos incluídos. Descontos e envio calculados na finalização da compra.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Impostos incluídos. Descontos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra.",
-      "taxes_included_shipping_at_checkout_without_policy": "Impostos incluídos. Descontos e envio calculados na finalização da compra.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Encargos incluídos. Impostos, descontos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Encargos incluídos. Impostos, descontos e envio calculados na finalização da compra.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impostos, descontos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Impostos, descontos e envio calculados na finalização da compra."
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Direitos aduaneiros e impostos incluídos. Descontos e <a href=\"{{ link }}\">envio</a> são calculados no checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Direitos aduaneiros e impostos incluídos. Descontos e envio são calculados no checkout.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Impostos incluídos. Descontos e <a href=\"{{ link }}\">envio</a> são calculados no checkout.",
+      "taxes_included_shipping_at_checkout_without_policy": "Impostos incluídos. Descontos e envio são calculados no checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Direitos aduaneiros incluídos. Impostos, descontos e <a href=\"{{ link }}\">envio</a> são calculados no checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Direitos aduaneiros incluídos. Impostos, descontos e envio serão calculados no checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impostos, descontos e <a href=\"{{ link }}\">envio</a> são calculados no checkout.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Impostos, descontos e envio são calculados no checkout."
     },
     "footer": {
       "payment": "Métodos de pagamento"
     },
     "featured_blog": {
       "view_all": "Ver tudo",
-      "onboarding_title": "Publicação no blogue",
-      "onboarding_content": "Apresente aos clientes um resumo da publicação no blogue"
+      "onboarding_title": "Publicação no blog",
+      "onboarding_content": "Dê aos seus clientes uma visão geral do seu artigo de blog"
     },
     "featured_collection": {
       "view_all": "Ver tudo",
-      "view_all_label": "Ver todos os produtos da coleção {{ collection_name }}"
+      "view_all_label": "Veja todos os produtos na coleção {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Ver tudo"
@@ -344,56 +344,56 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Nenhum produto encontrado",
-      "use_fewer_filters_html": "Utilizar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo</a>"
+      "use_fewer_filters_html": "Usar filtros menores ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo</a>"
     },
     "video": {
-      "load_video": "Carregar vídeo: {{ description }}"
+      "load_video": "Carregando vídeo: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Carregar slide",
-      "previous_slideshow": "Diapositivo anterior",
-      "next_slideshow": "Diapositivo seguinte",
-      "pause_slideshow": "Pausa na apresentação de diapositivos",
+      "load_slide": "Carregar dia",
+      "previous_slideshow": "Dia anterior",
+      "next_slideshow": "Próximo dia",
+      "pause_slideshow": "Pausar apresentação de diapositivos",
       "play_slideshow": "Reproduzir apresentação de diapositivos",
       "carousel": "Carrossel",
-      "slide": "Diapositivo"
+      "slide": "Dia"
     },
     "page": {
       "title": "Título da página"
     },
     "announcements": {
-      "previous_announcement": "Comunicado anterior",
-      "next_announcement": "Comunicado seguinte",
+      "previous_announcement": "Anúncio anterior",
+      "next_announcement": "Próximo anúncio",
       "carousel": "Carrossel",
-      "announcement": "Comunicado",
-      "announcement_bar": "Barra de comunicado"
+      "announcement": "Anúncio",
+      "announcement_bar": "Barra de anúncios"
     },
     "quick_order_list": {
-      "product_total": "Subtotal dos produtos",
-      "view_cart": "Ver carrinho",
-      "each": "{{ money }}/cada",
+      "product_total": "Subtotal do produto",
+      "view_cart": "Ver carrinho de compras",
+      "each": "{{ money }}/unid",
       "product": "Produto",
       "variant": "Variante",
       "variant_total": "Variante total",
       "items_added": {
-        "one": "{{ quantity }} item adicionado",
-        "other": "{{ quantity }} itens adicionados",
+        "one": "{{ quantity }} artigos adicionados",
+        "other": "{{ quantity }} artigos adicionados",
         "many": "{{ quantity }} itens adicionados"
       },
       "items_removed": {
-        "one": "{{ quantity }} item removido",
-        "other": "{{ quantity }} itens removidos",
+        "one": "{{ quantity }} artigos removidos",
+        "other": "{{ quantity }} artigos removidos",
         "many": "{{ quantity }} itens removidos"
       },
-      "product_variants": "Variantes de produtos",
-      "total_items": "Total de itens",
-      "remove_all_items_confirmation": "Remover todos os {{ quantity }} itens do seu carrinho?",
+      "product_variants": "Variantes de produto",
+      "total_items": "Número total de artigos",
+      "remove_all_items_confirmation": "Remover todos os {{ quantity }} artigos do teu carrinho?",
       "remove_all": "Remover tudo",
       "cancel": "Cancelar",
-      "remove_all_single_item_confirmation": "Remover 1 item do seu carrinho?",
-      "min_error": "Este item tem um mínimo de {{ min }}",
-      "max_error": "Este item tem um máximo de {{ max }}",
-      "step_error": "Só pode adicionar este item em incrementos de {{ step }}"
+      "remove_all_single_item_confirmation": "Remover 1 artigo do seu carrinho?",
+      "min_error": "Para este artigo aplica-se um mínimo de {{ min }}.",
+      "max_error": "Para este artigo aplica-se um máximo de {{ max }}.",
+      "step_error": "Só podes adicionar este artigo em quantidades de {{ step }} em {{ step }}."
     }
   },
   "localization": {
@@ -1798,7 +1798,191 @@
         "order_deposit_due_now": "{{depositAmount}} deve ser pago hoje. O saldo está sujeito aos termos de {{translatedName}} e deve ser liquidado até {{dueDate}}.",
         "order_deposit_due_on_fulfillment": "{{depositAmount}} deve ser pago hoje. O saldo é devido assim que a sua encomenda for processada.",
         "order_due_on_receipt_choose_later": "O pagamento é devido no ato da receção.",
-        "draft_order_deposit_due_later": "{{depositAmount}} é devido quando a encomenda for confirmada. Para o saldo, aplicam-se os termos e condições do {{translatedName}}."
+        "draft_order_deposit_due_later": "{{depositAmount}} é devido quando a encomenda for confirmada. Para o saldo, aplicam-se os termos e condições do {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} é devido quando a encomenda for confirmada. O saldo é devido assim que a sua encomenda for processada.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} deve ser pago hoje. O saldo será devido mais tarde.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} deve ser pago hoje. O saldo deve ser pago até {{dueDate}}.",
+        "credit_or_debit_card_label": "Cartão de crédito/débito"
+      },
+      "thank_you": {
+        "confirmation_email_sent_text": "Um e-mail de confirmação foi enviado para %{email}",
+        "return_to_store_link_label": "Voltar à loja",
+        "print_link_label": "Imprimir comprovativo de compra",
+        "payment_information_title": "Dados de pagamento",
+        "shipping_information_title": "Dados de envio",
+        "page_title": "Obrigado, %{display_name}.",
+        "customer_information_title": "Dados da encomenda",
+        "billing_address_title": "Morada de faturação",
+        "shipping_address_title": "Endereço de entrega",
+        "shipping_address_map_title": "Mapa do Google com marcador do endereço de entrega: %{address}",
+        "tracking_number": "Número de rastreio:",
+        "company_tracking_number": "Número de rastreio %{company}:",
+        "estimated_arrival": "Data de entrega estimada:",
+        "re-order": "Encomendar novamente os mesmos artigos",
+        "thank_you_confirmed_order_with_email": "Receberás em breve um e-mail de confirmação com o teu número de encomenda.",
+        "thank_you_confirmed_order_with_phone": "Receberás em breve uma mensagem de confirmação com o teu número de encomenda",
+        "thank_you_confirmed_order_with_email_and_phone": "Receberás em breve um e-mail de confirmação com o teu número de encomenda.",
+        "thank_you_confirmed_order_with_missing": "Contacte-nos por e-mail ou telefone para a sua confirmação de encomenda.",
+        "order_status_confirmed_order_with_email": "Receberá um e-mail quando a sua encomenda estiver pronta.",
+        "order_status_confirmed_order_with_phone": "Receberás uma mensagem de texto quando a tua encomenda estiver pronta.",
+        "order_status_confirmed_order_with_email_and_phone": "Receberá um e-mail quando a sua encomenda estiver pronta.",
+        "order_status_updates_with_email": "Receberás atualizações por e-mail sobre o teu envio e entrega.",
+        "order_status_updates_with_phone": "Receberá atualizações por SMS sobre o seu envio e entrega.",
+        "order_status_updates_with_email_and_phone": "Receberá atualizações por e-mail sobre o seu envio e entrega.",
+        "order_status_updates_with_missing": "Escolha como deseja receber atualizações de envio.",
+        "confirmed_description": "Aceitámos a tua encomenda e estamos a prepará-la. Visita esta página novamente para atualizações sobre o estado do envio.",
+        "order_updates_title": "Atualizações Bestel",
+        "order_updates_current_step_prefix": "Passo atual:",
+        "order_updates_past_step_prefix": "Passo anterior:",
+        "order_updates_upcoming_step_prefix": "Próximo passo:",
+        "in_transit_description": "Receberás atualizações sobre o progresso.",
+        "in_transit_description_days": "A sua encomenda será entregue dentro de %{number} dias.",
+        "in_transit_description_today": "A sua encomenda será entregue hoje.",
+        "in_transit_description_tomorrow": "A sua encomenda será entregue amanhã.",
+        "out_for_delivery": "Pronto para entrega",
+        "out_for_delivery_title": "A sua encomenda está pronta para entrega",
+        "out_for_delivery_description_html": "A sua encomenda está a caminho e deverá chegar hoje. Se não for entregue nos próximos dois dias, %{contact_us}.",
+        "attempted_delivery_title": "Foi feita uma tentativa de entregar a sua encomenda",
+        "attempted_delivery_description_html": "A tentativa de entregar a sua encomenda não foi bem-sucedida. Para agendar uma nova tentativa de entrega, %{contact_us}.",
+        "delivered": "Preocupado",
+        "delivered_description_html": "A sua encomenda foi entregue no endereço que indicou. Se não a recebeu, ou se houver outros problemas, %{contact_us}.",
+        "contact_us_lowercase": "entre em contacto connosco",
+        "updated_time": "Atualizado há %{time_ago}",
+        "failed_title": "A sua encomenda não pôde ser entregue.",
+        "failed_contact_merchant": "Contacte %{company} para organizar a entrega.",
+        "failed_contact_merchant_no_company": "Contacte-nos para combinar a entrega.",
+        "non_shippable_title": "A encomenda está concluída",
+        "login_description": "Podes encontrar o teu número de encomenda na fatura que recebeste por correio eletrónico.",
+        "login_description_phone": "Encontras o teu número de encomenda na fatura que recebeste por SMS.",
+        "login_not_customer_html": "Não é %{name}? Podes %{link}",
+        "login_reorder_link_text": {
+          "one": "comprar este produto também"
+        },
+        "customer_information_hidden_fields_message": "Inicie sessão para ver todos os dados do cliente.",
+        "cancelled_description": "A sua encomenda foi cancelada em %{date}. Contacte-nos se tiver alguma dúvida.",
+        "order_number_label": "Número de encomenda",
+        "customer_validation_error": "Introduza um endereço de correio eletrónico válido ou número de encomenda.",
+        "customer_validation_error_phone": "Introduza um número de telefone ou de encomenda válido.",
+        "unfulfilled_items_title": "Expedição a ser preparada",
+        "unfulfilled_items_description": "Atualmente estamos a preparar estes artigos para envio.",
+        "marker": {
+          "current": "Local de envio atual",
+          "shipping": "Endereço de entrega"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Artigos nesta remessa",
+          "unfulfilled_table_title": "Os artigos estão a ser preparados para envio",
+          "product_image_label": "Imagem do produto"
+        },
+        "order_updates_description_missing": "Não receberá atualizações de envio.",
+        "order_updates_subscribe_to_email_notifications": "Receba atualizações de envio por correio eletrónico",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Receba atualizações de envio por e-mail ou sms",
+        "order_updates_subscribe_to_phone_notifications": "Receba atualizações de envio por SMS",
+        "order_updates_submit_subscription": "Submeter",
+        "track_shipment": "Envio por correio normal",
+        "order_status_confirmed_order_with_email_pick_up": "Receberá um e-mail quando puder levantar a sua encomenda.",
+        "order_status_confirmed_order_with_phone_pick_up": "Receberás uma mensagem de texto quando puderes levantar a tua encomenda.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Receberá um correio eletrónico e uma mensagem de texto quando puder levantar a sua encomenda.",
+        "pick_up_in_store_marker": {
+          "current": "Local de envio atual",
+          "shipping": "Alocação de memória livre"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Receberá um e-mail quando puder levantar a sua encomenda.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Receberás uma mensagem de texto quando puderes levantar a tua encomenda.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Receberá um e-mail quando puder levantar a sua encomenda.",
+        "ready_for_pickup_title": "A encomenda está pronta para levantamento",
+        "ready_for_pickup_description": "A sua encomenda está pronta para levantamento. Por favor, leve a confirmação da encomenda quando for levantar a encomenda.",
+        "picked_up_title": "A encomenda foi levantada",
+        "picked_up_description_html": "A sua encomenda foi recolhida em %{location_name} no dia %{date}.",
+        "shop_phone_description": "Receberás uma mensagem SMS com um link para a aplicação da Loja para acompanhar a tua encomenda.",
+        "ready_for_delivery_title": "A encomenda está pronta para entrega",
+        "ready_for_delivery_description": "Preparámos a encomenda.",
+        "order_status_confirmed_order_local": "Estamos a preparar a tua encomenda para entrega.",
+        "gift_card_sent_confirmation": "Vales-presente enviados",
+        "out_for_delivery_local_title": "A sua encomenda está pronta para entrega",
+        "out_for_delivery_local_description_html": "Receberá a sua encomenda em breve.",
+        "delivered_local_description_html": "Ainda não recebeu a sua encomenda? %{let_us_know}.",
+        "let_us_know": "Informe-nos",
+        "qr_code": {
+          "title": "Segue no teu telemóvel",
+          "send_link_to_phone": "Ou envie um link para o seu telemóvel"
+        },
+        "gift_card_confirmation_by_text": "Se não recebeu esta mensagem, peça para reenviar o SMS ou contacte-nos.",
+        "gift_card_confirmation_by_email": "Se não recebeu este, peça para reenviar o e-mail ou contacte-nos.",
+        "gift_card_title": "Vales de oferta",
+        "resend_gift_cards": "Reenviar vales-presente",
+        "attempted_delivery_local_title": "Entrega falhada",
+        "attempted_delivery_local_description_html": "Infelizmente, não conseguimos entregar a sua encomenda. %{contact_us} para agendar uma nova entrega.",
+        "thank_you_title_payment": "O seu pagamento foi confirmado",
+        "thank_you_confirmed_order_with_email_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Fizeste um pagamento para a tua encomenda %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Digitalizar com o seu telemóvel"
+          },
+          "sms": {
+            "title": "Ou envie um link para o seu telemóvel"
+          }
+        },
+        "estimated_delivery": "Estimativa atual de entrega:",
+        "thank_you_title_review": "A sua encomenda foi submetida para avaliação",
+        "thank_you_confirmed_order_with_draft": "Informar-te-emos se precisarmos de mais informações ou quando a tua encomenda for confirmada.",
+        "breadcrumbs_submitted": "Submetido",
+        "breadcrumbs_in_review": "Para avaliação",
+        "breadcrumbs_confirmed": "Confirmado",
+        "missing_shipping_address_banner": {
+          "title": "A encomenda não tem endereço de entrega",
+          "contact_us": "Contactar-nos"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Volte a dirigir-se ao vendedor.",
+        "order_status_confirmed_with_installments_payment_confirm": "Em breve receberá um e-mail de confirmação com o seu número de encomenda e os detalhes do seu plano de pagamento faseado.",
+        "purchase_order_number_title": "Número de encomenda %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "A encomenda foi levantada em %{address}.",
+        "order_updates_subscribe_to_email_notifications_failed": "Não conseguimos guardar este endereço de correio eletrónico para atualizações. Tente novamente ou utilize outro endereço de correio eletrónico.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "O endereço de correio eletrónico que introduziu já existe.",
+        "subscriptions_management": {
+          "title": "Assinatura",
+          "button_label": "Gerir a sua assinatura"
+        },
+        "manage_order_label": "Gerir a sua encomenda",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Dentro de alguns minutos receberá uma mensagem de texto com o seu vale-presente.",
+          "other": "Dentro de alguns minutos receberá uma mensagem de texto com os seus vales-presente."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Dentro de alguns minutos receberá uma mensagem de texto com o seu vale-presente.",
+          "other": "Dentro de alguns minutos receberá uma mensagem de texto com os seus vales-presente."
+        },
+        "gift_card_email_title": {
+          "one": "O vale-presente foi enviado por correio eletrónico",
+          "other": "Os vales-presente foram enviados por correio eletrónico"
+        },
+        "gift_card_text_title": {
+          "one": "O vale-presente foi enviado por SMS",
+          "other": "Os vales-presente foram enviados por SMS"
+        },
+        "resend_gift_cards_by_text": "Reenviar SMS",
+        "gift_card_resent_confirmation": {
+          "one": "O vale-presente foi reenviado.",
+          "other": "Os vales-presente foram reenviados."
+        },
+        "gift_card_resend_failure": {
+          "one": "Ocorreu um problema ao reenviar o seu vale-presente. Tente novamente ou contacte-nos.",
+          "other": "Ocorreu um problema ao reenviar os seus vales-presente. Tente novamente ou contacte-nos."
+        },
+        "failed_pending_payment_page_title": "Há um problema com o seu pagamento",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Recebemos a tua encomenda",
+        "thank_you_title_payments_app_failed_pending_payment": "O seu pagamento não pode ser processado",
+        "thank_you_payments_app_failed_pending_payment": "A sua encomenda ainda não foi paga. Volte ao seu carrinho para verificar e pagar a sua encomenda.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Receberá em breve um e-mail de confirmação. Pode acompanhar a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Receberá em breve um e-mail de confirmação. Pode acompanhar a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Receberá em breve uma mensagem de texto para confirmação. Pode acompanhar a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Após a conclusão do pagamento, receberá um e-mail de confirmação. Pode acompanhar a sua encomenda através da aplicação Loja.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Após a conclusão do pagamento, receberá um e-mail de confirmação. Pode acompanhar a sua encomenda através da aplicação Loja."
       }
     }
   }

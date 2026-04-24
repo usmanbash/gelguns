@@ -4407,7 +4407,71 @@
       },
       "load_extension_error": {
         "title": "Kļūda",
-        "description": "Atjaunojiet šo lapu vai mēģiniet vēlreiz pēc dažām minūtēm."
+        "description": "Atjaunojiet šo lapu vai mēģiniet vēlreiz pēc dažām minūtēm.",
+        "refresh_button": "Lapa atsvaidzināt"
+      },
+      "already_upgraded": "Klientu konti jau ir atjaunināti.",
+      "failed_to_upgrade": "Neizdevās atjaunināt klienta konta iestatījumus.",
+      "logout_everywhere": {
+        "description": "Radās kļūda, izrakstoties no sistēmas. Lūdzu, mēģiniet vēlreiz."
+      },
+      "resend_link": {
+        "too_many_requests": "Pārāk daudz pieprasījumu. Mēģiniet vēlāk vēlreiz.",
+        "generic": "Pieteikums neizdevās"
+      },
+      "profile_name_update_error": {
+        "description": "Radās problēma, atjauninot tavu vārdu. Atjaunini šo lapu vai pārbaudi savu interneta savienojumu."
+      },
+      "load_address_form_error": {
+        "title": "Nevar ielādēt adreses veidlapu",
+        "description": "Neizdevās ielādēt adreses veidlapu.",
+        "refresh_button": "Lapa atsvaidzināt"
+      },
+      "not_upgraded": "Klientu konti nav atjaunināti.",
+      "failed_to_revert": "Neizdevās atjaunot klienta konta iestatījumus.",
+      "revert_window_expired": "Atjaunošanās periods ir beidzies."
+    },
+    "payment_methods": {
+      "title": "Maksāšanas veidi",
+      "add_payment_method_button": "Maksāšanas veida pievienošana",
+      "payment_details": {
+        "title": "Maksāšanas metodes dati",
+        "payment_method_expiring_on": "Beidzas {{expiryDate}}",
+        "preauthorized_payments": "Iepriekš atļautas maksājumu operācijas",
+        "close_payment_modal": "Aizvērt",
+        "close_payment_modal_accessibility_label": "Modāls Datu maksāšanas veids aizvērt",
+        "payment_method_not_found_error": "Nevar atrast maksāšanas veidu",
+        "payment_details_loading": "Maksāšanas metodes dati tiek ielādēti",
+        "pre_authorized_payments": "Iepriekš atļautas maksājumu operācijas",
+        "total_amount_of_subscription_line_items_left": "un vēl {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Kopā {{totalItems}} preces; tiek rādītas {{totalItemsToDisplay}} preces.",
+        "next_payment_due": "Nākamā maksājuma termiņš {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Rediģēt",
+        "edit_payment_method_button_accessibility_label": "Rediģēt maksājuma veidu, kas beidzas ar {{lastDigits}}",
+        "credit_card_details_accessibility_label": "beidzas ar {{lastDigits}}",
+        "billing_title": "Rēķina adrese",
+        "card_info_title": "Kartes dati",
+        "payment_method_expired_on": "Beidzies derīguma termiņš {{expiryDate}}",
+        "loading_shop_pay": "Shop Pay ielādēšana",
+        "invalid_payment_method": "Nederīga maksāšanas metode",
+        "invalid_payment_method_message": "Izmantojiet jaunu kredītkarti, lai turpinātu saņemt nākamās pasūtījumus.",
+        "replace_payment_method": "Maksāšanas veida nomaiņa",
+        "checkout_card_banner": "Jūs varat izmantot šo maksāšanas veidu tikai iepriekš atļautām maksājumu veikšanām. Tas netiek rādīts norēķinu laikā, ja esat pieslēdzies šai veikalam.",
+        "default_checkbox": "Iestatīt kā noklusējumu",
+        "default_checkbox_accessibility_label": "Iestatīt šo maksāšanas veidu kā noklusējuma",
+        "replace_payment_method_button": "Aizvietot"
+      },
+      "delete_payment_method_button": "Noņemt",
+      "delete_payment_method_button_accessibility_label": "Noņemt {{paymentMethodName}}",
+      "back_button": "Atpakaļ",
+      "back_button_accessibility_label": "Atpakaļ uz {{paymentMethodStepTitle}}",
+      "generic_card": "Karšu karte",
+      "payment_delete": {
+        "title": "Maksāšanas veida dzēšana",
+        "description_without_replacement": "Šī maksāšanas metode vairs nav pieejama turpmākiem pirkumiem.",
+        "description_with_replacement": "Ja jūs dzēsīsiet šo maksāšanas veidu, tam būs ietekme uz iepriekš autorizētām maksājumiem. Jūs varat to aizstāt ar citu maksāšanas veidu, lai turpinātu saņemt gaidāmās pasūtījumus.",
+        "payment_method_selector_placeholder": "Izvēlieties aizvietojošu maksāšanas veidu (pēc izvēles)",
+        "replace_method_with_new_method_description": "Tava {{currentPaymentMethodName}} tiks noņemta un aizstāta ar tavu {{newPaymentMethodName}}."
       }
     }
   }
