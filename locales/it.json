@@ -1711,8 +1711,68 @@
             "one": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuti.",
             "other": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuti."
           },
-          "long": "Riceverai un'e-mail non appena il tuo ordine sarà elaborato. Attualmente c'è un gran numero di ordini."
-        }
+          "long": "Riceverai un'e-mail non appena il tuo ordine sarà elaborato. Attualmente c'è un gran numero di ordini.",
+          "no_auto_refresh_html": "%{link} se non vieni reindirizzato automaticamente.",
+          "refresh_this_page": "Ricarica questa pagina"
+        },
+        "you_will_not_be_charged": "Non sono ancora stati addebitati costi",
+        "redirecting_to_bank": "Reindirizza a {{bank}}",
+        "modal_notice": "Stiamo contattando {{paymentMethod}}",
+        "remote_shops_payments_processing": "Elaborare i pagamenti"
+      },
+      "failed_payment": {
+        "page_title": "Il pagamento non può essere elaborato",
+        "title": "Il pagamento non può essere elaborato",
+        "payment_not_processed_title": "Il tuo pagamento non può essere elaborato.",
+        "payment_not_processed_text": "Non sono stati addebitati costi. Torna al tuo carrello per completare l'acquisto."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bonifico bancario",
+        "cash_on_delivery_label": "Rimborsi",
+        "money_order_label": "Cambio postoperatorio",
+        "debit_card_label": "Carta di pagamento",
+        "deferred_payment_label": "Scegli in seguito un metodo di pagamento",
+        "generic_payment_terms": "Le condizioni di pagamento di {{translatedName}} si applicano. Il tuo pagamento scade il {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} a un account con accesso a questa posizione o per aggiungere o utilizzare metodi di pagamento salvati."
+          }
+        },
+        "direct_payment_terms": "Si applicano i termini e le condizioni di {{translatedName}}. L'importo verrà addebitato sulla tua carta il {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Il pagamento è dovuto non appena l'ordine è stato evaso.",
+        "order_due_on_fulfillment_payment": "Il denaro verrà addebitato sulla tua carta non appena l'ordine sarà elaborato.",
+        "draft_order_payment_due_later_no_terms": "Il pagamento è dovuto non appena l'ordine è confermato.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Il denaro verrà addebitato sulla tua carta non appena l'ordine sarà confermato.",
+        "draft_order_payment_due_later_terms": "Le condizioni di {{translatedName}} si applicano non appena l'ordine è confermato.",
+        "draft_order_payment_due_on_fulfillment": "Il pagamento è dovuto non appena l'ordine è confermato e completato.",
+        "fixed_payment_label": "Il pagamento è dovuto il {{dueDate}}.",
+        "fixed_direct_payment_terms": "Questo verrà addebitato sulla tua carta il {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} deve essere pagato oggi. Per il saldo si applicano le condizioni di {{translatedName}} e deve essere saldato entro {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} deve essere pagato oggi. Il saldo è dovuto non appena il tuo ordine è stato elaborato.",
+        "order_due_on_receipt_choose_later": "Il pagamento è dovuto alla consegna.",
+        "draft_order_deposit_due_later": "{{depositAmount}} è dovuto al momento della conferma dell'ordine. Per il saldo si applicano le condizioni {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} è dovuto una volta che l'ordine è stato confermato. Il saldo è dovuto non appena il tuo ordine è stato evaso.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} deve essere pagato oggi. Il saldo è dovuto in seguito.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} deve essere pagato oggi. Il saldo deve essere pagato entro {{dueDate}}."
+      },
+      "thank_you": {
+        "confirmation_email_sent_text": "È stata inviata un'e-mail di conferma a %{email}",
+        "print_link_label": "Stampa della ricevuta d'acquisto",
+        "page_title": "Grazie, %{display_name}.",
+        "customer_information_title": "Dati dell'ordine",
+        "contact_information_title": "Informazioni di contatto",
+        "shipping_address_title": "Indirizzo di consegna",
+        "shipping_address_map_title": "Mappa di Google con puntatore dell'indirizzo di consegna: %{address}",
+        "company_tracking_number": "Numero di tracciamento %{company}:",
+        "estimated_arrival": "Data di consegna stimata:",
+        "re-order": "Ordinare di nuovo gli stessi articoli",
+        "thank_you_title": "Il tuo ordine è stato confermato",
+        "thank_you_confirmed_order_with_email": "Riceverai presto un'email di conferma con il numero del tuo ordine.",
+        "thank_you_confirmed_order_with_phone": "Riceverai presto un messaggio di conferma con il numero del tuo ordine",
+        "thank_you_confirmed_order_with_email_and_phone": "Riceverai presto un'email di conferma con il numero del tuo ordine.",
+        "thank_you_confirmed_order_with_missing": "Contattaci via e-mail o telefono per la conferma del tuo ordine.",
+        "order_status_confirmed_order_with_email": "Riceverai un'email quando il tuo ordine sarà pronto.",
+        "order_status_confirmed_order_with_phone": "Riceverai un messaggio quando il tuo ordine sarà pronto."
       }
     }
   }

@@ -3189,7 +3189,85 @@
       "full_name_required": "Adja meg a kereszt- és vezetéknevét",
       "invalid_for_card_type": "érvénytelen",
       "invalid_type": "sajnáljuk, nem fogadunk el ilyen típusú kártyákat",
-      "invalid_format": "a formátum érvénytelen"
+      "invalid_format": "a formátum érvénytelen",
+      "invalid_start_date_or_issue_number_for_debit": "érvényes kezdő dátum vagy érvényes kiadási szám szükséges",
+      "reset_password_html": "Ez az e-mail cím már egy fiókhoz van kötve. Ha ez a fiók a tiéd, akkor <a href=\"/account/login#recover\">visszaállíthatod a jelszavadat</a>",
+      "verify_email": "Küldtünk egy e-mailt a %{customer_email} címre. Kérjük, kattintson a csatolt hivatkozásra az e-mail címének ellenőrzéséhez.",
+      "blocked_address": "Ez a helyszín nem támogatott",
+      "product_not_available": "a termék nincs közzétéve ennél a vevőnél.",
+      "shop_404": {
+        "title": "Hozz létre egy webáruházat, és add el termékeidet az interneten! Shopify e-kereskedelmi szoftver",
+        "heros": {
+          "store_unavailable": "Ez az üzlet jelenleg nem elérhető.",
+          "store_not_exist": "Ez az üzlet nem létezik.",
+          "no_storefront": "Ennek az üzletnek még nincs honlapja."
+        },
+        "links": {
+          "explore_other_stores": "Más boltok felfedezése",
+          "start_free_trial": "Ingyenes kipróbálás"
+        },
+        "owner_ctas": {
+          "header": "Te vagy az üzlettulajdonos?",
+          "fix_domain": "Lépj a %{domain_settings_link} oldalra, és fejezd be az új webcímed beállítását. Kattints a „Domainek csatlakoztatása” gombra, és írd be: %{domain}.<br>Ha nem tudsz belépni az üzletedbe, próbáld meg a %{forgot_your_store_link} lehetőséget.",
+          "fix_domain_link_text": "a domainbeállításaid",
+          "forgot_your_store_link_text": "Elfelejtetted a kosarad?",
+          "add_storefront": "Beállíthatod a weboldaladat úgy, hogy hozzáadod a webshop csatornát a %{admin_link}-ben. Ha nem tudsz belépni az üzletedbe, próbáld meg a %{forgot_your_store_link} használatát.",
+          "admin_link_text": "kezelőközpont"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Személyes értékesítés",
+            "caption": "Szerezd meg azokat a funkciókat, amelyekre szükséged van a kiskereskedésed vezetéséhez, akár most kezded, akár bővíted.",
+            "link_text": "Ingyenes próbaverzió indítása"
+          },
+          "open_a_store": {
+            "header": "Új Shopify-áruház megnyitása",
+            "caption": "Kezdje el háromnapos ingyenes próbaverzióját, majd folytassa három hónapon át havi 1 USD-ért.",
+            "link_text": "Jelentkezz most"
+          },
+          "editions": {
+            "header": "Shopify kiadások megtekintése",
+            "caption": "Több mint 100 termékfrissítés áll rendelkezésedre, amelyekkel hatékonyabb, alkotóbb és eredményesebb lehetsz a kereskedelmi világban, mint valaha is gondoltad volna.",
+            "link_text": "Legújabb kiadások felfedezése"
+          },
+          "store_owner": {
+            "header": "Te vagy az üzlettulajdonos?",
+            "caption": "Nem tudsz bejutni az üzletedbe? Próbáld ki a %{forgot_your_store_link} funkciót. Ha újra szeretnéd aktiválni az üzletedet, lépj kapcsolatba a %{shopify_support_link} csapatával.",
+            "shopify_support_link_text": "Shopify ügyfélszolgálat"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Hiba történt a jelszó visszaállításakor",
+        "no_account_found": "Nem található fiók ezzel az e-mail címmel.",
+        "invalid_credentials": "Helytelen e-mail vagy jelszó.",
+        "denylisted_reset_password": "A fiók nem nyitható meg, mert a jelenlegi jelszó nem biztonságos. E-mailt kapsz a jelszó újbóli beállításához.",
+        "signup_disabled": "Az ügyfélfiókok létrehozása ki van kapcsolva.",
+        "subscribe_error": "Hiba az előfizetés során",
+        "unsubscribe_error": "Hiba a kijelentkezéskor"
+      },
+      "address": {
+        "updated": "Cím frissítve.",
+        "error_updating": "Hiba a cím frissítésekor",
+        "created": "Cím létrehozva",
+        "error_creating": "Hiba a cím létrehozásakor.",
+        "deleted": "Cím törölve",
+        "error_deleting": "Hiba a cím törlésekor."
+      },
+      "order": {
+        "not_available": "Ez a rendelés nem elérhető",
+        "financial_status": {
+          "authorized": "Ellenőrizve",
+          "pending": "Feldolgozás alatt",
+          "paid": "Fizetett",
+          "unpaid": "Fizetés nélkül",
+          "voided": "Lejárt",
+          "partially_refunded": "Részben visszatérített",
+          "refunded": "Visszatérített"
+        }
+      }
     }
   }
 }
