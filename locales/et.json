@@ -4091,7 +4091,67 @@
       },
       "add_address_banner": "Lisa aadresse, mida kasutada kassas",
       "billing_address_dropdown_placeholder": "Arve aadress",
-      "add_button_text": "Lisa"
+      "add_button_text": "Lisa",
+      "add_button_accessibility_label": "Lisa aadress",
+      "back_button": "Tagasi",
+      "back_button_accessibility_label": "Tagasi aadressi {{address}} muutmise juurde",
+      "no_addresses_banner": "Geen aadressid lisatud"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Soovitused sulgeda",
+      "auto_complete_title": "Soovitused",
+      "billing_address": "Kasutada arveaadressina",
+      "cancel": "Tühista",
+      "cancel_accessibility_label": "Aadressi {{address}} muutmise tühistamine",
+      "creation_success_notification": "Aadress lisatud",
+      "default_address": "See on minu vaikimisi aadress",
+      "default_address_creation_success_notification": "Vaikimisi aadress lisatud",
+      "default_address_update_success_notification": "Vaikimisi aadress uuendatud",
+      "loading_add_form_accessibility_message": "Laadi uus aadressivorm",
+      "loading_edit_form_accessibility_message": "Laadi vormi aadressi redigeerimine",
+      "loading_finished_accessibility_message": "Vorm aadress on laaditud",
+      "save": "Salvesta",
+      "save_accessibility_label": "Salvesta aadress {{address}}",
+      "section_title_accessibility_label": "Lisa aadress",
+      "update_success_notification": "Aadress uuendatud",
+      "attention": "T.a.v.",
+      "attention_help_text": "Isiku või osakonna nimi",
+      "loading_form_accessibility_message": "Laadi aadressi vorm",
+      "attention_company": "Ettevõte/k.a."
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Ettevõtte nimi",
+        "company_card_section_accessibility_label": "Ettevõte"
+      },
+      "locations": {
+        "contact_email": "E-posti aadress",
+        "contact_list_title": "Inimesed",
+        "contact_name": "Nimi",
+        "contact_permissions": "Volitused",
+        "contact_phone_number": "Telefoninumber",
+        "location_picker_label": "Asukoha nimi",
+        "net_payment_terms_description": "{{name}}: maksed tuleb tasuda {{numberOfDays}} päeva jooksul",
+        "payment_details_title": "Makseandmed",
+        "payment_terms": "Makse tingimused",
+        "permissions_label": "Sinu volitused",
+        "permissions_title": "Volitused",
+        "section_title": "Asukoht",
+        "shipping_address_required": "Lisa sellele asukohale tarneaadress, et saaksid tellimusi esitada.",
+        "tax_details_title": "Maksuteave",
+        "tax_id": "Maksu-ID",
+        "tax_exemptions": "Maksuvabastused",
+        "multiple_tax_exemptions": "Veel {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "et",
+        "tax_exemptions_modal_close": "Sulge",
+        "taxes_none": "Geen",
+        "tax_exemption_not_applicable": "ei kehti",
+        "tax_exemptions_modal_button_accessibility_label": "Kuva kõik maksuvabastused",
+        "pagination": {
+          "load_more": "Laadi rohkem",
+          "load_more_accessibility_label": "Laadi veel asukohti"
+        }
+      }
     }
   }
 }
