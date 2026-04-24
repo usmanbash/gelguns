@@ -808,9 +808,75 @@
             "sunday": "zo."
           },
           "months": {
-            "may": "mei"
+            "may": "mei",
+            "august": "augustus"
           }
-        }
+        },
+        "datepicker": {
+          "range_start": "Začať dosah",
+          "in_range": "V dosahu",
+          "range_end": "Koniec dosahu"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} v {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} v {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} z {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} z {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Zhluk z {{number}} značkovacích bodov",
+            "other": "Zhluk z {{number}} značkovacích bodov"
+          }
+        },
+        "dropzone": {
+          "invalid_file_type": "Tento typ súboru nie je podporovaný",
+          "dragged_over": "Uložiť súbor na nahranie"
+        },
+        "loading": "Načítava sa...",
+        "remove_chip": "Odstrániť položku"
+      },
+      "contact": {
+        "email_or_phone_label": "E-mail alebo mobilné telefónne číslo",
+        "email_or_phone_placeholder": "E-mail alebo mobilné telefónne číslo",
+        "new_address_label": "Použite novú adresu",
+        "address2_label": "Poštové schránky č., enz.",
+        "optional_address2_label": "Poštová schránka č., enz. (voliteľné)",
+        "city_label": "Stad",
+        "country_label": "Krajina/región",
+        "country_code": "Kód krajiny/regiónu",
+        "province_label": "Provincie",
+        "province_placeholder": "Provincie",
+        "county_label": "Provincie",
+        "county_placeholder": "Provincie",
+        "state_label": "štát",
+        "state_placeholder": "štát",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Vláda",
+        "governorate_placeholder": "Vláda",
+        "emirate_label": "Emiraat",
+        "emirate_placeholder": "Emiraat",
+        "state_and_territory_label": "Štát/Teritórium",
+        "state_and_territory_placeholder": "Štát/Teritórium",
+        "phone_tooltip": "V prípade, že vás budeme musieť kontaktovať ohľadom vašej objednávky",
+        "postal_code_label": "PSČ",
+        "postal_code_placeholder": "PSČ",
+        "postcode_label": "PSČ",
+        "postcode_placeholder": "PSČ",
+        "pincode_label": "PSČ",
+        "pincode_placeholder": "PSČ",
+        "region_none": "Nie je vybrané",
+        "civic_number_warning": "Pridajte číslo domu, ak ho máte",
+        "different_shipping_address_label": "Poslať na inú adresu",
+        "different_shipping_address_text": "Použiť jednu adresu pre túto objednávku",
+        "change_company_location_link_label": "Zmeniť miesto podnikania",
+        "change_location_link_label": "Zmeniť miesto",
+        "ship_to_company": "Odoslať do {{companyName}}"
       }
     }
   }
