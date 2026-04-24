@@ -1715,7 +1715,67 @@
         "in_transit_description_today": "Your order will be delivered today.",
         "in_transit_description_tomorrow": "Your order will be delivered tomorrow.",
         "out_for_delivery": "Ready for delivery",
-        "out_for_delivery_title": "Your order is ready for delivery"
+        "out_for_delivery_title": "Your order is ready for delivery",
+        "out_for_delivery_description_html": "Your order is on its way and should arrive today. If it is not delivered within the next two days, %{contact_us}.",
+        "attempted_delivery": "Delivery attempt",
+        "attempted_delivery_description_html": "The attempt to deliver your order was unsuccessful. To arrange another delivery attempt, %{contact_us}.",
+        "delivered": "Concerned",
+        "delivered_description_html": "Your order has been delivered to the address you provided. If you have not received it, or if there are any other issues, %{contact_us}.",
+        "contact_us_lowercase": "get in touch with us",
+        "failed_title": "Your order could not be delivered.",
+        "failed_contact_merchant_no_company": "Contact us to arrange the delivery.",
+        "non_shippable_title": "The order is complete",
+        "login_title": "Log in to view all order details",
+        "login_description": "You can find your order number in the invoice you received by email.",
+        "login_description_phone": "You will find your order number in the invoice you received via text message.",
+        "login_reorder_link_text": {
+          "one": "also buy this product",
+          "other": "also buy these products"
+        },
+        "customer_information_hidden_fields_message": "Log in to view all customer details.",
+        "cancelled_title": "Your order has been cancelled",
+        "customer_validation_error": "Enter a valid email address or order number.",
+        "customer_validation_error_phone": "Enter a valid telephone or order number.",
+        "login": "Log in",
+        "unfulfilled_items_title": "Shipping is being prepared",
+        "unfulfilled_items_description": "We are currently preparing these items for shipment.",
+        "marker": {
+          "current": "Current shipping location",
+          "shipping": "Delivery address"
+        },
+        "fulfillment": {
+          "unfulfilled_table_title": "Items are being prepared for shipment",
+          "quantity_label": "Number"
+        },
+        "order_updates_description_missing": "You will not receive shipping updates.",
+        "order_updates_subscribe_to_email_notifications": "Receive shipping updates by email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Receive shipping updates via email or text message",
+        "order_updates_subscribe_to_phone_notifications": "Receive your shipping updates via text message",
+        "order_status_confirmed_order_with_email_pick_up": "You will receive an email when you can collect your order.",
+        "order_status_confirmed_order_with_phone_pick_up": "You will receive a text message when you can collect your order.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "You will receive an email and a text message when you can collect your order.",
+        "pick_up_in_store_marker": {
+          "current": "Current shipping location"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "You will receive an email when you can collect your order.",
+        "thank_you_confirmed_order_with_phone_pick_up": "You will receive a text message when you can collect your order.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You will receive an email when you can collect your order.",
+        "ready_for_pickup_title": "The order is ready for pickup",
+        "ready_for_pickup_description": "Your order can be collected. Please bring the order confirmation when you pick up the order.",
+        "picked_up_title": "The order has been collected",
+        "shop_phone_description": "You will receive a text message with a link to the Shop app to track your order.",
+        "ready_for_delivery_title": "The order is ready for delivery",
+        "ready_for_delivery_description": "We have prepared the order.",
+        "order_status_confirmed_order_local": "We prepare your order for delivery.",
+        "gift_card_sent_confirmation": "Gift vouchers sent",
+        "out_for_delivery_local_title": "Your order is ready for delivery",
+        "out_for_delivery_local_description_html": "You will receive your order soon.",
+        "delivered_local_description_html": "Haven't received your order yet? %{let_us_know}.",
+        "qr_code": {
+          "title": "Follow on your phone"
+        },
+        "gift_card_confirmation_by_text": "If you have not received this, have the text message sent again or contact us.",
+        "gift_card_confirmation_by_email": "If you have not received this, have the email sent again or get in touch with us."
       }
     },
     "sentence": {
