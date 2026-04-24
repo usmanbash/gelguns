@@ -874,7 +874,75 @@
         "use_location_shipping_address_label": "Use delivery address of location",
         "purchase_options_agreement_label_wallets": "If you continue with the payment, you agree to the future payments listed on this page and to the cancellation policy.",
         "gift_card_store_credit": {
-          "add_label": "Add a gift voucher or store credit"
+          "add_label": "Add a gift voucher or store credit",
+          "manage_label": "Manage gift vouchers or store credit"
+        },
+        "saved_credit_card_cvv_verification": "Enter the security code of your card for verification purposes.",
+        "cashapppay_label": "Cash App Payment",
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} removed from return"
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} removed from return",
+        "proposed_gateway_unavailable": "The suggested payment gateway is not available",
+        "pay_in_installments_split_pay_short": "Four payments of %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Payment method not available for the chosen delivery address. Please select another payment method.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero is not available for this order. Please choose another payment method.",
+        "paypal_disconnect": "Unhook",
+        "paypal_wallet_label": "PayPal purse",
+        "payment_method_update_failed": "Updating payment method failed.",
+        "alternative_payment_currency_total_manual_payment_notice": "Note: Converted total is %{amount_due}.",
+        "gift_cards_unavailable": "Your gift voucher can no longer be used for this order and has therefore been removed",
+        "network_card_payment_options": "Choosing a credit card company",
+        "payment_flexibility_terms_id_mismatch": "ID terms payment flexibility does not match",
+        "offsite_gateway_review_page_redirect_hint": "After you have reviewed the order, you will be redirected to %{gateway_label} to complete your purchase.",
+        "przelewy24_label": "Transfers24",
+        "gift_card_checkbox_label": "Apply gift voucher",
+        "blik_label": "Can",
+        "kcp_creditcard_label": "KCP credit card",
+        "simulated_express_checkout": "Digital wallets are not available in the editor sample due to your region or browser",
+        "offsite_gateway_redirect_hint_no_button_label": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "swish_label": "Whirl",
+        "network_card_persistence_description": "The chosen network will be saved with your payment method for future transactions.",
+        "billing_address_rollup_accessibility_label": "Options for billing address",
+        "payment_method_rollup_accessibility_label": "Options for payment method",
+        "crypto_modal": {
+          "error": {
+            "refresh": "Renew"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Payment account",
+          "savings": "Savings account"
+        },
+        "bank_account_choose": "Choose an account to safely complete your purchase",
+        "bank_account_connect_another": "Link another bank account",
+        "bank_account_connect": "Link bank account",
+        "bank_account_missing": "Bank account must be linked",
+        "crypto_payment_method": {
+          "description": "Connect your wallet securely. Your balance and address will not be shared.",
+          "tooltip": "The balance of your purse and your address are not shared, and only the requested amount can be deducted",
+          "cashback_descriptor": {
+            "one": "You will receive your cashback after %{count} days",
+            "other": "You will receive your cashback after %{count} days"
+          }
+        },
+        "usdc_cashback_additional_info": "Pay with USDC on Base and receive %{incentive_percentage}% back in your digital wallet within 30 days.",
+        "separate_payments_label": "Your items come from more than one store. You need to check out with %{separate_payments_link}.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Save this payment method at checkout and authorize %{company} to charge your account for future purchases you approve for this location, until you cancel. All contacts assigned to this location are allowed to use the payment method.",
+        "new_bank_account_disclaimer": "By completing your order, you authorize %{shop_name} to debit the specified amount from the account below at the indicated time via ACH.",
+        "bank_account_disclaimer": "It can take up to 4 working days for ACH payments to be processed.",
+        "bank_account_generic_error": "Cannot add bank account. Please try again later.",
+        "discount_codes_removed_summary": {
+          "other": "%{count} discount codes have been removed"
+        },
+        "default": "Standard",
+        "continue_to_guest_checkout": "As guest to checkout",
+        "discount_codes_modified_summary": {
+          "one": "%{count} discount code has been changed",
+          "other": "%{count} discount codes have been changed"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} discount code has been removed or changed"
         }
       },
       "shipping_errors": {
