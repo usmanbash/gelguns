@@ -1471,7 +1471,75 @@
           "label": "Bestillingsnummer (valgfrit)"
         },
         "alternative_payment_currency_total_notice": "Bemærk: Der trækkes %{amount_due} fra.",
-        "waiting_on_taxes_message": "Opdater siden, hvis skatterne ikke beregnes inden for få sekunder."
+        "waiting_on_taxes_message": "Opdater siden, hvis skatterne ikke beregnes inden for få sekunder.",
+        "waiting_on_taxes_notice": "Beregning af belastningen",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returneret",
+        "shop_pay_installments_label": "Shop Pay-afdragsbetalingerne",
+        "delete_credit_card_modal": {
+          "title": "Fjern kort",
+          "confirmation": "Er du sikker på, at du vil fjerne {{brandName}} med endelse {{lastDigits}}?",
+          "delete": "Fjern"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} tilføjet"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Slettet",
+          "with_quantities": "{{delta}} fra {{quantity}} fjernet"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} returneret",
+          "with_quantities": "{{delta}} af {{quantity}} returneret"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Fjern"
+        },
+        "edit_credit_card_modal": {
+          "done": "Klar",
+          "description": "Du kan kun ændre faktureringsadressen på dit kort.",
+          "fields": {
+            "default": "Indstil som standard",
+            "name": "Navn på kort",
+            "billing": "Fakturering til"
+          }
+        },
+        "use_order_billing_address_label": "Brug faktureringsadresse fra bestilling",
+        "use_location_billing_address_label": "Brug faktureringsadresse fra stedet",
+        "use_location_shipping_address_label": "Brug leveringsadresse fra stedet",
+        "purchase_options_agreement_label_wallets": "Hvis du fortsætter med betalingen, accepterer du de fremtidige betalinger, der er angivet på denne side, samt opsigelsespolitikken.",
+        "gift_card_store_credit": {
+          "add_label": "Tilføj et gavekort eller butikskredit",
+          "manage_label": "Administrer gavekort eller butikskredit"
+        },
+        "saved_credit_card_cvv_verification": "Indtast sikkerhedskoden på dit kort til bekræftelsesformål.",
+        "order_edit_banner_updated_order_label": "Opdateret bestilling",
+        "afterpay_label": "Betal senere",
+        "cashapppay_label": "Cash App Betaling",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Fjernet fra retur",
+          "with_quantities": "{{delta}} fjernet fra retur"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Fjernet fra retur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} fjernet fra retur",
+        "pay_in_installments_split_pay_short": "Foretag betalinger på %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Betalingsmetode ikke tilgængelig for den valgte leveringsadresse. Vælg en anden betalingsmetode.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero er ikke tilgængelig for denne bestilling. Vælg en anden betalingsmetode.",
+        "paypal_disconnect": "Frakobling",
+        "paypal_wallet_label": "PayPal-pung",
+        "payment_method_update_failed": "Opdatering af betalingsmetode mislykkedes.",
+        "alternative_payment_currency_total_manual_payment_notice": "Bemærk: Konverteret total er %{amount_due}.",
+        "gift_cards_unavailable": "Dit gavekort kan ikke længere bruges til denne bestilling og er derfor fjernet",
+        "network_card_payment_options": "Vælge et kreditkortselskab",
+        "payment_flexibility_terms_id_mismatch": "ID betingelser for betalingsfleksibilitet stemmer ikke overens",
+        "offsite_gateway_review_page_redirect_hint": "Når du har gennemgået din bestilling, bliver du omdirigeret til %{gateway_label} for at fuldføre dit køb.",
+        "blik_label": "Dåse",
+        "grabpay_label": "GribBetaling",
+        "kcp_creditcard_label": "KCP-kreditkort",
+        "simulated_express_checkout": "Digitale tegnebøger er ikke tilgængelige i editorens eksempel på grund af din region eller browser",
+        "offsite_gateway_redirect_hint_no_button_label": "Du bliver omdirigeret til %{gateway_label} for at fuldføre dit køb.",
+        "swish_label": "Svirp",
+        "network_card_persistence_description": "Det valgte netværk gemmes sammen med din betalingsmetode til fremtidige transaktioner.",
+        "payment_method_incompatible_with_payment_terms": "Betalingsmetode er ikke forenelig med betalingsbetingelser."
       }
     }
   }
