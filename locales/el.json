@@ -3697,7 +3697,73 @@
       "vat_invoices": {
         "title": "Τιμολόγια Btw"
       },
-      "taxes_included": "Συμπεριλαμβανομένου του {{amount}} ΦΠΑ"
+      "taxes_included": "Συμπεριλαμβανομένου του {{amount}} ΦΠΑ",
+      "duties_and_taxes_included": "Το σύνολο περιλαμβάνει τελωνειακά δικαιώματα και φόρους. Δεν υπάρχουν επιπλέον πληρωμές κατά την παράδοση.",
+      "grouped_view_components": {
+        "expand_line_items": "Εμφάνιση {{count}} άρθρων",
+        "collapse_line_items": "Απόκρυψη {{count}} άρθρων",
+        "line_item_summary_list_accessibility_label": "Άρθρα στο πακέτο {{productTitle}}"
+      },
+      "cash_rounding": "Ολοκλήρωση με μετρητά",
+      "login_card": {
+        "link_expired": "Ο σύνδεσμος έχει λήξει",
+        "resend_link_and_login": "Μπορείς να δεις τα στοιχεία της παραγγελίας σου κάνοντας είσοδο ή στέλνοντας έναν νέο σύνδεσμο στη διεύθυνση email ή τον αριθμό τηλεφώνου που χρησιμοποιήθηκε κατά την ολοκλήρωση της αγοράς.",
+        "resend_link_only": "Μπορείς να δεις τα στοιχεία της παραγγελίας σου στέλνοντας έναν νέο σύνδεσμο στη διεύθυνση email ή τον αριθμό τηλεφώνου που χρησιμοποίησες κατά την ολοκλήρωση της αγοράς.",
+        "title": "Προβολή στοιχείων παραγγελίας"
+      },
+      "link_sent": "Σύνδεσμος αποστάλθηκε",
+      "view_controls": {
+        "gallery": "Γκαλερί"
+      },
+      "due_on_date": "Οφειλόμενο στις {{date}}",
+      "due_on_fulfillment": "Πληρωμή κατά την εκπλήρωση παραγγελίας",
+      "due_on_receipt": "Πληρωμή κατά την παραλαβή",
+      "payment_confirmation": {
+        "payment_received": "Ευχαριστούμε! Η πληρωμή σας ύψους {{amount}} έχει ληφθεί.",
+        "full_payment_received": "Ευχαριστούμε! Η πληρωμή σας ύψους {{amount}} έχει ληφθεί και αυτή η παραγγελία έχει πλέον εξοφληθεί πλήρως.",
+        "dismiss_label": "Κλείσιμο επιβεβαίωσης πληρωμής",
+        "payment_authorized": "Ευχαριστούμε! Το υπόλοιπο θα ενημερωθεί μόλις ληφθεί η πληρωμή."
+      },
+      "marketing_pending_confirmation": "Κάνε κλικ στον σύνδεσμο στο email σου για να επιβεβαιώσεις.",
+      "marketing_resend_email": "Αποστολή e-mail ξανά",
+      "marketing_resend_email_success": "Σύνδεσμος αποστάλθηκε",
+      "subtotal_label_with_quantity": {
+        "one": "Υποσύνολο",
+        "other": "Υποσύνολο · {{count}} είδη"
+      },
+      "total_savings": "Συνολική εξοικονόμηση"
+    },
+    "addresses": {
+      "address_deleted_notification": "Διεύθυνση αφαιρέθηκε",
+      "cancel_adding_address_accessibility_label": "Προσθήκη διεύθυνσης ακύρωση",
+      "cancel_deletion_button_accessibility_label": "αφαίρεση {{address}} ακύρωση",
+      "delete_button": "Αφαίρεση",
+      "delete_button_accessibility_label": "Αφαίρεση {{address}}",
+      "delete_confirmation_button": "Αφαίρεση διεύθυνσης",
+      "delete_confirmation_button_accessibility_label": "Αφαίρεση {{address}}",
+      "delete_confirmation_message": "Να διαγραφεί η διεύθυνση; Αυτό δεν επηρεάζει τις υπάρχουσες παραγγελίες.",
+      "loading_accessibility_message": "Διεύθυνση καταστήματος",
+      "loading_billing_accessibility_message": "Φόρτωση διευθύνσεων τιμολογίου",
+      "loading_finished_accessibility_message": "Η νέα σελίδα με τις διευθύνσεις έχει φορτωθεί",
+      "loading_shipping_accessibility_message": "Φόρτωση διεύθυνσης παράδοσης",
+      "delete_confirmation_title": "Να διαγραφεί η διεύθυνση;",
+      "delete_confirmation_description": "Αυτό δεν επηρεάζει τις υπάρχουσες παραγγελίες.",
+      "edit_modal_title": {
+        "billing": "Επεξεργασία διεύθυνσης τιμολογίου",
+        "shipping": "Επεξεργασία διεύθυνσης παράδοσης"
+      },
+      "add_address_banner": "Προσθέστε διευθύνσεις για χρήση κατά την ολοκλήρωση αγοράς",
+      "billing_address_dropdown_placeholder": "Διεύθυνση τιμολογίου",
+      "no_addresses_banner": "Δεν έχουν προστεθεί διευθύνσεις"
+    },
+    "address_form": {
+      "billing_address": "Χρήση ως διεύθυνση τιμολογίου",
+      "cancel_accessibility_label": "Ακύρωση επεξεργασίας της διεύθυνσης {{address}}",
+      "creation_success_notification": "Διεύθυνση προστέθηκε",
+      "default_address": "Αυτή είναι η προεπιλεγμένη διεύθυνσή μου",
+      "default_address_creation_success_notification": "Προεπιλεγμένη διεύθυνση προστέθηκε",
+      "loading_add_form_accessibility_message": "Φόρμα φόρτωσης νέας διεύθυνσης",
+      "loading_edit_form_accessibility_message": "Φόρτωση επεξεργασίας διεύθυνσης φόρμας"
     }
   }
 }
