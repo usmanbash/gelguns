@@ -785,8 +785,76 @@
         "datepicker": {
           "show_previous_month": "Visa föregående månad, {{month}} {{year}}",
           "show_next_month": "Visa nästa månad, {{month}} {{year}}",
-          "range_start": "Börja område"
-        }
+          "range_start": "Börja område",
+          "in_range": "Inom räckhåll",
+          "range_end": "Slut på räckvidd"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} en {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} en {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} av {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} av {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Klustervan med {{number}} markörpunkter",
+            "other": "Klustervan {{number}} markörpunkter"
+          }
+        },
+        "sheet": {
+          "expand": "Vik ut"
+        },
+        "confirm_order_button_label": "Bekräfta beställning",
+        "dropzone": {
+          "add_file": "Lägg till bestånd",
+          "invalid_file_type": "Den här filtypen stöds inte",
+          "dragged_over": "Placera fil för uppladdning"
+        },
+        "loading": "Laddar...",
+        "finalize_order_accessibility_label": "Slutför beställning"
+      },
+      "contact": {
+        "email_or_phone_label": "E-post eller mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-post eller mobiltelefonnummer",
+        "address2_label": "Postboxnummer, osv.",
+        "optional_address2_label": "Postboxnummer, osv. (valfritt)",
+        "country_label": "Land/region",
+        "country_code": "Land-/regionskod",
+        "province_label": "Provins",
+        "province_placeholder": "Provins",
+        "county_label": "Provins",
+        "county_placeholder": "Provins",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Regering",
+        "governorate_placeholder": "Regering",
+        "state_and_territory_label": "Stat/Område",
+        "state_and_territory_placeholder": "Stat/Område",
+        "phone_tooltip": "Om vi behöver kontakta dig angående din beställning",
+        "pincode_label": "Postnummer",
+        "pincode_placeholder": "Postnummer",
+        "civic_number_warning": "Lägg till ett husnummer om du har ett",
+        "different_shipping_address_text": "Använd en engångsadress för denna beställning",
+        "change_location_link_label": "Ändra plats",
+        "ship_to_company": "Skicka till {{companyName}}",
+        "shipping_used_as_billing_notice": "Vi använder detta också som faktureringsadress för denna beställning.",
+        "company_attention_label": "Företag/att:",
+        "optional_company_attention_label": "Företag/att: (valfritt)",
+        "phone_rollup_accessibility_label": "Telefoninställningar",
+        "phone_country_code_label": "Landskod för telefonnummer",
+        "storefront_link": "webbplats för handlaren",
+        "suburb_label": "Uteområde"
+      },
+      "delivery_options": {
+        "ship": "Skicka",
+        "pick_up": "Hämtning",
+        "pick_up_in_two_hours": "Vanligtvis klart inom 2 timmar"
       }
     }
   }

@@ -2703,8 +2703,96 @@
           "not_available": "Acest bon cadou nu mai este disponibil",
           "invalid": "Introduceți un bon cadou valabil",
           "currency_mismatch": "Sunt acceptate doar bonurile cadou în %{shop_currency}",
-          "generic": "Cuponul cadou nu poate fi adăugat la finalizarea comenzii"
+          "generic": "Cuponul cadou nu poate fi adăugat la finalizarea comenzii",
+          "throttle_limit_exceeded": "Ai atins numărul maxim de încercări. Încearcă din nou mai târziu.",
+          "no_longer_available": "Acest bon cadou nu mai poate fi folosit la această plată"
         }
+      },
+      "vaulted": {
+        "change_button": "Modificare"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "checkout_has_expired": "Perioada de plată a expirat. Închide această fereastră și încearcă din nou să finalizezi comanda la {{shopName}}."
+        },
+        "return_to_store": "Înapoi la {{shopName}}",
+        "return_to_store_simple": "Înapoi la magazin",
+        "title": "Plată rapidă Shop"
+      },
+      "company_location": {
+        "location_title": "Locație firmă",
+        "location_rollup_accessibility_label": "Opțiuni pentru locația firmei"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Prețul bonului cadou trebuie să fie mai mare decât 0.",
+            "subtotal_limit_reached": "Valoarea maximă pentru liniile de comandă a fost atinsă.",
+            "signature_mismatch": "Semnătură incorectă pentru bunurile din regula %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nu a fost copiat"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Finalizează-ți achiziția cu codul tău {{paymentMethod}}",
+        "timer_message": "Mai ai {{timeLeft}} pentru a plăti",
+        "copy_text": "Copiază codul {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Finalizează-ți achiziția cu codul tău {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Confirmă plata în aplicația ta pentru a finaliza această cumpărătură"
+        },
+        "close": "Încheie provocarea"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "A apărut o problemă la procesarea comenzii tale. Te rugăm să încerci din nou peste câteva minute."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Instrucțiunea pentru bunuri %{position} %{name} conține un ID de stocare gol.",
+        "invalid_stable_id_target": "Instrucțiunea pentru bunuri %{position} %{name} face referire la stable-ID %{stable_id}, dar acest stable-ID nu se găsește în liniile de bunuri.",
+        "duplicate_variant_id": "Instrucțiunile pentru bunuri %{position} %{name} conțin un ID dublu de variantă %{variant_id}.",
+        "invalid_variant_id_target": "Instrucțiunea de marfă %{name} face referire la ID-ul variantei %{variant_id}, dar acea variantă nu se regăsește în liniile de marfă.",
+        "invalid_price_override_target": "Instrucțiunea de a suprascrie prețul bunurilor pentru linia de comandă %{stable_id} este invalidă deoarece este un component al unui pachet.",
+        "discount_not_supported": "Instrucțiunile pentru comercianți privind aplicarea reducerii la produse nu suportă acest tip de reducere."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Acest produs nu este disponibil pentru livrare către %{location_name}.",
+          "some_products_other": "Aceste produse nu sunt disponibile pentru livrare către %{location_name}.",
+          "all_products_one": "Produsul din coșul tău nu este disponibil pentru livrare către %{location_name}.",
+          "all_products_other": "Produsele din coșul tău nu sunt disponibile pentru livrare către %{location_name}."
+        },
+        "cart_updated": "Coșul tău de cumpărături a fost actualizat.",
+        "change_address_only": "Modificați adresa de livrare pentru a continua.",
+        "change_address_or_remove": "Modifică adresa de livrare sau %{remove_action}.",
+        "empty_cart_action": "golește coșul de cumpărături și întoarce-te la magazin",
+        "remove_items_action": {
+          "one": "elimina articolul indisponibil",
+          "other": "eliminați articolele indisponibile"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Nu mai ai permisiunea de a plasa comenzi B2B. %{logout_url} pentru a plasa în schimb o comandă personală.",
+        "log_out_link_text": "Deconectare",
+        "lost_permissions_subtitle": "Nu mai ai dreptul să plasezi comenzi B2B. Deconectează-te pentru a plasa o comandă personală."
+      },
+      "units": {
+        "ounce": "oz",
+        "pound": "lb",
+        "fluid_ounce": "fl oz",
+        "pint": "pentru",
+        "quart": "qt",
+        "gallon": "galben",
+        "inch": "în",
+        "foot": "ft",
+        "yard": "yd",
+        "square_foot": "p²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Această adresă nu este acceptată pentru calitatea de membru curent."
       }
     }
   }
