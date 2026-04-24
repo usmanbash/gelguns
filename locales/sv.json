@@ -3214,9 +3214,75 @@
           "gallery_view": {
             "overdue": "Betalningen är försenad",
             "due_today": "Betalning ska göras idag",
-            "due_without_date": "Betalning skyldig"
+            "due_without_date": "Betalning skyldig",
+            "due_on_fulfillment": "Betalning ska ske vid fullgörande",
+            "payment_not_due": "Betalning är ännu inte skyldig"
           }
-        }
+        },
+        "sort_currently_sorted_by_accessibility_label": "För närvarande sorterat efter: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Beställning innehåller {{lineItemName1}} antal {{lineItemQuantity1}}, {{lineItemName2}} antal {{lineItemQuantity2}}, {{lineItemName3}} antal {{lineItemQuantity3}}, {{lineItemName4}} antal {{lineItemQuantity4}}, {{lineItemName5}} antal {{lineItemQuantity5}}, {{lineItemName6}} antal {{lineItemQuantity6}} och mer",
+          "view_order_details": "Visa beställningsuppgifter"
+        },
+        "show_order_actions_accessibility_label": "Visa kampanjer för beställning {{name}}",
+        "empty_state_title_for_pending_orders": "Inga beställningar under behandling",
+        "more_than_four_products_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus ytterligare {{numberOfAdditionalProducts}} produkter",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produkter",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Visa beställning för produktuppgifter",
+            "last_updated": "Senast uppdaterad {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Beräknad leverans den {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Beställningen innehåller {{lineItemName1}}, {{lineItemName2}}, plus ytterligare {{numberOfAdditionalProducts}} produkter",
+        "filter": {
+          "clear_section": "Radera avsnitt",
+          "clear_all": "Alla vet",
+          "date": {
+            "title": "Beställningsdatum",
+            "today": "Idag",
+            "last_7_days": "Senaste 7 dagarna",
+            "last_30_days": "Senaste 30 dagarna",
+            "last_90_days": "Senaste 90 dagarna",
+            "last_365_days": "Senaste 12 månaderna",
+            "custom": "Anpassad"
+          }
+        },
+        "no_order_banner": "Skapa en beställning för att testa tillägget på sidan Beställningsstatus.",
+        "location_filter_picker": {
+          "switch_view": "Byt visning"
+        },
+        "empty_state_with_location_title": "Inga beställningar för {{locationName}}",
+        "view_order": "Visa beställning",
+        "view_order_accessibility_label": "Visa beställning {{orderName}}"
+      },
+      "order_status": {
+        "canceled_title": "Din beställning har avbrutits",
+        "come_back": "Kom tillbaka till denna sida för statusuppdateringar om din försändelse.",
+        "company_tracking_number": "{{company}}-spårningsnummer:",
+        "confirmed_title": "Din beställning är bekräftad",
+        "delivered_label": "Orolig",
+        "in_review_label": "För bedömning",
+        "in_review_title": "Din beställning granskas",
+        "out_for_delivery_label": "Klar för leverans",
+        "resume_tracking": "Följ med igen",
+        "submitted_label": "Inlämnad",
+        "track_shipment": "Följ försändelsen",
+        "attempted_delivery_label": "Leveransförsök",
+        "preparing_for_shipping_label": "Leverans förbereds",
+        "ready_for_pickup_label": "Klar för avhämtning",
+        "ready_for_pickup_description": "Dessa varor är klara för avhämtning. Ta med beställningsbekräftelsen när du hämtar din beställning.",
+        "picked_up_label": "Upphämtad",
+        "submitted_description": "Kontrollera beställningen och betalningsuppgifterna."
       }
     }
   }
