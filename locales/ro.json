@@ -1264,7 +1264,65 @@
         "card_issue_number_label": "Număr de eliberare",
         "card_issue_number_placeholder": "Număr de eliberare",
         "card_change_label": "Modificare",
-        "ends_with_label": "se încheie la %{last_digits}"
+        "ends_with_label": "se încheie la %{last_digits}",
+        "saved_by_payment_method": "Salvat cu %{payment_method}",
+        "same_billing_address_label": "La fel ca adresa de livrare",
+        "different_billing_address_label": "Folosește o altă adresă de facturare",
+        "express_checkout_free_order": "Nu se percep costuri pentru o comandă gratuită",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Comanda ta va fi plătită cu bonul tău cadou.",
+          "other": "Comanda ta va fi plătită cu voucherele tale cadou."
+        },
+        "offsite_gateway_redirect_hint": "Veți fi redirecționat către %{gateway_label} pentru a finaliza achiziția.",
+        "billing_address_description": "Selectează adresa care corespunde cardului sau metodei tale de plată.",
+        "billing_address_description_no_shipping_address": "Introduceți adresa care corespunde cardului sau metodei dvs. de plată.",
+        "no_js_credit_card_fields_redirect_hint": "Veți fi redirecționat pentru a vă adăuga informațiile de plată.",
+        "card_fields_container_prefix": "În acest câmp se află:",
+        "card_fields_unavailable_html": {
+          "one": "Plata cu cardul de credit sau cardul de debit nu este disponibilă momentan.<br><a href=\"%{current_url}\">Reîncarcă această pagină</a> sau încearcă din nou mai târziu.",
+          "other": "Plata cu cardul de credit sau cardul de debit nu este disponibilă momentan.<br><a href=\"%{current_url}\">Reîncarcă această pagină</a> sau încearcă o altă metodă de plată."
+        },
+        "card_fields_processing_error": "A apărut o problemă la procesarea plății. Reîncarcă această pagină sau verifică conexiunea ta la internet.",
+        "technical_error": "Din cauza unei probleme tehnice, plățile nu pot fi procesate momentan. Vă rugăm să încercați din nou peste câteva minute.",
+        "no_method_error": "Acest magazin nu poate accepta plăți în acest moment.",
+        "not_configured_error": "Acest magazin nu poate accepta plăți în acest moment.",
+        "missing_credit_card_error": "Introduceți datele cardului pentru a finaliza plata",
+        "generic_incorrect_card_info": "Datele tale de plată nu pot fi verificate. Verifică datele cardului și încearcă din nou.",
+        "sofort_label": "Imediat",
+        "eps_label": "transfer eps (transfer eps)",
+        "klarna_slice_it_label": "Finanțe cu Klarna",
+        "card_expiration_month_label": "Lună a verzei",
+        "card_expiration_year_label": "An de valabilitate",
+        "card_information_notice": "Toate tranzacțiile sunt securizate și criptate. Datele cardului de credit nu sunt niciodată stocate.",
+        "credit_card_start_month": "Data de început lunară",
+        "credit_card_start_year": "Anul datei de început",
+        "billing_address_not_supported_for_payment_method_error": "Această metodă de plată nu este disponibilă pentru adresa ta de facturare și moneda selectată. Încearcă o altă metodă de plată.",
+        "change_currency_section_description": "Selectați o opțiune de valută",
+        "no_real_orders_dev_store": "Acest magazin nu poate accepta comenzi reale sau procesa plăți reale.",
+        "subscription_agreement_label_html": "Înțeleg că sunt de acord cu un abonament. Acesta va fi reînnoit la prețul și frecvența menționate până când expiră sau este\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulat</a>.",
+        "waiting_on_payment_methods": "Se încarcă metodele de plată disponibile...",
+        "apple_pay_payment_error": "Plata dumneavoastră nu a putut fi finalizată. Încercați din nou sau folosiți o altă metodă de plată.",
+        "subscription_card_update_agreement_label": "Prin schimbarea metodei tale de plată, abonamentul și plățile recurente vor fi actualizate pentru viitor.",
+        "card_security_vault_notice": "Avem nevoie de datele tale pentru plăți viitoare. Toate tranzacțiile sunt securizate și criptate.",
+        "taxes_not_included": "Exclusiv impozite",
+        "no_taxes_banner_content": "Taxele nu sunt aplicate acestei comenzi. Nu poți adăuga taxe după ce plata a fost deja încasată.",
+        "card_update_label": "Actualizează harta",
+        "paypal": {
+          "connect": "Apasă pentru a-ți conecta contul PayPal"
+        },
+        "subscription_agreement_label": "Unul sau mai multe articole din coș sunt o achiziție amânată sau prin abonament. Dacă continui cu plata, ești de acord că vom debita automat sumele achiziției prin metoda ta de plată la prețul și frecvența afișate pe această pagină, până când abonamentul expiră sau îl anulezi tu însuți. Pentru toate anulările se aplică %{cancelled}.",
+        "subscription_agreement_cancelled": "politica de reziliere",
+        "card_verification_confirm": "Introduceți codul de securitate al cardului pentru scopuri de verificare.",
+        "apple": {
+          "connect": "Apasă pentru a-ți conecta contul Apple Pay",
+          "not_available": "Apple Pay nu este disponibil în acest navigator. Pentru a-ți conecta contul Apple Pay, trebuie să folosești Safari pe un dispozitiv Apple."
+        },
+        "billing_address_associated_with_mandate": "Folosește adresa asociată metodei tale de plată",
+        "billing_address_associated_with_mandate_info": "Pentru a schimba adresa de facturare, șterge datele cardului de credit și introdu-le din nou",
+        "delete_customer_mandate_modal_cancel": "Anulare",
+        "credit_card_vaulting_sign_in_banner_title": "Salvează cardul tău de credit",
+        "credit_card_vaulting_sign_in_banner_info": "Autentifică-te sau creează un cont pentru a-ți salva cardul de credit pentru cumpărături viitoare.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Autentificare"
       }
     }
   }
