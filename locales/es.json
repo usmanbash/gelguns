@@ -1884,7 +1884,71 @@
         "attempted_delivery_local_description_html": "Lamentablemente no pudimos entregar tu pedido. %{contact_us} para programar otra entrega.",
         "thank_you_title_payment": "Tu pago ha sido confirmado",
         "thank_you_confirmed_order_with_email_payment": "Has realizado un pago por tu pedido %{date}.",
-        "thank_you_confirmed_order_with_phone_payment": "Has realizado un pago por tu pedido %{date}."
+        "thank_you_confirmed_order_with_phone_payment": "Has realizado un pago por tu pedido %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Has realizado un pago por tu pedido %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Has realizado un pago por tu pedido %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Has realizado un pago por tu pedido %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Has realizado un pago por tu pedido %{date}.",
+        "estimated_delivery": "Estimación actual de entrega:",
+        "company_location_title": "Ubicación",
+        "thank_you_title_review": "Tu pedido ha sido enviado para revisión",
+        "thank_you_confirmed_order_with_draft": "Te informaremos si necesitamos más información o cuando tu pedido haya sido confirmado.",
+        "breadcrumbs_submitted": "Enviado",
+        "breadcrumbs_in_review": "Para revisión",
+        "breadcrumbs_confirmed": "Confirmado",
+        "missing_shipping_address_banner": {
+          "title": "El pedido no tiene dirección de entrega",
+          "text_html": "%{contact_us} para añadir tu dirección",
+          "contact_us": "Contactar con nosotros"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Dirígete nuevamente al vendedor.",
+        "order_status_confirmed_with_installments_payment_confirm": "Pronto recibirás un correo electrónico de confirmación con tu número de pedido y los detalles de tu plan de pagos a plazos.",
+        "in_store_purchase": "Compra en la tienda",
+        "choose_payment_method_later": "Elegir método de pago más tarde",
+        "purchase_order_number_title": "Número de pedido %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "El pedido ha sido recogido en %{address}.",
+        "ready_for_delivery": "Listo para entrega",
+        "order_updates_subscribe_to_email_notifications_failed": "No podemos guardar esta dirección de correo electrónico para actualizaciones. Inténtalo de nuevo o usa otra dirección de correo electrónico.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "La dirección de correo electrónico que has introducido ya existe.",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "En unos minutos recibirás un mensaje de texto con tu vale de regalo.",
+          "other": "En unos minutos recibirás un mensaje de texto con tus vales de regalo."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "En unos minutos recibirás un mensaje de texto con tu vale de regalo.",
+          "other": "En unos minutos recibirás un mensaje de texto con tus vales de regalo."
+        },
+        "gift_card_email_title": {
+          "one": "El vale de regalo ha sido enviado por correo electrónico",
+          "other": "Los vales de regalo han sido enviados por correo electrónico"
+        },
+        "gift_card_text_title": {
+          "one": "El vale de regalo ha sido enviado por sms",
+          "other": "Los vales de regalo han sido enviados por SMS"
+        },
+        "resend_gift_cards_by_text": "Reenviar SMS",
+        "gift_card_resent_confirmation": {
+          "one": "El vale de regalo ha sido reenviado.",
+          "other": "Los vales de regalo han sido reenviados."
+        },
+        "gift_card_resend_failure": {
+          "one": "Se ha producido un problema al volver a enviar tu vale regalo. Inténtalo de nuevo o contacta con nosotros.",
+          "other": "Se ha producido un problema al volver a enviar tus vales de regalo. Inténtalo de nuevo o ponte en contacto con nosotros."
+        },
+        "thank_you_title_payments_app_pending_default": "El pago está siendo procesado",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Hemos recibido tu pedido",
+        "thank_you_title_payments_app_failed_pending_payment": "No se puede procesar su pago",
+        "thank_you_payments_app_failed_pending_payment": "Tu pedido aún no ha sido pagado. Regresa a tu carrito para revisar y pagar tu pedido.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Pronto recibirás un correo electrónico de confirmación. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Pronto recibirás un correo electrónico de confirmación. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Pronto recibirás un mensaje de texto para confirmar. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Después de completar el pago, recibirás un correo de confirmación. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Después de completar el pago, recibirás un correo de confirmación. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Después de completar el pago, recibirás un mensaje de texto de confirmación. Puedes seguir tu pedido a través de la aplicación de la tienda.",
+        "order_status_payments_app_failed_pending_payment": "Tu pedido aún no ha sido pagado. Regresa a tu carrito para revisar y pagar tu pedido.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Después de completar el pago, recibirás un correo electrónico de confirmación. Puedes seguir el pedido a través de la aplicación de la tienda.",
+        "thank_you_confirmed_order_with_missing_payment": "Póngase en contacto con nosotros por correo electrónico o teléfono para la confirmación del pedido.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Póngase en contacto con nosotros por correo electrónico o teléfono para la confirmación del pedido."
       }
     }
   }
