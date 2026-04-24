@@ -3581,7 +3581,77 @@
           "other": "{{count}} preces"
         },
         "order_link": "Pasūtījuma {{name}} apskate",
-        "order_number": "Pasūtījums {{name}}"
+        "order_number": "Pasūtījums {{name}}",
+        "orders_title": "Apstiprināts",
+        "pagination": {
+          "nav_accessibility_label": "Navigācijas pogas pasūtījumiem",
+          "next": "Nākamais",
+          "next_accessibility_label": "Nākamie pasūtījumi",
+          "previous": "Iepriekšējais",
+          "previous_accessibility_label": "Iepriekšējie pasūtījumi",
+          "load_more": "Ielādēt vairāk",
+          "load_more_accessibility_label": "Ielādēt vēl pasūtījumus"
+        },
+        "sort_by": "Kārtot pēc: {{option}}",
+        "sort_hide_options_accessibility_label": "Paslēpt kārtošanas iespējas apstiprinātajiem pasūtījumiem.",
+        "sort_show_options_accessibility_label": "Rādīt kārtošanas iespējas apstiprinātajiem pasūtījumiem.",
+        "sort_title": "Kārtot",
+        "sort": {
+          "date": {
+            "newest": "No jaunākā līdz vecākajam",
+            "oldest": "No vecākā līdz jaunākajam"
+          },
+          "location": {
+            "ascending": "Atrašanās vieta (A-Ž)",
+            "descending": "Atrašanās vieta (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Pasūtījuma numurs (no zemākā uz augstāko)",
+            "descending": "Pasūtījuma numurs (no augstāka uz zemāku)"
+          },
+          "order_total": {
+            "ascending": "Kopējais pasūtījums (no zemākā līdz augstākajam)",
+            "descending": "Kopējais pasūtījums (no lielākā uz mazāko)"
+          }
+        },
+        "one_images_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}}",
+        "two_images_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Pasūtījumā ir iekļauti {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Noņem filtrus vai pielāgo tos, lai redzētu savus pasūtījumus",
+        "no_filtered_results_title": "Nav atlasītu rezultātu",
+        "estimated_shortform": "Novērtēts {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Pārāk vēlu",
+            "due": "Parādā uz {{date}}",
+            "due_today": "Šodien jāmaksā",
+            "due_without_date": "Parādā",
+            "due_on_fulfillment": "Maksājiet pie izpildes",
+            "pay_to_confirm": "Maksāt, lai apstiprinātu",
+            "payment_not_due": "Vēl nav jāmaksā",
+            "paid": "Apmaksāts"
+          },
+          "gallery_view": {
+            "overdue": "Maksājums ir kavēts",
+            "due": "Maksājums jāveic līdz {{date}}",
+            "due_today": "Maksājums ir jāmaksā šodien",
+            "due_without_date": "Maksājums jāveic",
+            "due_on_fulfillment": "Maksājums jāveic pie izpildes",
+            "pay_to_confirm": "Maksāt, lai apstiprinātu",
+            "payment_not_due": "Maksājums vēl nav jāveic"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Pašlaik kārtots pēc: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Pasūtījumā ir iekļauts {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}, {{lineItemName6}} skaits {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Pasūtījumā ir {{lineItemName1}} skaits {{lineItemQuantity1}}, {{lineItemName2}} skaits {{lineItemQuantity2}}, {{lineItemName3}} skaits {{lineItemQuantity3}}, {{lineItemName4}} skaits {{lineItemQuantity4}}, {{lineItemName5}} skaits {{lineItemQuantity5}}, {{lineItemName6}} skaits {{lineItemQuantity6}} un vēl vairāk"
+        }
       }
     }
   }

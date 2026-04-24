@@ -1356,7 +1356,77 @@
           "connect": "Clique para ligar a sua conta PayPal"
         },
         "subscription_agreement_label": "Um ou mais artigos no carrinho são uma compra adiada ou por subscrição. Ao continuar com o pagamento, concorda que cobramos automaticamente os valores da compra através do seu método de pagamento pelo preço e frequência indicados nesta página, até que a subscrição termine ou seja cancelada por si. Para todos os cancelamentos aplica-se o %{cancelled}.",
-        "subscription_agreement_cancelled": "política de rescisão"
+        "subscription_agreement_cancelled": "política de rescisão",
+        "card_verification_confirm": "Introduza o código de segurança do seu cartão para fins de verificação.",
+        "different_credit_card_label": "Utilize um cartão de crédito diferente",
+        "apple": {
+          "connect": "Clique para ligar a sua conta Apple Pay",
+          "not_available": "O Apple Pay não está disponível neste navegador. Para ligar a sua conta Apple Pay, deve usar o Safari num dispositivo Apple."
+        },
+        "billing_address_associated_with_mandate": "Utilizar o endereço associado ao seu método de pagamento",
+        "billing_address_associated_with_mandate_info": "Para alterar o endereço de faturação, elimine os dados do seu cartão de crédito e introduza-os novamente.",
+        "credit_card_vaulting_sign_in_banner_title": "Guardar o seu cartão de crédito",
+        "credit_card_vaulting_sign_in_banner_info": "Inicie sessão ou crie uma conta para guardar o seu cartão de crédito para compras futuras.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Iniciar sessão",
+        "expiry_long": "(Expira %{month}/%{year})",
+        "expiry_short": "(Expira %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Guarde este cartão de crédito na minha conta para pagar mais rapidamente",
+        "delete_customer_mandate_modal_body": "Se remover este cartão, terá de o adicionar novamente antes de o usar para pagamentos.",
+        "google": {
+          "connect": "Clique para ligar a sua conta Google Pay"
+        },
+        "mor_disclaimer_html": "Ao clicar abaixo e concluir a sua encomenda, concorda em comprar o(s) seu(s) artigo(s) através da Global-e como comerciante registado para esta transação, de acordo com os <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termos e Condições</a> e a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de Privacidade</a> da Global-e. A Global-e é um fornecedor internacional de serviços de fulfillment para %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Ao atualizar o método de pagamento, autoriza pagamentos para cada compra recorrente ou diferida de acordo com a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">política de cancelamento</a> desta loja.",
+        "receiver_payment_experience_hint": "Após efetuar a sua encomenda, receberá os dados de pagamento. Efetue o pagamento no Multibanco ou online dentro de %{due_days} dias.",
+        "pending_payment": {
+          "due_notice": "O seu pagamento de %{amount_due} é devido em %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Efetue o seu pagamento no Multibanco ou online utilizando os dados abaixo. %{contact_us} para dúvidas ou para atualizar os dados de pagamento.",
+            "entity": "Unidade",
+            "amount": "Montante",
+            "find_nearest_atm": "Encontrar o multibanco mais próximo",
+            "buyer_action_info": "O seu pagamento de %{amount_due} está pendente."
+          }
+        },
+        "purchase_options_agreement_label": "Um ou mais artigos no seu carrinho são uma compra adiada, uma subscrição ou uma compra recorrente. Ao continuar com o seu pagamento, concorda que o seu método de pagamento será cobrado automaticamente pelo preço e frequência indicados nesta página, até que termine ou cancele. Em todas as cancelamentos aplica-se o %{cancellation_policy_label}.",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Assinatura",
+          "order_contains_fixed_selling_plans": "O total pode não incluir impostos, envio, custos adiados e alguns descontos. Prossiga para a finalização da compra para ver o valor devido hoje."
+        },
+        "purchase_options_agreement_label_html": "Compreendo que um ou mais artigos no meu carrinho são uma compra adiada, uma subscrição ou uma compra recorrente. Ao continuar, concordo com a\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">política de cancelamento</a>\ne autorizo a cobrança do meu método de pagamento pelos preços, frequência e datas indicados nesta página, até que a minha encomenda seja processada ou eu cancele, se permitido.",
+        "card_vaulted_company_location": "Mapa guardado para este local",
+        "order_covered_by_store_credit_notice": "A encomenda será paga com o teu saldo de loja.",
+        "order_covered_by_redeemables_notice": "A encomenda foi paga.",
+        "store_credit": {
+          "label": "Crédito na loja",
+          "apply_label": "Aplicar crédito da loja",
+          "add_label": "Adicionar crédito na loja",
+          "manage_label": "Gerir saldo da loja",
+          "buying_gift_card": "Com um crédito de loja não pode comprar um vale-presente",
+          "no_fixed_selling_plans": "Não podes usar crédito de loja em conjunto com opções de compra adiadas"
+        },
+        "clear": "Conhecimento",
+        "billing_must_match_shipping_notice": "O endereço de faturação do seu método de pagamento deve corresponder ao endereço de entrega.",
+        "same_billing_address_checkbox_label": "O endereço de entrega e o endereço de faturação são os mesmos",
+        "location_billing_address_label": "Endereço de faturação da localização",
+        "fact_billing_address_label": "Morada de faturação",
+        "location_shipping_address_label": "Endereço de entrega do local",
+        "no_working_method_error": "Esta loja não pode aceitar pagamentos neste momento. Atualize a página ou volte mais tarde.",
+        "brand_not_available": "Esta loja não aceita {{brand}}. Utilize outro cartão para pagar.",
+        "shipping_rate_updated": "Os métodos de envio disponíveis foram atualizados. Confirme a sua escolha antes de finalizar a compra.",
+        "billing_address_invalid_phone": "Atualize o número de telefone no endereço de faturação para {{label}} {{last_digits}} para continuar.",
+        "preview_not_available": {
+          "title": "Exemplo não disponível",
+          "content": "Não se preocupe, este pagamento rápido funciona para os seus clientes.",
+          "button": "OK"
+        },
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Introduza um CVV/CVC ou código de segurança válido"
+            }
+          }
+        }
       }
     }
   }
