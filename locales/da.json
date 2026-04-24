@@ -2131,8 +2131,92 @@
             "other": "Hent %{count} artikler ved"
           },
           "ship_items_to": {
-            "one": "Send %{count} artikel til"
+            "one": "Send %{count} artikel til",
+            "other": "Send %{count} artikler til"
           }
+        },
+        "block_title": "Kontrollér dine oplysninger",
+        "item_header": {
+          "change_value": "Værdi ændre",
+          "section": "Sektion"
+        },
+        "review_and_confirm_title": "Kontrollere og bekræfte"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Send mig en e-mail med nyheder og tilbud",
+        "unsubscribe": {
+          "title": "Du er afmeldt",
+          "description": "Du modtager ikke længere påmindelser om din indkøbskurv fra os."
+        },
+        "accept_sms_checkbox_label": "Send mig en sms med nyheder og tilbud",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Fortrolighedspolitik",
+            "description_html": "Ved at tilmelde dig via sms accepterer du at modtage automatiserede markedsføringsbeskeder, herunder påmindelser om varer i kurven, på det angivne telefonnummer. Samtykke er ikke en købsbetingelse. Svar STOP for at framelde dig. Svar HELP for hjælp. Beskedfrekvensen kan variere. Besked- og datapriser kan forekomme. Se vores %{privacy_policy_link} og vores %{terms_of_service_link}.",
+            "description_transactional_html": "Du kan modtage sms-beskeder i forbindelse med ordrebekræftelser og forsendelsesopdateringer. Svar STOP for at afmelde dig. Svar HELP for hjælp. Hyppigheden af beskeder varierer. Besked- og datagebyrer kan forekomme. Se vores %{privacy_policy_modal_link} og vores %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobiltelefonnummer"
+        },
+        "post_accept_marketing_checkbox_label": "Du er tilmeldt for at modtage e-mails med nyheder og tilbud",
+        "pending_accept_marketing_checkbox_label": "Se i din e-mail for at bekræfte din tilmelding til nyheder og tilbud",
+        "disclaimer": {
+          "privacy_policy": "Fortrolighedspolitik"
+        }
+      },
+      "shop_policies": {
+        "privacy_policy": "Fortrolighedspolitik",
+        "terms_of_service": "Almindelige betingelser",
+        "legal_notice": "Lovpligtig meddelelse",
+        "shipping_policy": "Forsendelse",
+        "terms_of_sale": "Salgsbetingelser",
+        "subscription_policy": "Annulleringen",
+        "purchase_options_policy": "Købsmulighedspolitik",
+        "purchase_options_cancellation_policy": "Annulleringen",
+        "cookie_preferences": "Småkager",
+        "policies_label": "Politik",
+        "terms_and_policies": "Vilkår og politik"
+      },
+      "notifications": {
+        "title": "Beskeden"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Beløb, der skal betales for ordre %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} tilføjet"
+          },
+          "removed": "Slettet",
+          "subtracted": "%{count} slettet",
+          "returned": "%{count} returneret",
+          "return_line_item_removed": "%{count} fjernet fra retur"
+        },
+        "additional_payment_requested": "Betaling af %{total_outstanding} er påkrævet",
+        "checkout_review_and_pay": "Din ordre %{order_name} er opdateret. Se disse ændringer og betal derefter for at bekræfte din ordre.",
+        "order_review_and_pay": "Din bestilling er opdateret. Gennemse og betal for at bekræfte din bestilling."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Dit kreditkort bliver opkrævet %{amount}",
+        "payment_total_label": "Samlede betalinger",
+        "change_currency_link": "Ændre i %{currency_name}",
+        "card_provider_fx_charges_warning": "Je kortudgiver kan muligvis opkræve gebyrer for %{currency_code} transaktioner.",
+        "currency_not_supported_by_shop": "Den valgte valuta er ikke længere tilgængelig. Alle priser er nu i %{currency_code}."
+      },
+      "tips": {
+        "description": "Vis, at du støtter teamet hos %{shop_name}",
+        "presets_description": "Vælg en drikkepengeprocent",
+        "custom_label": "Tilpasset drikkepenge",
+        "message": "Tak, vi sætter virkelig pris på det.",
+        "not_available_with_spi": "Ikke tilgængelig med Shop Pay-delbetalingsmuligheder"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Køb %{product_name} og %{count} anden vare mere"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_cn": "ID-nummer for indbygger",
+          "tax_credential_it": "Skatteidentifikationsnummer (valgfrit)"
         }
       }
     }

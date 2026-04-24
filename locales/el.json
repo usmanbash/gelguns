@@ -1386,7 +1386,153 @@
           "buying_gift_card": "Με ένα υπόλοιπο καταστήματος δεν μπορείς να αγοράσεις δωροκάρτα",
           "no_fixed_selling_plans": "Δεν μπορείτε να χρησιμοποιήσετε πιστωτικό κατάστημα σε συνδυασμό με επιλογές αναβλημένης αγοράς"
         },
-        "clear": "Γνώση"
+        "clear": "Γνώση",
+        "billing_must_match_shipping_notice": "Η διεύθυνση τιμολόγησης της μεθόδου πληρωμής σου πρέπει να συμφωνεί με τη διεύθυνση παράδοσης.",
+        "same_billing_address_checkbox_label": "Η διεύθυνση παράδοσης και η διεύθυνση τιμολόγησης είναι οι ίδιες",
+        "location_billing_address_label": "Διεύθυνση τιμολογίου τοποθεσίας",
+        "fact_billing_address_label": "Διεύθυνση τιμολογίου",
+        "location_shipping_address_label": "Διεύθυνση παράδοσης από τοποθεσία",
+        "no_working_method_error": "Αυτό το κατάστημα δεν μπορεί προς το παρόν να δεχτεί πληρωμές. Ανανέωσε τη σελίδα ή επιστρέψε αργότερα.",
+        "brand_not_available": "Αυτό το κατάστημα δεν δέχεται {{brand}}. Χρησιμοποιήστε άλλη κάρτα για να πληρώσετε.",
+        "shipping_rate_updated": "Οι διαθέσιμες μέθοδοι αποστολής έχουν ενημερωθεί. Επιβεβαίωσε την επιλογή σου πριν ολοκληρώσεις την πληρωμή.",
+        "billing_address_invalid_phone": "Ενημερώστε τον αριθμό τηλεφώνου στη διεύθυνση τιμολόγησης για {{label}} {{last_digits}} για να συνεχίσετε.",
+        "billing_address_invalid_phone_no_card": "Ενημερώστε τον αριθμό τηλεφώνου στη διεύθυνση τιμολόγησης για να συνεχίσετε.",
+        "preview_not_available": {
+          "title": "Παράδειγμα μη διαθέσιμο",
+          "content": "Μην ανησυχείτε, αυτή η γρήγορη ολοκλήρωση αγοράς λειτουργεί για τους πελάτες σας.",
+          "button": "Εντάξει"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Εισάγετε μια έγκυρη ημερομηνία έκδοσης χρημάτων",
+              "issue_number": "Εισάγετε έναν έγκυρο αριθμό έκδοσης"
+            },
+            "invalid": {
+              "verification_value": "Εισάγετε έναν έγκυρο κωδικό CVV/CVC ή κωδικό ασφαλείας"
+            }
+          }
+        },
+        "simulated_checkout": "Το παράδειγμα θα εμφανιστεί σύντομα",
+        "vaulting_agreement_label": "Αποθήκευσε τα στοιχεία πληρωμής μου στο %{company} για ταχύτερο ταμείο.",
+        "business_customer_vaulting_payment_label": "Αποθηκεύστε αυτήν την μέθοδο πληρωμής κατά την ολοκλήρωση της αγοράς και εξουσιοδοτήστε την %{company} να χρεώνει χρήματα μέσω αυτής της κάρτας για μελλοντικές αγορές σε αυτήν την τοποθεσία. Όλα τα άτομα επικοινωνίας που έχουν ανατεθεί σε αυτήν την τοποθεσία επιτρέπεται να χρησιμοποιούν αυτήν τη μέθοδο πληρωμής.",
+        "purchase_options_and_vaulting_agreement_label": "Ένα ή περισσότερα είδη στο καλάθι είναι μια αναβληθείσα ή συνδρομητική αγορά. Αν συνεχίσετε με την πληρωμή, συμφωνείτε ότι θα χρεώνουμε αυτόματα τα ποσά αγοράς μέσω της μεθόδου πληρωμής σας στην τιμή και τη συχνότητα που αναγράφονται σε αυτή τη σελίδα, μέχρι να λήξει ή να την ακυρώσετε εσείς. Για όλες τις ακυρώσεις ισχύει το %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "πολιτική ακύρωσης",
+        "use_different_credit_card_label": "Χρήση άλλης κάρτας",
+        "saved_credit_card": "Η αποθηκευμένη πιστωτική σας κάρτα",
+        "saved_credit_cards_modal": {
+          "done": "Έτοιμο"
+        },
+        "expired_cards_info": {
+          "one": "Υπάρχει %{count} ληγμένη κάρτα. Μπορείτε να τη δείτε και να την επεξεργαστείτε στον λογαριασμό σας.",
+          "other": "Υπάρχουν %{count} ληγμένες κάρτες. Μπορείτε να τις δείτε και να τις επεξεργαστείτε στον λογαριασμό σας."
+        },
+        "local_payment_method_receiver_notice": "Μετά την υποβολή της παραγγελίας σου, θα λάβεις τα στοιχεία πληρωμής. Πραγματοποίησε την πληρωμή εντός {{dueDays}} ημερών σε ΑΤΜ ή διαδικτυακά.",
+        "order_edit_banner_title": "Απαιτείται η πληρωμή του {{amount_owed}}",
+        "order_edit_banner_subtitle": "Η παραγγελία σας {{order_number}} έχει ενημερωθεί. Ελέγξτε αυτές τις αλλαγές και πληρώστε για να επιβεβαιώσετε την παραγγελία σας.",
+        "order_edit_banner_multiple_items_added": "{{amount}} προστέθηκε",
+        "order_edit_banner_single_item_removed": "Διαγραμμένο",
+        "order_edit_banner_multiple_items_removed": "{{amount}} αφαιρέθηκε",
+        "gift_card_wrapper": {
+          "apply_another_gift_card_label": "Εφαρμογή άλλου δωροεπιταγής",
+          "manage_label": "Διαχείριση δωροεπιταγών"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Επιβεβαίωση για προσαρμοσμένες πληρωμές επί τόπου"
+        },
+        "markets_pro_disclaimer_label": "Με την υποβολή της παραγγελίας σου, συμφωνείς με την αγορά από την Global-e ως τον καταχωρημένο έμπορο, υπό τους %{markets_pro_terms} και %{privacy_policy} της Global-e, και μοιράζεσαι τα δεδομένα σου με το %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "γενικοί όροι και προϋποθέσεις",
+        "markets_pro_disclaimer_privacy_policy": "πολιτική απορρήτου",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Γενικοί όροι για τους εμπόρους καταγραφής",
+        "markets_pro_disclaimer_privacy_policy_title": "Πολιτική απορρήτου για εμπόρους καταγραφής",
+        "purchase_order_number": {
+          "title": "Αριθμός παραγγελίας",
+          "label": "Αριθμός παραγγελίας (προαιρετικό)"
+        },
+        "alternative_payment_currency_total_notice": "Σημείωση: Θα αφαιρεθούν %{amount_due}.",
+        "waiting_on_taxes_message": "Ανανέωσε τη σελίδα αν οι φόροι δεν υπολογιστούν μέσα σε λίγα δευτερόλεπτα.",
+        "waiting_on_taxes_notice": "Υπολογισμός φόρων",
+        "order_edit_banner_multiple_items_returned": "{{amount}} επιστράφηκαν",
+        "shop_pay_installments_label": "Αγόρασε με πληρωμές σε δόσεις",
+        "delete_credit_card_modal": {
+          "title": "Αφαίρεση κάρτας",
+          "confirmation": "Είσαι σίγουρος ότι θέλεις να διαγράψεις το {{brandName}} που τελειώνει σε {{lastDigits}};",
+          "delete": "Αφαίρεση"
+        },
+        "order_edit_banner_items_added": {
+          "other": "%{count} προστέθηκαν"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Διαγραμμένο",
+          "with_quantities": "{{delta}} πριν από {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} επιστράφηκαν",
+          "with_quantities": "{{delta}} από {{quantity}} επιστράφηκαν"
+        },
+        "saved_credit_card_actions": {
+          "delete": "Αφαίρεση"
+        },
+        "edit_credit_card_modal": {
+          "done": "Έτοιμο",
+          "description": "Μπορείς να αλλάξεις μόνο τη διεύθυνση τιμολόγησης της κάρτας σου.",
+          "fields": {
+            "default": "Ορισμός ως προεπιλογή",
+            "billing": "Τιμολόγηση σε"
+          }
+        },
+        "payment_method": "Τρόπος πληρωμής",
+        "subscription_heading": "Σύμβαση Συνδρομής",
+        "use_order_billing_address_label": "Χρήση της διεύθυνσης τιμολόγησης της παραγγελίας",
+        "use_location_billing_address_label": "Χρήση της διεύθυνσης τιμολόγησης της τοποθεσίας",
+        "use_location_shipping_address_label": "Χρήση διεύθυνσης παράδοσης από την τοποθεσία",
+        "purchase_options_agreement_label_wallets": "Εάν συνεχίσετε με την πληρωμή, συμφωνείτε με τις μελλοντικές πληρωμές που αναφέρονται σε αυτή τη σελίδα και με την πολιτική ακύρωσης.",
+        "gift_card_store_credit": {
+          "add_label": "Προσθήκη δωροκάρτας ή πιστωτικού υπολοίπου καταστήματος",
+          "manage_label": "Διαχείριση δωροεπιταγών ή πιστωτικού υπολοίπου καταστήματος"
+        },
+        "saved_credit_card_cvv_verification": "Εισάγετε τον κωδικό ασφαλείας της κάρτας σας για σκοπούς επαλήθευσης.",
+        "cashapppay_label": "Πληρωμή Cash App",
+        "card_nickname_label": "Παρατσούκλι (προαιρετικό)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Αφαιρέθηκε από την επιστροφή",
+          "with_quantities": "{{delta}} αφαιρέθηκε από την επιστροφή"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Αφαιρέθηκε από την επιστροφή",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} αφαιρέθηκε από την επιστροφή",
+        "proposed_gateway_unavailable": "Η προτεινόμενη πύλη πληρωμής δεν είναι διαθέσιμη",
+        "pay_in_installments_split_pay_short": "Τέσσερις πληρωμές των %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "Μέθοδος πληρωμής μη διαθέσιμη για τη διεύθυνση παράδοσης που επιλέξατε. Επιλέξτε άλλη μέθοδο πληρωμής.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Το Wero δεν είναι διαθέσιμο για αυτήν την παραγγελία. Επιλέξτε άλλη μέθοδο πληρωμής.",
+        "payment_method_update_failed": "Η ενημέρωση της μεθόδου πληρωμής απέτυχε.",
+        "alternative_payment_currency_total_manual_payment_notice": "Σημείωση: Το μετατρεπόμενο σύνολο είναι %{amount_due}.",
+        "gift_cards_unavailable": "Η δωροκάρτα σου δεν μπορεί πλέον να χρησιμοποιηθεί για αυτή την παραγγελία και γι' αυτό έχει αφαιρεθεί",
+        "network_card_payment_options": "Επιλογή εταιρείας πιστωτικών καρτών",
+        "payment_flexibility_terms_id_mismatch": "Οι όροι για την ευελιξία πληρωμών δεν συμφωνούν",
+        "offsite_gateway_review_page_redirect_hint": "Αφού ελέγξετε την παραγγελία, θα ανακατευθυνθείτε στο %{gateway_label} για να ολοκληρώσετε την αγορά σας.",
+        "gift_card_checkbox_label": "Εφαρμογή δωροεπιταγής",
+        "blik_label": "Μπλικ",
+        "kcp_creditcard_label": "KCP-πιστωτική κάρτα",
+        "simulated_express_checkout": "Τα ψηφιακά πορτοφόλια δεν είναι διαθέσιμα στο δείγμα του επεξεργαστή λόγω της περιοχής ή του προγράμματος περιήγησής σας",
+        "offsite_gateway_redirect_hint_no_button_label": "Θα ανακατευθυνθείς στο %{gateway_label} για να ολοκληρώσεις την αγορά σου.",
+        "swish_label": "Σουίς",
+        "network_card_persistence_description": "Το επιλεγμένο δίκτυο αποθηκεύεται με τη μέθοδο πληρωμής σου για μελλοντικές συναλλαγές.",
+        "payment_option": {
+          "accessibility_label": "Επιλέξτε μια μέθοδο πληρωμής"
+        },
+        "billing_address_rollup_accessibility_label": "Επιλογές για τη διεύθυνση τιμολογίου",
+        "payment_method_rollup_accessibility_label": "Επιλογές μεθόδου πληρωμής",
+        "crypto_modal": {
+          "header": "Πληρώστε %{shop_name} %{total_price} USDC",
+          "error": {
+            "sandbox_error": "Κάτι πήγε στραβά",
+            "web_component_error": "Παρουσιάστηκε πρόβλημα κατά τη φόρτωση αυτής της σελίδας"
+          }
+        },
+        "bank_account_type": {
+          "checking": "λογαριασμός πληρωμών",
+          "savings": "Λογαριασμός αποταμίευσης"
+        }
       }
     }
   }
