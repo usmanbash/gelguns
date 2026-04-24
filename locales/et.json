@@ -3960,8 +3960,74 @@
         "removed_with_quantity": "{{quantity}} eemaldatud",
         "updated_at": "Sinu tellimus uuendati {{date}}",
         "returned": "Tagastatud",
-        "returned_with_quantities": "{{delta}} tagasi {{total}} tagastatud"
-      }
+        "returned_with_quantities": "{{delta}} tagasi {{total}} tagastatud",
+        "removed_with_quantities": "{{delta}} eemaldatud {{total}}-st",
+        "return_line_item_removed": "Eemaldatud tagastusest",
+        "return_line_item_removed_with_quantities": "{{delta}} eemaldatud tagastusest"
+      },
+      "pickup": {
+        "pickup": "Jäta järele",
+        "pickup_location": "Tagastuskoht",
+        "pickup_point": "Väljavõtupunkt"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Makstud Shop Pay järelmaksuga",
+        "description": "Jää kursis oma maksegraafikuga tänu meeldetuletustele Shopi rakenduses.",
+        "payment_reminders_button": "Maksemeeldetuletuste saamine",
+        "desktop_qr_code_content": {
+          "title": "Skaneeri mälestusi",
+          "description": "Mäluanded maksetähtaegade kohta Shopis."
+        },
+        "title": "Maksemeeldetuletused Shop Pay osamaksetele"
+      },
+      "order_details": "Tellimuse andmed",
+      "contact_information": "Kontaktandmed",
+      "login_to_view_all_order_details": "Logi sisse, et näha kõiki tellimuse andmeid.",
+      "log_in": "Logi sisse",
+      "paid_amount": "Makstud",
+      "remaining_amount": "Järelejäänud",
+      "order_details_skeleton_accessibility_label": "Logi sisse, et näha kõiki tellimuse andmeid.",
+      "tip": "Tippi",
+      "logged_in_account_no_permission_to_order": "Oled sisse logitud kui {{email}}. Sellel kontol ei ole õigust seda tellimust hallata.",
+      "log_in_to_a_different_account": "Logi sisse teise kontoga",
+      "duties": "Tollimaksud",
+      "ok_duties_tooltip": "See tellimus saadetakse teisest riigist, seega on tellimuse kogusummale lisatud tollimaksud.",
+      "error_duties_tooltip": "See tellimus saadetakse teise riigist, seega võivad kohaletoimetamisel lisanduda tollimaksud ja maksud.",
+      "zero_duties_tooltip": "See tellimus saadetakse teise riigist. Selle väärtusega tellimustele ei lisandu tollimakse.",
+      "group_title_label": "Osa: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Taimede varustuskulud",
+        "return_shipping_fee": "Tagastamine"
+      },
+      "vat_invoices": {
+        "title": "Btw-arved"
+      },
+      "taxes_included": "Kaasa arvatud {{amount}} käibemaks",
+      "duties_and_taxes_included": "Kokkuhind sisaldab tollimakse ja makse. Tarne ajal lisamakseid ei ole.",
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} artiklit kuvada",
+        "collapse_line_items": "{{count}} artiklit peita",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}}, kogus: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Artiklid komplektis {{productTitle}}"
+      },
+      "cash_rounding": "Sularaha lõpetamine",
+      "adjusted_payment": "Kohandatud makse",
+      "adjusted_total": "Kohandatud kogusumma",
+      "login_card": {
+        "log_in": "Logi sisse",
+        "link_expired": "Link on aegunud",
+        "resend_link_and_login": "Sa saad oma tellimuse andmeid vaadata, logides sisse või saates uue lingi e-posti aadressile või telefoninumbrile, mida kassas kasutati.",
+        "resend_link_only": "Sa saad oma tellimuse andmeid vaadata, saates uue lingi e-posti aadressile või telefoninumbrile, mida kasutasid kassas.",
+        "resend_link": "Saada uus link",
+        "title": "Tellimuse andmete vaatamine"
+      },
+      "link_sent": "Link saadetud",
+      "view_controls": {
+        "gallery": "Galerii",
+        "list": "Nimekiri"
+      },
+      "company_and_location": "Ettevõte ja asukoht"
     }
   }
 }
