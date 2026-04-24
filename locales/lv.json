@@ -2273,7 +2273,93 @@
         "time_to_checkout_title": "Laiks norēķināties - {{shopName}}",
         "estimated_wait_time": {
           "calculating": "Aprēķināt aptuveno gaidīšanas laiku",
-          "less_than_one": "Aptuvenais gaidīšanas laiks: mazāk nekā minūte"
+          "less_than_one": "Aptuvenais gaidīšanas laiks: mazāk nekā minūte",
+          "one": "Aptuvenais gaidīšanas laiks: {{count}} minūtes",
+          "other": "Aptuvenais gaidīšanas laiks: {{count}} minūtes"
+        },
+        "last_checked": "(Pēdējā pārbaude: {{time}})",
+        "footer": {
+          "heading": "Tev nav jāatsvaidzina šī lapa, tā tiek automātiski atjaunināta.",
+          "body": "Preces tavā iepirkumu grozā tiks rezervētas tikai pēc tam, kad būsi pabeidzis norēķināšanos."
+        },
+        "too_many_attempts": {
+          "message": "Pārāk daudz mēģinājumu",
+          "description": "Mēģiniet vēlreiz pēc dažām minūtēm"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Radās problēma, apstrādājot jūsu pieteikumu. Lūdzu, sazinieties ar veikala īpašnieku."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Nav pieejama piegāde %{count} precei",
+            "other": "Nav pieejama piegāde %{count} preču vienībām"
+          },
+          "message": {
+            "one": "Šis raksts tiks izņemts no tava iepirkumu groza, jo pie tava adreses nav pieejamas piegādes metodes.",
+            "other": "Šis raksts tiks izņemts no tava iepirkumu groza, jo pie tava adreses nav pieejamas piegādes metodes."
+          },
+          "label": "Nav piegādes"
+        }
+      },
+      "no_address_location": {
+        "title": "Vieta bez adreses",
+        "header": "Šai vietai nav piegādes adreses",
+        "message": "Sazinies ar mums, lai pievienotu šīs vietas adresi, lai tu varētu pabeigt norēķināšanos.",
+        "email_us_button_label": "Nosūtiet mums e-pastu",
+        "alt_header": "Piegādes adrese nav norādīta"
+      },
+      "order_errors": {
+        "creation_failure": "Radās problēma, veidojot jūsu pasūtījumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mums, lai iegūtu vairāk informācijas.",
+        "network_failure": "Tava pasūtījuma iesniegšana neizdevās tīkla kļūdas dēļ. Pārbaudi savu savienojumu un mēģini vēlreiz.",
+        "inventory_reservation_failure": "Dažas preces vairs nav pieejamas."
+      },
+      "session_errors": {
+        "session_not_unique": "Radās problēma, apstrādājot jūsu pasūtījumu. Atjaunojiet šo lapu, lai atgrieztos veikalā.",
+        "session_already_finished": "Šis pasūtījums jau ir iesniegts. Tu vari atgriezties veikalā, lai sāktu jaunu pasūtījumu."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Aizvērts",
+        "business_hours": "Darba laiks",
+        "title": "Izņemšanas punkts",
+        "or": "no",
+        "search_button": "Meklēt",
+        "selector_tabs": "Izņemšanas punkta izvēlētājs",
+        "selector_tab_map": "Karšu karte",
+        "selector_tab_list": "Saraksts",
+        "could_not_resolve_address": "Nevar atrast jūsu adresi. Mēģiniet vēlreiz vai izmantojiet citu adresi",
+        "no_pickup_points_near_you": "Netika atrasta neviena izņemšanas vieta izvēlētās adreses tuvumā",
+        "no_pickup_points_near_location": "Netika atrasti izsniegšanas punkti tuvumā tavai atrašanās vietai",
+        "no_pickup_points_found": "Nav atrasta neviena izņemšanas vieta",
+        "paginator": {
+          "next_accessibility_label": "Nākamā lapa",
+          "previous_accessibility_label": "Iepriekšējā lapa",
+          "header": {
+            "one": "Dod atpakaļ %{first} - %{last} no %{count} punktiem",
+            "other": "Parāda %{first} - %{last} no %{count} punktiem"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} no %{count} punktiem",
+            "other": "%{pickup_point_index} no %{count} punktiem"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} no %{count} punktiem",
+            "other": "%{first} - %{last} no %{count} punktiem"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} saņemšanas punkts tuvumā tavai atrašanās vietai",
+          "other": "%{count} izņemšanas punkti tuvumā tavai atrašanās vietai"
+        },
+        "change": "Mainīt atrašanās vietu",
+        "waiting_on_pickup_point_location_notice": "Meklēt izsniegšanas punktus...",
+        "geolocation": {
+          "shared_location_button": "Izmantot manu atrašanās vietu",
+          "errors": {
+            "unsuported_by_browser": "Tavas pārlūkprogrammas atbalsts ģeovietas noteikšanai nav pieejams. Mēģini vēlreiz vai izmanto citu pārlūkprogrammu.",
+            "permission_not_allowed": "Atļauj kopīgot savu atrašanās vietu."
+          }
         }
       }
     }
