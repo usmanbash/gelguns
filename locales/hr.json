@@ -4043,6 +4043,72 @@
       "resend_link": {
         "too_many_requests": "Previše zahtjeva. Pokušajte ponovo kasnije.",
         "generic": "Zahtjev nije uspio"
+      },
+      "profile_name_update_error": {
+        "description": "Došlo je do problema prilikom ažuriranja vašeg imena. Osvježite ovu stranicu ili provjerite svoju internetsku vezu."
+      },
+      "load_address_form_error": {
+        "title": "Ne mogu učitati obrazac za adresu",
+        "description": "Nije moguće učitati obrazac za kontakt."
+      },
+      "not_upgraded": "Korisnički računi nisu nadograđeni.",
+      "failed_to_revert": "Poništavanje postavki korisničkog računa nije uspjelo.",
+      "revert_window_expired": "Razdoblje za povrat je isteklo."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Podaci o načinu plaćanja",
+        "preauthorized_payments": "Unaprijed odobrene uplate",
+        "close_payment_modal_accessibility_label": "Modalni podaci način plaćanja zatvori",
+        "payment_method_not_found_error": "Ne mogu pronaći ovu metodu plaćanja",
+        "payment_details_loading": "Učitavanje podataka o načinu plaćanja",
+        "pre_authorized_payments": "Unaprijed odobrene uplate",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artikala ukupno; prikazuje se {{totalItemsToDisplay}} artikala.",
+        "next_payment_due": "Sljedeća uplata dospijeva {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Uredi način plaćanja koji završava na {{lastDigits}}",
+        "credit_card_details_accessibility_label": "završava na {{lastDigits}}",
+        "billing_title": "Adresa za račun",
+        "card_info_title": "Podaci o karti",
+        "loading_shop_pay": "Plati putem Shop Pay-a",
+        "invalid_payment_method_message": "Koristite novu kreditnu karticu kako biste nastavili primati nadolazeće narudžbe.",
+        "replace_payment_method": "Zamijenite način plaćanja",
+        "checkout_card_banner": "Ovu metodu plaćanja možete koristiti samo za unaprijed autorizirane uplate. Ne prikazuje se pri naplati ako ste prijavljeni u ovu trgovinu.",
+        "default_checkbox_accessibility_label": "Postavi ovu metodu plaćanja kao zadanu",
+        "replace_payment_method_button": "Zamijeniti"
+      },
+      "delete_payment_method_button": "Ukloni",
+      "delete_payment_method_button_accessibility_label": "Ukloni {{paymentMethodName}}",
+      "generic_card": "Karta",
+      "payment_delete": {
+        "title": "Ukloni način plaćanja",
+        "description_without_replacement": "Ovaj način plaćanja više nije dostupan za buduće kupnje.",
+        "description_with_replacement": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate. Također je možete zamijeniti drugom metodom plaćanja kako biste nastavili primati nadolazeće narudžbe.",
+        "payment_method_selector_placeholder": "Odaberite zamjenski način plaćanja (opcionalno)",
+        "replace_method_with_new_method_description": "Je {{currentPaymentMethodName}} bit će uklonjen i zamijenjen tvojim {{newPaymentMethodName}}.",
+        "error_when_deleting": "Ispričavamo se, došlo je do pogreške i ne možemo ukloniti ovu metodu plaćanja. Pokušajte ponovno kasnije ili osvježite stranicu.",
+        "delete_and_replace_button": "Ukloni i zamijeni",
+        "delete_and_replace_button_accessibility_label": "Uklonite {{currentPaymentMethodName}} i zamijenite ga s {{newPaymentMethodName}}.",
+        "deleted_successfully": "Način plaćanja je uklonjen.",
+        "payment_method_selector_no_alternative_payment": "Nema zamjenske metode",
+        "loading_available_payment_methods_accessibility_label": "Učitavanje dostupnih načina plaćanja",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate. Nepodmireni iznosi za postojeće narudžbe i dalje će se naplaćivati putem ove metode plaćanja, osim ako ne odaberete drugu metodu plaćanja. Odaberite drugu metodu plaćanja kako biste neprekidno primali nadolazeće narudžbe pretplate.",
+          "with_pending_orders": "Uklanjanje načina plaćanja znači da će on biti izbrisan iz vašeg računa i više neće biti dostupan za buduće kupnje. Neplaćeni iznosi za postojeće narudžbe i dalje će se naplaćivati putem ovog načina plaćanja, osim ako ne odaberete drugi način plaćanja.",
+          "with_subscriptions": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate. Zamijenite je drugom metodom plaćanja kako biste nastavili primati nadolazeće narudžbe."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate. Nepodmireni iznosi za postojeće narudžbe i dalje će se naplaćivati putem ove metode plaćanja, ali nećete primati nadolazeće narudžbe pretplate. Dodajte drugu metodu plaćanja kako biste nastavili primati narudžbe pretplate.",
+          "with_pending_orders": "Uklanjanje načina plaćanja znači da će on biti uklonjen s vašeg računa i više neće biti dostupan za buduće kupnje. Nepodmireni iznosi za postojeće narudžbe i dalje će se naplaćivati putem ovog načina plaćanja.",
+          "with_subscriptions": "Ako uklonite ovu metodu plaćanja, to će utjecati na unaprijed autorizirane uplate. Dodajte drugu metodu plaćanja kako biste nastavili primati nadolazeće narudžbe."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Promijeni način plaćanja",
+        "cancel_edit_payment_method_button": "Otkaži",
+        "payment_method_updated_toast": "Način plaćanja ažuriran",
+        "billing_address": "Adresa za račun",
+        "billing_address_choose_from_list": "Odaberite s popisa",
+        "future_purchases_notice": "Ovaj način plaćanja bit će spremljen za buduće kupnje."
       }
     }
   }
