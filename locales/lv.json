@@ -3922,7 +3922,75 @@
       "unit_price": "{{price}}/st",
       "location": "Atrašanās vieta",
       "not_applicable": "nav piemērojams",
-      "fully_refunded_label": "ATMAKSĀTS"
+      "fully_refunded_label": "ATMAKSĀTS",
+      "partially_refunded_label": "DAĻĒJI ATMKSĀTS",
+      "refunded_amount": "Atmaksāts",
+      "discount": "Atlaide",
+      "compare_at_sale": "Izpārdošana ({{saleAmount}})",
+      "no_data": "Nav",
+      "pagination": {
+        "load_more": "Ielādēt vairāk",
+        "load_more_accessibility_label": "Ielādēt vēl rakstus",
+        "loading_accessibility_label": "Ielādē rakstus"
+      },
+      "returns": {
+        "expand_events_label": "Rādīt datus",
+        "hide_events_label": "Slēpt datus",
+        "print_shipping_label": "Drukāt sūtījuma etiķeti",
+        "tracking_number": "Izsekošanas numurs:",
+        "return_and_refund_modal_header": "Atmaksas politika",
+        "ineligible_return_message": "Šajā pasūtījumā nav preču, kuras varētu atgriezt.",
+        "ineligible_return_message_when_returned": "Šajā pasūtījumā vairs nav preču, kuras varētu atgriezt.",
+        "exchange_header": "Apmaiņas preces",
+        "exchange_subheader": "Apmaiņas preces tiks pievienotas pasūtījumam, tiklīdz atgriešana būs pabeigta."
+      },
+      "request_return_failed": "Radās problēma, apstrādājot tavu pieteikumu. Lūdzu, mēģini vēlreiz.",
+      "mobile_summary_toggle_button": {
+        "open": "Pasūtījumu pārskata rādīšana",
+        "closed": "Pasūtījuma pārskata slēpšana"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Rādīt datus",
+        "expand_events_accessibility_label": "Pasūtījuma piegādes dati parādīt",
+        "hide_events_label": "Slēpt datus",
+        "hide_events_accessibility_label": "Pasūtījuma piegādes dati slēpt"
+      },
+      "show_order_summary": "Pasūtījumu pārskata rādīšana",
+      "hide_order_summary": "Pasūtījuma pārskata slēpšana",
+      "company": "Uzņēmums",
+      "no_data_provided_accessibility_label": "{{fieldName}} ir tukšs",
+      "marketing_section_title": "Ziņas un piedāvājumi",
+      "marketing_description": "Tu saņemsi mārketinga vēstules. Tu vari jebkurā brīdī atteikties no tām.",
+      "marketing_checkbox_label": "Sūti man e-pastus ar jaunumiem un piedāvājumiem",
+      "marketing_checkmark_label": "Jūs esat reģistrējies, lai saņemtu ziņu un piedāvājumu e-pastus",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} daudzums {{quantity}}",
+        "next": "Rādīt nākamos rakstus",
+        "previous": "Rādīt iepriekšējos rakstus",
+        "load_more_items": {
+          "one": "Ielādēt {{count}} vienumus",
+          "other": "Ielādēt {{count}} vienumus"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Lejupielādēt veikalu, lai sekotu paketēšanai",
+        "track_order_with_shop": "Pasūtījuma izsekošana ar Shop",
+        "title_header": "Skenēt ar savu tālruni",
+        "real_time_delivery_updates": "Kad pasūtījums ir nosūtīts, tu saņemsi reāllaika piegādes atjauninājumus no Shop."
+      },
+      "shop_pay": {
+        "order_completed_with": "Pasūtījums pabeigts ar",
+        "learn_more": "Vairāk informācijas"
+      },
+      "edit_summary": {
+        "added": "Pievienots",
+        "added_with_quantity": "{{quantity}} pievienots",
+        "removed": "Dzēsts",
+        "removed_with_quantity": "{{quantity}} izdzēsts",
+        "updated_at": "Jūsu pasūtījums ir atjaunināts {{date}}",
+        "returned": "Atgriezts",
+        "returned_with_quantities": "{{delta}} no {{total}} atgriezts"
+      }
     }
   }
 }
