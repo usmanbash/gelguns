@@ -3633,6 +3633,82 @@
           "title": "Under behandling",
           "pagination": {
             "nav_accessibility_label": "Navigeringsknappar för beställningar under granskning"
+          },
+          "show_all_orders_in_review": "Visa alla beställningar under granskning",
+          "show_less_orders_in_review": "Visa färre beställningar under granskning",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Du har inga beställningar under behandling",
+            "pending_orders": {
+              "one": "Du har {{count}} beställning under behandling",
+              "other": "Du har {{count}} beställningar under behandling"
+            },
+            "more_than_pagination_length": "Du har mer än {{count}} beställningar under behandling"
+          },
+          "pending_orders_count_more_than_pagination_length": "mer än {{count}}"
+        },
+        "order_list_column_headers_contact": "Kontakt",
+        "removed_company_contact_tooltip": "Borttagen från företaget"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bekräftad den {{date}} för beställning {{draftOrderName}}",
+        "loading": "Laddar beställningsuppgifter",
+        "loading_finished_accessibility_message": "Beställningsuppgifter har laddats",
+        "payment_status": {
+          "draft": {
+            "description": "Betalningsuppgifter fastställs när beställningen har bekräftats.",
+            "title": "Betalning är ännu inte skyldig",
+            "in_review": {
+              "description": "Betalningsuppgifter fastställs när beställningen har bekräftats.",
+              "title": "Betalning är ännu inte skyldig"
+            },
+            "submitted": {
+              "description": "Betala för att bekräfta denna beställning.",
+              "deposit": {
+                "title": "Betalning är skyldig",
+                "due_later": "För saldot gäller {{translatedName}}-villkor och det ska betalas den {{dueDate}}.",
+                "due_on_fulfillment": "Salidot ska betalas när alla varor i denna beställning har hanterats.",
+                "due_on_receipt": "Du får en faktura för det återstående saldot.",
+                "due_on_date": "Det utestående saldot ska betalas den {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} ska betalas när beställningen har bekräftats. För saldot gäller villkoren för {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} ska betalas när beställningen har bekräftats. Saldo ska betalas när din beställning har hanterats.",
+              "due_on_receipt": "{{depositAmount}} ska betalas när beställningen har bekräftats. Saldo betalas senare.",
+              "due_on_date": "{{depositAmount}} ska betalas när beställningen har bekräftats. Saldo ska betalas den {{dueDate}}."
+            }
+          },
+          "paid": {
+            "description": "Din beställning är helt betald.",
+            "title_with_date": "Betald den {{date}}"
+          },
+          "pay_now": "Betala nu",
+          "pending": {
+            "title": "Betalning skyldig",
+            "description_partially_paid": "Denna beställning är delvis betald. Du har ett återstående saldo.",
+            "description_authorized": "Beloppet debiteras på det datum det förfaller via din valda betalningsmetod. Du kan också betala redan nu.",
+            "title_due_on_receipt": "Betalning är ännu inte skyldig",
+            "description_due_on_receipt": "Du får en faktura när betalningen ska göras.",
+            "title_due_on_fulfillment": "Betalningen ska göras vid fullgörandet av beställningen.",
+            "description_due_on_fulfillment": "Betalningen ska göras när alla varor i denna beställning har hanterats.",
+            "description_waiting_for_manual_payment": "En betalning för denna beställning behandlas. Saldo uppdateras när betalningen mottagits.",
+            "description_due_on_receipt_partially_paid": "Denna beställning är delvis betald. Du har ett återstående saldo. Du får en faktura när betalningen ska göras.",
+            "description_due_on_fulfillment_partially_paid": "Denna beställning är delvis betald. Du har ett återstående saldo. Betalningen ska göras när alla varor i denna beställning har hanterats.",
+            "description_due_on_fulfillment_partially_paid_next": "Denna beställning är delvis betald. Du har ett återstående saldo.",
+            "banner_due_today_for_single_fulfillment": "Betalning av {{amount}} ska göras idag. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Betalning förfaller idag för {{count}} leveranser",
+            "banner_overdue_for_multiple_fulfillments": "Betalning skyldig för {{count}} fullföljanden",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Betalning av {{amount}} är {{count}} dag försenad. {{link}}",
+              "other": "Betalning av {{amount}} är {{count}} dagar försenad. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Återbetald",
+            "title_with_date": "Återbetald den {{date}}",
+            "description_full_refund": "Du har fått en full återbetalning för denna beställning.",
+            "description_single_refund": "Du har fått en delvis återbetalning för denna beställning.",
+            "description_multiple_refunds": "Du har fått delvisa återbetalningar för denna beställning."
           }
         }
       }
