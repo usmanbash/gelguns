@@ -3009,8 +3009,86 @@
         },
         "owner_ctas": {
           "fix_domain": "Accesează %{domain_settings_link} și finalizează configurarea noului tău adresă web. Apasă pe „Conectează domeniul” și tastează: %{domain}.<br>Dacă nu poți accesa magazinul tău, încearcă %{forgot_your_store_link}",
-          "fix_domain_link_text": "setările domeniului tău"
+          "fix_domain_link_text": "setările domeniului tău",
+          "forgot_your_store_link_text": "Ți-ai uitat magazinul?",
+          "add_storefront": "Poți configura site-ul tău adăugând canalul magazinului online în %{admin_link}. Dacă nu poți accesa magazinul tău, încearcă %{forgot_your_store_link}",
+          "admin_link_text": "centru de administrare"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vânzare personală",
+            "caption": "Obține funcțiile de care ai nevoie pentru a-ți conduce magazinul cu amănuntul, fie că abia începi sau că te extinzi.",
+            "link_text": "Începe versiunea de încercare gratuită"
+          },
+          "open_a_store": {
+            "header": "Deschiderea unui nou magazin Shopify",
+            "caption": "Începe o probă gratuită de trei zile și continuă apoi timp de trei luni pentru 1 USD pe lună."
+          },
+          "editions": {
+            "header": "Vizualizați edițiile Shopify",
+            "caption": "Există peste 100 de actualizări ale produselor care te pot face mai harnic, mai creativ și mai eficient în lumea comerțului decât ai crezut vreodată posibil.",
+            "link_text": "Explorați cele mai noi ediții"
+          },
+          "store_owner": {
+            "caption": "Nu poți accesa magazinul tău? Încearcă funcția %{forgot_your_store_link}. Dacă dorești să reactivezi magazinul, contactează %{shopify_support_link}.",
+            "shopify_support_link_text": "Asistență Shopify"
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Eroare la resetarea parolei",
+        "no_account_found": "Nu a fost găsit niciun cont cu acea adresă de e-mail.",
+        "denylisted_reset_password": "Contul tău nu poate fi deschis deoarece parola actuală nu este sigură. Vei primi un e-mail pentru a-ți reseta parola.",
+        "signup_disabled": "Crearea conturilor de clienți este dezactivată.",
+        "subscribe_error": "Eroare la abonare",
+        "unsubscribe_error": "Eroare la delogare"
+      },
+      "address": {
+        "updated": "Adresă actualizată.",
+        "created": "Adresă creată",
+        "deleted": "Adresă ștearsă"
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Verificat",
+          "pending": "În curs de procesare",
+          "paid": "Plătit",
+          "unpaid": "Neremunerat",
+          "voided": "Expirat",
+          "partially_paid": "Parțial plătit",
+          "partially_refunded": "Parțial rambursat",
+          "refunded": "Rambursat"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Finalizat",
+          "complete": "Complet",
+          "unfulfilled": "Deschis",
+          "restocked": "Stoc de ierburi"
+        },
+        "transaction_status": {
+          "success": "Reușit",
+          "pending": "În curs de procesare",
+          "failure": "Eșuat"
+        },
+        "cancel_reason": {
+          "declined": "Plata refuzată",
+          "customer": "Clientul a modificat/anulat comanda",
+          "other": "Anders",
+          "staff": "Angajați lipsă"
+        },
+        "cash_on_delivery": "Ramburs"
+      },
+      "cart": {
+        "only_n_items_available": "Poți adăuga în coș doar %{count} %{name}.",
+        "too_many_items_in_cart": "Nu poți adăuga mai multe %{name} în coșul tău de cumpărături.",
+        "all_items_in_cart": "Toate cele %{count} %{name} sunt în coșul tău de cumpărături.",
+        "empty_update": "nu se poate actualiza coșul de cumpărături",
+        "missing_parameters": "ID sau număr de rând nevalid",
+        "generic_error": "Coș de cumpărături gol",
+        "too_many_line_items_error": "Coșul tău nu poate conține mai mult de %{max} articole.",
+        "link_expired": "Legătura a expirat"
       }
     }
   }

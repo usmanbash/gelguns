@@ -987,8 +987,72 @@
         "deferred_payment_info": {
           "title": "Betalning av %{amount_due} ska göras senast %{due_at}",
           "description_html": "%{contact_us} för frågor om din beställning.",
-          "paid_today": "Totalt betalat idag"
-        }
+          "paid_today": "Totalt betalat idag",
+          "due_on_fulfillment_title": "Betalningen på %{amount_due} ska göras vid leverans av beställningen.",
+          "due_on_receipt_title": "%{amount_due} ska betalas vid mottagandet",
+          "paid_today_next": "Betalat idag"
+        },
+        "percent_off_shipping": "%{percent}% rabatt på frakt",
+        "payment_terms_totals": {
+          "due_today": "Totalt att betala idag",
+          "due_later": "Totalt att betala den %{due_at}",
+          "due_later_checkout_to_draft": "Totalt förfaller senare",
+          "due_on_fulfillment": "Totalt att betala vid fullgörande",
+          "due_on_receipt": "Totalt att betala vid mottagandet",
+          "total_paid": "Totalt betalt",
+          "due_today_next": "Förfaller idag",
+          "due_on_fulfillment_next": "Att betala vid fullgörande"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kan inte användas tillsammans med dina befintliga rabatter.",
+        "maximum_discount_code_limit_reached": "Du har nått det maximala antalet rabattkoder. Ta bort en befintlig kod för att använda <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Total beställning",
+        "due_on_fulfillment": "Skyldigt vid fullgörande",
+        "subscriptions": "Prenumerationerna",
+        "duties_label": "Tullavgifter",
+        "error_duties_tooltip": "Denna beställning skickas från ett annat land, så tullavgifter och skatter kan tillkomma vid leverans.",
+        "may_be_charged_on_delivery": "Kan tas ut vid leverans",
+        "recurring_payments": "Återkommande betalning",
+        "recurring_total_multiple_label": "Denna beställning har återkommande kostnader för flera artiklar.",
+        "deferred_total_due_date_label": "Totalt att betala den {{date}}",
+        "full_price": "Fullt pris: %{price}",
+        "custom_discount": "Anpassad rabatt",
+        "expand_component_information": {
+          "one": "Visa %{count} artiklar"
+        },
+        "discount_discovery": {
+          "back_to_finalize_order": "Tillbaka till slutför beställning"
+        },
+        "alternative_payment_currency_total": "debiterad med %{amount_due}",
+        "calculating": "Beräknar...",
+        "group_title_label": "Del av '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Beställningsrabatt",
+          "other": "Beställningsrabatter"
+        },
+        "discount_not_found": "Kan ingen giltig rabatt hittas som stämmer överens med den angivna koden",
+        "total_savings": "Total besparing",
+        "return_restocking_fee_label": "Påfyllningskostnader",
+        "return_shipping_fee_label": "Returförsändelse",
+        "shipping_discount_title": "Fraktavdrag",
+        "discount_code_applied": "Rabattkod tillämpad",
+        "gift_card_applied": "Presentkort tillämpat",
+        "duties_included_label": "Totalt är inklusive skatter och tullavgifter. Inga extra kostnader vid leverans.",
+        "deferred_balance_info": {
+          "title": "Det utestående beloppet på {{amount_due}} ska betalas senast {{due_at}}.",
+          "due_on_fulfillment_title": "Det utestående beloppet på {{amount_due}} ska betalas vid orderuppfyllelse"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> rabattkod krävs för berättigad kund",
+        "product_image_quantity_label": "Antal",
+        "more_items_modal": {
+          "clear_search": "Rensa sökning",
+          "empty_results": "Inga resultat hittades för '%{searchText}'. Kontrollera stavningen eller använd ett annat ord eller en annan fras.",
+          "number_items_shown": "%{shownNumber} av %{totalNumber} artiklar"
+        },
+        "view_all_items": {
+          "one": "Visa %{count} artiklar"
+        },
+        "price_before_discount_aria_text": "Ursprungligt pris",
+        "price_after_discount_aria_text": "Rabattpris"
       }
     }
   }
