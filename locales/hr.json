@@ -1788,9 +1788,61 @@
         "generic_payment_terms": "Uvjeti plaćanja za {{translatedName}} primjenjuju se. Vaša uplata dospijeva {{dueDate}}.",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} na račun s pristupom ovoj lokaciji ili za dodavanje ili korištenje spremljenih načina plaćanja."
+            "message": "{{logIn}} na račun s pristupom ovoj lokaciji ili za dodavanje ili korištenje spremljenih načina plaćanja.",
+            "link": "Prijavi se"
           }
-        }
+        },
+        "direct_payment_terms": "Uvjeti {{translatedName}} primjenjuju se. Novac će biti skinut s vaše kartice na {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Plaćanje je obvezno čim je narudžba obrađena.",
+        "order_due_on_fulfillment_payment": "Novac će biti skinut s vaše kartice čim se narudžba obradi.",
+        "draft_order_payment_due_later_no_terms": "Plaćanje je obvezno čim je narudžba potvrđena.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Novac će biti skinut s vaše kartice čim narudžba bude potvrđena.",
+        "draft_order_payment_due_later_terms": "Uvjeti {{translatedName}} primjenjuju se čim je narudžba potvrđena.",
+        "draft_order_payment_due_on_fulfillment": "Plaćanje je obvezno čim je narudžba potvrđena i obrađena.",
+        "fixed_payment_label": "Plaćanje je dospjelo na {{dueDate}}.",
+        "fixed_direct_payment_terms": "Ovo će biti terećeno na tvoju karticu {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} mora biti plaćen danas. Za saldo vrijede uvjeti {{translatedName}} i mora biti otplaćen do {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} mora biti plaćeno danas. Preostali iznos dospijeva čim se vaša narudžba obradi.",
+        "order_due_on_receipt_choose_later": "Plaćanje je obvezno prilikom primitka.",
+        "draft_order_deposit_due_later": "{{depositAmount}} je dugovan nakon što je narudžba potvrđena. Za saldo vrijede uvjeti {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} je dugovan nakon što je narudžba potvrđena. Preostali iznos je dugovan čim je vaša narudžba obrađena.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} mora biti plaćeno danas. Preostali iznos dospijeva kasnije.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} mora biti plaćen danas. Preostali iznos mora biti plaćen do {{dueDate}}.",
+        "credit_or_debit_card_label": "Kreditna/debitna kartica"
+      },
+      "thank_you": {
+        "title": "Hvala na vašoj kupnji!",
+        "confirmation_email_sent_text": "Poslana je potvrda e-pošte na %{email}",
+        "return_to_store_link_label": "Povratak u trgovinu",
+        "print_link_label": "Ispis potvrde o kupnji",
+        "payment_information_title": "Podaci o plaćanju",
+        "shipping_information_title": "Podaci o dostavi",
+        "page_title": "Hvala, %{display_name}.",
+        "page_title_no_name": "Hvala!",
+        "cancelled_page_title": "Narudžba otkazana",
+        "customer_information_title": "Podaci o narudžbi",
+        "contact_information_title": "Kontakt informacije",
+        "billing_address_title": "Adresa za račun",
+        "shipping_address_title": "Adresa dostave",
+        "shipping_address_map_title": "Google karta s točkom dostavne adrese: %{address}",
+        "shipping_method_title": "Metoda dostave",
+        "company_tracking_number": "%{company} broj za praćenje:",
+        "estimated_arrival": "Procijenjeni datum isporuke:",
+        "re-order": "Ponovno naruči iste artikle",
+        "thank_you_title": "Vaša narudžba je potvrđena",
+        "thank_you_confirmed_order_with_email": "Uskoro ćete primiti potvrdu narudžbe s vašim brojem narudžbe.",
+        "thank_you_confirmed_order_with_phone": "Uskoro ćeš primiti SMS s potvrdom i brojem tvoje narudžbe",
+        "thank_you_confirmed_order_with_email_and_phone": "Uskoro ćete primiti potvrdu narudžbe s vašim brojem narudžbe.",
+        "thank_you_confirmed_order_with_missing": "Kontaktirajte nas putem e-pošte ili telefona za potvrdu vaše narudžbe.",
+        "order_status_confirmed_order_with_email": "Dobit ćete e-mail kada vaša narudžba bude spremna.",
+        "order_status_confirmed_order_with_phone": "Dobit ćete SMS kada vaša narudžba bude spremna.",
+        "order_status_confirmed_order_with_email_and_phone": "Dobit ćete e-poštu kada vaša narudžba bude spremna.",
+        "order_status_updates_with_email": "Primat ćeš putem e-pošte obavijesti o svojoj pošiljci i dostavi.",
+        "order_status_updates_with_phone": "Dobivat ćete putem SMS-a obavijesti o vašoj pošiljci i dostavi.",
+        "order_status_updates_with_email_and_phone": "Dobivat ćete putem e-pošte obavijesti o vašoj pošiljci i dostavi.",
+        "order_status_updates_with_missing": "Odaberite kako želite primati obavijesti o dostavi.",
+        "confirmed_title": "Vaša narudžba je potvrđena",
+        "confirmed_description": "Prihvatili smo vašu narudžbu i pripremamo je. Posjetite ovu stranicu ponovno za ažuriranja o statusu vaše pošiljke."
       }
     }
   }
