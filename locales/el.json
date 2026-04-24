@@ -1754,7 +1754,73 @@
         "invalid_selected_address_with_update_link": "Η επιλεγμένη διεύθυνση παράδοσης δεν είναι έγκυρη. %{update_address_link} ή επιλέξτε μια άλλη διεύθυνση.",
         "unavailable_selected_address": "Η αποστολή δεν είναι διαθέσιμη για τη συγκεκριμένη διεύθυνση",
         "unavailable_selected_address_for_region": "Η αποστολή δεν είναι διαθέσιμη για {{region}}. Επιλέξτε μια άλλη διεύθυνση για να συνεχίσετε",
-        "unavailable_addresses_only_countries": "Η παραγγελία σας μπορεί να αποσταλεί μόνο σε {{countriesList}}. Προσθέστε μια νέα διεύθυνση για να συνεχίσετε."
+        "unavailable_addresses_only_countries": "Η παραγγελία σας μπορεί να αποσταλεί μόνο σε {{countriesList}}. Προσθέστε μια νέα διεύθυνση για να συνεχίσετε.",
+        "unavailable_address_country": "Η αποστολή δεν είναι δυνατή στη χώρα που έχετε επιλέξει. Παρακαλώ δώστε μια άλλη διεύθυνση για να συνεχίσετε."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Γρήγορη ολοκλήρωση αγοράς",
+        "or": "ΤΟΥ",
+        "or_pay_another_way": "Ή να πληρώσετε με άλλο τρόπο",
+        "or_check_out_another_way": "Ή να πληρώσετε με άλλο τρόπο"
+      },
+      "processing": {
+        "redirecting_notice": "Θα ανακατευθυνθείς.",
+        "complete_your_purchase_title": "Ολοκλήρωση της αγοράς σας",
+        "continue_to_payment_gateway_notice": "Συνέχισε στην πληρωμή για να προσθέσεις τα στοιχεία πληρωμής σου.",
+        "continue_to_payment_gateway_button_label": "Μετάβαση στην πληρωμή",
+        "complete_your_purchase_title_error": "Διόρθωσε τις πληροφορίες πληρωμής σου",
+        "continue_to_payment_gateway_notice_error": "Τα στοιχεία πληρωμής σας δεν μπορούν να επαληθευτούν.",
+        "continue_to_payment_gateway_button_label_error": "Ενημέρωση στοιχείων πληρωμής",
+        "page_title": "Η παραγγελία επεξεργάζεται",
+        "title": "Η παραγγελία επεξεργάζεται",
+        "you_will_receive_confirmation": "Αυτήν τη στιγμή λαμβάνουμε πάρα πολλές παραγγελίες. Θα πρέπει να λάβετε σύντομα μια επιβεβαίωση μέσω email ή sms. Ενημερώστε μας αν δεν τη λάβετε εντός μίας ώρας.",
+        "wait": {
+          "short": "Η παραγγελία σας επεξεργάζεται.",
+          "medium": {
+            "one": "Η παραγγελία σας επεξεργάζεται. Ο εκτιμώμενος χρόνος αναμονής είναι %{count} λεπτό.",
+            "other": "Η παραγγελία σας επεξεργάζεται. Ο εκτιμώμενος χρόνος αναμονής είναι %{count} λεπτά."
+          },
+          "long": "Θα λάβεις ένα email μόλις η παραγγελία σου επεξεργαστεί. Αυτή τη στιγμή υπάρχει μεγάλος αριθμός παραγγελιών.",
+          "no_auto_refresh_html": "%{link} αν δεν προωθηθείς αυτόματα.",
+          "refresh_this_page": "Φόρτωσε ξανά αυτή τη σελίδα"
+        },
+        "you_will_not_be_charged": "Δεν έχουν επιβληθεί ακόμη χρεώσεις",
+        "redirecting_to_bank": "Μεταφορά σε {{bank}}",
+        "modal_notice": "Ερχόμαστε σε επαφή με το {{paymentMethod}}",
+        "remote_shops_payments_processing": "Επεξεργασία πληρωμής"
+      },
+      "failed_payment": {
+        "page_title": "Η πληρωμή δεν μπορεί να επεξεργαστεί",
+        "title": "Η πληρωμή δεν μπορεί να επεξεργαστεί",
+        "payment_not_processed_title": "Η πληρωμή σας δεν μπορεί να επεξεργαστεί.",
+        "payment_not_processed_text": "Δεν έχουν επιβληθεί χρεώσεις. Επιστρέψτε στο καλάθι σας για να ολοκληρώσετε την αγορά σας.",
+        "return_to_cart_button_label": "Επιστροφή στο καλάθι αγορών"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Κατάθεση σε τράπεζα",
+        "cash_on_delivery_label": "Επιστροφή χρημάτων",
+        "money_order_label": "Ταχυδρομική επιταγή",
+        "debit_card_label": "Κάρτα πληρωμών",
+        "deferred_payment_label": "Επιλέξτε αργότερα μια μέθοδο πληρωμής",
+        "generic_payment_terms": "Ισχύουν οι όροι πληρωμής του {{translatedName}}. Η πληρωμή σας λήγει στις {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} σε έναν λογαριασμό με πρόσβαση σε αυτήν την τοποθεσία ή για να προσθέσετε ή να χρησιμοποιήσετε αποθηκευμένες μεθόδους πληρωμής.",
+            "link": "Σύνδεση"
+          }
+        },
+        "direct_payment_terms": "Ισχύουν οι όροι του {{translatedName}}. Τα χρήματα θα χρεωθούν από την κάρτα σας στις {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Η πληρωμή οφείλεται μόλις ολοκληρωθεί η παραγγελία.",
+        "order_due_on_fulfillment_payment": "Τα χρήματα θα χρεωθούν από την κάρτα σου μόλις ολοκληρωθεί η παραγγελία.",
+        "draft_order_payment_due_later_no_terms": "Η πληρωμή οφείλεται μόλις επιβεβαιωθεί η παραγγελία.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Τα χρήματα θα χρεωθούν από την κάρτα σου μόλις επιβεβαιωθεί η παραγγελία.",
+        "draft_order_payment_due_later_terms": "Οι όροι του {{translatedName}} ισχύουν μόλις επιβεβαιωθεί η παραγγελία.",
+        "draft_order_payment_due_on_fulfillment": "Η πληρωμή οφείλεται μόλις η παραγγελία επιβεβαιωθεί και ολοκληρωθεί.",
+        "fixed_payment_label": "Η πληρωμή οφείλεται στις {{dueDate}}.",
+        "fixed_direct_payment_terms": "Αυτή θα χρεωθεί στην κάρτα σου στις {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} πρέπει να καταβληθεί σήμερα. Για το υπόλοιπο ισχύουν οι όροι {{translatedName}} και πρέπει να εξοφληθεί έως {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} πρέπει να καταβληθεί σήμερα. Το υπόλοιπο οφείλεται μόλις ολοκληρωθεί η παραγγελία σας.",
+        "order_due_on_receipt_choose_later": "Η πληρωμή οφείλεται κατά την παραλαβή."
       }
     }
   }
