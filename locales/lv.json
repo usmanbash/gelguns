@@ -1620,7 +1620,67 @@
           "long": "Tu saņemsi e-pastu, tiklīdz tavs pasūtījums būs apstrādāts. Pašlaik ir liels pasūtījumu skaits.",
           "no_auto_refresh_html": "%{link} ja netiek automātiski pāradresēts.",
           "refresh_this_page": "Ielādējiet šo lapu atkārtoti"
-        }
+        },
+        "you_will_not_be_charged": "Vēl netiek piemēroti nekādi maksājumi",
+        "action_required": "Nepieciešama rīcība",
+        "redirecting_to_bank": "Pāradresēt uz {{bank}}",
+        "modal_notice": "Mēs sazināmies ar {{paymentMethod}}",
+        "remote_shops_payments_processing": "Maksājuma apstrāde",
+        "remote_checkout_count": "%{current} no %{total}"
+      },
+      "failed_payment": {
+        "page_title": "Maksājumu nevar apstrādāt",
+        "title": "Maksājumu nevar apstrādāt",
+        "payment_not_processed_title": "Jūsu maksājumu nevar apstrādāt.",
+        "payment_not_processed_text": "Nav iekasēti nekādi izdevumi. Atgriezies savā iepirkumu grozā, lai pabeigtu pirkumu.",
+        "return_to_cart_button_label": "Atpakaļ uz iepirkumu grozu"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredītkarte",
+        "bank_deposit_label": "Bankas pārskaitījums",
+        "cash_on_delivery_label": "Nauda atpakaļ",
+        "money_order_label": "Pasta pārvedums",
+        "debit_card_label": "Maksājuma kartes",
+        "deferred_payment_label": "Izvēlieties vēlāk maksāšanas veidu",
+        "generic_payment_terms": "De {{translatedName}} maksājumu noteikumi ir spēkā. Jūsu maksājums jāveic līdz {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} bija konts ar piekļuvi šai vietai vai saglabātu maksājumu veidu pievienošanai vai izmantošanai.",
+            "link": "Pierakstīties"
+          }
+        },
+        "direct_payment_terms": "De {{translatedName}} noteikumi ir spēkā. Nauda tiks noņemta no jūsu kartes {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Maksājums ir jāveic, tiklīdz pasūtījums ir izpildīts.",
+        "order_due_on_fulfillment_payment": "Nauda no tavas kartes tiks noņemta, tiklīdz pasūtījums būs izpildīts.",
+        "draft_order_payment_due_later_no_terms": "Maksājums ir jāveic, tiklīdz pasūtījums ir apstiprināts.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Nauda tiks noņemta no jūsu kartes, tiklīdz pasūtījums būs apstiprināts.",
+        "draft_order_payment_due_later_terms": "De {{translatedName}} noteikumi ir spēkā, tiklīdz pasūtījums ir apstiprināts.",
+        "draft_order_payment_due_on_fulfillment": "Maksājums ir jāveic, tiklīdz pasūtījums ir apstiprināts un izpildīts.",
+        "fixed_payment_label": "Maksājums jāveic līdz {{dueDate}}.",
+        "fixed_direct_payment_terms": "Šī summa tiks iekasēta no jūsu kartes {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} jāapmaksā šodien. Par atlikumu attiecas {{translatedName}} noteikumi, un tas jāatmaksā līdz {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} jāapmaksā šodien. Atlikums ir jāmaksā, tiklīdz jūsu pasūtījums ir apstrādāts.",
+        "order_due_on_receipt_choose_later": "Maksājums jāveic saņemšanas brīdī.",
+        "draft_order_deposit_due_later": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Par atlikumu attiecas {{translatedName}} noteikumi.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ir jāmaksā, kad pasūtījums ir apstiprināts. Atlikums ir jāmaksā, tiklīdz tavs pasūtījums ir izpildīts.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} jāapmaksā šodien. Atlikums jāapmaksā vēlāk.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} jāapmaksā šodien. Atlikums jāapmaksā līdz {{dueDate}}.",
+        "bank_account_label": "Bankas konts",
+        "credit_or_debit_card_label": "Kredītkarte/debetkarte"
+      },
+      "thank_you": {
+        "title": "Paldies par jūsu pirkumu!",
+        "confirmation_email_sent_text": "Apstiprinājuma e-pasts ir nosūtīts uz %{email}",
+        "return_to_store_link_label": "Atgriezties veikalā",
+        "print_link_label": "Pirkuma apliecinājuma izdruka",
+        "payment_information_title": "Maksājuma dati",
+        "shipping_information_title": "Sūtījuma dati",
+        "page_title": "Paldies, %{display_name}.",
+        "page_title_no_name": "Paldies!",
+        "cancelled_page_title": "Pasūtījums atcelts",
+        "customer_information_title": "Pasūtījuma dati",
+        "contact_information_title": "Kontaktu informācija",
+        "billing_address_title": "Rēķina adrese"
       }
     }
   },
