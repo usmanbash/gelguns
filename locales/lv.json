@@ -2174,7 +2174,107 @@
         "page_title": "Pēc pirkuma",
         "title": "Pēc pirkuma",
         "escape_confirmation": "Jūs esat samaksājis par savu pasūtījumu.",
-        "escape_action": "Skatīt pasūtījuma apstiprinājumu ›"
+        "escape_action": "Skatīt pasūtījuma apstiprinājumu ›",
+        "components": {
+          "close": "Aizvērt",
+          "expand": "Skatīt vairāk",
+          "processing": "Apstrāde...",
+          "submit": "Iesniegt"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Tava iepirkumu groza saturs ir atjaunināts, ņemot vērā tavu valsti piegādei.",
+        "cart_and_currency_updated_based_on_country": "Jūsu iepirkumu grozs un valūta ir pielāgoti sūtīšanas valstij.",
+        "currency_updated_for_country": "Valūta atjaunināta %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} katrā %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Pirmā iemaksa %{total_price}",
+            "other": "Pirmie %{count} maksājumi par %{total_price} gabalā"
+          },
+          "following_cycles": ", pēc tam %{total_price} katrā %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "diena",
+            "other": "%{count} dienas"
+          },
+          "week": {
+            "one": "nedēļa",
+            "other": "%{count} nedēļas"
+          },
+          "month": {
+            "one": "mēnesis",
+            "other": "%{count} mēneši"
+          },
+          "year": {
+            "one": "gads",
+            "other": "%{count} gadu"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Pirmā iemaksa %{total_price_with_discount}, pēc tam %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", pēc tam %{count} maksājums par %{total_price}",
+            "other": ", pēc tam %{count} maksājumi, katrs pa %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Maksāšanas veidi",
+        "title": "Maksāšanas veidi",
+        "update_card_button_label": "Atjaunināt karti",
+        "delete_customer_mandate": {
+          "generic_error": "Radās problēma, apstrādājot tavu pieteikumu.",
+          "success_message": "Tava maksāšanas metode ir dzēsta"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "MoR (Tirdzniecības reģistrētāja) vispārīgie noteikumi",
+        "privacy_policy": "Reģistrēta tirgotāja privātuma politika"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nav pieejams produkts",
+          "other": "Nepieejami produkti"
+        },
+        "products_not_available": {
+          "one": "Šis produkts tiek izņemts no tava iepirkumu groza, jo tas nav pieejams tavā valstī/reģionā.",
+          "other": "Šie produkti tiek izņemti no tava iepirkumu groza, jo tie nav pieejami tavā valstī/reģionā."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Šis produkts nav pieejams tavā valstī/reģionā.",
+          "other": "Šie produkti nav pieejami tavā valstī/reģionā."
+        },
+        "unavailable_label": "Nav pieejams"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Jūsu valsts/reģions ir atjaunināts. Lūdzu, ievadiet piegādes adresi, lai turpinātu uz norēķinu lapu."
+      },
+      "throttle": {
+        "line_to_check_out": "Tu stāvi rindā, lai norēķinātos",
+        "cart_summary_heading": "Jūsu iepirkumu grozs",
+        "merchandise": {
+          "sold_out": "Izpārdots",
+          "available": "Pieejams"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Daļa no tava iepirkumu groza ir izpārdota un to nevar iegādāties pie kases.",
+          "sold_out": {
+            "heading": "Jūsu iepirkumu grozs ir izpārdots",
+            "storefront_body": "Atgriezieties veikalā, lai turpinātu iepirkties",
+            "no_storefront_body": "Prece, kuru vēlējāties iegādāties, diemžēl vairs nav pieejama.",
+            "link": "Atpakaļ uz veikalu"
+          }
+        },
+        "title": "Gaida rindā",
+        "time_to_checkout_title": "Laiks norēķināties - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Aprēķināt aptuveno gaidīšanas laiku",
+          "less_than_one": "Aptuvenais gaidīšanas laiks: mazāk nekā minūte"
+        }
       }
     }
   },
