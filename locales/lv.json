@@ -1554,7 +1554,73 @@
         "payment_method_not_applicable": "Šī maksāšanas metode nav piemērojama. Izmantojiet citu maksāšanas veidu.",
         "shop_pay_wallet_not_available": "Shop Pay nav pieejams šai norēķinu lapai.",
         "market_manager_blocks_wallet_payments": "Šī maksāšanas metode tavā valstī netiek atbalstīta.",
-        "paypal_over_capture": "Tava pasūtījuma kopējā summa ir atjaunināta. Apmaksā ar {{walletName}}, lai pabeigtu pasūtījumu."
+        "paypal_over_capture": "Tava pasūtījuma kopējā summa ir atjaunināta. Apmaksā ar {{walletName}}, lai pabeigtu pasūtījumu.",
+        "test_mode_enabled_only_test_cards": "Testa režīms ir ieslēgts, var pievienot tikai testa kredītkartes.",
+        "captcha_required": "Ievadiet maksājuma datus un atrisiniet captcha, lai pabeigtu pirkumu.",
+        "captcha_required_without_payment_information": "Atrodi captcha, lai pabeigtu pirkumu.",
+        "shipping_company_required_error": "{{shopName}} prasa uzņēmuma nosaukumu piegādes adresei.",
+        "payment_credential_delegation_error": "Radās problēma, apstrādājot jūsu maksājumu. Lūdzu, izvēlieties jaunu maksājuma veidu.",
+        "cancelled_payment": "Jūsu maksājums ir atcelts. Mēģiniet vēlreiz vai izmantojiet citu maksājuma veidu.",
+        "currency": {
+          "no_longer_supported": "Veikala valūta vairs netiek atbalstīta."
+        },
+        "installments_payment_method_incompatible": "Izvēlēto maksājuma veidu nevar izmantot termiņmaksājumiem. Lūdzu, izvēlieties citu maksājuma veidu."
+      },
+      "shipping_errors": {
+        "shipping_method": "Tavas pasūtījuma piegādes iespējas ir mainītas. Lūdzu, pārbaudi savu izvēli.",
+        "shipping_method_not_available": "Tava iepirkumu grozs ir atjaunināts, taču preces, ko esi pievienojis, nevar tikt nosūtītas uz tavu adresi. Noņem preces, lai pabeigtu pasūtījumu.",
+        "shipping_method_not_available_generic": {
+          "one": "Jūsu pasūtījumu nevar nosūtīt uz izvēlēto adresi. Lūdzu, pārbaudiet, vai adrese ir pareiza, un mēģiniet vēlreiz, vai izvēlieties citu adresi.",
+          "other": "Dažas preces tavā iepirkumu grozā nevar tikt nosūtītas uz ievadīto adresi. Pārbaudi, vai adrese ir pareiza, un mēģini vēlreiz vai izvēlies citu adresi."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Prece, kuru pievienojāt, netiks nosūtīta uz jūsu atrašanās vietu. Lai veiktu maksājumu, noņemiet šo preci vai sazinieties ar veikalu.",
+          "other": "Viens vai vairāki preces, ko esat pievienojis, nevar tikt nosūtītas uz jūsu atrašanās vietu. Noņemiet preces, lai veiktu maksājumu, vai sazinieties ar veikalu."
+        },
+        "payment_method_not_supported": "Jūs nevarat izmantot šo maksājuma veidu %{country}. Izmantojiet citu maksājuma veidu, lai nosūtītu uz šo valsti.",
+        "empty_state": "Ievadi savu piegādes adresi, lai redzētu pieejamās piegādes metodes.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Groza ir preces, kas neatbilst cenu vai svara prasībām, lai kvalificētos sūtīšanai. Atjaunojiet grozu un mēģiniet vēlreiz.",
+        "title": "Piegāde nav pieejama",
+        "invalid_selected_address": "Izvēlētā piegādes adrese nav derīga",
+        "invalid_selected_address_with_update_link": "Izvēlētā piegādes adrese nav derīga. %{update_address_link} vai izvēlieties citu adresi.",
+        "unavailable_selected_address": "Piegāde nav pieejama izvēlētajam adresēm",
+        "unavailable_selected_address_for_region": "Piegāde nav pieejama {{region}}. Izvēlieties citu adresi, lai turpinātu",
+        "unavailable_addresses_only_countries": "Jūsu pasūtījumu var nosūtīt tikai uz {{countriesList}}. Pievienojiet jaunu adresi, lai turpinātu.",
+        "unavailable_address_country": "Piegāde nav iespējama valstī, kuru esat izvēlējies. Lūdzu, norādiet citu adresi, lai turpinātu."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ātra norēķināšanās",
+        "or": "NO",
+        "show_more_options": "Rādīt vairāk iespēju",
+        "hide_more_options": "Slēpt vairāk iespēju",
+        "or_pay_another_way": "Vai maksāt citādi",
+        "or_check_out_another_way": "Vai norēķināties citādi",
+        "or_pay_with_credit_card": "Vai norēķināties ar kredītkarti"
+      },
+      "processing": {
+        "redirecting_page_title": "Novirzīšana…",
+        "redirecting_title": "Novirzīšana…",
+        "redirecting_notice": "Jūs tiekat novirzīts.",
+        "complete_your_purchase_title": "Pabeigt pirkumu",
+        "continue_to_payment_gateway_notice": "Turpiniet uz maksājumu, lai pievienotu savus maksājuma datus.",
+        "continue_to_payment_gateway_button_label": "Dodieties uz maksāšanu",
+        "complete_your_purchase_title_error": "Labojiet savus maksājumu datus",
+        "continue_to_payment_gateway_notice_error": "Jūsu maksājuma dati nav pārbaudāmi.",
+        "continue_to_payment_gateway_button_label_error": "Maksājuma informācijas atjaunināšana",
+        "page_title": "Pasūtījums tiek apstrādāts",
+        "title": "Pasūtījums tiek apstrādāts",
+        "your_order_has_been_received_title": "Paldies par tavu pasūtījumu",
+        "you_will_receive_confirmation": "Mēs šobrīd saņemam ļoti daudz pasūtījumu. Drīzumā tev vajadzētu saņemt apstiprinājumu pa e-pastu vai īsziņu. Lūdzu, dod ziņu, ja to neesi saņēmis stundas laikā.",
+        "wait": {
+          "short": "Tava pasūtījuma apstrāde ir sākta.",
+          "medium": {
+            "one": "Jūsu pasūtījums tiek apstrādāts. Aptuvenais gaidīšanas laiks ir %{count} minūtes.",
+            "other": "Jūsu pasūtījums tiek apstrādāts. Aptuvenais gaidīšanas laiks ir %{count} minūtes."
+          },
+          "long": "Tu saņemsi e-pastu, tiklīdz tavs pasūtījums būs apstrādāts. Pašlaik ir liels pasūtījumu skaits.",
+          "no_auto_refresh_html": "%{link} ja netiek automātiski pāradresēts.",
+          "refresh_this_page": "Ielādējiet šo lapu atkārtoti"
+        }
       }
     }
   },
