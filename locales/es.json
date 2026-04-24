@@ -3367,7 +3367,75 @@
         },
         "expected_by": "Esperado a más tardar el {{date}}",
         "was_expected_by": "Se esperaba a más tardar el {{date}}"
-      }
+      },
+      "status_mark_as_delivered": "Marcar como preocupado",
+      "buy_again": "Comprar de nuevo",
+      "buy_again_accessibility_label": "Comprar de nuevo para el pedido {{orderId}}",
+      "manage": "Administrar",
+      "fulfillment_status_title": "Estado de cumplimiento: {{status}}",
+      "list_title_confirmed_orders_accessibility_label": "Pedidos: confirmado",
+      "list_title_pending_orders_accessibility_label": "Pedidos: en proceso",
+      "switch_order_type_pending_orders_accessibility_label": "Cambiar tipo de pedido; ahora estás viendo pedidos en proceso",
+      "switch_order_type_confirmed_orders_accessibility_label": "Cambiar tipo de pedido; estás viendo tus pedidos confirmados"
+    },
+    "order_details": {
+      "card_ending_with": "termina en {{lastDigits}}",
+      "contact": "Persona de contacto",
+      "loading": "Cargando datos del pedido",
+      "loading_finished_accessibility_message": "Los datos del pedido han sido cargados",
+      "payment": {
+        "status_in_review": "Pago debido tras la evaluación",
+        "status_unpaid": "Pago debido el {{date}}",
+        "card_payment_details": "terminando en {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagado con pagos a plazos de Shop Pay",
+          "view_schedule": "Ver planificación"
+        },
+        "gift_card_payment_details": "terminando en {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Giro postal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Reembolso - {{formattedTransactionAmount}}",
+          "bank_deposit": "Depósito bancario - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Crédito en tienda - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Datos",
+          "payment_details": "Datos de pago"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "AYUDA:",
+          "source": "Vendemos extensiones de cabello lujosas y hechas a mano, hechas de cabello humano remy 100% auténtico. Nuestro tono es femenino, profesional y cálido. Usamos términos como “trenza”, “con pinzas”, “halo”, “degradado”, “cola de caballo” y “cabello remy”."
+        },
+        "payment_type": {
+          "gift_card": "Vale de regalo",
+          "store_credit": "Crédito de tienda",
+          "money_order": "Cambio de puesto",
+          "cash_on_delivery": "Reembolso"
+        }
+      },
+      "shipping": {
+        "address": "Dirección de entrega",
+        "address_map_marker": "Dirección de entrega",
+        "summary": "Enviar",
+        "subscription": "Envío con suscripción"
+      },
+      "subtitle": "Confirmado: {{date}}",
+      "summary_list_title_accessibility_label": "Pedir artículos",
+      "summary_totals_title_accessibility_label": "Total del pedido",
+      "location": "Ubicación",
+      "not_applicable": "n.d.",
+      "partially_refunded_label": "PARCIALMENTE REEMBOLSADO",
+      "compare_at_sale": "Liquidación ({{saleAmount}})",
+      "returns": {
+        "expand_events_label": "Mostrar datos",
+        "hide_events_label": "Ocultar datos",
+        "ineligible_return_message": "No hay artículos en este pedido que sean aptos para devolución.",
+        "ineligible_return_message_when_returned": "No hay más artículos en este pedido que sean aptos para devolución.",
+        "exchange_header": "Artículos de intercambio",
+        "exchange_subheader": "Los artículos de cambio se añadirán al pedido una vez que se haya completado la devolución."
+      },
+      "request_return_failed": "Se ha producido un problema al procesar tu solicitud. Por favor, inténtalo de nuevo."
     }
   }
 }
