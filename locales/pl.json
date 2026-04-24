@@ -4225,7 +4225,71 @@
       "may": "maj",
       "june": "junior",
       "july": "lipiec",
-      "august": "sierpień"
+      "august": "sierpień",
+      "september": "wrzesień",
+      "october": "październik",
+      "november": "listopad",
+      "december": "grudzień",
+      "monday": "poniedziałek",
+      "tuesday": "wtorek",
+      "wednesday": "środa",
+      "thursday": "czwartek",
+      "friday": "piątek",
+      "saturday": "sobota",
+      "sunday": "niedziela",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "zrób.",
+      "fridayAbbreviation": "wirtualna rzeczywistość",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "showNextMonth": "Wyświetl następny miesiąc, {{month}} {{year}}",
+      "showPreviousMonth": "Wyświetl poprzedni miesiąc, {{month}} {{year}}",
+      "rangeStart": "Rozpocznij zasięg",
+      "inRange": "W zasięgu ręki",
+      "rangeEnd": "Koniec zasięgu",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} dostępnych artykułów",
+        "other": "{{count}} dostępnych artykułów"
+      },
+      "removeTag": "Usuń etykietę",
+      "mapClusterTitle": {
+        "one": "Klastruj van {{number}} punktów orientacyjnych",
+        "other": "Klastr z {{number}} punktami oznaczeń"
+      },
+      "expandSheet": "Rozwiń",
+      "dropzoneInvalidFileType": "Ten typ pliku nie jest obsługiwany",
+      "dropzoneDraggedOver": "Umieść plik, aby go przesłać",
+      "clipboardFailedToCopy": "Nie skopiowano",
+      "clear": "Wiedza"
+    },
+    "profile_preview_bar": {
+      "hide_bar": "Ukryj belkę",
+      "navigate_to_admin": "Przejdź do centrum zarządzania",
+      "previewing": "Przeglądasz przykład:",
+      "saved_at": "Zapisano {{date}} o {{time}}",
+      "viewing": "Oglądasz:",
+      "not_available": "Brak dostępnych danych profilu",
+      "close_preview": "Zamknij przykład",
+      "actions_button": "Akcje"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Wyloguj się całkowicie",
+        "description": "Jeśli zgubiłeś urządzenie lub martwisz się o bezpieczeństwo, wyloguj się wszędzie, aby zapewnić bezpieczeństwo swojego konta.",
+        "warning_message": "Zostaniesz również wylogowany z tego urządzenia."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Op {{date}} o {{time}}",
+        "lessThanOneMinuteAgo": "Właśnie",
+        "lessThanOneWeekAgo": "W {{weekday}} o {{time}}",
+        "today": "Dziś o {{time}}",
+        "lessThanOneWeekAway": "W {{weekday}} o {{time}}",
+        "lessThanOneYearAway": "Op {{date}} o {{time}}"
+      }
     }
   }
 }
