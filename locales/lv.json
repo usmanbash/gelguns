@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "lv",
+      "last_word_connector": ", lv"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Norēķini",
+        "error_page_title": "Kļūda",
+        "skip_to_content": "Uzreiz pie satura",
+        "breadcrumb": "Rīvējsmilts",
+        "continue_button_label": "Turpināt",
+        "complete_purchase_button_label": "Pasūtījuma pabeigšana",
+        "pay_now_button_label": "Tagad maksāt",
+        "authenticate_purchase_button_label": "Apstiprināt maksājumu",
+        "edit_link_label": "Mainīt",
+        "all_rights_reserved": "Visas tiesības aizsargātas %{shop_name}",
+        "print_policies_link_label": "Drukāt",
+        "cart": "Groza saturs",
+        "close_modal_label": "Aizvērt",
+        "close_notice_label": "Aizvērt",
+        "expand_notice_label": "Skatīt vairāk",
+        "continue_to_shipping_method": "Turpināt sūtīt",
+        "continue_to_payment_method": "Dodieties uz maksāšanu",
+        "continue_to_review": "Pasūtījuma pārbaude",
+        "back_to_cart": "Atpakaļ uz iepirkumu grozu",
+        "back_to_contact_information": "Atpakaļ uz informāciju",
+        "back_to_shipping_method": "Atpakaļ uz sūtīšanu",
+        "back_to_payment_method": "Atpakaļ uz maksājumu",
+        "choose_shipping_method": "Izvēlieties piegādes veidu",
+        "choose_payment_method": "Izvēlieties maksāšanas veidu",
+        "choose_billing_address": "Izvēlieties rēķina adresi",
+        "contact_us_html": "Sazinieties ar mums, lai iegūtu vairāk informācijas",
+        "autocomplete_title": "Ieteikumi",
+        "autocomplete_single_item": "1 prece pieejama",
+        "autocomplete_multi_item": "{{number}} pieejami raksti",
+        "autocomplete_selection": "{{number}} no {{total}}",
+        "autocomplete_close": "Aizvērt ieteikumus",
+        "forwarding_indicator": {
+          "new_window": "Tiks atvērts jaunā logā.",
+          "external": "Atvērt ārējo vietni.",
+          "external_and_new_window": "Atver ārēju tīmekļa vietni jaunā logā."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Norēķināšanās"
+        },
+        "tooltip_accessibility_label": "Vairāk informācijas",
+        "errors": {
+          "session_identifier_not_unique_error": "Ar jūsu pasūtījumu radusies kļūda. Lūdzu, mēģiniet vēlreiz norēķināties.",
+          "line_item_limit_reached": "Sasniegts maksimālais pasūtījuma rindu skaits.",
+          "only_empty_terms_accepted": "Šī politika pieņem tikai tukšus nosacījumus.",
+          "session_is_already_finished": "Šī norēķinu sesija jau ir pabeigta.",
+          "merchandise": {
+            "only_value_constraint": "Preču ievadīšanā ir atļautas tikai precīzas vērtības.",
+            "merchandise_not_found": "Produkts nav atrasts.",
+            "merchandise_variant_not_found": "Produkta variants nav atrasts.",
+            "merchandise_not_applicable": "Produkta variants nav pieejams iegādei.",
+            "bundle_products_not_supported_for_b2b": "Jūs nevarat pievienot apvienotus preču vienumus B2B pasūtījumiem šai vietai.",
+            "gift_card_quantity_mismatch": "Kad ievadāt dāvanu kuponu kodus, pasūtījuma rindas daudzumiem jāatbilst dāvanu kuponu kodu skaitam.",
+            "gift_card_not_supported": "Šajā norēķinu vietā dāvanu kartes netiek atbalstītas.",
+            "gift_card_not_unique": "Dāvanu karte ar kodu {{code}} šajā norēķinu procesā tiek izmantota vairākas reizes. Kodu izveide notiek pirms salīdzināšanas."
+          }
+        }
+      }
+    }
+  }
+}
