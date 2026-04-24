@@ -3691,7 +3691,77 @@
       "login_to_view_all_order_details": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia.",
       "paid_amount": "Opłacono",
       "remaining_amount": "Pozostały",
-      "order_details_skeleton_accessibility_label": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia."
+      "order_details_skeleton_accessibility_label": "Zaloguj się, aby zobaczyć wszystkie dane zamówienia.",
+      "logged_in_account_no_permission_to_order": "Jesteś zalogowany jako {{email}}. To konto nie ma uprawnień do zarządzania tym zamówieniem.",
+      "duties": "Cła graniczne",
+      "ok_duties_tooltip": "To zamówienie jest wysyłane z innego kraju, dlatego do całkowitej kwoty zamówienia zostały doliczone opłaty celne.",
+      "error_duties_tooltip": "To zamówienie jest wysyłane z innego kraju, dlatego przy dostawie mogą zostać naliczone cła i podatki.",
+      "zero_duties_tooltip": "To zamówienie jest wysyłane z innego kraju. Przy zamówieniach o tej wartości nie są naliczane opłaty celne.",
+      "fees": {
+        "restocking_fee": "Koszty zaopatrzenia w zioła",
+        "return_shipping_fee": "Zwrot towaru"
+      },
+      "vat_invoices": {
+        "title": "Faktury Btw"
+      },
+      "taxes_included": "W tym {{amount}} VAT",
+      "duties_and_taxes_included": "Całkowita kwota zawiera cła i podatki. Brak dodatkowych opłat przy dostawie.",
+      "grouped_view_components": {
+        "expand_line_items": "Wyświetl {{count}} artykułów",
+        "collapse_line_items": "Ukryj {{count}} artykułów",
+        "line_item_summary_list_accessibility_label": "Artykuły w zestawie {{productTitle}}"
+      },
+      "cash_rounding": "Zaokrąglanie gotówki przy płatności",
+      "adjusted_payment": "Dostosowana płatność",
+      "adjusted_total": "Dostosowana suma całkowita",
+      "login_card": {
+        "resend_link_and_login": "Możesz przeglądać dane swojego zamówienia, logując się lub wysyłając nowy link na adres e-mail lub numer telefonu użyty podczas składania zamówienia.",
+        "resend_link_only": "Możesz zobaczyć swoje dane zamówienia, wysyłając nowy link na adres e-mail lub numer telefonu, którego użyłeś podczas składania zamówienia.",
+        "title": "Zobacz dane zamówienia"
+      },
+      "view_controls": {
+        "gallery": "Galerie"
+      },
+      "due_on_date": "Należne na dzień {{date}}",
+      "due_on_fulfillment": "Do zapłaty przy realizacji zamówienia",
+      "due_on_receipt": "Do zapłaty przy odbiorze",
+      "group_title_label_with_parent": "Dla: {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Dziękujemy! Twoja płatność w wysokości {{amount}} została otrzymana.",
+        "full_payment_received": "Dziękujemy! Twoja płatność w wysokości {{amount}} została otrzymana, a to zamówienie jest teraz w pełni opłacone.",
+        "dismiss_label": "Zamknij potwierdzenie płatności",
+        "payment_authorized": "Dziękujemy! Stan konta zostanie zaktualizowany po otrzymaniu płatności."
+      },
+      "marketing_pending_confirmation": "Kliknij link w swojej wiadomości e-mail, aby potwierdzić.",
+      "marketing_resend_email": "Wyślij e-mail ponownie",
+      "subtotal_label_with_quantity": {
+        "other": "Suma częściowa · {{count}} artykułów"
+      },
+      "total_savings": "Całkowita oszczędność",
+      "price_after_discount_accessibility_label": "Cena z rabatem",
+      "discount_order_stacking": {
+        "other": "Zniżki na zamówienia"
+      }
+    },
+    "addresses": {
+      "address_deleted_notification": "Adres usunięty",
+      "cancel_adding_address_accessibility_label": "Dodaj adres anuluj",
+      "cancel_deletion_button_accessibility_label": "usunąć {{address}} anulować",
+      "delete_confirmation_message": "Usunąć adres? To nie wpłynie na istniejące zamówienia.",
+      "edit_button_accessibility_label": "edytuj {{address}}",
+      "edit_section_accessibility_label": "edytuj {{address}}",
+      "loading_accessibility_message": "Adres sklepu",
+      "loading_addresses_accessibility_message": "Wczytaj adresy",
+      "loading_billing_accessibility_message": "Ładowanie adresów do faktury",
+      "loading_finished_accessibility_message": "Nowa strona z adresami została załadowana",
+      "loading_shipping_accessibility_message": "Adres dostawy ładowania",
+      "delete_confirmation_title": "Usunąć adres?",
+      "delete_confirmation_description": "To nie ma wpływu na istniejące zamówienia.",
+      "edit_modal_title": {
+        "billing": "Edytuj adres do faktury",
+        "shipping": "Edytuj adres dostawy"
+      },
+      "add_address_banner": "Dodaj adresy do użycia przy finalizacji zamówienia"
     }
   }
 }
