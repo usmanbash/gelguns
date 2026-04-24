@@ -3558,7 +3558,87 @@
         "show_order_actions_accessibility_label": "Rodyti užsakymo {{name}} geriausias akcijas",
         "empty_state_title_for_pending_orders": "Nėra užsakymų apdorojimui",
         "more_than_four_products_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} ir dar {{numberOfAdditionalProducts}} produktus",
-        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktai"
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktai",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Peržiūrėti užsakymą dėl produkto duomenų",
+            "estimated_delivery": "Laukiama {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Numatoma pristatymo data {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Užsakymas apima {{lineItemName1}}, {{lineItemName2}} ir dar {{numberOfAdditionalProducts}} produktus",
+        "filter_title": "Filtras",
+        "filter": {
+          "clear_section": "Išvalyti skyrių",
+          "clear_all": "Žinoti viską",
+          "date": {
+            "last_7_days": "Praėjusios 7 dienos",
+            "last_30_days": "Praėjusios 30 dienų",
+            "last_90_days": "Praėjusios 90 dienų",
+            "last_365_days": "Praėjusieji 12 mėnesių",
+            "custom": "Pritaikyta"
+          }
+        },
+        "no_order_banner": "Sukurkite užsakymą, kad išbandytumėte plėtinį užsakymų būsenos puslapyje."
+      },
+      "order_status": {
+        "canceled_title": "Jūsų užsakymas atšauktas",
+        "come_back": "Grįžkite į šį puslapį, kad gautumėte naujausią informaciją apie savo siuntą.",
+        "delivered_label": "Susirūpinęs",
+        "estimated_delivery": "Laukiama {{date}}",
+        "in_review_label": "Galutinis įvertinimas",
+        "in_review_title": "Jūsų užsakymas yra peržiūrimas",
+        "no_tracking_number": "Šiai siuntai nėra sekimo numerio.",
+        "on_its_way_label": "Kelyje",
+        "out_for_delivery_label": "Paruošta pristatymui",
+        "resume_tracking": "Tęsti Volgen",
+        "track_shipment": "Sekti siuntą",
+        "request_return": "Prašyti grąžinimo",
+        "attempted_delivery_label": "Pristatymo bandymas",
+        "preparing_for_shipping_label": "Siuntimas ruošiama",
+        "ready_for_pickup_label": "Paruošta atsiėmimui",
+        "ready_for_pickup_description": "Šie daiktai paruošti atsiėmimui. Pasiimkite užsakymo patvirtinimą atsiimdami užsakymą.",
+        "submitted_description": "Patikrinkite užsakymą ir mokėjimo duomenis.",
+        "view_order_for_details": "Peržiūrėti užsakymą dėl produkto duomenų",
+        "confirmed_description_digital": "Jūs gausite el. laišką, kai jūsų užsakymas bus paruoštas.",
+        "delivered_description_gift_card": {
+          "one": "Dovanų kuponas išsiųstas el. paštu.",
+          "other": "Dovanų kuponai buvo išsiųsti el. paštu."
+        },
+        "gift_card_label": {
+          "one": "Dovanų kuponas",
+          "other": "Dovanų kuponai"
+        },
+        "ready_for_pickup_location": "Jūsų užsakymas paruoštas atsiėmimui vietoje",
+        "confirmed_description_pickup": "Jūs gausite el. laišką, kai galėsite atsiimti savo užsakymą.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Dovanų kuponas bus išsiųstas atskiru el. laišku.",
+          "other": "Kiekviena dovanų kuponas siunčiamas atskiru el. laišku."
+        },
+        "confirmed_description_gift_card_text": "Jūs gausite SMS, kai užsakymas bus paruoštas.",
+        "delivered_description_gift_card_text": {
+          "one": "Dovanų kuponas buvo išsiųstas SMS žinute.",
+          "other": "Dovanų kuponai buvo išsiųsti SMS žinute."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Dovanų kuponas bus išsiųstas atskiru SMS žinute.",
+          "other": "Kiekviena dovanų kuponas siunčiamas atskiru SMS žinute."
+        },
+        "gift_resend_success": {
+          "one": "Dovanų kuponas išsiųstas iš naujo",
+          "other": "Dovanų kuponai išsiųsti iš naujo"
+        },
+        "gift_resend_failure": {
+          "one": "Įvyko problema bandant išsiųsti tavo dovanų kuponą iš naujo. Pabandyk dar kartą arba susisiek su mumis.",
+          "other": "Įvyko problema bandant išsiųsti tavo dovanų kuponus iš naujo. Pabandyk dar kartą arba susisiek su mumis."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Valdyti su Amazon"
+          }
+        }
       }
     }
   }
