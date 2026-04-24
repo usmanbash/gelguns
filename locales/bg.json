@@ -2337,7 +2337,113 @@
           "shipping_credential_pt": "ДДС/ИН по ЗДДС",
           "tax_credential_es": "ДНИ/НИФ",
           "shipping_credential_es": "ДНИ/НИФ",
-          "shipping_credential_tw": "Национален ИД номер/ДДС"
+          "shipping_credential_tw": "Национален ИД номер/ДДС",
+          "tax_credential_tr": "Република Турция Личен номер/ДДС",
+          "shipping_credential_tr": "Република Турция Личен номер/ДДС"
+        }
+      },
+      "post_purchase": {
+        "page_title": "След покупка",
+        "title": "След покупка",
+        "escape_confirmation": "Вие платихте за вашата поръчка.",
+        "components": {
+          "close": "Затвори",
+          "expand": "Виж още",
+          "processing": "Обработка...",
+          "submit": "Подаване"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Вашата количка е актуализирана според страната ви за доставка.",
+        "cart_and_currency_updated_based_on_country": "Вашата количка и валута са настроени според страната за доставка.",
+        "currency_updated_for_country": "Валута актуализирана за %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} при всяко %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Първо плащане %{total_price}",
+            "other": "Първите %{count} плащания по %{total_price} на брой"
+          },
+          "following_cycles": ", след това %{total_price} на всеки %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "куче"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Първо плащане %{total_price_with_discount}, след това %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", след това %{count} плащане на %{total_price}",
+            "other": ", след това %{count} плащания, всяко на стойност %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Актуализирай карта",
+        "delete_customer_mandate": {
+          "generic_error": "Възникна проблем при обработката на вашата заявка.",
+          "success_message": "Вашият метод на плащане е премахнат"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Общи условия на MoR (Търговец по регистрация)",
+        "privacy_policy": "Политика за поверителност на регистрирания търговец"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Наличен продукт няма",
+          "other": "Налични продукти"
+        },
+        "products_not_available": {
+          "one": "Този продукт ще бъде премахнат от количката ти, защото не е наличен в твоята страна/регион.",
+          "other": "Тези продукти се премахват от количката ти, защото не са налични в твоята страна/регион."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Този продукт не е наличен във вашата страна/регион.",
+          "other": "Тези продукти не са налични във вашата страна/регион."
+        },
+        "unavailable_label": "Няма наличност"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Вашата страна/регион е актуализирана. Въведете адрес за доставка, за да продължите към плащането."
+      },
+      "throttle": {
+        "line_to_check_out": "Ти си на опашката за плащане",
+        "cart_summary_heading": "Твоята количка",
+        "inventory": {
+          "partial_inventory_banner": "Част от количката ти е изчерпана и не може да бъде закупена при плащане.",
+          "sold_out": {
+            "heading": "Вашата количка е изчерпана",
+            "storefront_body": "Върнете се в магазина, за да продължите пазаруването",
+            "no_storefront_body": "За съжаление артикулът, който искахте да закупите, вече не е наличен.",
+            "link": "Върни се в магазина"
+          }
+        },
+        "time_to_checkout_title": "Време е за плащане - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Изчисляване на приблизително време за изчакване",
+          "less_than_one": "Очаквано време за изчакване: по-малко от минута",
+          "one": "Очаквано време за изчакване: {{count}} минута",
+          "other": "Очаквано време за изчакване: {{count}} минути"
+        },
+        "footer": {
+          "heading": "Не е нужно да обновявате тази страница, тя се обновява автоматично.",
+          "body": "Артикулите в твоята количка се резервират едва след като завършиш поръчката."
+        },
+        "too_many_attempts": {
+          "description": "Опитайте отново след няколко минути"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Възникна проблем при обработката на вашата заявка. Моля, свържете се със собственика на магазина."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Доставка не е налична за %{count} артикул"
+          }
         }
       }
     }
