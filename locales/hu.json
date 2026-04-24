@@ -904,7 +904,87 @@
         "save_my_information_label": "Ezeket az adatokat elmenteni a későbbi gyorsabb fizetéshez",
         "invalid_address": "A kiválasztott cím érvénytelen. %{update_address_link} vagy válasszon egy másik címet.",
         "incomplete_address": "A kiválasztott cím hiányos. %{update_address_link} vagy válasszon másik címet.",
-        "invalid_shipping_method_summary": "Válasszon érvényes kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez"
+        "invalid_shipping_method_summary": "Válasszon érvényes kézbesítési címet a rendelkezésre álló szállítási módok megtekintéséhez",
+        "saved_address_option_link": "Használjon elmentett címet",
+        "saved_address_modal_title": "Használja a mentett címemet",
+        "rollup_accessibility_label": "Fiókbeállítások"
+      },
+      "stock": {
+        "items_unavailable_notice": "Néhány cikk már nem elérhető.",
+        "reduced_label": "Csökkentett",
+        "reduced_with_quantity_label": "Csak %{quantity_available} van készleten",
+        "go_back_to_cart_button_label": "Vissza a kosaramba",
+        "quantity_update": {
+          "page_title": "Frissített mennyiség",
+          "title": "Frissített mennyiség",
+          "description": "A rendelkezésre álló mennyiségek ezeknél a termékeknél megváltoztak, és a kosarad frissült."
+        },
+        "unpurchasable_product": {
+          "title": "A termék nem vásárolható meg",
+          "header": "Néhány termék eltávolításra került a kosaradból",
+          "message": "Ezek a cikkek nem elérhetők vállalati megrendelésekhez.",
+          "status_column_header": "Nem elérhető"
+        },
+        "unpurchasable_product_generic": {
+          "title": "A termék nem vásárolható meg",
+          "header": "Néhány termék eltávolításra került a kosaradból",
+          "message": "Ezek a cikkek nem elérhetők.",
+          "status_column_header": "Nem elérhető"
+        },
+        "unshippable_product": {
+          "title": "Nincs elérhető házhozszállítás",
+          "header": {
+            "one": "Nincs elérhető kiszállítás %{count} termékre",
+            "other": "Nincs kiszállítás elérhető %{count} termékre"
+          },
+          "message": {
+            "one": "Ezt a terméket eltávolítjuk a kosaradból, mert a címedre nincs elérhető kézbesítési mód.",
+            "other": "Ezt a terméket eltávolítjuk a kosaradból, mert a címedre nincs elérhető kézbesítési mód."
+          },
+          "status_column_header": "Nincs kiszállítás"
+        },
+        "price_update": {
+          "title": "Árváltozás",
+          "description": "Ezeknek a termékeknek az árai megváltoztak és frissültek a kosaradban."
+        },
+        "return_to_store_label": "Vissza a boltba",
+        "item_label": {
+          "one": "{{count}} cikk",
+          "other": "{{count}} cikk"
+        },
+        "out_of_stock": {
+          "description": "Ezek a termékek már nem elérhetők, ezért eltávolítottuk őket a kosaradból.",
+          "items_unavailable": "Néhány termék már nem elérhető, ezért eltávolítottuk őket a kosaradból."
+        },
+        "unfulfillable_product": {
+          "title": "Kiszállítás nem elérhető",
+          "message": {
+            "one": "A %{delivery_method} már nem elérhető ehhez a termékhez.",
+            "other": "%{delivery_method} már nem elérhető ezekhez a termékekhez."
+          },
+          "default_message": {
+            "one": "A kiválasztott kézbesítési mód már nem elérhető ehhez a termékhez.",
+            "other": "A kiválasztott kézbesítési mód már nem elérhető ezekhez a termékekhez."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Ár és mennyiség frissítése",
+          "description": "A cikkek árai és elérhető mennyiségei megváltoztak, és a kosár frissítve lett."
+        },
+        "out_of_stock_in_context_label": "Ez a termék nem elérhető az Ön országában/régiójában."
+      },
+      "order_summary": {
+        "title": "Rendelésáttekintés",
+        "order_name_label": "Megrendelés %{name}",
+        "gift_card_title": "Ajándékutalvány",
+        "gift_card_label": "Ajándékutalvány",
+        "gift_card_placeholder": "Ajándékutalvány",
+        "gift_card_and_discount_title": "Kedvezménykód vagy ajándékutalvány",
+        "gift_card_and_discount_label": "Kedvezménykód vagy ajándékutalvány",
+        "gift_card_and_discount_placeholder": "Kedvezménykód vagy ajándékutalvány",
+        "add_discount_or_gift_card": "Egy kedvezménykód vagy ajándékutalvány hozzáadása",
+        "remove_gift_card_label": "Ajándékutalvány törlése",
+        "apply_discount_button_label": "Alkalmazás"
       }
     }
   }
