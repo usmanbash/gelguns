@@ -3851,9 +3851,95 @@
             "description_overdue": "Din betaling er forsinket.",
             "description_partially_paid": "Denne bestilling er delvist betalt. Du har en resterende saldo.",
             "description_authorized": "Beløbet trækkes på den dato, det forfalder, via din valgte betalingsmetode. Du kan også betale allerede nu.",
-            "title_due_on_receipt": "Betaling er endnu ikke forfalden"
-          }
+            "title_due_on_receipt": "Betaling er endnu ikke forfalden",
+            "description_due_on_receipt": "Du modtager en regning, når betalingen forfalder.",
+            "title_due_on_fulfillment": "Betalingen skal ske ved opfyldelse af ordren.",
+            "description_due_on_fulfillment": "Betalingen skal ske, så snart alle varer i denne ordre er behandlet.",
+            "description_waiting_for_manual_payment": "En betaling for denne ordre er under behandling. Saldoen opdateres, når betalingen modtages.",
+            "description_due_on_receipt_partially_paid": "Denne bestilling er delvist betalt. Du har en resterende saldo. Du modtager en regning, når betalingen forfalder.",
+            "description_due_on_fulfillment_partially_paid": "Denne bestilling er delvist betalt. Du har en resterende saldo. Betalingen forfalder, når alle varer i denne bestilling er behandlet.",
+            "description_due_on_fulfillment_partially_paid_next": "Denne bestilling er delvist betalt. Du har en resterende saldo.",
+            "banner_due_today_for_single_fulfillment": "Betaling på {{amount}} forfalder i dag. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Betaling forfalder i dag for {{count}} opfyldelser",
+            "banner_overdue_for_multiple_fulfillments": "Betaling skyldig for {{count}} opfyldelser",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Betalingen på {{amount}} er {{count}} dage forsinket. {{link}}",
+              "other": "Betalingen på {{amount}} er {{count}} dage forsinket. {{link}}"
+            }
+          },
+          "refund": {
+            "description_full_refund": "Du har modtaget en fuld tilbagebetaling for denne bestilling.",
+            "description_single_refund": "Du har modtaget en delvis tilbagebetaling for denne ordre.",
+            "description_multiple_refunds": "Du har modtaget delvise tilbagebetalinger for denne ordre."
+          },
+          "canceled": {
+            "description": "Der er ikke opkrævet nogen gebyrer hos dig."
+          },
+          "pay_now_accessibility_label": "Betal nu for bestilling {{orderName}}",
+          "due_date": "Skyldigt den {{date}}"
+        },
+        "subtitle": "Indsendt: {{date}}",
+        "title": "Bestilling {{name}}",
+        "order_timeline": {
+          "expand_events_label": "Vis data",
+          "expand_events_accessibility_label": "Vis konceptbestillingsdata",
+          "hide_events_label": "Skjul data",
+          "hide_events_accessibility_label": "Skjul data for konceptbestilling"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Denne betalingsmetode er ikke længere tilgængelig for fremtidige køb på dette sted.",
+          "description_with_replacement": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for forudautoriserede betalinger for dette sted. Erstat den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer."
+        },
+        "payment_details": {
+          "order_label": "Bestilling {{name}}",
+          "draft_label": "Konceptbestilling {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Tilføj bestillingsnummer",
+        "add_modal_title": "Tilføj bestillingsnummer",
+        "close_modal_accessibility_label": "Luk bestillingsnummer-modal",
+        "discard": "Afvis",
+        "discard_changes_modal_title": "Forkaste ændringer?",
+        "edit_accessibility_label": "Rediger bestillingsnummer",
+        "edit_modal_title": "Rediger bestillingsnummer",
+        "empty_state": "Ingen bestillingsnummer",
+        "modal_po_number_input_label": "Bestillingsnummer",
+        "modal_po_number_input_max_length_error": "Bestillingsnumre kan være op til {{maxLength}} tegn lange.",
+        "title": "Indkøbsordrenummer {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Der opstod et problem ved sletning af denne adresse. Prøv igen eller opdater siden."
+      },
+      "addresses_loading_issue": {
+        "description": "Forbindelsesfejl. Kontroller din internetforbindelse og prøv igen."
+      },
+      "failed_address_creation": {
+        "description": "Der opstod et problem under oprettelsen af din adresse. Opdater denne side eller tjek din internetforbindelse."
+      },
+      "failed_address_update": {
+        "description": "Der opstod et problem under opdateringen af din adresse. Opdater denne side eller kontroller din internetforbindelse."
+      },
+      "no_access_to_locations": {
+        "description": "Du har ikke adgang til steder"
+      },
+      "not_found": {
+        "description": "Kontrollér URL'en eller prøv igen om et par minutter.",
+        "title": "Der opstod et problem under indlæsning af denne side"
+      },
+      "order_not_found": {
+        "title": "Bestilling ikke fundet"
+      },
+      "profile_update_error": {
+        "description": "Der opstod et problem under opdateringen af din profil. Opdater denne side eller tjek din internetforbindelse."
+      },
+      "load_orders_error": {
+        "title": "Kan ikke indlæse bestillingen",
+        "description": "Prøv igen eller kom tilbage senere."
       }
     }
   }
