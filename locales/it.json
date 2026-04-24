@@ -3668,11 +3668,87 @@
               "title": "Pagare per confermare",
               "deposit": {
                 "title": "Il pagamento è dovuto",
-                "due_later": "Per il saldo valgono le condizioni di {{translatedName}} ed è dovuto entro {{dueDate}}."
+                "due_later": "Per il saldo valgono le condizioni di {{translatedName}} ed è dovuto entro {{dueDate}}.",
+                "due_on_fulfillment": "Il saldo è dovuto non appena tutti gli articoli di questo ordine sono stati evasi.",
+                "due_on_date": "Il saldo è dovuto il {{dueDate}}."
               }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} è dovuto al momento della conferma dell'ordine. Per il saldo si applicano le condizioni {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} è dovuto una volta che l'ordine è stato confermato. Il saldo è dovuto quando il tuo ordine è stato completato.",
+              "due_on_receipt": "{{depositAmount}} è dovuto al momento della conferma dell'ordine. Il saldo è dovuto successivamente.",
+              "due_on_date": "{{depositAmount}} è dovuto al momento della conferma dell'ordine. Il saldo è dovuto il {{dueDate}}."
             }
-          }
+          },
+          "paid": {
+            "description": "Il tuo ordine è stato completamente pagato.",
+            "title_with_date": "Pagato il {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Il tuo pagamento è in ritardo di {{count}} giorno",
+              "other": "Il tuo pagamento è in ritardo di {{count}} giorni"
+            },
+            "banner_due": {
+              "one": "Il tuo pagamento è dovuto tra {{count}} giorni",
+              "other": "Il tuo pagamento è dovuto tra {{count}} giorni"
+            },
+            "banner_due_today": "Il tuo pagamento è dovuto oggi",
+            "title": "Pagamento dovuto",
+            "title_with_date": "Pagamento dovuto il {{date}}",
+            "description_overdue": "Il tuo pagamento è in ritardo.",
+            "description_partially_paid": "Questo ordine è stato pagato parzialmente. Hai un saldo residuo.",
+            "description_authorized": "L'importo verrà addebitato alla data di scadenza tramite il metodo di pagamento scelto. Puoi anche pagare subito.",
+            "title_due_on_receipt": "Il pagamento non è ancora dovuto",
+            "description_due_on_receipt": "Riceverai una fattura quando il pagamento sarà dovuto.",
+            "title_due_on_fulfillment": "Il pagamento è dovuto al momento dell'evasione dell'ordine.",
+            "description_due_on_fulfillment": "Il pagamento è dovuto non appena tutti gli articoli di questo ordine sono stati evasi.",
+            "description_waiting_for_manual_payment": "Un pagamento per questo ordine è in corso. Il saldo verrà aggiornato quando riceveremo il pagamento.",
+            "description_due_on_receipt_partially_paid": "Questo ordine è stato pagato parzialmente. Hai un saldo residuo. Riceverai una fattura quando il pagamento sarà dovuto.",
+            "description_due_on_fulfillment_partially_paid": "Questo ordine è stato pagato parzialmente. Hai un saldo residuo. Il pagamento è dovuto non appena tutti gli articoli di questo ordine saranno evasi.",
+            "description_due_on_fulfillment_partially_paid_next": "Questo ordine è stato pagato parzialmente. Hai un saldo residuo.",
+            "banner_due_today_for_single_fulfillment": "Il pagamento di {{amount}} è dovuto oggi. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Pagamento dovuto oggi per {{count}} evasioni",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Il pagamento di {{amount}} è in ritardo di {{count}} giorni. {{link}}"
+            }
+          },
+          "refund": {
+            "title_with_date": "Rimborsato il {{date}}"
+          },
+          "canceled": {
+            "description": "Non ti sono stati addebitati costi."
+          },
+          "pay_now_accessibility_label": "Paga ora per l'ordine {{orderName}}",
+          "due_date": "Dovuto il {{date}}"
+        },
+        "subtitle": "Inviato: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Mostra dati",
+          "expand_events_accessibility_label": "Visualizza i dati dell'ordine preliminare",
+          "hide_events_label": "Nascondi dati",
+          "hide_events_accessibility_label": "Nascondi dati bozza ordine"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Questo metodo di pagamento non è più disponibile per acquisti futuri in questa sede.",
+          "description_with_replacement": "Se rimuovi questo metodo di pagamento, ciò influirà sui pagamenti autorizzati in anticipo per questa sede. Sostituiscilo con un altro metodo di pagamento per continuare a ricevere gli ordini in arrivo."
+        },
+        "payment_details": {
+          "draft_label": "Ordine concettuale {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Aggiungi numero d'ordine",
+        "add_modal_title": "Aggiungi numero d'ordine",
+        "close_modal_accessibility_label": "Chiudi modale numero ordine",
+        "discard": "Rifiutare",
+        "discard_changes_modal_title": "Annullare le modifiche?",
+        "edit_accessibility_label": "Modifica numero d'ordine",
+        "edit_modal_title": "Modifica numero d'ordine",
+        "empty_state": "Nessun numero d'ordine",
+        "modal_po_number_input_label": "Numero d'ordine"
       }
     }
   }

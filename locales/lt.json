@@ -1296,7 +1296,75 @@
           "ddu_title": "Mokėti pristatymo metu",
           "ddp_title": "Dabar mokėti",
           "ddp_caption": "Nėra papildomų pristatymo mokesčių"
-        }
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} lietuvių %{current}"
+        },
+        "shipping_used_as_billing_notice": "Tai taip pat naudojama kaip jūsų sąskaitos adresas šiam užsakymui.",
+        "shipping_address_title": "Siųsti į",
+        "add_address": "Naudokite kitą adresą",
+        "delete": "Pašalinti",
+        "address_more": "Daugiau veiksmų šiam adresui",
+        "address_confirm": "Ar tikrai norite pašalinti šį adresą iš savo paskyros?",
+        "address_form": {
+          "generic_error": "Įvyko klaida išsaugant jūsų adresą. Bandykite dar kartą.",
+          "one_time_address_subtitle": "Naudoti vieną adresą šiam užsakymui"
+        },
+        "different_shipping_method_summary": "Įveskite kitą pristatymo adresą, kad pamatytumėte galimus siuntimo būdus",
+        "invalid_shipping_method_summary": "Įveskite galiojantį pristatymo adresą, kad pamatytumėte galimus siuntimo būdus",
+        "method_summary": {
+          "incomplete_address_entered": "Įveskite pilną pristatymo adresą, kad pamatytumėte galimus siuntimo būdus",
+          "incomplete_address_selected": "Pasirinkite pilną pristatymo adresą, kad pamatytumėte galimus siuntimo būdus"
+        },
+        "local_pickup": {
+          "rollup_accessibility_label": "Paėmimo vietos pasirinkimai"
+        },
+        "missing_shipping_address": "Pristatymo adresas nenurodytas",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Pirmasis siuntimas",
+          "other": "Pirmosios siuntos"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Grįžtanti siunta",
+          "other": "Grįžtantys siuntiniai"
+        },
+        "address_default": "Nustatyti kaip numatytąją reikšmę",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} straipsnių",
+        "split_shipping_merchandise_shipment_number": "Siuntimas %{number} iš %{total}",
+        "pre_order_ships_now": "Išsiunčiama dabar",
+        "pre_order_ships_later": "Bus išsiųsta vėliau",
+        "split_shipping_shipped_by_shop": "Išsiųsta per %{shop_name}",
+        "split_shipping_shipping_label": "Wijze",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} siuntų",
+        "split_shipping_multiple_shipment_notice": "Užsakymas bus pristatytas keliais siuntiniais",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Jūsų užsakymas bus pristatytas %{quantity} siuntomis",
+        "split_shipping_more_shipping_options": "Daugiau siuntimo galimybių",
+        "split_shipping_shipment_number": "Siuntimas %{number}",
+        "split_shipping_option_lowest_price": "Žemiausia kaina",
+        "split_shipping_option_custom": "Pritaikyta",
+        "default_description": "Išsiunčiama per vieną darbo dieną",
+        "split_shipping_shipment_notice": "Jūs gausite savo užsakymą %{quantity_shipments} kartus",
+        "unbranded_default_description": "Paruošta siuntimui",
+        "prime_not_available": {
+          "default": "Prime pristatymas nėra prieinamas jūsų užsakymui. Jūsų siuntimo parinktys atnaujintos."
+        },
+        "split_shipping_first_shipment_notice": "Jūs gausite savo pirmąjį užsakymą per %{quantity_shipments}",
+        "shipping_method_rollup_accessibility_label": "Pristatymo būdo pasirinkimai",
+        "shipping_address_rollup_accessibility_label": "Pristatymo į adresą parinktys",
+        "invalid_shipping_method_summary_selected": "Pasirinkite kitą pristatymo adresą, kad peržiūrėtumėte galimus siuntimo būdus",
+        "third_party_address_timeout": "Nepavyksta įkelti adreso. Bandykite dar kartą arba naudokite kitą adresą.",
+        "third_party_address_error": "Įvyko klaida įkeliant adreso pasirinkimą. Įveskite savo adresą žemiau rankiniu būdu.",
+        "third_party_payment_timeout": "Nepavyksta įkelti mokėjimo būdų. Bandykite dar kartą arba pasirinkite kitą mokėjimo būdą.",
+        "third_party_payment_error": "Įvyko klaida įkeliant mokėjimo pasirinkimą. Naudokite kitą mokėjimo būdą.",
+        "unbranded_description_same_day": "Išsiunčiama tą pačią darbo dieną",
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Išsiunčiama per %{count} savaites",
+          "other": "Bus išsiųsta po %{count} savaičių"
+        },
+        "delivery_to": "Pristatymas į"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay"
       }
     }
   }
