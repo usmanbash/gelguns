@@ -4286,8 +4286,84 @@
         "payment_method_selector_placeholder": "Válasszon egy másik fizetési módot (opcionális)",
         "replace_method_with_new_method_description": "A(z) {{currentPaymentMethodName}} eltávolításra kerül, és helyette a(z) {{newPaymentMethodName}} lesz beállítva.",
         "error_when_deleting": "Elnézést kérünk, valami hiba történt, és nem tudjuk eltávolítani ezt a fizetési módot. Kérjük, próbálja meg később újra, vagy frissítse az oldalt.",
-        "delete_and_replace_button": "Eltávolítás és csere"
-      }
+        "delete_and_replace_button": "Eltávolítás és csere",
+        "delete_and_replace_button_accessibility_label": "Távolítsa el a {{currentPaymentMethodName}} fizetési módot, és cserélje le a {{newPaymentMethodName}} fizetési módra.",
+        "deleted_successfully": "A fizetési mód törölve lett.",
+        "payment_method_selector_no_alternative_payment": "Nincs helyettesítő módszer",
+        "loading_available_payment_methods_accessibility_label": "Elérhető fizetési módok betöltése",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előzetesen engedélyezett fizetésekre. A meglévő rendelések fennálló összegeit továbbra is ezen a fizetési módon terheljük, hacsak nem választasz másik fizetési módot. Válassz másik fizetési módot, hogy megszakítás nélkül megkaphasd a közelgő előfizetéses rendelések fizetését.",
+          "with_pending_orders": "A fizetési mód törlése azt eredményezi, hogy az eltávolításra kerül a fiókodból, és többé nem lesz elérhető a jövőbeni vásárlásokhoz. A meglévő rendelések fennálló összegeit továbbra is ezen a fizetési módon terhelik, hacsak nem választasz másik fizetési módot.",
+          "with_subscriptions": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előzetesen engedélyezett fizetésekre. Cseréld le egy másik fizetési módra, hogy továbbra is megkapd a közelgő megrendeléseket."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előzetesen engedélyezett fizetésekre. A meglévő rendelések fennálló összegeit továbbra is ezen a fizetési módon terhelik, de nem kapsz értesítést a közelgő előfizetéses rendelésekhez. Adj hozzá egy másik fizetési módot, hogy továbbra is megkapd az előfizetéses rendeléseket.",
+          "with_pending_orders": "A fizetési mód törlése azt eredményezi, hogy az eltávolításra kerül a fiókodból, és többé nem lesz elérhető a jövőbeni vásárlásokhoz. A meglévő rendelések fennálló összegeit továbbra is ezen a fizetési módon terhelik.",
+          "with_subscriptions": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előzetesen engedélyezett fizetésekre. Adj hozzá egy másik fizetési módot, hogy továbbra is megkapd a közelgő megrendeléseket."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Fizetési mód módosítása",
+        "billing_address_choose_from_list": "Válasszon a listából",
+        "future_purchases_notice": "Ez a fizetési mód a jövőbeni vásárlásokhoz elmentésre kerül.",
+        "generic_error": "Hiba történt a frissítés során. Kérjük, próbálja meg újra."
+      },
+      "card_fields": {
+        "name_on_card_label": "Név a kártyán",
+        "name_on_card_placeholder": "Név a kártyán",
+        "card_expiry_label": "Lejárati dátum (HH/ÉÉ)",
+        "card_expiry_placeholder": "Lejárati dátum (HH/ÉÉ)",
+        "card_start_label": "Kiadás dátuma (HH/ÉÉ)",
+        "card_start_placeholder": "Kiadás dátuma (HH/ÉÉ)",
+        "tooltip": {
+          "tooltip_accessibility_label": "További információk",
+          "card_verification_value_explanation_amex": "4 számjegyű biztonsági kód a kártyád előoldalán",
+          "card_verification_value_explanation_other": "3 jegyű biztonsági kód a kártyád hátoldalán",
+          "card_verification_value_explanation": "3 számjegyből álló biztonsági kód, amelyet általában a kártya hátoldalán talál meg. Az American Express esetében a kód 4 számjegyű, és a kártya előoldalán van."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Add meg a neved úgy, ahogy az a kártyádon szerepel",
+          "credit_card_number_invalid": "Adjon meg egy érvényes kártyaszámot",
+          "credit_card_expiry_invalid": "Adjon meg egy érvényes lejárati dátumot a kártyához",
+          "credit_card_verification_value_blank": "Írd be a kártyád CVV/CVC- vagy biztonsági kódját"
+        },
+        "unavailable": {
+          "text": "Jelenleg nem elérhető a fizetés hitel- és bankkártyával.",
+          "link_text": "Frissítse ezt az oldalt",
+          "suffix": "vagy próbálja meg később újra."
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "choose_billing_address_from_list_button": "Válasszon a listából",
+          "choose_billing_address_from_list_button_accessibility_label": "Válasszon egy számlázási címet a listából",
+          "missing_billing_address_error_message": "Adjon meg egy számlázási címet",
+          "default_checkbox": "Beállítás alapértelmezett fizetési módnak"
+        },
+        "replace_mode_warning": "Ha eltávolítod ezt a fizetési módot, az hatással lesz az előfizetésekre vagy előrendelésekre. Cseréld le egy másik fizetési módra, hogy továbbra is megkapd a közelgő megrendeléseket.",
+        "choose_from_list": "Válasszon a listából",
+        "subscription_contracts": {
+          "load_more": "Több betöltése",
+          "more_items": {
+            "one": "Még {{count}} termék",
+            "other": "Még {{count}} termék"
+          }
+        },
+        "contracts_update_failed": "Néhány előfizetési szerződést nem sikerült frissíteni",
+        "subscription_contracts_updated": "{{succeeded}} van {{total}} előfizetés frissítve",
+        "invalid_wallet_type_error": "Érvénytelen digitális tárca típus",
+        "updating_contracts": {
+          "one": "{{count}} előfizetési szerződés frissítése folyamatban...",
+          "other": "{{count}} előfizetési szerződés frissítése folyamatban..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} előfizetési szerződés frissítve",
+          "other": "{{count}} előfizetési szerződés frissítve"
+        },
+        "missing_customer_error": "Valami hiba történt. Próbálja meg újra, vagy lépjen kapcsolatba a támogatással."
+      },
+      "expired": "Ez a kártya lejárt.",
+      "card_update_consent": "Ez a fizetési mód a jövőbeni vásárlásokhoz elmentésre kerül."
     }
   }
 }
