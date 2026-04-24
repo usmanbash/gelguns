@@ -289,20 +289,20 @@
       "announcement": "Anuncio",
       "menu": "Menú",
       "cart_count": {
-        "one": "{{ count }} artículo",
+        "one": "{{ count }} artículos",
         "other": "{{ count }} artículos",
         "many": "{{ count }} artículos"
       }
     },
     "cart": {
-      "title": "Tu carrito",
-      "caption": "Artículos en el carrito",
+      "title": "Tu carrito de compras",
+      "caption": "Artículos en el carrito de compras",
       "remove_title": "Eliminar {{ title }}",
-      "note": "Instrucciones especiales del pedido",
-      "checkout": "Pagar pedido",
-      "empty": "Tu carrito esta vacío",
-      "cart_error": "Hubo un error al actualizar tu carrito de compra. Inténtalo de nuevo.",
-      "cart_quantity_error_html": "Solo puedes agregar {{ quantity }} de este artículo a tu carrito.",
+      "note": "Instrucciones especiales para el pedido",
+      "checkout": "Pagar",
+      "empty": "Tu carrito está vacío",
+      "cart_error": "Se ha producido un error al actualizar tu carrito. Por favor, inténtalo de nuevo.",
+      "cart_quantity_error_html": "Solo puedes añadir {{ quantity }} de este artículo a tu carrito de compras.",
       "headings": {
         "product": "Producto",
         "price": "Precio",
@@ -313,87 +313,87 @@
       "update": "Actualizar",
       "login": {
         "title": "¿Tienes una cuenta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión</a> para finalizar tus compras con mayor rapidez."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Iniciar sesión</a> para pagar más rápido."
       },
       "estimated_total": "Total estimado",
       "new_estimated_total": "Nuevo total estimado",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Aranceles e impuestos incluidos. Descuentos y <a href=\"{{ link }}\">envío</a> calculados en la pantalla de pago.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Aranceles e impuestos incluidos. Descuentos y envío calculados en la pantalla de pago.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Impuestos incluidos. Descuentos y <a href=\"{{ link }}\">envío</a> calculados en la pantalla de pago.",
-      "taxes_included_shipping_at_checkout_without_policy": "Impuestos incluidos. Descuentos y envío calculados en la pantalla de pago.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Aranceles incluidos. Impuestos, descuentos y <a href=\"{{ link }}\">envío</a> calculados en la pantalla de pago.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Aranceles incluidos. Impuestos, descuentos y envío calculados en la pantalla de pago.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impuestos, descuentos y <a href=\"{{ link }}\">envío</a> calculados en la pantalla de pago.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Impuestos, descuentos y envío calculados en la pantalla de pago."
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Derechos de aduana e impuestos incluidos. Los descuentos y el <a href=\"{{ link }}\">envío</a> se calculan al finalizar la compra.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Derechos de aduana e impuestos incluidos. Los descuentos y el envío se calculan al finalizar la compra.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Impuestos incluidos. Los descuentos y el <a href=\"{{ link }}\">envío</a> se calculan al finalizar la compra.",
+      "taxes_included_shipping_at_checkout_without_policy": "Impuestos incluidos. Los descuentos y el envío se calculan al finalizar la compra.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Derechos de aduana incluidos. Impuestos, descuentos y <a href=\"{{ link }}\">envío</a> se calculan al finalizar la compra.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Derechos de aduana incluidos. Impuestos, descuentos y envío se calcularán al finalizar la compra.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Impuestos, descuentos y <a href=\"{{ link }}\">envío</a> se calculan al finalizar la compra.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Los impuestos, descuentos y el envío se calculan al finalizar la compra."
     },
     "footer": {
-      "payment": "Formas de pago"
+      "payment": "Métodos de pago"
     },
     "featured_blog": {
       "view_all": "Ver todo",
-      "onboarding_title": "Artículo de blog",
-      "onboarding_content": "Ofrece a tus clientes un resumen de tu artículo de blog"
+      "onboarding_title": "Publicación de blog",
+      "onboarding_content": "Ofrece a tus clientes un resumen de tu entrada de blog"
     },
     "featured_collection": {
       "view_all": "Ver todo",
-      "view_all_label": "Ver todos los productos de la colección {{ collection_name }}"
+      "view_all_label": "Ver todos los productos en la colección {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Ver todo"
     },
     "collection_template": {
       "title": "Colección",
-      "empty": "No se encontró ningún producto",
-      "use_fewer_filters_html": "Usa menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimínalos todos</a>"
+      "empty": "No se encontraron productos",
+      "use_fewer_filters_html": "Usar menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">eliminar todo</a>"
     },
     "video": {
-      "load_video": "Cargar video: {{ description }}"
+      "load_video": "Cargando video: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Cargar diapositiva",
+      "load_slide": "Día de carga",
       "previous_slideshow": "Diapositiva anterior",
-      "next_slideshow": "Diapositiva siguiente",
-      "pause_slideshow": "Pausar la presentación",
-      "play_slideshow": "Reproducir la presentación",
+      "next_slideshow": "Siguiente diapositiva",
+      "pause_slideshow": "Pausar presentación de diapositivas",
+      "play_slideshow": "Reproducir presentación de diapositivas",
       "carousel": "Carrusel",
-      "slide": "Diapositiva"
+      "slide": "Día"
     },
     "page": {
       "title": "Título de la página"
     },
     "announcements": {
       "previous_announcement": "Anuncio anterior",
-      "next_announcement": "Anuncio siguiente",
+      "next_announcement": "Próximo anuncio",
       "carousel": "Carrusel",
       "announcement": "Anuncio",
       "announcement_bar": "Barra de anuncios"
     },
     "quick_order_list": {
-      "product_total": "Subtotal de productos",
+      "product_total": "Subtotal del producto",
       "view_cart": "Ver carrito",
-      "each": "{{ money }}/unidad",
+      "each": "{{ money }}/mes",
       "product": "Producto",
       "variant": "Variante",
-      "variant_total": "Total de variantes",
+      "variant_total": "Variante total",
       "items_added": {
-        "one": "{{ quantity }} artículo agregado",
-        "other": "{{ quantity }} artículos agregados",
+        "one": "{{ quantity }} artículos añadidos",
+        "other": "{{ quantity }} artículos añadidos",
         "many": "{{ quantity }} artículos agregados"
       },
       "items_removed": {
-        "one": "{{ quantity }} artículo eliminado",
+        "one": "{{ quantity }} artículos eliminados",
         "other": "{{ quantity }} artículos eliminados",
         "many": "{{ quantity }} artículos eliminados"
       },
       "product_variants": "Variantes de producto",
-      "total_items": "Total de artículos",
-      "remove_all_items_confirmation": "¿Eliminar los {{ quantity }} artículos del carrito?",
-      "remove_all": "Eliminar todos",
+      "total_items": "Número total de artículos",
+      "remove_all_items_confirmation": "¿Eliminar los {{ quantity }} artículos de tu carrito?",
+      "remove_all": "Eliminar todo",
       "cancel": "Cancelar",
       "remove_all_single_item_confirmation": "¿Eliminar 1 artículo de tu carrito?",
-      "min_error": "Este artículo tiene un mínimo de {{ min }}.",
-      "max_error": "Este artículo tiene un máximo de {{ max }}.",
-      "step_error": "Solo puedes agregar este artículo en incrementos de {{ step }}"
+      "min_error": "Para este artículo se aplica un mínimo de {{ min }}.",
+      "max_error": "Para este artículo se aplica un máximo de {{ max }}.",
+      "step_error": "Solo puedes añadir este artículo en incrementos de {{ step }}"
     }
   },
   "localization": {
@@ -666,7 +666,63 @@
             "additional_requested_discount_discarded": "Tu descuento es válido pero no aplicable. Revisa los términos y condiciones para descuentos."
           },
           "tax": {
-            "new_tax_must_be_accepted": "Los impuestos aplicables a tu pedido han cambiado. Revisa tu pedido e inténtalo de nuevo."
+            "new_tax_must_be_accepted": "Los impuestos aplicables a tu pedido han cambiado. Revisa tu pedido e inténtalo de nuevo.",
+            "unresolvable_tax_terms": "Las condiciones propuestas no son viables dado el contexto actual de las negociaciones.",
+            "delivery_price_is_abstract": "El precio correspondiente para la entrega es abstracto.",
+            "tax_inclusivity_mismatch": "Negocie de nuevo con un valor concreto para totalTaxAndDutyAmount o totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "En la sesión de negociación actual no se apoyan exenciones fiscales.",
+            "delivery_tax_exemption_not_supported": "Actualmente no se admiten exenciones fiscales para las normas de entrega.",
+            "proposed_allocations_required": "El campo 'asignaciones sugeridas' falta.",
+            "merchandise_terms_must_be_defined": "Defina las condiciones para los bienes.",
+            "delivery_terms_must_be_defined": "Define las condiciones para la entrega.",
+            "merchandise_discount_terms_must_be_defined": "Define las condiciones para el descuento en mercancías.",
+            "delivery_discount_terms_must_be_defined": "Define las condiciones para el descuento de entrega.",
+            "allocated_required": "El campo 'asignado' falta.",
+            "value_required": "El campo 'valor' falta.",
+            "line_splits_not_supported": "El campo 'líneas de mercancías' debe dividirse de manera que haya un componente separado en la propuesta del vendedor para cada línea."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Los pagos manuales no están permitidos en tiendas B2B.",
+            "positive_amount_expected": "El importe a pagar debe ser mayor que 0.",
+            "total_amount_mismatch": "El importe total a pagar no coincide con la suma de los pagos.",
+            "subscription_terms_not_accepted": "Condiciones de suscripción no aceptadas.",
+            "missing_session_id": "Falta información sobre la sesión de tarjeta de crédito.",
+            "gateway_not_supported": "La pasarela de pago no admite guardar el método de pago.",
+            "credit_card_last_name_required": "'el apellido' no puede estar vacío.",
+            "credit_card_update_failed": "No se pudo actualizar la tarjeta de crédito.",
+            "invalid_address_type": "El tipo de dirección introducido no es válido para este método de pago.",
+            "missing_retail_attributions": "Se requieren asignaciones de venta al por menor para los pagos con tarjeta de crédito ingresados manualmente.",
+            "unexpected_retail_attributions": "Asignaciones minoristas inesperadas indicadas para un pago con tarjeta de crédito.",
+            "invalid_card_source": "Esta sesión no está autorizada para usar esta fuente de mapa.",
+            "wallet_content_missing": "Falta contenido en la billetera.",
+            "payment_instrument_not_found": "No se puede encontrar el método de pago",
+            "unauthorized_capture_method": "No está permitido configurar el método para registrar pagos.",
+            "saved_payment_methods_not_allowed": "'Métodos de pago guardados' no está permitido.",
+            "saved_payment_methods_not_enabled": "'Formas de pago guardadas' no están habilitadas para esta tienda.",
+            "store_credit_not_enabled": "El crédito de la tienda no está activado para esta tienda.",
+            "store_credit_account_not_found": "Cuenta de crédito de tienda no encontrada.",
+            "store_credit_account_mismatch": "La cuenta de crédito en la tienda no coincide con la identidad del comprador.",
+            "store_credit_mismatched_currency": "La moneda de la cuenta de crédito de la tienda no coincide con la moneda del pago.",
+            "store_credit_insufficient_funds": "No hay saldo suficiente en la cuenta de crédito de la tienda.",
+            "store_credit_buying_gift_card": "No puedes comprar una tarjeta de regalo con saldo de tienda.",
+            "gift_cards_not_allowed_for_b2b": "No se permiten vales de regalo en tiendas B2B.",
+            "method_required": "Se debe proponer un método de pago.",
+            "paypal_express_address_invalid": "PayPal ha devuelto una dirección no válida.",
+            "saved_payment_methods_cvv_verification_disabled": "Para el método de pago seleccionado se requiere verificación CVV/CVC, pero no está habilitada para esta tienda. Utilice otro método de pago."
+          },
+          "tip": {
+            "not_accepted_by_shop": "La tienda no acepta propinas.",
+            "only_one_tip_line_allowed": "Varias reglas de propina no son compatibles.",
+            "tips_not_allowed_for_b2b": "No se permiten propinas en las tiendas B2B.",
+            "currency_change_reset": "La propina se ha restablecido debido a un cambio en la moneda.",
+            "tips_not_allowed_for_deferred_purchase_options": "Las propinas aún no son compatibles con las opciones de compra aplazada."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Este pedido conceptual no existe en la tienda actual.",
+            "staff_member_not_exist": "Este empleado no está registrado en la tienda actual.",
+            "location_not_exist": "Esta ubicación no existe en la tienda actual.",
+            "point_of_sale_device_not_exist": "Este punto de venta no existe en la tienda actual.",
+            "unresolvable_target_merchandise_lines": "Las asignaciones de venta propuestas no se pueden resolver en el contexto de negociación existente."
           }
         }
       }
