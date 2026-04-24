@@ -2251,7 +2251,91 @@
       },
       "localized_fields": {
         "additional_information": {
-          "tax_credential_br": "NIP/REGON"
+          "tax_credential_br": "NIP/REGON",
+          "shipping_credential_br": "NIP/REGON",
+          "shipping_credential_kr": "Osobisty kod celny",
+          "shipping_credential_cn": "Numer identyfikacyjny mieszkańca",
+          "tax_credential_co": "Dowód osobisty/NIP",
+          "tax_credential_type_co": "Rodzaj dowodu osobistego",
+          "shipping_credential_co": "Dowód osobisty/NIP",
+          "shipping_credential_type_co": "Rodzaj dowodu osobistego",
+          "tax_credential_cr": "Numer identyfikacyjny/RUT",
+          "shipping_credential_cr": "Numer identyfikacyjny/RUT",
+          "tax_credential_ec": "CI/RUC/PDV",
+          "shipping_credential_ec": "CI/RUC/PDV",
+          "tax_credential_gt": "NIP/NIP VAT",
+          "shipping_credential_gt": "NIP/NIP VAT",
+          "tax_credential_my": "NIP/Numer rejestracyjny",
+          "shipping_credential_my": "NIP/Numer rejestracyjny",
+          "tax_credential_type_mx": "Reżim Podatkowy",
+          "tax_credential_use_mx": "Użycie CFDI",
+          "tax_credential_py": "CI/RUC/PDV",
+          "shipping_credential_py": "CI/RUC/PDV",
+          "tax_credential_pe": "DNI/NIP/CE",
+          "shipping_credential_pe": "DNI/NIP/CE",
+          "tax_credential_pt": "NIP/NIP UE",
+          "shipping_credential_pt": "NIP/NIP UE",
+          "tax_credential_es": "DNI/NIP",
+          "shipping_credential_es": "DNI/NIP",
+          "shipping_credential_tw": "Numer identyfikacyjny państwa/numer VAT",
+          "tax_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP",
+          "shipping_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP"
+        }
+      },
+      "post_purchase": {
+        "escape_confirmation": "Zapłaciłeś za swoje zamówienie.",
+        "escape_action": "Zobacz potwierdzenie zamówienia ›",
+        "components": {
+          "expand": "Zobacz więcej",
+          "processing": "Przetwarzanie...",
+          "submit": "Złóż wniosek"
+        }
+      },
+      "change_country": {
+        "cart_and_currency_updated_based_on_country": "Twój koszyk i waluta zostały dostosowane do kraju wysyłki.",
+        "currency_updated_for_country": "Waluta zaktualizowana dla %{country}"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} co każde %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Pierwsze %{count} płatności po %{total_price} za sztukę"
+          }
+        },
+        "recurring_total_intervals": {
+          "month": {
+            "other": "%{count} miesięcy"
+          },
+          "year": {
+            "other": "%{count} lat"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Pierwsza płatność %{total_price_with_discount}, następnie %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", następnie %{count} płatność %{total_price}",
+            "other": ", następnie %{count} płatności, każda po %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Wystąpił problem podczas przetwarzania twojego zgłoszenia.",
+          "success_message": "Twoja metoda płatności została usunięta"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Ogólne warunki MoR (Sprzedawcy zarejestrowanego)",
+        "privacy_policy": "Polityka prywatności zarejestrowanego sprzedawcy"
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Ten produkt zostanie usunięty z twojego koszyka, ponieważ nie jest dostępny w twoim kraju/regionie.",
+          "other": "Te produkty zostaną usunięte z twojego koszyka, ponieważ nie są dostępne w twoim kraju/regionie."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Ten produkt nie jest dostępny w twoim kraju/regionie.",
+          "other": "Te produkty nie są dostępne w twoim kraju/regionie."
         }
       }
     }
