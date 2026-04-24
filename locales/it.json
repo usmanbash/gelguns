@@ -608,7 +608,65 @@
             "minimum_quantity_not_met": "Per alcuni articoli non viene raggiunto il numero minimo consentito",
             "maximum_quantity_exceeded": "Per alcuni articoli non viene raggiunto il numero massimo consentito",
             "quantity_increment_not_met": "Per alcuni articoli non vengono rispettati i limiti di ordine",
-            "quantity_rules_not_met": "Per alcuni articoli non vengono rispettati i limiti di ordine"
+            "quantity_rules_not_met": "Per alcuni articoli non vengono rispettati i limiti di ordine",
+            "bundle_requires_components": "Questo pacchetto di prodotti non contiene componenti.",
+            "title_too_long": "Il titolo della merce è troppo lungo.",
+            "mixed_currencies": "Il carrello contiene righe d'ordine con valute diverse.",
+            "product_not_published_in_buyer_location": "Il prodotto non è pubblicato nella posizione dell'acquirente."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "La persona di contatto all'interno dell'azienda non ha accesso all'azienda.",
+            "contact_info_does_not_match_customer_account": "I dati di contatto devono corrispondere all'account con cui hai effettuato l'accesso.",
+            "phone_number_does_not_match_expected_pattern": "Il numero di telefono inserito ha un formato errato.",
+            "email_required": "Quando i beni sono stati acquistati con un abbonamento, è necessario un messaggio di posta elettronica.",
+            "email_domain_is_invalid": "Questo dominio specificato non può essere risolto.",
+            "missing_contact_method": "Manca un metodo di contatto valido.",
+            "checkout_completion_target_is_missing": "Obiettivo per il completamento del pagamento mancante.",
+            "invalid_customer_profile": "È stato fornito un profilo cliente non valido.",
+            "customer_profile_access_restricted": "Il checkout non ha accesso al profilo cliente.",
+            "checkout_completion_target_is_invalid_proc": "Obiettivo di completamento del pagamento non valido.",
+            "company_location_required": "Il cliente può procedere solo se sceglie una sede aziendale.",
+            "lost_access_to_company": "Il cliente ha perso l'accesso a ogni azienda.",
+            "personal_order_not_allowed": "Gli ordini personali non sono consentiti per questo negozio.",
+            "buyer_identity_presentment_currency_does_not_match": "Si è verificato un problema durante l'elaborazione del tuo ordine. Riprova tra qualche minuto."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Un carrello può contenere una sola voce di consegna.",
+            "wrong_number_of_delivery_lines": "Specifica una regola di consegna per ogni gruppo di merci.",
+            "external_delivery_promise_error": "Impossibile recuperare la data di consegna prevista dal fornitore esterno.",
+            "options_instructions_invalid": "Le istruzioni fornite contengono uno schema errato.",
+            "destination_address_required": "Per continuare è necessario un indirizzo di destinazione.",
+            "local_pickup_delivery_line_detail_changed": "Per continuare, è necessario modificare l'attuale strategia di consegna per il ritiro sul posto.",
+            "local_pickup_no_delivery_strategy_available": "Nessuna strategia di consegna disponibile per il ritiro sul posto.",
+            "origin_location_id_required": "È richiesto un ID di localizzazione di origine quando viene richiesta la modalità di consegna NEGOZIO.",
+            "invalid_origin_location_id": "Impossibile trovare una posizione per l'ID della posizione di origine.",
+            "origin_location_id_not_allowed": "Nelle modalità di consegna richieste non è supportato alcun ID di luogo di origine.",
+            "auto_fulfill_not_allowed": "Questa sessione non è autorizzata a sovrascrivere il comportamento di evasione.",
+            "auto_fulfill_required": "Il completamento automatico è richiesto quando viene scelta la modalità di consegna NEGOZIO.",
+            "prefetch_shipping_rates_used": "Le tariffe di spedizione raccolte in anticipo non devono mai essere tariffe di reso.",
+            "fulfillment_constraints_not_satisfied": "Non è stato soddisfatto uno o più vincoli di esecuzione.",
+            "must_fulfill_from_constraint_not_satisfied": "Il motivo è che gli articoli non possono essere gestiti dalle sedi richieste.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Il motivo è che gli articoli non possono essere gestiti dalla stessa sede.",
+            "delivery_strategy_conditions_not_satisfied": "Sono disponibili strategie di consegna per questa località, ma non vengono soddisfatte le condizioni.",
+            "out_of_stock_at_origin_location": "Nessuna scorta nella sede di origine."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Lo sconto personalizzato inserito non è stato applicato.",
+            "unsupported_expectation": "La regola di sconto inserita conteneva un'ipotesi che la politica non riusciva a interpretare.",
+            "additional_requested_discount_code_discarded": "{{code}} è valido ma non applicabile. Controlla le condizioni per gli sconti.",
+            "allocations_mismatch": "Il tuo codice sconto è stato modificato. Controlla il carrello e riprova.",
+            "discount_title_too_long": "Il titolo dello sconto non deve superare i 255 caratteri.",
+            "additional_requested_discount_discarded": "Il tuo sconto è valido ma non applicabile. Controlla le condizioni per gli sconti."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Le tasse applicabili al tuo ordine sono cambiate. Controlla il tuo ordine e riprova.",
+            "unresolvable_tax_terms": "Le condizioni proposte non sono realizzabili alla luce del contesto negoziale esistente.",
+            "delivery_price_is_abstract": "Il prezzo pertinente per la consegna è astratto.",
+            "tax_inclusivity_mismatch": "Rinegoziare con un valore concreto per totalTaxAndDutyAmount o totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Nell'attuale sessione di trattative non sono previste esenzioni fiscali.",
+            "delivery_tax_exemption_not_supported": "Le esenzioni fiscali per le norme di consegna attualmente non sono supportate.",
+            "proposed_allocations_required": "Il campo 'assegnazioni suggerite' è mancante.",
+            "merchandise_terms_must_be_defined": "Definisci le condizioni per le merci."
           }
         }
       }
