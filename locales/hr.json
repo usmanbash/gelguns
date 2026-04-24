@@ -922,7 +922,85 @@
       },
       "stock": {
         "page_title": "Problem z zalihama",
-        "title": "Nema na skladištu"
+        "title": "Nema na skladištu",
+        "quantity_column_header": "Broj",
+        "reduced_with_quantity_label": "Samo %{quantity_available} na skladištu",
+        "go_back_to_cart_button_label": "Natrag na moju košaricu",
+        "empty_cart_label": "Vaša košarica je prazna",
+        "quantity_update": {
+          "page_title": "Ažurirana količina",
+          "title": "Ažurirana količina",
+          "description": "Dostupne količine za ove artikle su promijenjene i vaša je košarica ažurirana."
+        },
+        "unpurchasable_product": {
+          "title": "Proizvod se ne može kupiti",
+          "header": "Neki su artikli uklonjeni iz tvoje košarice",
+          "status_column_header": "Nije dostupno"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Proizvod se ne može kupiti",
+          "header": "Neki su artikli uklonjeni iz tvoje košarice",
+          "message": "Ovi artikli nisu dostupni.",
+          "status_column_header": "Nije dostupno"
+        },
+        "unshippable_product": {
+          "title": "Nema dostupne dostave",
+          "header": {
+            "one": "Nema dostupne dostave za %{count} artikl",
+            "other": "Nema dostupne dostave za %{count} artikala"
+          },
+          "message": {
+            "one": "Ovaj će se artikl ukloniti iz tvoje košarice jer za tvoju adresu nisu dostupne metode dostave.",
+            "other": "Ovaj će se artikl ukloniti iz tvoje košarice jer za tvoju adresu nisu dostupne metode dostave."
+          },
+          "status_column_header": "Nema dostave"
+        },
+        "price_update": {
+          "title": "Ažuriranje cijena",
+          "description": "Cijene ovih artikala su promijenjene i ažurirane u tvojoj košarici."
+        },
+        "return_to_store_label": "Natrag u trgovinu",
+        "item_label": {
+          "other": "{{count}} artikala"
+        },
+        "continue_cta_label": "Nastavi na naplatu",
+        "out_of_stock": {
+          "description": "Ovi artikli više nisu dostupni i uklonjeni su iz tvoje košarice.",
+          "items_unavailable": "Neki artikli više nisu dostupni i uklonjeni su iz tvoje košarice."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} više nije dostupan za ovaj artikal.",
+            "other": "%{delivery_method} više nije dostupan za ove artikle."
+          },
+          "default_message": {
+            "one": "Odabrana metoda dostave više nije dostupna za ovaj artikl.",
+            "other": "Odabrana metoda dostave više nije dostupna za ove artikle."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Ažuriraj cijenu i količinu",
+          "description": "Cijene i dostupne količine za ove artikle su promijenjene, a košarica je ažurirana."
+        },
+        "out_of_stock_in_context_label": "Ovaj proizvod nije dostupan u tvojoj zemlji/regiji."
+      },
+      "order_summary": {
+        "title": "Pregled narudžbe",
+        "gift_card_title": "Poklon bon",
+        "gift_card_label": "Poklon bon",
+        "gift_card_placeholder": "Poklon bon",
+        "gift_card_and_discount_title": "Kod za popust ili poklon bon",
+        "gift_card_and_discount_label": "Kod za popust ili poklon bon",
+        "gift_card_and_discount_placeholder": "Kod za popust ili poklon bon",
+        "add_discount_or_gift_card": "Dodavanje koda za popust ili poklon bonа",
+        "remove_gift_card_label": "Ukloni poklon bon",
+        "applied_discount_message": "Od ukupne cijene oduzeto je %{amount} popusta.",
+        "gift_card_has_been_applied": "Poklon kartica je primijenjena",
+        "gift_card_has_been_removed": "Poklon kartica je uklonjena",
+        "discount_already_applied": "Na ovu narudžbu primijenjen je popust. Ne možete dodati drugi popust.",
+        "cart_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> ne vrijedi za artikle u tvojoj košarici",
+        "discount_requires_customer_notice": "Unesite svoje podatke za dostavu kako biste primijenili kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}</strong> trenutno nije dostupan za vas"
       }
     }
   }
