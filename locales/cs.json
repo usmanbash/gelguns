@@ -4244,7 +4244,87 @@
           }
         },
         "contracts_update_failed": "Některé smlouvy o předplatném nebylo možné aktualizovat",
-        "subscription_contracts_updated": "{{succeeded}} z {{total}} předplatných aktualizováno"
+        "subscription_contracts_updated": "{{succeeded}} z {{total}} předplatných aktualizováno",
+        "invalid_wallet_type_error": "Neplatný typ digitální peněženky",
+        "updating_contracts": {
+          "one": "Smlouva o předplatném {{count}} se aktualizuje...",
+          "other": "{{count}} smluv o předplatném se aktualizuje..."
+        },
+        "contracts_updated": {
+          "one": "Smlouva o předplatném {{count}} byla aktualizována",
+          "other": "{{count}} smluv o předplatném bylo aktualizováno"
+        },
+        "missing_customer_error": "Něco se pokazilo. Zkuste to znovu nebo kontaktujte podporu."
+      },
+      "expires_soon": "Tato karta brzy vyprší",
+      "expired": "Tato karta vypršela",
+      "card_update_consent": "Tento způsob platby bude uložen pro budoucí nákupy.",
+      "credit_or_debit_card_title": "Kreditní karta nebo debetní karta",
+      "google_pay": {
+        "errors": {
+          "generic": "Došlo k problému s Google Pay. Zkuste to znovu nebo použijte jiný způsob platby.",
+          "missing_billing_address": "Pro Google Pay potřebujete fakturační adresu. Přidejte ji do svého účtu."
+        },
+        "loading": "Google Pay načteno",
+        "iframe_title_accessibility_label": "Přidat platební metodu Google Pay",
+        "loading_accessibility_message": "Google Pay načteno"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay načteno",
+        "errors": {
+          "generic": "Došlo k problému s Apple Pay. Zkuste to znovu nebo použijte jiný způsob platby.",
+          "not_available": "Apple Pay není na tomto zařízení k dispozici.",
+          "missing_billing_address": "Pro Apple Pay potřebujete fakturační adresu. Přidejte ji do svého účtu."
+        }
+      },
+      "add_payment_method_banner": "Přidat platební metodu pro rychlejší dokončení nákupu a služby pro předběžné schválení",
+      "edit_payment_method_button_accessibility_label": "Upravit {{paymentMethodName}}, které končí na {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Upravit {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Zobrazit varování o platbě pro {{paymentMethodName}}, která končí na {{lastDigits}}",
+      "no_payment_methods_banner": "Nebyla přidána žádná platební metoda",
+      "default": "Standardní",
+      "store_credit": {
+        "label": "Obchodní kredit",
+        "accesibility_label": "Zůstatek ve skladu - {{formattedBalance}}",
+        "expirable_amounts_button": "Zobrazit částky, které propadnou",
+        "details_modal": {
+          "title": "Zůstatek v obchodě, který propadne",
+          "expiration_date_label": "Datum platnosti",
+          "expirable_balance_info": "Část zůstatku propadá k budoucímu datu.",
+          "expirable_amount_label": "Celková částka, která propadne",
+          "expirable_amounts_info": "Částky, které dříve propadly, se při placení použijí jako první.",
+          "expired_amounts_button": "Zobrazit propadlé částky",
+          "pagination": {
+            "load_more_label": "Načíst více",
+            "load_more_accessibility_label": "Načíst více částek, které vyprší"
+          },
+          "events": {
+            "order_refund": "Vrácení platby za objednávku",
+            "payment_returned": "Platba vrácena zpět",
+            "tax_finalization": "Ukončení daně"
+          }
+        },
+        "expirable_amounts_label": "Propadlé částky"
+      },
+      "three_d_secure": {
+        "title": "3D zabezpečení",
+        "verification_failed": "Vaše platba nemůže být ověřena. Zkuste to znovu nebo použijte jiný způsob platby."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Přidat platební metodu PayPal",
+        "loading_accessibility_message": "PayPal načteno",
+        "errors": {
+          "generic": "Došlo k problému s PayPalem. Zkuste to znovu nebo použijte jiný způsob platby."
+        }
+      },
+      "card_update_consent_subscriptions": "Tento způsob platby bude uložen pro budoucí nákupy a může být použit pro každou opakující se nebo odloženou platbu.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Přidáním platební metody můžete povolit, aby byly na vaši kartu účtovány poplatky, dokud to nezrušíte, nebo aby při budoucích nákupech, které schválíte, byly částky strhávány z vašeho bankovního účtu."
+      },
+      "replacement_payment_method_title": "Náhradní způsoby platby",
+      "bank_account": {
+        "loading_accessibility_message": "Tlačítko pro bankovní účet se načítá",
+        "generic_error": "Nelze přidat bankovní účet. Zkuste to prosím později znovu."
       }
     }
   }
