@@ -10,14 +10,14 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Είσοδος στο κατάστημα με τη χρήση κωδικού πρόσβασης:",
-      "login_password_button": "Είσοδος με τη χρήση κωδικού πρόσβασης",
+      "login_form_heading": "Εισέλθετε στο κατάστημα με κωδικό πρόσβασης:",
+      "login_password_button": "Εισέλθετε με κωδικό πρόσβασης",
       "login_form_password_label": "Κωδικός πρόσβασης",
-      "login_form_password_placeholder": "Ο κωδικός σας πρόσβασης",
+      "login_form_password_placeholder": "Ο κωδικός σας",
       "login_form_error": "Λανθασμένος κωδικός πρόσβασης!",
-      "login_form_submit": "Είσοδος",
-      "admin_link_html": "Είστε ο ιδιοκτήτης του καταστήματος; <a href=\"/admin\" class=\"link underlined-link\">Συνδεθείτε εδώ</a>",
-      "powered_by_shopify_html": "Αυτό το κατάστημα θα υποστηρίζεται από το {{ shopify }}"
+      "login_form_submit": "Εισαγωγή",
+      "admin_link_html": "Είσαι ο ιδιοκτήτης του καταστήματος; <a href=\"/admin\" class=\"link underlined-link\">Σύνδεση εδώ</a>",
+      "powered_by_shopify_html": "Αυτό το κατάστημα λειτουργεί με {{ shopify }}"
     },
     "social": {
       "alt_text": {
@@ -4288,8 +4288,90 @@
     },
     "active_inspector": {
       "extension": {
-        "select": "Επιλογή της επέκτασης με όνομα '{{extensionName}}'"
+        "select": "Επιλογή της επέκτασης με όνομα '{{extensionName}}'",
+        "unselect": "Αναίρεση επιλογής της επέκτασης με όνομα '{{extensionName}}'",
+        "move_down_tooltip": "Μετακίνηση στην επόμενη θέση",
+        "move_up_tooltip": "Μετακίνηση στην προηγούμενη θέση",
+        "remove_tooltip": "Αφαίρεση"
       }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Δεν μπορείτε να ανοίξετε αυτόν τον σύνδεσμο μέσα στον επεξεργαστή. Ο σύνδεσμος θα ανοίξει σε νέο παράθυρο ({{resolved_to_link}}). Κάντε κλικ στο OK για να συνεχίσετε."
+    },
+    "shop_ads": {
+      "subtitle": "Προσωρινά διαθέσιμο",
+      "button": "Εξερεύνηση στο Κατάστημα"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Οι πελάτες μπορούν να ζητούν και να διαχειρίζονται τις επιστροφές μόνοι τους."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Προτιμήσεις cookies"
+    },
+    "announcement_bar": {
+      "expand_label": "Αναπτύξτε τη γραμμή ανακοινώσεων"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Αλλαγή μεθόδου πληρωμής",
+        "loading": "Φόρτωση μεθόδων πληρωμής",
+        "select_new_payment_method": "Επιλέξτε μια νέα μέθοδο πληρωμής",
+        "success": "Τρόπος πληρωμής ενημερώθηκε",
+        "use_new_payment_method": "+ Χρησιμοποιήστε νέα μέθοδο πληρωμής"
+      }
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "Σύνδεση ή δημιουργία λογαριασμού",
+        "section_divider": "Περισσότεροι τρόποι για να συνδεθείτε",
+        "alternate_divider": "ΤΟΥ",
+        "email_field_label": "Ηλεκτρονικό ταχυδρομείο",
+        "shop_login_button": "Σύνδεση με Shop",
+        "use_email_button": "Χρήση διεύθυνσης email"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Γεια σου {{first_name}},"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, άνοιγμα υπομενού",
+        "sign_in_with_email": "Σύνδεση με e-mail"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Αλλαγή μεθόδου πληρωμής",
+        "replace_with": "Αντικαταστήστε με",
+        "add_new_payment_method": "Προσθήκη νέου",
+        "loading": "Φόρτωση παραθύρου για αλλαγή μεθόδου πληρωμής",
+        "success": "Τρόπος πληρωμής ενημερώθηκε",
+        "invalid_subscription_contract": "Δεν είναι δυνατή η εύρεση συνδρομής",
+        "expiry_date": "Λήγει στις {{expiryDate}}"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "λογότυπο %{shop_name}",
+      "step_one": {
+        "subheading": "Εισάγετε το email σας και θα σας στείλουμε έναν κωδικό επαλήθευσης",
+        "input_field_label": "Διεύθυνση email",
+        "subheading_with_sign_in_options": "Σύνδεση ή δημιουργία λογαριασμού",
+        "or": "ή "
+      },
+      "step_two": {
+        "page_title": "Εισαγάγετε κωδικό - %{shop_name}",
+        "heading": "Εισαγάγετε κωδικό",
+        "subheading": "Απεστάλη στο %{email}",
+        "restart_link": "Σύνδεση με άλλη διεύθυνση email",
+        "input_field_label": "Κωδικός 6 ψηφίων"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Εισάγετε μια έγκυρη διεύθυνση email",
+          "invalid_code": "Εισάγετε τον σωστό κωδικό έξι ψηφίων"
+        }
+      },
+      "processing": "Επεξεργασία..."
     }
   }
 }
