@@ -732,9 +732,137 @@
             "token_missing": "Completa questo pagamento inserendo un token captcha.",
             "job_enqueue_failed": "Il compito di convalida captcha non può essere messo in coda.",
             "job_already_queued": "La convalida Captcha è già stata messa in coda per questo gettone.",
-            "token_expired": "Il token captcha inserito è scaduto. Esegui un nuovo captcha per continuare con il pagamento."
+            "token_expired": "Il token captcha inserito è scaduto. Esegui un nuovo captcha per continuare con il pagamento.",
+            "token_invalid": "Il token captcha fornito non è valido. Esegui un nuovo captcha per procedere al pagamento.",
+            "token_not_valid_for_session": "Impossibile utilizzare il captcha fornito in questo pagamento."
+          },
+          "checkout_source": {
+            "revoked": "Questo pagamento non è più disponibile."
           }
-        }
+        },
+        "title": "Pagamento - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - pagamento",
+        "loading_title": "Pagamento - {{shopName}}",
+        "submit_for_review_button_label": "Presentare un reclamo",
+        "submit_for_review_notice_label": "Il pagamento è dovuto solo dopo che il tuo ordine è stato verificato",
+        "continue_to_payment_plans_button_label": "Procedi ai piani di pagamento",
+        "back_button_label": "Reso",
+        "autocomplete_powered_by_google": "Reso possibile da {{brandName}}",
+        "processing": "Elaborazione...",
+        "stepper": {
+          "increase": "Aumento di {{type}}",
+          "decrease": "Prelievo di {{type}}",
+          "minimum_reached": "Minimo van raggiunto {{value}}",
+          "maximum_reached": "Massimo van {{value}} raggiunto"
+        },
+        "remove_item": "Rimuovere %{label}",
+        "remove_tag": "Rimuovi etichetta",
+        "dates": {
+          "weekdays_abbreviation": {
+            "monday": "ma.",
+            "tuesday": "di.",
+            "wednesday": "wo.",
+            "thursday": "fare.",
+            "friday": "realtà virtuale",
+            "saturday": "za.",
+            "sunday": "zo."
+          },
+          "months": {
+            "january": "gennaio",
+            "february": "febbraio",
+            "march": "marzo",
+            "april": "aprile",
+            "may": "maggio",
+            "june": "giugno",
+            "july": "luglio",
+            "august": "agosto",
+            "september": "settembre",
+            "october": "ottobre",
+            "november": "novembre",
+            "december": "dicembre"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Visualizza il mese precedente, {{month}} {{year}}",
+          "show_next_month": "Visualizza il mese prossimo, {{month}} {{year}}",
+          "range_start": "Inizio copertura",
+          "in_range": "A portata di mano",
+          "range_end": "Fine del percorso"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}} in {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} in {{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}} di {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} di {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster di {{number}} punti di riferimento",
+            "other": "Cluster di {{number}} punti di riferimento"
+          }
+        },
+        "sheet": {
+          "expand": "Apri"
+        },
+        "confirm_order_button_label": "Conferma dell'ordine",
+        "qr_code": "Codice QR",
+        "dropzone": {
+          "invalid_file_type": "Questo tipo di file non è supportato",
+          "dragged_over": "Posizionare il file per caricarlo"
+        },
+        "finalize_order_accessibility_label": "Completa l'ordine"
+      },
+      "contact": {
+        "contact_method_title": "Contatto",
+        "email_label": "Posta elettronica",
+        "email_placeholder": "Posta elettronica",
+        "email_or_phone_label": "E-mail o numero di telefono cellulare",
+        "email_or_phone_placeholder": "E-mail o numero di telefono cellulare",
+        "stored_addresses_label": "Indirizzi salvati",
+        "address2_label": "Casella postale, ecc.",
+        "optional_address2_label": "Casella postale, ecc. (facoltativo)",
+        "country_label": "Paese/regione",
+        "country_code": "Codice paese/regionale",
+        "province_label": "Province",
+        "province_placeholder": "Province",
+        "county_label": "Province",
+        "county_placeholder": "Province",
+        "region_label": "Regione",
+        "region_placeholder": "Regione",
+        "governorate_label": "Governo",
+        "governorate_placeholder": "Governo",
+        "emirate_label": "Emirati",
+        "emirate_placeholder": "Emirati",
+        "state_and_territory_label": "Stato/Territorio",
+        "state_and_territory_placeholder": "Stato/Territorio",
+        "phone_tooltip": "Nel caso in cui dobbiamo contattarti riguardo al tuo ordine",
+        "zip_code_label": "Codice postale",
+        "zip_code_placeholder": "Codice postale",
+        "postal_code_label": "Codice postale",
+        "postal_code_placeholder": "Codice postale",
+        "postcode_label": "Codice postale",
+        "postcode_placeholder": "Codice postale",
+        "pincode_label": "Codice postale",
+        "pincode_placeholder": "Codice postale",
+        "region_none": "Nessuno selezionato",
+        "civic_number_warning": "Aggiungi un numero civico se ne hai uno",
+        "different_shipping_address_label": "Spedire a un altro indirizzo",
+        "different_shipping_address_text": "Usare un indirizzo unico per questo ordine",
+        "change_company_location_link_label": "Modificare la sede aziendale",
+        "change_location_link_label": "Modifica posizione",
+        "shipping_used_as_billing_notice": "Utilizziamo questo anche come indirizzo di fatturazione per questo ordine.",
+        "company_attention_label": "Azienda/c.a.",
+        "optional_company_attention_label": "Azienda/c.a. (facoltativo)",
+        "optional_zip_code_label": "Codice postale (facoltativo)",
+        "optional_postal_code_label": "Codice postale (facoltativo)",
+        "email_rollup_accessibility_label": "Opzioni e-mail",
+        "phone_country_code_label": "Prefisso internazionale del numero di telefono",
+        "storefront_link": "sito web del commerciante",
+        "suburb_label": "Fuori quartiere"
       }
     }
   }

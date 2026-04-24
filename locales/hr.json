@@ -2590,7 +2590,87 @@
             }
           },
           "remove_item": {
-            "one": "Ukloni artikl"
+            "one": "Ukloni artikl",
+            "other": "Ukloni artikle"
+          },
+          "ship_separately": {
+            "one": "pošalji zasebno",
+            "other": "pošalji zasebno"
+          },
+          "pick_them_up_in_store": {
+            "one": "preuzmi u trgovini",
+            "other": "preuzmi u trgovini"
+          }
+        },
+        "items_for_shipping": "Artikli za slanje",
+        "items_moved_to_shipping_toast": "Artikli koji se ne mogu preuzeti premješteni su na dostavu",
+        "cross_border": {
+          "modal": {
+            "content": "Na taj će se način svi artikli ponovno postaviti za slanje. Vaše lokacije za preuzimanje i dostavu moraju biti u istoj zemlji."
+          },
+          "banner": "Vaša metoda dostave je ažurirana"
+        }
+      },
+      "captcha": {
+        "title": "Prođite kroz CAPTCHA da nastavite",
+        "errors": {
+          "not_solved": "Prođite kroz CAPTCHA da nastavite"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Naručivanje nije uspjelo jer vaša promotivna šifra više nije dostupna. Provjerite ukupni iznos narudžbe i pokušajte ponovno."
+      },
+      "wallets": {
+        "return_to_store": "Natrag u trgovinu",
+        "redirect_hint": "Od vas se traži da se prijavite u {{walletName}}.",
+        "logged_in": "Povezano s {{email}}",
+        "shipping_line_label": "Slanje",
+        "payment_in_progress_title": "Plaćanje u tijeku",
+        "payment_in_progress_body": "Plaćanje se obrađuje. Narudžba je skoro dovršena.",
+        "call_to_action": "Platite s {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nije dostupan",
+            "description": "{{walletName}} nije bio dostupan. Koristite drugi način plaćanja ili pokušajte ponovno kasnije.",
+            "instructions": "Došlo je do problema s {{walletName}}. Vratite se u trgovinu i pokušajte ponovno ili platite na drugi način.",
+            "unavailable_for_country": "{{walletName}} nije dostupan u {{countryName}}. Odaberite drugi način plaćanja za dovršetak kupnje"
+          },
+          "generic": "Došlo je do problema s {{walletName}}. Pokušajte ponovno ili upotrijebite drugi način plaćanja.",
+          "terminal": "Došlo je do problema s {{walletName}}. Koristite drugi način plaćanja.",
+          "detour": {
+            "price_change": "Cijene nekih artikala su se promijenile. Zatvori {{walletName}} da provjeriš svoju narudžbu i pokušaj ponovno.",
+            "queue": "Stojite u redu za blagajnu. Zatvorite {{walletName}} da nastavite.",
+            "currency_change": "Ne možete koristiti drugu adresu s {{walletName}}. Koristite izvornu adresu ili pokušajte drugu metodu plaćanja."
+          },
+          "unsupported": {
+            "address": "Prodavač ne može dostaviti na adresu koju ste odabrali.",
+            "postal_code": "Ova lokacija nije podržana",
+            "wallet_is_unavailable": "Ne možete koristiti {{walletName}} s ovom adresom. Odaberite drugu adresu ili zatvorite {{walletName}} da dovršite kupnju."
+          },
+          "outdated": {
+            "shipping_method": "Opcije dostave za tvoju narudžbu su promijenjene. Provjeri svoj odabir.",
+            "payment_terms": "Uvjeti plaćanja su promijenjeni. Provjerite svoju narudžbu"
+          },
+          "invalid": {
+            "billing_address": "Unesite valjanu adresu za fakturiranje",
+            "shipping_option": "Odaberite valjanu opciju dostave",
+            "email": "Unesite valjanu adresu e-pošte",
+            "zone": "Unesite valjanu državu/provinciju",
+            "postal_code": "Unesite valjani poštanski broj ili ZIP-kod",
+            "reduction_code": "Unesite valjani kod za popust ili poklon bon",
+            "billing_must_match_shipping": "Treba se podudarati s adresom dostave.",
+            "phone": "Unesite važeći telefonski broj",
+            "emirate": "Unesite važeći emirat",
+            "billing_zone": "Unesite valjanu državu/provinciju za adresu za naplatu",
+            "billing_phone": "Unesite važeći telefonski broj za adresu za naplatu",
+            "billing_zip": "Unesite valjani poštanski broj za adresu za naplatu"
+          },
+          "missing": {
+            "address2": "Unesite broj apartmana ili suitea itd.",
+            "city": "Unesite mjesto",
+            "country": "Odaberite zemlju/regiju",
+            "zip": "Unesite poštanski broj ili ZIP kod",
+            "phone": "Unesite telefonski broj"
           }
         }
       }
