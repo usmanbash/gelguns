@@ -998,7 +998,69 @@
         "vat_label_html": "Inclus %{amount} TVA",
         "discount_and_gift_card_savings_notice": "Après une remise de %{discount_amount} et %{gift_card_amount} de valeur en carte cadeau",
         "discount_savings_notice": "À %{discount_amount} de réduction",
-        "gift_card_savings_notice": "À hauteur de %{gift_card_amount} en valeur de carte cadeau"
+        "gift_card_savings_notice": "À hauteur de %{gift_card_amount} en valeur de carte cadeau",
+        "cost_table_title": "Aperçu des coûts",
+        "quantity_label": "Nombre",
+        "scroll_order_summary": "Faites défiler pour voir plus d'articles",
+        "total_updated_label": "Prix total mis à jour :",
+        "total_already_paid_label": "payé",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} par pièce",
+            "one": "%{price} par %{count} article",
+            "other": "%{price} pour %{count} articles"
+          }
+        },
+        "pickup_label": "Retrait en magasin",
+        "no_pickup_location": "Il n’y a aucun lieu de retrait disponible.",
+        "calculating_shipping": "Calcul en cours...",
+        "estimated_taxes_label": "Impôt estimé",
+        "information_estimated_taxes_label": "Taxes (estimées)",
+        "gift_card_ending": "Carte cadeau se terminant par %{last_characters}",
+        "estimated_tax_label": "Impôt estimé",
+        "multiple_shipping_lines_label": "Frais d'expédition totaux",
+        "original_price": "Prix d'origine",
+        "recurring_total_tooltip": "Hors frais d'expédition, TVA, droits de douane ou éventuelles remises.",
+        "gift_card_subscriptions_notice": "Les bons cadeaux sont appliqués uniquement lors de votre premier paiement",
+        "confirmation_number_label": "Numéro de confirmation %{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "Le montant total de la taxe est confirmé par courriel ou par texto après que vous avez passé votre commande.",
+        "deferred_payment_info": {
+          "description_html": "%{contact_us} pour toute question concernant votre commande.",
+          "paid_today": "Total payé aujourd'hui",
+          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à la réalisation de la commande.",
+          "due_on_receipt_title": "%{amount_due} est dû à réception",
+          "paid_today_next": "Payé aujourd'hui"
+        },
+        "percent_off_shipping": "%{percent}% de réduction sur la livraison",
+        "amount_off_shipping": "%{amount} de réduction sur la livraison",
+        "payment_terms_totals": {
+          "due_today": "Total dû aujourd'hui",
+          "due_later": "Total dû le %{due_at}",
+          "due_on_fulfillment": "Total dû à la réalisation des commandes",
+          "due_on_receipt": "Montant total à payer à la réception",
+          "due_today_next": "À payer aujourd'hui",
+          "due_on_fulfillment_next": "À payer lors de l'exécution"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne peut pas être utilisé avec vos réductions existantes.",
+        "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximal de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Commande totale",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous si vous avez besoin d’aide.",
+        "due_on_fulfillment": "Dû au traitement des commandes",
+        "duties_label": "Droits de douane",
+        "duties_and_taxes_label": "Droits de douane et taxes",
+        "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, il se peut donc que des droits de douane et des taxes soient facturés à la livraison.",
+        "may_be_charged_on_delivery": "Peut être facturé lors de la livraison",
+        "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
+        "deferred_total_due_date_label": "Total dû au {{date}}",
+        "full_price": "Prix plein : %{price}",
+        "custom_discount": "Remise personnalisée",
+        "expand_component_information": {
+          "one": "Afficher %{count} articles",
+          "other": "Afficher %{count} articles"
+        },
+        "collapse_component_information": {
+          "one": "Masquer %{count} article(s)"
+        }
       }
     }
   }
