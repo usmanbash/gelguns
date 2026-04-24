@@ -2738,9 +2738,99 @@
             "billing_first_name": "Zadajte krstné meno pre fakturačnú adresu",
             "billing_address2": "Zadajte číslo bytu alebo apartmánu a ďalšie údaje pre fakturačnú adresu",
             "billing_city": "Zadajte miesto pre fakturačnú adresu",
-            "billing_province": "Vyberte štát/provinciu pre fakturačnú adresu"
+            "billing_province": "Vyberte štát/provinciu pre fakturačnú adresu",
+            "billing_zip": "Vyberte PSČ alebo poštové smerovacie číslo pre fakturačnú adresu",
+            "contact_info": "Zadajte kontaktné údaje"
+          },
+          "formatting": {
+            "name_contains_emojis": "Odstrániť emoji z tvojho mena",
+            "postal_code_contains_emoji": "Odstrániť emoji z tvojej PSČ",
+            "first_name_too_long": "Krstné meno obsahuje príliš veľa písmen"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Vaša doručovacia adresa je neplatná. Vyberte inú adresu alebo použite novú adresu.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} momentálne nie je k dispozícii pre vašu objednávku. Vyberte inú metódu platby, aby ste mohli pokračovať v nákupe."
+          },
+          "discount_code": "Tento zľavový kód nie je možné použiť. Skontrolujte svoj kód a skúste to znova.",
+          "processing_error_checkout_as_guest": "Vyskytol sa problém s spracovaním vašej platby. Skúste to znova alebo {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Budete presmerovaný na {{walletName}}, aby ste dokončili svoj nákup",
+        "return_to_checkout": "Späť k pokladni",
+        "scrim": {
+          "and_return_to_checkout": "a späť k pokladni"
+        },
+        "place_order": "Vytvoriť objednávku",
+        "recovery_notice": "Došlo k chybe vo vašich objednávkových údajoch. Aktualizujte svoje údaje, aby ste dokončili platbu."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Najskôr skontrolujte svoje kontaktné údaje pred dokončením platby"
+      },
+      "store_credit_errors": {
+        "generic_error": "Vyskytol sa problém s tvojím zostatkom v obchode. Skús to znova alebo obnov stránku."
+      },
+      "note": {
+        "length_exceeds_maximum": "Skráťte poznámku na maximálne 5000 znakov."
+      },
+      "billing": {
+        "billing_address_title": "Faktúra na",
+        "same_as_shipping": "Rovnaké ako doručovacia adresa",
+        "address_more": "Viac akcií pre túto adresu",
+        "address_confirm": "Ste si istý, že chcete túto adresu odstrániť zo svojho účtu?",
+        "billing_address_rollup_accessibility_label": "Možnosti účtovania poplatkov"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Darčeková poukážka bola už použitá na tvoju objednávku",
+          "insufficient_funds": "Na tejto darčekovej poukážke už nie sú žiadne peniaze.",
+          "expired": "Táto darčeková poukážka vypršala",
+          "not_available": "Táto darčeková poukážka už nie je k dispozícii",
+          "currency_mismatch": "Prijímajú sa iba darčekové poukážky v %{shop_currency}",
+          "generic": "Darčekový poukaz nemožno pridať do pokladne",
+          "throttle_limit_exceeded": "Dosiahli ste maximálny počet pokusov. Skúste to znova neskôr.",
+          "no_longer_available": "Tento darčekový poukaz už nie je možné použiť pri tomto pokladni."
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Vyskytol sa problém pri načítavaní Shop Pay",
+          "try_again_later": "Skontrolujte svoje pripojenie alebo zatvorte toto okno a skúste to znova o niekoľko okamihov.",
+          "checkout_has_expired": "Platnosť pokladne vypršala. Zatvorte toto okno a skúste znova dokončiť nákup v {{shopName}}."
+        },
+        "return_to_store": "Späť na {{shopName}}",
+        "title": "Zaplaťte cez Shop Pay"
+      },
+      "company_location": {
+        "location_title": "Miesto podnikania",
+        "location_rollup_accessibility_label": "Možnosti pre miesto podnikania"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Cena darčekovej poukážky musí byť vyššia ako 0.",
+            "subtotal_limit_reached": "Maximálna hodnota pre položky objednávky bola dosiahnutá.",
+            "gift_card_price_must_not_exceed_limit": "Cena darčekovej poukážky nesmie byť vyššia ako %{gift_card_limit}.",
+            "signature_mismatch": "Nesprávny podpis tovaru pre pravidlo %{stable_id}."
           }
         }
+      },
+      "clipboard": {
+        "failed_to_copy": "Nič nebolo skopírované"
+      },
+      "payment_challenge_modal": {
+        "timer_message": "Máte ešte {{timeLeft}} na zaplatenie",
+        "copy_text": "Skopírovať {{paymentMethod}} kód",
+        "header": "Zaplaťte pomocou {{paymentMethod}}",
+        "external": {
+          "instructions": "Potvrďte platbu vo svojej aplikácii, aby ste dokončili tento nákup"
+        },
+        "close": "Ukonči výzvu",
+        "open_app_text": "Otvorte aplikáciu {{paymentMethod}}"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Pri spracovaní vašej objednávky sa vyskytol problém. Skúste to prosím o niekoľko minút znova."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Inštrukcia tovaru %{position} %{name} obsahuje prázdne ID skladu."
       }
     }
   }
