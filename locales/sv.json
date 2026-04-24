@@ -2672,7 +2672,85 @@
         "ounce": "uns",
         "pint": "pt",
         "quart": "qt",
-        "gallon": "tjej"
+        "gallon": "tjej",
+        "inch": "in -> i",
+        "yard": "yd",
+        "square_foot": "ft²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Din adress stöds inte för det nuvarande medlemskapet.",
+        "items_split_across_locations_unsupported": "Prime-leverans är inte tillgänglig för din beställning. Dina leveransalternativ har uppdaterats."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigera till webbutik"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Extra betalningsmetoder"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Den här varan kan inte läggas till i din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
+          "max_remote_shops_exceeded": "Din vara kan inte läggas till eftersom din kundvagn redan innehåller max antal från andra butiker.",
+          "currency_mismatch_removal": "En vara har tagits bort från din kundvagn eftersom den kommer från en butik som använder en annan valuta.",
+          "only_remote_merchandise_lines": "Kassan innehåller endast varor från externa leverantörer. En omdirigering till den externa butiken krävs för att slutföra köpet."
+        }
+      },
+      "remote_merchandise_only": {
+        "remote_only_notice": "Dessa varor säljs och skickas av andra butiker. Gå till kassan i varje butik för att slutföra ditt köp.",
+        "return_to_store_label": "Tillbaka till butik",
+        "single_shop_transition": "Du omdirigeras till %{advertiser} för att slutföra ditt köp."
+      },
+      "remote_policies": {
+        "unavailable_policy": "Det finns ingen %{policy_name} angiven för denna butik. Kontakta %{shop_name} direkt för mer information."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Betalning misslyckades",
+        "payment_not_processed_text": "Skanna QR-koden igen. Om det fortfarande inte fungerar, meddela våra medarbetare och försök med en annan betalningsmetod.",
+        "payment_link_expired_title": "Betalningslänk har gått ut",
+        "payment_link_expired_text": "Skanna QR-koden igen.",
+        "title": "Betalning utanför platsen misslyckades"
+      },
+      "taxes": {
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifieringsnummer (valfritt)",
+            "tooltip": "Validerar momsregistreringsnumret och tillämpar automatiskt omvänd skattskyldighet på beställningar som är berättigade till detta"
+          },
+          "add": "Lägg till ett momsnummer",
+          "vaulted": "Btw-identifikationsnummer: %{number}",
+          "badge": "Btw-identifikationsnummer: %{number}",
+          "domestic_order": "Omflyttningsregeln gäller endast för gränsöverskridande beställningar inom EU. För lokala beställningar debiteras standardmoms.",
+          "status": {
+            "invalid_format": {
+              "at": "Ett momsregistreringsnummer från Österrike innehåller AT och 9 tecken",
+              "be": "Ett momsregistreringsnummer från Belgien innehåller BE och 10 tecken",
+              "bg": "Ett momsregistreringsnummer från Bulgarien innehåller BG och 9-10 tecken",
+              "hr": "Ett momsregistreringsnummer från Kroatien innehåller HR och 11 tecken",
+              "cy": "Ett momsregistreringsnummer från Cypern innehåller CY och 9 tecken",
+              "cz": "Ett momsregistreringsnummer från Tjeckien innehåller CY och 8-10 tecken.",
+              "dk": "Ett momsregistreringsnummer från Danmark innehåller DK och 8 tecken",
+              "ee": "Ett momsregistreringsnummer från Estland innehåller EE och 9 tecken",
+              "fi": "Ett momsregistreringsnummer från Finland innehåller FI och 8 tecken",
+              "fr": "Ett momsregistreringsnummer från Frankrike innehåller FR och 11 tecken",
+              "de": "Ett momsregistreringsnummer från Tyskland innehåller DE och 9 tecken",
+              "gr": "Ett momsregistreringsnummer från Grekland innehåller EL och 9 tecken",
+              "hu": "Ett momsregistreringsnummer från Ungern innehåller HU och 8 tecken",
+              "ie": "Ett momsregistreringsnummer från Irland innehåller IE och 8-9 tecken",
+              "it": "Ett momsregistreringsnummer från Italien innehåller IT och 11 tecken",
+              "lv": "Ett momsregistreringsnummer från Lettland innehåller LV och 11 tecken",
+              "lt": "Ett momsregistreringsnummer från Litauen innehåller LT och 9–12 tecken",
+              "lu": "Ett momsregistreringsnummer från Luxemburg innehåller LU och 8 tecken",
+              "mt": "Ett momsregistreringsnummer från Malta innehåller MT och 8 tecken",
+              "nl": "Ett momsregistreringsnummer från Nederländerna innehåller NL och 12 tecken",
+              "pl": "Ett momsregistreringsnummer från Polen innehåller PL och 10 tecken",
+              "pt": "Ett momsregistreringsnummer från Portugal innehåller PT och 9 tecken",
+              "ro": "Ett momsregistreringsnummer från Rumänien innehåller RO och 10 tecken",
+              "sk": "Ett momsregistreringsnummer från Slovakien innehåller SK och 10 tecken"
+            }
+          }
+        }
       }
     }
   }
