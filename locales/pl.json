@@ -3761,7 +3761,73 @@
         "billing": "Edytuj adres do faktury",
         "shipping": "Edytuj adres dostawy"
       },
-      "add_address_banner": "Dodaj adresy do użycia przy finalizacji zamówienia"
+      "add_address_banner": "Dodaj adresy do użycia przy finalizacji zamówienia",
+      "billing_address_dropdown_placeholder": "Adres do faktury",
+      "back_button": "Wstecz"
+    },
+    "address_form": {
+      "billing_address": "Użyj jako adresu do faktury",
+      "creation_success_notification": "Adres dodany",
+      "default_address_update_success_notification": "Adres domyślny zaktualizowany",
+      "loading_add_form_accessibility_message": "Załaduj formularz nowego adresu",
+      "loading_edit_form_accessibility_message": "Formularz edycji adresu ładowanie",
+      "loading_finished_accessibility_message": "Formularz adresu został załadowany",
+      "update_success_notification": "Adres zaktualizowany",
+      "attention": "T.a.v.",
+      "loading_form_accessibility_message": "Formularz ładowania adresu",
+      "attention_company": "Firma/do rąk własnych"
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "Adres e-mail",
+        "contact_permissions": "Upoważnienia",
+        "net_payment_terms_description": "{{name}}: płatność wymagana w ciągu {{numberOfDays}} dni",
+        "permissions_title": "Upoważnienia",
+        "shipping_address_required": "Dodaj adres dostawy do tej lokalizacji, aby móc składać zamówienia.",
+        "tax_id": "Identyfikator podatkowy",
+        "multiple_tax_exemptions": "Jeszcze {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "pl",
+        "tax_exemption_not_applicable": "nie dotyczy",
+        "tax_exemptions_modal_button_accessibility_label": "Pokaż wszystkie zwolnienia podatkowe",
+        "deposit_percentage": "{{percentage}} depozytu"
+      },
+      "location_selection": {
+        "description": "Jeśli masz już artykuły w koszyku, zmiana lokalizacji może wpłynąć na ceny i ilości w twoim koszyku.",
+        "list_item_without_address_accessibility_label": "{{name}}: brak adresu",
+        "list_loading_address_accessibility_message": "Załaduj adres dla {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lista lokalizacji została załadowana",
+        "loading_store_accessibility_message": "W drodze do sklepu",
+        "title": "Na jaką lokalizację kupujesz?",
+        "continue_to_store": "Przejdź do sklepu",
+        "no_location_title": "Tylko zamówienia osobiste",
+        "no_location_description": "Nie masz już uprawnień do składania zamówień dla {{company}}. Nadal możesz składać zamówienia indywidualne.",
+        "search": "Wyszukiwanie lokalizacji",
+        "description_switch_later": "Zawsze możesz później zmienić zdanie"
+      },
+      "addresses": {
+        "add_billing_address_button": "Dodaj adres do faktury",
+        "add_billing_address_section_accessibility_label": "Dodaj adres do faktury",
+        "add_shipping_address_button": "Dodaj adres dostawy",
+        "add_shipping_address_section_accessibility_label": "Dodaj adres dostawy",
+        "billing_address_card_title": "Adres do faktury",
+        "cancel_adding_billing_address_accessibility_label": "Dodaj adres do faktury anuluj",
+        "cancel_adding_shipping_address_accessibility_label": "Dodaj adres dostawy anuluj",
+        "save_new_billing_address_accessibility_label": "Zapisz adres do faktury",
+        "save_new_shipping_address_accessibility_label": "Zapisz adres dostawy",
+        "shipping_address_card_title": "Adres dostawy"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Ukryj wszystkie zamówienia w ocenie",
+          "show_all_accessibility_label": "Wyświetl wszystkie zamówienia w ocenie",
+          "title": "W trakcie realizacji",
+          "pagination": {
+            "nav_accessibility_label": "Przyciski nawigacyjne dla zamówień w ocenie"
+          },
+          "show_all_orders_in_review": "Wyświetl wszystkie zamówienia w ocenie",
+          "show_less_orders_in_review": "Wyświetl mniej zamówień w ocenie"
+        }
+      }
     }
   }
 }

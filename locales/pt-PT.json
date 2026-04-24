@@ -2613,8 +2613,100 @@
             "last_name_too_long": "O apelido contém letras a mais",
             "address_too_long": "A linha do endereço é demasiado longa"
           },
-          "select_different_shipping_address_to_resolve_errors": "O endereço de entrega é inválido. Selecione outro endereço ou utilize um endereço novo."
+          "select_different_shipping_address_to_resolve_errors": "O endereço de entrega é inválido. Selecione outro endereço ou utilize um endereço novo.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} não está atualmente disponível para a sua encomenda. Escolha outro método de pagamento para continuar com a compra."
+          },
+          "discount_code": "Não é possível aplicar este código de desconto. Verifique o seu código e tente novamente.",
+          "processing_error_checkout_as_guest": "Ocorreu um problema ao processar o seu pagamento. Por favor, tente novamente ou {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Serás redirecionado para {{walletName}} para concluir a tua compra",
+        "return_to_checkout": "Voltar para a finalização da compra",
+        "scrim": {
+          "continue_purchase_in_window": "Continue a sua compra na janela {{walletName}}",
+          "and_return_to_checkout": "e voltar para a finalização da compra"
+        },
+        "place_order": "Efetuar encomenda",
+        "recovery_notice": "Ocorreu um erro com os seus dados de encomenda. Atualize os seus dados para concluir o pagamento."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Verifique primeiro os seus dados de contacto antes de concluir o pagamento"
+      },
+      "store_credit_errors": {
+        "generic_error": "Ocorreu um problema com o saldo da sua loja. Tente novamente ou recarregue a página."
+      },
+      "note": {
+        "length_exceeds_maximum": "Resuma o comentário para um máximo de 5000 caracteres."
+      },
+      "billing": {
+        "same_as_shipping": "Igual ao endereço de entrega",
+        "add_address": "Usar outro endereço",
+        "delete": "Remover",
+        "address_delete": "Remover endereço",
+        "address_confirm": "Tem a certeza de que pretende remover este endereço da sua conta?",
+        "address_form": {
+          "add_address": "Adicionar morada"
+        },
+        "billing_address_rollup_accessibility_label": "Opções para cobrança"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "O vale-presente já foi aplicado à sua encomenda",
+          "insufficient_funds": "Não há mais saldo neste vale-presente",
+          "expired": "Este vale-presente expirou",
+          "not_available": "Este vale-presente já não está disponível",
+          "invalid": "Introduza um vale-presente válido",
+          "currency_mismatch": "São aceites apenas vales-presente em %{shop_currency}",
+          "generic": "O vale-presente não pode ser adicionado ao pagamento",
+          "throttle_limit_exceeded": "Alcançaste o número máximo de tentativas. Tenta novamente mais tarde.",
+          "no_longer_available": "Este vale-presente já não pode ser utilizado nesta finalização de compra"
         }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "try_again_later": "Verifique a sua ligação ou feche esta janela e tente novamente daqui a alguns instantes.",
+          "checkout_has_expired": "O seu checkout expirou. Feche esta janela e tente novamente finalizar a compra em {{shopName}}."
+        },
+        "return_to_store": "Voltar para {{shopName}}",
+        "title": "Pagamento Shop"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Opções para local da empresa"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "O valor do vale-presente deve ser superior a 0.",
+            "subtotal_limit_reached": "O valor máximo para linhas de encomenda foi atingido.",
+            "gift_card_price_must_not_exceed_limit": "O valor do cartão-presente não pode ser superior a %{gift_card_limit}.",
+            "signature_mismatch": "Assinatura incorreta dos bens para a regra %{stable_id}."
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Não copiado"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Complete a sua compra com o código {{paymentMethod}}",
+        "timer_message": "Ainda tens {{timeLeft}} para pagar",
+        "copy_text": "copiar código {{paymentMethod}}",
+        "header": "Pague com {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Complete a sua compra com o código {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Confirme o pagamento na sua aplicação para concluir esta compra"
+        },
+        "close": "Conclua o desafio",
+        "open_app_text": "Abrir a aplicação {{paymentMethod}}"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Ocorreu um problema ao processar a sua encomenda. Por favor, tente novamente daqui a alguns minutos."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "A instrução de mercadoria %{position} %{name} contém um ID de stock vazio.",
+        "invalid_stable_id_target": "A instrução de mercadoria %{position} %{name} refere-se ao stable-ID %{stable_id}, mas esse stable-ID não se encontra nas linhas de mercadoria.",
+        "duplicate_variant_id": "A instrução de mercadoria %{position} %{name} contém um ID de variante duplicado %{variant_id}."
       }
     }
   }
