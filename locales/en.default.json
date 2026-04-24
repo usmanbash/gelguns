@@ -3507,7 +3507,95 @@
         "error_when_deleting": "Our apologies, something went wrong and we cannot remove this payment method. Please try again later or refresh the page.",
         "delete_and_replace_button": "Remove and replace",
         "delete_and_replace_button_accessibility_label": "Remove {{currentPaymentMethodName}} and replace it with {{newPaymentMethodName}}.",
-        "deleted_successfully": "The payment method has been removed."
+        "deleted_successfully": "The payment method has been removed.",
+        "payment_method_selector_no_alternative_payment": "No alternative method",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "If you remove this payment method, it will affect pre-authorized payments. Outstanding amounts from existing orders will still be charged through this payment method unless you select a different payment method. Select another payment method to continue receiving upcoming subscription orders without interruption.",
+          "with_pending_orders": "Removing the payment method will cause it to be deleted from your account and no longer available for future purchases. Outstanding amounts from existing orders will still be charged through this payment method unless you select a different payment method.",
+          "with_subscriptions": "If you remove this payment method, it will affect pre-authorized payments. Replace it with another payment method to continue receiving upcoming orders."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "If you remove this payment method, it will affect pre-authorized payments. Outstanding amounts from existing orders will still be charged through this payment method, but you will not receive upcoming subscription orders. Add another payment method to continue receiving subscription orders.",
+          "with_pending_orders": "Removing the payment method will delete it from your account and it will no longer be available for future purchases. Outstanding amounts from existing orders will still be charged through this payment method.",
+          "with_subscriptions": "If you remove this payment method, it will affect pre-authorized payments. Add another payment method to continue receiving upcoming orders."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Change payment method",
+        "billing_address": "Invoice address"
+      },
+      "card_fields": {
+        "card_expiry_label": "Expiration date (MM/YY)",
+        "card_expiry_placeholder": "Expiration date (MM/YY)",
+        "card_start_label": "Issue date (MM/YY)",
+        "card_start_placeholder": "Issue date (MM/YY)",
+        "tooltip": {
+          "card_verification_value_explanation_other": "Security code of 3 digits on the back of your card",
+          "card_verification_value_explanation": "Security code of 3 digits, usually found on the back of your card. American Express has a code of 4 digits on the front."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Enter your name as it appears on your card",
+          "credit_card_expiry_invalid": "Enter a valid expiration date for the card",
+          "credit_card_verification_value_blank": "Enter the CVV/CVC or security code of your card"
+        },
+        "unavailable": {
+          "text": "Payments by credit card and debit card are currently not available."
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "title": "Invoice address",
+          "missing_billing_address_error_message": "Provide a billing address"
+        },
+        "replace_mode_warning": "If you remove this payment method, it will affect subscriptions or advance orders. Replace it with another payment method to continue receiving upcoming orders.",
+        "subscription_contracts": {
+          "title": "Payment method for recurring orders",
+          "more_items": {
+            "one": "Still {{count}} product(s)",
+            "other": "{{count}} products left"
+          }
+        },
+        "contracts_update_failed": "Some subscription agreements could not be updated",
+        "subscription_contracts_updated": "{{succeeded}} of {{total}} subscriptions updated",
+        "invalid_wallet_type_error": "Invalid type digital wallet",
+        "updating_contracts": {
+          "one": "{{count}} subscription contract is being updated...",
+          "other": "{{count}} subscription contracts are being updated..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} subscription contract has been updated",
+          "other": "{{count}} subscription contracts have been updated"
+        },
+        "missing_customer_error": "Something went wrong. Try again or contact support."
+      },
+      "expires_soon": "This card will expire soon",
+      "expired": "This card has expired",
+      "credit_or_debit_card_title": "Credit card or debit card",
+      "google_pay": {
+        "errors": {
+          "generic": "There has been a problem with Google Pay. Please try again or use another payment method.",
+          "missing_billing_address": "For Google Pay you need a billing address. Add one in your account."
+        },
+        "loading": "Load Google Pay",
+        "loading_accessibility_message": "Load Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Load Apple Pay",
+        "errors": {
+          "generic": "There has been a problem with Apple Pay. Please try again or use another payment method.",
+          "missing_billing_address": "For Apple Pay you need a billing address. Add one in your account."
+        }
+      },
+      "add_payment_method_banner": "Add payment method for faster checkout and services for pre-authorization",
+      "expiration_warning_button_accessibility_label": "Display fraud warning for {{paymentMethodName}} ending in {{lastDigits}}",
+      "default": "Standard",
+      "store_credit": {
+        "accesibility_label": "Store Credit - {{formattedBalance}}",
+        "expirable_amounts_button": "View amounts that will expire",
+        "details_modal": {
+          "title": "Store credit that will expire",
+          "expirable_balance_info": "A part of the balance expires on a future date."
+        }
       }
     }
   }
