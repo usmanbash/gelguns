@@ -389,11 +389,11 @@
       "total_items": "Număr total de articole",
       "remove_all_items_confirmation": "Ștergi toate cele {{ quantity }} articole din coșul tău?",
       "remove_all": "Șterge tot",
-      "cancel": "Anulează",
-      "remove_all_single_item_confirmation": "Elimini 1 articol din coș?",
-      "min_error": "Pentru acest articol, valoarea minimă este de {{ min }}",
-      "max_error": "Pentru acest articol, valoarea maximă este de {{ max }}",
-      "step_error": "Poți introduce acest articol numai în incrementuri de {{ step }}"
+      "cancel": "Anulare",
+      "remove_all_single_item_confirmation": "Să elimini 1 articol din coșul tău de cumpărături?",
+      "min_error": "Pentru acest articol se aplică un minim de {{ min }}.",
+      "max_error": "Pentru acest articol se aplică un maxim de {{ max }}.",
+      "step_error": "Poți adăuga acest articol doar în pași de câte {{ step }}"
     }
   },
   "localization": {
