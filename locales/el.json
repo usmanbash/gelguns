@@ -280,19 +280,19 @@
       "announcement": "Ανακοίνωση",
       "menu": "Μενού",
       "cart_count": {
-        "one": "{{ count }} στοιχείο",
-        "other": "{{ count }} στοιχεία"
+        "one": "{{ count }} άρθρα",
+        "other": "{{ count }} άρθρα"
       }
     },
     "cart": {
       "title": "Το καλάθι σας",
-      "caption": "Στοιχεία στο καλάθι",
-      "remove_title": "Κατάργηση {{ title }}",
-      "note": "Ειδικές οδηγίες παραγγελίας",
+      "caption": "Αντικείμενα στο καλάθι αγορών",
+      "remove_title": "αφαίρεση {{ title }}",
+      "note": "Ειδικές οδηγίες για την παραγγελία",
       "checkout": "Ολοκλήρωση αγοράς",
-      "empty": "Το καλάθι σας είναι κενό",
-      "cart_error": "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του καλαθιού. Δοκιμάστε ξανά.",
-      "cart_quantity_error_html": "Μπορείτε να προσθέσετε μόνο {{ quantity }} από αυτό το προϊόν στο καλάθι σας.",
+      "empty": "Το καλάθι αγορών σας είναι άδειο",
+      "cart_error": "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του καλαθιού σας. Παρακαλώ δοκιμάστε ξανά.",
+      "cart_quantity_error_html": "Μπορείς να προσθέσεις μόνο {{ quantity }} από αυτό το προϊόν στο καλάθι σου.",
       "headings": {
         "product": "Προϊόν",
         "price": "Τιμή",
@@ -302,31 +302,31 @@
       },
       "update": "Ενημέρωση",
       "login": {
-        "title": "Έχετε λογαριασμό;",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Συνδεθείτε</a> για ταχύτερη ολοκλήρωση των αγορών σας."
+        "title": "Έχεις λογαριασμό;",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Σύνδεση</a> για γρηγορότερη ολοκλήρωση αγοράς."
       },
       "estimated_total": "Εκτιμώμενο σύνολο",
       "new_estimated_total": "Νέο εκτιμώμενο σύνολο",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Οι δασμοί και οι φόροι συμπεριλαμβάνονται. Οι εκπτώσεις και τα έξοδα <a href=\"{{ link }}\">αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Οι δασμοί και οι φόροι συμπεριλαμβάνονται. Οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Οι φόροι συμπεριλαμβάνονται. Οι εκπτώσεις και τα έξοδα <a href=\"{{ link }}\">αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "taxes_included_shipping_at_checkout_without_policy": "Οι φόροι συμπεριλαμβάνονται. Οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Οι δασμοί συμπεριλαμβάνονται. Οι φόροι, οι εκπτώσεις και τα έξοδα <a href=\"{{ link }}\">αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Οι δασμοί συμπεριλαμβάνονται. Οι φόροι, οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Οι φόροι, οι εκπτώσεις και τα έξοδα <a href=\"{{ link }}\">αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Τελωνειακοί δασμοί και φόροι περιλαμβάνονται. Εκπτώσεις και <a href=\"{{ link }}\">αποστολή</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Τα τελωνειακά δικαιώματα και οι φόροι περιλαμβάνονται. Οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Φόροι περιλαμβάνονται. Εκπτώσεις και <a href=\"{{ link }}\">αποστολή</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "taxes_included_shipping_at_checkout_without_policy": "Φόροι περιλαμβάνονται. Οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Τα τελωνειακά δικαιώματα περιλαμβάνονται. Οι φόροι, οι εκπτώσεις και η <a href=\"{{ link }}\">αποστολή</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Τα τελωνειακά δικαιώματα περιλαμβάνονται. Οι φόροι, οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Οι φόροι, οι εκπτώσεις και η <a href=\"{{ link }}\">αποστολή</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Οι φόροι, οι εκπτώσεις και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της αγοράς."
     },
     "footer": {
-      "payment": "Μέθοδοι πληρωμής"
+      "payment": "Τρόποι πληρωμής"
     },
     "featured_blog": {
       "view_all": "Προβολή όλων",
-      "onboarding_title": "Ανάρτηση ιστολογίου",
-      "onboarding_content": "Δώστε στους πελάτες σας μια σύνοψη της ανάρτησης ιστολογίου"
+      "onboarding_title": "Αναρτηση ιστολογίου",
+      "onboarding_content": "Δώστε στους πελάτες σας μια επισκόπηση της ανάρτησής σας στο ιστολόγιο"
     },
     "featured_collection": {
       "view_all": "Προβολή όλων",
-      "view_all_label": "Προβολή όλων των προϊόντων στη συλλογή {{ collection_name }}"
+      "view_all_label": "Δείτε όλα τα προϊόντα στη συλλογή {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Προβολή όλων"
@@ -334,22 +334,22 @@
     "collection_template": {
       "title": "Συλλογή",
       "empty": "Δεν βρέθηκαν προϊόντα",
-      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καταργήστε τα όλα</a>"
+      "use_fewer_filters_html": "Χρήση λιγότερων φίλτρων ή <a class=\"{{ class }}\" href=\"{{ link }}\">αφαίρεση όλων</a>"
     },
     "video": {
       "load_video": "Φόρτωση βίντεο: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Φόρτωση διαφάνειας",
+      "load_slide": "Δια λαντέν",
       "previous_slideshow": "Προηγούμενη διαφάνεια",
       "next_slideshow": "Επόμενη διαφάνεια",
-      "pause_slideshow": "Παύση παρουσίασης",
-      "play_slideshow": "Αναπαραγωγή παρουσίασης",
+      "pause_slideshow": "Παύση παρουσίασης διαφανειών",
+      "play_slideshow": "Αναπαραγωγή παρουσίασης διαφανειών",
       "carousel": "Καρουζέλ",
-      "slide": "Διαφάνεια"
+      "slide": "Ημέρα"
     },
     "page": {
-      "title": "Τίτλος σελίδας"
+      "title": "Τίτλος Σελίδας"
     },
     "announcements": {
       "previous_announcement": "Προηγούμενη ανακοίνωση",
@@ -359,29 +359,29 @@
       "announcement_bar": "Γραμμή ανακοινώσεων"
     },
     "quick_order_list": {
-      "product_total": "Υποσύνολο προϊόντων",
-      "view_cart": "Προβολή καλαθιού",
-      "each": "{{ money }}/έκαστο",
+      "product_total": "Υποσύνολο προϊόντος",
+      "view_cart": "Προβολή καλαθιού αγορών",
+      "each": "{{ money }}/μήνα",
       "product": "Προϊόν",
       "variant": "Παραλλαγή",
-      "variant_total": "Σύνολο παραλλαγών",
+      "variant_total": "Συνολική παραλλαγή",
       "items_added": {
-        "one": "Προστέθηκε {{ quantity }} προϊόν",
-        "other": "Προστέθηκαν {{ quantity }} προϊόντα"
+        "one": "{{ quantity }} άρθρα προστέθηκαν",
+        "other": "{{ quantity }} αντικείμενα προστέθηκαν"
       },
       "items_removed": {
-        "one": "Καταργήθηκε {{ quantity }} προϊόν",
-        "other": "Καταργήθηκαν {{ quantity }} προϊόντα"
+        "one": "{{ quantity }} αντικείμενα διαγράφηκαν",
+        "other": "{{ quantity }} αντικείμενα διαγράφηκαν"
       },
-      "product_variants": "Παραλλαγές προϊόντος",
-      "total_items": "Σύνολο προϊόντων",
-      "remove_all_items_confirmation": "Να καταργηθούν και τα {{ quantity }} προϊόντα από το καλάθι σας;",
+      "product_variants": "Παραλλαγές προϊόντων",
+      "total_items": "Συνολικός αριθμός άρθρων",
+      "remove_all_items_confirmation": "Να αφαιρεθούν όλα τα {{ quantity }} αντικείμενα από το καλάθι σου;",
       "remove_all": "Κατάργηση όλων",
       "cancel": "Ακύρωση",
-      "remove_all_single_item_confirmation": "Να καταργηθεί 1 προϊόν από το καλάθι σας;",
-      "min_error": "Αυτό το προϊόν έχει ελάχιστο όριο {{ min }}",
-      "max_error": "Αυτό το προϊόν έχει μέγιστο όριο {{ max }}",
-      "step_error": "Μπορείτε να προσθέσετε αυτό το προϊόν μόνο κατά βήματα των {{ step }}"
+      "remove_all_single_item_confirmation": "Να αφαιρεθεί 1 προϊόν από το καλάθι αγορών σου;",
+      "min_error": "Για αυτό το άρθρο ισχύει ελάχιστο ποσό {{ min }}.",
+      "max_error": "Για αυτό το άρθρο ισχύει μέγιστο όριο {{ max }}.",
+      "step_error": "Μπορείς να προσθέσεις αυτό το άρθρο μόνο σε βήματα των {{ step }}"
     }
   },
   "localization": {
