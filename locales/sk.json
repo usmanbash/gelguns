@@ -4317,7 +4317,99 @@
       "saturdayAbbreviation": "za.",
       "sundayAbbreviation": "zo.",
       "rangeStart": "Začať dosah",
-      "inRange": "V dosahu"
+      "inRange": "V dosahu",
+      "rangeEnd": "Koniec dosahu",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} položiek k dispozícii",
+        "other": "{{count}} dostupných položiek"
+      },
+      "removeItem": "odstrániť {{label}}",
+      "month": {
+        "other": "mesiace"
+      },
+      "mapClusterTitle": {
+        "one": "Zhluk z {{number}} značkovacích bodov",
+        "other": "Zhluk z {{number}} značkovacích bodov"
+      },
+      "dropzoneInvalidFileType": "Tento typ súboru nie je podporovaný",
+      "dropzoneDraggedOver": "Uložiť súbor na nahranie",
+      "clipboardFailedToCopy": "Nič nebolo skopírované",
+      "clear": "vedomosti"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Upraviť",
+      "hide_bar": "Skryť stĺpec",
+      "navigate_to_admin": "Prejsť do ovládacieho centra",
+      "previewing": "Pozri si ukážku:",
+      "saved_at": "Uložené dňa {{date}} o {{time}}",
+      "viewing": "Pozeráte sa na:",
+      "not_available": "Žiadne údaje o profile nie sú k dispozícii",
+      "close_preview": "Zavrieť príklad"
+    },
+    "settings": {
+      "loading_accessibility_message": "Načítavam stránku nastavení",
+      "log_out_everywhere": {
+        "title": "Odhlásiť sa z overal",
+        "description": "Ak ste stratili zariadenie alebo máte obavy o bezpečnosť, odhláste sa všade, aby ste zabezpečili bezpečnosť svojho účtu.",
+        "warning_message": "Budete tiež odhlásený z tohto zariadenia."
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "Dňa {{date}} o {{time}}",
+        "lessThanOneWeekAgo": "V {{weekday}} o {{time}}",
+        "lessThanOneWeekAway": "V {{weekday}} o {{time}}",
+        "lessThanOneYearAway": "Dňa {{date}} o {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minútami"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Vybrať rozšírenie s názvom '{{extensionName}}'",
+        "unselect": "Zrušiť výber rozšírenia s názvom '{{extensionName}}'",
+        "move_down_tooltip": "Presunúť na ďalšiu pozíciu"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Nemôžete otvoriť tento odkaz v editore. Odkaz sa otvorí v novom okne ({{resolved_to_link}}). Kliknite na OK pre pokračovanie."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Skúste to znova o pár minút"
+      }
+    },
+    "shop_ads": {
+      "subtitle": "Dočasne dostupné",
+      "button": "Preskúmať v obchode",
+      "previous_button": "Predchádzajúci",
+      "next_button": "Ďalšie"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Zákazníci si môžu sami žiadať o vrátenie tovaru a spravovať ho.",
+        "disabled": "Zákazníci musia kontaktovať predajcu, aby požiadali o vrátenie tovaru."
+      }
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Preferencie súborov cookie"
+    },
+    "announcement_bar": {
+      "expand_label": "Rozbaliť oznamovaciu lištu",
+      "collapse_label": "Zbaliť oznamovaciu lištu",
+      "close_label": "Zavrieť oznamovaciu lištu"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Zmeniť spôsob platby",
+        "loading": "Načítavanie platobných metód",
+        "no_payment_methods_available": "Žiadne dostupné spôsoby platby",
+        "select_new_payment_method": "Vyberte novú platobnú metódu",
+        "current_method": "Súčasný",
+        "success": "Spôsob platby aktualizovaný",
+        "use_new_payment_method": "+ Použite novú platobnú metódu"
+      }
     }
   }
 }
