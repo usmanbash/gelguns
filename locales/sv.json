@@ -3358,10 +3358,76 @@
             "active_delivery_guarantee_label": "Leverans för {{date}}",
             "expired_delivery_guarantee_description": "Shop Promise-garantin på 30 dagar för denna beställning har gått ut.",
             "expired_badge_label": "Utgånget",
-            "order_includes_guarantees_label": "Din leverans har {{deliveryAgreementsCount}} garantier"
+            "order_includes_guarantees_label": "Din leverans har {{deliveryAgreementsCount}} garantier",
+            "order_includes_guarantees_description": "Shop Promise erbjuder en garanti för snabb och pålitlig leverans. Begär Shop Cash om din beställning levereras efter {{date}}.",
+            "delivered_after_label": "Orolig efter {{date}}",
+            "delivered_after_description": "Din beställning har kommit för sent, så du kan kräva {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Denna beställning levererades för sent, så du har hämtat {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Din beställning har kommit för sent, så du kan kräva {{amount}} Shop Cash.",
+            "claim_shop_cash_button_label": "Köp Cash-kravet",
+            "view_balance_in_shop_button_label": "Visa saldo i butik",
+            "scan_to_claim_shop_cash_label": "Skanna om {{amount}} för att hämta Shop Cash"
           }
+        },
+        "gift_card_resend_button": {
+          "one": "Skicka presentkortet igen",
+          "other": "Skicka presentkortet igen"
+        },
+        "expected_by": "Förväntas senast {{date}}",
+        "was_expected_by": "Förväntas senast {{date}}"
+      },
+      "status_mark_as_delivered": "Markera som orolig",
+      "buy_again_accessibility_label": "Köp igen för beställning {{orderId}}",
+      "manage_accessiblity_label": "Hantera beställning {{orderId}}",
+      "fulfillment_status_title": "Fullgörandestatus: {{status}}",
+      "list_title_with_pending_orders": "Beställningarna:",
+      "list_title_confirmed_orders_accessibility_label": "Beställningar: bekräftade",
+      "list_title_pending_orders_accessibility_label": "Beställningar: under behandling",
+      "switch_order_type_pending_orders_accessibility_label": "Byt beställningstyp; du tittar nu på beställningar under behandling",
+      "switch_order_type_confirmed_orders_accessibility_label": "Byt beställningstyp; du tittar på bekräftade beställningar"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturera och skicka",
+      "contact": "Kontaktperson",
+      "hide_items": "Dölj artiklarna",
+      "loading": "Laddar beställningsuppgifter",
+      "loading_finished_accessibility_message": "Beställningsuppgifter har laddats",
+      "payment": {
+        "status_in_review": "Betalning skyldig efter granskning",
+        "status_unpaid": "Betalning förfaller den {{date}}",
+        "card_payment_details": "slutande på {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Betalat med Shop Pay-delbetalningar",
+          "view_schedule": "Visa planering"
+        },
+        "gift_card_payment_details": "slutande på {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Postanvisning - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Postförskott - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankinsättning - {{formattedTransactionAmount}}",
+          "manual": "Manuellt - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Butikskredit - {{formattedTransactionAmount}}",
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "Hjälp:",
+          "source": "Använd följande utdataformat (inga kodavgränsare, ingen extra text):"
+        },
+        "payment_type": {
+          "store_credit": "Butikskredit",
+          "cash_on_delivery": "Återbetalning",
+          "bank_deposit": "Bankstämma"
         }
-      }
+      },
+      "shipping": {
+        "method": "Fraktsätt",
+        "summary": "Skicka",
+        "one_time": "Skicka en gång",
+        "subscription": "Skicka med prenumeration"
+      },
+      "show_items": "Visa artiklarna",
+      "subtitle": "Bekräftat: {{date}}",
+      "summary_list_title_accessibility_label": "Beställa artiklar"
     }
   }
 }
