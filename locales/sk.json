@@ -676,7 +676,65 @@
             "custom_discount_not_honoured": "Zadaná vlastná zľava nebola udelená.",
             "unsupported_expectation": "Zadané pravidlo zľavy obsahovalo predpoklad, ktorý politika nedokázala interpretovať.",
             "additional_requested_discount_code_discarded": "{{code}} je platný, ale nie je použiteľný. Skontrolujte podmienky pre zľavy.",
-            "allocations_mismatch": "Váš zľavový kód bol zmenený. Skontrolujte svoj nákupný košík a skúste to znova."
+            "allocations_mismatch": "Váš zľavový kód bol zmenený. Skontrolujte svoj nákupný košík a skúste to znova.",
+            "discount_title_too_long": "Názov zľavy nesmie byť dlhší ako 255 znakov.",
+            "additional_requested_discount_discarded": "Vaša zľava je platná, ale nie je použiteľná. Skontrolujte podmienky zliav."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Dane uplatňované na vašu objednávku sa zmenili. Skontrolujte svoju objednávku a skúste to znova.",
+            "unresolvable_tax_terms": "Navrhované podmienky nie sú vzhľadom na existujúci kontext rokovaní uskutočniteľné.",
+            "delivery_price_is_abstract": "Príslušná cena za doručenie je abstraktná.",
+            "tax_inclusivity_mismatch": "Vyjednajte znova s konkrétnou hodnotou pre totalTaxAndDutyAmount alebo totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "V aktuálnom rokovacom kole nie sú podporované žiadne daňové úľavy.",
+            "delivery_tax_exemption_not_supported": "Výnimky z daní pre pravidlá doručovania momentálne nie sú podporované.",
+            "proposed_allocations_required": "Pole „navrhované priradenia“ chýba.",
+            "merchandise_terms_must_be_defined": "Definujte podmienky pre tovar.",
+            "delivery_terms_must_be_defined": "Definujte podmienky doručenia.",
+            "merchandise_discount_terms_must_be_defined": "Definujte podmienky pre zľavu na tovar.",
+            "delivery_discount_terms_must_be_defined": "Definujte podmienky pre zľavu na doručenie.",
+            "allocated_required": "Pole 'priradené' chýba.",
+            "value_required": "Pole 'hodnota' chýba.",
+            "line_splits_not_supported": "Pole 'goordiné pravidlá' musí byť rozdelené tak, aby pre každý riadok bola v návrhu predajcu samostatná súčasť."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manuálne platby nie sú v B2B obchodoch povolené.",
+            "positive_amount_expected": "Suma na zaplatenie musí byť väčšia ako 0.",
+            "total_amount_mismatch": "Celková suma na zaplatenie nezodpovedá súčtu platieb.",
+            "subscription_terms_not_accepted": "Podmienky predplatného neboli akceptované.",
+            "missing_session_id": "Informácie o kreditnej karte chýbajú.",
+            "gateway_not_supported": "Platobná brána nepodporuje uloženie platobnej metódy.",
+            "credit_card_last_name_required": "'priezvisko' nesmie byť prázdne.",
+            "credit_card_update_failed": "Aktualizácia kreditnej karty sa nepodarila.",
+            "invalid_address_type": "Zadaný typ adresy nie je platný pre tento spôsob platby.",
+            "missing_retail_attributions": "Priradenia predaja sú povinné pre ručne zadávané platby kreditnou kartou.",
+            "unexpected_retail_attributions": "Neočakávané maloobchodné priradenia zadané pre platbu kreditnou kartou.",
+            "invalid_card_source": "Táto relácia nemá oprávnenie používať tento zdroj máp.",
+            "wallet_content_missing": "Obsah peňaženky chýba.",
+            "payment_instrument_not_found": "Nemôžem nájsť spôsob platby",
+            "unauthorized_capture_method": "Konfigurácia metódy zaznamenávania platieb nie je povolená.",
+            "saved_payment_methods_not_allowed": "'Uložené spôsoby platby' nie sú povolené.",
+            "saved_payment_methods_not_enabled": "'Uložené spôsoby platby' nie sú pre tento obchod povolené.",
+            "store_credit_not_enabled": "Zostatok v obchode nie je pre tento obchod povolený.",
+            "store_credit_account_not_found": "Účet s kreditom v obchode nebol nájdený.",
+            "store_credit_account_mismatch": "Zostatok na účte nezhoduje s identitou kupujúceho.",
+            "store_credit_mismatched_currency": "Mena účtu s kreditom v obchode nezodpovedá mene pri pokladni.",
+            "store_credit_insufficient_funds": "Na účte s kreditom v obchode nie je dostatočný zostatok.",
+            "store_credit_buying_gift_card": "S kreditom v obchode nemôžete kúpiť darčekovú poukážku.",
+            "gift_cards_not_allowed_for_b2b": "Darčekové poukážky nie sú povolené v B2B obchodoch.",
+            "method_required": "Musí byť navrhnutá platobná metóda.",
+            "saved_payment_methods_cvv_verification_disabled": "Pre vybraný spôsob platby je vyžadovaná overenie CVV/CVC, ale pre tento obchod nie je aktivované. Použite iný spôsob platby."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Obchod neprijíma dýška.",
+            "only_one_tip_line_allowed": "Viacero pravidiel pre poplatky nie je podporovaných.",
+            "tips_not_allowed_for_b2b": "Tipy nie sú povolené v B2B obchodoch.",
+            "currency_change_reset": "Fooi bola resetovaná kvôli zmene meny.",
+            "tips_not_allowed_for_deferred_purchase_options": "Pre odložené možnosti nákupu ešte nie sú podporované dýška."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Táto konceptuálna objednávka neexistuje v aktuálnom obchode.",
+            "staff_member_not_exist": "Tento zamestnanec nie je v aktuálnom obchode známy.",
+            "location_not_exist": "Táto lokalita neexistuje v aktuálnom obchode."
           }
         }
       }

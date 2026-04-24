@@ -3815,8 +3815,102 @@
           },
           "canceled": {
             "description": "Não foram cobrados quaisquer custos."
-          }
+          },
+          "pay_now_accessibility_label": "Pague agora pela encomenda {{orderName}}",
+          "due_date": "Devido em {{date}}"
+        },
+        "subtitle": "Enviado: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Mostrar dados",
+          "expand_events_accessibility_label": "Mostrar dados da encomenda provisória",
+          "hide_events_label": "Ocultar dados",
+          "hide_events_accessibility_label": "Ocultar dados da encomenda provisória"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Este método de pagamento já não está disponível para compras futuras neste local.",
+          "description_with_replacement": "Se eliminar este método de pagamento, isso terá consequências para os pagamentos pré-autorizados neste local. Substitua-o por outro método de pagamento para continuar a receber encomendas futuras."
+        },
+        "payment_details": {
+          "draft_label": "Encomenda conceptual {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Adicionar número de encomenda",
+        "add_modal_title": "Adicionar número de encomenda",
+        "close_modal_accessibility_label": "Fechar modal do número de encomenda",
+        "discard": "Rejeitar",
+        "discard_changes_modal_title": "Rejeitar alterações?",
+        "edit_accessibility_label": "Editar número de encomenda",
+        "edit_modal_title": "Editar número de encomenda",
+        "empty_state": "Sem número de encomenda",
+        "modal_po_number_input_label": "Número de encomenda",
+        "modal_po_number_input_max_length_error": "Os números de encomenda têm no máximo {{maxLength}} caracteres.",
+        "title": "Número da ordem de compra {{poNumber}}"
+      }
+    },
+    "errors": {
+      "addresses_loading_issue": {
+        "description": "Erro de ligação. Verifique a sua ligação à internet e tente novamente."
+      },
+      "banner_title": {
+        "one": "Há {{count}} erro"
+      },
+      "failed_address_creation": {
+        "description": "Ocorreu um problema ao criar o seu endereço. Atualize esta página ou verifique a sua ligação à internet."
+      },
+      "failed_address_update": {
+        "description": "Ocorreu um problema ao atualizar o seu endereço. Atualize esta página ou verifique a sua ligação à internet."
+      },
+      "no_access_to_locations": {
+        "description": "Não tem acesso a locais"
+      },
+      "not_found": {
+        "description": "Verifique o URL ou tente novamente daqui a alguns minutos."
+      },
+      "order_not_found": {
+        "description": "Esta encomenda não existe ou não tem autorização para a visualizar."
+      },
+      "profile_update_error": {
+        "description": "Ocorreu um problema ao atualizar o teu perfil. Atualiza esta página ou verifica a tua ligação à internet."
+      },
+      "load_orders_error": {
+        "title": "Não foi possível carregar as encomendas"
+      },
+      "load_paypal_error": {
+        "description": "Ocorreu um problema ao carregar o PayPal. Por favor, tente novamente."
+      },
+      "load_extension_error": {
+        "description": "Atualize esta página ou tente novamente daqui a alguns minutos."
+      },
+      "already_upgraded": "As contas de clientes já foram atualizadas.",
+      "failed_to_upgrade": "A atualização das definições da conta do cliente falhou.",
+      "logout_everywhere": {
+        "description": "Ocorreu um erro ao terminar a sessão. Por favor, tente novamente."
+      },
+      "resend_link": {
+        "generic": "Pedido falhado"
+      },
+      "profile_name_update_error": {
+        "description": "Ocorreu um problema ao atualizar o teu nome. Atualiza esta página ou verifica a tua ligação à internet."
+      },
+      "not_upgraded": "As contas de clientes não foram atualizadas.",
+      "failed_to_revert": "A reposição das definições da conta do cliente falhou.",
+      "revert_window_expired": "O período de recuperação terminou."
+    },
+    "payment_methods": {
+      "payment_details": {
+        "title": "Dados do método de pagamento",
+        "payment_method_expiring_on": "Expira a {{expiryDate}}",
+        "close_payment_modal_accessibility_label": "Modaal Dados método de pagamento fechar",
+        "payment_details_loading": "A carregar dados do método de pagamento",
+        "total_amount_of_subscription_line_items_left": "e ainda {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artigos no total; {{totalItemsToDisplay}} artigos são exibidos.",
+        "next_payment_due": "Próximo pagamento devido em {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Editar o método de pagamento que termina em {{lastDigits}}",
+        "credit_card_details_accessibility_label": "terminando em {{lastDigits}}",
+        "billing_title": "Morada de faturação"
       }
     }
   }
