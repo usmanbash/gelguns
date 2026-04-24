@@ -3035,7 +3035,75 @@
       "pincode": "Code postal",
       "state_and_territory": "État/Territoire",
       "county": "Province",
-      "governorate": "Gouvernement"
+      "governorate": "Gouvernement",
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alphabétiquement : A-Z",
+        "za": "Alphabétiquement : Z-A",
+        "price_ascending": "Prix : du plus bas au plus élevé",
+        "price_descending": "Prix : du plus élevé au plus bas",
+        "date_ascending": "Date : ancien au nouveau",
+        "date_descending": "Date : du plus récent au plus ancien"
+      }
+    },
+    "errors": {
+      "blank": "ne peut pas être vide",
+      "credit_card_session_expired": "L'autorisation de carte de crédit a expiré. Veuillez saisir à nouveau vos informations de paiement. Aucun montant n'a été débité de votre carte.",
+      "empty": "ne peut pas être vide",
+      "invalid_email": "doit être une adresse courriel valide",
+      "discount_disabled": "Cette remise est bloquée",
+      "discount_expired": "Cette réduction n'est plus valable",
+      "discount_limit_reached": "Cette remise a atteint la limite d'utilisation",
+      "discount_not_found": "Impossible de trouver une remise valide correspondant au code",
+      "customer_already_used_once_per_customer_discount_notice": "Cette remise a atteint la limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre panier",
+      "gift_card_currency_mismatch": "La carte cadeau est en %{gift_card_currency}. Contactez-nous pour que nous puissions la réémettre en %{checkout_currency}.",
+      "gift_card_depleted": "Il ne reste plus de crédit sur ce bon cadeau",
+      "gift_card_disabled": "Le bon cadeau est bloqué",
+      "gift_card_expired": "Le bon cadeau a expiré",
+      "bad_domain": "contient un nom de domaine invalide",
+      "taken": "est déjà utilisé",
+      "password_mismatch": "doit être identique au mot de passe indiqué",
+      "invalid_province_in_country": "n'est pas une province valide en %{country}",
+      "invalid_state_in_country": "n'est pas un état valide dans %{country}",
+      "invalid_region_in_country": "n'est pas une région valide en %{country}",
+      "full_name_required": "Entrez un prénom et un nom de famille",
+      "invalid_for_card_type": "est invalide",
+      "invalid_type": "désolé, nous n'acceptons pas les cartes de ce type",
+      "invalid_format": "la taille est invalide",
+      "expired": "a expiré",
+      "invalid_start_date_or_issue_number_for_debit": "date de début valide ou numéro d'émission valide requis",
+      "reset_password_html": "Cette adresse courriel est déjà liée à un compte. Si ce compte t'appartient, tu peux <a href=\"/account/login#recover\">réinitialiser ton mot de passe</a>",
+      "verify_email": "Nous avons envoyé un e‑mail à %{customer_email}. Veuillez cliquer sur le lien joint pour vérifier votre adresse e-mail.",
+      "blocked_address": "Cet emplacement n'est pas pris en charge",
+      "product_not_available": "le produit n'est pas publié pour ce client.",
+      "shop_404": {
+        "title": "Créez un site de commerce en ligne et vendez vos produits sur Internet ! Logiciel de commerce en ligne de Shopify",
+        "heros": {
+          "store_unavailable": "Cette boutique n'est pas disponible pour le moment.",
+          "store_not_exist": "Cette boutique n'existe pas.",
+          "no_storefront": "Cette boutique n'a pas encore de site web."
+        },
+        "links": {
+          "explore_other_stores": "Explorer d'autres magasins",
+          "start_free_trial": "Essayer gratuitement"
+        },
+        "owner_ctas": {
+          "header": "Es-tu le propriétaire du magasin ?",
+          "fix_domain": "Allez à %{domain_settings_link} et terminez la configuration de votre nouvelle adresse web. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous ne pouvez pas accéder à votre boutique, essayez %{forgot_your_store_link}",
+          "forgot_your_store_link_text": "Vous avez oublié votre panier ?",
+          "add_storefront": "Vous pouvez configurer votre site web en ajoutant le canal boutique en ligne dans %{admin_link}. Si vous ne pouvez pas accéder à votre boutique, essayez %{forgot_your_store_link}",
+          "admin_link_text": "centre de gestion"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vente personnelle",
+            "caption": "Obtenez les fonctions dont vous avez besoin pour gérer votre boutique de détail, que vous débutiez ou que vous étendiez."
+          }
+        }
+      }
     }
   }
 }
