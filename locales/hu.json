@@ -2048,7 +2048,67 @@
         },
         "thank_you_confirmed_order_with_email_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet.",
         "thank_you_confirmed_order_with_phone_pick_up": "Sms-t kapsz, amikor átveheted a rendelésed.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet."
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "E-mailt kapsz, amikor átveheted a rendelésedet.",
+        "ready_for_pickup_title": "A rendelés átvehető",
+        "ready_for_pickup_description": "A rendelésed átvehető. Kérjük, hozd magaddal a rendelés visszaigazolását az átvételkor.",
+        "picked_up_title": "A rendelés átvevése megtörtént",
+        "picked_up_description_html": "A rendelését %{location_name} helyszínen %{date} időpontban vették át.",
+        "shop_phone_description": "Kapsz egy sms-t egy hivatkozással a Bolt-alkalmazáshoz, hogy nyomon követhesd a rendelésedet.",
+        "ready_for_delivery_title": "A rendelés készen áll a kiszállításra",
+        "ready_for_delivery_description": "Elkészítettük a rendelést.",
+        "order_status_confirmed_order_local": "Előkészítjük a rendelésedet a kiszállításhoz.",
+        "delivery_information_label": "Kézbesítési információ:",
+        "gift_card_sent_confirmation": "Ajándékutalványok elküldve",
+        "out_for_delivery_local_title": "A rendelésed készen áll a kiszállításra",
+        "out_for_delivery_local_description_html": "Hamarosan megkapod a rendelésedet.",
+        "delivered_local_title": "A rendelésed kiszállítva",
+        "delivered_local_description_html": "Még nem kaptad meg a rendelésed? %{let_us_know}.",
+        "let_us_know": "Tudassa velünk",
+        "qr_code": {
+          "title": "Kövesd a telefonodon"
+        },
+        "gift_card_confirmation_by_text": "Ha ezt nem kaptad meg, kérd meg, hogy küldjék el újra az sms-t, vagy vedd fel velünk a kapcsolatot.",
+        "gift_card_confirmation_by_email": "Ha nem kaptad meg ezt, kérd meg, hogy küldjék el újra az e-mailt, vagy vedd fel velünk a kapcsolatot.",
+        "gift_card_title": "Ajándékutalványok",
+        "resend_gift_cards": "Ajándékutalványok újbóli elküldése",
+        "attempted_delivery_local_title": "Elmaradt kézbesítés",
+        "attempted_delivery_local_description_html": "Sajnos nem tudtuk kézbesíteni a rendelésedet. %{contact_us} egy másik kiszállítás egyeztetéséhez.",
+        "thank_you_title_payment": "A fizetésed megerősítve lett",
+        "thank_you_confirmed_order_with_email_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "thank_you_confirmed_order_with_phone_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "order_status_confirmed_order_with_email_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "order_status_confirmed_order_with_phone_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Fizetést teljesítettél a %{date} dátumú rendelésedhez.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Telefonoddal beolvasás"
+          },
+          "sms": {
+            "title": "Vagy küldj egy hivatkozást a telefonodra"
+          }
+        },
+        "estimated_delivery": "Jelenlegi kézbesítési becslés:",
+        "company_location_title": "Helyszín",
+        "thank_you_title_review": "A rendelésed értékelésre benyújtva",
+        "thank_you_confirmed_order_with_draft": "Értesítünk, ha további információra van szükségünk, vagy amikor a rendelésed megerősítésre kerül.",
+        "breadcrumbs_submitted": "Benyújtva",
+        "breadcrumbs_in_review": "Értékeléshez",
+        "breadcrumbs_confirmed": "Megerősítve",
+        "missing_shipping_address_banner": {
+          "title": "A rendeléshez nincs megadva kézbesítési cím",
+          "text_html": "%{contact_us} a címed hozzáadásához",
+          "contact_us": "Lépjen kapcsolatba velünk"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Fordulj ismét az eladóhoz.",
+        "order_status_confirmed_with_installments_payment_confirm": "Hamarosan kapsz egy visszaigazoló e-mailt a rendelési számoddal és a részletfizetési ütemterved részleteivel.",
+        "first_payment_complete": "Első fizetés befejezve",
+        "in_store_purchase": "Vásárlás az üzletben",
+        "choose_payment_method_later": "Fizetési mód későbbi kiválasztása",
+        "purchase_order_number_title": "Rendelési szám %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "A rendelést átadták a %{address} címen.",
+        "ready_for_delivery": "Kiszállításra kész",
+        "order_updates_subscribe_to_email_notifications_failed": "Nem tudjuk ezt az e-mail címet elmenteni a frissítésekhez. Próbálja meg újra, vagy használjon másik e-mail címet."
       }
     }
   }
