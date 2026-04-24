@@ -3286,7 +3286,79 @@
         },
         "two_images_accessibility_label": "Tilaus sisältää {{lineItemName1}}, {{lineItemName2}}",
         "no_filtered_results_description": "Poista suodattimet tai säädä niitä nähdäksesi tilauksesi",
-        "estimated_shortform": "Arvioitu {{date}}"
+        "estimated_shortform": "Arvioitu {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Te laat",
+            "due": "Velkaa {{date}}",
+            "due_today": "Maksettavana tänään",
+            "due_without_date": "Velkaa",
+            "due_on_fulfillment": "Maksu toimituksen yhteydessä",
+            "pay_to_confirm": "Maksaminen vahvistusta varten",
+            "payment_not_due": "Ei vielä maksettavaa"
+          },
+          "gallery_view": {
+            "overdue": "Maksu on myöhässä",
+            "due": "Maksu erääntyy {{date}}",
+            "due_without_date": "Maksu erääntynyt",
+            "due_on_fulfillment": "Maksu erääntyy täytettäessä",
+            "pay_to_confirm": "Maksaminen vahvistusta varten"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Tällä hetkellä lajiteltu: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}, {{lineItemName3}} määrän {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}, {{lineItemName3}} määrän {{lineItemQuantity3}}, {{lineItemName4}} määrän {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}, {{lineItemName3}} määrän {{lineItemQuantity3}}, {{lineItemName4}} määrän {{lineItemQuantity4}}, {{lineItemName5}} määrän {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}, {{lineItemName3}} määrän {{lineItemQuantity3}}, {{lineItemName4}} määrän {{lineItemQuantity4}}, {{lineItemName5}} määrän {{lineItemQuantity5}}, {{lineItemName6}} määrän {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Tilaus sisältää {{lineItemName1}} määrän {{lineItemQuantity1}}, {{lineItemName2}} määrän {{lineItemQuantity2}}, {{lineItemName3}} määrän {{lineItemQuantity3}}, {{lineItemName4}} määrän {{lineItemQuantity4}}, {{lineItemName5}} määrän {{lineItemQuantity5}}, {{lineItemName6}} määrän {{lineItemQuantity6}} ja enemmän",
+          "view_order_details": "Tarkastele tilauksen tietoja"
+        },
+        "show_order_actions_accessibility_label": "Näytä tilauskampanjat tilaukselle {{name}}",
+        "empty_state_title_for_pending_orders": "Geen tilaukset käsittelyssä",
+        "more_than_four_products_accessibility_label": "Tilauksessa on {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} sekä vielä {{numberOfAdditionalProducts}} tuotetta",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} tuotetta",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Tarkastele tilausta tuotetietoja varten",
+            "estimated_delivery": "Odotettavissa {{date}}",
+            "last_updated": "Viimeksi päivitetty {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Arvioitu toimitus {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Tilaukseen sisältyy {{lineItemName1}}, {{lineItemName2}} sekä {{numberOfAdditionalProducts}} muuta tuotetta",
+        "filter": {
+          "clear_section": "Osion tyhjennys",
+          "clear_all": "Kaikki tieto",
+          "apply": "Soveltaa",
+          "date": {
+            "start_date": "Aloituspäivämäärä",
+            "title": "Tilattu päivämäärä"
+          }
+        },
+        "no_order_banner": "Luo tilaus testataksesi laajennusta Tilaustila-sivulla.",
+        "location_filter_picker": {
+          "current_location": "Nykyinen sijainti",
+          "switch_view": "Näyttötilan vaihtaminen"
+        },
+        "empty_state_with_location_title": "Ei tilauksia kohteelle {{locationName}}",
+        "view_order": "Tarkastele tilausta",
+        "view_order_accessibility_label": "Tarkastele tilausta {{orderName}}"
+      },
+      "order_status": {
+        "come_back": "Palaa tälle sivulle saadaksesi tilapäivityksiä lähetyksestäsi.",
+        "company_tracking_number": "{{company}}-seurantanumero:",
+        "delivered_label": "Huolestunut",
+        "estimated_delivery": "Odotettavissa {{date}}",
+        "in_review_label": "Arviointia varten",
+        "in_review_title": "Tilauksesi tarkistetaan",
+        "out_for_delivery_label": "Valmis toimitettavaksi",
+        "resume_tracking": "Jatka matkaa",
+        "track_shipment": "Seuraa Zendingiä"
       }
     }
   }
