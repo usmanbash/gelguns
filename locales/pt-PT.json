@@ -3310,7 +3310,83 @@
           "six_products_accessibility_label": "Encomenda contém {{lineItemName1}} quantidade {{lineItemQuantity1}}, {{lineItemName2}} quantidade {{lineItemQuantity2}}, {{lineItemName3}} quantidade {{lineItemQuantity3}}, {{lineItemName4}} quantidade {{lineItemQuantity4}}, {{lineItemName5}} quantidade {{lineItemQuantity5}}, {{lineItemName6}} quantidade {{lineItemQuantity6}}",
           "six_and_more_products_accessibility_label": "Encomenda contém {{lineItemName1}} quantidade {{lineItemQuantity1}}, {{lineItemName2}} quantidade {{lineItemQuantity2}}, {{lineItemName3}} quantidade {{lineItemQuantity3}}, {{lineItemName4}} quantidade {{lineItemQuantity4}}, {{lineItemName5}} quantidade {{lineItemQuantity5}}, {{lineItemName6}} quantidade {{lineItemQuantity6}} e mais"
         },
-        "show_order_actions_accessibility_label": "Mostrar promoções para a encomenda {{name}}"
+        "show_order_actions_accessibility_label": "Mostrar promoções para a encomenda {{name}}",
+        "empty_state_title_for_pending_orders": "Nenhum pedido em processamento",
+        "more_than_four_products_accessibility_label": "A encomenda contém {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} mais {{numberOfAdditionalProducts}} produtos",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produtos",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Ver encomenda para detalhes do produto",
+            "estimated_delivery": "Esperado em {{date}}",
+            "last_updated": "Última atualização em {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Entrega estimada em {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "A encomenda contém {{lineItemName1}}, {{lineItemName2}}, mais {{numberOfAdditionalProducts}} produtos",
+        "filter_title": "Filtro",
+        "filter": {
+          "clear_section": "Apagar secção",
+          "clear_all": "Saber tudo",
+          "date": {
+            "end_date": "Data final"
+          }
+        },
+        "no_order_banner": "Faça uma encomenda para testar a extensão na página Estado da Encomenda.",
+        "location_filter_picker": {
+          "switch_view": "Alternar visualização"
+        },
+        "empty_state_with_location_title": "Sem encomendas para {{locationName}}"
+      },
+      "order_status": {
+        "canceled_label": "Cancelado",
+        "come_back": "Volte a esta página para atualizações sobre o estado da sua encomenda.",
+        "company_tracking_number": "{{company}}-número de rastreio:",
+        "confirmed_label": "Confirmado",
+        "delivered_label": "Preocupado",
+        "estimated_delivery": "Esperado em {{date}}",
+        "in_review_label": "Para avaliação",
+        "in_review_title": "A sua encomenda está a ser avaliada",
+        "no_tracking_number": "Não existe número de rastreio para esta encomenda.",
+        "out_for_delivery_label": "Pronto para entrega",
+        "resume_tracking": "Retomar seguidores",
+        "track_shipment": "Acompanhar envio",
+        "preparing_for_shipping_label": "Expedição a ser preparada",
+        "ready_for_pickup_label": "Pronto para levantamento",
+        "ready_for_pickup_description": "Estes artigos estão prontos para levantamento. Traga a confirmação da encomenda quando for levantar a encomenda.",
+        "submitted_description": "Verifique a encomenda e os dados de pagamento.",
+        "last_updated": "Última atualização em {{date}}",
+        "multiple_shipments_label": "Múltiplas remessas",
+        "view_order_for_details": "Ver encomenda para detalhes do produto",
+        "confirmed_description_digital": "Receberá um e-mail quando a sua encomenda estiver pronta.",
+        "delivered_description_gift_card": {
+          "one": "O vale-presente foi enviado por correio eletrónico.",
+          "other": "Os vales-presente foram enviados por correio eletrónico."
+        },
+        "gift_card_label": {
+          "one": "Vale-presente",
+          "other": "Vales de oferta"
+        },
+        "ready_for_pickup_location": "A sua encomenda está pronta para levantamento no local",
+        "confirmed_description_pickup": "Receberá um e-mail quando puder levantar a sua encomenda.",
+        "confirmed_gift_card_additional_description": {
+          "one": "O vale-presente será enviado num e-mail separado.",
+          "other": "Cada vale-presente é enviado num e-mail separado."
+        },
+        "confirmed_description_gift_card_text": "Receberá uma mensagem de texto quando a encomenda estiver pronta.",
+        "delivered_description_gift_card_text": {
+          "one": "O vale-presente foi enviado por SMS.",
+          "other": "Os vales-presente foram enviados por SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "O vale-presente será enviado numa mensagem de texto separada.",
+          "other": "Cada vale-presente é enviado numa mensagem de texto separada."
+        },
+        "gift_resend_success": {
+          "one": "Vale-presente reenviado",
+          "other": "Vales-presente reenviados"
+        }
       }
     }
   }
