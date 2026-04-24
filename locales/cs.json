@@ -2906,7 +2906,157 @@
         "pound": "libra",
         "inch": "v",
         "foot": "stopa",
-        "square_foot": "stopa čtvereční"
+        "square_foot": "stopa čtvereční",
+        "item": "článek"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Tato adresa není podporována pro aktuální členství.",
+        "items_split_across_locations_unsupported": "Doručení Prime není pro vaši objednávku dostupné. Vaše možnosti doručení byly aktualizovány."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Přejít do internetového obchodu"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Více informací o %{context}",
+        "additional_payment_methods": "Další způsoby platby"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Tento článek nelze přidat do tvého nákupního košíku, protože pochází z obchodu, který používá jinou měnu.",
+          "max_remote_shops_exceeded": "Tento výrobek nelze přidat, protože váš košík již obsahuje maximální počet položek z jiných obchodů.",
+          "currency_mismatch_removal": "Z košíku byl odstraněn jeden výrobek, protože pochází z obchodu, který používá jinou měnu.",
+          "only_remote_merchandise_lines": "Pokladna obsahuje pouze zboží z vnějších zdrojů. Pro dokončení platby je nutné přesměrování do vnějšího obchodu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Dokončit nákup",
+        "remote_only_notice": "Tyto zboží jsou prodávány a odesílány jinými obchody. Přejděte k pokladně každého obchodu, abyste dokončili svůj nákup.",
+        "checkout_on_shop_label": "Zaplatit u %{shop_name}",
+        "single_shop_transition": "Budete přesměrováni na %{advertiser}, abyste dokončili svůj nákup.",
+        "detail_item_label": {
+          "one": "{{count}} položek",
+          "other": "{{count}} položek"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Pro tento obchod nebylo poskytnuto žádné %{policy_name}. Pro více informací kontaktujte přímo %{shop_name}."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_title": "Platba selhala",
+        "payment_not_processed_text": "Znovu naskenujte QR kód. Pokud to stále nefunguje, dejte to vědět našim zaměstnancům a zkuste jiný způsob platby.",
+        "payment_link_expired_title": "Platba vypršela",
+        "payment_link_expired_text": "Naskenujte QR kód znovu.",
+        "title": "Platba mimo místo selhala"
+      },
+      "taxes": {
+        "tax_details": "Doplňující daňové údaje",
+        "vat_number": {
+          "field": {
+            "label": "Btw-identifikační číslo (volitelné)",
+            "tooltip": "Ověřuje identifikační číslo k DPH a automaticky uplatňuje přenesení daňové povinnosti u objednávek, které k tomu mají nárok"
+          },
+          "vaulted": "Btw-identifikační číslo: %{number}",
+          "badge": "Btw-identifikační číslo: %{number}",
+          "domestic_order": "Režim přenesení daňové povinnosti platí pouze pro přeshraniční objednávky v rámci EU. U místních objednávek se standardně účtuje daň z přidané hodnoty.",
+          "status": {
+            "invalid_format": {
+              "at": "Daňové identifikační číslo Rakouska obsahuje AT a 9 znaků",
+              "be": "Číslo identifikace k DPH v Belgii obsahuje BE a 10 znaků",
+              "bg": "Daňové identifikační číslo Bulharska obsahuje BG a 9–10 znaků",
+              "hr": "Daňové identifikační číslo Chorvatska obsahuje HR a 11 znaků",
+              "cy": "Daňové identifikační číslo na Kypru obsahuje CY a 9 znaků",
+              "cz": "Daňové identifikační číslo z České republiky obsahuje CY a 8–10 znaků.",
+              "dk": "Daňové identifikační číslo Dánska obsahuje DK a 8 znaků",
+              "ee": "Daňové identifikační číslo Estonska obsahuje EE a 9 znaků",
+              "fi": "Daňové identifikační číslo z Finska obsahuje FI a 8 znaků",
+              "fr": "Daňové identifikační číslo Francie obsahuje FR a 11 znaků",
+              "de": "Daňové identifikační číslo Německa obsahuje DE a 9 znaků",
+              "gr": "Daňové identifikační číslo Řecka obsahuje EL a 9 znaků",
+              "hu": "Daňové identifikační číslo Maďarska obsahuje HU a 8 znaků",
+              "ie": "Daňové identifikační číslo DPH v Irsku obsahuje IE a 8-9 znaků",
+              "it": "Italské DIČ obsahuje IT a 11 znaků",
+              "lv": "Daňové identifikační číslo Lotyšska obsahuje LV a 11 znaků",
+              "lt": "Daňové identifikační číslo Litvy obsahuje LT a 9–12 znaků",
+              "lu": "Daňové identifikační číslo Lucemburska obsahuje LU a 8 znaků",
+              "mt": "Daňové identifikační číslo z Malty obsahuje MT a 8 znaků",
+              "nl": "Daňové identifikační číslo Nizozemska obsahuje NL a 12 znaků",
+              "pl": "Daňové identifikační číslo Polska obsahuje PL a 10 znaků",
+              "pt": "Daňové identifikační číslo z Portugalska obsahuje PT a 9 znaků",
+              "ro": "Daňové identifikační číslo Rumunska obsahuje RO a 10 znaků",
+              "sk": "Daňové identifikační číslo Slovenska obsahuje SK a 10 znaků",
+              "si": "Daňové identifikační číslo Slovinska obsahuje SI a 8 znaků",
+              "es": "Daňové identifikační číslo Španělska obsahuje ES a 9 znaků",
+              "se": "Číslo identifikace k DPH ve Švédsku obsahuje SE a 12 znaků",
+              "gb": "Daňové identifikační číslo Spojeného království obsahuje GB nebo XI a 5–12 znaků"
+            },
+            "invalid_number": {
+              "at": "Zadejte platné rakouské DIČ",
+              "be": "Zadejte platné belgické DIČ (daňové identifikační číslo)",
+              "bg": "Zadejte platné bulharské DIČ",
+              "hr": "Zadejte platné chorvatské identifikační číslo k DPH",
+              "cy": "Zadejte platné kyperské DIČ",
+              "cz": "Zadejte platné české DIČ",
+              "dk": "Zadejte platné dánské identifikační číslo pro DPH",
+              "ee": "Zadejte platné estonské DIČ",
+              "fi": "Zadejte platné finské DIČ",
+              "fr": "Zadejte platné francouzské DIČ",
+              "de": "Zadejte platné německé DIČ",
+              "gr": "Zadejte platné řecké DIČ",
+              "hu": "Zadejte platné maďarské DIČ",
+              "ie": "Zadejte platné irské DIČ",
+              "it": "Zadejte platné italské DIČ",
+              "lv": "Zadejte platné lotyšské DIČ",
+              "lt": "Zadejte platné litevské DIČ",
+              "lu": "Zadejte platné lucemburské DIČ",
+              "mt": "Zadejte platné maltské DIČ číslo",
+              "nl": "Zadejte platné nizozemské identifikační číslo k DPH",
+              "pl": "Zadejte platné polské DIČ",
+              "pt": "Zadejte platné portugalské identifikační číslo k DPH",
+              "ro": "Zadejte platné rumunské DIČ",
+              "sk": "Zadejte platné slovenské DIČ",
+              "si": "Zadejte platné slovinské DIČ",
+              "es": "Zadejte platné španělské DIČ",
+              "se": "Zadejte platné švédské DIČ",
+              "gb": "Zadejte platné identifikační číslo DPH Spojeného království"
+            },
+            "service_unavailable": "Služba ověřování není k dispozici",
+            "service_error": "Služba ověřování není k dispozici"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Ověření identifikačního čísla k DPH probíhá",
+              "valid": "Btw-identifikační číslo je platné",
+              "applied": "Osvobození od DPH bylo uplatněno",
+              "domestic": "Osvobození od Btw nebylo uplatněno",
+              "invalid_number": "Osvobození od Btw selhalo",
+              "service_unavailable": "Nelze ověřit osvobození od DPH",
+              "service_error": "Nelze ověřit osvobození od DPH"
+            }
+          }
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Tato platba již není vyžadována. Pro více informací přejděte na stránku objednávky.",
+        "paid": "Tato platba již byla odeslána. Přejděte na stránku objednávky pro více informací."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Pro dokončení nákupu je potřeba rozšířená interakce."
+        }
+      },
+      "embed": {
+        "shipping": {
+          "shipping_options": "Zobrazit všechny možnosti doručení"
+        },
+        "payment": {
+          "payment_options": "Zobrazit všechny možnosti platby"
+        }
+      },
+      "too_many_requests": {
+        "title": "Příliš mnoho pokusů o dokončení nákupu",
+        "body": "Počkejte několik minut a zkuste to znovu z vašeho nákupního košíku."
       }
     }
   }
