@@ -1568,7 +1568,79 @@
         "offsite_gateway_review_page_redirect_hint": "Po sprawdzeniu zamówienia zostaniesz przekierowany do %{gateway_label}, aby sfinalizować zakup.",
         "gift_card_checkbox_label": "Zastosuj bon podarunkowy",
         "kcp_creditcard_label": "KCP-karta kredytowa",
-        "simulated_express_checkout": "Portfele cyfrowe nie są dostępne w podglądzie edytora z powodu twojego regionu lub przeglądarki"
+        "simulated_express_checkout": "Portfele cyfrowe nie są dostępne w podglądzie edytora z powodu twojego regionu lub przeglądarki",
+        "offsite_gateway_redirect_hint_no_button_label": "Zostaniesz przekierowany do %{gateway_label}, aby dokończyć zakup.",
+        "swish_label": "Przesuń",
+        "network_card_persistence_description": "Wybrana sieć zostanie zapisana wraz z twoją metodą płatności na potrzeby przyszłych transakcji.",
+        "billing_address_rollup_accessibility_label": "Opcje adresu do faktury",
+        "crypto_modal": {
+          "error": {
+            "web_component_error": "Wystąpił problem podczas ładowania tej strony"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Konto rozliczeniowe",
+          "savings": "Konto oszczędnościowe"
+        },
+        "bank_account_choose": "Wybierz konto, aby bezpiecznie zakończyć zakup",
+        "bank_account_connect_another": "Połączyć inne konto bankowe",
+        "bank_account_missing": "Konto bankowe musi być powiązane",
+        "crypto_payment_method": {
+          "description": "Połącz swój portfel bezpiecznie. Twoje saldo i adres nie będą udostępniane.",
+          "tooltip": "Saldo twojego portfela i twój adres nie są udostępniane, a odliczona może być tylko żądana kwota",
+          "cashback_descriptor": {
+            "one": "Otrzymasz swój cashback po %{count} dniach",
+            "other": "Otrzymasz swój cashback po %{count} dniach"
+          }
+        },
+        "usdc_cashback_title": "%{incentive_percentage}% zwrotu gotówki",
+        "usdc_cashback_additional_info": "Zapłać USDC na Base i otrzymaj w ciągu 30 dni %{incentive_percentage}% z powrotem w swoim portfelu cyfrowym.",
+        "usdc_cashback_terms": "Warunki i limity mają zastosowanie",
+        "discount_show_more_warnings": {
+          "one": "Pokaż %{count} więcej",
+          "other": "Pokaż %{count} więcej"
+        },
+        "separate_payments_label": "Twoje artykuły pochodzą z więcej niż jednego sklepu. Musisz zapłacić osobno za %{separate_payments_link}.",
+        "separate_payments_text": "oddzielne płatności",
+        "payments": "Płatność",
+        "business_customer_with_bank_account_vaulting_payment_label": "Zapisz tę metodę płatności podczas finalizacji zamówienia i upoważnij %{company} do obciążania Twojego konta za przyszłe zakupy zatwierdzone dla tej lokalizacji, aż do momentu anulowania. Wszyscy kontaktowi przypisani do tej lokalizacji mogą korzystać z tej metody płatności.",
+        "new_bank_account_disclaimer": "Kończąc zamówienie, upoważniasz %{shop_name} do pobrania wskazanej kwoty z podanego rachunku w wyznaczonym terminie za pomocą ACH.",
+        "bank_account_disclaimer": "Przetworzenie płatności ACH może potrwać do 4 dni roboczych.",
+        "bank_account_vaulted_company_location": "Konto bankowe zapisane dla tej lokalizacji",
+        "discount_codes_removed_summary": {
+          "one": "%{count} kod rabatowy został usunięty",
+          "other": "Usunięto %{count} kodów rabatowych"
+        },
+        "default": "Standardowy",
+        "continue_to_guest_checkout": "Jako gość do kasy",
+        "discount_codes_modified_summary": {
+          "one": "%{count} kod rabatowy został zmieniony",
+          "other": "%{count} kodów rabatowych zostało zmienionych"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} kod rabatowy został usunięty lub zmieniony",
+          "other": "Usunięto lub zmieniono %{count} kodów rabatowych"
+        }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktualne saldo %{amount}",
+        "credit_card_expires_on_notice": "Wygasa %{month}/%{year}",
+        "express_payment_gateway_label": "Ekspres",
+        "billing_address_title": "Adres do faktury",
+        "free_label": "Darmowy"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Wprowadź prawidłowy numer telefonu",
+        "handle_email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "address_first_name_blank": "Wprowadź imię",
+        "address_last_name_blank": "Wprowadź nazwisko",
+        "address_address1_blank": "Wprowadź adres",
+        "address_address2_blank": "Wprowadź numer mieszkania lub apartamentu itp.",
+        "address_country_not_supported": "Nie wysyłamy do tego kraju/tego regionu. Wprowadź nowy adres dostawy i spróbuj ponownie.",
+        "address_province_blank": "Wybierz stan/województwo",
+        "address_company_blank": "Wprowadź nazwę firmy",
+        "address_phone_blank": "Wprowadź prawidłowy numer telefonu"
       }
     }
   }
