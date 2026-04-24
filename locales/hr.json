@@ -2905,11 +2905,97 @@
               "de": "Unesite važeći njemački PDV identifikacijski broj",
               "gr": "Unesite važeći grčki PDV identifikacijski broj",
               "hu": "Unesite važeći mađarski PDV identifikacijski broj",
-              "ie": "Unesite važeći irski PDV identifikacijski broj"
+              "ie": "Unesite važeći irski PDV identifikacijski broj",
+              "it": "Unesite važeći talijanski PDV identifikacijski broj",
+              "lv": "Unesite važeći latvijski PDV identifikacijski broj",
+              "lt": "Unesite važeći litvanski PDV identifikacijski broj",
+              "lu": "Unesite važeći luksemburški PDV identifikacijski broj",
+              "mt": "Unesite valjani malteški porezni identifikacijski broj (PDV)",
+              "nl": "Unesite važeći nizozemski PDV identifikacijski broj",
+              "pl": "Unesite važeći poljski PDV identifikacijski broj",
+              "pt": "Unesite važeći portugalski PDV identifikacijski broj",
+              "ro": "Unesite važeći rumunjski PDV identifikacijski broj",
+              "sk": "Unesite važeći slovački PDV identifikacijski broj",
+              "si": "Unesite važeći slovenski PDV identifikacijski broj",
+              "es": "Unesite važeći španjolski PDV identifikacijski broj",
+              "se": "Unesite važeći švedski identifikacijski broj PDV-a",
+              "gb": "Unesite važeći britanski PDV identifikacijski broj"
+            },
+            "service_unavailable": "Usluga provjere nije dostupna",
+            "service_error": "Usluga provjere nije dostupna"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Provjera valjanosti PDV identifikacijskog broja se provodi",
+              "valid": "Btw-identifikacijski broj je važeći",
+              "applied": "Oslobođenje od PDV-a je primijenjeno",
+              "domestic": "Oslobađanje od PDV-a nije primijenjeno",
+              "invalid_number": "Oslobađanje od PDV-a nije uspjelo",
+              "service_unavailable": "Ne mogu potvrditi oslobođenje od PDV-a",
+              "service_error": "Ne mogu potvrditi oslobođenje od PDV-a"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Ova uplata više nije potrebna. Idite na stranicu za narudžbu za više informacija.",
+        "paid": "Ova uplata je već poslana. Idite na stranicu narudžbe za više informacija."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Za dovršetak naplate potrebna je interakcija s proširenjem."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Provjeri svoju narudžbu"
+        },
+        "shipping": {
+          "shipping_options": "Pogledajte sve opcije dostave"
+        },
+        "payment": {
+          "payment_options": "Pogledajte sve opcije plaćanja"
+        }
+      },
+      "too_many_requests": {
+        "title": "Previše pokušaja naplate"
       }
+    },
+    "pagination": {
+      "previous": "Prethodni"
+    },
+    "links": {
+      "powered_by_shopify": "Pokreće Shopify",
+      "learn_more": "Više informacija"
+    },
+    "feed": {
+      "more": "More"
+    },
+    "attributes": {
+      "password_confirmation": "potvrda lozinke",
+      "body": "glavni tekst"
+    },
+    "addresses": {
+      "region": "Regio",
+      "province": "Pokrajine",
+      "state": "država",
+      "state_and_territory": "Država/Teritorij",
+      "county": "Pokrajine",
+      "governorate": "Vlada",
+      "confirm": "Jesi li siguran da želiš izbrisati ovu adresu?"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Abecedno: A-Z",
+        "za": "Abecedno: Z-A",
+        "price_ascending": "Cijena: od najniže do najviše",
+        "price_descending": "Cijena: od najviše prema najnižoj",
+        "date_ascending": "Datum: od starog do novog",
+        "date_descending": "Datum: najnovije prema najstarijem"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Autorizacija kreditne kartice je istekla. Unesite svoje podatke za plaćanje ponovno. S vašeg računa nije skinut novac."
     }
   }
 }
