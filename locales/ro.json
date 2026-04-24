@@ -3389,7 +3389,75 @@
           "four_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}",
           "five_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}, {{lineItemName5}} cantitate {{lineItemQuantity5}}",
           "six_products_accessibility_label": "Comanda conține {{lineItemName1}} cantitate {{lineItemQuantity1}}, {{lineItemName2}} cantitate {{lineItemQuantity2}}, {{lineItemName3}} cantitate {{lineItemQuantity3}}, {{lineItemName4}} cantitate {{lineItemQuantity4}}, {{lineItemName5}} cantitate {{lineItemQuantity5}}, {{lineItemName6}} cantitate {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "Comanda conține {{lineItemName1}} în cantitate de {{lineItemQuantity1}}, {{lineItemName2}} în cantitate de {{lineItemQuantity2}}, {{lineItemName3}} în cantitate de {{lineItemQuantity3}}, {{lineItemName4}} în cantitate de {{lineItemQuantity4}}, {{lineItemName5}} în cantitate de {{lineItemQuantity5}}, {{lineItemName6}} în cantitate de {{lineItemQuantity6}} și altele"
+          "six_and_more_products_accessibility_label": "Comanda conține {{lineItemName1}} în cantitate de {{lineItemQuantity1}}, {{lineItemName2}} în cantitate de {{lineItemQuantity2}}, {{lineItemName3}} în cantitate de {{lineItemQuantity3}}, {{lineItemName4}} în cantitate de {{lineItemQuantity4}}, {{lineItemName5}} în cantitate de {{lineItemQuantity5}}, {{lineItemName6}} în cantitate de {{lineItemQuantity6}} și altele",
+          "view_order_details": "Vizualizează detaliile comenzii",
+          "previous": "Anterior",
+          "next": "Următorul"
+        },
+        "show_order_actions_accessibility_label": "Afișează promoțiile pentru comanda {{name}}",
+        "empty_state_title_for_pending_orders": "Nicio comandă în curs de procesare",
+        "more_than_four_products_accessibility_label": "Comanda conține {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus încă {{numberOfAdditionalProducts}} produse",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produse",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Vizualizare comandă pentru detalii produs",
+            "estimated_delivery": "Așteptat pe {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Livrare estimată pe {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Comanda conține {{lineItemName1}}, {{lineItemName2}}, plus încă {{numberOfAdditionalProducts}} produse",
+        "filter_title": "Filtru",
+        "filter": {
+          "clear_section": "Șterge secțiunea",
+          "clear_all": "A ști totul",
+          "apply": "Aplicare",
+          "date": {
+            "start_date": "Data de început",
+            "end_date": "Data de încheiere",
+            "custom": "Adaptat"
+          }
+        },
+        "no_order_banner": "Creează o comandă pentru a testa extensia pe pagina Stare comandă.",
+        "location_filter_picker": {
+          "current_location": "Locație curentă",
+          "switch_view": "Schimbă afișajul"
+        },
+        "view_order": "Vizualizează comanda",
+        "view_order_accessibility_label": "Vizualizează comanda {{orderName}}"
+      },
+      "order_status": {
+        "canceled_label": "Anulat",
+        "come_back": "Revină la această pagină pentru actualizări privind starea expedierii tale.",
+        "confirmed_label": "Confirmat",
+        "confirmed_title": "Comanda ta a fost confirmată",
+        "delivered_label": "Îngrijorat",
+        "estimated_delivery": "Așteptat pe {{date}}",
+        "in_review_label": "Pentru evaluare",
+        "in_review_title": "Comanda ta este în curs de evaluare",
+        "no_tracking_number": "Nu există un număr de urmărire pentru această expediere.",
+        "on_its_way_label": "Pe drum",
+        "out_for_delivery_label": "Pregătit pentru livrare",
+        "resume_tracking": "Reluare volum",
+        "submitted_label": "Depus",
+        "track_shipment": "Urmărire colet",
+        "request_return": "Solicitare de returnare",
+        "attempted_delivery_label": "Încercare de livrare",
+        "preparing_for_shipping_label": "Expedierea este în curs de pregătire",
+        "ready_for_pickup_label": "Gata pentru ridicare",
+        "ready_for_pickup_description": "Aceste articole sunt gata pentru ridicare. Adu cu tine confirmarea comenzii când ridici comanda.",
+        "picked_up_label": "Ridicat",
+        "submitted_description": "Verifică comanda și datele de plată.",
+        "view_order_for_details": "Vizualizare comandă pentru detalii produs",
+        "confirmed_description_digital": "Primești un e-mail când comanda ta este gata.",
+        "delivered_description_gift_card": {
+          "one": "Cadeaubon a fost trimis prin e-mail.",
+          "other": "Voucherele cadou au fost trimise prin poștă electronică."
+        },
+        "gift_card_label": {
+          "one": "Bon cadou",
+          "other": "Vouchere cadou"
         }
       }
     }
