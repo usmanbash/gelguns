@@ -665,11 +665,69 @@
         "third_party_address_timeout": "Cannot load addresses. Please try again or use a different address.",
         "third_party_address_error": "An error occurred while loading the address selection. Please enter your address manually below.",
         "third_party_payment_timeout": "Cannot load payment methods. Please try again or use a different payment method.",
-        "third_party_payment_error": "An error occurred while loading the payment selection. Please use a different payment method."
+        "third_party_payment_error": "An error occurred while loading the payment selection. Please use a different payment method.",
+        "add_shipping_address": "Add delivery address",
+        "unbranded_description_same_day": "Shipped the same working day",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Will be shipped the next working day"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Will be shipped in %{count} week",
+          "other": "Will be shipped in %{count} weeks"
+        }
       },
       "payment": {
         "saved_addresses": "Saved addresses",
-        "save_this_address": "Save this address"
+        "save_this_address": "Save this address",
+        "amazon_payments_label": "Amazon Payment",
+        "amazon_payments_login_hint": "You are asked to log in to Amazon.",
+        "amazon_payments_logout": "Log out of Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "The chosen payment method cannot be used. Please select another method or contact your bank or card issuer.",
+        "amazon_payments_abandoned_mfa_challenge": "Your payment could not be completed. Try another payment method or contact your bank or card issuer.",
+        "amazon_payments_could_not_enqueue_authorize": "There was a problem processing your payment. Please try again or use a different payment method.",
+        "amount_left_to_pay_label": "Amount due:",
+        "gift_card_code_label": "Gift voucher code",
+        "detected_card_brand": "Detected card type: {brand}",
+        "card_expiry_label": "Expiration date (MM/YY)",
+        "card_expiry_placeholder": "Expiration date (MM/YY)",
+        "card_expiry_date_explanation": "Card expiration date layout: month, month, year, year",
+        "card_verification_value_explanation": "Security code of 3 digits, usually found on the back of your card. American Express has a code of 4 digits on the front.",
+        "card_verification_value_explanation_other": "Security code of 3 digits on the back of your card",
+        "ends_with_label": "ends with %{last_digits}",
+        "saved_by_payment_method": "Saved with %{payment_method}",
+        "same_billing_address_label": "Same as delivery address",
+        "express_checkout_free_order": "No charges are applied for a free order",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Your order will be paid with your gift voucher.",
+          "other": "Your order will be paid with your gift vouchers."
+        },
+        "offsite_gateway_redirect_hint": "You will be redirected to %{gateway_label} to complete your purchase.",
+        "billing_address_title": "Invoice address",
+        "no_js_credit_card_fields_redirect_hint": "You will be redirected so you can add your payment information.",
+        "card_fields_container_prefix": "In this field it says:",
+        "card_fields_unavailable_html": {
+          "one": "Payment by credit card or debit card is currently not available.<br><a href=\"%{current_url}\">Refresh this page</a> or try again later.",
+          "other": "Payment by credit card or debit card is currently not available.<br><a href=\"%{current_url}\">Refresh this page</a> or try another payment method."
+        },
+        "card_fields_processing_error": "There was a problem processing the payment. Refresh this page or check your internet connection.",
+        "technical_error": "Due to a technical problem, payments cannot be processed at the moment. Please try again in a few minutes.",
+        "no_method_error": "This shop cannot accept payments at the moment.",
+        "not_configured_error": "This shop cannot accept payments at the moment.",
+        "generic_incorrect_card_info": "Your payment details cannot be verified. Please check your card information and try again.",
+        "sofort_label": "Immediately",
+        "bank_picker_label": "Bench",
+        "klarna_pay_later_label": "Pay afterwards with Klarna",
+        "bancontact_label": "Bank contact",
+        "eps_label": "eps bank transfer (eps transfer)",
+        "klarna_slice_it_label": "Finances with Klarna",
+        "card_expiration_month_label": "Month of withering",
+        "card_expiration_year_label": "Year of expiry",
+        "card_information_notice": "All transactions are secure and encrypted. Credit card details are never stored.",
+        "credit_card_start_month": "Month start date",
+        "credit_card_start_year": "Year start date",
+        "billing_address_not_supported_for_payment_method_error": "This payment method is not available for your billing address and currency. Please try another payment method.",
+        "no_real_orders_dev_store": "This shop cannot accept real orders or process real payments.",
+        "subscription_agreement_label_html": "I understand that I agree to a subscription. It will be renewed at the stated price and frequency until it expires or is <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">canceled</a>."
       },
       "shipping_errors": {
         "must_use_address_banner": {
