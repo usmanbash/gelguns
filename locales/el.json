@@ -913,8 +913,82 @@
           "message": "Αυτά τα είδη δεν είναι διαθέσιμα."
         },
         "unshippable_product": {
-          "title": "Δεν διατίθεται παράδοση"
+          "title": "Δεν διατίθεται παράδοση",
+          "header": {
+            "one": "Δεν είναι διαθέσιμη παράδοση για %{count} είδος",
+            "other": "Δεν είναι διαθέσιμη παράδοση για %{count} είδη"
+          },
+          "message": {
+            "one": "Αυτό το προϊόν θα αφαιρεθεί από το καλάθι σου επειδή δεν υπάρχουν διαθέσιμες μέθοδοι παράδοσης για τη διεύθυνσή σου.",
+            "other": "Αυτό το προϊόν θα αφαιρεθεί από το καλάθι σου επειδή δεν υπάρχουν διαθέσιμες μέθοδοι παράδοσης για τη διεύθυνσή σου."
+          },
+          "status_column_header": "Καμία παράδοση"
+        },
+        "price_update": {
+          "description": "Οι τιμές αυτών των προϊόντων έχουν αλλάξει και ενημερωθεί στο καλάθι αγορών σου."
+        },
+        "item_label": {
+          "one": "{{count}} άρθρα",
+          "other": "{{count}} άρθρα"
+        },
+        "out_of_stock": {
+          "description": "Αυτά τα είδη δεν είναι πλέον διαθέσιμα και έχουν αφαιρεθεί από το καλάθι σου.",
+          "items_unavailable": "Ορισμένα είδη δεν είναι πλέον διαθέσιμα και έχουν αφαιρεθεί από το καλάθι σου."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} δεν είναι πλέον διαθέσιμο για αυτό το προϊόν.",
+            "other": "%{delivery_method} δεν είναι πλέον διαθέσιμο για αυτά τα είδη."
+          },
+          "default_message": {
+            "other": "Η επιλεγμένη μέθοδος παράδοσης δεν είναι πλέον διαθέσιμη για αυτά τα είδη."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Οι τιμές και οι διαθέσιμες ποσότητες για αυτά τα είδη έχουν αλλάξει και το καλάθι αγορών έχει ενημερωθεί."
         }
+      },
+      "order_summary": {
+        "title": "Περίληψη παραγγελίας",
+        "add_discount_or_gift_card": "Προσθήκη κωδικού έκπτωσης ή δωροεπιταγής",
+        "remove_gift_card_label": "Αφαίρεση δωροεπιταγής",
+        "remove_discount_label": "Αφαίρεση έκπτωσης",
+        "applied_discount_message": "Έχει αφαιρεθεί έκπτωση %{amount} από την τελική τιμή.",
+        "discount_has_been_applied": "Η έκπτωση έχει εφαρμοστεί",
+        "discount_has_been_removed": "Η έκπτωση αφαιρέθηκε",
+        "gift_card_has_been_applied": "Η κάρτα δώρου έχει εφαρμοστεί",
+        "gift_card_has_been_removed": "Η κάρτα δώρου έχει αφαιρεθεί",
+        "discount_already_applied": "Έχει εφαρμοστεί έκπτωση σε αυτή την παραγγελία. Δεν μπορείτε να προσθέσετε άλλη έκπτωση.",
+        "cart_does_not_meet_discount_requirements_notice": "Ο κωδικός έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong> δεν ισχύει για τα είδη στο καλάθι σας",
+        "discount_requires_customer_notice": "Εισάγετε τα στοιχεία αποστολής σας για να εφαρμόσετε τον κωδικό έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Ο κωδικός έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong> δεν είναι αυτή τη στιγμή διαθέσιμος για εσένα",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Ο κωδικός έκπτωσης <strong style=\"text-transform:uppercase\">%{code}</strong> δεν είναι διαθέσιμος για τη διεύθυνση παράδοσής σου",
+        "shipping_label": "Αποστολή",
+        "tip_label": "Φούι",
+        "shipping_pending_message": "Δεν είναι ακόμα διαθέσιμο",
+        "shipping_policy_link": "Έξοδα αποστολής",
+        "taxes_label": "παρεμπιπτόντως",
+        "total_outstanding_label": "Ποσό προς πληρωμή",
+        "paid_label": "Πληρωμένο",
+        "payment_due_label": "Οφειλόμενη πληρωμή",
+        "vat_label_html": "Συμπεριλαμβανομένου του %{amount} ΦΠΑ",
+        "discount_and_gift_card_savings_notice": "Έκπτωση %{discount_amount} και αξία δωροκάρτας %{gift_card_amount}",
+        "discount_savings_notice": "Έκπτωση %{discount_amount}",
+        "gift_card_savings_notice": "Προσθέστε %{gift_card_amount} στην αξία της δωροκάρτας",
+        "cost_table_title": "Περίληψη κόστους",
+        "scroll_order_summary": "Κύλιση για περισσότερα άρθρα",
+        "total_already_paid_label": "πληρωμένο",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} ανά τεμάχιο",
+            "one": "%{price} ανά %{count} τεμάχιο",
+            "other": "%{price} ανά %{count} αντικείμενα"
+          }
+        },
+        "pickup_label": "Παραλαβή από το κατάστημα",
+        "calculating_shipping": "Υπολογίζεται...",
+        "estimated_taxes_label": "Εκτιμώμενος φόρος",
+        "information_estimated_taxes_label": "Φόροι (εκτιμώμενοι)"
       }
     }
   }
