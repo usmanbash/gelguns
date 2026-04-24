@@ -2835,7 +2835,79 @@
       "discount_limit_reached": "Denna rabatt har nått användningsgränsen",
       "discount_not_found": "Kan ingen giltig rabatt hittas som stämmer överens med koden",
       "customer_already_used_once_per_customer_discount_notice": "Denna rabatt har nått användningsgränsen",
-      "gift_card_already_applied": "Koden har tillämpats på din kundvagn"
+      "gift_card_already_applied": "Koden har tillämpats på din kundvagn",
+      "gift_card_currency_mismatch": "Ditt presentkort är i %{gift_card_currency}. Kontakta oss så att vi kan utfärda det på nytt i %{checkout_currency}.",
+      "gift_card_depleted": "Det finns inget saldo kvar på detta presentkort",
+      "gift_card_disabled": "Presentkortet är spärrat",
+      "gift_card_expired": "Presentkortet har gått ut",
+      "taken": "är redan använd",
+      "contains_html_tags": "kan inte innehålla HTML-taggar",
+      "too_short": "är för kort (minst %{count} tecken krävs)",
+      "too_long": "är för lång (maximalt %{count} tecken)",
+      "password_mismatch": "måste vara identiskt med det angivna lösenordet",
+      "invalid_for_country": "är inte giltigt för %{country}",
+      "invalid_state_in_country": "är inte en giltig stat i %{country}",
+      "full_name_required": "Fyll i ett för- och efternamn",
+      "invalid_for_card_type": "är ogiltig",
+      "invalid_type": "ursäkta, vi accepterar inte kort av denna typ",
+      "invalid_format": "formatet är ogiltigt",
+      "expired": "har gått ut",
+      "invalid_start_date_or_issue_number_for_debit": "giltigt startdatum eller giltigt utgivningsnummer krävs",
+      "invalid_expiry_year": "är inget giltigt utgångsår",
+      "reset_password_html": "Din e-postadress är redan kopplad till ett konto. Om detta konto tillhör dig kan du <a href=\"/account/login#recover\">återställa ditt lösenord</a>",
+      "verify_email": "Vi har skickat ett e-postmeddelande till %{customer_email}. Klicka vänligen på den bifogade länken för att verifiera din e-postadress.",
+      "blocked_address": "Denna plats stöds inte",
+      "product_not_available": "produkten är inte publicerad för denna kund.",
+      "shop_404": {
+        "title": "Skapa en näthandelssida och sälj dina varor på nätet! E-handelsprogramvara från Shopify",
+        "heros": {
+          "store_unavailable": "Denna butik är för tillfället inte tillgänglig.",
+          "store_not_exist": "Den här butiken finns inte.",
+          "no_storefront": "Den här butiken har ännu ingen webbplats."
+        },
+        "links": {
+          "start_free_trial": "Prova gratis"
+        },
+        "owner_ctas": {
+          "header": "Är du butikens ägare?",
+          "fix_domain": "Gå till %{domain_settings_link} och slutför inställningen av din nya webbadress. Klicka på 'Anslut domän' och skriv: %{domain}.<br>Om du inte kan komma in i din butik, försök %{forgot_your_store_link}",
+          "forgot_your_store_link_text": "Glömt din butik?",
+          "add_storefront": "Du kan ställa in din webbplats genom att lägga till webbutikskanalen i %{admin_link}. Om du inte kan komma in i din butik, försök %{forgot_your_store_link}",
+          "admin_link_text": "hanteringscenter"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Personlig försäljning",
+            "caption": "Få de funktioner du behöver för att driva din butik, vare sig du just har börjat eller vill växa.",
+            "link_text": "Starta gratis provperiod"
+          },
+          "open_a_store": {
+            "caption": "Starta en gratis provperiod på tre dagar och fortsätt sedan i tre månader för 1 USD per månad.",
+            "link_text": "Anmäl dig nu"
+          },
+          "editions": {
+            "header": "Visa Shopify-utgåvor",
+            "caption": "Det finns över 100 produktuppdateringar som gör att du kan vara mer produktiv, kreativ och handlingskraftig i affärsvärlden än du någonsin trodde var möjligt.",
+            "link_text": "Utforska de senaste utgåvorna"
+          },
+          "store_owner": {
+            "header": "Är du butikens ägare?",
+            "caption": "Kan du inte komma in i din butik? Prova funktionen %{forgot_your_store_link}. Om du vill återaktivera din butik, kontakta %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify-support"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Fel vid återställning av lösenordet",
+        "no_account_found": "Inget konto hittades med den e-postadressen.",
+        "invalid_credentials": "Felaktig e-post eller lösenord.",
+        "denylisted_reset_password": "Ditt konto kan inte öppnas eftersom det nuvarande lösenordet inte är säkert. Du kommer att få ett e-postmeddelande för att återställa ditt lösenord.",
+        "signup_disabled": "Skapande av kundkonton är avstängt.",
+        "subscribe_error": "Fel vid prenumeration",
+        "unsubscribe_error": "Fel vid avanmälan"
+      }
     }
   }
 }

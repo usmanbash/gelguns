@@ -2969,11 +2969,93 @@
               "pt": "Zadajte platné portugalské DIČ",
               "ro": "Zadajte platné rumunské DIČ (daňové identifikačné číslo)",
               "sk": "Zadajte platné slovenské DIČ (daňové identifikačné číslo)",
-              "si": "Zadajte platné slovinské DIČ"
+              "si": "Zadajte platné slovinské DIČ",
+              "es": "Zadajte platné španielske DIČ",
+              "se": "Zadajte platné švédske DIČ (identifikačné číslo pre DPH)",
+              "gb": "Zadajte platné identifikačné číslo DPH Spojeného kráľovstva"
+            },
+            "service_unavailable": "Služba overenia nie je k dispozícii",
+            "service_error": "Služba overenia nie je k dispozícii"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Overenie platnosti identifikačného čísla pre DPH sa vykonáva",
+              "valid": "Číslo identifikácie Btw je platné",
+              "applied": "Uplatnené oslobodenie od DPH",
+              "invalid_number": "Oslobodenie od DPH zlyhalo",
+              "service_unavailable": "Nie je možné overiť oslobodenie od DPH Kan.",
+              "service_error": "Nie je možné overiť oslobodenie od DPH Kan."
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Táto platba už nie je potrebná. Pre viac informácií prejdite na stránku objednávky.",
+        "paid": "Táto platba už bola odoslaná. Pre viac informácií prejdite na stránku objednávky."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Na dokončenie pokladne je potrebná interakcia s rozšírením."
+        }
+      },
+      "embed": {
+        "shipping": {
+          "shipping_options": "Zobraziť všetky možnosti doručenia"
+        }
+      },
+      "too_many_requests": {
+        "title": "Príliš veľa pokusov o platbu",
+        "body": "Počkajte niekoľko minút a skúste to znova z vášho nákupného košíka.",
+        "return_to_cart": "Späť do košíka"
       }
+    },
+    "pagination": {
+      "previous": "Predchádzajúci"
+    },
+    "links": {
+      "powered_by_shopify": "Poháňané platformou Shopify",
+      "learn_more": "Viac informácií"
+    },
+    "feed": {
+      "more": "More"
+    },
+    "attributes": {
+      "password_confirmation": "potvrdenie hesla",
+      "body": "hlavný text"
+    },
+    "addresses": {
+      "region": "Regio",
+      "province": "Provincie",
+      "state": "štát",
+      "state_and_territory": "Štát/Teritórium",
+      "county": "Provincie",
+      "emirate": "Emiraat",
+      "governorate": "Vláda",
+      "confirm": "Ste si istý, že chcete túto adresu odstrániť?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Vybrané",
+        "az": "Abecedne: A-Z",
+        "za": "Abecedne: Z-A",
+        "price_ascending": "Cena: od najnižšej po najvyššiu",
+        "price_descending": "Cena: od najvyššej po najnižšiu",
+        "date_ascending": "Dátum: staré na nové",
+        "date_descending": "Dátum: od najnovšieho po najstarší"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Platnosť autorizácie kreditnej karty vypršala. Zadajte svoje platobné údaje znova. Z vašej karty nebola stiahnutá žiadna suma.",
+      "discount_disabled": "Táto zľava je zablokovaná",
+      "discount_limit_reached": "Táto zľava dosiahla svoj limit použitia",
+      "discount_not_found": "Nenašla sa žiadna platná zľava zodpovedajúca kódu",
+      "customer_already_used_once_per_customer_discount_notice": "Táto zľava dosiahla svoj limit použitia",
+      "gift_card_already_applied": "Kód je už použitý vo vašom nákupnom košíku",
+      "gift_card_currency_mismatch": "Váš darčekový poukaz je v %{gift_card_currency}. Kontaktujte nás, aby sme ho mohli znovu vystaviť v %{checkout_currency}.",
+      "gift_card_depleted": "Na tejto darčekovej poukážke už nie je žiadny zostatok",
+      "gift_card_disabled": "Darčeková poukážka je zablokovaná",
+      "gift_card_expired": "Darčeková poukážka vypršala",
+      "invalid": "je neplatný"
     }
   }
 }
