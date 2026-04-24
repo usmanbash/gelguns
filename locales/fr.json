@@ -1059,7 +1059,81 @@
           "other": "Afficher %{count} articles"
         },
         "collapse_component_information": {
-          "one": "Masquer %{count} article(s)"
+          "one": "Masquer %{count} article(s)",
+          "other": "Masquer %{count} articles"
+        },
+        "discount_discovery": {
+          "add_code": "Ajouter une remise",
+          "merchandise_quantity_label": {
+            "one": "%{count} article",
+            "other": "%{count} articles"
+          },
+          "back_to_finalize_order": "Retour à la finalisation de la commande"
+        },
+        "alternative_payment_currency_total": "prélevé en tant que %{amount_due}",
+        "calculating": "Calcul en cours...",
+        "group_title_label": "Partie de '%{group_title}'",
+        "discount_order_stacking": {
+          "one": "Remise sur commande",
+          "other": "Réductions sur les commandes"
+        },
+        "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
+        "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+        "total_savings": "Économie totale",
+        "return_restocking_fee_label": "Frais de réapprovisionnement des stocks",
+        "return_shipping_fee_label": "Retour de marchandise",
+        "enter_shipping_address": "Saisir l'adresse de livraison",
+        "shipping_discount_title": "Réduction sur l'envoi",
+        "discount_code_applied_with_code": "Code promo %{code} appliqué",
+        "gift_card_applied": "Bon cadeau appliqué",
+        "duties_included_label": "Le total comprend les impôts et droits de douane. Aucun frais supplémentaire à la livraison.",
+        "deferred_balance_info": {
+          "title": "Le solde de {{amount_due}} est dû le {{due_at}}.",
+          "due_on_fulfillment_title": "Le solde de {{amount_due}} est dû à la réalisation de la commande"
+        },
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction requis pour le client éligible",
+        "subtotal_label_with_quantity": {
+          "one": "Sous-total · %{count} article",
+          "other": "Sous-total · %{count} articles"
+        },
+        "product_image_quantity_label": "Nombre",
+        "more_items_modal": {
+          "empty_results": "Aucun résultat trouvé pour '%{searchText}'. Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+          "search_item": "Chercher"
+        },
+        "number_items": {
+          "one": "%{count} article",
+          "other": "%{count} articles"
+        },
+        "view_all_items": {
+          "one": "Afficher %{count} article(s)",
+          "other": "Voir tous les %{count} articles"
+        },
+        "price_before_discount_aria_text": "Prix d'origine",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Envoyer à l'adresse"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Aucun magasin ne propose votre article",
+          "other": "Aucun magasin disponible avec vos articles"
+        },
+        "total_due_today_label": "Total dû aujourd'hui",
+        "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a été modifié. Vérifiez votre panier et réessayez.",
+        "for_add_on": "Pour : %{group_title}",
+        "from_other_stores_heading": "D'autres magasins",
+        "order_discounts_apply_to_local_shop": "Les remises sur commande s'appliquent uniquement aux articles de %{shop_name}",
+        "gift_cards_apply_to_local_shop": "Les bons cadeaux sont valables uniquement pour les articles de %{shop_name}",
+        "discount_code_removed": "Le code promo %{code} a été supprimé",
+        "from_multiple_stores_heading": "De plusieurs magasins",
+        "discount_applies_to_subscription_items_only": "La réduction s'applique uniquement aux articles en abonnement",
+        "estimated_taxes_finalization_tooltip_content_short": "Arrondi fiscal après paiement",
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Aucun magasin disponible en %{country} avec votre article",
+          "other": "Aucun magasin disponible en %{country} avec vos articles"
+        },
+        "compare_at_sale": "Soldes (%{sale_amount})",
+        "tax_line": {
+          "hst": "HST"
         }
       }
     }
