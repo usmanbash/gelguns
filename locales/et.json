@@ -3552,7 +3552,77 @@
           "other": "{{count}} artiklit"
         },
         "order_link": "Tellimuse {{name}} vaatamine",
-        "order_number": "Tellimus {{name}}"
+        "order_number": "Tellimus {{name}}",
+        "orders_title": "Kinnitatud",
+        "pagination": {
+          "nav_accessibility_label": "Tellimuste navigeerimisnupud",
+          "next": "Järgmine",
+          "next_accessibility_label": "Järgmised tellimused",
+          "previous": "Eelmine",
+          "previous_accessibility_label": "Eelnevad tellimused",
+          "load_more": "Laadi rohkem",
+          "load_more_accessibility_label": "Laadi veel tellimusi"
+        },
+        "sort_by": "Sorteeri: {{option}}",
+        "sort_hide_options_accessibility_label": "Kinnitatud tellimuste sorteerimisvalikud peita.",
+        "sort_show_options_accessibility_label": "Kinnitatud tellimuste sorteerimisvalikute kuvamine.",
+        "sort_title": "Sorteeri",
+        "sort": {
+          "date": {
+            "newest": "Uuest vanemani",
+            "oldest": "Vanemast uuemani"
+          },
+          "location": {
+            "ascending": "Asukoht (A-Ö)",
+            "descending": "Asukoht (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Tellimuse number (kasvavalt)",
+            "descending": "Tellimuse number (kõrgeimast madalaimani)"
+          },
+          "order_total": {
+            "ascending": "Kogutellimus (kasvavalt)",
+            "descending": "Kogutellimus (kõrgeimast madalaimani)"
+          }
+        },
+        "one_images_accessibility_label": "Tellimus sisaldab {{lineItemName1}}",
+        "two_images_accessibility_label": "Tellimus sisaldab {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Tellimus sisaldab {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Tellimus sisaldab {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Eemalda filtrid või kohanda neid, et näha oma tellimusi",
+        "no_filtered_results_title": "Geen filtreeritud tulemused",
+        "estimated_shortform": "Arvutatud kuupäeval {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Te hilined",
+            "due": "Võlgnetav kuupäeval {{date}}",
+            "due_today": "Täna tasumisele kuuluv summa",
+            "due_without_date": "Võlgu",
+            "due_on_fulfillment": "Tasumine täitmise juures",
+            "pay_to_confirm": "Makse kinnitamiseks",
+            "payment_not_due": "Veel maksmata",
+            "paid": "Makstud"
+          },
+          "gallery_view": {
+            "overdue": "Makse on hilinenud",
+            "due": "Makse tähtaeg on {{date}}",
+            "due_today": "Makse on täna tasumisele kuuluv",
+            "due_without_date": "Makse võlgnetav",
+            "due_on_fulfillment": "Makse tasumine täitmise ajal",
+            "pay_to_confirm": "Makse kinnitamiseks",
+            "payment_not_due": "Makse ei ole veel võlgnenud"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Hetkel sorteeritud: {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogust {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} koguses {{lineItemQuantity1}}, {{lineItemName2}} koguses {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}, {{lineItemName6}} kogus {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Tellimus sisaldab {{lineItemName1}} kogus {{lineItemQuantity1}}, {{lineItemName2}} kogus {{lineItemQuantity2}}, {{lineItemName3}} kogus {{lineItemQuantity3}}, {{lineItemName4}} kogus {{lineItemQuantity4}}, {{lineItemName5}} kogus {{lineItemQuantity5}}, {{lineItemName6}} kogus {{lineItemQuantity6}} ja rohkem"
+        }
       }
     }
   }
