@@ -3500,7 +3500,77 @@
       "manage_accessiblity_label": "Administrer bestilling {{orderId}}",
       "fulfillment_status_title": "Fuldførelsesstatus: {{status}}",
       "list_title_with_pending_orders": "Bestillingen:",
-      "list_title_confirmed_orders_accessibility_label": "Bestillingen: bekræftet"
+      "list_title_confirmed_orders_accessibility_label": "Bestillingen: bekræftet",
+      "list_title_pending_orders_accessibility_label": "Bestillingen: under behandling",
+      "switch_order_type_pending_orders_accessibility_label": "Skift bestillingstype; du ser nu ordrer under behandling",
+      "switch_order_type_confirmed_orders_accessibility_label": "Skift bestillingstype; du ser dine bekræftede ordrer",
+      "group_title_label": "Del af: {{groupTitle}}",
+      "group_title_label_with_parent": "Til: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturér og send",
+      "card_ending_with": "udløber på {{lastDigits}}",
+      "contact": "Kontaktperson",
+      "hide_items": "Skjul artiklen",
+      "loading": "Indlæser bestillingsoplysninger",
+      "loading_finished_accessibility_message": "Bestillingsoplysninger er indlæst",
+      "payment": {
+        "status_in_review": "Betaling forfalder efter vurdering",
+        "card_payment_details": "afsluttet på {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Betalt med Shop Pay-afdragsbetalinger",
+          "view_schedule": "Se planlægning"
+        },
+        "gift_card_payment_details": "afsluttet på {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "cash_on_delivery": "Efterkrav - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankindskud - {{formattedTransactionAmount}}",
+          "manual": "Manuelt - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Butikskredit - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Vis alt",
+          "show_less": "Vis minder",
+          "details": "Oplysninger"
+        },
+        "emv_details": {
+          "auth": "FORFATTER:",
+          "aid": "HJÆLP:",
+          "source": "Brug følgende outputformat (ingen kodeblokke, ingen ekstra tekst):"
+        },
+        "payment_type": {
+          "store_credit": "Butikskredit",
+          "cash_on_delivery": "Tilbagebetaling",
+          "bank_deposit": "Bankoplade"
+        }
+      },
+      "shipping": {
+        "method": "Forsendelsesmetode",
+        "summary": "Afsendelse",
+        "one_time": "Engangsafsendelse",
+        "subscription": "Afsendelse under abonnement"
+      },
+      "show_items": "Vis varen",
+      "subtitle": "Bekræftet: {{date}}",
+      "subtotal": "Delsum",
+      "summary_list_title_accessibility_label": "Bestil varen",
+      "summary_title": "Bestillingsoversigt",
+      "summary_totals_title_accessibility_label": "Samlet bestilling",
+      "taxes": "Belastningen",
+      "title": "Bestilling {{name}}",
+      "unit_price": "{{price}}/stk",
+      "location": "Placering",
+      "not_applicable": "ikke relevant",
+      "fully_refunded_label": "TILBAGEBETALT",
+      "partially_refunded_label": "DELT TILBAGEBETALT",
+      "pagination": {
+        "load_more": "Indlæs mere",
+        "load_more_accessibility_label": "Indlæs flere artikler",
+        "loading_accessibility_label": "Indlæser varen"
+      },
+      "returns": {
+        "expand_events_label": "Vis data"
+      }
     }
   }
 }
