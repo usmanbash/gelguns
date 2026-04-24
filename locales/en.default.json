@@ -3132,9 +3132,79 @@
           "source": "we sell rose plants or bare-root roses"
         },
         "payment_type": {
-          "gift_card": "Gift voucher"
+          "gift_card": "Gift voucher",
+          "money_order": "Money order",
+          "cash_on_delivery": "Cash on delivery",
+          "bank_deposit": "Bank transfer",
+          "manual": "By hand"
         }
-      }
+      },
+      "shipping": {
+        "address": "Delivery address",
+        "address_map_marker": "Delivery address",
+        "free_shipping_discount": "Free delivery",
+        "one_time": "Ship once",
+        "subscription": "Shipping under subscription"
+      },
+      "subtitle": "Confirmed: {{date}}",
+      "summary_title": "Order overview",
+      "unit_price": "{{price}}/pc",
+      "not_applicable": "n/a",
+      "refunded_amount": "Reimbursed",
+      "returns": {
+        "expand_events_label": "Display data",
+        "ineligible_return_message": "No items in this order qualify for return.",
+        "ineligible_return_message_when_returned": "There are no longer any items in this order eligible for return."
+      },
+      "request_return_failed": "There was a problem processing your request. Please try again.",
+      "mobile_summary_toggle_button": {
+        "open": "Show order overview",
+        "closed": "Hide order overview"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Display data",
+        "expand_events_accessibility_label": "Show delivery details of order",
+        "hide_events_accessibility_label": "Hide order delivery details"
+      },
+      "show_order_summary": "Show order overview",
+      "hide_order_summary": "Hide order overview",
+      "marketing_description": "You will receive promotional emails. You can unsubscribe at any time you wish.",
+      "marketing_checkbox_label": "Send me emails with news and offers",
+      "marketing_checkmark_label": "You have signed up to receive emails with news and offers",
+      "image_gallery": {
+        "previous": "Show previous articles"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download Shop to track the package",
+        "real_time_delivery_updates": "After the order has been sent, you will receive real-time delivery updates from Shop."
+      },
+      "shop_pay": {
+        "learn_more": "More information"
+      },
+      "edit_summary": {
+        "added_with_quantity": "{{quantity}} added",
+        "removed_with_quantity": "{{quantity}} removed",
+        "returned_with_quantities": "{{delta}} of {{total}} returned",
+        "removed_with_quantities": "{{delta}} away from {{total}}",
+        "return_line_item_removed_with_quantities": "{{delta}} removed from return"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Paid with Shop Pay installment payments",
+        "description": "Stay informed about your payment schedule with reminders in the Shop app.",
+        "payment_reminders_button": "Receive payment reminders",
+        "desktop_qr_code_content": {
+          "title": "Scan for memories",
+          "description": "Receive reminders for your installment payments at Shop."
+        },
+        "title": "Payment reminders for Shop Pay installment payments"
+      },
+      "contact_information": "Contact details",
+      "login_to_view_all_order_details": "Log in to view all order details.",
+      "log_in": "Log in",
+      "order_details_skeleton_accessibility_label": "Log in to view all order details.",
+      "logged_in_account_no_permission_to_order": "You are logged in as {{email}}. This account is not authorized to manage this order.",
+      "log_in_to_a_different_account": "Log in to another account",
+      "duties": "Customs duties"
     }
   }
 }
