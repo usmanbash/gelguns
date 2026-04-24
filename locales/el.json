@@ -1122,7 +1122,87 @@
         "title": "Αποστολή",
         "shipping_method_title": "Τρόπος αποστολής",
         "waiting_on_rate_notice": "Ανάκτηση διαθέσιμων τιμών αποστολής...",
-        "waiting_on_pickup_location_notice": "Ανάκτηση διαθέσιμων σημείων παραλαβής..."
+        "waiting_on_pickup_location_notice": "Ανάκτηση διαθέσιμων σημείων παραλαβής...",
+        "no_rates_for_cart_or_destination_notice": "Δεν υπάρχουν διαθέσιμες μέθοδοι αποστολής για το καλάθι ή τη διεύθυνσή σου",
+        "no_pickup_location_notice": "Τουλάχιστον ένα από τα προϊόντα σου δεν μπορεί να παραληφθεί από το κατάστημα",
+        "no_rates_for_country_notice": "Δεν βρέθηκαν τιμές αποστολής για αυτή τη διεύθυνση.",
+        "shipping_line_phone_label": "Κινητό τηλέφωνο (υποχρεωτικό)",
+        "shipping_line_phone": "Ο κούριέρ σου μπορεί να χρησιμοποιήσει αυτόν τον αριθμό για να επικοινωνήσει μαζί σου.",
+        "other_method": {
+          "zero": "Δεν υπάρχουν άλλες διαθέσιμες μέθοδοι",
+          "one": "%{count} άλλη μέθοδος διαθέσιμη από",
+          "other": "%{count} άλλες μέθοδοι διαθέσιμες από"
+        },
+        "shipping_rate_discounted_amount": "Προηγουμένως: %{original_amount}. Τώρα: %{amount}",
+        "shipping_line_delivery_phone": "Ενδέχεται να επικοινωνήσουμε μαζί σου με ενημερώσεις σχετικά με την παράδοσή σου.",
+        "optional_shipping_line_delivery_instructions_label": "Οδηγίες παράδοσης (προαιρετικό)",
+        "shipping_line_delivery_phone_label": "Κινητό τηλέφωνο",
+        "shipping_line_delivery_instructions": "Εισάγετε τις απαιτούμενες πληροφορίες όπως κωδικούς πόρτας και οδηγίες παράδοσης.",
+        "subscription_shipping": "Συνδρομή για αποστολή",
+        "shipping_method_one_time_purchase_group_title": "Μοναδική αγορά",
+        "one_time_purchase_shipping": "Αποστολή μόνο μία φορά",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "για %{count} παράδοση(εις)"
+          },
+          "initial_order_discounted": "Πρώτα έξοδα αποστολής %{discounted_shipping_cost}, στη συνέχεια %{frequency_description}",
+          "prepaid_initial_order_discounted": "Πρώτα έξοδα αποστολής %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Πρώτο κόστος αποστολής %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Πρώτα έξοδα αποστολής %{discounted_shipping_price} %{prepaid_delivery_frequency}, μετά %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Πρώτα έξοδα αποστολής %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), μετά %{shipping_price} %{billing_cycle}",
+          "recurring_order_shipping_price": "ακολουθούμενο από %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Πρώτη παραγγελία συμπεριλαμβάνεται, ακολουθούμενη από %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} ανά παράδοση), ακολουθούμενο από %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Πρώτη παραγγελία δωρεάν",
+            "other": "Πρώτες %{count} παραγγελίες δωρεάν"
+          },
+          "free_for_first_n_order": {
+            "one": "Για πρώτη παραγγελία"
+          },
+          "subscription_free_with_frequency_label": "Δωρεάν αποστολή %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Δωρεάν αποστολή για ακόμα %{count} επιπλέον παράδοση",
+            "other": "Δωρεάν αποστολή για ακόμα %{count} επιπλέον παραδόσεις"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Δωρεάν αποστολή για %{count} παράδοση",
+            "other": "Δωρεάν αποστολή για %{count} παραδόσεις"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Δωρεάν αποστολή για ακόμα %{count} επιπλέον παραδόσεις, μετά %{recurring_order_shipping_price}",
+            "other": "Δωρεάν αποστολή για ακόμα %{count} επιπλέον παραδόσεις, μετά %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Δωρεάν αποστολή για %{count} παράδοση, μετά %{recurring_order_shipping_price}",
+            "other": "Δωρεάν αποστολή για %{count} παραδόσεις, μετά %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} επιπλέον παράδοση για %{shipping_price}",
+            "other": "%{count} επιπλέον παραδόσεις για %{shipping_price} ανά παράδοση"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} επιπλέον παραδόσεις για %{shipping_price} ανά παράδοση"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Δωρεάν αποστολή την πρώτη %{cycle}, μετά %{recurring_order_shipping_price}",
+            "other": "Δωρεάν αποστολή την πρώτη %{cycle}, μετά %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} για ακόμα %{count} επιπλέον παράδοση",
+            "other": "%{shipping_price} για ακόμα %{count} επιπλέον παραδόσεις (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} για ακόμα %{count} επιπλέον παράδοση, μετά %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} για ακόμα %{count} επιπλέον παραδόσεις (%{per_delivery_cost}), μετά %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} για %{count} παράδοση, μετά %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} για %{count} παραδόσεις (%{per_delivery_cost}), στη συνέχεια %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Αναμενόμενη παράδοση %{time}",
+        "estimated_delivery_time_range": "Αναμενόμενη παράδοση %{min_time}–%{max_time}"
       }
     }
   }
