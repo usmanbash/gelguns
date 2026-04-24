@@ -937,8 +937,82 @@
           "description": "Prieinami šių prekių kiekiai pasikeitė, todėl jūsų pirkinių krepšelis atnaujintas."
         },
         "unpurchasable_product": {
-          "title": "Prekės negalima įsigyti"
-        }
+          "title": "Prekės negalima įsigyti",
+          "header": "Kai kurie prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šie straipsniai nėra prieinami B2B užsakymams.",
+          "status_column_header": "Nėra prieinama"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Prekės negalima įsigyti",
+          "header": "Kai kurie prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šie straipsniai nėra prieinami.",
+          "status_column_header": "Nėra prieinama"
+        },
+        "unshippable_product": {
+          "title": "Pristatymas neprieinamas",
+          "header": {
+            "one": "Pristatymas negalimas %{count} prekei",
+            "other": "Pristatymas negalimas %{count} prekėms"
+          },
+          "message": {
+            "one": "Šis prekė bus pašalinta iš jūsų pirkinių krepšelio, nes jūsų adresu nėra prieinamų pristatymo būdų.",
+            "other": "Šis prekė bus pašalinta iš jūsų pirkinių krepšelio, nes jūsų adresu nėra prieinamų pristatymo būdų."
+          },
+          "status_column_header": "Nėra pristatymo"
+        },
+        "price_update": {
+          "description": "Šių prekių kainos buvo pakeistos ir atnaujintos tavo pirkinių krepšelyje."
+        },
+        "item_label": {
+          "one": "{{count}} straipsnis",
+          "other": "{{count}} straipsniai"
+        },
+        "continue_cta_label": "Tęsti atsiskaitymą",
+        "out_of_stock": {
+          "description": "Šie prekės nebeprieinamos ir buvo pašalintos iš jūsų krepšelio.",
+          "items_unavailable": "Kai kurie prekės nebeprieinamos ir buvo pašalintos iš jūsų krepšelio."
+        },
+        "unfulfillable_product": {
+          "title": "Pristatymas neprieinamas",
+          "message": {
+            "one": "%{delivery_method} nebeprieinamas šiam straipsniui.",
+            "other": "%{delivery_method} nebėra prieinamas šiems straipsniams."
+          },
+          "default_message": {
+            "one": "Pasirinktas pristatymo būdas šiam prekių nėra daugiau prieinamas.",
+            "other": "Pasirinktas pristatymo būdas šiems prekėms nebeprieinamas."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Atnaujinti kainą ir kiekį",
+          "description": "Prekės kainos ir prieinami kiekiai pasikeitė, o pirkinių krepšelis atnaujintas."
+        },
+        "out_of_stock_in_context_label": "Šis produktas nėra prieinamas jūsų šalyje/regiono."
+      },
+      "order_summary": {
+        "title": "Užsakymų apžvalga",
+        "shopping_cart_label": "Prekių krepšelis",
+        "gift_card_title": "Dovanų kuponas",
+        "gift_card_label": "Dovanų kuponas",
+        "gift_card_placeholder": "Dovanų kuponas",
+        "gift_card_and_discount_title": "Nuolaidos kodas arba dovanų kuponas",
+        "gift_card_and_discount_label": "Nuolaidos kodas arba dovanų kuponas",
+        "gift_card_and_discount_placeholder": "Nuolaidos kodas arba dovanų kuponas",
+        "add_discount_or_gift_card": "Pridėti nuolaidos kodą arba dovanų kuponą",
+        "remove_gift_card_label": "Pašalinti dovanų kuponą",
+        "remove_discount_label": "Nuolaidos pašalinimas",
+        "applied_discount_message": "Nuo bendros sumos atimta %{amount} nuolaida.",
+        "gift_card_has_been_applied": "Dovanų kortelė panaudota",
+        "discount_already_applied": "Šiai užsakymui taikoma nuolaida. Negalite pridėti kitos nuolaidos.",
+        "cart_does_not_meet_discount_requirements_notice": "Nuolaidos kodas <strong style=\"text-transform:uppercase\">%{code}</strong> netaikomas prekėms jūsų krepšelyje",
+        "discount_requires_customer_notice": "Įveskite savo pristatymo duomenis, kad pritaikytumėte nuolaidos kodą <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Kortų kodas <strong style=\"text-transform:uppercase\">%{code}</strong> šiuo metu tau neprieinamas",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Nuolaidos kodas <strong style=\"text-transform:uppercase\">%{code}</strong> nėra galimas jūsų pristatymo adresu",
+        "customer_already_used_once_per_customer_discount_notice": "Nuolaidos kodas <strong style=\"text-transform:uppercase\">%{code}</strong> jau panaudotas",
+        "tip_label": "Arbatpinigiai",
+        "shipping_default_value": "Apskaičiuota kito žingsnio metu",
+        "shipping_pending_message": "Dar neprieinama",
+        "shipping_policy_link": "Pristatymo išlaidos"
       }
     }
   }
