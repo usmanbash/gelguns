@@ -3882,7 +3882,89 @@
           "default_checkbox": "Establecer como método de pago predeterminado"
         },
         "replace_mode_warning": "Si eliminas este método de pago, afectará a las suscripciones o pedidos anticipados. Sustitúyelo por otro método de pago para seguir recibiendo los pedidos próximos.",
-        "add_new_button": "Añadir nuevo"
+        "add_new_button": "Añadir nuevo",
+        "subscription_contracts": {
+          "title": "Usar método de pago para pedidos recurrentes",
+          "product_details": "Datos del producto",
+          "more_items": {
+            "one": "Quedan {{count}} productos",
+            "other": "Quedan {{count}} productos"
+          }
+        },
+        "contracts_update_failed": "Algunos contratos de suscripción no pudieron ser actualizados",
+        "subscription_contracts_updated": "{{succeeded}} de {{total}} suscripciones actualizadas",
+        "invalid_wallet_type_error": "Tipo de cartera digital no válido",
+        "updating_contracts": {
+          "one": "Se está actualizando el contrato de suscripción {{count}}...",
+          "other": "Se están actualizando {{count}} contratos de suscripción..."
+        },
+        "contracts_updated": {
+          "one": "El contrato de suscripción {{count}} ha sido actualizado",
+          "other": "{{count}} contratos de suscripción han sido actualizados"
+        },
+        "missing_customer_error": "Algo salió mal. Intenta de nuevo o contacta con el servicio de asistencia."
+      },
+      "expires_soon": "Esta tarjeta caducará pronto",
+      "expired": "Esta tarjeta ha caducado",
+      "card_update_consent": "Este método de pago se guardará para futuras compras.",
+      "digital_wallet_title": "Cartera digital",
+      "credit_or_debit_card_title": "Tarjeta de crédito o tarjeta de débito",
+      "google_pay": {
+        "errors": {
+          "generic": "Se ha producido un problema con Google Pay. Inténtalo de nuevo o utiliza otro método de pago.",
+          "missing_billing_address": "Para Google Pay necesitas una dirección de facturación. Añade una en tu cuenta."
+        },
+        "loading": "Cargar Google Pay",
+        "iframe_title_accessibility_label": "Agregar método de pago Google Pay",
+        "loading_accessibility_message": "Cargar Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Cargar Apple Pay",
+        "errors": {
+          "generic": "Se ha producido un problema con Apple Pay. Inténtalo de nuevo o utiliza otro método de pago.",
+          "missing_billing_address": "Para Apple Pay necesitas una dirección de facturación. Añade una en tu cuenta."
+        }
+      },
+      "add_payment_method_banner": "Agregar método de pago para un pago más rápido y servicios para autorización previa",
+      "expiration_warning_button_accessibility_label": "Mostrar advertencia de retención para {{paymentMethodName}} que termina en {{lastDigits}}",
+      "no_payment_methods_banner": "No se han añadido métodos de pago",
+      "default": "Estándar",
+      "store_credit": {
+        "label": "Crédito de tienda",
+        "accesibility_label": "Crédito de tienda - {{formattedBalance}}",
+        "expirable_amounts_button": "Ver importes que van a caducar",
+        "details_modal": {
+          "title": "Crédito de tienda que caducará",
+          "amount_label": "Cantidad",
+          "expirable_balance_info": "Una parte del saldo caducará en una fecha futura.",
+          "expirable_amount_label": "Importe total que se perderá",
+          "expirable_amounts_info": "Los importes que caducaron antes se aplicarán primero al finalizar la compra.",
+          "expired_amounts_button": "Ver importes vencidos",
+          "pagination": {
+            "load_more_accessibility_label": "Cargar más importes que van a caducar"
+          },
+          "events": {
+            "payment_failure": "Pago fallido",
+            "payment_returned": "Pago reembolsado",
+            "tax_finalization": "Liquidación de impuestos"
+          }
+        },
+        "expirable_amounts_label": "Importes vencidos"
+      },
+      "three_d_secure": {
+        "title": "3D Seguro",
+        "verification_failed": "No se puede verificar su pago. Inténtelo de nuevo o utilice otro método de pago."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Agregar método de pago PayPal",
+        "loading_accessibility_message": "Cargar con PayPal",
+        "errors": {
+          "generic": "Hubo un problema con PayPal. Inténtalo de nuevo o utiliza otro método de pago."
+        }
+      },
+      "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o aplazada.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Al agregar un método de pago, puedes autorizar que se cobren cargos en tu tarjeta hasta que canceles, o que en futuras compras que apruebes se realicen débitos de tu cuenta bancaria."
       }
     }
   }
