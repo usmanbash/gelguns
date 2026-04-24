@@ -4027,7 +4027,71 @@
         "gallery": "Galerii",
         "list": "Nimekiri"
       },
-      "company_and_location": "Ettevõte ja asukoht"
+      "company_and_location": "Ettevõte ja asukoht",
+      "due_on_date": "Võlgnetav kuupäeval {{date}}",
+      "due_on_fulfillment": "Tasumine täitmise juures",
+      "due_on_receipt": "Maksa kättesaamisel",
+      "group_title_label_with_parent": "Eelvaade: {{groupTitle}}",
+      "payment_confirmation": {
+        "payment_received": "Aitäh! Teie makse summas {{amount}} on vastu võetud.",
+        "full_payment_received": "Aitäh! Sinu makse summas {{amount}} on laekunud ja see tellimus on nüüd täielikult tasutud.",
+        "dismiss_label": "Maksekinnituse sulgemine",
+        "payment_authorized": "Aitäh! Saldo uuendatakse, kui makse on laekunud."
+      },
+      "marketing_pending_confirmation": "Klõpsa oma e-kirjas oleval lingil, et kinnitada.",
+      "marketing_resend_email": "Saada e-kiri uuesti",
+      "marketing_resend_email_success": "Link saadetud",
+      "subtotal_label_with_quantity": {
+        "one": "Vahesumma",
+        "other": "Vahesumma · {{count}} artiklit"
+      },
+      "total_savings": "Kogusääst",
+      "price_before_discount_accessibility_label": "Algne hind",
+      "price_after_discount_accessibility_label": "Soodushind",
+      "discount_order_stacking": {
+        "one": "Tellimissoodustus",
+        "other": "Tellimissoodustused"
+      }
+    },
+    "addresses": {
+      "add_button": "Lisa aadress",
+      "address_deleted_notification": "Aadress eemaldatud",
+      "cancel_adding_address_accessibility_label": "Lisa aadress Tühista",
+      "cancel_deletion_button": "Tühista",
+      "cancel_deletion_button_accessibility_label": "{{address}} eemaldamine tühistama",
+      "default_address": {
+        "title": "Standardaadress",
+        "title_accessibility_label": "Standardaadress: {{address}}"
+      },
+      "delete_button": "Eemalda",
+      "delete_button_accessibility_label": "{{address}} eemaldamine",
+      "delete_confirmation_button": "Aadressi kustutamine",
+      "delete_confirmation_button_accessibility_label": "{{address}} eemaldamine",
+      "delete_confirmation_message": "Aadressi kustutada? See ei mõjuta olemasolevaid tellimusi.",
+      "edit_button": "Muuda",
+      "edit_button_accessibility_label": "{{address}} redigeerimine",
+      "edit_section_accessibility_label": "{{address}} redigeerimine",
+      "loading_accessibility_message": "Aadressi laadimine",
+      "loading_addresses_accessibility_message": "Laadi aadressid",
+      "loading_billing_accessibility_message": "Arveaadresside laadimine",
+      "loading_finished_accessibility_message": "Uus aadressidega leht on laaditud",
+      "loading_shipping_accessibility_message": "Kohaletoimetamise aadress laadimine",
+      "pagination": {
+        "load_more": "Laadi rohkem",
+        "load_more_accessibility_label": "Laadi rohkem aadresse"
+      },
+      "save_new_address_accessibility_label": "Aadressi salvestamine",
+      "title": "Aadressid",
+      "delete_confirmation_title": "Aadressi kustutada?",
+      "delete_confirmation_description": "Sellel ei ole mõju olemasolevatele tellimustele.",
+      "edit_modal_title": {
+        "default": "Aadressi redigeerimine",
+        "billing": "Arveldusaadressi muutmine",
+        "shipping": "Tarneaadressi redigeerimine"
+      },
+      "add_address_banner": "Lisa aadresse, mida kasutada kassas",
+      "billing_address_dropdown_placeholder": "Arve aadress",
+      "add_button_text": "Lisa"
     }
   }
 }
