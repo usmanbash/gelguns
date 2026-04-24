@@ -2199,7 +2199,83 @@
           "change_contact_method_link_label": "Промяна на контактната информация",
           "change_billing_address_link_label": "Промяна на адрес за фактура",
           "change_shipping_address_link_label": "Промяна на адрес за доставка",
-          "change_shipping_method_link_label": "Промяна на метода на доставка"
+          "change_shipping_method_link_label": "Промяна на метода на доставка",
+          "pick_up_in_store_shipping_method_html": "Вземане от магазина · %{location_name}",
+          "purchase_order_number_title": "Номер на поръчка",
+          "change_purchase_order_number_label": "Промяна на номер на поръчка",
+          "change_delivery_method_link_label": "Промяна на метода на доставка",
+          "no_purchase_order_number": "(Няма номер на поръчка)",
+          "due_after_order_reviewed_html": "Дължимо след проверка на поръчката",
+          "review_title_free_order": "Проверете и завършете поръчката",
+          "payment_method_saved_company_location": "Запазване на карта за това място",
+          "change_company_location_link_label": "Промяна на местоположението на фирмата",
+          "pickup_items_at": {
+            "one": "Вземете %{count} артикул от",
+            "other": "Вземете %{count} артикула от"
+          },
+          "ship_items_to": {
+            "one": "изпращане на %{count} артикула към",
+            "other": "Изпращане на %{count} артикула към"
+          }
+        },
+        "block_title": "Проверете вашите данни",
+        "item_header": {
+          "section": "Секция",
+          "value": "стойност"
+        },
+        "review_and_confirm_title": "Проверка и потвърждение",
+        "account_more_actions": "Още действия за този акаунт"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Изпратете ми имейл с новини и оферти",
+        "unsubscribe": {
+          "title": "Вие се отписахте"
+        },
+        "accept_sms_checkbox_label": "Изпратете ми SMS с новини и оферти",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Политика за поверителност",
+            "terms_of_service": "Условия за обслужване",
+            "description_html": "Като се регистрирате чрез SMS, вие се съгласявате да получавате автоматизирани маркетингови съобщения, включително напомняния за количката, на посочения телефонен номер. Съгласието не е условие за покупка. Отговорете с STOP, за да се отпишете. Отговорете с HELP за помощ. Честотата на съобщенията варира. Могат да се прилагат такси за съобщения и данни. Прегледайте нашата %{privacy_policy_link} и нашите %{terms_of_service_link}.",
+            "description_transactional_html": "Може да получавате SMS съобщения във връзка с потвърждения на поръчки и актуализации за изпращане. Отговорете с STOP, за да се отпишете. Отговорете с HELP за помощ. Честотата на съобщенията варира. Могат да се прилагат такси за съобщения и данни. Вижте нашия %{privacy_policy_modal_link} и нашите %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Мобилен телефонен номер",
+          "get_offers_by_text": "Получавайте оферти чрез SMS"
+        },
+        "post_accept_marketing_checkbox_label": "Вие сте абонирани за получаване на имейли с новини и оферти",
+        "pending_accept_marketing_checkbox_label": "Провери имейла си, за да потвърдиш абонамента си за новини и оферти",
+        "accept_shop_pay_marketing_checkbox_label": "Запишете ме за новини и оферти от този магазин",
+        "disclaimer": {
+          "privacy_policy": "Политика за поверителност",
+          "terms_of_service": "Условия за обслужване"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Политика за възстановяване на суми",
+        "privacy_policy": "Политика за поверителност",
+        "terms_of_service": "Общи условия",
+        "legal_notice": "Законно уведомление",
+        "terms_of_sale": "Условия за продажба",
+        "subscription_policy": "Отказванията",
+        "purchase_options_policy": "Политика за опции за покупка",
+        "purchase_options_cancellation_policy": "Отказванията",
+        "policy_label": "Политика",
+        "policies_label": "Политика",
+        "select_policy_label": "Изберете политика",
+        "terms_and_policies": "Условия и политика"
+      },
+      "notifications": {
+        "title": "Съобщения"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "other": "%{count} добавени"
+          },
+          "removed": "Изтрито",
+          "subtracted": "%{count} изтрити",
+          "returned": "%{count} върнати",
+          "return_line_item_removed": "%{count} премахнати от връщане"
         }
       }
     }
