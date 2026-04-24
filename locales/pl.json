@@ -962,7 +962,61 @@
         "out_of_stock_in_context_label": "Ten produkt nie jest dostępny w twoim kraju/regionie."
       },
       "order_summary": {
-        "shopping_cart_label": "Koszyk zakupowy"
+        "shopping_cart_label": "Koszyk zakupowy",
+        "discount_title": "Obniżka",
+        "gift_card_title": "Bon podarunkowy",
+        "gift_card_label": "Bon podarunkowy",
+        "gift_card_placeholder": "Bon podarunkowy",
+        "gift_card_and_discount_title": "Kod rabatowy lub bon podarunkowy",
+        "gift_card_and_discount_label": "Kod rabatowy lub bon podarunkowy",
+        "gift_card_and_discount_placeholder": "Kod rabatowy lub bon podarunkowy",
+        "add_discount_or_gift_card": "Dodaj kod rabatowy lub bon podarunkowy",
+        "remove_gift_card_label": "Usuń bon podarunkowy",
+        "applied_discount_message": "Od całkowitej ceny odjęto %{amount} rabatu.",
+        "gift_card_has_been_applied": "Karta podarunkowa została zastosowana",
+        "gift_card_has_been_removed": "Karta podarunkowa została usunięta",
+        "discount_already_applied": "Na to zamówienie została zastosowana zniżka. Nie możesz dodać innej zniżki.",
+        "cart_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> nie obowiązuje na produkty w Twoim koszyku",
+        "discount_requires_customer_notice": "Wprowadź dane wysyłki, aby zastosować kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> nie jest obecnie dla Ciebie dostępny",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> nie jest dostępny dla Twojego adresu dostawy",
+        "customer_already_used_once_per_customer_discount_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> został już użyty",
+        "shipping_default_value": "Obliczone na następnym etapie",
+        "shipping_pending_message": "Jeszcze niedostępne",
+        "taxes_label": "tak przy okazji",
+        "total_label": "Razem",
+        "total_outstanding_label": "Do zapłaty kwota",
+        "partial_total_label": "Razem",
+        "free_total_label": "Darmowy",
+        "free_shipping_total_label": "Darmowy",
+        "paid_label": "Opłacono",
+        "payment_due_label": "Należna płatność",
+        "vat_label_html": "W tym %{amount} VAT",
+        "discount_and_gift_card_savings_notice": "Na %{discount_amount} zniżki i %{gift_card_amount} wartości karty podarunkowej",
+        "discount_savings_notice": "Na %{discount_amount} zniżki",
+        "gift_card_savings_notice": "Na wartość karty podarunkowej %{gift_card_amount}",
+        "cost_table_title": "Przegląd kosztów",
+        "scroll_order_summary": "Przewiń, aby zobaczyć więcej artykułów",
+        "expand_order_summary_short": "Wyświetl",
+        "total_already_paid_label": "opłacone",
+        "unit_price": {
+          "accessible_separator": "na",
+          "per_item": {
+            "single": "%{price} za sztukę",
+            "one": "%{price} za %{count} artykuł",
+            "other": "%{price} za %{count} artykułów"
+          }
+        },
+        "no_pickup_location": "Nie ma dostępnych miejsc odbioru.",
+        "calculating_shipping": "Obliczanie...",
+        "estimated_taxes_label": "Szacowany podatek",
+        "information_estimated_taxes_label": "Podatki (szacunkowe)",
+        "gift_card_ending": "Karta podarunkowa kończąca się na %{last_characters}",
+        "multiple_shipping_lines_label": "Całkowity koszt wysyłki",
+        "recurring_subtotal_label": "Powracająca suma częściowa",
+        "recurring_total_label": "Powracająca suma całkowita",
+        "recurring_total_tooltip": "Ekskluzywnie wysyłka, podatek VAT, cła lub ewentualne zniżki.",
+        "gift_card_subscriptions_notice": "Bony podarunkowe są stosowane tylko przy pierwszej płatności"
       }
     }
   }
