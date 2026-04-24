@@ -2558,7 +2558,93 @@
           }
         },
         "no_business_hours": "Nincs elérhető nyitvatartási időpont",
-        "open_twenty_four_hours": "24 órában nyitva"
+        "open_twenty_four_hours": "24 órában nyitva",
+        "pickup_unavailable_banner_title": {
+          "one": "Nincs elérhető átvételi pont a termékedhez",
+          "other": "Nincs elérhető átvételi pont a termékeidhez"
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Hiba történt a fizetés során",
+          "message": "Frissítse ezt az oldalt, vagy próbálja meg néhány perc múlva újra.",
+          "action": {
+            "cta": "Oldal újratöltése"
+          },
+          "request_id": "Kérelem azonosító: {{requestId}}"
+        },
+        "embed_errors": {
+          "customer_account_required": "A vásárlói fiók szükséges a fizetés befejezéséhez",
+          "cart_completed": "Ez a fizetés már befejeződött",
+          "not_authorized": "A fizetés ellenőrzése sikertelen volt. Ellenőrizd az alkalmazásba való bejelentkezési adataidat.",
+          "killswitch_enabled": "A pénztár ideiglenesen nem elérhető",
+          "policy_violation": "Nem lehet befejezni a fizetést a szabályzati beállítások korlátozásai miatt",
+          "unrecoverable_failure": "Nem sikerült betölteni a pénztárat. Kérjük, próbálja meg újra."
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Vissza a bevásárlókosárhoz",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} a mennyiségek frissítéséhez",
+        "subscription_changed": "Az egyik előfizetésed megváltozott.",
+        "company_location_changed": "A kosarad módosult. Ellenőrizd a rendelésed, mielőtt elküldenéd.",
+        "violations_title": "{{violation}} hiányzik vagy érvénytelen",
+        "individual_violations_title": {
+          "DeliveryViolations": "Kézbesítési cím"
+        },
+        "all_violations_content": "Hívj minket a {{emailLink}} címen, hogy frissítsd az adatokat és befejezd a rendelésedet:",
+        "all_violations_email_link": "e-mail",
+        "editable_shipping_address_violations_message_title": "Add meg ezeket az adatokat a rendelés befejezéséhez:",
+        "editable_shipping_address_violations_message_footer": "{{emailLink}} a helyszín címének végleges frissítéséhez.",
+        "editable_shipping_address_violations_email_link": "Lépjen kapcsolatba velünk",
+        "company_location_changed_product_removed": "A kosarad módosult, mert néhány termék nem elérhető ezen a helyen. Ellenőrizd a rendelésed, mielőtt elküldenéd.",
+        "shipping_address_incomplete_title": "A kézbesítési cím hiányos",
+        "calculating_shipping": "A szállítási díj még számítás alatt áll. Kérjük, próbálja meg néhány másodperc múlva újra. Nincsenek felszámított költségek.",
+        "calculating_taxes": "Az adókat még számítjuk. Kérjük, próbálja meg néhány másodperc múlva újra. Nincsenek felszámított díjak.",
+        "generic_processing_error": {
+          "title": "Probléma történt a rendelés feldolgozása során",
+          "body": "Nincsenek felszámított költségek. Próbálja meg újra, vagy használjon más fizetési módot."
+        },
+        "contact_information": {
+          "title": "A kapcsolati adatok érvénytelenek",
+          "header": "{{emailLink}} az adataid frissítéséhez",
+          "email_link": "Lépjen kapcsolatba velünk"
+        },
+        "payment_method_not_available_with_payment_terms": "A kiválasztott fizetési mód már nem elérhető, mert a fizetés erre a rendelésre most a(z) {{paymentTerms}} feltételei szerint történik.",
+        "payment_method_not_available_with_fulfillment_terms": "A kiválasztott fizetési mód már nem elérhető, mert a rendelés kifizetését most a teljesítéskor kell elvégezni.",
+        "payment_method_not_available_with_fixed_terms": "Az általad kiválasztott fizetési mód már nem elérhető, mert a fizetésnek ehhez a rendeléshez később kell megtörténnie.",
+        "payment_method_not_available_with_review_requirement": "A kiválasztott fizetési mód már nem elérhető, mert a fizetés a rendelés megerősítésekor esedékes.",
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Kézbesítés"
+          },
+          "heading": {
+            "one": "Hiba történt: {{count}}",
+            "other": "{{count}} hiba van:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} hiba a {{section}} szakaszban",
+            "other": "{{count}} hiba a(z) {{section}} szakaszban"
+          }
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "one": "Ez a rendelés a {{merchant}} által megadott címre kerül kiszállításra.",
+          "other": "Ez a rendelés egy olyan címre lesz kiszállítva, amelyet a {{merchant}} adott meg. Válasszon szállítási címet."
+        },
+        "subtitle_no_match": "Ez a cím nem egyezik meg egyetlen mentett címeddel sem.",
+        "subtitle_must_use": "A rendelésed erre a címre lesz elküldve.",
+        "use_saved_address": "Egy másik cím használata",
+        "return_to_cart": "Vissza a bevásárlókosárhoz"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Lees",
+          "link_label": "a {{partnerDisplayName}} Általános Szerződési Feltételei"
+        }
+      },
+      "online_store_chat": {
+        "title": "Kérdése van? Csevegjen velünk"
       }
     }
   }

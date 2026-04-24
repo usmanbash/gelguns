@@ -3297,7 +3297,89 @@
       "loading_section_accessibility_label": "{{sectionName}} natovaren"
     },
     "account_information": {
-      "loading_accessibility_message": "Učitavanje podataka računa"
+      "loading_accessibility_message": "Učitavanje podataka računa",
+      "profile_card": {
+        "cancel": "Otkaži",
+        "cancel_accessibility_label": "Uredi profil otkaži",
+        "email_help_text": "E-adresu nije moguće uređivati",
+        "phone_number_help_text": "Broj telefona se ne može uređivati",
+        "email": "E-pošta",
+        "errors": {
+          "name_too_long": "{{fieldName}} je predugačak (najviše 255 znakova)",
+          "name_cannot_contain_url": "{{fieldName}} ne smije sadržavati URL",
+          "name_cannot_contain_html_tags": "{{fieldName}} ne smije sadržavati HTML oznake",
+          "email_cant_be_blank": "E-mail ne smije biti prazan",
+          "invalid_email_format": "Unesite valjanu adresu e-pošte"
+        },
+        "editable_email_help_text": "Ova e-mail adresa koristi se za prijavu i ažuriranja narudžbi."
+      },
+      "profile_update_confirmation_message": "Profil ažuriran",
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Više ljudi preuzima",
+          "loading_accessibility_label": "Učitavanje ljudi u tijeku"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "Potvrdi e-poštu",
+        "description": "Unesite kod koji je poslan na {{email}}",
+        "one_time_password_label": "Šifra od 6 znamenki",
+        "email_resend_button": "Pošalji kod ponovno",
+        "email_resend_button_accessibility_label": "Ponovno pošalji verifikacijski kod",
+        "verify_button": "Provjeri",
+        "verify_button_accessibility_label": "Jednokratnu lozinku potvrdi",
+        "cancel_button": "Otkaži",
+        "email_resend_button_success_toast_message": "Verifikacijski kod poslan",
+        "email_resend_button_failure_banner_message": "Ne mogu poslati verifikacijski kod"
+      },
+      "email_update_success_modal": {
+        "title": "Potvrdi e-poštu",
+        "description": "Ažuriranje e-pošte je uspjelo. Preusmjeravanje na prijavu."
+      },
+      "email_update_confirmation_message": "Adresa e-pošte ažurirana na {{email}}"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opcije oblikovanja",
+      "order_list": {
+        "column_headers": {
+          "actions_accessibility_label": "Akcije"
+        },
+        "delivered": "Isporučeno: {{date}}",
+        "empty_state_order_source_description": "Prikazuju se samo narudžbe poslane putem {{email}}.",
+        "empty_state_subtitle": "Idite u trgovinu kako biste izvršili narudžbu.",
+        "empty_state_title": "Još nema narudžbi",
+        "estimated_delivery": "Očekuje se {{date}}",
+        "items": {
+          "other": "{{count}} artikala"
+        },
+        "order_link": "Pregled narudžbe {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Navigacijske tipke za narudžbe",
+          "previous": "Prethodni",
+          "load_more_accessibility_label": "Učitaj još narudžbi"
+        },
+        "sort_by": "Sortiraj po: {{option}}",
+        "sort_hide_options_accessibility_label": "Sakrij opcije sortiranja za potvrđene narudžbe.",
+        "sort_show_options_accessibility_label": "Prikaži opcije sortiranja za potvrđene narudžbe.",
+        "sort": {
+          "date": {
+            "newest": "Od najnovijeg do najstarijeg",
+            "oldest": "Od najstarijeg do najnovijeg"
+          },
+          "location": {
+            "ascending": "Lokacija (A-Ž)",
+            "descending": "Lokacija (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Broj narudžbe (od najnižeg do najvišeg)",
+            "descending": "Broj narudžbe (od najvišeg do najnižeg)"
+          },
+          "order_total": {
+            "ascending": "Ukupna narudžba (od najniže do najviše)",
+            "descending": "Ukupna narudžba (od najvećeg prema najmanjem)"
+          }
+        }
+      }
     }
   }
 }
