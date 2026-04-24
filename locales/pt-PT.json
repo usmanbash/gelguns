@@ -3532,7 +3532,81 @@
       },
       "request_return_failed": "Ocorreu um problema ao processar o seu pedido. Por favor, tente novamente.",
       "shipment_timeline": {
-        "expand_events_label": "Mostrar dados"
+        "expand_events_label": "Mostrar dados",
+        "expand_events_accessibility_label": "Mostrar dados de entrega da encomenda",
+        "hide_events_label": "Ocultar dados",
+        "hide_events_accessibility_label": "Ocultar dados de entrega da encomenda"
+      },
+      "marketing_section_title": "Notícias e ofertas",
+      "marketing_description": "Receberá emails de marketing. Pode cancelar a subscrição a qualquer momento.",
+      "marketing_checkbox_label": "Envie-me e-mails com notícias e ofertas",
+      "marketing_checkmark_label": "Estás inscrito para receber e-mails com novidades e ofertas",
+      "image_gallery": {
+        "product_name_and_quantity": "Quantidade de {{productName}} {{quantity}}",
+        "next": "Mostrar artigos seguintes",
+        "previous": "Mostrar artigos anteriores",
+        "load_more_items": {
+          "one": "Carregar {{count}} artigo(s)",
+          "other": "Carregar mais {{count}} artigos"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descarregar Loja para seguir a encomenda",
+        "track_order_with_shop": "Acompanhar encomenda com a Loja",
+        "title_header": "Digitalizar com o seu telemóvel",
+        "real_time_delivery_updates": "Após o envio da encomenda, receberá atualizações em tempo real da entrega da Loja."
+      },
+      "shop_pay": {
+        "order_completed_with": "Encomenda concluída com sucesso",
+        "learn_more": "Mais informações"
+      },
+      "edit_summary": {
+        "updated_at": "A sua encomenda foi atualizada em {{date}}",
+        "returned_with_quantities": "{{delta}} de {{total}} devolvidos",
+        "removed_with_quantities": "{{delta}} de {{total}} removidos",
+        "return_line_item_removed_with_quantities": "{{delta}} removido da devolução"
+      },
+      "pickup": {
+        "pickup_location": "Alocação de memória livre",
+        "pickup_point": "Ponto de levantamento"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pago com pagamentos a prazo Shop Pay",
+        "description": "Mantenha-se informado sobre o seu calendário de pagamentos com lembretes na aplicação Loja.",
+        "desktop_qr_code_content": {
+          "title": "Digitalizar memórias",
+          "description": "Receber lembretes para os seus pagamentos a prazo na Loja."
+        },
+        "title": "Lembretes de pagamento para pagamentos a prazo Shop Pay"
+      },
+      "order_details": "Dados da encomenda",
+      "contact_information": "Contactos",
+      "tip": "Fooi",
+      "logged_in_account_no_permission_to_order": "Estás autenticado como {{email}}. Esta conta não tem autorização para gerir esta encomenda.",
+      "log_in_to_a_different_account": "Iniciar sessão com outra conta",
+      "duties": "Direitos aduaneiros",
+      "ok_duties_tooltip": "Esta encomenda será enviada a partir de outro país, pelo que foram adicionados direitos aduaneiros ao valor total da encomenda.",
+      "error_duties_tooltip": "Esta encomenda será enviada a partir de outro país, pelo que poderão ser cobrados direitos aduaneiros e impostos no momento da entrega.",
+      "zero_duties_tooltip": "Esta encomenda será enviada a partir de outro país. Não serão cobrados direitos aduaneiros em encomendas com este valor.",
+      "fees": {
+        "restocking_fee": "Custos de abastecimento de ervas",
+        "return_shipping_fee": "Devolução"
+      },
+      "vat_invoices": {
+        "title": "Faturas Btw"
+      },
+      "taxes_included": "Inclui {{amount}} IVA",
+      "duties_and_taxes_included": "O total inclui direitos aduaneiros e impostos. Não há pagamentos adicionais na entrega.",
+      "grouped_view_components": {
+        "expand_line_items": "Mostrar {{count}} artigos",
+        "collapse_line_items": "Ocultar {{count}} artigos",
+        "line_item_summary_accessibility_label": "{{productTitle}}, quantidade: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Artigos no conjunto {{productTitle}}"
+      },
+      "cash_rounding": "Arredondar dinheiro em numerário",
+      "adjusted_payment": "Pagamento personalizado",
+      "login_card": {
+        "resend_link_and_login": "Podes consultar os teus dados de encomenda ao iniciares sessão ou ao enviares um novo link para o endereço de correio eletrónico ou número de telefone utilizado na finalização da compra."
       }
     }
   }
