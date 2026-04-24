@@ -2839,11 +2839,91 @@
               "ro": "Introduza um número de identificação fiscal válido da Roménia",
               "sk": "Introduza um número de identificação fiscal eslovaco válido",
               "si": "Introduza um número de identificação fiscal esloveno válido",
-              "es": "Introduza um número de identificação fiscal espanhol válido"
+              "es": "Introduza um número de identificação fiscal espanhol válido",
+              "se": "Introduza um número de identificação de IVA sueco válido",
+              "gb": "Introduza um número de identificação de IVA válido do Reino Unido"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "A validação do número de identificação de IVA está a ser efetuada",
+              "valid": "O número de identificação Btw é válido",
+              "applied": "Isenção de IVA aplicada",
+              "domestic": "Isenção de IVA não aplicada",
+              "invalid_number": "Isenção de BTW falhou",
+              "service_unavailable": "Não foi possível verificar a isenção de IVA",
+              "service_error": "Não foi possível verificar a isenção de IVA"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Este pagamento já não é necessário. Vá para a página de encomendas para mais informações.",
+        "paid": "Este pagamento já foi submetido. Vá para a página de encomendas para mais informações."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "É necessária uma interação da extensão para concluir a finalização da compra."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Verifique a sua encomenda"
+        }
+      },
+      "too_many_requests": {
+        "title": "Demasiadas tentativas de finalização de compra",
+        "body": "Aguarde alguns minutos e tente novamente a partir do seu carrinho de compras.",
+        "return_to_cart": "Voltar ao carrinho de compras"
       }
+    },
+    "pagination": {
+      "next": "Seguinte"
+    },
+    "links": {
+      "powered_by_shopify": "Alimentado por Shopify",
+      "learn_more": "Mais informações"
+    },
+    "attributes": {
+      "email": "correio eletrónico",
+      "password_confirmation": "a confirmação da palavra-passe",
+      "first_name": "primeiro nome",
+      "last_name": "apelido",
+      "body": "texto principal"
+    },
+    "addresses": {
+      "county": "Província",
+      "emirate": "Emirados",
+      "governorate": "Governo",
+      "confirm": "Tem a certeza de que quer eliminar este endereço?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Destaque",
+        "best_selling": "Mais vendido",
+        "az": "Alfabético: A-Z",
+        "za": "Alfabético: Z-A",
+        "price_ascending": "Preço: do mais baixo para o mais alto",
+        "price_descending": "Preço: do mais alto para o mais baixo",
+        "date_ascending": "Data: antigo para novo",
+        "date_descending": "Data: do mais recente para o mais antigo",
+        "most_relevant": "Mais relevante"
+      }
+    },
+    "errors": {
+      "blank": "não pode estar vazio",
+      "credit_card_session_expired": "A autorização do cartão de crédito expirou. Introduza novamente os seus dados de pagamento. Não foi debitado qualquer valor do seu cartão.",
+      "empty": "não pode estar vazio",
+      "invalid_email": "deve ser um endereço de correio eletrónico válido",
+      "discount_disabled": "Este desconto está bloqueado",
+      "discount_not_found": "Não foi possível encontrar um desconto válido que corresponda ao código",
+      "gift_card_already_applied": "O código foi aplicado ao seu carrinho de compras",
+      "gift_card_code_invalid": "Código inválido",
+      "gift_card_currency_mismatch": "O seu vale-presente está em %{gift_card_currency}. Contacte-nos para que possamos reemitir este em %{checkout_currency}.",
+      "gift_card_depleted": "Não há saldo disponível neste vale-presente",
+      "gift_card_disabled": "O vale-presente está bloqueado",
+      "gift_card_expired": "O vale-presente expirou",
+      "taken": "já utilizado"
     }
   }
 }
