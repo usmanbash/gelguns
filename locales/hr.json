@@ -796,9 +796,75 @@
             "sunday": "zo."
           },
           "months": {
-            "january": "siječanj"
+            "january": "siječanj",
+            "february": "veljača",
+            "march": "ožujak",
+            "april": "travanj",
+            "may": "mei",
+            "june": "lipanj",
+            "july": "srpanj",
+            "august": "kolovoz",
+            "september": "rujan",
+            "october": "listopad",
+            "november": "studeni",
+            "december": "prosinac"
           }
-        }
+        },
+        "datepicker": {
+          "show_previous_month": "Prikaz prethodnog mjeseca, {{month}} {{year}}",
+          "range_start": "Započni doseg",
+          "in_range": "U dosegu",
+          "range_end": "Kraj dosega"
+        },
+        "list_formatter": {
+          "or": {
+            "lastWordConnector": "{{previousWords}} od {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} od {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Skupina od {{number}} oznaka za označavanje",
+            "other": "Skupina od {{number}} označenih točaka"
+          }
+        },
+        "sheet": {
+          "expand": "Razviti"
+        },
+        "dropzone": {
+          "dragged_over": "Postavite datoteku za prijenos"
+        },
+        "loading": "Učitavanje...",
+        "finalize_order_accessibility_label": "Dovrši narudžbu"
+      },
+      "contact": {
+        "delivery_option_title": "Način dostave",
+        "contact_method_title": "Kontakt",
+        "first_name_label": "Ime",
+        "optional_first_name_label": "Ime (opcionalno)",
+        "company_label": "Poduzeće",
+        "optional_company_label": "Poduzeće (opcionalno)",
+        "address2_label": "Poštanski pretinac, itd.",
+        "optional_address2_label": "Poštanski pretinac, itd. (opcionalno)",
+        "country_label": "Zemlja/regija",
+        "country_code": "Zemljopisni/regijski kod",
+        "province_label": "Pokrajine",
+        "province_placeholder": "Pokrajine",
+        "county_label": "Pokrajine",
+        "county_placeholder": "Pokrajine",
+        "state_label": "država",
+        "state_placeholder": "država",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "governorate_label": "Vlada",
+        "governorate_placeholder": "Vlada",
+        "state_and_territory_label": "Država/Teritorij",
+        "state_and_territory_placeholder": "Država/Teritorij",
+        "optional_phone_label": "Telefon (opcionalno)",
+        "phone_tooltip": "U slučaju da te trebamo kontaktirati u vezi tvoje narudžbe",
+        "pincode_label": "Poštanski broj",
+        "pincode_placeholder": "Poštanski broj",
+        "region_none": "Nije odabrano"
       }
     }
   }

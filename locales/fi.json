@@ -4111,7 +4111,65 @@
     },
     "enable_javascript": "Ota JavaScript käyttöön selaimesi asetuksissa tai kirjaudu sisään toisella selaimella nähdäksesi tilisi.",
     "ui_components": {
-      "processing": "Käsitellään..."
+      "processing": "Käsitellään...",
+      "increase": "{{type}} kasvu",
+      "decrease": "{{type}} nouto",
+      "minimumReached": "Vähimmäisvakuutus {{value}} saavutettu",
+      "maximumReached": "Maksimivan {{value}} saavutettu",
+      "january": "tammikuu",
+      "february": "helmikuu",
+      "march": "maaliskuu",
+      "april": "huhtikuu",
+      "may": "mei",
+      "june": "nuori",
+      "july": "heinäkuu",
+      "august": "elohopea",
+      "september": "syyskuu",
+      "october": "lokakuu",
+      "november": "marraskuu",
+      "december": "joulukuu",
+      "monday": "maanantai",
+      "tuesday": "tiistai",
+      "wednesday": "keskiviikko",
+      "thursday": "torstai",
+      "friday": "perjantai",
+      "saturday": "lauantai",
+      "sunday": "sunnuntai",
+      "mondayAbbreviation": "ma.",
+      "tuesdayAbbreviation": "di.",
+      "wednesdayAbbreviation": "wo.",
+      "thursdayAbbreviation": "tehdä.",
+      "fridayAbbreviation": "vr.",
+      "saturdayAbbreviation": "za.",
+      "sundayAbbreviation": "zo.",
+      "rangeStart": "Aloita alue",
+      "inRange": "Lähellä oleva",
+      "rangeEnd": "Loppualue",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artikkelia saatavilla",
+        "other": "{{count}} artikkelia saatavilla"
+      },
+      "mapClusterTitle": {
+        "one": "Ryhmä, jossa on {{number}} merkintäpistettä",
+        "other": "Ryhmä, jossa on {{number}} merkintäpistettä"
+      },
+      "addFile": "Tiedosto lisättäväksi",
+      "dropzoneDraggedOver": "Tiedoston tallentaminen lataamista varten",
+      "clipboardFailedToCopy": "Ei kopioitu",
+      "clear": "Tieto"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Muokkaa",
+      "hide_bar": "Palkin piilottaminen",
+      "navigate_to_admin": "Siirry hallintakeskukseen",
+      "previewing": "Katselet esikatselua kohteesta:",
+      "viewing": "Katselet:",
+      "not_available": "Geen profiilitietoja saatavilla",
+      "close_preview": "Esimerkin sulkeminen",
+      "actions_button": "Tarjoukset"
+    },
+    "settings": {
+      "loading_accessibility_message": "Asetussivun lataus"
     }
   }
 }
