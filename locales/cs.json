@@ -3056,8 +3056,74 @@
       },
       "too_many_requests": {
         "title": "Příliš mnoho pokusů o dokončení nákupu",
-        "body": "Počkejte několik minut a zkuste to znovu z vašeho nákupního košíku."
+        "body": "Počkejte několik minut a zkuste to znovu z vašeho nákupního košíku.",
+        "return_to_cart": "Zpět do nákupního košíku",
+        "body_no_cart": "Počkejte několik minut a zkuste to znovu."
+      },
+      "address_management": {
+        "saved_with_store": "Uloženo v tomto obchodě"
       }
+    },
+    "links": {
+      "powered_by_shopify": "Poháněno Shopify",
+      "learn_more": "Více informací"
+    },
+    "feed": {
+      "more": "Moře"
+    },
+    "attributes": {
+      "password_confirmation": "potvrzení hesla",
+      "body": "hlavní text"
+    },
+    "addresses": {
+      "pincode": "PSČ",
+      "region": "Regio",
+      "state_and_territory": "Stát/Území",
+      "county": "Provincie",
+      "governorate": "Vláda",
+      "confirm": "Jsi si jistý, že chceš tuto adresu odstranit?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Vybráno",
+        "az": "Abecedně: A-Z",
+        "za": "Abecedně: Z-A",
+        "price_ascending": "Cena: od nejnižší po nejvyšší",
+        "price_descending": "Cena: od nejvyšší po nejnižší",
+        "date_ascending": "Datum: starý na nový",
+        "date_descending": "Datum: nové na staré"
+      }
+    },
+    "errors": {
+      "blank": "nemůže být prázdné",
+      "credit_card_session_expired": "Platnost autorizace kreditní karty vypršela. Zadejte prosím své platební údaje znovu. Z vaší karty nebyly odečteny žádné peníze.",
+      "empty": "nemůže být prázdné",
+      "invalid_email": "musí být platná e-mailová adresa",
+      "discount_disabled": "Tato sleva je zablokována",
+      "discount_limit_reached": "Tato sleva dosáhla svého limitu použití",
+      "discount_not_found": "Nelze najít platnou slevu odpovídající kódu",
+      "customer_already_used_once_per_customer_discount_notice": "Tato sleva dosáhla svého limitu použití",
+      "gift_card_already_applied": "Kód byl již použit ve tvém nákupním košíku",
+      "gift_card_currency_mismatch": "Vaše dárková karta je v %{gift_card_currency}. Kontaktujte nás, abychom ji mohli znovu vydat v %{checkout_currency}.",
+      "gift_card_depleted": "Na této dárkové poukázce již není žádný zůstatek",
+      "gift_card_disabled": "Dárkový poukaz je zablokován",
+      "gift_card_expired": "Dárkový poukaz vypršel",
+      "invalid": "je neplatný",
+      "bad_domain": "obsahuje neplatné doménové jméno",
+      "taken": "již používá",
+      "contains_html_tags": "nemůže obsahovat HTML značky",
+      "too_short": "je příliš krátký (minimálně %{count} znaků)",
+      "too_long": "je příliš dlouhý (maximálně %{count} znaků)",
+      "password_mismatch": "musí být shodné se zadaným heslem",
+      "invalid_for_country": "není platné pro %{country}",
+      "invalid_for_country_and_province": "není platné pro %{province} a %{country}",
+      "invalid_province_in_country": "není platnou provincií v %{country}",
+      "invalid_state_in_country": "není platný stát v %{country}",
+      "invalid_region_in_country": "není platný region v %{country}",
+      "full_name_required": "Vyplňte jméno a příjmení",
+      "invalid_for_card_type": "je neplatný",
+      "invalid_type": "promiňte, nepřijímáme karty tohoto typu",
+      "invalid_format": "formát je neplatný"
     }
   }
 }
