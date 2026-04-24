@@ -3341,9 +3341,89 @@
         "payment_status": {
           "draft": {
             "description": "Payment details are determined once the order is confirmed.",
-            "title": "Payment is not yet due"
-          }
+            "title": "Payment is not yet due",
+            "in_review": {
+              "description": "Payment details are determined once the order is confirmed.",
+              "title": "Payment is not yet due"
+            },
+            "submitted": {
+              "description": "Pay to confirm this order.",
+              "deposit": {
+                "due_later": "The balance is subject to {{translatedName}} terms and is due on {{dueDate}}.",
+                "due_on_fulfillment": "The balance is due once all items in this order have been processed.",
+                "due_on_receipt": "You will receive an invoice for the remaining balance."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} is due once the order is confirmed. The balance is subject to the {{translatedName}} terms and conditions.",
+              "due_on_fulfillment": "{{depositAmount}} is due once the order is confirmed. The balance is due when your order is completed.",
+              "due_on_receipt": "{{depositAmount}} is due once the order is confirmed. The balance is due later.",
+              "due_on_date": "{{depositAmount}} is due once the order is confirmed. The balance is due on {{dueDate}}."
+            }
+          },
+          "paid": {
+            "title_with_date": "Paid on {{date}}"
+          },
+          "pending": {
+            "banner_overdue": {
+              "one": "Your payment is {{count}} day late",
+              "other": "Your payment is {{count}} days late"
+            },
+            "title_with_date": "Payment due on {{date}}",
+            "description_overdue": "Your payment is overdue.",
+            "description_partially_paid": "This order is partly paid. You have a remaining balance.",
+            "description_authorized": "The amount will be charged on the date it is due via your chosen payment method. You can also pay now.",
+            "title_due_on_receipt": "Payment is not yet due",
+            "description_due_on_receipt": "You will receive an invoice when the payment is due.",
+            "title_due_on_fulfillment": "Payment is due upon completion of the order.",
+            "description_due_on_fulfillment": "Payment is due once all items in this order have been processed.",
+            "description_waiting_for_manual_payment": "A payment for this order is being processed. The balance will be updated when you receive the payment.",
+            "description_due_on_receipt_partially_paid": "This order has been partly paid. You have a remaining balance. You will receive an invoice when the payment is due.",
+            "description_due_on_fulfillment_partially_paid": "This order has been partly paid. You have a remaining balance. Payment is due once all items in this order have been processed.",
+            "description_due_on_fulfillment_partially_paid_next": "This order is partly paid. You have a remaining balance.",
+            "banner_due_today_for_single_fulfillment": "Payment of {{amount}} is due today. {{link}}",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Payment of {{amount}} is {{count}} day late. {{link}}",
+              "other": "Payment of {{amount}} is {{count}} days overdue. {{link}}"
+            }
+          },
+          "refund": {
+            "title": "Reimbursed",
+            "title_with_date": "Reimbursed on {{date}}",
+            "description_full_refund": "You have received a full refund for this order.",
+            "description_single_refund": "You have received a partial refund for this order.",
+            "description_multiple_refunds": "You have received partial refunds for this order."
+          },
+          "canceled": {
+            "title": "Payment cancelled",
+            "description": "No charges have been applied to you."
+          },
+          "due_date": "Due on {{date}}"
+        },
+        "subtitle": "Submitted: {{date}}",
+        "order_timeline": {
+          "expand_events_label": "Display data",
+          "expand_events_accessibility_label": "Display draft order details"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "This payment method is no longer available for future purchases at this location.",
+          "description_with_replacement": "If you remove this payment method, it will affect pre-authorized payments for this location. Replace it with another payment method to continue receiving upcoming orders."
+        },
+        "payment_details": {
+          "draft_label": "Pre-order {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Add order number",
+        "add_modal_title": "Add order number",
+        "close_modal_accessibility_label": "Order number modal close",
+        "edit_accessibility_label": "Edit order number",
+        "edit_modal_title": "Edit order number",
+        "empty_state": "No order number",
+        "modal_po_number_input_label": "Order number",
+        "modal_po_number_input_max_length_error": "Order numbers are a maximum of {{maxLength}} characters long."
       }
     }
   }
