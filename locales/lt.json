@@ -4222,8 +4222,86 @@
       },
       "card_fields": {
         "name_on_card_label": "Vardas kortelėje",
-        "name_on_card_placeholder": "Vardas kortelėje"
-      }
+        "name_on_card_placeholder": "Vardas kortelėje",
+        "card_expiry_label": "Galiojimo data (MM/YY)",
+        "card_expiry_placeholder": "Galiojimo data (MM/YY)",
+        "card_verification_value_label": "Saugumo kodas",
+        "card_verification_value_placeholder": "Saugumo kodas",
+        "card_start_label": "Išdavimo data (MM/YY)",
+        "card_start_placeholder": "Išdavimo data (MM/YY)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4 skaitmenų saugos kodas kortelės priekinėje pusėje",
+          "card_verification_value_explanation_other": "3 skaitmenų saugos kodas kortelės nugarėlėje",
+          "card_verification_value_explanation": "3 skaitmenų saugos kodas, dažniausiai randamas kortelės nugarėlėje. American Express turi 4 skaitmenų kodą kortelės priekyje.",
+          "card_security_notice": "Visi sandoriai yra apsaugoti ir užšifruoti."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Įveskite savo vardą taip, kaip jis nurodytas jūsų kortelėje",
+          "credit_card_number_invalid": "Įveskite galiojantį kortelės numerį",
+          "credit_card_expiry_invalid": "Įveskite galiojantį kortelės galiojimo datą",
+          "credit_card_verification_value_blank": "Įveskite savo kortelės CVV/CVC arba saugos kodą"
+        },
+        "unavailable": {
+          "text": "Mokėjimas kreditine ir debetine kortele šiuo metu nėra galimas.",
+          "link_text": "Atnaujinkite šį puslapį"
+        }
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "title": "Sąskaitos adresas",
+          "add_billing_address_button_accessibility_label": "Pridėti naują sąskaitos adresą",
+          "choose_billing_address_from_list_button": "Pasirinkite iš sąrašo",
+          "choose_billing_address_from_list_button_accessibility_label": "Pasirinkite sąskaitos adresą iš sąrašo",
+          "missing_billing_address_error_message": "Nurodykite sąskaitos faktūros adresą",
+          "default_checkbox": "Nustatyti kaip numatytąją mokėjimo metodą"
+        },
+        "replace_mode_warning": "Jei pašalinsite šį mokėjimo būdą, tai turės įtakos prenumeratoms arba išankstiniams užsakymams. Pakeiskite jį kitu mokėjimo būdu, kad galėtumėte toliau gauti būsimus užsakymus.",
+        "choose_from_list": "Pasirinkite iš sąrašo",
+        "subscription_contracts": {
+          "title": "Mokėjimo būdo naudojimas pasikartojančioms užsakymams",
+          "product_details": "Produkto duomenys",
+          "more_items": {
+            "one": "Produktas {{count}}",
+            "other": "Yra {{count}} produktų"
+          },
+          "product_count": {
+            "other": "{{count}} produktai"
+          }
+        },
+        "contracts_update_failed": "Kai kurių prenumeratos sutarčių nepavyko atnaujinti",
+        "subscription_contracts_updated": "{{succeeded}} iš {{total}} prenumeratų atnaujinta",
+        "invalid_wallet_type_error": "Neteisingas skaitmeninės piniginės tipas",
+        "updating_contracts": {
+          "one": "{{count}} prenumeratos sutartis atnaujinama...",
+          "other": "Atnaujinama {{count}} prenumeratos sutartys..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} prenumeratos sutartis atnaujinta",
+          "other": "{{count}} prenumeratos sutartys atnaujintos"
+        },
+        "missing_customer_error": "Įvyko klaida. Bandykite dar kartą arba susisiekite su palaikymo tarnyba."
+      },
+      "expires_soon": "Ši kortelė netrukus pasibaigs",
+      "expired": "Ši kortelė pasibaigė galiojimo laiką",
+      "card_update_consent": "Šis mokėjimo būdas bus išsaugotas būsimiesiems pirkimams.",
+      "google_pay": {
+        "errors": {
+          "generic": "Įvyko problema su Google Pay. Bandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+          "missing_billing_address": "Google Pay reikia sąskaitos faktūros adreso. Pridėkite jį savo paskyroje."
+        },
+        "loading": "Google Pay įkelti",
+        "iframe_title_accessibility_label": "Pridėti Google Pay mokėjimo būdą",
+        "loading_accessibility_message": "Google Pay įkelti"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay įkrovimas",
+        "errors": {
+          "generic": "Įvyko problema su Apple Pay. Bandykite dar kartą arba naudokite kitą mokėjimo būdą.",
+          "not_available": "Apple Pay nėra prieinamas šiame įrenginyje.",
+          "missing_billing_address": "Norint naudotis Apple Pay, reikia sąskaitos adreso. Pridėkite jį savo paskyroje."
+        }
+      },
+      "add_payment_method_banner": "Pridėti mokėjimo būdą greitesniam atsiskaitymui ir paslaugoms išankstiniam autorizavimui"
     }
   }
 }
