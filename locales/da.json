@@ -4013,8 +4013,88 @@
         }
       },
       "edit_payment_method": {
-        "title": "Betalingsmetode ændre"
-      }
+        "title": "Betalingsmetode ændre",
+        "payment_method_updated_toast": "Betalingsmetode opdateret",
+        "billing_address_choose_from_list": "Vælg fra listen",
+        "generic_error": "Der opstod et problem under opdateringen. Prøv igen."
+      },
+      "card_fields": {
+        "name_on_card_label": "Navn på kort",
+        "name_on_card_placeholder": "Navn på kort",
+        "card_start_label": "Udstedelsesdato (MM/ÅÅ)",
+        "card_start_placeholder": "Udstedelsesdato (MM/ÅÅ)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Mere information",
+          "card_verification_value_explanation_other": "Sikkerhedskode på 3 cifre på bagsiden af dit kort",
+          "card_verification_value_explanation": "Sikkerhedskode på 3 cifre, som oftest findes på bagsiden af dit kort. American Express har en kode på 4 cifre på forsiden.",
+          "card_security_notice": "Alle transaktioner er sikret og krypteret."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Indtast dit navn, som det står på dit kort",
+          "credit_card_number_invalid": "Indtast et gyldigt kortnummer",
+          "credit_card_expiry_invalid": "Indtast en gyldig udløbsdato for kortet",
+          "credit_card_verification_value_blank": "Indtast CVV/CVC- eller sikkerhedskoden på dit kort"
+        },
+        "unavailable": {
+          "text": "Betaling med kreditkort og betalingskort er i øjeblikket ikke tilgængelig.",
+          "suffix": "eller prøv igen senere."
+        }
+      },
+      "add_payment_method": {
+        "payment_method_added_confirmation": "Betalingsmetode tilføjet",
+        "billing_address": {
+          "choose_billing_address_from_list_button": "Vælg fra listen",
+          "choose_billing_address_from_list_button_accessibility_label": "Vælg en faktureringsadresse fra listen",
+          "default_checkbox": "Indstil som standard betalingsmetode"
+        },
+        "replace_mode_warning": "Hvis du fjerner denne betalingsmetode, vil det få konsekvenser for abonnementer eller forudbestillinger. Erstat den med en anden betalingsmetode for at fortsætte med at modtage kommende ordrer.",
+        "choose_from_list": "Vælg fra listen",
+        "subscription_contracts": {
+          "title": "Betalingsmetode bruge til tilbagevendende ordrer",
+          "product_details": "Produktdata",
+          "more_items": {
+            "one": "Nog {{count}} produkt",
+            "other": "Endnu {{count}} produkter"
+          },
+          "product_count": {
+            "one": "{{count}} produkt",
+            "other": "{{count}} produkter"
+          }
+        },
+        "contracts_update_failed": "Nogle abonnementsaftaler kunne ikke opdateres",
+        "subscription_contracts_updated": "{{succeeded}} af {{total}} abonnementer opdateret",
+        "invalid_wallet_type_error": "Ugyldig type digital pung",
+        "updating_contracts": {
+          "one": "{{count}} abonnementsaftale opdateres...",
+          "other": "{{count}} abonnementsaftaler opdateres..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} abonnementsaftale er opdateret",
+          "other": "{{count}} abonnementsaftaler er opdateret"
+        },
+        "missing_customer_error": "Der er sket en fejl. Prøv igen eller kontakt support."
+      },
+      "digital_wallet_title": "Digital pung",
+      "credit_or_debit_card_title": "Kreditkort eller betalingskort",
+      "google_pay": {
+        "errors": {
+          "generic": "Der opstod et problem med Google Pay. Prøv igen eller brug en anden betalingsmetode.",
+          "missing_billing_address": "For Google Pay skal du bruge en faktureringsadresse. Tilføj en i din konto."
+        },
+        "loading": "Google Pay opladning",
+        "iframe_title_accessibility_label": "Tilføj Google Pay-betalingsmetode",
+        "loading_accessibility_message": "Google Pay opladning"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay opladning",
+        "errors": {
+          "generic": "Der opstod et problem med Apple Pay. Prøv igen eller brug en anden betalingsmetode.",
+          "missing_billing_address": "For Apple Pay skal du bruge en faktureringsadresse. Tilføj en i din konto."
+        }
+      },
+      "add_payment_method_banner": "Tilføj betalingsmetode for hurtigere betaling og tjenester til forudgående godkendelse",
+      "edit_payment_method_button_accessibility_label": "Rediger {{paymentMethodName}}, der ender på {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Vis advarsel om forfald for {{paymentMethodName}}, der slutter på {{lastDigits}}"
     }
   }
 }
