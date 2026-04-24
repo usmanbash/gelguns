@@ -1912,7 +1912,67 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pēc maksājuma pabeigšanas saņemsi īsziņu ar apstiprinājumu. Tu vari sekot pasūtījumam, izmantojot veikala lietotni.",
         "order_status_payments_app_failed_pending_payment_payment": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
         "order_status_payments_app_failed_pending_payment_pick_up": "Pasūtījums vēl nav apmaksāts. Atgriezieties pie iepirkumu groza, lai pārbaudītu un apmaksātu pasūtījumu.",
-        "order_status_confirmed_order_local_pick_up": "Mēs sagatavojam tavu pasūtījumu."
+        "order_status_confirmed_order_local_pick_up": "Mēs sagatavojam tavu pasūtījumu.",
+        "order_status_confirmed_order_local_payment": "Mēs sagatavojam tavu pasūtījumu.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Drīzumā saņemsiet apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Drīzumā saņemsi īsziņu ar apstiprinājumu un pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Drīzumā saņemsi īsziņu ar apstiprinājumu un pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Drīzumā saņemsi īsziņu ar apstiprinājumu un pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Sazinieties ar mums pa e-pastu vai pa tālruni, lai saņemtu pasūtījuma apstiprinājumu.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Pēc apmaksas saņemsi apstiprinājuma e-pastu ar pasūtījuma numuru.",
+        "vat_invoices": {
+          "title": "Btw-rēķini"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Tava maksājuma apstrāde ir sākta. Tu saņemsi e-pastu, kad maksājums būs apstiprināts.",
+        "verify_shop_account_title": "Pārbaudi savu veikala kontu",
+        "verify_shop_account_message": "Tava informācija ir saglabāta veikalā Shop. Apstiprini savu kontu, lai to automātiski izmantotu miljoniem veikalos.",
+        "verify_shop_account_cta": "Pārbaudīt kontu",
+        "verify_shop_account_confirmation": "Norēķinu dati saglabāti",
+        "company_location_section_title": "Uzņēmums un atrašanās vieta",
+        "announcement": {
+          "close": "Aizvērt",
+          "expand": "Izvērst",
+          "collapse": "Salocīt"
+        },
+        "confirmed_items_count": "%{confirmed_count} no %{total_count} preču ir apstiprinātas",
+        "thank_you_confirmed_orders_with_email": "Drīzumā saņemsi atsevišķas apstiprinājuma vēstules ar taviem pasūtījumu numuriem",
+        "thank_you_confirmed_orders_with_phone": "Drīzumā saņemsi atsevišķus apstiprinājuma īsziņas ar saviem pasūtījuma numuriem",
+        "thank_you_confirmed_orders_with_email_and_phone": "Drīzumā saņemsi atsevišķas apstiprinājuma vēstules ar taviem pasūtījumu numuriem",
+        "track_your_order_link_text": "Sekot līdzi jūsu pasūtījumam",
+        "checkout_on_remote_shop_link_text": "Apmaksāt pie %{remoteShopName}",
+        "confirmed_orders_title": "Jūsu pasūtījumi ir apstiprināti",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 prece nav apstiprināta",
+          "other": "Ir preces, kas nav apstiprinātas"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Par to netika iekasēta maksa",
+          "other": "Par to netika iekasēta maksa"
+        },
+        "thank_you_item_label": {
+          "one": "%{count} prece",
+          "other": "%{count} preces"
+        },
+        "thank_you_from_shop": "Pārdod %{shop_name}",
+        "payment_method_not_charged": "Nav norakstīts"
       }
     }
   },
