@@ -4159,7 +4159,73 @@
         "errors": {
           "generic": "Wystąpił problem z PayPal. Spróbuj ponownie lub użyj innej metody płatności."
         }
+      },
+      "card_update_consent_subscriptions": "Ta metoda płatności zostanie zapisana na przyszłe zakupy i może być używana przy każdej powtarzającej się lub odroczonej płatności.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Dodając metodę płatności, możesz upoważnić do pobierania opłat z twojej karty lub do dokonywania obciążeń twojego rachunku bankowego przy przyszłych zakupach, które zatwierdzisz, aż do momentu anulowania tego upoważnienia."
+      },
+      "replacement_payment_method_title": "Alternatywne metody płatności",
+      "bank_account": {
+        "loading_accessibility_message": "Przycisk do konta bankowego jest ładowany",
+        "iframe_title_accessibility_label": "Ustawienie konta bankowego"
+      },
+      "update_payment_method": {
+        "title": "Zaktualizuj metodę płatności",
+        "button_title": "Aktualizuj",
+        "billing_address": "Adres do faktury",
+        "disclaimer": "Ta metoda płatności zostanie zapisana na przyszłe zakupy i może być używana przy każdej powtarzającej się lub odroczonej płatności.",
+        "error_message": "Nie można zaktualizować metody płatności",
+        "current": "Obecny",
+        "loading_form_accessibility_message": "Formularz do aktualizacji metody płatności jest ładowany",
+        "loading_current_payment_method": "Obecna metoda płatności jest ładowana",
+        "loading_digital_wallets": "Opcje dla cyfrowego portfela są ładowane",
+        "loading_card_fields": "Pola karty kredytowej są ładowane",
+        "pre_orders_list_accessibility_label": "Lista produktów z bieżącym zamówieniem",
+        "resources_list_accessibility_label": "Produkty abonamentowe i produkty z aktywnym zamówieniem korzystające z tej metody płatności",
+        "resources_card_scroll": "Przewiń, aby zobaczyć więcej artykułów",
+        "loading_resources": "Ładowanie subskrypcji i nadchodzących zamówień"
+      },
+      "link_expired": {
+        "message": "Ten link do aktualizacji metody płatności wygasł.",
+        "return_home_button": "Powrót do strony głównej",
+        "update_message": "Ten link do aktualizacji metody płatności wygasł.",
+        "add_message": "Ten link do dodania metody płatności wygasł."
+      },
+      "update_success": {
+        "title": "Metoda płatności zaktualizowana"
+      },
+      "expired_badge_label": "Wygasło",
+      "add_success": {
+        "title": "Metoda płatności dodana"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Płatność w sklepie",
+      "elo": "Cześć",
+      "maestro": "Mistrz",
+      "forbrugsforeningen": "Stowarzyszenie Konsumentów",
+      "hipercard": "Hiperkarta",
+      "unionpay": "Union Pay",
+      "laser": "t:",
+      "bogus": "Fałszywy"
+    },
+    "enable_javascript": "Włącz JavaScript w ustawieniach przeglądarki lub zaloguj się za pomocą innej przeglądarki, aby zobaczyć swoje konto.",
+    "ui_components": {
+      "expandNotification": "Zobacz więcej",
+      "submit": "Złóż wniosek",
+      "processing": "Przetwarzanie...",
+      "increase": "Wzrost {{type}}",
+      "decrease": "Pobranie {{type}}",
+      "minimumReached": "Minimalna wartość {{value}} osiągnięta",
+      "maximumReached": "Maksymalna wartość {{value}} osiągnięta",
+      "january": "styczeń",
+      "february": "luty",
+      "march": "marzec",
+      "april": "kwiecień",
+      "may": "maj",
+      "june": "junior",
+      "july": "lipiec",
+      "august": "sierpień"
     }
   }
 }
