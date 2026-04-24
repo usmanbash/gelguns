@@ -10,23 +10,23 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Entre na loja usando a palavra-passe:",
-      "login_password_button": "Entre usando a palavra-passe",
+      "login_form_heading": "Entre na loja com a palavra-passe:",
+      "login_password_button": "Entrar com palavra-passe",
       "login_form_password_label": "Palavra-passe",
-      "login_form_password_placeholder": "A sua palavra-passe",
-      "login_form_error": "Palavra-passe errada!",
-      "login_form_submit": "Entrar",
-      "admin_link_html": "É o proprietário da loja? <a href=\"/admin\" class=\"link underlined-link\">Inicie a sessão aqui</a>",
-      "powered_by_shopify_html": "Esta loja irá contar com tecnologia {{ shopify }}"
+      "login_form_password_placeholder": "A tua palavra-passe",
+      "login_form_error": "Palavra-passe incorreta!",
+      "login_form_submit": "Inserir",
+      "admin_link_html": "É o proprietário da loja? <a href=\"/admin\" class=\"link underlined-link\">Inicie sessão aqui</a>",
+      "powered_by_shopify_html": "Esta loja é gerida por {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Partilhar no Facebook",
         "share_on_twitter": "Partilhar no X",
-        "share_on_pinterest": "Marcar com um pin no Pinterest"
+        "share_on_pinterest": "Fixar no Pinterest"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "X (anteriormente Twitter)",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -37,7 +37,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continuar a comprar",
+    "continue_shopping": "Voltar à loja",
     "pagination": {
       "label": "Paginação",
       "page": "Página {{ number }}",
@@ -50,11 +50,11 @@
     },
     "cart": {
       "view": "Ver carrinho ({{ count }})",
-      "item_added": "Item adicionado ao seu carrinho",
-      "view_empty_cart": "Ver carrinho"
+      "item_added": "Artigo adicionado ao carrinho",
+      "view_empty_cart": "Ver carrinho de compras"
     },
     "share": {
-      "copy_to_clipboard": "Copiar ligação",
+      "copy_to_clipboard": "Copiar link",
       "share_url": "Ligação",
       "success_message": "Ligação copiada para a área de transferência",
       "close": "Fechar partilha"
@@ -63,31 +63,31 @@
       "of": "de",
       "next_slide": "Deslizar para a direita",
       "previous_slide": "Deslizar para a esquerda",
-      "name": "Slider"
+      "name": "Controlador deslizante"
     }
   },
   "newsletter": {
-    "label": "E-mail",
-    "success": "Obrigado pela sua subscrição",
+    "label": "Correio eletrónico",
+    "success": "Obrigado por subscrever",
     "button_label": "Subscrever"
   },
   "accessibility": {
-    "skip_to_text": "Saltar para o conteúdo",
-    "close": "Encerrar",
+    "skip_to_text": "Ir diretamente para o conteúdo",
+    "close": "Fechar",
     "unit_price_separator": "por",
-    "vendor": "Fornecedor:",
+    "vendor": "Vendedor:",
     "error": "Erro",
-    "refresh_page": "Escolher uma seleção resulta numa atualização de página completa.",
+    "refresh_page": "Escolher uma seleção resulta na atualização completa da página.",
     "link_messages": {
-      "new_window": "Abre numa nova janela.",
-      "external": "Abre website externo."
+      "new_window": "Aberto numa nova janela.",
+      "external": "Abrir site externo."
     },
     "loading": "A carregar...",
-    "skip_to_product_info": "Saltar para a informação do produto",
-    "total_reviews": "análises totais",
+    "skip_to_product_info": "Ir diretamente para a informação do produto",
+    "total_reviews": "total de avaliações",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelas",
-    "collapsible_content_title": "Conteúdo recolhível",
-    "complementary_products": "Produtos complementares"
+    "collapsible_content_title": "Conteúdo dobrável",
+    "complementary_products": "Produtos adicionais"
   },
   "blogs": {
     "article": {
@@ -98,21 +98,21 @@
         "other": "{{ count }} comentários",
         "many": "{{ count }} comentários"
       },
-      "moderated": "Tenha em atenção que os comentários necessitam de ser aprovados antes de serem publicados.",
-      "comment_form_title": "Deixe um comentário",
+      "moderated": "Aviso: os comentários devem ser aprovados antes de serem publicados.",
+      "comment_form_title": "Publicar comentário",
       "name": "Nome",
-      "email": "E-mail",
-      "message": "Comentário",
-      "post": "Publicar comentário",
-      "back_to_blog": "Voltar para o blogue",
-      "share": "Partilhar este artigo",
-      "success": "O seu comentário foi publicado com sucesso! Obrigado!",
-      "success_moderated": "O seu comentário foi publicado com sucesso. Será publicado em alguns instantes, já que o nosso blogue é moderado."
+      "email": "Correio eletrónico",
+      "message": "Resposta",
+      "post": "Deixe um comentário",
+      "back_to_blog": "Voltar ao blog",
+      "share": "Partilhar estes artigos",
+      "success": "O seu comentário foi publicado! Obrigado!",
+      "success_moderated": "O seu comentário foi publicado. Iremos publicá-lo em breve; o nosso blogue é moderado."
     }
   },
   "onboarding": {
     "product_title": "Exemplo de título do produto",
-    "collection_title": "O nome da sua coleção"
+    "collection_title": "O nome da tua coleção"
   },
   "products": {
     "product": {
@@ -189,7 +189,14 @@
       },
       "taxes_included": "Impostos incluídos.",
       "duties_included": "Encargos incluídos.",
-      "duties_and_taxes_included": "Encargos e impostos incluídos."
+      "duties_and_taxes_included": "Encargos e impostos incluídos.",
+      "inventory_out_of_stock_message": "Em stock",
+      "inventory_order_before": "para",
+      "inventory_delivered": "encomendado,",
+      "inventory_delivery_time": "amanhã em casa",
+      "inventory_status": {
+        "in_stock_badge": "Em stock"
+      }
     },
     "modal": {
       "label": "Galeria de conteúdo multimédia"
@@ -4227,6 +4234,25 @@
         "loading": "Modal para substituir o método de pagamento está a ser carregado",
         "invalid_subscription_contract": "Não foi possível encontrar a assinatura",
         "expiry_date": "Expira em {{expiryDate}}"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "logótipo %{shop_name}",
+      "step_one": {
+        "page_title": "Iniciar sessão - %{shop_name}",
+        "subheading": "Introduza o seu endereço de correio eletrónico e enviaremos um código de verificação",
+        "input_field_label": "Endereço de correio eletrónico",
+        "or": "de"
+      },
+      "step_two": {
+        "heading": "Introduzir código",
+        "restart_link": "Iniciar sessão com outro endereço de correio eletrónico"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Introduza um endereço de correio eletrónico válido",
+          "invalid_code": "Introduza o código correto de seis dígitos"
+        }
       }
     }
   }
