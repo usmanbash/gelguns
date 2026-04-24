@@ -2211,6 +2211,124 @@
           "tax_credential_tr": "Turkin tasavallan henkilötunnus/ALV",
           "shipping_credential_tr": "Turkin tasavallan henkilötunnus/ALV"
         }
+      },
+      "post_purchase": {
+        "escape_action": "Tilauksen vahvistuksen tarkastelu ›",
+        "components": {
+          "processing": "Käsitellään..."
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Ostoskori on päivitetty toimitusmaasi mukaan.",
+        "cart_and_currency_updated_based_on_country": "Ostoskoriisi ja valuuttaasi on mukautettu toimitusmaan mukaan.",
+        "currency_updated_for_country": "Valuutta päivitetty %{country} varten"
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} jokaista %{interval} kohden",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Ensimmäiset %{count} maksut %{total_price} kappaleelta"
+          }
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} päivää"
+          },
+          "week": {
+            "other": "%{count} viikkoa"
+          },
+          "month": {
+            "other": "%{count} kuukautta"
+          },
+          "year": {
+            "other": "%{count} vuotta"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", sen jälkeen %{count} maksu summalta %{total_price}",
+            "other": ", sen jälkeen %{count} maksua, kukin %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Hakemuksesi käsittelyssä ilmeni ongelma.",
+          "success_message": "Maksutapasi on poistettu"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "MoR:n (Merchant of Record) yleiset ehdot"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Tuote ei ole saatavilla",
+          "other": "Ei saatavilla olevat tuotteet"
+        },
+        "products_not_available": {
+          "one": "Tämä tuote poistetaan ostoskoristasi, koska se ei ole saatavilla maassasi/alueellasi.",
+          "other": "Nämä tuotteet poistetaan ostoskoristasi, koska ne eivät ole saatavilla maassasi/alueellasi."
+        },
+        "all_products_in_cart_unavailable": {
+          "other": "Nämä tuotteet eivät ole saatavilla maassasi/alueellasi."
+        }
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Maasi/alue on päivitetty. Syötä toimitusosoite jatkaaksesi kassalle."
+      },
+      "throttle": {
+        "line_to_check_out": "Olet jonossa maksua varten",
+        "cart_summary_heading": "Ostoskori",
+        "inventory": {
+          "partial_inventory_banner": "Osa ostoskoristasi on loppuunmyyty eikä sitä voi ostaa kassalla.",
+          "sold_out": {
+            "heading": "Ostoskori on loppuunmyyty",
+            "storefront_body": "Palaa kauppaan jatkaaksesi ostoksia",
+            "no_storefront_body": "Tuote, jonka halusit ostaa, ei valitettavasti ole enää saatavilla.",
+            "link": "Takaisin kauppaan"
+          }
+        },
+        "title": "Jonotuslista",
+        "time_to_checkout_title": "Aika maksaa - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Arvioidun odotusajan laskeminen",
+          "less_than_one": "Arvioitu odotusaika: alle minuutti",
+          "one": "Arvioitu odotusaika: {{count}} minuuttia",
+          "other": "Arvioitu odotusaika: {{count}} minuuttia"
+        },
+        "footer": {
+          "heading": "Sinun ei tarvitse päivittää tätä sivua, se päivittyy automaattisesti.",
+          "body": "Ostoskoriisi lisätyt tuotteet varataan vasta, kun olet suorittanut kassalle siirtymisen loppuun."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Hakemuksesi käsittelyssä ilmeni ongelma. Ota yhteyttä kaupan omistajaan."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Toimitusta ei ole saatavilla %{count} tuotteelle",
+            "other": "Toimitusta ei ole saatavilla %{count} tuotteelle"
+          },
+          "message": {
+            "other": "Tämä tuote poistetaan ostoskoristasi, koska osoitteeseesi ei ole saatavilla toimitustapoja."
+          },
+          "label": "Geen bezorging"
+        }
+      },
+      "no_address_location": {
+        "title": "Sijainti ilman osoitetta",
+        "header": "Tälle paikalle ei ole toimitusosoitetta",
+        "message": "Ota meihin yhteyttä lisätäksesi osoitteen tälle paikalle, jotta voit suorittaa maksun loppuun."
+      },
+      "order_errors": {
+        "creation_failure": "Tilaustasi luodessa ilmeni ongelma. Yritä uudelleen tai ota meihin yhteyttä saadaksesi lisätietoja.",
+        "network_failure": "Tilaustasi ei voitu lähettää verkkovirheen vuoksi. Tarkista yhteytesi ja yritä uudelleen.",
+        "inventory_reservation_failure": "Jotkut tuotteet eivät ole enää saatavilla."
+      },
+      "session_errors": {
+        "session_not_unique": "Tilaustasi käsiteltäessä ilmeni ongelma. Päivitä tämä sivu palataksesi kauppaan.",
+        "session_already_finished": "Tämä tilaus on jo lähetetty. Voit palata kauppaan aloittaaksesi uuden tilauksen."
       }
     }
   }
