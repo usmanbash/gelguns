@@ -2584,8 +2584,74 @@
             "title": "{{walletName}} er ikke tilgængelig",
             "description": "{{walletName}} var ikke tilgængelig. Brug en anden betalingsmetode eller prøv igen senere.",
             "instructions": "Der opstod et problem med {{walletName}}. Gå tilbage til butikken og prøv igen, eller betal på en anden måde."
-          }
-        }
+          },
+          "generic": "Der opstod et problem med {{walletName}}. Prøv igen eller brug en anden betalingsmetode.",
+          "detour": {
+            "stock_problems": "Nogle varer er ikke længere tilgængelige. Luk {{walletName}} og prøv igen.",
+            "price_change": "Priserne på nogle varer er ændret. Luk {{walletName}} for at kontrollere din bestilling og prøv igen.",
+            "queue": "Du står i kø ved kassen. Luk {{walletName}} for at fortsætte.",
+            "currency_change": "Du kan ikke bruge en anden adresse med {{walletName}}. Brug den oprindelige adresse eller prøv en anden betalingsmetode."
+          },
+          "unsupported": {
+            "address": "Forhandleren kan ikke levere til den leveringsadresse, du har valgt.",
+            "postal_code": "Denne placering understøttes ikke",
+            "wallet_is_unavailable": "Du kan ikke bruge {{walletName}} med denne adresse. Vælg en anden adresse eller luk {{walletName}} for at fuldføre købet."
+          },
+          "outdated": {
+            "shipping_method": "Forsendelsesmulighederne for din bestilling er ændret. Tjek dit valg.",
+            "payment_terms": "Betalingsbetingelserne er ændret. Tjek din bestilling"
+          },
+          "invalid": {
+            "shipping_option": "Vælg en gyldig forsendelsesmulighed",
+            "email": "Indtast en gyldig e-mailadresse",
+            "zone": "Indtast en gyldig stat/provins",
+            "postal_code": "Indtast et gyldigt postnummer eller postnummer",
+            "reduction_code": "Indtast en gyldig rabatkode eller gavekort",
+            "billing_must_match_shipping": "Skal stemme overens med leveringsadressen.",
+            "emirate": "Indtast en gyldig emirat",
+            "billing_zone": "Indtast en gyldig stat/region for faktureringsadressen",
+            "billing_phone": "Indtast et gyldigt telefonnummer til faktureringsadressen",
+            "billing_zip": "Indtast en gyldig postnummer til faktureringsadressen"
+          },
+          "missing": {
+            "first_name": "Indtast et fornavn",
+            "last_name": "Indtast et efternavn",
+            "address1": "Indtast en adresse",
+            "address2": "Indtast en lejligheds- eller suite-nummer osv.",
+            "city": "Indtast et sted",
+            "province": "Vælg en stat/provins",
+            "country": "Vælg et land/område",
+            "zip": "Indtast et postnummer eller en postkode",
+            "phone": "Indtast et telefonnummer",
+            "billing_first_name": "Indtast et fornavn til faktureringsadressen",
+            "billing_address1": "Indtast en faktureringsadresse",
+            "billing_address2": "Indtast en lejligheds- eller suite-nummer osv. til faktureringsadressen",
+            "billing_city": "Indtast en adresse til fakturering",
+            "billing_province": "Vælg en stat/provins til faktureringsadressen",
+            "billing_zip": "Vælg et postnummer til faktureringsadressen",
+            "contact_info": "Indtast kontaktoplysninger"
+          },
+          "formatting": {
+            "name_contains_emojis": "Fjern emoji fra dit navn",
+            "postal_code_contains_emoji": "Fjern emoji fra dit postnummer",
+            "first_name_too_long": "Fornavn indeholder for mange bogstaver",
+            "last_name_too_long": "Efternavn indeholder for mange bogstaver",
+            "address_too_long": "Adresserækken er for lang"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Din leveringsadresse er ugyldig. Vælg en anden adresse eller brug en ny adresse.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} er i øjeblikket ikke tilgængelig for din bestilling. Vælg en anden betalingsmetode for at fortsætte købet."
+          },
+          "discount_code": "Kan ikke anvende denne rabatkode. Kontroller din kode og prøv igen.",
+          "processing_error_checkout_as_guest": "Der opstod et problem med behandlingen af din betaling. Prøv igen eller {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Du bliver omdirigeret til {{walletName}} for at fuldføre dit køb",
+        "scrim": {
+          "continue_purchase_in_window": "Fortsæt med dit køb i {{walletName}}-vinduet",
+          "and_return_to_checkout": "tilbage til kassen"
+        },
+        "place_order": "Afgiv bestilling",
+        "recovery_notice": "Der opstod en fejl med dine bestillingsoplysninger. Opdater dine oplysninger for at fuldføre betalingen."
       }
     }
   }
