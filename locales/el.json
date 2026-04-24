@@ -2730,7 +2730,83 @@
         "failed_to_copy": "Δεν αντιγράφηκε"
       },
       "payment_challenge_modal": {
-        "instructions": "Ολοκλήρωσε την αγορά σου με τον κωδικό {{paymentMethod}}"
+        "instructions": "Ολοκλήρωσε την αγορά σου με τον κωδικό {{paymentMethod}}",
+        "timer_message": "Έχετε ακόμα {{timeLeft}} για να πληρώσετε",
+        "header": "Πληρώστε με {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Ολοκλήρωσε την αγορά σου με τον κωδικό {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Επιβεβαίωσε την πληρωμή στην εφαρμογή σου για να ολοκληρώσεις αυτήν την αγορά"
+        },
+        "close": "Κλείσε την πρόκληση",
+        "open_app_text": "Άνοιξε την εφαρμογή {{paymentMethod}}"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Υπήρξε ένα πρόβλημα κατά την επεξεργασία της παραγγελίας σου. Δοκίμασε ξανά σε λίγα λεπτά."
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Η οδηγία προϊόντος %{position} %{name} περιέχει ένα κενό αναγνωριστικό stable-ID.",
+        "invalid_stable_id_target": "Η οδηγία προϊόντος %{position} %{name} αναφέρεται στο stable-ID %{stable_id}, αλλά αυτό το stable-ID δεν βρίσκεται σε γραμμές προϊόντων.",
+        "duplicate_variant_id": "Η οδηγία προϊόντος %{position} %{name} περιέχει διπλό αναγνωριστικό παραλλαγής %{variant_id}.",
+        "invalid_variant_id_target": "Η οδηγία προϊόντος %{name} αναφέρεται στο αναγνωριστικό παραλλαγής %{variant_id}, αλλά αυτή η παραλλαγή δεν βρίσκεται στις γραμμές προϊόντων.",
+        "invalid_price_override_target": "Η οδηγία για την υπερισχύση της τιμής των αγαθών για τη γραμμή παραγγελίας %{stable_id} είναι άκυρη επειδή είναι ένα στοιχείο πακέτου.",
+        "discount_not_supported": "Η οδηγία για τους εμπόρους σχετικά με την εφαρμογή έκπτωσης προϊόντων δεν υποστηρίζει αυτόν τον τύπο έκπτωσης."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Αυτό το προϊόν δεν είναι διαθέσιμο για αποστολή στο %{location_name}.",
+          "some_products_other": "Αυτά τα προϊόντα δεν είναι διαθέσιμα για αποστολή στο %{location_name}.",
+          "all_products_one": "Το προϊόν στο καλάθι σας δεν είναι διαθέσιμο για αποστολή προς %{location_name}.",
+          "all_products_other": "Τα προϊόντα στο καλάθι αγορών σας δεν είναι διαθέσιμα για αποστολή προς %{location_name}."
+        },
+        "missing_country_fallback": "η χώρα σου",
+        "indeterminate_location_fallback": "η τοποθεσία σου",
+        "cart_updated": "Το καλάθι αγορών σας έχει ενημερωθεί.",
+        "change_address_or_remove": "Αλλάξτε τη διεύθυνση παράδοσης ή %{remove_action}.",
+        "empty_cart_action": "άδειασε το καλάθι και γύρισε στο κατάστημα",
+        "remove_items_action": {
+          "one": "αφαίρεσε το μη διαθέσιμο προϊόν",
+          "other": "αφαίρεσε τα μη διαθέσιμα είδη"
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Δεν έχετε πλέον δικαίωμα να κάνετε παραγγελίες B2B. %{logout_url} για να κάνετε αντ’ αυτού μια προσωπική παραγγελία.",
+        "lost_permissions_subtitle": "Δεν έχετε πλέον δικαίωμα να υποβάλετε παραγγελίες B2B. Αποσυνδεθείτε για να υποβάλετε μια προσωπική παραγγελία.",
+        "lost_permissions_title": "Καμία άδεια τοποθεσίας"
+      },
+      "units": {
+        "gram": "γ",
+        "kilogram": "κιλό",
+        "milliliter": "μιλ",
+        "centiliter": "κλ",
+        "liter": "λ",
+        "millimeter": "μμ",
+        "centimeter": "εκ",
+        "meter": "μ",
+        "square_meter": "τ.μ.",
+        "pound": "λίβρα",
+        "fluid_ounce": "ουγγιά υγρού",
+        "pint": "πτ",
+        "quart": "κτ",
+        "gallon": "γαλακτοκομικό",
+        "inch": "σε",
+        "foot": "πόδι",
+        "yard": "υδ",
+        "square_foot": "τ.μ.",
+        "item": "άρθρο"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Αυτή η διεύθυνση δεν υποστηρίζεται για την τρέχουσα συνδρομή.",
+        "items_split_across_locations_unsupported": "Η παράδοση Prime δεν είναι διαθέσιμη για την παραγγελία σου. Οι επιλογές αποστολής σου έχουν ενημερωθεί."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Πλοήγηση στο ηλεκτρονικό κατάστημα"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Περισσότερες πληροφορίες για %{context}"
       }
     }
   }
