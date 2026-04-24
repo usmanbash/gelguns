@@ -1123,8 +1123,86 @@
           "prepaid_initial_order_discounted_with_per_delivery_price": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency}, därefter %{shipping_price} %{billing_cycle}",
           "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Första fraktkostnaden %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), därefter %{shipping_price} %{billing_cycle}",
-          "shipping_price_included": "Inkluderat"
-        }
+          "shipping_price_included": "Inkluderat",
+          "first_order_shipping_price_included": "Första beställningen ingår, följt av %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per leverans), följt av %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Första beställningen gratis",
+            "other": "Första %{count} beställningarna gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "För första beställningen",
+            "other": "För de första %{count} beställningarna"
+          },
+          "subscription_free_with_frequency_label": "Gratis frakt %{delivery_frequency}",
+          "free_shipping_cycles": {
+            "one": "Gratis frakt för ytterligare %{count} leveranser",
+            "other": "Gratis frakt för ytterligare %{count} leveranser"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis frakt för %{count} leverans",
+            "other": "Gratis frakt för %{count} leveranser"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Gratis frakt för ytterligare %{count} leveranser, därefter %{recurring_order_shipping_price}",
+            "other": "Gratis frakt för ytterligare %{count} leveranser, därefter %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Gratis frakt för %{count} leverans, därefter %{recurring_order_shipping_price}",
+            "other": "Gratis frakt för %{count} leveranser, därefter %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} extra leverans för %{shipping_price}",
+            "other": "%{count} extra leveranser för %{shipping_price} per leverans"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "%{count} extra leveranser för %{shipping_price} per leverans"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Gratis frakt under första %{cycle}, därefter %{recurring_order_shipping_price}",
+            "other": "Gratis frakt under första %{cycle}, därefter %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} för ytterligare %{count} leverans",
+            "other": "%{shipping_price} för ytterligare %{count} leveranser (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} för ytterligare %{count} leveranser, därefter %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} för ytterligare %{count} leveranser (%{per_delivery_cost}), därefter %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} för %{count} leverans, därefter %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} för %{count} leveranser (%{per_delivery_cost}), därefter %{recurring_order_shipping_price}"
+          }
+        },
+        "estimated_delivery_time": "Förväntad leverans %{time}",
+        "estimated_delivery_time_range": "Förväntad leverans %{min_time}–%{max_time}",
+        "arrives_time": "Levereras om %{time}",
+        "arrives_time_range": "Levereras mellan %{min_time}–%{max_time}",
+        "estimated_time": "Förväntas om %{time}",
+        "estimated_time_range": "Förväntas %{min_time}-%{max_time}",
+        "subscription_local_delivery": "Prenumeration lokal leverans",
+        "subscription_pickup": "Prenumerationsupphämtning",
+        "delivery_today": "Leverans samma dag om %{time}",
+        "delivery_tomorrow": "Leverans nästa dag klockan %{time}",
+        "two_day_delivery": "Leverans inom 2 dagar om %{time}",
+        "delivery": "Leverans om %{time}",
+        "shipping_information_required_notice": "Fraktuppgifter krävs. {{link}}.",
+        "shipping_information_redirect_link": "Fyll i dina uppgifter här",
+        "loading_progressive_rates": "Söker efter fler avgifter...",
+        "no_other_methods_available": "Inga andra metoder tillgängliga",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Extra avgifter kan tillkomma",
+          "ddp_title": "Betala nu",
+          "ddp_caption": "Inga extra kostnader vid leverans"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} av %{current}"
+        },
+        "shipping_used_as_billing_notice": "Detta används också som din faktureringsadress för denna beställning.",
+        "shipping_address_title": "Skicka till",
+        "delete": "Ta bort",
+        "address_more": "Fler åtgärder för denna adress"
       }
     }
   }
