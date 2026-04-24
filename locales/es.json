@@ -3812,7 +3812,77 @@
         "payment_method_expired_on": "Caduca el {{expiryDate}}",
         "loading_shop_pay": "Cargar Shop Pay",
         "invalid_payment_method": "Método de pago no válido",
-        "invalid_payment_method_message": "Utilice una tarjeta de crédito nueva para seguir recibiendo los próximos pedidos."
+        "invalid_payment_method_message": "Utilice una tarjeta de crédito nueva para seguir recibiendo los próximos pedidos.",
+        "replace_payment_method": "Cambiar método de pago",
+        "checkout_card_banner": "Solo puedes usar este método de pago para pagos previamente autorizados. No se mostrará en la caja si has iniciado sesión en esta tienda.",
+        "default_checkbox": "Establecer como predeterminado",
+        "default_checkbox_accessibility_label": "Establecer este método de pago como predeterminado"
+      },
+      "back_button": "Volver",
+      "payment_delete": {
+        "title": "Eliminar método de pago",
+        "description_without_replacement": "Este método de pago ya no está disponible para compras futuras.",
+        "description_with_replacement": "Si eliminas este método de pago, afectará a los pagos autorizados previamente. También puedes reemplazarlo por otro método de pago para seguir recibiendo los pedidos próximos.",
+        "payment_method_selector_placeholder": "Seleccione un método de pago alternativo (opcional)",
+        "replace_method_with_new_method_description": "Tu {{currentPaymentMethodName}} será eliminado y reemplazado por tu {{newPaymentMethodName}}.",
+        "error_when_deleting": "Lo sentimos, ha ocurrido un error y no podemos eliminar este método de pago. Inténtelo de nuevo más tarde o actualice la página.",
+        "delete_and_replace_button": "Quitar y reemplazar",
+        "delete_and_replace_button_accessibility_label": "Eliminar {{currentPaymentMethodName}} y reemplazarlo por {{newPaymentMethodName}}.",
+        "deleted_successfully": "El método de pago ha sido eliminado.",
+        "payment_method_selector_no_alternative_payment": "Ningún método sustituto",
+        "loading_available_payment_methods_accessibility_label": "Cargando métodos de pago disponibles",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Si eliminas este método de pago, tendrá consecuencias para los pagos autorizados previamente. Los importes pendientes de pedidos existentes seguirán cobrados a través de este método de pago, a menos que selecciones otro método de pago. Selecciona otro método de pago para continuar recibiendo los pedidos de suscripción próximos sin interrupciones.",
+          "with_pending_orders": "Eliminar el método de pago hará que se quite de tu cuenta y ya no esté disponible para futuras compras. Los importes pendientes de pedidos existentes seguirán cobrados a través de este método de pago, a menos que selecciones otro método de pago.",
+          "with_subscriptions": "Si eliminas este método de pago, afectará los pagos autorizados previamente. Sustitúyelo por otro método de pago para seguir recibiendo los pedidos próximos."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Si eliminas este método de pago, tendrá consecuencias para los pagos autorizados previamente. Los importes pendientes de pedidos existentes seguirán cobrados a través de este método de pago, pero no recibirás pedidos de suscripciones futuras. Añade otro método de pago para seguir recibiendo pedidos de suscripciones.",
+          "with_pending_orders": "Eliminar el método de pago hará que se quite de tu cuenta y ya no esté disponible para compras futuras. Los importes pendientes de pedidos existentes seguirán cobrando a través de este método de pago.",
+          "with_subscriptions": "Si eliminas este método de pago, afectará los pagos autorizados previamente. Añade otro método de pago para seguir recibiendo pedidos futuros."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Cambiar método de pago",
+        "payment_method_updated_toast": "Método de pago actualizado",
+        "billing_address_add_new": "Añadir nuevo",
+        "future_purchases_notice": "Este método de pago se guardará para futuras compras.",
+        "generic_error": "Se ha producido un problema al actualizar. Inténtalo de nuevo."
+      },
+      "card_fields": {
+        "name_on_card_label": "Nombre en la tarjeta",
+        "name_on_card_placeholder": "Nombre en la tarjeta",
+        "card_expiry_label": "Fecha de vencimiento (MM/AA)",
+        "card_expiry_placeholder": "Fecha de vencimiento (MM/AA)",
+        "card_start_label": "Fecha de emisión (MM/AA)",
+        "card_start_placeholder": "Fecha de emisión (MM/AA)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Código de seguridad de 4 dígitos en el anverso de tu tarjeta",
+          "card_verification_value_explanation": "Código de seguridad de 3 dígitos, generalmente ubicado en el reverso de tu tarjeta. American Express tiene un código de 4 dígitos en el anverso.",
+          "card_security_notice": "Todas las transacciones están protegidas y cifradas."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Introduce tu nombre tal como aparece en tu tarjeta",
+          "credit_card_number_invalid": "Introduzca un número de tarjeta válido",
+          "credit_card_expiry_invalid": "Introduzca una fecha de vencimiento válida para la tarjeta",
+          "credit_card_verification_value_blank": "Introduce el código CVV/CVC o código de seguridad de tu tarjeta"
+        },
+        "unavailable": {
+          "text": "Los pagos con tarjeta de crédito y tarjeta de débito no están disponibles en este momento.",
+          "link_text": "Actualizar esta página"
+        }
+      },
+      "add_payment_method": {
+        "title": "Agregar método de pago",
+        "payment_method_added_confirmation": "Método de pago añadido",
+        "billing_address": {
+          "add_billing_address_button": "Añadir nuevo",
+          "choose_billing_address_from_list_button_accessibility_label": "Elija una dirección de facturación de la lista",
+          "missing_billing_address_error_message": "Proporcione una dirección de facturación",
+          "default_checkbox": "Establecer como método de pago predeterminado"
+        },
+        "replace_mode_warning": "Si eliminas este método de pago, afectará a las suscripciones o pedidos anticipados. Sustitúyelo por otro método de pago para seguir recibiendo los pedidos próximos.",
+        "add_new_button": "Añadir nuevo"
       }
     }
   }

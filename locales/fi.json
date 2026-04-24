@@ -2598,8 +2598,82 @@
           },
           "invalid": {
             "shipping_option": "Valitse kelvollinen toimitustapa",
-            "zone": "Anna kelvollinen osavaltio/maakunta"
-          }
+            "zone": "Anna kelvollinen osavaltio/maakunta",
+            "postal_code": "Syötä kelvollinen postinumero tai postitoimipaikka",
+            "reduction_code": "Syötä voimassa oleva alennuskoodi tai lahjakortti",
+            "billing_must_match_shipping": "Täytyy sopia toimitusosoitteen kanssa.",
+            "emirate": "Syötä kelvollinen emiirikunta",
+            "billing_zone": "Anna laskutusosoitteen kelvollinen osavaltio/maakunta",
+            "billing_phone": "Anna laskutusosoitteelle kelvollinen puhelinnumero",
+            "billing_zip": "Anna laskutusosoitteen kelvollinen postinumero tai postitoimipaikka"
+          },
+          "missing": {
+            "first_name": "Syötä etunimi",
+            "last_name": "Syötä sukunimi",
+            "address1": "Syötä osoite",
+            "address2": "Anna huoneiston tai sviitin numero jne.",
+            "city": "Anna paikka",
+            "province": "Valitse osavaltio/maakunta",
+            "zip": "Syötä postinumero tai postitoimipaikka",
+            "phone": "Syötä puhelinnumero",
+            "billing_address2": "Anna laskutusosoitteeksi asunto- tai huonenumero jne.",
+            "billing_city": "Anna laskutusosoitteen paikka",
+            "billing_province": "Valitse laskutusosoitteen osavaltio/maakunta",
+            "billing_zip": "Valitse laskutusosoitteen postinumero tai postinumeroalue",
+            "contact_info": "Syötä yhteystiedot"
+          },
+          "formatting": {
+            "name_contains_emojis": "Poista hymiö nimestäsi",
+            "postal_code_contains_emoji": "Poista hymiö postinumerostasi",
+            "first_name_too_long": "Etunimessä on liikaa kirjaimia",
+            "last_name_too_long": "Sukunimessä on liikaa kirjaimia",
+            "address_too_long": "Osoitesääntö on liian pitkä"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Toimitusosoite on virheellinen. Valitse toinen osoite tai käytä uutta osoitetta.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} ei ole tällä hetkellä saatavilla tilauksessasi. Valitse toinen maksutapa jatkaaksesi ostosta."
+          },
+          "discount_code": "Tätä alennuskoodia ei voi käyttää. Tarkista koodisi ja yritä uudelleen.",
+          "processing_error_checkout_as_guest": "Maksun käsittelyssä ilmeni ongelma. Yritä uudelleen tai {{checkout_as_guest_link}}."
+        },
+        "redirection_notice": "Sinut ohjataan {{walletName}}-lompakkoon viimeistelemään ostoksesi",
+        "return_to_checkout": "Takaisin kassalle",
+        "scrim": {
+          "and_return_to_checkout": "ja takaisin kassalle"
+        },
+        "recovery_notice": "Tilaustiedoissasi on tapahtunut virhe. Päivitä tietosi maksun suorittamiseksi."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Tarkista ensin yhteystietosi ennen maksun suorittamista loppuun"
+      },
+      "store_credit_errors": {
+        "generic_error": "Ongelmia ilmenee kauppakrediittisi kanssa. Yritä uudelleen tai lataa sivu uudestaan."
+      },
+      "note": {
+        "length_exceeds_maximum": "Kirjoita huomautus enintään 5000 merkkiä."
+      },
+      "billing": {
+        "billing_address_title": "Lasku vastaanottajalle",
+        "address_more": "Lisää toimia tälle osoitteelle",
+        "address_confirm": "Oletko varma, että haluat poistaa tämän osoitteen tililtäsi?",
+        "billing_address_rollup_accessibility_label": "Laskutusvaihtoehdot"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Lahjakortti on jo käytetty tilaukseesi",
+          "insufficient_funds": "Tällä lahjakortilla ei ole enää rahaa jäljellä",
+          "not_available": "Tämä lahjakortti ei ole enää saatavilla",
+          "invalid": "Syötä kelvollinen lahjakortti",
+          "currency_mismatch": "Vain lahjakortit %{shop_currency}-valuutassa hyväksytään",
+          "generic": "Lahjakorttia ei voi lisätä kassalle",
+          "throttle_limit_exceeded": "Olet saavuttanut maksimiyritysmäärän. Yritä myöhemmin uudelleen.",
+          "no_longer_available": "Tätä lahjakorttia ei voi enää käyttää tässä kassalla"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Tapahtui virhe Shop Payn lataamisessa",
+          "try_again_later": "Tarkista yhteytesi tai sulje tämä ikkuna ja yritä hetken kuluttua uudelleen."
         }
       }
     }
