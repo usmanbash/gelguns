@@ -2753,11 +2753,89 @@
               "de": "Introduzca un número de identificación fiscal alemán válido",
               "gr": "Introduzca un número de identificación fiscal griego válido",
               "hu": "Introduzca un número de identificación fiscal húngaro válido",
-              "ie": "Introduzca un número de identificación fiscal irlandés válido"
+              "ie": "Introduzca un número de identificación fiscal irlandés válido",
+              "it": "Introduzca un número de identificación fiscal italiano válido",
+              "lv": "Introduzca un número de identificación fiscal válido de Letonia",
+              "lt": "Introduzca un número de identificación fiscal válido de Lituania",
+              "lu": "Introduzca un número de identificación de IVA luxemburgués válido",
+              "mt": "Introduzca un número de identificación fiscal maltés válido",
+              "nl": "Introduzca un número de identificación fiscal válido de los Países Bajos",
+              "pl": "Introduzca un número de identificación fiscal polaco válido",
+              "pt": "Introduzca un número de identificación fiscal portugués válido",
+              "ro": "Introduzca un número de identificación fiscal rumano válido",
+              "sk": "Introduzca un número de identificación fiscal eslovaco válido",
+              "si": "Introduzca un número de identificación fiscal esloveno válido",
+              "es": "Introduzca un número de identificación fiscal español válido",
+              "se": "Introduzca un número de identificación fiscal sueco válido",
+              "gb": "Introduzca un número de identificación de IVA válido del Reino Unido"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Se realiza la validación del número de identificación del IVA",
+              "valid": "El número de identificación fiscal es válido",
+              "applied": "Se ha aplicado la exención de IVA",
+              "domestic": "Exención de IVA no aplicada",
+              "invalid_number": "La exención de IVA ha fallado",
+              "service_unavailable": "No se puede verificar la exención de IVA",
+              "service_error": "No se puede verificar la exención de IVA"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Este pago ya no es necesario. Vaya a la página de pedidos para más información.",
+        "paid": "Este pago ya ha sido enviado. Vaya a la página de pedidos para más información."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Se requiere una interacción con la extensión para completar la compra."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Verifica tu pedido"
+        }
+      },
+      "too_many_requests": {
+        "body": "Espera unos minutos y vuelve a intentarlo desde tu carrito.",
+        "return_to_cart": "Volver al carrito de compras",
+        "body_no_cart": "Espere unos minutos y vuelva a intentarlo."
       }
+    },
+    "links": {
+      "powered_by_shopify": "Impulsado por Shopify",
+      "learn_more": "Más información"
+    },
+    "attributes": {
+      "first_name": "nombre",
+      "last_name": "apellido",
+      "body": "texto principal"
+    },
+    "addresses": {
+      "county": "Provincia",
+      "governorate": "Gobierno"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Destacado",
+        "best_selling": "Más vendido",
+        "az": "Alfabéticamente: A-Z",
+        "za": "Alfabéticamente: Z-A",
+        "price_ascending": "Precio: de menor a mayor",
+        "price_descending": "Precio: de mayor a menor",
+        "date_ascending": "Fecha: de antiguo a nuevo",
+        "date_descending": "Fecha: nuevo a antiguo",
+        "most_relevant": "Más relevante"
+      }
+    },
+    "errors": {
+      "blank": "no puede estar vacío",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado. Por favor, introduce tus datos de pago nuevamente. No se ha retirado dinero de tu tarjeta.",
+      "empty": "no puede estar vacío",
+      "invalid_email": "debe ser una dirección de correo electrónico válida",
+      "discount_disabled": "Este descuento está bloqueado",
+      "discount_limit_reached": "Este descuento ha alcanzado el límite de uso"
     }
   }
 }
