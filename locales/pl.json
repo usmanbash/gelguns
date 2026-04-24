@@ -3550,7 +3550,75 @@
         "gift_card_resend_button": {
           "one": "Ponowne wysłanie bonu podarunkowego",
           "other": "Ponowne wysłanie bonów podarunkowych"
+        },
+        "expected_by": "Oczekiwany najpóźniej {{date}}",
+        "was_expected_by": "Oczekiwany najpóźniej {{date}}"
+      },
+      "status_mark_as_delivered": "Oznacz jako zaniepokojony",
+      "buy_again_accessibility_label": "Kup ponownie zamówienie {{orderId}}",
+      "list_title_pending_orders_accessibility_label": "Zamówienia: w trakcie realizacji",
+      "switch_order_type_pending_orders_accessibility_label": "Zmień typ zamówienia; obecnie przeglądasz zamówienia w trakcie realizacji",
+      "switch_order_type_confirmed_orders_accessibility_label": "Zmiana typu zamówienia; przeglądasz potwierdzone zamówienia",
+      "group_title_label_with_parent": "Dla: {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturowanie i wysyłka",
+      "billing_address": "Adres do faktury",
+      "card_ending_with": "kończy się na {{lastDigits}}",
+      "contact": "Osoba kontaktowa",
+      "hide_items": "Ukryj artykuły",
+      "loading": "Ładowanie danych zamówienia",
+      "loading_finished_accessibility_message": "Dane zamówienia zostały załadowane",
+      "payment": {
+        "status_in_review": "Płatność należna po ocenie",
+        "status_unpaid": "Płatność należna do {{date}}",
+        "card_payment_details": "kończący się na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Zapłacono za pomocą płatności ratalnej Shop Pay",
+          "view_schedule": "Przegląd planu"
+        },
+        "gift_card_payment_details": "kończący się na {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Przekaz pocztowy - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Za pobraniem - {{formattedTransactionAmount}}",
+          "bank_deposit": "Wpłata bankowa - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Saldo sklepu - {{formattedTransactionAmount}}",
+        "transactions": {
+          "details": "Dane"
+        },
+        "emv_details": {
+          "auth": "AUTORYZACJA:",
+          "aid": "POMOC:",
+          "source": "Użyj następującego formatu wyjściowego (bez ramek kodu, bez dodatkowego tekstu):"
+        },
+        "payment_type": {
+          "gift_card": "Bon podarunkowy",
+          "money_order": "Przekaz pocztowy",
+          "cash_on_delivery": "Zwrot pieniędzy",
+          "bank_deposit": "Wpłata bankowa"
         }
+      },
+      "shipping": {
+        "address": "Adres dostawy",
+        "address_map_marker": "Adres dostawy",
+        "free": "Darmowy",
+        "subscription": "Wysyłka w ramach subskrypcji"
+      },
+      "show_items": "Wyświetl artykuły",
+      "subtitle": "Potwierdzono: {{date}}",
+      "summary_list_title_accessibility_label": "Zamawianie artykułów",
+      "summary_totals_title_accessibility_label": "Całe zamówienie",
+      "total": "Razem",
+      "unit_price": "{{price}}/szt",
+      "not_applicable": "nie dotyczy",
+      "fully_refunded_label": "ZWRÓCONO PIENIĄDZE",
+      "partially_refunded_label": "CZĘŚCIOWO ZWROCONO",
+      "refunded_amount": "Zwrócono pieniądze",
+      "discount": "Obniżka",
+      "pagination": {
+        "load_more_accessibility_label": "Załaduj więcej artykułów",
+        "loading_accessibility_label": "Ładowanie artykułów"
       }
     }
   }
