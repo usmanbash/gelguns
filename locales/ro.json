@@ -2195,6 +2195,76 @@
       },
       "notifications": {
         "title": "Mesaje"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Sumă de plată pentru comanda %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} adăugat"
+          },
+          "removed": "Șters",
+          "subtracted": "%{count} șters",
+          "returned": "%{count} returnate",
+          "return_line_item_removed": "%{count} eliminate din retur"
+        },
+        "additional_payment_requested": "Plata sumei %{total_outstanding} este necesară",
+        "checkout_review_and_pay": "Comanda ta %{order_name} a fost actualizată. Verifică aceste modificări și plătește apoi pentru a confirma comanda.",
+        "order_updated_on": "Comanda ta a fost actualizată la %{last_edited_at}.",
+        "order_review_and_pay": "Comanda ta a fost actualizată. Verifică și plătește pentru a confirma comanda ta.",
+        "pay_now": "Nu plătiți"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Cardul tău de credit va fi taxat cu %{amount}",
+        "payment_total_label": "Plăți totale",
+        "change_currency_link": "Modificare în %{currency_name}",
+        "card_provider_fx_charges_warning": "Editorul cardului dvs. poate percepe taxe pentru tranzacțiile în %{currency_code}.",
+        "currency_not_supported_by_shop": "Valuta selectată de tine nu mai este disponibilă. Toate prețurile sunt acum în %{currency_code}."
+      },
+      "tips": {
+        "title": "Adăugare bacșiș",
+        "description": "Arată că susții echipa %{shop_name}",
+        "presets_description": "Alege un procentaj pentru bacșiș",
+        "custom_label": "Bacșiș ajustat",
+        "add_tip": "Adăugare bacșiș",
+        "update_tip": "Actualizare bon",
+        "message": "Mulțumim, apreciem cu adevărat.",
+        "no_tip_label": "Niciunul",
+        "not_available_with_spi": "Nu este disponibil cu plăți în rate Shop Pay"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Cumpără %{product_name} și încă %{count} articol(e)"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Cod vamal personal",
+          "shipping_credential_cn": "Număr de identificare al locuitorului",
+          "tax_credential_it": "Cod fiscal (opțional)",
+          "tax_credential_co": "Cédula/TVA",
+          "tax_credential_type_co": "Tipul Cărții de Identitate",
+          "shipping_credential_co": "Cédula/TVA",
+          "shipping_credential_type_co": "Tipul Cărții de Identitate",
+          "tax_credential_ec": "CI/RUC/TVA",
+          "shipping_credential_ec": "CI/RUC/TVA",
+          "tax_credential_gt": "CIF/TVA",
+          "shipping_credential_gt": "CIF/TVA",
+          "tax_credential_my": "CIF/Număr de înregistrare",
+          "shipping_credential_my": "CIF/Număr de înregistrare",
+          "tax_credential_type_mx": "Regim Fiscal",
+          "tax_credential_use_mx": "Utilizare CFDI",
+          "tax_credential_py": "CI/RUC/TVA",
+          "shipping_credential_py": "CI/RUC/TVA",
+          "tax_credential_pt": "CUI/CIF",
+          "shipping_credential_pt": "CUI/CIF",
+          "shipping_credential_tw": "Număr național de identificare/CUI",
+          "tax_credential_tr": "Numărul de Identitate al Republicii Turcia/TVA",
+          "shipping_credential_tr": "Numărul de Identitate al Republicii Turcia/TVA"
+        }
+      },
+      "post_purchase": {
+        "page_title": "După cumpărare",
+        "title": "După cumpărare"
       }
     }
   }
