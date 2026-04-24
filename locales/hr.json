@@ -516,7 +516,6 @@
       "price": "Cijena",
       "quantity": "Količina",
       "total": "Ukupno",
-      "fulfilled_at_html": "Izvršeno {{ date }}",
       "track_shipment": "Praćenje pošiljke",
       "tracking_url": "Poveznica za praćenje",
       "tracking_company": "Dostavna služba",
