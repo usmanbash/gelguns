@@ -1755,6 +1755,70 @@
         "or_pay_another_way": "Sau plătiți în alt mod",
         "or_check_out_another_way": "Sau plătește în alt mod",
         "or_pay_with_credit_card": "Sau plătește cu cardul de credit"
+      },
+      "processing": {
+        "redirecting_page_title": "Redirecționare…",
+        "redirecting_title": "Redirecționare…",
+        "redirecting_notice": "Veți fi redirecționat.",
+        "complete_your_purchase_title": "Finalizează achiziția ta",
+        "continue_to_payment_gateway_notice": "Continuă la plată pentru a adăuga datele tale de plată.",
+        "continue_to_payment_gateway_button_label": "Mergi la plată",
+        "complete_your_purchase_title_error": "Corectează informațiile tale de plată",
+        "continue_to_payment_gateway_notice_error": "Datele tale de plată nu pot fi verificate.",
+        "continue_to_payment_gateway_button_label_error": "Actualizați datele de plată",
+        "page_title": "Comanda este în curs de procesare",
+        "title": "Comanda este în curs de procesare",
+        "your_order_has_been_received_title": "Mulțumim pentru comanda ta",
+        "you_will_receive_confirmation": "În prezent primim foarte multe comenzi. Ar trebui să primești în curând o confirmare prin e-mail sau mesaj text. Anunță-ne dacă nu o primești în decurs de o oră.",
+        "wait": {
+          "medium": {
+            "one": "Comanda ta este în curs de procesare. Timpul estimat de așteptare este de %{count} minute.",
+            "other": "Comanda ta este în curs de procesare. Timpul estimat de așteptare este de %{count} minute."
+          },
+          "long": "Vei primi un e-mail de îndată ce comanda ta va fi procesată. În prezent, există un număr mare de comenzi.",
+          "no_auto_refresh_html": "%{link} dacă nu ești redirecționat automat.",
+          "refresh_this_page": "Reîncarcă această pagină"
+        },
+        "you_will_not_be_charged": "Nu se percep încă costuri",
+        "redirecting_to_bank": "Redirecționează către {{bank}}",
+        "modal_notice": "Luăm legătura cu {{paymentMethod}}",
+        "remote_shops_payments_processing": "Procesarea plății"
+      },
+      "failed_payment": {
+        "page_title": "Plata nu poate fi procesată",
+        "title": "Plata nu poate fi procesată",
+        "payment_not_processed_title": "Plata dumneavoastră nu poate fi procesată.",
+        "payment_not_processed_text": "Nu au fost percepute costuri. Întoarce-te la coșul tău pentru a finaliza cumpărăturile.",
+        "return_to_cart_button_label": "Înapoi la coșul de cumpărături"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Depunere bancară",
+        "cash_on_delivery_label": "Ramburs",
+        "money_order_label": "Ordin de plată poștală",
+        "debit_card_label": "Card de plată",
+        "deferred_payment_label": "Alege mai târziu o metodă de plată",
+        "generic_payment_terms": "Condițiile de plată {{translatedName}} se aplică. Plata dvs. este scadentă la {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} la un cont cu acces la această locație pentru a adăuga sau utiliza metode de plată salvate.",
+            "link": "Autentificare"
+          }
+        },
+        "direct_payment_terms": "Se aplică termenii și condițiile {{translatedName}}. Banii vor fi retrași de pe cardul tău la {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Plata este datorată imediat ce comanda a fost procesată.",
+        "order_due_on_fulfillment_payment": "Banii vor fi retrași de pe cardul tău imediat ce comanda este procesată.",
+        "draft_order_payment_due_later_no_terms": "Plata este datorată imediat ce comanda este confirmată.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Banii vor fi retrași de pe cardul tău imediat ce comanda este confirmată.",
+        "draft_order_payment_due_later_terms": "Condițiile {{translatedName}} se aplică odată ce comanda a fost confirmată.",
+        "draft_order_payment_due_on_fulfillment": "Plata este datorată imediat ce comanda este confirmată și procesată.",
+        "fixed_payment_label": "Plata este datorată la {{dueDate}}.",
+        "fixed_direct_payment_terms": "Aceasta va fi facturată pe cardul tău la data de {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} trebuie plătit astăzi. Pentru sold se aplică condițiile {{translatedName}} și trebuie să fie rambursat până la {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} trebuie plătit astăzi. Soldul este datorat imediat ce comanda ta este procesată.",
+        "order_due_on_receipt_choose_later": "Plata se face la primire.",
+        "draft_order_deposit_due_later": "{{depositAmount}} este datorat după confirmarea comenzii. Pentru sold se aplică condițiile {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} este datorat când comanda este confirmată. Soldul este datorat imediat ce comanda ta este procesată.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} trebuie plătit astăzi. Soldul este datorat ulterior."
       }
     }
   }
