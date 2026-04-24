@@ -3044,7 +3044,79 @@
         "too_many_line_items_error": "Ostoskoriisi ei voi sisältyä enempää kuin %{max} tuotetta.",
         "link_no_longer_exists": "Linkki ei ole enää olemassa.",
         "stock_problems_html": "Yksi tai useampi tuote ei ole enää saatavilla. Olemme valmistelleet <a href='%{link}'>päivitetyn ostoskorin</a>.",
-        "changed": "Ostoskori päivitetty"
+        "changed": "Ostoskori päivitetty",
+        "items_changed": "Yksi tai useampi artikkeli on muuttunut.",
+        "product_sold_out": "Tuote '%{name}' on jo loppuunmyyty.",
+        "variant_not_found": "Kan-varianttia ei löydy",
+        "variant_requires_selling_plan": "Varianttia voi ostaa vain myyntitilauksen yhteydessä.",
+        "shipping_address_not_required": "Tähän ostoskärryyn ei tarvita toimitusta",
+        "shipping_address_invalid": "Lähetyskulujen laskemisessa ilmeni ongelma. Jatka maksamiseen valitaksesi lähetyskulut ennen tilauksesi vahvistamista.",
+        "selling_plan_not_applicable": "Ei voi käyttää myyntitilausta varianttiin",
+        "selling_plan_not_available_for_company_locations": "Vain kertaluonteiset ostot ovat saatavilla B2B-tilauksille.",
+        "digital_product_not_available_for_company_locations": "Et voi lisätä tätä tuotetta B2B-tilaukseen",
+        "product_not_available": "Tuote ei ole saatavilla",
+        "less_than_minimum": "Tällä tuotteella on vähimmäismäärä %{min}.",
+        "more_than_maximum": "Tällä tuotteella on enimmäismäärä %{max}.",
+        "not_respect_step": "Voit lisätä tämän tuotteen vain %{step} välein.",
+        "bundle_requires_components": "Tuotepakettia '%{name}' ei voi lisätä ostoskoriin.",
+        "gift_card_with_components_not_supported": "Tuotepakettia '%{name}' ei voi lisätä ostoskoriin.",
+        "view_lines_limit_reached": "Säännöt on oltava pienempiä tai yhtä suuria kuin %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Ostoskorissasi tapahtui virhe."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Tuotepakettia '%{name}' ei voi lisätä ostoskoriin.",
+        "gift_card_recipient_validation_error": "Annettu lahjakortin vastaanottaja on virheellinen",
+        "buyer_cannot_purchase_for_company_locations": "Et voi tehdä ostosta tälle paikalle",
+        "only_one_added_to_cart": "Ostoskoriisi on lisätty vain 1 tuote saatavuuden vuoksi.",
+        "only_n_added_to_cart": "Ostoskoriisi on lisätty vain %{quantity} tuotetta saatavuuden vuoksi.",
+        "maximum_available_quantity_reached": "Tämän tuotteen enimmäismäärä on jo ostoskorissasi.",
+        "cart_attributes_error": "Ostoskoriominaisuuksissa on virheellisiä tietoja.",
+        "merchandise_not_applicable": "Tuotetta ei voi ostaa näin määriteltynä.",
+        "not_found": "Ostoskoria ei löytynyt"
+      },
+      "tags": {
+        "add_articles": "Rajoita haku kohteisiin, joissa on tunniste %{tag}",
+        "add_products": "Rajoita haku tuotteisiin, joissa on vastaava tunniste %{tag}",
+        "remove_articles": "Laajenna hakua artikkeleihin, joita ei ole merkitty tunnisteella %{tag}",
+        "remove_products": "Poista tagi %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_item": "%{delta} poistettu %{total}:sta",
+          "decrement_fulfilled_line_item": "%{delta} palautettu %{total}:sta",
+          "decrement_return_line_item": "%{delta} poistettu palautuksesta"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "Ostoskori",
+      "reset_account": "Tilin nollaus",
+      "order": "Tilaa %{name}",
+      "search": "Etsi",
+      "not_found": "404 ei löydy",
+      "search_results": {
+        "one": "Haku: %{count} tulosta löytyi hakusanalla '%{terms}'",
+        "other": "Haku: löydetty %{count} tulosta hakusanalla '%{terms}'"
+      },
+      "blog_or_article_with_error": "Virhe - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "On sovellettu %{count} alennusta"
+    },
+    "challenge": {
+      "message": "Kerro meille, ettet ole robotti jatkaaksesi.",
+      "submit_button_text": "Lähetys"
+    },
+    "checkpoint": {
+      "message": "Vahvista, että et ole robotti jatkaaksesi",
+      "error": "captcha-tarkistus epäonnistui",
+      "submit_button_text": "Lähetys"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Kiitos, että tilasit uutiskirjeemme.",
+        "disclaimer": "Voit peruuttaa ilmoittautumisesi milloin tahansa.",
+        "unsubscribe": "Kirjaudu ulos"
       }
     }
   }
