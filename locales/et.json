@@ -1788,7 +1788,73 @@
         "ready_for_delivery_description": "Oleme tellimuse valmis teinud.",
         "order_status_confirmed_order_local": "Me valmistame su tellimuse kohaletoimetamiseks ette.",
         "delivery_information_label": "Tarneinfo:",
-        "gift_card_sent_confirmation": "Kingituskupongid saadetud"
+        "gift_card_sent_confirmation": "Kingituskupongid saadetud",
+        "out_for_delivery_local_title": "Sinu tellimus on valmis kohaletoimetamiseks",
+        "out_for_delivery_local_description_html": "Sa saad oma tellimuse varsti kätte.",
+        "delivered_local_title": "Sinu tellimus on kohale toimetatud",
+        "delivered_local_description_html": "Kas sa pole oma tellimust veel kätte saanud? %{let_us_know}.",
+        "let_us_know": "Andke meile teada",
+        "qr_code": {
+          "title": "Jälgi oma telefoni kaudu",
+          "send_link_to_phone": "Või saada link oma telefoni"
+        },
+        "gift_card_confirmation_by_text": "Kui sa seda ei saanud, palun saada SMS uuesti või võta meiega ühendust.",
+        "gift_card_confirmation_by_email": "Kui sa seda ei saanud, palun saada e-kiri uuesti või võta meiega ühendust.",
+        "gift_card_title": "Kinkekaardid",
+        "resend_gift_cards": "Kinkekaartide uuesti saatmine",
+        "attempted_delivery_local_title": "Viivitatud kohaletoimetamine",
+        "attempted_delivery_local_description_html": "Kahjuks ei õnnestunud meil sinu tellimust kohale toimetada. %{contact_us}, et leppida kokku uus kohaletoimetamine.",
+        "thank_you_title_payment": "Sinu makse on kinnitatud",
+        "thank_you_confirmed_order_with_email_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Oled teinud makse oma tellimuse eest %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skaneeri oma telefoniga"
+          },
+          "sms": {
+            "title": "Või saada link oma telefoni"
+          }
+        },
+        "estimated_delivery": "Praegune tarneprognoos:",
+        "view_business_customer_account": "Konto vaatamine",
+        "company_location_title": "Asukoht",
+        "thank_you_title_review": "Sinu tellimus on hindamiseks esitatud",
+        "thank_you_confirmed_order_with_draft": "Anname sulle teada, kui vajame lisateavet või kui su tellimus on kinnitatud.",
+        "breadcrumbs_submitted": "Esitatud",
+        "breadcrumbs_in_review": "Hinnanguks",
+        "breadcrumbs_confirmed": "Kinnitatud",
+        "missing_shipping_address_banner": {
+          "title": "Tellimusel puudub tarneaadress",
+          "text_html": "%{contact_us} oma aadressi lisamiseks",
+          "contact_us": "Võta meiega ühendust"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Pöördu uuesti müügiesindaja poole.",
+        "order_status_confirmed_with_installments_payment_confirm": "Saad peagi kinnituskirja koos tellimisnumbriga ja sinu järelmaksukava üksikasjadega.",
+        "first_payment_complete": "Esimene makse tehtud",
+        "in_store_purchase": "Ost poes",
+        "choose_payment_method_later": "Vali makseviis hiljem",
+        "purchase_order_number_title": "Tellimuse number %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Tellimus on vastu võetud aadressil %{address}.",
+        "ready_for_delivery": "Valmis kohaletoimetamiseks",
+        "order_updates_subscribe_to_email_notifications_failed": "Me ei saa seda e-posti aadressi uuenduste saamiseks salvestada. Proovi uuesti või kasuta teist e-posti aadressi.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Sisestatud e-posti aadress on juba olemas.",
+        "subscriptions_management": {
+          "title": "Tellimus",
+          "description": "Mine oma kontole, et vaadata ja hallata oma tellimusi.",
+          "button_label": "Halda oma tellimust"
+        },
+        "manage_order_label": "Tellimuse haldamine",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Mõne minuti pärast saad kingituskupongi sisaldava SMS-i.",
+          "other": "Mõne minuti pärast saad kingituskupongidega SMS-i."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Mõne minuti pärast saad kingituskupongi sisaldava SMS-i."
+        }
       }
     }
   },
