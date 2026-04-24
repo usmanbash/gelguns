@@ -2456,8 +2456,98 @@
           "sold_out": {
             "heading": "Jūsų pirkinių krepšelis išparduotas",
             "storefront_body": "Grįžkite į parduotuvę, kad tęstumėte apsipirkimą",
-            "no_storefront_body": "Deja, prekė, kurią norėjote įsigyti, nebėra prieinama."
+            "no_storefront_body": "Deja, prekė, kurią norėjote įsigyti, nebėra prieinama.",
+            "link": "Grįžti į parduotuvę"
           }
+        },
+        "time_to_checkout_title": "Laikas atsiskaityti - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Apskaičiuoti numatomą laukimo laiką",
+          "one": "Apskaičiuotas laukimo laikas: {{count}} minutė",
+          "other": "Apskaičiuotas laukimo laikas: {{count}} minutės"
+        },
+        "footer": {
+          "heading": "Jums nereikia atnaujinti šio puslapio, jis atnaujinamas automatiškai.",
+          "body": "Prekės jūsų krepšelyje bus rezervuotos tik po to, kai užbaigsite atsiskaitymą."
+        },
+        "too_many_attempts": {
+          "description": "Pabandykite dar kartą po kelių minučių"
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Įvyko problema apdorojant jūsų užklausą. Susisiekite su parduotuvės savininku."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Pristatymas negalimas %{count} prekei",
+            "other": "Pristatymas negalimas %{count} prekėms"
+          },
+          "message": {
+            "one": "Šis prekė bus pašalinta iš jūsų pirkinių krepšelio, nes jūsų adresu nėra prieinamų pristatymo būdų.",
+            "other": "Šis prekė bus pašalinta iš jūsų pirkinių krepšelio, nes jūsų adresu nėra prieinamų pristatymo būdų."
+          },
+          "label": "Nėra pristatymo"
+        }
+      },
+      "no_address_location": {
+        "header": "Šiai vietai nėra pristatymo adreso",
+        "message": "Susisiekite su mumis, kad pridėtumėte šios vietos adresą ir galėtumėte užbaigti atsiskaitymą.",
+        "email_us_button_label": "Siųskite mums el. laišką",
+        "alt_header": "Pristatymo adresas nenurodytas"
+      },
+      "order_errors": {
+        "creation_failure": "Įvyko problema kuriant jūsų užsakymą. Bandykite dar kartą arba susisiekite su mumis dėl daugiau informacijos.",
+        "network_failure": "Jūsų užsakymo pateikti nepavyko dėl tinklo klaidos. Patikrinkite savo ryšį ir bandykite dar kartą.",
+        "inventory_reservation_failure": "Kai kurie straipsniai nebeprieinami."
+      },
+      "session_errors": {
+        "session_not_unique": "Įvyko problema apdorojant jūsų užsakymą. Atnaujinkite šį puslapį, kad grįžtumėte į parduotuvę.",
+        "session_already_finished": "Šis užsakymas jau pateiktas. Gali grįžti į parduotuvę ir pradėti naują užsakymą."
+      },
+      "pickup_point": {
+        "business_hours": "Darbo laikas",
+        "title": "Atsiėmimo punktas",
+        "or": "iš",
+        "selector_tabs": "Atsiėmimo taško pasirinkėjas",
+        "selector_tab_map": "Kortelė",
+        "could_not_resolve_address": "Negalima rasti jūsų adreso. Bandykite dar kartą arba naudokite kitą adresą",
+        "no_pickup_points_near_you": "Netoli pasirinkto adreso nerasta atsiėmimo punktų",
+        "no_pickup_points_near_location": "Netoli jūsų vietos nerasta atsiėmimo punktų",
+        "no_pickup_points_found": "Nepavyko rasti atsiėmimo punktų",
+        "paginator": {
+          "header": {
+            "one": "Rodo %{first} - %{last} iš %{count} taškų",
+            "other": "Grąžina %{first} - %{last} iš %{count} taškų"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} iš %{count} taškų",
+            "other": "%{pickup_point_index} iš %{count} taškų"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} iš %{count} taškų",
+            "other": "%{first} - %{last} iš %{count} taškų"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} atsiėmimo punktai netoli jūsų vietos",
+          "other": "%{count} atsiėmimo punktai netoli jūsų vietos"
+        },
+        "change": "Keisti vietą",
+        "waiting_on_pickup_point_location_notice": "Ieškoti atsiėmimo punktų...",
+        "geolocation": {
+          "shared_location_button": "Naudoti mano vietą",
+          "errors": {
+            "unsuported_by_browser": "Geografinės vietos nustatymas nėra palaikomas jūsų naršyklėje. Bandykite dar kartą arba naudokite kitą naršyklę.",
+            "permission_not_allowed": "Leisti dalintis savo vieta.",
+            "permission_denied": "Nepavyksta gauti vietos. Bandykite dar kartą."
+          }
+        },
+        "no_business_hours": "Nėra darbo laiko informacijos",
+        "open_twenty_four_hours": "Atidaryta visą parą",
+        "pickup_unavailable_banner_title": {
+          "one": "Jūsų prekei nėra galimų atsiėmimo punktų",
+          "other": "Nėra atsiėmimo punktų tavo prekėms"
         }
       }
     }
