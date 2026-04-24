@@ -75,93 +75,93 @@
     "skip_to_text": "Aller directement au contenu",
     "close": "Fermer",
     "unit_price_separator": "par",
-    "vendor": "Fournisseur :",
+    "vendor": "Vendeur :",
     "error": "Erreur",
-    "refresh_page": "Le choix d'une sélection entraîne l'actualisation de la page entière.",
+    "refresh_page": "Choisir une sélection entraîne le rechargement complet de la page.",
     "link_messages": {
-      "new_window": "S'ouvre dans une nouvelle fenêtre.",
+      "new_window": "S’ouvre dans une nouvelle fenêtre.",
       "external": "Ouvre un site web externe."
     },
     "loading": "Chargement en cours...",
-    "skip_to_product_info": "Passer aux informations produits",
-    "total_reviews": "total des critiques",
+    "skip_to_product_info": "Aller directement aux informations sur le produit",
+    "total_reviews": "nombre total d'avis",
     "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-    "collapsible_content_title": "Contenu réductible",
+    "collapsible_content_title": "Contenu pliable",
     "complementary_products": "Produits complémentaires"
   },
   "blogs": {
     "article": {
-      "blog": "Blog",
-      "read_more_title": "Lire la suite : {{ title }}",
+      "blog": "Blogue",
+      "read_more_title": "Lire la suite : {{ title }}",
       "comments": {
-        "one": "{{ count }} commentaire",
-        "other": "{{ count }} commentaires",
+        "one": "{{ count }} réaction",
+        "other": "{{ count }} commentaires",
         "many": "{{ count }} commentaires"
       },
-      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés.",
-      "comment_form_title": "Laisser un commentaire",
+      "moderated": "Attention : les commentaires doivent être approuvés avant d’être publiés.",
+      "comment_form_title": "Publier un commentaire",
       "name": "Nom",
-      "email": "E-mail",
-      "message": "Commentaire",
-      "post": "Publier le commentaire",
+      "email": "Courriel",
+      "message": "Réaction",
+      "post": "Publier un commentaire",
       "back_to_blog": "Retour au blog",
       "share": "Partager cet article",
-      "success": "Votre commentaire a bien été publié ! Merci !",
-      "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
+      "success": "Votre commentaire a été publié ! Merci !",
+      "success_moderated": "Votre commentaire a été publié. Nous le mettrons en ligne sous peu ; notre blog est modéré."
     }
   },
   "onboarding": {
-    "product_title": "Titre du produit",
+    "product_title": "Exemple de titre de produit",
     "collection_title": "Le nom de votre collection"
   },
   "products": {
     "product": {
       "add_to_cart": "Ajouter au panier",
       "description": "Description",
-      "on_sale": "Promotion",
+      "on_sale": "Offre",
       "product_variants": "Variantes de produits",
       "quantity": {
-        "label": "Quantité",
+        "label": "Nombre",
         "input_label": "Quantité pour {{ product }}",
-        "increase": "Augmenter la quantité de {{ product }}",
-        "decrease": "Réduire la quantité de {{ product }}",
+        "increase": "Augmenter la quantité pour {{ product }}",
+        "decrease": "Réduire la quantité pour {{ product }}",
         "minimum_of": "Minimum de {{ quantity }}",
-        "maximum_of": "Maximum de {{ quantity }}",
-        "multiples_of": "Incréments de {{ quantity }}",
+        "maximum_of": "Fourgonnette maximale de {{ quantity }}",
+        "multiples_of": "Étapes de {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> dans le panier",
         "note": "Voir les règles de quantité",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Max. {{ quantity }}",
-        "in_cart_aria_label": "Quantité ({{ quantity }} dans le panier)"
+        "in_cart_aria_label": "Nombre ({{ quantity }} dans le panier)"
       },
       "price": {
         "from_price_html": "À partir de {{ price }}",
-        "regular_price": "Prix habituel",
+        "regular_price": "Prix normal",
         "sale_price": "Prix promotionnel",
         "unit_price": "Prix unitaire"
       },
       "share": "Partager ce produit",
       "sold_out": "Épuisé",
-      "unavailable": "Non disponible(s)",
-      "vendor": "Fournisseur",
-      "video_exit_message": "{{ title }} ouvre la vidéo en plein écran dans la même fenêtre.",
-      "xr_button": "Afficher dans son espace",
-      "xr_button_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
+      "unavailable": "Non disponible",
+      "vendor": "Vendeur",
+      "video_exit_message": "{{ title }} ouvre une vidéo en plein écran dans la même fenêtre.",
+      "xr_button": "Voir dans votre espace",
+      "xr_button_label": "Visualisez dans votre espace, chargez l'article dans la fenêtre de réalité augmentée",
       "pickup_availability": {
-        "view_store_info": "Afficher les informations de la boutique",
-        "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
-        "pick_up_available": "Service de retrait disponible",
-        "pick_up_available_at_html": "Service de retrait disponible à <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Service de retrait non disponible actuellement à <span class=\"color-foreground\">{{ location_name }}</span>",
-        "unavailable": "Impossible de charger la disponibilité du service de retrait",
-        "refresh": "Actualiser"
+        "view_store_info": "Voir les informations du magasin",
+        "check_other_stores": "Vérifiez la disponibilité dans d'autres magasins",
+        "pick_up_available": "Le retrait est disponible",
+        "pick_up_available_at_html": "Le retrait est disponible chez <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Le retrait n'est actuellement pas disponible chez <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Impossible de charger la disponibilité pour le retrait",
+        "refresh": "Renouveler"
       },
       "media": {
-        "open_media": "Ouvrir le média {{ index }} dans une fenêtre modale",
-        "play_model": "Lire la visionneuse 3D",
+        "open_media": "Ouvrir le média {{ index }} en modal",
+        "play_model": "Lire le visualiseur 3D",
         "play_video": "Lire la vidéo",
-        "gallery_viewer": "Visionneuse de la galerie",
-        "load_image": "Charger l'image {{ index }} dans la galerie",
+        "gallery_viewer": "Affichage en galerie",
+        "load_image": "Charger l'image {{ index }} en mode galerie",
         "load_model": "Charger le modèle 3D {{ index }} dans la galerie",
         "load_video": "Lire la vidéo {{ index }} dans la galerie",
         "image_available": "L'image {{ index }} est maintenant disponible dans la galerie"
@@ -189,7 +189,17 @@
       },
       "taxes_included": "Taxes incluses.",
       "duties_included": "Frais de douane inclus.",
-      "duties_and_taxes_included": "Frais de douane et taxes inclus."
+      "duties_and_taxes_included": "Frais de douane et taxes inclus.",
+      "inventory_out_of_stock_message": "En stock",
+      "inventory_order_before": "avant",
+      "inventory_delivered": "commandé,",
+      "inventory_delivery_time": "livré demain",
+      "inventory_status": {
+        "in_stock_badge": "En stock",
+        "low_stock_badge": "Peu de stock",
+        "out_of_stock_badge": "Rupture de stock",
+        "shipping_message": "Commandé avant 14h00, expédié le jour même"
+      }
     },
     "modal": {
       "label": "Galerie de supports multimédias"

@@ -3325,6 +3325,174 @@
         "cart_attributes_error": "A kosár attribútumai érvénytelen adatokat tartalmaznak.",
         "merchandise_not_applicable": "A termék nem vásárolható meg a beállításokkal.",
         "not_found": "Kosár nem található"
+      },
+      "storefront": {
+        "invalid_password": "Helytelen jelszó, próbálja meg újra."
+      },
+      "tags": {
+        "add_articles": "Szűkítse a keresést a %{tag} címkével ellátott cikkekre",
+        "add_products": "Korlátozza a keresést a %{tag} címkével rendelkező termékekre",
+        "remove_articles": "Bővítse a keresést a %{tag} címkével nem rendelkező cikkekre is",
+        "remove_products": "Tag %{tag} eltávolítása"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} hozzáadva",
+          "increment_item": "%{delta} hozzáadva",
+          "decrement_item": "%{delta} van %{total} eltávolítva",
+          "decrement_fulfilled_line_item": "%{delta} van %{total} visszaküldve"
+        }
+      }
+    },
+    "page_titles": {
+      "shopping_cart": "A kosarad",
+      "reset_account": "Fiók visszaállítása",
+      "order": "Rendeld meg %{name}",
+      "collections": "Gyűjtemények",
+      "not_found": "404 nem található",
+      "challenge": "Kihívás",
+      "checkpoint": "Ellenőrzőpont",
+      "search_results": {
+        "one": "Keresés: %{count} találat a(z) '%{terms}' kifejezésre",
+        "other": "Keresés: %{count} találat a(z) '%{terms}' kifejezésre"
+      },
+      "blog_or_article_with_error": "Hiba - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Összesen %{count} kedvezmény került alkalmazásra"
+    },
+    "challenge": {
+      "message": "Kérjük, igazolja, hogy nem robot, hogy folytathassa.",
+      "error": "A válaszod nem volt helyes, próbáld meg újra.",
+      "submit_button_text": "Küldés"
+    },
+    "checkpoint": {
+      "message": "Oldja meg a képfelismerőt a folytatáshoz",
+      "error": "captcha-ellenőrzés sikertelen",
+      "submit_button_text": "Küldés"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Köszönjük, hogy feliratkozott hírlevelünkre.",
+        "unsubscribe": "Kijelentkezés"
+      },
+      "unsubscribed": {
+        "disclaimer": "Többé nem kapsz tőlünk reklámfrissítéseket. Bármikor újra feliratkozhatsz.",
+        "preview": "Egy példát nézel arra, amit az ügyfelek fognak látni, amikor kijelentkeznek."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Engedélyt adtál az e-mail megnyitásának követésére.</b>",
+          "visibility": "Az e-mailek megnyitási arányai névtelenül kerülnek jelentésre. Csak azt fogjuk látni, hogy megnyitottad-e az e-mailt, mint az összesített e-mailmegnyitási arány része.",
+          "opt_out_html": "Leiratkozhatsz az e-mail megnyitáskövetésről, ha nem szeretnéd megosztani ezt az információt. Az <a style='text-decoration:underline;' href='%{link}'>leiratkozás</a> itt érhető el.",
+          "preview_bar": "Ez egy példa arra, hogy mit látnak az ügyfelek, amikor engedélyezik az e-mailek nyitottságának követéséről szóló értesítések fogadását."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Leiratkoztál az e-mail megnyitáskövetésről.</b>",
+          "visibility": "Nem látjuk, hogy megnyitottad-e az e-mailjeinket.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Engedély megadása</a> az e-mailek nyílt követéséhez.",
+          "preview_bar": "Ez egy példa arra, amit az ügyfelek látnak, amikor leiratkoznak az e-mailek nyomon követéséről."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nem követjük többé, hogy megnyitják-e az e-maileket.</b>",
+          "privacy_policy": "Miután ez az e-mail elküldésre került, frissítettük adatvédelmi szabályzatunkat, és már nem követjük nyomon az e-mailek megnyitását."
+        },
+        "track": {
+          "status_html": "<b>E-mail megnyitáskövetés jelentve.</b>",
+          "visibility": "Csak akkor fogjuk látni, hogy megnyitottad-e az e-mailt, ha az a teljes e-mail megnyitási arány részeként történik."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-mail megnyitáskövetés jelentve.</b>",
+          "visibility": "Frissítettük irányelveinket, és mostantól követjük a megnyitott e-maileket. Az e-mailek megnyitási arányát névtelenül jelentjük. Csak azt fogjuk látni, hogy megnyitottad-e az e-mailt, mint a teljes e-mail megnyitási arány része.",
+          "opt_out_html": "Ha már nem szeretnéd megosztani ezeket az információkat, akkor <a style='text-decoration:underline;' href='%{link}'>leiratkozhatsz</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Biztosan le szeretnél iratkozni az sms-marketingről?",
+        "button": "Kijelentkezés"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Általában 1 órán belül kész",
+        "two_hours": "Általában 2 órán belül kész",
+        "four_hours": "Általában 4 órán belül kész",
+        "twenty_four_hours": "Általában 24 órán belül kész",
+        "two_to_four_days": "Általában 2-4 napon belül kész",
+        "five_or_more_days": "Általában több mint 5 napon belül készül el",
+        "zero_to_two_hours": "Általában 2 órán belül kész",
+        "two_to_four_hours": "Általában 4 órán belül kész",
+        "immediately": "Kész azonnal átvehető",
+        "next_day": "Kész a másnapi átvételre"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Nincs készleten"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Fontosság",
+        "price_ascending": "Ár: alacsonytól a magasig",
+        "price_descending": "Ár: magasról alacsonyra"
+      },
+      "error": "Hiba történt a keresési eredmények betöltése közben. Frissítse az oldalt, vagy próbálja meg később újra."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Ez a termék ismétlődő vagy halasztott vásárlás. Ha folytatom, elfogadom a %{cancellationPolicyLink}-et, és engedélyt adok arra, hogy a megadott árakat a fizetési módomból a megadott gyakorisággal és időpontokban levonják, amíg a rendelésemet teljesítik, vagy amíg, ha engedélyezett, le nem mondom.",
+      "buyer_consent_cart": "Egy vagy több tétel a kosaradban halasztott vagy ismétlődő vásárlás. Ha folytatom, elfogadom a %{cancellationPolicyLink}-et, és engedélyt adok arra, hogy a megadott árakat a fizetési módomból a megadott gyakorisággal és időpontokban levonják, amíg a rendelésemet feldolgozzák, vagy amíg én, ha engedélyezett, le nem mondom.",
+      "cancellation_policy": "felmondási szabályzat"
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Újra próbálkozás"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Fiókmenü elrejtése",
+        "show_accessibility_label": "Fiókmenü megjelenítése",
+        "nav_accessibility_label": "Fióknavigáció",
+        "open_menu_accessibility_label": "Fióknavigáció megnyitása",
+        "close_menu_accessibility_label": "Fióknavigáció bezárása",
+        "loading_message": "Fióknavigáció betöltése"
+      },
+      "action_menu_accessibility_label": "További akciók",
+      "close_menu_accessibility_label": "Főmenü bezárása",
+      "contact_email_subject": "A {{shopName}} webáruház kapcsolattartója",
+      "delete_confirmation": {
+        "delete": "Eltávolítás"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - fiók",
+      "loading_message": "Betöltés",
+      "nav_label_accessibility_label": "Főmenü",
+      "navigation_accessibility_message": "Átirányítottál a {{sectionName}} szekcióra",
+      "open_menu_accessibility_label": "Főmenü megnyitása",
+      "shop_logo_accessibility_label": "{{shopName}}-logó",
+      "country_switcher_toast_message": "Az oldal átváltott {{countryName}}-ra",
+      "switch_country": "Ország váltása",
+      "location_switcher_toast_message": "Helyszín megváltoztatva: {{locationName}}",
+      "switch_location": "Helyszín váltása",
+      "view_details": "Adatok megtekintése",
+      "company_location": "Vállalati telephely",
+      "no_countries_found": "Nem találhatók országok",
+      "no_locations_found": "Nem találhatók helyszínek",
+      "try_new_search": "Próbáljon meg egy új keresést",
+      "loading_policy_content_accessibility_label": "Tartalom betöltési irányelvek",
+      "policy_load_error": "Nem lehet betölteni a {{policyName}}-t",
+      "policy_try_again": "Próbáld újra",
+      "loading_section_accessibility_label": "{{sectionName}} rakomány"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Fiókadatok betöltése",
+      "loading_finished_accessibility_message": "Fiókadatok betöltve",
+      "profile_card": {
+        "cancel_accessibility_label": "Profil szerkesztése megszakítás",
+        "email_help_text": "Az e-mail cím nem szerkeszthető",
+        "first_name": "Keresztnév"
       }
     }
   }
