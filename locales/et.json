@@ -2903,11 +2903,151 @@
               "nl": "Hollandi käibemaksukohustuslase number sisaldab NL ja 12 märki",
               "pl": "Poola käibemaksukohustuslase number sisaldab PL ja 10 märki",
               "pt": "Portugali käibemaksukohustuslase number sisaldab PT ja 9 märki",
-              "ro": "Rumeenia käibemaksukohustuslase number sisaldab RO ja 10 märki"
+              "ro": "Rumeenia käibemaksukohustuslase number sisaldab RO ja 10 märki",
+              "sk": "Slovakkia käibemaksukohustuslase number sisaldab SK ja 10 märki",
+              "si": "Sloveenia käibemaksukohustuslase number sisaldab SI ja 8 märki",
+              "es": "Hispaania käibemaksukohustuslase number sisaldab ES ja 9 märki",
+              "se": "Rootsi käibemaksukohustuslase number sisaldab SE ja 12 märki",
+              "gb": "Ühendkuningriigi käibemaksukohustuslase number sisaldab GB või XI ja 5–12 märki"
+            },
+            "invalid_number": {
+              "at": "Sisestage kehtiv Austria käibemaksukohustuslase number",
+              "be": "Sisestage kehtiv Belgia käibemaksukohustuslase number",
+              "bg": "Sisestage kehtiv Bulgaaria käibemaksukohustuslase number",
+              "hr": "Sisestage kehtiv Horvaatia käibemaksukohustuslase number",
+              "cy": "Sisestage kehtiv Küprose käibemaksukohustuslase number",
+              "cz": "Sisestage kehtiv Tšehhi käibemaksukohustuslase number",
+              "dk": "Sisestage kehtiv Taani käibemaksukohustuslase number",
+              "ee": "Sisestage kehtiv Eesti käibemaksukohustuslase number",
+              "fi": "Sisestage kehtiv Soome käibemaksukohustuslase number",
+              "fr": "Sisestage kehtiv Prantsuse käibemaksukohustuslase number",
+              "de": "Sisestage kehtiv Saksamaa käibemaksukohustuslase number",
+              "gr": "Sisestage kehtiv Kreeka käibemaksukohustuslase number",
+              "hu": "Sisestage kehtiv Ungari käibemaksukohustuslase number",
+              "ie": "Sisestage kehtiv Iiri käibemaksukohustuslase number",
+              "it": "Sisestage kehtiv Itaalia käibemaksukohustuslase number",
+              "lv": "Sisestage kehtiv Läti käibemaksukohustuslase number",
+              "lt": "Sisestage kehtiv Leedu käibemaksukohustuslase number",
+              "lu": "Sisestage kehtiv Luksemburgi käibemaksukohustuslase number",
+              "mt": "Sisestage kehtiv Malta käibemaksukohustuslase number",
+              "nl": "Sisestage kehtiv Hollandi käibemaksukohustuslase number",
+              "pl": "Sisestage kehtiv Poola käibemaksukohustuslase number",
+              "pt": "Sisestage kehtiv Portugali käibemaksukohustuslase number",
+              "ro": "Sisestage kehtiv Rumeenia käibemaksukohustuslase number",
+              "sk": "Sisestage kehtiv Slovaki käibemaksukohustuslase number",
+              "si": "Sisestage kehtiv Sloveenia käibemaksukohustuslase number",
+              "es": "Sisestage kehtiv Hispaania käibemaksukohustuslase number",
+              "se": "Sisestage kehtiv Rootsi käibemaksukohustuslase number",
+              "gb": "Sisestage kehtiv Ühendkuningriigi käibemaksukohustuslase number"
+            },
+            "service_unavailable": "Valideerimisteenus pole saadaval",
+            "service_error": "Valideerimisteenus pole saadaval"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Käibemaksukohustuslase numbri valideerimine toimub",
+              "valid": "Btw-tuvastamisnumber on kehtiv",
+              "applied": "Käibemaksuvabastus on rakendatud",
+              "domestic": "Käibemaksuvabastus ei ole rakendatud",
+              "invalid_number": "Käibemaksuvabastus ebaõnnestus",
+              "service_unavailable": "Ei saa käibemaksuvabastust kinnitada",
+              "service_error": "Ei saa käibemaksuvabastust kinnitada"
             }
           }
         }
+      },
+      "payment_collection": {
+        "cancelled": "Seda makset ei ole enam vaja teha. Lisateabe saamiseks minge tellimislehele.",
+        "paid": "See makse on juba esitatud. Lisateabe saamiseks minge tellimislehele."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Ostuprotsessi lõpetamiseks on vaja laienduse interaktsiooni."
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Kontrolli oma tellimust"
+        },
+        "shipping": {
+          "shipping_options": "Vaata kõiki saatmisvõimalusi"
+        },
+        "payment": {
+          "payment_options": "Vaata kõiki maksevõimalusi"
+        }
+      },
+      "too_many_requests": {
+        "title": "Te veel kassaprognoose",
+        "body": "Oota paar minutit ja proovi uuesti oma ostukorvist.",
+        "return_to_cart": "Tagasi ostukorvi",
+        "body_no_cart": "Oota paar minutit ja proovi uuesti."
+      },
+      "address_management": {
+        "saved_with_store": "Salvestatud selles poes"
       }
+    },
+    "pagination": {
+      "previous": "Eelmine",
+      "next": "Järgmine"
+    },
+    "links": {
+      "powered_by_shopify": "Toodetud Shopify poolt",
+      "learn_more": "Rohkem teavet"
+    },
+    "feed": {
+      "more": "Meri"
+    },
+    "attributes": {
+      "email": "e-post",
+      "password": "parool",
+      "password_confirmation": "parooli kinnitamine",
+      "first_name": "eesnimi",
+      "last_name": "perekonnanimi",
+      "body": "põhitekst",
+      "signature": "Aadress"
+    },
+    "addresses": {
+      "zip_code": "Postiindeks",
+      "postal_code": "Postiindeks",
+      "postcode": "Postiindeks",
+      "pincode": "Postiindeks",
+      "region": "Regio",
+      "prefecture": "Prefektuur",
+      "province": "Provints",
+      "state": "Staatus",
+      "state_and_territory": "Riik/Territoorium",
+      "county": "Provints",
+      "emirate": "Emiraat",
+      "governorate": "Valitsus",
+      "confirm": "Kas oled kindel, et soovid selle aadressi kustutada?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Esiletõstetud",
+        "best_selling": "Parim müüja",
+        "az": "A-st Ö-ni",
+        "za": "A-tähelt Z-täheni",
+        "price_ascending": "Hind: madalast kõrgeni",
+        "price_descending": "Hind: kõrgeimast madalaimani",
+        "date_ascending": "Kuupäev: vana kuni uus",
+        "date_descending": "Kuupäev: uusim vanimale",
+        "most_relevant": "Meest olulisem"
+      }
+    },
+    "errors": {
+      "blank": "ei tohi olla tühi",
+      "credit_card_session_expired": "Krediitkaardi autoriseerimine on aegunud. Sisesta oma makseandmed uuesti. Sinu kaardilt raha ei võetud.",
+      "empty": "ei tohi olla tühi",
+      "invalid_email": "peab olema kehtiv e-posti aadress",
+      "discount_disabled": "See allahindlus on blokeeritud",
+      "discount_expired": "See soodustus ei kehti enam",
+      "discount_limit_reached": "See soodustus on kasutuslimiidi saavutanud",
+      "discount_not_found": "Ei leitud kehtivat allahindlust, mis vastaks koodile",
+      "customer_already_used_once_per_customer_discount_notice": "See soodustus on kasutuslimiidi saavutanud",
+      "gift_card_already_applied": "Kood on juba sinu ostukorvis rakendatud",
+      "gift_card_code_invalid": "Kood on kehtetu",
+      "gift_card_currency_mismatch": "Sinu kinkekaart on %{gift_card_currency} valuutas. Võta meiega ühendust, et saaksime selle ümber vahetada %{checkout_currency} valuutasse.",
+      "gift_card_depleted": "Selle kinkekaardi saldos pole enam raha"
     }
   },
   "sections": {
