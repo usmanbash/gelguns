@@ -2923,7 +2923,81 @@
       "gift_card_depleted": "Não há saldo disponível neste vale-presente",
       "gift_card_disabled": "O vale-presente está bloqueado",
       "gift_card_expired": "O vale-presente expirou",
-      "taken": "já utilizado"
+      "taken": "já utilizado",
+      "too_short": "é demasiado curto (o mínimo é %{count} caracteres)",
+      "too_long": "é demasiado longo (o máximo é %{count} caracteres)",
+      "password_mismatch": "deve ser idêntico à palavra-passe indicada",
+      "contains_spaces": "começa ou termina com espaços.",
+      "invalid_for_country": "não é válido para %{country}",
+      "invalid_for_country_and_province": "não é válido para %{province} e %{country}",
+      "invalid_province_in_country": "não é uma província válida em %{country}",
+      "less_than_or_equal_to": "deve ser menor ou igual a %{count}",
+      "full_name_required": "Preencha um nome e apelido",
+      "invalid_for_card_type": "é inválido",
+      "invalid_format": "formato inválido",
+      "expired": "expirou",
+      "invalid_start_date_or_issue_number_for_debit": "data de início válida ou número de emissão válido exigido",
+      "invalid_expiry_year": "não é um ano de validade válido",
+      "reset_password_html": "Este endereço de correio eletrónico já está associado a uma conta. Se esta conta for sua, pode <a href=\"/account/login#recover\">repor a sua palavra-passe</a>",
+      "verify_email": "Enviámos um e-mail para %{customer_email}. Por favor, clique no link anexado para verificar o seu endereço de e-mail.",
+      "product_not_available": "produto não está publicado para este cliente.",
+      "shop_404": {
+        "title": "Crie um site de comércio eletrónico e venda os seus produtos online! Software de comércio eletrónico da Shopify",
+        "heros": {
+          "store_unavailable": "Esta loja não está disponível neste momento.",
+          "no_storefront": "Esta loja ainda não tem um sítio na internet."
+        },
+        "links": {
+          "explore_other_stores": "Explorar outras lojas",
+          "start_free_trial": "Experimentar gratuitamente"
+        },
+        "owner_ctas": {
+          "header": "És o proprietário da loja?",
+          "fix_domain": "Vá a %{domain_settings_link} e conclua a configuração do seu novo endereço web. Clique em 'Ligar domínio' e escreva: %{domain}.<br>Se não conseguir aceder à sua loja, experimente %{forgot_your_store_link}",
+          "fix_domain_link_text": "as definições do seu domínio",
+          "forgot_your_store_link_text": "Esqueceu-se da sua loja?",
+          "add_storefront": "Podes configurar o teu website adicionando o canal da loja online em %{admin_link}. Se não conseguires aceder à tua loja, tenta %{forgot_your_store_link}",
+          "admin_link_text": "centro de gestão"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Venda pessoal",
+            "caption": "Obtenha as funcionalidades de que precisa para gerir a sua loja de retalho, quer esteja a começar agora ou a expandir-se.",
+            "link_text": "Iniciar versão experimental gratuita"
+          },
+          "open_a_store": {
+            "caption": "Comece uma versão experimental gratuita de três dias e depois continue por três meses por 1 USD por mês.",
+            "link_text": "Inscreve-te agora"
+          },
+          "editions": {
+            "header": "Ver edições do Shopify",
+            "caption": "Existem mais de 100 atualizações de produto que te permitem ser mais produtivo, criativo e eficaz no mundo comercial do que alguma vez imaginaste ser possível."
+          },
+          "store_owner": {
+            "header": "És o proprietário da loja?",
+            "caption": "Não consegue aceder à sua loja? Experimente a função %{forgot_your_store_link}. Se quiser reativar a sua loja, contacte %{shopify_support_link}.",
+            "shopify_support_link_text": "Apoio Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Erro ao repor a palavra-passe",
+        "no_account_found": "Nenhuma conta encontrada com esse endereço de correio eletrónico.",
+        "invalid_credentials": "E-mail ou palavra-passe incorreta.",
+        "denylisted_reset_password": "A sua conta não pode ser aberta porque a palavra-passe atual não é segura. Irá receber um correio eletrónico para repor a sua palavra-passe.",
+        "signup_disabled": "A criação de contas de cliente está desativada.",
+        "subscribe_error": "Erro ao subscrever",
+        "unsubscribe_error": "Erro ao sair"
+      },
+      "address": {
+        "updated": "Endereço atualizado.",
+        "error_updating": "Erro ao atualizar o endereço",
+        "created": "Endereço criado",
+        "error_creating": "Erro ao criar endereço.",
+        "deleted": "Endereço removido"
+      }
     }
   }
 }
