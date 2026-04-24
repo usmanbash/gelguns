@@ -2571,7 +2571,95 @@
       },
       "local_pickup": {
         "location_information": {
-          "one": "V blízkosti je %{count} miesto s dostupným skladom"
+          "one": "V blízkosti je %{count} miesto s dostupným skladom",
+          "other": "V blízkosti je %{count} skladových miest"
+        },
+        "toggle_location": "Zmeniť miesto",
+        "or": "ZAPNUTÉ",
+        "your_location": "tvoja lokalita",
+        "search_button": "Hľadať obchody",
+        "could_not_resolve_address": "Nemôžeme nájsť vašu adresu. Skúste to znova alebo použite inú adresu",
+        "paginator": {
+          "accessibility_label": "Stránkovanie pre vyzdvihnutie na mieste",
+          "next": "Ďalšia stránka",
+          "label": {
+            "one": "%{first} - %{last} z %{count} obchodov",
+            "other": "%{first} - %{last} z %{count} obchodov"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Zobraziť ešte %{count} lokalitu",
+          "other": "Zobraziť ešte %{count} lokalít"
+        },
+        "all_stores_far_away": {
+          "title": "Najbližšie miesta sa nachádzajú vo vzdialenosti viac ako %{distance}",
+          "ship_to_address_link": "dodacia adresa",
+          "title_with_specific_location": "Najbližšia lokalita s vaším artiklom sa nachádza viac ako %{distance} od %{location}.",
+          "title_with_item": {
+            "one": "Najbližšia lokalita s vaším artiklom sa nachádza viac ako %{distance} od %{location}.",
+            "other": "Najbližšia lokalita s tvojimi položkami sa nachádza viac ako %{distance} od %{location}."
+          }
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Vaša predtým vybraná lokalita už nie je dostupná",
+          "description": "Vyberte novú lokalitu alebo %{ship_to_address_link}",
+          "ship_to_address_link": "Odoslať na adresu"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Odošli svoje položky",
+          "search_elsewhere": "hľadaj niekde inde",
+          "ship_items_or_search_elsewhere": "%{ship_items} z %{search_elsewhere}"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} adresy",
+        "location_closest": "Najbližšie miesto s tvojím artiklom",
+        "toggle_multiple_locations": "Ešte viac ako %{count} ďalších miest",
+        "location_information_far_away": {
+          "one": "Je %{count} miesto s tvojím artiklom",
+          "other": "Existuje %{count} miest s tvojím artiklom"
+        },
+        "location_nearby": {
+          "one": "V blízkosti sa nachádza %{count} miesto s tvojím artiklom",
+          "other": "V blízkosti sa nachádza %{count} miest s tvojím artiklom"
+        },
+        "location_nearby_short": {
+          "one": "%{count} lokalít v blízkosti s vaším artiklom",
+          "other": "%{count} miest v blízkosti s vaším artiklom"
+        },
+        "location_far_away": {
+          "one": "%{count} lokalít s vaším artiklom",
+          "other": "%{count} miest s vaším artiklom"
+        },
+        "toggle_more_locations": {
+          "one": "Nie %{count} iné miesto",
+          "other": "Nog %{count} iné lokality"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Žiadne lokality s tvojím artiklom",
+          "other": "Žiadne lokality s tvojimi položkami"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Žiadne lokality v %{country} s tvojím artiklom",
+          "other": "Žiadne lokality v %{country} s tvojimi položkami"
+        },
+        "title": "Poloha"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Vyzdvihnúť všetky položky",
+        "items_for_pickup": "Predmety na vyzdvihnutie",
+        "delivery_method": "Rozdelená metóda doručenia",
+        "delivery_method_menu": "Menu rozdelená metóda doručenia",
+        "inventory_issue_banner": {
+          "remove_items_or_ship": "%{remove_items_link} z %{ship_separately_link}",
+          "remove_items_or_pickup": "%{remove_items_link} z %{pickup_in_store_link}",
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nepodarilo sa načítať %{count} položiek",
+              "other": "Nie je možné načítať %{count} položiek"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} položiek nemožno odoslať"
+            }
+          }
         }
       }
     }
