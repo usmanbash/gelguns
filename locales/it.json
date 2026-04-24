@@ -3914,7 +3914,83 @@
         "errors": {
           "generic": "Si è verificato un problema con Google Pay. Riprova o usa un altro metodo di pagamento.",
           "missing_billing_address": "Per Google Pay è necessario un indirizzo di fatturazione. Aggiungine uno nel tuo account."
+        },
+        "loading": "Carica Google Pay",
+        "iframe_title_accessibility_label": "Aggiungi metodo di pagamento Google Pay",
+        "loading_accessibility_message": "Carica Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Carica Apple Pay",
+        "errors": {
+          "generic": "Si è verificato un problema con Apple Pay. Riprova oppure usa un altro metodo di pagamento.",
+          "missing_billing_address": "Per Apple Pay è necessario un indirizzo di fatturazione. Aggiungine uno nel tuo account."
         }
+      },
+      "add_payment_method_banner": "Aggiungi metodo di pagamento per un pagamento più rapido e servizi per l'autorizzazione anticipata",
+      "expiration_warning_button_accessibility_label": "Mostra avviso di gestione per {{paymentMethodName}} che termina con {{lastDigits}}",
+      "default": "Standard",
+      "store_credit": {
+        "label": "Credito negozio",
+        "accesibility_label": "Credito negozio - {{formattedBalance}}",
+        "expirable_amounts_button": "Visualizza gli importi che scadranno",
+        "details_modal": {
+          "title": "Credito negozio in scadenza",
+          "expirable_balance_info": "Una parte del saldo scade in una data futura.",
+          "expirable_amount_label": "Importo totale che verrà annullato",
+          "expirable_amounts_info": "Gli importi scaduti in precedenza vengono applicati per primi al momento del pagamento.",
+          "expired_amounts_button": "Visualizza importi scaduti",
+          "pagination": {
+            "load_more_label": "Carica di più",
+            "load_more_accessibility_label": "Caricare altri importi in scadenza"
+          },
+          "events": {
+            "adjustment": "Adattamento",
+            "order_payment": "Pagamento dell'ordine",
+            "order_refund": "Rimborso dell'ordine",
+            "payment_failure": "Pagamento non riuscito",
+            "payment_returned": "Pagamento rimborsato",
+            "order_cancellation": "Annullamento dell'ordine",
+            "tax_finalization": "Chiusura fiscale"
+          }
+        },
+        "expirable_amounts_label": "Importi scaduti"
+      },
+      "three_d_secure": {
+        "title": "3D Sicuro",
+        "verification_failed": "Il tuo pagamento non può essere verificato. Riprova oppure usa un altro metodo di pagamento."
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Aggiungi metodo di pagamento PayPal",
+        "loading_accessibility_message": "Carica PayPal",
+        "errors": {
+          "generic": "Si è verificato un problema con PayPal. Riprova oppure usa un altro metodo di pagamento."
+        }
+      },
+      "card_update_consent_subscriptions": "Questo metodo di pagamento viene salvato per acquisti futuri e può essere utilizzato per ogni acquisto ricorrente o differito.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Aggiungendo un metodo di pagamento puoi autorizzare che, fino a quando non annulli, vengano addebitati costi sulla tua carta o che per acquisti futuri che approvi vengano effettuati prelievi dal tuo conto bancario."
+      },
+      "replacement_payment_method_title": "Metodi di pagamento alternativi",
+      "bank_account": {
+        "loading_accessibility_message": "Pulsante per conto bancario in caricamento",
+        "iframe_title_accessibility_label": "Impostazione del conto bancario"
+      },
+      "update_payment_method": {
+        "disclaimer": "Questo metodo di pagamento viene salvato per acquisti futuri e può essere utilizzato per ogni acquisto ricorrente o differito.",
+        "loading_form_accessibility_message": "Modulo per aggiornare il metodo di pagamento in caricamento",
+        "loading_current_payment_method": "Metodo di pagamento attuale in caricamento",
+        "loading_digital_wallets": "Opzioni per il portafoglio digitale in caricamento",
+        "loading_card_fields": "Campi della carta di credito in caricamento",
+        "pre_orders_title": "Prossimo",
+        "pre_orders_list_accessibility_label": "Elenco dei prodotti con ordine in corso",
+        "resources_list_accessibility_label": "Prodotti in abbonamento e prodotti con un ordine in corso che utilizzano questo metodo di pagamento",
+        "resources_card_scroll": "Scorri per altri articoli",
+        "resources_card_show_less": "Mostra meno",
+        "loading_resources": "Caricamento abbonamenti e ordini in arrivo"
+      },
+      "link_expired": {
+        "message": "Questo link per aggiornare il tuo metodo di pagamento è scaduto.",
+        "return_home_button": "Torna alla pagina principale"
       }
     }
   }
