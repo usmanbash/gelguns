@@ -4038,10 +4038,80 @@
           },
           "expirable_amounts_button": "Katso",
           "events": {
-            "adjustment": "Muutos"
+            "adjustment": "Muutos",
+            "order_payment": "Tilausmaksu",
+            "order_refund": "Tilausmaksun palautus",
+            "payment_failure": "Epäonnistunut maksu",
+            "order_cancellation": "Tilauksen peruutus",
+            "tax_finalization": "Verotuksen loppuun saattaminen"
           }
-        }
+        },
+        "expirable_amounts_label": "Vanhenneet summat"
+      },
+      "three_d_secure": {
+        "title": "3D-turva",
+        "verification_failed": "Maksuasi ei voida vahvistaa. Yritä uudelleen tai käytä toista maksutapaa."
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Lataa PayPalilla"
+      },
+      "card_update_consent_subscriptions": "Tämä maksutapa tallennetaan tulevia ostoksia varten, ja sitä voidaan käyttää kaikissa toistuvissa tai viivästetyissä ostoissa.",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Lisäämällä maksutavan voit valtuuttaa, että kortiltasi veloitetaan maksuja, kunnes peruutat valtuutuksen, tai että tulevista hyväksymistäsi ostoksista veloitetaan rahaa pankkitililtäsi."
+      },
+      "replacement_payment_method_title": "Vaihtoehtoiset maksutavat",
+      "bank_account": {
+        "loading_accessibility_message": "Pankkitilin painike latautuu",
+        "iframe_title_accessibility_label": "Pankkitilin asetus",
+        "generic_error": "Tilin lisääminen ei onnistu. Yritä myöhemmin uudelleen."
+      },
+      "update_payment_method": {
+        "title": "Maksutavan päivittäminen",
+        "disclaimer": "Tämä maksutapa tallennetaan tulevia ostoksia varten, ja sitä voidaan käyttää kaikissa toistuvissa tai viivästetyissä ostoissa.",
+        "error_message": "Kanavaa maksutapaa ei voi päivittää",
+        "loading_form_accessibility_message": "Maksutavan päivityslomake latautuu",
+        "loading_current_payment_method": "Nykyinen maksutapa ladataan",
+        "loading_digital_wallets": "Digitaalisen lompakon valinnat latautuvat",
+        "loading_card_fields": "Luottokorttikentät latautuvat",
+        "subscriptions_title": "Tilaukset",
+        "subscriptions_list_accessibility_label": "Luettelo tilauspalveluista",
+        "pre_orders_title": "Tuleva",
+        "pre_orders_list_accessibility_label": "Luettelo tuotteista, joilla on käynnissä oleva tilaus",
+        "resources_list_accessibility_label": "Tilaustuotteet ja tuotteet, joilla on käynnissä oleva tilaus ja jotka käyttävät tätä maksutapaa",
+        "resources_card_scroll": "Selaa nähdäksesi lisää artikkeleita",
+        "loading_resources": "Tilausten ja tulevien tilausten lataaminen"
+      },
+      "link_expired": {
+        "message": "Tämä linkki maksutapasi päivittämiseen on vanhentunut.",
+        "return_home_button": "Takaisin kotisivulle",
+        "update_message": "Tämä linkki maksutapasi päivittämiseen on vanhentunut.",
+        "add_message": "Tämä linkki maksutavan lisäämiseen on vanhentunut."
+      },
+      "update_success": {
+        "done_button": "Jatka ostosten tekemistä"
+      },
+      "additional_payment_methods": "Lisämaksutavat",
+      "add_success": {
+        "done_button": "Jatka ostosten tekemistä"
       }
+    },
+    "payment_method_brands": {
+      "shoppay": "Osta Paylla",
+      "applepay": "Apple Pay -maksu",
+      "googlepay": "Google-maksu",
+      "discover": "Tutustu",
+      "elo": "Elämä",
+      "maestro": "Mestari",
+      "forbrugsforeningen": "Kulutusyhdistys",
+      "dankort": "Kiitoskortti",
+      "hipercard": "Hiperkortti",
+      "unionpay": "Union Pay",
+      "storecredit": "Ostohyvitys",
+      "bogus": "Väärennös"
+    },
+    "enable_javascript": "Ota JavaScript käyttöön selaimesi asetuksissa tai kirjaudu sisään toisella selaimella nähdäksesi tilisi.",
+    "ui_components": {
+      "processing": "Käsitellään..."
     }
   }
 }

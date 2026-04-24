@@ -389,11 +389,11 @@
       "total_items": "Ukupan broj članaka",
       "remove_all_items_confirmation": "Želite li ukloniti svih {{ quantity }} artikala iz vaše košarice?",
       "remove_all": "Izbriši sve",
-      "cancel": "Odustani",
-      "remove_all_single_item_confirmation": "Želite li ukloniti 1 artikl iz košarice?",
-      "min_error": "Minimum za ovaj artikl iznosi {{ min }}",
-      "max_error": "Maksimum za ovaj artikl iznosi {{ max }}",
-      "step_error": "Ovaj artikl možete dodavati samo u rasponima povećanja od {{ step }}"
+      "cancel": "Otkaži",
+      "remove_all_single_item_confirmation": "Želite li ukloniti 1 artikl iz svoje košarice?",
+      "min_error": "Za ovaj artikal vrijedi minimalno {{ min }}.",
+      "max_error": "Za ovaj artikal vrijedi maksimalno {{ max }}.",
+      "step_error": "Ovaj artikl možete dodati samo u koracima od {{ step }}"
     }
   },
   "localization": {

@@ -1219,7 +1219,79 @@
           },
           "max_cycles_base_shipping_delivery_not_included": {
             "other": "%{count} livraisons supplémentaires pour %{shipping_price} par livraison"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}",
+            "other": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} pour encore %{count} livraison supplémentaire",
+            "other": "%{shipping_price} pour encore %{count} livraisons supplémentaires (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} pour %{count} livraison"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} pour encore %{count} livraisons supplémentaires (%{per_delivery_cost}), puis %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} pour %{count} livraison, puis %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} pour %{count} livraisons (%{per_delivery_cost}), puis %{recurring_order_shipping_price}"
           }
+        },
+        "estimated_delivery_time": "Livraison prévue %{time}",
+        "estimated_delivery_time_range": "Livraison prévue entre %{min_time} et %{max_time}",
+        "arrives_time": "Livré dans %{time}",
+        "arrives_time_range": "Livré entre %{min_time} et %{max_time}",
+        "estimated_time": "Attendu dans %{time}",
+        "estimated_time_range": "Attendu entre %{min_time} et %{max_time}",
+        "subscription_local_delivery": "Abonnement livraison locale",
+        "subscription_pickup": "Abonnement collecte",
+        "delivery_today": "Livraison le jour même avant %{time}",
+        "delivery_tomorrow": "Livraison le lendemain avant %{time}",
+        "two_day_delivery": "Livraison en 2 jours avant %{time}",
+        "delivery": "Livraison dans %{time}",
+        "duties_and_taxes_title": "Droits de douane et taxes",
+        "shipping_information_required_notice": "Les informations d'expédition sont obligatoires. {{link}}.",
+        "loading_progressive_rates": "Rechercher plus de tarifs...",
+        "no_other_methods_available": "Aucune autre méthode disponible",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Des frais supplémentaires peuvent s'appliquer",
+          "ddp_caption": "Pas de frais supplémentaires à la livraison"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} en %{current}"
+        },
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
+        "address_update": "Mettre à jour l'adresse",
+        "shipping_address_title": "Envoyer à",
+        "add_address": "Utilisez une autre adresse",
+        "add_delivery_instructions": "Ajouter des instructions de livraison",
+        "address_more": "Plus d'offres pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?",
+        "address_form": {
+          "generic_error": "Un problème est survenu lors de l'enregistrement de votre adresse. Veuillez réessayer.",
+          "one_time_address_subtitle": "Utiliser une adresse unique pour cette commande",
+          "edit": "Modifier l'adresse"
+        },
+        "different_shipping_method_summary": "Saisissez une autre adresse de livraison pour voir les méthodes d'expédition disponibles",
+        "invalid_shipping_method_summary": "Saisissez une adresse de livraison valide pour voir les modes d'expédition disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Saisissez une adresse de livraison complète pour voir les méthodes d'expédition disponibles",
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour voir les méthodes d'expédition disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Chercher une adresse",
+          "rollup_title": "Lieu de retrait",
+          "rollup_accessibility_label": "Options pour le lieu de retrait"
+        },
+        "missing_shipping_address": "Adresse de livraison manquante",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Première livraison",
+          "other": "Premières livraisons"
         }
       }
     }
