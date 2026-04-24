@@ -3504,7 +3504,83 @@
           "view_order_details": "Zobrazit údaje o objednávce"
         },
         "show_order_actions_accessibility_label": "Zobrazit akční nabídky pro objednávku {{name}}",
-        "empty_state_title_for_pending_orders": "Žádné objednávky v řešení"
+        "empty_state_title_for_pending_orders": "Žádné objednávky v řešení",
+        "more_than_four_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} plus dalších {{numberOfAdditionalProducts}} produktů",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktů",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Zobrazit objednávku pro údaje o výrobku",
+            "estimated_delivery": "Očekává se {{date}}",
+            "last_updated": "Naposledy aktualizováno dne {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Objednávka obsahuje {{lineItemName1}}, {{lineItemName2}} a dále {{numberOfAdditionalProducts}} produktů",
+        "filter_title": "Filtr",
+        "filter": {
+          "clear_all": "Vědět všechno",
+          "date": {
+            "end_date": "Konečný termín",
+            "last_7_days": "Posledních 7 dní",
+            "last_30_days": "Posledních 30 dní",
+            "custom": "Upraveno"
+          }
+        },
+        "no_order_banner": "Vytvořte objednávku, abyste mohli rozšíření otestovat na stránce Stav objednávky.",
+        "location_filter_picker": {
+          "current_location": "Aktuální místo"
+        }
+      },
+      "order_status": {
+        "come_back": "Vraťte se na tuto stránku pro aktuální informace o stavu vaší zásilky.",
+        "company_tracking_number": "{{company}}-sledovací číslo:",
+        "confirmed_title": "Vaše objednávka byla potvrzena",
+        "delivered_label": "Znepokojený",
+        "estimated_delivery": "Očekává se {{date}}",
+        "in_review_label": "K posouzení",
+        "in_review_title": "Vaše objednávka je v posouzení",
+        "no_tracking_number": "Pro tuto zásilku není k dispozici žádné sledovací číslo.",
+        "out_for_delivery_label": "Připraveno k doručení",
+        "resume_tracking": "Pokračovat později",
+        "submitted_label": "Podáno",
+        "track_shipment": "Sledování zásilky",
+        "request_return": "Žádost o vrácení zboží",
+        "preparing_for_shipping_label": "Příprava odeslání probíhá",
+        "ready_for_pickup_description": "Tyto položky jsou připraveny k vyzvednutí. Přineste si s sebou potvrzení objednávky, když si objednávku vyzvednete.",
+        "picked_up_label": "Vyzdviženo",
+        "submitted_description": "Zkontrolujte objednávku a platební údaje.",
+        "last_updated": "Naposledy aktualizováno dne {{date}}",
+        "view_order_for_details": "Zobrazit objednávku pro údaje o výrobku",
+        "confirmed_description_digital": "Dostanete e-mail, až bude vaše objednávka připravena.",
+        "delivered_description_gift_card": {
+          "one": "Dárkový poukaz byl odeslán e-mailem.",
+          "other": "Dárkové poukazy byly odeslány e-mailem."
+        },
+        "gift_card_label": {
+          "one": "Dárkový poukaz",
+          "other": "Dárkové poukazy"
+        },
+        "ready_for_pickup_location": "Vaše objednávka je připravena k vyzvednutí na místě",
+        "confirmed_description_pickup": "Dostanete e-mail, až si budete moci vyzvednout svou objednávku.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Dárkový poukaz bude zaslán v samostatném e-mailu.",
+          "other": "Každý dárkový poukaz bude zaslán v samostatném e-mailu."
+        },
+        "confirmed_description_gift_card_text": "Obdržíte SMS, až bude objednávka připravena.",
+        "delivered_description_gift_card_text": {
+          "one": "Dárkový poukaz byl odeslán prostřednictvím sms.",
+          "other": "Dárkové poukazy byly odeslány prostřednictvím SMS."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Dárkový poukaz bude zaslán v samostatné textové zprávě.",
+          "other": "Každý dárkový poukaz je zaslán zvláštní textovou zprávou."
+        },
+        "gift_resend_success": {
+          "one": "Dárkový poukaz znovu odeslán",
+          "other": "Dárkové poukazy znovu odeslány"
+        },
+        "gift_resend_failure": {
+          "one": "Při opětovném odesílání vašeho dárkového poukazu došlo k problému. Zkuste to znovu nebo nás kontaktujte."
+        }
       }
     }
   }

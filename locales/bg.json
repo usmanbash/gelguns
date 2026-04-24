@@ -3690,8 +3690,78 @@
       "loading": "Зареждане на данни за поръчката",
       "loading_finished_accessibility_message": "Данните за поръчката са заредени",
       "payment": {
-        "status_in_review": "Плащане дължимо след преглед"
-      }
+        "status_in_review": "Плащане дължимо след преглед",
+        "status_unpaid": "Плащане дължимо на {{date}}",
+        "card_payment_details": "завършващ на {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Платено с разсрочени плащания Shop Pay",
+          "view_schedule": "Преглед на плана"
+        },
+        "gift_card_payment_details": "завършващ на {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Пощенски превод - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Наложен платеж - {{formattedTransactionAmount}}",
+          "bank_deposit": "Банков депозит - {{formattedTransactionAmount}}",
+          "manual": "Ръчно - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Кредит в магазина - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Покажи всичко",
+          "details": "Данни",
+          "payment_details": "Платежни данни"
+        },
+        "emv_details": {
+          "auth": "АВТОР:",
+          "aid": "ИД:",
+          "source": "Преведете на български.\nПредпочитайте международно признати заемки, когато са често използвани сред носителите на български език; в противен случай използвайте най-ясния роден еквивалент.\nЗа етикети с призив за действие, съдържащи глаголи (например Купи, Поръчай, Виж), използвайте родни български глаголни форми; не запазвайте английски глаголи, освен ако не са изрично посочени в речника.\nИзточникът може да съдържа имена на марки, модели, акроними, идентификатори или текст, вече на български."
+        },
+        "payment_type": {
+          "gift_card": "Подаръчен ваучер",
+          "store_credit": "Кредит в магазина",
+          "money_order": "Пощенски превод",
+          "cash_on_delivery": "Наложен платеж",
+          "bank_deposit": "Банков превод"
+        }
+      },
+      "shipping": {
+        "method": "Метод на доставка",
+        "subscription": "Изпращане по абонамент"
+      },
+      "show_items": "Показване на артикули",
+      "summary_list_title_accessibility_label": "Поръчване на артикули",
+      "summary_title": "Обзор на поръчката",
+      "summary_totals_title_accessibility_label": "Обща поръчка",
+      "total": "Общо",
+      "not_applicable": "н.д.",
+      "fully_refunded_label": "ВЪЗСТАНОВЕНО ПЛАЩАНЕ",
+      "partially_refunded_label": "ЧАСТИЧНО ВЪЗСТАНОВЕНО",
+      "refunded_amount": "Върнато плащане",
+      "pagination": {
+        "load_more": "Зареди още",
+        "load_more_accessibility_label": "Зареди още артикули"
+      },
+      "returns": {
+        "expand_events_label": "Показване на данни",
+        "hide_events_label": "Скриване на данни",
+        "print_shipping_label": "Отпечатване на етикет за изпращане",
+        "return_and_refund_modal_header": "Политика за възстановяване на суми",
+        "ineligible_return_message": "Няма артикули в тази поръчка, които да подлежат на връщане.",
+        "ineligible_return_message_when_returned": "В тази поръчка няма повече артикули, които могат да бъдат върнати.",
+        "exchange_header": "Стоки за връщане",
+        "exchange_subheader": "Стоките за замяна ще бъдат добавени към поръчката веднага след като връщането бъде завършено."
+      },
+      "request_return_failed": "Възникна проблем при обработката на вашата заявка. Моля, опитайте отново.",
+      "mobile_summary_toggle_button": {
+        "open": "Показване на обобщение на поръчката"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Показване на данни",
+        "expand_events_accessibility_label": "Показване на данни за доставка на поръчката",
+        "hide_events_label": "Скриване на данни",
+        "hide_events_accessibility_label": "Скриване на данни за доставка на поръчката"
+      },
+      "show_order_summary": "Показване на обобщение на поръчката",
+      "company": "Фирма"
     }
   }
 }
