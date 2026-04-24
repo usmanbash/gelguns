@@ -1929,7 +1929,77 @@
         "delivered_local_description_html": "Nu ai primit încă comanda? %{let_us_know}.",
         "let_us_know": "Anunță-ne",
         "qr_code": {
-          "title": "Urmărește pe telefonul tău"
+          "title": "Urmărește pe telefonul tău",
+          "send_link_to_phone": "Sau trimite un link către telefonul tău"
+        },
+        "gift_card_confirmation_by_text": "Dacă nu ați primit acest mesaj, cereți să fie trimis din nou prin SMS sau contactați-ne.",
+        "gift_card_confirmation_by_email": "Dacă nu ați primit acest lucru, cereți să se trimită din nou e-mailul sau contactați-ne.",
+        "gift_card_title": "Vouchere cadou",
+        "resend_gift_cards": "Retrimitere bonuri cadou",
+        "attempted_delivery_local_title": "Livrare ratată",
+        "attempted_delivery_local_description_html": "Din păcate, nu am putut livra comanda ta. %{contact_us} pentru a programa o altă livrare.",
+        "thank_you_title_payment": "Plata ta a fost confirmată",
+        "thank_you_confirmed_order_with_email_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Ai efectuat o plată pentru comanda ta din %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scanează cu telefonul tău"
+          },
+          "sms": {
+            "title": "Sau trimite un link către telefonul tău"
+          }
+        },
+        "estimated_delivery": "Estimare actuală a livrării:",
+        "view_business_customer_account": "Vizualizare cont",
+        "thank_you_title_review": "Comanda ta a fost trimisă spre evaluare",
+        "thank_you_confirmed_order_with_draft": "Îți vom comunica dacă avem nevoie de mai multe informații sau când comanda ta este confirmată.",
+        "breadcrumbs_submitted": "Depus",
+        "breadcrumbs_in_review": "Pentru evaluare",
+        "breadcrumbs_confirmed": "Confirmat",
+        "missing_shipping_address_banner": {
+          "title": "Comanda nu are adresă de livrare",
+          "text_html": "%{contact_us} pentru a adăuga adresa ta",
+          "contact_us": "Contactați-ne"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Adresează-te din nou vânzătorului.",
+        "order_status_confirmed_with_installments_payment_confirm": "În curând vei primi un e-mail de confirmare cu numărul comenzii tale și detaliile planului tău de plată în rate.",
+        "first_payment_complete": "Prima plată finalizată",
+        "in_store_purchase": "Achiziție în magazin",
+        "purchase_order_number_title": "Număr comandă %{purchase_order_number}",
+        "thank_you_ready_for_picked_up": "Comanda a fost ridicată de la %{address}.",
+        "ready_for_delivery": "Pregătit pentru livrare",
+        "order_updates_subscribe_to_email_notifications_failed": "Nu putem salva această adresă de e-mail pentru actualizări. Încercați din nou sau folosiți o altă adresă de e-mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Adresa de email pe care ai introdus-o există deja.",
+        "subscriptions_management": {
+          "description": "Continuă către contul tău pentru a-ți vedea și administra abonamentele.",
+          "button_label": "Gestionați abonamentul dvs."
+        },
+        "manage_order_label": "Gestionați comanda dvs.",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "În câteva minute vei primi un mesaj text cu bonul tău cadou.",
+          "other": "În câteva minute vei primi un mesaj text cu bonurile tale cadou."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "În câteva minute vei primi un mesaj text cu bonul tău cadou.",
+          "other": "În câteva minute vei primi un mesaj text cu bonurile tale cadou."
+        },
+        "gift_card_email_title": {
+          "one": "Cadeaubon a fost trimis prin e-mail",
+          "other": "Voucherele cadou au fost trimise prin e-mail"
+        },
+        "gift_card_text_title": {
+          "one": "Cadeaubon a fost trimis prin sms",
+          "other": "Voucherele cadou au fost trimise prin SMS"
+        },
+        "resend_gift_cards_by_email": "Retrimite e-mailul",
+        "resend_gift_cards_by_text": "Retrimite SMS-ul",
+        "gift_card_resent_confirmation": {
+          "one": "Cecul cadou a fost trimis din nou.",
+          "other": "Voucherele cadou au fost retrimise."
         }
       }
     }
