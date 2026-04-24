@@ -2108,7 +2108,71 @@
         "purchase_order_number_title": "Rendelési szám %{purchase_order_number}",
         "thank_you_ready_for_picked_up": "A rendelést átadták a %{address} címen.",
         "ready_for_delivery": "Kiszállításra kész",
-        "order_updates_subscribe_to_email_notifications_failed": "Nem tudjuk ezt az e-mail címet elmenteni a frissítésekhez. Próbálja meg újra, vagy használjon másik e-mail címet."
+        "order_updates_subscribe_to_email_notifications_failed": "Nem tudjuk ezt az e-mail címet elmenteni a frissítésekhez. Próbálja meg újra, vagy használjon másik e-mail címet.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "A megadott e-mail cím már létezik.",
+        "subscriptions_management": {
+          "description": "Lépj be a fiókodba, hogy megtekinthesd és kezeld előfizetéseidet."
+        },
+        "manage_order_label": "Rendelésed kezelése",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Néhány perc múlva kapsz egy rövid üzenetet az ajándékutalványoddal.",
+          "other": "Néhány perc múlva kapsz egy rövid üzenetet az ajándékutalványaiddal."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Néhány perc múlva kapsz egy rövid üzenetet az ajándékutalványoddal.",
+          "other": "Néhány perc múlva kapsz egy rövid üzenetet az ajándékutalványaiddal."
+        },
+        "gift_card_email_title": {
+          "one": "Az ajándékutalvány e-mailben elküldve",
+          "other": "Az ajándékutalványokat e-mailben küldtük el"
+        },
+        "gift_card_text_title": {
+          "one": "Az ajándékutalvány SMS-ben elküldve",
+          "other": "Az ajándékutalványokat SMS-ben küldtük el"
+        },
+        "resend_gift_cards_by_text": "Sms újraküldése",
+        "gift_card_resent_confirmation": {
+          "one": "Az ajándékutalvány újraküldve.",
+          "other": "Az ajándékutalványok újraküldve."
+        },
+        "gift_card_resend_failure": {
+          "one": "Probléma történt az ajándékutalvány újraküldése közben. Próbáld meg újra, vagy lépj kapcsolatba velünk.",
+          "other": "Probléma történt az ajándékkártyáid újraküldése közben. Próbáld meg újra, vagy lépj kapcsolatba velünk."
+        },
+        "failed_pending_payment_page_title": "Probléma adódott a fizetéseddel",
+        "thank_you_title_payments_app_pending_default": "A fizetés feldolgozás alatt áll",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Megkaptuk a rendelésedet",
+        "thank_you_title_payments_app_failed_pending_payment": "A fizetésed nem feldolgozható",
+        "thank_you_payments_app_failed_pending_payment": "A rendelésed még nincs kifizetve. Térj vissza a kosaradhoz, hogy ellenőrizd és kifizesd a rendelésed.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelésedet a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelésedet a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Hamarosan kapsz egy megerősítő üzenetet. A rendelésedet követheted a Bolt alkalmazáson keresztül.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelésedet a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelésedet a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "A fizetés befejezése után megerősítő sms-t kapsz. A rendelésedet követheted a Bolt alkalmazáson keresztül.",
+        "order_status_payments_app_failed_pending_payment": "A rendelésed még nincs kifizetve. Térj vissza a kosaradhoz, hogy ellenőrizd és kifizesd a rendelésed.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "thank_you_confirmed_order_with_missing_payment": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "thank_you_confirmed_order_with_draft_payment": "Értesítünk, ha további információra van szükségünk, vagy ha a rendelés megerősítésre került.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Értesítünk, ha további információra van szükségünk, vagy ha a rendelés megerősítésre került.",
+        "thank_you_payments_app_failed_pending_payment_payment": "A rendelés még nincs kifizetve. Térjen vissza a kosárhoz a rendelés ellenőrzéséhez és kifizetéséhez.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "A rendelés még nincs kifizetve. Térjen vissza a kosárhoz a rendelés ellenőrzéséhez és kifizetéséhez.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Hamarosan kapsz egy visszaigazoló e-mailt. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Hamarosan kapsz egy megerősítő sms-t. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Hamarosan kapsz egy megerősítő sms-t. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Vegye fel velünk a kapcsolatot e-mailben vagy telefonon a megrendelés visszaigazolásához.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "A fizetés befejezése után megerősítő e-mailt kapsz. A rendelést a Bolt alkalmazáson keresztül követheted nyomon."
       }
     }
   }
