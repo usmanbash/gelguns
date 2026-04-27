@@ -1568,30 +1568,30 @@
     ]
   },
   {
-    "name": "Product Specs Labels",
+    "name": "t:settings_schema.product_specs_labels.name",
     "settings": [
       {
         "type": "text",
         "id": "specs_label_power",
-        "label": "Power label",
+        "label": "t:settings_schema.product_specs_labels.settings.specs_label_power.label",
         "default": "Kracht"
       },
       {
         "type": "text",
         "id": "specs_label_speed",
-        "label": "Speed label",
+        "label": "t:settings_schema.product_specs_labels.settings.specs_label_speed.label",
         "default": "Snelheid"
       },
       {
         "type": "text",
         "id": "specs_label_precision",
-        "label": "Precision label",
+        "label": "t:settings_schema.product_specs_labels.settings.specs_label_precision.label",
         "default": "Precisie"
       },
       {
         "type": "text",
         "id": "specs_label_reach",
-        "label": "Reach label",
+        "label": "t:settings_schema.product_specs_labels.settings.specs_label_reach.label",
         "default": "Bereik"
       }
     ]
