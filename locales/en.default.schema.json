@@ -348,6 +348,23 @@
         }
       }
     },
+    "product_specs_labels": {
+      "name": "Product Specs Labels",
+      "settings": {
+        "specs_label_power": {
+          "label": "Power label"
+        },
+        "specs_label_speed": {
+          "label": "Speed label"
+        },
+        "specs_label_precision": {
+          "label": "Precision label"
+        },
+        "specs_label_reach": {
+          "label": "Reach label"
+        }
+      }
+    },
     "layout": {
       "name": "Layout",
       "settings": {
