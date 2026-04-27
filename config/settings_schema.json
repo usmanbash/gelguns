@@ -1566,5 +1566,34 @@
         "default": "Er is een fout opgetreden. Probeer het opnieuw."
       }
     ]
+  },
+  {
+    "name": "Product Specs Labels",
+    "settings": [
+      {
+        "type": "text",
+        "id": "specs_label_power",
+        "label": "Power label",
+        "default": "Kracht"
+      },
+      {
+        "type": "text",
+        "id": "specs_label_speed",
+        "label": "Speed label",
+        "default": "Snelheid"
+      },
+      {
+        "type": "text",
+        "id": "specs_label_precision",
+        "label": "Precision label",
+        "default": "Precisie"
+      },
+      {
+        "type": "text",
+        "id": "specs_label_reach",
+        "label": "Reach label",
+        "default": "Bereik"
+      }
+    ]
   }
 ]
