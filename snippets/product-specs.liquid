@@ -61,13 +61,18 @@
   assign speed_w = speed | times: 10
   assign precision_w = precision_score | times: 10
   assign reach_w = reach | times: 10
+
+  assign specs_label_power = settings.specs_label_power | default: 'Kracht'
+  assign specs_label_speed = settings.specs_label_speed | default: 'Snelheid'
+  assign specs_label_precision = settings.specs_label_precision | default: 'Precisie'
+  assign specs_label_reach = settings.specs_label_reach | default: 'Bereik'
 -%}
 {%- if show_specs -%}
   <div class="specs">
     <div class="bars">
       {%- if show_power -%}
         <div class="bar-text">
-          <span class="bar-name">Kracht:</span>
+          <span class="bar-name">{{ specs_label_power }}:</span>
           <span class="bar-score">{{ power }}</span>
         </div>
         <div class="container-bar">
@@ -77,7 +82,7 @@
 
       {%- if show_speed -%}
         <div class="bar-text">
-          <span class="bar-name">Snelheid:</span>
+          <span class="bar-name">{{ specs_label_speed }}:</span>
           <span class="bar-score">{{ speed }}</span>
         </div>
         <div class="container-bar">
@@ -87,7 +92,7 @@
 
       {%- if show_precision -%}
         <div class="bar-text">
-          <span class="bar-name">Precisie:</span>
+          <span class="bar-name">{{ specs_label_precision }}:</span>
           <span class="bar-score">{{ precision_score }}</span>
         </div>
         <div class="container-bar">
@@ -97,7 +102,7 @@
 
       {%- if show_reach -%}
         <div class="bar-text">
-          <span class="bar-name">Bereik:</span>
+          <span class="bar-name">{{ specs_label_reach }}:</span>
           <span class="bar-score">{{ reach }}</span>
         </div>
         <div class="container-bar">
