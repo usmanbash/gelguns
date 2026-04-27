@@ -114,6 +114,12 @@
     "collection_title": "The name of your collection"
   },
   "products": {
+    "specs": {
+      "power": "Power",
+      "speed": "Speed",
+      "precision": "Precision",
+      "reach": "Range"
+    },
     "product": {
       "inventory_out_of_stock_message": "In stock",
       "inventory_order_before": "front",

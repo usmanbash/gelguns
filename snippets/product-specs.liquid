@@ -62,10 +62,15 @@
   assign precision_w = precision_score | times: 10
   assign reach_w = reach | times: 10
 
-  assign specs_label_power = settings.specs_label_power | default: 'Kracht'
-  assign specs_label_speed = settings.specs_label_speed | default: 'Snelheid'
-  assign specs_label_precision = settings.specs_label_precision | default: 'Precisie'
-  assign specs_label_reach = settings.specs_label_reach | default: 'Bereik'
+  assign specs_label_power_default = 'products.specs.power' | t
+  assign specs_label_speed_default = 'products.specs.speed' | t
+  assign specs_label_precision_default = 'products.specs.precision' | t
+  assign specs_label_reach_default = 'products.specs.reach' | t
+
+  assign specs_label_power = settings.specs_label_power | default: specs_label_power_default
+  assign specs_label_speed = settings.specs_label_speed | default: specs_label_speed_default
+  assign specs_label_precision = settings.specs_label_precision | default: specs_label_precision_default
+  assign specs_label_reach = settings.specs_label_reach | default: specs_label_reach_default
 -%}
 {%- if show_specs -%}
   <div class="specs">

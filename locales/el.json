@@ -114,6 +114,12 @@
     "collection_title": "Το όνομα της συλλογής σου"
   },
   "products": {
+    "specs": {
+      "power": "Ισχύς",
+      "speed": "Ταχύτητα",
+      "precision": "Ακρίβεια",
+      "reach": "Εμβέλεια"
+    },
     "product": {
       "add_to_cart": "Προσθήκη στο καλάθι αγορών",
       "description": "Περιγραφή",
