@@ -38,7 +38,7 @@
         "inventory_status_4efXF8": {
           "type": "inventory_status",
           "settings": {
-            "inventory_threshold": 10,
+            "inventory_threshold": 5,
             "in_stock_badge": "Op voorraad",
             "in_stock_message": "voor 14:00 besteld, morgen in huis",
             "low_stock_badge": "Voorraad laag",
