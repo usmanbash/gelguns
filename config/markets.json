@@ -17,6 +17,9 @@
     },
     "european-union": {
       "parent": "@default"
+    },
+    "italy": {
+      "parent": "@default"
     }
   }
 }
