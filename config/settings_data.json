@@ -128,7 +128,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
-    "cart_enable_free_shipping_bar": false,
+    "cart_enable_free_shipping_bar": true,
     "cart_free_shipping_threshold": 30,
     "cart_free_shipping_message": "Add",
     "cart_free_shipping_message_suffix": "more for FREE shipping",
