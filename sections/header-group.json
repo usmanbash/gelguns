@@ -30,6 +30,7 @@
         },
         "announcement_TQAPme": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Gratis bezorging </strong>voor bestellingen vanaf <strong>€50,-</strong></p>",
             "link": ""
