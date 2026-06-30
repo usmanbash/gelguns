@@ -126,7 +126,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "cart_drawer_collection": "alle-gelblasters",
     "cart_color_scheme": "scheme-1",
     "cart_enable_free_shipping_bar": false,
     "cart_free_shipping_threshold": 30,
@@ -157,11 +157,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "169412249732273955": {
-        "type": "shopify://apps/intercom-ai-customer-service/blocks/widget/ef6552d6-43c7-4fc7-b903-fec510e74dee",
-        "disabled": false,
-        "settings": {}
-      },
       "2140405073069974119": {
         "type": "shopify://apps/t-lab-ai-language-translate/blocks/language_detection/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": true,
