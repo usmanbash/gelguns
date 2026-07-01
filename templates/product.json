@@ -212,6 +212,7 @@
         "featured_collection_R3WqKg",
         "featured_collection_hd4fWX"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-list-wrapper {border-top: solid 0.5px rgba(var(--color-foreground), 0.75); border-bottom: solid 0.5px rgba(var(--color-foreground), 0.75); margin-bottom: 60px;}"
       ],
