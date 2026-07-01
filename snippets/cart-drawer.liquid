@@ -552,7 +552,7 @@
         
         {%- comment -%} Get currency-specific threshold or use default {%- endcomment -%}
         {%- assign free_shipping_threshold = settings.cart_free_shipping_threshold | plus: 0 -%}
-        {%- assign thresholds_by_currency = settings.cart_free_shipping_thresholds_by_currency | strip -%}
+        {%- assign thresholds_by_currency = settings. | strip -%}
         {%- comment -%} Check if field has actual content (contains a colon, indicating valid entries) {%- endcomment -%}
         {%- if thresholds_by_currency != blank and thresholds_by_currency contains ':' -%}
           {%- assign currency_thresholds = thresholds_by_currency | newline_to_br | split: '<br />' -%}
